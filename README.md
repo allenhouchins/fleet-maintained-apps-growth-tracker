@@ -4,7 +4,7 @@ A standalone repository that tracks and visualizes the growth of Fleet-maintaine
 
 ## 🌐 View Live Dashboard
 
-👉 **[View Interactive Dashboard](./index.html)**
+👉 **[View Interactive Dashboard](https://allenhouchins.github.io/fleet-maintained-apps-growth-tracker/)**
 
 The dashboard provides real-time statistics, interactive charts, and detailed growth metrics.
 

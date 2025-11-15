@@ -129,7 +129,7 @@ func generateREADMEContent(data *readmeData) string {
 	sb.WriteString("and generates interactive visualizations.\n\n")
 
 	sb.WriteString("## 🌐 View Live Dashboard\n\n")
-	sb.WriteString("👉 **[View Interactive Dashboard](./index.html)**\n\n")
+	sb.WriteString("👉 **[View Interactive Dashboard](https://allenhouchins.github.io/fleet-maintained-apps-growth-tracker/)**\n\n")
 	sb.WriteString("The dashboard provides real-time statistics, interactive charts, and detailed growth metrics.\n\n")
 
 	// How it works
