@@ -13,30 +13,30 @@ jobs:
   update:
     runs-on: ubuntu-latest
     timeout-minutes: 15
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-      
+
       - name: Set up Go
         uses: actions/setup-go@v5
         with:
           go-version: '1.21'
-      
+
       - name: Generate data from fleetdm/fleet
         run: |
           go run main.go
-      
+
       - name: Generate HTML from CSV
         run: |
           go run generate_html.go
-      
+
       - name: Generate README with charts
         run: |
           go run generate_readme.go
-      
+
       - name: Check for changes
         id: verify-changed-files
         run: |
@@ -45,7 +45,7 @@ jobs:
           else
             echo "changed=false" >> $GITHUB_OUTPUT
           fi
-      
+
       - name: Commit and push changes
         if: steps.verify-changed-files.outputs.changed == 'true'
         run: |
@@ -54,4 +54,3 @@ jobs:
           git add data/apps_growth.csv index.html README.md
           git commit -m "Update growth data - $(date +'%Y-%m-%d %H:%M:%S UTC')"
           git push
-
