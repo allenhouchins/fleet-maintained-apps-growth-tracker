@@ -128,96 +128,9 @@ func generateREADMEContent(data *readmeData) string {
 	sb.WriteString("This project automatically pulls data from the [fleetdm/fleet](https://github.com/fleetdm/fleet) repository ")
 	sb.WriteString("and generates interactive visualizations.\n\n")
 
-	// Stats section
-	sb.WriteString("## 📊 Current Stats\n\n")
-	sb.WriteString("| Metric | Value |\n")
-	sb.WriteString("|--------|-------|\n")
-	sb.WriteString(fmt.Sprintf("| **Total Apps** | %d |\n", data.totalApps))
-	sb.WriteString(fmt.Sprintf("| **Apps Added Since Launch** | %d |\n", data.totalGrowth))
-	sb.WriteString(fmt.Sprintf("| **Days Tracked** | %d |\n", data.daysSpan))
-	sb.WriteString(fmt.Sprintf("| **Average Growth Rate** | %.1f apps/month |\n", data.avgPerMonth))
-	sb.WriteString(fmt.Sprintf("| **Growth Events** | %d |\n", data.growthEvents))
-	sb.WriteString(fmt.Sprintf("| **Date Range** | %s to %s |\n\n", data.firstDate, data.lastDate))
-
-	// Chart section - using Mermaid for GitHub compatibility
-	sb.WriteString("## 📈 Growth Chart\n\n")
-	sb.WriteString("### Cumulative Growth Over Time\n\n")
-	sb.WriteString("```mermaid\n")
-	sb.WriteString("xychart-beta\n")
-	sb.WriteString("    title \"Fleet Maintained Apps Growth\"\n")
-	sb.WriteString("    x-axis [")
-	
-	// Add month labels
-	months := []string{"Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov"}
-	for i, month := range months {
-		if i > 0 {
-			sb.WriteString(", ")
-		}
-		sb.WriteString(fmt.Sprintf("\"%s\"", month))
-	}
-	sb.WriteString("]\n")
-	sb.WriteString(fmt.Sprintf("    y-axis \"Number of Apps\" 0 --> %d\n", data.totalApps+10))
-	sb.WriteString("    line [")
-	
-	// Use actual milestone data points
-	milestoneCounts := make([]int, 0)
-	for _, m := range data.growthMilestones {
-		milestoneCounts = append(milestoneCounts, m.count)
-	}
-	
-	// Add key data points (use actual milestones)
-	for i, point := range milestoneCounts {
-		if i > 0 {
-			sb.WriteString(", ")
-		}
-		sb.WriteString(fmt.Sprintf("%d", point))
-	}
-	sb.WriteString("]\n")
-	sb.WriteString("```\n\n")
-	
-	// Also add a visual ASCII chart for better GitHub rendering
-	sb.WriteString("### Growth Timeline (ASCII Chart)\n\n")
-	sb.WriteString("```\n")
-	maxCount := data.totalApps
-	if maxCount == 0 {
-		maxCount = 1
-	}
-	scale := 50.0
-	for _, m := range data.growthMilestones {
-		barLength := int(float64(m.count) * scale / float64(maxCount))
-		if barLength < 1 {
-			barLength = 1
-		}
-		bar := strings.Repeat("█", barLength)
-		dateFormatted := formatDateForTable(m.date)
-		sb.WriteString(fmt.Sprintf("%-15s │%s %3d apps (+%2d)\n", dateFormatted, bar, m.count, m.added))
-	}
-	sb.WriteString("```\n\n")
-
-	// Growth milestones
-	sb.WriteString("### Recent Growth Milestones\n\n")
-	sb.WriteString("| Date | Apps Added | Total Apps |\n")
-	sb.WriteString("|------|------------|------------|\n")
-	
-	// Show last 10 milestones
-	start := len(data.growthMilestones) - 10
-	if start < 0 {
-		start = 0
-	}
-	for i := len(data.growthMilestones) - 1; i >= start; i-- {
-		m := data.growthMilestones[i]
-		dateFormatted := formatDateForTable(m.date)
-		sb.WriteString(fmt.Sprintf("| %s | +%d | %d |\n", dateFormatted, m.added, m.count))
-	}
-	sb.WriteString("\n")
-
-	// Features
-	sb.WriteString("## ✨ Features\n\n")
-	sb.WriteString("- 📊 **Interactive Charts**: View cumulative growth and additions per event\n")
-	sb.WriteString("- 📅 **Continuous Daily Tracking**: Not just commit days, but every day\n")
-	sb.WriteString("- 🔄 **Automatic Updates**: Daily updates at 12:00 PM UTC via GitHub Actions\n")
-	sb.WriteString("- 📈 **Historical Data**: Complete visualization across the entire year\n")
-	sb.WriteString("- 📱 **Responsive Design**: Works on desktop and mobile\n\n")
+	sb.WriteString("## 🌐 View Live Dashboard\n\n")
+	sb.WriteString("👉 **[View Interactive Dashboard](./index.html)**\n\n")
+	sb.WriteString("The dashboard provides real-time statistics, interactive charts, and detailed growth metrics.\n\n")
 
 	// How it works
 	sb.WriteString("## 🔧 How It Works\n\n")
@@ -225,10 +138,6 @@ func generateREADMEContent(data *readmeData) string {
 	sb.WriteString("2. **Data Processing**: The script generates a continuous daily CSV file with app counts\n")
 	sb.WriteString("3. **Visualization**: An HTML file with embedded Chart.js creates interactive charts\n")
 	sb.WriteString("4. **Automation**: GitHub Actions runs daily at 12:00 PM UTC to update the data\n\n")
-
-	// View live
-	sb.WriteString("## 🌐 View Live\n\n")
-	sb.WriteString("👉 **[View Interactive Dashboard](https://fleetdm.github.io/fleet-apps-growth-tracker/)**\n\n")
 
 	// Files
 	sb.WriteString("## 📁 Files\n\n")

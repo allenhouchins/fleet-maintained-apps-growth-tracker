@@ -224,7 +224,6 @@ func generateHTMLContent(data *csvData) string {
             const totalGrowth = data.counts[data.counts.length - 1] - data.counts[0];
             const daysSpan = Math.ceil((data.dates[data.dates.length - 1] - data.dates[0]) / (1000 * 60 * 60 * 24));
             const avgPerMonth = totalGrowth / (daysSpan / 30.44);
-            const growthEvents = data.growthDates.length;
             
             // Update last updated time
             document.getElementById('lastUpdated').textContent = new Date().toLocaleString();
@@ -246,10 +245,6 @@ func generateHTMLContent(data *csvData) string {
                 '<div class="stat-card">' +
                     '<div class="stat-value">' + avgPerMonth.toFixed(1) + '</div>' +
                     '<div class="stat-label">Apps Per Month</div>' +
-                '</div>' +
-                '<div class="stat-card">' +
-                    '<div class="stat-value">' + growthEvents + '</div>' +
-                    '<div class="stat-label">Growth Events</div>' +
                 '</div>';
             
             // Cumulative Growth Chart
@@ -267,17 +262,6 @@ func generateHTMLContent(data *csvData) string {
                         fill: true,
                         tension: 0,
                         stepped: 'after'
-                    }, {
-                        label: 'Growth Events',
-                        data: data.growthDates.map((date, i) => ({x: date, y: data.growthCounts[i]})),
-                        borderColor: '#10b981',
-                        backgroundColor: '#10b981',
-                        borderWidth: 0,
-                        pointRadius: 6,
-                        pointBackgroundColor: '#10b981',
-                        pointBorderColor: '#fff',
-                        pointBorderWidth: 2,
-                        showLine: false
                     }]
                 },
                 options: {
@@ -296,16 +280,10 @@ func generateHTMLContent(data *csvData) string {
                         tooltip: {
                             callbacks: {
                                 label: function(context) {
-                                    if (context.datasetIndex === 0) {
-                                        const idx = data.dates.findIndex(d => 
-                                            d.getTime() === context.raw.x.getTime());
-                                        const added = idx > 0 ? data.counts[idx] - data.counts[idx - 1] : data.counts[idx];
-                                        return 'Total: ' + context.parsed.y + ' apps' + (added > 0 ? ' (+' + added + ' added)' : '');
-                                    } else {
-                                        const idx = data.growthDates.findIndex(d => 
-                                            d.getTime() === context.raw.x.getTime());
-                                        return 'Growth: +' + data.growthAdditions[idx] + ' apps (total: ' + context.parsed.y + ')';
-                                    }
+                                    const idx = data.dates.findIndex(d => 
+                                        d.getTime() === context.raw.x.getTime());
+                                    const added = idx > 0 ? data.counts[idx] - data.counts[idx - 1] : data.counts[idx];
+                                    return 'Total: ' + context.parsed.y + ' apps' + (added > 0 ? ' (+' + added + ' added)' : '');
                                 }
                             }
                         }

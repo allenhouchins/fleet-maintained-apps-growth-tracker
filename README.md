@@ -2,67 +2,11 @@
 
 A standalone repository that tracks and visualizes the growth of Fleet-maintained applications over time. This project automatically pulls data from the [fleetdm/fleet](https://github.com/fleetdm/fleet) repository and generates interactive visualizations.
 
-## 📊 Current Stats
+## 🌐 View Live Dashboard
 
-| Metric | Value |
-|--------|-------|
-| **Total Apps** | 57 |
-| **Apps Added Since Launch** | 37 |
-| **Days Tracked** | 256 |
-| **Average Growth Rate** | 4.4 apps/month |
-| **Growth Events** | 11 |
-| **Date Range** | 2025-03-04 to 2025-11-15 |
+👉 **[View Interactive Dashboard](./index.html)**
 
-## 📈 Growth Chart
-
-### Cumulative Growth Over Time
-
-```mermaid
-xychart-beta
-    title "Fleet Maintained Apps Growth"
-    x-axis ["Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov"]
-    y-axis "Number of Apps" 0 --> 67
-    line [20, 21, 27, 35, 37, 38, 40, 41, 46, 48, 57]
-```
-
-### Growth Timeline (ASCII Chart)
-
-```
-Mar 4, 2025     │█████████████████  20 apps (+20)
-Mar 12, 2025    │██████████████████  21 apps (+ 1)
-Mar 21, 2025    │███████████████████████  27 apps (+ 6)
-Mar 27, 2025    │██████████████████████████████  35 apps (+ 8)
-Mar 28, 2025    │████████████████████████████████  37 apps (+ 2)
-Oct 24, 2025    │█████████████████████████████████  38 apps (+ 1)
-Nov 7, 2025     │███████████████████████████████████  40 apps (+ 2)
-Nov 8, 2025     │███████████████████████████████████  41 apps (+ 1)
-Nov 12, 2025    │████████████████████████████████████████  46 apps (+ 5)
-Nov 14, 2025    │██████████████████████████████████████████  48 apps (+ 2)
-Nov 15, 2025    │██████████████████████████████████████████████████  57 apps (+ 9)
-```
-
-### Recent Growth Milestones
-
-| Date | Apps Added | Total Apps |
-|------|------------|------------|
-| Nov 15, 2025 | +9 | 57 |
-| Nov 14, 2025 | +2 | 48 |
-| Nov 12, 2025 | +5 | 46 |
-| Nov 8, 2025 | +1 | 41 |
-| Nov 7, 2025 | +2 | 40 |
-| Oct 24, 2025 | +1 | 38 |
-| Mar 28, 2025 | +2 | 37 |
-| Mar 27, 2025 | +8 | 35 |
-| Mar 21, 2025 | +6 | 27 |
-| Mar 12, 2025 | +1 | 21 |
-
-## ✨ Features
-
-- 📊 **Interactive Charts**: View cumulative growth and additions per event
-- 📅 **Continuous Daily Tracking**: Not just commit days, but every day
-- 🔄 **Automatic Updates**: Daily updates at 12:00 PM UTC via GitHub Actions
-- 📈 **Historical Data**: Complete visualization across the entire year
-- 📱 **Responsive Design**: Works on desktop and mobile
+The dashboard provides real-time statistics, interactive charts, and detailed growth metrics.
 
 ## 🔧 How It Works
 
@@ -70,10 +14,6 @@ Nov 15, 2025    │████████████████████�
 2. **Data Processing**: The script generates a continuous daily CSV file with app counts
 3. **Visualization**: An HTML file with embedded Chart.js creates interactive charts
 4. **Automation**: GitHub Actions runs daily at 12:00 PM UTC to update the data
-
-## 🌐 View Live
-
-👉 **[View Interactive Dashboard](https://fleetdm.github.io/fleet-apps-growth-tracker/)**
 
 ## 📁 Files
 
