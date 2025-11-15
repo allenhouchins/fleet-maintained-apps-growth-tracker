@@ -1,13 +1,12 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
+# Go
+*.exe
+*.exe~
+*.dll
 *.so
-.Python
-env/
-venv/
-ENV/
-.venv
+*.dylib
+*.test
+*.out
+go.work
 
 # Temporary files
 /tmp/
@@ -24,7 +23,3 @@ ENV/
 # OS
 .DS_Store
 Thumbs.db
-
-# Temporary clone directory (will be recreated)
-/tmp/fleet-clone
-
