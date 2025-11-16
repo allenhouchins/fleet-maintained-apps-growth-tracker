@@ -13,6 +13,7 @@ const (
 	csvFile         = "data/apps_growth.csv"
 	outputHTML      = "index.html"
 	appsJSONURL     = "https://raw.githubusercontent.com/fleetdm/fleet/main/ee/maintained-apps/outputs/apps.json"
+	appBaseURL      = "https://raw.githubusercontent.com/fleetdm/fleet/main/ee/maintained-apps/outputs"
 )
 
 type csvData struct {
@@ -149,7 +150,54 @@ func fetchAppsData() (*appsJSON, error) {
 		return nil, fmt.Errorf("failed to parse JSON: %w", err)
 	}
 
+	// Fetch version information for each app
+	for i := range apps.Apps {
+		version, err := fetchAppVersion(apps.Apps[i].Slug, apps.Apps[i].Platform)
+		if err != nil {
+			// If version fetch fails, continue with empty version
+			apps.Apps[i].Version = ""
+			continue
+		}
+		apps.Apps[i].Version = version
+	}
+
 	return &apps, nil
+}
+
+func fetchAppVersion(slug, platform string) (string, error) {
+	// Construct URL: slug format is "app-name/platform", we need "app-name/platform.json"
+	url := fmt.Sprintf("%s/%s.json", appBaseURL, slug)
+
+	resp, err := http.Get(url)
+	if err != nil {
+		return "", fmt.Errorf("failed to fetch version file: %w", err)
+	}
+	defer resp.Body.Close()
+
+	if resp.StatusCode != http.StatusOK {
+		return "", fmt.Errorf("failed to fetch version file (status %d)", resp.StatusCode)
+	}
+
+	body, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return "", fmt.Errorf("failed to read response: %w", err)
+	}
+
+	var versionData struct {
+		Versions []struct {
+			Version string `json:"version"`
+		} `json:"versions"`
+	}
+	if err := json.Unmarshal(body, &versionData); err != nil {
+		return "", fmt.Errorf("failed to parse version JSON: %w", err)
+	}
+
+	if len(versionData.Versions) == 0 {
+		return "", fmt.Errorf("no versions found")
+	}
+
+	// Return the first (latest) version
+	return versionData.Versions[0].Version, nil
 }
 
 func main() {
