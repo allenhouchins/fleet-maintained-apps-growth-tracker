@@ -4,12 +4,15 @@ import (
 	"encoding/csv"
 	"encoding/json"
 	"fmt"
+	"io"
+	"net/http"
 	"os"
 )
 
 const (
-	csvFile    = "data/apps_growth.csv"
-	outputHTML = "index.html"
+	csvFile         = "data/apps_growth.csv"
+	outputHTML      = "index.html"
+	appsJSONURL     = "https://raw.githubusercontent.com/fleetdm/fleet/main/ee/maintained-apps/outputs/apps.json"
 )
 
 type csvData struct {
@@ -23,6 +26,17 @@ type csvData struct {
 	GrowthAdditions []int    `json:"growthAdditions"`
 }
 
+type appData struct {
+	Name        string `json:"name"`
+	Slug        string `json:"slug"`
+	Platform    string `json:"platform"`
+	Description string `json:"description"`
+}
+
+type appsJSON struct {
+	Apps []appData `json:"apps"`
+}
+
 func generateHTML() error {
 	fmt.Println("🎨 Generating HTML visualization...")
 
@@ -31,7 +45,15 @@ func generateHTML() error {
 		return fmt.Errorf("failed to load CSV data: %w", err)
 	}
 
-	htmlContent := generateHTMLContent(data)
+	apps, err := fetchAppsData()
+	if err != nil {
+		fmt.Printf("⚠️  Warning: failed to fetch apps data: %v\n", err)
+		apps = &appsJSON{Apps: []appData{}}
+	} else {
+		fmt.Printf("✅ Fetched %d apps\n", len(apps.Apps))
+	}
+
+	htmlContent := generateHTMLContent(data, apps)
 
 	if err := os.WriteFile(outputHTML, []byte(htmlContent), 0644); err != nil {
 		return fmt.Errorf("failed to write HTML file: %w", err)
@@ -105,6 +127,30 @@ func loadCSVData() (*csvData, error) {
 	return data, nil
 }
 
+func fetchAppsData() (*appsJSON, error) {
+	resp, err := http.Get(appsJSONURL)
+	if err != nil {
+		return nil, fmt.Errorf("failed to fetch apps.json: %w", err)
+	}
+	defer resp.Body.Close()
+
+	if resp.StatusCode != http.StatusOK {
+		return nil, fmt.Errorf("failed to fetch apps.json (status %d)", resp.StatusCode)
+	}
+
+	body, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return nil, fmt.Errorf("failed to read response: %w", err)
+	}
+
+	var apps appsJSON
+	if err := json.Unmarshal(body, &apps); err != nil {
+		return nil, fmt.Errorf("failed to parse JSON: %w", err)
+	}
+
+	return &apps, nil
+}
+
 func main() {
 	if err := generateHTML(); err != nil {
 		fmt.Fprintf(os.Stderr, "❌ Error: %v\n", err)
@@ -112,9 +158,12 @@ func main() {
 	}
 }
 
-func generateHTMLContent(data *csvData) string {
+func generateHTMLContent(data *csvData, apps *appsJSON) string {
 	dataJSON, _ := json.MarshalIndent(data, "        ", "  ")
 	dataJSONStr := string(dataJSON)
+	
+	appsJSONBytes, _ := json.MarshalIndent(apps.Apps, "            ", "  ")
+	appsJSONStr := string(appsJSONBytes)
 
 	return `<!DOCTYPE html>
 <html lang="en">
@@ -202,6 +251,109 @@ func generateHTMLContent(data *csvData) string {
             color: #64748b;
             font-size: 14px;
         }
+        .apps-section {
+            margin-top: 50px;
+            padding-top: 40px;
+            border-top: 2px solid #e2e8f0;
+        }
+        .apps-header {
+            margin-bottom: 30px;
+        }
+        .apps-header h2 {
+            color: #1e293b;
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+        .apps-count {
+            color: #64748b;
+            font-size: 16px;
+        }
+        .apps-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .app-card {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 20px;
+            transition: all 0.2s ease;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .app-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+            border-color: #2563eb;
+        }
+        .app-icon {
+            width: 64px;
+            height: 64px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            margin-bottom: 12px;
+            color: white;
+            font-weight: bold;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        }
+        .app-name {
+            font-weight: 600;
+            color: #1e293b;
+            font-size: 16px;
+            margin-bottom: 8px;
+            line-height: 1.3;
+        }
+        .app-platform {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 500;
+            margin-top: 8px;
+        }
+        .app-platform.darwin {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+        .app-platform.windows {
+            background: #dbeafe;
+            color: #0284c7;
+        }
+        .app-description {
+            font-size: 13px;
+            color: #64748b;
+            line-height: 1.4;
+            margin-top: 8px;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .apps-grid.hidden {
+            display: none;
+        }
+        @media (max-width: 768px) {
+            .apps-grid {
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+                gap: 15px;
+            }
+            .app-card {
+                padding: 15px;
+            }
+            .app-icon {
+                width: 48px;
+                height: 48px;
+                font-size: 24px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -217,6 +369,16 @@ func generateHTMLContent(data *csvData) string {
             <!-- Stats will be populated by JavaScript -->
         </div>
         
+        <div class="apps-section">
+            <div class="apps-header">
+                <h2>Fleet-Maintained Apps</h2>
+                <p class="apps-count"><span id="appsCount">0</span> and counting...</p>
+            </div>
+            <div class="apps-grid" id="appsGrid">
+                <!-- Apps will be populated by JavaScript -->
+            </div>
+        </div>
+        
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
             Last updated: <span id="lastUpdated"></span></p>
@@ -226,6 +388,9 @@ func generateHTMLContent(data *csvData) string {
     <script>
         // Embedded CSV data
         const csvData = ` + dataJSONStr + `;
+        
+        // Embedded apps data
+        const appsData = ` + appsJSONStr + `;
         
         // Process data into format needed for charts
         function processData() {
@@ -244,6 +409,78 @@ func generateHTMLContent(data *csvData) string {
         
         let chartInstance = null;
         let chartData = null;
+        let currentFilter = 'total';
+        
+        function getAppIcon(name) {
+            // Get first letter or first two letters for icon
+            const words = name.split(' ');
+            if (words.length > 1) {
+                return (words[0][0] + words[1][0]).toUpperCase();
+            }
+            return name.substring(0, 2).toUpperCase();
+        }
+        
+        function getAppIconColor(name) {
+            // Generate consistent color based on app name
+            let hash = 0;
+            for (let i = 0; i < name.length; i++) {
+                hash = name.charCodeAt(i) + ((hash << 5) - hash);
+            }
+            const colors = [
+                'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
+                'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
+                'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)',
+                'linear-gradient(135deg, #fa709a 0%, #fee140 100%)',
+                'linear-gradient(135deg, #30cfd0 0%, #330867 100%)',
+                'linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)',
+                'linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)',
+                'linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)',
+                'linear-gradient(135deg, #ff8a80 0%, #ea6100 100%)'
+            ];
+            return colors[Math.abs(hash) % colors.length];
+        }
+        
+        function getPlatformLabel(platform) {
+            return platform === 'darwin' ? 'Mac' : 'Windows';
+        }
+        
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+        
+        function filterApps(viewType) {
+            currentFilter = viewType;
+            const grid = document.getElementById('appsGrid');
+            const countEl = document.getElementById('appsCount');
+            
+            let filteredApps = appsData;
+            
+            if (viewType === 'mac') {
+                filteredApps = appsData.filter(app => app.platform === 'darwin');
+            } else if (viewType === 'windows') {
+                filteredApps = appsData.filter(app => app.platform === 'windows');
+            }
+            
+            countEl.textContent = filteredApps.length;
+            
+            grid.innerHTML = filteredApps.map(app => {
+                const icon = getAppIcon(app.name);
+                const iconColor = getAppIconColor(app.name);
+                const platformLabel = getPlatformLabel(app.platform);
+                const description = app.description || '';
+                const descHtml = description ? '<div class="app-description">' + escapeHtml(description) + '</div>' : '';
+                
+                return '<div class="app-card" data-platform="' + escapeHtml(app.platform) + '">' +
+                    '<div class="app-icon" style="background: ' + iconColor + '">' + escapeHtml(icon) + '</div>' +
+                    '<div class="app-name">' + escapeHtml(app.name) + '</div>' +
+                    descHtml +
+                    '<span class="app-platform ' + escapeHtml(app.platform) + '">' + escapeHtml(platformLabel) + '</span>' +
+                    '</div>';
+            }).join('');
+        }
         
         function updateChart(viewType) {
             if (!chartInstance || !chartData) return;
@@ -298,6 +535,9 @@ func generateHTMLContent(data *csvData) string {
             });
             document.querySelector('.stat-card[data-view="' + viewType + '"]').classList.add('active');
             
+            // Update apps filter
+            filterApps(viewType);
+            
             chartInstance.update();
         }
         
@@ -340,6 +580,9 @@ func generateHTMLContent(data *csvData) string {
                     updateChart(viewType);
                 });
             });
+            
+            // Initialize apps display
+            filterApps('total');
             
             // Cumulative Growth Chart
             const ctx1 = document.getElementById('cumulativeChart').getContext('2d');
