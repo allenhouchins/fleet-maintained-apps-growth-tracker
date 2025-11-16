@@ -31,6 +31,7 @@ type appData struct {
 	Slug        string `json:"slug"`
 	Platform    string `json:"platform"`
 	Description string `json:"description"`
+	Version     string `json:"version"`
 }
 
 type appsJSON struct {
@@ -327,15 +328,12 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
             background: #dbeafe;
             color: #0284c7;
         }
-        .app-description {
+        .app-version {
             font-size: 13px;
             color: #64748b;
             line-height: 1.4;
             margin-top: 8px;
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
+            font-weight: 500;
         }
         .apps-grid.hidden {
             display: none;
@@ -470,13 +468,13 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
                 const icon = getAppIcon(app.name);
                 const iconColor = getAppIconColor(app.name);
                 const platformLabel = getPlatformLabel(app.platform);
-                const description = app.description || '';
-                const descHtml = description ? '<div class="app-description">' + escapeHtml(description) + '</div>' : '';
+                const version = app.version || 'N/A';
+                const versionHtml = '<div class="app-version">' + escapeHtml(version) + '</div>';
                 
                 return '<div class="app-card" data-platform="' + escapeHtml(app.platform) + '">' +
                     '<div class="app-icon" style="background: ' + iconColor + '">' + escapeHtml(icon) + '</div>' +
                     '<div class="app-name">' + escapeHtml(app.name) + '</div>' +
-                    descHtml +
+                    versionHtml +
                     '<span class="app-platform ' + escapeHtml(app.platform) + '">' + escapeHtml(platformLabel) + '</span>' +
                     '</div>';
             }).join('');
