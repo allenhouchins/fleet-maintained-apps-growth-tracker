@@ -228,9 +228,7 @@ func generateHTMLContent(data *csvData) string {
             const data = processData();
             
             // Calculate stats
-            const totalGrowth = data.counts[data.counts.length - 1] - data.counts[0];
             const daysSpan = Math.ceil((data.dates[data.dates.length - 1] - data.dates[0]) / (1000 * 60 * 60 * 24));
-            const avgPerMonth = totalGrowth / (daysSpan / 30.44);
             const totalApps = data.counts[data.counts.length - 1];
             const macApps = data.macCounts.length > 0 ? data.macCounts[data.macCounts.length - 1] : 0;
             const windowsApps = data.windowsCounts.length > 0 ? data.windowsCounts[data.windowsCounts.length - 1] : 0;
@@ -253,16 +251,8 @@ func generateHTMLContent(data *csvData) string {
                     '<div class="stat-label">Windows Apps</div>' +
                 '</div>' +
                 '<div class="stat-card">' +
-                    '<div class="stat-value">' + totalGrowth + '</div>' +
-                    '<div class="stat-label">Apps Added Since Launch</div>' +
-                '</div>' +
-                '<div class="stat-card">' +
                     '<div class="stat-value">' + daysSpan + '</div>' +
                     '<div class="stat-label">Days Tracked</div>' +
-                '</div>' +
-                '<div class="stat-card">' +
-                    '<div class="stat-value">' + avgPerMonth.toFixed(1) + '</div>' +
-                    '<div class="stat-label">Apps Per Month</div>' +
                 '</div>';
             
             // Cumulative Growth Chart
