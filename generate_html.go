@@ -165,6 +165,24 @@ func generateHTMLContent(data *csvData) string {
             padding: 20px;
             border-radius: 6px;
             border-left: 4px solid #2563eb;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .stat-card:hover {
+            background: #f1f5f9;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .stat-card.active {
+            background: #eff6ff;
+            border-left-color: #1d4ed8;
+            box-shadow: 0 2px 4px rgba(37, 99, 235, 0.2);
+        }
+        .stat-card.clickable {
+            cursor: pointer;
+        }
+        .stat-card:not(.clickable) {
+            cursor: default;
         }
         .stat-value {
             font-size: 32px;
@@ -224,8 +242,68 @@ func generateHTMLContent(data *csvData) string {
             return data;
         }
         
+        let chartInstance = null;
+        let chartData = null;
+        
+        function updateChart(viewType) {
+            if (!chartInstance || !chartData) return;
+            
+            let dataArray, label, color, borderColor, backgroundColor;
+            
+            switch(viewType) {
+                case 'total':
+                    dataArray = chartData.counts;
+                    label = 'Total Apps';
+                    color = '#2563eb';
+                    borderColor = '#2563eb';
+                    backgroundColor = 'rgba(37, 99, 235, 0.1)';
+                    break;
+                case 'mac':
+                    dataArray = chartData.macCounts;
+                    label = 'Mac Apps';
+                    color = '#059669';
+                    borderColor = '#059669';
+                    backgroundColor = 'rgba(5, 150, 105, 0.1)';
+                    break;
+                case 'windows':
+                    dataArray = chartData.windowsCounts;
+                    label = 'Windows Apps';
+                    color = '#0284c7';
+                    borderColor = '#0284c7';
+                    backgroundColor = 'rgba(2, 132, 199, 0.1)';
+                    break;
+                default:
+                    return;
+            }
+            
+            // Update chart data
+            chartInstance.data.datasets[0].label = label;
+            chartInstance.data.datasets[0].data = chartData.dates.map((date, i) => ({x: date, y: dataArray[i]}));
+            chartInstance.data.datasets[0].borderColor = borderColor;
+            chartInstance.data.datasets[0].backgroundColor = backgroundColor;
+            
+            // Update tooltip callback
+            chartInstance.options.plugins.tooltip.callbacks.label = function(context) {
+                const idx = chartData.dates.findIndex(d => 
+                    d.getTime() === context.raw.x.getTime());
+                const current = dataArray[idx];
+                const prev = idx > 0 ? dataArray[idx - 1] : 0;
+                const added = current - prev;
+                return label + ': ' + context.parsed.y + ' apps' + (added > 0 ? ' (+' + added + ' added)' : '');
+            };
+            
+            // Update active state
+            document.querySelectorAll('.stat-card').forEach(card => {
+                card.classList.remove('active');
+            });
+            document.querySelector('.stat-card[data-view="' + viewType + '"]').classList.add('active');
+            
+            chartInstance.update();
+        }
+        
         function createCharts() {
             const data = processData();
+            chartData = data;
             
             // Calculate stats
             const daysSpan = Math.ceil((data.dates[data.dates.length - 1] - data.dates[0]) / (1000 * 60 * 60 * 24));
@@ -238,15 +316,15 @@ func generateHTMLContent(data *csvData) string {
             
             // Update stats cards
             document.getElementById('stats').innerHTML = 
-                '<div class="stat-card">' +
+                '<div class="stat-card clickable active" data-view="total">' +
                     '<div class="stat-value">' + totalApps + '</div>' +
                     '<div class="stat-label">Total Apps</div>' +
                 '</div>' +
-                '<div class="stat-card">' +
+                '<div class="stat-card clickable" data-view="mac">' +
                     '<div class="stat-value">' + macApps + '</div>' +
                     '<div class="stat-label">Mac Apps</div>' +
                 '</div>' +
-                '<div class="stat-card">' +
+                '<div class="stat-card clickable" data-view="windows">' +
                     '<div class="stat-value">' + windowsApps + '</div>' +
                     '<div class="stat-label">Windows Apps</div>' +
                 '</div>' +
@@ -255,9 +333,17 @@ func generateHTMLContent(data *csvData) string {
                     '<div class="stat-label">Days Tracked</div>' +
                 '</div>';
             
+            // Add click event listeners to stat cards
+            document.querySelectorAll('.stat-card.clickable').forEach(card => {
+                card.addEventListener('click', function() {
+                    const viewType = this.getAttribute('data-view');
+                    updateChart(viewType);
+                });
+            });
+            
             // Cumulative Growth Chart
             const ctx1 = document.getElementById('cumulativeChart').getContext('2d');
-            new Chart(ctx1, {
+            chartInstance = new Chart(ctx1, {
                 type: 'line',
                 data: {
                     datasets: [{
@@ -291,7 +377,7 @@ func generateHTMLContent(data *csvData) string {
                                     const idx = data.dates.findIndex(d => 
                                         d.getTime() === context.raw.x.getTime());
                                     const added = idx > 0 ? data.counts[idx] - data.counts[idx - 1] : data.counts[idx];
-                                    return 'Total: ' + context.parsed.y + ' apps' + (added > 0 ? ' (+' + added + ' added)' : '');
+                                    return 'Total Apps: ' + context.parsed.y + ' apps' + (added > 0 ? ' (+' + added + ' added)' : '');
                                 }
                             }
                         }
