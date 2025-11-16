@@ -8,14 +8,16 @@ import (
 )
 
 const (
-	csvFile      = "data/apps_growth.csv"
-	outputHTML   = "index.html"
+	csvFile    = "data/apps_growth.csv"
+	outputHTML = "index.html"
 )
 
 type csvData struct {
 	Dates           []string `json:"dates"`
 	Counts          []int    `json:"counts"`
 	Additions       []int    `json:"additions"`
+	MacCounts       []int    `json:"macCounts"`
+	WindowsCounts   []int    `json:"windowsCounts"`
 	GrowthDates     []string `json:"growthDates"`
 	GrowthCounts    []int    `json:"growthCounts"`
 	GrowthAdditions []int    `json:"growthAdditions"`
@@ -63,6 +65,8 @@ func loadCSVData() (*csvData, error) {
 		Dates:           make([]string, 0),
 		Counts:          make([]int, 0),
 		Additions:       make([]int, 0),
+		MacCounts:       make([]int, 0),
+		WindowsCounts:   make([]int, 0),
 		GrowthDates:     make([]string, 0),
 		GrowthCounts:    make([]int, 0),
 		GrowthAdditions: make([]int, 0),
@@ -75,13 +79,21 @@ func loadCSVData() (*csvData, error) {
 		}
 
 		dateStr := row[0]
-		var count, added int
+		var count, added, macCount, windowsCount int
 		fmt.Sscanf(row[1], "%d", &count)
 		fmt.Sscanf(row[2], "%d", &added)
+		if len(row) >= 4 {
+			fmt.Sscanf(row[3], "%d", &macCount)
+		}
+		if len(row) >= 5 {
+			fmt.Sscanf(row[4], "%d", &windowsCount)
+		}
 
 		data.Dates = append(data.Dates, dateStr)
 		data.Counts = append(data.Counts, count)
 		data.Additions = append(data.Additions, added)
+		data.MacCounts = append(data.MacCounts, macCount)
+		data.WindowsCounts = append(data.WindowsCounts, windowsCount)
 
 		if added > 0 {
 			data.GrowthDates = append(data.GrowthDates, dateStr)
@@ -203,6 +215,8 @@ func generateHTMLContent(data *csvData) string {
                 dates: csvData.dates.map(d => new Date(d + 'T00:00:00')),
                 counts: csvData.counts,
                 additions: csvData.additions,
+                macCounts: csvData.macCounts || [],
+                windowsCounts: csvData.windowsCounts || [],
                 growthDates: csvData.growthDates.map(d => new Date(d + 'T00:00:00')),
                 growthCounts: csvData.growthCounts,
                 growthAdditions: csvData.growthAdditions
@@ -217,6 +231,9 @@ func generateHTMLContent(data *csvData) string {
             const totalGrowth = data.counts[data.counts.length - 1] - data.counts[0];
             const daysSpan = Math.ceil((data.dates[data.dates.length - 1] - data.dates[0]) / (1000 * 60 * 60 * 24));
             const avgPerMonth = totalGrowth / (daysSpan / 30.44);
+            const totalApps = data.counts[data.counts.length - 1];
+            const macApps = data.macCounts.length > 0 ? data.macCounts[data.macCounts.length - 1] : 0;
+            const windowsApps = data.windowsCounts.length > 0 ? data.windowsCounts[data.windowsCounts.length - 1] : 0;
             
             // Update last updated time
             document.getElementById('lastUpdated').textContent = new Date().toLocaleString();
@@ -224,8 +241,16 @@ func generateHTMLContent(data *csvData) string {
             // Update stats cards
             document.getElementById('stats').innerHTML = 
                 '<div class="stat-card">' +
-                    '<div class="stat-value">' + data.counts[data.counts.length - 1] + '</div>' +
+                    '<div class="stat-value">' + totalApps + '</div>' +
                     '<div class="stat-label">Total Apps</div>' +
+                '</div>' +
+                '<div class="stat-card">' +
+                    '<div class="stat-value">' + macApps + '</div>' +
+                    '<div class="stat-label">Mac Apps</div>' +
+                '</div>' +
+                '<div class="stat-card">' +
+                    '<div class="stat-value">' + windowsApps + '</div>' +
+                    '<div class="stat-label">Windows Apps</div>' +
                 '</div>' +
                 '<div class="stat-card">' +
                     '<div class="stat-value">' + totalGrowth + '</div>' +
@@ -317,4 +342,3 @@ func generateHTMLContent(data *csvData) string {
 </body>
 </html>`
 }
-

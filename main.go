@@ -12,19 +12,21 @@ import (
 )
 
 const (
-	githubAPIBase     = "https://api.github.com"
-	githubRawBase     = "https://raw.githubusercontent.com"
-	repoOwner         = "fleetdm"
-	repoName          = "fleet"
-	appsJSONPath      = "ee/maintained-apps/outputs/apps.json"
-	outputDir         = "data"
-	outputCSV         = "data/apps_growth.csv"
-	perPage           = 100 // GitHub API max per page
+	githubAPIBase = "https://api.github.com"
+	githubRawBase = "https://raw.githubusercontent.com"
+	repoOwner     = "fleetdm"
+	repoName      = "fleet"
+	appsJSONPath  = "ee/maintained-apps/outputs/apps.json"
+	outputDir     = "data"
+	outputCSV     = "data/apps_growth.csv"
+	perPage       = 100 // GitHub API max per page
 )
 
 type commitData struct {
-	date  string
-	count int
+	date         string
+	count        int
+	macCount     int
+	windowsCount int
 }
 
 type githubCommit struct {
@@ -66,7 +68,7 @@ func main() {
 }
 
 func getGitHubCommits() ([]commitData, error) {
-	commits := make(map[string]int) // date -> count
+	commits := make(map[string]commitData) // date -> commitData
 	page := 1
 
 	for {
@@ -110,14 +112,19 @@ func getGitHubCommits() ([]commitData, error) {
 			}
 
 			// Fetch file content at this commit
-			count, err := getAppCountAtCommit(gc.Sha)
+			count, macCount, windowsCount, err := getAppCountAtCommit(gc.Sha)
 			if err != nil {
 				fmt.Printf("⚠️  Warning: failed to get app count for commit %s: %v\n", gc.Sha[:7], err)
 				continue
 			}
 
-			commits[dateStr] = count
-			fmt.Printf("  ✓ %s: %d apps\n", dateStr, count)
+			commits[dateStr] = commitData{
+				date:         dateStr,
+				count:        count,
+				macCount:     macCount,
+				windowsCount: windowsCount,
+			}
+			fmt.Printf("  ✓ %s: %d apps (%d Mac, %d Windows)\n", dateStr, count, macCount, windowsCount)
 		}
 
 		// If we got fewer than perPage results, we're done
@@ -130,8 +137,8 @@ func getGitHubCommits() ([]commitData, error) {
 
 	// Convert to slice and sort
 	result := make([]commitData, 0, len(commits))
-	for date, count := range commits {
-		result = append(result, commitData{date: date, count: count})
+	for _, data := range commits {
+		result = append(result, data)
 	}
 	sort.Slice(result, func(i, j int) bool {
 		return result[i].date < result[j].date
@@ -140,34 +147,45 @@ func getGitHubCommits() ([]commitData, error) {
 	return result, nil
 }
 
-func getAppCountAtCommit(sha string) (int, error) {
+func getAppCountAtCommit(sha string) (total int, macCount int, windowsCount int, err error) {
 	// Use raw GitHub URL to get file content at specific commit
 	url := fmt.Sprintf("%s/%s/%s/%s/%s",
 		githubRawBase, repoOwner, repoName, sha, appsJSONPath)
 
 	resp, err := http.Get(url)
 	if err != nil {
-		return 0, fmt.Errorf("failed to fetch file: %w", err)
+		return 0, 0, 0, fmt.Errorf("failed to fetch file: %w", err)
 	}
 	defer resp.Body.Close()
 
 	if resp.StatusCode != http.StatusOK {
-		return 0, fmt.Errorf("failed to fetch file (status %d)", resp.StatusCode)
+		return 0, 0, 0, fmt.Errorf("failed to fetch file (status %d)", resp.StatusCode)
 	}
 
 	body, err := io.ReadAll(resp.Body)
 	if err != nil {
-		return 0, fmt.Errorf("failed to read response: %w", err)
+		return 0, 0, 0, fmt.Errorf("failed to read response: %w", err)
 	}
 
 	var data struct {
-		Apps []interface{} `json:"apps"`
+		Apps []struct {
+			Platform string `json:"platform"`
+		} `json:"apps"`
 	}
 	if err := json.Unmarshal(body, &data); err != nil {
-		return 0, fmt.Errorf("failed to parse JSON: %w", err)
+		return 0, 0, 0, fmt.Errorf("failed to parse JSON: %w", err)
 	}
 
-	return len(data.Apps), nil
+	total = len(data.Apps)
+	for _, app := range data.Apps {
+		if app.Platform == "darwin" {
+			macCount++
+		} else if app.Platform == "windows" {
+			windowsCount++
+		}
+	}
+
+	return total, macCount, windowsCount, nil
 }
 
 func generateContinuousData(commits []commitData) error {
@@ -198,10 +216,14 @@ func generateContinuousData(commits []commitData) error {
 		return fmt.Errorf("failed to parse end date: %w", err)
 	}
 
-	// Create a map of commit dates to counts
+	// Create maps of commit dates to counts
 	commitCounts := make(map[string]int)
+	commitMacCounts := make(map[string]int)
+	commitWindowsCounts := make(map[string]int)
 	for _, commit := range commits {
 		commitCounts[commit.date] = commit.count
+		commitMacCounts[commit.date] = commit.macCount
+		commitWindowsCounts[commit.date] = commit.windowsCount
 	}
 
 	// Ensure output directory exists
@@ -220,7 +242,7 @@ func generateContinuousData(commits []commitData) error {
 	defer writer.Flush()
 
 	// Write header
-	if err := writer.Write([]string{"date", "app_count", "apps_added_since_previous"}); err != nil {
+	if err := writer.Write([]string{"date", "app_count", "apps_added_since_previous", "mac_count", "windows_count"}); err != nil {
 		return fmt.Errorf("failed to write CSV header: %w", err)
 	}
 
@@ -228,6 +250,10 @@ func generateContinuousData(commits []commitData) error {
 	currentCount := 0
 	lastKnownCount := 0
 	lastWrittenCount := 0
+	currentMacCount := 0
+	lastKnownMacCount := 0
+	currentWindowsCount := 0
+	lastKnownWindowsCount := 0
 	entryCount := 0
 
 	for !currentDate.After(endDate) {
@@ -237,6 +263,14 @@ func generateContinuousData(commits []commitData) error {
 		if count, exists := commitCounts[dateStr]; exists {
 			currentCount = count
 			lastKnownCount = count
+		}
+		if macCount, exists := commitMacCounts[dateStr]; exists {
+			currentMacCount = macCount
+			lastKnownMacCount = macCount
+		}
+		if windowsCount, exists := commitWindowsCounts[dateStr]; exists {
+			currentWindowsCount = windowsCount
+			lastKnownWindowsCount = windowsCount
 		}
 
 		// Use last known count (carry forward if no commit on this date)
@@ -249,6 +283,14 @@ func generateContinuousData(commits []commitData) error {
 		displayCount := lastKnownCount
 		if currentCount > 0 {
 			displayCount = currentCount
+		}
+		displayMacCount := lastKnownMacCount
+		if currentMacCount > 0 {
+			displayMacCount = currentMacCount
+		}
+		displayWindowsCount := lastKnownWindowsCount
+		if currentWindowsCount > 0 {
+			displayWindowsCount = currentWindowsCount
 		}
 
 		// Calculate additions (only positive changes)
@@ -267,6 +309,8 @@ func generateContinuousData(commits []commitData) error {
 			dateStr,
 			fmt.Sprintf("%d", displayCount),
 			fmt.Sprintf("%d", added),
+			fmt.Sprintf("%d", displayMacCount),
+			fmt.Sprintf("%d", displayWindowsCount),
 		}); err != nil {
 			return fmt.Errorf("failed to write CSV row: %w", err)
 		}
@@ -278,6 +322,12 @@ func generateContinuousData(commits []commitData) error {
 		// Reset currentCount for next iteration
 		if _, exists := commitCounts[dateStr]; !exists {
 			currentCount = 0
+		}
+		if _, exists := commitMacCounts[dateStr]; !exists {
+			currentMacCount = 0
+		}
+		if _, exists := commitWindowsCounts[dateStr]; !exists {
+			currentWindowsCount = 0
 		}
 
 		currentDate = currentDate.AddDate(0, 0, 1)
