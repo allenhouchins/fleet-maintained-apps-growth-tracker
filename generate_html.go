@@ -7,6 +7,7 @@ import (
 	"io"
 	"net/http"
 	"os"
+	"time"
 )
 
 const (
@@ -214,6 +215,9 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
 
 	appsJSONBytes, _ := json.MarshalIndent(apps.Apps, "            ", "  ")
 	appsJSONStr := string(appsJSONBytes)
+
+	// Generate timestamp for when this HTML was created
+	lastUpdated := time.Now().Format("January 2, 2006 at 3:04 PM MST")
 
 	return `<!DOCTYPE html>
 <html lang="en">
@@ -432,7 +436,7 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: <span id="lastUpdated"></span></p>
+            Last updated: ` + lastUpdated + `</p>
         </div>
     </div>
 
@@ -596,9 +600,6 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
             const totalApps = data.counts[data.counts.length - 1];
             const macApps = data.macCounts.length > 0 ? data.macCounts[data.macCounts.length - 1] : 0;
             const windowsApps = data.windowsCounts.length > 0 ? data.windowsCounts[data.windowsCounts.length - 1] : 0;
-            
-            // Update last updated time
-            document.getElementById('lastUpdated').textContent = new Date().toLocaleString();
             
             // Update stats cards
             document.getElementById('stats').innerHTML = 

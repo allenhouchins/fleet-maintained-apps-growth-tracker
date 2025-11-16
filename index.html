@@ -215,7 +215,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: <span id="lastUpdated"></span></p>
+            Last updated: November 16, 2025 at 5:12 PM CST</p>
         </div>
     </div>
 
@@ -2119,9 +2119,6 @@
             const totalApps = data.counts[data.counts.length - 1];
             const macApps = data.macCounts.length > 0 ? data.macCounts[data.macCounts.length - 1] : 0;
             const windowsApps = data.windowsCounts.length > 0 ? data.windowsCounts[data.windowsCounts.length - 1] : 0;
-            
-            // Update last updated time
-            document.getElementById('lastUpdated').textContent = new Date().toLocaleString();
             
             // Update stats cards
             document.getElementById('stats').innerHTML = 
