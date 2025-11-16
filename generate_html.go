@@ -189,7 +189,7 @@ func generateHTMLContent(data *csvData) string {
 <body>
     <div class="container">
         <h1>Fleet Maintained Apps Growth Over Time</h1>
-        <p class="subtitle">Continuous daily tracking across the entire year (not just commit days)</p>
+        <p class="subtitle">Continuous daily tracking since Fleet-maintained apps were introduced</p>
         
         <div class="chart-container">
             <canvas id="cumulativeChart"></canvas>
