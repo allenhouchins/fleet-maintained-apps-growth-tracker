@@ -8,6 +8,12 @@ on:
       - 'index.html'
       - 'data/apps_growth.csv'
   workflow_dispatch:
+  workflow_run:
+    workflows: ["Update Growth Data"]
+    types:
+      - completed
+    branches:
+      - main
 
 permissions:
   contents: read
@@ -28,17 +34,37 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Check if files changed
+        id: check-changes
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_run" ]; then
+            # Check if index.html or data/apps_growth.csv changed in the last commit
+            if git diff HEAD~1 HEAD --name-only | grep -E "(index\.html|data/apps_growth\.csv)" > /dev/null; then
+              echo "changed=true" >> $GITHUB_OUTPUT
+            else
+              echo "changed=false" >> $GITHUB_OUTPUT
+            fi
+          else
+            # For push events, always deploy (path filters already ensure relevant files changed)
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
 
       - name: Setup Pages
+        if: steps.check-changes.outputs.changed == 'true'
         uses: actions/configure-pages@v4
         with:
           enablement: true
 
       - name: Upload artifact
+        if: steps.check-changes.outputs.changed == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
 
       - name: Deploy to GitHub Pages
+        if: steps.check-changes.outputs.changed == 'true'
         id: deployment
         uses: actions/deploy-pages@v4
