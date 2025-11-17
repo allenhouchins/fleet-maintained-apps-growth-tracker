@@ -216,8 +216,13 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
 	appsJSONBytes, _ := json.MarshalIndent(apps.Apps, "            ", "  ")
 	appsJSONStr := string(appsJSONBytes)
 
-	// Generate timestamp for when this HTML was created
-	lastUpdated := time.Now().Format("January 2, 2006 at 3:04 PM MST")
+	// Generate timestamp for when this HTML was created (in CST)
+	cstLocation, err := time.LoadLocation("America/Chicago")
+	if err != nil {
+		// Fallback to UTC if CST location can't be loaded
+		cstLocation = time.UTC
+	}
+	lastUpdated := time.Now().In(cstLocation).Format("January 2, 2006 at 3:04 PM MST")
 
 	return `<!DOCTYPE html>
 <html lang="en">
