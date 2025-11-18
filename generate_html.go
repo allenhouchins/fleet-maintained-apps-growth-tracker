@@ -30,11 +30,12 @@ type csvData struct {
 }
 
 type appData struct {
-	Name        string `json:"name"`
-	Slug        string `json:"slug"`
-	Platform    string `json:"platform"`
-	Description string `json:"description"`
-	Version     string `json:"version"`
+	Name         string `json:"name"`
+	Slug         string `json:"slug"`
+	Platform     string `json:"platform"`
+	Description  string `json:"description"`
+	Version      string `json:"version"`
+	InstallerURL string `json:"installerUrl"`
 }
 
 type appsJSON struct {
@@ -152,54 +153,57 @@ func fetchAppsData() (*appsJSON, error) {
 		return nil, fmt.Errorf("failed to parse JSON: %w", err)
 	}
 
-	// Fetch version information for each app
+	// Fetch version and installer URL information for each app
 	for i := range apps.Apps {
-		version, err := fetchAppVersion(apps.Apps[i].Slug, apps.Apps[i].Platform)
+		version, installerURL, err := fetchAppVersionAndURL(apps.Apps[i].Slug, apps.Apps[i].Platform)
 		if err != nil {
 			// If version fetch fails, continue with empty version
 			apps.Apps[i].Version = ""
+			apps.Apps[i].InstallerURL = ""
 			continue
 		}
 		apps.Apps[i].Version = version
+		apps.Apps[i].InstallerURL = installerURL
 	}
 
 	return &apps, nil
 }
 
-func fetchAppVersion(slug, platform string) (string, error) {
+func fetchAppVersionAndURL(slug, platform string) (version string, installerURL string, err error) {
 	// Construct URL: slug format is "app-name/platform", we need "app-name/platform.json"
 	url := fmt.Sprintf("%s/%s.json", appBaseURL, slug)
 
 	resp, err := http.Get(url)
 	if err != nil {
-		return "", fmt.Errorf("failed to fetch version file: %w", err)
+		return "", "", fmt.Errorf("failed to fetch version file: %w", err)
 	}
 	defer resp.Body.Close()
 
 	if resp.StatusCode != http.StatusOK {
-		return "", fmt.Errorf("failed to fetch version file (status %d)", resp.StatusCode)
+		return "", "", fmt.Errorf("failed to fetch version file (status %d)", resp.StatusCode)
 	}
 
 	body, err := io.ReadAll(resp.Body)
 	if err != nil {
-		return "", fmt.Errorf("failed to read response: %w", err)
+		return "", "", fmt.Errorf("failed to read response: %w", err)
 	}
 
 	var versionData struct {
 		Versions []struct {
-			Version string `json:"version"`
+			Version      string `json:"version"`
+			InstallerURL string `json:"installer_url"`
 		} `json:"versions"`
 	}
 	if err := json.Unmarshal(body, &versionData); err != nil {
-		return "", fmt.Errorf("failed to parse version JSON: %w", err)
+		return "", "", fmt.Errorf("failed to parse version JSON: %w", err)
 	}
 
 	if len(versionData.Versions) == 0 {
-		return "", fmt.Errorf("no versions found")
+		return "", "", fmt.Errorf("no versions found")
 	}
 
-	// Return the first (latest) version
-	return versionData.Versions[0].Version, nil
+	// Return the first (latest) version and installer URL
+	return versionData.Versions[0].Version, versionData.Versions[0].InstallerURL, nil
 }
 
 func main() {
@@ -344,11 +348,16 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
             flex-direction: column;
             align-items: center;
             text-align: center;
+            text-decoration: none;
+            color: inherit;
         }
         .app-card:hover {
             transform: translateY(-4px);
             box-shadow: 0 8px 16px rgba(0,0,0,0.1);
             border-color: #2563eb;
+        }
+        .app-card:visited {
+            color: inherit;
         }
         .app-icon {
             width: 64px;
@@ -525,15 +534,20 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
                 const platformLabel = getPlatformLabel(app.platform);
                 const version = app.version || 'N/A';
                 const versionHtml = '<div class="app-version">' + escapeHtml(version) + '</div>';
+                const installerUrl = app.installerUrl || '';
                 
-                return '<div class="app-card" data-platform="' + escapeHtml(app.platform) + '">' +
+                // If installer URL exists, make it a clickable link, otherwise just a div
+                const cardTag = installerUrl ? 'a' : 'div';
+                const cardHref = installerUrl ? ' href="' + escapeHtml(installerUrl) + '" target="_blank" rel="noopener noreferrer"' : '';
+                
+                return '<' + cardTag + ' class="app-card" data-platform="' + escapeHtml(app.platform) + '"' + cardHref + '>' +
                     '<div class="app-icon" data-fallback="' + escapeHtml(fallbackText) + '">' +
                     '<img src="' + escapeHtml(iconUrl) + '" alt="' + escapeHtml(app.name) + '" onerror="handleIconError(this);">' +
                     '</div>' +
                     '<div class="app-name">' + escapeHtml(app.name) + '</div>' +
                     versionHtml +
                     '<span class="app-platform ' + escapeHtml(app.platform) + '">' + escapeHtml(platformLabel) + '</span>' +
-                    '</div>';
+                    '</' + cardTag + '>';
             }).join('');
         }
         

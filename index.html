@@ -118,11 +118,16 @@
             flex-direction: column;
             align-items: center;
             text-align: center;
+            text-decoration: none;
+            color: inherit;
         }
         .app-card:hover {
             transform: translateY(-4px);
             box-shadow: 0 8px 16px rgba(0,0,0,0.1);
             border-color: #2563eb;
+        }
+        .app-card:visited {
+            color: inherit;
         }
         .app-icon {
             width: 64px;
@@ -215,7 +220,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: November 17, 2025 at 3:39 PM CST</p>
+            Last updated: November 17, 2025 at 9:11 PM CST</p>
         </div>
     </div>
 
@@ -1578,455 +1583,544 @@
                 "slug": "010-editor/darwin",
                 "platform": "darwin",
                 "description": "A toolkit for working with text and binary data.",
-                "version": "16.0.2"
+                "version": "16.0.2",
+                "installerUrl": "https://download.sweetscape.com/010EditorMacARM64Installer16.0.2.dmg"
               },
               {
                 "name": "1Password",
                 "slug": "1password/darwin",
                 "platform": "darwin",
                 "description": "Password manager that keeps all passwords secure behind one password.",
-                "version": "8.11.18"
+                "version": "8.11.18",
+                "installerUrl": "https://downloads.1password.com/mac/1Password-8.11.18-aarch64.zip"
               },
               {
                 "name": "Abstract",
                 "slug": "abstract/darwin",
                 "platform": "darwin",
                 "description": "Abstract is a collaborative design tool with support for Sketch files.",
-                "version": "98.6.2"
+                "version": "98.6.2",
+                "installerUrl": "https://downloads.goabstract.com/mac/Abstract-98.6.2.zip"
               },
               {
                 "name": "Adobe Acrobat Reader",
                 "slug": "adobe-acrobat-reader/darwin",
                 "platform": "darwin",
                 "description": "Adobe Acrobat Reader is the industry-standard tool for viewing, printing, and commenting on PDF documents.",
-                "version": "25.001.20841"
+                "version": "25.001.20841",
+                "installerUrl": "https://ardownload2.adobe.com/pub/adobe/reader/mac/AcrobatDC/2500120841/AcroRdrDC_2500120841_MUI.dmg"
               },
               {
                 "name": "Adobe Creative Cloud",
                 "slug": "adobe-creative-cloud/darwin",
                 "platform": "darwin",
                 "description": "Adobe Creative Cloud is a platform for creative software management and installation, including access to Adobe’s suite of tools like Photoshop, Illustrator, and Premiere Pro.",
-                "version": "6.8.0.821"
+                "version": "6.8.0.821",
+                "installerUrl": "https://ccmdls.adobe.com/AdobeProducts/StandaloneBuilds/ACCC/ESD/6.8.0/821/macarm64/ACCCx6_8_0_821.dmg"
               },
               {
                 "name": "Beyond Compare",
                 "slug": "beyond-compare/darwin",
                 "platform": "darwin",
                 "description": "",
-                "version": "5.1.6.31527"
+                "version": "5.1.6.31527",
+                "installerUrl": "https://www.scootersoftware.com/files/BCompareOSX-5.1.6.31527.zip"
               },
               {
                 "name": "Box Drive",
                 "slug": "box-drive/darwin",
                 "platform": "darwin",
                 "description": "Box Drive is the desktop client for Box Cloud, enabling seamless access to your files without taking up local storage.",
-                "version": "2.43.205"
+                "version": "2.43.205",
+                "installerUrl": "https://e3.boxcdn.net/desktop/releases/mac/BoxDrive-2.43.205.pkg"
               },
               {
                 "name": "Box Drive",
                 "slug": "box-drive/windows",
                 "platform": "windows",
                 "description": "Box Drive is the desktop client for Box Cloud, enabling seamless access to your files without taking up local storage.",
-                "version": "2.48.250"
+                "version": "2.48.250",
+                "installerUrl": "https://e3.boxcdn.net/desktop/releases/win/BoxDrive-2.48.250.msi"
               },
               {
                 "name": "Brave",
                 "slug": "brave-browser/darwin",
                 "platform": "darwin",
                 "description": "Brave is a web browser designed with privacy, blocking ads and trackers by default while maintaining fast speed.",
-                "version": "142.1.84.139"
+                "version": "142.1.84.139",
+                "installerUrl": "https://updates-cdn.bravesoftware.com/sparkle/Brave-Browser/stable-arm64/184.139/Brave-Browser-arm64.dmg"
               },
               {
                 "name": "Brave",
                 "slug": "brave-browser/windows",
                 "platform": "windows",
                 "description": "Brave is a web browser designed with privacy, blocking ads and trackers by default while maintaining fast speed.",
-                "version": "142.1.84.139"
+                "version": "142.1.84.139",
+                "installerUrl": "https://github.com/brave/brave-browser/releases/download/v1.84.139/BraveBrowserStandaloneSilentSetup.exe"
               },
               {
                 "name": "Claude",
                 "slug": "claude/darwin",
                 "platform": "darwin",
                 "description": "Anthropic's official Claude AI desktop app.",
-                "version": "0.14.10"
+                "version": "0.14.10",
+                "installerUrl": "https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest/release-0.14.10-artifact-fe3f5688c1c2a4b648d1bf6d9784d62ef9fc336a.zip"
               },
               {
                 "name": "ClickUp",
                 "slug": "clickup/darwin",
                 "platform": "darwin",
                 "description": "ClickUp is a productivity platform for tasks, docs, goals, and chat.",
-                "version": "3.5.154"
+                "version": "3.5.154",
+                "installerUrl": "https://download.todesktop.com/221003ra4tebclw/ClickUp%203.5.154%20-%20Build%20251111ehyopedtu-arm64.dmg"
               },
               {
                 "name": "Cloudflare WARP",
                 "slug": "cloudflare-warp/darwin",
                 "platform": "darwin",
                 "description": "Cloudflare WARP enhances internet safety and performance by encrypting your data and optimizing connections for privacy.",
-                "version": "2025.9.558.0"
+                "version": "2025.9.558.0",
+                "installerUrl": "https://downloads.cloudflareclient.com/v1/download/macos/version/2025.9.558.0"
               },
               {
                 "name": "Cloudflare WARP",
                 "slug": "cloudflare-warp/windows",
                 "platform": "windows",
                 "description": "Cloudflare WARP enhances internet safety and performance by encrypting your data and optimizing connections for privacy.",
-                "version": "25.9.558.0"
+                "version": "25.9.558.0",
+                "installerUrl": "https://downloads.cloudflareclient.com/v1/download/windows/version/2025.9.558.0"
               },
               {
                 "name": "Cursor",
                 "slug": "cursor/darwin",
                 "platform": "darwin",
                 "description": "Cursor AI boosts your coding productivity by giving smart, context-aware code suggestions, quick explanations, and easy refactors — all inside your editor.",
-                "version": "2.0.77"
+                "version": "2.0.77",
+                "installerUrl": "https://downloads.cursor.com/production/ba90f2f88e4911312761abab9492c42442117cfe/darwin/arm64/Cursor-darwin-arm64.zip"
               },
               {
                 "name": "Cursor",
                 "slug": "cursor/windows",
                 "platform": "windows",
                 "description": "Cursor AI boosts your coding productivity by giving smart, context-aware code suggestions, quick explanations, and easy refactors — all inside your editor.",
-                "version": "2.0.77"
+                "version": "2.0.77",
+                "installerUrl": "https://downloads.cursor.com/production/ba90f2f88e4911312761abab9492c42442117cfe/win32/x64/system-setup/CursorSetup-x64-2.0.77.exe"
               },
               {
                 "name": "DataGrip",
                 "slug": "datagrip/darwin",
                 "platform": "darwin",
                 "description": "A powerful cross-platform IDE for relational and NoSQL databases.",
-                "version": "2025.2.4"
+                "version": "2025.2.4",
+                "installerUrl": "https://download.jetbrains.com/datagrip/datagrip-2025.2.4-aarch64.dmg"
               },
               {
                 "name": "Amazon DCV",
                 "slug": "dcv-viewer/darwin",
                 "platform": "darwin",
                 "description": "DCV Viewer is used for connecting to the NICE DCV remote display protocol.",
-                "version": "2025.0.8846"
+                "version": "2025.0.8846",
+                "installerUrl": "https://d1uj6qtbmh3dt5.cloudfront.net/2025.0/Clients/nice-dcv-viewer-2025.0.8846.arm64.dmg"
               },
               {
                 "name": "Discord",
                 "slug": "discord/darwin",
                 "platform": "darwin",
                 "description": "Discord is voice and text chat software.",
-                "version": "0.0.366"
+                "version": "0.0.367",
+                "installerUrl": "https://dl.discordapp.net/apps/osx/0.0.367/Discord.dmg"
               },
               {
                 "name": "Discord",
                 "slug": "discord/windows",
                 "platform": "windows",
                 "description": "Discord is voice and text chat software.",
-                "version": "1.0.9214"
+                "version": "1.0.9215",
+                "installerUrl": "https://stable.dl2.discordapp.net/distro/app/stable/win/x64/1.0.9215/DiscordSetup.exe"
               },
               {
                 "name": "Docker Desktop",
                 "slug": "docker/darwin",
                 "platform": "darwin",
                 "description": "Docker Desktop provides a seamless environment for building, sharing, and running containerized applications and microservices.",
-                "version": "4.51.0"
+                "version": "4.51.0",
+                "installerUrl": "https://desktop.docker.com/mac/main/arm64/210443/Docker.dmg"
               },
               {
                 "name": "Figma",
                 "slug": "figma/darwin",
                 "platform": "darwin",
                 "description": "Figma is a collaborative design tool for teams to create, prototype, and share designs in real time.",
-                "version": "125.9.10"
+                "version": "125.9.10",
+                "installerUrl": "https://desktop.figma.com/mac-arm/Figma-125.9.10.zip"
               },
               {
                 "name": "Figma",
                 "slug": "figma/windows",
                 "platform": "windows",
                 "description": "",
-                "version": "125.10.4"
+                "version": "125.10.4",
+                "installerUrl": "https://desktop.figma.com/win/build/Figma-125.10.4.exe"
               },
               {
                 "name": "Mozilla Firefox",
                 "slug": "firefox/darwin",
                 "platform": "darwin",
                 "description": "Firefox is a powerful, open-source web browser built for speed, privacy, and customization.",
-                "version": "145.0"
+                "version": "145.0",
+                "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/145.0/mac/en-US/Firefox%20145.0.dmg"
               },
               {
                 "name": "Mozilla Firefox",
                 "slug": "firefox/windows",
                 "platform": "windows",
                 "description": "Firefox is a powerful, open-source web browser built for speed, privacy, and customization.",
-                "version": "145.0"
+                "version": "145.0",
+                "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/145.0/win64/en-US/Firefox%20Setup%20145.0.exe"
               },
               {
                 "name": "GitKraken",
                 "slug": "gitkraken/darwin",
                 "platform": "darwin",
                 "description": "GitKraken is a git client focusing on productivity.",
-                "version": "11.6.0"
+                "version": "11.6.0",
+                "installerUrl": "https://api.gitkraken.dev/releases/production/darwin/arm64/11.6.0/GitKraken-v11.6.0.zip"
+              },
+              {
+                "name": "GoLand",
+                "slug": "goland/darwin",
+                "platform": "darwin",
+                "description": "Go (golang) IDE by JetBrains",
+                "version": "2025.2.4",
+                "installerUrl": "https://download.jetbrains.com/go/goland-2025.2.4-aarch64.dmg"
               },
               {
                 "name": "Google Chrome",
                 "slug": "google-chrome/darwin",
                 "platform": "darwin",
                 "description": "Google Chrome Enterprise is a fast, reliable web browser built for performance and compatibility across platforms.",
-                "version": "latest"
+                "version": "latest",
+                "installerUrl": "https://dl.google.com/dl/chrome/mac/universal/stable/gcem/GoogleChrome.pkg"
               },
               {
                 "name": "Google Chrome",
                 "slug": "google-chrome/windows",
                 "platform": "windows",
                 "description": "Google Chrome Enterprise is a fast, reliable web browser built for performance and compatibility across platforms.",
-                "version": "142.0.7444.163"
+                "version": "142.0.7444.163",
+                "installerUrl": "https://dl.google.com/release2/chrome/afnv7ciko6xz6qfe4xmdhvnz34_142.0.7444.163/142.0.7444.163_chrome_installer_uncompressed.exe"
               },
               {
                 "name": "iMazing Profile Editor",
                 "slug": "imazing-profile-editor/darwin",
                 "platform": "darwin",
                 "description": "iMazing Profile Editor is an app for creating and editing Apple configuration profiles.",
-                "version": "2.1.1"
+                "version": "2.1.1",
+                "installerUrl": "https://downloads.imazing.com/mac/iMazing-Profile-Editor/2.1.1.379001/iMazing_Profile_Editor_2.1.1.379001.dmg"
               },
               {
                 "name": "Company Portal",
                 "slug": "intune-company-portal/darwin",
                 "platform": "darwin",
                 "description": "Microsoft Intune Company Portal is the app for accessing company resources and managing devices in a secure environment.",
-                "version": "5.2510.0"
+                "version": "5.2510.0",
+                "installerUrl": "https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/CompanyPortal_5.2510.0-Upgrade.pkg"
               },
               {
                 "name": "iTerm2",
                 "slug": "iterm2/darwin",
                 "platform": "darwin",
                 "description": "A terminal emulator alternative to Apple's Terminal app.",
-                "version": "3.6.5"
+                "version": "3.6.5",
+                "installerUrl": "https://iterm2.com/downloads/stable/iTerm2-3_6_5.zip"
               },
               {
                 "name": "Linear",
                 "slug": "linear-linear/darwin",
                 "platform": "darwin",
                 "description": "An app to manage software development and track bugs.",
-                "version": "1.28.6"
+                "version": "1.28.6",
+                "installerUrl": "https://download.todesktop.com/200315glz2793v6/Linear%201.28.6%20-%20Build%20251002av7g3go28-arm64-mac.zip"
               },
               {
                 "name": "Logi Options+",
                 "slug": "logi-options+/darwin",
                 "platform": "darwin",
                 "description": "Software for managing Logitech devices.",
-                "version": "1.97.791262"
+                "version": "1.97.791262",
+                "installerUrl": "https://download01.logi.com/web/ftp/pub/techsupport/optionsplus/logioptionsplus_installer.zip"
+              },
+              {
+                "name": "Loom",
+                "slug": "loom/darwin",
+                "platform": "darwin",
+                "description": "Screen and video recording software.",
+                "version": "0.322.0",
+                "installerUrl": "https://packages.loom.com/desktop-packages/Loom-0.322.0-arm64.dmg"
               },
               {
                 "name": "Microsoft Edge",
                 "slug": "microsoft-edge/darwin",
                 "platform": "darwin",
                 "description": "Microsoft Edge is a secure, fast, and modern web browser built for productivity and compatibility.",
-                "version": "142.0.3595.80"
+                "version": "142.0.3595.80",
+                "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/16b75803-d8dd-40f0-a4a6-2dceab7a69cf/MicrosoftEdge-142.0.3595.80.dmg"
               },
               {
                 "name": "Microsoft Excel",
                 "slug": "microsoft-excel/darwin",
                 "platform": "darwin",
                 "description": "Microsoft Excel is the industry-standard spreadsheet software, perfect for data analysis, reporting, and visualization.",
-                "version": "16.103"
+                "version": "16.103",
+                "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.103.25110922_Installer.pkg"
               },
               {
                 "name": "Microsoft Outlook",
                 "slug": "microsoft-outlook/darwin",
                 "platform": "darwin",
                 "description": "Microsoft Outlook is an email client.",
-                "version": "16.103.25110922"
+                "version": "16.103.25110922",
+                "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.103.25110922_Installer.pkg"
+              },
+              {
+                "name": "Microsoft PowerPoint",
+                "slug": "microsoft-powerpoint/darwin",
+                "platform": "darwin",
+                "description": "Microsoft PowerPoint empowers you to create clean slideshow presentations and intricate pitch decks.",
+                "version": "16.103.25110922",
+                "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.103.25110922_Installer.pkg"
               },
               {
                 "name": "Microsoft Teams",
                 "slug": "microsoft-teams/darwin",
                 "platform": "darwin",
                 "description": "Microsoft Teams is an all-in-one collaboration platform for meetings, chats, calls, and document sharing.",
-                "version": "25290.302.4044.3989"
+                "version": "25290.302.4044.3989",
+                "installerUrl": "https://statics.teams.cdn.office.net/production-osx/25290.302.4044.3989/MicrosoftTeams.pkg"
               },
               {
                 "name": "Microsoft Word",
                 "slug": "microsoft-word/darwin",
                 "platform": "darwin",
                 "description": "Microsoft Word is the industry-standard word processor for creating, editing, and sharing professional documents.",
-                "version": "16.103"
+                "version": "16.103",
+                "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.103.25110922_Installer.pkg"
               },
               {
                 "name": "Notion",
                 "slug": "notion/darwin",
                 "platform": "darwin",
                 "description": "Notion is an all-in-one workspace for writing, planning, collaborating, and organizing.",
-                "version": "4.24.0"
+                "version": "4.24.0",
+                "installerUrl": "https://desktop-release.notion-static.com/Notion-4.24.0-arm64.dmg"
               },
               {
                 "name": "Nudge",
                 "slug": "nudge/darwin",
                 "platform": "darwin",
                 "description": "Nudge is an application for enforcing OS updates.",
-                "version": "2.0.12.81807"
+                "version": "2.0.12.81807",
+                "installerUrl": "https://github.com/macadmins/nudge/releases/download/v2.0.12.81807/Nudge-2.0.12.81807.pkg"
               },
               {
                 "name": "Omnissa Horizon Client",
                 "slug": "omnissa-horizon-client/darwin",
                 "platform": "darwin",
                 "description": "Omnissa Horizon Client is a tool end users use to access remote virtual desktops.",
-                "version": "8.16.0"
+                "version": "8.16.0",
+                "installerUrl": "https://download3.omnissa.com/software/CART26FQ2_MAC_2506/Omnissa-Horizon-Client-2506-8.16.0-16536825094.dmg"
               },
               {
                 "name": "P4V",
                 "slug": "p4v/darwin",
                 "platform": "darwin",
                 "description": "P4V is an app for accessing and managing Perforce version control repositories via a graphical interface.",
-                "version": "2025.3"
+                "version": "2025.3",
+                "installerUrl": "https://filehost.perforce.com/perforce/r25.3/bin.macosx12u/P4V.dmg"
               },
               {
                 "name": "PhpStorm",
                 "slug": "phpstorm/darwin",
                 "platform": "darwin",
                 "description": "PHP IDE by JetBrains",
-                "version": "2025.2.4"
+                "version": "2025.2.4",
+                "installerUrl": "https://download.jetbrains.com/webide/PhpStorm-2025.2.4-aarch64.dmg"
               },
               {
                 "name": "Postman",
                 "slug": "postman/darwin",
                 "platform": "darwin",
                 "description": "Postman is a collaboration platform for API development that simplifies building, testing, and sharing APIs.",
-                "version": "11.71.7"
+                "version": "11.71.7",
+                "installerUrl": "https://dl.pstmn.io/download/version/11.71.7/osx_arm64"
               },
               {
                 "name": "Pritunl",
                 "slug": "pritunl/darwin",
                 "platform": "darwin",
                 "description": "Pritunl is an OpenVPN client.",
-                "version": "1.3.4439.70"
+                "version": "1.3.4439.70",
+                "installerUrl": "https://github.com/pritunl/pritunl-client-electron/releases/download/1.3.4439.70/Pritunl.pkg.zip"
               },
               {
                 "name": "Privileges",
                 "slug": "privileges/darwin",
                 "platform": "darwin",
                 "description": "Privileges is an admin rights switcher for macOS.",
-                "version": "2.4.2"
+                "version": "2.4.2",
+                "installerUrl": "https://github.com/SAP/macOS-enterprise-privileges/releases/download/2.4.2/Privileges_2.4.2.pkg"
               },
               {
                 "name": "Proton Mail",
                 "slug": "proton-mail/darwin",
                 "platform": "darwin",
                 "description": "Proton Mail is a client for Proton Mail and Proton Calendar.",
-                "version": "1.9.1"
+                "version": "1.9.1",
+                "installerUrl": "https://proton.me/download/mail/macos/1.9.1/ProtonMail-desktop.dmg"
               },
               {
                 "name": "Rectangle",
                 "slug": "rectangle/darwin",
                 "platform": "darwin",
                 "description": "Move and resize windows using keyboard shortcuts or snap areas.",
-                "version": "0.92"
+                "version": "0.92",
+                "installerUrl": "https://github.com/rxhanson/Rectangle/releases/download/v0.92/Rectangle0.92.dmg"
               },
               {
                 "name": "Santa",
                 "slug": "santa/darwin",
                 "platform": "darwin",
                 "description": "Santa is a binary authorization system for macOS.",
-                "version": "2025.11"
+                "version": "2025.11",
+                "installerUrl": "https://github.com/northpolesec/santa/releases/download/2025.11/santa-2025.11.dmg"
               },
               {
                 "name": "Slack",
                 "slug": "slack/darwin",
                 "platform": "darwin",
                 "description": "Slack is a team communication and collaboration software for modern workplaces.",
-                "version": "4.47.59"
+                "version": "4.47.59",
+                "installerUrl": "https://downloads.slack-edge.com/desktop-releases/mac/arm64/4.47.59/Slack-4.47.59-macOS.dmg"
               },
               {
                 "name": "Slack",
                 "slug": "slack/windows",
                 "platform": "windows",
                 "description": "Slack is a team communication and collaboration software for modern workplaces.",
-                "version": "4.47.59"
+                "version": "4.47.59",
+                "installerUrl": "https://downloads.slack-edge.com/desktop-releases/windows/x64/4.47.59/slack-standalone-4.47.59.0.msi"
               },
               {
                 "name": "Spotify",
                 "slug": "spotify/darwin",
                 "platform": "darwin",
                 "description": "Spotify is a music streaming app.",
-                "version": "1.2.76.298"
+                "version": "1.2.76.298",
+                "installerUrl": "https://download.scdn.co/SpotifyARM64.dmg"
               },
               {
                 "name": "Sublime Text",
                 "slug": "sublime-text/darwin",
                 "platform": "darwin",
                 "description": "Sublime Text is a text editor for code, markup, and prose.",
-                "version": "4200"
+                "version": "4200",
+                "installerUrl": "https://download.sublimetext.com/sublime_text_build_4200_mac.zip"
               },
               {
                 "name": "TeamViewer",
                 "slug": "teamviewer/darwin",
                 "platform": "darwin",
                 "description": "TeamViewer is a versatile remote access and connectivity platform trusted for secure remote desktop control, support, and collaboration.",
-                "version": "15.71.4"
+                "version": "15.71.4",
+                "installerUrl": "https://dl.teamviewer.com/download/version_15x/update/15.71.4/TeamViewer.pkg"
               },
               {
                 "name": "TeamViewer",
                 "slug": "teamviewer/windows",
                 "platform": "windows",
                 "description": "TeamViewer is a versatile remote access and connectivity platform trusted for secure remote desktop control, support, and collaboration.",
-                "version": "15.71.4"
+                "version": "15.71.4",
+                "installerUrl": "https://download.teamviewer.com/download/version_15x/TeamViewer_Setup_x64.exe"
               },
               {
                 "name": "Tunnelblick",
                 "slug": "tunnelblick/darwin",
                 "platform": "darwin",
                 "description": "Tunnelblick is a free and open-source OpenVPN client.",
-                "version": "8.0"
+                "version": "8.0",
+                "installerUrl": "https://tunnelblick.net/iprelease/Tunnelblick_8.0_build_6300.dmg"
               },
               {
                 "name": "Microsoft Visual Studio Code",
                 "slug": "visual-studio-code/darwin",
                 "platform": "darwin",
                 "description": "Microsoft Visual Studio Code (VS Code) is an open-source, lightweight, and powerful code editor.",
-                "version": "1.106.0"
+                "version": "1.106.1",
+                "installerUrl": "https://update.code.visualstudio.com/1.106.1/darwin-arm64/stable"
               },
               {
                 "name": "Microsoft Visual Studio Code",
                 "slug": "visual-studio-code/windows",
                 "platform": "windows",
                 "description": "Microsoft Visual Studio Code (VS Code) is an open-source, lightweight, and powerful code editor.",
-                "version": "1.106.0"
+                "version": "1.106.1",
+                "installerUrl": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/cb1933bbc38d329b3595673a600fab5c7368f0a7/VSCodeSetup-x64-1.106.1.exe"
               },
               {
                 "name": "VNC Viewer",
                 "slug": "vnc-viewer/darwin",
                 "platform": "darwin",
                 "description": "",
-                "version": "7.15.1"
+                "version": "7.15.1",
+                "installerUrl": "https://downloads.realvnc.com/download/file/viewer.files/VNC-Viewer-7.15.1-MacOSX-universal.dmg"
               },
               {
                 "name": "Webex",
                 "slug": "webex/darwin",
                 "platform": "darwin",
                 "description": "Webex is a video communication and virtual meeting platform.",
-                "version": "45.11.0.33441"
+                "version": "45.11.0.33441",
+                "installerUrl": "https://binaries.webex.com/webex-macos-apple-silicon/Webex.dmg"
               },
               {
                 "name": "WhatsApp",
                 "slug": "whatsapp/darwin",
                 "platform": "darwin",
                 "description": "WhatsApp's native desktop client for seamless messaging and calling on macOS.",
-                "version": "25.34.17"
+                "version": "25.34.17",
+                "installerUrl": "https://web.whatsapp.com/desktop/mac_native/release/?version=2.25.34.17\u0026extension=zip\u0026configuration=Release\u0026branch=master\u0026is_buck=true"
               },
               {
                 "name": "Windows App",
                 "slug": "windows-app/darwin",
                 "platform": "darwin",
                 "description": "Windows App helps you connect to Windows from your Mac.",
-                "version": "11.2.7"
+                "version": "11.2.7",
+                "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Windows_App_11.2.7_installer.pkg"
               },
               {
                 "name": "Yubikey Manager",
                 "slug": "yubico-yubikey-manager/darwin",
                 "platform": "darwin",
                 "description": "YubiKey Manager is an application for configuring any YubiKey. Requires Rosetta 2. YubiKey Manager won't get security updates or bug fixes. It's End of Life: \u003ca target=\"_blank\" href=\"https://www.yubico.com/support/download/yubikey-manager/\"\u003ehttps://www.yubico.com/support/download/yubikey-manager\u003c/a\u003e",
-                "version": "1.2.5"
+                "version": "1.2.5",
+                "installerUrl": "https://developers.yubico.com/yubikey-manager-qt/Releases/yubikey-manager-qt-1.2.5-mac.pkg"
               },
               {
                 "name": "Zoom",
                 "slug": "zoom/darwin",
                 "platform": "darwin",
                 "description": "Zoom is a leading video communication platform for meetings, webinars, and collaboration.",
-                "version": "6.6.10.69071"
+                "version": "6.6.10.69071",
+                "installerUrl": "https://cdn.zoom.us/prod/6.6.10.69071/ZoomInstallerIT.pkg"
               },
               {
                 "name": "Zoom",
                 "slug": "zoom/windows",
                 "platform": "windows",
                 "description": "Zoom is a leading video communication platform for meetings, webinars, and collaboration.",
-                "version": "6.6.19875"
+                "version": "6.6.22255",
+                "installerUrl": "https://zoom.us/client/6.6.10.22255/ZoomInstallerFull.msi?archType=x64"
               }
             ];
         
@@ -2103,15 +2197,20 @@
                 const platformLabel = getPlatformLabel(app.platform);
                 const version = app.version || 'N/A';
                 const versionHtml = '<div class="app-version">' + escapeHtml(version) + '</div>';
+                const installerUrl = app.installerUrl || '';
                 
-                return '<div class="app-card" data-platform="' + escapeHtml(app.platform) + '">' +
+                // If installer URL exists, make it a clickable link, otherwise just a div
+                const cardTag = installerUrl ? 'a' : 'div';
+                const cardHref = installerUrl ? ' href="' + escapeHtml(installerUrl) + '" target="_blank" rel="noopener noreferrer"' : '';
+                
+                return '<' + cardTag + ' class="app-card" data-platform="' + escapeHtml(app.platform) + '"' + cardHref + '>' +
                     '<div class="app-icon" data-fallback="' + escapeHtml(fallbackText) + '">' +
                     '<img src="' + escapeHtml(iconUrl) + '" alt="' + escapeHtml(app.name) + '" onerror="handleIconError(this);">' +
                     '</div>' +
                     '<div class="app-name">' + escapeHtml(app.name) + '</div>' +
                     versionHtml +
                     '<span class="app-platform ' + escapeHtml(app.platform) + '">' + escapeHtml(platformLabel) + '</span>' +
-                    '</div>';
+                    '</' + cardTag + '>';
             }).join('');
         }
         
