@@ -427,8 +427,8 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
 </head>
 <body>
     <div class="container">
-        <h1>Fleet Maintained Apps Growth Over Time</h1>
-        <p class="subtitle">Continuous daily tracking since Fleet-maintained apps were introduced</p>
+        <h1>Fleet-Maintained App Library</h1>
+        <p class="subtitle">Continuous daily tracking of the Fleet-maintained app library</p>
         
         <div class="chart-container">
             <canvas id="cumulativeChart"></canvas>
