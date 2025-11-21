@@ -53,6 +53,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add data/apps_growth.csv index.html README.md
+          git add data/apps_growth.csv data/app_versions.json index.html README.md
           git commit -m "Update growth data - $(date +'%Y-%m-%d %H:%M:%S UTC')"
           git push

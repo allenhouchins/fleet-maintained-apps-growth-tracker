@@ -17,8 +17,10 @@ const (
 	repoOwner     = "fleetdm"
 	repoName      = "fleet"
 	appsJSONPath  = "ee/maintained-apps/outputs/apps.json"
+	appBaseURL    = "https://raw.githubusercontent.com/fleetdm/fleet/main/ee/maintained-apps/outputs"
 	outputDir     = "data"
 	outputCSV     = "data/apps_growth.csv"
+	versionsJSON  = "data/app_versions.json"
 	perPage       = 100 // GitHub API max per page
 )
 
@@ -37,6 +39,19 @@ type githubCommit struct {
 		} `json:"author"`
 		Message string `json:"message"`
 	} `json:"commit"`
+}
+
+type appVersionInfo struct {
+	Slug         string `json:"slug"`
+	Name         string `json:"name"`
+	Platform     string `json:"platform"`
+	Version      string `json:"version"`
+	InstallerURL string `json:"installerUrl"`
+}
+
+type appVersionsData struct {
+	LastUpdated string           `json:"lastUpdated"`
+	Apps        []appVersionInfo `json:"apps"`
 }
 
 func main() {
@@ -62,6 +77,13 @@ func main() {
 	if err := generateContinuousData(commits); err != nil {
 		fmt.Fprintf(os.Stderr, "❌ Error generating data: %v\n", err)
 		os.Exit(1)
+	}
+
+	// Track app versions
+	fmt.Println("\n📦 Tracking app versions...")
+	if err := trackAppVersions(); err != nil {
+		fmt.Fprintf(os.Stderr, "⚠️  Warning: failed to track app versions: %v\n", err)
+		// Don't exit - version tracking is optional
 	}
 
 	fmt.Println("\n✅ Data generation completed successfully!")
@@ -339,4 +361,187 @@ func generateContinuousData(commits []commitData) error {
 	fmt.Printf("📈 Final app count: %d\n", lastWrittenCount)
 
 	return nil
+}
+
+func trackAppVersions() error {
+	// Fetch current apps list
+	appsJSONURL := fmt.Sprintf("%s/%s/%s/main/%s", githubRawBase, repoOwner, repoName, appsJSONPath)
+	resp, err := http.Get(appsJSONURL)
+	if err != nil {
+		return fmt.Errorf("failed to fetch apps.json: %w", err)
+	}
+	defer resp.Body.Close()
+
+	if resp.StatusCode != http.StatusOK {
+		return fmt.Errorf("failed to fetch apps.json (status %d)", resp.StatusCode)
+	}
+
+	body, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return fmt.Errorf("failed to read response: %w", err)
+	}
+
+	var appsData struct {
+		Apps []struct {
+			Name     string `json:"name"`
+			Slug     string `json:"slug"`
+			Platform string `json:"platform"`
+		} `json:"apps"`
+	}
+	if err := json.Unmarshal(body, &appsData); err != nil {
+		return fmt.Errorf("failed to parse apps.json: %w", err)
+	}
+
+	// Fetch versions for each app
+	versions := make([]appVersionInfo, 0, len(appsData.Apps))
+	for _, app := range appsData.Apps {
+		version, installerURL, err := fetchAppVersionAndURL(app.Slug, app.Platform)
+		if err != nil {
+			// If version fetch fails, still include the app with empty version
+			fmt.Printf("  ⚠️  Warning: failed to get version for %s/%s: %v\n", app.Slug, app.Platform, err)
+			versions = append(versions, appVersionInfo{
+				Slug:         app.Slug,
+				Name:         app.Name,
+				Platform:     app.Platform,
+				Version:      "",
+				InstallerURL: "",
+			})
+			continue
+		}
+		versions = append(versions, appVersionInfo{
+			Slug:         app.Slug,
+			Name:         app.Name,
+			Platform:     app.Platform,
+			Version:      version,
+			InstallerURL: installerURL,
+		})
+		fmt.Printf("  ✓ %s (%s): %s\n", app.Name, app.Platform, version)
+	}
+
+	// Load existing versions to compare
+	existingVersions, _ := loadExistingVersions()
+
+	// Check if versions changed
+	versionsChanged := !versionsEqual(existingVersions, versions)
+
+	// Save new versions
+	versionsData := appVersionsData{
+		LastUpdated: time.Now().UTC().Format(time.RFC3339),
+		Apps:        versions,
+	}
+
+	jsonData, err := json.MarshalIndent(versionsData, "", "  ")
+	if err != nil {
+		return fmt.Errorf("failed to marshal versions: %w", err)
+	}
+
+	if err := os.WriteFile(versionsJSON, jsonData, 0644); err != nil {
+		return fmt.Errorf("failed to write versions file: %w", err)
+	}
+
+	if versionsChanged {
+		fmt.Printf("✅ Versions updated: %s\n", versionsJSON)
+		if existingVersions != nil {
+			fmt.Println("   📝 Version changes detected!")
+		}
+	} else {
+		fmt.Printf("✅ Versions checked: %s (no changes)\n", versionsJSON)
+	}
+
+	return nil
+}
+
+func fetchAppVersionAndURL(slug, platform string) (version string, installerURL string, err error) {
+	// Construct URL: slug format is "app-name/platform", we need "app-name/platform.json"
+	url := fmt.Sprintf("%s/%s.json", appBaseURL, slug)
+
+	resp, err := http.Get(url)
+	if err != nil {
+		return "", "", fmt.Errorf("failed to fetch version file: %w", err)
+	}
+	defer resp.Body.Close()
+
+	if resp.StatusCode != http.StatusOK {
+		return "", "", fmt.Errorf("failed to fetch version file (status %d)", resp.StatusCode)
+	}
+
+	body, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return "", "", fmt.Errorf("failed to read response: %w", err)
+	}
+
+	var versionData struct {
+		Versions []struct {
+			Version      string `json:"version"`
+			InstallerURL string `json:"installer_url"`
+		} `json:"versions"`
+	}
+	if err := json.Unmarshal(body, &versionData); err != nil {
+		return "", "", fmt.Errorf("failed to parse version JSON: %w", err)
+	}
+
+	if len(versionData.Versions) == 0 {
+		return "", "", fmt.Errorf("no versions found")
+	}
+
+	// Return the first (latest) version and installer URL
+	return versionData.Versions[0].Version, versionData.Versions[0].InstallerURL, nil
+}
+
+func loadExistingVersions() (*appVersionsData, error) {
+	data, err := os.ReadFile(versionsJSON)
+	if err != nil {
+		if os.IsNotExist(err) {
+			return nil, nil // File doesn't exist yet, that's okay
+		}
+		return nil, err
+	}
+
+	var versions appVersionsData
+	if err := json.Unmarshal(data, &versions); err != nil {
+		return nil, err
+	}
+
+	return &versions, nil
+}
+
+func versionsEqual(old, new []appVersionInfo) bool {
+	if old == nil {
+		return false // First time, consider it changed
+	}
+
+	if len(old) != len(new) {
+		return false
+	}
+
+	// Create maps for easier comparison
+	oldMap := make(map[string]appVersionInfo)
+	for _, v := range old {
+		oldMap[v.Slug] = v
+	}
+
+	newMap := make(map[string]appVersionInfo)
+	for _, v := range new {
+		newMap[v.Slug] = v
+	}
+
+	// Check if all slugs match
+	for slug, newVersion := range newMap {
+		oldVersion, exists := oldMap[slug]
+		if !exists {
+			return false // New app added
+		}
+		if oldVersion.Version != newVersion.Version {
+			return false // Version changed
+		}
+	}
+
+	// Check if any apps were removed
+	for slug := range oldMap {
+		if _, exists := newMap[slug]; !exists {
+			return false // App removed
+		}
+	}
+
+	return true
 }
