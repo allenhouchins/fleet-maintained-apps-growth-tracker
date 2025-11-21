@@ -427,7 +427,7 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
 </head>
 <body>
     <div class="container">
-        <h1>Fleet-Maintained App Library</h1>
+        <h1>Fleet-maintained app library</h1>
         <p class="subtitle">Continuous daily tracking of the Fleet-maintained app library</p>
         
         <div class="chart-container">
@@ -440,7 +440,7 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
         
         <div class="apps-section">
             <div class="apps-header">
-                <h2>Fleet-Maintained Apps</h2>
+                <h2>Fleet-maintained apps</h2>
                 <p class="apps-count"><span id="appsCount">0</span> and counting...</p>
             </div>
             <div class="apps-grid" id="appsGrid">
