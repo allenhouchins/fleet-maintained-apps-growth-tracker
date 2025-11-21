@@ -233,6 +233,22 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Continuous daily tracking of the Fleet-maintained app library">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fmalibrary.com/">
+    <meta property="og:title" content="Fleet-maintained app library">
+    <meta property="og:description" content="Continuous daily tracking of the Fleet-maintained app library">
+    <meta property="og:image" content="https://fmalibrary.com/cloud-city.png">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://fmalibrary.com/">
+    <meta name="twitter:title" content="Fleet-maintained app library">
+    <meta name="twitter:description" content="Continuous daily tracking of the Fleet-maintained app library">
+    <meta name="twitter:image" content="https://fmalibrary.com/cloud-city.png">
+    
     <title>Fleet Maintained Apps Growth</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
