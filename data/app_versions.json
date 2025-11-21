@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-21T19:06:00Z",
+  "lastUpdated": "2025-11-21T19:39:10Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -42,6 +42,13 @@
       "platform": "darwin",
       "version": "25.001.20937",
       "installerUrl": "https://ardownload2.adobe.com/pub/adobe/reader/mac/AcrobatDC/2500120937/AcroRdrDC_2500120937_MUI.dmg"
+    },
+    {
+      "slug": "adobe-acrobat-reader/windows",
+      "name": "Adobe Acrobat Reader",
+      "platform": "windows",
+      "version": "25.001.20937",
+      "installerUrl": "https://ardownload3.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2500120937/AcroRdrDCx642500120937_MUI.exe"
     },
     {
       "slug": "adobe-creative-cloud/darwin",
@@ -217,6 +224,13 @@
       "platform": "darwin",
       "version": "4.52.0",
       "installerUrl": "https://desktop.docker.com/mac/main/arm64/210994/Docker.dmg"
+    },
+    {
+      "slug": "docker/windows",
+      "name": "Docker Desktop",
+      "platform": "windows",
+      "version": "4.52.0",
+      "installerUrl": "https://desktop.docker.com/win/main/amd64/210994/Docker%20Desktop%20Installer.exe"
     },
     {
       "slug": "drawio/darwin",
@@ -434,6 +448,13 @@
       "platform": "darwin",
       "version": "25290.302.4044.3989",
       "installerUrl": "https://statics.teams.cdn.office.net/production-osx/25290.302.4044.3989/MicrosoftTeams.pkg"
+    },
+    {
+      "slug": "microsoft-teams/windows",
+      "name": "Microsoft Teams",
+      "platform": "windows",
+      "version": "25306.804.4102.7193",
+      "installerUrl": "https://installer.teams.static.microsoft/production-windows-x64/25306.804.4102.7193/MSTeams-x64.msix"
     },
     {
       "slug": "microsoft-word/darwin",
