@@ -422,7 +422,11 @@ func trackAppVersions() error {
 	existingVersions, _ := loadExistingVersions()
 
 	// Check if versions changed
-	versionsChanged := !versionsEqual(existingVersions, versions)
+	var existingApps []appVersionInfo
+	if existingVersions != nil {
+		existingApps = existingVersions.Apps
+	}
+	versionsChanged := !versionsEqual(existingApps, versions)
 
 	// Save new versions
 	versionsData := appVersionsData{
