@@ -241,10 +241,13 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
     <meta property="og:title" content="Fleet Maintained Apps Library">
     <meta property="og:description" content="Track the growth of Fleet-maintained apps over time. View app versions, download installers, and explore the expanding library of macOS and Windows applications.">
     <meta property="og:image" content="https://fmalibrary.com/cloud-city.png">
+    <meta property="og:image:secure_url" content="https://fmalibrary.com/cloud-city.png">
+    <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="1920">
     <meta property="og:image:height" content="1080">
     <meta property="og:image:alt" content="Fleet Maintained Apps Library - Growth tracking dashboard">
     <meta property="og:site_name" content="Fleet Maintained Apps Library">
+    <meta property="og:locale" content="en_US">
     
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
