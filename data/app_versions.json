@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-24T17:06:37Z",
+  "lastUpdated": "2025-11-24T18:09:35Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -33,8 +33,8 @@
       "slug": "abstract/darwin",
       "name": "Abstract",
       "platform": "darwin",
-      "version": "98.6.2",
-      "installerUrl": "https://downloads.goabstract.com/mac/Abstract-98.6.2.zip"
+      "version": "98.6.3",
+      "installerUrl": "https://downloads.goabstract.com/mac/Abstract-98.6.3.zip"
     },
     {
       "slug": "adobe-acrobat-reader/darwin",
@@ -173,15 +173,15 @@
       "slug": "cursor/darwin",
       "name": "Cursor",
       "platform": "darwin",
-      "version": "2.1.17",
-      "installerUrl": "https://downloads.cursor.com/production/6757269838ae9ac4caaa2be13f396fdfbcf1f9a6/darwin/arm64/Cursor-darwin-arm64.zip"
+      "version": "2.1.26",
+      "installerUrl": "https://downloads.cursor.com/production/f628a4761be40b8869ca61a6189cafd14756dff4/darwin/arm64/Cursor-darwin-arm64.zip"
     },
     {
       "slug": "cursor/windows",
       "name": "Cursor",
       "platform": "windows",
-      "version": "2.0.77",
-      "installerUrl": "https://downloads.cursor.com/production/ba90f2f88e4911312761abab9492c42442117cfe/win32/x64/system-setup/CursorSetup-x64-2.0.77.exe"
+      "version": "2.1.25",
+      "installerUrl": "https://downloads.cursor.com/production/7584ea888f7eb7bf76c9873a8f71b28f034a982e/win32/x64/system-setup/CursorSetup-x64-2.1.25.exe"
     },
     {
       "slug": "cyberduck/darwin",
@@ -250,8 +250,8 @@
       "slug": "figma/darwin",
       "name": "Figma",
       "platform": "darwin",
-      "version": "125.9.10",
-      "installerUrl": "https://desktop.figma.com/mac-arm/Figma-125.9.10.zip"
+      "version": "125.10.7",
+      "installerUrl": "https://desktop.figma.com/mac-arm/Figma-125.10.7.zip"
     },
     {
       "slug": "figma/windows",
@@ -399,6 +399,13 @@
       "platform": "darwin",
       "version": "0.323.1",
       "installerUrl": "https://packages.loom.com/desktop-packages/Loom-0.323.1-arm64.dmg"
+    },
+    {
+      "slug": "lulu/darwin",
+      "name": "LuLu",
+      "platform": "darwin",
+      "version": "4.2.0",
+      "installerUrl": "https://github.com/objective-see/LuLu/releases/download/v4.2.0/LuLu_4.2.0.dmg"
     },
     {
       "slug": "messenger/darwin",
@@ -600,8 +607,8 @@
       "slug": "slack/darwin",
       "name": "Slack",
       "platform": "darwin",
-      "version": "4.47.59",
-      "installerUrl": "https://downloads.slack-edge.com/desktop-releases/mac/arm64/4.47.59/Slack-4.47.59-macOS.dmg"
+      "version": "4.47.65",
+      "installerUrl": "https://downloads.slack-edge.com/desktop-releases/mac/arm64/4.47.65/Slack-4.47.65-macOS.dmg"
     },
     {
       "slug": "slack/windows",
@@ -643,14 +650,14 @@
       "name": "Telegram",
       "platform": "darwin",
       "version": "12.2.1",
-      "installerUrl": "https://osx.telegram.org/updates/Telegram-12.2.1.277150.app.zip"
+      "installerUrl": "https://osx.telegram.org/updates/Telegram-12.2.1.277174.app.zip"
     },
     {
       "slug": "telegram/windows",
       "name": "Telegram",
       "platform": "windows",
-      "version": "6.3.2",
-      "installerUrl": "https://td.telegram.org/tx64/tsetup-x64.6.3.2.exe"
+      "version": "6.3.3",
+      "installerUrl": "https://td.telegram.org/tx64/tsetup-x64.6.3.3.exe"
     },
     {
       "slug": "thunderbird/darwin",
@@ -677,8 +684,8 @@
       "slug": "visual-studio-code/windows",
       "name": "Microsoft Visual Studio Code",
       "platform": "windows",
-      "version": "1.106.1",
-      "installerUrl": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/cb1933bbc38d329b3595673a600fab5c7368f0a7/VSCodeSetup-x64-1.106.1.exe"
+      "version": "1.106.2",
+      "installerUrl": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/1e3c50d64110be466c0b4a45222e81d2c9352888/VSCodeSetup-x64-1.106.2.exe"
     },
     {
       "slug": "vnc-viewer/darwin",
