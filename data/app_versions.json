@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-25T16:08:14Z",
+  "lastUpdated": "2025-11-25T17:07:44Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -142,6 +142,13 @@
       "installerUrl": "https://binaries.webex.com/jabberclientmac/20251118100311/Install_Cisco-Jabber-Mac.pkg"
     },
     {
+      "slug": "citrix-workspace/darwin",
+      "name": "Citrix Workspace",
+      "platform": "darwin",
+      "version": "25.08.10",
+      "installerUrl": "https://downloadplugins.citrix.com/ReceiverUpdates/Prod/Receiver/Mac/CitrixWorkspaceAppUniversal25.08.10.31.pkg"
+    },
+    {
       "slug": "claude/darwin",
       "name": "Claude",
       "platform": "darwin",
@@ -194,8 +201,8 @@
       "slug": "cyberduck/darwin",
       "name": "Cyberduck",
       "platform": "darwin",
-      "version": "9.2.4",
-      "installerUrl": "https://update.cyberduck.io/Cyberduck-9.2.4.43667.zip"
+      "version": "9.3.0",
+      "installerUrl": "https://update.cyberduck.io/Cyberduck-9.3.0.44071.zip"
     },
     {
       "slug": "datagrip/darwin",
@@ -548,13 +555,6 @@
       "installerUrl": "https://download3.omnissa.com/software/CART26FQ2_MAC_2506/Omnissa-Horizon-Client-2506-8.16.0-16536825094.dmg"
     },
     {
-      "slug": "openvpn-connect/darwin",
-      "name": "OpenVPN Connect",
-      "platform": "darwin",
-      "version": "3.8.1",
-      "installerUrl": "https://swupdate.openvpn.net/downloads/connect/openvpn-connect-3.8.1.5790_signed.dmg"
-    },
-    {
       "slug": "opera/darwin",
       "name": "Opera",
       "platform": "darwin",
@@ -649,8 +649,8 @@
       "slug": "rubymine/darwin",
       "name": "RubyMine",
       "platform": "darwin",
-      "version": "2025.2.4",
-      "installerUrl": "https://download.jetbrains.com/ruby/RubyMine-2025.2.4-aarch64.dmg"
+      "version": "2025.2.5",
+      "installerUrl": "https://download.jetbrains.com/ruby/RubyMine-2025.2.5-aarch64.dmg"
     },
     {
       "slug": "rustrover/darwin",
@@ -684,8 +684,8 @@
       "slug": "slack/windows",
       "name": "Slack",
       "platform": "windows",
-      "version": "4.47.59",
-      "installerUrl": "https://downloads.slack-edge.com/desktop-releases/windows/x64/4.47.59/slack-standalone-4.47.59.0.msi"
+      "version": "4.47.65",
+      "installerUrl": "https://downloads.slack-edge.com/desktop-releases/windows/x64/4.47.65/slack-standalone-4.47.65.0.msi"
     },
     {
       "slug": "spotify/darwin",
