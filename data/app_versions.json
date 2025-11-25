@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-25T02:37:37Z",
+  "lastUpdated": "2025-11-25T03:28:36Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -686,6 +686,13 @@
       "platform": "darwin",
       "version": "6.7.4",
       "installerUrl": "https://files.tableplus.com/macos/642/TablePlus.dmg"
+    },
+    {
+      "slug": "tailscale-app/darwin",
+      "name": "Tailscale",
+      "platform": "darwin",
+      "version": "1.90.8",
+      "installerUrl": "https://pkgs.tailscale.com/stable/Tailscale-1.90.8-macos.pkg"
     },
     {
       "slug": "teamviewer/darwin",
