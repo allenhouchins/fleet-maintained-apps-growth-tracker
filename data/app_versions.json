@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-28T02:36:55Z",
+  "lastUpdated": "2025-11-28T03:26:02Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -243,8 +243,8 @@
       "slug": "docker/darwin",
       "name": "Docker Desktop",
       "platform": "darwin",
-      "version": "4.52.0",
-      "installerUrl": "https://desktop.docker.com/mac/main/arm64/210994/Docker.dmg"
+      "version": "4.53.0",
+      "installerUrl": "https://desktop.docker.com/mac/main/arm64/211793/Docker.dmg"
     },
     {
       "slug": "docker/windows",
@@ -649,8 +649,8 @@
       "slug": "rider/darwin",
       "name": "Rider",
       "platform": "darwin",
-      "version": "2025.3.0.2",
-      "installerUrl": "https://download.jetbrains.com/rider/JetBrains.Rider-2025.3.0.2-aarch64.dmg"
+      "version": "2025.3.0.3",
+      "installerUrl": "https://download.jetbrains.com/rider/JetBrains.Rider-2025.3.0.3-aarch64.dmg"
     },
     {
       "slug": "rubymine/darwin",
@@ -663,8 +663,8 @@
       "slug": "rustrover/darwin",
       "name": "RustRover",
       "platform": "darwin",
-      "version": "2025.2.4.1",
-      "installerUrl": "https://download.jetbrains.com/rustrover/RustRover-2025.2.4.1-aarch64.dmg"
+      "version": "2025.2.5",
+      "installerUrl": "https://download.jetbrains.com/rustrover/RustRover-2025.2.5-aarch64.dmg"
     },
     {
       "slug": "santa/darwin",
@@ -749,6 +749,20 @@
       "platform": "windows",
       "version": "6.3.4",
       "installerUrl": "https://td.telegram.org/tx64/tsetup-x64.6.3.4.exe"
+    },
+    {
+      "slug": "teleport-connect/darwin",
+      "name": "Teleport Connect",
+      "platform": "darwin",
+      "version": "18.4.1",
+      "installerUrl": "https://cdn.teleport.dev/Teleport%20Connect-18.4.1.dmg"
+    },
+    {
+      "slug": "teleport-suite/darwin",
+      "name": "Teleport Suite",
+      "platform": "darwin",
+      "version": "18.4.1",
+      "installerUrl": "https://cdn.teleport.dev/teleport-18.4.1.pkg"
     },
     {
       "slug": "thunderbird/darwin",
@@ -852,8 +866,8 @@
       "slug": "zed/darwin",
       "name": "Zed",
       "platform": "darwin",
-      "version": "0.214.5",
-      "installerUrl": "https://zed.dev/api/releases/stable/0.214.5/Zed-aarch64.dmg"
+      "version": "0.214.6",
+      "installerUrl": "https://zed.dev/api/releases/stable/0.214.6/Zed-aarch64.dmg"
     },
     {
       "slug": "zoom/darwin",
