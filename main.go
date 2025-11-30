@@ -12,17 +12,17 @@ import (
 )
 
 const (
-	githubAPIBase     = "https://api.github.com"
-	githubRawBase     = "https://raw.githubusercontent.com"
-	repoOwner         = "fleetdm"
-	repoName          = "fleet"
-	appsJSONPath      = "ee/maintained-apps/outputs/apps.json"
-	appBaseURL        = "https://raw.githubusercontent.com/fleetdm/fleet/main/ee/maintained-apps/outputs"
-	outputDir         = "data"
-	outputCSV         = "data/apps_growth.csv"
-	versionsJSON      = "data/app_versions.json"
+	githubAPIBase      = "https://api.github.com"
+	githubRawBase      = "https://raw.githubusercontent.com"
+	repoOwner          = "fleetdm"
+	repoName           = "fleet"
+	appsJSONPath       = "ee/maintained-apps/outputs/apps.json"
+	appBaseURL         = "https://raw.githubusercontent.com/fleetdm/fleet/main/ee/maintained-apps/outputs"
+	outputDir          = "data"
+	outputCSV          = "data/apps_growth.csv"
+	versionsJSON       = "data/app_versions.json"
 	versionHistoryJSON = "data/version_history.json"
-	perPage           = 100 // GitHub API max per page
+	perPage            = 100 // GitHub API max per page
 )
 
 type commitData struct {
@@ -559,6 +559,270 @@ func loadVersionHistory() (*versionHistory, error) {
 	}
 
 	return &history, nil
+}
+
+func buildHistoricalVersionChanges(commits []commitData) error {
+	// Get all commits that changed apps.json
+	fmt.Println("📥 Fetching commit SHAs for apps.json...")
+	commitSHAs, err := getAllCommitSHAs()
+	if err != nil {
+		return fmt.Errorf("failed to get commit SHAs: %w", err)
+	}
+
+	if len(commitSHAs) == 0 {
+		return fmt.Errorf("no commits found")
+	}
+
+	// Limit to most recent 50 commits to avoid timeouts
+	// Process in reverse (newest first) and take first 50
+	maxCommits := 50
+	if len(commitSHAs) > maxCommits {
+		// Take the most recent commits
+		commitSHAs = commitSHAs[len(commitSHAs)-maxCommits:]
+		fmt.Printf("⚠️  Limiting to most recent %d commits to avoid timeouts\n", maxCommits)
+	}
+
+	fmt.Printf("✅ Processing %d commits...\n", len(commitSHAs))
+
+	// Process commits in chronological order (oldest first)
+	// We'll compare each commit with the previous one
+	history, _ := loadVersionHistory()
+	previousVersions := make(map[string]appVersionInfo)
+	processedCount := 0
+
+	for i, commit := range commitSHAs {
+		// Show progress every 10 commits
+		if i%10 == 0 || i == len(commitSHAs)-1 {
+			fmt.Printf("📦 Processing commit %d/%d (%s)...\n", i+1, len(commitSHAs), commit.Sha[:7])
+		}
+
+		// Fetch app versions at this commit
+		currentVersions, err := getAppVersionsAtCommit(commit.Sha, commit.Date)
+		if err != nil {
+			// Skip commits where we can't fetch versions (they might not have version files yet)
+			continue
+		}
+
+		processedCount++
+
+		// Compare with previous versions
+		if len(previousVersions) > 0 {
+			for slug, currentVersion := range currentVersions {
+				previousVersion, exists := previousVersions[slug]
+
+				if !exists && currentVersion.Version != "" {
+					// New app added
+					change := versionChange{
+						Date:         commit.Date,
+						AppName:      currentVersion.Name,
+						Slug:         slug,
+						Platform:     currentVersion.Platform,
+						OldVersion:   "",
+						NewVersion:   currentVersion.Version,
+						InstallerURL: currentVersion.InstallerURL,
+					}
+					history.Changes = append(history.Changes, change)
+				} else if exists && previousVersion.Version != "" && currentVersion.Version != "" && previousVersion.Version != currentVersion.Version {
+					// Version changed
+					change := versionChange{
+						Date:         commit.Date,
+						AppName:      currentVersion.Name,
+						Slug:         slug,
+						Platform:     currentVersion.Platform,
+						OldVersion:   previousVersion.Version,
+						NewVersion:   currentVersion.Version,
+						InstallerURL: currentVersion.InstallerURL,
+					}
+					history.Changes = append(history.Changes, change)
+				}
+			}
+		}
+
+		// Update previous versions for next iteration
+		previousVersions = currentVersions
+
+		// Add a small delay to avoid rate limiting
+		if i < len(commitSHAs)-1 {
+			time.Sleep(100 * time.Millisecond)
+		}
+	}
+
+	fmt.Printf("✅ Processed %d commits successfully\n", processedCount)
+
+	// Sort by date (newest first)
+	sort.Slice(history.Changes, func(i, j int) bool {
+		return history.Changes[i].Date > history.Changes[j].Date
+	})
+
+	// Keep only last 1000 changes
+	if len(history.Changes) > 1000 {
+		history.Changes = history.Changes[:1000]
+	}
+
+	// Save history
+	jsonData, err := json.MarshalIndent(history, "", "  ")
+	if err != nil {
+		return fmt.Errorf("failed to marshal version history: %w", err)
+	}
+
+	if err := os.WriteFile(versionHistoryJSON, jsonData, 0644); err != nil {
+		return fmt.Errorf("failed to write version history: %w", err)
+	}
+
+	fmt.Printf("✅ Built historical version changes: %d entries\n", len(history.Changes))
+	return nil
+}
+
+type githubCommitWithSha struct {
+	Sha  string
+	Date string
+}
+
+func getAllCommitSHAs() ([]githubCommitWithSha, error) {
+	var commitSHAs []githubCommitWithSha
+	page := 1
+
+	for {
+		url := fmt.Sprintf("%s/repos/%s/%s/commits?path=%s&per_page=%d&page=%d",
+			githubAPIBase, repoOwner, repoName, appsJSONPath, perPage, page)
+
+		resp, err := http.Get(url)
+		if err != nil {
+			return nil, fmt.Errorf("failed to fetch commits: %w", err)
+		}
+		defer resp.Body.Close()
+
+		if resp.StatusCode != http.StatusOK {
+			body, _ := io.ReadAll(resp.Body)
+			return nil, fmt.Errorf("GitHub API error (status %d): %s", resp.StatusCode, string(body))
+		}
+
+		var githubCommits []githubCommit
+		if err := json.NewDecoder(resp.Body).Decode(&githubCommits); err != nil {
+			return nil, fmt.Errorf("failed to decode response: %w", err)
+		}
+
+		if len(githubCommits) == 0 {
+			break
+		}
+
+		for _, gc := range githubCommits {
+			commitTime, err := time.Parse(time.RFC3339, gc.Commit.Author.Date)
+			if err != nil {
+				continue
+			}
+			commitSHAs = append(commitSHAs, githubCommitWithSha{
+				Sha:  gc.Sha,
+				Date: commitTime.UTC().Format(time.RFC3339),
+			})
+		}
+
+		if len(githubCommits) < perPage {
+			break
+		}
+
+		page++
+	}
+
+	// Reverse to process oldest first (so we can track changes forward in time)
+	for i, j := 0, len(commitSHAs)-1; i < j; i, j = i+1, j-1 {
+		commitSHAs[i], commitSHAs[j] = commitSHAs[j], commitSHAs[i]
+	}
+
+	return commitSHAs, nil
+}
+
+func getAppVersionsAtCommit(sha, commitDate string) (map[string]appVersionInfo, error) {
+	// Fetch apps.json at this commit
+	appsJSONURL := fmt.Sprintf("%s/%s/%s/%s/%s", githubRawBase, repoOwner, repoName, sha, appsJSONPath)
+	resp, err := http.Get(appsJSONURL)
+	if err != nil {
+		return nil, fmt.Errorf("failed to fetch apps.json: %w", err)
+	}
+	defer resp.Body.Close()
+
+	if resp.StatusCode != http.StatusOK {
+		return nil, fmt.Errorf("failed to fetch apps.json (status %d)", resp.StatusCode)
+	}
+
+	body, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return nil, fmt.Errorf("failed to read response: %w", err)
+	}
+
+	var appsData struct {
+		Apps []struct {
+			Name     string `json:"name"`
+			Slug     string `json:"slug"`
+			Platform string `json:"platform"`
+		} `json:"apps"`
+	}
+	if err := json.Unmarshal(body, &appsData); err != nil {
+		return nil, fmt.Errorf("failed to parse apps.json: %w", err)
+	}
+
+	versions := make(map[string]appVersionInfo)
+	for _, app := range appsData.Apps {
+		// Try to fetch version at this commit
+		version, installerURL, err := fetchAppVersionAndURLAtCommit(sha, app.Slug, app.Platform)
+		if err != nil {
+			// If version fetch fails, still include the app
+			versions[app.Slug] = appVersionInfo{
+				Slug:         app.Slug,
+				Name:         app.Name,
+				Platform:     app.Platform,
+				Version:      "",
+				InstallerURL: "",
+			}
+			continue
+		}
+		versions[app.Slug] = appVersionInfo{
+			Slug:         app.Slug,
+			Name:         app.Name,
+			Platform:     app.Platform,
+			Version:      version,
+			InstallerURL: installerURL,
+		}
+	}
+
+	return versions, nil
+}
+
+func fetchAppVersionAndURLAtCommit(sha, slug, platform string) (version string, installerURL string, err error) {
+	// Try to fetch version file at this commit
+	url := fmt.Sprintf("%s/%s/%s/%s/ee/maintained-apps/outputs/%s.json", githubRawBase, repoOwner, repoName, sha, slug)
+
+	resp, err := http.Get(url)
+	if err != nil {
+		return "", "", fmt.Errorf("failed to fetch version file: %w", err)
+	}
+	defer resp.Body.Close()
+
+	if resp.StatusCode != http.StatusOK {
+		return "", "", fmt.Errorf("failed to fetch version file (status %d)", resp.StatusCode)
+	}
+
+	body, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return "", "", fmt.Errorf("failed to read response: %w", err)
+	}
+
+	var versionData struct {
+		Versions []struct {
+			Version      string `json:"version"`
+			InstallerURL string `json:"installer_url"`
+		} `json:"versions"`
+	}
+	if err := json.Unmarshal(body, &versionData); err != nil {
+		return "", "", fmt.Errorf("failed to parse version JSON: %w", err)
+	}
+
+	if len(versionData.Versions) == 0 {
+		return "", "", fmt.Errorf("no versions found")
+	}
+
+	// Return the first (latest) version and installer URL
+	return versionData.Versions[0].Version, versionData.Versions[0].InstallerURL, nil
 }
 
 func fetchAppVersionAndURL(slug, platform string) (version string, installerURL string, err error) {
