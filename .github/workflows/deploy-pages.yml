@@ -8,6 +8,8 @@ on:
       - 'index.html'
       - 'data/apps_growth.csv'
       - 'data/app_versions.json'
+      - 'data/version_history.json'
+      - 'feed.xml'
   workflow_dispatch:
   workflow_run:
     workflows: ["Update Growth Data"]
@@ -42,8 +44,8 @@ jobs:
         id: check-changes
         run: |
           if [ "${{ github.event_name }}" = "workflow_run" ]; then
-            # Check if index.html, data/apps_growth.csv, or data/app_versions.json changed in the last commit
-            if git diff HEAD~1 HEAD --name-only | grep -E "(index\.html|data/apps_growth\.csv|data/app_versions\.json)" > /dev/null; then
+            # Check if index.html, data/apps_growth.csv, data/app_versions.json, data/version_history.json, or feed.xml changed in the last commit
+            if git diff HEAD~1 HEAD --name-only | grep -E "(index\.html|data/apps_growth\.csv|data/app_versions\.json|data/version_history\.json|feed\.xml)" > /dev/null; then
               echo "changed=true" >> $GITHUB_OUTPUT
             else
               echo "changed=false" >> $GITHUB_OUTPUT

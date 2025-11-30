@@ -12,16 +12,17 @@ import (
 )
 
 const (
-	githubAPIBase = "https://api.github.com"
-	githubRawBase = "https://raw.githubusercontent.com"
-	repoOwner     = "fleetdm"
-	repoName      = "fleet"
-	appsJSONPath  = "ee/maintained-apps/outputs/apps.json"
-	appBaseURL    = "https://raw.githubusercontent.com/fleetdm/fleet/main/ee/maintained-apps/outputs"
-	outputDir     = "data"
-	outputCSV     = "data/apps_growth.csv"
-	versionsJSON  = "data/app_versions.json"
-	perPage       = 100 // GitHub API max per page
+	githubAPIBase     = "https://api.github.com"
+	githubRawBase     = "https://raw.githubusercontent.com"
+	repoOwner         = "fleetdm"
+	repoName          = "fleet"
+	appsJSONPath      = "ee/maintained-apps/outputs/apps.json"
+	appBaseURL        = "https://raw.githubusercontent.com/fleetdm/fleet/main/ee/maintained-apps/outputs"
+	outputDir         = "data"
+	outputCSV         = "data/apps_growth.csv"
+	versionsJSON      = "data/app_versions.json"
+	versionHistoryJSON = "data/version_history.json"
+	perPage           = 100 // GitHub API max per page
 )
 
 type commitData struct {
@@ -52,6 +53,20 @@ type appVersionInfo struct {
 type appVersionsData struct {
 	LastUpdated string           `json:"lastUpdated"`
 	Apps        []appVersionInfo `json:"apps"`
+}
+
+type versionChange struct {
+	Date         string `json:"date"`
+	AppName      string `json:"appName"`
+	Slug         string `json:"slug"`
+	Platform     string `json:"platform"`
+	OldVersion   string `json:"oldVersion"`
+	NewVersion   string `json:"newVersion"`
+	InstallerURL string `json:"installerUrl"`
+}
+
+type versionHistory struct {
+	Changes []versionChange `json:"changes"`
 }
 
 func main() {
@@ -447,12 +462,103 @@ func trackAppVersions() error {
 		fmt.Printf("✅ Versions updated: %s\n", versionsJSON)
 		if existingVersions != nil {
 			fmt.Println("   📝 Version changes detected!")
+			// Track version changes for RSS feed
+			if err := trackVersionChanges(existingApps, versions); err != nil {
+				fmt.Printf("⚠️  Warning: failed to track version changes: %v\n", err)
+			}
 		}
 	} else {
 		fmt.Printf("✅ Versions checked: %s (no changes)\n", versionsJSON)
 	}
 
 	return nil
+}
+
+func trackVersionChanges(oldVersions, newVersions []appVersionInfo) error {
+	// Load existing history
+	history, err := loadVersionHistory()
+	if err != nil {
+		history = &versionHistory{Changes: []versionChange{}}
+	}
+
+	// Create maps for comparison
+	oldMap := make(map[string]appVersionInfo)
+	for _, v := range oldVersions {
+		oldMap[v.Slug] = v
+	}
+
+	newMap := make(map[string]appVersionInfo)
+	for _, v := range newVersions {
+		newMap[v.Slug] = v
+	}
+
+	now := time.Now().UTC().Format(time.RFC3339)
+
+	// Detect version changes
+	for slug, newVersion := range newMap {
+		oldVersion, exists := oldMap[slug]
+		if exists && oldVersion.Version != "" && newVersion.Version != "" && oldVersion.Version != newVersion.Version {
+			// Version changed
+			change := versionChange{
+				Date:         now,
+				AppName:      newVersion.Name,
+				Slug:         slug,
+				Platform:     newVersion.Platform,
+				OldVersion:   oldVersion.Version,
+				NewVersion:   newVersion.Version,
+				InstallerURL: newVersion.InstallerURL,
+			}
+			history.Changes = append(history.Changes, change)
+			fmt.Printf("   📌 %s: %s → %s\n", newVersion.Name, oldVersion.Version, newVersion.Version)
+		} else if !exists && newVersion.Version != "" {
+			// New app added
+			change := versionChange{
+				Date:         now,
+				AppName:      newVersion.Name,
+				Slug:         slug,
+				Platform:     newVersion.Platform,
+				OldVersion:   "",
+				NewVersion:   newVersion.Version,
+				InstallerURL: newVersion.InstallerURL,
+			}
+			history.Changes = append(history.Changes, change)
+			fmt.Printf("   🆕 New app: %s (%s)\n", newVersion.Name, newVersion.Version)
+		}
+	}
+
+	// Keep only last 1000 changes to prevent file from growing too large
+	if len(history.Changes) > 1000 {
+		history.Changes = history.Changes[len(history.Changes)-1000:]
+	}
+
+	// Save history
+	jsonData, err := json.MarshalIndent(history, "", "  ")
+	if err != nil {
+		return fmt.Errorf("failed to marshal version history: %w", err)
+	}
+
+	if err := os.WriteFile(versionHistoryJSON, jsonData, 0644); err != nil {
+		return fmt.Errorf("failed to write version history: %w", err)
+	}
+
+	return nil
+}
+
+func loadVersionHistory() (*versionHistory, error) {
+	data, err := os.ReadFile(versionHistoryJSON)
+	if err != nil {
+		if os.IsNotExist(err) {
+			return &versionHistory{Changes: []versionChange{}}, nil
+		}
+		return nil, err
+	}
+
+	var history versionHistory
+	if err := json.Unmarshal(data, &history); err != nil {
+		return nil, err
+	}
+
+	return &history, nil
 }
 
 func fetchAppVersionAndURL(slug, platform string) (version string, installerURL string, err error) {

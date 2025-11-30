@@ -257,6 +257,9 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
     <meta name="twitter:image" content="https://fmalibrary.com/cloud-city.png">
     <meta name="twitter:image:alt" content="Fleet Maintained Apps Library - Growth tracking dashboard">
     
+    <!-- RSS Feed -->
+    <link rel="alternate" type="application/rss+xml" title="Fleet Maintained Apps - Version Updates" href="https://fmalibrary.com/feed.xml">
+    
     <title>Fleet Maintained Apps Growth</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
@@ -274,14 +277,25 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
             padding: 30px;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: relative;
+        }
+        .header-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 30px;
+        }
+        .header-content {
+            flex: 1;
         }
         h1 {
             color: #1e293b;
             margin-bottom: 10px;
+            margin-top: 0;
         }
         .subtitle {
             color: #64748b;
-            margin-bottom: 30px;
+            margin-bottom: 0;
         }
         .chart-container {
             position: relative;
@@ -433,7 +447,41 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
         .apps-grid.hidden {
             display: none;
         }
+        .rss-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 20px;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 500;
+            font-size: 14px;
+            transition: all 0.2s ease;
+            flex-shrink: 0;
+        }
+        .rss-button:hover {
+            background: #1d4ed8;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px rgba(37, 99, 235, 0.3);
+        }
+        .rss-button svg {
+            width: 18px;
+            height: 18px;
+            fill: currentColor;
+            flex-shrink: 0;
+        }
         @media (max-width: 768px) {
+            .header-section {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            .rss-button {
+                margin-top: 15px;
+                width: 100%;
+                justify-content: center;
+            }
             .apps-grid {
                 grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
                 gap: 15px;
@@ -451,8 +499,18 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
 </head>
 <body>
     <div class="container">
-        <h1>Fleet-maintained app library</h1>
-        <p class="subtitle">Continuous daily tracking of the Fleet-maintained app library</p>
+        <div class="header-section">
+            <div class="header-content">
+                <h1>Fleet-maintained app library</h1>
+                <p class="subtitle">Continuous daily tracking of the Fleet-maintained app library</p>
+            </div>
+            <a href="feed.xml" class="rss-button" title="Subscribe to version updates">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795.001 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-3.368c10.58.046 19.152 8.594 19.183 19.188h4.817c-.03-13.231-10.755-23.954-24-24v4.812z"/>
+                </svg>
+                Subscribe to updates
+            </a>
+        </div>
         
         <div class="chart-container">
             <canvas id="cumulativeChart"></canvas>

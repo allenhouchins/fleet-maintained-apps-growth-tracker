@@ -39,6 +39,10 @@ jobs:
         run: |
           go run generate_readme.go
 
+      - name: Generate RSS feed
+        run: |
+          go run generate_rss.go
+
       - name: Check for changes
         id: verify-changed-files
         run: |
@@ -53,6 +57,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add data/apps_growth.csv data/app_versions.json index.html README.md
+          git add data/apps_growth.csv data/app_versions.json data/version_history.json index.html feed.xml README.md
           git commit -m "Update growth data - $(date +'%Y-%m-%d %H:%M:%S UTC')"
           git push
