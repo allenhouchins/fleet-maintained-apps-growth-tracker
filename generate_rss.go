@@ -124,7 +124,7 @@ func generateRSSContent(currentVersions *appVersionsData, changes []versionChang
 	rss := `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Fleet Maintained Apps - Version Updates</title>
+    <title>Fleet-maintained apps</title>
     <link>` + siteURL + `</link>
     <description>Track version updates for Fleet-maintained applications. Get notified when apps are updated with new versions.</description>
     <language>en-us</language>
@@ -132,7 +132,7 @@ func generateRSSContent(currentVersions *appVersionsData, changes []versionChang
     <atom:link href="` + siteURL + `/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>` + siteURL + `/cloud-city.png</url>
-      <title>Fleet Maintained Apps</title>
+      <title>Fleet-maintained apps</title>
       <link>` + siteURL + `</link>
     </image>
 `
