@@ -126,7 +126,7 @@ func generateRSSContent(currentVersions *appVersionsData, changes []versionChang
   <channel>
     <title>Fleet-maintained apps</title>
     <link>` + siteURL + `</link>
-    <description>Track version updates for Fleet-maintained applications. Get notified when apps are updated with new versions.</description>
+    <description>Track version updates and new app additions for Fleet-maintained apps. Get notified when apps are updated with new versions or when new apps are added to the library.</description>
     <language>en-us</language>
     <lastBuildDate>` + lastBuildDate + `</lastBuildDate>
     <atom:link href="` + siteURL + `/feed.xml" rel="self" type="application/rss+xml"/>
