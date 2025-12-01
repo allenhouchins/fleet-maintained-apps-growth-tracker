@@ -64,9 +64,9 @@ func generateRSS() error {
 		return changes[i].Date > changes[j].Date
 	})
 
-	// Limit to last 50 changes for RSS feed
-	if len(changes) > 50 {
-		changes = changes[:50]
+	// Limit to last 500 changes for RSS feed
+	if len(changes) > 500 {
+		changes = changes[:500]
 	}
 
 	// Generate RSS feed
