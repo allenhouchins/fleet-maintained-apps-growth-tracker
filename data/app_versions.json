@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-01T17:28:21Z",
+  "lastUpdated": "2025-12-01T18:09:36Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -68,7 +68,7 @@
       "slug": "android-studio/darwin",
       "name": "Android Studio",
       "platform": "darwin",
-      "version": "2025.2",
+      "version": "2025.2.1.8",
       "installerUrl": "https://redirector.gvt1.com/edgedl/android/studio/install/2025.2.1.8/android-studio-2025.2.1.8-mac_arm.dmg"
     },
     {
@@ -208,15 +208,15 @@
       "slug": "cursor/darwin",
       "name": "Cursor",
       "platform": "darwin",
-      "version": "2.1.39",
-      "installerUrl": "https://downloads.cursor.com/production/60d42bed27e5775c43ec0428d8c653c49e58e26a/darwin/arm64/Cursor-darwin-arm64.zip"
+      "version": "2.1.42",
+      "installerUrl": "https://downloads.cursor.com/production/2e353c5f5b30150ff7b874dee5a87660693d9de6/darwin/arm64/Cursor-darwin-arm64.zip"
     },
     {
       "slug": "cursor/windows",
       "name": "Cursor",
       "platform": "windows",
-      "version": "2.1.36",
-      "installerUrl": "https://downloads.cursor.com/production/9cd7c8b6cebcbccc1242df211dee45a4b6fe15e4/win32/x64/system-setup/CursorSetup-x64-2.1.36.exe"
+      "version": "2.1.42",
+      "installerUrl": "https://downloads.cursor.com/production/2e353c5f5b30150ff7b874dee5a87660693d9de6/win32/x64/system-setup/CursorSetup-x64-2.1.42.exe"
     },
     {
       "slug": "cyberduck/darwin",
@@ -744,6 +744,13 @@
       "installerUrl": "https://download.sublimetext.com/sublime_text_build_4200_mac.zip"
     },
     {
+      "slug": "sublime-text/windows",
+      "name": "Sublime Text",
+      "platform": "windows",
+      "version": "4.0.0.420000",
+      "installerUrl": "https://download.sublimetext.com/sublime_text_build_4200_x64_setup.exe"
+    },
+    {
       "slug": "tableplus/darwin",
       "name": "TablePlus",
       "platform": "darwin",
@@ -768,8 +775,8 @@
       "slug": "teamviewer/darwin",
       "name": "TeamViewer",
       "platform": "darwin",
-      "version": "15.71.4",
-      "installerUrl": "https://dl.teamviewer.com/download/version_15x/update/15.71.4/TeamViewer.pkg"
+      "version": "15.72.3",
+      "installerUrl": "https://dl.teamviewer.com/download/version_15x/update/15.72.3/TeamViewer.pkg"
     },
     {
       "slug": "teamviewer/windows",
@@ -922,15 +929,15 @@
       "slug": "zoom/darwin",
       "name": "Zoom",
       "platform": "darwin",
-      "version": "6.6.10.69071",
-      "installerUrl": "https://cdn.zoom.us/prod/6.6.10.69071/ZoomInstallerIT.pkg"
+      "version": "6.6.11.70003",
+      "installerUrl": "https://cdn.zoom.us/prod/6.6.11.70003/ZoomInstallerIT.pkg"
     },
     {
       "slug": "zoom/windows",
       "name": "Zoom",
       "platform": "windows",
-      "version": "6.6.22255",
-      "installerUrl": "https://zoom.us/client/6.6.10.22255/ZoomInstallerFull.msi?archType=x64"
+      "version": "6.6.23272",
+      "installerUrl": "https://zoom.us/client/6.6.11.23272/ZoomInstallerFull.msi?archType=x64"
     }
   ]
 }
