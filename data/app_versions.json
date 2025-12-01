@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-01T21:06:04Z",
+  "lastUpdated": "2025-12-01T22:06:02Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -65,18 +65,18 @@
       "installerUrl": "https://ccmdls.adobe.com/AdobeProducts/StandaloneBuilds/ACCC/ESD/6.8.0/821/macarm64/ACCCx6_8_0_821.dmg"
     },
     {
-      "slug": "android-studio/darwin",
-      "name": "Android Studio",
-      "platform": "darwin",
-      "version": "2025.2.1.8",
-      "installerUrl": "https://redirector.gvt1.com/edgedl/android/studio/install/2025.2.1.8/android-studio-2025.2.1.8-mac_arm.dmg"
-    },
-    {
       "slug": "adobe-digital-editions/darwin",
       "name": "Adobe Digital Editions",
       "platform": "darwin",
       "version": "4.5.12",
       "installerUrl": "https://adedownload.adobe.com/pub/adobe/digitaleditions/ADE_4.5_Installer.dmg"
+    },
+    {
+      "slug": "android-studio/darwin",
+      "name": "Android Studio",
+      "platform": "darwin",
+      "version": "2025.2.1.8",
+      "installerUrl": "https://redirector.gvt1.com/edgedl/android/studio/install/2025.2.1.8/android-studio-2025.2.1.8-mac_arm.dmg"
     },
     {
       "slug": "anydesk/darwin",
@@ -623,6 +623,13 @@
       "platform": "darwin",
       "version": "2025.2.5",
       "installerUrl": "https://download.jetbrains.com/webide/PhpStorm-2025.2.5-aarch64.dmg"
+    },
+    {
+      "slug": "podman-desktop/darwin",
+      "name": "Podman Desktop",
+      "platform": "darwin",
+      "version": "1.23.1",
+      "installerUrl": "https://github.com/containers/podman-desktop/releases/download/v1.23.1/podman-desktop-1.23.1-arm64.dmg"
     },
     {
       "slug": "postman/darwin",
