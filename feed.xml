@@ -5,13 +5,20 @@
     <link>https://fmalibrary.com</link>
     <description>Track version updates and new app additions for Fleet-maintained apps. Get notified when apps are updated with new versions or when new apps are added to the library.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Dec 2025 17:08:34 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Dec 2025 17:28:21 +0000</lastBuildDate>
     <atom:link href="https://fmalibrary.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://fmalibrary.com/cloud-city.png</url>
       <title>Fleet-maintained apps</title>
       <link>https://fmalibrary.com</link>
     </image>
+    <item>
+      <title>New App: Android Studio 2025.2 (Mac)</title>
+      <link>https://fmalibrary.com</link>
+      <description>Android Studio has been added to the Fleet-maintained apps library with version 2025.2 on December 1, 2025. &lt;a href=&quot;https://redirector.gvt1.com/edgedl/android/studio/install/2025.2.1.8/android-studio-2025.2.1.8-mac_arm.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Mon, 01 Dec 2025 17:28:21 +0000</pubDate>
+      <guid isPermaLink="false">android-studio/darwin--2025.2</guid>
+    </item>
     <item>
       <title>New App: GitHub Desktop 3.5.4 (Windows)</title>
       <link>https://fmalibrary.com</link>
@@ -69,13 +76,6 @@
       <guid isPermaLink="false">docker/darwin-4.52.0-4.53.0</guid>
     </item>
     <item>
-      <title>PyCharm Community Edition 2025.2.4 → 2025.2.5 (Mac)</title>
-      <link>https://fmalibrary.com</link>
-      <description>PyCharm Community Edition has been updated from version 2025.2.4 to 2025.2.5 on November 29, 2025. &lt;a href=&quot;https://download.jetbrains.com/python/pycharm-community-2025.2.5-aarch64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Sat, 29 Nov 2025 03:33:54 +0000</pubDate>
-      <guid isPermaLink="false">pycharm-ce/darwin-2025.2.4-2025.2.5</guid>
-    </item>
-    <item>
       <title>DataGrip 2025.2.4 → 2025.2.5 (Mac)</title>
       <link>https://fmalibrary.com</link>
       <description>DataGrip has been updated from version 2025.2.4 to 2025.2.5 on November 29, 2025. &lt;a href=&quot;https://download.jetbrains.com/datagrip/datagrip-2025.2.5-aarch64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
@@ -118,6 +118,13 @@
       <guid isPermaLink="false">postman/darwin-11.73.4-11.73.5</guid>
     </item>
     <item>
+      <title>PyCharm Community Edition 2025.2.4 → 2025.2.5 (Mac)</title>
+      <link>https://fmalibrary.com</link>
+      <description>PyCharm Community Edition has been updated from version 2025.2.4 to 2025.2.5 on November 29, 2025. &lt;a href=&quot;https://download.jetbrains.com/python/pycharm-community-2025.2.5-aarch64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Sat, 29 Nov 2025 03:33:54 +0000</pubDate>
+      <guid isPermaLink="false">pycharm-ce/darwin-2025.2.4-2025.2.5</guid>
+    </item>
+    <item>
       <title>RustRover 2025.2.4.1 → 2025.2.5 (Mac)</title>
       <link>https://fmalibrary.com</link>
       <description>RustRover has been updated from version 2025.2.4.1 to 2025.2.5 on November 29, 2025. &lt;a href=&quot;https://download.jetbrains.com/rustrover/RustRover-2025.2.5-aarch64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
@@ -132,18 +139,11 @@
       <guid isPermaLink="false">microsoft-outlook/darwin-16.103.25110922-16.103.25112216</guid>
     </item>
     <item>
-      <title>New App: Teleport Suite 18.4.1 (Mac)</title>
+      <title>Tailscale 1.90.8 → 1.90.9 (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>Teleport Suite has been added to the Fleet-maintained apps library with version 18.4.1 on November 28, 2025. &lt;a href=&quot;https://cdn.teleport.dev/teleport-18.4.1.pkg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Tailscale has been updated from version 1.90.8 to 1.90.9 on November 28, 2025. &lt;a href=&quot;https://pkgs.tailscale.com/stable/Tailscale-1.90.9-macos.pkg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Fri, 28 Nov 2025 03:09:03 +0000</pubDate>
-      <guid isPermaLink="false">teleport-suite/darwin--18.4.1</guid>
-    </item>
-    <item>
-      <title>ChatGPT Atlas 1.2025.316.6 → 1.2025.323.6 (Mac)</title>
-      <link>https://fmalibrary.com</link>
-      <description>ChatGPT Atlas has been updated from version 1.2025.316.6 to 1.2025.323.6 on November 28, 2025. &lt;a href=&quot;https://persistent.oaistatic.com/atlas/public/ChatGPT_Atlas_Desktop_public_1.2025.323.6_20251124201745000.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Fri, 28 Nov 2025 03:09:03 +0000</pubDate>
-      <guid isPermaLink="false">chatgpt-atlas/darwin-1.2025.316.6-1.2025.323.6</guid>
+      <guid isPermaLink="false">tailscale-app/darwin-1.90.8-1.90.9</guid>
     </item>
     <item>
       <title>Microsoft Visual Studio Code 1.106.2 → 1.106.3 (Mac)</title>
@@ -230,18 +230,18 @@
       <guid isPermaLink="false">teamviewer/windows-15.71.4-15.72.3</guid>
     </item>
     <item>
-      <title>Mozilla Firefox 145.0.1 → 145.0.2 (Windows)</title>
+      <title>New App: Teleport Suite 18.4.1 (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>Mozilla Firefox has been updated from version 145.0.1 to 145.0.2 on November 28, 2025. &lt;a href=&quot;https://download-installer.cdn.mozilla.net/pub/firefox/releases/145.0.2/win64/en-US/Firefox%20Setup%20145.0.2.exe&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Teleport Suite has been added to the Fleet-maintained apps library with version 18.4.1 on November 28, 2025. &lt;a href=&quot;https://cdn.teleport.dev/teleport-18.4.1.pkg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Fri, 28 Nov 2025 03:09:03 +0000</pubDate>
-      <guid isPermaLink="false">firefox/windows-145.0.1-145.0.2</guid>
+      <guid isPermaLink="false">teleport-suite/darwin--18.4.1</guid>
     </item>
     <item>
-      <title>Tailscale 1.90.8 → 1.90.9 (Mac)</title>
+      <title>Figma 125.10.5 → 125.10.8 (Windows)</title>
       <link>https://fmalibrary.com</link>
-      <description>Tailscale has been updated from version 1.90.8 to 1.90.9 on November 28, 2025. &lt;a href=&quot;https://pkgs.tailscale.com/stable/Tailscale-1.90.9-macos.pkg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Figma has been updated from version 125.10.5 to 125.10.8 on November 28, 2025. &lt;a href=&quot;https://desktop.figma.com/win/build/Figma-125.10.8.exe&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Fri, 28 Nov 2025 03:09:03 +0000</pubDate>
-      <guid isPermaLink="false">tailscale-app/darwin-1.90.8-1.90.9</guid>
+      <guid isPermaLink="false">figma/windows-125.10.5-125.10.8</guid>
     </item>
     <item>
       <title>Postman 11.72.9 → 11.73.4 (Mac)</title>
@@ -265,11 +265,11 @@
       <guid isPermaLink="false">rancher/darwin-1.20.1-1.21.0</guid>
     </item>
     <item>
-      <title>Figma 125.10.5 → 125.10.8 (Windows)</title>
+      <title>Telegram 6.3.3 → 6.3.4 (Windows)</title>
       <link>https://fmalibrary.com</link>
-      <description>Figma has been updated from version 125.10.5 to 125.10.8 on November 28, 2025. &lt;a href=&quot;https://desktop.figma.com/win/build/Figma-125.10.8.exe&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Telegram has been updated from version 6.3.3 to 6.3.4 on November 28, 2025. &lt;a href=&quot;https://td.telegram.org/tx64/tsetup-x64.6.3.4.exe&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Fri, 28 Nov 2025 03:09:03 +0000</pubDate>
-      <guid isPermaLink="false">figma/windows-125.10.5-125.10.8</guid>
+      <guid isPermaLink="false">telegram/windows-6.3.3-6.3.4</guid>
     </item>
     <item>
       <title>Figma 125.10.7 → 125.10.8 (Mac)</title>
@@ -321,11 +321,18 @@
       <guid isPermaLink="false">clion/darwin-2025.2.4-2025.2.5</guid>
     </item>
     <item>
-      <title>Telegram 6.3.3 → 6.3.4 (Windows)</title>
+      <title>ChatGPT Atlas 1.2025.316.6 → 1.2025.323.6 (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>Telegram has been updated from version 6.3.3 to 6.3.4 on November 28, 2025. &lt;a href=&quot;https://td.telegram.org/tx64/tsetup-x64.6.3.4.exe&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>ChatGPT Atlas has been updated from version 1.2025.316.6 to 1.2025.323.6 on November 28, 2025. &lt;a href=&quot;https://persistent.oaistatic.com/atlas/public/ChatGPT_Atlas_Desktop_public_1.2025.323.6_20251124201745000.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Fri, 28 Nov 2025 03:09:03 +0000</pubDate>
-      <guid isPermaLink="false">telegram/windows-6.3.3-6.3.4</guid>
+      <guid isPermaLink="false">chatgpt-atlas/darwin-1.2025.316.6-1.2025.323.6</guid>
+    </item>
+    <item>
+      <title>Mozilla Firefox 145.0.1 → 145.0.2 (Windows)</title>
+      <link>https://fmalibrary.com</link>
+      <description>Mozilla Firefox has been updated from version 145.0.1 to 145.0.2 on November 28, 2025. &lt;a href=&quot;https://download-installer.cdn.mozilla.net/pub/firefox/releases/145.0.2/win64/en-US/Firefox%20Setup%20145.0.2.exe&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Fri, 28 Nov 2025 03:09:03 +0000</pubDate>
+      <guid isPermaLink="false">firefox/windows-145.0.1-145.0.2</guid>
     </item>
     <item>
       <title>New App: OneDrive latest (Mac)</title>
@@ -335,18 +342,11 @@
       <guid isPermaLink="false">onedrive/darwin--latest</guid>
     </item>
     <item>
-      <title>RubyMine 2025.2.4 → 2025.2.5 (Mac)</title>
+      <title>New App: Twingate 2025.288 (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>RubyMine has been updated from version 2025.2.4 to 2025.2.5 on November 25, 2025. &lt;a href=&quot;https://download.jetbrains.com/ruby/RubyMine-2025.2.5-aarch64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Twingate has been added to the Fleet-maintained apps library with version 2025.288 on November 25, 2025. &lt;a href=&quot;https://binaries.twingate.com/client/macos/2025.288.20108/Twingate.pkg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Tue, 25 Nov 2025 19:00:00 +0000</pubDate>
-      <guid isPermaLink="false">rubymine/darwin-2025.2.4-2025.2.5</guid>
-    </item>
-    <item>
-      <title>Mozilla Firefox 145.0.1 → 145.0.2 (Mac)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Mozilla Firefox has been updated from version 145.0.1 to 145.0.2 on November 25, 2025. &lt;a href=&quot;https://download-installer.cdn.mozilla.net/pub/firefox/releases/145.0.2/mac/en-US/Firefox%20145.0.2.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Tue, 25 Nov 2025 19:00:00 +0000</pubDate>
-      <guid isPermaLink="false">firefox/darwin-145.0.1-145.0.2</guid>
+      <guid isPermaLink="false">twingate/darwin--2025.288</guid>
     </item>
     <item>
       <title>Slack 4.47.59 → 4.47.65 (Windows)</title>
