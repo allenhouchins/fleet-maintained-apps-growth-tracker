@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-06T04:07:20Z",
+  "lastUpdated": "2025-12-06T05:07:24Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -513,6 +513,13 @@
       "installerUrl": "https://www.messenger.com/messenger/desktop/downloadV2/?platform=mac\u0026variant=catalyst"
     },
     {
+      "slug": "microsoft-auto-update/darwin",
+      "name": "Microsoft Auto Update",
+      "platform": "darwin",
+      "version": "4.81.25111027",
+      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_AutoUpdate_4.81.25111027_Updater.pkg"
+    },
+    {
       "slug": "microsoft-edge/darwin",
       "name": "Microsoft Edge",
       "platform": "darwin",
@@ -723,6 +730,13 @@
       "installerUrl": "https://download.jetbrains.com/python/pycharm-professional-2025.2.5-aarch64.dmg"
     },
     {
+      "slug": "quip/darwin",
+      "name": "Quip",
+      "platform": "darwin",
+      "version": "9.17.6",
+      "installerUrl": "https://quip-clients.com/macosx_9.17.6.dmg"
+    },
+    {
       "slug": "rancher/darwin",
       "name": "Rancher Desktop",
       "platform": "darwin",
@@ -772,6 +786,13 @@
       "installerUrl": "https://updates.signal.org/desktop/signal-desktop-mac-arm64-7.81.0.zip"
     },
     {
+      "slug": "sketch/darwin",
+      "name": "Sketch",
+      "platform": "darwin",
+      "version": "2025.3.1",
+      "installerUrl": "https://download.sketch.com/sketch-2025.3.1-220691.zip"
+    },
+    {
       "slug": "slack/darwin",
       "name": "Slack",
       "platform": "darwin",
@@ -784,6 +805,20 @@
       "platform": "windows",
       "version": "4.47.65",
       "installerUrl": "https://downloads.slack-edge.com/desktop-releases/windows/x64/4.47.65/slack-standalone-4.47.65.0.msi"
+    },
+    {
+      "slug": "snagit/darwin",
+      "name": "Snagit",
+      "platform": "darwin",
+      "version": "2025.4.0",
+      "installerUrl": "https://download.techsmith.com/snagitmac/releases/2540/snagit.dmg"
+    },
+    {
+      "slug": "sourcetree/darwin",
+      "name": "SourceTree",
+      "platform": "darwin",
+      "version": "4.2.15",
+      "installerUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.2.15_301.zip"
     },
     {
       "slug": "spotify/darwin",
@@ -968,11 +1003,25 @@
       "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Windows_App_11.3.0_installer.pkg"
     },
     {
+      "slug": "wireshark-app/darwin",
+      "name": "Wireshark",
+      "platform": "darwin",
+      "version": "4.6.2",
+      "installerUrl": "https://www.wireshark.org/download/osx/all-versions/Wireshark%204.6.2.dmg"
+    },
+    {
       "slug": "wrike/darwin",
       "name": "Wrike",
       "platform": "darwin",
       "version": "4.6.0",
       "installerUrl": "https://dl.wrike.com/download/WrikeDesktopApp_ARM.v4.6.0.dmg"
+    },
+    {
+      "slug": "yubico-authenticator/darwin",
+      "name": "Yubico Authenticator",
+      "platform": "darwin",
+      "version": "7.3.0",
+      "installerUrl": "https://developers.yubico.com/yubioath-flutter/Releases/yubico-authenticator-7.3.0-mac.dmg"
     },
     {
       "slug": "yubico-yubikey-manager/darwin",
