@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-08T20:07:23Z",
+  "lastUpdated": "2025-12-08T21:06:21Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -777,6 +777,13 @@
       "platform": "darwin",
       "version": "1.21.0",
       "installerUrl": "https://github.com/rancher-sandbox/rancher-desktop/releases/download/v1.21.0/Rancher.Desktop-1.21.0.aarch64.dmg"
+    },
+    {
+      "slug": "raycast/darwin",
+      "name": "Raycast",
+      "platform": "darwin",
+      "version": "1.103.10",
+      "installerUrl": "https://releases.raycast.com/releases/1.103.10/download?build=arm"
     },
     {
       "slug": "rectangle/darwin",
