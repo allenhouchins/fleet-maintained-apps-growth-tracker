@@ -5,13 +5,20 @@
     <link>https://fmalibrary.com</link>
     <description>Track version updates and new app additions for Fleet-maintained apps. Get notified when apps are updated with new versions or when new apps are added to the library.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Dec 2025 04:15:11 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Dec 2025 05:08:42 +0000</lastBuildDate>
     <atom:link href="https://fmalibrary.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://fmalibrary.com/cloud-city.png</url>
       <title>Fleet-maintained apps</title>
       <link>https://fmalibrary.com</link>
     </image>
+    <item>
+      <title>New App: Asana 2.5.1 (Windows)</title>
+      <link>https://fmalibrary.com</link>
+      <description>Asana has been added to the Fleet-maintained apps library with version 2.5.1 on December 8, 2025. &lt;a href=&quot;https://desktop-downloads.asana.com/win32_x64/prod/v2.5.1/AsanaSetup.exe&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Mon, 08 Dec 2025 05:08:42 +0000</pubDate>
+      <guid isPermaLink="false">asana/windows--2.5.1</guid>
+    </item>
     <item>
       <title>Cursor 2.1.49 → 2.1.50 (Windows)</title>
       <link>https://fmalibrary.com</link>
@@ -76,11 +83,11 @@
       <guid isPermaLink="false">docker/windows-4.53.0-4.54.0</guid>
     </item>
     <item>
-      <title>New App: Sketch 2025.3.1 (Mac)</title>
+      <title>New App: Quip 9.17.6 (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>Sketch has been added to the Fleet-maintained apps library with version 2025.3.1 on December 6, 2025. &lt;a href=&quot;https://download.sketch.com/sketch-2025.3.1-220691.zip&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Quip has been added to the Fleet-maintained apps library with version 9.17.6 on December 6, 2025. &lt;a href=&quot;https://quip-clients.com/macosx_9.17.6.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Sat, 06 Dec 2025 05:07:24 +0000</pubDate>
-      <guid isPermaLink="false">sketch/darwin--2025.3.1</guid>
+      <guid isPermaLink="false">quip/darwin--9.17.6</guid>
     </item>
     <item>
       <title>New App: Microsoft Auto Update 4.81.25111027 (Mac)</title>
@@ -97,11 +104,11 @@
       <guid isPermaLink="false">wireshark-app/darwin--4.6.2</guid>
     </item>
     <item>
-      <title>New App: Quip 9.17.6 (Mac)</title>
+      <title>New App: Sketch 2025.3.1 (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>Quip has been added to the Fleet-maintained apps library with version 9.17.6 on December 6, 2025. &lt;a href=&quot;https://quip-clients.com/macosx_9.17.6.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Sketch has been added to the Fleet-maintained apps library with version 2025.3.1 on December 6, 2025. &lt;a href=&quot;https://download.sketch.com/sketch-2025.3.1-220691.zip&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Sat, 06 Dec 2025 05:07:24 +0000</pubDate>
-      <guid isPermaLink="false">quip/darwin--9.17.6</guid>
+      <guid isPermaLink="false">sketch/darwin--2025.3.1</guid>
     </item>
     <item>
       <title>New App: SourceTree 4.2.15 (Mac)</title>
@@ -153,6 +160,20 @@
       <guid isPermaLink="false">keepassxc/darwin--2.7.11</guid>
     </item>
     <item>
+      <title>Teleport Suite 18.4.2 → 18.5.0 (Mac)</title>
+      <link>https://fmalibrary.com</link>
+      <description>Teleport Suite has been updated from version 18.4.2 to 18.5.0 on December 5, 2025. &lt;a href=&quot;https://cdn.teleport.dev/teleport-18.5.0.pkg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Fri, 05 Dec 2025 16:07:39 +0000</pubDate>
+      <guid isPermaLink="false">teleport-suite/darwin-18.4.2-18.5.0</guid>
+    </item>
+    <item>
+      <title>Microsoft Edge 142.0.3595.94 → 143.0.3650.66 (Mac)</title>
+      <link>https://fmalibrary.com</link>
+      <description>Microsoft Edge has been updated from version 142.0.3595.94 to 143.0.3650.66 on December 5, 2025. &lt;a href=&quot;https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/9e924095-3a4c-4774-88ac-506a58d34f76/MicrosoftEdge-143.0.3650.66.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Fri, 05 Dec 2025 16:07:39 +0000</pubDate>
+      <guid isPermaLink="false">microsoft-edge/darwin-142.0.3595.94-143.0.3650.66</guid>
+    </item>
+    <item>
       <title>Teleport Connect 18.4.2 → 18.5.0 (Mac)</title>
       <link>https://fmalibrary.com</link>
       <description>Teleport Connect has been updated from version 18.4.2 to 18.5.0 on December 5, 2025. &lt;a href=&quot;https://cdn.teleport.dev/Teleport%20Connect-18.5.0.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
@@ -165,6 +186,13 @@
       <description>Cursor has been updated from version 2.1.46 to 2.1.47 on December 5, 2025. &lt;a href=&quot;https://downloads.cursor.com/production/2d3ce3499c15efd55b6b8538ea255eb7ba4266b2/win32/x64/system-setup/CursorSetup-x64-2.1.47.exe&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Fri, 05 Dec 2025 16:07:39 +0000</pubDate>
       <guid isPermaLink="false">cursor/windows-2.1.46-2.1.47</guid>
+    </item>
+    <item>
+      <title>Telegram 12.2.1 → 12.3 (Mac)</title>
+      <link>https://fmalibrary.com</link>
+      <description>Telegram has been updated from version 12.2.1 to 12.3 on December 5, 2025. &lt;a href=&quot;https://osx.telegram.org/updates/Telegram-12.3.277495.app.zip&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Fri, 05 Dec 2025 16:07:39 +0000</pubDate>
+      <guid isPermaLink="false">telegram/darwin-12.2.1-12.3</guid>
     </item>
     <item>
       <title>Opera 125.0.5729.12 → 125.0.5729.15 (Mac)</title>
@@ -181,32 +209,18 @@
       <guid isPermaLink="false">postman/darwin-11.74.4-11.74.5</guid>
     </item>
     <item>
-      <title>Microsoft Edge 142.0.3595.94 → 143.0.3650.66 (Mac)</title>
+      <title>Webex 45.11.1.33570 → 45.12.0.33709 (Windows)</title>
       <link>https://fmalibrary.com</link>
-      <description>Microsoft Edge has been updated from version 142.0.3595.94 to 143.0.3650.66 on December 5, 2025. &lt;a href=&quot;https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/9e924095-3a4c-4774-88ac-506a58d34f76/MicrosoftEdge-143.0.3650.66.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Fri, 05 Dec 2025 16:07:39 +0000</pubDate>
-      <guid isPermaLink="false">microsoft-edge/darwin-142.0.3595.94-143.0.3650.66</guid>
-    </item>
-    <item>
-      <title>Telegram 12.2.1 → 12.3 (Mac)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Telegram has been updated from version 12.2.1 to 12.3 on December 5, 2025. &lt;a href=&quot;https://osx.telegram.org/updates/Telegram-12.3.277495.app.zip&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Fri, 05 Dec 2025 16:07:39 +0000</pubDate>
-      <guid isPermaLink="false">telegram/darwin-12.2.1-12.3</guid>
-    </item>
-    <item>
-      <title>Teleport Suite 18.4.2 → 18.5.0 (Mac)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Teleport Suite has been updated from version 18.4.2 to 18.5.0 on December 5, 2025. &lt;a href=&quot;https://cdn.teleport.dev/teleport-18.5.0.pkg&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Fri, 05 Dec 2025 16:07:39 +0000</pubDate>
-      <guid isPermaLink="false">teleport-suite/darwin-18.4.2-18.5.0</guid>
-    </item>
-    <item>
-      <title>Spotify 1.2.77.358 → 1.2.78.418 (Mac)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Spotify has been updated from version 1.2.77.358 to 1.2.78.418 on December 5, 2025. &lt;a href=&quot;https://download.scdn.co/SpotifyARM64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Webex has been updated from version 45.11.1.33570 to 45.12.0.33709 on December 5, 2025. &lt;a href=&quot;https://binaries.webex.com/WebexDesktop-Win-64-Gold/20251204015848/Webex.msi&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Fri, 05 Dec 2025 00:27:18 +0000</pubDate>
-      <guid isPermaLink="false">spotify/darwin-1.2.77.358-1.2.78.418</guid>
+      <guid isPermaLink="false">webex/windows-45.11.1.33570-45.12.0.33709</guid>
+    </item>
+    <item>
+      <title>Adobe Acrobat Reader 25.001.20937 → 25.001.20982 (Mac)</title>
+      <link>https://fmalibrary.com</link>
+      <description>Adobe Acrobat Reader has been updated from version 25.001.20937 to 25.001.20982 on December 5, 2025. &lt;a href=&quot;https://ardownload2.adobe.com/pub/adobe/reader/mac/AcrobatDC/2500120982/AcroRdrDC_2500120982_MUI.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Fri, 05 Dec 2025 00:27:18 +0000</pubDate>
+      <guid isPermaLink="false">adobe-acrobat-reader/darwin-25.001.20937-25.001.20982</guid>
     </item>
     <item>
       <title>Android Studio 2025.2.1.8 → 2025.2.2.7 (Mac)</title>
@@ -216,18 +230,11 @@
       <guid isPermaLink="false">android-studio/darwin-2025.2.1.8-2025.2.2.7</guid>
     </item>
     <item>
-      <title>Docker Desktop 4.53.0 → 4.54.0 (Mac)</title>
+      <title>Spotify 1.2.77.358 → 1.2.78.418 (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>Docker Desktop has been updated from version 4.53.0 to 4.54.0 on December 5, 2025. &lt;a href=&quot;https://desktop.docker.com/mac/main/arm64/212467/Docker.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Spotify has been updated from version 1.2.77.358 to 1.2.78.418 on December 5, 2025. &lt;a href=&quot;https://download.scdn.co/SpotifyARM64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Fri, 05 Dec 2025 00:27:18 +0000</pubDate>
-      <guid isPermaLink="false">docker/darwin-4.53.0-4.54.0</guid>
-    </item>
-    <item>
-      <title>Webex 45.11.1.33570 → 45.12.0.33709 (Mac)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Webex has been updated from version 45.11.1.33570 to 45.12.0.33709 on December 5, 2025. &lt;a href=&quot;https://binaries.webex.com/webex-macos-apple-silicon/Webex.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Fri, 05 Dec 2025 00:27:18 +0000</pubDate>
-      <guid isPermaLink="false">webex/darwin-45.11.1.33570-45.12.0.33709</guid>
+      <guid isPermaLink="false">spotify/darwin-1.2.77.358-1.2.78.418</guid>
     </item>
     <item>
       <title>Loom 0.324.0 → 0.325.2 (Mac)</title>
@@ -258,11 +265,11 @@
       <guid isPermaLink="false">opera/darwin-124.0.5705.65-125.0.5729.12</guid>
     </item>
     <item>
-      <title>Webex 45.11.1.33570 → 45.12.0.33709 (Windows)</title>
+      <title>Docker Desktop 4.53.0 → 4.54.0 (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>Webex has been updated from version 45.11.1.33570 to 45.12.0.33709 on December 5, 2025. &lt;a href=&quot;https://binaries.webex.com/WebexDesktop-Win-64-Gold/20251204015848/Webex.msi&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Docker Desktop has been updated from version 4.53.0 to 4.54.0 on December 5, 2025. &lt;a href=&quot;https://desktop.docker.com/mac/main/arm64/212467/Docker.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Fri, 05 Dec 2025 00:27:18 +0000</pubDate>
-      <guid isPermaLink="false">webex/windows-45.11.1.33570-45.12.0.33709</guid>
+      <guid isPermaLink="false">docker/darwin-4.53.0-4.54.0</guid>
     </item>
     <item>
       <title>Logi Options+ 1.97.791262 → 1.98.809639 (Mac)</title>
@@ -279,11 +286,11 @@
       <guid isPermaLink="false">asana/darwin-2.4.1-2.5.1</guid>
     </item>
     <item>
-      <title>Adobe Acrobat Reader 25.001.20937 → 25.001.20982 (Mac)</title>
+      <title>Webex 45.11.1.33570 → 45.12.0.33709 (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>Adobe Acrobat Reader has been updated from version 25.001.20937 to 25.001.20982 on December 5, 2025. &lt;a href=&quot;https://ardownload2.adobe.com/pub/adobe/reader/mac/AcrobatDC/2500120982/AcroRdrDC_2500120982_MUI.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Webex has been updated from version 45.11.1.33570 to 45.12.0.33709 on December 5, 2025. &lt;a href=&quot;https://binaries.webex.com/webex-macos-apple-silicon/Webex.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Fri, 05 Dec 2025 00:27:18 +0000</pubDate>
-      <guid isPermaLink="false">adobe-acrobat-reader/darwin-25.001.20937-25.001.20982</guid>
+      <guid isPermaLink="false">webex/darwin-45.11.1.33570-45.12.0.33709</guid>
     </item>
     <item>
       <title>Postman 11.74.3 → 11.74.4 (Mac)</title>
@@ -370,11 +377,11 @@
       <guid isPermaLink="false">postman/darwin-11.74.2-11.74.3</guid>
     </item>
     <item>
-      <title>Google Chrome 142.0.7444.176 → 143.0.7499.41 (Mac)</title>
+      <title>NordVPN 9.8.1 → 9.9.0 (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>Google Chrome has been updated from version 142.0.7444.176 to 143.0.7499.41 on December 3, 2025. &lt;a href=&quot;https://dl.google.com/dl/chrome/mac/universal/stable/gcem/GoogleChrome.pkg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>NordVPN has been updated from version 9.8.1 to 9.9.0 on December 3, 2025. &lt;a href=&quot;https://downloads.nordcdn.com/apps/macos/generic/NordVPN-OpenVPN/9.9.0/NordVPN.pkg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Wed, 03 Dec 2025 20:07:36 +0000</pubDate>
-      <guid isPermaLink="false">google-chrome/darwin-142.0.7444.176-143.0.7499.41</guid>
+      <guid isPermaLink="false">nordvpn/darwin-9.8.1-9.9.0</guid>
     </item>
     <item>
       <title>Microsoft Excel 16.103.2 → 16.103.25113013 (Mac)</title>
@@ -398,11 +405,11 @@
       <guid isPermaLink="false">brave-browser/darwin-142.1.84.141-143.1.85.111</guid>
     </item>
     <item>
-      <title>NordVPN 9.8.1 → 9.9.0 (Mac)</title>
+      <title>Google Chrome 142.0.7444.176 → 143.0.7499.41 (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>NordVPN has been updated from version 9.8.1 to 9.9.0 on December 3, 2025. &lt;a href=&quot;https://downloads.nordcdn.com/apps/macos/generic/NordVPN-OpenVPN/9.9.0/NordVPN.pkg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Google Chrome has been updated from version 142.0.7444.176 to 143.0.7499.41 on December 3, 2025. &lt;a href=&quot;https://dl.google.com/dl/chrome/mac/universal/stable/gcem/GoogleChrome.pkg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Wed, 03 Dec 2025 20:07:36 +0000</pubDate>
-      <guid isPermaLink="false">nordvpn/darwin-9.8.1-9.9.0</guid>
+      <guid isPermaLink="false">google-chrome/darwin-142.0.7444.176-143.0.7499.41</guid>
     </item>
     <item>
       <title>Microsoft PowerPoint 16.103.25112216 → 16.103.25113013 (Mac)</title>
@@ -573,32 +580,11 @@
       <guid isPermaLink="false">podman-desktop/darwin--1.23.1</guid>
     </item>
     <item>
-      <title>Cursor 2.1.39 → 2.1.42 (Mac)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Cursor has been updated from version 2.1.39 to 2.1.42 on December 1, 2025. &lt;a href=&quot;https://downloads.cursor.com/production/2e353c5f5b30150ff7b874dee5a87660693d9de6/darwin/arm64/Cursor-darwin-arm64.zip&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Mon, 01 Dec 2025 18:09:36 +0000</pubDate>
-      <guid isPermaLink="false">cursor/darwin-2.1.39-2.1.42</guid>
-    </item>
-    <item>
       <title>New App: Sublime Text 4.0.0.420000 (Windows)</title>
       <link>https://fmalibrary.com</link>
       <description>Sublime Text has been added to the Fleet-maintained apps library with version 4.0.0.420000 on December 1, 2025. &lt;a href=&quot;https://download.sublimetext.com/sublime_text_build_4200_x64_setup.exe&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Mon, 01 Dec 2025 18:09:36 +0000</pubDate>
       <guid isPermaLink="false">sublime-text/windows--4.0.0.420000</guid>
-    </item>
-    <item>
-      <title>Android Studio 2025.2 → 2025.2.1.8 (Mac)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Android Studio has been updated from version 2025.2 to 2025.2.1.8 on December 1, 2025. &lt;a href=&quot;https://redirector.gvt1.com/edgedl/android/studio/install/2025.2.1.8/android-studio-2025.2.1.8-mac_arm.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Mon, 01 Dec 2025 18:09:36 +0000</pubDate>
-      <guid isPermaLink="false">android-studio/darwin-2025.2-2025.2.1.8</guid>
-    </item>
-    <item>
-      <title>TeamViewer 15.71.4 → 15.72.3 (Mac)</title>
-      <link>https://fmalibrary.com</link>
-      <description>TeamViewer has been updated from version 15.71.4 to 15.72.3 on December 1, 2025. &lt;a href=&quot;https://dl.teamviewer.com/download/version_15x/update/15.72.3/TeamViewer.pkg&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Mon, 01 Dec 2025 18:09:36 +0000</pubDate>
-      <guid isPermaLink="false">teamviewer/darwin-15.71.4-15.72.3</guid>
     </item>
     <item>
       <title>Zoom 6.6.10.69071 → 6.6.11.70003 (Mac)</title>
@@ -615,6 +601,27 @@
       <guid isPermaLink="false">cursor/windows-2.1.36-2.1.42</guid>
     </item>
     <item>
+      <title>Cursor 2.1.39 → 2.1.42 (Mac)</title>
+      <link>https://fmalibrary.com</link>
+      <description>Cursor has been updated from version 2.1.39 to 2.1.42 on December 1, 2025. &lt;a href=&quot;https://downloads.cursor.com/production/2e353c5f5b30150ff7b874dee5a87660693d9de6/darwin/arm64/Cursor-darwin-arm64.zip&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Mon, 01 Dec 2025 18:09:36 +0000</pubDate>
+      <guid isPermaLink="false">cursor/darwin-2.1.39-2.1.42</guid>
+    </item>
+    <item>
+      <title>TeamViewer 15.71.4 → 15.72.3 (Mac)</title>
+      <link>https://fmalibrary.com</link>
+      <description>TeamViewer has been updated from version 15.71.4 to 15.72.3 on December 1, 2025. &lt;a href=&quot;https://dl.teamviewer.com/download/version_15x/update/15.72.3/TeamViewer.pkg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Mon, 01 Dec 2025 18:09:36 +0000</pubDate>
+      <guid isPermaLink="false">teamviewer/darwin-15.71.4-15.72.3</guid>
+    </item>
+    <item>
+      <title>Android Studio 2025.2 → 2025.2.1.8 (Mac)</title>
+      <link>https://fmalibrary.com</link>
+      <description>Android Studio has been updated from version 2025.2 to 2025.2.1.8 on December 1, 2025. &lt;a href=&quot;https://redirector.gvt1.com/edgedl/android/studio/install/2025.2.1.8/android-studio-2025.2.1.8-mac_arm.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Mon, 01 Dec 2025 18:09:36 +0000</pubDate>
+      <guid isPermaLink="false">android-studio/darwin-2025.2-2025.2.1.8</guid>
+    </item>
+    <item>
       <title>Zoom 6.6.22255 → 6.6.23272 (Windows)</title>
       <link>https://fmalibrary.com</link>
       <description>Zoom has been updated from version 6.6.22255 to 6.6.23272 on December 1, 2025. &lt;a href=&quot;https://zoom.us/client/6.6.11.23272/ZoomInstallerFull.msi?archType=x64&quot;&gt;Download installer&lt;/a&gt;</description>
@@ -629,13 +636,6 @@
       <guid isPermaLink="false">android-studio/darwin--2025.2</guid>
     </item>
     <item>
-      <title>New App: Tailscale 1.90.9 (Windows)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Tailscale has been added to the Fleet-maintained apps library with version 1.90.9 on December 1, 2025. &lt;a href=&quot;https://pkgs.tailscale.com/stable/tailscale-setup-1.90.9-amd64.msi&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Mon, 01 Dec 2025 17:08:34 +0000</pubDate>
-      <guid isPermaLink="false">tailscale/windows--1.90.9</guid>
-    </item>
-    <item>
       <title>New App: GitHub Desktop 3.5.4 (Windows)</title>
       <link>https://fmalibrary.com</link>
       <description>GitHub Desktop has been added to the Fleet-maintained apps library with version 3.5.4 on December 1, 2025. &lt;a href=&quot;https://desktop.githubusercontent.com/releases/3.5.4-9dfb8d8d/GitHubDesktopSetup-x64.msi&quot;&gt;Download installer&lt;/a&gt;</description>
@@ -643,11 +643,11 @@
       <guid isPermaLink="false">github-desktop/windows--3.5.4</guid>
     </item>
     <item>
-      <title>Citrix Workspace 25.08.10 → 25.08.10.31 (Mac)</title>
+      <title>New App: Tailscale 1.90.9 (Windows)</title>
       <link>https://fmalibrary.com</link>
-      <description>Citrix Workspace has been updated from version 25.08.10 to 25.08.10.31 on December 1, 2025. &lt;a href=&quot;https://downloadplugins.citrix.com/ReceiverUpdates/Prod/Receiver/Mac/CitrixWorkspaceAppUniversal25.08.10.31.pkg&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Mon, 01 Dec 2025 16:09:03 +0000</pubDate>
-      <guid isPermaLink="false">citrix-workspace/darwin-25.08.10-25.08.10.31</guid>
+      <description>Tailscale has been added to the Fleet-maintained apps library with version 1.90.9 on December 1, 2025. &lt;a href=&quot;https://pkgs.tailscale.com/stable/tailscale-setup-1.90.9-amd64.msi&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Mon, 01 Dec 2025 17:08:34 +0000</pubDate>
+      <guid isPermaLink="false">tailscale/windows--1.90.9</guid>
     </item>
     <item>
       <title>Twingate 2025.327 → 2025.327.21336 (Mac)</title>
@@ -655,6 +655,13 @@
       <description>Twingate has been updated from version 2025.327 to 2025.327.21336 on December 1, 2025. &lt;a href=&quot;https://binaries.twingate.com/client/macos/2025.327.21336/Twingate.pkg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Mon, 01 Dec 2025 16:09:03 +0000</pubDate>
       <guid isPermaLink="false">twingate/darwin-2025.327-2025.327.21336</guid>
+    </item>
+    <item>
+      <title>Citrix Workspace 25.08.10 → 25.08.10.31 (Mac)</title>
+      <link>https://fmalibrary.com</link>
+      <description>Citrix Workspace has been updated from version 25.08.10 to 25.08.10.31 on December 1, 2025. &lt;a href=&quot;https://downloadplugins.citrix.com/ReceiverUpdates/Prod/Receiver/Mac/CitrixWorkspaceAppUniversal25.08.10.31.pkg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Mon, 01 Dec 2025 16:09:03 +0000</pubDate>
+      <guid isPermaLink="false">citrix-workspace/darwin-25.08.10-25.08.10.31</guid>
     </item>
     <item>
       <title>New App: Little Snitch 6.3.3 (Mac)</title>
@@ -1028,11 +1035,11 @@
       <guid isPermaLink="false">wrike/darwin--4.6.0</guid>
     </item>
     <item>
-      <title>New App: Tailscale 1.90.8 (Mac)</title>
+      <title>Zed 0.213.6 → 0.213.7 (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>Tailscale has been added to the Fleet-maintained apps library with version 1.90.8 on November 25, 2025. &lt;a href=&quot;https://pkgs.tailscale.com/stable/Tailscale-1.90.8-macos.pkg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Zed has been updated from version 0.213.6 to 0.213.7 on November 25, 2025. &lt;a href=&quot;https://zed.dev/api/releases/stable/0.213.7/Zed-aarch64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Tue, 25 Nov 2025 03:20:21 +0000</pubDate>
-      <guid isPermaLink="false">tailscale-app/darwin--1.90.8</guid>
+      <guid isPermaLink="false">zed/darwin-0.213.6-0.213.7</guid>
     </item>
     <item>
       <title>Discord 1.0.9215 → 1.0.9216 (Windows)</title>
@@ -1040,6 +1047,13 @@
       <description>Discord has been updated from version 1.0.9215 to 1.0.9216 on November 25, 2025. &lt;a href=&quot;https://stable.dl2.discordapp.net/distro/app/stable/win/x64/1.0.9216/DiscordSetup.exe&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Tue, 25 Nov 2025 03:20:21 +0000</pubDate>
       <guid isPermaLink="false">discord/windows-1.0.9215-1.0.9216</guid>
+    </item>
+    <item>
+      <title>New App: Tailscale 1.90.8 (Mac)</title>
+      <link>https://fmalibrary.com</link>
+      <description>Tailscale has been added to the Fleet-maintained apps library with version 1.90.8 on November 25, 2025. &lt;a href=&quot;https://pkgs.tailscale.com/stable/Tailscale-1.90.8-macos.pkg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Tue, 25 Nov 2025 03:20:21 +0000</pubDate>
+      <guid isPermaLink="false">tailscale-app/darwin--1.90.8</guid>
     </item>
     <item>
       <title>Loom 0.323.1 → 0.324.0 (Mac)</title>
@@ -1061,13 +1075,6 @@
       <description>Discord has been updated from version 0.0.367 to 0.0.368 on November 25, 2025. &lt;a href=&quot;https://dl.discordapp.net/apps/osx/0.0.368/Discord.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Tue, 25 Nov 2025 03:20:21 +0000</pubDate>
       <guid isPermaLink="false">discord/darwin-0.0.367-0.0.368</guid>
-    </item>
-    <item>
-      <title>Zed 0.213.6 → 0.213.7 (Mac)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Zed has been updated from version 0.213.6 to 0.213.7 on November 25, 2025. &lt;a href=&quot;https://zed.dev/api/releases/stable/0.213.7/Zed-aarch64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Tue, 25 Nov 2025 03:20:21 +0000</pubDate>
-      <guid isPermaLink="false">zed/darwin-0.213.6-0.213.7</guid>
     </item>
     <item>
       <title>New App: Rider 2025.3.0.2 (Mac)</title>
