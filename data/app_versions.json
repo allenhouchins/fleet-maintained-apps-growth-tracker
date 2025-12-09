@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-09T03:31:13Z",
+  "lastUpdated": "2025-12-09T04:12:15Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -189,6 +189,13 @@
       "platform": "darwin",
       "version": "15.2.0",
       "installerUrl": "https://binaries.webex.com/jabberclientmac/20251118100311/Install_Cisco-Jabber-Mac.pkg"
+    },
+    {
+      "slug": "cisco-jabber/windows",
+      "name": "Cisco Jabber",
+      "platform": "windows",
+      "version": "15.2.0.60459",
+      "installerUrl": "https://binaries.webex.com/jabberclientwindows/20251117102106/CiscoJabberSetup.msi"
     },
     {
       "slug": "citrix-workspace/darwin",
@@ -898,18 +905,18 @@
       "installerUrl": "https://download.sublimetext.com/sublime_text_build_4200_x64_setup.exe"
     },
     {
-      "slug": "tableplus/darwin",
-      "name": "TablePlus",
-      "platform": "darwin",
-      "version": "6.7.8",
-      "installerUrl": "https://files.tableplus.com/macos/650/TablePlus.dmg"
-    },
-    {
       "slug": "tableau/darwin",
       "name": "Tableau Desktop",
       "platform": "darwin",
       "version": "2025.3.0",
       "installerUrl": "https://downloads.tableau.com/esdalt/2025.3.0/TableauDesktop-2025-3-0-arm64.dmg"
+    },
+    {
+      "slug": "tableplus/darwin",
+      "name": "TablePlus",
+      "platform": "darwin",
+      "version": "6.7.8",
+      "installerUrl": "https://files.tableplus.com/macos/650/TablePlus.dmg"
     },
     {
       "slug": "tailscale-app/darwin",
