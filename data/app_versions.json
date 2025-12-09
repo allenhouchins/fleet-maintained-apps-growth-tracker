@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-09T04:12:15Z",
+  "lastUpdated": "2025-12-09T04:37:39Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1017,6 +1017,13 @@
       "installerUrl": "https://binaries.twingate.com/client/macos/2025.327.21336/Twingate.pkg"
     },
     {
+      "slug": "twingate/windows",
+      "name": "Twingate",
+      "platform": "windows",
+      "version": "20.25.322.1319",
+      "installerUrl": "https://binaries.twingate.com/client/windows/versions/2025.322.1319/TwingateWindowsInstaller.msi"
+    },
+    {
       "slug": "visual-studio-code/darwin",
       "name": "Microsoft Visual Studio Code",
       "platform": "darwin",
@@ -1039,7 +1046,7 @@
     },
     {
       "slug": "vlc/windows",
-      "name": "VLC",
+      "name": "VLC media player",
       "platform": "windows",
       "version": "3.0.22",
       "installerUrl": "https://download.videolan.org/pub/videolan/vlc/3.0.22/win64/vlc-3.0.22-win64.msi"
