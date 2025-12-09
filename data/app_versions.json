@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-09T00:27:05Z",
+  "lastUpdated": "2025-12-09T01:35:20Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -210,6 +210,13 @@
       "platform": "darwin",
       "version": "3.5.154",
       "installerUrl": "https://download.todesktop.com/221003ra4tebclw/ClickUp%203.5.154%20-%20Build%20251111ehyopedtu-arm64.dmg"
+    },
+    {
+      "slug": "clickup/windows",
+      "name": "ClickUp",
+      "platform": "windows",
+      "version": "3.5.154",
+      "installerUrl": "https://download.todesktop.com/221003ra4tebclw/ClickUp-3.5.154-build-251111ehyopedtu-x64.msi"
     },
     {
       "slug": "clion/darwin",
@@ -1008,6 +1015,13 @@
       "platform": "darwin",
       "version": "3.0.21",
       "installerUrl": "https://get.videolan.org/vlc/3.0.21/macosx/vlc-3.0.21-arm64.dmg"
+    },
+    {
+      "slug": "vlc/windows",
+      "name": "VLC",
+      "platform": "windows",
+      "version": "3.0.22",
+      "installerUrl": "https://download.videolan.org/pub/videolan/vlc/3.0.22/win64/vlc-3.0.22-win64.msi"
     },
     {
       "slug": "vnc-viewer/darwin",
