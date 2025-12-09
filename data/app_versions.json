@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-09T19:05:51Z",
+  "lastUpdated": "2025-12-09T20:07:04Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -86,6 +86,13 @@
       "installerUrl": "https://download.anydesk.com/anydesk.dmg"
     },
     {
+      "slug": "arc/darwin",
+      "name": "Arc",
+      "platform": "darwin",
+      "version": "1.124.0",
+      "installerUrl": "https://releases.arc.net/release/Arc-1.124.0-71787.zip"
+    },
+    {
       "slug": "asana/darwin",
       "name": "Asana",
       "platform": "darwin",
@@ -121,6 +128,20 @@
       "installerUrl": "https://github.com/bitwarden/clients/releases/download/desktop-v2025.11.2/Bitwarden-2025.11.2-universal.dmg"
     },
     {
+      "slug": "blender/darwin",
+      "name": "Blender",
+      "platform": "darwin",
+      "version": "5.0.0",
+      "installerUrl": "https://download.blender.org/release/Blender5.0/blender-5.0.0-macos-arm64.dmg"
+    },
+    {
+      "slug": "blender/windows",
+      "name": "Blender",
+      "platform": "windows",
+      "version": "5.0.0",
+      "installerUrl": "https://download.blender.org/release/Blender5.0/blender-5.0.0-windows-x64.msi"
+    },
+    {
       "slug": "box-drive/darwin",
       "name": "Box Drive",
       "platform": "darwin",
@@ -147,6 +168,13 @@
       "platform": "windows",
       "version": "143.1.85.111",
       "installerUrl": "https://github.com/brave/brave-browser/releases/download/v1.85.111/BraveBrowserStandaloneSilentSetup.exe"
+    },
+    {
+      "slug": "bruno/darwin",
+      "name": "Bruno",
+      "platform": "darwin",
+      "version": "2.15.1",
+      "installerUrl": "https://github.com/usebruno/bruno/releases/download/v2.15.1/bruno_2.15.1_arm64_mac.dmg"
     },
     {
       "slug": "camtasia/darwin",
