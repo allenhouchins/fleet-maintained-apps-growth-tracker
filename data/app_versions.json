@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-10T03:33:40Z",
+  "lastUpdated": "2025-12-10T04:15:32Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -72,11 +72,32 @@
       "installerUrl": "https://adedownload.adobe.com/pub/adobe/digitaleditions/ADE_4.5_Installer.dmg"
     },
     {
+      "slug": "aircall/darwin",
+      "name": "Aircall",
+      "platform": "darwin",
+      "version": "3.1.66",
+      "installerUrl": "https://download-electron.aircall.io/Aircall-3.1.66.dmg"
+    },
+    {
+      "slug": "amazon-chime/darwin",
+      "name": "Amazon Chime",
+      "platform": "darwin",
+      "version": "5.23.22475",
+      "installerUrl": "https://clients.chime.aws/mac-nme/AmazonChime-5.23.22475.dmg"
+    },
+    {
       "slug": "android-studio/darwin",
       "name": "Android Studio",
       "platform": "darwin",
       "version": "2025.2.2.7",
       "installerUrl": "https://redirector.gvt1.com/edgedl/android/studio/install/2025.2.2.7/android-studio-2025.2.2.7-mac_arm.dmg"
+    },
+    {
+      "slug": "anka-virtualization/darwin",
+      "name": "Anka",
+      "platform": "darwin",
+      "version": "3.8.4.210",
+      "installerUrl": "https://downloads.veertu.com/anka/Anka-3.8.4.210.pkg"
     },
     {
       "slug": "anydesk/darwin",
@@ -86,11 +107,25 @@
       "installerUrl": "https://download.anydesk.com/anydesk.dmg"
     },
     {
+      "slug": "apparency/darwin",
+      "name": "Apparency",
+      "platform": "darwin",
+      "version": "3.1",
+      "installerUrl": "https://www.mothersruin.com/software/archives/Apparency-3.1.dmg"
+    },
+    {
       "slug": "arc/darwin",
       "name": "Arc",
       "platform": "darwin",
       "version": "1.124.0",
       "installerUrl": "https://releases.arc.net/release/Arc-1.124.0-71787.zip"
+    },
+    {
+      "slug": "archaeology/darwin",
+      "name": "Archaeology",
+      "platform": "darwin",
+      "version": "1.5",
+      "installerUrl": "https://www.mothersruin.com/software/downloads/Archaeology.dmg"
     },
     {
       "slug": "asana/darwin",
@@ -105,6 +140,27 @@
       "platform": "windows",
       "version": "2.5.1",
       "installerUrl": "https://desktop-downloads.asana.com/win32_x64/prod/v2.5.1/AsanaSetup.exe"
+    },
+    {
+      "slug": "audacity/darwin",
+      "name": "Audacity",
+      "platform": "darwin",
+      "version": "3.7.6",
+      "installerUrl": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.6/audacity-macOS-3.7.6-arm64.dmg"
+    },
+    {
+      "slug": "avast-secure-browser/darwin",
+      "name": "Avast Secure Browser",
+      "platform": "darwin",
+      "version": "139.0.6697.68",
+      "installerUrl": "https://cdn-update.avast.securebrowser.com/browser/mac/arm/139.0.6697.68/AvastSecureBrowser.dmg"
+    },
+    {
+      "slug": "aws-vpn-client/darwin",
+      "name": "AWS Client VPN",
+      "platform": "darwin",
+      "version": "5.3.2",
+      "installerUrl": "https://d20adtppz83p9s.cloudfront.net/OSX/5.3.2/AWS_VPN_Client.pkg"
     },
     {
       "slug": "bbedit/darwin",
