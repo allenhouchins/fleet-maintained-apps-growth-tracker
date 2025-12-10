@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-10T21:07:21Z",
+  "lastUpdated": "2025-12-10T22:03:24Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1255,6 +1255,27 @@
       "installerUrl": "https://binaries.twingate.com/client/windows/versions/2025.330.1627/TwingateWindowsInstaller.msi"
     },
     {
+      "slug": "utm/darwin",
+      "name": "UTM",
+      "platform": "darwin",
+      "version": "4.7.4",
+      "installerUrl": "https://github.com/utmapp/UTM/releases/download/v4.7.4/UTM.dmg"
+    },
+    {
+      "slug": "virtualbox/darwin",
+      "name": "VirtualBox",
+      "platform": "darwin",
+      "version": "7.2.4",
+      "installerUrl": "https://download.virtualbox.org/virtualbox/7.2.4/VirtualBox-7.2.4-170995-macOSArm64.dmg"
+    },
+    {
+      "slug": "viscosity/darwin",
+      "name": "Viscosity",
+      "platform": "darwin",
+      "version": "1.12",
+      "installerUrl": "https://swupdate.sparklabs.com/download/mac/release/viscosity/Viscosity%201.12.dmg"
+    },
+    {
       "slug": "visual-studio-code/darwin",
       "name": "Microsoft Visual Studio Code",
       "platform": "darwin",
@@ -1290,6 +1311,13 @@
       "installerUrl": "https://downloads.realvnc.com/download/file/viewer.files/VNC-Viewer-7.15.1-MacOSX-universal.dmg"
     },
     {
+      "slug": "wacom-tablet/darwin",
+      "name": "Wacom Tablet",
+      "platform": "darwin",
+      "version": "6.4.11-2",
+      "installerUrl": "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.4.11-2.dmg"
+    },
+    {
       "slug": "webex/darwin",
       "name": "Webex",
       "platform": "darwin",
@@ -1323,6 +1351,13 @@
       "platform": "darwin",
       "version": "11.3.0",
       "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Windows_App_11.3.0_installer.pkg"
+    },
+    {
+      "slug": "windsurf/darwin",
+      "name": "Windsurf",
+      "platform": "darwin",
+      "version": "1.12.39",
+      "installerUrl": "https://windsurf-stable.codeiumdata.com/darwin-arm64-dmg/stable/10ebfa84f4e8b018ef2459063f0293b8e9ac01da/Windsurf-darwin-arm64-1.12.39.dmg"
     },
     {
       "slug": "wireshark-app/darwin",
@@ -1365,6 +1400,13 @@
       "platform": "darwin",
       "version": "0.215.3",
       "installerUrl": "https://zed.dev/api/releases/stable/0.215.3/Zed-aarch64.dmg"
+    },
+    {
+      "slug": "zeplin/darwin",
+      "name": "Zeplin",
+      "platform": "darwin",
+      "version": "10.30.0",
+      "installerUrl": "https://pkg.zeplin.io/macos/latest/zeplin-darwin-universal.zip"
     },
     {
       "slug": "zoom/darwin",
