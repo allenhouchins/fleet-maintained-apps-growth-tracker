@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-10T17:08:54Z",
+  "lastUpdated": "2025-12-10T17:55:54Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -513,11 +513,39 @@
       "installerUrl": "https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2025-09/R/eclipse-committers-2025-09-R-macosx-cocoa-aarch64.dmg\u0026r=1"
     },
     {
+      "slug": "egnyte/darwin",
+      "name": "Egnyte",
+      "platform": "darwin",
+      "version": "1.12.1",
+      "installerUrl": "https://egnyte-cdn.egnyte.com/desktopapp/mac/en-us/1.12.1/Egnyte_1.12.1_2304.dmg"
+    },
+    {
+      "slug": "elgato-control-center/darwin",
+      "name": "Elgato Control Center",
+      "platform": "darwin",
+      "version": "1.8.2",
+      "installerUrl": "https://edge.elgato.com/egc/macos/eccm/1.8.2/ElgatoControlCenter-1.8.2.20643.zip"
+    },
+    {
+      "slug": "elgato-stream-deck/darwin",
+      "name": "Elgato Stream Deck",
+      "platform": "darwin",
+      "version": "7.1.0.22321",
+      "installerUrl": "https://edge.elgato.com/egc/macos/sd/Stream_Deck_7.1.0.22321.pkg"
+    },
+    {
       "slug": "evernote/darwin",
       "name": "Evernote",
       "platform": "darwin",
       "version": "10.105.4",
       "installerUrl": "https://mac.desktop.evernote.com/builds/Evernote-10.105.4-mac-ddl-stage-20240910164757-a2e60a8d876a07eded5d212fa56ba45214114ad0.dmg"
+    },
+    {
+      "slug": "expressvpn/darwin",
+      "name": "ExpressVPN",
+      "platform": "darwin",
+      "version": "11.71.0.90727",
+      "installerUrl": "https://www.expressvpn.works/clients/mac/expressvpn_mac_11.71.0.90727_release.pkg"
     },
     {
       "slug": "figma/darwin",
@@ -546,6 +574,34 @@
       "platform": "windows",
       "version": "145.0.2",
       "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/145.0.2/win64/en-US/Firefox%20Setup%20145.0.2.exe"
+    },
+    {
+      "slug": "fork/darwin",
+      "name": "Fork",
+      "platform": "darwin",
+      "version": "2.60.4",
+      "installerUrl": "https://cdn.fork.dev/mac/Fork-2.60.4.dmg"
+    },
+    {
+      "slug": "front/darwin",
+      "name": "Front",
+      "platform": "darwin",
+      "version": "3.67.6",
+      "installerUrl": "https://dl.frontapp.com/desktop/builds/3.67.6/Front-3.67.6-arm64.zip"
+    },
+    {
+      "slug": "ghostty/darwin",
+      "name": "Ghostty",
+      "platform": "darwin",
+      "version": "1.2.3",
+      "installerUrl": "https://release.files.ghostty.org/1.2.3/Ghostty.dmg"
+    },
+    {
+      "slug": "gimp/darwin",
+      "name": "GIMP",
+      "platform": "darwin",
+      "version": "3.0.6",
+      "installerUrl": "https://download.gimp.org/gimp/v3.0/macos/gimp-3.0.6-arm64.dmg"
     },
     {
       "slug": "github-desktop/windows",
@@ -623,6 +679,13 @@
       "platform": "darwin",
       "version": "6.399.0",
       "installerUrl": "https://dr2v7l5emb758.cloudfront.net/6.399.0/Granola-6.399.0-mac-universal.dmg"
+    },
+    {
+      "slug": "hyper/darwin",
+      "name": "Hyper",
+      "platform": "darwin",
+      "version": "3.4.1",
+      "installerUrl": "https://github.com/vercel/hyper/releases/download/v3.4.1/Hyper-3.4.1-mac-arm64.zip"
     },
     {
       "slug": "imazing-profile-editor/darwin",
