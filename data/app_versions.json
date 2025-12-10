@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-10T05:08:22Z",
+  "lastUpdated": "2025-12-10T05:34:50Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -12,22 +12,22 @@
       "slug": "1password/darwin",
       "name": "1Password",
       "platform": "darwin",
-      "version": "8.11.20",
+      "version": "8.11.22",
       "installerUrl": "https://downloads.1password.com/mac/1Password.pkg"
     },
     {
       "slug": "1password/windows",
       "name": "1Password",
       "platform": "windows",
-      "version": "8.11.20",
-      "installerUrl": "https://c.1password.com/dist/1P/win8/1PasswordSetup-8.11.20.msi"
+      "version": "8.11.22",
+      "installerUrl": "https://c.1password.com/dist/1P/win8/1PasswordSetup-8.11.22.msi"
     },
     {
       "slug": "8x8-work/darwin",
       "name": "8x8 Work",
       "platform": "darwin",
-      "version": "8.28.2",
-      "installerUrl": "https://work-desktop-assets.8x8.com/prod-publish/ga/work-arm64-dmg-v8.28.2-3.dmg"
+      "version": "8.29.1",
+      "installerUrl": "https://work-desktop-assets.8x8.com/prod-publish/ga/work-arm64-dmg-v8.29.1-3.dmg"
     },
     {
       "slug": "abstract/darwin",
@@ -47,15 +47,15 @@
       "slug": "adobe-acrobat-reader/darwin",
       "name": "Adobe Acrobat Reader",
       "platform": "darwin",
-      "version": "25.001.20982",
-      "installerUrl": "https://ardownload2.adobe.com/pub/adobe/reader/mac/AcrobatDC/2500120982/AcroRdrDC_2500120982_MUI.dmg"
+      "version": "25.001.20997",
+      "installerUrl": "https://ardownload2.adobe.com/pub/adobe/reader/mac/AcrobatDC/2500120997/AcroRdrDC_2500120997_MUI.dmg"
     },
     {
       "slug": "adobe-acrobat-reader/windows",
       "name": "Adobe Acrobat Reader",
       "platform": "windows",
-      "version": "25.001.20937",
-      "installerUrl": "https://ardownload3.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2500120937/AcroRdrDCx642500120937_MUI.exe"
+      "version": "25.001.20982",
+      "installerUrl": "https://ardownload2.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2500120982/AcroRdrDCx642500120982_MUI.exe"
     },
     {
       "slug": "adobe-creative-cloud/darwin",
@@ -163,6 +163,13 @@
       "installerUrl": "https://d20adtppz83p9s.cloudfront.net/OSX/5.3.2/AWS_VPN_Client.pkg"
     },
     {
+      "slug": "balenaetcher/darwin",
+      "name": "balenaEtcher",
+      "platform": "darwin",
+      "version": "2.1.4",
+      "installerUrl": "https://github.com/balena-io/etcher/releases/download/v2.1.4/balenaEtcher-2.1.4-arm64.dmg"
+    },
+    {
       "slug": "bbedit/darwin",
       "name": "BBEdit",
       "platform": "darwin",
@@ -257,8 +264,8 @@
       "slug": "chatgpt-atlas/darwin",
       "name": "ChatGPT Atlas",
       "platform": "darwin",
-      "version": "1.2025.323.6",
-      "installerUrl": "https://persistent.oaistatic.com/atlas/public/ChatGPT_Atlas_Desktop_public_1.2025.323.6_20251124201745000.dmg"
+      "version": "1.2025.337.4",
+      "installerUrl": "https://persistent.oaistatic.com/atlas/public/ChatGPT_Atlas_Desktop_public_1.2025.337.4_20251208174454000.dmg"
     },
     {
       "slug": "chatgpt/darwin",
@@ -296,6 +303,20 @@
       "installerUrl": "https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest/release-0.14.10-artifact-fe3f5688c1c2a4b648d1bf6d9784d62ef9fc336a.zip"
     },
     {
+      "slug": "cleanmymac/darwin",
+      "name": "CleanMyMac",
+      "platform": "darwin",
+      "version": "5.2.10",
+      "installerUrl": "https://dl.devmate.com/com.macpaw.CleanMyMac5/50210.0.2511270937/1764257995/CleanMyMac5-50210.0.2511270937.zip"
+    },
+    {
+      "slug": "cleanshot/darwin",
+      "name": "CleanShot X",
+      "platform": "darwin",
+      "version": "4.8.6",
+      "installerUrl": "https://updates.getcleanshot.com/v3/CleanShot-X-4.8.6.dmg"
+    },
+    {
       "slug": "clickup/darwin",
       "name": "ClickUp",
       "platform": "darwin",
@@ -317,6 +338,13 @@
       "installerUrl": "https://download.jetbrains.com/cpp/CLion-2025.3-aarch64.dmg"
     },
     {
+      "slug": "clockify/darwin",
+      "name": "Clockify Desktop",
+      "platform": "darwin",
+      "version": "2.11.12",
+      "installerUrl": "https://clockify.me/downloads/ClockifyDesktop.zip"
+    },
+    {
       "slug": "cloudflare-warp/darwin",
       "name": "Cloudflare WARP",
       "platform": "darwin",
@@ -329,6 +357,13 @@
       "platform": "windows",
       "version": "25.9.558.0",
       "installerUrl": "https://downloads.cloudflareclient.com/v1/download/windows/version/2025.9.558.0"
+    },
+    {
+      "slug": "coteditor/darwin",
+      "name": "CotEditor",
+      "platform": "darwin",
+      "version": "6.1.2",
+      "installerUrl": "https://github.com/coteditor/CotEditor/releases/download/6.1.2/CotEditor_6.1.2.dmg"
     },
     {
       "slug": "cursor/darwin",
@@ -348,15 +383,15 @@
       "slug": "cyberduck/darwin",
       "name": "Cyberduck",
       "platform": "darwin",
-      "version": "9.3.0",
-      "installerUrl": "https://update.cyberduck.io/Cyberduck-9.3.0.44071.zip"
+      "version": "9.3.1",
+      "installerUrl": "https://update.cyberduck.io/Cyberduck-9.3.1.44136.zip"
     },
     {
       "slug": "cyberduck/windows",
       "name": "Cyberduck",
       "platform": "windows",
-      "version": "9.3.0.44071",
-      "installerUrl": "https://update.cyberduck.io//Cyberduck-Installer-9.3.0.44071.msi"
+      "version": "9.3.1.44136",
+      "installerUrl": "https://update.cyberduck.io//Cyberduck-Installer-9.3.1.44136.msi"
     },
     {
       "slug": "datagrip/darwin",
@@ -366,11 +401,53 @@
       "installerUrl": "https://download.jetbrains.com/datagrip/datagrip-2025.3-aarch64.dmg"
     },
     {
+      "slug": "dbeaver-community/darwin",
+      "name": "DBeaver",
+      "platform": "darwin",
+      "version": "25.3.0",
+      "installerUrl": "https://dbeaver.io/files/25.3.0/dbeaver-ce-25.3.0-macos-aarch64.dmg"
+    },
+    {
+      "slug": "dbeaver-enterprise/darwin",
+      "name": "DBeaverEE",
+      "platform": "darwin",
+      "version": "25.3.0",
+      "installerUrl": "https://dbeaver.com/files/25.3.0/dbeaver-ee-25.3.0-macos-aarch64.dmg"
+    },
+    {
+      "slug": "dbeaverlite/darwin",
+      "name": "DBeaverLite",
+      "platform": "darwin",
+      "version": "25.3.0",
+      "installerUrl": "https://dbeaver.com/downloads-lite/25.3.0/dbeaver-le-25.3.0-macos-aarch64.dmg"
+    },
+    {
+      "slug": "dbeaverultimate/darwin",
+      "name": "DBeaverUltimate",
+      "platform": "darwin",
+      "version": "25.3.0",
+      "installerUrl": "https://dbeaver.com/downloads-ultimate/25.3.0/dbeaver-ue-25.3.0-macos-aarch64.dmg"
+    },
+    {
       "slug": "dcv-viewer/darwin",
       "name": "Amazon DCV",
       "platform": "darwin",
       "version": "2025.0.8846",
       "installerUrl": "https://d1uj6qtbmh3dt5.cloudfront.net/2025.0/Clients/nice-dcv-viewer-2025.0.8846.arm64.dmg"
+    },
+    {
+      "slug": "deepl/darwin",
+      "name": "DeepL",
+      "platform": "darwin",
+      "version": "25.11.23262385",
+      "installerUrl": "https://www.deepl.com/macos/download/25.11/23262385/DeepL.dmg"
+    },
+    {
+      "slug": "dialpad/darwin",
+      "name": "Dialpad",
+      "platform": "darwin",
+      "version": "2511.1.1",
+      "installerUrl": "https://storage.googleapis.com/dialpad_native/osx/arm64/Dialpad.2511.1.1.zip"
     },
     {
       "slug": "discord/darwin",
@@ -418,8 +495,8 @@
       "slug": "dropbox/darwin",
       "name": "Dropbox",
       "platform": "darwin",
-      "version": "237.4.5655",
-      "installerUrl": "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20237.4.5655.arm64.dmg"
+      "version": "238.4.6075",
+      "installerUrl": "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20238.4.6075.arm64.dmg"
     },
     {
       "slug": "eclipse-ide/darwin",
@@ -453,8 +530,8 @@
       "slug": "firefox/darwin",
       "name": "Mozilla Firefox",
       "platform": "darwin",
-      "version": "145.0.2",
-      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/145.0.2/mac/en-US/Firefox%20145.0.2.dmg"
+      "version": "146.0",
+      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/146.0/mac/en-US/Firefox%20146.0.dmg"
     },
     {
       "slug": "firefox/windows",
@@ -537,8 +614,8 @@
       "slug": "granola/darwin",
       "name": "Granola",
       "platform": "darwin",
-      "version": "6.377.0",
-      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/6.377.0/Granola-6.377.0-mac-universal.dmg"
+      "version": "6.399.0",
+      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/6.399.0/Granola-6.399.0-mac-universal.dmg"
     },
     {
       "slug": "imazing-profile-editor/darwin",
@@ -663,15 +740,15 @@
       "slug": "microsoft-edge/darwin",
       "name": "Microsoft Edge",
       "platform": "darwin",
-      "version": "143.0.3650.66",
-      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/9e924095-3a4c-4774-88ac-506a58d34f76/MicrosoftEdge-143.0.3650.66.dmg"
+      "version": "143.0.3650.75",
+      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/aa2c6167-45e6-4f86-94f9-7f6303b52cd6/MicrosoftEdge-143.0.3650.75.dmg"
     },
     {
       "slug": "microsoft-excel/darwin",
       "name": "Microsoft Excel",
       "platform": "darwin",
-      "version": "16.103.25113013",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.103.25113013_Installer.pkg"
+      "version": "16.103.25120717",
+      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.103.25120717_Installer.pkg"
     },
     {
       "slug": "microsoft-onenote/darwin",
@@ -684,15 +761,15 @@
       "slug": "microsoft-outlook/darwin",
       "name": "Microsoft Outlook",
       "platform": "darwin",
-      "version": "16.103.25113013",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.103.25113013_Installer.pkg"
+      "version": "16.103.25120717",
+      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.103.25120717_Installer.pkg"
     },
     {
       "slug": "microsoft-powerpoint/darwin",
       "name": "Microsoft PowerPoint",
       "platform": "darwin",
-      "version": "16.103.25113013",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.103.25113013_Installer.pkg"
+      "version": "16.103.25120717",
+      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.103.25120717_Installer.pkg"
     },
     {
       "slug": "microsoft-teams/darwin",
@@ -712,8 +789,8 @@
       "slug": "microsoft-word/darwin",
       "name": "Microsoft Word",
       "platform": "darwin",
-      "version": "16.103.25113013",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.103.25113013_Installer.pkg"
+      "version": "16.103.25120717",
+      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.103.25120717_Installer.pkg"
     },
     {
       "slug": "miro/darwin",
@@ -915,8 +992,8 @@
       "slug": "rustrover/darwin",
       "name": "RustRover",
       "platform": "darwin",
-      "version": "2025.2.5",
-      "installerUrl": "https://download.jetbrains.com/rustrover/RustRover-2025.2.5-aarch64.dmg"
+      "version": "2025.3",
+      "installerUrl": "https://download.jetbrains.com/rustrover/RustRover-2025.3-aarch64.dmg"
     },
     {
       "slug": "santa/darwin",
@@ -965,7 +1042,7 @@
       "name": "SourceTree",
       "platform": "darwin",
       "version": "4.2.15",
-      "installerUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.2.15_303.zip"
+      "installerUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.2.15_305.zip"
     },
     {
       "slug": "spotify/darwin",
@@ -1104,8 +1181,8 @@
       "slug": "twingate/windows",
       "name": "Twingate",
       "platform": "windows",
-      "version": "20.25.322.1319",
-      "installerUrl": "https://binaries.twingate.com/client/windows/versions/2025.322.1319/TwingateWindowsInstaller.msi"
+      "version": "20.25.330.1627",
+      "installerUrl": "https://binaries.twingate.com/client/windows/versions/2025.330.1627/TwingateWindowsInstaller.msi"
     },
     {
       "slug": "visual-studio-code/darwin",
