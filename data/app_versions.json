@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-10T23:06:18Z",
+  "lastUpdated": "2025-12-10T23:15:34Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -695,6 +695,13 @@
       "installerUrl": "https://downloads.imazing.com/mac/iMazing-Profile-Editor/2.1.1.379001/iMazing_Profile_Editor_2.1.1.379001.dmg"
     },
     {
+      "slug": "inkscape/darwin",
+      "name": "Inkscape",
+      "platform": "darwin",
+      "version": "1.4.230579",
+      "installerUrl": "https://media.inkscape.org/dl/resources/file/Inkscape-1.4.230579_arm64.dmg"
+    },
+    {
       "slug": "insomnia/darwin",
       "name": "Insomnia",
       "platform": "darwin",
@@ -730,6 +737,13 @@
       "installerUrl": "https://iterm2.com/downloads/stable/iTerm2-3_6_6.zip"
     },
     {
+      "slug": "jabra-direct/darwin",
+      "name": "Jabra Direct",
+      "platform": "darwin",
+      "version": "6.26.32801",
+      "installerUrl": "https://jabraxpressonlineprdstor.blob.core.windows.net/jdo/JabraDirectSetup.dmg"
+    },
+    {
       "slug": "jetbrains-toolbox/darwin",
       "name": "JetBrains Toolbox",
       "platform": "darwin",
@@ -749,6 +763,27 @@
       "platform": "windows",
       "version": "2.7.11",
       "installerUrl": "https://github.com/keepassxreboot/keepassxc/releases/download/2.7.11/KeePassXC-2.7.11-Win64.msi"
+    },
+    {
+      "slug": "keeper-password-manager/darwin",
+      "name": "Keeper Password Manager",
+      "platform": "darwin",
+      "version": "17.4.1",
+      "installerUrl": "https://keepersecurity.com/desktop_electron/Darwin/KeeperSetup.dmg"
+    },
+    {
+      "slug": "keka/darwin",
+      "name": "Keka",
+      "platform": "darwin",
+      "version": "1.6.0",
+      "installerUrl": "https://github.com/aonez/Keka/releases/download/v1.6.0/Keka-1.6.0.dmg"
+    },
+    {
+      "slug": "lens/darwin",
+      "name": "Lens",
+      "platform": "darwin",
+      "version": "2025.10.230725",
+      "installerUrl": "https://api.k8slens.dev/binaries/Lens-2025.10.230725-latest-arm64.dmg"
     },
     {
       "slug": "libreoffice/darwin",
@@ -791,6 +826,20 @@
       "platform": "darwin",
       "version": "4.2.0",
       "installerUrl": "https://github.com/objective-see/LuLu/releases/download/v4.2.0/LuLu_4.2.0.dmg"
+    },
+    {
+      "slug": "maccy/darwin",
+      "name": "Maccy",
+      "platform": "darwin",
+      "version": "2.6.1",
+      "installerUrl": "https://github.com/p0deje/Maccy/releases/download/2.6.1/Maccy.app.zip"
+    },
+    {
+      "slug": "mattermost/darwin",
+      "name": "Mattermost",
+      "platform": "darwin",
+      "version": "6.0.1",
+      "installerUrl": "https://releases.mattermost.com/desktop/6.0.1/mattermost-desktop-6.0.1-mac-m1.zip"
     },
     {
       "slug": "messenger/darwin",
@@ -868,6 +917,13 @@
       "platform": "darwin",
       "version": "0.11.124",
       "installerUrl": "https://desktop.miro.com/platforms/darwin-arm64/Install-Miro.dmg"
+    },
+    {
+      "slug": "mongodb-compass/darwin",
+      "name": "MongoDB Compass",
+      "platform": "darwin",
+      "version": "1.48.2",
+      "installerUrl": "https://downloads.mongodb.com/compass/mongodb-compass-1.48.2-darwin-arm64.dmg"
     },
     {
       "slug": "mysqlworkbench/darwin",
