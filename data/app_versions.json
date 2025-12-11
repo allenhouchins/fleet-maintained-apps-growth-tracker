@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-11T04:17:30Z",
+  "lastUpdated": "2025-12-11T04:56:00Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -562,6 +562,13 @@
       "installerUrl": "https://desktop.figma.com/win/build/Figma-125.11.6.exe"
     },
     {
+      "slug": "filemaker-pro/darwin",
+      "name": "FileMaker Pro",
+      "platform": "darwin",
+      "version": "22.0.4.406",
+      "installerUrl": "https://downloads.claris.com/esd/fmp_22.0.4.406.dmg"
+    },
+    {
       "slug": "firefox/darwin",
       "name": "Mozilla Firefox",
       "platform": "darwin",
@@ -933,6 +940,13 @@
       "installerUrl": "https://cdn.mysql.com/Downloads/MySQLGUITools/mysql-workbench-community-8.0.45-macos-arm64.dmg"
     },
     {
+      "slug": "nordpass/darwin",
+      "name": "NordPass",
+      "platform": "darwin",
+      "version": "7.2.15",
+      "installerUrl": "https://downloads.npass.app/mac/arm/NordPass.dmg"
+    },
+    {
       "slug": "nordvpn/darwin",
       "name": "NordVPN",
       "platform": "darwin",
@@ -968,6 +982,20 @@
       "installerUrl": "https://github.com/macadmins/nudge/releases/download/v2.0.12.81807/Nudge-2.0.12.81807.pkg"
     },
     {
+      "slug": "obs/darwin",
+      "name": "OBS",
+      "platform": "darwin",
+      "version": "32.0.3",
+      "installerUrl": "https://cdn-fastly.obsproject.com/downloads/obs-studio-32.0.3-macos-apple.dmg"
+    },
+    {
+      "slug": "obsidian/darwin",
+      "name": "Obsidian",
+      "platform": "darwin",
+      "version": "1.10.6",
+      "installerUrl": "https://github.com/obsidianmd/obsidian-releases/releases/download/v1.10.6/Obsidian-1.10.6.dmg"
+    },
+    {
       "slug": "omnigraffle/darwin",
       "name": "OmniGraffle",
       "platform": "darwin",
@@ -996,6 +1024,13 @@
       "installerUrl": "https://get.geo.opera.com/pub/opera/desktop/125.0.5729.15/mac/Opera_125.0.5729.15_Setup.dmg"
     },
     {
+      "slug": "orbstack/darwin",
+      "name": "OrbStack",
+      "platform": "darwin",
+      "version": "2.0.5",
+      "installerUrl": "https://cdn-updates.orbstack.dev/arm64/OrbStack_v2.0.5_19905_arm64.dmg"
+    },
+    {
       "slug": "p4v/darwin",
       "name": "P4V",
       "platform": "darwin",
@@ -1008,6 +1043,13 @@
       "platform": "darwin",
       "version": "26.1.2",
       "installerUrl": "https://download.parallels.com/desktop/v26/26.1.2-57293/ParallelsDesktop-26.1.2-57293.dmg"
+    },
+    {
+      "slug": "pgadmin4/darwin",
+      "name": "pgAdmin4",
+      "platform": "darwin",
+      "version": "9.10",
+      "installerUrl": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.10/macos/pgadmin4-9.10-arm64.dmg"
     },
     {
       "slug": "phpstorm/darwin",
@@ -1087,6 +1129,13 @@
       "installerUrl": "https://github.com/rancher-sandbox/rancher-desktop/releases/download/v1.21.0/Rancher.Desktop-1.21.0.aarch64.dmg"
     },
     {
+      "slug": "rapidapi/darwin",
+      "name": "RapidAPI",
+      "platform": "darwin",
+      "version": "4.5.2",
+      "installerUrl": "https://cdn-builds.paw.cloud/paw/RapidAPI-4.5.2.zip"
+    },
+    {
       "slug": "raycast/darwin",
       "name": "Raycast",
       "platform": "darwin",
@@ -1108,6 +1157,13 @@
       "installerUrl": "https://download.jetbrains.com/rider/JetBrains.Rider-2025.3.0.3-aarch64.dmg"
     },
     {
+      "slug": "royal-tsx/darwin",
+      "name": "Royal TSX",
+      "platform": "darwin",
+      "version": "6.3.0.1000",
+      "installerUrl": "https://royaltsx-v6.royalapps.com/updates/royaltsx_6.3.0.1000.dmg"
+    },
+    {
       "slug": "rubymine/darwin",
       "name": "RubyMine",
       "platform": "darwin",
@@ -1127,6 +1183,13 @@
       "platform": "darwin",
       "version": "2025.11",
       "installerUrl": "https://github.com/northpolesec/santa/releases/download/2025.11/santa-2025.11.dmg"
+    },
+    {
+      "slug": "shottr/darwin",
+      "name": "Shottr",
+      "platform": "darwin",
+      "version": "1.9",
+      "installerUrl": "https://shottr.cc/dl/Shottr-1.9.dmg"
     },
     {
       "slug": "signal/darwin",
@@ -1171,11 +1234,39 @@
       "installerUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.2.15_305.zip"
     },
     {
+      "slug": "splashtop-business/darwin",
+      "name": "Splashtop Business",
+      "platform": "darwin",
+      "version": "3.8.0.1",
+      "installerUrl": "https://d17kmd0va0f0mp.cloudfront.net/macclient/STB/Splashtop_Business_Mac_INSTALLER_v3.8.0.1.dmg"
+    },
+    {
+      "slug": "splashtop-streamer/darwin",
+      "name": "Splashtop Streamer",
+      "platform": "darwin",
+      "version": "3.8.0.2",
+      "installerUrl": "https://d17kmd0va0f0mp.cloudfront.net/mac/Splashtop_Streamer_Mac_INSTALLER_v3.8.0.2.dmg"
+    },
+    {
       "slug": "spotify/darwin",
       "name": "Spotify",
       "platform": "darwin",
       "version": "1.2.78.418",
       "installerUrl": "https://download.scdn.co/SpotifyARM64.dmg"
+    },
+    {
+      "slug": "stats/darwin",
+      "name": "Stats",
+      "platform": "darwin",
+      "version": "2.11.62",
+      "installerUrl": "https://github.com/exelban/stats/releases/download/v2.11.62/Stats.dmg"
+    },
+    {
+      "slug": "sublime-merge/darwin",
+      "name": "Sublime Merge",
+      "platform": "darwin",
+      "version": "2112",
+      "installerUrl": "https://download.sublimetext.com/sublime_merge_build_2112_mac.zip"
     },
     {
       "slug": "sublime-text/darwin",
@@ -1190,6 +1281,20 @@
       "platform": "windows",
       "version": "4.0.0.420000",
       "installerUrl": "https://download.sublimetext.com/sublime_text_build_4200_x64_setup.exe"
+    },
+    {
+      "slug": "surfshark/darwin",
+      "name": "Surfshark",
+      "platform": "darwin",
+      "version": "4.24.1",
+      "installerUrl": "https://downloads.surfshark.com/macOS/stable/4.24.1/4031/Surfshark.dmg"
+    },
+    {
+      "slug": "suspicious-package/darwin",
+      "name": "Suspicious Package",
+      "platform": "darwin",
+      "version": "4.6",
+      "installerUrl": "https://www.mothersruin.com/software/downloads/SuspiciousPackage.dmg"
     },
     {
       "slug": "tableau/darwin",
