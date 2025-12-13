@@ -5,13 +5,20 @@
     <link>https://fmalibrary.com</link>
     <description>Track version updates and new app additions for Fleet-maintained apps. Get notified when apps are updated with new versions or when new apps are added to the library.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Dec 2025 14:06:05 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 13 Dec 2025 15:06:07 +0000</lastBuildDate>
     <atom:link href="https://fmalibrary.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://fmalibrary.com/cloud-city.png</url>
       <title>Fleet-maintained apps</title>
       <link>https://fmalibrary.com</link>
     </image>
+    <item>
+      <title>OneDrive 25.184.0921.0004 → 25.222.1112.0002 (Mac)</title>
+      <link>https://fmalibrary.com</link>
+      <description>OneDrive has been updated from version 25.184.0921.0004 to 25.222.1112.0002 on December 13, 2025. &lt;a href=&quot;https://oneclient.sfx.ms/Mac/Installers/25.222.1112.0002/universal/OneDrive.pkg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Sat, 13 Dec 2025 15:06:07 +0000</pubDate>
+      <guid isPermaLink="false">onedrive/darwin-25.184.0921.0004-25.222.1112.0002</guid>
+    </item>
     <item>
       <title>New App: Postman 11.75.4 (Windows)</title>
       <link>https://fmalibrary.com</link>
@@ -1329,18 +1336,11 @@
       <guid isPermaLink="false">asana/darwin-2.4.1-2.5.1</guid>
     </item>
     <item>
-      <title>Todoist 9.24.0 → 9.25.1 (Mac)</title>
+      <title>Windows App 11.2.9 → 11.3.0 (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>Todoist has been updated from version 9.24.0 to 9.25.1 on December 4, 2025. &lt;a href=&quot;https://electron-dl.todoist.com/mac/Todoist-darwin-9.25.1-arm64-latest.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Windows App has been updated from version 11.2.9 to 11.3.0 on December 4, 2025. &lt;a href=&quot;https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Windows_App_11.3.0_installer.pkg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Thu, 04 Dec 2025 16:08:43 +0000</pubDate>
-      <guid isPermaLink="false">todoist-app/darwin-9.24.0-9.25.1</guid>
-    </item>
-    <item>
-      <title>Cursor 2.1.46 → 2.1.47 (Mac)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Cursor has been updated from version 2.1.46 to 2.1.47 on December 4, 2025. &lt;a href=&quot;https://downloads.cursor.com/production/2d3ce3499c15efd55b6b8538ea255eb7ba4266b2/darwin/arm64/Cursor-darwin-arm64.zip&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Thu, 04 Dec 2025 16:08:43 +0000</pubDate>
-      <guid isPermaLink="false">cursor/darwin-2.1.46-2.1.47</guid>
+      <guid isPermaLink="false">windows-app/darwin-11.2.9-11.3.0</guid>
     </item>
     <item>
       <title>Signal 7.80.1 → 7.81.0 (Mac)</title>
@@ -1350,11 +1350,11 @@
       <guid isPermaLink="false">signal/darwin-7.80.1-7.81.0</guid>
     </item>
     <item>
-      <title>Windows App 11.2.9 → 11.3.0 (Mac)</title>
+      <title>Todoist 9.24.0 → 9.25.1 (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>Windows App has been updated from version 11.2.9 to 11.3.0 on December 4, 2025. &lt;a href=&quot;https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Windows_App_11.3.0_installer.pkg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Todoist has been updated from version 9.24.0 to 9.25.1 on December 4, 2025. &lt;a href=&quot;https://electron-dl.todoist.com/mac/Todoist-darwin-9.25.1-arm64-latest.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Thu, 04 Dec 2025 16:08:43 +0000</pubDate>
-      <guid isPermaLink="false">windows-app/darwin-11.2.9-11.3.0</guid>
+      <guid isPermaLink="false">todoist-app/darwin-9.24.0-9.25.1</guid>
     </item>
     <item>
       <title>Granola 6.356.0 → 6.377.0 (Mac)</title>
@@ -1369,6 +1369,13 @@
       <description>Postman has been updated from version 11.74.3 to 11.74.4 on December 4, 2025. &lt;a href=&quot;https://dl.pstmn.io/download/version/11.74.4/osx_arm64&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Thu, 04 Dec 2025 16:08:43 +0000</pubDate>
       <guid isPermaLink="false">postman/darwin-11.74.3-11.74.4</guid>
+    </item>
+    <item>
+      <title>Cursor 2.1.46 → 2.1.47 (Mac)</title>
+      <link>https://fmalibrary.com</link>
+      <description>Cursor has been updated from version 2.1.46 to 2.1.47 on December 4, 2025. &lt;a href=&quot;https://downloads.cursor.com/production/2d3ce3499c15efd55b6b8538ea255eb7ba4266b2/darwin/arm64/Cursor-darwin-arm64.zip&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Thu, 04 Dec 2025 16:08:43 +0000</pubDate>
+      <guid isPermaLink="false">cursor/darwin-2.1.46-2.1.47</guid>
     </item>
     <item>
       <title>TeamViewer 15.72.3 → 15.72.6 (Windows)</title>
