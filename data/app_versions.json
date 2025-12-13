@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-13T04:10:42Z",
+  "lastUpdated": "2025-12-13T05:07:44Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -453,8 +453,8 @@
       "slug": "dialpad/darwin",
       "name": "Dialpad",
       "platform": "darwin",
-      "version": "2511.1.1",
-      "installerUrl": "https://storage.googleapis.com/dialpad_native/osx/arm64/Dialpad.2511.1.1.zip"
+      "version": "2512.0.0",
+      "installerUrl": "https://storage.googleapis.com/dialpad_native/osx/arm64/Dialpad.2512.0.0.zip"
     },
     {
       "slug": "discord/darwin",
@@ -859,8 +859,8 @@
       "slug": "microsoft-auto-update/darwin",
       "name": "Microsoft Auto Update",
       "platform": "darwin",
-      "version": "4.81.25111027",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_AutoUpdate_4.81.25111027_Updater.pkg"
+      "version": "4.81.25121042",
+      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_AutoUpdate_4.81.25121042_Updater.pkg"
     },
     {
       "slug": "microsoft-edge/darwin",
@@ -973,6 +973,13 @@
       "platform": "darwin",
       "version": "6.0.0",
       "installerUrl": "https://desktop-release.notion-static.com/Notion-6.0.0-arm64.dmg"
+    },
+    {
+      "slug": "notion/windows",
+      "name": "Notion",
+      "platform": "windows",
+      "version": "6.1.0",
+      "installerUrl": "https://desktop-release.notion-static.com/Notion%20Setup%206.1.0.exe"
     },
     {
       "slug": "nova/darwin",
@@ -1216,7 +1223,7 @@
       "slug": "slack/darwin",
       "name": "Slack",
       "platform": "darwin",
-      "version": "4.47.69",
+      "version": "4.47.72",
       "installerUrl": "https://slack.com/api/desktop.latestRelease?redirect=1\u0026variant=pkg\u0026arch=universal"
     },
     {
@@ -1363,15 +1370,15 @@
       "slug": "teleport-connect/darwin",
       "name": "Teleport Connect",
       "platform": "darwin",
-      "version": "18.5.0",
-      "installerUrl": "https://cdn.teleport.dev/Teleport%20Connect-18.5.0.dmg"
+      "version": "18.5.1",
+      "installerUrl": "https://cdn.teleport.dev/Teleport%20Connect-18.5.1.dmg"
     },
     {
       "slug": "teleport-suite/darwin",
       "name": "Teleport Suite",
       "platform": "darwin",
-      "version": "18.5.0",
-      "installerUrl": "https://cdn.teleport.dev/teleport-18.5.0.pkg"
+      "version": "18.5.1",
+      "installerUrl": "https://cdn.teleport.dev/teleport-18.5.1.pkg"
     },
     {
       "slug": "thunderbird/darwin",
