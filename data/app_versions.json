@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-14T02:45:09Z",
+  "lastUpdated": "2025-12-14T03:35:24Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -7,6 +7,13 @@
       "platform": "darwin",
       "version": "16.0.2",
       "installerUrl": "https://download.sweetscape.com/010EditorMacARM64Installer16.0.2.dmg"
+    },
+    {
+      "slug": "010-editor/windows",
+      "name": "010 Editor",
+      "platform": "windows",
+      "version": "16.0.2",
+      "installerUrl": "https://download.sweetscape.com/010EditorWin64Installer16.0.2.exe"
     },
     {
       "slug": "1password/darwin",
@@ -28,6 +35,13 @@
       "platform": "darwin",
       "version": "8.29.1",
       "installerUrl": "https://work-desktop-assets.8x8.com/prod-publish/ga/work-arm64-dmg-v8.29.1-3.dmg"
+    },
+    {
+      "slug": "8x8-work/windows",
+      "name": "8x8 Work",
+      "platform": "windows",
+      "version": "8.29.1",
+      "installerUrl": "https://work-desktop-assets.8x8.com/prod-publish/ga/work-64-msi-v8.29.1-3.msi"
     },
     {
       "slug": "abstract/darwin",
