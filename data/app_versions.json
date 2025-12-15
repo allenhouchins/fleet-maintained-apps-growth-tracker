@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-15T03:36:33Z",
+  "lastUpdated": "2025-12-15T03:51:02Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -98,6 +98,20 @@
       "platform": "windows",
       "version": "3.1.66",
       "installerUrl": "https://download-electron.aircall.io/Aircall-3.1.66.msi"
+    },
+    {
+      "slug": "airtame/darwin",
+      "name": "Airtame",
+      "platform": "darwin",
+      "version": "4.15.0",
+      "installerUrl": "https://downloads-cdn.airtame.com/app/latest/mac/Airtame-4.15.0.dmg"
+    },
+    {
+      "slug": "airtame/windows",
+      "name": "Airtame",
+      "platform": "windows",
+      "version": "4.15.0",
+      "installerUrl": "https://downloads.airtame.com/app/latest/win/Airtame-4.15.0-setup.exe"
     },
     {
       "slug": "amazon-chime/darwin",
