@@ -608,6 +608,17 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
                 filteredApps = appsData.filter(app => app.platform === 'windows');
             }
             
+            // Sort apps by name (case-insensitive), then by platform to group same-name apps together
+            filteredApps.sort((a, b) => {
+                const nameA = a.name.toLowerCase();
+                const nameB = b.name.toLowerCase();
+                if (nameA !== nameB) {
+                    return nameA.localeCompare(nameB);
+                }
+                // If names are the same, sort by platform (darwin before windows)
+                return a.platform.localeCompare(b.platform);
+            });
+            
             countEl.textContent = filteredApps.length;
             
             grid.innerHTML = filteredApps.map(app => {
