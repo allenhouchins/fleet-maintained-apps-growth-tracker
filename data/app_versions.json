@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-17T02:39:52Z",
+  "lastUpdated": "2025-12-17T03:32:48Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -971,15 +971,15 @@
       "slug": "microsoft-excel/darwin",
       "name": "Microsoft Excel",
       "platform": "darwin",
-      "version": "16.103.25120717",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.103.25120717_Installer.pkg"
+      "version": "16.104",
+      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.104.25121423_Installer.pkg"
     },
     {
       "slug": "microsoft-onenote/darwin",
       "name": "Microsoft OneNote",
       "platform": "darwin",
-      "version": "16.103.25110922",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.103.25110922_Updater.pkg"
+      "version": "16.104.25121423",
+      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.104.25121423_Updater.pkg"
     },
     {
       "slug": "microsoft-outlook/darwin",
@@ -992,8 +992,8 @@
       "slug": "microsoft-powerpoint/darwin",
       "name": "Microsoft PowerPoint",
       "platform": "darwin",
-      "version": "16.103.25120717",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.103.25120717_Installer.pkg"
+      "version": "16.104.25121423",
+      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.104.25121423_Installer.pkg"
     },
     {
       "slug": "microsoft-teams/darwin",
@@ -1013,7 +1013,7 @@
       "slug": "microsoft-word/darwin",
       "name": "Microsoft Word",
       "platform": "darwin",
-      "version": "16.104.25121423",
+      "version": "16.104",
       "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.104.25121423_Installer.pkg"
     },
     {
@@ -1174,15 +1174,15 @@
       "slug": "postman/darwin",
       "name": "Postman",
       "platform": "darwin",
-      "version": "11.76.0",
-      "installerUrl": "https://dl.pstmn.io/download/version/11.76.0/osx_arm64"
+      "version": "11.76.3",
+      "installerUrl": "https://dl.pstmn.io/download/version/11.76.3/osx_arm64"
     },
     {
       "slug": "postman/windows",
       "name": "Postman",
       "platform": "windows",
-      "version": "11.76.0",
-      "installerUrl": "https://dl.pstmn.io/download/version/11.76.0/windows_64"
+      "version": "11.76.3",
+      "installerUrl": "https://dl.pstmn.io/download/version/11.76.3/windows_64"
     },
     {
       "slug": "pritunl/darwin",
@@ -1374,6 +1374,20 @@
       "installerUrl": "https://github.com/exelban/stats/releases/download/v2.11.62/Stats.dmg"
     },
     {
+      "slug": "steam/darwin",
+      "name": "Steam",
+      "platform": "darwin",
+      "version": "4.0",
+      "installerUrl": "https://cdn.cloudflare.steamstatic.com/client/installer/steam.dmg"
+    },
+    {
+      "slug": "steam/windows",
+      "name": "Steam",
+      "platform": "windows",
+      "version": "2.10.91.91",
+      "installerUrl": "https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe"
+    },
+    {
       "slug": "sublime-merge/darwin",
       "name": "Sublime Merge",
       "platform": "darwin",
@@ -1426,15 +1440,15 @@
       "slug": "tailscale-app/darwin",
       "name": "Tailscale",
       "platform": "darwin",
-      "version": "1.92.2",
-      "installerUrl": "https://pkgs.tailscale.com/stable/Tailscale-1.92.2-macos.pkg"
+      "version": "1.92.3",
+      "installerUrl": "https://pkgs.tailscale.com/stable/Tailscale-1.92.3-macos.pkg"
     },
     {
       "slug": "tailscale/windows",
       "name": "Tailscale",
       "platform": "windows",
-      "version": "1.92.1",
-      "installerUrl": "https://pkgs.tailscale.com/stable/tailscale-setup-1.92.1-amd64.msi"
+      "version": "1.92.3",
+      "installerUrl": "https://pkgs.tailscale.com/stable/tailscale-setup-1.92.3-amd64.msi"
     },
     {
       "slug": "teamviewer/darwin",
@@ -1678,8 +1692,8 @@
       "slug": "zed/darwin",
       "name": "Zed",
       "platform": "darwin",
-      "version": "0.216.1",
-      "installerUrl": "https://zed.dev/api/releases/stable/0.216.1/Zed-aarch64.dmg"
+      "version": "0.217.1",
+      "installerUrl": "https://zed.dev/api/releases/stable/0.217.1/Zed-aarch64.dmg"
     },
     {
       "slug": "zeplin/darwin",
