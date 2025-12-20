@@ -1,0 +1,54 @@
+name: Collect macOS App Security Info
+
+on:
+  schedule:
+    # Run daily at 2 AM UTC (to avoid conflicts with hourly updates)
+    - cron: '0 2 * * *'
+  workflow_dispatch:  # Allow manual triggering
+  workflow_run:
+    workflows: ["Update Growth Data"]
+    types:
+      - completed
+
+permissions:
+  contents: write  # Required to commit changes
+
+jobs:
+  collect-security-info:
+    runs-on: macos-latest  # Must run on macOS for santactl
+    timeout-minutes: 120  # Longer timeout for app installations
+    if: github.event.workflow_run.conclusion == 'success' || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.21'
+
+      - name: Collect macOS app security info
+        run: |
+          cd cmd/collect-security-info && go run main.go
+
+      - name: Check for changes
+        id: verify-changed-files
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.verify-changed-files.outputs.changed == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/app_security_info.json
+          git commit -m "Update macOS app security info - $(date +'%Y-%m-%d %H:%M:%S UTC')"
+          git push
+

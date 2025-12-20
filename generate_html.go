@@ -11,11 +11,12 @@ import (
 )
 
 const (
-	csvFile      = "data/apps_growth.csv"
-	outputHTML   = "index.html"
-	appsJSONURL  = "https://raw.githubusercontent.com/fleetdm/fleet/main/ee/maintained-apps/outputs/apps.json"
-	appBaseURL   = "https://raw.githubusercontent.com/fleetdm/fleet/main/ee/maintained-apps/outputs"
-	iconsBaseURL = "https://raw.githubusercontent.com/fleetdm/fleet/main/website/assets/images"
+	csvFile          = "data/apps_growth.csv"
+	outputHTML       = "index.html"
+	appsJSONURL      = "https://raw.githubusercontent.com/fleetdm/fleet/main/ee/maintained-apps/outputs/apps.json"
+	appBaseURL       = "https://raw.githubusercontent.com/fleetdm/fleet/main/ee/maintained-apps/outputs"
+	iconsBaseURL     = "https://raw.githubusercontent.com/fleetdm/fleet/main/website/assets/images"
+	securityInfoJSON = "data/app_security_info.json"
 )
 
 type csvData struct {
@@ -30,16 +31,36 @@ type csvData struct {
 }
 
 type appData struct {
-	Name         string `json:"name"`
-	Slug         string `json:"slug"`
-	Platform     string `json:"platform"`
-	Description  string `json:"description"`
-	Version      string `json:"version"`
-	InstallerURL string `json:"installerUrl"`
+	Name         string               `json:"name"`
+	Slug         string               `json:"slug"`
+	Platform     string               `json:"platform"`
+	Description  string               `json:"description"`
+	Version      string               `json:"version"`
+	InstallerURL string               `json:"installerUrl"`
+	SecurityInfo *appSecurityInfoData `json:"securityInfo,omitempty"`
+}
+
+type appSecurityInfoData struct {
+	Sha256    string `json:"sha256"`
+	Cdhash    string `json:"cdhash"`
+	SigningID string `json:"signingId"`
+	TeamID    string `json:"teamId"`
 }
 
 type appsJSON struct {
 	Apps []appData `json:"apps"`
+}
+
+type securityInfoItem struct {
+	Slug      string `json:"slug"`
+	Sha256    string `json:"sha256"`
+	Cdhash    string `json:"cdhash"`
+	SigningID string `json:"signingId"`
+	TeamID    string `json:"teamId"`
+}
+
+type securityInfoData struct {
+	Apps []securityInfoItem `json:"apps"`
 }
 
 func generateHTML() error {
@@ -57,6 +78,10 @@ func generateHTML() error {
 	} else {
 		fmt.Printf("✅ Fetched %d apps\n", len(apps.Apps))
 	}
+
+	// Load security info and merge with apps
+	securityInfo, _ := loadSecurityInfo()
+	mergeSecurityInfo(apps, securityInfo)
 
 	htmlContent := generateHTMLContent(data, apps)
 
@@ -167,6 +192,45 @@ func fetchAppsData() (*appsJSON, error) {
 	}
 
 	return &apps, nil
+}
+
+func loadSecurityInfo() (*securityInfoData, error) {
+	data, err := os.ReadFile(securityInfoJSON)
+	if err != nil {
+		if os.IsNotExist(err) {
+			return &securityInfoData{Apps: []securityInfoItem{}}, nil
+		}
+		return nil, err
+	}
+
+	var security securityInfoData
+	if err := json.Unmarshal(data, &security); err != nil {
+		return nil, err
+	}
+
+	return &security, nil
+}
+
+func mergeSecurityInfo(apps *appsJSON, security *securityInfoData) {
+	// Create a map of security info by slug
+	securityMap := make(map[string]securityInfoItem)
+	for _, sec := range security.Apps {
+		securityMap[sec.Slug] = sec
+	}
+
+	// Merge security info into apps
+	for i := range apps.Apps {
+		if apps.Apps[i].Platform == "darwin" {
+			if sec, exists := securityMap[apps.Apps[i].Slug]; exists {
+				apps.Apps[i].SecurityInfo = &appSecurityInfoData{
+					Sha256:    sec.Sha256,
+					Cdhash:    sec.Cdhash,
+					SigningID: sec.SigningID,
+					TeamID:    sec.TeamID,
+				}
+			}
+		}
+	}
 }
 
 func fetchAppVersionAndURL(slug, platform string) (version string, installerURL string, err error) {
@@ -581,20 +645,92 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
             line-height: 1.6;
         }
         .modal-installer-link {
-            display: inline-block;
-            padding: 10px 20px;
+            display: block;
+            padding: 12px 24px;
             background: #2563eb;
             color: white;
             text-decoration: none;
             border-radius: 6px;
             font-weight: 500;
-            margin-top: 8px;
+            text-align: center;
             transition: all 0.2s ease;
+            width: 100%;
+            box-sizing: border-box;
         }
         .modal-installer-link:hover {
             background: #1d4ed8;
             transform: translateY(-2px);
             box-shadow: 0 4px 6px rgba(37, 99, 235, 0.3);
+        }
+        .modal-security-info {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 16px;
+            margin-top: 8px;
+        }
+        .modal-security-item {
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .modal-security-item:last-child {
+            margin-bottom: 0;
+        }
+        .modal-security-label {
+            font-weight: 600;
+            color: #475569;
+            flex-shrink: 0;
+            min-width: 100px;
+            font-size: 14px;
+        }
+        .modal-security-value {
+            font-family: 'Monaco', 'Menlo', 'Courier New', monospace;
+            font-size: 13px;
+            background: white;
+            padding: 4px 8px;
+            border-radius: 4px;
+            border: 1px solid #e2e8f0;
+            color: #1e293b;
+            white-space: nowrap;
+            overflow-x: auto;
+            flex: 1;
+            min-width: 0;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            position: relative;
+        }
+        .modal-security-value:hover {
+            background: #f1f5f9;
+            border-color: #2563eb;
+        }
+        .modal-security-value:active {
+            background: #e0e7ff;
+        }
+        .modal-security-value.copied {
+            background: #dcfce7;
+            border-color: #22c55e;
+        }
+        .modal-security-value::after {
+            content: 'Click to copy';
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #1e293b;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            white-space: nowrap;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.2s ease;
+            margin-bottom: 4px;
+        }
+        .modal-security-value:hover::after {
+            opacity: 1;
         }
         .rss-button {
             display: inline-flex;
@@ -707,8 +843,28 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
                     <div class="modal-info-label">Description</div>
                     <div class="modal-info-value" id="modalDescription"></div>
                 </div>
-                <div class="modal-info-row" id="modalInstallerRow" style="display: none;">
-                    <div class="modal-info-label">Installer</div>
+                <div class="modal-info-row" id="modalSecurityRow" style="display: none;">
+                    <div class="modal-info-label">Security Information</div>
+                    <div class="modal-security-info">
+                        <div class="modal-security-item">
+                            <span class="modal-security-label">SHA-256:</span>
+                            <code class="modal-security-value" id="modalSha256"></code>
+                        </div>
+                        <div class="modal-security-item">
+                            <span class="modal-security-label">CDHash:</span>
+                            <code class="modal-security-value" id="modalCdhash"></code>
+                        </div>
+                        <div class="modal-security-item">
+                            <span class="modal-security-label">Signing ID:</span>
+                            <code class="modal-security-value" id="modalSigningID"></code>
+                        </div>
+                        <div class="modal-security-item">
+                            <span class="modal-security-label">Team ID:</span>
+                            <code class="modal-security-value" id="modalTeamID"></code>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-info-row" id="modalInstallerRow" style="display: none; margin-top: 24px;">
                     <a href="#" id="modalInstallerLink" class="modal-installer-link" target="_blank" rel="noopener noreferrer">Download Installer</a>
                 </div>
             </div>
@@ -1076,6 +1232,37 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
                 }
             }
             
+            // Set security info (macOS only)
+            const securityRow = document.getElementById('modalSecurityRow');
+            if (securityRow) {
+                if (app.platform === 'darwin' && app.securityInfo) {
+                    const sha256El = document.getElementById('modalSha256');
+                    const cdhashEl = document.getElementById('modalCdhash');
+                    const signingIDEl = document.getElementById('modalSigningID');
+                    const teamIDEl = document.getElementById('modalTeamID');
+                    
+                    if (sha256El) {
+                        sha256El.textContent = app.securityInfo.sha256 || 'N/A';
+                        setupCopyToClipboard(sha256El, app.securityInfo.sha256 || 'N/A');
+                    }
+                    if (cdhashEl) {
+                        cdhashEl.textContent = app.securityInfo.cdhash || 'N/A';
+                        setupCopyToClipboard(cdhashEl, app.securityInfo.cdhash || 'N/A');
+                    }
+                    if (signingIDEl) {
+                        signingIDEl.textContent = app.securityInfo.signingId || 'N/A';
+                        setupCopyToClipboard(signingIDEl, app.securityInfo.signingId || 'N/A');
+                    }
+                    if (teamIDEl) {
+                        teamIDEl.textContent = app.securityInfo.teamId || 'N/A';
+                        setupCopyToClipboard(teamIDEl, app.securityInfo.teamId || 'N/A');
+                    }
+                    securityRow.style.display = 'block';
+                } else {
+                    securityRow.style.display = 'none';
+                }
+            }
+            
             // Show modal
             modal.classList.add('show');
             document.body.style.overflow = 'hidden';
@@ -1108,6 +1295,47 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
                 closeModal();
             }
         });
+        
+        // Copy to clipboard functionality
+        function setupCopyToClipboard(element, text) {
+            if (!element || text === 'N/A') return;
+            
+            element.addEventListener('click', async function() {
+                try {
+                    await navigator.clipboard.writeText(text);
+                    // Visual feedback
+                    element.classList.add('copied');
+                    const originalText = element.textContent;
+                    element.textContent = 'Copied!';
+                    
+                    setTimeout(() => {
+                        element.classList.remove('copied');
+                        element.textContent = originalText;
+                    }, 2000);
+                } catch (err) {
+                    // Fallback for older browsers
+                    const textArea = document.createElement('textarea');
+                    textArea.value = text;
+                    textArea.style.position = 'fixed';
+                    textArea.style.opacity = '0';
+                    document.body.appendChild(textArea);
+                    textArea.select();
+                    try {
+                        document.execCommand('copy');
+                        element.classList.add('copied');
+                        const originalText = element.textContent;
+                        element.textContent = 'Copied!';
+                        setTimeout(() => {
+                            element.classList.remove('copied');
+                            element.textContent = originalText;
+                        }, 2000);
+                    } catch (fallbackErr) {
+                        console.error('Failed to copy:', fallbackErr);
+                    }
+                    document.body.removeChild(textArea);
+                }
+            });
+        }
     </script>
 </body>
 </html>`
