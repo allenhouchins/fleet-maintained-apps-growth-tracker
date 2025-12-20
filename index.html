@@ -537,7 +537,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: December 20, 2025 at 12:09 AM CST</p>
+            Last updated: December 20, 2025 at 12:17 AM CST</p>
         </div>
     </div>
 
@@ -589,7 +589,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: December 20, 2025 at 12:09 AM CST</p>
+                <p id="modalLastUpdated">Last updated: December 20, 2025 at 12:17 AM CST</p>
             </div>
         </div>
     </div>
@@ -3055,7 +3055,14 @@
                 "platform": "darwin",
                 "description": "DataGrip is a powerful cross-platform IDE for relational and NoSQL databases.",
                 "version": "2025.3.1",
-                "installerUrl": "https://download.jetbrains.com/datagrip/datagrip-2025.3.1-aarch64.dmg"
+                "installerUrl": "https://download.jetbrains.com/datagrip/datagrip-2025.3.1-aarch64.dmg",
+                "securityInfo": {
+                  "sha256": "f92a20b26ce2a69dae0a418c15aeef9bfb15f2903fa4e92f2efdf730833a1532",
+                  "cdhash": "1342823eb2254e0fce60ceafed7240feae2b3b5e",
+                  "signingId": "2ZEFAR8TH3:com.jetbrains.datagrip",
+                  "teamId": "2ZEFAR8TH3",
+                  "lastUpdated": "2025-12-20T06:13:14Z"
+                }
               },
               {
                 "name": "DB Browser for SQLite",
@@ -4855,7 +4862,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `December 20, 2025 at 12:09 AM CST`;
+                let timestampText = 'Last updated: ' + `December 20, 2025 at 12:17 AM CST`;
                 
                 // If macOS app has security info with lastUpdated, use that instead
                 if (app.platform === 'darwin' && app.securityInfo && app.securityInfo.lastUpdated) {
