@@ -336,8 +336,8 @@ func collectSecurityInfoForApp(app securityAppVersionInfo) (appSecurityInfo, err
 		return securityInfo, fmt.Errorf("failed to install app: %w", err)
 	}
 
-	// Wait a bit longer to ensure app is fully installed and ready
-	time.Sleep(2 * time.Second)
+	// Wait longer to ensure app is fully installed and ready (santactl can take time)
+	time.Sleep(3 * time.Second)
 
 	// Run santactl fileinfo
 	santactlOutput, err := runSantactl(appPath)
@@ -1099,6 +1099,38 @@ func findInstalledApp(app securityAppVersionInfo) (string, error) {
 	})
 
 	if len(recentApps) > 0 {
+		// Filter out helper apps and look for the main app
+		var mainApps []string
+		for _, app := range recentApps {
+			appLower := strings.ToLower(app)
+			// Skip helper apps, code helpers, etc.
+			if strings.Contains(appLower, "helper") || 
+			   strings.Contains(appLower, "plugin") || 
+			   strings.Contains(appLower, "renderer") ||
+			   strings.Contains(appLower, "gpu") {
+				continue
+			}
+			mainApps = append(mainApps, app)
+		}
+		
+		// If we have main apps, try them
+		if len(mainApps) > 0 {
+			for _, appName := range mainApps {
+				appPath := filepath.Join(applicationsDir, appName)
+				if _, err := os.Stat(appPath); err == nil {
+					// Check if it matches the app name we're looking for
+					appNameLower := strings.ToLower(strings.TrimSuffix(appName, ".app"))
+					searchNameLower := strings.ToLower(app.Name)
+					if strings.Contains(appNameLower, searchNameLower) || 
+					   strings.Contains(searchNameLower, appNameLower) ||
+					   len(mainApps) == 1 {
+						fmt.Printf("  ℹ️  Using recently modified app: %s\n", appName)
+						return appPath, nil
+					}
+				}
+			}
+		}
+		
 		// If we found recently modified apps but they're command-line tools (not GUI apps),
 		// try to use the first one if it's the only option
 		if len(recentApps) == 1 || (len(recentApps) == 2 && 
@@ -1382,7 +1414,7 @@ func runSantactl(appPath string) ([]byte, error) {
 			// If we found the executable name, use it; otherwise try common names
 			if executableName != "" {
 				executablePath := filepath.Join(appPath, "Contents", "MacOS", executableName)
-				if _, err := os.Stat(executablePath); err == nil {
+				if _, err := os.Stat(executablePath); err == nil && !strings.HasPrefix(executableName, "._") {
 					targetPath = executablePath
 				}
 			} else {
@@ -1391,7 +1423,7 @@ func runSantactl(appPath string) ([]byte, error) {
 				commonNames := []string{appName}
 				for _, name := range commonNames {
 					executablePath := filepath.Join(appPath, "Contents", "MacOS", name)
-					if _, err := os.Stat(executablePath); err == nil {
+					if _, err := os.Stat(executablePath); err == nil && !strings.HasPrefix(name, "._") {
 						targetPath = executablePath
 						break
 					}
@@ -1401,28 +1433,61 @@ func runSantactl(appPath string) ([]byte, error) {
 			// If we still don't have an executable, try listing Contents/MacOS/
 			if targetPath == appPath {
 				macosDir := filepath.Join(appPath, "Contents", "MacOS")
-				if entries, err := os.ReadDir(macosDir); err == nil && len(entries) > 0 {
-					// Use the first file in MacOS directory
-					firstExecutable := filepath.Join(macosDir, entries[0].Name())
-					if info, err := os.Stat(firstExecutable); err == nil && !info.IsDir() {
-						targetPath = firstExecutable
+				if entries, err := os.ReadDir(macosDir); err == nil {
+					// Find the first non-resource-fork file (skip files starting with ._)
+					for _, entry := range entries {
+						if strings.HasPrefix(entry.Name(), "._") {
+							continue // Skip macOS resource fork files
+						}
+						executablePath := filepath.Join(macosDir, entry.Name())
+						if info, err := os.Stat(executablePath); err == nil && !info.IsDir() {
+							targetPath = executablePath
+							break
+						}
 					}
 				}
 			}
 		}
 	}
 
-	// Add a small delay to ensure app is fully installed
-	time.Sleep(1 * time.Second)
+	// Add a delay to ensure app is fully installed (santactl can take 5-10 seconds)
+	time.Sleep(3 * time.Second)
 
+	// Try .app bundle path first (this is what works locally per user feedback)
+	// If that fails or returns empty, try the executable path
+	var output []byte
+	var err error
+	
+	// First try: .app bundle path (if we have one)
+	if strings.HasSuffix(appPath, ".app") && targetPath != appPath {
+		cmd := exec.Command("santactl", "fileinfo", "--json", appPath)
+		var stdout bytes.Buffer
+		var stderr bytes.Buffer
+		cmd.Stdout = &stdout
+		cmd.Stderr = &stderr
+		err = cmd.Run()
+		output = stdout.Bytes()
+		
+		// Check if we got valid non-empty output
+		if len(output) > 0 {
+			var testArray []interface{}
+			if json.Unmarshal(output, &testArray) == nil && len(testArray) > 0 {
+				// Got valid data from .app bundle path
+				return output, nil
+			}
+		}
+		// .app bundle path didn't work, try executable path
+		fmt.Printf("  ℹ️  .app bundle path returned empty, trying executable path: %s\n", targetPath)
+	}
+
+	// Second try: executable path
 	cmd := exec.Command("santactl", "fileinfo", "--json", targetPath)
 	var stdout bytes.Buffer
 	var stderr bytes.Buffer
 	cmd.Stdout = &stdout
 	cmd.Stderr = &stderr
-	err := cmd.Run()
-	
-	output := stdout.Bytes()
+	err = cmd.Run()
+	output = stdout.Bytes()
 	
 	// Debug: log what path we're using
 	if targetPath != appPath {
@@ -1435,15 +1500,10 @@ func runSantactl(appPath string) ([]byte, error) {
 		if len(output) > 0 {
 			// Try to parse to see if it's valid JSON
 			var testArray []interface{}
-			if json.Unmarshal(output, &testArray) == nil {
-				// Valid JSON, return it even though command "failed"
+			if json.Unmarshal(output, &testArray) == nil && len(testArray) > 0 {
+				// Valid JSON with data, return it even though command "failed"
 				return output, nil
 			}
-		}
-		// If using executable path failed, try the .app bundle path as fallback
-		if targetPath != appPath {
-			fmt.Printf("  ℹ️  Executable path failed, trying .app bundle path...\n")
-			return runSantactl(appPath) // Recursive call with original path
 		}
 		return nil, fmt.Errorf("santactl failed: %w (stderr: %s)", err, strings.TrimSpace(stderr.String()))
 	}
