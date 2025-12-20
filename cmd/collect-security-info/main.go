@@ -427,8 +427,9 @@ func detectActualFileType(filepath string) (string, error) {
 		return ".dmg", nil
 	}
 	
-	// Check for ZIP
-	if strings.Contains(fileType, "zip archive") || strings.Contains(fileType, "compressed") {
+	// Check for ZIP (handle various formats: "Zip archive", "Zip archive data", etc.)
+	if strings.Contains(fileType, "zip archive") || strings.Contains(fileType, "zip") || 
+	   strings.Contains(fileType, "compressed") && !strings.Contains(fileType, "dmg") {
 		return ".zip", nil
 	}
 
@@ -513,13 +514,36 @@ func getInstallerExtension(url, contentType string) string {
 func installApp(installerPath string, app securityAppVersionInfo) (string, error) {
 	fmt.Printf("  📦 Installing app...\n")
 
+	// First, verify the actual file type (in case it was misnamed)
+	actualExt, err := detectActualFileType(installerPath)
+	if err == nil && actualExt != "" {
+		currentExt := strings.ToLower(filepath.Ext(installerPath))
+		if actualExt != currentExt {
+			// File type doesn't match extension, rename it
+			newPath := strings.TrimSuffix(installerPath, currentExt) + actualExt
+			if err := os.Rename(installerPath, newPath); err == nil {
+				fmt.Printf("  ℹ️  Corrected file type: %s -> %s\n", currentExt, actualExt)
+				installerPath = newPath
+			}
+		}
+	}
+
 	ext := strings.ToLower(filepath.Ext(installerPath))
 	var appPath string
-	var err error
 
 	switch ext {
 	case ".dmg":
 		appPath, err = installFromDMG(installerPath, app)
+		// If DMG fails and error suggests it's not a DMG, try as ZIP
+		if err != nil && (strings.Contains(err.Error(), "not recognized") || 
+		                  strings.Contains(err.Error(), "Zip archive")) {
+			fmt.Printf("  ℹ️  DMG mount failed, trying as ZIP...\n")
+			// Rename and try as ZIP
+			zipPath := strings.TrimSuffix(installerPath, ".dmg") + ".zip"
+			if renameErr := os.Rename(installerPath, zipPath); renameErr == nil {
+				appPath, err = installFromZIP(zipPath, app)
+			}
+		}
 	case ".pkg":
 		appPath, err = installFromPKG(installerPath, app)
 	case ".zip":
@@ -831,7 +855,13 @@ verifyMount:
 		fmt.Printf("  📦 Found PKG installer in DMG, installing...\n")
 		// Install the PKG
 		installCmd := exec.Command("sudo", "installer", "-pkg", pkgFile, "-target", "/")
+		var installStderr bytes.Buffer
+		installCmd.Stderr = &installStderr
 		if err := installCmd.Run(); err != nil {
+			stderrStr := strings.TrimSpace(installStderr.String())
+			if stderrStr != "" {
+				return "", fmt.Errorf("failed to install PKG from DMG: %w (stderr: %s)", err, stderrStr)
+			}
 			return "", fmt.Errorf("failed to install PKG from DMG: %w", err)
 		}
 
@@ -1066,6 +1096,18 @@ func findInstalledApp(app securityAppVersionInfo) (string, error) {
 	})
 
 	if len(recentApps) > 0 {
+		// If we found recently modified apps but they're command-line tools (not GUI apps),
+		// try to use the first one if it's the only option
+		if len(recentApps) == 1 || (len(recentApps) == 2 && 
+			(strings.Contains(strings.ToLower(recentApps[0]), "tctl") || 
+			 strings.Contains(strings.ToLower(recentApps[0]), "tsh"))) {
+			// Try using the first recently modified app
+			appPath := filepath.Join(applicationsDir, recentApps[0])
+			if _, err := os.Stat(appPath); err == nil {
+				fmt.Printf("  ℹ️  Using recently modified app (may be command-line tool): %s\n", recentApps[0])
+				return appPath, nil
+			}
+		}
 		return "", fmt.Errorf("could not find installed app after PKG installation. Recently modified apps: %v", recentApps[:min(5, len(recentApps))])
 	}
 
@@ -1126,7 +1168,13 @@ func min(a, b int) int {
 func installFromPKG(pkgPath string, app securityAppVersionInfo) (string, error) {
 	// Install PKG
 	cmd := exec.Command("sudo", "installer", "-pkg", pkgPath, "-target", "/")
+	var stderr bytes.Buffer
+	cmd.Stderr = &stderr
 	if err := cmd.Run(); err != nil {
+		stderrStr := strings.TrimSpace(stderr.String())
+		if stderrStr != "" {
+			return "", fmt.Errorf("failed to install PKG: %w (stderr: %s)", err, stderrStr)
+		}
 		return "", fmt.Errorf("failed to install PKG: %w", err)
 	}
 
@@ -1350,6 +1398,8 @@ func parseSantactlOutput(output []byte, app securityAppVersionInfo) (appSecurity
 	}
 
 	if len(santactlArray) == 0 {
+		// Debug: log what we actually got
+		fmt.Printf("  ⚠️  Debug: santactl returned array with length 0. Raw output (first 500 chars): %s\n", outputStr[:min(500, len(outputStr))])
 		return appSecurityInfo{}, fmt.Errorf("santactl returned empty array (app may not be signed or may be unsigned)")
 	}
 
