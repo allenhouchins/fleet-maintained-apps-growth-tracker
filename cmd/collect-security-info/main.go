@@ -336,6 +336,11 @@ func collectSecurityInfoForApp(app securityAppVersionInfo) (appSecurityInfo, err
 		return securityInfo, fmt.Errorf("failed to install app: %w", err)
 	}
 
+	// Verify the app path is not empty
+	if appPath == "" {
+		return securityInfo, fmt.Errorf("installApp returned empty path")
+	}
+
 	// Verify the app exists before proceeding
 	if _, err := os.Stat(appPath); err != nil {
 		return securityInfo, fmt.Errorf("installed app not found at %s: %w", appPath, err)
@@ -1119,6 +1124,7 @@ func findInstalledApp(app securityAppVersionInfo) (string, error) {
 		strings.TrimSuffix(app.Name, " Desktop") + ".app",
 		strings.TrimSuffix(app.Name, " Suite") + ".app",
 		strings.TrimSuffix(app.Name, " Viewer") + ".app",
+		strings.TrimSuffix(app.Name, " Client") + ".app",
 	}
 
 	// For multi-word names, try just the first word (e.g., "Box Drive" -> "Box.app")
@@ -1257,10 +1263,13 @@ func findInstalledApp(app securityAppVersionInfo) (string, error) {
 				return appPath, nil
 			}
 		}
-		return "", fmt.Errorf("could not find installed app after PKG installation. Recently modified apps: %v", recentApps[:min(5, len(recentApps))])
+		if len(recentApps) > 0 {
+			return "", fmt.Errorf("could not find installed app '%s' after PKG installation. Recently modified apps: %v", app.Name, recentApps[:min(5, len(recentApps))])
+		}
+		return "", fmt.Errorf("could not find installed app '%s' after PKG installation. No recently modified apps found", app.Name)
 	}
 
-	return "", fmt.Errorf("could not find installed app after PKG installation")
+	return "", fmt.Errorf("could not find installed app '%s' after PKG installation", app.Name)
 }
 
 // copyDirectory recursively copies a directory tree from src to dst
@@ -1350,7 +1359,7 @@ func installFromPKG(pkgPath string, app securityAppVersionInfo) (string, error) 
 	appPath, err := findInstalledApp(app)
 	if err != nil {
 		// If we can't find the app, list what was recently installed for debugging
-		fmt.Printf("  ⚠️  Could not find installed app, listing recently modified apps in /Applications:\n")
+		fmt.Printf("  ⚠️  Could not find installed app '%s', listing recently modified apps in /Applications:\n", app.Name)
 		var recentApps []string
 		cutoffTime := time.Now().Add(-5 * time.Minute)
 		_ = filepath.Walk(applicationsDir, func(path string, info os.FileInfo, err error) error {
@@ -1366,10 +1375,18 @@ func installFromPKG(pkgPath string, app securityAppVersionInfo) (string, error) 
 		})
 		if len(recentApps) > 0 {
 			fmt.Printf("  ℹ️  Recently modified apps: %v\n", recentApps)
+			// If there's only one recently modified app, try using it
+			if len(recentApps) == 1 {
+				candidatePath := filepath.Join(applicationsDir, recentApps[0])
+				if _, err := os.Stat(candidatePath); err == nil {
+					fmt.Printf("  ℹ️  Using only recently modified app: %s\n", recentApps[0])
+					return candidatePath, nil
+				}
+			}
 		} else {
 			fmt.Printf("  ℹ️  No recently modified apps found\n")
 		}
-		return "", err
+		return "", fmt.Errorf("could not find installed app after PKG installation: %w", err)
 	}
 	return appPath, nil
 }
