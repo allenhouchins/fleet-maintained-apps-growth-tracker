@@ -948,9 +948,55 @@ verifyMount:
 				}
 				return "", fmt.Errorf("failed to install PKG from DMG: %w", err)
 			}
+			
+			// Log installer output for debugging
+			stdoutStr := strings.TrimSpace(installStdout.String())
+			stderrStr := strings.TrimSpace(installStderr.String())
+			if stdoutStr != "" {
+				// Show first few lines of installer output
+				lines := strings.Split(stdoutStr, "\n")
+				maxLines := 5
+				if len(lines) < maxLines {
+					maxLines = len(lines)
+				}
+				fmt.Printf("  ℹ️  Installer output (first %d lines): %v\n", maxLines, lines[:maxLines])
+			}
+			if stderrStr != "" {
+				fmt.Printf("  ℹ️  Installer stderr: %s\n", stderrStr[:min(200, len(stderrStr))])
+			}
 
 			// Wait longer for installation to complete (PKG installs can take time)
 			time.Sleep(5 * time.Second)
+
+			// Check what the PKG actually installed using pkgutil
+			fmt.Printf("  ℹ️  Checking what PKG installed...\n")
+			pkgutilCmd := exec.Command("pkgutil", "--pkgs")
+			pkgutilOut, _ := pkgutilCmd.Output()
+			pkgutilLines := strings.Split(strings.TrimSpace(string(pkgutilOut)), "\n")
+			// Find packages that might be related to this app
+			for _, pkg := range pkgutilLines {
+				if strings.Contains(strings.ToLower(pkg), strings.ToLower(app.Name)) {
+					fmt.Printf("  ℹ️  Found installed package: %s\n", pkg)
+					// Get files installed by this package
+					filesCmd := exec.Command("pkgutil", "--files", pkg)
+					filesOut, _ := filesCmd.Output()
+					filesLines := strings.Split(strings.TrimSpace(string(filesOut)), "\n")
+					// Look for .app bundles
+					for _, file := range filesLines {
+						if strings.HasSuffix(file, ".app") {
+							fullPath := filepath.Join("/", file)
+							if _, err := os.Stat(fullPath); err == nil {
+								fmt.Printf("  ℹ️  Package installed app at: %s\n", fullPath)
+								// If it's in /Applications, use it
+								if strings.HasPrefix(fullPath, applicationsDir) {
+									fmt.Printf("  ✅ Found app installed by PKG: %s\n", fullPath)
+									return fullPath, nil
+								}
+							}
+						}
+					}
+				}
+			}
 
 			// Now find the installed app in /Applications
 			appPath, err := findInstalledApp(app)
