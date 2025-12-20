@@ -1634,6 +1634,38 @@ func runSantactl(appPath string) ([]byte, error) {
 		}
 	}
 	
+		// Final fallback: if we got empty arrays from JSON, try text format one last time
+		if len(output) > 0 {
+			outputStr := strings.TrimSpace(string(output))
+			if outputStr == "[]" {
+				fmt.Printf("  ℹ️  All JSON attempts returned empty, trying text format as final fallback (may take 10+ seconds)...\n")
+				// Try text format on the original app path
+				if strings.HasSuffix(appPath, ".app") {
+					// Try .app bundle path
+					cmdText := exec.Command("santactl", "fileinfo", appPath)
+				var stdoutText bytes.Buffer
+				var stderrText bytes.Buffer
+				cmdText.Stdout = &stdoutText
+				cmdText.Stderr = &stderrText
+				if errText := cmdText.Run(); errText == nil {
+					textOutput := stdoutText.Bytes()
+					if len(textOutput) > 0 {
+						// Parse text output and convert to JSON-like structure
+						parsedData, parseErr := parseSantactlTextOutput(textOutput, appPath)
+						if parseErr == nil && (parsedData["SHA-256"] != "" || parsedData["CDHash"] != "") {
+							// Convert to JSON format that parseSantactlOutput expects
+							jsonData := convertTextToJSON(parsedData)
+							fmt.Printf("  ✅ Got data from text format (final fallback)\n")
+							return jsonData, nil
+						} else if parseErr != nil {
+							fmt.Printf("  ⚠️  Failed to parse text output: %v\n", parseErr)
+						}
+					}
+				}
+			}
+		}
+	}
+	
 	if err != nil {
 		// Even if command fails, check if we got valid JSON output
 		// Sometimes santactl returns valid JSON but exits with non-zero code
