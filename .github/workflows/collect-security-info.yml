@@ -95,6 +95,10 @@ jobs:
         run: |
           cd cmd/collect-security-info && go run main.go
 
+      - name: Regenerate HTML with security info
+        run: |
+          go run generate_html.go
+
       - name: Check for changes
         id: verify-changed-files
         run: |
@@ -109,7 +113,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add data/app_security_info.json
+          git add data/app_security_info.json index.html
           git commit -m "Update macOS app security info - $(date +'%Y-%m-%d %H:%M:%S UTC')"
           git push
 
