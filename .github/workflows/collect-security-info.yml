@@ -13,6 +13,10 @@ on:
 permissions:
   contents: write  # Required to commit changes
 
+concurrency:
+  group: "collect-security-info"
+  cancel-in-progress: false  # Don't cancel in-progress runs, skip new ones instead
+
 jobs:
   collect-security-info:
     runs-on: macos-latest  # Must run on macOS for santactl
