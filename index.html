@@ -537,7 +537,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: December 20, 2025 at 1:10 PM CST</p>
+            Last updated: December 20, 2025 at 2:00 PM CST</p>
         </div>
     </div>
 
@@ -589,7 +589,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: December 20, 2025 at 1:10 PM CST</p>
+                <p id="modalLastUpdated">Last updated: December 20, 2025 at 2:00 PM CST</p>
             </div>
         </div>
     </div>
@@ -3580,8 +3580,8 @@
                 "slug": "google-chrome/windows",
                 "platform": "windows",
                 "description": "Google Chrome is a fast, reliable web browser built for performance and compatibility across platforms.",
-                "version": "143.0.7499.147",
-                "installerUrl": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi"
+                "version": "",
+                "installerUrl": ""
               },
               {
                 "name": "Google Drive",
@@ -5082,7 +5082,14 @@
                 "platform": "darwin",
                 "description": "Teleport Suite is a modern SSH server for teams managing distributed infrastructure.",
                 "version": "18.5.1",
-                "installerUrl": "https://cdn.teleport.dev/teleport-18.5.1.pkg"
+                "installerUrl": "https://cdn.teleport.dev/teleport-18.5.1.pkg",
+                "securityInfo": {
+                  "sha256": "8db9e095155519464b3109fa17217a04b370c1b6e9409a6ab74e5fe33e6a5bb1",
+                  "cdhash": "72682cbbdb6a0f66c0e8d5f76047237cbda9019c",
+                  "signingId": "QH8AA5B8UP:QH8AA5B8UP.com.gravitational.teleport.tctl",
+                  "teamId": "QH8AA5B8UP",
+                  "lastUpdated": "2025-12-20T19:56:34Z"
+                }
               },
               {
                 "name": "TextExpander",
@@ -5248,7 +5255,14 @@
                 "platform": "darwin",
                 "description": "Microsoft Visual Studio Code (VS Code) is an open-source, lightweight, and powerful code editor.",
                 "version": "1.107.1",
-                "installerUrl": "https://update.code.visualstudio.com/1.107.1/darwin-arm64/stable"
+                "installerUrl": "https://update.code.visualstudio.com/1.107.1/darwin-arm64/stable",
+                "securityInfo": {
+                  "sha256": "256eba5271bc1b732b12f046b920a0f12614fe23921fc6659e23d7b5870e312a",
+                  "cdhash": "6da6d9be6b581988ebda634e976c05ebda099f4b",
+                  "signingId": "UBF8T346G9:com.microsoft.VSCode",
+                  "teamId": "UBF8T346G9",
+                  "lastUpdated": "2025-12-20T19:57:36Z"
+                }
               },
               {
                 "name": "Microsoft Visual Studio Code",
@@ -5891,7 +5905,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `December 20, 2025 at 1:10 PM CST`;
+                let timestampText = 'Last updated: ' + `December 20, 2025 at 2:00 PM CST`;
                 
                 // If macOS app has security info with lastUpdated, use that instead
                 if (app.platform === 'darwin' && app.securityInfo && app.securityInfo.lastUpdated) {
