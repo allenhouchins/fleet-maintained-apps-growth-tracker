@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-20T09:17:13Z",
+  "lastUpdated": "2025-12-20T09:24:02Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1690,6 +1690,106 @@
       "signingId": "6N38VWS5BX:ru.keepcoder.Telegram",
       "teamId": "6N38VWS5BX",
       "lastUpdated": "2025-12-20T09:17:11Z"
+    },
+    {
+      "slug": "teleport-connect/darwin",
+      "name": "Teleport Connect",
+      "version": "18.5.1",
+      "sha256": "dcc8ecec75a73dd05ef05b4b646a32dc5e9bdf1768a824a9302618a0f71648a8",
+      "cdhash": "39d9941d3e38c3375ea59b2ebb18ec8ec493b7a1",
+      "signingId": "QH8AA5B8UP:gravitational.teleport.connect",
+      "teamId": "QH8AA5B8UP",
+      "lastUpdated": "2025-12-20T09:17:28Z"
+    },
+    {
+      "slug": "textexpander/darwin",
+      "name": "TextExpander",
+      "version": "8.4",
+      "sha256": "e6f60d7e87180a1c7014e641c7202bd8cbb2a0f14327d50a9aaddba35d85b78c",
+      "cdhash": "26fd46f6c94a848bc84b32e4b23d75043265f9d7",
+      "signingId": "7PKJ6G4DXL:com.smileonmymac.textexpander",
+      "teamId": "7PKJ6G4DXL",
+      "lastUpdated": "2025-12-20T09:19:19Z"
+    },
+    {
+      "slug": "thunderbird/darwin",
+      "name": "Thunderbird",
+      "version": "146.0.1",
+      "sha256": "d71186347c0244690f7afa0824b45c4e7ad15db8a98d479f2eeb82c1d9ab0393",
+      "cdhash": "46a2739202d8ba8ad524e8b8c99c303a3a9d4d25",
+      "signingId": "43AQ936H96:org.mozilla.thunderbird",
+      "teamId": "43AQ936H96",
+      "lastUpdated": "2025-12-20T09:19:39Z"
+    },
+    {
+      "slug": "todoist-app/darwin",
+      "name": "Todoist",
+      "version": "9.26.0",
+      "sha256": "c7a94dffc5c63bcae1eca6c313baf1dcfb321f86cae0a0495e88dddee7bb50da",
+      "cdhash": "6a4621c7816639a8c05b1dfa38062a011b46c1f5",
+      "signingId": "S3DD273774:com.todoist.mac.Todoist",
+      "teamId": "S3DD273774",
+      "lastUpdated": "2025-12-20T09:20:00Z"
+    },
+    {
+      "slug": "tower/darwin",
+      "name": "Tower",
+      "version": "15.0.3",
+      "sha256": "d84c18d99fdbcc9b5d64f55806d7b15d1a39a09b95ddfac82cd1a30c06e3447f",
+      "cdhash": "bbbeb86642cd2dca43ca5b068828b5c57b694678",
+      "signingId": "UN97WY764J:com.fournova.Tower3",
+      "teamId": "UN97WY764J",
+      "lastUpdated": "2025-12-20T09:21:58Z"
+    },
+    {
+      "slug": "transmit/darwin",
+      "name": "Transmit",
+      "version": "5.11.3",
+      "sha256": "6b60e0f5546adc8978814001965b74a68d6d216df75eabce2483e97bc57b5259",
+      "cdhash": "823418848e016514c16e8f08520a0f63e9ff9e57",
+      "signingId": "VE8FC488U5:com.panic.Transmit",
+      "teamId": "VE8FC488U5",
+      "lastUpdated": "2025-12-20T09:22:23Z"
+    },
+    {
+      "slug": "tunnelblick/darwin",
+      "name": "Tunnelblick",
+      "version": "8.0",
+      "sha256": "9c8e6d574fdcee14427097fc070218aefae4bf2a1ddb092fa04c9c1260e021bc",
+      "cdhash": "94c3dcd19cd389c3759c81e0a2a676428990d250",
+      "signingId": "Z2SG5H3HC8:net.tunnelblick.tunnelblick",
+      "teamId": "Z2SG5H3HC8",
+      "lastUpdated": "2025-12-20T09:22:36Z"
+    },
+    {
+      "slug": "twingate/darwin",
+      "name": "Twingate",
+      "version": "2025.338.21484",
+      "sha256": "5798f4b2d77312e1cf2ea591de183d239813dfa2a5eeead4f77319184e2e97e0",
+      "cdhash": "f469720de6ba467ce13f476537a68aa1349a0de0",
+      "signingId": "6GX8KVTR9H:com.twingate.macos",
+      "teamId": "6GX8KVTR9H",
+      "lastUpdated": "2025-12-20T09:23:09Z"
+    },
+    {
+      "slug": "utm/darwin",
+      "name": "UTM",
+      "version": "4.7.4",
+      "sha256": "722d1d49ef9050ffe421591971c78fdf929814c60c13af55a328d6d3ee6177db",
+      "cdhash": "e1c1346c0d9b24e10faeb8597fa6c4b6184ac438",
+      "signingId": "WDNLXAD4W8:com.utmapp.UTM",
+      "teamId": "WDNLXAD4W8",
+      "lastUpdated": "2025-12-20T09:23:29Z"
+    },
+    {
+      "slug": "virtualbox/darwin",
+      "name": "VirtualBox",
+      "version": "7.2.4",
+      "sha256": "615a9abf989208dd72d327ae7c5edb3b96ffbd7d85626115bd02d042eb9b2310",
+      "cdhash": "25305c8f25aefa217e45247aa8a2a841577b1dcf",
+      "signingId": "VB5E2TV963:org.virtualbox.app.VirtualBox",
+      "teamId": "VB5E2TV963",
+      "lastUpdated": "2025-12-20T09:24:00Z"
     }
   ]
 }
