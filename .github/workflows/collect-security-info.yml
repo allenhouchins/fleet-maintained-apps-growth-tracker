@@ -44,47 +44,91 @@ jobs:
           # Try Homebrew first (if available)
           if command -v brew &> /dev/null; then
             echo "Attempting to install via Homebrew..."
-            if brew install santa 2>/dev/null; then
+            # Homebrew will handle the download and installation
+            if brew install santa 2>&1; then
               if command -v santactl &> /dev/null; then
                 echo "✅ santactl installed via Homebrew"
                 santactl version || true
                 exit 0
               fi
             fi
+            echo "⚠️  Homebrew installation failed or incomplete, trying direct download..."
           fi
           
           # Fallback: Download and install from GitHub releases
           echo "Downloading Santa from GitHub releases..."
-          SANTA_VERSION="2025.12"  # Latest stable version
+          
+          # Try to get the latest version from GitHub API, fallback to known version
+          SANTA_VERSION=$(curl -s https://api.github.com/repos/northpolesec/santa/releases/latest | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/' | sed 's/^v//' || echo "2025.12")
+          
+          if [ -z "$SANTA_VERSION" ] || [ "$SANTA_VERSION" = "null" ]; then
+            SANTA_VERSION="2025.12"  # Fallback to known version
+          fi
+          
+          echo "Using Santa version: $SANTA_VERSION"
           SANTA_DMG="santa-${SANTA_VERSION}.dmg"
           SANTA_URL="https://github.com/northpolesec/santa/releases/download/${SANTA_VERSION}/${SANTA_DMG}"
           
-          # Download DMG
-          curl -L -o /tmp/${SANTA_DMG} ${SANTA_URL}
-          
-          # Mount DMG
-          MOUNT_POINT=$(hdiutil attach /tmp/${SANTA_DMG} -nobrowse -noverify -noautoopen -quiet | tail -1 | awk -F'\t' '{print $3}')
-          
-          # Find and install the pkg file
-          PKG_FILE=$(find "$MOUNT_POINT" -name "*.pkg" | head -1)
-          if [ -z "$PKG_FILE" ]; then
-            echo "::error::Could not find .pkg file in Santa DMG"
-            hdiutil detach "$MOUNT_POINT" -quiet 2>/dev/null || true
+          # Download DMG with timeout and retry
+          echo "Downloading from: $SANTA_URL"
+          if ! curl -L --max-time 60 --retry 3 -o /tmp/${SANTA_DMG} ${SANTA_URL}; then
+            echo "::error::Failed to download Santa DMG"
             exit 1
           fi
           
+          # Verify download
+          if [ ! -f /tmp/${SANTA_DMG} ] || [ ! -s /tmp/${SANTA_DMG} ]; then
+            echo "::error::Downloaded file is missing or empty"
+            exit 1
+          fi
+          
+          # Mount DMG
+          MOUNT_POINT=$(hdiutil attach /tmp/${SANTA_DMG} -nobrowse -noverify -noautoopen -quiet 2>&1 | tail -1 | awk -F'\t' '{print $3}')
+          
+          if [ -z "$MOUNT_POINT" ] || [ ! -d "$MOUNT_POINT" ]; then
+            echo "::error::Failed to mount Santa DMG"
+            rm -f /tmp/${SANTA_DMG}
+            exit 1
+          fi
+          
+          echo "Mounted at: $MOUNT_POINT"
+          
+          # Find and install the pkg file
+          PKG_FILE=$(find "$MOUNT_POINT" -name "*.pkg" -type f | head -1)
+          if [ -z "$PKG_FILE" ] || [ ! -f "$PKG_FILE" ]; then
+            echo "::error::Could not find .pkg file in Santa DMG"
+            echo "Contents of mount point:"
+            ls -la "$MOUNT_POINT" || true
+            hdiutil detach "$MOUNT_POINT" -quiet 2>/dev/null || true
+            rm -f /tmp/${SANTA_DMG}
+            exit 1
+          fi
+          
+          echo "Found PKG: $PKG_FILE"
+          
           # Install Santa components
-          sudo installer -pkg "$PKG_FILE" -target / -allowUntrusted
+          if ! sudo installer -pkg "$PKG_FILE" -target / -allowUntrusted; then
+            echo "::error::Failed to install Santa PKG"
+            hdiutil detach "$MOUNT_POINT" -quiet 2>/dev/null || true
+            rm -f /tmp/${SANTA_DMG}
+            exit 1
+          fi
           
           # Unmount DMG
-          hdiutil detach "$MOUNT_POINT" -quiet
+          hdiutil detach "$MOUNT_POINT" -quiet 2>/dev/null || true
           
           # Clean up
-          rm /tmp/${SANTA_DMG}
+          rm -f /tmp/${SANTA_DMG}
+          
+          # Wait a moment for installation to complete
+          sleep 2
           
           # Verify installation
           if ! command -v santactl &> /dev/null; then
-            echo "::error::Failed to install santactl"
+            echo "::error::santactl not found in PATH after installation"
+            echo "Checking common locations..."
+            ls -la /usr/local/bin/santactl || true
+            ls -la /opt/santa/bin/santactl || true
             exit 1
           fi
           

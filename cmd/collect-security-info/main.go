@@ -545,15 +545,30 @@ func installFromDMG(dmgPath string, app securityAppVersionInfo) (string, error) 
 }
 
 func findInstalledApp(app securityAppVersionInfo) (string, error) {
+	// Wait a bit longer for installation to fully complete
+	time.Sleep(2 * time.Second)
+
 	// Try to find the installed app by name variations
 	variations := []string{
 		app.Name + ".app",
 		strings.ReplaceAll(app.Name, " ", "") + ".app",
 		strings.ReplaceAll(app.Name, " ", "_") + ".app",
+		strings.ReplaceAll(app.Name, " ", "-") + ".app",
 		// Adobe-specific variations
 		strings.TrimSuffix(app.Name, " DC") + ".app",
 		strings.TrimSuffix(app.Name, " Pro DC") + ".app",
 		strings.TrimSuffix(app.Name, " Pro") + ".app",
+	}
+
+	// For multi-word names, try just the first word (e.g., "Box Drive" -> "Box.app")
+	nameWords := strings.Fields(app.Name)
+	if len(nameWords) > 1 {
+		variations = append(variations, nameWords[0]+".app")
+		// Also try first two words
+		if len(nameWords) > 2 {
+			variations = append(variations, strings.Join(nameWords[:2], " ")+".app")
+			variations = append(variations, strings.Join(nameWords[:2], "")+".app")
+		}
 	}
 
 	for _, variation := range variations {
@@ -565,21 +580,43 @@ func findInstalledApp(app securityAppVersionInfo) (string, error) {
 
 	// If not found by name, search for any .app that might match
 	var foundApp string
+	var bestMatch string
+	bestMatchScore := 0
+
 	_ = filepath.Walk(applicationsDir, func(path string, info os.FileInfo, err error) error {
 		if err != nil {
 			return nil
 		}
 		// Look for apps that contain key words from the app name
 		if strings.HasSuffix(path, ".app") && info != nil && info.IsDir() {
-			appBaseName := strings.ToLower(filepath.Base(path))
+			appBaseName := strings.ToLower(strings.TrimSuffix(filepath.Base(path), ".app"))
 			nameLower := strings.ToLower(app.Name)
-			// Check if app name contains key words (e.g., "Acrobat" in "Adobe Acrobat Pro DC")
+
+			// Exact match (case-insensitive)
+			if appBaseName == nameLower {
+				foundApp = path
+				return filepath.SkipDir
+			}
+
+			// Check if app name contains key words
 			keyWords := strings.Fields(nameLower)
+			matchScore := 0
 			for _, word := range keyWords {
-				if len(word) > 3 && strings.Contains(appBaseName, word) {
-					foundApp = path
-					return filepath.SkipDir
+				if len(word) > 2 { // Lower threshold to catch "Box"
+					if strings.Contains(appBaseName, word) {
+						matchScore++
+					}
 				}
+			}
+
+			// Also check if the app name starts with any key word
+			if len(keyWords) > 0 && strings.HasPrefix(appBaseName, strings.ToLower(keyWords[0])) {
+				matchScore += 2 // Higher score for prefix match
+			}
+
+			if matchScore > bestMatchScore {
+				bestMatch = path
+				bestMatchScore = matchScore
 			}
 		}
 		return nil
@@ -587,6 +624,29 @@ func findInstalledApp(app securityAppVersionInfo) (string, error) {
 
 	if foundApp != "" {
 		return foundApp, nil
+	}
+
+	if bestMatch != "" && bestMatchScore > 0 {
+		return bestMatch, nil
+	}
+
+	// Last resort: list recently modified apps for debugging
+	var recentApps []string
+	_ = filepath.Walk(applicationsDir, func(path string, info os.FileInfo, err error) error {
+		if err != nil {
+			return nil
+		}
+		if strings.HasSuffix(path, ".app") && info != nil && info.IsDir() {
+			// Check if modified in last 5 minutes
+			if time.Since(info.ModTime()) < 5*time.Minute {
+				recentApps = append(recentApps, filepath.Base(path))
+			}
+		}
+		return nil
+	})
+
+	if len(recentApps) > 0 {
+		return "", fmt.Errorf("could not find installed app after PKG installation. Recently modified apps: %v", recentApps[:min(5, len(recentApps))])
 	}
 
 	return "", fmt.Errorf("could not find installed app after PKG installation")
