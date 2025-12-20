@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-20T09:31:43Z",
+  "lastUpdated": "2025-12-20T09:35:03Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1890,6 +1890,46 @@
       "signingId": "LQA3CS5MM7:com.yubico.yubioath",
       "teamId": "LQA3CS5MM7",
       "lastUpdated": "2025-12-20T09:31:41Z"
+    },
+    {
+      "slug": "yubico-yubikey-manager/darwin",
+      "name": "Yubikey Manager",
+      "version": "1.2.5",
+      "sha256": "308355934c2f7e6a560222556408b841825cced4256c2f9187f631958c2155c0",
+      "cdhash": "0ee54473285a354722b05639b6840cf1d8f3c76d",
+      "signingId": "LQA3CS5MM7:com.yubico.ykman",
+      "teamId": "LQA3CS5MM7",
+      "lastUpdated": "2025-12-20T09:32:47Z"
+    },
+    {
+      "slug": "zed/darwin",
+      "name": "Zed",
+      "version": "0.217.3",
+      "sha256": "6d1f8743a741d86078988e990018414d2b7cc014b7af719a2a80caca3feee5ed",
+      "cdhash": "5c30802beb30ffea97d12339fa7d2bbdf5a45e5d",
+      "signingId": "MQ55VZLNZQ:dev.zed.Zed",
+      "teamId": "MQ55VZLNZQ",
+      "lastUpdated": "2025-12-20T09:33:02Z"
+    },
+    {
+      "slug": "zeplin/darwin",
+      "name": "Zeplin",
+      "version": "10.30.0",
+      "sha256": "383edb4931ef03a5cf2c4d4cb2b13f56190cbaa266c1dcbc31195bc5a4daa2b7",
+      "cdhash": "ac6271e3ccb5282d8cd55702dec7806b1c2a8a93",
+      "signingId": "8U3Y4X5WDQ:io.zeplin.osx",
+      "teamId": "8U3Y4X5WDQ",
+      "lastUpdated": "2025-12-20T09:33:25Z"
+    },
+    {
+      "slug": "zoom/darwin",
+      "name": "Zoom",
+      "version": "6.7.0.71075",
+      "sha256": "78dd1d3aa0ee7176d6c50547903acf2f359303e31200398e80fc0190a14655f0",
+      "cdhash": "75fe75d159f53696e5bdc842744ba8c5d9a26715",
+      "signingId": "BJ4HAAB9B3:us.zoom.xos",
+      "teamId": "BJ4HAAB9B3",
+      "lastUpdated": "2025-12-20T09:34:29Z"
     }
   ]
 }
