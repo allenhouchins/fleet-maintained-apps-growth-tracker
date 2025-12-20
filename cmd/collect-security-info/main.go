@@ -208,6 +208,16 @@ func main() {
 			fmt.Printf("  💾 Progress saved (%d/%d apps)\n", processedCount, len(macApps))
 		}
 
+		// Commit changes periodically (every 10 apps or on first/last app) to preserve progress
+		shouldCommit := processedCount == 1 || processedCount%10 == 0 || processedCount == len(macApps)
+		if shouldCommit {
+			if err := commitProgress(processedCount, len(macApps)); err != nil {
+				fmt.Fprintf(os.Stderr, "  ⚠️  Warning: Failed to commit progress: %v\n", err)
+			} else {
+				fmt.Printf("  📝 Progress committed to repo (%d/%d apps)\n", processedCount, len(macApps))
+			}
+		}
+
 		// Clean up after each app to save disk space
 		cleanupTempFiles()
 	}
@@ -218,8 +228,56 @@ func main() {
 		os.Exit(1)
 	}
 
+	// Final commit
+	if err := commitProgress(processedCount, len(macApps)); err != nil {
+		fmt.Fprintf(os.Stderr, "⚠️  Warning: Failed to commit final progress: %v\n", err)
+	}
+
 	fmt.Printf("\n✅ Successfully processed %d/%d apps\n", processedCount, len(macApps))
 	fmt.Printf("✅ Security info saved to: %s\n", securityInfoJSON)
+}
+
+func commitProgress(processedCount, totalApps int) error {
+	// Check if we're in a git repository and have changes
+	if err := exec.Command("git", "rev-parse", "--git-dir").Run(); err != nil {
+		// Not in a git repo, skip commit
+		return nil
+	}
+
+	// Check if there are changes
+	statusCmd := exec.Command("git", "status", "--porcelain", securityInfoJSON)
+	output, err := statusCmd.Output()
+	if err != nil {
+		return fmt.Errorf("checking git status: %w", err)
+	}
+
+	if len(output) == 0 {
+		// No changes, nothing to commit
+		return nil
+	}
+
+	// Configure git (if not already configured)
+	exec.Command("git", "config", "--local", "user.email", "action@github.com").Run()
+	exec.Command("git", "config", "--local", "user.name", "GitHub Action").Run()
+
+	// Add the file
+	if err := exec.Command("git", "add", securityInfoJSON).Run(); err != nil {
+		return fmt.Errorf("git add: %w", err)
+	}
+
+	// Commit
+	commitMsg := fmt.Sprintf("Update macOS app security info - %d/%d apps processed", processedCount, totalApps)
+	if err := exec.Command("git", "commit", "-m", commitMsg).Run(); err != nil {
+		// If commit fails (e.g., no changes), that's okay
+		return nil
+	}
+
+	// Push (non-blocking - if it fails, that's okay, next run will push)
+	go func() {
+		exec.Command("git", "push").Run()
+	}()
+
+	return nil
 }
 
 func loadAppVersions() (*securityAppVersionsData, error) {
