@@ -1473,13 +1473,27 @@ func runSantactl(appPath string) ([]byte, error) {
 	}
 
 	// Add a delay to ensure app is fully installed (santactl can take 5-10 seconds)
-	// Also try to "touch" the app to ensure it's accessible
+	// Also try to "touch" the app to ensure it's accessible and registered with the system
 	if strings.HasSuffix(targetPath, ".app") {
 		// Try to access the app bundle to ensure it's ready
 		exec.Command("ls", "-la", targetPath).Run()
-		// Also try to access the executable inside to "wake it up"
-		execPath := filepath.Join(targetPath, "Contents", "MacOS", filepath.Base(strings.TrimSuffix(targetPath, ".app")))
-		exec.Command("ls", "-la", execPath).Run()
+		
+		// Try to find and access the executable inside to "wake it up"
+		macosDir := filepath.Join(targetPath, "Contents", "MacOS")
+		if entries, err := os.ReadDir(macosDir); err == nil {
+			for _, entry := range entries {
+				if !strings.HasPrefix(entry.Name(), "._") && !entry.IsDir() {
+					execPath := filepath.Join(macosDir, entry.Name())
+					exec.Command("ls", "-la", execPath).Run()
+					// Try running codesign to verify the app is signed (this might help santactl)
+					exec.Command("codesign", "-dv", execPath).Run()
+					break
+				}
+			}
+		}
+		
+		// Try to assess the app with spctl (this might help register it with santactl)
+		exec.Command("spctl", "-a", "-vv", targetPath).Run()
 	}
 	time.Sleep(5 * time.Second) // Increased wait time since santactl can take 5-10 seconds
 
@@ -1507,6 +1521,23 @@ func runSantactl(appPath string) ([]byte, error) {
 				fmt.Printf("  ℹ️  Retry %d: Trying path: %s\n", attempt, pathToTry)
 			}
 			
+			// If this is an .app bundle and we got empty results before, try codesign first
+			if attempt > 1 && strings.HasSuffix(pathToTry, ".app") {
+				// Try to find the executable and run codesign on it to "register" it
+				macosDir := filepath.Join(pathToTry, "Contents", "MacOS")
+				if entries, err := os.ReadDir(macosDir); err == nil {
+					for _, entry := range entries {
+						if !strings.HasPrefix(entry.Name(), "._") && !entry.IsDir() {
+							execPath := filepath.Join(macosDir, entry.Name())
+							// Run codesign to verify signature (this might help santactl recognize it)
+							exec.Command("codesign", "-dv", execPath).Run()
+							time.Sleep(1 * time.Second)
+							break
+						}
+					}
+				}
+			}
+			
 			cmd := exec.Command("santactl", "fileinfo", "--json", pathToTry)
 			var stdout bytes.Buffer
 			var stderr bytes.Buffer
@@ -1524,6 +1555,37 @@ func runSantactl(appPath string) ([]byte, error) {
 					// Got valid data
 					fmt.Printf("  ✅ Got data from path (attempt %d)\n", attempt)
 					return output, nil
+				}
+			}
+			
+			// If we got empty array, try the executable path directly as a fallback
+			if outputStr == "[]" && strings.HasSuffix(pathToTry, ".app") && attempt >= 2 {
+				// Try finding and using the executable path directly
+				macosDir := filepath.Join(pathToTry, "Contents", "MacOS")
+				if entries, err := os.ReadDir(macosDir); err == nil {
+					for _, entry := range entries {
+						if !strings.HasPrefix(entry.Name(), "._") && !entry.IsDir() {
+							execPath := filepath.Join(macosDir, entry.Name())
+							fmt.Printf("  ℹ️  Trying executable path directly: %s\n", execPath)
+							cmd2 := exec.Command("santactl", "fileinfo", "--json", execPath)
+							var stdout2 bytes.Buffer
+							var stderr2 bytes.Buffer
+							cmd2.Stdout = &stdout2
+							cmd2.Stderr = &stderr2
+							if err2 := cmd2.Run(); err2 == nil {
+								output2 := stdout2.Bytes()
+								outputStr2 := strings.TrimSpace(string(output2))
+								if outputStr2 != "[]" && len(outputStr2) > 0 {
+									var testArray2 []interface{}
+									if json.Unmarshal(output2, &testArray2) == nil && len(testArray2) > 0 {
+										fmt.Printf("  ✅ Got data from executable path\n")
+										return output2, nil
+									}
+								}
+							}
+							break
+						}
+					}
 				}
 			}
 			
