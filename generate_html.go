@@ -41,10 +41,11 @@ type appData struct {
 }
 
 type appSecurityInfoData struct {
-	Sha256    string `json:"sha256"`
-	Cdhash    string `json:"cdhash"`
-	SigningID string `json:"signingId"`
-	TeamID    string `json:"teamId"`
+	Sha256      string `json:"sha256"`
+	Cdhash      string `json:"cdhash"`
+	SigningID   string `json:"signingId"`
+	TeamID      string `json:"teamId"`
+	LastUpdated string `json:"lastUpdated,omitempty"`
 }
 
 type appsJSON struct {
@@ -52,11 +53,12 @@ type appsJSON struct {
 }
 
 type securityInfoItem struct {
-	Slug      string `json:"slug"`
-	Sha256    string `json:"sha256"`
-	Cdhash    string `json:"cdhash"`
-	SigningID string `json:"signingId"`
-	TeamID    string `json:"teamId"`
+	Slug        string `json:"slug"`
+	Sha256      string `json:"sha256"`
+	Cdhash      string `json:"cdhash"`
+	SigningID   string `json:"signingId"`
+	TeamID      string `json:"teamId"`
+	LastUpdated string `json:"lastUpdated"`
 }
 
 type securityInfoData struct {
@@ -223,10 +225,11 @@ func mergeSecurityInfo(apps *appsJSON, security *securityInfoData) {
 		if apps.Apps[i].Platform == "darwin" {
 			if sec, exists := securityMap[apps.Apps[i].Slug]; exists {
 				apps.Apps[i].SecurityInfo = &appSecurityInfoData{
-					Sha256:    sec.Sha256,
-					Cdhash:    sec.Cdhash,
-					SigningID: sec.SigningID,
-					TeamID:    sec.TeamID,
+					Sha256:      sec.Sha256,
+					Cdhash:      sec.Cdhash,
+					SigningID:   sec.SigningID,
+					TeamID:      sec.TeamID,
+					LastUpdated: sec.LastUpdated,
 				}
 			}
 		}
@@ -628,6 +631,16 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
         .modal-body {
             padding: 24px;
         }
+        .modal-footer {
+            padding: 16px 24px;
+            border-top: 1px solid #e2e8f0;
+            text-align: center;
+        }
+        .modal-footer p {
+            margin: 0;
+            color: #64748b;
+            font-size: 12px;
+        }
         .modal-info-row {
             margin-bottom: 20px;
         }
@@ -867,6 +880,9 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
                 <div class="modal-info-row" id="modalInstallerRow" style="display: none; margin-top: 24px;">
                     <a href="#" id="modalInstallerLink" class="modal-installer-link" target="_blank" rel="noopener noreferrer">Download Installer</a>
                 </div>
+            </div>
+            <div class="modal-footer">
+                <p id="modalLastUpdated">Last updated: ` + lastUpdated + `</p>
             </div>
         </div>
     </div>
@@ -1261,6 +1277,41 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
                 } else {
                     securityRow.style.display = 'none';
                 }
+            }
+            
+            // Set last updated timestamp
+            const modalLastUpdated = document.getElementById('modalLastUpdated');
+            if (modalLastUpdated) {
+                let timestampText = 'Last updated: ' + ` + "`" + lastUpdated + "`" + `;
+                
+                // If macOS app has security info with lastUpdated, use that instead
+                if (app.platform === 'darwin' && app.securityInfo && app.securityInfo.lastUpdated) {
+                    // Parse RFC3339 timestamp (UTC) and convert to CST
+                    const securityDate = new Date(app.securityInfo.lastUpdated);
+                    
+                    // Format in CST timezone: "January 2, 2006 at 3:04 PM CST"
+                    const cstFormatter = new Intl.DateTimeFormat('en-US', {
+                        timeZone: 'America/Chicago',
+                        year: 'numeric',
+                        month: 'long',
+                        day: 'numeric',
+                        hour: 'numeric',
+                        minute: '2-digit',
+                        hour12: true
+                    });
+                    
+                    const parts = cstFormatter.formatToParts(securityDate);
+                    const month = parts.find(p => p.type === 'month').value;
+                    const day = parts.find(p => p.type === 'day').value;
+                    const year = parts.find(p => p.type === 'year').value;
+                    const hour = parts.find(p => p.type === 'hour').value;
+                    const minute = parts.find(p => p.type === 'minute').value;
+                    const dayPeriod = parts.find(p => p.type === 'dayPeriod').value.toUpperCase();
+                    
+                    timestampText = 'Last updated: ' + month + ' ' + day + ', ' + year + ' at ' + hour + ':' + minute + ' ' + dayPeriod + ' CST';
+                }
+                
+                modalLastUpdated.textContent = timestampText;
             }
             
             // Show modal

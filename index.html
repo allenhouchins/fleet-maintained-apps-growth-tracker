@@ -334,6 +334,16 @@
         .modal-body {
             padding: 24px;
         }
+        .modal-footer {
+            padding: 16px 24px;
+            border-top: 1px solid #e2e8f0;
+            text-align: center;
+        }
+        .modal-footer p {
+            margin: 0;
+            color: #64748b;
+            font-size: 12px;
+        }
         .modal-info-row {
             margin-bottom: 20px;
         }
@@ -523,7 +533,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: December 19, 2025 at 11:07 PM CST</p>
+            Last updated: December 19, 2025 at 11:26 PM CST</p>
         </div>
     </div>
 
@@ -573,6 +583,9 @@
                 <div class="modal-info-row" id="modalInstallerRow" style="display: none; margin-top: 24px;">
                     <a href="#" id="modalInstallerLink" class="modal-installer-link" target="_blank" rel="noopener noreferrer">Download Installer</a>
                 </div>
+            </div>
+            <div class="modal-footer">
+                <p id="modalLastUpdated">Last updated: December 19, 2025 at 11:26 PM CST</p>
             </div>
         </div>
     </div>
@@ -2176,7 +2189,8 @@
                   "sha256": "baa379002784d01c3613b1edb9c5aefa51b0a68c59f836d69501776add38d1b2",
                   "cdhash": "12281b3a720c273a30025af310aad1252a7867d4",
                   "signingId": "252VCA66Z8:com.SweetScape.010Editor",
-                  "teamId": "252VCA66Z8"
+                  "teamId": "252VCA66Z8",
+                  "lastUpdated": "2025-12-20T04:15:51Z"
                 }
               },
               {
@@ -2198,7 +2212,8 @@
                   "sha256": "2c9d7437b0d8fe681ee609e61584067ab5b7305f5369f6688de3562078a7e02a",
                   "cdhash": "2429cd0d71e9c7fbaf34aa08298c6db963a8f06a",
                   "signingId": "2BUA8C4S2C:com.1password.1password",
-                  "teamId": "2BUA8C4S2C"
+                  "teamId": "2BUA8C4S2C",
+                  "lastUpdated": "2025-12-20T04:46:17Z"
                 }
               },
               {
@@ -2228,7 +2243,8 @@
                   "sha256": "714e778a348b611efc5806c1d3bf7b9cfd7513dbb5b3ec9dac70e919e3779d9c",
                   "cdhash": "8f5136e5d26fadea4e8bd5c634767bb78c7ee3d7",
                   "signingId": "FC967L3QRG:com.electron.8x8---virtual-office",
-                  "teamId": "FC967L3QRG"
+                  "teamId": "FC967L3QRG",
+                  "lastUpdated": "2025-12-20T04:50:53Z"
                 }
               },
               {
@@ -2250,7 +2266,8 @@
                   "sha256": "7b5166bc9c81c80220a483e660f6088f0c7a4e96f7556e2f8fa7ae19b20d664d",
                   "cdhash": "dde3aa880da9918f5eca6810844c094d077ddf50",
                   "signingId": "77MZLZE47D:com.elasticprojects.abstract-desktop",
-                  "teamId": "77MZLZE47D"
+                  "teamId": "77MZLZE47D",
+                  "lastUpdated": "2025-12-20T04:53:47Z"
                 }
               },
               {
@@ -2259,7 +2276,14 @@
                 "platform": "darwin",
                 "description": "Adobe Acrobat Pro DC is a professional PDF editor for creating, editing, converting, and managing PDF documents.",
                 "version": "25.001.20937",
-                "installerUrl": "https://trials.adobe.com/AdobeProducts/APRO/Acrobat_HelpX/osx10/Acrobat_DC_Web_WWMUI.dmg"
+                "installerUrl": "https://trials.adobe.com/AdobeProducts/APRO/Acrobat_HelpX/osx10/Acrobat_DC_Web_WWMUI.dmg",
+                "securityInfo": {
+                  "sha256": "5c70e807f653f02a4b43e9e3aea22ef63e610a19a68918708827b308065700e9",
+                  "cdhash": "071b1896d7d05e43357ed6c2d60a52358f1533c3",
+                  "signingId": "JQ525L2MZD:com.adobe.Acrobat.Pro",
+                  "teamId": "JQ525L2MZD",
+                  "lastUpdated": "2025-12-20T05:16:03Z"
+                }
               },
               {
                 "name": "Adobe Acrobat Reader",
@@ -2288,7 +2312,8 @@
                   "sha256": "d7adc90eaed60ae768b8777795a2c22010202b34ad8447a0d41781c2b99871f3",
                   "cdhash": "cc2d0644b98f9140f3a0613ed51c36a308bd8f7a",
                   "signingId": "JQ525L2MZD:com.adobe.cc.Install",
-                  "teamId": "JQ525L2MZD"
+                  "teamId": "JQ525L2MZD",
+                  "lastUpdated": "2025-12-20T04:59:53Z"
                 }
               },
               {
@@ -4548,6 +4573,41 @@
                 } else {
                     securityRow.style.display = 'none';
                 }
+            }
+            
+            // Set last updated timestamp
+            const modalLastUpdated = document.getElementById('modalLastUpdated');
+            if (modalLastUpdated) {
+                let timestampText = 'Last updated: ' + `December 19, 2025 at 11:26 PM CST`;
+                
+                // If macOS app has security info with lastUpdated, use that instead
+                if (app.platform === 'darwin' && app.securityInfo && app.securityInfo.lastUpdated) {
+                    // Parse RFC3339 timestamp (UTC) and convert to CST
+                    const securityDate = new Date(app.securityInfo.lastUpdated);
+                    
+                    // Format in CST timezone: "January 2, 2006 at 3:04 PM CST"
+                    const cstFormatter = new Intl.DateTimeFormat('en-US', {
+                        timeZone: 'America/Chicago',
+                        year: 'numeric',
+                        month: 'long',
+                        day: 'numeric',
+                        hour: 'numeric',
+                        minute: '2-digit',
+                        hour12: true
+                    });
+                    
+                    const parts = cstFormatter.formatToParts(securityDate);
+                    const month = parts.find(p => p.type === 'month').value;
+                    const day = parts.find(p => p.type === 'day').value;
+                    const year = parts.find(p => p.type === 'year').value;
+                    const hour = parts.find(p => p.type === 'hour').value;
+                    const minute = parts.find(p => p.type === 'minute').value;
+                    const dayPeriod = parts.find(p => p.type === 'dayPeriod').value.toUpperCase();
+                    
+                    timestampText = 'Last updated: ' + month + ' ' + day + ', ' + year + ' at ' + hour + ':' + minute + ' ' + dayPeriod + ' CST';
+                }
+                
+                modalLastUpdated.textContent = timestampText;
             }
             
             // Show modal
