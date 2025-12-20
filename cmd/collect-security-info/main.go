@@ -490,16 +490,25 @@ func getInstallerExtension(url, contentType string) string {
 	}
 
 	// Look for known installer extensions in the URL
-	knownExts := []string{".dmg", ".pkg", ".zip"}
+	// Check in reverse order (zip, pkg, dmg) to prioritize nested extensions like .pkg.zip
+	// This ensures "Pritunl.pkg.zip" is detected as .zip, not .pkg
+	knownExts := []string{".zip", ".pkg", ".dmg"}
+	urlPathLower := strings.ToLower(urlPath)
+	
+	// First, check for suffix matches (most common case)
 	for _, knownExt := range knownExts {
-		if strings.HasSuffix(strings.ToLower(urlPath), knownExt) {
+		if strings.HasSuffix(urlPathLower, knownExt) {
 			return knownExt
 		}
-		// Also check if it appears before a query string or version number
-		idx := strings.Index(strings.ToLower(urlPath), knownExt)
+	}
+	
+	// Also check if extension appears in the URL (for cases where it's not at the end)
+	// But only if we didn't find a suffix match
+	for _, knownExt := range knownExts {
+		idx := strings.Index(urlPathLower, knownExt)
 		if idx != -1 {
 			// Check if there's a version-like pattern after it (e.g., .dmg.1.2.3)
-			remaining := urlPath[idx+len(knownExt):]
+			remaining := urlPathLower[idx+len(knownExt):]
 			if len(remaining) > 0 && (remaining[0] == '.' || remaining[0] == '?' || remaining[0] == '#') {
 				return knownExt
 			}
@@ -580,6 +589,15 @@ func installApp(installerPath string, app securityAppVersionInfo) (string, error
 		}
 		fmt.Printf("  ℹ️  PKG file verified: %s (size: %d bytes)\n", installerPath, info.Size())
 		appPath, err = installFromPKG(installerPath, app)
+		// If PKG installation returns empty path, it might actually be a ZIP containing a PKG
+		// Try treating it as a ZIP (e.g., Pritunl.pkg.zip)
+		if err != nil && (appPath == "" || strings.Contains(err.Error(), "empty path")) {
+			fmt.Printf("  ℹ️  PKG installation failed or returned empty path, trying as ZIP...\n")
+			zipPath := strings.TrimSuffix(installerPath, ".pkg") + ".zip"
+			if renameErr := os.Rename(installerPath, zipPath); renameErr == nil {
+				appPath, err = installFromZIP(zipPath, app)
+			}
+		}
 	case ".zip":
 		appPath, err = installFromZIP(installerPath, app)
 	default:
@@ -914,7 +932,7 @@ verifyMount:
 			var installStdout bytes.Buffer
 			installCmd.Stderr = &installStderr
 			installCmd.Stdout = &installStdout
-				if err := installCmd.Run(); err != nil {
+			if err := installCmd.Run(); err != nil {
 				stderrStr := strings.TrimSpace(installStderr.String())
 				stdoutStr := strings.TrimSpace(installStdout.String())
 				errorDetails := []string{}
@@ -935,7 +953,39 @@ verifyMount:
 			time.Sleep(3 * time.Second)
 
 			// Now find the installed app in /Applications
-			return findInstalledApp(app)
+			appPath, err := findInstalledApp(app)
+			if err != nil {
+				// If we can't find the app, list what was recently installed for debugging
+				fmt.Printf("  ⚠️  Could not find installed app '%s' after PKG installation from DMG, listing recently modified apps in /Applications:\n", app.Name)
+				var recentApps []string
+				cutoffTime := time.Now().Add(-5 * time.Minute)
+				_ = filepath.Walk(applicationsDir, func(path string, info os.FileInfo, err error) error {
+					if err != nil {
+						return nil
+					}
+					if strings.HasSuffix(path, ".app") && info != nil && info.IsDir() {
+						if info.ModTime().After(cutoffTime) {
+							recentApps = append(recentApps, filepath.Base(path))
+						}
+					}
+					return nil
+				})
+				if len(recentApps) > 0 {
+					fmt.Printf("  ℹ️  Recently modified apps: %v\n", recentApps)
+					// If there's only one recently modified app, try using it
+					if len(recentApps) == 1 {
+						candidatePath := filepath.Join(applicationsDir, recentApps[0])
+						if _, err := os.Stat(candidatePath); err == nil {
+							fmt.Printf("  ℹ️  Using only recently modified app: %s\n", recentApps[0])
+							return candidatePath, nil
+						}
+					}
+				} else {
+					fmt.Printf("  ℹ️  No recently modified apps found\n")
+				}
+				return "", fmt.Errorf("could not find installed app '%s' after PKG installation from DMG: %w", app.Name, err)
+			}
+			return appPath, nil
 		}
 	}
 
@@ -1472,7 +1522,39 @@ func installFromZIP(zipPath string, app securityAppVersionInfo) (string, error) 
 			time.Sleep(3 * time.Second)
 
 			// Now find the installed app in /Applications
-			return findInstalledApp(app)
+			appPath, err := findInstalledApp(app)
+			if err != nil {
+				// If we can't find the app, list what was recently installed for debugging
+				fmt.Printf("  ⚠️  Could not find installed app '%s' after PKG installation from ZIP, listing recently modified apps in /Applications:\n", app.Name)
+				var recentApps []string
+				cutoffTime := time.Now().Add(-5 * time.Minute)
+				_ = filepath.Walk(applicationsDir, func(path string, info os.FileInfo, err error) error {
+					if err != nil {
+						return nil
+					}
+					if strings.HasSuffix(path, ".app") && info != nil && info.IsDir() {
+						if info.ModTime().After(cutoffTime) {
+							recentApps = append(recentApps, filepath.Base(path))
+						}
+					}
+					return nil
+				})
+				if len(recentApps) > 0 {
+					fmt.Printf("  ℹ️  Recently modified apps: %v\n", recentApps)
+					// If there's only one recently modified app, try using it
+					if len(recentApps) == 1 {
+						candidatePath := filepath.Join(applicationsDir, recentApps[0])
+						if _, err := os.Stat(candidatePath); err == nil {
+							fmt.Printf("  ℹ️  Using only recently modified app: %s\n", recentApps[0])
+							return candidatePath, nil
+						}
+					}
+				} else {
+					fmt.Printf("  ℹ️  No recently modified apps found\n")
+				}
+				return "", fmt.Errorf("could not find installed app '%s' after PKG installation from ZIP: %w", app.Name, err)
+			}
+			return appPath, nil
 		}
 	}
 
