@@ -336,6 +336,9 @@ func collectSecurityInfoForApp(app securityAppVersionInfo) (appSecurityInfo, err
 		return securityInfo, fmt.Errorf("failed to install app: %w", err)
 	}
 
+	// Wait a bit longer to ensure app is fully installed and ready
+	time.Sleep(2 * time.Second)
+
 	// Run santactl fileinfo
 	santactlOutput, err := runSantactl(appPath)
 	if err != nil {
@@ -1353,7 +1356,66 @@ func installFromZIP(zipPath string, app securityAppVersionInfo) (string, error) 
 func runSantactl(appPath string) ([]byte, error) {
 	fmt.Printf("  🔍 Running santactl fileinfo...\n")
 
-	cmd := exec.Command("santactl", "fileinfo", "--json", appPath)
+	// If appPath is a .app bundle, try to find the executable inside
+	targetPath := appPath
+	if strings.HasSuffix(appPath, ".app") {
+		// Check if it's a directory (app bundle)
+		if info, err := os.Stat(appPath); err == nil && info.IsDir() {
+			// Try to find the executable in Contents/MacOS/
+			// First, try to read Info.plist to get the executable name
+			infoPlistPath := filepath.Join(appPath, "Contents", "Info.plist")
+			executableName := ""
+			if data, err := os.ReadFile(infoPlistPath); err == nil {
+				// Simple parsing to find CFBundleExecutable
+				content := string(data)
+				if idx := strings.Index(content, "<key>CFBundleExecutable</key>"); idx != -1 {
+					// Find the next <string> tag
+					if strIdx := strings.Index(content[idx:], "<string>"); strIdx != -1 {
+						start := idx + strIdx + 8
+						if endIdx := strings.Index(content[start:], "</string>"); endIdx != -1 {
+							executableName = strings.TrimSpace(content[start : start+endIdx])
+						}
+					}
+				}
+			}
+			
+			// If we found the executable name, use it; otherwise try common names
+			if executableName != "" {
+				executablePath := filepath.Join(appPath, "Contents", "MacOS", executableName)
+				if _, err := os.Stat(executablePath); err == nil {
+					targetPath = executablePath
+				}
+			} else {
+				// Try common executable names
+				appName := strings.TrimSuffix(filepath.Base(appPath), ".app")
+				commonNames := []string{appName}
+				for _, name := range commonNames {
+					executablePath := filepath.Join(appPath, "Contents", "MacOS", name)
+					if _, err := os.Stat(executablePath); err == nil {
+						targetPath = executablePath
+						break
+					}
+				}
+			}
+			
+			// If we still don't have an executable, try listing Contents/MacOS/
+			if targetPath == appPath {
+				macosDir := filepath.Join(appPath, "Contents", "MacOS")
+				if entries, err := os.ReadDir(macosDir); err == nil && len(entries) > 0 {
+					// Use the first file in MacOS directory
+					firstExecutable := filepath.Join(macosDir, entries[0].Name())
+					if info, err := os.Stat(firstExecutable); err == nil && !info.IsDir() {
+						targetPath = firstExecutable
+					}
+				}
+			}
+		}
+	}
+
+	// Add a small delay to ensure app is fully installed
+	time.Sleep(1 * time.Second)
+
+	cmd := exec.Command("santactl", "fileinfo", "--json", targetPath)
 	var stdout bytes.Buffer
 	var stderr bytes.Buffer
 	cmd.Stdout = &stdout
@@ -1361,6 +1423,11 @@ func runSantactl(appPath string) ([]byte, error) {
 	err := cmd.Run()
 	
 	output := stdout.Bytes()
+	
+	// Debug: log what path we're using
+	if targetPath != appPath {
+		fmt.Printf("  ℹ️  Using executable path: %s\n", targetPath)
+	}
 	
 	if err != nil {
 		// Even if command fails, check if we got valid JSON output
@@ -1372,6 +1439,11 @@ func runSantactl(appPath string) ([]byte, error) {
 				// Valid JSON, return it even though command "failed"
 				return output, nil
 			}
+		}
+		// If using executable path failed, try the .app bundle path as fallback
+		if targetPath != appPath {
+			fmt.Printf("  ℹ️  Executable path failed, trying .app bundle path...\n")
+			return runSantactl(appPath) // Recursive call with original path
 		}
 		return nil, fmt.Errorf("santactl failed: %w (stderr: %s)", err, strings.TrimSpace(stderr.String()))
 	}
