@@ -649,6 +649,10 @@ func installFromDMG(dmgPath string, app securityAppVersionInfo) (string, error) 
 							}
 							if latestVolume != "" {
 								mountPoint = latestVolume
+								// Verify the mount point is actually a DMG mount (not a system volume)
+								if strings.Contains(strings.ToLower(mountPoint), "macintosh") {
+									return "", fmt.Errorf("failed to mount DMG: detected system volume instead of DMG mount point: %s", mountPoint)
+								}
 							} else {
 								return "", fmt.Errorf("failed to mount DMG: could not determine mount point after EULA acceptance")
 							}
@@ -718,10 +722,28 @@ func installFromDMG(dmgPath string, app securityAppVersionInfo) (string, error) 
 		if mountPoint == filepath.Join(tempDir, "mnt") {
 			// List volumes and find the one that matches
 			volumes, _ := filepath.Glob("/Volumes/*")
-			// Use the most recently modified volume as a fallback
+			// Use the most recently modified volume as a fallback, but exclude system volumes
 			var latestVolume string
 			var latestTime time.Time
+			systemVolumes := map[string]bool{
+				"/Volumes/Macintosh HD": true,
+				"/Volumes/Preboot":      true,
+				"/Volumes/Recovery":      true,
+				"/Volumes/Update":        true,
+				"/Volumes/VM":            true,
+			}
 			for _, vol := range volumes {
+				// Skip system volumes
+				if systemVolumes[vol] {
+					continue
+				}
+				// Skip volumes that look like system volumes (contain "Macintosh" or are common system names)
+				volBase := filepath.Base(vol)
+				if strings.Contains(strings.ToLower(volBase), "macintosh") || 
+				   strings.Contains(strings.ToLower(volBase), "system") ||
+				   strings.Contains(strings.ToLower(volBase), "recovery") {
+					continue
+				}
 				if info, err := os.Stat(vol); err == nil && info.IsDir() {
 					if info.ModTime().After(latestTime) {
 						latestTime = info.ModTime()
@@ -731,6 +753,7 @@ func installFromDMG(dmgPath string, app securityAppVersionInfo) (string, error) 
 			}
 			if latestVolume != "" {
 				mountPoint = latestVolume
+				fmt.Printf("  ℹ️  Using auto-detected mount point: %s\n", mountPoint)
 			} else {
 				return "", fmt.Errorf("failed to mount DMG: could not determine mount point")
 			}
@@ -803,6 +826,10 @@ verifyMount:
 			// Continue walking even if we hit permission errors
 			return nil
 		}
+		// Verify path is within mount point (prevent following symlinks outside)
+		if relPath, err := filepath.Rel(mountPoint, path); err != nil || strings.HasPrefix(relPath, "..") {
+			return filepath.SkipDir // Path is outside mount point, skip it
+		}
 		// Check if this is a .app bundle (directory ending in .app)
 		if strings.HasSuffix(path, ".app") {
 			// Verify it's actually a directory (app bundles are directories)
@@ -841,6 +868,10 @@ verifyMount:
 					if err != nil {
 						return nil
 					}
+					// Verify path is within mount point (prevent following symlinks outside)
+					if relPath, err := filepath.Rel(mountPoint, path); err != nil || strings.HasPrefix(relPath, "..") {
+						return filepath.SkipDir // Path is outside mount point, skip it
+					}
 					if strings.HasSuffix(path, ".app") && info != nil && info.IsDir() {
 						appBundle = path
 						return filepath.SkipDir
@@ -867,6 +898,11 @@ verifyMount:
 			return nil
 		})
 		return "", fmt.Errorf("could not find .app bundle or .pkg installer in DMG. Contents: %v", contents[:min(10, len(contents))])
+	}
+
+	// Verify app bundle is within the mount point (safety check to prevent following symlinks outside)
+	if relPath, err := filepath.Rel(mountPoint, appBundle); err != nil || strings.HasPrefix(relPath, "..") {
+		return "", fmt.Errorf("app bundle path %s is outside mount point %s (possible symlink issue)", appBundle, mountPoint)
 	}
 
 	// Copy .app to Applications
