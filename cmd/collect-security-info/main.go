@@ -1589,8 +1589,34 @@ func runSantactl(appPath string) ([]byte, error) {
 				}
 			}
 			
-			// If we got empty array, break out of path loop and retry
+			// If we got empty array, try text format as fallback
 			if outputStr == "[]" {
+				fmt.Printf("  ℹ️  JSON returned empty, trying text format (may take 10+ seconds)...\n")
+				// Try without --json flag (this can take 10+ seconds)
+				cmdText := exec.Command("santactl", "fileinfo", pathToTry)
+				var stdoutText bytes.Buffer
+				var stderrText bytes.Buffer
+				cmdText.Stdout = &stdoutText
+				cmdText.Stderr = &stderrText
+				// Set a longer timeout context for text format (15 seconds)
+				if errText := cmdText.Run(); errText == nil {
+					textOutput := stdoutText.Bytes()
+					if len(textOutput) > 0 {
+						// Parse text output and convert to JSON-like structure
+						parsedData, parseErr := parseSantactlTextOutput(textOutput, pathToTry)
+						if parseErr == nil && (parsedData["SHA-256"] != "" || parsedData["CDHash"] != "") {
+							// Convert to JSON format that parseSantactlOutput expects
+							jsonData := convertTextToJSON(parsedData)
+							fmt.Printf("  ✅ Got data from text format\n")
+							return jsonData, nil
+						} else if parseErr != nil {
+							fmt.Printf("  ⚠️  Failed to parse text output: %v\n", parseErr)
+						}
+					}
+				} else {
+					fmt.Printf("  ⚠️  Text format command failed: %v\n", errText)
+				}
+				
 				if attempt < maxRetries {
 					fmt.Printf("  ⏳ Got empty array, waiting 5 seconds before retry...\n")
 					time.Sleep(5 * time.Second)
@@ -1626,6 +1652,73 @@ func runSantactl(appPath string) ([]byte, error) {
 	}
 
 	return output, nil
+}
+
+// parseSantactlTextOutput parses text output from santactl (without --json flag)
+// Format example:
+//   SHA-256                : eadb726f24b005cb2a5d1a6271ea41288bd6af7379ed3eee0d7921140652d55a
+//   Team ID                : JP58VMK957
+//   Signing ID             : JP58VMK957:com.kapeli.dashdoc
+//   CDHash                 : 026e1e6b906106e60c668c66903386748432cea3
+func parseSantactlTextOutput(output []byte, path string) (map[string]string, error) {
+	result := make(map[string]string)
+	text := string(output)
+	lines := strings.Split(text, "\n")
+	
+	for _, line := range lines {
+		line = strings.TrimSpace(line)
+		if line == "" {
+			continue
+		}
+		
+		// Look for key-value pairs with colon separator
+		// Format: "Field Name            : value"
+		if idx := strings.Index(line, ":"); idx > 0 {
+			key := strings.TrimSpace(line[:idx])
+			value := strings.TrimSpace(line[idx+1:])
+			
+			if value == "" {
+				continue
+			}
+			
+			// Normalize key names (case-insensitive matching)
+			keyLower := strings.ToLower(key)
+			if keyLower == "sha-256" || (strings.Contains(keyLower, "sha") && strings.Contains(keyLower, "256")) {
+				result["SHA-256"] = value
+			} else if keyLower == "cdhash" || strings.Contains(keyLower, "cd hash") {
+				result["CDHash"] = value
+			} else if keyLower == "signing id" || keyLower == "signingid" {
+				result["Signing ID"] = value
+			} else if keyLower == "team id" || keyLower == "teamid" {
+				result["Team ID"] = value
+			}
+		}
+	}
+	
+	return result, nil
+}
+
+// convertTextToJSON converts parsed text data to JSON format expected by parseSantactlOutput
+func convertTextToJSON(data map[string]string) []byte {
+	// Create a JSON array with one object, matching santactl's JSON output format
+	jsonObj := map[string]interface{}{}
+	
+	if sha256, ok := data["SHA-256"]; ok && sha256 != "" {
+		jsonObj["SHA-256"] = sha256
+	}
+	if cdhash, ok := data["CDHash"]; ok && cdhash != "" {
+		jsonObj["CDHash"] = cdhash
+	}
+	if signingID, ok := data["Signing ID"]; ok && signingID != "" {
+		jsonObj["Signing ID"] = signingID
+	}
+	if teamID, ok := data["Team ID"]; ok && teamID != "" {
+		jsonObj["Team ID"] = teamID
+	}
+	
+	jsonArray := []map[string]interface{}{jsonObj}
+	jsonBytes, _ := json.Marshal(jsonArray)
+	return jsonBytes
 }
 
 func parseSantactlOutput(output []byte, app securityAppVersionInfo) (appSecurityInfo, error) {
