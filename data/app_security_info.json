@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-20T09:24:02Z",
+  "lastUpdated": "2025-12-20T09:31:43Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1790,6 +1790,106 @@
       "signingId": "VB5E2TV963:org.virtualbox.app.VirtualBox",
       "teamId": "VB5E2TV963",
       "lastUpdated": "2025-12-20T09:24:00Z"
+    },
+    {
+      "slug": "viscosity/darwin",
+      "name": "Viscosity",
+      "version": "1.12",
+      "sha256": "25d66130e88b51735f90dc2c9cc4c4fd870c9faf7901aa63697b63fbf29bb292",
+      "cdhash": "78c7b999feb9f90682e89150338beafaea5b9b83",
+      "signingId": "34XR7GXFPX:com.viscosityvpn.Viscosity",
+      "teamId": "34XR7GXFPX",
+      "lastUpdated": "2025-12-20T09:24:13Z"
+    },
+    {
+      "slug": "vlc/darwin",
+      "name": "VLC media player",
+      "version": "3.0.21",
+      "sha256": "c3d8a071d0ed67075ce85782399b1d69546e09d5cd35e1ea0b6864a4a55b4039",
+      "cdhash": "15fe4b56c7259760142471a32bed8d8d7ea4af0e",
+      "signingId": "75GAHG3SZQ:org.videolan.vlc",
+      "teamId": "75GAHG3SZQ",
+      "lastUpdated": "2025-12-20T09:24:48Z"
+    },
+    {
+      "slug": "wacom-tablet/darwin",
+      "name": "Wacom Tablet",
+      "version": "6.4.11-2",
+      "sha256": "8519282409c9f2cf486713ff8817407dce539d7f15f7e608b6cee43313156fcc",
+      "cdhash": "6e7a93a0094f31119ac3bf228c7116527b128648",
+      "signingId": "EG27766DY7:com.wacom.wacomtablet",
+      "teamId": "EG27766DY7",
+      "lastUpdated": "2025-12-20T09:26:20Z"
+    },
+    {
+      "slug": "webex/darwin",
+      "name": "Webex",
+      "version": "45.12.0.33788",
+      "sha256": "c77391ecd0132b77c33c4ee74d80d2f72a6a412142d7cef16b96a4bc8b37e408",
+      "cdhash": "1ed04690529a311186690efd11154c532512a904",
+      "signingId": "DE8Y96K9QP:Cisco-Systems.Spark",
+      "teamId": "DE8Y96K9QP",
+      "lastUpdated": "2025-12-20T09:27:08Z"
+    },
+    {
+      "slug": "webstorm/darwin",
+      "name": "WebStorm",
+      "version": "2025.3.1",
+      "sha256": "ab9212fcc07b3a013ee59ec264e0355535541309671ba72e079c29cb24732ad6",
+      "cdhash": "0796b80cf18d7a7eae68ab7332e09af39962dac3",
+      "signingId": "2ZEFAR8TH3:com.jetbrains.WebStorm",
+      "teamId": "2ZEFAR8TH3",
+      "lastUpdated": "2025-12-20T09:27:34Z"
+    },
+    {
+      "slug": "whatsapp/darwin",
+      "name": "WhatsApp",
+      "version": "25.36.33",
+      "sha256": "e4310d72702465ddc4208008736d001fe11725a571c1a28170b70e0a9132c1d2",
+      "cdhash": "456424861c011bbf40a6e5ef999bfc49261f63e0",
+      "signingId": "57T9237FN3:net.whatsapp.WhatsApp",
+      "teamId": "57T9237FN3",
+      "lastUpdated": "2025-12-20T09:27:55Z"
+    },
+    {
+      "slug": "windows-app/darwin",
+      "name": "Windows App",
+      "version": "11.3.0",
+      "sha256": "c7c44636b81265fcc2f0035a006604e3160c8f88427d25d6a96255795f2fefe3",
+      "cdhash": "09eb7f853ea6a0242dd1043e981250b7176d33e5",
+      "signingId": "UBF8T346G9:com.microsoft.rdc.macos",
+      "teamId": "UBF8T346G9",
+      "lastUpdated": "2025-12-20T09:28:24Z"
+    },
+    {
+      "slug": "windsurf/darwin",
+      "name": "Windsurf",
+      "version": "1.12.47",
+      "sha256": "849a64312b15f1d88b86b6a33dd661ebfd1aedfbd2e01189888752aa48bcc088",
+      "cdhash": "6666e4b53c29de619bf79530bfe1638e239c4664",
+      "signingId": "83Z2LHX6XW:com.exafunction.windsurf",
+      "teamId": "83Z2LHX6XW",
+      "lastUpdated": "2025-12-20T09:28:44Z"
+    },
+    {
+      "slug": "wrike/darwin",
+      "name": "Wrike",
+      "version": "4.6.0",
+      "sha256": "c80b5e4ca7a3c0a725d12815086c9d259d0a8382a7e34b4cf6c48f260862654e",
+      "cdhash": "5d2967a8b0ac907c28616fea3a661ed2725fc81b",
+      "signingId": "BD3YL53XT4:com.wrike.Wrike",
+      "teamId": "BD3YL53XT4",
+      "lastUpdated": "2025-12-20T09:30:41Z"
+    },
+    {
+      "slug": "yubico-authenticator/darwin",
+      "name": "Yubico Authenticator",
+      "version": "7.3.0",
+      "sha256": "5c0c7495631e2bcccb22fdb6cc5979e2c2f72089bee3d7b469a5cb2b9a2f8bb2",
+      "cdhash": "49e9dc01b15d74a09d56c7f1e6b410b6ac701caa",
+      "signingId": "LQA3CS5MM7:com.yubico.yubioath",
+      "teamId": "LQA3CS5MM7",
+      "lastUpdated": "2025-12-20T09:31:41Z"
     }
   ]
 }
