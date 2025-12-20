@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-20T07:48:19Z",
+  "lastUpdated": "2025-12-20T07:52:21Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1170,6 +1170,106 @@
       "signingId": "VB5E2TV963:com.oracle.workbench.MySQLWorkbench",
       "teamId": "VB5E2TV963",
       "lastUpdated": "2025-12-20T07:48:15Z"
+    },
+    {
+      "slug": "nordpass/darwin",
+      "name": "NordPass",
+      "version": "7.2.15",
+      "sha256": "9d22fb9e46d1bd6a141876c9a56599d93cb6714eb59bc4f1e4e38fb224fbfe40",
+      "cdhash": "a86e66da1a2cfd5e17a7bfefc110234d1aae3813",
+      "signingId": "W5W395V82Y:com.nordsec.nordpass",
+      "teamId": "W5W395V82Y",
+      "lastUpdated": "2025-12-20T07:48:30Z"
+    },
+    {
+      "slug": "nordvpn/darwin",
+      "name": "NordVPN",
+      "version": "9.10.1",
+      "sha256": "4679aa4c86dcca6f2eaecd5c997fd8b8be605aa7412c857fda355c0844dc7442",
+      "cdhash": "11562a1390703f97bc79a95b2d1bcb0703b74eef",
+      "signingId": "W5W395V82Y:com.nordvpn.macos",
+      "teamId": "W5W395V82Y",
+      "lastUpdated": "2025-12-20T07:48:55Z"
+    },
+    {
+      "slug": "notion-calendar/darwin",
+      "name": "Notion Calendar",
+      "version": "1.132.0",
+      "sha256": "db9a18f3eb75fd5d52430e2e6e91d7835ac85d74c0f53afd019f7504b82a2c35",
+      "cdhash": "04b4eee05dd4e3df0434463335d2e98798e35e1a",
+      "signingId": "LBQJ96FQ8D:com.cron.electron",
+      "teamId": "LBQJ96FQ8D",
+      "lastUpdated": "2025-12-20T07:49:09Z"
+    },
+    {
+      "slug": "notion/darwin",
+      "name": "Notion",
+      "version": "6.3.1",
+      "sha256": "699bce87d961ada038c9260ee0dc96863e283335ff27803570e53c97c30562e8",
+      "cdhash": "5ec2b84263887b69335625e630fa4684af1e51cf",
+      "signingId": "LBQJ96FQ8D:notion.id",
+      "teamId": "LBQJ96FQ8D",
+      "lastUpdated": "2025-12-20T07:49:22Z"
+    },
+    {
+      "slug": "nova/darwin",
+      "name": "Nova",
+      "version": "13.3",
+      "sha256": "155b5169f1d5e64b7d49102d379d2d67b47234cfa2bcaf973177a333a1d7e342",
+      "cdhash": "8f862a398e4bf4d7e73d9d9a44a78cc516533f7c",
+      "signingId": "VE8FC488U5:com.panic.Nova",
+      "teamId": "VE8FC488U5",
+      "lastUpdated": "2025-12-20T07:49:56Z"
+    },
+    {
+      "slug": "nudge/darwin",
+      "name": "Nudge",
+      "version": "2.0.12.81807",
+      "sha256": "283ec4a1a042ac3d7c5d9a62ae1d26ccaee812abe956ccc6a8c4928e19980e55",
+      "cdhash": "009587698b779d89a431f24489d680ec8d234a33",
+      "signingId": "T4SK8ZXCXG:com.github.macadmins.Nudge",
+      "teamId": "T4SK8ZXCXG",
+      "lastUpdated": "2025-12-20T07:50:45Z"
+    },
+    {
+      "slug": "obs/darwin",
+      "name": "OBS",
+      "version": "32.0.4",
+      "sha256": "7002b5d0207ba655892432552cac54038355ca3eda919bb75b3ca63598d1075b",
+      "cdhash": "90473a00b93f8f50772619c5d16a5ad6d6f8f3f2",
+      "signingId": "2MMRE5MTB8:com.obsproject.obs-studio",
+      "teamId": "2MMRE5MTB8",
+      "lastUpdated": "2025-12-20T07:51:21Z"
+    },
+    {
+      "slug": "obsidian/darwin",
+      "name": "Obsidian",
+      "version": "1.10.6",
+      "sha256": "c3c74efe6e03cfc7f4fc6fe94f61f669fe8534f9f275d7020c2c92d7eb451e62",
+      "cdhash": "06aafcbf0c39b12d74feee292d4f5cbbe7fe39d2",
+      "signingId": "6JSW4SJWN9:md.obsidian",
+      "teamId": "6JSW4SJWN9",
+      "lastUpdated": "2025-12-20T07:51:35Z"
+    },
+    {
+      "slug": "omnigraffle/darwin",
+      "name": "OmniGraffle",
+      "version": "7.25.1",
+      "sha256": "51d306b0fd86b11d327aa7bde4dd515b6b9b4704171556cf358a1e2d69b79e88",
+      "cdhash": "f80210beeff5e30801d779aada9c2ebadca5cbdb",
+      "signingId": "34YW5XSRB7:com.omnigroup.OmniGraffle7",
+      "teamId": "34YW5XSRB7",
+      "lastUpdated": "2025-12-20T07:51:52Z"
+    },
+    {
+      "slug": "omnissa-horizon-client/darwin",
+      "name": "Omnissa Horizon Client",
+      "version": "8.16.0",
+      "sha256": "9bca69f3cb58fe199ed519f369828d03db66cff88a40dc4d4b1e5fc5a1828c49",
+      "cdhash": "086df7d643316dafbc15328298731d01dafab7e1",
+      "signingId": "S2ZMFGQM93:com.omnissa.horizon.client.mac",
+      "teamId": "S2ZMFGQM93",
+      "lastUpdated": "2025-12-20T07:52:19Z"
     }
   ]
 }
