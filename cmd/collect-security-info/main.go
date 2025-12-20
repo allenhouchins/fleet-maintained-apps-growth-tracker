@@ -873,12 +873,31 @@ verifyMount:
 	appName := filepath.Base(appBundle)
 	destPath := filepath.Join(applicationsDir, appName)
 
+	// Verify source exists
+	if _, err := os.Stat(appBundle); err != nil {
+		return "", fmt.Errorf("app bundle not found at %s: %w", appBundle, err)
+	}
+
 	// Remove existing app if present
 	os.RemoveAll(destPath)
 
+	// Try using cp command first (faster and preserves extended attributes)
 	cmd = exec.Command("cp", "-R", appBundle, destPath)
+	var cpStderr bytes.Buffer
+	cmd.Stderr = &cpStderr
 	if err := cmd.Run(); err != nil {
-		return "", fmt.Errorf("failed to copy app: %w", err)
+		// If cp fails, try using Go's file operations as fallback
+		fmt.Printf("  ⚠️  Warning: cp command failed: %v, trying alternative copy method...\n", strings.TrimSpace(cpStderr.String()))
+		
+		// Use filepath.Walk to copy directory tree
+		if err := copyDirectory(appBundle, destPath); err != nil {
+			return "", fmt.Errorf("failed to copy app (cp failed: %s, fallback failed: %w)", strings.TrimSpace(cpStderr.String()), err)
+		}
+	}
+
+	// Verify copy succeeded
+	if _, err := os.Stat(destPath); err != nil {
+		return "", fmt.Errorf("copy appeared to succeed but destination not found: %w", err)
 	}
 
 	return destPath, nil
@@ -990,6 +1009,50 @@ func findInstalledApp(app securityAppVersionInfo) (string, error) {
 	}
 
 	return "", fmt.Errorf("could not find installed app after PKG installation")
+}
+
+// copyDirectory recursively copies a directory tree from src to dst
+func copyDirectory(src, dst string) error {
+	return filepath.Walk(src, func(path string, info os.FileInfo, err error) error {
+		if err != nil {
+			return err
+		}
+
+		// Calculate relative path from source
+		relPath, err := filepath.Rel(src, path)
+		if err != nil {
+			return err
+		}
+
+		// Construct destination path
+		dstPath := filepath.Join(dst, relPath)
+
+		if info.IsDir() {
+			// Create directory
+			return os.MkdirAll(dstPath, info.Mode())
+		} else {
+			// Create parent directory if needed
+			if err := os.MkdirAll(filepath.Dir(dstPath), 0755); err != nil {
+				return err
+			}
+
+			// Copy file
+			srcFile, err := os.Open(path)
+			if err != nil {
+				return err
+			}
+			defer srcFile.Close()
+
+			dstFile, err := os.OpenFile(dstPath, os.O_CREATE|os.O_WRONLY|os.O_TRUNC, info.Mode())
+			if err != nil {
+				return err
+			}
+			defer dstFile.Close()
+
+			_, err = io.Copy(dstFile, srcFile)
+			return err
+		}
+	})
 }
 
 func min(a, b int) int {
@@ -1148,12 +1211,31 @@ func installFromZIP(zipPath string, app securityAppVersionInfo) (string, error) 
 	appName := filepath.Base(appBundle)
 	destPath := filepath.Join(applicationsDir, appName)
 
+	// Verify source exists
+	if _, err := os.Stat(appBundle); err != nil {
+		return "", fmt.Errorf("app bundle not found at %s: %w", appBundle, err)
+	}
+
 	// Remove existing app if present
 	os.RemoveAll(destPath)
 
+	// Try using cp command first (faster and preserves extended attributes)
 	cmd = exec.Command("cp", "-R", appBundle, destPath)
+	var cpStderr bytes.Buffer
+	cmd.Stderr = &cpStderr
 	if err := cmd.Run(); err != nil {
-		return "", fmt.Errorf("failed to copy app: %w", err)
+		// If cp fails, try using Go's file operations as fallback
+		fmt.Printf("  ⚠️  Warning: cp command failed: %v, trying alternative copy method...\n", strings.TrimSpace(cpStderr.String()))
+		
+		// Use filepath.Walk to copy directory tree
+		if err := copyDirectory(appBundle, destPath); err != nil {
+			return "", fmt.Errorf("failed to copy app (cp failed: %s, fallback failed: %w)", strings.TrimSpace(cpStderr.String()), err)
+		}
+	}
+
+	// Verify copy succeeded
+	if _, err := os.Stat(destPath); err != nil {
+		return "", fmt.Errorf("copy appeared to succeed but destination not found: %w", err)
 	}
 
 	return destPath, nil
