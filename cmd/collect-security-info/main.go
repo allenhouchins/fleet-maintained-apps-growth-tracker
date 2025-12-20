@@ -336,16 +336,13 @@ func collectSecurityInfoForApp(app securityAppVersionInfo) (appSecurityInfo, err
 		return securityInfo, fmt.Errorf("failed to install app: %w", err)
 	}
 
-	// Verify the app path is not empty
+	// Verify the app exists
 	if appPath == "" {
 		return securityInfo, fmt.Errorf("installApp returned empty path")
 	}
-
-	// Verify the app exists before proceeding
 	if _, err := os.Stat(appPath); err != nil {
 		return securityInfo, fmt.Errorf("installed app not found at %s: %w", appPath, err)
 	}
-	fmt.Printf("  ✅ Verified app exists at: %s\n", appPath)
 
 	// Wait longer to ensure app is fully installed and ready (santactl can take time)
 	time.Sleep(3 * time.Second)
@@ -422,10 +419,8 @@ func downloadInstaller(url, slug string) (string, error) {
 		// File type doesn't match extension, rename it
 		newFilename := strings.TrimSuffix(filename, ext) + actualExt
 		if err := os.Rename(filename, newFilename); err != nil {
-			fmt.Printf("  ⚠️  Warning: Detected file type %s but extension was %s, rename failed: %v\n", actualExt, ext, err)
 			return filename, nil // Return original filename
 		}
-		fmt.Printf("  ℹ️  Detected actual file type: %s (was %s)\n", actualExt, ext)
 		return newFilename, nil
 	}
 
@@ -556,7 +551,6 @@ func installApp(installerPath string, app securityAppVersionInfo) (string, error
 			// File type doesn't match extension, rename it
 			newPath := strings.TrimSuffix(installerPath, currentExt) + actualExt
 			if err := os.Rename(installerPath, newPath); err == nil {
-				fmt.Printf("  ℹ️  Corrected file type: %s -> %s\n", currentExt, actualExt)
 				installerPath = newPath
 			}
 		}
@@ -571,7 +565,6 @@ func installApp(installerPath string, app securityAppVersionInfo) (string, error
 		// If DMG fails and error suggests it's not a DMG, try as ZIP
 		if err != nil && (strings.Contains(err.Error(), "not recognized") || 
 		                  strings.Contains(err.Error(), "Zip archive")) {
-			fmt.Printf("  ℹ️  DMG mount failed, trying as ZIP...\n")
 			// Rename and try as ZIP
 			zipPath := strings.TrimSuffix(installerPath, ".dmg") + ".zip"
 			if renameErr := os.Rename(installerPath, zipPath); renameErr == nil {
@@ -587,12 +580,10 @@ func installApp(installerPath string, app securityAppVersionInfo) (string, error
 		if info.Size() == 0 {
 			return "", fmt.Errorf("PKG file is empty: %s", installerPath)
 		}
-		fmt.Printf("  ℹ️  PKG file verified: %s (size: %d bytes)\n", installerPath, info.Size())
 		appPath, err = installFromPKG(installerPath, app)
 		// If PKG installation returns empty path, it might actually be a ZIP containing a PKG
 		// Try treating it as a ZIP (e.g., Pritunl.pkg.zip)
 		if err != nil && (appPath == "" || strings.Contains(err.Error(), "empty path")) {
-			fmt.Printf("  ℹ️  PKG installation failed or returned empty path, trying as ZIP...\n")
 			zipPath := strings.TrimSuffix(installerPath, ".pkg") + ".zip"
 			if renameErr := os.Rename(installerPath, zipPath); renameErr == nil {
 				appPath, err = installFromZIP(zipPath, app)
@@ -612,11 +603,7 @@ func installApp(installerPath string, app securityAppVersionInfo) (string, error
 	time.Sleep(2 * time.Second)
 
 	// Remove quarantine attributes (macOS adds these when downloading files)
-	// This is critical for santactl to work properly in CI environments
-	if err := removeQuarantineAttributes(appPath); err != nil {
-		fmt.Printf("  ⚠️  Warning: Failed to remove quarantine attributes: %v\n", err)
-		// Continue anyway - it might still work
-	}
+	removeQuarantineAttributes(appPath) // Ignore errors
 
 	return appPath, nil
 }
@@ -629,17 +616,6 @@ func installFromDMG(dmgPath string, app securityAppVersionInfo) (string, error) 
 		return "", fmt.Errorf("DMG file is empty (size: 0 bytes)")
 	}
 
-	// Check if file is actually a DMG by checking its type (optional check)
-	var fileTypeInfo string
-	fileCmd := exec.Command("file", dmgPath)
-	if fileOutput, err := fileCmd.Output(); err == nil {
-		fileType := strings.ToLower(string(fileOutput))
-		fileTypeInfo = strings.TrimSpace(string(fileOutput))
-		if !strings.Contains(fileType, "disk image") && !strings.Contains(fileType, "dmg") && !strings.Contains(fileType, "udif") {
-			// Not a valid DMG, but try anyway (might be a false negative)
-			fmt.Printf("  ⚠️  Warning: File type check suggests this may not be a valid DMG: %s\n", fileTypeInfo)
-		}
-	}
 
 	// Clean up any existing mount point
 	mountPoint := filepath.Join(tempDir, "mnt")
@@ -682,7 +658,6 @@ func installFromDMG(dmgPath string, app securityAppVersionInfo) (string, error) 
 			output3 := stdout3.String() + stderr3.String()
 			if strings.Contains(strings.ToLower(output3), "eula") || strings.Contains(strings.ToLower(output3), "license") || strings.Contains(strings.ToLower(output3), "agreement") || strings.Contains(strings.ToLower(output3), "end-user") {
 				// EULA detected, try using shell command to pipe "Y" to hdiutil
-				fmt.Printf("  ℹ️  DMG contains EULA, attempting to auto-accept...\n")
 				
 				// Try with explicit mountpoint first
 				shellCmd := fmt.Sprintf("echo 'Y' | hdiutil attach '%s' -mountpoint '%s' -nobrowse -noverify -noautoopen -quiet 2>&1", dmgPath, mountPoint)
@@ -756,7 +731,6 @@ func installFromDMG(dmgPath string, app securityAppVersionInfo) (string, error) 
 							}
 							if latestVolume != "" {
 								mountPoint = latestVolume
-								fmt.Printf("  ℹ️  Using auto-detected mount point: %s\n", mountPoint)
 							} else {
 								return "", fmt.Errorf("failed to mount DMG: could not determine mount point after EULA acceptance")
 							}
@@ -802,13 +776,7 @@ func installFromDMG(dmgPath string, app securityAppVersionInfo) (string, error) 
 				errorMsg = fmt.Sprintf("hdiutil failed with exit codes: %v, %v, %v", err, err2, err3)
 			}
 			
-			// Also check file type for additional context
-			fileInfo := ""
-			if fileTypeInfo != "" {
-				fileInfo = fmt.Sprintf(" (file type: %s)", fileTypeInfo)
-			}
-			
-			return "", fmt.Errorf("failed to mount DMG: %s%s", errorMsg, fileInfo)
+			return "", fmt.Errorf("failed to mount DMG: %s", errorMsg)
 		}
 		
 		// Method 2 succeeded, parse output to find mount point
@@ -861,7 +829,6 @@ func installFromDMG(dmgPath string, app securityAppVersionInfo) (string, error) 
 			}
 			if latestVolume != "" {
 				mountPoint = latestVolume
-				fmt.Printf("  ℹ️  Using auto-detected mount point: %s\n", mountPoint)
 			} else {
 				return "", fmt.Errorf("failed to mount DMG: could not determine mount point")
 			}
@@ -998,7 +965,6 @@ verifyMount:
 				return "", fmt.Errorf("source app bundle is corrupted on DMG mount point: %s (codesign: %s)", appBundle, verifyOutput)
 			}
 			// Other codesign errors are OK (unsigned apps, etc.), but log them
-			fmt.Printf("  ℹ️  Source bundle codesign check: %s\n", verifyOutput)
 		}
 
 		// Remove existing app if present (use more thorough cleanup)
@@ -1015,9 +981,6 @@ verifyMount:
 		cmd.Stdout = &dittoStdout
 		if err := cmd.Run(); err != nil {
 			// If ditto fails, try using Go's file operations as fallback
-			fmt.Printf("  ⚠️  Warning: ditto command failed: %v, trying alternative copy method...\n", strings.TrimSpace(dittoStderr.String()))
-			
-			// Use filepath.Walk to copy directory tree
 			if err := copyDirectory(appBundle, destPath); err != nil {
 				return "", fmt.Errorf("failed to copy app (ditto failed: %s, fallback failed: %w)", strings.TrimSpace(dittoStderr.String()), err)
 			}
@@ -1045,7 +1008,6 @@ verifyMount:
 				return "", fmt.Errorf("copied app bundle is corrupted: %s (codesign: %s). Source may be corrupted or copy failed.", destPath, verifyOutput)
 			}
 			// Other codesign errors are OK (unsigned apps, etc.)
-			fmt.Printf("  ℹ️  Destination bundle codesign check: %s\n", verifyOutput)
 		}
 
 		return destPath, nil
@@ -1104,105 +1066,40 @@ verifyMount:
 				return "", fmt.Errorf("failed to install PKG from DMG: %w", err)
 			}
 			
-			// Log installer output for debugging
-			stdoutStr := strings.TrimSpace(installStdout.String())
-			stderrStr := strings.TrimSpace(installStderr.String())
-			if stdoutStr != "" {
-				// Show first few lines of installer output
-				lines := strings.Split(stdoutStr, "\n")
-				maxLines := 5
-				if len(lines) < maxLines {
-					maxLines = len(lines)
-				}
-				fmt.Printf("  ℹ️  Installer output (first %d lines): %v\n", maxLines, lines[:maxLines])
-			}
-			if stderrStr != "" {
-				fmt.Printf("  ℹ️  Installer stderr: %s\n", stderrStr[:min(200, len(stderrStr))])
-			}
-
-			// Wait longer for installation to complete (PKG installs can take time)
+			// Wait for installation to complete
 			time.Sleep(5 * time.Second)
-
-			// Check what the PKG actually installed using pkgutil
-			fmt.Printf("  ℹ️  Checking what PKG installed...\n")
-			pkgutilCmd := exec.Command("pkgutil", "--pkgs")
-			pkgutilOut, _ := pkgutilCmd.Output()
-			pkgutilLines := strings.Split(strings.TrimSpace(string(pkgutilOut)), "\n")
-			// Find packages that might be related to this app
-			for _, pkg := range pkgutilLines {
-				if strings.Contains(strings.ToLower(pkg), strings.ToLower(app.Name)) {
-					fmt.Printf("  ℹ️  Found installed package: %s\n", pkg)
-					// Get files installed by this package
-					filesCmd := exec.Command("pkgutil", "--files", pkg)
-					filesOut, _ := filesCmd.Output()
-					filesLines := strings.Split(strings.TrimSpace(string(filesOut)), "\n")
-					// Look for .app bundles
-					for _, file := range filesLines {
-						if strings.HasSuffix(file, ".app") {
-							fullPath := filepath.Join("/", file)
-							if _, err := os.Stat(fullPath); err == nil {
-								fmt.Printf("  ℹ️  Package installed app at: %s\n", fullPath)
-								// If it's in /Applications, use it
-								if strings.HasPrefix(fullPath, applicationsDir) {
-									fmt.Printf("  ✅ Found app installed by PKG: %s\n", fullPath)
-									return fullPath, nil
-								}
-							}
-						}
-					}
-				}
-			}
 
 			// Now find the installed app in /Applications
 			appPath, err := findInstalledApp(app)
 			if err != nil {
-				// If we can't find the app, list what was recently installed for debugging
-				fmt.Printf("  ⚠️  Could not find installed app '%s' after PKG installation from DMG, listing recently modified apps in /Applications:\n", app.Name)
-				var recentApps []string
-				var allApps []string
-				cutoffTime := time.Now().Add(-10 * time.Minute) // Check last 10 minutes
-				_ = filepath.Walk(applicationsDir, func(path string, info os.FileInfo, err error) error {
-					if err != nil {
-						return nil
-					}
-					if strings.HasSuffix(path, ".app") && info != nil && info.IsDir() {
-						allApps = append(allApps, filepath.Base(path))
-						if info.ModTime().After(cutoffTime) {
-							recentApps = append(recentApps, filepath.Base(path))
-						}
-					}
+			// Try to find recently modified apps as fallback
+			var recentApps []string
+			cutoffTime := time.Now().Add(-10 * time.Minute)
+			_ = filepath.Walk(applicationsDir, func(path string, info os.FileInfo, err error) error {
+				if err != nil {
 					return nil
-				})
-				if len(recentApps) > 0 {
-					fmt.Printf("  ℹ️  Recently modified apps (last 10 min): %v\n", recentApps)
-					// If there's only one recently modified app, try using it
-					if len(recentApps) == 1 {
-						candidatePath := filepath.Join(applicationsDir, recentApps[0])
-						if _, err := os.Stat(candidatePath); err == nil {
-							fmt.Printf("  ℹ️  Using only recently modified app: %s\n", recentApps[0])
-							return candidatePath, nil
-						}
-					}
-				} else {
-					fmt.Printf("  ℹ️  No recently modified apps found (last 10 min)\n")
 				}
-				// Also check if the app exists at all (maybe it was already there)
-				for _, variation := range []string{app.Name + ".app", strings.ReplaceAll(app.Name, " ", "") + ".app"} {
-					candidatePath := filepath.Join(applicationsDir, variation)
-					if _, err := os.Stat(candidatePath); err == nil {
-						fmt.Printf("  ℹ️  Found existing app (may have been installed previously): %s\n", variation)
-						return candidatePath, nil
+				if strings.HasSuffix(path, ".app") && info != nil && info.IsDir() {
+					if info.ModTime().After(cutoffTime) {
+						recentApps = append(recentApps, filepath.Base(path))
 					}
 				}
-				// List first 10 apps for debugging
-				if len(allApps) > 0 {
-					maxApps := 10
-					if len(allApps) < maxApps {
-						maxApps = len(allApps)
-					}
-					fmt.Printf("  ℹ️  Sample of apps in /Applications: %v\n", allApps[:maxApps])
+				return nil
+			})
+			if len(recentApps) == 1 {
+				candidatePath := filepath.Join(applicationsDir, recentApps[0])
+				if _, err := os.Stat(candidatePath); err == nil {
+					return candidatePath, nil
 				}
-				return "", fmt.Errorf("could not find installed app '%s' after PKG installation from DMG: %w", app.Name, err)
+			}
+			// Check if app exists (may have been installed previously)
+			for _, variation := range []string{app.Name + ".app", strings.ReplaceAll(app.Name, " ", "") + ".app"} {
+				candidatePath := filepath.Join(applicationsDir, variation)
+				if _, err := os.Stat(candidatePath); err == nil {
+					return candidatePath, nil
+				}
+			}
+			return "", fmt.Errorf("could not find installed app '%s' after PKG installation from DMG: %w", app.Name, err)
 			}
 			return appPath, nil
 		}
@@ -1313,7 +1210,6 @@ func findInstalledApp(app securityAppVersionInfo) (string, error) {
 	}
 
 	if bestMatch != "" && bestMatchScore > 0 {
-		fmt.Printf("  ℹ️  Found app by keyword matching: %s (score: %d)\n", bestMatch, bestMatchScore)
 		return bestMatch, nil
 	}
 
@@ -1361,7 +1257,6 @@ func findInstalledApp(app securityAppVersionInfo) (string, error) {
 					if strings.Contains(appNameLower, searchNameLower) || 
 					   strings.Contains(searchNameLower, appNameLower) ||
 					   len(mainApps) == 1 {
-						fmt.Printf("  ℹ️  Using recently modified app: %s\n", appName)
 						return appPath, nil
 					}
 				}
@@ -1376,7 +1271,6 @@ func findInstalledApp(app securityAppVersionInfo) (string, error) {
 			// Try using the first recently modified app
 			appPath := filepath.Join(applicationsDir, recentApps[0])
 			if _, err := os.Stat(appPath); err == nil {
-				fmt.Printf("  ℹ️  Using recently modified app (may be command-line tool): %s\n", recentApps[0])
 				return appPath, nil
 			}
 		}
@@ -1490,18 +1384,11 @@ func installFromPKG(pkgPath string, app securityAppVersionInfo) (string, error) 
 			}
 			return nil
 		})
-		if len(recentApps) > 0 {
-			fmt.Printf("  ℹ️  Recently modified apps: %v\n", recentApps)
-			// If there's only one recently modified app, try using it
-			if len(recentApps) == 1 {
-				candidatePath := filepath.Join(applicationsDir, recentApps[0])
-				if _, err := os.Stat(candidatePath); err == nil {
-					fmt.Printf("  ℹ️  Using only recently modified app: %s\n", recentApps[0])
-					return candidatePath, nil
-				}
+		if len(recentApps) == 1 {
+			candidatePath := filepath.Join(applicationsDir, recentApps[0])
+			if _, err := os.Stat(candidatePath); err == nil {
+				return candidatePath, nil
 			}
-		} else {
-			fmt.Printf("  ℹ️  No recently modified apps found\n")
 		}
 		return "", fmt.Errorf("could not find installed app after PKG installation: %w", err)
 	}
@@ -1608,35 +1495,19 @@ func installFromZIP(zipPath string, app securityAppVersionInfo) (string, error) 
 					}
 					return nil
 				})
-				if len(recentApps) > 0 {
-					fmt.Printf("  ℹ️  Recently modified apps (last 10 min): %v\n", recentApps)
-					// If there's only one recently modified app, try using it
-					if len(recentApps) == 1 {
-						candidatePath := filepath.Join(applicationsDir, recentApps[0])
-						if _, err := os.Stat(candidatePath); err == nil {
-							fmt.Printf("  ℹ️  Using only recently modified app: %s\n", recentApps[0])
-							return candidatePath, nil
-						}
-					}
-				} else {
-					fmt.Printf("  ℹ️  No recently modified apps found (last 10 min)\n")
+			if len(recentApps) == 1 {
+				candidatePath := filepath.Join(applicationsDir, recentApps[0])
+				if _, err := os.Stat(candidatePath); err == nil {
+					return candidatePath, nil
 				}
-				// Also check if the app exists at all (maybe it was already there)
-				for _, variation := range []string{app.Name + ".app", strings.ReplaceAll(app.Name, " ", "") + ".app"} {
-					candidatePath := filepath.Join(applicationsDir, variation)
-					if _, err := os.Stat(candidatePath); err == nil {
-						fmt.Printf("  ℹ️  Found existing app (may have been installed previously): %s\n", variation)
-						return candidatePath, nil
-					}
+			}
+			// Check if app exists (may have been installed previously)
+			for _, variation := range []string{app.Name + ".app", strings.ReplaceAll(app.Name, " ", "") + ".app"} {
+				candidatePath := filepath.Join(applicationsDir, variation)
+				if _, err := os.Stat(candidatePath); err == nil {
+					return candidatePath, nil
 				}
-				// List first 10 apps for debugging
-				if len(allApps) > 0 {
-					maxApps := 10
-					if len(allApps) < maxApps {
-						maxApps = len(allApps)
-					}
-					fmt.Printf("  ℹ️  Sample of apps in /Applications: %v\n", allApps[:maxApps])
-				}
+			}
 				return "", fmt.Errorf("could not find installed app '%s' after PKG installation from ZIP: %w", app.Name, err)
 			}
 			return appPath, nil
@@ -1752,7 +1623,6 @@ func installFromZIP(zipPath string, app securityAppVersionInfo) (string, error) 
 			return "", fmt.Errorf("source app bundle is corrupted on DMG mount point: %s (codesign: %s)", appBundle, verifyOutput)
 		}
 		// Other codesign errors are OK (unsigned apps, etc.), but log them
-		fmt.Printf("  ℹ️  Source bundle codesign check: %s\n", verifyOutput)
 	}
 
 	// Remove existing app if present (use more thorough cleanup)
@@ -1799,7 +1669,6 @@ func installFromZIP(zipPath string, app securityAppVersionInfo) (string, error) 
 			return "", fmt.Errorf("copied app bundle is corrupted: %s (codesign: %s). Source may be corrupted or copy failed.", destPath, verifyOutput)
 		}
 		// Other codesign errors are OK (unsigned apps, etc.)
-		fmt.Printf("  ℹ️  Destination bundle codesign check: %s\n", verifyOutput)
 	}
 
 	return destPath, nil
@@ -1831,8 +1700,6 @@ func removeQuarantineAttributes(appPath string) error {
 }
 
 func runSantactl(appPath string) ([]byte, error) {
-	fmt.Printf("  🔍 Running santactl fileinfo...\n")
-
 	// If appPath is a .app bundle, try to find the executable inside
 	targetPath := appPath
 	if strings.HasSuffix(appPath, ".app") {
@@ -1901,7 +1768,6 @@ func runSantactl(appPath string) ([]byte, error) {
 		if targetPath != appPath && strings.HasSuffix(appPath, ".app") {
 			if _, err := os.Stat(appPath); err == nil {
 				targetPath = appPath
-				fmt.Printf("  ℹ️  Executable not found, using .app bundle path: %s\n", appPath)
 			}
 		}
 	}
@@ -1912,75 +1778,12 @@ func runSantactl(appPath string) ([]byte, error) {
 	}
 
 	// Remove quarantine from target path if it's different from app path
-	// (e.g., if we're using the executable path instead of .app bundle)
 	if targetPath != appPath {
-		if err := removeQuarantineAttributes(targetPath); err != nil {
-			fmt.Printf("  ⚠️  Warning: Failed to remove quarantine from target path: %v\n", err)
-		}
+		removeQuarantineAttributes(targetPath) // Ignore errors
 	}
 
-	// Add diagnostics before running santactl
-	fmt.Printf("  🔍 Diagnostics for %s:\n", targetPath)
-	
-	// Check extended attributes (quarantine flags)
-	xattrCmd := exec.Command("xattr", "-l", targetPath)
-	xattrOut, _ := xattrCmd.CombinedOutput()
-	xattrStr := strings.TrimSpace(string(xattrOut))
-	if xattrStr != "" {
-		fmt.Printf("  xattr: %s\n", xattrStr)
-	} else {
-		fmt.Printf("  xattr: (none)\n")
-	}
-	
-	// Check codesign directly
-	codesignCmd := exec.Command("codesign", "-dv", "--verbose=2", targetPath)
-	codesignOut, _ := codesignCmd.CombinedOutput()
-	codesignStr := strings.TrimSpace(string(codesignOut))
-	if codesignStr != "" {
-		// Only show first few lines to avoid too much output
-		lines := strings.Split(codesignStr, "\n")
-		if len(lines) > 5 {
-			codesignStr = strings.Join(lines[:5], "\n") + "..."
-		}
-		fmt.Printf("  codesign: %s\n", codesignStr)
-	} else {
-		fmt.Printf("  codesign: (no output)\n")
-	}
-	
-	// Check file type (for executables)
-	if !strings.HasSuffix(targetPath, ".app") {
-		fileCmd := exec.Command("file", targetPath)
-		fileOut, _ := fileCmd.CombinedOutput()
-		fileStr := strings.TrimSpace(string(fileOut))
-		if fileStr != "" {
-			fmt.Printf("  file: %s\n", fileStr)
-		}
-	}
-
-	// Add a delay to ensure app is fully installed (santactl can take 5-10 seconds)
-	// Also try to "touch" the app to ensure it's accessible and registered with the system
-	if strings.HasSuffix(targetPath, ".app") {
-		// Try to access the app bundle to ensure it's ready
-		exec.Command("ls", "-la", targetPath).Run()
-		
-		// Try to find and access the executable inside to "wake it up"
-		macosDir := filepath.Join(targetPath, "Contents", "MacOS")
-		if entries, err := os.ReadDir(macosDir); err == nil {
-			for _, entry := range entries {
-				if !strings.HasPrefix(entry.Name(), "._") && !entry.IsDir() {
-					execPath := filepath.Join(macosDir, entry.Name())
-					exec.Command("ls", "-la", execPath).Run()
-					// Try running codesign to verify the app is signed (this might help santactl)
-					exec.Command("codesign", "-dv", execPath).Run()
-					break
-				}
-			}
-		}
-		
-		// Try to assess the app with spctl (this might help register it with santactl)
-		exec.Command("spctl", "-a", "-vv", targetPath).Run()
-	}
-	time.Sleep(5 * time.Second) // Increased wait time since santactl can take 5-10 seconds
+	// Wait to ensure app is fully installed and registered
+	time.Sleep(5 * time.Second)
 
 	// Try .app bundle path first (this is what works locally per user feedback)
 	// Retry up to 3 times with increasing delays if we get empty results
@@ -1997,24 +1800,14 @@ func runSantactl(appPath string) ([]byte, error) {
 	pathsToTry = append(pathsToTry, targetPath)
 	
 	for attempt := 1; attempt <= maxRetries; attempt++ {
-		for pathIdx, pathToTry := range pathsToTry {
-			if attempt == 1 && pathIdx == 0 {
-				fmt.Printf("  ℹ️  Trying .app bundle path: %s\n", pathToTry)
-			} else if attempt == 1 {
-				fmt.Printf("  ℹ️  Trying path: %s\n", pathToTry)
-			} else {
-				fmt.Printf("  ℹ️  Retry %d: Trying path: %s\n", attempt, pathToTry)
-			}
-			
-			// If this is an .app bundle and we got empty results before, try codesign first
+		for _, pathToTry := range pathsToTry {
+			// On retries, try to register the app with codesign
 			if attempt > 1 && strings.HasSuffix(pathToTry, ".app") {
-				// Try to find the executable and run codesign on it to "register" it
 				macosDir := filepath.Join(pathToTry, "Contents", "MacOS")
 				if entries, err := os.ReadDir(macosDir); err == nil {
 					for _, entry := range entries {
 						if !strings.HasPrefix(entry.Name(), "._") && !entry.IsDir() {
 							execPath := filepath.Join(macosDir, entry.Name())
-							// Run codesign to verify signature (this might help santactl recognize it)
 							exec.Command("codesign", "-dv", execPath).Run()
 							time.Sleep(1 * time.Second)
 							break
@@ -2031,14 +1824,11 @@ func runSantactl(appPath string) ([]byte, error) {
 			err = cmd.Run()
 			output = stdout.Bytes()
 			
-			// Debug: show what we got
 			outputStr := strings.TrimSpace(string(output))
 			
 			if len(outputStr) > 0 && outputStr != "[]" && outputStr != "null" {
 				var testArray []interface{}
 				if json.Unmarshal(output, &testArray) == nil && len(testArray) > 0 {
-					// Got valid data
-					fmt.Printf("  ✅ Got data from path (attempt %d)\n", attempt)
 					return output, nil
 				}
 			}
@@ -2051,7 +1841,6 @@ func runSantactl(appPath string) ([]byte, error) {
 					for _, entry := range entries {
 						if !strings.HasPrefix(entry.Name(), "._") && !entry.IsDir() {
 							execPath := filepath.Join(macosDir, entry.Name())
-							fmt.Printf("  ℹ️  Trying executable path directly: %s\n", execPath)
 							cmd2 := exec.Command("santactl", "fileinfo", "--json", execPath)
 							var stdout2 bytes.Buffer
 							var stderr2 bytes.Buffer
@@ -2063,7 +1852,6 @@ func runSantactl(appPath string) ([]byte, error) {
 								if outputStr2 != "[]" && len(outputStr2) > 0 {
 									var testArray2 []interface{}
 									if json.Unmarshal(output2, &testArray2) == nil && len(testArray2) > 0 {
-										fmt.Printf("  ✅ Got data from executable path\n")
 										return output2, nil
 									}
 								}
@@ -2076,34 +1864,20 @@ func runSantactl(appPath string) ([]byte, error) {
 			
 			// If we got empty array, try text format as fallback
 			if outputStr == "[]" {
-				fmt.Printf("  ℹ️  JSON returned empty, trying text format (may take 10+ seconds)...\n")
-				// Try without --json flag (this can take 10+ seconds)
 				cmdText := exec.Command("santactl", "fileinfo", pathToTry)
 				var stdoutText bytes.Buffer
-				var stderrText bytes.Buffer
 				cmdText.Stdout = &stdoutText
-				cmdText.Stderr = &stderrText
-				// Set a longer timeout context for text format (15 seconds)
 				if errText := cmdText.Run(); errText == nil {
 					textOutput := stdoutText.Bytes()
 					if len(textOutput) > 0 {
-						// Parse text output and convert to JSON-like structure
 						parsedData, parseErr := parseSantactlTextOutput(textOutput, pathToTry)
 						if parseErr == nil && (parsedData["SHA-256"] != "" || parsedData["CDHash"] != "") {
-							// Convert to JSON format that parseSantactlOutput expects
-							jsonData := convertTextToJSON(parsedData)
-							fmt.Printf("  ✅ Got data from text format\n")
-							return jsonData, nil
-						} else if parseErr != nil {
-							fmt.Printf("  ⚠️  Failed to parse text output: %v\n", parseErr)
+							return convertTextToJSON(parsedData), nil
 						}
 					}
-				} else {
-					fmt.Printf("  ⚠️  Text format command failed: %v\n", errText)
 				}
 				
 				if attempt < maxRetries {
-					fmt.Printf("  ⏳ Got empty array, waiting 5 seconds before retry...\n")
 					time.Sleep(5 * time.Second)
 					break // Break out of path loop to retry
 				}
@@ -2122,34 +1896,21 @@ func runSantactl(appPath string) ([]byte, error) {
 		// Final fallback: if we got empty arrays from JSON, try text format one last time
 		if len(output) > 0 {
 			outputStr := strings.TrimSpace(string(output))
-			if outputStr == "[]" {
-				fmt.Printf("  ℹ️  All JSON attempts returned empty, trying text format as final fallback (may take 10+ seconds)...\n")
-				// Try text format on the original app path
-				if strings.HasSuffix(appPath, ".app") {
-					// Try .app bundle path
-					cmdText := exec.Command("santactl", "fileinfo", appPath)
+			if outputStr == "[]" && strings.HasSuffix(appPath, ".app") {
+				cmdText := exec.Command("santactl", "fileinfo", appPath)
 				var stdoutText bytes.Buffer
-				var stderrText bytes.Buffer
 				cmdText.Stdout = &stdoutText
-				cmdText.Stderr = &stderrText
 				if errText := cmdText.Run(); errText == nil {
 					textOutput := stdoutText.Bytes()
 					if len(textOutput) > 0 {
-						// Parse text output and convert to JSON-like structure
 						parsedData, parseErr := parseSantactlTextOutput(textOutput, appPath)
 						if parseErr == nil && (parsedData["SHA-256"] != "" || parsedData["CDHash"] != "") {
-							// Convert to JSON format that parseSantactlOutput expects
-							jsonData := convertTextToJSON(parsedData)
-							fmt.Printf("  ✅ Got data from text format (final fallback)\n")
-							return jsonData, nil
-						} else if parseErr != nil {
-							fmt.Printf("  ⚠️  Failed to parse text output: %v\n", parseErr)
+							return convertTextToJSON(parsedData), nil
 						}
 					}
 				}
 			}
 		}
-	}
 	
 	if err != nil {
 		// Even if command fails, check if we got valid JSON output
@@ -2158,8 +1919,6 @@ func runSantactl(appPath string) ([]byte, error) {
 			// Try to parse to see if it's valid JSON
 			var testArray []interface{}
 			if json.Unmarshal(output, &testArray) == nil && len(testArray) > 0 {
-				// Valid JSON with data, return it even though command "failed"
-				fmt.Printf("  ✅ Got data despite error code\n")
 				return output, nil
 			}
 		}
@@ -2257,8 +2016,6 @@ func parseSantactlOutput(output []byte, app securityAppVersionInfo) (appSecurity
 	}
 
 	if len(santactlArray) == 0 {
-		// Debug: log what we actually got
-		fmt.Printf("  ⚠️  Debug: santactl returned array with length 0. Raw output (first 500 chars): %s\n", outputStr[:min(500, len(outputStr))])
 		return appSecurityInfo{}, fmt.Errorf("santactl returned empty array (app may not be signed or may be unsigned)")
 	}
 
