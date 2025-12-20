@@ -65,10 +65,18 @@ func main() {
 	}
 
 	// Load existing security info
-	existingSecurity, _ := loadSecurityInfo()
+	existingSecurity, err := loadSecurityInfo()
+	if err != nil && !os.IsNotExist(err) {
+		fmt.Fprintf(os.Stderr, "⚠️  Warning: Error loading existing security info: %v (will reprocess all apps)\n", err)
+	}
 	existingMap := make(map[string]appSecurityInfo)
-	for _, app := range existingSecurity.Apps {
-		existingMap[app.Slug] = app
+	if existingSecurity != nil {
+		for _, app := range existingSecurity.Apps {
+			existingMap[app.Slug] = app
+		}
+		fmt.Printf("📋 Loaded %d existing security info entries\n", len(existingMap))
+	} else {
+		fmt.Printf("📋 No existing security info found (starting fresh)\n")
 	}
 
 	// Filter to macOS apps only
@@ -381,8 +389,50 @@ func downloadInstaller(url, slug string) (string, error) {
 	if err != nil {
 		return "", err
 	}
+	out.Close() // Close before checking file type
+
+	// Verify and correct file type by checking actual file content
+	actualExt, err := detectActualFileType(filename)
+	if err == nil && actualExt != "" && actualExt != ext {
+		// File type doesn't match extension, rename it
+		newFilename := strings.TrimSuffix(filename, ext) + actualExt
+		if err := os.Rename(filename, newFilename); err != nil {
+			fmt.Printf("  ⚠️  Warning: Detected file type %s but extension was %s, rename failed: %v\n", actualExt, ext, err)
+			return filename, nil // Return original filename
+		}
+		fmt.Printf("  ℹ️  Detected actual file type: %s (was %s)\n", actualExt, ext)
+		return newFilename, nil
+	}
 
 	return filename, nil
+}
+
+// detectActualFileType uses the `file` command to determine the actual file type
+func detectActualFileType(filepath string) (string, error) {
+	cmd := exec.Command("file", filepath)
+	output, err := cmd.Output()
+	if err != nil {
+		return "", err
+	}
+
+	fileType := strings.ToLower(string(output))
+	
+	// Check for PKG (xar archive)
+	if strings.Contains(fileType, "xar archive") || strings.Contains(fileType, "pkg") {
+		return ".pkg", nil
+	}
+	
+	// Check for DMG
+	if strings.Contains(fileType, "disk image") || strings.Contains(fileType, "dmg") || strings.Contains(fileType, "udif") {
+		return ".dmg", nil
+	}
+	
+	// Check for ZIP
+	if strings.Contains(fileType, "zip archive") || strings.Contains(fileType, "compressed") {
+		return ".zip", nil
+	}
+
+	return "", nil // Unknown type, keep original extension
 }
 
 // getInstallerExtension determines the installer file extension from URL and Content-Type
@@ -516,7 +566,9 @@ func installFromDMG(dmgPath string, app securityAppVersionInfo) (string, error) 
 	}
 
 	// Try mounting with explicit mountpoint (using -noverify like in workflow)
+	// First attempt: try with auto-accept EULA by piping "Y"
 	cmd := exec.Command("hdiutil", "attach", dmgPath, "-mountpoint", mountPoint, "-nobrowse", "-noverify", "-noautoopen", "-quiet")
+	cmd.Stdin = strings.NewReader("Y\n") // Auto-accept EULA if present
 	var stdout bytes.Buffer
 	var stderr bytes.Buffer
 	cmd.Stdout = &stdout
@@ -524,8 +576,9 @@ func installFromDMG(dmgPath string, app securityAppVersionInfo) (string, error) 
 	err := cmd.Run()
 	
 	if err != nil {
-		// If explicit mountpoint fails, try letting hdiutil choose the mount point
+		// If explicit mountpoint fails, try letting hdiutil choose the mount point (with EULA acceptance)
 		cmd2 := exec.Command("hdiutil", "attach", dmgPath, "-nobrowse", "-noverify", "-noautoopen", "-quiet")
+		cmd2.Stdin = strings.NewReader("Y\n") // Auto-accept EULA if present
 		var stdout2 bytes.Buffer
 		var stderr2 bytes.Buffer
 		cmd2.Stdout = &stdout2
@@ -533,13 +586,80 @@ func installFromDMG(dmgPath string, app securityAppVersionInfo) (string, error) 
 		err2 := cmd2.Run()
 		
 		if err2 != nil {
-			// Both methods failed, try one more time without -quiet to get actual error
+			// Both methods failed, try one more time without -quiet to get actual error (with EULA acceptance)
 			cmd3 := exec.Command("hdiutil", "attach", dmgPath, "-nobrowse", "-noverify", "-noautoopen")
+			cmd3.Stdin = strings.NewReader("Y\n") // Auto-accept EULA if present
 			var stdout3 bytes.Buffer
 			var stderr3 bytes.Buffer
 			cmd3.Stdout = &stdout3
 			cmd3.Stderr = &stderr3
 			err3 := cmd3.Run()
+			
+			// Check if the error is due to EULA (output contains "EULA" or "license" or "agreement")
+			output3 := stdout3.String() + stderr3.String()
+			if strings.Contains(strings.ToLower(output3), "eula") || strings.Contains(strings.ToLower(output3), "license") || strings.Contains(strings.ToLower(output3), "agreement") || strings.Contains(strings.ToLower(output3), "end-user") {
+				// EULA detected, try using shell command to pipe "Y" to hdiutil
+				fmt.Printf("  ℹ️  DMG contains EULA, attempting to auto-accept...\n")
+				
+				// Try with explicit mountpoint first
+				shellCmd := fmt.Sprintf("echo 'Y' | hdiutil attach '%s' -mountpoint '%s' -nobrowse -noverify -noautoopen -quiet 2>&1", dmgPath, mountPoint)
+				cmd4 := exec.Command("sh", "-c", shellCmd)
+				var stdout4 bytes.Buffer
+				var stderr4 bytes.Buffer
+				cmd4.Stdout = &stdout4
+				cmd4.Stderr = &stderr4
+				err4 := cmd4.Run()
+				
+				if err4 != nil {
+					// Try without explicit mountpoint
+					shellCmd2 := fmt.Sprintf("echo 'Y' | hdiutil attach '%s' -nobrowse -noverify -noautoopen -quiet 2>&1", dmgPath)
+					cmd5 := exec.Command("sh", "-c", shellCmd2)
+					var stdout5 bytes.Buffer
+					var stderr5 bytes.Buffer
+					cmd5.Stdout = &stdout5
+					cmd5.Stderr = &stderr5
+					err5 := cmd5.Run()
+					
+					if err5 == nil {
+						// Success, parse mount point
+						output := stdout5.String()
+						if output == "" {
+							output = stderr5.String()
+						}
+						lines := strings.Split(output, "\n")
+						for _, line := range lines {
+							fields := strings.Fields(line)
+							if len(fields) >= 2 && strings.HasPrefix(fields[1], "/Volumes/") {
+								mountPoint = fields[1]
+								break
+							}
+						}
+						// If we still don't have a mount point, try to find recently mounted volumes
+						if mountPoint == filepath.Join(tempDir, "mnt") {
+							volumes, _ := filepath.Glob("/Volumes/*")
+							var latestVolume string
+							var latestTime time.Time
+							for _, vol := range volumes {
+								if info, err := os.Stat(vol); err == nil && info.IsDir() {
+									if info.ModTime().After(latestTime) {
+										latestTime = info.ModTime()
+										latestVolume = vol
+									}
+								}
+							}
+							if latestVolume != "" {
+								mountPoint = latestVolume
+							} else {
+								return "", fmt.Errorf("failed to mount DMG: could not determine mount point after EULA acceptance")
+							}
+						}
+						goto verifyMount
+					}
+				} else {
+					// Method 4 succeeded with explicit mountpoint
+					goto verifyMount
+				}
+			}
 			
 			// Collect all error messages
 			errorMsgs := []string{}
@@ -634,6 +754,7 @@ func installFromDMG(dmgPath string, app securityAppVersionInfo) (string, error) 
 		}
 	}
 
+verifyMount:
 	// Verify mount point exists and is accessible
 	if _, err := os.Stat(mountPoint); err != nil {
 		return "", fmt.Errorf("failed to mount DMG: mount point not accessible: %s", mountPoint)
