@@ -725,28 +725,29 @@ func parseSantactlOutput(output []byte, app securityAppVersionInfo) (appSecurity
 func uninstallApp(app securityAppVersionInfo) error {
 	fmt.Printf("  🗑️  Uninstalling app...\n")
 
-	// Try to find and remove the app
-	appName := app.Name + ".app"
-	appPath := filepath.Join(applicationsDir, appName)
-
-	if _, err := os.Stat(appPath); err == nil {
-		return os.RemoveAll(appPath)
+	// Find the installed app (use same logic as installation)
+	appPath, err := findInstalledApp(app)
+	if err != nil {
+		// App not found, consider it already uninstalled
+		return nil
 	}
 
-	// Try variations
-	variations := []string{
-		app.Name + ".app",
-		strings.ReplaceAll(app.Name, " ", "") + ".app",
+	// Try regular removal first
+	if err := os.RemoveAll(appPath); err == nil {
+		return nil
 	}
 
-	for _, variation := range variations {
-		appPath := filepath.Join(applicationsDir, variation)
-		if _, err := os.Stat(appPath); err == nil {
-			return os.RemoveAll(appPath)
-		}
+	// If regular removal fails (permission denied), try with sudo
+	fmt.Printf("  🔐 Using sudo to remove protected files...\n")
+	cmd := exec.Command("sudo", "rm", "-rf", appPath)
+	if err := cmd.Run(); err != nil {
+		// Even if sudo fails, try to remove what we can
+		// Some apps have files that can't be deleted, which is okay
+		fmt.Printf("  ⚠️  Some files may remain (this is usually okay)\n")
+		return nil // Don't fail the whole process if uninstall has issues
 	}
 
-	return nil // App not found, consider it uninstalled
+	return nil
 }
 
 func cleanupTempFiles() {
