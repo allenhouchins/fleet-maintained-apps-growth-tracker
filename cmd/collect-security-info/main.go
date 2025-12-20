@@ -568,6 +568,13 @@ func installApp(installerPath string, app securityAppVersionInfo) (string, error
 	// Wait a moment for installation to complete
 	time.Sleep(2 * time.Second)
 
+	// Remove quarantine attributes (macOS adds these when downloading files)
+	// This is critical for santactl to work properly in CI environments
+	if err := removeQuarantineAttributes(appPath); err != nil {
+		fmt.Printf("  ⚠️  Warning: Failed to remove quarantine attributes: %v\n", err)
+		// Continue anyway - it might still work
+	}
+
 	return appPath, nil
 }
 
@@ -1391,6 +1398,31 @@ func installFromZIP(zipPath string, app securityAppVersionInfo) (string, error) 
 	return destPath, nil
 }
 
+// removeQuarantineAttributes removes macOS quarantine extended attributes from an app
+// This is critical for santactl to work properly in CI environments where files
+// are downloaded via http.Get() and may have quarantine flags set
+func removeQuarantineAttributes(appPath string) error {
+	// Remove quarantine attribute recursively for .app bundles
+	if strings.HasSuffix(appPath, ".app") {
+		cmd := exec.Command("xattr", "-dr", "com.apple.quarantine", appPath)
+		if err := cmd.Run(); err != nil {
+			// If recursive removal fails, try non-recursive
+			cmd = exec.Command("xattr", "-d", "com.apple.quarantine", appPath)
+			if err := cmd.Run(); err != nil {
+				return fmt.Errorf("failed to remove quarantine: %w", err)
+			}
+		}
+	} else {
+		// For executables, just remove from the file itself
+		cmd := exec.Command("xattr", "-d", "com.apple.quarantine", appPath)
+		if err := cmd.Run(); err != nil {
+			// Ignore errors if attribute doesn't exist
+			return nil
+		}
+	}
+	return nil
+}
+
 func runSantactl(appPath string) ([]byte, error) {
 	fmt.Printf("  🔍 Running santactl fileinfo...\n")
 
@@ -1470,6 +1502,52 @@ func runSantactl(appPath string) ([]byte, error) {
 	// Verify target exists
 	if _, err := os.Stat(targetPath); err != nil {
 		return nil, fmt.Errorf("target path does not exist: %s", targetPath)
+	}
+
+	// Remove quarantine from target path if it's different from app path
+	// (e.g., if we're using the executable path instead of .app bundle)
+	if targetPath != appPath {
+		if err := removeQuarantineAttributes(targetPath); err != nil {
+			fmt.Printf("  ⚠️  Warning: Failed to remove quarantine from target path: %v\n", err)
+		}
+	}
+
+	// Add diagnostics before running santactl
+	fmt.Printf("  🔍 Diagnostics for %s:\n", targetPath)
+	
+	// Check extended attributes (quarantine flags)
+	xattrCmd := exec.Command("xattr", "-l", targetPath)
+	xattrOut, _ := xattrCmd.CombinedOutput()
+	xattrStr := strings.TrimSpace(string(xattrOut))
+	if xattrStr != "" {
+		fmt.Printf("  xattr: %s\n", xattrStr)
+	} else {
+		fmt.Printf("  xattr: (none)\n")
+	}
+	
+	// Check codesign directly
+	codesignCmd := exec.Command("codesign", "-dv", "--verbose=2", targetPath)
+	codesignOut, _ := codesignCmd.CombinedOutput()
+	codesignStr := strings.TrimSpace(string(codesignOut))
+	if codesignStr != "" {
+		// Only show first few lines to avoid too much output
+		lines := strings.Split(codesignStr, "\n")
+		if len(lines) > 5 {
+			codesignStr = strings.Join(lines[:5], "\n") + "..."
+		}
+		fmt.Printf("  codesign: %s\n", codesignStr)
+	} else {
+		fmt.Printf("  codesign: (no output)\n")
+	}
+	
+	// Check file type (for executables)
+	if !strings.HasSuffix(targetPath, ".app") {
+		fileCmd := exec.Command("file", targetPath)
+		fileOut, _ := fileCmd.CombinedOutput()
+		fileStr := strings.TrimSpace(string(fileOut))
+		if fileStr != "" {
+			fmt.Printf("  file: %s\n", fileStr)
+		}
 	}
 
 	// Add a delay to ensure app is fully installed (santactl can take 5-10 seconds)
