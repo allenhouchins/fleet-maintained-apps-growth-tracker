@@ -396,9 +396,20 @@ func downloadInstaller(url, slug string) (string, error) {
 
 	_, err = io.Copy(out, resp.Body)
 	if err != nil {
+		out.Close()
+		os.Remove(filename) // Clean up partial download
 		return "", err
 	}
 	out.Close() // Close before checking file type
+
+	// Verify file was actually written and has content
+	if info, err := os.Stat(filename); err != nil || info.Size() == 0 {
+		if err == nil {
+			os.Remove(filename)
+			return "", fmt.Errorf("downloaded file is empty")
+		}
+		return "", fmt.Errorf("downloaded file not found: %w", err)
+	}
 
 	// Verify and correct file type by checking actual file content
 	actualExt, err := detectActualFileType(filename)
@@ -554,6 +565,15 @@ func installApp(installerPath string, app securityAppVersionInfo) (string, error
 			}
 		}
 	case ".pkg":
+		// Verify PKG file exists and has content before attempting installation
+		info, err := os.Stat(installerPath)
+		if err != nil {
+			return "", fmt.Errorf("PKG file not found: %s (%w)", installerPath, err)
+		}
+		if info.Size() == 0 {
+			return "", fmt.Errorf("PKG file is empty: %s", installerPath)
+		}
+		fmt.Printf("  ℹ️  PKG file verified: %s (size: %d bytes)\n", installerPath, info.Size())
 		appPath, err = installFromPKG(installerPath, app)
 	case ".zip":
 		appPath, err = installFromZIP(installerPath, app)
@@ -1327,7 +1347,31 @@ func installFromPKG(pkgPath string, app securityAppVersionInfo) (string, error) 
 	time.Sleep(3 * time.Second)
 
 	// Find the installed app
-	return findInstalledApp(app)
+	appPath, err := findInstalledApp(app)
+	if err != nil {
+		// If we can't find the app, list what was recently installed for debugging
+		fmt.Printf("  ⚠️  Could not find installed app, listing recently modified apps in /Applications:\n")
+		var recentApps []string
+		cutoffTime := time.Now().Add(-5 * time.Minute)
+		_ = filepath.Walk(applicationsDir, func(path string, info os.FileInfo, err error) error {
+			if err != nil {
+				return nil
+			}
+			if strings.HasSuffix(path, ".app") && info != nil && info.IsDir() {
+				if info.ModTime().After(cutoffTime) {
+					recentApps = append(recentApps, filepath.Base(path))
+				}
+			}
+			return nil
+		})
+		if len(recentApps) > 0 {
+			fmt.Printf("  ℹ️  Recently modified apps: %v\n", recentApps)
+		} else {
+			fmt.Printf("  ℹ️  No recently modified apps found\n")
+		}
+		return "", err
+	}
+	return appPath, nil
 }
 
 func installFromZIP(zipPath string, app securityAppVersionInfo) (string, error) {
