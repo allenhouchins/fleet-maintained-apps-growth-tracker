@@ -425,21 +425,79 @@ func installFromDMG(dmgPath string, app securityAppVersionInfo) (string, error) 
 	}
 	defer exec.Command("hdiutil", "detach", mountPoint, "-quiet").Run()
 
-	// Find .app bundle in mounted DMG
+	// Find .app bundle in mounted DMG - try multiple strategies
 	var appBundle string
-	err := filepath.Walk(mountPoint, func(path string, info os.FileInfo, err error) error {
+
+	// Strategy 1: Look for .app bundle by walking the directory tree
+	_ = filepath.Walk(mountPoint, func(path string, info os.FileInfo, err error) error {
 		if err != nil {
-			return err
+			// Continue walking even if we hit permission errors
+			return nil
 		}
-		if strings.HasSuffix(path, ".app") && info.IsDir() {
-			appBundle = path
-			return filepath.SkipDir
+		// Check if this is a .app bundle (directory ending in .app)
+		if strings.HasSuffix(path, ".app") {
+			// Verify it's actually a directory (app bundles are directories)
+			if info != nil && info.IsDir() {
+				appBundle = path
+				return filepath.SkipDir // Found it, stop searching
+			}
 		}
 		return nil
 	})
 
-	if err != nil || appBundle == "" {
-		return "", fmt.Errorf("could not find .app bundle in DMG")
+	// Strategy 2: If not found, try looking for common app names
+	if appBundle == "" {
+		commonNames := []string{
+			app.Name + ".app",
+			strings.ReplaceAll(app.Name, " ", "") + ".app",
+			strings.ReplaceAll(app.Name, " ", "_") + ".app",
+		}
+
+		for _, name := range commonNames {
+			candidate := filepath.Join(mountPoint, name)
+			if info, err := os.Stat(candidate); err == nil && info.IsDir() {
+				appBundle = candidate
+				break
+			}
+		}
+	}
+
+	// Strategy 3: Look in common subdirectories (some DMGs have apps in subfolders)
+	if appBundle == "" {
+		commonDirs := []string{"Applications", "Contents", "Install"}
+		for _, dir := range commonDirs {
+			searchPath := filepath.Join(mountPoint, dir)
+			if _, err := os.Stat(searchPath); err == nil {
+				err := filepath.Walk(searchPath, func(path string, info os.FileInfo, err error) error {
+					if err != nil {
+						return nil
+					}
+					if strings.HasSuffix(path, ".app") && info != nil && info.IsDir() {
+						appBundle = path
+						return filepath.SkipDir
+					}
+					return nil
+				})
+				if appBundle != "" || err != nil {
+					break
+				}
+			}
+		}
+	}
+
+	if appBundle == "" {
+		// List contents for debugging
+		var contents []string
+		filepath.Walk(mountPoint, func(path string, info os.FileInfo, err error) error {
+			if err == nil && info != nil {
+				relPath, _ := filepath.Rel(mountPoint, path)
+				if relPath != "." {
+					contents = append(contents, relPath)
+				}
+			}
+			return nil
+		})
+		return "", fmt.Errorf("could not find .app bundle in DMG. Contents: %v", contents[:min(10, len(contents))])
 	}
 
 	// Copy .app to Applications
@@ -455,6 +513,13 @@ func installFromDMG(dmgPath string, app securityAppVersionInfo) (string, error) 
 	}
 
 	return destPath, nil
+}
+
+func min(a, b int) int {
+	if a < b {
+		return a
+	}
+	return b
 }
 
 func installFromPKG(pkgPath string, app securityAppVersionInfo) (string, error) {
