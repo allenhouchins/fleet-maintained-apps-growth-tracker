@@ -537,7 +537,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: December 20, 2025 at 4:38 PM CST</p>
+            Last updated: December 20, 2025 at 4:50 PM CST</p>
         </div>
     </div>
 
@@ -589,7 +589,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: December 20, 2025 at 4:38 PM CST</p>
+                <p id="modalLastUpdated">Last updated: December 20, 2025 at 4:50 PM CST</p>
             </div>
         </div>
     </div>
@@ -3075,7 +3075,14 @@
                 "platform": "darwin",
                 "description": "Dash is an API documentation browser and code snippet manager.",
                 "version": "8.0.1",
-                "installerUrl": "https://kapeli.com/downloads/v8/Dash.zip"
+                "installerUrl": "https://kapeli.com/downloads/v8/Dash.zip",
+                "securityInfo": {
+                  "sha256": "eadb726f24b005cb2a5d1a6271ea41288bd6af7379ed3eee0d7921140652d55a",
+                  "cdhash": "026e1e6b906106e60c668c66903386748432cea3",
+                  "signingId": "JP58VMK957:com.kapeli.dashdoc",
+                  "teamId": "JP58VMK957",
+                  "lastUpdated": "2025-12-20T22:47:25Z"
+                }
               },
               {
                 "name": "DataGrip",
@@ -4477,7 +4484,14 @@
                 "platform": "darwin",
                 "description": "Postman is a collaboration platform for API development that simplifies building, testing, and sharing APIs.",
                 "version": "11.76.9",
-                "installerUrl": "https://dl.pstmn.io/download/version/11.76.9/osx_arm64"
+                "installerUrl": "https://dl.pstmn.io/download/version/11.76.9/osx_arm64",
+                "securityInfo": {
+                  "sha256": "59838e547bbdfef060a63bcdc489c646d1dc6e1f16c5016b64a84fbb023263a9",
+                  "cdhash": "a033b679b926704f457f4a7b73628aa3ef5b3b4c",
+                  "signingId": "H7H8Q7M5CK:com.postmanlabs.mac",
+                  "teamId": "H7H8Q7M5CK",
+                  "lastUpdated": "2025-12-20T22:49:36Z"
+                }
               },
               {
                 "name": "Postman",
@@ -5912,7 +5926,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `December 20, 2025 at 4:38 PM CST`;
+                let timestampText = 'Last updated: ' + `December 20, 2025 at 4:50 PM CST`;
                 
                 // If macOS app has security info with lastUpdated, use that instead
                 if (app.platform === 'darwin' && app.securityInfo && app.securityInfo.lastUpdated) {
