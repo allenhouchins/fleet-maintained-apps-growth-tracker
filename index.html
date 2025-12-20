@@ -537,7 +537,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: December 20, 2025 at 5:33 PM CST</p>
+            Last updated: December 20, 2025 at 5:37 PM CST</p>
         </div>
     </div>
 
@@ -589,7 +589,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: December 20, 2025 at 5:33 PM CST</p>
+                <p id="modalLastUpdated">Last updated: December 20, 2025 at 5:37 PM CST</p>
             </div>
         </div>
     </div>
@@ -5449,7 +5449,14 @@
                 "platform": "darwin",
                 "description": "Wireshark is a network protocol analyzer.",
                 "version": "4.6.2",
-                "installerUrl": "https://www.wireshark.org/download/osx/all-versions/Wireshark%204.6.2.dmg"
+                "installerUrl": "https://www.wireshark.org/download/osx/all-versions/Wireshark%204.6.2.dmg",
+                "securityInfo": {
+                  "sha256": "288044039040810367297e97b1680941ba28239cd7d47d9f8090c5540f30edde",
+                  "cdhash": "e0d8be90fa908b2ad3c1106733b5e02cf4219368",
+                  "signingId": "7Z6EMTD2C6:org.wireshark.Wireshark",
+                  "teamId": "7Z6EMTD2C6",
+                  "lastUpdated": "2025-12-20T23:37:14Z"
+                }
               },
               {
                 "name": "Wireshark",
@@ -5947,7 +5954,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `December 20, 2025 at 5:33 PM CST`;
+                let timestampText = 'Last updated: ' + `December 20, 2025 at 5:37 PM CST`;
                 
                 // If macOS app has security info with lastUpdated, use that instead
                 if (app.platform === 'darwin' && app.securityInfo && app.securityInfo.lastUpdated) {
