@@ -996,14 +996,38 @@ verifyMount:
 		return "", fmt.Errorf("app bundle not found at %s: %w", appBundle, err)
 	}
 
-	// Remove existing app if present
+	// Verify source bundle structure is valid (check for required bundle components)
+	infoPlistPath := filepath.Join(appBundle, "Contents", "Info.plist")
+	if _, err := os.Stat(infoPlistPath); err != nil {
+		return "", fmt.Errorf("source app bundle appears invalid (missing Info.plist): %s", appBundle)
+	}
+
+	// Verify source bundle with codesign before copying
+	verifyCmd := exec.Command("codesign", "-dv", appBundle)
+	var verifyStderr bytes.Buffer
+	verifyCmd.Stderr = &verifyStderr
+	if err := verifyCmd.Run(); err != nil {
+		verifyOutput := strings.TrimSpace(verifyStderr.String())
+		// If it says "bundle format unrecognized", the source is already corrupted
+		if strings.Contains(verifyOutput, "bundle format unrecognized") {
+			return "", fmt.Errorf("source app bundle is corrupted on DMG mount point: %s (codesign: %s)", appBundle, verifyOutput)
+		}
+		// Other codesign errors are OK (unsigned apps, etc.), but log them
+		fmt.Printf("  ℹ️  Source bundle codesign check: %s\n", verifyOutput)
+	}
+
+	// Remove existing app if present (use more thorough cleanup)
 	os.RemoveAll(destPath)
+	// Wait a moment for filesystem to sync
+	time.Sleep(500 * time.Millisecond)
 
 	// Use ditto to copy app bundle (preserves resource forks, extended attributes, symlinks, and bundle structure)
 	// ditto is specifically designed for copying macOS app bundles correctly
 	cmd = exec.Command("ditto", appBundle, destPath)
 	var dittoStderr bytes.Buffer
+	var dittoStdout bytes.Buffer
 	cmd.Stderr = &dittoStderr
+	cmd.Stdout = &dittoStdout
 	if err := cmd.Run(); err != nil {
 		// If ditto fails, try using Go's file operations as fallback
 		fmt.Printf("  ⚠️  Warning: ditto command failed: %v, trying alternative copy method...\n", strings.TrimSpace(dittoStderr.String()))
@@ -1014,9 +1038,29 @@ verifyMount:
 		}
 	}
 
-	// Verify copy succeeded
+	// Verify copy succeeded and bundle structure is intact
 	if _, err := os.Stat(destPath); err != nil {
 		return "", fmt.Errorf("copy appeared to succeed but destination not found: %w", err)
+	}
+
+	// Verify destination bundle structure
+	destInfoPlistPath := filepath.Join(destPath, "Contents", "Info.plist")
+	if _, err := os.Stat(destInfoPlistPath); err != nil {
+		return "", fmt.Errorf("copied app bundle appears invalid (missing Info.plist): %s", destPath)
+	}
+
+	// Verify destination bundle with codesign
+	destVerifyCmd := exec.Command("codesign", "-dv", destPath)
+	var destVerifyStderr bytes.Buffer
+	destVerifyCmd.Stderr = &destVerifyStderr
+	if err := destVerifyCmd.Run(); err != nil {
+		verifyOutput := strings.TrimSpace(destVerifyStderr.String())
+		// If it says "bundle format unrecognized", the copy corrupted the bundle
+		if strings.Contains(verifyOutput, "bundle format unrecognized") {
+			return "", fmt.Errorf("copied app bundle is corrupted: %s (codesign: %s). Source may be corrupted or copy failed.", destPath, verifyOutput)
+		}
+		// Other codesign errors are OK (unsigned apps, etc.)
+		fmt.Printf("  ℹ️  Destination bundle codesign check: %s\n", verifyOutput)
 	}
 
 	return destPath, nil
@@ -1257,22 +1301,28 @@ func installFromPKG(pkgPath string, app securityAppVersionInfo) (string, error) 
 }
 
 func installFromZIP(zipPath string, app securityAppVersionInfo) (string, error) {
-	// Extract ZIP
+	// Extract ZIP using ditto (preserves resource forks, extended attributes, symlinks, and macOS bundle structure)
+	// ditto -xk means: -x = extract, -k = source is a ZIP archive
 	extractDir := filepath.Join(tempDir, "extracted")
 	os.RemoveAll(extractDir) // Clean up any previous extraction
 	if err := os.MkdirAll(extractDir, 0755); err != nil {
 		return "", err
 	}
 
-	cmd := exec.Command("unzip", "-q", zipPath, "-d", extractDir)
+	cmd := exec.Command("ditto", "-xk", zipPath, extractDir)
 	var stderr bytes.Buffer
+	var stdout bytes.Buffer
 	cmd.Stderr = &stderr
+	cmd.Stdout = &stdout
 	if err := cmd.Run(); err != nil {
 		errorMsg := strings.TrimSpace(stderr.String())
 		if errorMsg == "" {
+			errorMsg = strings.TrimSpace(stdout.String())
+		}
+		if errorMsg == "" {
 			errorMsg = "unknown error"
 		}
-		return "", fmt.Errorf("failed to extract ZIP: %s (%w)", errorMsg, err)
+		return "", fmt.Errorf("failed to extract ZIP with ditto: %s (%w)", errorMsg, err)
 	}
 
 	// First, check if ZIP contains a .pkg file (some ZIPs contain installers, not apps)
@@ -1413,14 +1463,38 @@ func installFromZIP(zipPath string, app securityAppVersionInfo) (string, error) 
 		return "", fmt.Errorf("app bundle not found at %s: %w", appBundle, err)
 	}
 
-	// Remove existing app if present
+	// Verify source bundle structure is valid (check for required bundle components)
+	infoPlistPath := filepath.Join(appBundle, "Contents", "Info.plist")
+	if _, err := os.Stat(infoPlistPath); err != nil {
+		return "", fmt.Errorf("source app bundle appears invalid (missing Info.plist): %s", appBundle)
+	}
+
+	// Verify source bundle with codesign before copying
+	verifyCmd := exec.Command("codesign", "-dv", appBundle)
+	var verifyStderr bytes.Buffer
+	verifyCmd.Stderr = &verifyStderr
+	if err := verifyCmd.Run(); err != nil {
+		verifyOutput := strings.TrimSpace(verifyStderr.String())
+		// If it says "bundle format unrecognized", the source is already corrupted
+		if strings.Contains(verifyOutput, "bundle format unrecognized") {
+			return "", fmt.Errorf("source app bundle is corrupted on DMG mount point: %s (codesign: %s)", appBundle, verifyOutput)
+		}
+		// Other codesign errors are OK (unsigned apps, etc.), but log them
+		fmt.Printf("  ℹ️  Source bundle codesign check: %s\n", verifyOutput)
+	}
+
+	// Remove existing app if present (use more thorough cleanup)
 	os.RemoveAll(destPath)
+	// Wait a moment for filesystem to sync
+	time.Sleep(500 * time.Millisecond)
 
 	// Use ditto to copy app bundle (preserves resource forks, extended attributes, symlinks, and bundle structure)
 	// ditto is specifically designed for copying macOS app bundles correctly
 	cmd = exec.Command("ditto", appBundle, destPath)
 	var dittoStderr bytes.Buffer
+	var dittoStdout bytes.Buffer
 	cmd.Stderr = &dittoStderr
+	cmd.Stdout = &dittoStdout
 	if err := cmd.Run(); err != nil {
 		// If ditto fails, try using Go's file operations as fallback
 		fmt.Printf("  ⚠️  Warning: ditto command failed: %v, trying alternative copy method...\n", strings.TrimSpace(dittoStderr.String()))
@@ -1431,9 +1505,29 @@ func installFromZIP(zipPath string, app securityAppVersionInfo) (string, error) 
 		}
 	}
 
-	// Verify copy succeeded
+	// Verify copy succeeded and bundle structure is intact
 	if _, err := os.Stat(destPath); err != nil {
 		return "", fmt.Errorf("copy appeared to succeed but destination not found: %w", err)
+	}
+
+	// Verify destination bundle structure
+	destInfoPlistPath := filepath.Join(destPath, "Contents", "Info.plist")
+	if _, err := os.Stat(destInfoPlistPath); err != nil {
+		return "", fmt.Errorf("copied app bundle appears invalid (missing Info.plist): %s", destPath)
+	}
+
+	// Verify destination bundle with codesign
+	destVerifyCmd := exec.Command("codesign", "-dv", destPath)
+	var destVerifyStderr bytes.Buffer
+	destVerifyCmd.Stderr = &destVerifyStderr
+	if err := destVerifyCmd.Run(); err != nil {
+		verifyOutput := strings.TrimSpace(destVerifyStderr.String())
+		// If it says "bundle format unrecognized", the copy corrupted the bundle
+		if strings.Contains(verifyOutput, "bundle format unrecognized") {
+			return "", fmt.Errorf("copied app bundle is corrupted: %s (codesign: %s). Source may be corrupted or copy failed.", destPath, verifyOutput)
+		}
+		// Other codesign errors are OK (unsigned apps, etc.)
+		fmt.Printf("  ℹ️  Destination bundle codesign check: %s\n", verifyOutput)
 	}
 
 	return destPath, nil
