@@ -854,49 +854,64 @@ verifyMount:
 	}()
 
 	// First, check if DMG contains a .pkg file (some DMGs contain installers, not apps)
+	// Skip PKGs that are inside .app bundles (those are not installers)
 	var pkgFile string
 	_ = filepath.Walk(mountPoint, func(path string, info os.FileInfo, err error) error {
 		if err != nil {
 			return nil
 		}
 		if strings.HasSuffix(strings.ToLower(path), ".pkg") && info != nil && !info.IsDir() {
-			pkgFile = path
-			return filepath.SkipDir
+			// Skip PKGs that are inside .app bundles (e.g., CloudConfig.pkg inside VNC Viewer.app)
+			pathLower := strings.ToLower(path)
+			if strings.Contains(pathLower, ".app/") {
+				return nil // Skip PKGs inside app bundles
+			}
+			// Verify it's actually a file and exists
+			if stat, err := os.Stat(path); err == nil && stat.Mode().IsRegular() {
+				pkgFile = path
+				return filepath.SkipDir
+			}
 		}
 		return nil
 	})
 
-	// If we found a PKG, install it and then find the app
+	// If we found a PKG, verify it exists and install it
 	if pkgFile != "" {
-		fmt.Printf("  📦 Found PKG installer in DMG, installing...\n")
-		// Install the PKG with -allowUntrusted and -verbose for better error reporting
-		installCmd := exec.Command("sudo", "installer", "-pkg", pkgFile, "-target", "/", "-allowUntrusted", "-verbose")
-		var installStderr bytes.Buffer
-		var installStdout bytes.Buffer
-		installCmd.Stderr = &installStderr
-		installCmd.Stdout = &installStdout
-		if err := installCmd.Run(); err != nil {
-			stderrStr := strings.TrimSpace(installStderr.String())
-			stdoutStr := strings.TrimSpace(installStdout.String())
-			errorDetails := []string{}
-			if stderrStr != "" {
-				errorDetails = append(errorDetails, fmt.Sprintf("stderr: %s", stderrStr))
+		// Verify PKG file exists and is readable
+		if _, err := os.Stat(pkgFile); err != nil {
+			fmt.Printf("  ⚠️  Warning: PKG file not found or not accessible: %s, trying to find .app bundle instead\n", pkgFile)
+			pkgFile = "" // Clear it so we look for .app bundle instead
+		} else {
+			fmt.Printf("  📦 Found PKG installer in DMG, installing...\n")
+			// Install the PKG with -allowUntrusted and -verbose for better error reporting
+			installCmd := exec.Command("sudo", "installer", "-pkg", pkgFile, "-target", "/", "-allowUntrusted", "-verbose")
+			var installStderr bytes.Buffer
+			var installStdout bytes.Buffer
+			installCmd.Stderr = &installStderr
+			installCmd.Stdout = &installStdout
+				if err := installCmd.Run(); err != nil {
+				stderrStr := strings.TrimSpace(installStderr.String())
+				stdoutStr := strings.TrimSpace(installStdout.String())
+				errorDetails := []string{}
+				if stderrStr != "" {
+					errorDetails = append(errorDetails, fmt.Sprintf("stderr: %s", stderrStr))
+				}
+				if stdoutStr != "" {
+					errorDetails = append(errorDetails, fmt.Sprintf("stdout: %s", stdoutStr))
+				}
+				errorMsg := strings.Join(errorDetails, "; ")
+				if errorMsg != "" {
+					return "", fmt.Errorf("failed to install PKG from DMG: %w (%s)", err, errorMsg)
+				}
+				return "", fmt.Errorf("failed to install PKG from DMG: %w", err)
 			}
-			if stdoutStr != "" {
-				errorDetails = append(errorDetails, fmt.Sprintf("stdout: %s", stdoutStr))
-			}
-			errorMsg := strings.Join(errorDetails, "; ")
-			if errorMsg != "" {
-				return "", fmt.Errorf("failed to install PKG from DMG: %w (%s)", err, errorMsg)
-			}
-			return "", fmt.Errorf("failed to install PKG from DMG: %w", err)
+
+			// Wait for installation to complete
+			time.Sleep(3 * time.Second)
+
+			// Now find the installed app in /Applications
+			return findInstalledApp(app)
 		}
-
-		// Wait for installation to complete
-		time.Sleep(3 * time.Second)
-
-		// Now find the installed app in /Applications
-		return findInstalledApp(app)
 	}
 
 	// Otherwise, look for .app bundle in mounted DMG - try multiple strategies
@@ -1080,6 +1095,10 @@ func findInstalledApp(app securityAppVersionInfo) (string, error) {
 		strings.TrimSuffix(app.Name, " DC") + ".app",
 		strings.TrimSuffix(app.Name, " Pro DC") + ".app",
 		strings.TrimSuffix(app.Name, " Pro") + ".app",
+		// Remove common suffixes
+		strings.TrimSuffix(app.Name, " Desktop") + ".app",
+		strings.TrimSuffix(app.Name, " Suite") + ".app",
+		strings.TrimSuffix(app.Name, " Viewer") + ".app",
 	}
 
 	// For multi-word names, try just the first word (e.g., "Box Drive" -> "Box.app")
@@ -1091,6 +1110,8 @@ func findInstalledApp(app securityAppVersionInfo) (string, error) {
 			variations = append(variations, strings.Join(nameWords[:2], " ")+".app")
 			variations = append(variations, strings.Join(nameWords[:2], "")+".app")
 		}
+		// Try last word (e.g., "Podman Desktop" -> "Desktop.app" is unlikely, but try it)
+		// Actually skip this, it's too generic
 	}
 
 	for _, variation := range variations {
@@ -1149,19 +1170,22 @@ func findInstalledApp(app securityAppVersionInfo) (string, error) {
 	}
 
 	if bestMatch != "" && bestMatchScore > 0 {
+		fmt.Printf("  ℹ️  Found app by keyword matching: %s (score: %d)\n", bestMatch, bestMatchScore)
 		return bestMatch, nil
 	}
 
-	// Last resort: list recently modified apps for debugging
+	// Last resort: check recently modified apps (within last 5 minutes)
+	// This helps catch apps that were just installed but have unexpected names
 	var recentApps []string
+	cutoffTime := time.Now().Add(-5 * time.Minute)
 	_ = filepath.Walk(applicationsDir, func(path string, info os.FileInfo, err error) error {
 		if err != nil {
 			return nil
 		}
 		if strings.HasSuffix(path, ".app") && info != nil && info.IsDir() {
 			// Check if modified in last 5 minutes
-			if time.Since(info.ModTime()) < 5*time.Minute {
-				recentApps = append(recentApps, filepath.Base(path))
+			if info.ModTime().After(cutoffTime) {
+				recentApps = append(recentApps, path) // Store full path, not just name
 			}
 		}
 		return nil
@@ -1170,8 +1194,9 @@ func findInstalledApp(app securityAppVersionInfo) (string, error) {
 	if len(recentApps) > 0 {
 		// Filter out helper apps and look for the main app
 		var mainApps []string
-		for _, app := range recentApps {
-			appLower := strings.ToLower(app)
+		for _, appPath := range recentApps {
+			appName := filepath.Base(appPath)
+			appLower := strings.ToLower(appName)
 			// Skip helper apps, code helpers, etc.
 			if strings.Contains(appLower, "helper") || 
 			   strings.Contains(appLower, "plugin") || 
@@ -1179,15 +1204,15 @@ func findInstalledApp(app securityAppVersionInfo) (string, error) {
 			   strings.Contains(appLower, "gpu") {
 				continue
 			}
-			mainApps = append(mainApps, app)
+			mainApps = append(mainApps, appPath)
 		}
 		
 		// If we have main apps, try them
 		if len(mainApps) > 0 {
-			for _, appName := range mainApps {
-				appPath := filepath.Join(applicationsDir, appName)
+			for _, appPath := range mainApps {
 				if _, err := os.Stat(appPath); err == nil {
 					// Check if it matches the app name we're looking for
+					appName := filepath.Base(appPath)
 					appNameLower := strings.ToLower(strings.TrimSuffix(appName, ".app"))
 					searchNameLower := strings.ToLower(app.Name)
 					if strings.Contains(appNameLower, searchNameLower) || 
@@ -1270,6 +1295,11 @@ func min(a, b int) int {
 }
 
 func installFromPKG(pkgPath string, app securityAppVersionInfo) (string, error) {
+	// Verify PKG file exists and is readable
+	if _, err := os.Stat(pkgPath); err != nil {
+		return "", fmt.Errorf("PKG file not found or not accessible: %s (%w)", pkgPath, err)
+	}
+	
 	// Install PKG with -allowUntrusted and -verbose for better error reporting
 	cmd := exec.Command("sudo", "installer", "-pkg", pkgPath, "-target", "/", "-allowUntrusted", "-verbose")
 	var stderr bytes.Buffer
@@ -1332,43 +1362,57 @@ func installFromZIP(zipPath string, app securityAppVersionInfo) (string, error) 
 			return nil
 		}
 		if strings.HasSuffix(strings.ToLower(path), ".pkg") && info != nil && !info.IsDir() {
-			pkgFile = path
-			return filepath.SkipDir
+			// Skip PKGs that are inside .app bundles (e.g., CloudConfig.pkg inside VNC Viewer.app)
+			pathLower := strings.ToLower(path)
+			if strings.Contains(pathLower, ".app/") {
+				return nil // Skip PKGs inside app bundles
+			}
+			// Verify it's actually a file and exists
+			if stat, err := os.Stat(path); err == nil && stat.Mode().IsRegular() {
+				pkgFile = path
+				return filepath.SkipDir
+			}
 		}
 		return nil
 	})
 
-	// If we found a PKG, install it and then find the app
+	// If we found a PKG, verify it exists and install it
 	if pkgFile != "" {
-		fmt.Printf("  📦 Found PKG installer in ZIP, installing...\n")
-		// Install the PKG with -allowUntrusted and -verbose for better error reporting
-		installCmd := exec.Command("sudo", "installer", "-pkg", pkgFile, "-target", "/", "-allowUntrusted", "-verbose")
-		var installStderr bytes.Buffer
-		var installStdout bytes.Buffer
-		installCmd.Stderr = &installStderr
-		installCmd.Stdout = &installStdout
-		if err := installCmd.Run(); err != nil {
-			stderrStr := strings.TrimSpace(installStderr.String())
-			stdoutStr := strings.TrimSpace(installStdout.String())
-			errorDetails := []string{}
-			if stderrStr != "" {
-				errorDetails = append(errorDetails, fmt.Sprintf("stderr: %s", stderrStr))
+		// Verify PKG file exists and is readable
+		if _, err := os.Stat(pkgFile); err != nil {
+			fmt.Printf("  ⚠️  Warning: PKG file not found or not accessible: %s, trying to find .app bundle instead\n", pkgFile)
+			pkgFile = "" // Clear it so we look for .app bundle instead
+		} else {
+			fmt.Printf("  📦 Found PKG installer in ZIP, installing...\n")
+			// Install the PKG with -allowUntrusted and -verbose for better error reporting
+			installCmd := exec.Command("sudo", "installer", "-pkg", pkgFile, "-target", "/", "-allowUntrusted", "-verbose")
+			var installStderr bytes.Buffer
+			var installStdout bytes.Buffer
+			installCmd.Stderr = &installStderr
+			installCmd.Stdout = &installStdout
+			if err := installCmd.Run(); err != nil {
+				stderrStr := strings.TrimSpace(installStderr.String())
+				stdoutStr := strings.TrimSpace(installStdout.String())
+				errorDetails := []string{}
+				if stderrStr != "" {
+					errorDetails = append(errorDetails, fmt.Sprintf("stderr: %s", stderrStr))
+				}
+				if stdoutStr != "" {
+					errorDetails = append(errorDetails, fmt.Sprintf("stdout: %s", stdoutStr))
+				}
+				errorMsg := strings.Join(errorDetails, "; ")
+				if errorMsg != "" {
+					return "", fmt.Errorf("failed to install PKG from ZIP: %w (%s)", err, errorMsg)
+				}
+				return "", fmt.Errorf("failed to install PKG from ZIP: %w", err)
 			}
-			if stdoutStr != "" {
-				errorDetails = append(errorDetails, fmt.Sprintf("stdout: %s", stdoutStr))
-			}
-			errorMsg := strings.Join(errorDetails, "; ")
-			if errorMsg != "" {
-				return "", fmt.Errorf("failed to install PKG from ZIP: %w (%s)", err, errorMsg)
-			}
-			return "", fmt.Errorf("failed to install PKG from ZIP: %w", err)
+
+			// Wait for installation to complete
+			time.Sleep(3 * time.Second)
+
+			// Now find the installed app in /Applications
+			return findInstalledApp(app)
 		}
-
-		// Wait for installation to complete
-		time.Sleep(3 * time.Second)
-
-		// Now find the installed app in /Applications
-		return findInstalledApp(app)
 	}
 
 	// Otherwise, look for .app bundle in extracted ZIP - try multiple strategies
