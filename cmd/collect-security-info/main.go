@@ -869,14 +869,25 @@ verifyMount:
 	// If we found a PKG, install it and then find the app
 	if pkgFile != "" {
 		fmt.Printf("  📦 Found PKG installer in DMG, installing...\n")
-		// Install the PKG
-		installCmd := exec.Command("sudo", "installer", "-pkg", pkgFile, "-target", "/")
+		// Install the PKG with -allowUntrusted and -verbose for better error reporting
+		installCmd := exec.Command("sudo", "installer", "-pkg", pkgFile, "-target", "/", "-allowUntrusted", "-verbose")
 		var installStderr bytes.Buffer
+		var installStdout bytes.Buffer
 		installCmd.Stderr = &installStderr
+		installCmd.Stdout = &installStdout
 		if err := installCmd.Run(); err != nil {
 			stderrStr := strings.TrimSpace(installStderr.String())
+			stdoutStr := strings.TrimSpace(installStdout.String())
+			errorDetails := []string{}
 			if stderrStr != "" {
-				return "", fmt.Errorf("failed to install PKG from DMG: %w (stderr: %s)", err, stderrStr)
+				errorDetails = append(errorDetails, fmt.Sprintf("stderr: %s", stderrStr))
+			}
+			if stdoutStr != "" {
+				errorDetails = append(errorDetails, fmt.Sprintf("stdout: %s", stdoutStr))
+			}
+			errorMsg := strings.Join(errorDetails, "; ")
+			if errorMsg != "" {
+				return "", fmt.Errorf("failed to install PKG from DMG: %w (%s)", err, errorMsg)
 			}
 			return "", fmt.Errorf("failed to install PKG from DMG: %w", err)
 		}
@@ -988,17 +999,18 @@ verifyMount:
 	// Remove existing app if present
 	os.RemoveAll(destPath)
 
-	// Try using cp command first (faster and preserves extended attributes)
-	cmd = exec.Command("cp", "-R", appBundle, destPath)
-	var cpStderr bytes.Buffer
-	cmd.Stderr = &cpStderr
+	// Use ditto to copy app bundle (preserves resource forks, extended attributes, symlinks, and bundle structure)
+	// ditto is specifically designed for copying macOS app bundles correctly
+	cmd = exec.Command("ditto", appBundle, destPath)
+	var dittoStderr bytes.Buffer
+	cmd.Stderr = &dittoStderr
 	if err := cmd.Run(); err != nil {
-		// If cp fails, try using Go's file operations as fallback
-		fmt.Printf("  ⚠️  Warning: cp command failed: %v, trying alternative copy method...\n", strings.TrimSpace(cpStderr.String()))
+		// If ditto fails, try using Go's file operations as fallback
+		fmt.Printf("  ⚠️  Warning: ditto command failed: %v, trying alternative copy method...\n", strings.TrimSpace(dittoStderr.String()))
 		
 		// Use filepath.Walk to copy directory tree
 		if err := copyDirectory(appBundle, destPath); err != nil {
-			return "", fmt.Errorf("failed to copy app (cp failed: %s, fallback failed: %w)", strings.TrimSpace(cpStderr.String()), err)
+			return "", fmt.Errorf("failed to copy app (ditto failed: %s, fallback failed: %w)", strings.TrimSpace(dittoStderr.String()), err)
 		}
 	}
 
@@ -1214,14 +1226,25 @@ func min(a, b int) int {
 }
 
 func installFromPKG(pkgPath string, app securityAppVersionInfo) (string, error) {
-	// Install PKG
-	cmd := exec.Command("sudo", "installer", "-pkg", pkgPath, "-target", "/")
+	// Install PKG with -allowUntrusted and -verbose for better error reporting
+	cmd := exec.Command("sudo", "installer", "-pkg", pkgPath, "-target", "/", "-allowUntrusted", "-verbose")
 	var stderr bytes.Buffer
+	var stdout bytes.Buffer
 	cmd.Stderr = &stderr
+	cmd.Stdout = &stdout
 	if err := cmd.Run(); err != nil {
 		stderrStr := strings.TrimSpace(stderr.String())
+		stdoutStr := strings.TrimSpace(stdout.String())
+		errorDetails := []string{}
 		if stderrStr != "" {
-			return "", fmt.Errorf("failed to install PKG: %w (stderr: %s)", err, stderrStr)
+			errorDetails = append(errorDetails, fmt.Sprintf("stderr: %s", stderrStr))
+		}
+		if stdoutStr != "" {
+			errorDetails = append(errorDetails, fmt.Sprintf("stdout: %s", stdoutStr))
+		}
+		errorMsg := strings.Join(errorDetails, "; ")
+		if errorMsg != "" {
+			return "", fmt.Errorf("failed to install PKG: %w (%s)", err, errorMsg)
 		}
 		return "", fmt.Errorf("failed to install PKG: %w", err)
 	}
@@ -1268,9 +1291,26 @@ func installFromZIP(zipPath string, app securityAppVersionInfo) (string, error) 
 	// If we found a PKG, install it and then find the app
 	if pkgFile != "" {
 		fmt.Printf("  📦 Found PKG installer in ZIP, installing...\n")
-		// Install the PKG
-		installCmd := exec.Command("sudo", "installer", "-pkg", pkgFile, "-target", "/")
+		// Install the PKG with -allowUntrusted and -verbose for better error reporting
+		installCmd := exec.Command("sudo", "installer", "-pkg", pkgFile, "-target", "/", "-allowUntrusted", "-verbose")
+		var installStderr bytes.Buffer
+		var installStdout bytes.Buffer
+		installCmd.Stderr = &installStderr
+		installCmd.Stdout = &installStdout
 		if err := installCmd.Run(); err != nil {
+			stderrStr := strings.TrimSpace(installStderr.String())
+			stdoutStr := strings.TrimSpace(installStdout.String())
+			errorDetails := []string{}
+			if stderrStr != "" {
+				errorDetails = append(errorDetails, fmt.Sprintf("stderr: %s", stderrStr))
+			}
+			if stdoutStr != "" {
+				errorDetails = append(errorDetails, fmt.Sprintf("stdout: %s", stdoutStr))
+			}
+			errorMsg := strings.Join(errorDetails, "; ")
+			if errorMsg != "" {
+				return "", fmt.Errorf("failed to install PKG from ZIP: %w (%s)", err, errorMsg)
+			}
 			return "", fmt.Errorf("failed to install PKG from ZIP: %w", err)
 		}
 
@@ -1376,17 +1416,18 @@ func installFromZIP(zipPath string, app securityAppVersionInfo) (string, error) 
 	// Remove existing app if present
 	os.RemoveAll(destPath)
 
-	// Try using cp command first (faster and preserves extended attributes)
-	cmd = exec.Command("cp", "-R", appBundle, destPath)
-	var cpStderr bytes.Buffer
-	cmd.Stderr = &cpStderr
+	// Use ditto to copy app bundle (preserves resource forks, extended attributes, symlinks, and bundle structure)
+	// ditto is specifically designed for copying macOS app bundles correctly
+	cmd = exec.Command("ditto", appBundle, destPath)
+	var dittoStderr bytes.Buffer
+	cmd.Stderr = &dittoStderr
 	if err := cmd.Run(); err != nil {
-		// If cp fails, try using Go's file operations as fallback
-		fmt.Printf("  ⚠️  Warning: cp command failed: %v, trying alternative copy method...\n", strings.TrimSpace(cpStderr.String()))
+		// If ditto fails, try using Go's file operations as fallback
+		fmt.Printf("  ⚠️  Warning: ditto command failed: %v, trying alternative copy method...\n", strings.TrimSpace(dittoStderr.String()))
 		
 		// Use filepath.Walk to copy directory tree
 		if err := copyDirectory(appBundle, destPath); err != nil {
-			return "", fmt.Errorf("failed to copy app (cp failed: %s, fallback failed: %w)", strings.TrimSpace(cpStderr.String()), err)
+			return "", fmt.Errorf("failed to copy app (ditto failed: %s, fallback failed: %w)", strings.TrimSpace(dittoStderr.String()), err)
 		}
 	}
 
