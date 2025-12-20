@@ -364,8 +364,8 @@ func downloadInstaller(url, slug string) (string, error) {
 		return "", fmt.Errorf("failed to download: status %d", resp.StatusCode)
 	}
 
-	// Determine file extension from URL
-	ext := filepath.Ext(url)
+	// Determine file extension from URL or Content-Type header
+	ext := getInstallerExtension(url, resp.Header.Get("Content-Type"))
 	if ext == "" {
 		ext = ".dmg" // Default to DMG
 	}
@@ -383,6 +383,81 @@ func downloadInstaller(url, slug string) (string, error) {
 	}
 
 	return filename, nil
+}
+
+// getInstallerExtension determines the installer file extension from URL and Content-Type
+func getInstallerExtension(url, contentType string) string {
+	// First, try to get extension from Content-Type header
+	if contentType != "" {
+		if strings.Contains(contentType, "application/x-apple-diskimage") || strings.Contains(contentType, "application/octet-stream") {
+			// Check URL for .dmg
+			if strings.Contains(strings.ToLower(url), ".dmg") {
+				return ".dmg"
+			}
+		}
+		if strings.Contains(contentType, "application/zip") {
+			return ".zip"
+		}
+		if strings.Contains(contentType, "application/x-pkg") || strings.Contains(contentType, "application/x-installer") {
+			return ".pkg"
+		}
+	}
+
+	// Parse URL to find extension, but be smart about version numbers
+	// Remove query string and fragment
+	urlPath := url
+	if idx := strings.Index(urlPath, "?"); idx != -1 {
+		urlPath = urlPath[:idx]
+	}
+	if idx := strings.Index(urlPath, "#"); idx != -1 {
+		urlPath = urlPath[:idx]
+	}
+
+	// Look for known installer extensions in the URL
+	knownExts := []string{".dmg", ".pkg", ".zip"}
+	for _, knownExt := range knownExts {
+		if strings.HasSuffix(strings.ToLower(urlPath), knownExt) {
+			return knownExt
+		}
+		// Also check if it appears before a query string or version number
+		idx := strings.Index(strings.ToLower(urlPath), knownExt)
+		if idx != -1 {
+			// Check if there's a version-like pattern after it (e.g., .dmg.1.2.3)
+			remaining := urlPath[idx+len(knownExt):]
+			if len(remaining) > 0 && (remaining[0] == '.' || remaining[0] == '?' || remaining[0] == '#') {
+				return knownExt
+			}
+		}
+	}
+
+	// If no known extension found, try filepath.Ext but filter out version numbers
+	ext := filepath.Ext(urlPath)
+	// If extension looks like a version number (starts with digit or has multiple dots), ignore it
+	if ext != "" {
+		extLower := strings.ToLower(ext)
+		// Check if it's a known extension
+		for _, knownExt := range knownExts {
+			if extLower == knownExt {
+				return extLower
+			}
+		}
+		// If extension starts with a digit or has multiple parts, it's likely a version number
+		if len(ext) > 1 && (ext[1] >= '0' && ext[1] <= '9') {
+			// Try to find a real extension before this
+			base := strings.TrimSuffix(urlPath, ext)
+			realExt := filepath.Ext(base)
+			if realExt != "" {
+				realExtLower := strings.ToLower(realExt)
+				for _, knownExt := range knownExts {
+					if realExtLower == knownExt {
+						return realExtLower
+					}
+				}
+			}
+		}
+	}
+
+	return "" // Will default to .dmg
 }
 
 func installApp(installerPath string, app securityAppVersionInfo) (string, error) {
@@ -421,6 +496,18 @@ func installFromDMG(dmgPath string, app securityAppVersionInfo) (string, error) 
 		return "", fmt.Errorf("DMG file is empty (size: 0 bytes)")
 	}
 
+	// Check if file is actually a DMG by checking its type (optional check)
+	var fileTypeInfo string
+	fileCmd := exec.Command("file", dmgPath)
+	if fileOutput, err := fileCmd.Output(); err == nil {
+		fileType := strings.ToLower(string(fileOutput))
+		fileTypeInfo = strings.TrimSpace(string(fileOutput))
+		if !strings.Contains(fileType, "disk image") && !strings.Contains(fileType, "dmg") && !strings.Contains(fileType, "udif") {
+			// Not a valid DMG, but try anyway (might be a false negative)
+			fmt.Printf("  ⚠️  Warning: File type check suggests this may not be a valid DMG: %s\n", fileTypeInfo)
+		}
+	}
+
 	// Clean up any existing mount point
 	mountPoint := filepath.Join(tempDir, "mnt")
 	os.RemoveAll(mountPoint)
@@ -428,32 +515,78 @@ func installFromDMG(dmgPath string, app securityAppVersionInfo) (string, error) 
 		return "", fmt.Errorf("failed to create mount point: %w", err)
 	}
 
-	// Try mounting with explicit mountpoint
-	cmd := exec.Command("hdiutil", "attach", dmgPath, "-mountpoint", mountPoint, "-nobrowse", "-quiet", "-noautoopen")
+	// Try mounting with explicit mountpoint (using -noverify like in workflow)
+	cmd := exec.Command("hdiutil", "attach", dmgPath, "-mountpoint", mountPoint, "-nobrowse", "-noverify", "-noautoopen", "-quiet")
+	var stdout bytes.Buffer
 	var stderr bytes.Buffer
+	cmd.Stdout = &stdout
 	cmd.Stderr = &stderr
 	err := cmd.Run()
 	
 	if err != nil {
 		// If explicit mountpoint fails, try letting hdiutil choose the mount point
-		cmd2 := exec.Command("hdiutil", "attach", dmgPath, "-nobrowse", "-quiet", "-noautoopen")
+		cmd2 := exec.Command("hdiutil", "attach", dmgPath, "-nobrowse", "-noverify", "-noautoopen", "-quiet")
+		var stdout2 bytes.Buffer
 		var stderr2 bytes.Buffer
+		cmd2.Stdout = &stdout2
 		cmd2.Stderr = &stderr2
-		output, err2 := cmd2.Output()
+		err2 := cmd2.Run()
+		
 		if err2 != nil {
-			// Both methods failed, return detailed error
-			errorMsg := strings.TrimSpace(stderr.String())
-			if errorMsg == "" {
-				errorMsg = strings.TrimSpace(stderr2.String())
+			// Both methods failed, try one more time without -quiet to get actual error
+			cmd3 := exec.Command("hdiutil", "attach", dmgPath, "-nobrowse", "-noverify", "-noautoopen")
+			var stdout3 bytes.Buffer
+			var stderr3 bytes.Buffer
+			cmd3.Stdout = &stdout3
+			cmd3.Stderr = &stderr3
+			err3 := cmd3.Run()
+			
+			// Collect all error messages
+			errorMsgs := []string{}
+			if stderr.String() != "" {
+				errorMsgs = append(errorMsgs, fmt.Sprintf("method1-stderr: %s", strings.TrimSpace(stderr.String())))
 			}
-			if errorMsg == "" {
-				errorMsg = "unknown error (check DMG file integrity)"
+			if stdout.String() != "" {
+				errorMsgs = append(errorMsgs, fmt.Sprintf("method1-stdout: %s", strings.TrimSpace(stdout.String())))
 			}
-			return "", fmt.Errorf("failed to mount DMG: %s", errorMsg)
+			if stderr2.String() != "" {
+				errorMsgs = append(errorMsgs, fmt.Sprintf("method2-stderr: %s", strings.TrimSpace(stderr2.String())))
+			}
+			if stdout2.String() != "" {
+				errorMsgs = append(errorMsgs, fmt.Sprintf("method2-stdout: %s", strings.TrimSpace(stdout2.String())))
+			}
+			if stderr3.String() != "" {
+				errorMsgs = append(errorMsgs, fmt.Sprintf("method3-stderr: %s", strings.TrimSpace(stderr3.String())))
+			}
+			if stdout3.String() != "" {
+				errorMsgs = append(errorMsgs, fmt.Sprintf("method3-stdout: %s", strings.TrimSpace(stdout3.String())))
+			}
+			
+			errorMsg := "unknown error"
+			if len(errorMsgs) > 0 {
+				errorMsg = strings.Join(errorMsgs, "; ")
+			} else {
+				// Last resort: check exit codes
+				errorMsg = fmt.Sprintf("hdiutil failed with exit codes: %v, %v, %v", err, err2, err3)
+			}
+			
+			// Also check file type for additional context
+			fileInfo := ""
+			if fileTypeInfo != "" {
+				fileInfo = fmt.Sprintf(" (file type: %s)", fileTypeInfo)
+			}
+			
+			return "", fmt.Errorf("failed to mount DMG: %s%s", errorMsg, fileInfo)
+		}
+		
+		// Method 2 succeeded, parse output to find mount point
+		output := stdout2.String()
+		if output == "" {
+			output = stderr2.String() // Sometimes hdiutil outputs to stderr
 		}
 		// Parse output to find mount point
 		// hdiutil attach output format: /dev/diskXsY	/Volumes/MountName
-		lines := strings.Split(string(output), "\n")
+		lines := strings.Split(output, "\n")
 		for _, line := range lines {
 			fields := strings.Fields(line)
 			if len(fields) >= 2 && strings.HasPrefix(fields[1], "/Volumes/") {
@@ -480,6 +613,23 @@ func installFromDMG(dmgPath string, app securityAppVersionInfo) (string, error) 
 				mountPoint = latestVolume
 			} else {
 				return "", fmt.Errorf("failed to mount DMG: could not determine mount point")
+			}
+		}
+	} else {
+		// Method 1 succeeded, check if mount point is valid
+		if _, err := os.Stat(mountPoint); err != nil {
+			// Mount succeeded but mount point doesn't exist, try parsing stdout
+			output := stdout.String()
+			if output == "" {
+				output = stderr.String()
+			}
+			lines := strings.Split(output, "\n")
+			for _, line := range lines {
+				fields := strings.Fields(line)
+				if len(fields) >= 2 && strings.HasPrefix(fields[1], "/Volumes/") {
+					mountPoint = fields[1]
+					break
+				}
 			}
 		}
 	}
@@ -901,14 +1051,20 @@ func runSantactl(appPath string) ([]byte, error) {
 }
 
 func parseSantactlOutput(output []byte, app securityAppVersionInfo) (appSecurityInfo, error) {
+	// Check if output is empty
+	outputStr := strings.TrimSpace(string(output))
+	if outputStr == "" || outputStr == "[]" || outputStr == "null" {
+		return appSecurityInfo{}, fmt.Errorf("santactl returned empty output (app may not be signed or may be unsigned)")
+	}
+
 	// santactl returns an array of file info objects
 	var santactlArray []map[string]interface{}
 	if err := json.Unmarshal(output, &santactlArray); err != nil {
-		return appSecurityInfo{}, fmt.Errorf("failed to parse santactl JSON: %w", err)
+		return appSecurityInfo{}, fmt.Errorf("failed to parse santactl JSON: %w (output: %s)", err, outputStr[:min(200, len(outputStr))])
 	}
 
 	if len(santactlArray) == 0 {
-		return appSecurityInfo{}, fmt.Errorf("no data in santactl output")
+		return appSecurityInfo{}, fmt.Errorf("santactl returned empty array (app may not be signed or may be unsigned)")
 	}
 
 	// Use the first entry (main executable)
