@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-20T09:12:47Z",
+  "lastUpdated": "2025-12-20T09:17:13Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1590,6 +1590,106 @@
       "signingId": "RP2S87B72W:eu.exelban.Stats",
       "teamId": "RP2S87B72W",
       "lastUpdated": "2025-12-20T09:12:45Z"
+    },
+    {
+      "slug": "steam/darwin",
+      "name": "Steam",
+      "version": "4.0",
+      "sha256": "0357468d01fa2629c36a23e8c246401d6bf58c447bd7635e80538affd324fb2c",
+      "cdhash": "d97325caa775b537e154a6406cf3e0830041af55",
+      "signingId": "MXGJJ98X76:com.valvesoftware.steam",
+      "teamId": "MXGJJ98X76",
+      "lastUpdated": "2025-12-20T09:12:57Z"
+    },
+    {
+      "slug": "sublime-merge/darwin",
+      "name": "Sublime Merge",
+      "version": "2121",
+      "sha256": "256e8130b5d2a6bc177785fa16b87bec84bcd8f4891a3e36744b5a8edf2fd620",
+      "cdhash": "4010ff21bac5c4b3917fa566d404bc69e217d54c",
+      "signingId": "Z6D26JE4Y4:com.sublimemerge",
+      "teamId": "Z6D26JE4Y4",
+      "lastUpdated": "2025-12-20T09:13:11Z"
+    },
+    {
+      "slug": "sublime-text/darwin",
+      "name": "Sublime Text",
+      "version": "4200",
+      "sha256": "6242c84b9f09357b60483332dda4252970a79b2974ea17c5987b3532b19a757e",
+      "cdhash": "ce50b505925e80ceba74540e50659caca3879a5b",
+      "signingId": "Z6D26JE4Y4:com.sublimetext.4",
+      "teamId": "Z6D26JE4Y4",
+      "lastUpdated": "2025-12-20T09:13:25Z"
+    },
+    {
+      "slug": "surfshark/darwin",
+      "name": "Surfshark",
+      "version": "4.25.0",
+      "sha256": "5deba92cfdfb99002b1d7c032035e13c4addbc9ef1745d8ae1d7d86313adf8af",
+      "cdhash": "f279c8a43f20d9d40ae611847f5085df580669b7",
+      "signingId": "YHUG37CKN8:com.surfshark.vpnclient.macos.direct",
+      "teamId": "YHUG37CKN8",
+      "lastUpdated": "2025-12-20T09:13:41Z"
+    },
+    {
+      "slug": "suspicious-package/darwin",
+      "name": "Suspicious Package",
+      "version": "4.6",
+      "sha256": "375a3aa58c5b9c951262cc75c4fb585c77b5712edce24c03a065e186f8935c8b",
+      "cdhash": "18015485d285349dba08ba86f1eb80cf4fc802da",
+      "signingId": "936EB786NH:com.mothersruin.SuspiciousPackageApp",
+      "teamId": "936EB786NH",
+      "lastUpdated": "2025-12-20T09:13:55Z"
+    },
+    {
+      "slug": "tableau/darwin",
+      "name": "Tableau Desktop",
+      "version": "2025.3.1",
+      "sha256": "eb2d94ec8ca7ea6cf8797faa27a577b3e27e96e82a8de7e58ebdc5db1b381730",
+      "cdhash": "cc15754c4db1c3dd540ac6952d762bf7a07e6fd4",
+      "signingId": "QJ4XPRK37C:com.tableausoftware.tableaudesktop",
+      "teamId": "QJ4XPRK37C",
+      "lastUpdated": "2025-12-20T09:15:27Z"
+    },
+    {
+      "slug": "tableplus/darwin",
+      "name": "TablePlus",
+      "version": "6.7.8",
+      "sha256": "1214d5dadf33be304e7425ab7535aa11492693f6ed0b8d69a544c0c0cde1db79",
+      "cdhash": "7564d67800cc509e72a6f67b8f7edef9c9243792",
+      "signingId": "3X57WP8E8V:com.tinyapp.TablePlus",
+      "teamId": "3X57WP8E8V",
+      "lastUpdated": "2025-12-20T09:16:01Z"
+    },
+    {
+      "slug": "tailscale-app/darwin",
+      "name": "Tailscale",
+      "version": "1.92.3",
+      "sha256": "7285e1adfeb5aeb47b22ec9b19b2aaa80d777c9472944f2333e0f814f14f73c0",
+      "cdhash": "638b46e016c1be51ec7ccc8ff623aa9fe2155a38",
+      "signingId": "W5364U7YZB:io.tailscale.ipn.macsys",
+      "teamId": "W5364U7YZB",
+      "lastUpdated": "2025-12-20T09:16:21Z"
+    },
+    {
+      "slug": "teamviewer/darwin",
+      "name": "TeamViewer",
+      "version": "15.73.5",
+      "sha256": "879bf6ae1726f7bfd47b808e7dff64517ef3b6853019518d09f94f5bbe81a220",
+      "cdhash": "d7ef6b07cec55c241f9b9fb02bcabed75de3577f",
+      "signingId": "H7UGFBUGV6:com.teamviewer.TeamViewer",
+      "teamId": "H7UGFBUGV6",
+      "lastUpdated": "2025-12-20T09:16:45Z"
+    },
+    {
+      "slug": "telegram/darwin",
+      "name": "Telegram",
+      "version": "12.3",
+      "sha256": "56dfa7cc19d90ec0544ef301dfa45518d271a675e0c337f3c2bd8b441aaf3462",
+      "cdhash": "2c0a7199396d948c21de43e770bf5c366427e7c1",
+      "signingId": "6N38VWS5BX:ru.keepcoder.Telegram",
+      "teamId": "6N38VWS5BX",
+      "lastUpdated": "2025-12-20T09:17:11Z"
     }
   ]
 }
