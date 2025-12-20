@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-20T06:34:08Z",
+  "lastUpdated": "2025-12-20T06:40:26Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -560,6 +560,106 @@
       "signingId": "9BNSXJN65R:com.docker.docker",
       "teamId": "9BNSXJN65R",
       "lastUpdated": "2025-12-20T06:34:06Z"
+    },
+    {
+      "slug": "drawio/darwin",
+      "name": "draw.io",
+      "version": "29.0.3",
+      "sha256": "2e6bce9442c145faf1739ea718852c825bac31a8290076e722faba121de3c57d",
+      "cdhash": "6edcec524a3559841951484324576922fb97a306",
+      "signingId": "UZEUFB4N53:com.jgraph.drawio.desktop",
+      "teamId": "UZEUFB4N53",
+      "lastUpdated": "2025-12-20T06:34:20Z"
+    },
+    {
+      "slug": "dropbox/darwin",
+      "name": "Dropbox",
+      "version": "238.4.6075",
+      "sha256": "154876c7ad825a89b7e3fc5a25a5cbe44cef4d72e3545e09701c18cbdba27409",
+      "cdhash": "d4f7d746e63b4a54e51f9fea639e8f452e518bcc",
+      "signingId": "G7HH3F8CAK:com.getdropbox.dropbox",
+      "teamId": "G7HH3F8CAK",
+      "lastUpdated": "2025-12-20T06:34:35Z"
+    },
+    {
+      "slug": "eclipse-ide/darwin",
+      "name": "Eclipse IDE",
+      "version": "4.37.0",
+      "sha256": "2267fbd201eb4e6675c7e760b3c80298e78aca5a44a9ab3b9e6d05f8f15ce220",
+      "cdhash": "8dbd6c452a45e06d497335e7f3106afcdc309e26",
+      "signingId": "JCDTMS22B4:epp.package.committers",
+      "teamId": "JCDTMS22B4",
+      "lastUpdated": "2025-12-20T06:35:04Z"
+    },
+    {
+      "slug": "egnyte/darwin",
+      "name": "Egnyte",
+      "version": "1.12.1",
+      "sha256": "e47cba7fadaac4e7825a6317c8183bf7ebd9cfa2ec4337e85240b90dede2e100",
+      "cdhash": "bfc0024f0eb6ffbe982ebde434dac9c86494805f",
+      "signingId": "FELUD555VC:com.egnyte.DesktopApp",
+      "teamId": "FELUD555VC",
+      "lastUpdated": "2025-12-20T06:35:19Z"
+    },
+    {
+      "slug": "elgato-control-center/darwin",
+      "name": "Elgato Control Center",
+      "version": "1.8.2",
+      "sha256": "20fd5ffa47525c03f96553595571c1a4275965a41c861d7584296902f4e47a24",
+      "cdhash": "480e53120030dc785ec6ff8de0823277a5f89581",
+      "signingId": "Y93VXCB8Q5:com.corsair.ControlCenter",
+      "teamId": "Y93VXCB8Q5",
+      "lastUpdated": "2025-12-20T06:35:31Z"
+    },
+    {
+      "slug": "elgato-stream-deck/darwin",
+      "name": "Elgato Stream Deck",
+      "version": "7.1.0.22321",
+      "sha256": "b80b7faa89d608a509a2510e93588fe31445c0aa20404cea2f3a6f7038c9d990",
+      "cdhash": "33a2db488ca2e63d28816af3824cd04d838312f4",
+      "signingId": "Y93VXCB8Q5:com.elgato.StreamDeck",
+      "teamId": "Y93VXCB8Q5",
+      "lastUpdated": "2025-12-20T06:36:03Z"
+    },
+    {
+      "slug": "expressvpn/darwin",
+      "name": "ExpressVPN",
+      "version": "11.71.0.90727",
+      "sha256": "f6fb2180db8da03487102ef2e9e1789d35e1bfeba8b104a2d7990b87590289a0",
+      "cdhash": "d86ba7bdf8c6bb23aaea25ce60d73cf539a3dcaa",
+      "signingId": "TC292Y5427:com.expressvpn.ExpressVPN",
+      "teamId": "TC292Y5427",
+      "lastUpdated": "2025-12-20T06:36:52Z"
+    },
+    {
+      "slug": "figma/darwin",
+      "name": "Figma",
+      "version": "125.11.6",
+      "sha256": "aecd5b2551cce9b1f8ed0174557cbebe8cdd645c14e3f6fcccf98dd2ee123c9c",
+      "cdhash": "b80b1f6256eb5eac83832015304eb72d7fff4b7c",
+      "signingId": "T8RA8NE3B7:com.figma.Desktop",
+      "teamId": "T8RA8NE3B7",
+      "lastUpdated": "2025-12-20T06:37:06Z"
+    },
+    {
+      "slug": "filemaker-pro/darwin",
+      "name": "FileMaker Pro",
+      "version": "22.0.4.406",
+      "sha256": "31876609814c480a0fbcd0f474cd3b19daec366dbda6b96dc40fa47563cb191b",
+      "cdhash": "0a7b4b466bdb4c0f08eb88e5d72f09c15bae7856",
+      "signingId": "59GAB85EFG:com.apple.RealityComposerPro",
+      "teamId": "59GAB85EFG",
+      "lastUpdated": "2025-12-20T06:38:30Z"
+    },
+    {
+      "slug": "firefox/darwin",
+      "name": "Mozilla Firefox",
+      "version": "146.0.1",
+      "sha256": "2def332b4ff7ac2d4011c3f432a8792fe923665cf56969e0e3885002152ea3aa",
+      "cdhash": "3df0bf3ce3b57a4622854002132ef8528c5212be",
+      "signingId": "43AQ936H96:org.mozilla.firefox",
+      "teamId": "43AQ936H96",
+      "lastUpdated": "2025-12-20T06:39:34Z"
     }
   ]
 }
