@@ -425,7 +425,36 @@ func installFromDMG(dmgPath string, app securityAppVersionInfo) (string, error) 
 	}
 	defer exec.Command("hdiutil", "detach", mountPoint, "-quiet").Run()
 
-	// Find .app bundle in mounted DMG - try multiple strategies
+	// First, check if DMG contains a .pkg file (some DMGs contain installers, not apps)
+	var pkgFile string
+	_ = filepath.Walk(mountPoint, func(path string, info os.FileInfo, err error) error {
+		if err != nil {
+			return nil
+		}
+		if strings.HasSuffix(strings.ToLower(path), ".pkg") && info != nil && !info.IsDir() {
+			pkgFile = path
+			return filepath.SkipDir
+		}
+		return nil
+	})
+
+	// If we found a PKG, install it and then find the app
+	if pkgFile != "" {
+		fmt.Printf("  📦 Found PKG installer in DMG, installing...\n")
+		// Install the PKG
+		installCmd := exec.Command("sudo", "installer", "-pkg", pkgFile, "-target", "/")
+		if err := installCmd.Run(); err != nil {
+			return "", fmt.Errorf("failed to install PKG from DMG: %w", err)
+		}
+
+		// Wait for installation to complete
+		time.Sleep(3 * time.Second)
+
+		// Now find the installed app in /Applications
+		return findInstalledApp(app)
+	}
+
+	// Otherwise, look for .app bundle in mounted DMG - try multiple strategies
 	var appBundle string
 
 	// Strategy 1: Look for .app bundle by walking the directory tree
@@ -468,7 +497,7 @@ func installFromDMG(dmgPath string, app securityAppVersionInfo) (string, error) 
 		for _, dir := range commonDirs {
 			searchPath := filepath.Join(mountPoint, dir)
 			if _, err := os.Stat(searchPath); err == nil {
-				err := filepath.Walk(searchPath, func(path string, info os.FileInfo, err error) error {
+				_ = filepath.Walk(searchPath, func(path string, info os.FileInfo, err error) error {
 					if err != nil {
 						return nil
 					}
@@ -478,7 +507,7 @@ func installFromDMG(dmgPath string, app securityAppVersionInfo) (string, error) 
 					}
 					return nil
 				})
-				if appBundle != "" || err != nil {
+				if appBundle != "" {
 					break
 				}
 			}
@@ -497,7 +526,7 @@ func installFromDMG(dmgPath string, app securityAppVersionInfo) (string, error) 
 			}
 			return nil
 		})
-		return "", fmt.Errorf("could not find .app bundle in DMG. Contents: %v", contents[:min(10, len(contents))])
+		return "", fmt.Errorf("could not find .app bundle or .pkg installer in DMG. Contents: %v", contents[:min(10, len(contents))])
 	}
 
 	// Copy .app to Applications
@@ -515,6 +544,54 @@ func installFromDMG(dmgPath string, app securityAppVersionInfo) (string, error) 
 	return destPath, nil
 }
 
+func findInstalledApp(app securityAppVersionInfo) (string, error) {
+	// Try to find the installed app by name variations
+	variations := []string{
+		app.Name + ".app",
+		strings.ReplaceAll(app.Name, " ", "") + ".app",
+		strings.ReplaceAll(app.Name, " ", "_") + ".app",
+		// Adobe-specific variations
+		strings.TrimSuffix(app.Name, " DC") + ".app",
+		strings.TrimSuffix(app.Name, " Pro DC") + ".app",
+		strings.TrimSuffix(app.Name, " Pro") + ".app",
+	}
+
+	for _, variation := range variations {
+		appPath := filepath.Join(applicationsDir, variation)
+		if _, err := os.Stat(appPath); err == nil {
+			return appPath, nil
+		}
+	}
+
+	// If not found by name, search for any .app that might match
+	var foundApp string
+	_ = filepath.Walk(applicationsDir, func(path string, info os.FileInfo, err error) error {
+		if err != nil {
+			return nil
+		}
+		// Look for apps that contain key words from the app name
+		if strings.HasSuffix(path, ".app") && info != nil && info.IsDir() {
+			appBaseName := strings.ToLower(filepath.Base(path))
+			nameLower := strings.ToLower(app.Name)
+			// Check if app name contains key words (e.g., "Acrobat" in "Adobe Acrobat Pro DC")
+			keyWords := strings.Fields(nameLower)
+			for _, word := range keyWords {
+				if len(word) > 3 && strings.Contains(appBaseName, word) {
+					foundApp = path
+					return filepath.SkipDir
+				}
+			}
+		}
+		return nil
+	})
+
+	if foundApp != "" {
+		return foundApp, nil
+	}
+
+	return "", fmt.Errorf("could not find installed app after PKG installation")
+}
+
 func min(a, b int) int {
 	if a < b {
 		return a
@@ -529,29 +606,11 @@ func installFromPKG(pkgPath string, app securityAppVersionInfo) (string, error) 
 		return "", fmt.Errorf("failed to install PKG: %w", err)
 	}
 
-	// Try to find the installed app
-	// This is a simplified approach - PKG installs can be complex
-	appName := app.Name + ".app"
-	appPath := filepath.Join(applicationsDir, appName)
+	// Wait for installation to complete
+	time.Sleep(3 * time.Second)
 
-	if _, err := os.Stat(appPath); err == nil {
-		return appPath, nil
-	}
-
-	// If not found, try common variations
-	variations := []string{
-		app.Name + ".app",
-		strings.ReplaceAll(app.Name, " ", "") + ".app",
-	}
-
-	for _, variation := range variations {
-		appPath := filepath.Join(applicationsDir, variation)
-		if _, err := os.Stat(appPath); err == nil {
-			return appPath, nil
-		}
-	}
-
-	return "", fmt.Errorf("could not find installed app after PKG install")
+	// Find the installed app
+	return findInstalledApp(app)
 }
 
 func installFromZIP(zipPath string, app securityAppVersionInfo) (string, error) {
