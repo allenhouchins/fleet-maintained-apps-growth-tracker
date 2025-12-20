@@ -1,6 +1,7 @@
 package main
 
 import (
+	"bytes"
 	"encoding/json"
 	"fmt"
 	"io"
@@ -413,17 +414,85 @@ func installApp(installerPath string, app securityAppVersionInfo) (string, error
 }
 
 func installFromDMG(dmgPath string, app securityAppVersionInfo) (string, error) {
-	// Mount DMG
-	mountPoint := filepath.Join(tempDir, "mnt")
-	if err := os.MkdirAll(mountPoint, 0755); err != nil {
-		return "", err
+	// Verify DMG file exists and is readable
+	if info, err := os.Stat(dmgPath); err != nil {
+		return "", fmt.Errorf("DMG file not found or not readable: %w", err)
+	} else if info.Size() == 0 {
+		return "", fmt.Errorf("DMG file is empty (size: 0 bytes)")
 	}
 
-	cmd := exec.Command("hdiutil", "attach", dmgPath, "-mountpoint", mountPoint, "-nobrowse", "-quiet")
-	if err := cmd.Run(); err != nil {
-		return "", fmt.Errorf("failed to mount DMG: %w", err)
+	// Clean up any existing mount point
+	mountPoint := filepath.Join(tempDir, "mnt")
+	os.RemoveAll(mountPoint)
+	if err := os.MkdirAll(mountPoint, 0755); err != nil {
+		return "", fmt.Errorf("failed to create mount point: %w", err)
 	}
-	defer exec.Command("hdiutil", "detach", mountPoint, "-quiet").Run()
+
+	// Try mounting with explicit mountpoint
+	cmd := exec.Command("hdiutil", "attach", dmgPath, "-mountpoint", mountPoint, "-nobrowse", "-quiet", "-noautoopen")
+	var stderr bytes.Buffer
+	cmd.Stderr = &stderr
+	err := cmd.Run()
+	
+	if err != nil {
+		// If explicit mountpoint fails, try letting hdiutil choose the mount point
+		cmd2 := exec.Command("hdiutil", "attach", dmgPath, "-nobrowse", "-quiet", "-noautoopen")
+		var stderr2 bytes.Buffer
+		cmd2.Stderr = &stderr2
+		output, err2 := cmd2.Output()
+		if err2 != nil {
+			// Both methods failed, return detailed error
+			errorMsg := strings.TrimSpace(stderr.String())
+			if errorMsg == "" {
+				errorMsg = strings.TrimSpace(stderr2.String())
+			}
+			if errorMsg == "" {
+				errorMsg = "unknown error (check DMG file integrity)"
+			}
+			return "", fmt.Errorf("failed to mount DMG: %s", errorMsg)
+		}
+		// Parse output to find mount point
+		// hdiutil attach output format: /dev/diskXsY	/Volumes/MountName
+		lines := strings.Split(string(output), "\n")
+		for _, line := range lines {
+			fields := strings.Fields(line)
+			if len(fields) >= 2 && strings.HasPrefix(fields[1], "/Volumes/") {
+				mountPoint = fields[1]
+				break
+			}
+		}
+		// If we still don't have a mount point, try to find recently mounted volumes
+		if mountPoint == filepath.Join(tempDir, "mnt") {
+			// List volumes and find the one that matches
+			volumes, _ := filepath.Glob("/Volumes/*")
+			// Use the most recently modified volume as a fallback
+			var latestVolume string
+			var latestTime time.Time
+			for _, vol := range volumes {
+				if info, err := os.Stat(vol); err == nil && info.IsDir() {
+					if info.ModTime().After(latestTime) {
+						latestTime = info.ModTime()
+						latestVolume = vol
+					}
+				}
+			}
+			if latestVolume != "" {
+				mountPoint = latestVolume
+			} else {
+				return "", fmt.Errorf("failed to mount DMG: could not determine mount point")
+			}
+		}
+	}
+
+	// Verify mount point exists and is accessible
+	if _, err := os.Stat(mountPoint); err != nil {
+		return "", fmt.Errorf("failed to mount DMG: mount point not accessible: %s", mountPoint)
+	}
+
+	defer func() {
+		// Detach using the actual mount point
+		exec.Command("hdiutil", "detach", mountPoint, "-quiet", "-force").Run()
+	}()
 
 	// First, check if DMG contains a .pkg file (some DMGs contain installers, not apps)
 	var pkgFile string
@@ -676,30 +745,132 @@ func installFromPKG(pkgPath string, app securityAppVersionInfo) (string, error) 
 func installFromZIP(zipPath string, app securityAppVersionInfo) (string, error) {
 	// Extract ZIP
 	extractDir := filepath.Join(tempDir, "extracted")
+	os.RemoveAll(extractDir) // Clean up any previous extraction
 	if err := os.MkdirAll(extractDir, 0755); err != nil {
 		return "", err
 	}
 
 	cmd := exec.Command("unzip", "-q", zipPath, "-d", extractDir)
+	var stderr bytes.Buffer
+	cmd.Stderr = &stderr
 	if err := cmd.Run(); err != nil {
-		return "", fmt.Errorf("failed to extract ZIP: %w", err)
+		errorMsg := strings.TrimSpace(stderr.String())
+		if errorMsg == "" {
+			errorMsg = "unknown error"
+		}
+		return "", fmt.Errorf("failed to extract ZIP: %s (%w)", errorMsg, err)
 	}
 
-	// Find .app bundle
-	var appBundle string
-	err := filepath.Walk(extractDir, func(path string, info os.FileInfo, err error) error {
+	// First, check if ZIP contains a .pkg file (some ZIPs contain installers, not apps)
+	var pkgFile string
+	_ = filepath.Walk(extractDir, func(path string, info os.FileInfo, err error) error {
 		if err != nil {
-			return err
+			return nil
 		}
-		if strings.HasSuffix(path, ".app") && info.IsDir() {
-			appBundle = path
+		if strings.HasSuffix(strings.ToLower(path), ".pkg") && info != nil && !info.IsDir() {
+			pkgFile = path
 			return filepath.SkipDir
 		}
 		return nil
 	})
 
-	if err != nil || appBundle == "" {
-		return "", fmt.Errorf("could not find .app bundle in ZIP")
+	// If we found a PKG, install it and then find the app
+	if pkgFile != "" {
+		fmt.Printf("  📦 Found PKG installer in ZIP, installing...\n")
+		// Install the PKG
+		installCmd := exec.Command("sudo", "installer", "-pkg", pkgFile, "-target", "/")
+		if err := installCmd.Run(); err != nil {
+			return "", fmt.Errorf("failed to install PKG from ZIP: %w", err)
+		}
+
+		// Wait for installation to complete
+		time.Sleep(3 * time.Second)
+
+		// Now find the installed app in /Applications
+		return findInstalledApp(app)
+	}
+
+	// Otherwise, look for .app bundle in extracted ZIP - try multiple strategies
+	var appBundle string
+
+	// Strategy 1: Look for .app bundle by walking the directory tree
+	_ = filepath.Walk(extractDir, func(path string, info os.FileInfo, err error) error {
+		if err != nil {
+			// Continue walking even if we hit permission errors
+			return nil
+		}
+		// Check if this is a .app bundle (directory ending in .app)
+		if strings.HasSuffix(path, ".app") {
+			// Verify it's actually a directory (app bundles are directories)
+			if info != nil && info.IsDir() {
+				appBundle = path
+				return filepath.SkipDir // Found it, stop searching
+			}
+		}
+		return nil
+	})
+
+	// Strategy 2: If not found, try looking for common app names
+	if appBundle == "" {
+		commonNames := []string{
+			app.Name + ".app",
+			strings.ReplaceAll(app.Name, " ", "") + ".app",
+			strings.ReplaceAll(app.Name, " ", "_") + ".app",
+			strings.ReplaceAll(app.Name, " ", "-") + ".app",
+		}
+
+		// Also try first word of multi-word names
+		nameParts := strings.Fields(app.Name)
+		if len(nameParts) > 1 {
+			commonNames = append(commonNames, nameParts[0]+".app")
+		}
+
+		for _, name := range commonNames {
+			candidate := filepath.Join(extractDir, name)
+			if info, err := os.Stat(candidate); err == nil && info.IsDir() {
+				appBundle = candidate
+				break
+			}
+		}
+	}
+
+	// Strategy 3: Look in common subdirectories (some ZIPs have apps in subfolders)
+	if appBundle == "" {
+		commonDirs := []string{"Applications", "Contents", "Install", "Installers"}
+		for _, dir := range commonDirs {
+			searchPath := filepath.Join(extractDir, dir)
+			if _, err := os.Stat(searchPath); err == nil {
+				_ = filepath.Walk(searchPath, func(path string, info os.FileInfo, err error) error {
+					if err != nil {
+						return nil
+					}
+					if strings.HasSuffix(path, ".app") && info != nil && info.IsDir() {
+						appBundle = path
+						return filepath.SkipDir
+					}
+					return nil
+				})
+				if appBundle != "" {
+					break
+				}
+			}
+		}
+	}
+
+	if appBundle == "" {
+		// List contents for debugging
+		var contents []string
+		filepath.Walk(extractDir, func(path string, info os.FileInfo, err error) error {
+			if err == nil && info != nil {
+				relPath, _ := filepath.Rel(extractDir, path)
+				if relPath != "." && relPath != "" {
+					contents = append(contents, relPath)
+				}
+			}
+			return nil
+		})
+		maxContents := min(20, len(contents))
+		return "", fmt.Errorf("could not find .app bundle or .pkg installer in ZIP. Contents: %v", contents[:maxContents])
 	}
 
 	// Copy .app to Applications
