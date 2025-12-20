@@ -156,16 +156,12 @@
             flex-direction: column;
             align-items: center;
             text-align: center;
-            text-decoration: none;
             color: inherit;
         }
         .app-card:hover {
             transform: translateY(-4px);
             box-shadow: 0 8px 16px rgba(0,0,0,0.1);
             border-color: #2563eb;
-        }
-        .app-card:visited {
-            color: inherit;
         }
         .app-icon {
             width: 64px;
@@ -216,6 +212,159 @@
         }
         .apps-grid.hidden {
             display: none;
+        }
+        /* Modal Styles */
+        .modal {
+            display: none !important;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.5);
+            animation: fadeIn 0.2s ease;
+            visibility: hidden;
+            opacity: 0;
+        }
+        .modal.show {
+            display: flex !important;
+            align-items: center;
+            justify-content: center;
+            visibility: visible;
+            opacity: 1;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .modal-content {
+            background-color: white;
+            margin: auto;
+            padding: 0;
+            border-radius: 12px;
+            width: 90%;
+            max-width: 600px;
+            max-height: 90vh;
+            overflow-y: auto;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            animation: slideUp 0.3s ease;
+        }
+        @keyframes slideUp {
+            from {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        .modal-header {
+            padding: 24px;
+            border-bottom: 1px solid #e2e8f0;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+        .modal-icon {
+            width: 64px;
+            height: 64px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+            overflow: hidden;
+            background: #f8fafc;
+            flex-shrink: 0;
+        }
+        .modal-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        .modal-title-section {
+            flex: 1;
+        }
+        .modal-title {
+            font-size: 24px;
+            font-weight: 600;
+            color: #1e293b;
+            margin: 0 0 4px 0;
+        }
+        .modal-platform {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 6px;
+            font-size: 13px;
+            font-weight: 500;
+            margin-top: 4px;
+        }
+        .modal-platform.darwin {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+        .modal-platform.windows {
+            background: #dbeafe;
+            color: #0284c7;
+        }
+        .modal-close {
+            color: #64748b;
+            font-size: 28px;
+            font-weight: 300;
+            cursor: pointer;
+            line-height: 1;
+            padding: 0;
+            background: none;
+            border: none;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 6px;
+            transition: all 0.2s ease;
+        }
+        .modal-close:hover {
+            background: #f1f5f9;
+            color: #1e293b;
+        }
+        .modal-body {
+            padding: 24px;
+        }
+        .modal-info-row {
+            margin-bottom: 20px;
+        }
+        .modal-info-label {
+            font-size: 12px;
+            font-weight: 600;
+            color: #64748b;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 6px;
+        }
+        .modal-info-value {
+            font-size: 16px;
+            color: #1e293b;
+            line-height: 1.6;
+        }
+        .modal-installer-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 500;
+            margin-top: 8px;
+            transition: all 0.2s ease;
+        }
+        .modal-installer-link:hover {
+            background: #1d4ed8;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px rgba(37, 99, 235, 0.3);
         }
         .rss-button {
             display: inline-flex;
@@ -302,7 +451,37 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: December 19, 2025 at 9:28 PM CST</p>
+            Last updated: December 19, 2025 at 10:04 PM CST</p>
+        </div>
+    </div>
+
+    <!-- App Details Modal -->
+    <div id="appModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-icon" id="modalIcon">
+                    <img id="modalIconImg" src="" alt="" onerror="handleModalIconError(this);">
+                </div>
+                <div class="modal-title-section">
+                    <h2 class="modal-title" id="modalTitle"></h2>
+                    <span class="modal-platform" id="modalPlatform"></span>
+                </div>
+                <button class="modal-close" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-info-row">
+                    <div class="modal-info-label">Version</div>
+                    <div class="modal-info-value" id="modalVersion"></div>
+                </div>
+                <div class="modal-info-row">
+                    <div class="modal-info-label">Description</div>
+                    <div class="modal-info-value" id="modalDescription"></div>
+                </div>
+                <div class="modal-info-row" id="modalInstallerRow" style="display: none;">
+                    <div class="modal-info-label">Installer</div>
+                    <a href="#" id="modalInstallerLink" class="modal-installer-link" target="_blank" rel="noopener noreferrer">Download Installer</a>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -3948,20 +4127,17 @@
                 const platformLabel = getPlatformLabel(app.platform);
                 const version = app.version || 'N/A';
                 const versionHtml = '<div class="app-version">' + escapeHtml(version) + '</div>';
-                const installerUrl = app.installerUrl || '';
                 
-                // If installer URL exists, make it a clickable link, otherwise just a div
-                const cardTag = installerUrl ? 'a' : 'div';
-                const cardHref = installerUrl ? ' href="' + escapeHtml(installerUrl) + '" target="_blank" rel="noopener noreferrer"' : '';
-                
-                return '<' + cardTag + ' class="app-card" data-platform="' + escapeHtml(app.platform) + '"' + cardHref + '>' +
+                // Make cards clickable divs that open modal
+                // Store app slug to find app data when clicked
+                return '<div class="app-card" data-platform="' + escapeHtml(app.platform) + '" data-app-slug="' + escapeHtml(app.slug) + '" onclick="openModalFromCard(this)" style="cursor: pointer;">' +
                     '<div class="app-icon" data-fallback="' + escapeHtml(fallbackText) + '">' +
                     '<img src="' + escapeHtml(iconUrl) + '" alt="' + escapeHtml(app.name) + '" onerror="handleIconError(this);">' +
                     '</div>' +
                     '<div class="app-name">' + escapeHtml(app.name) + '</div>' +
                     versionHtml +
                     '<span class="app-platform ' + escapeHtml(app.platform) + '">' + escapeHtml(platformLabel) + '</span>' +
-                    '</' + cardTag + '>';
+                    '</div>';
             }).join('');
         }
         
@@ -4137,6 +4313,122 @@
         }
         
         createCharts();
+        
+        // Modal functions
+        function openModalFromCard(cardElement) {
+            // Handle clicks on child elements - find the card element
+            let card = cardElement;
+            while (card && !card.classList.contains('app-card')) {
+                card = card.parentElement;
+            }
+            if (!card) {
+                console.error('Could not find app-card element');
+                return;
+            }
+            
+            const appSlug = card.getAttribute('data-app-slug');
+            if (!appSlug) {
+                console.error('No app-slug attribute found');
+                return;
+            }
+            
+            // Find the app in appsData array
+            const app = appsData.find(a => a.slug === appSlug);
+            if (app) {
+                openModal(app);
+            } else {
+                console.error('App not found for slug:', appSlug);
+            }
+        }
+        
+        function openModal(app) {
+            const modal = document.getElementById('appModal');
+            if (!modal) {
+                console.error('Modal element not found');
+                return;
+            }
+            
+            const iconUrl = getAppIconUrl(app.slug);
+            const fallbackText = getAppIconFallback(app.name);
+            const platformLabel = getPlatformLabel(app.platform);
+            
+            // Set modal icon - reset and reload to ensure it displays
+            const modalIcon = document.getElementById('modalIcon');
+            if (modalIcon) {
+                modalIcon.setAttribute('data-fallback', fallbackText);
+                // Reset the icon container and create new image element with the URL directly
+                modalIcon.innerHTML = '<img id="modalIconImg" src="' + escapeHtml(iconUrl) + '" alt="' + escapeHtml(app.name) + '" onerror="handleModalIconError(this);" style="display:block;width:100%;height:100%;object-fit:contain;">';
+            }
+            
+            // Set modal title and platform
+            const modalTitle = document.getElementById('modalTitle');
+            if (modalTitle) {
+                modalTitle.textContent = app.name;
+            }
+            
+            const modalPlatform = document.getElementById('modalPlatform');
+            if (modalPlatform) {
+                modalPlatform.textContent = platformLabel;
+                modalPlatform.className = 'modal-platform ' + app.platform;
+            }
+            
+            // Set version
+            const modalVersion = document.getElementById('modalVersion');
+            if (modalVersion) {
+                modalVersion.textContent = app.version || 'N/A';
+            }
+            
+            // Set description
+            const modalDescription = document.getElementById('modalDescription');
+            if (modalDescription) {
+                const description = app.description || 'No description available.';
+                modalDescription.textContent = description;
+            }
+            
+            // Set installer link
+            const installerRow = document.getElementById('modalInstallerRow');
+            const installerLink = document.getElementById('modalInstallerLink');
+            if (installerRow && installerLink) {
+                if (app.installerUrl) {
+                    installerLink.href = app.installerUrl;
+                    installerRow.style.display = 'block';
+                } else {
+                    installerRow.style.display = 'none';
+                }
+            }
+            
+            // Show modal
+            modal.classList.add('show');
+            document.body.style.overflow = 'hidden';
+        }
+        
+        function closeModal() {
+            const modal = document.getElementById('appModal');
+            modal.classList.remove('show');
+            document.body.style.overflow = '';
+        }
+        
+        function handleModalIconError(img) {
+            const iconDiv = img.parentElement;
+            const fallbackText = iconDiv.getAttribute('data-fallback') || '?';
+            img.style.display = 'none';
+            iconDiv.innerHTML = '<div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg, #667eea 0%, #764ba2 100%);color:white;font-weight:bold;font-size:24px;">' + escapeHtml(fallbackText) + '</div>';
+        }
+        
+        // Close modal when clicking outside (on the backdrop)
+        document.getElementById('appModal').addEventListener('click', function(event) {
+            // Only close if clicking directly on the modal backdrop, not on modal-content
+            if (event.target.id === 'appModal') {
+                closeModal();
+            }
+        });
+        
+        // Close modal with Escape key
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                closeModal();
+            }
+        });
     </script>
 </body>
 </html>
