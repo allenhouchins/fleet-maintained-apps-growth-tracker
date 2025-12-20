@@ -630,8 +630,14 @@ func installFromDMG(dmgPath string, app securityAppVersionInfo) (string, error) 
 						for _, line := range lines {
 							fields := strings.Fields(line)
 							if len(fields) >= 2 && strings.HasPrefix(fields[1], "/Volumes/") {
-								mountPoint = fields[1]
-								break
+								detectedMount := fields[1]
+								// Verify it's not a system volume
+								if !strings.Contains(strings.ToLower(detectedMount), "macintosh") &&
+								   !strings.Contains(strings.ToLower(detectedMount), "system") &&
+								   !strings.Contains(strings.ToLower(detectedMount), "recovery") {
+									mountPoint = detectedMount
+									break
+								}
 							}
 						}
 						// If we still don't have a mount point, try to find recently mounted volumes
@@ -639,7 +645,25 @@ func installFromDMG(dmgPath string, app securityAppVersionInfo) (string, error) 
 							volumes, _ := filepath.Glob("/Volumes/*")
 							var latestVolume string
 							var latestTime time.Time
+							systemVolumes := map[string]bool{
+								"/Volumes/Macintosh HD": true,
+								"/Volumes/Preboot":      true,
+								"/Volumes/Recovery":      true,
+								"/Volumes/Update":        true,
+								"/Volumes/VM":            true,
+							}
 							for _, vol := range volumes {
+								// Skip system volumes
+								if systemVolumes[vol] {
+									continue
+								}
+								// Skip volumes that look like system volumes
+								volBase := filepath.Base(vol)
+								if strings.Contains(strings.ToLower(volBase), "macintosh") || 
+								   strings.Contains(strings.ToLower(volBase), "system") ||
+								   strings.Contains(strings.ToLower(volBase), "recovery") {
+									continue
+								}
 								if info, err := os.Stat(vol); err == nil && info.IsDir() {
 									if info.ModTime().After(latestTime) {
 										latestTime = info.ModTime()
@@ -649,13 +673,14 @@ func installFromDMG(dmgPath string, app securityAppVersionInfo) (string, error) 
 							}
 							if latestVolume != "" {
 								mountPoint = latestVolume
-								// Verify the mount point is actually a DMG mount (not a system volume)
-								if strings.Contains(strings.ToLower(mountPoint), "macintosh") {
-									return "", fmt.Errorf("failed to mount DMG: detected system volume instead of DMG mount point: %s", mountPoint)
-								}
+								fmt.Printf("  ℹ️  Using auto-detected mount point: %s\n", mountPoint)
 							} else {
 								return "", fmt.Errorf("failed to mount DMG: could not determine mount point after EULA acceptance")
 							}
+						}
+						// Verify the mount point is actually a DMG mount (not a system volume)
+						if strings.Contains(strings.ToLower(mountPoint), "macintosh") {
+							return "", fmt.Errorf("failed to mount DMG: detected system volume instead of DMG mount point: %s", mountPoint)
 						}
 						goto verifyMount
 					}
@@ -1281,9 +1306,26 @@ func runSantactl(appPath string) ([]byte, error) {
 	fmt.Printf("  🔍 Running santactl fileinfo...\n")
 
 	cmd := exec.Command("santactl", "fileinfo", "--json", appPath)
-	output, err := cmd.Output()
+	var stdout bytes.Buffer
+	var stderr bytes.Buffer
+	cmd.Stdout = &stdout
+	cmd.Stderr = &stderr
+	err := cmd.Run()
+	
+	output := stdout.Bytes()
+	
 	if err != nil {
-		return nil, fmt.Errorf("santactl failed: %w", err)
+		// Even if command fails, check if we got valid JSON output
+		// Sometimes santactl returns valid JSON but exits with non-zero code
+		if len(output) > 0 {
+			// Try to parse to see if it's valid JSON
+			var testArray []interface{}
+			if json.Unmarshal(output, &testArray) == nil {
+				// Valid JSON, return it even though command "failed"
+				return output, nil
+			}
+		}
+		return nil, fmt.Errorf("santactl failed: %w (stderr: %s)", err, strings.TrimSpace(stderr.String()))
 	}
 
 	return output, nil
@@ -1299,7 +1341,12 @@ func parseSantactlOutput(output []byte, app securityAppVersionInfo) (appSecurity
 	// santactl returns an array of file info objects
 	var santactlArray []map[string]interface{}
 	if err := json.Unmarshal(output, &santactlArray); err != nil {
-		return appSecurityInfo{}, fmt.Errorf("failed to parse santactl JSON: %w (output: %s)", err, outputStr[:min(200, len(outputStr))])
+		// Try to provide more context in error message
+		outputPreview := outputStr
+		if len(outputPreview) > 500 {
+			outputPreview = outputPreview[:500] + "..."
+		}
+		return appSecurityInfo{}, fmt.Errorf("failed to parse santactl JSON: %w (output preview: %s)", err, outputPreview)
 	}
 
 	if len(santactlArray) == 0 {
@@ -1308,6 +1355,27 @@ func parseSantactlOutput(output []byte, app securityAppVersionInfo) (appSecurity
 
 	// Use the first entry (main executable)
 	santactlData := santactlArray[0]
+	
+	// Check if the entry has actual signing data (ignore "Rule" field which is just a warning)
+	// Even if daemon can't communicate, santactl can still return signing info
+	hasSigningData := false
+	if _, ok := santactlData["SHA-256"].(string); ok {
+		hasSigningData = true
+	}
+	if _, ok := santactlData["CDHash"].(string); ok {
+		hasSigningData = true
+	}
+	if _, ok := santactlData["Signing ID"].(string); ok {
+		hasSigningData = true
+	}
+	if _, ok := santactlData["Team ID"].(string); ok {
+		hasSigningData = true
+	}
+	
+	// If we have a "Rule" field but no signing data, it's an error
+	if rule, hasRule := santactlData["Rule"].(string); hasRule && !hasSigningData {
+		return appSecurityInfo{}, fmt.Errorf("santactl returned error: %s (app may not be signed or may be unsigned)", rule)
+	}
 
 	securityInfo := appSecurityInfo{
 		Slug:        app.Slug,
