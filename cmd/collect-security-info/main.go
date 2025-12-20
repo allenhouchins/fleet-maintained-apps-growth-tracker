@@ -1477,6 +1477,9 @@ func runSantactl(appPath string) ([]byte, error) {
 	if strings.HasSuffix(targetPath, ".app") {
 		// Try to access the app bundle to ensure it's ready
 		exec.Command("ls", "-la", targetPath).Run()
+		// Also try to access the executable inside to "wake it up"
+		execPath := filepath.Join(targetPath, "Contents", "MacOS", filepath.Base(strings.TrimSuffix(targetPath, ".app")))
+		exec.Command("ls", "-la", execPath).Run()
 	}
 	time.Sleep(5 * time.Second) // Increased wait time since santactl can take 5-10 seconds
 
@@ -1486,15 +1489,25 @@ func runSantactl(appPath string) ([]byte, error) {
 	var output []byte
 	var err error
 	
+	// Determine which path to try first
+	tryAppPath := strings.HasSuffix(appPath, ".app")
+	pathsToTry := []string{}
+	if tryAppPath && targetPath != appPath {
+		pathsToTry = append(pathsToTry, appPath)
+	}
+	pathsToTry = append(pathsToTry, targetPath)
+	
 	for attempt := 1; attempt <= maxRetries; attempt++ {
-		// First try: .app bundle path (if we have one and it's different from target)
-		if strings.HasSuffix(appPath, ".app") && targetPath != appPath {
-			if attempt == 1 {
-				fmt.Printf("  ℹ️  Trying .app bundle path: %s\n", appPath)
+		for pathIdx, pathToTry := range pathsToTry {
+			if attempt == 1 && pathIdx == 0 {
+				fmt.Printf("  ℹ️  Trying .app bundle path: %s\n", pathToTry)
+			} else if attempt == 1 {
+				fmt.Printf("  ℹ️  Trying path: %s\n", pathToTry)
 			} else {
-				fmt.Printf("  ℹ️  Retry %d: Trying .app bundle path: %s\n", attempt, appPath)
+				fmt.Printf("  ℹ️  Retry %d: Trying path: %s\n", attempt, pathToTry)
 			}
-			cmd := exec.Command("santactl", "fileinfo", "--json", appPath)
+			
+			cmd := exec.Command("santactl", "fileinfo", "--json", pathToTry)
 			var stdout bytes.Buffer
 			var stderr bytes.Buffer
 			cmd.Stdout = &stdout
@@ -1504,55 +1517,31 @@ func runSantactl(appPath string) ([]byte, error) {
 			
 			// Debug: show what we got
 			outputStr := strings.TrimSpace(string(output))
+			
 			if len(outputStr) > 0 && outputStr != "[]" && outputStr != "null" {
 				var testArray []interface{}
 				if json.Unmarshal(output, &testArray) == nil && len(testArray) > 0 {
-					// Got valid data from .app bundle path
-					fmt.Printf("  ✅ Got data from .app bundle path (attempt %d)\n", attempt)
+					// Got valid data
+					fmt.Printf("  ✅ Got data from path (attempt %d)\n", attempt)
 					return output, nil
 				}
 			}
-			// If we got empty array, wait and retry
-			if outputStr == "[]" && attempt < maxRetries {
-				fmt.Printf("  ⏳ Got empty array, waiting 3 seconds before retry...\n")
-				time.Sleep(3 * time.Second)
+			
+			// If we got empty array, break out of path loop and retry
+			if outputStr == "[]" {
+				if attempt < maxRetries {
+					fmt.Printf("  ⏳ Got empty array, waiting 5 seconds before retry...\n")
+					time.Sleep(5 * time.Second)
+					break // Break out of path loop to retry
+				}
+			} else if len(outputStr) > 0 {
+				// Got something but it's not valid, continue to next path
 				continue
 			}
 		}
-
-		// Second try: executable path (or .app bundle if that's what we have)
-		if attempt == 1 {
-			fmt.Printf("  ℹ️  Trying path: %s\n", targetPath)
-		} else {
-			fmt.Printf("  ℹ️  Retry %d: Trying path: %s\n", attempt, targetPath)
-		}
-		cmd := exec.Command("santactl", "fileinfo", "--json", targetPath)
-		var stdout bytes.Buffer
-		var stderr bytes.Buffer
-		cmd.Stdout = &stdout
-		cmd.Stderr = &stderr
-		err = cmd.Run()
-		output = stdout.Bytes()
 		
-		// Debug: show what we got
-		outputStr := strings.TrimSpace(string(output))
-		if len(outputStr) > 0 && outputStr != "[]" && outputStr != "null" {
-			var testArray []interface{}
-			if json.Unmarshal(output, &testArray) == nil && len(testArray) > 0 {
-				fmt.Printf("  ✅ Got data from path (attempt %d)\n", attempt)
-				return output, nil
-			}
-		}
-		
-		// If we got empty array, wait and retry
-		if outputStr == "[]" && attempt < maxRetries {
-			fmt.Printf("  ⏳ Got empty array, waiting 3 seconds before retry...\n")
-			time.Sleep(3 * time.Second)
-			continue
-		}
-		
-		// If we got something but it's not valid, break
-		if len(outputStr) > 0 && outputStr != "[]" {
+		// If we've exhausted all retries, break
+		if attempt >= maxRetries {
 			break
 		}
 	}
