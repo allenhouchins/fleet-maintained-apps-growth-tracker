@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-20T08:00:16Z",
+  "lastUpdated": "2025-12-20T08:07:31Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1370,6 +1370,106 @@
       "signingId": "J6S6Q257EK:ch.protonvpn.mac",
       "teamId": "J6S6Q257EK",
       "lastUpdated": "2025-12-20T08:00:14Z"
+    },
+    {
+      "slug": "pycharm-ce/darwin",
+      "name": "PyCharm Community Edition",
+      "version": "2025.2.5",
+      "sha256": "eb9573c68ca14267d24b78eb236b7782c57b9d5828455691706553b19e4e39c0",
+      "cdhash": "b416ab288a0db94ad9843365be0d1de105399f94",
+      "signingId": "2ZEFAR8TH3:com.jetbrains.pycharm.ce",
+      "teamId": "2ZEFAR8TH3",
+      "lastUpdated": "2025-12-20T08:00:53Z"
+    },
+    {
+      "slug": "pycharm/darwin",
+      "name": "PyCharm Professional",
+      "version": "2025.3.1",
+      "sha256": "671ce1ebfcabe5783821d4af12ec0e628952f78417c278112b22fba9b274573b",
+      "cdhash": "e8ae50c7b0cd3850aecf188ccdfddedf58d1948f",
+      "signingId": "2ZEFAR8TH3:com.jetbrains.pycharm",
+      "teamId": "2ZEFAR8TH3",
+      "lastUpdated": "2025-12-20T08:03:17Z"
+    },
+    {
+      "slug": "quip/darwin",
+      "name": "Quip",
+      "version": "9.17.6",
+      "sha256": "9ee517da55d3b7c5307fee186b693ad2c0196233cbf26fb3a3b85c59b26201ba",
+      "cdhash": "dc6d83fd615747dad0d28524d66264f46dabd976",
+      "signingId": "FMRT79K8DG:com.quip.Desktop",
+      "teamId": "FMRT79K8DG",
+      "lastUpdated": "2025-12-20T08:03:33Z"
+    },
+    {
+      "slug": "rancher/darwin",
+      "name": "Rancher Desktop",
+      "version": "1.21.0",
+      "sha256": "2ac7bbbd8879747799ae07be2811248409209e209deea1494de3ac84f0269449",
+      "cdhash": "d04b8e6d768142c76264ae64f4e16b5ee3179d83",
+      "signingId": "2Q6FHJR3H3:io.rancherdesktop.app",
+      "teamId": "2Q6FHJR3H3",
+      "lastUpdated": "2025-12-20T08:03:59Z"
+    },
+    {
+      "slug": "rapidapi/darwin",
+      "name": "RapidAPI",
+      "version": "4.5.2",
+      "sha256": "0e428b9806ba8deb5357b68aeea31c28202c645d5c879bb38d670286367e14a1",
+      "cdhash": "d5db935d4882caf3df2f5d4721b0b3cf86e9117c",
+      "signingId": "84599RL58A:com.luckymarmot.Paw",
+      "teamId": "84599RL58A",
+      "lastUpdated": "2025-12-20T08:04:14Z"
+    },
+    {
+      "slug": "raycast/darwin",
+      "name": "Raycast",
+      "version": "1.104.1",
+      "sha256": "7a5d5df6e830add1ef436bcb51ab5068cadd9d69b32e7a4ad0af633c2582f5b5",
+      "cdhash": "4dbb0b19889f6e0fe5c1eaa09ab453ce9f46a13b",
+      "signingId": "SY64MV22J9:com.raycast.macos",
+      "teamId": "SY64MV22J9",
+      "lastUpdated": "2025-12-20T08:04:28Z"
+    },
+    {
+      "slug": "rectangle/darwin",
+      "name": "Rectangle",
+      "version": "0.92",
+      "sha256": "da18588b761300eb7a805e19929cd3dae1a01fa566599fa24cfb2405fc6cd64e",
+      "cdhash": "b861e091ee50cf04571cda14854bdf9479a7e4ba",
+      "signingId": "XSYZ3E4B7D:com.knollsoft.Rectangle",
+      "teamId": "XSYZ3E4B7D",
+      "lastUpdated": "2025-12-20T08:04:40Z"
+    },
+    {
+      "slug": "rider/darwin",
+      "name": "Rider",
+      "version": "2025.3.1",
+      "sha256": "37f6cf350ff4f51b102d4bdb9214a327cad7daa18fe16e1adcfafb6ef06104ed",
+      "cdhash": "28f97d46f07cbb1b7255e319bbc3e2ed03723347",
+      "signingId": "2ZEFAR8TH3:com.jetbrains.rider",
+      "teamId": "2ZEFAR8TH3",
+      "lastUpdated": "2025-12-20T08:06:22Z"
+    },
+    {
+      "slug": "royal-tsx/darwin",
+      "name": "Royal TSX",
+      "version": "6.3.0.1000",
+      "sha256": "cf53683a556f267aea0e0941bca993b3c6ce73aea81499bdac9d8da8fab6fa75",
+      "cdhash": "183ecc3e6b77a8e72bc8bcd36d2f228a3e2ffa76",
+      "signingId": "VXP8K9EDP6:com.lemonmojo.RoyalTSX.App",
+      "teamId": "VXP8K9EDP6",
+      "lastUpdated": "2025-12-20T08:06:44Z"
+    },
+    {
+      "slug": "rubymine/darwin",
+      "name": "RubyMine",
+      "version": "2025.3.1",
+      "sha256": "dabda705c920aa75cce8e09479dd72a04c8412760509c4d94c52bd7a77712ad1",
+      "cdhash": "790a23d5126f7c06975093fbd53f8c09609adbf1",
+      "signingId": "2ZEFAR8TH3:com.jetbrains.rubymine",
+      "teamId": "2ZEFAR8TH3",
+      "lastUpdated": "2025-12-20T08:07:28Z"
     }
   ]
 }
