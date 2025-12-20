@@ -336,6 +336,12 @@ func collectSecurityInfoForApp(app securityAppVersionInfo) (appSecurityInfo, err
 		return securityInfo, fmt.Errorf("failed to install app: %w", err)
 	}
 
+	// Verify the app exists before proceeding
+	if _, err := os.Stat(appPath); err != nil {
+		return securityInfo, fmt.Errorf("installed app not found at %s: %w", appPath, err)
+	}
+	fmt.Printf("  ✅ Verified app exists at: %s\n", appPath)
+
 	// Wait longer to ensure app is fully installed and ready (santactl can take time)
 	time.Sleep(3 * time.Second)
 
@@ -1450,17 +1456,77 @@ func runSantactl(appPath string) ([]byte, error) {
 		}
 	}
 
+	// Verify the app/executable exists before running santactl
+	if _, err := os.Stat(targetPath); err != nil {
+		// If executable doesn't exist, try .app bundle path
+		if targetPath != appPath && strings.HasSuffix(appPath, ".app") {
+			if _, err := os.Stat(appPath); err == nil {
+				targetPath = appPath
+				fmt.Printf("  ℹ️  Executable not found, using .app bundle path: %s\n", appPath)
+			}
+		}
+	}
+	
+	// Verify target exists
+	if _, err := os.Stat(targetPath); err != nil {
+		return nil, fmt.Errorf("target path does not exist: %s", targetPath)
+	}
+
 	// Add a delay to ensure app is fully installed (santactl can take 5-10 seconds)
-	time.Sleep(3 * time.Second)
+	// Also try to "touch" the app to ensure it's accessible
+	if strings.HasSuffix(targetPath, ".app") {
+		// Try to access the app bundle to ensure it's ready
+		exec.Command("ls", "-la", targetPath).Run()
+	}
+	time.Sleep(5 * time.Second) // Increased wait time since santactl can take 5-10 seconds
 
 	// Try .app bundle path first (this is what works locally per user feedback)
-	// If that fails or returns empty, try the executable path
+	// Retry up to 3 times with increasing delays if we get empty results
+	maxRetries := 3
 	var output []byte
 	var err error
 	
-	// First try: .app bundle path (if we have one)
-	if strings.HasSuffix(appPath, ".app") && targetPath != appPath {
-		cmd := exec.Command("santactl", "fileinfo", "--json", appPath)
+	for attempt := 1; attempt <= maxRetries; attempt++ {
+		// First try: .app bundle path (if we have one and it's different from target)
+		if strings.HasSuffix(appPath, ".app") && targetPath != appPath {
+			if attempt == 1 {
+				fmt.Printf("  ℹ️  Trying .app bundle path: %s\n", appPath)
+			} else {
+				fmt.Printf("  ℹ️  Retry %d: Trying .app bundle path: %s\n", attempt, appPath)
+			}
+			cmd := exec.Command("santactl", "fileinfo", "--json", appPath)
+			var stdout bytes.Buffer
+			var stderr bytes.Buffer
+			cmd.Stdout = &stdout
+			cmd.Stderr = &stderr
+			err = cmd.Run()
+			output = stdout.Bytes()
+			
+			// Debug: show what we got
+			outputStr := strings.TrimSpace(string(output))
+			if len(outputStr) > 0 && outputStr != "[]" && outputStr != "null" {
+				var testArray []interface{}
+				if json.Unmarshal(output, &testArray) == nil && len(testArray) > 0 {
+					// Got valid data from .app bundle path
+					fmt.Printf("  ✅ Got data from .app bundle path (attempt %d)\n", attempt)
+					return output, nil
+				}
+			}
+			// If we got empty array, wait and retry
+			if outputStr == "[]" && attempt < maxRetries {
+				fmt.Printf("  ⏳ Got empty array, waiting 3 seconds before retry...\n")
+				time.Sleep(3 * time.Second)
+				continue
+			}
+		}
+
+		// Second try: executable path (or .app bundle if that's what we have)
+		if attempt == 1 {
+			fmt.Printf("  ℹ️  Trying path: %s\n", targetPath)
+		} else {
+			fmt.Printf("  ℹ️  Retry %d: Trying path: %s\n", attempt, targetPath)
+		}
+		cmd := exec.Command("santactl", "fileinfo", "--json", targetPath)
 		var stdout bytes.Buffer
 		var stderr bytes.Buffer
 		cmd.Stdout = &stdout
@@ -1468,30 +1534,27 @@ func runSantactl(appPath string) ([]byte, error) {
 		err = cmd.Run()
 		output = stdout.Bytes()
 		
-		// Check if we got valid non-empty output
-		if len(output) > 0 {
+		// Debug: show what we got
+		outputStr := strings.TrimSpace(string(output))
+		if len(outputStr) > 0 && outputStr != "[]" && outputStr != "null" {
 			var testArray []interface{}
 			if json.Unmarshal(output, &testArray) == nil && len(testArray) > 0 {
-				// Got valid data from .app bundle path
+				fmt.Printf("  ✅ Got data from path (attempt %d)\n", attempt)
 				return output, nil
 			}
 		}
-		// .app bundle path didn't work, try executable path
-		fmt.Printf("  ℹ️  .app bundle path returned empty, trying executable path: %s\n", targetPath)
-	}
-
-	// Second try: executable path
-	cmd := exec.Command("santactl", "fileinfo", "--json", targetPath)
-	var stdout bytes.Buffer
-	var stderr bytes.Buffer
-	cmd.Stdout = &stdout
-	cmd.Stderr = &stderr
-	err = cmd.Run()
-	output = stdout.Bytes()
-	
-	// Debug: log what path we're using
-	if targetPath != appPath {
-		fmt.Printf("  ℹ️  Using executable path: %s\n", targetPath)
+		
+		// If we got empty array, wait and retry
+		if outputStr == "[]" && attempt < maxRetries {
+			fmt.Printf("  ⏳ Got empty array, waiting 3 seconds before retry...\n")
+			time.Sleep(3 * time.Second)
+			continue
+		}
+		
+		// If we got something but it's not valid, break
+		if len(outputStr) > 0 && outputStr != "[]" {
+			break
+		}
 	}
 	
 	if err != nil {
@@ -1502,10 +1565,13 @@ func runSantactl(appPath string) ([]byte, error) {
 			var testArray []interface{}
 			if json.Unmarshal(output, &testArray) == nil && len(testArray) > 0 {
 				// Valid JSON with data, return it even though command "failed"
+				fmt.Printf("  ✅ Got data despite error code\n")
 				return output, nil
 			}
 		}
-		return nil, fmt.Errorf("santactl failed: %w (stderr: %s)", err, strings.TrimSpace(stderr.String()))
+		outputStr := strings.TrimSpace(string(output))
+		return nil, fmt.Errorf("santactl failed after %d attempts: %w (output: %s)", 
+			maxRetries, err, outputStr[:min(200, len(outputStr))])
 	}
 
 	return output, nil
