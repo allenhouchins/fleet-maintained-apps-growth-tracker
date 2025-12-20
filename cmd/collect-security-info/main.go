@@ -896,7 +896,162 @@ verifyMount:
 		exec.Command("hdiutil", "detach", mountPoint, "-quiet", "-force").Run()
 	}()
 
-	// First, check if DMG contains a .pkg file (some DMGs contain installers, not apps)
+	// First, look for .app bundle in mounted DMG - prioritize .app bundles over PKG installers
+	// Some DMGs (like Wireshark) contain both .app bundles AND PKG installers (for CLI tools)
+	var appBundle string
+
+	// Strategy 1: Look for .app bundle by walking the directory tree
+	_ = filepath.Walk(mountPoint, func(path string, info os.FileInfo, err error) error {
+		if err != nil {
+			// Continue walking even if we hit permission errors
+			return nil
+		}
+		// Verify path is within mount point (prevent following symlinks outside)
+		if relPath, err := filepath.Rel(mountPoint, path); err != nil || strings.HasPrefix(relPath, "..") {
+			return filepath.SkipDir // Path is outside mount point, skip it
+		}
+		// Check if this is a .app bundle (directory ending in .app)
+		if strings.HasSuffix(path, ".app") {
+			// Verify it's actually a directory (app bundles are directories)
+			if info != nil && info.IsDir() {
+				appBundle = path
+				return filepath.SkipDir // Found it, stop searching
+			}
+		}
+		return nil
+	})
+
+	// Strategy 2: If not found, try looking for common app names
+	if appBundle == "" {
+		commonNames := []string{
+			app.Name + ".app",
+			strings.ReplaceAll(app.Name, " ", "") + ".app",
+			strings.ReplaceAll(app.Name, " ", "_") + ".app",
+		}
+
+		for _, name := range commonNames {
+			candidate := filepath.Join(mountPoint, name)
+			if info, err := os.Stat(candidate); err == nil && info.IsDir() {
+				appBundle = candidate
+				break
+			}
+		}
+	}
+
+	// Strategy 3: Look in common subdirectories (some DMGs have apps in subfolders)
+	if appBundle == "" {
+		commonDirs := []string{"Applications", "Contents", "Install"}
+		for _, dir := range commonDirs {
+			searchPath := filepath.Join(mountPoint, dir)
+			if _, err := os.Stat(searchPath); err == nil {
+				_ = filepath.Walk(searchPath, func(path string, info os.FileInfo, err error) error {
+					if err != nil {
+						return nil
+					}
+					// Verify path is within mount point (prevent following symlinks outside)
+					if relPath, err := filepath.Rel(mountPoint, path); err != nil || strings.HasPrefix(relPath, "..") {
+						return filepath.SkipDir // Path is outside mount point, skip it
+					}
+					if strings.HasSuffix(path, ".app") && info != nil && info.IsDir() {
+						appBundle = path
+						return filepath.SkipDir
+					}
+					return nil
+				})
+				if appBundle != "" {
+					break
+				}
+			}
+		}
+	}
+
+	// If we found an .app bundle, copy it directly (skip PKG search)
+	if appBundle != "" {
+		// Verify app bundle is within the mount point (safety check to prevent following symlinks outside)
+		if relPath, err := filepath.Rel(mountPoint, appBundle); err != nil || strings.HasPrefix(relPath, "..") {
+			return "", fmt.Errorf("app bundle path %s is outside mount point %s (possible symlink issue)", appBundle, mountPoint)
+		}
+
+		// Copy .app to Applications
+		appName := filepath.Base(appBundle)
+		destPath := filepath.Join(applicationsDir, appName)
+
+		// Verify source exists
+		if _, err := os.Stat(appBundle); err != nil {
+			return "", fmt.Errorf("app bundle not found at %s: %w", appBundle, err)
+		}
+
+		// Verify source bundle structure is valid (check for required bundle components)
+		infoPlistPath := filepath.Join(appBundle, "Contents", "Info.plist")
+		if _, err := os.Stat(infoPlistPath); err != nil {
+			return "", fmt.Errorf("source app bundle appears invalid (missing Info.plist): %s", appBundle)
+		}
+
+		// Verify source bundle with codesign before copying
+		verifyCmd := exec.Command("codesign", "-dv", appBundle)
+		var verifyStderr bytes.Buffer
+		verifyCmd.Stderr = &verifyStderr
+		if err := verifyCmd.Run(); err != nil {
+			verifyOutput := strings.TrimSpace(verifyStderr.String())
+			// If it says "bundle format unrecognized", the source is already corrupted
+			if strings.Contains(verifyOutput, "bundle format unrecognized") {
+				return "", fmt.Errorf("source app bundle is corrupted on DMG mount point: %s (codesign: %s)", appBundle, verifyOutput)
+			}
+			// Other codesign errors are OK (unsigned apps, etc.), but log them
+			fmt.Printf("  ℹ️  Source bundle codesign check: %s\n", verifyOutput)
+		}
+
+		// Remove existing app if present (use more thorough cleanup)
+		os.RemoveAll(destPath)
+		// Wait a moment for filesystem to sync
+		time.Sleep(500 * time.Millisecond)
+
+		// Use ditto to copy app bundle (preserves resource forks, extended attributes, symlinks, and bundle structure)
+		// ditto is specifically designed for copying macOS app bundles correctly
+		cmd = exec.Command("ditto", appBundle, destPath)
+		var dittoStderr bytes.Buffer
+		var dittoStdout bytes.Buffer
+		cmd.Stderr = &dittoStderr
+		cmd.Stdout = &dittoStdout
+		if err := cmd.Run(); err != nil {
+			// If ditto fails, try using Go's file operations as fallback
+			fmt.Printf("  ⚠️  Warning: ditto command failed: %v, trying alternative copy method...\n", strings.TrimSpace(dittoStderr.String()))
+			
+			// Use filepath.Walk to copy directory tree
+			if err := copyDirectory(appBundle, destPath); err != nil {
+				return "", fmt.Errorf("failed to copy app (ditto failed: %s, fallback failed: %w)", strings.TrimSpace(dittoStderr.String()), err)
+			}
+		}
+
+		// Verify copy succeeded and bundle structure is intact
+		if _, err := os.Stat(destPath); err != nil {
+			return "", fmt.Errorf("copy appeared to succeed but destination not found: %w", err)
+		}
+
+		// Verify destination bundle structure
+		destInfoPlistPath := filepath.Join(destPath, "Contents", "Info.plist")
+		if _, err := os.Stat(destInfoPlistPath); err != nil {
+			return "", fmt.Errorf("copied app bundle appears invalid (missing Info.plist): %s", destPath)
+		}
+
+		// Verify destination bundle with codesign
+		destVerifyCmd := exec.Command("codesign", "-dv", destPath)
+		var destVerifyStderr bytes.Buffer
+		destVerifyCmd.Stderr = &destVerifyStderr
+		if err := destVerifyCmd.Run(); err != nil {
+			verifyOutput := strings.TrimSpace(destVerifyStderr.String())
+			// If it says "bundle format unrecognized", the copy corrupted the bundle
+			if strings.Contains(verifyOutput, "bundle format unrecognized") {
+				return "", fmt.Errorf("copied app bundle is corrupted: %s (codesign: %s). Source may be corrupted or copy failed.", destPath, verifyOutput)
+			}
+			// Other codesign errors are OK (unsigned apps, etc.)
+			fmt.Printf("  ℹ️  Destination bundle codesign check: %s\n", verifyOutput)
+		}
+
+		return destPath, nil
+	}
+
+	// Only if no .app bundle found, check for PKG installer as fallback
 	// Skip PKGs that are inside .app bundles (those are not installers)
 	var pkgFile string
 	_ = filepath.Walk(mountPoint, func(path string, info os.FileInfo, err error) error {
@@ -1053,171 +1208,19 @@ verifyMount:
 		}
 	}
 
-	// Otherwise, look for .app bundle in mounted DMG - try multiple strategies
-	var appBundle string
-
-	// Strategy 1: Look for .app bundle by walking the directory tree
-	_ = filepath.Walk(mountPoint, func(path string, info os.FileInfo, err error) error {
-		if err != nil {
-			// Continue walking even if we hit permission errors
-			return nil
-		}
-		// Verify path is within mount point (prevent following symlinks outside)
-		if relPath, err := filepath.Rel(mountPoint, path); err != nil || strings.HasPrefix(relPath, "..") {
-			return filepath.SkipDir // Path is outside mount point, skip it
-		}
-		// Check if this is a .app bundle (directory ending in .app)
-		if strings.HasSuffix(path, ".app") {
-			// Verify it's actually a directory (app bundles are directories)
-			if info != nil && info.IsDir() {
-				appBundle = path
-				return filepath.SkipDir // Found it, stop searching
+	// If we get here, neither .app bundle nor PKG installer was found
+	// List contents for debugging
+	var contents []string
+	filepath.Walk(mountPoint, func(path string, info os.FileInfo, err error) error {
+		if err == nil && info != nil {
+			relPath, _ := filepath.Rel(mountPoint, path)
+			if relPath != "." {
+				contents = append(contents, relPath)
 			}
 		}
 		return nil
 	})
-
-	// Strategy 2: If not found, try looking for common app names
-	if appBundle == "" {
-		commonNames := []string{
-			app.Name + ".app",
-			strings.ReplaceAll(app.Name, " ", "") + ".app",
-			strings.ReplaceAll(app.Name, " ", "_") + ".app",
-		}
-
-		for _, name := range commonNames {
-			candidate := filepath.Join(mountPoint, name)
-			if info, err := os.Stat(candidate); err == nil && info.IsDir() {
-				appBundle = candidate
-				break
-			}
-		}
-	}
-
-	// Strategy 3: Look in common subdirectories (some DMGs have apps in subfolders)
-	if appBundle == "" {
-		commonDirs := []string{"Applications", "Contents", "Install"}
-		for _, dir := range commonDirs {
-			searchPath := filepath.Join(mountPoint, dir)
-			if _, err := os.Stat(searchPath); err == nil {
-				_ = filepath.Walk(searchPath, func(path string, info os.FileInfo, err error) error {
-					if err != nil {
-						return nil
-					}
-					// Verify path is within mount point (prevent following symlinks outside)
-					if relPath, err := filepath.Rel(mountPoint, path); err != nil || strings.HasPrefix(relPath, "..") {
-						return filepath.SkipDir // Path is outside mount point, skip it
-					}
-					if strings.HasSuffix(path, ".app") && info != nil && info.IsDir() {
-						appBundle = path
-						return filepath.SkipDir
-					}
-					return nil
-				})
-				if appBundle != "" {
-					break
-				}
-			}
-		}
-	}
-
-	if appBundle == "" {
-		// List contents for debugging
-		var contents []string
-		filepath.Walk(mountPoint, func(path string, info os.FileInfo, err error) error {
-			if err == nil && info != nil {
-				relPath, _ := filepath.Rel(mountPoint, path)
-				if relPath != "." {
-					contents = append(contents, relPath)
-				}
-			}
-			return nil
-		})
-		return "", fmt.Errorf("could not find .app bundle or .pkg installer in DMG. Contents: %v", contents[:min(10, len(contents))])
-	}
-
-	// Verify app bundle is within the mount point (safety check to prevent following symlinks outside)
-	if relPath, err := filepath.Rel(mountPoint, appBundle); err != nil || strings.HasPrefix(relPath, "..") {
-		return "", fmt.Errorf("app bundle path %s is outside mount point %s (possible symlink issue)", appBundle, mountPoint)
-	}
-
-	// Copy .app to Applications
-	appName := filepath.Base(appBundle)
-	destPath := filepath.Join(applicationsDir, appName)
-
-	// Verify source exists
-	if _, err := os.Stat(appBundle); err != nil {
-		return "", fmt.Errorf("app bundle not found at %s: %w", appBundle, err)
-	}
-
-	// Verify source bundle structure is valid (check for required bundle components)
-	infoPlistPath := filepath.Join(appBundle, "Contents", "Info.plist")
-	if _, err := os.Stat(infoPlistPath); err != nil {
-		return "", fmt.Errorf("source app bundle appears invalid (missing Info.plist): %s", appBundle)
-	}
-
-	// Verify source bundle with codesign before copying
-	verifyCmd := exec.Command("codesign", "-dv", appBundle)
-	var verifyStderr bytes.Buffer
-	verifyCmd.Stderr = &verifyStderr
-	if err := verifyCmd.Run(); err != nil {
-		verifyOutput := strings.TrimSpace(verifyStderr.String())
-		// If it says "bundle format unrecognized", the source is already corrupted
-		if strings.Contains(verifyOutput, "bundle format unrecognized") {
-			return "", fmt.Errorf("source app bundle is corrupted on DMG mount point: %s (codesign: %s)", appBundle, verifyOutput)
-		}
-		// Other codesign errors are OK (unsigned apps, etc.), but log them
-		fmt.Printf("  ℹ️  Source bundle codesign check: %s\n", verifyOutput)
-	}
-
-	// Remove existing app if present (use more thorough cleanup)
-	os.RemoveAll(destPath)
-	// Wait a moment for filesystem to sync
-	time.Sleep(500 * time.Millisecond)
-
-	// Use ditto to copy app bundle (preserves resource forks, extended attributes, symlinks, and bundle structure)
-	// ditto is specifically designed for copying macOS app bundles correctly
-	cmd = exec.Command("ditto", appBundle, destPath)
-	var dittoStderr bytes.Buffer
-	var dittoStdout bytes.Buffer
-	cmd.Stderr = &dittoStderr
-	cmd.Stdout = &dittoStdout
-	if err := cmd.Run(); err != nil {
-		// If ditto fails, try using Go's file operations as fallback
-		fmt.Printf("  ⚠️  Warning: ditto command failed: %v, trying alternative copy method...\n", strings.TrimSpace(dittoStderr.String()))
-		
-		// Use filepath.Walk to copy directory tree
-		if err := copyDirectory(appBundle, destPath); err != nil {
-			return "", fmt.Errorf("failed to copy app (ditto failed: %s, fallback failed: %w)", strings.TrimSpace(dittoStderr.String()), err)
-		}
-	}
-
-	// Verify copy succeeded and bundle structure is intact
-	if _, err := os.Stat(destPath); err != nil {
-		return "", fmt.Errorf("copy appeared to succeed but destination not found: %w", err)
-	}
-
-	// Verify destination bundle structure
-	destInfoPlistPath := filepath.Join(destPath, "Contents", "Info.plist")
-	if _, err := os.Stat(destInfoPlistPath); err != nil {
-		return "", fmt.Errorf("copied app bundle appears invalid (missing Info.plist): %s", destPath)
-	}
-
-	// Verify destination bundle with codesign
-	destVerifyCmd := exec.Command("codesign", "-dv", destPath)
-	var destVerifyStderr bytes.Buffer
-	destVerifyCmd.Stderr = &destVerifyStderr
-	if err := destVerifyCmd.Run(); err != nil {
-		verifyOutput := strings.TrimSpace(destVerifyStderr.String())
-		// If it says "bundle format unrecognized", the copy corrupted the bundle
-		if strings.Contains(verifyOutput, "bundle format unrecognized") {
-			return "", fmt.Errorf("copied app bundle is corrupted: %s (codesign: %s). Source may be corrupted or copy failed.", destPath, verifyOutput)
-		}
-		// Other codesign errors are OK (unsigned apps, etc.)
-		fmt.Printf("  ℹ️  Destination bundle codesign check: %s\n", verifyOutput)
-	}
-
-	return destPath, nil
+	return "", fmt.Errorf("could not find .app bundle or .pkg installer in DMG. Contents: %v", contents[:min(10, len(contents))])
 }
 
 func findInstalledApp(app securityAppVersionInfo) (string, error) {
