@@ -537,7 +537,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: December 20, 2025 at 2:00 PM CST</p>
+            Last updated: December 20, 2025 at 2:11 PM CST</p>
         </div>
     </div>
 
@@ -589,7 +589,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: December 20, 2025 at 2:00 PM CST</p>
+                <p id="modalLastUpdated">Last updated: December 20, 2025 at 2:11 PM CST</p>
             </div>
         </div>
     </div>
@@ -2945,7 +2945,14 @@
                 "platform": "darwin",
                 "description": "Clockify Desktop is a time tracking tool for agencies and freelancers.",
                 "version": "2.12.0",
-                "installerUrl": "https://clockify.me/downloads/ClockifyDesktop.zip"
+                "installerUrl": "https://clockify.me/downloads/ClockifyDesktop.zip",
+                "securityInfo": {
+                  "sha256": "9d8b0cebb990f59f788eae1399a0c28ec5b54b01144c5d9b684e4b347c5f5c56",
+                  "cdhash": "",
+                  "signingId": "",
+                  "teamId": "",
+                  "lastUpdated": "2025-12-20T20:06:51Z"
+                }
               },
               {
                 "name": "Cloudflare WARP",
@@ -3580,8 +3587,8 @@
                 "slug": "google-chrome/windows",
                 "platform": "windows",
                 "description": "Google Chrome is a fast, reliable web browser built for performance and compatibility across platforms.",
-                "version": "",
-                "installerUrl": ""
+                "version": "143.0.7499.147",
+                "installerUrl": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi"
               },
               {
                 "name": "Google Drive",
@@ -5905,7 +5912,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `December 20, 2025 at 2:00 PM CST`;
+                let timestampText = 'Last updated: ' + `December 20, 2025 at 2:11 PM CST`;
                 
                 // If macOS app has security info with lastUpdated, use that instead
                 if (app.platform === 'darwin' && app.securityInfo && app.securityInfo.lastUpdated) {
