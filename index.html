@@ -537,7 +537,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: December 20, 2025 at 4:50 PM CST</p>
+            Last updated: December 20, 2025 at 5:00 PM CST</p>
         </div>
     </div>
 
@@ -589,7 +589,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: December 20, 2025 at 4:50 PM CST</p>
+                <p id="modalLastUpdated">Last updated: December 20, 2025 at 5:00 PM CST</p>
             </div>
         </div>
     </div>
@@ -4476,7 +4476,14 @@
                 "platform": "darwin",
                 "description": "Open source tool for developers to work with containers and Kubernetes.",
                 "version": "1.24.2",
-                "installerUrl": "https://github.com/containers/podman-desktop/releases/download/v1.24.2/podman-desktop-1.24.2-arm64.dmg"
+                "installerUrl": "https://github.com/containers/podman-desktop/releases/download/v1.24.2/podman-desktop-1.24.2-arm64.dmg",
+                "securityInfo": {
+                  "sha256": "d6f3cd7c51065ed85557dd464e37610fc0c47ce07c2780ed431d6fbdb54ce3bd",
+                  "cdhash": "7a6ee5f2975f58d33867838de9c5a77baf866afe",
+                  "signingId": "HYSCB8KRL2:io.podmandesktop.PodmanDesktop",
+                  "teamId": "HYSCB8KRL2",
+                  "lastUpdated": "2025-12-20T22:58:25Z"
+                }
               },
               {
                 "name": "Postman",
@@ -5322,7 +5329,14 @@
                 "platform": "darwin",
                 "description": "VNC Viewer is a remote desktop application focusing on security.",
                 "version": "7.15.1",
-                "installerUrl": "https://downloads.realvnc.com/download/file/viewer.files/VNC-Viewer-7.15.1-MacOSX-universal.dmg"
+                "installerUrl": "https://downloads.realvnc.com/download/file/viewer.files/VNC-Viewer-7.15.1-MacOSX-universal.dmg",
+                "securityInfo": {
+                  "sha256": "5bc015f903301ba0e21440a1df96a69d322c35cdcd0b9168960bb65a2fa50f3d",
+                  "cdhash": "fd799e45bf4f1f05b5a4705738e2daafa8fea731",
+                  "signingId": "ZNCQ8JEH7X:com.realvnc.vncviewer",
+                  "teamId": "ZNCQ8JEH7X",
+                  "lastUpdated": "2025-12-20T22:58:48Z"
+                }
               },
               {
                 "name": "Wacom Tablet",
@@ -5926,7 +5940,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `December 20, 2025 at 4:50 PM CST`;
+                let timestampText = 'Last updated: ' + `December 20, 2025 at 5:00 PM CST`;
                 
                 // If macOS app has security info with lastUpdated, use that instead
                 if (app.platform === 'darwin' && app.securityInfo && app.securityInfo.lastUpdated) {
