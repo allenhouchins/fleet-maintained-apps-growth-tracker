@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-20T07:52:21Z",
+  "lastUpdated": "2025-12-20T08:00:16Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1270,6 +1270,106 @@
       "signingId": "S2ZMFGQM93:com.omnissa.horizon.client.mac",
       "teamId": "S2ZMFGQM93",
       "lastUpdated": "2025-12-20T07:52:19Z"
+    },
+    {
+      "slug": "onedrive/darwin",
+      "name": "OneDrive",
+      "version": "25.222.1112.0002",
+      "sha256": "d1f6bb9fc744bde083155761e895e3771f4f0bf6e60df6b78e828c5cabc686d5",
+      "cdhash": "d23727b02ec4153a59ecaccb447ef0195bd4244a",
+      "signingId": "UBF8T346G9:com.microsoft.OneDrive",
+      "teamId": "UBF8T346G9",
+      "lastUpdated": "2025-12-20T07:52:49Z"
+    },
+    {
+      "slug": "opera/darwin",
+      "name": "Opera",
+      "version": "125.0.5729.49",
+      "sha256": "fb1caccf700134860429565ea35cd95c8908a76ffbb7acab2504e84df5af1e61",
+      "cdhash": "95f28fdcbe908b01585b574d707a0f0a685eaf1d",
+      "signingId": "A2P9LX4JPN:com.operasoftware.Opera",
+      "teamId": "A2P9LX4JPN",
+      "lastUpdated": "2025-12-20T07:53:29Z"
+    },
+    {
+      "slug": "orbstack/darwin",
+      "name": "OrbStack",
+      "version": "2.0.5",
+      "sha256": "93ec698c3f3dfd6fb68e1fc09f6cd426aa457b58b9b89f1fae69174db777629c",
+      "cdhash": "51c69c3ad437ba77404167ca2c104e6c52eb5f9d",
+      "signingId": "HUAQ24HBR6:dev.kdrag0n.MacVirt",
+      "teamId": "HUAQ24HBR6",
+      "lastUpdated": "2025-12-20T07:53:43Z"
+    },
+    {
+      "slug": "p4v/darwin",
+      "name": "P4V",
+      "version": "2025.4",
+      "sha256": "f6a539108d30293c6d4bbd0d79a17fa6618e600e1d4a25dddd7cf9d2ccf16ad2",
+      "cdhash": "db3751c0497c95fab5842931d85bee5a9291f009",
+      "signingId": "PYYFSY54S7:com.perforce.p4v",
+      "teamId": "PYYFSY54S7",
+      "lastUpdated": "2025-12-20T07:54:02Z"
+    },
+    {
+      "slug": "parallels/darwin",
+      "name": "Parallels Desktop",
+      "version": "26.2.0",
+      "sha256": "6e8f52025da887f92e1a38461a1c9cec2436823f135bac882db40a6b13c5d6a9",
+      "cdhash": "2a1a523a9ae05c58aae94e64ec895e9cf4ba80c2",
+      "signingId": "4C6364ACXT:com.parallels.desktop.console",
+      "teamId": "4C6364ACXT",
+      "lastUpdated": "2025-12-20T07:54:15Z"
+    },
+    {
+      "slug": "pgadmin4/darwin",
+      "name": "pgAdmin4",
+      "version": "9.11",
+      "sha256": "75833087a18232e11908e50fda19e5ab0bd756ac1b90b57914a1b7e7bae45192",
+      "cdhash": "70700e1bb4bd997a4b1663c2c4a396c99e4bf7d2",
+      "signingId": "TCHGL2R7C5:org.pgadmin.pgadmin4",
+      "teamId": "TCHGL2R7C5",
+      "lastUpdated": "2025-12-20T07:56:10Z"
+    },
+    {
+      "slug": "phpstorm/darwin",
+      "name": "PhpStorm",
+      "version": "2025.3.1",
+      "sha256": "35a54bd05d90f29c037a0d446242429b359b51b1ca1380b658250885bceb7294",
+      "cdhash": "adf53ca25adee2b21e7e54ef35c645ff0f2cde59",
+      "signingId": "2ZEFAR8TH3:com.jetbrains.PhpStorm",
+      "teamId": "2ZEFAR8TH3",
+      "lastUpdated": "2025-12-20T07:57:53Z"
+    },
+    {
+      "slug": "privileges/darwin",
+      "name": "Privileges",
+      "version": "2.5.0",
+      "sha256": "4f334ad2ed742c8a7e60bc05f41fa7836c2d3f7b5a45232c3315523f7be4a7b4",
+      "cdhash": "44321336f533377512738c0d4da61d227af0a699",
+      "signingId": "7R5ZEU67FQ:corp.sap.privileges",
+      "teamId": "7R5ZEU67FQ",
+      "lastUpdated": "2025-12-20T07:59:30Z"
+    },
+    {
+      "slug": "proton-mail/darwin",
+      "name": "Proton Mail",
+      "version": "1.11.0",
+      "sha256": "3b62ec3384f92dfb1ec98ecb5802303a871a853fa649030aa3dba5b5c8d923ba",
+      "cdhash": "f75e803ff544e84eef839a4c4af5d9695afc6c9a",
+      "signingId": "6UN54H93QT:ch.protonmail.desktop",
+      "teamId": "6UN54H93QT",
+      "lastUpdated": "2025-12-20T07:59:52Z"
+    },
+    {
+      "slug": "protonvpn/darwin",
+      "name": "ProtonVPN",
+      "version": "6.2.0",
+      "sha256": "e842496548699fa6a0107b5c78012cf93de7d07537c59de69438aed430e3cb27",
+      "cdhash": "eca85fcf107b2f92f36cc5cc40920a22ac52fc84",
+      "signingId": "J6S6Q257EK:ch.protonvpn.mac",
+      "teamId": "J6S6Q257EK",
+      "lastUpdated": "2025-12-20T08:00:14Z"
     }
   ]
 }
