@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-20T06:44:58Z",
+  "lastUpdated": "2025-12-20T06:48:27Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -512,6 +512,36 @@
       "lastUpdated": "2025-12-20T06:29:30Z"
     },
     {
+      "slug": "dbeaver-enterprise/darwin",
+      "name": "DBeaverEE",
+      "version": "25.3.0",
+      "sha256": "3fc109b2f0ef49966c6e158291aee4e19fb8ae43896f35c00b432d5aa4bae203",
+      "cdhash": "004f597d0d7f1f39218757eeaee7f75b9b1d8f99",
+      "signingId": "42B6MDKMW8:com.dbeaver.product.enterprise",
+      "teamId": "42B6MDKMW8",
+      "lastUpdated": "2025-12-20T06:45:20Z"
+    },
+    {
+      "slug": "dbeaverlite/darwin",
+      "name": "DBeaverLite",
+      "version": "25.3.0",
+      "sha256": "5b20eeffbaa778b8a9d7bbcd3f54e9b7fe3dee15bfb0b214492b9c53fbdf1803",
+      "cdhash": "26c25b080f604879d3ccfe4dea1d4b09bf4a666c",
+      "signingId": "42B6MDKMW8:com.dbeaver.product.lite",
+      "teamId": "42B6MDKMW8",
+      "lastUpdated": "2025-12-20T06:45:37Z"
+    },
+    {
+      "slug": "dbeaverultimate/darwin",
+      "name": "DBeaverUltimate",
+      "version": "25.3.0",
+      "sha256": "a926a9349d8841fcfc3c9f45ca31ee77f3e25fbb3562cac63d47d4825659a2c5",
+      "cdhash": "6a0a589043cff0d4bfd53fd04b413180734d21f7",
+      "signingId": "42B6MDKMW8:com.dbeaver.product.ultimate",
+      "teamId": "42B6MDKMW8",
+      "lastUpdated": "2025-12-20T06:45:59Z"
+    },
+    {
       "slug": "dcv-viewer/darwin",
       "name": "Amazon DCV",
       "version": "2025.0.8846",
@@ -670,6 +700,66 @@
       "signingId": "43AQ936H96:org.mozilla.firefox",
       "teamId": "43AQ936H96",
       "lastUpdated": "2025-12-20T06:39:34Z"
+    },
+    {
+      "slug": "fork/darwin",
+      "name": "Fork",
+      "version": "2.60.4",
+      "sha256": "2b279456fa780c4432a4d89984a44bdb7fdb14c08fd89c1cf11404421323448c",
+      "cdhash": "a8d4f2a8bad6fb761bace78d114a6e93494c686d",
+      "signingId": "Q6M7LEEA66:com.DanPristupov.Fork",
+      "teamId": "Q6M7LEEA66",
+      "lastUpdated": "2025-12-20T06:46:46Z"
+    },
+    {
+      "slug": "front/darwin",
+      "name": "Front",
+      "version": "3.67.6",
+      "sha256": "f9437b8626d1b71e809af3ea768e6dceb72df50d01bd7f0bbcd7cf2e21a8d4b1",
+      "cdhash": "50894e6855a5e7f2e8fdca7c637c0a321a3e5c9e",
+      "signingId": "X549L7572J:com.frontapp.Front",
+      "teamId": "X549L7572J",
+      "lastUpdated": "2025-12-20T06:47:03Z"
+    },
+    {
+      "slug": "ghostty/darwin",
+      "name": "Ghostty",
+      "version": "1.2.3",
+      "sha256": "e400ce11ab650f7599d6e6ab7d2b0273ef33bb10b92ba4266ea0ca0177fadbe7",
+      "cdhash": "91c5aabd90820bd484f2164f1b723a93b248096c",
+      "signingId": "24VZTF6M5V:com.mitchellh.ghostty",
+      "teamId": "24VZTF6M5V",
+      "lastUpdated": "2025-12-20T06:47:16Z"
+    },
+    {
+      "slug": "gimp/darwin",
+      "name": "GIMP",
+      "version": "3.0.6",
+      "sha256": "3045df2b42378b5ead561b5bfa8f7e5170b7d6b2cbc4542d67d892aee87fa530",
+      "cdhash": "c72caf31db4aeec0578ff7e1bad244ce3d561cf0",
+      "signingId": "T25BQ8HSJF:org.gimp.gimp",
+      "teamId": "T25BQ8HSJF",
+      "lastUpdated": "2025-12-20T06:47:47Z"
+    },
+    {
+      "slug": "github/darwin",
+      "name": "GitHub Desktop",
+      "version": "3.5.4",
+      "sha256": "65255bd4ba9c785357333162997f19119b470e422612895de744ffe54cf37aef",
+      "cdhash": "491643c06dc5ec6666be8b4f4653967c580f0251",
+      "signingId": "VEKTX9H2N7:com.github.GitHubClient",
+      "teamId": "VEKTX9H2N7",
+      "lastUpdated": "2025-12-20T06:48:06Z"
+    },
+    {
+      "slug": "gitkraken/darwin",
+      "name": "GitKraken",
+      "version": "11.7.0",
+      "sha256": "8771006c8ee05d3b8347106aa2ab63b0019ef363df352060202861e42cb34168",
+      "cdhash": "eb11db6d367c86e363608ba185981abba8c51a10",
+      "signingId": "T7QVVUTZQ8:com.axosoft.gitkraken",
+      "teamId": "T7QVVUTZQ8",
+      "lastUpdated": "2025-12-20T06:48:25Z"
     }
   ]
 }
