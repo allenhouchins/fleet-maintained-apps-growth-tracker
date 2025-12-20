@@ -7,8 +7,11 @@ import (
 	"net/http"
 	"os"
 	"os/exec"
+	"os/signal"
 	"path/filepath"
+	"sort"
 	"strings"
+	"syscall"
 	"time"
 )
 
@@ -50,7 +53,8 @@ type securityInfoData struct {
 
 func main() {
 	fmt.Println("🔒 Collecting macOS App Security Information")
-	fmt.Println("============================================\n")
+	fmt.Println("============================================")
+	fmt.Println()
 
 	// Load current app versions
 	versions, err := loadAppVersions()
@@ -99,11 +103,82 @@ func main() {
 	}
 	defer os.RemoveAll(tempDir)
 
-	// Process each app
-	var updatedSecurity []appSecurityInfo
+	// Set up signal handling to save on interruption
+	sigChan := make(chan os.Signal, 1)
+	signal.Notify(sigChan, os.Interrupt, syscall.SIGTERM)
+
+	// Track collected security info
+	collectedSecurity := make(map[string]appSecurityInfo)
 	processedSlugs := make(map[string]bool)
 	processedCount := 0
 
+	// Save function that merges with existing data
+	saveSecurityInfo := func() error {
+		// Merge collected data with existing data
+		finalSecurityMap := make(map[string]appSecurityInfo)
+
+		// Add existing apps that weren't processed
+		for slug, existing := range existingMap {
+			if !processedSlugs[slug] {
+				// Check if this app still exists in current versions
+				found := false
+				for _, v := range versions.Apps {
+					if v.Slug == slug && v.Platform == "darwin" {
+						found = true
+						break
+					}
+				}
+				if found {
+					finalSecurityMap[slug] = existing
+				}
+			}
+		}
+
+		// Add newly collected data
+		for slug, info := range collectedSecurity {
+			finalSecurityMap[slug] = info
+		}
+
+		// Convert map to sorted slice
+		var finalSecurityList []appSecurityInfo
+		for _, app := range finalSecurityMap {
+			finalSecurityList = append(finalSecurityList, app)
+		}
+		sort.Slice(finalSecurityList, func(i, j int) bool {
+			return finalSecurityList[i].Slug < finalSecurityList[j].Slug
+		})
+
+		// Save to file
+		securityData := securityInfoData{
+			LastUpdated: time.Now().UTC().Format(time.RFC3339),
+			Apps:        finalSecurityList,
+		}
+
+		jsonData, err := json.MarshalIndent(securityData, "", "  ")
+		if err != nil {
+			return fmt.Errorf("marshaling security info: %w", err)
+		}
+
+		if err := os.WriteFile(securityInfoJSON, jsonData, 0644); err != nil {
+			return fmt.Errorf("writing security info: %w", err)
+		}
+
+		return nil
+	}
+
+	// Handle interruptions
+	go func() {
+		<-sigChan
+		fmt.Printf("\n⚠️  Interruption detected. Saving progress...\n")
+		if err := saveSecurityInfo(); err != nil {
+			fmt.Fprintf(os.Stderr, "❌ Error saving on interruption: %v\n", err)
+			os.Exit(1)
+		}
+		fmt.Printf("✅ Progress saved. Processed %d/%d apps before interruption.\n", processedCount, len(macApps))
+		os.Exit(0)
+	}()
+
+	// Process each app
 	for i, app := range macApps {
 		fmt.Printf("[%d/%d] Processing %s (%s)...\n", i+1, len(macApps), app.Name, app.Version)
 
@@ -112,51 +187,34 @@ func main() {
 			fmt.Printf("  ⚠️  Warning: Failed to collect security info: %v\n", err)
 			// Keep existing info if available
 			if existing, exists := existingMap[app.Slug]; exists {
-				updatedSecurity = append(updatedSecurity, existing)
+				collectedSecurity[app.Slug] = existing
 				processedSlugs[app.Slug] = true
+			}
+			// Save progress even on failure
+			if err := saveSecurityInfo(); err != nil {
+				fmt.Fprintf(os.Stderr, "  ⚠️  Warning: Failed to save progress: %v\n", err)
 			}
 			continue
 		}
 
-		updatedSecurity = append(updatedSecurity, securityInfo)
+		collectedSecurity[app.Slug] = securityInfo
 		processedSlugs[app.Slug] = true
 		processedCount++
+
+		// Save incrementally after each successful collection
+		if err := saveSecurityInfo(); err != nil {
+			fmt.Fprintf(os.Stderr, "  ⚠️  Warning: Failed to save progress: %v\n", err)
+		} else {
+			fmt.Printf("  💾 Progress saved (%d/%d apps)\n", processedCount, len(macApps))
+		}
 
 		// Clean up after each app to save disk space
 		cleanupTempFiles()
 	}
 
-	// Keep existing apps that weren't updated and still exist in current versions
-	for slug, existing := range existingMap {
-		if !processedSlugs[slug] {
-			// Check if this app still exists in current versions
-			found := false
-			for _, v := range versions.Apps {
-				if v.Slug == slug && v.Platform == "darwin" {
-					found = true
-					break
-				}
-			}
-			if found {
-				updatedSecurity = append(updatedSecurity, existing)
-			}
-		}
-	}
-
-	// Save updated security info
-	securityData := securityInfoData{
-		LastUpdated: time.Now().UTC().Format(time.RFC3339),
-		Apps:        updatedSecurity,
-	}
-
-	jsonData, err := json.MarshalIndent(securityData, "", "  ")
-	if err != nil {
-		fmt.Fprintf(os.Stderr, "❌ Error marshaling security info: %v\n", err)
-		os.Exit(1)
-	}
-
-	if err := os.WriteFile(securityInfoJSON, jsonData, 0644); err != nil {
-		fmt.Fprintf(os.Stderr, "❌ Error writing security info: %v\n", err)
+	// Final save (redundant but ensures everything is saved)
+	if err := saveSecurityInfo(); err != nil {
+		fmt.Fprintf(os.Stderr, "❌ Error saving final security info: %v\n", err)
 		os.Exit(1)
 	}
 
