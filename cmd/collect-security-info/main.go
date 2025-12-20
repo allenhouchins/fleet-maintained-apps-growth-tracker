@@ -949,8 +949,8 @@ verifyMount:
 				return "", fmt.Errorf("failed to install PKG from DMG: %w", err)
 			}
 
-			// Wait for installation to complete
-			time.Sleep(3 * time.Second)
+			// Wait longer for installation to complete (PKG installs can take time)
+			time.Sleep(5 * time.Second)
 
 			// Now find the installed app in /Applications
 			appPath, err := findInstalledApp(app)
@@ -958,12 +958,14 @@ verifyMount:
 				// If we can't find the app, list what was recently installed for debugging
 				fmt.Printf("  ⚠️  Could not find installed app '%s' after PKG installation from DMG, listing recently modified apps in /Applications:\n", app.Name)
 				var recentApps []string
-				cutoffTime := time.Now().Add(-5 * time.Minute)
+				var allApps []string
+				cutoffTime := time.Now().Add(-10 * time.Minute) // Check last 10 minutes
 				_ = filepath.Walk(applicationsDir, func(path string, info os.FileInfo, err error) error {
 					if err != nil {
 						return nil
 					}
 					if strings.HasSuffix(path, ".app") && info != nil && info.IsDir() {
+						allApps = append(allApps, filepath.Base(path))
 						if info.ModTime().After(cutoffTime) {
 							recentApps = append(recentApps, filepath.Base(path))
 						}
@@ -971,7 +973,7 @@ verifyMount:
 					return nil
 				})
 				if len(recentApps) > 0 {
-					fmt.Printf("  ℹ️  Recently modified apps: %v\n", recentApps)
+					fmt.Printf("  ℹ️  Recently modified apps (last 10 min): %v\n", recentApps)
 					// If there's only one recently modified app, try using it
 					if len(recentApps) == 1 {
 						candidatePath := filepath.Join(applicationsDir, recentApps[0])
@@ -981,7 +983,23 @@ verifyMount:
 						}
 					}
 				} else {
-					fmt.Printf("  ℹ️  No recently modified apps found\n")
+					fmt.Printf("  ℹ️  No recently modified apps found (last 10 min)\n")
+				}
+				// Also check if the app exists at all (maybe it was already there)
+				for _, variation := range []string{app.Name + ".app", strings.ReplaceAll(app.Name, " ", "") + ".app"} {
+					candidatePath := filepath.Join(applicationsDir, variation)
+					if _, err := os.Stat(candidatePath); err == nil {
+						fmt.Printf("  ℹ️  Found existing app (may have been installed previously): %s\n", variation)
+						return candidatePath, nil
+					}
+				}
+				// List first 10 apps for debugging
+				if len(allApps) > 0 {
+					maxApps := 10
+					if len(allApps) < maxApps {
+						maxApps = len(allApps)
+					}
+					fmt.Printf("  ℹ️  Sample of apps in /Applications: %v\n", allApps[:maxApps])
 				}
 				return "", fmt.Errorf("could not find installed app '%s' after PKG installation from DMG: %w", app.Name, err)
 			}
@@ -1402,8 +1420,8 @@ func installFromPKG(pkgPath string, app securityAppVersionInfo) (string, error) 
 		return "", fmt.Errorf("failed to install PKG: %w", err)
 	}
 
-	// Wait for installation to complete
-	time.Sleep(3 * time.Second)
+	// Wait longer for installation to complete (PKG installs can take time)
+	time.Sleep(5 * time.Second)
 
 	// Find the installed app
 	appPath, err := findInstalledApp(app)
@@ -1518,8 +1536,8 @@ func installFromZIP(zipPath string, app securityAppVersionInfo) (string, error) 
 				return "", fmt.Errorf("failed to install PKG from ZIP: %w", err)
 			}
 
-			// Wait for installation to complete
-			time.Sleep(3 * time.Second)
+			// Wait longer for installation to complete (PKG installs can take time)
+			time.Sleep(5 * time.Second)
 
 			// Now find the installed app in /Applications
 			appPath, err := findInstalledApp(app)
@@ -1527,12 +1545,14 @@ func installFromZIP(zipPath string, app securityAppVersionInfo) (string, error) 
 				// If we can't find the app, list what was recently installed for debugging
 				fmt.Printf("  ⚠️  Could not find installed app '%s' after PKG installation from ZIP, listing recently modified apps in /Applications:\n", app.Name)
 				var recentApps []string
-				cutoffTime := time.Now().Add(-5 * time.Minute)
+				var allApps []string
+				cutoffTime := time.Now().Add(-10 * time.Minute) // Check last 10 minutes
 				_ = filepath.Walk(applicationsDir, func(path string, info os.FileInfo, err error) error {
 					if err != nil {
 						return nil
 					}
 					if strings.HasSuffix(path, ".app") && info != nil && info.IsDir() {
+						allApps = append(allApps, filepath.Base(path))
 						if info.ModTime().After(cutoffTime) {
 							recentApps = append(recentApps, filepath.Base(path))
 						}
@@ -1540,7 +1560,7 @@ func installFromZIP(zipPath string, app securityAppVersionInfo) (string, error) 
 					return nil
 				})
 				if len(recentApps) > 0 {
-					fmt.Printf("  ℹ️  Recently modified apps: %v\n", recentApps)
+					fmt.Printf("  ℹ️  Recently modified apps (last 10 min): %v\n", recentApps)
 					// If there's only one recently modified app, try using it
 					if len(recentApps) == 1 {
 						candidatePath := filepath.Join(applicationsDir, recentApps[0])
@@ -1550,7 +1570,23 @@ func installFromZIP(zipPath string, app securityAppVersionInfo) (string, error) 
 						}
 					}
 				} else {
-					fmt.Printf("  ℹ️  No recently modified apps found\n")
+					fmt.Printf("  ℹ️  No recently modified apps found (last 10 min)\n")
+				}
+				// Also check if the app exists at all (maybe it was already there)
+				for _, variation := range []string{app.Name + ".app", strings.ReplaceAll(app.Name, " ", "") + ".app"} {
+					candidatePath := filepath.Join(applicationsDir, variation)
+					if _, err := os.Stat(candidatePath); err == nil {
+						fmt.Printf("  ℹ️  Found existing app (may have been installed previously): %s\n", variation)
+						return candidatePath, nil
+					}
+				}
+				// List first 10 apps for debugging
+				if len(allApps) > 0 {
+					maxApps := 10
+					if len(allApps) < maxApps {
+						maxApps = len(allApps)
+					}
+					fmt.Printf("  ℹ️  Sample of apps in /Applications: %v\n", allApps[:maxApps])
 				}
 				return "", fmt.Errorf("could not find installed app '%s' after PKG installation from ZIP: %w", app.Name, err)
 			}
