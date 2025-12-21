@@ -537,7 +537,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: December 20, 2025 at 10:21 PM CST</p>
+            Last updated: December 20, 2025 at 11:08 PM CST</p>
         </div>
     </div>
 
@@ -589,7 +589,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: December 20, 2025 at 10:21 PM CST</p>
+                <p id="modalLastUpdated">Last updated: December 20, 2025 at 11:08 PM CST</p>
             </div>
         </div>
     </div>
@@ -1185,7 +1185,7 @@
             246,
             246,
             246,
-            246
+            247
           ],
           "additions": [
             20,
@@ -1480,7 +1480,7 @@
             0,
             0,
             0,
-            0
+            1
           ],
           "macCounts": [
             20,
@@ -2070,7 +2070,7 @@
             44,
             44,
             44,
-            44
+            45
           ],
           "growthDates": [
             "2025-03-04",
@@ -2107,7 +2107,8 @@
             "2025-12-14",
             "2025-12-15",
             "2025-12-16",
-            "2025-12-17"
+            "2025-12-17",
+            "2025-12-21"
           ],
           "growthCounts": [
             20,
@@ -2144,7 +2145,8 @@
             231,
             236,
             243,
-            246
+            246,
+            247
           ],
           "growthAdditions": [
             20,
@@ -2181,7 +2183,8 @@
             2,
             5,
             7,
-            3
+            3,
+            1
           ]
         };
         
@@ -4852,6 +4855,14 @@
                 }
               },
               {
+                "name": "Sourcetree",
+                "slug": "sourcetree/windows",
+                "platform": "windows",
+                "description": "SourceTree is a graphical client for Git version control.",
+                "version": "3.4.27",
+                "installerUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.4.27.msi"
+              },
+              {
                 "name": "Splashtop Business",
                 "slug": "splashtop-business/darwin",
                 "platform": "darwin",
@@ -5959,7 +5970,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `December 20, 2025 at 10:21 PM CST`;
+                let timestampText = 'Last updated: ' + `December 20, 2025 at 11:08 PM CST`;
                 
                 // If macOS app has security info with lastUpdated, use that instead
                 if (app.platform === 'darwin' && app.securityInfo && app.securityInfo.lastUpdated) {
