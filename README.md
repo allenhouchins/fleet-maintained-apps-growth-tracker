@@ -8,20 +8,34 @@ A standalone repository that tracks and visualizes the growth of Fleet-maintaine
 
 The dashboard provides real-time statistics, interactive charts, and detailed growth metrics.
 
+## 📡 RSS Feed
+
+Subscribe to the RSS feed to get notified when apps are updated with new versions or when new apps are added to the library:
+
+👉 **[RSS Feed](https://fmalibrary.com/feed.xml)**
+
+The feed tracks version updates and new app additions, keeping you informed about the latest changes to Fleet-maintained apps.
+
 ## 🔧 How It Works
 
 1. **Data Collection**: A Go script uses the GitHub API to fetch commit history and file content for `ee/maintained-apps/outputs/apps.json` without cloning the repository
-2. **Data Processing**: The script generates a continuous daily CSV file with app counts
+2. **Data Processing**: The script generates a continuous daily CSV file with app counts and tracks app versions
 3. **Visualization**: An HTML file with embedded Chart.js creates interactive charts
-4. **Automation**: GitHub Actions runs daily at 12:00 PM UTC to update the data
+4. **RSS Feed**: Generates an RSS feed (`feed.xml`) that tracks version updates and new app additions
+5. **Automation**: GitHub Actions runs every hour to update the data
 
 ## 📁 Files
 
-- `main.go` - Fetches data from fleetdm/fleet and generates CSV
+- `main.go` - Fetches data from fleetdm/fleet and generates CSV and version tracking data
 - `generate_html.go` - Generates interactive HTML visualization
 - `generate_readme.go` - Generates this README with embedded charts
-- `data/apps_growth.csv` - Generated CSV data file
-- `.github/workflows/update-data.yml` - GitHub Actions workflow for daily updates
+- `generate_rss.go` - Generates RSS feed for version updates and new app additions
+- `data/apps_growth.csv` - Generated CSV data file with daily app counts
+- `data/app_versions.json` - Current app versions data
+- `data/version_history.json` - Historical version change tracking
+- `feed.xml` - RSS feed for version updates (generated)
+- `index.html` - Interactive dashboard (generated)
+- `.github/workflows/update-data.yml` - GitHub Actions workflow for hourly updates
 
 ## 💻 Local Development
 
@@ -44,6 +58,9 @@ go run generate_html.go
 
 # Generate README
 go run generate_readme.go
+
+# Generate RSS feed
+go run generate_rss.go
 
 # Open index.html in your browser
 open index.html
