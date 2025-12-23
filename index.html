@@ -537,7 +537,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: December 22, 2025 at 9:36 PM CST</p>
+            Last updated: December 22, 2025 at 10:19 PM CST</p>
         </div>
     </div>
 
@@ -589,7 +589,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: December 22, 2025 at 9:36 PM CST</p>
+                <p id="modalLastUpdated">Last updated: December 22, 2025 at 10:19 PM CST</p>
             </div>
         </div>
     </div>
@@ -1189,7 +1189,7 @@
             246,
             247,
             248,
-            248
+            249
           ],
           "additions": [
             20,
@@ -1486,7 +1486,7 @@
             0,
             1,
             1,
-            0
+            1
           ],
           "macCounts": [
             20,
@@ -2080,7 +2080,7 @@
             44,
             45,
             45,
-            45
+            46
           ],
           "growthDates": [
             "2025-03-04",
@@ -2119,7 +2119,8 @@
             "2025-12-16",
             "2025-12-17",
             "2025-12-21",
-            "2025-12-22"
+            "2025-12-22",
+            "2025-12-23"
           ],
           "growthCounts": [
             20,
@@ -2158,7 +2159,8 @@
             243,
             246,
             247,
-            248
+            248,
+            249
           ],
           "growthAdditions": [
             20,
@@ -2196,6 +2198,7 @@
             5,
             7,
             3,
+            1,
             1,
             1
           ]
@@ -4342,6 +4345,14 @@
                 }
               },
               {
+                "name": "OBS",
+                "slug": "obs/windows",
+                "platform": "windows",
+                "description": "OBS is open-source software for live streaming and screen recording.",
+                "version": "32.0.4",
+                "installerUrl": "https://github.com/obsproject/obs-studio/releases/download/32.0.4/OBS-Studio-32.0.4-Windows-x64-Installer.exe"
+              },
+              {
                 "name": "Obsidian",
                 "slug": "obsidian/darwin",
                 "platform": "darwin",
@@ -5998,7 +6009,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `December 22, 2025 at 9:36 PM CST`;
+                let timestampText = 'Last updated: ' + `December 22, 2025 at 10:19 PM CST`;
                 
                 // If macOS app has security info with lastUpdated, use that instead
                 if (app.platform === 'darwin' && app.securityInfo && app.securityInfo.lastUpdated) {
