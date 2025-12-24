@@ -41,6 +41,7 @@ type appData struct {
 }
 
 type appSecurityInfoData struct {
+	Name        string                `json:"name,omitempty"`
 	Sha256      string                `json:"sha256,omitempty"`
 	Cdhash      string                `json:"cdhash,omitempty"`
 	SigningID   string                `json:"signingId,omitempty"`
@@ -55,6 +56,7 @@ type appsJSON struct {
 
 type securityInfoItem struct {
 	Slug        string             `json:"slug"`
+	Name        string             `json:"name,omitempty"`
 	Sha256      string             `json:"sha256,omitempty"`
 	Cdhash      string             `json:"cdhash,omitempty"`
 	SigningID   string             `json:"signingId,omitempty"`
@@ -239,6 +241,7 @@ func mergeSecurityInfo(apps *appsJSON, security *securityInfoData) {
 					securityData.Apps = make([]appSecurityInfoData, len(sec.Apps))
 					for j, app := range sec.Apps {
 						securityData.Apps[j] = appSecurityInfoData{
+							Name:        app.Name,
 							Sha256:      app.Sha256,
 							Cdhash:      app.Cdhash,
 							SigningID:   app.SigningID,
