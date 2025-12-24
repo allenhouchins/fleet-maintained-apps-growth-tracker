@@ -537,7 +537,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: December 24, 2025 at 9:13 AM CST</p>
+            Last updated: December 24, 2025 at 9:31 AM CST</p>
         </div>
     </div>
 
@@ -565,23 +565,28 @@
                 </div>
                 <div class="modal-info-row" id="modalSecurityRow" style="display: none;">
                     <div class="modal-info-label">Security Information</div>
-                    <div class="modal-security-info">
-                        <div class="modal-security-item">
-                            <span class="modal-security-label">SHA-256:</span>
-                            <code class="modal-security-value" id="modalSha256"></code>
+                    <div id="modalSecurityContainer">
+                        <!-- Single app security info (legacy) -->
+                        <div class="modal-security-info" id="modalSecuritySingle">
+                            <div class="modal-security-item">
+                                <span class="modal-security-label">SHA-256:</span>
+                                <code class="modal-security-value" id="modalSha256"></code>
+                            </div>
+                            <div class="modal-security-item">
+                                <span class="modal-security-label">CDHash:</span>
+                                <code class="modal-security-value" id="modalCdhash"></code>
+                            </div>
+                            <div class="modal-security-item">
+                                <span class="modal-security-label">Signing ID:</span>
+                                <code class="modal-security-value" id="modalSigningID"></code>
+                            </div>
+                            <div class="modal-security-item">
+                                <span class="modal-security-label">Team ID:</span>
+                                <code class="modal-security-value" id="modalTeamID"></code>
+                            </div>
                         </div>
-                        <div class="modal-security-item">
-                            <span class="modal-security-label">CDHash:</span>
-                            <code class="modal-security-value" id="modalCdhash"></code>
-                        </div>
-                        <div class="modal-security-item">
-                            <span class="modal-security-label">Signing ID:</span>
-                            <code class="modal-security-value" id="modalSigningID"></code>
-                        </div>
-                        <div class="modal-security-item">
-                            <span class="modal-security-label">Team ID:</span>
-                            <code class="modal-security-value" id="modalTeamID"></code>
-                        </div>
+                        <!-- Multiple apps security info (suites) -->
+                        <div id="modalSecurityMultiple"></div>
                     </div>
                 </div>
                 <div class="modal-info-row" id="modalInstallerRow" style="display: none; margin-top: 24px;">
@@ -589,7 +594,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: December 24, 2025 at 9:13 AM CST</p>
+                <p id="modalLastUpdated">Last updated: December 24, 2025 at 9:31 AM CST</p>
             </div>
         </div>
     </div>
@@ -2977,9 +2982,6 @@
                 "installerUrl": "https://clockify.me/downloads/ClockifyDesktop.zip",
                 "securityInfo": {
                   "sha256": "9d8b0cebb990f59f788eae1399a0c28ec5b54b01144c5d9b684e4b347c5f5c56",
-                  "cdhash": "",
-                  "signingId": "",
-                  "teamId": "",
                   "lastUpdated": "2025-12-20T20:06:51Z"
                 }
               },
@@ -5187,11 +5189,23 @@
                 "version": "18.6.0",
                 "installerUrl": "https://cdn.teleport.dev/teleport-18.6.0.pkg",
                 "securityInfo": {
-                  "sha256": "8db9e095155519464b3109fa17217a04b370c1b6e9409a6ab74e5fe33e6a5bb1",
-                  "cdhash": "72682cbbdb6a0f66c0e8d5f76047237cbda9019c",
-                  "signingId": "QH8AA5B8UP:QH8AA5B8UP.com.gravitational.teleport.tctl",
-                  "teamId": "QH8AA5B8UP",
-                  "lastUpdated": "2025-12-20T19:56:34Z"
+                  "lastUpdated": "2025-12-24T15:30:33Z",
+                  "apps": [
+                    {
+                      "sha256": "52460649f36b019cc9bfe9ccec2e457412460249530e1717d18f6df65609f9ec",
+                      "cdhash": "9a3eb39c80e01ec806d4966710551f0f4c5c4d50",
+                      "signingId": "QH8AA5B8UP:QH8AA5B8UP.com.gravitational.teleport.tsh",
+                      "teamId": "QH8AA5B8UP",
+                      "lastUpdated": "2025-12-24T15:30:51Z"
+                    },
+                    {
+                      "sha256": "94db1bd193d4704d24c041b3d9ace7304bd45c288c73c8762f463a21982e098e",
+                      "cdhash": "123ad70505fb05dbec99a8fba6575134f48950d7",
+                      "signingId": "QH8AA5B8UP:QH8AA5B8UP.com.gravitational.teleport.tctl",
+                      "teamId": "QH8AA5B8UP",
+                      "lastUpdated": "2025-12-24T15:31:06Z"
+                    }
+                  ]
                 }
               },
               {
@@ -5990,28 +6004,95 @@
             
             // Set security info (macOS only)
             const securityRow = document.getElementById('modalSecurityRow');
+            const securitySingle = document.getElementById('modalSecuritySingle');
+            const securityMultiple = document.getElementById('modalSecurityMultiple');
+            
             if (securityRow) {
                 if (app.platform === 'darwin' && app.securityInfo) {
-                    const sha256El = document.getElementById('modalSha256');
-                    const cdhashEl = document.getElementById('modalCdhash');
-                    const signingIDEl = document.getElementById('modalSigningID');
-                    const teamIDEl = document.getElementById('modalTeamID');
-                    
-                    if (sha256El) {
-                        sha256El.textContent = app.securityInfo.sha256 || 'N/A';
-                        setupCopyToClipboard(sha256El, app.securityInfo.sha256 || 'N/A');
-                    }
-                    if (cdhashEl) {
-                        cdhashEl.textContent = app.securityInfo.cdhash || 'N/A';
-                        setupCopyToClipboard(cdhashEl, app.securityInfo.cdhash || 'N/A');
-                    }
-                    if (signingIDEl) {
-                        signingIDEl.textContent = app.securityInfo.signingId || 'N/A';
-                        setupCopyToClipboard(signingIDEl, app.securityInfo.signingId || 'N/A');
-                    }
-                    if (teamIDEl) {
-                        teamIDEl.textContent = app.securityInfo.teamId || 'N/A';
-                        setupCopyToClipboard(teamIDEl, app.securityInfo.teamId || 'N/A');
+                    // Check if this is a suite with multiple apps
+                    if (app.securityInfo.apps && app.securityInfo.apps.length > 0) {
+                        // Hide single app view, show multiple apps view
+                        if (securitySingle) securitySingle.style.display = 'none';
+                        if (securityMultiple) {
+                            securityMultiple.innerHTML = '';
+                            
+                            // Create a section for each app in the suite
+                            app.securityInfo.apps.forEach((suiteApp, index) => {
+                                const appSection = document.createElement('div');
+                                appSection.className = 'modal-security-app-section';
+                                appSection.style.marginBottom = index < app.securityInfo.apps.length - 1 ? '24px' : '0';
+                                
+                                const appTitle = document.createElement('div');
+                                appTitle.className = 'modal-security-app-title';
+                                appTitle.textContent = suiteApp.name || 'App ' + (index + 1);
+                                appTitle.style.fontWeight = '600';
+                                appTitle.style.color = '#1e293b';
+                                appTitle.style.marginBottom = '12px';
+                                appTitle.style.fontSize = '15px';
+                                
+                                const appInfo = document.createElement('div');
+                                appInfo.className = 'modal-security-info';
+                                
+                                const fields = [
+                                    { label: 'SHA-256', value: suiteApp.sha256, id: 'sha256' },
+                                    { label: 'CDHash', value: suiteApp.cdhash, id: 'cdhash' },
+                                    { label: 'Signing ID', value: suiteApp.signingId, id: 'signingId' },
+                                    { label: 'Team ID', value: suiteApp.teamId, id: 'teamId' }
+                                ];
+                                
+                                fields.forEach(field => {
+                                    if (field.value) {
+                                        const item = document.createElement('div');
+                                        item.className = 'modal-security-item';
+                                        
+                                        const label = document.createElement('span');
+                                        label.className = 'modal-security-label';
+                                        label.textContent = field.label + ':';
+                                        
+                                        const value = document.createElement('code');
+                                        value.className = 'modal-security-value';
+                                        value.textContent = field.value;
+                                        setupCopyToClipboard(value, field.value);
+                                        
+                                        item.appendChild(label);
+                                        item.appendChild(value);
+                                        appInfo.appendChild(item);
+                                    }
+                                });
+                                
+                                appSection.appendChild(appTitle);
+                                appSection.appendChild(appInfo);
+                                securityMultiple.appendChild(appSection);
+                            });
+                            
+                            securityMultiple.style.display = 'block';
+                        }
+                    } else {
+                        // Single app view
+                        if (securitySingle) securitySingle.style.display = 'block';
+                        if (securityMultiple) securityMultiple.style.display = 'none';
+                        
+                        const sha256El = document.getElementById('modalSha256');
+                        const cdhashEl = document.getElementById('modalCdhash');
+                        const signingIDEl = document.getElementById('modalSigningID');
+                        const teamIDEl = document.getElementById('modalTeamID');
+                        
+                        if (sha256El) {
+                            sha256El.textContent = app.securityInfo.sha256 || 'N/A';
+                            setupCopyToClipboard(sha256El, app.securityInfo.sha256 || 'N/A');
+                        }
+                        if (cdhashEl) {
+                            cdhashEl.textContent = app.securityInfo.cdhash || 'N/A';
+                            setupCopyToClipboard(cdhashEl, app.securityInfo.cdhash || 'N/A');
+                        }
+                        if (signingIDEl) {
+                            signingIDEl.textContent = app.securityInfo.signingId || 'N/A';
+                            setupCopyToClipboard(signingIDEl, app.securityInfo.signingId || 'N/A');
+                        }
+                        if (teamIDEl) {
+                            teamIDEl.textContent = app.securityInfo.teamId || 'N/A';
+                            setupCopyToClipboard(teamIDEl, app.securityInfo.teamId || 'N/A');
+                        }
                     }
                     securityRow.style.display = 'block';
                 } else {
@@ -6022,7 +6103,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `December 24, 2025 at 9:13 AM CST`;
+                let timestampText = 'Last updated: ' + `December 24, 2025 at 9:31 AM CST`;
                 
                 // If macOS app has security info with lastUpdated, use that instead
                 if (app.platform === 'darwin' && app.securityInfo && app.securityInfo.lastUpdated) {

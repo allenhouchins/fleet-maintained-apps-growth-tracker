@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-24T15:13:40Z",
+  "lastUpdated": "2025-12-24T15:31:07Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -436,9 +436,6 @@
       "name": "Clockify Desktop",
       "version": "2.12.0",
       "sha256": "9d8b0cebb990f59f788eae1399a0c28ec5b54b01144c5d9b684e4b347c5f5c56",
-      "cdhash": "",
-      "signingId": "",
-      "teamId": "",
       "lastUpdated": "2025-12-20T20:06:51Z"
     },
     {
@@ -1764,12 +1761,30 @@
     {
       "slug": "teleport-suite/darwin",
       "name": "Teleport Suite",
-      "version": "18.5.1",
-      "sha256": "8db9e095155519464b3109fa17217a04b370c1b6e9409a6ab74e5fe33e6a5bb1",
-      "cdhash": "72682cbbdb6a0f66c0e8d5f76047237cbda9019c",
-      "signingId": "QH8AA5B8UP:QH8AA5B8UP.com.gravitational.teleport.tctl",
-      "teamId": "QH8AA5B8UP",
-      "lastUpdated": "2025-12-20T19:56:34Z"
+      "version": "18.6.0",
+      "lastUpdated": "2025-12-24T15:30:33Z",
+      "apps": [
+        {
+          "slug": "teleport-suite/darwin/tsh",
+          "name": "tsh",
+          "version": "18.6.0",
+          "sha256": "52460649f36b019cc9bfe9ccec2e457412460249530e1717d18f6df65609f9ec",
+          "cdhash": "9a3eb39c80e01ec806d4966710551f0f4c5c4d50",
+          "signingId": "QH8AA5B8UP:QH8AA5B8UP.com.gravitational.teleport.tsh",
+          "teamId": "QH8AA5B8UP",
+          "lastUpdated": "2025-12-24T15:30:51Z"
+        },
+        {
+          "slug": "teleport-suite/darwin/tctl",
+          "name": "tctl",
+          "version": "18.6.0",
+          "sha256": "94db1bd193d4704d24c041b3d9ace7304bd45c288c73c8762f463a21982e098e",
+          "cdhash": "123ad70505fb05dbec99a8fba6575134f48950d7",
+          "signingId": "QH8AA5B8UP:QH8AA5B8UP.com.gravitational.teleport.tctl",
+          "teamId": "QH8AA5B8UP",
+          "lastUpdated": "2025-12-24T15:31:06Z"
+        }
+      ]
     },
     {
       "slug": "textexpander/darwin",
