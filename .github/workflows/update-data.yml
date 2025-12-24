@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: write  # Required to commit changes
+  actions: write   # Required to trigger other workflows
 
 jobs:
   update:
@@ -60,3 +61,15 @@ jobs:
           git add data/apps_growth.csv data/app_versions.json data/version_history.json index.html feed.xml README.md
           git commit -m "Update growth data - $(date +'%Y-%m-%d %H:%M:%S UTC')"
           git push
+
+      - name: Trigger collect-security-info workflow
+        if: steps.verify-changed-files.outputs.changed == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'collect-security-info.yml',
+              ref: 'main'
+            });

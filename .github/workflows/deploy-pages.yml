@@ -9,10 +9,11 @@ on:
       - 'data/apps_growth.csv'
       - 'data/app_versions.json'
       - 'data/version_history.json'
+      - 'data/app_security_info.json'
       - 'feed.xml'
   workflow_dispatch:
   workflow_run:
-    workflows: ["Update Growth Data"]
+    workflows: ["Update Growth Data", "Collect macOS App Security Info"]
     types:
       - completed
     branches:
@@ -44,8 +45,8 @@ jobs:
         id: check-changes
         run: |
           if [ "${{ github.event_name }}" = "workflow_run" ]; then
-            # Check if index.html, data/apps_growth.csv, data/app_versions.json, data/version_history.json, or feed.xml changed in the last commit
-            if git diff HEAD~1 HEAD --name-only | grep -E "(index\.html|data/apps_growth\.csv|data/app_versions\.json|data/version_history\.json|feed\.xml)" > /dev/null; then
+            # Check if relevant files changed in the last commit
+            if git diff HEAD~1 HEAD --name-only | grep -E "(index\.html|data/apps_growth\.csv|data/app_versions\.json|data/version_history\.json|data/app_security_info\.json|feed\.xml)" > /dev/null; then
               echo "changed=true" >> $GITHUB_OUTPUT
             else
               echo "changed=false" >> $GITHUB_OUTPUT

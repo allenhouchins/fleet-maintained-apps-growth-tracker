@@ -1,17 +1,11 @@
 name: Collect macOS App Security Info
 
 on:
-  schedule:
-    # Run daily at 2 AM UTC (to avoid conflicts with hourly updates)
-    - cron: '0 2 * * *'
-  workflow_dispatch:  # Allow manual triggering
-  workflow_run:
-    workflows: ["Update Growth Data"]
-    types:
-      - completed
+  workflow_dispatch:  # Allow manual triggering or triggered by update-data workflow
 
 permissions:
   contents: write  # Required to commit changes
+  actions: write   # Required to trigger other workflows
 
 concurrency:
   group: "collect-security-info"
@@ -21,7 +15,7 @@ jobs:
   collect-security-info:
     runs-on: macos-latest  # Must run on macOS for santactl
     timeout-minutes: 120  # Longer timeout for app installations
-    if: github.event.workflow_run.conclusion == 'success' || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    # Always run when triggered (either manually or by update-data workflow)
 
     steps:
       - name: Checkout repository
@@ -164,4 +158,16 @@ jobs:
           git add data/app_security_info.json index.html
           git commit -m "Update macOS app security info - $(date +'%Y-%m-%d %H:%M:%S UTC')"
           git push
+
+      - name: Trigger deploy-pages workflow
+        if: steps.verify-changed-files.outputs.changed == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'deploy-pages.yml',
+              ref: 'main'
+            });
 
