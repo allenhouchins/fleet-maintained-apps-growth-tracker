@@ -537,7 +537,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: December 24, 2025 at 9:31 AM CST</p>
+            Last updated: December 24, 2025 at 9:42 AM CST</p>
         </div>
     </div>
 
@@ -594,7 +594,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: December 24, 2025 at 9:31 AM CST</p>
+                <p id="modalLastUpdated">Last updated: December 24, 2025 at 9:42 AM CST</p>
             </div>
         </div>
     </div>
@@ -5192,6 +5192,7 @@
                   "lastUpdated": "2025-12-24T15:30:33Z",
                   "apps": [
                     {
+                      "name": "tsh",
                       "sha256": "52460649f36b019cc9bfe9ccec2e457412460249530e1717d18f6df65609f9ec",
                       "cdhash": "9a3eb39c80e01ec806d4966710551f0f4c5c4d50",
                       "signingId": "QH8AA5B8UP:QH8AA5B8UP.com.gravitational.teleport.tsh",
@@ -5199,6 +5200,7 @@
                       "lastUpdated": "2025-12-24T15:30:51Z"
                     },
                     {
+                      "name": "tctl",
                       "sha256": "94db1bd193d4704d24c041b3d9ace7304bd45c288c73c8762f463a21982e098e",
                       "cdhash": "123ad70505fb05dbec99a8fba6575134f48950d7",
                       "signingId": "QH8AA5B8UP:QH8AA5B8UP.com.gravitational.teleport.tctl",
@@ -6103,7 +6105,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `December 24, 2025 at 9:31 AM CST`;
+                let timestampText = 'Last updated: ' + `December 24, 2025 at 9:42 AM CST`;
                 
                 // If macOS app has security info with lastUpdated, use that instead
                 if (app.platform === 'darwin' && app.securityInfo && app.securityInfo.lastUpdated) {
