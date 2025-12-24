@@ -41,11 +41,12 @@ type appData struct {
 }
 
 type appSecurityInfoData struct {
-	Sha256      string `json:"sha256"`
-	Cdhash      string `json:"cdhash"`
-	SigningID   string `json:"signingId"`
-	TeamID      string `json:"teamId"`
-	LastUpdated string `json:"lastUpdated,omitempty"`
+	Sha256      string                `json:"sha256,omitempty"`
+	Cdhash      string                `json:"cdhash,omitempty"`
+	SigningID   string                `json:"signingId,omitempty"`
+	TeamID      string                `json:"teamId,omitempty"`
+	LastUpdated string                `json:"lastUpdated,omitempty"`
+	Apps        []appSecurityInfoData `json:"apps,omitempty"` // For suites with multiple apps
 }
 
 type appsJSON struct {
@@ -53,12 +54,13 @@ type appsJSON struct {
 }
 
 type securityInfoItem struct {
-	Slug        string `json:"slug"`
-	Sha256      string `json:"sha256"`
-	Cdhash      string `json:"cdhash"`
-	SigningID   string `json:"signingId"`
-	TeamID      string `json:"teamId"`
-	LastUpdated string `json:"lastUpdated"`
+	Slug        string             `json:"slug"`
+	Sha256      string             `json:"sha256,omitempty"`
+	Cdhash      string             `json:"cdhash,omitempty"`
+	SigningID   string             `json:"signingId,omitempty"`
+	TeamID      string             `json:"teamId,omitempty"`
+	LastUpdated string             `json:"lastUpdated"`
+	Apps        []securityInfoItem `json:"apps,omitempty"` // For suites with multiple apps
 }
 
 type securityInfoData struct {
@@ -224,13 +226,29 @@ func mergeSecurityInfo(apps *appsJSON, security *securityInfoData) {
 	for i := range apps.Apps {
 		if apps.Apps[i].Platform == "darwin" {
 			if sec, exists := securityMap[apps.Apps[i].Slug]; exists {
-				apps.Apps[i].SecurityInfo = &appSecurityInfoData{
+				securityData := &appSecurityInfoData{
 					Sha256:      sec.Sha256,
 					Cdhash:      sec.Cdhash,
 					SigningID:   sec.SigningID,
 					TeamID:      sec.TeamID,
 					LastUpdated: sec.LastUpdated,
 				}
+
+				// If this is a suite with multiple apps, include them
+				if len(sec.Apps) > 0 {
+					securityData.Apps = make([]appSecurityInfoData, len(sec.Apps))
+					for j, app := range sec.Apps {
+						securityData.Apps[j] = appSecurityInfoData{
+							Sha256:      app.Sha256,
+							Cdhash:      app.Cdhash,
+							SigningID:   app.SigningID,
+							TeamID:      app.TeamID,
+							LastUpdated: app.LastUpdated,
+						}
+					}
+				}
+
+				apps.Apps[i].SecurityInfo = securityData
 			}
 		}
 	}
@@ -862,23 +880,28 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
                 </div>
                 <div class="modal-info-row" id="modalSecurityRow" style="display: none;">
                     <div class="modal-info-label">Security Information</div>
-                    <div class="modal-security-info">
-                        <div class="modal-security-item">
-                            <span class="modal-security-label">SHA-256:</span>
-                            <code class="modal-security-value" id="modalSha256"></code>
+                    <div id="modalSecurityContainer">
+                        <!-- Single app security info (legacy) -->
+                        <div class="modal-security-info" id="modalSecuritySingle">
+                            <div class="modal-security-item">
+                                <span class="modal-security-label">SHA-256:</span>
+                                <code class="modal-security-value" id="modalSha256"></code>
+                            </div>
+                            <div class="modal-security-item">
+                                <span class="modal-security-label">CDHash:</span>
+                                <code class="modal-security-value" id="modalCdhash"></code>
+                            </div>
+                            <div class="modal-security-item">
+                                <span class="modal-security-label">Signing ID:</span>
+                                <code class="modal-security-value" id="modalSigningID"></code>
+                            </div>
+                            <div class="modal-security-item">
+                                <span class="modal-security-label">Team ID:</span>
+                                <code class="modal-security-value" id="modalTeamID"></code>
+                            </div>
                         </div>
-                        <div class="modal-security-item">
-                            <span class="modal-security-label">CDHash:</span>
-                            <code class="modal-security-value" id="modalCdhash"></code>
-                        </div>
-                        <div class="modal-security-item">
-                            <span class="modal-security-label">Signing ID:</span>
-                            <code class="modal-security-value" id="modalSigningID"></code>
-                        </div>
-                        <div class="modal-security-item">
-                            <span class="modal-security-label">Team ID:</span>
-                            <code class="modal-security-value" id="modalTeamID"></code>
-                        </div>
+                        <!-- Multiple apps security info (suites) -->
+                        <div id="modalSecurityMultiple"></div>
                     </div>
                 </div>
                 <div class="modal-info-row" id="modalInstallerRow" style="display: none; margin-top: 24px;">
@@ -1254,28 +1277,95 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
             
             // Set security info (macOS only)
             const securityRow = document.getElementById('modalSecurityRow');
+            const securitySingle = document.getElementById('modalSecuritySingle');
+            const securityMultiple = document.getElementById('modalSecurityMultiple');
+            
             if (securityRow) {
                 if (app.platform === 'darwin' && app.securityInfo) {
-                    const sha256El = document.getElementById('modalSha256');
-                    const cdhashEl = document.getElementById('modalCdhash');
-                    const signingIDEl = document.getElementById('modalSigningID');
-                    const teamIDEl = document.getElementById('modalTeamID');
-                    
-                    if (sha256El) {
-                        sha256El.textContent = app.securityInfo.sha256 || 'N/A';
-                        setupCopyToClipboard(sha256El, app.securityInfo.sha256 || 'N/A');
-                    }
-                    if (cdhashEl) {
-                        cdhashEl.textContent = app.securityInfo.cdhash || 'N/A';
-                        setupCopyToClipboard(cdhashEl, app.securityInfo.cdhash || 'N/A');
-                    }
-                    if (signingIDEl) {
-                        signingIDEl.textContent = app.securityInfo.signingId || 'N/A';
-                        setupCopyToClipboard(signingIDEl, app.securityInfo.signingId || 'N/A');
-                    }
-                    if (teamIDEl) {
-                        teamIDEl.textContent = app.securityInfo.teamId || 'N/A';
-                        setupCopyToClipboard(teamIDEl, app.securityInfo.teamId || 'N/A');
+                    // Check if this is a suite with multiple apps
+                    if (app.securityInfo.apps && app.securityInfo.apps.length > 0) {
+                        // Hide single app view, show multiple apps view
+                        if (securitySingle) securitySingle.style.display = 'none';
+                        if (securityMultiple) {
+                            securityMultiple.innerHTML = '';
+                            
+                            // Create a section for each app in the suite
+                            app.securityInfo.apps.forEach((suiteApp, index) => {
+                                const appSection = document.createElement('div');
+                                appSection.className = 'modal-security-app-section';
+                                appSection.style.marginBottom = index < app.securityInfo.apps.length - 1 ? '24px' : '0';
+                                
+                                const appTitle = document.createElement('div');
+                                appTitle.className = 'modal-security-app-title';
+                                appTitle.textContent = suiteApp.name || 'App ' + (index + 1);
+                                appTitle.style.fontWeight = '600';
+                                appTitle.style.color = '#1e293b';
+                                appTitle.style.marginBottom = '12px';
+                                appTitle.style.fontSize = '15px';
+                                
+                                const appInfo = document.createElement('div');
+                                appInfo.className = 'modal-security-info';
+                                
+                                const fields = [
+                                    { label: 'SHA-256', value: suiteApp.sha256, id: 'sha256' },
+                                    { label: 'CDHash', value: suiteApp.cdhash, id: 'cdhash' },
+                                    { label: 'Signing ID', value: suiteApp.signingId, id: 'signingId' },
+                                    { label: 'Team ID', value: suiteApp.teamId, id: 'teamId' }
+                                ];
+                                
+                                fields.forEach(field => {
+                                    if (field.value) {
+                                        const item = document.createElement('div');
+                                        item.className = 'modal-security-item';
+                                        
+                                        const label = document.createElement('span');
+                                        label.className = 'modal-security-label';
+                                        label.textContent = field.label + ':';
+                                        
+                                        const value = document.createElement('code');
+                                        value.className = 'modal-security-value';
+                                        value.textContent = field.value;
+                                        setupCopyToClipboard(value, field.value);
+                                        
+                                        item.appendChild(label);
+                                        item.appendChild(value);
+                                        appInfo.appendChild(item);
+                                    }
+                                });
+                                
+                                appSection.appendChild(appTitle);
+                                appSection.appendChild(appInfo);
+                                securityMultiple.appendChild(appSection);
+                            });
+                            
+                            securityMultiple.style.display = 'block';
+                        }
+                    } else {
+                        // Single app view
+                        if (securitySingle) securitySingle.style.display = 'block';
+                        if (securityMultiple) securityMultiple.style.display = 'none';
+                        
+                        const sha256El = document.getElementById('modalSha256');
+                        const cdhashEl = document.getElementById('modalCdhash');
+                        const signingIDEl = document.getElementById('modalSigningID');
+                        const teamIDEl = document.getElementById('modalTeamID');
+                        
+                        if (sha256El) {
+                            sha256El.textContent = app.securityInfo.sha256 || 'N/A';
+                            setupCopyToClipboard(sha256El, app.securityInfo.sha256 || 'N/A');
+                        }
+                        if (cdhashEl) {
+                            cdhashEl.textContent = app.securityInfo.cdhash || 'N/A';
+                            setupCopyToClipboard(cdhashEl, app.securityInfo.cdhash || 'N/A');
+                        }
+                        if (signingIDEl) {
+                            signingIDEl.textContent = app.securityInfo.signingId || 'N/A';
+                            setupCopyToClipboard(signingIDEl, app.securityInfo.signingId || 'N/A');
+                        }
+                        if (teamIDEl) {
+                            teamIDEl.textContent = app.securityInfo.teamId || 'N/A';
+                            setupCopyToClipboard(teamIDEl, app.securityInfo.teamId || 'N/A');
+                        }
                     }
                     securityRow.style.display = 'block';
                 } else {

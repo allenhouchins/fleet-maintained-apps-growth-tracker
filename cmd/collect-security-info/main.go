@@ -37,14 +37,15 @@ type securityAppVersionsData struct {
 }
 
 type appSecurityInfo struct {
-	Slug        string `json:"slug"`
-	Name        string `json:"name"`
-	Version     string `json:"version"`
-	Sha256      string `json:"sha256"`
-	Cdhash      string `json:"cdhash"`
-	SigningID   string `json:"signingId"`
-	TeamID      string `json:"teamId"`
-	LastUpdated string `json:"lastUpdated"`
+	Slug        string            `json:"slug"`
+	Name        string            `json:"name"`
+	Version     string            `json:"version"`
+	Sha256      string            `json:"sha256,omitempty"`
+	Cdhash      string            `json:"cdhash,omitempty"`
+	SigningID   string            `json:"signingId,omitempty"`
+	TeamID      string            `json:"teamId,omitempty"`
+	LastUpdated string            `json:"lastUpdated"`
+	Apps        []appSecurityInfo `json:"apps,omitempty"` // For suites with multiple apps
 }
 
 type securityInfoData struct {
@@ -336,6 +337,11 @@ func collectSecurityInfoForApp(app securityAppVersionInfo) (appSecurityInfo, err
 		return securityInfo, fmt.Errorf("failed to install app: %w", err)
 	}
 
+	// Special handling for Teleport Suite - it installs multiple apps
+	if app.Name == "Teleport Suite" {
+		return collectTeleportSuiteSecurityInfo(app)
+	}
+
 	// Verify the app exists
 	if appPath == "" {
 		return securityInfo, fmt.Errorf("installApp returned empty path")
@@ -368,6 +374,73 @@ func collectSecurityInfoForApp(app securityAppVersionInfo) (appSecurityInfo, err
 	}
 
 	return securityInfo, nil
+}
+
+func collectTeleportSuiteSecurityInfo(app securityAppVersionInfo) (appSecurityInfo, error) {
+	var suiteInfo appSecurityInfo
+	suiteInfo.Slug = app.Slug
+	suiteInfo.Name = app.Name
+	suiteInfo.Version = app.Version
+	suiteInfo.LastUpdated = time.Now().UTC().Format(time.RFC3339)
+
+	// Wait for installation to complete
+	time.Sleep(3 * time.Second)
+
+	// Find both tsh.app and tctl.app
+	tshPath := filepath.Join(applicationsDir, "tsh.app")
+	tctlPath := filepath.Join(applicationsDir, "tctl.app")
+
+	var apps []appSecurityInfo
+
+	// Collect security info for tsh.app
+	if _, err := os.Stat(tshPath); err == nil {
+		fmt.Printf("  📦 Found tsh.app, collecting security info...\n")
+		time.Sleep(2 * time.Second)
+		santactlOutput, err := runSantactl(tshPath)
+		if err == nil {
+			tshInfo, err := parseSantactlOutput(santactlOutput, securityAppVersionInfo{
+				Slug:    app.Slug + "/tsh",
+				Name:    "tsh",
+				Version: app.Version,
+			})
+			if err == nil {
+				tshInfo.Name = "tsh"
+				apps = append(apps, tshInfo)
+			}
+		}
+	}
+
+	// Collect security info for tctl.app
+	if _, err := os.Stat(tctlPath); err == nil {
+		fmt.Printf("  📦 Found tctl.app, collecting security info...\n")
+		time.Sleep(2 * time.Second)
+		santactlOutput, err := runSantactl(tctlPath)
+		if err == nil {
+			tctlInfo, err := parseSantactlOutput(santactlOutput, securityAppVersionInfo{
+				Slug:    app.Slug + "/tctl",
+				Name:    "tctl",
+				Version: app.Version,
+			})
+			if err == nil {
+				tctlInfo.Name = "tctl"
+				apps = append(apps, tctlInfo)
+			}
+		}
+	}
+
+	if len(apps) == 0 {
+		uninstallApp(app)
+		return suiteInfo, fmt.Errorf("could not find tsh.app or tctl.app after installation")
+	}
+
+	suiteInfo.Apps = apps
+
+	// Uninstall apps
+	if err := uninstallApp(app); err != nil {
+		fmt.Printf("  ⚠️  Warning: Failed to uninstall app: %v\n", err)
+	}
+
+	return suiteInfo, nil
 }
 
 func downloadInstaller(url, slug string) (string, error) {
@@ -2084,6 +2157,28 @@ func parseSantactlOutput(output []byte, app securityAppVersionInfo) (appSecurity
 
 func uninstallApp(app securityAppVersionInfo) error {
 	fmt.Printf("  🗑️  Uninstalling app...\n")
+
+	// Special handling for Teleport Suite - remove both apps
+	if app.Name == "Teleport Suite" {
+		tshPath := filepath.Join(applicationsDir, "tsh.app")
+		tctlPath := filepath.Join(applicationsDir, "tctl.app")
+		
+		// Try regular removal first
+		os.RemoveAll(tshPath)
+		os.RemoveAll(tctlPath)
+		
+		// If regular removal fails, try with sudo
+		if _, err := os.Stat(tshPath); err == nil {
+			fmt.Printf("  🔐 Using sudo to remove protected files...\n")
+			exec.Command("sudo", "rm", "-rf", tshPath).Run()
+		}
+		if _, err := os.Stat(tctlPath); err == nil {
+			fmt.Printf("  🔐 Using sudo to remove protected files...\n")
+			exec.Command("sudo", "rm", "-rf", tctlPath).Run()
+		}
+		
+		return nil
+	}
 
 	// Find the installed app (use same logic as installation)
 	appPath, err := findInstalledApp(app)
