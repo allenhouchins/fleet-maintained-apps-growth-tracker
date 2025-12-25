@@ -649,7 +649,7 @@ func extractFromZIP(zipPath string, app securityAppVersionInfo) (string, error) 
 	// Check if we extracted a nested archive (e.g., .appxupload which is a ZIP containing .appx)
 	// Look for .appxupload, .appx, .appxbundle, or .msix files
 	var nestedArchives []string
-	err := filepath.Walk(extractDir, func(path string, info os.FileInfo, err error) error {
+	_ = filepath.Walk(extractDir, func(path string, info os.FileInfo, err error) error {
 		if err != nil {
 			return nil
 		}
