@@ -5849,7 +5849,9 @@
                                 ];
                                 
                                 fields.forEach(field => {
-                                    if (field.value) {
+                                    // Check if value exists and is not empty string
+                                    const value = field.value;
+                                    if (value !== undefined && value !== null && value !== '') {
                                         const item = document.createElement('div');
                                         item.className = 'modal-security-item';
                                         
@@ -5857,13 +5859,13 @@
                                         label.className = 'modal-security-label';
                                         label.textContent = field.label + ':';
                                         
-                                        const value = document.createElement('code');
-                                        value.className = 'modal-security-value';
-                                        value.textContent = field.value;
-                                        setupCopyToClipboard(value, field.value);
+                                        const valueElement = document.createElement('code');
+                                        valueElement.className = 'modal-security-value';
+                                        valueElement.textContent = value;
+                                        setupCopyToClipboard(valueElement, value);
                                         
                                         item.appendChild(label);
-                                        item.appendChild(value);
+                                        item.appendChild(valueElement);
                                         appInfo.appendChild(item);
                                     }
                                 });
