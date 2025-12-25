@@ -318,9 +318,20 @@ func loadSecurityInfo() (*securityInfoData, error) {
 		return nil, err
 	}
 
+	// Check if file contains HTML (common issue if file was overwritten)
+	dataStr := string(data)
+	if strings.HasPrefix(strings.TrimSpace(dataStr), "<") {
+		return nil, fmt.Errorf("file appears to contain HTML instead of JSON (starts with '<')")
+	}
+
 	var security securityInfoData
 	if err := json.Unmarshal(data, &security); err != nil {
-		return nil, err
+		// Provide more context about the error
+		preview := dataStr
+		if len(preview) > 200 {
+			preview = preview[:200] + "..."
+		}
+		return nil, fmt.Errorf("failed to parse JSON (file may be corrupted or contain non-JSON content). Preview: %q. Error: %w", preview, err)
 	}
 
 	return &security, nil
