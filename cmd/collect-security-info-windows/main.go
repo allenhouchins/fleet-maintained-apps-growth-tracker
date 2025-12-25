@@ -551,40 +551,57 @@ type signatureInfo struct {
 func getAuthenticodeSignature(exePath string) (signatureInfo, error) {
 	var sigInfo signatureInfo
 
-	// Use PowerShell Get-AuthenticodeSignature cmdlet
-	// Escape single quotes in path for PowerShell
-	escapedPath := strings.ReplaceAll(exePath, "'", "''")
-	psScript := fmt.Sprintf(`
-		$ErrorActionPreference = "Continue"
-		try {
-			# Import module if not already loaded
-			if (-not (Get-Module -Name Microsoft.PowerShell.Security)) {
-				Import-Module Microsoft.PowerShell.Security -ErrorAction SilentlyContinue
-			}
-			
-			$sig = Get-AuthenticodeSignature '%s' -ErrorAction Stop
-			
-			# Try to get info even if status is not Valid (might still have cert info)
-			if ($sig.SignerCertificate) {
-				$cert = $sig.SignerCertificate
-				$publisher = if ($cert.Subject) { $cert.Subject } else { "" }
-				$issuer = if ($cert.Issuer) { $cert.Issuer } else { "" }
-				$serial = if ($cert.SerialNumber) { $cert.SerialNumber } else { "" }
-				$thumbprint = if ($cert.Thumbprint) { $cert.Thumbprint } else { "" }
-				$timestamp = if ($sig.TimeStamperCertificate) { $sig.TimeStamperCertificate.Subject } else { "" }
-				Write-Output "$publisher|$issuer|$serial|$thumbprint|$timestamp"
-			} else {
-				Write-Error "No signer certificate found. Status: $($sig.Status)"
-			}
-		} catch {
-			Write-Error $_.Exception.Message
-		}
-	`, escapedPath)
+	// Try PowerShell first
+	psResult, err := getSignatureViaPowerShell(exePath)
+	if err == nil {
+		return psResult, nil
+	}
 
-	cmd := exec.Command("powershell", "-NoProfile", "-Command", psScript)
+	// Fallback to signtool.exe if available
+	signtoolResult, err := getSignatureViaSigntool(exePath)
+	if err == nil {
+		return signtoolResult, nil
+	}
+
+	// If both fail, return the error from PowerShell (more descriptive)
+	return sigInfo, fmt.Errorf("PowerShell failed: %w; signtool also unavailable", err)
+}
+
+func getSignatureViaPowerShell(exePath string) (signatureInfo, error) {
+	var sigInfo signatureInfo
+
+	// Use a file-based approach to avoid PowerShell type conflicts
+	// Create a temporary PowerShell script file
+	psScriptFile := filepath.Join(tempDir, "get-signature.ps1")
+	defer os.Remove(psScriptFile)
+
+	// Escape backslashes and quotes for PowerShell
+	escapedPath := strings.ReplaceAll(exePath, "`", "``")
+	escapedPath = strings.ReplaceAll(escapedPath, "$", "`$")
+	
+	psScript := fmt.Sprintf(`$sig = Get-AuthenticodeSignature -FilePath '%s'
+if ($sig -and $sig.SignerCertificate) {
+    $cert = $sig.SignerCertificate
+    $publisher = $cert.Subject
+    $issuer = $cert.Issuer
+    $serial = $cert.SerialNumber
+    $thumbprint = $cert.Thumbprint
+    $timestamp = if ($sig.TimeStamperCertificate) { $sig.TimeStamperCertificate.Subject } else { "" }
+    Write-Output "$publisher|$issuer|$serial|$thumbprint|$timestamp"
+} else {
+    Write-Error "No certificate found"
+    exit 1
+}`, escapedPath)
+
+	if err := os.WriteFile(psScriptFile, []byte(psScript), 0644); err != nil {
+		return sigInfo, fmt.Errorf("failed to create PowerShell script: %w", err)
+	}
+
+	// Run the script with minimal profile to avoid type conflicts
+	cmd := exec.Command("powershell", "-NoProfile", "-ExecutionPolicy", "Bypass", "-File", psScriptFile)
 	output, err := cmd.CombinedOutput()
 	if err != nil {
-		return sigInfo, fmt.Errorf("failed to get signature: %w (output: %s)", err, string(output))
+		return sigInfo, fmt.Errorf("PowerShell failed: %w (output: %s)", err, string(output))
 	}
 
 	// Parse output
@@ -593,17 +610,94 @@ func getAuthenticodeSignature(exePath string) (signatureInfo, error) {
 		return sigInfo, fmt.Errorf("empty output from PowerShell")
 	}
 
-	parts := strings.Split(outputStr, "|")
+	// Filter out error messages from output
+	lines := strings.Split(outputStr, "\n")
+	var dataLine string
+	for _, line := range lines {
+		line = strings.TrimSpace(line)
+		if strings.Contains(line, "|") && !strings.Contains(line, "Error") && !strings.Contains(line, "Exception") {
+			dataLine = line
+			break
+		}
+	}
+
+	if dataLine == "" {
+		return sigInfo, fmt.Errorf("no valid data in output: %s", outputStr)
+	}
+
+	parts := strings.Split(dataLine, "|")
 	if len(parts) >= 4 {
-		sigInfo.Publisher = parts[0]
-		sigInfo.Issuer = parts[1]
-		sigInfo.SerialNumber = parts[2]
-		sigInfo.Thumbprint = parts[3]
-		if len(parts) >= 5 && parts[4] != "" {
-			sigInfo.Timestamp = parts[4]
+		sigInfo.Publisher = strings.TrimSpace(parts[0])
+		sigInfo.Issuer = strings.TrimSpace(parts[1])
+		sigInfo.SerialNumber = strings.TrimSpace(parts[2])
+		sigInfo.Thumbprint = strings.TrimSpace(parts[3])
+		if len(parts) >= 5 && strings.TrimSpace(parts[4]) != "" {
+			sigInfo.Timestamp = strings.TrimSpace(parts[4])
 		}
 	} else {
-		return sigInfo, fmt.Errorf("unexpected output format: %s", outputStr)
+		return sigInfo, fmt.Errorf("unexpected output format: %s", dataLine)
+	}
+
+	return sigInfo, nil
+}
+
+func getSignatureViaSigntool(exePath string) (signatureInfo, error) {
+	var sigInfo signatureInfo
+
+	// Try to find signtool.exe in common locations
+	signtoolPaths := []string{
+		"C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64\\signtool.exe",
+		"C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\signtool.exe",
+		"C:\\Program Files\\Windows Kits\\10\\bin\\x64\\signtool.exe",
+	}
+
+	var signtoolPath string
+	for _, path := range signtoolPaths {
+		if _, err := os.Stat(path); err == nil {
+			signtoolPath = path
+			break
+		}
+	}
+
+	if signtoolPath == "" {
+		return sigInfo, fmt.Errorf("signtool.exe not found")
+	}
+
+	// Use signtool to verify and get certificate info
+	cmd := exec.Command(signtoolPath, "verify", "/pa", "/v", exePath)
+	output, err := cmd.CombinedOutput()
+	if err != nil {
+		return sigInfo, fmt.Errorf("signtool verify failed: %w", err)
+	}
+
+	// Parse signtool output for certificate information
+	outputStr := string(output)
+	
+	// Extract certificate info from signtool output
+	// This is a simplified parser - signtool output format can vary
+	lines := strings.Split(outputStr, "\n")
+	for _, line := range lines {
+		line = strings.TrimSpace(line)
+		if strings.Contains(line, "Subject:") {
+			sigInfo.Publisher = strings.TrimPrefix(line, "Subject:")
+			sigInfo.Publisher = strings.TrimSpace(sigInfo.Publisher)
+		}
+		if strings.Contains(line, "Issuer:") {
+			sigInfo.Issuer = strings.TrimPrefix(line, "Issuer:")
+			sigInfo.Issuer = strings.TrimSpace(sigInfo.Issuer)
+		}
+		if strings.Contains(line, "Serial Number:") {
+			sigInfo.SerialNumber = strings.TrimPrefix(line, "Serial Number:")
+			sigInfo.SerialNumber = strings.TrimSpace(sigInfo.SerialNumber)
+		}
+		if strings.Contains(line, "Thumbprint:") {
+			sigInfo.Thumbprint = strings.TrimPrefix(line, "Thumbprint:")
+			sigInfo.Thumbprint = strings.TrimSpace(sigInfo.Thumbprint)
+		}
+	}
+
+	if sigInfo.Publisher == "" {
+		return sigInfo, fmt.Errorf("could not extract certificate info from signtool output")
 	}
 
 	return sigInfo, nil
