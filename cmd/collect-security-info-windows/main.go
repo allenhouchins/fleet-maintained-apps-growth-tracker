@@ -1,6 +1,7 @@
 package main
 
 import (
+	"bytes"
 	"crypto/sha256"
 	"encoding/hex"
 	"encoding/json"
@@ -390,7 +391,58 @@ func downloadInstaller(url, slug string) (string, error) {
 	}
 
 	// Determine file extension from URL
-	ext := filepath.Ext(url)
+	// Handle URLs with version numbers that might confuse extension detection
+	ext := ""
+	
+	// Remove query string and fragment first
+	urlPath := url
+	if idx := strings.Index(urlPath, "?"); idx != -1 {
+		urlPath = urlPath[:idx]
+	}
+	if idx := strings.Index(urlPath, "#"); idx != -1 {
+		urlPath = urlPath[:idx]
+	}
+	
+	// Check for known installer extensions in order of preference
+	knownExts := []string{".msi", ".exe", ".zip", ".msix", ".appx"}
+	urlPathLower := strings.ToLower(urlPath)
+	
+	// Check for extension at the end of URL
+	for _, knownExt := range knownExts {
+		if strings.HasSuffix(urlPathLower, knownExt) {
+			ext = knownExt
+			break
+		}
+	}
+	
+	// If no extension found, try filepath.Ext but filter out version-like extensions
+	if ext == "" {
+		candidateExt := filepath.Ext(urlPath)
+		candidateExtLower := strings.ToLower(candidateExt)
+		// Check if it's a known extension
+		for _, knownExt := range knownExts {
+			if candidateExtLower == knownExt {
+				ext = candidateExt
+				break
+			}
+		}
+		// If extension looks like a version number (starts with digit), try to find real extension
+		if ext == "" && len(candidateExt) > 1 {
+			if candidateExt[1] >= '0' && candidateExt[1] <= '9' {
+				// Try to find extension before version number
+				base := strings.TrimSuffix(urlPath, candidateExt)
+				realExt := filepath.Ext(base)
+				realExtLower := strings.ToLower(realExt)
+				for _, knownExt := range knownExts {
+					if realExtLower == knownExt {
+						ext = realExt
+						break
+					}
+				}
+			}
+		}
+	}
+	
 	if ext == "" {
 		ext = ".exe" // Default to .exe
 	}
@@ -450,16 +502,42 @@ func extractFromMSI(msiPath string, app securityAppVersionInfo) (string, error) 
 		return "", err
 	}
 
-	// Try to extract using msiexec
+	// Try to extract using msiexec /a (administrative install)
+	// This extracts files without installing
 	cmd := exec.Command("msiexec", "/a", msiPath, "/qn", "TARGETDIR="+extractDir)
+	var stderr bytes.Buffer
+	cmd.Stderr = &stderr
 	if err := cmd.Run(); err != nil {
-		// If extraction fails, try to find the main executable in the installer
-		// For now, return the MSI path itself as a fallback
-		return msiPath, nil
+		// If /a fails, try using lessmsi or other extraction methods
+		// For now, check if any files were extracted anyway
+		if entries, err := os.ReadDir(extractDir); err == nil && len(entries) > 0 {
+			// Some files were extracted, try to find executable
+			if exe, err := findMainExecutable(extractDir, app); err == nil {
+				return exe, nil
+			}
+		}
+		return "", fmt.Errorf("MSI extraction failed: %w (stderr: %s)", err, stderr.String())
 	}
 
+	// Wait a moment for extraction to complete
+	time.Sleep(2 * time.Second)
+
 	// Find the main executable
-	return findMainExecutable(extractDir, app)
+	exePath, err := findMainExecutable(extractDir, app)
+	if err != nil {
+		// List what was extracted for debugging
+		var extractedFiles []string
+		filepath.Walk(extractDir, func(path string, info os.FileInfo, err error) error {
+			if err == nil && !info.IsDir() {
+				relPath, _ := filepath.Rel(extractDir, path)
+				extractedFiles = append(extractedFiles, relPath)
+			}
+			return nil
+		})
+		return "", fmt.Errorf("no executable found after MSI extraction: %w (extracted files: %v)", err, extractedFiles[:min(10, len(extractedFiles))])
+	}
+
+	return exePath, nil
 }
 
 func extractFromEXE(exePath string, app securityAppVersionInfo) (string, error) {
@@ -495,13 +573,32 @@ func extractFromZIP(zipPath string, app securityAppVersionInfo) (string, error) 
 }
 
 func findMainExecutable(dir string, app securityAppVersionInfo) (string, error) {
-	// Look for .exe files
+	// Look for .exe files, prioritizing main executables
 	var exeFiles []string
+	var mainExes []string // Executables that look like main apps (not helpers, installers, etc.)
+	
 	err := filepath.Walk(dir, func(path string, info os.FileInfo, err error) error {
 		if err != nil {
 			return nil
 		}
 		if strings.HasSuffix(strings.ToLower(path), ".exe") && !info.IsDir() {
+			exeName := strings.ToLower(filepath.Base(path))
+			// Skip obvious helper/installer files
+			skipPatterns := []string{
+				"installer", "setup", "uninstall", "helper", "service", "daemon",
+				"updater", "update", "launcher", "bootstrapper", "msiexec",
+			}
+			shouldSkip := false
+			for _, pattern := range skipPatterns {
+				if strings.Contains(exeName, pattern) {
+					shouldSkip = true
+					break
+				}
+			}
+			
+			if !shouldSkip {
+				mainExes = append(mainExes, path)
+			}
 			exeFiles = append(exeFiles, path)
 		}
 		return nil
@@ -517,11 +614,54 @@ func findMainExecutable(dir string, app securityAppVersionInfo) (string, error) 
 
 	// Prefer executables that match the app name
 	appNameLower := strings.ToLower(app.Name)
-	for _, exe := range exeFiles {
+	appNameWords := strings.Fields(appNameLower)
+	
+	// First, try main executables that match app name
+	for _, exe := range mainExes {
 		exeName := strings.ToLower(filepath.Base(exe))
-		if strings.Contains(exeName, appNameLower) || strings.Contains(appNameLower, exeName) {
+		exeBase := strings.TrimSuffix(exeName, ".exe")
+		
+		// Exact match
+		if exeBase == appNameLower {
 			return exe, nil
 		}
+		
+		// Check if exe name contains key words from app name
+		matches := 0
+		for _, word := range appNameWords {
+			if len(word) > 2 && strings.Contains(exeBase, word) {
+				matches++
+			}
+		}
+		if matches > 0 {
+			return exe, nil
+		}
+	}
+	
+	// If no match in main exes, try all exes
+	for _, exe := range exeFiles {
+		exeName := strings.ToLower(filepath.Base(exe))
+		exeBase := strings.TrimSuffix(exeName, ".exe")
+		
+		if exeBase == appNameLower {
+			return exe, nil
+		}
+		
+		// Check if exe name contains key words from app name
+		matches := 0
+		for _, word := range appNameWords {
+			if len(word) > 2 && strings.Contains(exeBase, word) {
+				matches++
+			}
+		}
+		if matches > 0 {
+			return exe, nil
+		}
+	}
+
+	// If we have main executables, prefer the first one
+	if len(mainExes) > 0 {
+		return mainExes[0], nil
 	}
 
 	// Return the first executable found
@@ -797,5 +937,12 @@ func uninstallApp(app securityAppVersionInfo) error {
 func cleanupTempFiles() {
 	os.RemoveAll(tempDir)
 	os.MkdirAll(tempDir, 0755)
+}
+
+func min(a, b int) int {
+	if a < b {
+		return a
+	}
+	return b
 }
 
