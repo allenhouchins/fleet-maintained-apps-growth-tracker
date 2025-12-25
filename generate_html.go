@@ -1354,7 +1354,9 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
                                 ];
                                 
                                 fields.forEach(field => {
-                                    if (field.value) {
+                                    // Check if value exists and is not empty string
+                                    const value = field.value;
+                                    if (value !== undefined && value !== null && value !== '') {
                                         const item = document.createElement('div');
                                         item.className = 'modal-security-item';
                                         
@@ -1362,13 +1364,13 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
                                         label.className = 'modal-security-label';
                                         label.textContent = field.label + ':';
                                         
-                                        const value = document.createElement('code');
-                                        value.className = 'modal-security-value';
-                                        value.textContent = field.value;
-                                        setupCopyToClipboard(value, field.value);
+                                        const valueElement = document.createElement('code');
+                                        valueElement.className = 'modal-security-value';
+                                        valueElement.textContent = value;
+                                        setupCopyToClipboard(valueElement, value);
                                         
                                         item.appendChild(label);
-                                        item.appendChild(value);
+                                        item.appendChild(valueElement);
                                         appInfo.appendChild(item);
                                     }
                                 });
@@ -1414,10 +1416,13 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
                             
                             let hasFields = false;
                             console.log('Single app security fields:', fields);
+                            console.log('Security info object:', app.securityInfo);
                             fields.forEach(field => {
-                                if (field.value) {
+                                // Check if value exists and is not empty string
+                                const value = field.value;
+                                if (value !== undefined && value !== null && value !== '') {
                                     hasFields = true;
-                                    console.log('Adding field:', field.label, '=', field.value);
+                                    console.log('Adding field:', field.label, '=', value);
                                     const item = document.createElement('div');
                                     item.className = 'modal-security-item';
                                     
@@ -1425,14 +1430,16 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
                                     label.className = 'modal-security-label';
                                     label.textContent = field.label + ':';
                                     
-                                    const value = document.createElement('code');
-                                    value.className = 'modal-security-value';
-                                    value.textContent = field.value;
-                                    setupCopyToClipboard(value, field.value);
+                                    const valueElement = document.createElement('code');
+                                    valueElement.className = 'modal-security-value';
+                                    valueElement.textContent = value;
+                                    setupCopyToClipboard(valueElement, value);
                                     
                                     item.appendChild(label);
-                                    item.appendChild(value);
+                                    item.appendChild(valueElement);
                                     securityContainer.appendChild(item);
+                                } else {
+                                    console.log('Skipping field:', field.label, 'value:', value, 'type:', typeof value);
                                 }
                             });
                             
