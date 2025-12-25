@@ -8,7 +8,7 @@ permissions:
   actions: write   # Required to trigger other workflows
 
 concurrency:
-  group: "collect-security-info-windows"
+  group: "collect-security-info"  # Same group as macOS workflow to prevent concurrent runs
   cancel-in-progress: false  # Don't cancel in-progress runs, skip new ones instead
 
 jobs:
