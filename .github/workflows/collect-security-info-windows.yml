@@ -56,8 +56,25 @@ jobs:
           $timestamp = Get-Date -Format 'yyyy-MM-dd HH:mm:ss UTC'
           git commit -m "Update Windows app security info - $timestamp"
           # Pull and merge any remote changes before pushing
-          git pull --rebase origin main || git pull --no-edit origin main
-          git push
+          # Use merge strategy and resolve conflicts by regenerating index.html
+          git fetch origin main
+          # Try to merge remote changes
+          git merge origin/main -m "Merge remote changes" 2>&1
+          if ($LASTEXITCODE -ne 0) {
+            # If merge fails due to conflicts, resolve by regenerating index.html
+            Write-Host "Merge conflict detected, regenerating index.html..."
+            if (Test-Path "index.html") {
+              # Regenerate index.html to resolve conflicts
+              go run generate_html.go
+              git add index.html
+              git commit -m "Resolve merge conflict by regenerating index.html"
+            } else {
+              # If no index.html, just abort and let the workflow fail
+              git merge --abort
+              exit 1
+            }
+          }
+          git push origin main
 
       # Note: deploy-pages workflow is automatically triggered via workflow_run
       # when this workflow completes, so no need to manually trigger it

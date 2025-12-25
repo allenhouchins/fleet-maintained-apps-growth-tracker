@@ -158,8 +158,24 @@ jobs:
           git add data/app_security_info.json index.html
           git commit -m "Update macOS app security info - $(date +'%Y-%m-%d %H:%M:%S UTC')"
           # Pull and merge any remote changes before pushing
-          git pull --rebase origin main || git pull --no-edit origin main
-          git push
+          # Use merge strategy and resolve conflicts by regenerating index.html
+          git fetch origin main
+          # Try to merge remote changes
+          if ! git merge origin/main -m "Merge remote changes"; then
+            # If merge fails due to conflicts, resolve by regenerating index.html
+            echo "Merge conflict detected, regenerating index.html..."
+            if [ -f "index.html" ]; then
+              # Regenerate index.html to resolve conflicts
+              go run generate_html.go
+              git add index.html
+              git commit -m "Resolve merge conflict by regenerating index.html"
+            else
+              # If no index.html, just abort and let the workflow fail
+              git merge --abort
+              exit 1
+            fi
+          fi
+          git push origin main
 
       # Note: deploy-pages workflow is automatically triggered via workflow_run
       # when this workflow completes, so no need to manually trigger it
