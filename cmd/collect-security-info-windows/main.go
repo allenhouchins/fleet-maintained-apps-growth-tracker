@@ -362,7 +362,7 @@ func collectSecurityInfoForApp(app securityAppVersionInfo) (appSecurityInfo, err
 		fmt.Printf("  ⚠️  Note: Could not extract signature info (app may be unsigned): %v\n", err)
 		// Continue with just SHA-256 - this is acceptable for unsigned apps
 	} else {
-		fmt.Printf("  ✓ Extracted signature info\n")
+		fmt.Printf("  🔐 Extracted signature info\n")
 	}
 
 	securityInfo = appSecurityInfo{

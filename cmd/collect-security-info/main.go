@@ -393,6 +393,9 @@ func collectSecurityInfoForApp(app securityAppVersionInfo) (appSecurityInfo, err
 		return securityInfo, fmt.Errorf("failed to parse santactl output: %w", err)
 	}
 
+	// Success message
+	fmt.Printf("  🔐 Extracted security info\n")
+
 	// Uninstall app
 	if err := uninstallApp(app); err != nil {
 		fmt.Printf("  ⚠️  Warning: Failed to uninstall app: %v\n", err)
@@ -431,6 +434,7 @@ func collectTeleportSuiteSecurityInfo(app securityAppVersionInfo) (appSecurityIn
 			if err == nil {
 				tshInfo.Name = "tsh"
 				apps = append(apps, tshInfo)
+				fmt.Printf("  🔐 Extracted security info for tsh\n")
 			}
 		}
 	}
@@ -449,6 +453,7 @@ func collectTeleportSuiteSecurityInfo(app securityAppVersionInfo) (appSecurityIn
 			if err == nil {
 				tctlInfo.Name = "tctl"
 				apps = append(apps, tctlInfo)
+				fmt.Printf("  🔐 Extracted security info for tctl\n")
 			}
 		}
 	}
