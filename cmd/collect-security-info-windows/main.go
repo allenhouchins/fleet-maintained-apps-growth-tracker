@@ -347,8 +347,9 @@ func collectSecurityInfoForApp(app securityAppVersionInfo) (appSecurityInfo, err
 	// Get Authenticode signature info using PowerShell
 	sigInfo, err := getAuthenticodeSignature(exePath)
 	if err != nil {
-		fmt.Printf("  ⚠️  Warning: Failed to get signature info: %v (app may be unsigned)\n", err)
-		// Continue with just SHA-256
+		// Log warning but continue - app may be unsigned or module unavailable
+		fmt.Printf("  ⚠️  Warning: Failed to get signature info: %v\n", err)
+		// Continue with just SHA-256 - this is acceptable for unsigned apps
 	}
 
 	securityInfo = appSecurityInfo{
@@ -554,10 +555,17 @@ func getAuthenticodeSignature(exePath string) (signatureInfo, error) {
 	// Escape single quotes in path for PowerShell
 	escapedPath := strings.ReplaceAll(exePath, "'", "''")
 	psScript := fmt.Sprintf(`
-		$ErrorActionPreference = "Stop"
+		$ErrorActionPreference = "Continue"
 		try {
-			$sig = Get-AuthenticodeSignature '%s'
-			if ($sig.Status -eq 'Valid' -and $sig.SignerCertificate) {
+			# Import module if not already loaded
+			if (-not (Get-Module -Name Microsoft.PowerShell.Security)) {
+				Import-Module Microsoft.PowerShell.Security -ErrorAction SilentlyContinue
+			}
+			
+			$sig = Get-AuthenticodeSignature '%s' -ErrorAction Stop
+			
+			# Try to get info even if status is not Valid (might still have cert info)
+			if ($sig.SignerCertificate) {
 				$cert = $sig.SignerCertificate
 				$publisher = if ($cert.Subject) { $cert.Subject } else { "" }
 				$issuer = if ($cert.Issuer) { $cert.Issuer } else { "" }
@@ -566,7 +574,7 @@ func getAuthenticodeSignature(exePath string) (signatureInfo, error) {
 				$timestamp = if ($sig.TimeStamperCertificate) { $sig.TimeStamperCertificate.Subject } else { "" }
 				Write-Output "$publisher|$issuer|$serial|$thumbprint|$timestamp"
 			} else {
-				Write-Error "Signature status: $($sig.Status)"
+				Write-Error "No signer certificate found. Status: $($sig.Status)"
 			}
 		} catch {
 			Write-Error $_.Exception.Message
