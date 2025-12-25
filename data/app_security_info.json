@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-25T04:06:54Z",
+  "lastUpdated": "2025-12-25T04:08:29Z",
   "apps": [
     {
       "slug": "010-editor/windows",
@@ -24,6 +24,108 @@
       "thumbprint": "7D941E66BFA99C3EBC60361A1A16208BD43D4510",
       "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7800-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
       "lastUpdated": "2025-12-25T04:06:54Z"
+    },
+    {
+      "slug": "7-zip/windows",
+      "name": "7-zip",
+      "version": "25.01",
+      "sha256": "4cd7d776c686427226a151789d2d61f0b2ed2c392148cc4e69c0238362fafecf",
+      "lastUpdated": "2025-12-25T04:07:00Z"
+    },
+    {
+      "slug": "8x8-work/windows",
+      "name": "8x8 Work",
+      "version": "8.29.1",
+      "sha256": "54692b1903f16578dfb9ede08b0272a236386881c8e26dc15adbbdc495d8c335",
+      "publisher": "CN=\"8x8, Inc.\", O=\"8x8, Inc.\", L=Campbell, S=California, C=US, SERIALNUMBER=2676673, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "05428501C7B660B8603D8710AAB1FFB8",
+      "thumbprint": "10E27B97FED6D31EE603C91FCBB518231F8E7FE9",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2025-12-25T04:07:14Z"
+    },
+    {
+      "slug": "adobe-acrobat-reader/windows",
+      "name": "Adobe Acrobat Reader",
+      "version": "25.001.20982",
+      "sha256": "cbfb05fd9dca496cf0a14a8d596f02cd87d58faae227ab0a2c39139c72c2c380",
+      "publisher": "CN=Adobe Inc., OU=Acrobat DC, O=Adobe Inc., L=San Jose, S=ca, C=US, SERIALNUMBER=2748129, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0E848EA39B36D7BB533CF43D96D6E13E",
+      "thumbprint": "BF7153FEEFC282B9F1D11CEC997EC01AD76F6693",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2025-12-25T04:07:32Z"
+    },
+    {
+      "slug": "aircall/windows",
+      "name": "Aircall",
+      "version": "3.1.66",
+      "sha256": "32296780e56ae49c51938518e8535882426a1a729e625c6931f36ded8f412cd9",
+      "publisher": "CN=\"AIRCALL.IO, INC.\", O=\"AIRCALL.IO, INC.\", L=New York, S=New York, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0E2177CA40A258C0D2C3CE65FDDA4691",
+      "thumbprint": "C5DCDD4AB9E446B238BBBD2DDA0FB75F00F6DC7D",
+      "timestamp": "CN=DigiCert Timestamp 2024, O=DigiCert, C=US",
+      "lastUpdated": "2025-12-25T04:07:41Z"
+    },
+    {
+      "slug": "airtame/windows",
+      "name": "Airtame",
+      "version": "4.15.0",
+      "sha256": "1c627548a1cea11e1998c6814b5d731ee6a955db3253d244cc0ccfb95d52edd7",
+      "publisher": "CN=AIRTAME ApS, O=AIRTAME ApS, L=København K, C=DK, SERIALNUMBER=35478973, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=DK",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0B3DE4D80C01902E3F7F7A4F7E45CFBE",
+      "thumbprint": "AE5FFBA749513003CCBB0E6A4E7A30F8E26170C1",
+      "lastUpdated": "2025-12-25T04:07:45Z"
+    },
+    {
+      "slug": "asana/windows",
+      "name": "Asana",
+      "version": "2.5.1",
+      "sha256": "c760d8e3b8c8f014a5ed29d8996cf0524e03332b4fdb635aa9637d88b414b06c",
+      "publisher": "CN=Asana, O=Asana, L=San Francisco, S=California, C=US",
+      "issuer": "CN=Microsoft ID Verified CS AOC CA 01, O=Microsoft Corporation, C=US",
+      "serialNumber": "33000665E98EAA7595AFDA48E40000000665E9",
+      "thumbprint": "14D6E58FE963A24170A9C85EF1A03BE064CBBC83",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7A00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2025-12-25T04:07:49Z"
+    },
+    {
+      "slug": "blender/windows",
+      "name": "Blender",
+      "version": "5.0.1",
+      "sha256": "f81d3bca0af0d917e03fdf09255981b2ed0750d3a2815da991ea5425a87f8f7c",
+      "publisher": "CN=Blender Foundation, O=Blender Foundation, L=Amsterdam, S=Noord-Holland, C=NL",
+      "issuer": "CN=Microsoft ID Verified CS EOC CA 02, O=Microsoft Corporation, C=US",
+      "serialNumber": "330005C3EC0AD9AA93B0B6A55B00000005C3EC",
+      "thumbprint": "59E828BD891C334EA460B92CDCD06ACCF8111F17",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7B1A-05E0-D947, OU=Microsoft Ireland Operations Limited, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2025-12-25T04:08:16Z"
+    },
+    {
+      "slug": "box-drive/windows",
+      "name": "Box Drive",
+      "version": "2.48.250",
+      "sha256": "38cd6d7ea126f0c7a30a4015066099b5970a7a470659201c03b906a82de53e7d",
+      "publisher": "CN=\"Box, Inc.\", O=\"Box, Inc.\", L=Redwood City, S=California, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0ED53832CD517458E1F42E7B49924F7D",
+      "thumbprint": "D58ADE95CD02DAD7F7E3E8B6E5410AEA9463E381",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2025-12-25T04:08:25Z"
+    },
+    {
+      "slug": "brave-browser/windows",
+      "name": "Brave",
+      "version": "143.1.85.118",
+      "sha256": "59e9f3a548bd02ea72753dca858f3abbaf5f6c59c72ee99fbb81d4dfefddb1c7",
+      "publisher": "CN=\"Brave Software, Inc.\", O=\"Brave Software, Inc.\", L=San Francisco, S=California, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0E982FDDF06E93E911065D037D4DD482",
+      "thumbprint": "F8AC5F11DE7E26383B7A389FC19A2613835799D7",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2025-12-25T04:08:29Z"
     }
   ]
 }
