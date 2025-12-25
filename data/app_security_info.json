@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-25T04:10:07Z",
+  "lastUpdated": "2025-12-25T04:12:10Z",
   "apps": [
     {
       "slug": "010-editor/windows",
@@ -246,6 +246,121 @@
       "thumbprint": "E0697FD6C0B2977330C99872E436D887E6F6F953",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2025-12-25T04:10:07Z"
+    },
+    {
+      "slug": "firefox/windows",
+      "name": "Mozilla Firefox",
+      "version": "146.0.1",
+      "sha256": "4e32935d0b9e423e718c2c31066fa096860771afca4a988709acb448e371de22",
+      "publisher": "CN=Mozilla Corporation, OU=Firefox Engineering Operations, O=Mozilla Corporation, L=San Francisco, S=California, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0F0EF7C2D819273E8C13F016D2E09B25",
+      "thumbprint": "6663D5C4FDAF9EFD5F823A26C9C410DC9928C44A",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2025-12-25T04:10:11Z"
+    },
+    {
+      "slug": "github-desktop/windows",
+      "name": "GitHub Desktop",
+      "version": "3.5.4",
+      "sha256": "072dd05b67b3a17a9ce75686e7a8fe0cb5cf284cbb539070ddf75f719332f2ba",
+      "publisher": "CN=\"GitHub, Inc.\", O=\"GitHub, Inc.\", L=San Francisco, S=California, C=US",
+      "issuer": "CN=Microsoft ID Verified CS AOC CA 01, O=Microsoft Corporation, C=US",
+      "serialNumber": "3300062304599ABFC559B4F0A6000000062304",
+      "thumbprint": "F3EF608B2A550C11121B93EE3B61BFEB133DE13A",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7800-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2025-12-25T04:10:22Z"
+    },
+    {
+      "slug": "google-chrome/windows",
+      "name": "Google Chrome",
+      "version": "143.0.7499.147",
+      "sha256": "976665fec68077944748ac90341d6ccacdcfeb5add2161a7afc60cc501242691",
+      "publisher": "CN=Google LLC, O=Google LLC, L=Mountain View, S=California, C=US, SERIALNUMBER=3582691, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0B50CF246B263EFD85A729315158F3FF",
+      "thumbprint": "607A3EDAA64933E94422FC8F0C80388E0590986C",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2025-12-25T04:10:30Z"
+    },
+    {
+      "slug": "google-drive/windows",
+      "name": "Google Drive",
+      "version": "118.0.1.0",
+      "sha256": "e1ba0786b96c4efa2da2226c5d5e12ed650a8618b07c35473b0c05c97c1f96c6",
+      "publisher": "CN=Google LLC, O=Google LLC, L=Mountain View, S=California, C=US, SERIALNUMBER=3582691, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0B50CF246B263EFD85A729315158F3FF",
+      "thumbprint": "607A3EDAA64933E94422FC8F0C80388E0590986C",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2025-12-25T04:10:49Z"
+    },
+    {
+      "slug": "inkscape/windows",
+      "name": "Inkscape",
+      "version": "1.4.2",
+      "sha256": "0cc82561fa1ebd78d1bf4d0c12dc8690b0498d2ff6c5f2001039e234a15d177f",
+      "lastUpdated": "2025-12-25T04:11:25Z"
+    },
+    {
+      "slug": "keepassxc/windows",
+      "name": "KeePassXC",
+      "version": "2.7.11",
+      "sha256": "8f8a3893fa2789ddbb61f815202477e9b15ec3d166695f5245ed06a4f3996261",
+      "publisher": "CN=\"DroidMonkey Apps, LLC\", O=\"DroidMonkey Apps, LLC\", S=Virginia, C=US",
+      "issuer": "CN=Sectigo Public Code Signing CA R36, O=Sectigo Limited, C=GB",
+      "serialNumber": "06433FCCCCE433A892CC17B746A58C65",
+      "thumbprint": "14CF22744ED6C58E48230BBAD703CB37E02CC2A1",
+      "timestamp": "CN=Sectigo Public Time Stamping Signer R36, O=Sectigo Limited, S=West Yorkshire, C=GB",
+      "lastUpdated": "2025-12-25T04:11:34Z"
+    },
+    {
+      "slug": "microsoft-edge/windows",
+      "name": "Microsoft Edge",
+      "version": "143.0.3650.96",
+      "sha256": "e041d7134a3933dbc09d4a7ba46049ce465cc7203098fc7b8f3f35451c2c6827",
+      "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "issuer": "CN=Microsoft Code Signing PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "serialNumber": "330000047F2F422A735308DEEA00000000047F",
+      "thumbprint": "EA2F8CBC69A1A01142A1EDD8B1256FECBC1D9F2D",
+      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:A400-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2025-12-25T04:11:44Z"
+    },
+    {
+      "slug": "microsoft-teams/windows",
+      "name": "Microsoft Teams",
+      "version": "25306.804.4102.7193",
+      "sha256": "7bd9be340d47eabaaaa105b819a29f86cb5c1c9038874e1f0f17cd5cde92839f",
+      "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "issuer": "CN=Microsoft Code Signing PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "serialNumber": "330000047F2F422A735308DEEA00000000047F",
+      "thumbprint": "EA2F8CBC69A1A01142A1EDD8B1256FECBC1D9F2D",
+      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:A400-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2025-12-25T04:12:00Z"
+    },
+    {
+      "slug": "notion/windows",
+      "name": "Notion",
+      "version": "6.3.2",
+      "sha256": "b279b934260125f69ccdf1051894d531741e7ea516c91ca55d4b134a41a6696b",
+      "publisher": "CN=\"Notion Labs, Inc.\", O=\"Notion Labs, Inc.\", L=San Francisco, S=California, C=US",
+      "issuer": "CN=Microsoft ID Verified CS AOC CA 02, O=Microsoft Corporation, C=US",
+      "serialNumber": "330006A6D41FE123EAED5D4CF800000006A6D4",
+      "thumbprint": "D93383E7889A30D3FF4F0C89D72D6F83F1204C3E",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7D00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2025-12-25T04:12:03Z"
+    },
+    {
+      "slug": "obs/windows",
+      "name": "OBS",
+      "version": "32.0.4",
+      "sha256": "46a18bce8e2ff662b700c91d340a519376e712fe0af0d335536e4f9fd253f10a",
+      "publisher": "CN=\"OBS Project, LLC\", O=\"OBS Project, LLC\", L=Sheridan, S=Wyoming, C=US, SERIALNUMBER=2023-001272252, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Wyoming, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Global G3 Code Signing ECC SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0D416A0683B8C191DEE8DEEEC54DAB37",
+      "thumbprint": "EC0614E3D9455AA731992287C6F7E44A5288C232",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2025-12-25T04:12:10Z"
     }
   ]
 }
