@@ -347,9 +347,12 @@ func collectSecurityInfoForApp(app securityAppVersionInfo) (appSecurityInfo, err
 	// Get Authenticode signature info using PowerShell
 	sigInfo, err := getAuthenticodeSignature(exePath)
 	if err != nil {
-		// Log warning but continue - app may be unsigned or module unavailable
-		fmt.Printf("  ⚠️  Warning: Failed to get signature info: %v\n", err)
+		// Log warning but continue - app may be unsigned or tools unavailable
+		// This is acceptable - we still have SHA-256 which is the most important
+		fmt.Printf("  ⚠️  Note: Could not extract signature info (app may be unsigned): %v\n", err)
 		// Continue with just SHA-256 - this is acceptable for unsigned apps
+	} else {
+		fmt.Printf("  ✓ Extracted signature info\n")
 	}
 
 	securityInfo = appSecurityInfo{
@@ -552,19 +555,25 @@ func getAuthenticodeSignature(exePath string) (signatureInfo, error) {
 	var sigInfo signatureInfo
 
 	// Try PowerShell first
-	psResult, err := getSignatureViaPowerShell(exePath)
-	if err == nil {
+	psResult, psErr := getSignatureViaPowerShell(exePath)
+	if psErr == nil {
 		return psResult, nil
 	}
 
 	// Fallback to signtool.exe if available
-	signtoolResult, err := getSignatureViaSigntool(exePath)
-	if err == nil {
+	signtoolResult, signtoolErr := getSignatureViaSigntool(exePath)
+	if signtoolErr == nil {
 		return signtoolResult, nil
 	}
 
-	// If both fail, return the error from PowerShell (more descriptive)
-	return sigInfo, fmt.Errorf("PowerShell failed: %w; signtool also unavailable", err)
+	// Try certutil as another fallback
+	certutilResult, certutilErr := getSignatureViaCertutil(exePath)
+	if certutilErr == nil {
+		return certutilResult, nil
+	}
+
+	// If all methods fail, return a combined error
+	return sigInfo, fmt.Errorf("all signature extraction methods failed: PowerShell: %v, signtool: %v, certutil: %v", psErr, signtoolErr, certutilErr)
 }
 
 func getSignatureViaPowerShell(exePath string) (signatureInfo, error) {
@@ -698,6 +707,71 @@ func getSignatureViaSigntool(exePath string) (signatureInfo, error) {
 
 	if sigInfo.Publisher == "" {
 		return sigInfo, fmt.Errorf("could not extract certificate info from signtool output")
+	}
+
+	return sigInfo, nil
+}
+
+func getSignatureViaCertutil(exePath string) (signatureInfo, error) {
+	var sigInfo signatureInfo
+
+	// certutil is built into Windows and can verify signatures
+	// Use certutil to dump the certificate
+	cmd := exec.Command("certutil", "-verify", "-v", exePath)
+	output, err := cmd.CombinedOutput()
+	if err != nil {
+		return sigInfo, fmt.Errorf("certutil verify failed: %w", err)
+	}
+
+	// Parse certutil output for certificate information
+	outputStr := string(output)
+	lines := strings.Split(outputStr, "\n")
+	
+	for i, line := range lines {
+		line = strings.TrimSpace(line)
+		
+		// Look for certificate subject (Publisher)
+		if strings.Contains(line, "Subject:") || strings.Contains(line, "Issuer:") {
+			parts := strings.SplitN(line, ":", 2)
+			if len(parts) == 2 {
+				value := strings.TrimSpace(parts[1])
+				if strings.Contains(line, "Subject:") && sigInfo.Publisher == "" {
+					sigInfo.Publisher = value
+				} else if strings.Contains(line, "Issuer:") && sigInfo.Issuer == "" {
+					sigInfo.Issuer = value
+				}
+			}
+		}
+		
+		// Look for serial number
+		if strings.Contains(line, "Serial Number:") || strings.Contains(line, "Serial:") {
+			parts := strings.SplitN(line, ":", 2)
+			if len(parts) == 2 && sigInfo.SerialNumber == "" {
+				sigInfo.SerialNumber = strings.TrimSpace(parts[1])
+			}
+		}
+		
+		// Look for thumbprint (SHA1 hash)
+		if strings.Contains(line, "Cert Hash(sha1):") || strings.Contains(line, "Thumbprint:") {
+			parts := strings.SplitN(line, ":", 2)
+			if len(parts) == 2 && sigInfo.Thumbprint == "" {
+				sigInfo.Thumbprint = strings.TrimSpace(parts[1])
+				// Remove spaces from thumbprint
+				sigInfo.Thumbprint = strings.ReplaceAll(sigInfo.Thumbprint, " ", "")
+			}
+		}
+		
+		// Look for timestamp info in subsequent lines
+		if strings.Contains(line, "Time Stamp") && i+1 < len(lines) {
+			nextLine := strings.TrimSpace(lines[i+1])
+			if nextLine != "" {
+				sigInfo.Timestamp = nextLine
+			}
+		}
+	}
+
+	if sigInfo.Publisher == "" && sigInfo.Thumbprint == "" {
+		return sigInfo, fmt.Errorf("could not extract certificate info from certutil output")
 	}
 
 	return sigInfo, nil
