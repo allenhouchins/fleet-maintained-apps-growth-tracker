@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-25T02:43:55Z",
+  "lastUpdated": "2025-12-25T02:44:24Z",
   "apps": [
     {
       "slug": "010-editor/windows",
@@ -297,6 +297,30 @@
       "thumbprint": "14CF22744ED6C58E48230BBAD703CB37E02CC2A1",
       "timestamp": "CN=Sectigo Public Time Stamping Signer R36, O=Sectigo Limited, S=West Yorkshire, C=GB",
       "lastUpdated": "2025-12-25T01:47:01Z"
+    },
+    {
+      "slug": "microsoft-edge/windows",
+      "name": "Microsoft Edge",
+      "version": "143.0.3650.96",
+      "sha256": "e041d7134a3933dbc09d4a7ba46049ce465cc7203098fc7b8f3f35451c2c6827",
+      "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "issuer": "CN=Microsoft Code Signing PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "serialNumber": "330000047F2F422A735308DEEA00000000047F",
+      "thumbprint": "EA2F8CBC69A1A01142A1EDD8B1256FECBC1D9F2D",
+      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:A400-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2025-12-25T02:44:05Z"
+    },
+    {
+      "slug": "microsoft-teams/windows",
+      "name": "Microsoft Teams",
+      "version": "25306.804.4102.7193",
+      "sha256": "7bd9be340d47eabaaaa105b819a29f86cb5c1c9038874e1f0f17cd5cde92839f",
+      "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "issuer": "CN=Microsoft Code Signing PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "serialNumber": "330000047F2F422A735308DEEA00000000047F",
+      "thumbprint": "EA2F8CBC69A1A01142A1EDD8B1256FECBC1D9F2D",
+      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:A400-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2025-12-25T02:44:24Z"
     },
     {
       "slug": "notion/windows",
