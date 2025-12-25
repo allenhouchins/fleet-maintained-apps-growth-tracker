@@ -41,13 +41,18 @@ type appData struct {
 }
 
 type appSecurityInfoData struct {
-	Name        string                `json:"name,omitempty"`
-	Sha256      string                `json:"sha256,omitempty"`
-	Cdhash      string                `json:"cdhash,omitempty"`
-	SigningID   string                `json:"signingId,omitempty"`
-	TeamID      string                `json:"teamId,omitempty"`
-	LastUpdated string                `json:"lastUpdated,omitempty"`
-	Apps        []appSecurityInfoData `json:"apps,omitempty"` // For suites with multiple apps
+	Name         string                `json:"name,omitempty"`
+	Sha256       string                `json:"sha256,omitempty"`
+	Cdhash       string                `json:"cdhash,omitempty"`
+	SigningID    string                `json:"signingId,omitempty"`
+	TeamID       string                `json:"teamId,omitempty"`
+	Publisher    string                `json:"publisher,omitempty"`     // Windows: Certificate subject
+	Issuer       string                `json:"issuer,omitempty"`        // Windows: Certificate authority
+	SerialNumber string                `json:"serialNumber,omitempty"`  // Windows: Certificate serial
+	Thumbprint   string                `json:"thumbprint,omitempty"`    // Windows: Certificate thumbprint
+	Timestamp    string                `json:"timestamp,omitempty"`     // Windows: Signing timestamp
+	LastUpdated  string                `json:"lastUpdated,omitempty"`
+	Apps         []appSecurityInfoData `json:"apps,omitempty"` // For suites with multiple apps
 }
 
 type appsJSON struct {
@@ -55,14 +60,19 @@ type appsJSON struct {
 }
 
 type securityInfoItem struct {
-	Slug        string             `json:"slug"`
-	Name        string             `json:"name,omitempty"`
-	Sha256      string             `json:"sha256,omitempty"`
-	Cdhash      string             `json:"cdhash,omitempty"`
-	SigningID   string             `json:"signingId,omitempty"`
-	TeamID      string             `json:"teamId,omitempty"`
-	LastUpdated string             `json:"lastUpdated"`
-	Apps        []securityInfoItem `json:"apps,omitempty"` // For suites with multiple apps
+	Slug         string             `json:"slug"`
+	Name         string             `json:"name,omitempty"`
+	Sha256       string             `json:"sha256,omitempty"`
+	Cdhash       string             `json:"cdhash,omitempty"`
+	SigningID    string             `json:"signingId,omitempty"`
+	TeamID       string             `json:"teamId,omitempty"`
+	Publisher    string             `json:"publisher,omitempty"`
+	Issuer       string             `json:"issuer,omitempty"`
+	SerialNumber string             `json:"serialNumber,omitempty"`
+	Thumbprint   string             `json:"thumbprint,omitempty"`
+	Timestamp    string             `json:"timestamp,omitempty"`
+	LastUpdated  string             `json:"lastUpdated"`
+	Apps         []securityInfoItem `json:"apps,omitempty"` // For suites with multiple apps
 }
 
 type securityInfoData struct {
@@ -224,35 +234,43 @@ func mergeSecurityInfo(apps *appsJSON, security *securityInfoData) {
 		securityMap[sec.Slug] = sec
 	}
 
-	// Merge security info into apps
+	// Merge security info into apps (both macOS and Windows)
 	for i := range apps.Apps {
-		if apps.Apps[i].Platform == "darwin" {
-			if sec, exists := securityMap[apps.Apps[i].Slug]; exists {
-				securityData := &appSecurityInfoData{
-					Sha256:      sec.Sha256,
-					Cdhash:      sec.Cdhash,
-					SigningID:   sec.SigningID,
-					TeamID:      sec.TeamID,
-					LastUpdated: sec.LastUpdated,
-				}
+		if sec, exists := securityMap[apps.Apps[i].Slug]; exists {
+			securityData := &appSecurityInfoData{
+				Sha256:       sec.Sha256,
+				Cdhash:       sec.Cdhash,
+				SigningID:    sec.SigningID,
+				TeamID:       sec.TeamID,
+				Publisher:    sec.Publisher,
+				Issuer:       sec.Issuer,
+				SerialNumber: sec.SerialNumber,
+				Thumbprint:   sec.Thumbprint,
+				Timestamp:    sec.Timestamp,
+				LastUpdated:  sec.LastUpdated,
+			}
 
-				// If this is a suite with multiple apps, include them
-				if len(sec.Apps) > 0 {
-					securityData.Apps = make([]appSecurityInfoData, len(sec.Apps))
-					for j, app := range sec.Apps {
-						securityData.Apps[j] = appSecurityInfoData{
-							Name:        app.Name,
-							Sha256:      app.Sha256,
-							Cdhash:      app.Cdhash,
-							SigningID:   app.SigningID,
-							TeamID:      app.TeamID,
-							LastUpdated: app.LastUpdated,
-						}
+			// If this is a suite with multiple apps, include them
+			if len(sec.Apps) > 0 {
+				securityData.Apps = make([]appSecurityInfoData, len(sec.Apps))
+				for j, app := range sec.Apps {
+					securityData.Apps[j] = appSecurityInfoData{
+						Name:         app.Name,
+						Sha256:       app.Sha256,
+						Cdhash:       app.Cdhash,
+						SigningID:    app.SigningID,
+						TeamID:       app.TeamID,
+						Publisher:    app.Publisher,
+						Issuer:       app.Issuer,
+						SerialNumber: app.SerialNumber,
+						Thumbprint:   app.Thumbprint,
+						Timestamp:    app.Timestamp,
+						LastUpdated:  app.LastUpdated,
 					}
 				}
-
-				apps.Apps[i].SecurityInfo = securityData
 			}
+
+			apps.Apps[i].SecurityInfo = securityData
 		}
 	}
 }
@@ -1278,13 +1296,13 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
                 }
             }
             
-            // Set security info (macOS only)
+            // Set security info (macOS and Windows)
             const securityRow = document.getElementById('modalSecurityRow');
             const securitySingle = document.getElementById('modalSecuritySingle');
             const securityMultiple = document.getElementById('modalSecurityMultiple');
             
             if (securityRow) {
-                if (app.platform === 'darwin' && app.securityInfo) {
+                if (app.securityInfo) {
                     // Check if this is a suite with multiple apps
                     if (app.securityInfo.apps && app.securityInfo.apps.length > 0) {
                         // Hide single app view, show multiple apps view
@@ -1309,7 +1327,16 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
                                 const appInfo = document.createElement('div');
                                 appInfo.className = 'modal-security-info';
                                 
-                                const fields = [
+                                // Determine fields based on platform
+                                const isWindows = app.platform === 'windows';
+                                const fields = isWindows ? [
+                                    { label: 'SHA-256', value: suiteApp.sha256, id: 'sha256' },
+                                    { label: 'Publisher', value: suiteApp.publisher, id: 'publisher' },
+                                    { label: 'Issuer', value: suiteApp.issuer, id: 'issuer' },
+                                    { label: 'Serial Number', value: suiteApp.serialNumber, id: 'serialNumber' },
+                                    { label: 'Thumbprint', value: suiteApp.thumbprint, id: 'thumbprint' },
+                                    { label: 'Timestamp', value: suiteApp.timestamp, id: 'timestamp' }
+                                ] : [
                                     { label: 'SHA-256', value: suiteApp.sha256, id: 'sha256' },
                                     { label: 'CDHash', value: suiteApp.cdhash, id: 'cdhash' },
                                     { label: 'Signing ID', value: suiteApp.signingId, id: 'signingId' },
@@ -1344,30 +1371,49 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
                             securityMultiple.style.display = 'block';
                         }
                     } else {
-                        // Single app view
+                        // Single app view - dynamically build security info based on platform
                         if (securitySingle) securitySingle.style.display = 'block';
                         if (securityMultiple) securityMultiple.style.display = 'none';
                         
-                        const sha256El = document.getElementById('modalSha256');
-                        const cdhashEl = document.getElementById('modalCdhash');
-                        const signingIDEl = document.getElementById('modalSigningID');
-                        const teamIDEl = document.getElementById('modalTeamID');
-                        
-                        if (sha256El) {
-                            sha256El.textContent = app.securityInfo.sha256 || 'N/A';
-                            setupCopyToClipboard(sha256El, app.securityInfo.sha256 || 'N/A');
-                        }
-                        if (cdhashEl) {
-                            cdhashEl.textContent = app.securityInfo.cdhash || 'N/A';
-                            setupCopyToClipboard(cdhashEl, app.securityInfo.cdhash || 'N/A');
-                        }
-                        if (signingIDEl) {
-                            signingIDEl.textContent = app.securityInfo.signingId || 'N/A';
-                            setupCopyToClipboard(signingIDEl, app.securityInfo.signingId || 'N/A');
-                        }
-                        if (teamIDEl) {
-                            teamIDEl.textContent = app.securityInfo.teamId || 'N/A';
-                            setupCopyToClipboard(teamIDEl, app.securityInfo.teamId || 'N/A');
+                        // Clear existing content and rebuild based on platform
+                        const securityContainer = securitySingle;
+                        if (securityContainer) {
+                            securityContainer.innerHTML = '';
+                            
+                            const isWindows = app.platform === 'windows';
+                            const fields = isWindows ? [
+                                { label: 'SHA-256', value: app.securityInfo.sha256, id: 'sha256' },
+                                { label: 'Publisher', value: app.securityInfo.publisher, id: 'publisher' },
+                                { label: 'Issuer', value: app.securityInfo.issuer, id: 'issuer' },
+                                { label: 'Serial Number', value: app.securityInfo.serialNumber, id: 'serialNumber' },
+                                { label: 'Thumbprint', value: app.securityInfo.thumbprint, id: 'thumbprint' },
+                                { label: 'Timestamp', value: app.securityInfo.timestamp, id: 'timestamp' }
+                            ] : [
+                                { label: 'SHA-256', value: app.securityInfo.sha256, id: 'sha256' },
+                                { label: 'CDHash', value: app.securityInfo.cdhash, id: 'cdhash' },
+                                { label: 'Signing ID', value: app.securityInfo.signingId, id: 'signingId' },
+                                { label: 'Team ID', value: app.securityInfo.teamId, id: 'teamId' }
+                            ];
+                            
+                            fields.forEach(field => {
+                                if (field.value) {
+                                    const item = document.createElement('div');
+                                    item.className = 'modal-security-item';
+                                    
+                                    const label = document.createElement('span');
+                                    label.className = 'modal-security-label';
+                                    label.textContent = field.label + ':';
+                                    
+                                    const value = document.createElement('code');
+                                    value.className = 'modal-security-value';
+                                    value.textContent = field.value;
+                                    setupCopyToClipboard(value, field.value);
+                                    
+                                    item.appendChild(label);
+                                    item.appendChild(value);
+                                    securityContainer.appendChild(item);
+                                }
+                            });
                         }
                     }
                     securityRow.style.display = 'block';
@@ -1381,8 +1427,8 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
             if (modalLastUpdated) {
                 let timestampText = 'Last updated: ' + ` + "`" + lastUpdated + "`" + `;
                 
-                // If macOS app has security info with lastUpdated, use that instead
-                if (app.platform === 'darwin' && app.securityInfo && app.securityInfo.lastUpdated) {
+                // If app has security info with lastUpdated, use that instead
+                if (app.securityInfo && app.securityInfo.lastUpdated) {
                     // Parse RFC3339 timestamp (UTC) and convert to CST
                     const securityDate = new Date(app.securityInfo.lastUpdated);
                     

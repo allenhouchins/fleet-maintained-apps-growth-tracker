@@ -489,6 +489,10 @@ func extractOrInstallApp(installerPath string, app securityAppVersionInfo) (stri
 	case ".zip":
 		// Extract ZIP
 		return extractFromZIP(installerPath, app)
+	case ".msix", ".appx":
+		// MSIX/APPX are containerized app packages
+		// We can try to extract them or use the package itself if signed
+		return extractFromMSIX(installerPath, app)
 	default:
 		return "", fmt.Errorf("unsupported installer type: %s", ext)
 	}
@@ -504,27 +508,56 @@ func extractFromMSI(msiPath string, app securityAppVersionInfo) (string, error) 
 
 	// Try to extract using msiexec /a (administrative install)
 	// This extracts files without installing
+	// Use /L*v to enable verbose logging to see what's happening
 	cmd := exec.Command("msiexec", "/a", msiPath, "/qn", "TARGETDIR="+extractDir)
 	var stderr bytes.Buffer
 	cmd.Stderr = &stderr
 	if err := cmd.Run(); err != nil {
-		// If /a fails, try using lessmsi or other extraction methods
-		// For now, check if any files were extracted anyway
+		// Check if any files were extracted anyway (sometimes msiexec returns error but still extracts)
 		if entries, err := os.ReadDir(extractDir); err == nil && len(entries) > 0 {
 			// Some files were extracted, try to find executable
 			if exe, err := findMainExecutable(extractDir, app); err == nil {
 				return exe, nil
 			}
 		}
+		// If that didn't work, the MSI might need to be analyzed differently
+		// For some MSIs, we can try to use the MSI itself as it may contain embedded executables
+		// But first, let's check if the MSI file itself is signed
+		if _, err := getAuthenticodeSignature(msiPath); err == nil {
+			// MSI itself is signed, we can use it
+			return msiPath, nil
+		}
 		return "", fmt.Errorf("MSI extraction failed: %w (stderr: %s)", err, stderr.String())
 	}
 
 	// Wait a moment for extraction to complete
-	time.Sleep(2 * time.Second)
+	time.Sleep(3 * time.Second)
 
-	// Find the main executable
+	// MSI extraction often creates a structure like:
+	// extracted/
+	//   ProgramFiles[64]Folder/
+	//     AppName/
+	//       app.exe
+	// So we need to search recursively
 	exePath, err := findMainExecutable(extractDir, app)
 	if err != nil {
+		// Try searching in common MSI extraction directories
+		commonDirs := []string{
+			filepath.Join(extractDir, "ProgramFiles64Folder"),
+			filepath.Join(extractDir, "ProgramFilesFolder"),
+			filepath.Join(extractDir, "ProgramFiles(x86)Folder"),
+			filepath.Join(extractDir, "CommonFilesFolder"),
+			filepath.Join(extractDir, "CommonFiles64Folder"),
+		}
+		
+		for _, dir := range commonDirs {
+			if _, err := os.Stat(dir); err == nil {
+				if exe, err := findMainExecutable(dir, app); err == nil {
+					return exe, nil
+				}
+			}
+		}
+		
 		// List what was extracted for debugging
 		var extractedFiles []string
 		filepath.Walk(extractDir, func(path string, info os.FileInfo, err error) error {
@@ -534,6 +567,12 @@ func extractFromMSI(msiPath string, app securityAppVersionInfo) (string, error) 
 			}
 			return nil
 		})
+		
+		// As a last resort, check if the MSI itself is signed
+		if _, err := getAuthenticodeSignature(msiPath); err == nil {
+			return msiPath, nil
+		}
+		
 		return "", fmt.Errorf("no executable found after MSI extraction: %w (extracted files: %v)", err, extractedFiles[:min(10, len(extractedFiles))])
 	}
 
@@ -553,6 +592,32 @@ func extractFromEXE(exePath string, app securityAppVersionInfo) (string, error) 
 	// Try to find if it extracts to a temp location
 	// For now, return the exe itself
 	return exePath, nil
+}
+
+func extractFromMSIX(msixPath string, app securityAppVersionInfo) (string, error) {
+	// MSIX files are actually ZIP archives, so we can extract them
+	// But first check if the MSIX itself is signed
+	if _, err := getAuthenticodeSignature(msixPath); err == nil {
+		// MSIX package is signed, we can use it directly
+		return msixPath, nil
+	}
+	
+	// Try to extract MSIX (it's a ZIP file)
+	extractDir := filepath.Join(tempDir, "extracted")
+	os.RemoveAll(extractDir)
+	if err := os.MkdirAll(extractDir, 0755); err != nil {
+		return "", err
+	}
+
+	// MSIX files are ZIP archives, extract using PowerShell
+	psScript := fmt.Sprintf("Expand-Archive -Path '%s' -DestinationPath '%s' -Force", msixPath, extractDir)
+	cmd := exec.Command("powershell", "-Command", psScript)
+	if err := cmd.Run(); err != nil {
+		return "", fmt.Errorf("failed to extract MSIX: %w", err)
+	}
+
+	// Find the main executable in the extracted package
+	return findMainExecutable(extractDir, app)
 }
 
 func extractFromZIP(zipPath string, app securityAppVersionInfo) (string, error) {
