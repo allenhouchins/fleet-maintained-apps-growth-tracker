@@ -579,8 +579,8 @@ func getAuthenticodeSignature(exePath string) (signatureInfo, error) {
 func getSignatureViaPowerShell(exePath string) (signatureInfo, error) {
 	var sigInfo signatureInfo
 
-	// Use a file-based approach to avoid PowerShell type conflicts
-	// Create a temporary PowerShell script file
+	// Try using Windows PowerShell (powershell.exe) instead of PowerShell Core
+	// First try with explicit module import using a different approach
 	psScriptFile := filepath.Join(tempDir, "get-signature.ps1")
 	defer os.Remove(psScriptFile)
 
@@ -588,17 +588,26 @@ func getSignatureViaPowerShell(exePath string) (signatureInfo, error) {
 	escapedPath := strings.ReplaceAll(exePath, "`", "``")
 	escapedPath = strings.ReplaceAll(escapedPath, "$", "`$")
 	
-	psScript := fmt.Sprintf(`$sig = Get-AuthenticodeSignature -FilePath '%s'
-if ($sig -and $sig.SignerCertificate) {
-    $cert = $sig.SignerCertificate
-    $publisher = $cert.Subject
-    $issuer = $cert.Issuer
-    $serial = $cert.SerialNumber
-    $thumbprint = $cert.Thumbprint
-    $timestamp = if ($sig.TimeStamperCertificate) { $sig.TimeStamperCertificate.Subject } else { "" }
-    Write-Output "$publisher|$issuer|$serial|$thumbprint|$timestamp"
-} else {
-    Write-Error "No certificate found"
+	// Try using the cmdlet with explicit error handling and module loading
+	psScript := fmt.Sprintf(`$ErrorActionPreference = "SilentlyContinue"
+try {
+    # Try to use the cmdlet directly - it should auto-load
+    $sig = & { Get-AuthenticodeSignature -FilePath '%s' } 2>&1
+    
+    if ($sig -and $sig.SignerCertificate) {
+        $cert = $sig.SignerCertificate
+        $publisher = $cert.Subject
+        $issuer = $cert.Issuer
+        $serial = $cert.SerialNumber
+        $thumbprint = $cert.Thumbprint
+        $timestamp = if ($sig.TimeStamperCertificate) { $sig.TimeStamperCertificate.Subject } else { "" }
+        Write-Output "$publisher|$issuer|$serial|$thumbprint|$timestamp"
+    } else {
+        Write-Error "No certificate found"
+        exit 1
+    }
+} catch {
+    Write-Error $_.Exception.Message
     exit 1
 }`, escapedPath)
 
@@ -606,48 +615,49 @@ if ($sig -and $sig.SignerCertificate) {
 		return sigInfo, fmt.Errorf("failed to create PowerShell script: %w", err)
 	}
 
-	// Run the script with minimal profile to avoid type conflicts
-	cmd := exec.Command("powershell", "-NoProfile", "-ExecutionPolicy", "Bypass", "-File", psScriptFile)
-	output, err := cmd.CombinedOutput()
-	if err != nil {
-		return sigInfo, fmt.Errorf("PowerShell failed: %w (output: %s)", err, string(output))
-	}
+	// Try Windows PowerShell first (powershell.exe), then PowerShell Core (pwsh)
+	powershellPaths := []string{"powershell.exe", "pwsh.exe", "powershell"}
+	
+	var lastErr error
+	for _, psPath := range powershellPaths {
+		cmd := exec.Command(psPath, "-NoProfile", "-ExecutionPolicy", "Bypass", "-File", psScriptFile)
+		output, err := cmd.CombinedOutput()
+		if err == nil {
+			// Parse output
+			outputStr := strings.TrimSpace(string(output))
+			if outputStr == "" {
+				continue
+			}
 
-	// Parse output
-	outputStr := strings.TrimSpace(string(output))
-	if outputStr == "" {
-		return sigInfo, fmt.Errorf("empty output from PowerShell")
-	}
+			// Filter out error messages from output
+			lines := strings.Split(outputStr, "\n")
+			var dataLine string
+			for _, line := range lines {
+				line = strings.TrimSpace(line)
+				if strings.Contains(line, "|") && !strings.Contains(line, "Error") && !strings.Contains(line, "Exception") && !strings.Contains(line, "CategoryInfo") {
+					dataLine = line
+					break
+				}
+			}
 
-	// Filter out error messages from output
-	lines := strings.Split(outputStr, "\n")
-	var dataLine string
-	for _, line := range lines {
-		line = strings.TrimSpace(line)
-		if strings.Contains(line, "|") && !strings.Contains(line, "Error") && !strings.Contains(line, "Exception") {
-			dataLine = line
-			break
+			if dataLine != "" {
+				parts := strings.Split(dataLine, "|")
+				if len(parts) >= 4 {
+					sigInfo.Publisher = strings.TrimSpace(parts[0])
+					sigInfo.Issuer = strings.TrimSpace(parts[1])
+					sigInfo.SerialNumber = strings.TrimSpace(parts[2])
+					sigInfo.Thumbprint = strings.TrimSpace(parts[3])
+					if len(parts) >= 5 && strings.TrimSpace(parts[4]) != "" {
+						sigInfo.Timestamp = strings.TrimSpace(parts[4])
+					}
+					return sigInfo, nil
+				}
+			}
 		}
+		lastErr = fmt.Errorf("%s failed: %w (output: %s)", psPath, err, string(output))
 	}
 
-	if dataLine == "" {
-		return sigInfo, fmt.Errorf("no valid data in output: %s", outputStr)
-	}
-
-	parts := strings.Split(dataLine, "|")
-	if len(parts) >= 4 {
-		sigInfo.Publisher = strings.TrimSpace(parts[0])
-		sigInfo.Issuer = strings.TrimSpace(parts[1])
-		sigInfo.SerialNumber = strings.TrimSpace(parts[2])
-		sigInfo.Thumbprint = strings.TrimSpace(parts[3])
-		if len(parts) >= 5 && strings.TrimSpace(parts[4]) != "" {
-			sigInfo.Timestamp = strings.TrimSpace(parts[4])
-		}
-	} else {
-		return sigInfo, fmt.Errorf("unexpected output format: %s", dataLine)
-	}
-
-	return sigInfo, nil
+	return sigInfo, lastErr
 }
 
 func getSignatureViaSigntool(exePath string) (signatureInfo, error) {
