@@ -13,7 +13,7 @@ on:
       - 'feed.xml'
   workflow_dispatch:
   workflow_run:
-    workflows: ["Collect macOS App Security Info"]
+    workflows: ["Collect macOS App Security Info", "Collect Windows App Security Info"]
     types:
       - completed
     branches:
@@ -41,14 +41,14 @@ jobs:
         with:
           fetch-depth: 2
 
-      - name: Check if collect-security-info is running
+      - name: Check if collect-security-info workflows are running
         id: check-security-workflow
         if: github.event_name == 'push'
         uses: actions/github-script@v7
         with:
           script: |
-            // Check if collect-security-info workflow is currently running
-            const workflows = await github.rest.actions.listWorkflowRuns({
+            // Check if either security info workflow is currently running
+            const macWorkflows = await github.rest.actions.listWorkflowRuns({
               owner: context.repo.owner,
               repo: context.repo.repo,
               workflow_id: 'collect-security-info.yml',
@@ -56,11 +56,19 @@ jobs:
               per_page: 1
             });
             
-            if (workflows.data.workflow_runs.length > 0) {
-              console.log('collect-security-info workflow is running, skipping deployment');
+            const windowsWorkflows = await github.rest.actions.listWorkflowRuns({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'collect-security-info-windows.yml',
+              status: 'in_progress',
+              per_page: 1
+            });
+            
+            if (macWorkflows.data.workflow_runs.length > 0 || windowsWorkflows.data.workflow_runs.length > 0) {
+              console.log('Security info workflow is running, skipping deployment');
               core.setOutput('security_running', 'true');
             } else {
-              console.log('collect-security-info workflow is not running');
+              console.log('Security info workflows are not running');
               core.setOutput('security_running', 'false');
             }
 
@@ -75,10 +83,10 @@ jobs:
               echo "changed=false" >> $GITHUB_OUTPUT
             fi
           else
-            # For push events, check if collect-security-info is running
+            # For push events, check if security info workflows are running
             if [ "${{ steps.check-security-workflow.outputs.security_running }}" = "true" ]; then
               echo "changed=false" >> $GITHUB_OUTPUT
-              echo "Skipping deployment: collect-security-info is running"
+              echo "Skipping deployment: security info workflow is running"
             else
               # Path filters already ensure relevant files changed
               echo "changed=true" >> $GITHUB_OUTPUT

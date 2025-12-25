@@ -159,15 +159,6 @@ jobs:
           git commit -m "Update macOS app security info - $(date +'%Y-%m-%d %H:%M:%S UTC')"
           git push
 
-      - name: Trigger deploy-pages workflow
-        if: steps.verify-changed-files.outputs.changed == 'true'
-        uses: actions/github-script@v7
-        with:
-          script: |
-            await github.rest.actions.createWorkflowDispatch({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              workflow_id: 'deploy-pages.yml',
-              ref: 'main'
-            });
+      # Note: deploy-pages workflow is automatically triggered via workflow_run
+      # when this workflow completes, so no need to manually trigger it
 
