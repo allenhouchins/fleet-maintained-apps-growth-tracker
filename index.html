@@ -5909,8 +5909,10 @@
                             
                             let hasFields = false;
                             console.log('Single app security fields:', fields);
+                            console.log('Security info object:', app.securityInfo);
                             fields.forEach(field => {
-                                if (field.value) {
+                                // Check if value exists and is not empty string
+                                if (field.value !== undefined && field.value !== null && field.value !== '') {
                                     hasFields = true;
                                     console.log('Adding field:', field.label, '=', field.value);
                                     const item = document.createElement('div');
@@ -5928,6 +5930,8 @@
                                     item.appendChild(label);
                                     item.appendChild(value);
                                     securityContainer.appendChild(item);
+                                } else {
+                                    console.log('Skipping field:', field.label, 'value:', field.value, 'type:', typeof field.value);
                                 }
                             });
                             
