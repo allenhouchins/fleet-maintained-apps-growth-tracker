@@ -133,12 +133,21 @@ func main() {
 		finalSecurityMap := make(map[string]appSecurityInfo)
 
 		// Add existing apps that weren't processed
+		// Preserve ALL existing entries regardless of platform to avoid wiping out other platform's data
 		for slug, existing := range existingMap {
 			if !processedSlugs[slug] {
-				// Check if this app still exists in current versions
+				// Extract base slug (remove /darwin or /windows suffix)
+				baseSlug := slug
+				if idx := strings.LastIndex(slug, "/"); idx != -1 {
+					baseSlug = slug[:idx]
+				}
+				
+				// Check if this app still exists in current versions (any platform)
+				// The slug in versions includes platform (e.g., "010-editor/darwin"), so check if any version
+				// has a slug that starts with the base slug
 				found := false
 				for _, v := range versions.Apps {
-					if v.Slug == slug && v.Platform == "darwin" {
+					if strings.HasPrefix(v.Slug, baseSlug+"/") {
 						found = true
 						break
 					}
