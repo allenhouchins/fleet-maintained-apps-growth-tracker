@@ -1301,10 +1301,19 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
             const securitySingle = document.getElementById('modalSecuritySingle');
             const securityMultiple = document.getElementById('modalSecurityMultiple');
             
+            // Debug logging
+            console.log('Security Info Debug:', {
+                hasSecurityInfo: !!app.securityInfo,
+                securityInfo: app.securityInfo,
+                platform: app.platform,
+                slug: app.slug
+            });
+            
             if (securityRow) {
                 if (app.securityInfo) {
                     // Check if this is a suite with multiple apps
                     if (app.securityInfo.apps && app.securityInfo.apps.length > 0) {
+                        console.log('Suite detected with', app.securityInfo.apps.length, 'apps');
                         // Hide single app view, show multiple apps view
                         if (securitySingle) securitySingle.style.display = 'none';
                         if (securityMultiple) {
@@ -1312,6 +1321,7 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
                             
                             // Create a section for each app in the suite
                             app.securityInfo.apps.forEach((suiteApp, index) => {
+                                console.log('Processing suite app', index, ':', suiteApp.name, suiteApp);
                                 const appSection = document.createElement('div');
                                 appSection.className = 'modal-security-app-section';
                                 appSection.style.marginBottom = index < app.securityInfo.apps.length - 1 ? '24px' : '0';
@@ -1369,10 +1379,17 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
                             });
                             
                             securityMultiple.style.display = 'block';
+                            securityRow.style.display = 'block';
                         }
                     } else {
                         // Single app view - dynamically build security info based on platform
-                        if (securitySingle) securitySingle.style.display = 'block';
+                        if (securitySingle) {
+                            securitySingle.style.display = 'block';
+                            // Ensure the container has the correct class
+                            if (!securitySingle.classList.contains('modal-security-info')) {
+                                securitySingle.classList.add('modal-security-info');
+                            }
+                        }
                         if (securityMultiple) securityMultiple.style.display = 'none';
                         
                         // Clear existing content and rebuild based on platform
@@ -1395,8 +1412,12 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
                                 { label: 'Team ID', value: app.securityInfo.teamId, id: 'teamId' }
                             ];
                             
+                            let hasFields = false;
+                            console.log('Single app security fields:', fields);
                             fields.forEach(field => {
                                 if (field.value) {
+                                    hasFields = true;
+                                    console.log('Adding field:', field.label, '=', field.value);
                                     const item = document.createElement('div');
                                     item.className = 'modal-security-item';
                                     
@@ -1414,9 +1435,20 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
                                     securityContainer.appendChild(item);
                                 }
                             });
+                            
+                            // Only show security row if we have at least one field
+                            console.log('Single app hasFields:', hasFields);
+                            if (hasFields) {
+                                securityRow.style.display = 'block';
+                                console.log('Security row set to block');
+                            } else {
+                                securityRow.style.display = 'none';
+                                console.log('Security row set to none (no fields)');
+                            }
+                        } else {
+                            securityRow.style.display = 'block';
                         }
                     }
-                    securityRow.style.display = 'block';
                 } else {
                     securityRow.style.display = 'none';
                 }
