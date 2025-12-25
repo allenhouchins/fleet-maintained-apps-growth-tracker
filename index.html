@@ -5803,6 +5803,27 @@
                 platform: app.platform,
                 slug: app.slug
             });
+            // Log the actual security info keys and values for debugging
+            if (app.securityInfo) {
+                console.log('Security Info Keys:', Object.keys(app.securityInfo));
+                console.log('Security Info Full Object:', JSON.stringify(app.securityInfo, null, 2));
+                // Log individual field accesses
+                if (app.platform === 'windows') {
+                    console.log('Windows fields:', {
+                        publisher: app.securityInfo.publisher,
+                        issuer: app.securityInfo.issuer,
+                        serialNumber: app.securityInfo.serialNumber,
+                        thumbprint: app.securityInfo.thumbprint,
+                        timestamp: app.securityInfo.timestamp
+                    });
+                } else {
+                    console.log('macOS fields:', {
+                        cdhash: app.securityInfo.cdhash,
+                        signingId: app.securityInfo.signingId,
+                        teamId: app.securityInfo.teamId
+                    });
+                }
+            }
             
             if (securityRow) {
                 if (app.securityInfo) {
