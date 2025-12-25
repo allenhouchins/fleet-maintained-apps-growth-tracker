@@ -1,0 +1,71 @@
+name: Collect Windows App Security Info
+
+on:
+  workflow_dispatch:  # Allow manual triggering or triggered by update-data workflow
+
+permissions:
+  contents: write  # Required to commit changes
+  actions: write   # Required to trigger other workflows
+
+concurrency:
+  group: "collect-security-info-windows"
+  cancel-in-progress: false  # Don't cancel in-progress runs, skip new ones instead
+
+jobs:
+  collect-security-info:
+    runs-on: windows-latest  # Must run on Windows for Authenticode signature verification
+    timeout-minutes: 120  # Longer timeout for app installations
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.21'
+
+      - name: Collect Windows app security info
+        run: |
+          cd cmd/collect-security-info-windows && go run main.go
+
+      - name: Regenerate HTML with security info
+        run: |
+          go run generate_html.go
+
+      - name: Check for changes
+        id: verify-changed-files
+        shell: pwsh
+        run: |
+          $status = git status --porcelain
+          if ($status) {
+            echo "changed=true" >> $env:GITHUB_OUTPUT
+          } else {
+            echo "changed=false" >> $env:GITHUB_OUTPUT
+          }
+
+      - name: Commit and push changes
+        if: steps.verify-changed-files.outputs.changed == 'true'
+        shell: pwsh
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/app_security_info.json index.html
+          $timestamp = Get-Date -Format 'yyyy-MM-dd HH:mm:ss UTC'
+          git commit -m "Update Windows app security info - $timestamp"
+          git push
+
+      - name: Trigger deploy-pages workflow
+        if: steps.verify-changed-files.outputs.changed == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'deploy-pages.yml',
+              ref: 'main'
+            });
+

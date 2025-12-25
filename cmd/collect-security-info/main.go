@@ -37,15 +37,20 @@ type securityAppVersionsData struct {
 }
 
 type appSecurityInfo struct {
-	Slug        string            `json:"slug"`
-	Name        string            `json:"name"`
-	Version     string            `json:"version"`
-	Sha256      string            `json:"sha256,omitempty"`
-	Cdhash      string            `json:"cdhash,omitempty"`
-	SigningID   string            `json:"signingId,omitempty"`
-	TeamID      string            `json:"teamId,omitempty"`
-	LastUpdated string            `json:"lastUpdated"`
-	Apps        []appSecurityInfo `json:"apps,omitempty"` // For suites with multiple apps
+	Slug         string            `json:"slug"`
+	Name         string            `json:"name"`
+	Version      string            `json:"version"`
+	Sha256       string            `json:"sha256,omitempty"`
+	Cdhash       string            `json:"cdhash,omitempty"`
+	SigningID    string            `json:"signingId,omitempty"`
+	TeamID       string            `json:"teamId,omitempty"`
+	Publisher    string            `json:"publisher,omitempty"`     // Windows: Certificate subject
+	Issuer       string            `json:"issuer,omitempty"`        // Windows: Certificate authority
+	SerialNumber string            `json:"serialNumber,omitempty"`  // Windows: Certificate serial
+	Thumbprint   string            `json:"thumbprint,omitempty"`    // Windows: Certificate thumbprint
+	Timestamp    string            `json:"timestamp,omitempty"`     // Windows: Signing timestamp
+	LastUpdated  string            `json:"lastUpdated"`
+	Apps         []appSecurityInfo `json:"apps,omitempty"` // For suites with multiple apps
 }
 
 type securityInfoData struct {
