@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-25T01:46:51Z",
+  "lastUpdated": "2025-12-25T01:47:51Z",
   "apps": [
     {
       "slug": "010-editor/windows",
@@ -273,6 +273,121 @@
       "version": "1.4.2",
       "sha256": "0cc82561fa1ebd78d1bf4d0c12dc8690b0498d2ff6c5f2001039e234a15d177f",
       "lastUpdated": "2025-12-25T01:46:51Z"
+    },
+    {
+      "slug": "keepassxc/windows",
+      "name": "KeePassXC",
+      "version": "2.7.11",
+      "sha256": "8f8a3893fa2789ddbb61f815202477e9b15ec3d166695f5245ed06a4f3996261",
+      "publisher": "CN=\"DroidMonkey Apps, LLC\", O=\"DroidMonkey Apps, LLC\", S=Virginia, C=US",
+      "issuer": "CN=Sectigo Public Code Signing CA R36, O=Sectigo Limited, C=GB",
+      "serialNumber": "06433FCCCCE433A892CC17B746A58C65",
+      "thumbprint": "14CF22744ED6C58E48230BBAD703CB37E02CC2A1",
+      "timestamp": "CN=Sectigo Public Time Stamping Signer R36, O=Sectigo Limited, S=West Yorkshire, C=GB",
+      "lastUpdated": "2025-12-25T01:47:01Z"
+    },
+    {
+      "slug": "notion/windows",
+      "name": "Notion",
+      "version": "6.3.2",
+      "sha256": "b279b934260125f69ccdf1051894d531741e7ea516c91ca55d4b134a41a6696b",
+      "publisher": "CN=\"Notion Labs, Inc.\", O=\"Notion Labs, Inc.\", L=San Francisco, S=California, C=US",
+      "issuer": "CN=Microsoft ID Verified CS AOC CA 02, O=Microsoft Corporation, C=US",
+      "serialNumber": "330006A6D41FE123EAED5D4CF800000006A6D4",
+      "thumbprint": "D93383E7889A30D3FF4F0C89D72D6F83F1204C3E",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7D00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2025-12-25T01:47:12Z"
+    },
+    {
+      "slug": "obs/windows",
+      "name": "OBS",
+      "version": "32.0.4",
+      "sha256": "46a18bce8e2ff662b700c91d340a519376e712fe0af0d335536e4f9fd253f10a",
+      "publisher": "CN=\"OBS Project, LLC\", O=\"OBS Project, LLC\", L=Sheridan, S=Wyoming, C=US, SERIALNUMBER=2023-001272252, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Wyoming, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Global G3 Code Signing ECC SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0D416A0683B8C191DEE8DEEEC54DAB37",
+      "thumbprint": "EC0614E3D9455AA731992287C6F7E44A5288C232",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2025-12-25T01:47:17Z"
+    },
+    {
+      "slug": "postman/windows",
+      "name": "Postman",
+      "version": "11.77.2",
+      "sha256": "c18ea17ff0fbca89e5e7ed4bea65b1a1c283fd3e4a58b7180369b04a9fc3097a",
+      "publisher": "CN=\"Postman, Inc.\", O=\"Postman, Inc.\", L=San Francisco, S=California, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "06BF9F29E018BD749B536C714E98D6A5",
+      "thumbprint": "8F1DDDA5C241B2F3424D4211991BBE1CD22226CC",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2025-12-25T01:47:21Z"
+    },
+    {
+      "slug": "slack/windows",
+      "name": "Slack",
+      "version": "4.47.69",
+      "sha256": "717ad1c1c8aeacb118b8e72ac1f7ef8967c2697e50506906d0ae13bf3b3df122",
+      "publisher": "CN=\"Slack Technologies, LLC\", O=\"Slack Technologies, LLC\", L=San Francisco, S=California, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "093EBC16F38319EC4E03B33422D94F1B",
+      "thumbprint": "0E2CE64CE623A6F1049BA69353D66BF60158C43D",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2025-12-25T01:47:30Z"
+    },
+    {
+      "slug": "sourcetree/windows",
+      "name": "Sourcetree",
+      "version": "3.4.27",
+      "sha256": "df840e606d0504ed41d5838cd7a619577c1c62692d3906c3989d76af4db5b2e6",
+      "lastUpdated": "2025-12-25T01:47:35Z"
+    },
+    {
+      "slug": "spotify/windows",
+      "name": "Spotify",
+      "version": "1.2.80.232.gcd5eb6df",
+      "sha256": "40f1845ceb5d1f144b38cce652c9dd34e3d4133d0c2431edfc6838a46589dd89",
+      "publisher": "CN=Spotify AB, O=Spotify AB, L=Stockholm, C=SE, SERIALNUMBER=556703-7485, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=SE",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0B37A6915B00FA0D38102665EB7F2A8A",
+      "thumbprint": "0DCC8F6DF315A86E6E40A76EFF4F78D2B16E7F02",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2025-12-25T01:47:41Z"
+    },
+    {
+      "slug": "steam/windows",
+      "name": "Steam",
+      "version": "2.10.91.91",
+      "sha256": "7d3654531c32d941b8cae81c4137fc542172bfa9635f169cb392f245a0a12bcb",
+      "publisher": "CN=Valve Corp., O=Valve Corp., L=Bellevue, S=Washington, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0689B3BCEB4409890A32D71976B132A4",
+      "thumbprint": "935767D66FAD4AD2D1F03A095C49370DC74DF607",
+      "timestamp": "CN=DigiCert Timestamp 2023, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2025-12-25T01:47:44Z"
+    },
+    {
+      "slug": "sublime-text/windows",
+      "name": "Sublime Text",
+      "version": "4.0.0.420000",
+      "sha256": "3d3c70e51aef08f85d7160bcc70793bed9acec250973090ab67d98987bce7c7e",
+      "publisher": "CN=Sublime HQ Pty Ltd, O=Sublime HQ Pty Ltd, L=Woollahra, S=New South Wales, C=AU",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "04F6CB315A9192269392DB660DE8B623",
+      "thumbprint": "AB4550F114DB3599664A9965AF64BC35154288F6",
+      "timestamp": "CN=DigiCert Timestamp 2024, O=DigiCert, C=US",
+      "lastUpdated": "2025-12-25T01:47:46Z"
+    },
+    {
+      "slug": "tailscale/windows",
+      "name": "Tailscale",
+      "version": "1.92.3",
+      "sha256": "1337cc9fb29c0f1b1882dbaa9f795cf700d9c7ca3e9c03f4762aaebb513ec44d",
+      "publisher": "CN=Tailscale Inc., O=Tailscale Inc., L=Toronto, S=Ontario, C=CA, SERIALNUMBER=1131559-5, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CA",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "01E70B2CB782584A3A0A1A8871840B2D",
+      "thumbprint": "D4B253E96CC88206259CA892FE299CCB6DBBE777",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2025-12-25T01:47:51Z"
     }
   ]
 }
