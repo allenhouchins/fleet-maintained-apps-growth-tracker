@@ -157,6 +157,8 @@ jobs:
           git config --local user.name "GitHub Action"
           git add data/app_security_info.json index.html
           git commit -m "Update macOS app security info - $(date +'%Y-%m-%d %H:%M:%S UTC')"
+          # Pull and merge any remote changes before pushing
+          git pull --rebase origin main || git pull --no-edit origin main
           git push
 
       # Note: deploy-pages workflow is automatically triggered via workflow_run

@@ -643,43 +643,122 @@ func extractFromZIP(zipPath string, app securityAppVersionInfo) (string, error) 
 		return "", fmt.Errorf("failed to extract ZIP: %w", err)
 	}
 
+	// Wait for extraction to complete
+	time.Sleep(2 * time.Second)
+
+	// Check if we extracted a nested archive (e.g., .appxupload which is a ZIP containing .appx)
+	// Look for .appxupload, .appx, .appxbundle, or .msix files
+	var nestedArchives []string
+	err := filepath.Walk(extractDir, func(path string, info os.FileInfo, err error) error {
+		if err != nil {
+			return nil
+		}
+		if !info.IsDir() {
+			ext := strings.ToLower(filepath.Ext(path))
+			if ext == ".appxupload" || ext == ".appx" || ext == ".appxbundle" || ext == ".msix" {
+				nestedArchives = append(nestedArchives, path)
+			}
+		}
+		return nil
+	})
+
+	// If we found nested archives, extract the first one
+	if len(nestedArchives) > 0 {
+		// .appxupload is a ZIP file, extract it
+		for _, archive := range nestedArchives {
+			ext := strings.ToLower(filepath.Ext(archive))
+			if ext == ".appxupload" {
+				// Extract the .appxupload (it's a ZIP)
+				nestedExtractDir := filepath.Join(tempDir, "nested_extracted")
+				os.RemoveAll(nestedExtractDir)
+				if err := os.MkdirAll(nestedExtractDir, 0755); err == nil {
+					psScript := fmt.Sprintf("Expand-Archive -Path '%s' -DestinationPath '%s' -Force", archive, nestedExtractDir)
+					cmd := exec.Command("powershell", "-Command", psScript)
+					if cmd.Run() == nil {
+						time.Sleep(2 * time.Second)
+						// Look for .appx files in the nested extraction
+						var foundAppx string
+						filepath.Walk(nestedExtractDir, func(path string, info os.FileInfo, err error) error {
+							if err == nil && !info.IsDir() {
+								if strings.ToLower(filepath.Ext(path)) == ".appx" {
+									// Check if the .appx is signed
+									if _, err := getAuthenticodeSignature(path); err == nil {
+										foundAppx = path
+										return filepath.SkipAll // Found signed .appx, use it
+									}
+								}
+							}
+							return nil
+						})
+						if foundAppx != "" {
+							return foundAppx, nil
+						}
+						// Try to find executable in nested extraction
+						if exe, err := findMainExecutable(nestedExtractDir, app); err == nil {
+							return exe, nil
+						}
+					}
+				}
+			} else if ext == ".appx" || ext == ".appxbundle" || ext == ".msix" {
+				// Check if the .appx/.msix itself is signed
+				if _, err := getAuthenticodeSignature(archive); err == nil {
+					return archive, nil
+				}
+			}
+		}
+	}
+
 	return findMainExecutable(extractDir, app)
 }
 
 func findMainExecutable(dir string, app securityAppVersionInfo) (string, error) {
-	// Look for .exe files, prioritizing main executables
+	// Look for .exe, .appx, .appxbundle, .msix files, prioritizing main executables
 	var exeFiles []string
+	var appxFiles []string
 	var mainExes []string // Executables that look like main apps (not helpers, installers, etc.)
 	
-	err := filepath.Walk(dir, func(path string, info os.FileInfo, err error) error {
+		err := filepath.Walk(dir, func(path string, info os.FileInfo, err error) error {
 		if err != nil {
 			return nil
 		}
-		if strings.HasSuffix(strings.ToLower(path), ".exe") && !info.IsDir() {
-			exeName := strings.ToLower(filepath.Base(path))
-			// Skip obvious helper/installer files
-			skipPatterns := []string{
-				"installer", "setup", "uninstall", "helper", "service", "daemon",
-				"updater", "update", "launcher", "bootstrapper", "msiexec",
-			}
-			shouldSkip := false
-			for _, pattern := range skipPatterns {
-				if strings.Contains(exeName, pattern) {
-					shouldSkip = true
-					break
+		pathLower := strings.ToLower(path)
+		if !info.IsDir() {
+			if strings.HasSuffix(pathLower, ".exe") {
+				exeName := strings.ToLower(filepath.Base(path))
+				// Skip obvious helper/installer files
+				skipPatterns := []string{
+					"installer", "setup", "uninstall", "helper", "service", "daemon",
+					"updater", "update", "launcher", "bootstrapper", "msiexec",
+				}
+				shouldSkip := false
+				for _, pattern := range skipPatterns {
+					if strings.Contains(exeName, pattern) {
+						shouldSkip = true
+						break
+					}
+				}
+				
+				if !shouldSkip {
+					mainExes = append(mainExes, path)
+				}
+				exeFiles = append(exeFiles, path)
+			} else if strings.HasSuffix(pathLower, ".appx") || strings.HasSuffix(pathLower, ".appxbundle") || strings.HasSuffix(pathLower, ".msix") {
+				// Check if the appx/msix is signed
+				if _, err := getAuthenticodeSignature(path); err == nil {
+					appxFiles = append(appxFiles, path)
 				}
 			}
-			
-			if !shouldSkip {
-				mainExes = append(mainExes, path)
-			}
-			exeFiles = append(exeFiles, path)
 		}
 		return nil
 	})
 
 	if err != nil {
 		return "", err
+	}
+
+	// If we found signed .appx/.msix files, prefer those
+	if len(appxFiles) > 0 {
+		return appxFiles[0], nil
 	}
 
 	if len(exeFiles) == 0 {

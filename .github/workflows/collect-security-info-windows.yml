@@ -55,6 +55,8 @@ jobs:
           git add data/app_security_info.json index.html
           $timestamp = Get-Date -Format 'yyyy-MM-dd HH:mm:ss UTC'
           git commit -m "Update Windows app security info - $timestamp"
+          # Pull and merge any remote changes before pushing
+          git pull --rebase origin main || git pull --no-edit origin main
           git push
 
       # Note: deploy-pages workflow is automatically triggered via workflow_run
