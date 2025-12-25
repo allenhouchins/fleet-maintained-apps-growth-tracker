@@ -537,7 +537,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: December 24, 2025 at 10:42 PM CST</p>
+            Last updated: December 24, 2025 at 10:48 PM CST</p>
         </div>
     </div>
 
@@ -594,7 +594,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: December 24, 2025 at 10:42 PM CST</p>
+                <p id="modalLastUpdated">Last updated: December 24, 2025 at 10:48 PM CST</p>
             </div>
         </div>
     </div>
@@ -5909,10 +5909,8 @@
                             
                             let hasFields = false;
                             console.log('Single app security fields:', fields);
-                            console.log('Security info object:', app.securityInfo);
                             fields.forEach(field => {
-                                // Check if value exists and is not empty string
-                                if (field.value !== undefined && field.value !== null && field.value !== '') {
+                                if (field.value) {
                                     hasFields = true;
                                     console.log('Adding field:', field.label, '=', field.value);
                                     const item = document.createElement('div');
@@ -5930,8 +5928,6 @@
                                     item.appendChild(label);
                                     item.appendChild(value);
                                     securityContainer.appendChild(item);
-                                } else {
-                                    console.log('Skipping field:', field.label, 'value:', field.value, 'type:', typeof field.value);
                                 }
                             });
                             
@@ -5956,7 +5952,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `December 24, 2025 at 10:42 PM CST`;
+                let timestampText = 'Last updated: ' + `December 24, 2025 at 10:48 PM CST`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
