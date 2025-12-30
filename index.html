@@ -537,7 +537,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: December 29, 2025 at 11:10 PM CST</p>
+            Last updated: December 29, 2025 at 11:12 PM CST</p>
         </div>
     </div>
 
@@ -594,7 +594,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: December 29, 2025 at 11:10 PM CST</p>
+                <p id="modalLastUpdated">Last updated: December 29, 2025 at 11:12 PM CST</p>
             </div>
         </div>
     </div>
@@ -3357,8 +3357,11 @@
                 "version": "4.38",
                 "installerUrl": "https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2025-12/R/eclipse-committers-2025-12-R-macosx-cocoa-aarch64.dmg\u0026r=1",
                 "securityInfo": {
-                  "sha256": "2267fbd201eb4e6675c7e760b3c80298e78aca5a44a9ab3b9e6d05f8f15ce220",
-                  "lastUpdated": "2025-12-20T06:35:04Z"
+                  "sha256": "72ac398c3443f5ecc7c925c83943fa470e38dc87a44d760cdfa6ccaf8d2a17d7",
+                  "cdhash": "00ae4083a70c637421fded96c6f467e537de70a2",
+                  "signingId": "JCDTMS22B4:epp.package.committers",
+                  "teamId": "JCDTMS22B4",
+                  "lastUpdated": "2025-12-30T05:12:39Z"
                 }
               },
               {
@@ -5994,7 +5997,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `December 29, 2025 at 11:10 PM CST`;
+                let timestampText = 'Last updated: ' + `December 29, 2025 at 11:12 PM CST`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
