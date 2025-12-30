@@ -537,7 +537,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: December 30, 2025 at 9:07 AM CST</p>
+            Last updated: December 30, 2025 at 9:10 AM CST</p>
         </div>
     </div>
 
@@ -594,7 +594,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: December 30, 2025 at 9:07 AM CST</p>
+                <p id="modalLastUpdated">Last updated: December 30, 2025 at 9:10 AM CST</p>
             </div>
         </div>
     </div>
@@ -5422,8 +5422,11 @@
                 "version": "6.7.2.72191",
                 "installerUrl": "https://zoom.us/client/latest/ZoomInstallerIT.pkg",
                 "securityInfo": {
-                  "sha256": "78dd1d3aa0ee7176d6c50547903acf2f359303e31200398e80fc0190a14655f0",
-                  "lastUpdated": "2025-12-20T09:34:29Z"
+                  "sha256": "fa24baad4b0ae8ae999f08d53c73c9b5c5b37c11772c63bad1c67a238701dc61",
+                  "cdhash": "8f58ff2bd99ef51bbc85fc62ce68b04a6aca8308",
+                  "signingId": "BJ4HAAB9B3:us.zoom.xos",
+                  "teamId": "BJ4HAAB9B3",
+                  "lastUpdated": "2025-12-30T15:09:45Z"
                 }
               },
               {
@@ -5988,7 +5991,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `December 30, 2025 at 9:07 AM CST`;
+                let timestampText = 'Last updated: ' + `December 30, 2025 at 9:10 AM CST`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
