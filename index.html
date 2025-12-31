@@ -537,7 +537,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: December 31, 2025 at 4:07 PM CST</p>
+            Last updated: December 31, 2025 at 4:09 PM CST</p>
         </div>
     </div>
 
@@ -594,7 +594,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: December 31, 2025 at 4:07 PM CST</p>
+                <p id="modalLastUpdated">Last updated: December 31, 2025 at 4:09 PM CST</p>
             </div>
         </div>
     </div>
@@ -3350,8 +3350,11 @@
                 "version": "238.4.6305",
                 "installerUrl": "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20238.4.6305.arm64.dmg",
                 "securityInfo": {
-                  "sha256": "154876c7ad825a89b7e3fc5a25a5cbe44cef4d72e3545e09701c18cbdba27409",
-                  "lastUpdated": "2025-12-20T06:34:35Z"
+                  "sha256": "76c877fad3b40c11699e578ee598bfc6aa5483a28516270a4654d09b74f4f432",
+                  "cdhash": "c64e50e0d16988b299406431e1be3fa16d2fd7a3",
+                  "signingId": "G7HH3F8CAK:com.getdropbox.dropbox",
+                  "teamId": "G7HH3F8CAK",
+                  "lastUpdated": "2025-12-31T22:09:01Z"
                 }
               },
               {
@@ -5993,7 +5996,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `December 31, 2025 at 4:07 PM CST`;
+                let timestampText = 'Last updated: ' + `December 31, 2025 at 4:09 PM CST`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
