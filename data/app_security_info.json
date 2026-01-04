@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-04T00:33:40Z",
+  "lastUpdated": "2026-01-04T01:39:20Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -78,9 +78,14 @@
     {
       "slug": "adobe-acrobat-reader/windows",
       "name": "Adobe Acrobat Reader",
-      "version": "25.001.20982",
-      "sha256": "cbfb05fd9dca496cf0a14a8d596f02cd87d58faae227ab0a2c39139c72c2c380",
-      "lastUpdated": "2025-12-25T01:37:09Z"
+      "version": "25.001.20997",
+      "sha256": "b10826f0af3eda20859d8fe6ba1d8b04acc8f83fe6b2ff2b209605f8793711b2",
+      "publisher": "CN=Adobe Inc., OU=Acrobat DC, O=Adobe Inc., L=San Jose, S=ca, C=US, SERIALNUMBER=2748129, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0E848EA39B36D7BB533CF43D96D6E13E",
+      "thumbprint": "BF7153FEEFC282B9F1D11CEC997EC01AD76F6693",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-01-04T01:39:20Z"
     },
     {
       "slug": "adobe-creative-cloud/darwin",
@@ -1781,9 +1786,6 @@
       "name": "UTM",
       "version": "4.7.5",
       "sha256": "d6fba974f81917781c303ca2838ad6b7431842f45a87b21ae2b33e29836fdc23",
-      "cdhash": "19fc43aa858d42d2ec595ade708af75bfdf19572",
-      "signingId": "WDNLXAD4W8:com.utmapp.UTM",
-      "teamId": "WDNLXAD4W8",
       "lastUpdated": "2026-01-04T00:33:38Z"
     },
     {
