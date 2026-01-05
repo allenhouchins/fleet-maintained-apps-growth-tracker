@@ -537,7 +537,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: January 5, 2026 at 2:08 PM CST</p>
+            Last updated: January 5, 2026 at 2:10 PM CST</p>
         </div>
     </div>
 
@@ -594,7 +594,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: January 5, 2026 at 2:08 PM CST</p>
+                <p id="modalLastUpdated">Last updated: January 5, 2026 at 2:10 PM CST</p>
             </div>
         </div>
     </div>
@@ -4205,7 +4205,16 @@
                 "platform": "windows",
                 "description": "Notepad++ is a text editor for Windows.",
                 "version": "8.9",
-                "installerUrl": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9/npp.8.9.Installer.x64.exe"
+                "installerUrl": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9/npp.8.9.Installer.x64.exe",
+                "securityInfo": {
+                  "sha256": "8e22725756fa567c86170d3601228bbe623b9c5b0c4846c546318efd2ac8a6e3",
+                  "publisher": "E=don.h@free.fr, CN=\"NOTEPAD++\", O=\"NOTEPAD++\", L=Paris, S=Île-de-France, C=FR",
+                  "issuer": "CN=GlobalSign GCC R45 CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
+                  "serialNumber": "05F0D813D6A6F004575A2099",
+                  "thumbprint": "1E8E0D13B608BA908572C1A129FAEC5D228DF8A2",
+                  "timestamp": "CN=Globalsign TSA for CodeSign1 - R6, O=GlobalSign nv-sa, C=BE",
+                  "lastUpdated": "2026-01-05T20:10:28Z"
+                }
               },
               {
                 "name": "Notion Calendar",
@@ -6026,7 +6035,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `January 5, 2026 at 2:08 PM CST`;
+                let timestampText = 'Last updated: ' + `January 5, 2026 at 2:10 PM CST`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
