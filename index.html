@@ -537,7 +537,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: January 6, 2026 at 2:10 AM CST</p>
+            Last updated: January 6, 2026 at 2:12 AM CST</p>
         </div>
     </div>
 
@@ -594,7 +594,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: January 6, 2026 at 2:10 AM CST</p>
+                <p id="modalLastUpdated">Last updated: January 6, 2026 at 2:12 AM CST</p>
             </div>
         </div>
     </div>
@@ -3225,8 +3225,11 @@
                 "version": "25.3.2",
                 "installerUrl": "https://dbeaver.io/files/25.3.2/dbeaver-ce-25.3.2-macos-aarch64.dmg",
                 "securityInfo": {
-                  "sha256": "30987e5b8114bd239567336f215019f128f9d6bc6b1922dcab685f5900842432",
-                  "lastUpdated": "2025-12-21T22:28:21Z"
+                  "sha256": "a2e9ff3b2e0c7535913be94bbcd840b11372bac1dcc58b639ee09c117aa64601",
+                  "cdhash": "e9ce1bdb81db4f7ba00bc9011670fa1d5ed87c04",
+                  "signingId": "42B6MDKMW8:org.jkiss.dbeaver.core.product",
+                  "teamId": "42B6MDKMW8",
+                  "lastUpdated": "2026-01-06T08:11:42Z"
                 }
               },
               {
@@ -6046,7 +6049,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `January 6, 2026 at 2:10 AM CST`;
+                let timestampText = 'Last updated: ' + `January 6, 2026 at 2:12 AM CST`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
