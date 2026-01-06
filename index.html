@@ -537,7 +537,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: January 5, 2026 at 11:10 PM CST</p>
+            Last updated: January 5, 2026 at 11:13 PM CST</p>
         </div>
     </div>
 
@@ -594,7 +594,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: January 5, 2026 at 11:10 PM CST</p>
+                <p id="modalLastUpdated">Last updated: January 5, 2026 at 11:13 PM CST</p>
             </div>
         </div>
     </div>
@@ -3342,7 +3342,14 @@
                 "platform": "darwin",
                 "description": "Docker Desktop provides a seamless environment for building, sharing, and running containerized applications and microservices.",
                 "version": "4.55.0",
-                "installerUrl": "https://desktop.docker.com/mac/main/arm64/213807/Docker.dmg"
+                "installerUrl": "https://desktop.docker.com/mac/main/arm64/213807/Docker.dmg",
+                "securityInfo": {
+                  "sha256": "0a586bda6f5f4d121fa63879e11288b20a2ad243fa049a2224d5288b0be6639d",
+                  "cdhash": "f216ccb62d71c5dd70ccae6c8ac53dbbe003ea50",
+                  "signingId": "9BNSXJN65R:com.docker.docker",
+                  "teamId": "9BNSXJN65R",
+                  "lastUpdated": "2026-01-06T05:12:07Z"
+                }
               },
               {
                 "name": "Docker Desktop",
@@ -3718,8 +3725,11 @@
                 "version": "6.462.1",
                 "installerUrl": "https://dr2v7l5emb758.cloudfront.net/6.462.1/Granola-6.462.1-mac-universal.dmg",
                 "securityInfo": {
-                  "sha256": "4f90dfb1afacfb35bf66cf289c8ee0d4e15bcb40045168111c6bd4cbd71d67e4",
-                  "lastUpdated": "2025-12-23T01:39:49Z"
+                  "sha256": "ce027c6ca5b90bfdb1d82c7ca81f38d75736888b07915400c6d5bd152e875c0b",
+                  "cdhash": "1113bf91220e48d4d17056695ac7e71e5cd34e3d",
+                  "signingId": "QZ7DHHLN25:com.granola.app",
+                  "teamId": "QZ7DHHLN25",
+                  "lastUpdated": "2026-01-06T05:12:55Z"
                 }
               },
               {
@@ -5029,8 +5039,11 @@
                 "version": "12.4",
                 "installerUrl": "https://osx.telegram.org/updates/Telegram-12.4.277872.app.zip",
                 "securityInfo": {
-                  "sha256": "56dfa7cc19d90ec0544ef301dfa45518d271a675e0c337f3c2bd8b441aaf3462",
-                  "lastUpdated": "2025-12-20T09:17:11Z"
+                  "sha256": "03ac98f8a0c3921a17307254bc9a1f64cbcef7a2f8a96120aaf1b9109e409c0c",
+                  "cdhash": "b0f8febc2e2e51188807f514b2dfdbe820f08fce",
+                  "signingId": "6N38VWS5BX:ru.keepcoder.Telegram",
+                  "teamId": "6N38VWS5BX",
+                  "lastUpdated": "2026-01-06T05:13:21Z"
                 }
               },
               {
@@ -6039,7 +6052,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `January 5, 2026 at 11:10 PM CST`;
+                let timestampText = 'Last updated: ' + `January 5, 2026 at 11:13 PM CST`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
