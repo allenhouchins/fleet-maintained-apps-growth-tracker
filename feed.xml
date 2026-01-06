@@ -5,13 +5,20 @@
     <link>https://fmalibrary.com</link>
     <description>Track version updates and new app additions for Fleet-maintained apps. Get notified when apps are updated with new versions or when new apps are added to the library.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Jan 2026 07:11:30 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Jan 2026 08:10:16 +0000</lastBuildDate>
     <atom:link href="https://fmalibrary.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://fmalibrary.com/cloud-city.png</url>
       <title>Fleet-maintained apps</title>
       <link>https://fmalibrary.com</link>
     </image>
+    <item>
+      <title>DBeaver 25.3.1 → 25.3.2 (Mac)</title>
+      <link>https://fmalibrary.com</link>
+      <description>DBeaver has been updated from version 25.3.1 to 25.3.2 on January 6, 2026. &lt;a href=&quot;https://dbeaver.io/files/25.3.2/dbeaver-ce-25.3.2-macos-aarch64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Tue, 06 Jan 2026 08:10:16 +0000</pubDate>
+      <guid isPermaLink="false">dbeaver-community/darwin-25.3.1-25.3.2</guid>
+    </item>
     <item>
       <title>Bruno 2.15.1 → 3.0.0 (Mac)</title>
       <link>https://fmalibrary.com</link>
@@ -1952,13 +1959,6 @@
       <guid isPermaLink="false">dialpad/darwin--2511.1.1</guid>
     </item>
     <item>
-      <title>New App: DeepL 25.11.23262385 (Mac)</title>
-      <link>https://fmalibrary.com</link>
-      <description>DeepL has been added to the Fleet-maintained apps library with version 25.11.23262385 on December 10, 2025. &lt;a href=&quot;https://www.deepl.com/macos/download/25.11/23262385/DeepL.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Wed, 10 Dec 2025 05:34:50 +0000</pubDate>
-      <guid isPermaLink="false">deepl/darwin--25.11.23262385</guid>
-    </item>
-    <item>
       <title>Microsoft Excel 16.103.25113013 → 16.103.25120717 (Mac)</title>
       <link>https://fmalibrary.com</link>
       <description>Microsoft Excel has been updated from version 16.103.25113013 to 16.103.25120717 on December 10, 2025. &lt;a href=&quot;https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.103.25120717_Installer.pkg&quot;&gt;Download installer&lt;/a&gt;</description>
@@ -2022,11 +2022,11 @@
       <guid isPermaLink="false">cleanshot/darwin--4.8.6</guid>
     </item>
     <item>
-      <title>New App: CleanMyMac 5.2.10 (Mac)</title>
+      <title>New App: DeepL 25.11.23262385 (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>CleanMyMac has been added to the Fleet-maintained apps library with version 5.2.10 on December 10, 2025. &lt;a href=&quot;https://dl.devmate.com/com.macpaw.CleanMyMac5/50210.0.2511270937/1764257995/CleanMyMac5-50210.0.2511270937.zip&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>DeepL has been added to the Fleet-maintained apps library with version 25.11.23262385 on December 10, 2025. &lt;a href=&quot;https://www.deepl.com/macos/download/25.11/23262385/DeepL.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Wed, 10 Dec 2025 05:34:50 +0000</pubDate>
-      <guid isPermaLink="false">cleanmymac/darwin--5.2.10</guid>
+      <guid isPermaLink="false">deepl/darwin--25.11.23262385</guid>
     </item>
     <item>
       <title>New App: balenaEtcher 2.1.4 (Mac)</title>
@@ -2118,6 +2118,13 @@
       <description>Granola has been updated from version 6.377.0 to 6.399.0 on December 10, 2025. &lt;a href=&quot;https://dr2v7l5emb758.cloudfront.net/6.399.0/Granola-6.399.0-mac-universal.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Wed, 10 Dec 2025 05:34:50 +0000</pubDate>
       <guid isPermaLink="false">granola/darwin-6.377.0-6.399.0</guid>
+    </item>
+    <item>
+      <title>New App: CleanMyMac 5.2.10 (Mac)</title>
+      <link>https://fmalibrary.com</link>
+      <description>CleanMyMac has been added to the Fleet-maintained apps library with version 5.2.10 on December 10, 2025. &lt;a href=&quot;https://dl.devmate.com/com.macpaw.CleanMyMac5/50210.0.2511270937/1764257995/CleanMyMac5-50210.0.2511270937.zip&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Wed, 10 Dec 2025 05:34:50 +0000</pubDate>
+      <guid isPermaLink="false">cleanmymac/darwin--5.2.10</guid>
     </item>
     <item>
       <title>Adobe Acrobat Reader 25.001.20982 → 25.001.20997 (Mac)</title>
@@ -3504,13 +3511,6 @@
       <description>Zed has been added to the Fleet-maintained apps library with version 0.213.6 on November 25, 2025. &lt;a href=&quot;https://zed.dev/api/releases/stable/0.213.6/Zed-aarch64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Tue, 25 Nov 2025 01:05:57 +0000</pubDate>
       <guid isPermaLink="false">zed/darwin--0.213.6</guid>
-    </item>
-    <item>
-      <title>New App: VLC media player 3.0.21 (Mac)</title>
-      <link>https://fmalibrary.com</link>
-      <description>VLC media player has been added to the Fleet-maintained apps library with version 3.0.21 on November 25, 2025. &lt;a href=&quot;https://get.videolan.org/vlc/3.0.21/macosx/vlc-3.0.21-arm64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Tue, 25 Nov 2025 00:51:15 +0000</pubDate>
-      <guid isPermaLink="false">vlc/darwin--3.0.21</guid>
     </item>
   </channel>
 </rss>
