@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-07T03:50:07Z",
+  "lastUpdated": "2026-01-07T04:22:19Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1036,6 +1036,13 @@
       "platform": "darwin",
       "version": "8.0.45",
       "installerUrl": "https://cdn.mysql.com/Downloads/MySQLGUITools/mysql-workbench-community-8.0.45-macos-arm64.dmg"
+    },
+    {
+      "slug": "nextcloud/darwin",
+      "name": "Nextcloud",
+      "platform": "darwin",
+      "version": "4.0.4",
+      "installerUrl": "https://github.com/nextcloud-releases/desktop/releases/download/v4.0.4/Nextcloud-4.0.4.pkg"
     },
     {
       "slug": "nordpass/darwin",

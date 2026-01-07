@@ -537,7 +537,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: January 6, 2026 at 9:55 PM CST</p>
+            Last updated: January 6, 2026 at 10:22 PM CST</p>
         </div>
     </div>
 
@@ -594,7 +594,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: January 6, 2026 at 9:55 PM CST</p>
+                <p id="modalLastUpdated">Last updated: January 6, 2026 at 10:22 PM CST</p>
             </div>
         </div>
     </div>
@@ -1224,7 +1224,7 @@
             249,
             250,
             250,
-            250
+            251
           ],
           "additions": [
             20,
@@ -1536,7 +1536,7 @@
             0,
             0,
             0,
-            0
+            1
           ],
           "macCounts": [
             20,
@@ -1848,7 +1848,7 @@
             203,
             203,
             203,
-            203
+            204
           ],
           "windowsCounts": [
             0,
@@ -2200,7 +2200,8 @@
             "2025-12-17",
             "2025-12-21",
             "2025-12-22",
-            "2025-12-23"
+            "2025-12-23",
+            "2026-01-07"
           ],
           "growthCounts": [
             20,
@@ -2240,7 +2241,8 @@
             246,
             247,
             248,
-            250
+            250,
+            251
           ],
           "growthAdditions": [
             20,
@@ -2280,7 +2282,8 @@
             3,
             1,
             1,
-            2
+            2,
+            1
           ]
         };
         
@@ -4219,6 +4222,14 @@
                 }
               },
               {
+                "name": "Nextcloud",
+                "slug": "nextcloud/darwin",
+                "platform": "darwin",
+                "description": "Nextcloud is a self-hosted file sync and sharing platform that provides secure access to your data across devices with collaboration features.",
+                "version": "4.0.4",
+                "installerUrl": "https://github.com/nextcloud-releases/desktop/releases/download/v4.0.4/Nextcloud-4.0.4.pkg"
+              },
+              {
                 "name": "NordPass",
                 "slug": "nordpass/darwin",
                 "platform": "darwin",
@@ -6096,7 +6107,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `January 6, 2026 at 9:55 PM CST`;
+                let timestampText = 'Last updated: ' + `January 6, 2026 at 10:22 PM CST`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
