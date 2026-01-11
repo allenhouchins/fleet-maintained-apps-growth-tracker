@@ -537,7 +537,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: January 10, 2026 at 5:09 PM CST</p>
+            Last updated: January 10, 2026 at 6:31 PM CST</p>
         </div>
     </div>
 
@@ -594,7 +594,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: January 10, 2026 at 5:09 PM CST</p>
+                <p id="modalLastUpdated">Last updated: January 10, 2026 at 6:31 PM CST</p>
             </div>
         </div>
     </div>
@@ -915,7 +915,8 @@
             "2026-01-07",
             "2026-01-08",
             "2026-01-09",
-            "2026-01-10"
+            "2026-01-10",
+            "2026-01-11"
           ],
           "counts": [
             20,
@@ -1227,6 +1228,7 @@
             249,
             250,
             250,
+            251,
             251,
             251,
             251,
@@ -1545,6 +1547,7 @@
             1,
             0,
             0,
+            0,
             0
           ],
           "macCounts": [
@@ -1860,6 +1863,7 @@
             204,
             204,
             204,
+            204,
             204
           ],
           "windowsCounts": [
@@ -2170,6 +2174,7 @@
             46,
             46,
             46,
+            47,
             47,
             47,
             47,
@@ -3559,8 +3564,8 @@
                 "slug": "fork/darwin",
                 "platform": "darwin",
                 "description": "Fork is a git client.",
-                "version": "2.61.0",
-                "installerUrl": "https://cdn.fork.dev/mac/Fork-2.61.0.dmg",
+                "version": "2.60.4",
+                "installerUrl": "https://cdn.fork.dev/mac/Fork-2.60.4.dmg",
                 "securityInfo": {
                   "sha256": "b334d4658ca76a9bb46a17b491b9f215621ffe4139f5e3bc0ba369c6dff8a492",
                   "lastUpdated": "2026-01-09T22:08:43Z"
@@ -4857,8 +4862,8 @@
                 "slug": "spotify/windows",
                 "platform": "windows",
                 "description": "Spotify is a music streaming app.",
-                "version": "1.2.81.241.g2943f0b9",
-                "installerUrl": "https://upgrade.scdn.co/upgrade/client/win32-x86_64/spotify_installer-1.2.81.241.g2943f0b9-1642.exe",
+                "version": "1.2.81.258.g6cf93e85",
+                "installerUrl": "https://upgrade.scdn.co/upgrade/client/win32-x86_64/spotify_installer-1.2.81.258.g6cf93e85-1761.exe",
                 "securityInfo": {
                   "sha256": "560b0e68bb9178c0122e07c1758ccd22d792e7d080366a903e8a294c2100238a",
                   "publisher": "CN=Spotify AB, O=Spotify AB, L=Stockholm, C=SE, SERIALNUMBER=556703-7485, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=SE",
@@ -5275,8 +5280,8 @@
                 "slug": "visual-studio-code/windows",
                 "platform": "windows",
                 "description": "Microsoft Visual Studio Code (VS Code) is an open-source, lightweight, and powerful code editor.",
-                "version": "1.106.3",
-                "installerUrl": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/VSCodeSetup-x64-1.106.3.exe",
+                "version": "1.108.0",
+                "installerUrl": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/94e8ae2b28cb5cc932b86e1070569c4463565c37/VSCodeSetup-x64-1.108.0.exe",
                 "securityInfo": {
                   "sha256": "45a178b001cf7939d1e2654f8bb7f2d75534c350062bfed5fe47daf2432c13d7",
                   "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
@@ -6075,7 +6080,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `January 10, 2026 at 5:09 PM CST`;
+                let timestampText = 'Last updated: ' + `January 10, 2026 at 6:31 PM CST`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
