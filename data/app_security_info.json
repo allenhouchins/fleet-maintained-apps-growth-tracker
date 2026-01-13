@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-13T15:13:25Z",
+  "lastUpdated": "2026-01-13T15:19:59Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -452,9 +452,12 @@
     {
       "slug": "clion/darwin",
       "name": "CLion",
-      "version": "2025.3.1",
-      "sha256": "3378d42c9fdadc5a353aa2f1957140fa312f926e331dbbd7b17312c9558c2360",
-      "lastUpdated": "2025-12-20T06:03:20Z"
+      "version": "2025.3.1.1",
+      "sha256": "b8849d7a71dc441481f9cbdd2e37ab1ce9e004010e447696e57d5a2b1bdbba35",
+      "cdhash": "55f58ec06643b17851c4aeb10d86018bdb9a0edc",
+      "signingId": "2ZEFAR8TH3:com.jetbrains.CLion",
+      "teamId": "2ZEFAR8TH3",
+      "lastUpdated": "2026-01-13T15:15:07Z"
     },
     {
       "slug": "clockify/darwin",
@@ -634,9 +637,12 @@
     {
       "slug": "discord/darwin",
       "name": "Discord",
-      "version": "0.0.371",
-      "sha256": "e593cc754077b4b26c8b18e04b25688b830830f1b3437f20f56c5c4cbffab3c1",
-      "lastUpdated": "2025-12-20T06:31:26Z"
+      "version": "0.0.372",
+      "sha256": "58b5933be16140ae2c3fc203a544b35fe5f1b6005e74d7d2d0ff19e64eb1f48e",
+      "cdhash": "10097f1063e457d1cc5d466313a27970c263a120",
+      "signingId": "53Q6R32WPB:com.hnc.Discord",
+      "teamId": "53Q6R32WPB",
+      "lastUpdated": "2026-01-13T15:15:42Z"
     },
     {
       "slug": "discord/windows",
@@ -660,9 +666,12 @@
     {
       "slug": "docker-desktop/darwin",
       "name": "Docker Desktop",
-      "version": "4.55.0",
-      "sha256": "0a586bda6f5f4d121fa63879e11288b20a2ad243fa049a2224d5288b0be6639d",
-      "lastUpdated": "2026-01-06T05:12:07Z"
+      "version": "4.56.0",
+      "sha256": "4a84e7fa9c1ed209af1fb58ca1f8884cba8bc6cd3c063172af7e76bf37eb71e7",
+      "cdhash": "6ca0b19e30587b29363f6f6bd8866a22340d479f",
+      "signingId": "9BNSXJN65R:com.docker.docker",
+      "teamId": "9BNSXJN65R",
+      "lastUpdated": "2026-01-13T15:16:59Z"
     },
     {
       "slug": "docker/darwin",
@@ -1052,9 +1061,12 @@
     {
       "slug": "loom/darwin",
       "name": "Loom",
-      "version": "0.326.5",
-      "sha256": "f498bec4375517080f625ca05704ff841e504f0fa29a1578ee2bf53906782f96",
-      "lastUpdated": "2026-01-07T03:51:52Z"
+      "version": "0.327.1",
+      "sha256": "5fae11453878210f1f74075cd5fbb03496e1c6d4b4cc6e25c4304f9feac800ae",
+      "cdhash": "7ddbccafd2b1fdb8d03dd71cedaa48bbe88b93d3",
+      "signingId": "QGD2ZPXZZG:com.loom.desktop",
+      "teamId": "QGD2ZPXZZG",
+      "lastUpdated": "2026-01-13T15:17:26Z"
     },
     {
       "slug": "lulu/darwin",
@@ -1228,9 +1240,12 @@
     {
       "slug": "notion/darwin",
       "name": "Notion",
-      "version": "6.4.0",
-      "sha256": "deb4372e751499d0d4fcb9e0c3d55b6d6682ea156f94f622dac62e8b3ac04a53",
-      "lastUpdated": "2026-01-07T03:55:47Z"
+      "version": "7.0.0",
+      "sha256": "f02f8d927c879fd0cda186f601daf846f1a01fdb1ee6ef42a4f02f2f263699af",
+      "cdhash": "951e4f748b2a9ee5615f315ae0c85443cc392613",
+      "signingId": "LBQJ96FQ8D:notion.id",
+      "teamId": "LBQJ96FQ8D",
+      "lastUpdated": "2026-01-13T15:17:48Z"
     },
     {
       "slug": "notion/windows",
@@ -1280,9 +1295,12 @@
     {
       "slug": "obsidian/darwin",
       "name": "Obsidian",
-      "version": "1.10.6",
-      "sha256": "c3c74efe6e03cfc7f4fc6fe94f61f669fe8534f9f275d7020c2c92d7eb451e62",
-      "lastUpdated": "2025-12-20T07:51:35Z"
+      "version": "1.11.4",
+      "sha256": "99a3a96505a8054a5c3aace0f460a4af0434ad61a415bcec7a582821b4b0dc2c",
+      "cdhash": "5cad2ae992c556b35df8010e7b9ad14669f592d1",
+      "signingId": "6JSW4SJWN9:md.obsidian",
+      "teamId": "6JSW4SJWN9",
+      "lastUpdated": "2026-01-13T15:18:14Z"
     },
     {
       "slug": "okta-verify/darwin",
@@ -1364,9 +1382,12 @@
     {
       "slug": "postman/darwin",
       "name": "Postman",
-      "version": "11.79.5",
-      "sha256": "853e6793102de713533899de3743e5c8b59b3d58557c468226fce78f7350e73d",
-      "lastUpdated": "2026-01-09T19:12:59Z"
+      "version": "11.80.0",
+      "sha256": "b8dfd89d0077b917be4115d56ab8bcf9ce91941741d74aedde48f0cf61afa6d8",
+      "cdhash": "49e392efad8e5b16ca9927bae68d649b3907777d",
+      "signingId": "H7H8Q7M5CK:com.postmanlabs.mac",
+      "teamId": "H7H8Q7M5CK",
+      "lastUpdated": "2026-01-13T15:18:36Z"
     },
     {
       "slug": "postman/windows",
@@ -1418,9 +1439,12 @@
     {
       "slug": "pycharm/darwin",
       "name": "PyCharm Professional",
-      "version": "2025.3.1",
-      "sha256": "671ce1ebfcabe5783821d4af12ec0e628952f78417c278112b22fba9b274573b",
-      "lastUpdated": "2025-12-20T08:03:17Z"
+      "version": "2025.3.1.1",
+      "sha256": "80bc5828f5e46090e5371c9dd25310e958052d368f137a193314af554fa02e10",
+      "cdhash": "5502a817345950280bd3b8e04d95c62b68446800",
+      "signingId": "2ZEFAR8TH3:com.jetbrains.pycharm",
+      "teamId": "2ZEFAR8TH3",
+      "lastUpdated": "2026-01-13T15:19:33Z"
     },
     {
       "slug": "quip/darwin",
@@ -1439,9 +1463,12 @@
     {
       "slug": "rapidapi/darwin",
       "name": "RapidAPI",
-      "version": "4.5.2",
-      "sha256": "0e428b9806ba8deb5357b68aeea31c28202c645d5c879bb38d670286367e14a1",
-      "lastUpdated": "2025-12-20T08:04:14Z"
+      "version": "4.5.4",
+      "sha256": "5af80d94a48fbc5604ebf6902168867e96cdf9a65590a033e993294f55aa4dfe",
+      "cdhash": "e470163ad01fa62a1da65967c41c53433a3568c5",
+      "signingId": "84599RL58A:com.luckymarmot.Paw",
+      "teamId": "84599RL58A",
+      "lastUpdated": "2026-01-13T15:19:57Z"
     },
     {
       "slug": "raycast/darwin",
