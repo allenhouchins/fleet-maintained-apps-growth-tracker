@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-20T16:34:30Z",
+  "lastUpdated": "2026-01-20T16:42:48Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -893,16 +893,22 @@
     {
       "slug": "goland/darwin",
       "name": "GoLand",
-      "version": "2025.3.1",
-      "sha256": "ae2cc7dbb2cb8462090cb08f26ab7a65e245eb69f28af039d7852af8b25ee96c",
-      "lastUpdated": "2026-01-08T22:10:26Z"
+      "version": "2025.3.1.1",
+      "sha256": "52abb32e9a99d2d9e3e88d9a5d1d8009dee450e83b34af4c00959a62d5bf73c2",
+      "cdhash": "72bb4a7566ba6eeecd194236087368e83f2e97df",
+      "signingId": "2ZEFAR8TH3:com.jetbrains.goland",
+      "teamId": "2ZEFAR8TH3",
+      "lastUpdated": "2026-01-20T16:35:18Z"
     },
     {
       "slug": "google-chrome/darwin",
       "name": "Google Chrome",
-      "version": "143.0.7499.193",
-      "sha256": "1e3d54cdddf7cd8c746544f493fe9a50c07c2f9bda2df922131b6e6807e07882",
-      "lastUpdated": "2026-01-07T15:10:28Z"
+      "version": "144.0.7559.60",
+      "sha256": "1ca64b933947e1fc47b07441739b00baa4b7cfe85e2e2a6462db7c65a4d619b9",
+      "cdhash": "34407a82eb4ba4e260a88554cb21c1b492ccce1b",
+      "signingId": "EQHXZ8M8AV:com.google.Chrome",
+      "teamId": "EQHXZ8M8AV",
+      "lastUpdated": "2026-01-20T16:35:58Z"
     },
     {
       "slug": "google-chrome/windows",
@@ -945,16 +951,22 @@
     {
       "slug": "grammarly-desktop/darwin",
       "name": "Grammarly Desktop",
-      "version": "1.148.0.0",
-      "sha256": "567407cc7539a4035408a6d1c18246b2a5648131ad26d20844d339727a882feb",
-      "lastUpdated": "2026-01-13T23:14:37Z"
+      "version": "1.149.1.0",
+      "sha256": "80b96e35e8049b33ac44620325ff80b00af1b34a6ebb06c34c5c9fbd9546c6df",
+      "cdhash": "872e8ff90c2038fd736c0f20383eafa4646af789",
+      "signingId": "W8F64X92K3:com.grammarly.ProjectLlama",
+      "teamId": "W8F64X92K3",
+      "lastUpdated": "2026-01-20T16:36:21Z"
     },
     {
       "slug": "granola/darwin",
       "name": "Granola",
-      "version": "6.479.0",
-      "sha256": "23dddea18e1363bd946a4c014eb1fcf35a6570b5186648ad261630a281970bf0",
-      "lastUpdated": "2026-01-08T22:11:09Z"
+      "version": "6.491.0",
+      "sha256": "bad1eb0bbeee16be38ce5f9c5e735bc50414529bd96f089c497335ab7c3cbe86",
+      "cdhash": "071eb80b328e8b069c8f5532ebd0e670f1de3806",
+      "signingId": "QZ7DHHLN25:com.granola.app",
+      "teamId": "QZ7DHHLN25",
+      "lastUpdated": "2026-01-20T16:38:27Z"
     },
     {
       "slug": "hyper/darwin",
@@ -987,9 +999,12 @@
     {
       "slug": "insomnia/darwin",
       "name": "Insomnia",
-      "version": "12.2.0",
-      "sha256": "a0052e6313474247e57db86af0578de0318b2ffca49bbceb18b8f964c2315cbb",
-      "lastUpdated": "2025-12-20T07:03:11Z"
+      "version": "12.3.0",
+      "sha256": "7a022d771455344befbc3e1d67947290452af73ffce56017efa5fb2d8d7bcfb0",
+      "cdhash": "3cdadd3db14a965223d534146202a5a6f01636db",
+      "signingId": "FX44YY62GV:com.insomnia.app",
+      "teamId": "FX44YY62GV",
+      "lastUpdated": "2026-01-20T16:38:54Z"
     },
     {
       "slug": "intellij-idea-ce/darwin",
@@ -1069,9 +1084,12 @@
     {
       "slug": "lens/darwin",
       "name": "Lens",
-      "version": "2025.12.101934",
-      "sha256": "08306a4362e0639ecf371c11366b2cbbfa8c847317e227b16c36d6e4898029f9",
-      "lastUpdated": "2025-12-20T07:19:39Z"
+      "version": "2026.1.161237",
+      "sha256": "91106b821782625f3959b71914bb14f3584d1bfafd0837cf2342511ed04ebe92",
+      "cdhash": "89ecb8d7938e9745aa253815e54176caff2d4676",
+      "signingId": "JJ22T2W355:com.electron.kontena-lens",
+      "teamId": "JJ22T2W355",
+      "lastUpdated": "2026-01-20T16:39:21Z"
     },
     {
       "slug": "libreoffice/darwin",
@@ -1104,9 +1122,12 @@
     {
       "slug": "loom/darwin",
       "name": "Loom",
-      "version": "0.327.1",
-      "sha256": "5fae11453878210f1f74075cd5fbb03496e1c6d4b4cc6e25c4304f9feac800ae",
-      "lastUpdated": "2026-01-13T15:17:26Z"
+      "version": "0.328.1",
+      "sha256": "61740c231986b13650c51178e719e163d07e86064a43cad8b17ba1ece7ee9568",
+      "cdhash": "14bcadf897d61bde1497b1532d80c1699d217c98",
+      "signingId": "QGD2ZPXZZG:com.loom.desktop",
+      "teamId": "QGD2ZPXZZG",
+      "lastUpdated": "2026-01-20T16:39:46Z"
     },
     {
       "slug": "lulu/darwin",
@@ -1125,9 +1146,12 @@
     {
       "slug": "mattermost/darwin",
       "name": "Mattermost",
-      "version": "6.0.2",
-      "sha256": "f6bbd70cb872b702f947c7027199f95e3c6281e85f18890cbee0d7d32548b7b2",
-      "lastUpdated": "2025-12-20T07:26:08Z"
+      "version": "6.0.3",
+      "sha256": "f019ccc8357736a38f4035f0956f33b05c26e471de496d0b303e27db78cb3d16",
+      "cdhash": "53830df071f277c0ee6988898a36c0cb20c6e816",
+      "signingId": "UQ8HT4Q2XM:Mattermost.Desktop",
+      "teamId": "UQ8HT4Q2XM",
+      "lastUpdated": "2026-01-20T16:40:08Z"
     },
     {
       "slug": "messenger/darwin",
@@ -1146,9 +1170,12 @@
     {
       "slug": "microsoft-edge/darwin",
       "name": "Microsoft Edge",
-      "version": "143.0.3650.139",
-      "sha256": "c3d1216c8508a4586e147afd62c62ddaf3c6b6c62421ab75e21b512c257f0820",
-      "lastUpdated": "2026-01-09T19:11:44Z"
+      "version": "144.0.3719.82",
+      "sha256": "c647d56fd23dab0df99e9c5191a911ef73bbdbb8be6515bd88ddfa6ea0ed0e85",
+      "cdhash": "e49600a92be3aabf010c55f72e62cabf9173be33",
+      "signingId": "UBF8T346G9:com.microsoft.edgemac",
+      "teamId": "UBF8T346G9",
+      "lastUpdated": "2026-01-20T16:41:11Z"
     },
     {
       "slug": "microsoft-edge/windows",
@@ -1165,9 +1192,12 @@
     {
       "slug": "microsoft-excel/darwin",
       "name": "Microsoft Excel",
-      "version": "16.105.26011018",
+      "version": "16.105",
       "sha256": "a51daec0fe6e8807ac80af1438cd5b69480c9d98dff06c5f7780102a882777b2",
-      "lastUpdated": "2026-01-13T23:18:45Z"
+      "cdhash": "3272b0074e074ab5daa4049b10331ffd37cd5b65",
+      "signingId": "UBF8T346G9:com.microsoft.Excel",
+      "teamId": "UBF8T346G9",
+      "lastUpdated": "2026-01-20T16:42:41Z"
     },
     {
       "slug": "microsoft-onenote/darwin",
