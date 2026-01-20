@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-20T16:28:01Z",
+  "lastUpdated": "2026-01-20T16:34:30Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -449,9 +449,12 @@
     {
       "slug": "claude/darwin",
       "name": "Claude",
-      "version": "1.0.3218",
-      "sha256": "7646eae4e2ba138a2854a95d596ac3f0209aa9b44f73a292b8494ccfd8079380",
-      "lastUpdated": "2026-01-13T15:13:23Z"
+      "version": "1.1.381",
+      "sha256": "4039b7d46c96b8e37203f25daf4401ea7ed3f7011a93adfce1026c668c3efd37",
+      "cdhash": "be2f52fe536f912b31f78bedb6ce23a07f5200cd",
+      "signingId": "Q6L2SF6YDW:com.anthropic.claudefordesktop",
+      "teamId": "Q6L2SF6YDW",
+      "lastUpdated": "2026-01-20T16:28:25Z"
     },
     {
       "slug": "cleanmymac/darwin",
@@ -548,9 +551,12 @@
     {
       "slug": "cursor/darwin",
       "name": "Cursor",
-      "version": "2.3.35",
-      "sha256": "984f48eebdaa1dfcb55a8b6fdb04d76b81992951f014a3df4a5a7e6415ea2436",
-      "lastUpdated": "2026-01-13T23:12:13Z"
+      "version": "2.3.41",
+      "sha256": "662ec326e5063e6728f24dabcea2b5039315369d3a93b6d07bb519e8de103371",
+      "cdhash": "8182f5db0d5011451ba56b3a1bd65c9f6d9d981c",
+      "signingId": "VDXQ22DGB9:com.todesktop.230313mzl4w4u92",
+      "teamId": "VDXQ22DGB9",
+      "lastUpdated": "2026-01-20T16:28:59Z"
     },
     {
       "slug": "cursor/windows",
@@ -586,9 +592,12 @@
     {
       "slug": "dash/darwin",
       "name": "Dash",
-      "version": "8.0.2",
-      "sha256": "03ae56d58443a9bf998c97d65c4d43d76f0072f4d789af1c9bb26d131f69e2cc",
-      "lastUpdated": "2025-12-26T15:08:14Z"
+      "version": "8.1.0",
+      "sha256": "21dd0fc1573d5546db7eda70a6100cbb3cc1c6ac553472895489abd72d83dd36",
+      "cdhash": "8ba5be744936824ed983f8901ac6d5d9294396ce",
+      "signingId": "JP58VMK957:com.kapeli.dashdoc",
+      "teamId": "JP58VMK957",
+      "lastUpdated": "2026-01-20T16:29:22Z"
     },
     {
       "slug": "datagrip/darwin",
@@ -607,9 +616,12 @@
     {
       "slug": "dbeaver-community/darwin",
       "name": "DBeaver",
-      "version": "25.3.2",
-      "sha256": "a2e9ff3b2e0c7535913be94bbcd840b11372bac1dcc58b639ee09c117aa64601",
-      "lastUpdated": "2026-01-06T08:11:42Z"
+      "version": "25.3.3",
+      "sha256": "9d1e743c9ef93c85329383b7cad17f474cffddc5ea3105e5f4e26999269d2a05",
+      "cdhash": "f0917385639c235eaca75948b978ff2667a5543d",
+      "signingId": "42B6MDKMW8:org.jkiss.dbeaver.core.product",
+      "teamId": "42B6MDKMW8",
+      "lastUpdated": "2026-01-20T16:29:47Z"
     },
     {
       "slug": "dbeaver-enterprise/darwin",
@@ -642,16 +654,22 @@
     {
       "slug": "deepl/darwin",
       "name": "DeepL",
-      "version": "26.1.13531937",
-      "sha256": "42f52ef8af8f3d039b911946aebfb802adb1ce1706125e0e7ffbaeab12e7c0ff",
-      "lastUpdated": "2026-01-07T03:37:41Z"
+      "version": "26.1.23595006",
+      "sha256": "3de81bf7e9c683b1e121ea3fa0fb4f565ffe615238d19b97215302d6d92fd6eb",
+      "cdhash": "1d866b01bf1f1a22fb43e8ac9060bf13a9590550",
+      "signingId": "4N8BGCG336:com.linguee.DeepLCopyTranslator",
+      "teamId": "4N8BGCG336",
+      "lastUpdated": "2026-01-20T16:30:10Z"
     },
     {
       "slug": "dialpad/darwin",
       "name": "Dialpad",
-      "version": "2512.0.0",
-      "sha256": "c734a82d1e5e47bca98b497a89dd1cbd816fdec67d4103c08da400ee616b7fe4",
-      "lastUpdated": "2025-12-20T06:31:10Z"
+      "version": "2512.1.0",
+      "sha256": "f5a02eb65ac0ab7b8666c9f4c8ad6759decca4c7cefc52828485ab1f449b5506",
+      "cdhash": "7e7069e0080cec64d6ef09ba95d3c6845985906d",
+      "signingId": "9V29MQSZ9M:com.electron.dialpad",
+      "teamId": "9V29MQSZ9M",
+      "lastUpdated": "2026-01-20T16:30:32Z"
     },
     {
       "slug": "discord/darwin",
@@ -682,9 +700,12 @@
     {
       "slug": "docker-desktop/darwin",
       "name": "Docker Desktop",
-      "version": "4.56.0",
-      "sha256": "4a84e7fa9c1ed209af1fb58ca1f8884cba8bc6cd3c063172af7e76bf37eb71e7",
-      "lastUpdated": "2026-01-13T15:16:59Z"
+      "version": "4.57.0",
+      "sha256": "ae188cbdcbbd29d6aa923d22cca3d599a06d18257e69c545ccc0428c057e133a",
+      "cdhash": "020b8187c381fe5e98805524c5cbd3926840b28a",
+      "signingId": "9BNSXJN65R:com.docker.docker",
+      "teamId": "9BNSXJN65R",
+      "lastUpdated": "2026-01-20T16:31:37Z"
     },
     {
       "slug": "docker/darwin",
@@ -757,9 +778,12 @@
     {
       "slug": "expressvpn/darwin",
       "name": "ExpressVPN",
-      "version": "11.71.0.90727",
-      "sha256": "f6fb2180db8da03487102ef2e9e1789d35e1bfeba8b104a2d7990b87590289a0",
-      "lastUpdated": "2025-12-20T06:36:52Z"
+      "version": "12.0.2.11960",
+      "sha256": "17d572a641ec889a5811fa37ff06316e3004a17afbe42410db1594d8c79f3bbc",
+      "cdhash": "b863ee89f6ae27dd7b92c6275a0219d92827f078",
+      "signingId": "TC292Y5427:com.express.vpn",
+      "teamId": "TC292Y5427",
+      "lastUpdated": "2026-01-20T16:32:00Z"
     },
     {
       "slug": "figma/darwin",
@@ -790,9 +814,12 @@
     {
       "slug": "firefox/darwin",
       "name": "Mozilla Firefox",
-      "version": "147.0",
-      "sha256": "cf19a6e19c4c262e5346ea3de6ba23eccaf333331d3d33223e96898dc74485c1",
-      "lastUpdated": "2026-01-13T23:12:45Z"
+      "version": "147.0.1",
+      "sha256": "2b02bcb21763c6fdce4ca1beee13fd47a6080e0b0f6b334b9d9a6843b1725328",
+      "cdhash": "575c62ed0f457f9f001456de7701c9296acae7ee",
+      "signingId": "43AQ936H96:org.mozilla.firefox",
+      "teamId": "43AQ936H96",
+      "lastUpdated": "2026-01-20T16:33:19Z"
     },
     {
       "slug": "firefox/windows",
@@ -856,9 +883,12 @@
     {
       "slug": "gitkraken/darwin",
       "name": "GitKraken",
-      "version": "11.7.0",
-      "sha256": "8771006c8ee05d3b8347106aa2ab63b0019ef363df352060202861e42cb34168",
-      "lastUpdated": "2025-12-20T06:48:25Z"
+      "version": "11.8.0",
+      "sha256": "216361f5a6cbf64e1ca3f1e21d4c63369a4e8fd48b2e1ada9044b90f0ad86b9a",
+      "cdhash": "f8a03d30b4a0609bbe6de4fc5c8886b7083b0822",
+      "signingId": "T7QVVUTZQ8:com.axosoft.gitkraken",
+      "teamId": "T7QVVUTZQ8",
+      "lastUpdated": "2026-01-20T16:34:28Z"
     },
     {
       "slug": "goland/darwin",
