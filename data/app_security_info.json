@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-20T16:42:48Z",
+  "lastUpdated": "2026-01-20T16:51:18Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1202,16 +1202,22 @@
     {
       "slug": "microsoft-onenote/darwin",
       "name": "Microsoft OneNote",
-      "version": "16.104.25121423",
-      "sha256": "eb79a6be9df0ff50337b182039c13b1b4704110290fff50b1d43c1f818ad5cea",
-      "lastUpdated": "2025-12-20T07:41:32Z"
+      "version": "16.105.26011018",
+      "sha256": "7a56e81d02203bb6f9f235ec1c2c04475c86e65ea12b7bc249ab19e82fe23372",
+      "cdhash": "5d15c228009a6695baf5dc151a4e5bb89bcb5cd1",
+      "signingId": "UBF8T346G9:com.microsoft.onenote.mac",
+      "teamId": "UBF8T346G9",
+      "lastUpdated": "2026-01-20T16:43:48Z"
     },
     {
       "slug": "microsoft-outlook/darwin",
       "name": "Microsoft Outlook",
-      "version": "16.104.26010228",
-      "sha256": "3aa133cfda69af3c82ba7ac4e80baf285de847d932a0b4097594e2a9d3ccec8b",
-      "lastUpdated": "2026-01-06T21:10:02Z"
+      "version": "16.105.26011018",
+      "sha256": "ab4e6fc1b744c52a56ab6ebd5b0e810a7ddaf5c4004f0ac546e208f211cbf7b8",
+      "cdhash": "8aa6e68af4b3dd66510edda4ea60ba5ef14f2118",
+      "signingId": "UBF8T346G9:com.microsoft.Outlook",
+      "teamId": "UBF8T346G9",
+      "lastUpdated": "2026-01-20T16:45:30Z"
     },
     {
       "slug": "microsoft-powerpoint/darwin",
@@ -1242,9 +1248,12 @@
     {
       "slug": "microsoft-word/darwin",
       "name": "Microsoft Word",
-      "version": "16.105.26011018",
+      "version": "16.105",
       "sha256": "351f0bac68ea441360ca36bb04f641f6ac8ff198376e7afa099d789e91b67bc2",
-      "lastUpdated": "2026-01-13T23:21:39Z"
+      "cdhash": "dc53b82029cd1722078e36cbbec5923f7e494028",
+      "signingId": "UBF8T346G9:com.microsoft.Word",
+      "teamId": "UBF8T346G9",
+      "lastUpdated": "2026-01-20T16:47:15Z"
     },
     {
       "slug": "miro/darwin",
@@ -1256,9 +1265,12 @@
     {
       "slug": "mongodb-compass/darwin",
       "name": "MongoDB Compass",
-      "version": "1.48.2",
-      "sha256": "ed23067907a4762eb9799de5794f5295fc6dc7c7e1b0f10db188a9f3048ccbfe",
-      "lastUpdated": "2025-12-20T07:46:28Z"
+      "version": "1.49.0",
+      "sha256": "23223ce93672672d8818ac80a4c0e7fded631be00cd4d7605896c52b4a6c645a",
+      "cdhash": "71d19153762a231c737c137d238b9d28e6c137dd",
+      "signingId": "4XWMY46275:com.mongodb.compass",
+      "teamId": "4XWMY46275",
+      "lastUpdated": "2026-01-20T16:47:45Z"
     },
     {
       "slug": "mysqlworkbench/darwin",
@@ -1270,23 +1282,32 @@
     {
       "slug": "nextcloud/darwin",
       "name": "Nextcloud",
-      "version": "4.0.4",
-      "sha256": "67b5f26b31bc98f27bbb669e1c84723068dea4b3398e351da3fe25cb589a64eb",
-      "lastUpdated": "2026-01-07T04:24:09Z"
+      "version": "4.0.5",
+      "sha256": "030a6c95a4c6f951f67f0418e7e089a025b2a4b1582af4b7980ba3f993ce22ec",
+      "cdhash": "1734db842f72954367fcf26def8d37a0b1d8ce18",
+      "signingId": "NKUJUXUJ3B:com.nextcloud.desktopclient",
+      "teamId": "NKUJUXUJ3B",
+      "lastUpdated": "2026-01-20T16:48:33Z"
     },
     {
       "slug": "nordpass/darwin",
       "name": "NordPass",
-      "version": "7.2.15",
-      "sha256": "9d22fb9e46d1bd6a141876c9a56599d93cb6714eb59bc4f1e4e38fb224fbfe40",
-      "lastUpdated": "2025-12-20T07:48:30Z"
+      "version": "7.3.12",
+      "sha256": "f4dd999f41f740a56fb219d19d2ebe666dd001c88ba5780711ee28f6bb2553f9",
+      "cdhash": "b9800b8761a7f5c78af0ea6ad37f4aff92243c07",
+      "signingId": "W5W395V82Y:com.nordsec.nordpass",
+      "teamId": "W5W395V82Y",
+      "lastUpdated": "2026-01-20T16:48:57Z"
     },
     {
       "slug": "nordvpn/darwin",
       "name": "NordVPN",
-      "version": "9.10.1",
-      "sha256": "4679aa4c86dcca6f2eaecd5c997fd8b8be605aa7412c857fda355c0844dc7442",
-      "lastUpdated": "2025-12-20T07:48:55Z"
+      "version": "9.11.0",
+      "sha256": "80351ebcd00e0cf0ce0f1dcc5ae52edc2ef200f290ecaf9fb21402aa6b5da739",
+      "cdhash": "e7f1530f2461982291f3a0f992273e50a36039f0",
+      "signingId": "W5W395V82Y:com.nordvpn.macos",
+      "teamId": "W5W395V82Y",
+      "lastUpdated": "2026-01-20T16:49:38Z"
     },
     {
       "slug": "notepad++/windows",
@@ -1397,9 +1418,12 @@
     {
       "slug": "opera/darwin",
       "name": "Opera",
-      "version": "126.0.5750.18",
-      "sha256": "f16797ec8598abd7007f155fe00a95170bfc59f483cd60051eb60dbe18c4cc62",
-      "lastUpdated": "2026-01-08T22:12:31Z"
+      "version": "126.0.5750.43",
+      "sha256": "3993e61eed7a892e16df2d3f992a16fc29c152b2cf7df0446c9fb3dbbd598884",
+      "cdhash": "867680f00e1134a7642cfe71431775b40bca1b4c",
+      "signingId": "A2P9LX4JPN:com.operasoftware.Opera",
+      "teamId": "A2P9LX4JPN",
+      "lastUpdated": "2026-01-20T16:50:29Z"
     },
     {
       "slug": "orbstack/darwin",
@@ -1418,9 +1442,12 @@
     {
       "slug": "parallels/darwin",
       "name": "Parallels Desktop",
-      "version": "26.2.0",
-      "sha256": "6e8f52025da887f92e1a38461a1c9cec2436823f135bac882db40a6b13c5d6a9",
-      "lastUpdated": "2025-12-20T07:54:15Z"
+      "version": "26.2.1",
+      "sha256": "56847b9a2f8a34646831ed50db01734de810c401a159f01d8da7f4facf8d7146",
+      "cdhash": "69595830f8b809660841c754442739cb1793d99b",
+      "signingId": "4C6364ACXT:com.parallels.desktop.console",
+      "teamId": "4C6364ACXT",
+      "lastUpdated": "2026-01-20T16:50:53Z"
     },
     {
       "slug": "pgadmin4/darwin",
@@ -1446,9 +1473,12 @@
     {
       "slug": "postman/darwin",
       "name": "Postman",
-      "version": "11.80.0",
-      "sha256": "b8dfd89d0077b917be4115d56ab8bcf9ce91941741d74aedde48f0cf61afa6d8",
-      "lastUpdated": "2026-01-13T15:18:36Z"
+      "version": "11.81.0",
+      "sha256": "c21497db6a580b518ed496916b305a115ca3f6ff3fd31566f4de250ce927ae0e",
+      "cdhash": "572cab5dbd0f0b3e48ef3a8f63b47faeba004155",
+      "signingId": "H7H8Q7M5CK:com.postmanlabs.mac",
+      "teamId": "H7H8Q7M5CK",
+      "lastUpdated": "2026-01-20T16:51:16Z"
     },
     {
       "slug": "postman/windows",
