@@ -13,7 +13,7 @@ on:
       - 'feed.xml'
   workflow_dispatch:
   workflow_run:
-    workflows: ["Collect macOS App Security Info", "Collect Windows App Security Info"]
+    workflows: ["Update Growth Data", "Collect macOS App Security Info", "Collect Windows App Security Info"]
     types:
       - completed
     branches:
