@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-14T00:31:00Z",
+  "lastUpdated": "2026-01-20T15:13:34Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -11,9 +11,14 @@
     {
       "slug": "010-editor/windows",
       "name": "010 Editor",
-      "version": "16.0.2",
-      "sha256": "c092a1308c583234cd8065e666fc86c1d0d4b7182e76b27922d513d54eca41d0",
-      "lastUpdated": "2025-12-25T01:25:59Z"
+      "version": "16.0.3",
+      "sha256": "bfb77fd3e4a64cda7ccc9aef3ec968490be8b77a9ec4b7f273152072b103b28a",
+      "publisher": "CN=SweetScape Software Inc, O=SweetScape Software Inc, S=Prince Edward Island, C=CA",
+      "issuer": "CN=Sectigo Public Code Signing CA R36, O=Sectigo Limited, C=GB",
+      "serialNumber": "00FA1C0AE2CAAD573FA2F7E6D216F0C062",
+      "thumbprint": "0ADA36F0F7E3AC9855359D7EBBECB1B8FE7A17A0",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-01-20T15:13:34Z"
     },
     {
       "slug": "1password/darwin",
@@ -478,18 +483,6 @@
       "thumbprint": "AB819AAE2A643DAE5A67DFA21BABC8C964F7C525",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2025-12-25T01:44:06Z"
-    },
-    {
-      "slug": "company-portal/windows",
-      "name": "Company Portal",
-      "version": "11.2.1495.0",
-      "sha256": "b33c87d60a9c868ec239b7e6a62575151628f29f45e4307ef4a17298dc185008",
-      "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "issuer": "CN=Microsoft Marketplace CA G 027, OU=EOC, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "serialNumber": "33000352147EF201F8ADF4523E000000035214",
-      "thumbprint": "17B29F7CED84040197A90B75B16C5FF2D5ED74EC",
-      "timestamp": "CN=Microsoft Time-Stamp Service, OU=Thales TSS ESN:C4BD-E37F-5FFC, OU=Microsoft Operations Puerto Rico, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2025-12-25T04:41:40Z"
     },
     {
       "slug": "coteditor/darwin",
