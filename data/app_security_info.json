@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-21T20:15:10Z",
+  "lastUpdated": "2026-01-21T20:23:42Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -630,9 +630,12 @@
     {
       "slug": "discord/darwin",
       "name": "Discord",
-      "version": "0.0.372",
-      "sha256": "58b5933be16140ae2c3fc203a544b35fe5f1b6005e74d7d2d0ff19e64eb1f48e",
-      "lastUpdated": "2026-01-13T15:15:42Z"
+      "version": "0.0.373",
+      "sha256": "8c39358547b8da434f5f5e0b133f7ddc7748390a4cf68c76eb5238233d8dac36",
+      "cdhash": "dd7046dd1acca1ce4d1085f3f64fed46cc7e0291",
+      "signingId": "53Q6R32WPB:com.hnc.Discord",
+      "teamId": "53Q6R32WPB",
+      "lastUpdated": "2026-01-21T20:15:35Z"
     },
     {
       "slug": "discord/windows",
@@ -844,9 +847,12 @@
     {
       "slug": "google-chrome/darwin",
       "name": "Google Chrome",
-      "version": "144.0.7559.60",
-      "sha256": "1ca64b933947e1fc47b07441739b00baa4b7cfe85e2e2a6462db7c65a4d619b9",
-      "lastUpdated": "2026-01-20T16:35:58Z"
+      "version": "144.0.7559.97",
+      "sha256": "23291ebdc004f63514d6c6e6c47a3fff83a72c839de39daddc6d426b372772cf",
+      "cdhash": "2a0ca6a7f223d0d6f1b1aa8507a3b6242fb56024",
+      "signingId": "EQHXZ8M8AV:com.google.Chrome",
+      "teamId": "EQHXZ8M8AV",
+      "lastUpdated": "2026-01-21T20:16:23Z"
     },
     {
       "slug": "google-chrome/windows",
@@ -952,9 +958,12 @@
     {
       "slug": "intune-company-portal/darwin",
       "name": "Company Portal",
-      "version": "5.2510.1",
-      "sha256": "a7086f5ff827b7cf757c608e7c9fb1b8f01f7ca61dea2a4e6ec52aa47896f2ef",
-      "lastUpdated": "2025-12-20T07:16:19Z"
+      "version": "5.2511.0",
+      "sha256": "e9ecf6e4cc459c7ba09386a8b808b2324342ae0d7105f57301284a694e1a6667",
+      "cdhash": "e340fa774aa7430a24064a9e7fa6f502bdb945ca",
+      "signingId": "UBF8T346G9:com.microsoft.CompanyPortalMac",
+      "teamId": "UBF8T346G9",
+      "lastUpdated": "2026-01-21T20:16:56Z"
     },
     {
       "slug": "iterm2/darwin",
@@ -1109,9 +1118,12 @@
     {
       "slug": "microsoft-excel/darwin",
       "name": "Microsoft Excel",
-      "version": "16.105",
-      "sha256": "a51daec0fe6e8807ac80af1438cd5b69480c9d98dff06c5f7780102a882777b2",
-      "lastUpdated": "2026-01-20T16:42:41Z"
+      "version": "16.105.1",
+      "sha256": "1dbde1157fd4ec943064804d3864c9019d669da8325b42a49334445bc384c505",
+      "cdhash": "8fcb59eba20167519b2670638c0d934156c642e3",
+      "signingId": "UBF8T346G9:com.microsoft.Excel",
+      "teamId": "UBF8T346G9",
+      "lastUpdated": "2026-01-21T20:18:42Z"
     },
     {
       "slug": "microsoft-onenote/darwin",
@@ -1130,9 +1142,12 @@
     {
       "slug": "microsoft-powerpoint/darwin",
       "name": "Microsoft PowerPoint",
-      "version": "16.105.26011018",
-      "sha256": "317ff548d20bcf781847984e5ab372ccddaa69faebc568b3c3e80934f2911cf0",
-      "lastUpdated": "2026-01-13T23:20:05Z"
+      "version": "16.105.26011816",
+      "sha256": "a1516b96019aec96aaf96fa6f27fde556701baca2efd2b92f4d1dbbee9cbc79b",
+      "cdhash": "aabfa270ecb567791106c2ecc32b1d408f5c2365",
+      "signingId": "UBF8T346G9:com.microsoft.Powerpoint",
+      "teamId": "UBF8T346G9",
+      "lastUpdated": "2026-01-21T20:20:18Z"
     },
     {
       "slug": "microsoft-teams/darwin",
@@ -1156,9 +1171,12 @@
     {
       "slug": "microsoft-word/darwin",
       "name": "Microsoft Word",
-      "version": "16.105",
-      "sha256": "351f0bac68ea441360ca36bb04f641f6ac8ff198376e7afa099d789e91b67bc2",
-      "lastUpdated": "2026-01-20T16:47:15Z"
+      "version": "16.105.1",
+      "sha256": "ff296826555470ab8e4d6e15e25bdaa0b5ad9e64a4a9429e9bd9f8a6b3323a17",
+      "cdhash": "d7a19ebaa2e31569610370bf069b8a92103e3c6b",
+      "signingId": "UBF8T346G9:com.microsoft.Word",
+      "teamId": "UBF8T346G9",
+      "lastUpdated": "2026-01-21T20:21:59Z"
     },
     {
       "slug": "miro/darwin",
@@ -1224,9 +1242,12 @@
     {
       "slug": "notion/darwin",
       "name": "Notion",
-      "version": "7.0.0",
-      "sha256": "f02f8d927c879fd0cda186f601daf846f1a01fdb1ee6ef42a4f02f2f263699af",
-      "lastUpdated": "2026-01-13T15:17:48Z"
+      "version": "7.1.0",
+      "sha256": "a26ef34ab6437c8e54d1e8a6f139a77f835d5019071176149d48ee1a81b4961f",
+      "cdhash": "49f7ae9b89ccb18ee761bceb3b090ab7311dfd65",
+      "signingId": "LBQJ96FQ8D:notion.id",
+      "teamId": "LBQJ96FQ8D",
+      "lastUpdated": "2026-01-21T20:22:28Z"
     },
     {
       "slug": "notion/windows",
@@ -1304,9 +1325,12 @@
     {
       "slug": "onedrive/darwin",
       "name": "OneDrive",
-      "version": "25.222.1112.0002",
-      "sha256": "d1f6bb9fc744bde083155761e895e3771f4f0bf6e60df6b78e828c5cabc686d5",
-      "lastUpdated": "2025-12-20T07:52:49Z"
+      "version": "25.238.1204.0001",
+      "sha256": "c5c230b4d8f3435a60b6c867f362707938731949012b2239076836386b6def77",
+      "cdhash": "b72c56bc50b1d12dc4d9aabdc2291c2c56945cca",
+      "signingId": "UBF8T346G9:com.microsoft.OneDrive",
+      "teamId": "UBF8T346G9",
+      "lastUpdated": "2026-01-21T20:23:17Z"
     },
     {
       "slug": "opera/darwin",
@@ -1442,9 +1466,12 @@
     {
       "slug": "raycast/darwin",
       "name": "Raycast",
-      "version": "1.104.1",
-      "sha256": "7a5d5df6e830add1ef436bcb51ab5068cadd9d69b32e7a4ad0af633c2582f5b5",
-      "lastUpdated": "2025-12-20T08:04:28Z"
+      "version": "1.104.2",
+      "sha256": "e7beadeda66e3be68e1aecaf490fcd5fea68546b1e568d15b4dcc1fac5d82d47",
+      "cdhash": "34d81762fdfb2cdf1ac56c424acaf734c3d4c5a3",
+      "signingId": "SY64MV22J9:com.raycast.macos",
+      "teamId": "SY64MV22J9",
+      "lastUpdated": "2026-01-21T20:23:40Z"
     },
     {
       "slug": "rectangle/darwin",
