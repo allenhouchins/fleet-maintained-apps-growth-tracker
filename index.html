@@ -537,7 +537,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: January 22, 2026 at 5:08 PM CST</p>
+            Last updated: January 22, 2026 at 5:10 PM CST</p>
         </div>
     </div>
 
@@ -594,7 +594,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: January 22, 2026 at 5:08 PM CST</p>
+                <p id="modalLastUpdated">Last updated: January 22, 2026 at 5:10 PM CST</p>
             </div>
         </div>
     </div>
@@ -4683,6 +4683,14 @@
                 }
               },
               {
+                "name": "Proxifier",
+                "slug": "proxifier/darwin",
+                "platform": "darwin",
+                "description": "Proxifier is an app that allows network applications that do not support working through proxy servers to operate through a SOCKS or HTTPS proxy and chains.",
+                "version": "3.15",
+                "installerUrl": "https://www.proxifier.com/download/ProxifierMac.dmg"
+              },
+              {
                 "name": "PyCharm Community Edition",
                 "slug": "pycharm-ce/darwin",
                 "platform": "darwin",
@@ -6204,7 +6212,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `January 22, 2026 at 5:08 PM CST`;
+                let timestampText = 'Last updated: ' + `January 22, 2026 at 5:10 PM CST`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
