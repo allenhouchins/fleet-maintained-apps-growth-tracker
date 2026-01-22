@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-21T23:17:40Z",
+  "lastUpdated": "2026-01-22T17:18:21Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -49,9 +49,12 @@
     {
       "slug": "8x8-work/darwin",
       "name": "8x8 Work",
-      "version": "8.29.1",
-      "sha256": "714e778a348b611efc5806c1d3bf7b9cfd7513dbb5b3ec9dac70e919e3779d9c",
-      "lastUpdated": "2025-12-20T04:50:53Z"
+      "version": "8.30.2",
+      "sha256": "6952c020e8de0c92bf58e479f74b5774a61502cd94cd3496d5e92dfa7897c030",
+      "cdhash": "f55154adf2943b4ded034317e550a80b414184d7",
+      "signingId": "FC967L3QRG:com.electron.8x8---virtual-office",
+      "teamId": "FC967L3QRG",
+      "lastUpdated": "2026-01-22T17:13:18Z"
     },
     {
       "slug": "8x8-work/windows",
@@ -324,9 +327,12 @@
     {
       "slug": "brave-browser/darwin",
       "name": "Brave",
-      "version": "144.1.86.139",
-      "sha256": "bf1899752a61c8a953b03c73ceb268a90d7898c699facd2f2d92cf07d7ac79bd",
-      "lastUpdated": "2026-01-20T16:24:10Z"
+      "version": "144.1.86.142",
+      "sha256": "105f7a7b364c1e543bf34255b3fcc56a1365cc437133bb9edba2c6e3716a6c10",
+      "cdhash": "9f0ef3095c233c9c45b96e6c4e9346455dde4320",
+      "signingId": "KL8N8XSYF4:com.brave.Browser",
+      "teamId": "KL8N8XSYF4",
+      "lastUpdated": "2026-01-22T17:13:50Z"
     },
     {
       "slug": "brave-browser/windows",
@@ -376,16 +382,22 @@
     {
       "slug": "canva/darwin",
       "name": "Canva",
-      "version": "1.119.0",
-      "sha256": "3b5bcfaef65904e40f30121c000ebaf954348e5fc6aa133a60e32b0d6a923479",
-      "lastUpdated": "2025-12-20T05:51:24Z"
+      "version": "1.120.0",
+      "sha256": "63ba569eecd4876cd514f08af564d321f22cff81d3573fb341f4cc89b15d5435",
+      "cdhash": "d56463d2dfde389a3ee7932e5838a7990f6b3eb8",
+      "signingId": "5HD2ARTBFS:com.canva.CanvaDesktop",
+      "teamId": "5HD2ARTBFS",
+      "lastUpdated": "2026-01-22T17:15:17Z"
     },
     {
       "slug": "chatgpt-atlas/darwin",
       "name": "ChatGPT Atlas",
-      "version": "1.2026.7.7",
-      "sha256": "0d25894120b52b894caf90534bc03d874d319f97774e9aa99e2a259ccf88007b",
-      "lastUpdated": "2026-01-20T16:26:34Z"
+      "version": "1.2026.15.3",
+      "sha256": "f873d136a57aaf932479050e4ccee29444f2df8c11a61446dd979f84a422c245",
+      "cdhash": "642981b798ecabfe332af3428c69f31c2e5d3e86",
+      "signingId": "2DC432GLL2:com.openai.atlas",
+      "teamId": "2DC432GLL2",
+      "lastUpdated": "2026-01-22T17:15:42Z"
     },
     {
       "slug": "chatgpt/darwin",
@@ -397,9 +409,12 @@
     {
       "slug": "cisco-jabber/darwin",
       "name": "Cisco Jabber",
-      "version": "15.2.0",
-      "sha256": "08e257b7b2ed83a85fb5866114bd0997446c18e32c23bc3139de8d0d29954bdd",
-      "lastUpdated": "2025-12-20T05:59:18Z"
+      "version": "15.2.1",
+      "sha256": "b1d1358c157a5eba70f4c7bb40995ae6a94ba125e79197e4f7ab11c882a9d545",
+      "cdhash": "1d51abad33f1c4d22c319a126b2e232a97aac063",
+      "signingId": "DE8Y96K9QP:com.cisco.Jabber",
+      "teamId": "DE8Y96K9QP",
+      "lastUpdated": "2026-01-22T17:16:21Z"
     },
     {
       "slug": "cisco-jabber/windows",
@@ -570,9 +585,12 @@
     {
       "slug": "datagrip/darwin",
       "name": "DataGrip",
-      "version": "2025.3.3",
-      "sha256": "be61435cc0cb4e08ecfbd865d5f79242649505a08ddcc550193089c8badd9016",
-      "lastUpdated": "2026-01-09T19:09:36Z"
+      "version": "2025.3.4",
+      "sha256": "b330a5e28d7168ac869f9066b6c38df6f7236247693b2b6194a8358d4c8e30a5",
+      "cdhash": "c2bebb50a7c4985df5fcb66a16c33efb70b2ee08",
+      "signingId": "2ZEFAR8TH3:com.jetbrains.datagrip",
+      "teamId": "2ZEFAR8TH3",
+      "lastUpdated": "2026-01-22T17:17:05Z"
     },
     {
       "slug": "db-browser-for-sqlite/darwin",
@@ -1039,9 +1057,12 @@
     {
       "slug": "linear-linear/darwin",
       "name": "Linear",
-      "version": "1.28.6",
-      "sha256": "e748bc49c1f2ced9d0cabbef9be6f83e44eac13446434874b86fb5e92422a15f",
-      "lastUpdated": "2025-12-20T07:24:01Z"
+      "version": "1.28.7",
+      "sha256": "60d3894b57b08da80d669a8f4be37e9c4fcf9ca59e94b0c35585b16a99b3f248",
+      "cdhash": "4c87d1e9aa05238a8e8a689b11fdc5e64e76023c",
+      "signingId": "7VZ2S3V9RV:com.linear",
+      "teamId": "7VZ2S3V9RV",
+      "lastUpdated": "2026-01-22T17:17:30Z"
     },
     {
       "slug": "little-snitch/darwin",
@@ -1060,9 +1081,12 @@
     {
       "slug": "loom/darwin",
       "name": "Loom",
-      "version": "0.328.1",
-      "sha256": "61740c231986b13650c51178e719e163d07e86064a43cad8b17ba1ece7ee9568",
-      "lastUpdated": "2026-01-20T16:39:46Z"
+      "version": "0.329.1",
+      "sha256": "6bcbd2ddcdae548ff4c503af58819fa976929735f448473ff2e25bd7f512e29a",
+      "cdhash": "03655abcb4efebf26938ee5273978166333663ab",
+      "signingId": "QGD2ZPXZZG:com.loom.desktop",
+      "teamId": "QGD2ZPXZZG",
+      "lastUpdated": "2026-01-22T17:17:56Z"
     },
     {
       "slug": "lulu/darwin",
@@ -1531,9 +1555,12 @@
     {
       "slug": "signal/darwin",
       "name": "Signal",
-      "version": "7.85.0",
-      "sha256": "ce58c2d3c8b5cf9791cc97ae7b52c6a127601df8ca75443467dc5c4b35b94ecb",
-      "lastUpdated": "2026-01-20T16:52:57Z"
+      "version": "7.86.0",
+      "sha256": "e4c7226d8533c29361efd707085e2c15f932b5df87df7d066f1f144154d51530",
+      "cdhash": "ead7ae233fbb4ddc60de302a9bdd513ace679ec4",
+      "signingId": "U68MSDN6DR:org.whispersystems.signal-desktop",
+      "teamId": "U68MSDN6DR",
+      "lastUpdated": "2026-01-22T17:18:19Z"
     },
     {
       "slug": "sketch/darwin",
