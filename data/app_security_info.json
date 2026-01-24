@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-24T18:10:28Z",
+  "lastUpdated": "2026-01-24T18:15:09Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -441,9 +441,12 @@
     {
       "slug": "claude/darwin",
       "name": "Claude",
-      "version": "1.1.381",
-      "sha256": "4039b7d46c96b8e37203f25daf4401ea7ed3f7011a93adfce1026c668c3efd37",
-      "lastUpdated": "2026-01-20T16:28:25Z"
+      "version": "1.1.799",
+      "sha256": "b86c98e084657c990e94bf1fcf2c4d3740e189555c6280e93bfa1d2e8ed755d4",
+      "cdhash": "26bfcaf3975a5001f961ad624e0bf624d0fb2e5e",
+      "signingId": "Q6L2SF6YDW:com.anthropic.claudefordesktop",
+      "teamId": "Q6L2SF6YDW",
+      "lastUpdated": "2026-01-24T18:10:49Z"
     },
     {
       "slug": "cleanmymac/darwin",
@@ -899,9 +902,12 @@
     {
       "slug": "google-drive/darwin",
       "name": "Google Drive",
-      "version": "119.0.2",
-      "sha256": "f4147cbd8cff316fbd2fc1ca5cdbec2bfa67a680fccddf23b3ea9553cabebfb3",
-      "lastUpdated": "2026-01-07T15:11:08Z"
+      "version": "120.0.1",
+      "sha256": "a45b1fb61e40623c91c3115b5891a5d6e08ea3f5635c8d64850407adc45918cb",
+      "cdhash": "5baac9a2c928690ed615130bd6d51ca9d051711e",
+      "signingId": "EQHXZ8M8AV:com.google.drivefs",
+      "teamId": "EQHXZ8M8AV",
+      "lastUpdated": "2026-01-24T18:12:46Z"
     },
     {
       "slug": "google-drive/windows",
@@ -1138,9 +1144,12 @@
     {
       "slug": "microsoft-edge/darwin",
       "name": "Microsoft Edge",
-      "version": "144.0.3719.82",
-      "sha256": "c647d56fd23dab0df99e9c5191a911ef73bbdbb8be6515bd88ddfa6ea0ed0e85",
-      "lastUpdated": "2026-01-20T16:41:11Z"
+      "version": "144.0.3719.92",
+      "sha256": "d69cebd6d1a79305fa3d453a704d4f894eaa5d3a42c38441f1982a0f21631b63",
+      "cdhash": "bcf6185c9b3ec10c7e89e15659bb01561c54ca28",
+      "signingId": "UBF8T346G9:com.microsoft.edgemac",
+      "teamId": "UBF8T346G9",
+      "lastUpdated": "2026-01-24T18:13:45Z"
     },
     {
       "slug": "microsoft-edge/windows",
@@ -1435,9 +1444,12 @@
     {
       "slug": "postman/darwin",
       "name": "Postman",
-      "version": "11.81.0",
-      "sha256": "c21497db6a580b518ed496916b305a115ca3f6ff3fd31566f4de250ce927ae0e",
-      "lastUpdated": "2026-01-20T16:51:16Z"
+      "version": "11.81.4",
+      "sha256": "a2193f4e9badd85ac973715a3dbacc1cfbc551b621e97d3e106f1d4bb4817856",
+      "cdhash": "4cda3798bb7aed69707c56f4a82f67ef68531636",
+      "signingId": "H7H8Q7M5CK:com.postmanlabs.mac",
+      "teamId": "H7H8Q7M5CK",
+      "lastUpdated": "2026-01-24T18:14:06Z"
     },
     {
       "slug": "postman/windows",
@@ -1527,12 +1539,12 @@
     {
       "slug": "raycast/darwin",
       "name": "Raycast",
-      "version": "1.104.2",
-      "sha256": "e7beadeda66e3be68e1aecaf490fcd5fea68546b1e568d15b4dcc1fac5d82d47",
-      "cdhash": "34d81762fdfb2cdf1ac56c424acaf734c3d4c5a3",
+      "version": "1.104.3",
+      "sha256": "c94a0018a36f98dc6be39c3c84a2eba05e544376805dcc0cbf5a8abb6e55df4d",
+      "cdhash": "9dc1d5beb2b3a16f0bbf402b37654a7632648226",
       "signingId": "SY64MV22J9:com.raycast.macos",
       "teamId": "SY64MV22J9",
-      "lastUpdated": "2026-01-21T20:23:40Z"
+      "lastUpdated": "2026-01-24T18:14:29Z"
     },
     {
       "slug": "rectangle/darwin",
@@ -2022,9 +2034,12 @@
     {
       "slug": "windows-app/darwin",
       "name": "Windows App",
-      "version": "11.3.1",
-      "sha256": "cf3600e82bc669a457e94205915792dc21646cd240f91e8b7c52d4a413ef43ca",
-      "lastUpdated": "2026-01-03T15:08:45Z"
+      "version": "11.3.2",
+      "sha256": "899ac909a07b311434546c4cb82454be9e3f7f1ea9f82406357d659890b9e625",
+      "cdhash": "a60b81895ffefa25d6a6865e473b12e7767bff69",
+      "signingId": "UBF8T346G9:com.microsoft.rdc.macos",
+      "teamId": "UBF8T346G9",
+      "lastUpdated": "2026-01-24T18:15:07Z"
     },
     {
       "slug": "windsurf/darwin",
