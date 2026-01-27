@@ -537,7 +537,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: January 26, 2026 at 10:25 PM CST</p>
+            Last updated: January 26, 2026 at 10:27 PM CST</p>
         </div>
     </div>
 
@@ -594,7 +594,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: January 26, 2026 at 10:25 PM CST</p>
+                <p id="modalLastUpdated">Last updated: January 26, 2026 at 10:27 PM CST</p>
             </div>
         </div>
     </div>
@@ -3405,8 +3405,11 @@
                 "version": "0.0.374",
                 "installerUrl": "https://dl.discordapp.net/apps/osx/0.0.374/Discord.dmg",
                 "securityInfo": {
-                  "sha256": "8c39358547b8da434f5f5e0b133f7ddc7748390a4cf68c76eb5238233d8dac36",
-                  "lastUpdated": "2026-01-21T20:15:35Z"
+                  "sha256": "5463a4bcaa8dd58bc67da2b47a75baa36bc67ccb5c0df84c4b01741f83a11899",
+                  "cdhash": "f3a1b3be24c0cd55422b9f3138cc61cb8eac5588",
+                  "signingId": "53Q6R32WPB:com.hnc.Discord",
+                  "teamId": "53Q6R32WPB",
+                  "lastUpdated": "2026-01-27T04:26:43Z"
                 }
               },
               {
@@ -4087,8 +4090,11 @@
                 "version": "0.330.1",
                 "installerUrl": "https://packages.loom.com/desktop-packages/Loom-0.330.1-arm64.dmg",
                 "securityInfo": {
-                  "sha256": "6bcbd2ddcdae548ff4c503af58819fa976929735f448473ff2e25bd7f512e29a",
-                  "lastUpdated": "2026-01-22T17:17:56Z"
+                  "sha256": "1fb4886a11f40f90e828c3e143c992aa78831d562737711b7d2e364a7e8033a3",
+                  "cdhash": "ca347fabfacc88cb9eea436dc0172bfa21f29259",
+                  "signingId": "QGD2ZPXZZG:com.loom.desktop",
+                  "teamId": "QGD2ZPXZZG",
+                  "lastUpdated": "2026-01-27T04:27:09Z"
                 }
               },
               {
@@ -6175,7 +6181,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `January 26, 2026 at 10:25 PM CST`;
+                let timestampText = 'Last updated: ' + `January 26, 2026 at 10:27 PM CST`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
