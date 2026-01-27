@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-26T17:15:34Z",
+  "lastUpdated": "2026-01-27T03:41:48Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -653,9 +653,12 @@
     {
       "slug": "docker-desktop/darwin",
       "name": "Docker Desktop",
-      "version": "4.57.0",
-      "sha256": "ae188cbdcbbd29d6aa923d22cca3d599a06d18257e69c545ccc0428c057e133a",
-      "lastUpdated": "2026-01-20T16:31:37Z"
+      "version": "4.58.0",
+      "sha256": "56765f1f3c282f2f01875be69937ff5de6864c21913fe1196dd4d02b5a8d9730",
+      "cdhash": "d7b6919be2edd0dd56f93194ea0c731d0db7d831",
+      "signingId": "9BNSXJN65R:com.docker.docker",
+      "teamId": "9BNSXJN65R",
+      "lastUpdated": "2026-01-27T03:40:00Z"
     },
     {
       "slug": "docker/darwin",
@@ -893,9 +896,12 @@
     {
       "slug": "granola/darwin",
       "name": "Granola",
-      "version": "6.491.2",
-      "sha256": "44fcbe95adce54cf71b96f3f93a07c0e75830782fefde475c02af4ce113f444d",
-      "lastUpdated": "2026-01-20T22:10:42Z"
+      "version": "6.518.0",
+      "sha256": "56aff96a96e34f59f1c8ac4e4c8e790b26543e775f78682a4f6b1ac3ba8561d3",
+      "cdhash": "02cf7b9697a278217fd28f3f74bab7b1d7f37840",
+      "signingId": "QZ7DHHLN25:com.granola.app",
+      "teamId": "QZ7DHHLN25",
+      "lastUpdated": "2026-01-27T03:41:07Z"
     },
     {
       "slug": "hyper/darwin",
@@ -1350,9 +1356,12 @@
     {
       "slug": "podman-desktop/darwin",
       "name": "Podman Desktop",
-      "version": "1.24.2",
-      "sha256": "d6f3cd7c51065ed85557dd464e37610fc0c47ce07c2780ed431d6fbdb54ce3bd",
-      "lastUpdated": "2025-12-20T22:58:25Z"
+      "version": "1.25.1",
+      "sha256": "e8d1f60d95c53feda0b0e7fcad7c26f8960345f3fe2c82404112412e5c95bc02",
+      "cdhash": "bc0ec921a24355acc78c2180f504b2af66fce742",
+      "signingId": "HYSCB8KRL2:io.podmandesktop.PodmanDesktop",
+      "teamId": "HYSCB8KRL2",
+      "lastUpdated": "2026-01-27T03:41:46Z"
     },
     {
       "slug": "postman/darwin",
