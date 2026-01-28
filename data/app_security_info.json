@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-28T19:12:37Z",
+  "lastUpdated": "2026-01-28T19:23:45Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -423,16 +423,22 @@
     {
       "slug": "claude/darwin",
       "name": "Claude",
-      "version": "1.1.886",
-      "sha256": "872ecc72dc3e98b882b282e0abe5f69e49a7831ecb9d51e9db42a2f19f22cddb",
-      "lastUpdated": "2026-01-26T16:12:17Z"
+      "version": "1.1.1093",
+      "sha256": "e92d112b6314e05f389684e10a0c4128b9dea40d28433f23310949e38030ff05",
+      "cdhash": "8557248894ca2b569e321043644f80286790ee29",
+      "signingId": "Q6L2SF6YDW:com.anthropic.claudefordesktop",
+      "teamId": "Q6L2SF6YDW",
+      "lastUpdated": "2026-01-28T19:12:58Z"
     },
     {
       "slug": "cleanmymac/darwin",
       "name": "CleanMyMac",
-      "version": "5.3.0",
-      "sha256": "c5d9a4a3673d80d59fcbea507ada776aaeb00dc310cfbc9974033d5df919da7c",
-      "lastUpdated": "2025-12-20T06:00:37Z"
+      "version": "5.3.1",
+      "sha256": "1b34e7ec7de099b910d1dad91026298f8b83c1bfbf35b9ab17dce663f7ac616e",
+      "cdhash": "4fd0822146c1ec689ae8749eb1c1c54d8678fbef",
+      "signingId": "S8EX82NJP6:com.macpaw.CleanMyMac5",
+      "teamId": "S8EX82NJP6",
+      "lastUpdated": "2026-01-28T19:13:25Z"
     },
     {
       "slug": "cleanshot/darwin",
@@ -522,9 +528,12 @@
     {
       "slug": "cursor/darwin",
       "name": "Cursor",
-      "version": "2.4.21",
-      "sha256": "cafc07faaa215cc7a9c2d404a174230536cd93fb1e9b9d96ea9fa6bead09eeb4",
-      "lastUpdated": "2026-01-23T00:33:16Z"
+      "version": "2.4.22",
+      "sha256": "d46f91e24b1ec7ef6db2a7fd92feccbcd01909cabd4c575cc30e1b5ab4156846",
+      "cdhash": "5503fca550f6b77f08d47166fc6e60cd3577155e",
+      "signingId": "VDXQ22DGB9:com.todesktop.230313mzl4w4u92",
+      "teamId": "VDXQ22DGB9",
+      "lastUpdated": "2026-01-28T19:16:18Z"
     },
     {
       "slug": "cursor/windows",
@@ -738,9 +747,12 @@
     {
       "slug": "figma/darwin",
       "name": "Figma",
-      "version": "125.11.6",
-      "sha256": "aecd5b2551cce9b1f8ed0174557cbebe8cdd645c14e3f6fcccf98dd2ee123c9c",
-      "lastUpdated": "2025-12-20T06:37:06Z"
+      "version": "126.0.4",
+      "sha256": "d7bd30b7e26bb348ea82ccbd3eab2162eaaa348256481c33287387a89a1f8f22",
+      "cdhash": "f6760193af3c409f2db33eb95507a41ec7727087",
+      "signingId": "T8RA8NE3B7:com.figma.Desktop",
+      "teamId": "T8RA8NE3B7",
+      "lastUpdated": "2026-01-28T19:16:48Z"
     },
     {
       "slug": "figma/windows",
@@ -844,9 +856,12 @@
     {
       "slug": "google-chrome/darwin",
       "name": "Google Chrome",
-      "version": "144.0.7559.97",
-      "sha256": "23291ebdc004f63514d6c6e6c47a3fff83a72c839de39daddc6d426b372772cf",
-      "lastUpdated": "2026-01-21T20:16:23Z"
+      "version": "144.0.7559.110",
+      "sha256": "ecd66e354f69e3fa72aad5b8913a63a8027b4e55e64d09d1b03f5fbf1ecc8a0f",
+      "cdhash": "323efdb4c76945cf9da988403a52a4c80aae37c9",
+      "signingId": "EQHXZ8M8AV:com.google.Chrome",
+      "teamId": "EQHXZ8M8AV",
+      "lastUpdated": "2026-01-28T19:17:28Z"
     },
     {
       "slug": "google-chrome/windows",
@@ -1109,9 +1124,12 @@
     {
       "slug": "microsoft-excel/darwin",
       "name": "Microsoft Excel",
-      "version": "16.105.26012530",
+      "version": "16.105.2",
       "sha256": "1b0b24797b1051a7f8ee71773ac2c65621822d9a427654d021ae9c9bc6f636f5",
-      "lastUpdated": "2026-01-27T23:12:08Z"
+      "cdhash": "263727bf8d8f02fab12036db4d42c6acff84f38e",
+      "signingId": "UBF8T346G9:com.microsoft.Excel",
+      "teamId": "UBF8T346G9",
+      "lastUpdated": "2026-01-28T19:19:01Z"
     },
     {
       "slug": "microsoft-onenote/darwin",
@@ -1123,9 +1141,12 @@
     {
       "slug": "microsoft-outlook/darwin",
       "name": "Microsoft Outlook",
-      "version": "16.105.26011816",
-      "sha256": "d54cdff56631ecfa20a76b9083989aa229f925a8b2a9bbdd87cf80e91ddd60b2",
-      "lastUpdated": "2026-01-20T22:12:43Z"
+      "version": "16.105.26012530",
+      "sha256": "d928ce235c3963e6f2c092d234835532cda1b065c8ea94da521fa75de1205007",
+      "cdhash": "5b4c5dd5b123f4deba67b7d1b4f4afc4dbc21929",
+      "signingId": "UBF8T346G9:com.microsoft.Outlook",
+      "teamId": "UBF8T346G9",
+      "lastUpdated": "2026-01-28T19:21:03Z"
     },
     {
       "slug": "microsoft-powerpoint/darwin",
@@ -1156,9 +1177,12 @@
     {
       "slug": "microsoft-word/darwin",
       "name": "Microsoft Word",
-      "version": "16.105.26012530",
+      "version": "16.105.2",
       "sha256": "deddb24a1ba5d6afb584e8abeaf62755e2907f7f61a40c284a2535ead7dce341",
-      "lastUpdated": "2026-01-27T23:14:58Z"
+      "cdhash": "6b3b93afcdf7c680688b3004d60798db2d16063c",
+      "signingId": "UBF8T346G9:com.microsoft.Word",
+      "teamId": "UBF8T346G9",
+      "lastUpdated": "2026-01-28T19:23:03Z"
     },
     {
       "slug": "miro/darwin",
@@ -1672,9 +1696,12 @@
     {
       "slug": "tailscale-app/darwin",
       "name": "Tailscale",
-      "version": "1.92.3",
-      "sha256": "7285e1adfeb5aeb47b22ec9b19b2aaa80d777c9472944f2333e0f814f14f73c0",
-      "lastUpdated": "2025-12-20T09:16:21Z"
+      "version": "1.94.1",
+      "sha256": "038c56b947b9de29821265b695c4a4094eb36bbfb59ebfb76757b867ece4e5d9",
+      "cdhash": "2be59f41af5740a30789687ba73a069ca6424871",
+      "signingId": "W5364U7YZB:io.tailscale.ipn.macsys",
+      "teamId": "W5364U7YZB",
+      "lastUpdated": "2026-01-28T19:23:43Z"
     },
     {
       "slug": "tailscale/windows",
