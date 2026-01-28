@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-28T20:13:20Z",
+  "lastUpdated": "2026-01-28T22:15:24Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -321,9 +321,12 @@
     {
       "slug": "brave-browser/darwin",
       "name": "Brave",
-      "version": "144.1.86.142",
-      "sha256": "105f7a7b364c1e543bf34255b3fcc56a1365cc437133bb9edba2c6e3716a6c10",
-      "lastUpdated": "2026-01-22T17:13:50Z"
+      "version": "144.1.86.146",
+      "sha256": "c3af35eb4f2643d8320cced38c43ddde363778b942680c62aaf67af7895f23d7",
+      "cdhash": "a6cc43649bbc7364d30b215ec3cafa84a6f72197",
+      "signingId": "KL8N8XSYF4:com.brave.Browser",
+      "teamId": "KL8N8XSYF4",
+      "lastUpdated": "2026-01-28T22:11:09Z"
     },
     {
       "slug": "brave-browser/windows",
@@ -420,9 +423,12 @@
     {
       "slug": "claude/darwin",
       "name": "Claude",
-      "version": "1.1.1093",
-      "sha256": "e92d112b6314e05f389684e10a0c4128b9dea40d28433f23310949e38030ff05",
-      "lastUpdated": "2026-01-28T19:12:58Z"
+      "version": "1.1.1200",
+      "sha256": "d828141d07d481841daa7cae5533ec3df1b5e858ca86e715b80607292462ee38",
+      "cdhash": "ef0afc2701cc725ea7feb54a8a285dcb0a85b8ff",
+      "signingId": "Q6L2SF6YDW:com.anthropic.claudefordesktop",
+      "teamId": "Q6L2SF6YDW",
+      "lastUpdated": "2026-01-28T22:12:36Z"
     },
     {
       "slug": "cleanmymac/darwin",
@@ -1481,9 +1487,12 @@
     {
       "slug": "rustrover/darwin",
       "name": "RustRover",
-      "version": "2025.3.2",
-      "sha256": "465eb4e34f26d68a1a51796ffb5be3eebf5143ed0cf2cc52cde3528891e86709",
-      "lastUpdated": "2026-01-20T16:52:33Z"
+      "version": "2025.3.3",
+      "sha256": "c6a6ee143641ad6a8453865ceb16296fe72fd0772d94deca66d95f3eca83995d",
+      "cdhash": "e185e22785375b91b2c28c554963d7e0ce7ac211",
+      "signingId": "2ZEFAR8TH3:com.jetbrains.rustrover",
+      "teamId": "2ZEFAR8TH3",
+      "lastUpdated": "2026-01-28T22:13:23Z"
     },
     {
       "slug": "santa/darwin",
@@ -1762,9 +1771,12 @@
     {
       "slug": "thunderbird/darwin",
       "name": "Thunderbird",
-      "version": "147.0",
-      "sha256": "869d02dce7a8be61c3a2ea250d4874bedf36defe5202a52fadd527f0380afb3d",
-      "lastUpdated": "2026-01-20T16:57:35Z"
+      "version": "147.0.1",
+      "sha256": "6b981ff94071b3b4b7a65f71f2add375553c5c42c19beed43ebe428a382f525c",
+      "cdhash": "b398e28d70391565bce2b4449f362f587ec41389",
+      "signingId": "43AQ936H96:org.mozilla.thunderbird",
+      "teamId": "43AQ936H96",
+      "lastUpdated": "2026-01-28T22:13:51Z"
     },
     {
       "slug": "todoist-app/darwin",
@@ -1823,9 +1835,12 @@
     {
       "slug": "virtualbox/darwin",
       "name": "VirtualBox",
-      "version": "7.2.4",
-      "sha256": "615a9abf989208dd72d327ae7c5edb3b96ffbd7d85626115bd02d042eb9b2310",
-      "lastUpdated": "2025-12-20T09:24:00Z"
+      "version": "7.2.6",
+      "sha256": "af6fa118edab620dd38de10b72386265b04abf56755637d229caddd390f284b1",
+      "cdhash": "e30de95195f7d0356b98cd644d553078a873564c",
+      "signingId": "VB5E2TV963:org.virtualbox.app.VirtualBox",
+      "teamId": "VB5E2TV963",
+      "lastUpdated": "2026-01-28T22:14:32Z"
     },
     {
       "slug": "viscosity/darwin",
@@ -1910,9 +1925,12 @@
     {
       "slug": "whatsapp/darwin",
       "name": "WhatsApp",
-      "version": "26.3.18",
-      "sha256": "21d959c19f4c9746aa294100dcdf23b1be3895b9d133c4821af2363d4fbac457",
-      "lastUpdated": "2026-01-27T21:13:21Z"
+      "version": "26.4.18",
+      "sha256": "7cff1ddd9837d687dc6b462456667c2c2a938c35a95343f6c31c87bbc92fabd5",
+      "cdhash": "8396ee859ff0e204bc265079c4a619b43f0e0ede",
+      "signingId": "57T9237FN3:net.whatsapp.WhatsApp",
+      "teamId": "57T9237FN3",
+      "lastUpdated": "2026-01-28T22:14:58Z"
     },
     {
       "slug": "windows-app/darwin",
@@ -1971,9 +1989,12 @@
     {
       "slug": "zed/darwin",
       "name": "Zed",
-      "version": "0.220.7",
-      "sha256": "09763feb659c19dc952411c9a79e02b098aa2ac377b7758b9c221362f06312ba",
-      "lastUpdated": "2026-01-28T19:24:47Z"
+      "version": "0.221.4",
+      "sha256": "d16e94a01b51f691db693b93001bfe1fd6e501a490096b1eeb26892a576ce68d",
+      "cdhash": "93562da2c27a1fd0f99e97bebae8e414b6686251",
+      "signingId": "MQ55VZLNZQ:dev.zed.Zed",
+      "teamId": "MQ55VZLNZQ",
+      "lastUpdated": "2026-01-28T22:15:21Z"
     },
     {
       "slug": "zeplin/darwin",
