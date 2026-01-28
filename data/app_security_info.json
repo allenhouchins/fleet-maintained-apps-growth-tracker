@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-28T19:24:49Z",
+  "lastUpdated": "2026-01-28T20:13:02Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -30,14 +30,14 @@
     {
       "slug": "1password/windows",
       "name": "1Password",
-      "version": "8.12.0",
-      "sha256": "e9bdb630c3db806a2bb26095d4474c313a3e61329222e72521859597d39d8859",
+      "version": "8.12.1",
+      "sha256": "ca81e36ae2cabe1a0ee9fb8d7ed34c0ccbaaf344f16b52cd692f20f328493756",
       "publisher": "CN=Agilebits, O=Agilebits, L=Toronto, S=Ontario, C=CA",
-      "issuer": "CN=Microsoft ID Verified CS EOC CA 01, O=Microsoft Corporation, C=US",
-      "serialNumber": "3300068ABDF05D272117F046DC000000068ABD",
-      "thumbprint": "6467411AD147F04E628ECCE810C97FE8B5A8BF6F",
-      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:451A-05E0-D947, OU=Microsoft Ireland Operations Limited, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-01-20T15:13:45Z"
+      "issuer": "CN=Microsoft ID Verified CS EOC CA 02, O=Microsoft Corporation, C=US",
+      "serialNumber": "330006A7E3F08B1663989C769600000006A7E3",
+      "thumbprint": "AF452FA6322373A93985162EC204F5AC7894D393",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:A500-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-01-28T20:13:02Z"
     },
     {
       "slug": "7-zip/windows",
@@ -389,9 +389,6 @@
       "name": "ChatGPT Desktop",
       "version": "1.2026.013",
       "sha256": "90c22071e16742a18f523f0a7376c34073e84c82cf98f73aceeb4aa7d4d3301b",
-      "cdhash": "ffc52e6e39c9bd88d6dac24876bd055f12072a04",
-      "signingId": "2DC432GLL2:com.openai.chat",
-      "teamId": "2DC432GLL2",
       "lastUpdated": "2026-01-28T19:12:34Z"
     },
     {
@@ -425,9 +422,6 @@
       "name": "Claude",
       "version": "1.1.1093",
       "sha256": "e92d112b6314e05f389684e10a0c4128b9dea40d28433f23310949e38030ff05",
-      "cdhash": "8557248894ca2b569e321043644f80286790ee29",
-      "signingId": "Q6L2SF6YDW:com.anthropic.claudefordesktop",
-      "teamId": "Q6L2SF6YDW",
       "lastUpdated": "2026-01-28T19:12:58Z"
     },
     {
@@ -435,9 +429,6 @@
       "name": "CleanMyMac",
       "version": "5.3.1",
       "sha256": "1b34e7ec7de099b910d1dad91026298f8b83c1bfbf35b9ab17dce663f7ac616e",
-      "cdhash": "4fd0822146c1ec689ae8749eb1c1c54d8678fbef",
-      "signingId": "S8EX82NJP6:com.macpaw.CleanMyMac5",
-      "teamId": "S8EX82NJP6",
       "lastUpdated": "2026-01-28T19:13:25Z"
     },
     {
@@ -530,9 +521,6 @@
       "name": "Cursor",
       "version": "2.4.22",
       "sha256": "d46f91e24b1ec7ef6db2a7fd92feccbcd01909cabd4c575cc30e1b5ab4156846",
-      "cdhash": "5503fca550f6b77f08d47166fc6e60cd3577155e",
-      "signingId": "VDXQ22DGB9:com.todesktop.230313mzl4w4u92",
-      "teamId": "VDXQ22DGB9",
       "lastUpdated": "2026-01-28T19:16:18Z"
     },
     {
@@ -749,9 +737,6 @@
       "name": "Figma",
       "version": "126.0.4",
       "sha256": "d7bd30b7e26bb348ea82ccbd3eab2162eaaa348256481c33287387a89a1f8f22",
-      "cdhash": "f6760193af3c409f2db33eb95507a41ec7727087",
-      "signingId": "T8RA8NE3B7:com.figma.Desktop",
-      "teamId": "T8RA8NE3B7",
       "lastUpdated": "2026-01-28T19:16:48Z"
     },
     {
@@ -858,9 +843,6 @@
       "name": "Google Chrome",
       "version": "144.0.7559.110",
       "sha256": "ecd66e354f69e3fa72aad5b8913a63a8027b4e55e64d09d1b03f5fbf1ecc8a0f",
-      "cdhash": "323efdb4c76945cf9da988403a52a4c80aae37c9",
-      "signingId": "EQHXZ8M8AV:com.google.Chrome",
-      "teamId": "EQHXZ8M8AV",
       "lastUpdated": "2026-01-28T19:17:28Z"
     },
     {
@@ -1126,9 +1108,6 @@
       "name": "Microsoft Excel",
       "version": "16.105.2",
       "sha256": "1b0b24797b1051a7f8ee71773ac2c65621822d9a427654d021ae9c9bc6f636f5",
-      "cdhash": "263727bf8d8f02fab12036db4d42c6acff84f38e",
-      "signingId": "UBF8T346G9:com.microsoft.Excel",
-      "teamId": "UBF8T346G9",
       "lastUpdated": "2026-01-28T19:19:01Z"
     },
     {
@@ -1143,9 +1122,6 @@
       "name": "Microsoft Outlook",
       "version": "16.105.26012530",
       "sha256": "d928ce235c3963e6f2c092d234835532cda1b065c8ea94da521fa75de1205007",
-      "cdhash": "5b4c5dd5b123f4deba67b7d1b4f4afc4dbc21929",
-      "signingId": "UBF8T346G9:com.microsoft.Outlook",
-      "teamId": "UBF8T346G9",
       "lastUpdated": "2026-01-28T19:21:03Z"
     },
     {
@@ -1179,9 +1155,6 @@
       "name": "Microsoft Word",
       "version": "16.105.2",
       "sha256": "deddb24a1ba5d6afb584e8abeaf62755e2907f7f61a40c284a2535ead7dce341",
-      "cdhash": "6b3b93afcdf7c680688b3004d60798db2d16063c",
-      "signingId": "UBF8T346G9:com.microsoft.Word",
-      "teamId": "UBF8T346G9",
       "lastUpdated": "2026-01-28T19:23:03Z"
     },
     {
@@ -1698,9 +1671,6 @@
       "name": "Tailscale",
       "version": "1.94.1",
       "sha256": "038c56b947b9de29821265b695c4a4094eb36bbfb59ebfb76757b867ece4e5d9",
-      "cdhash": "2be59f41af5740a30789687ba73a069ca6424871",
-      "signingId": "W5364U7YZB:io.tailscale.ipn.macsys",
-      "teamId": "W5364U7YZB",
       "lastUpdated": "2026-01-28T19:23:43Z"
     },
     {
@@ -1956,9 +1926,6 @@
       "name": "Windsurf",
       "version": "1.13.14",
       "sha256": "f3e1181820cda7f3f69e9eeefa91ac455b65a25e79ade3a51cf7885b0fa61029",
-      "cdhash": "66291e16154fe04c3d0e1891ba232f88df008d93",
-      "signingId": "83Z2LHX6XW:com.exafunction.windsurf",
-      "teamId": "83Z2LHX6XW",
       "lastUpdated": "2026-01-28T19:24:21Z"
     },
     {
@@ -2006,9 +1973,6 @@
       "name": "Zed",
       "version": "0.220.7",
       "sha256": "09763feb659c19dc952411c9a79e02b098aa2ac377b7758b9c221362f06312ba",
-      "cdhash": "6e8883030b2fee7abac1eeeabf298461a7282fc2",
-      "signingId": "MQ55VZLNZQ:dev.zed.Zed",
-      "teamId": "MQ55VZLNZQ",
       "lastUpdated": "2026-01-28T19:24:47Z"
     },
     {
