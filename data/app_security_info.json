@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-29T16:19:09Z",
+  "lastUpdated": "2026-01-29T17:19:29Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -323,9 +323,6 @@
       "name": "Brave",
       "version": "144.1.86.146",
       "sha256": "c3af35eb4f2643d8320cced38c43ddde363778b942680c62aaf67af7895f23d7",
-      "cdhash": "a6cc43649bbc7364d30b215ec3cafa84a6f72197",
-      "signingId": "KL8N8XSYF4:com.brave.Browser",
-      "teamId": "KL8N8XSYF4",
       "lastUpdated": "2026-01-28T22:11:09Z"
     },
     {
@@ -385,9 +382,6 @@
       "name": "ChatGPT Atlas",
       "version": "1.2026.21.3",
       "sha256": "13bbd5db36d3e7791df3b290a00624ca4256d402a8b19e744a35330d29204b6b",
-      "cdhash": "8f4f3423e5814c5053dd9b0d17e92ca20387dacb",
-      "signingId": "2DC432GLL2:com.openai.atlas",
-      "teamId": "2DC432GLL2",
       "lastUpdated": "2026-01-29T16:17:18Z"
     },
     {
@@ -407,14 +401,14 @@
     {
       "slug": "cisco-jabber/windows",
       "name": "Cisco Jabber",
-      "version": "15.2.0.60459",
-      "sha256": "d95e7629119436dc8e4454d1f5bec7013fe934830d8a7f847b280ff656400ade",
+      "version": "15.2.1.60627",
+      "sha256": "5d9bbbffa7773d18211d3e60f805f66af6511eb3224488de1c7cd6bd577805da",
       "publisher": "CN=\"CISCO SYSTEMS, INC.\", O=\"CISCO SYSTEMS, INC.\", L=San Jose, S=California, C=US, SERIALNUMBER=3704171, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "084CABFA025823A572E34AAC0D394563",
       "thumbprint": "D9C07AC25F3D65B6DEF7255F48A56738C36D5F77",
       "timestamp": "CN=TrustID Timestamp Authority, O=IdenTrust, C=US",
-      "lastUpdated": "2025-12-25T01:43:51Z"
+      "lastUpdated": "2026-01-29T17:19:29Z"
     },
     {
       "slug": "citrix-workspace/darwin",
@@ -428,9 +422,6 @@
       "name": "Claude",
       "version": "1.1.1200",
       "sha256": "d828141d07d481841daa7cae5533ec3df1b5e858ca86e715b80607292462ee38",
-      "cdhash": "ef0afc2701cc725ea7feb54a8a285dcb0a85b8ff",
-      "signingId": "Q6L2SF6YDW:com.anthropic.claudefordesktop",
-      "teamId": "Q6L2SF6YDW",
       "lastUpdated": "2026-01-28T22:12:36Z"
     },
     {
@@ -504,9 +495,6 @@
       "name": "CotEditor",
       "version": "6.2.2",
       "sha256": "03d9cb0a33bb620bd6dd013592d8d604f7c3956f8171056095cb2759fdc6984a",
-      "cdhash": "bfbef13beda31f25f670f3445fcbad4b1c585319",
-      "signingId": "HT3Z3A72WZ:com.coteditor.CotEditor",
-      "teamId": "HT3Z3A72WZ",
       "lastUpdated": "2026-01-29T16:17:42Z"
     },
     {
@@ -667,9 +655,6 @@
       "name": "Docker Desktop",
       "version": "4.58.1",
       "sha256": "dde51ee1e1a9bd51caa049a25db0123805b83876a5fc635cc4fc2836fcef21a3",
-      "cdhash": "0c6227b6d0ff070827322f75e0e11ec6cdce0726",
-      "signingId": "9BNSXJN65R:com.docker.docker",
-      "teamId": "9BNSXJN65R",
       "lastUpdated": "2026-01-29T16:18:44Z"
     },
     {
@@ -1498,9 +1483,6 @@
       "name": "RustRover",
       "version": "2025.3.3",
       "sha256": "c6a6ee143641ad6a8453865ceb16296fe72fd0772d94deca66d95f3eca83995d",
-      "cdhash": "e185e22785375b91b2c28c554963d7e0ce7ac211",
-      "signingId": "2ZEFAR8TH3:com.jetbrains.rustrover",
-      "teamId": "2ZEFAR8TH3",
       "lastUpdated": "2026-01-28T22:13:23Z"
     },
     {
@@ -1522,9 +1504,6 @@
       "name": "Signal",
       "version": "7.87.0",
       "sha256": "ec84c953185af18c12168be111a650191699d130fabe6c4afbe54b340834cb74",
-      "cdhash": "b6c21affbeb416787f65d4410d0f6e24238151ed",
-      "signingId": "U68MSDN6DR:org.whispersystems.signal-desktop",
-      "teamId": "U68MSDN6DR",
       "lastUpdated": "2026-01-29T16:19:07Z"
     },
     {
@@ -1785,9 +1764,6 @@
       "name": "Thunderbird",
       "version": "147.0.1",
       "sha256": "6b981ff94071b3b4b7a65f71f2add375553c5c42c19beed43ebe428a382f525c",
-      "cdhash": "b398e28d70391565bce2b4449f362f587ec41389",
-      "signingId": "43AQ936H96:org.mozilla.thunderbird",
-      "teamId": "43AQ936H96",
       "lastUpdated": "2026-01-28T22:13:51Z"
     },
     {
@@ -1849,9 +1825,6 @@
       "name": "VirtualBox",
       "version": "7.2.6",
       "sha256": "af6fa118edab620dd38de10b72386265b04abf56755637d229caddd390f284b1",
-      "cdhash": "e30de95195f7d0356b98cd644d553078a873564c",
-      "signingId": "VB5E2TV963:org.virtualbox.app.VirtualBox",
-      "teamId": "VB5E2TV963",
       "lastUpdated": "2026-01-28T22:14:32Z"
     },
     {
@@ -1939,9 +1912,6 @@
       "name": "WhatsApp",
       "version": "26.4.18",
       "sha256": "7cff1ddd9837d687dc6b462456667c2c2a938c35a95343f6c31c87bbc92fabd5",
-      "cdhash": "8396ee859ff0e204bc265079c4a619b43f0e0ede",
-      "signingId": "57T9237FN3:net.whatsapp.WhatsApp",
-      "teamId": "57T9237FN3",
       "lastUpdated": "2026-01-28T22:14:58Z"
     },
     {
@@ -2003,9 +1973,6 @@
       "name": "Zed",
       "version": "0.221.4",
       "sha256": "d16e94a01b51f691db693b93001bfe1fd6e501a490096b1eeb26892a576ce68d",
-      "cdhash": "93562da2c27a1fd0f99e97bebae8e414b6686251",
-      "signingId": "MQ55VZLNZQ:dev.zed.Zed",
-      "teamId": "MQ55VZLNZQ",
       "lastUpdated": "2026-01-28T22:15:21Z"
     },
     {
