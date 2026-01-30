@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-30T05:40:00Z",
+  "lastUpdated": "2026-01-30T05:52:28Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -28,7 +28,10 @@
       "name": "1Password",
       "version": "8.12.0",
       "sha256": "16a8aefe7c2f7d8ff5df4cefdcf8d21b5fd605c2467c401138b7f6bb52269a3c",
-      "lastUpdated": "2026-01-20T16:13:38Z"
+      "cdhash": "fad3657b02b101ca2671a39ff2659003428eaf95",
+      "signingId": "2BUA8C4S2C:com.1password.1password",
+      "teamId": "2BUA8C4S2C",
+      "lastUpdated": "2026-01-30T05:40:36Z"
     },
     {
       "slug": "1password/windows",
@@ -54,7 +57,10 @@
       "name": "8x8 Work",
       "version": "8.30.2",
       "sha256": "6952c020e8de0c92bf58e479f74b5774a61502cd94cd3496d5e92dfa7897c030",
-      "lastUpdated": "2026-01-22T17:13:18Z"
+      "cdhash": "f55154adf2943b4ded034317e550a80b414184d7",
+      "signingId": "FC967L3QRG:com.electron.8x8---virtual-office",
+      "teamId": "FC967L3QRG",
+      "lastUpdated": "2026-01-30T05:41:04Z"
     },
     {
       "slug": "8x8-work/windows",
@@ -73,21 +79,30 @@
       "name": "Abstract",
       "version": "98.6.3",
       "sha256": "7b5166bc9c81c80220a483e660f6088f0c7a4e96f7556e2f8fa7ae19b20d664d",
-      "lastUpdated": "2025-12-20T04:53:47Z"
+      "cdhash": "dde3aa880da9918f5eca6810844c094d077ddf50",
+      "signingId": "77MZLZE47D:com.elasticprojects.abstract-desktop",
+      "teamId": "77MZLZE47D",
+      "lastUpdated": "2026-01-30T05:41:33Z"
     },
     {
       "slug": "adobe-acrobat-pro/darwin",
       "name": "Adobe Acrobat Pro DC",
       "version": "25.001.20937",
-      "sha256": "5c70e807f653f02a4b43e9e3aea22ef63e610a19a68918708827b308065700e9",
-      "lastUpdated": "2025-12-20T05:16:03Z"
+      "sha256": "5f395eccc27d92028807365e217eb1b56f56af4eda6532c3ceb9e4406924b687",
+      "cdhash": "0757804ab246ddbbb96e01cf4109065db72c6903",
+      "signingId": "JQ525L2MZD:com.adobe.AdobeCRDaemon",
+      "teamId": "JQ525L2MZD",
+      "lastUpdated": "2026-01-30T05:45:11Z"
     },
     {
       "slug": "adobe-acrobat-reader/darwin",
       "name": "Adobe Acrobat Reader",
       "version": "25.001.21111",
       "sha256": "ef3bf4bec75969879cad400a4ad6f590d8f51252378e88f954e393c755a3ab86",
-      "lastUpdated": "2026-01-21T20:15:06Z"
+      "cdhash": "6bc3075bb0581c1053fbc5e9f4424978ef22ff0a",
+      "signingId": "JQ525L2MZD:com.adobe.Reader",
+      "teamId": "JQ525L2MZD",
+      "lastUpdated": "2026-01-30T05:48:15Z"
     },
     {
       "slug": "adobe-acrobat-reader/windows",
@@ -106,28 +121,40 @@
       "name": "Adobe Creative Cloud",
       "version": "6.8.1.865",
       "sha256": "dd252875a6588e094863ed32e411315edddf24ef426bac58c8a6add6115962f5",
-      "lastUpdated": "2026-01-27T21:07:33Z"
+      "cdhash": "65cd682c81c494a9ba421f1cfaec33f81657bc94",
+      "signingId": "JQ525L2MZD:com.adobe.cc.Install",
+      "teamId": "JQ525L2MZD",
+      "lastUpdated": "2026-01-30T05:48:42Z"
     },
     {
       "slug": "adobe-digital-editions/darwin",
       "name": "Adobe Digital Editions",
       "version": "4.5.12",
       "sha256": "02ca3dabbf474ccca34b991057b5174017a397919159b1b0d4b137a4bbbc4d41",
-      "lastUpdated": "2025-12-20T05:23:36Z"
+      "cdhash": "97339e40dc58ce03eef9817aa2f1103cafa4d782",
+      "signingId": "JQ525L2MZD:com.adobe.adobedigitaleditions.app",
+      "teamId": "JQ525L2MZD",
+      "lastUpdated": "2026-01-30T05:50:22Z"
     },
     {
       "slug": "adobe-dng-converter/darwin",
       "name": "Adobe DNG Converter",
       "version": "18.1.1",
       "sha256": "8e25ff13c348edeca77524f2159cfdd9993d68b08c8bf8173676861a452bd1a4",
-      "lastUpdated": "2025-12-23T01:38:38Z"
+      "cdhash": "9e933bce3c7e3f9ea839b3b41d5493ee0af29f2d",
+      "signingId": "JQ525L2MZD:com.adobe.DNGConverter",
+      "teamId": "JQ525L2MZD",
+      "lastUpdated": "2026-01-30T05:52:03Z"
     },
     {
       "slug": "aircall/darwin",
       "name": "Aircall",
       "version": "3.1.66",
       "sha256": "487851b8be12cfe0daa376be10fafae6343cf929d81b5d55634db34cd776984a",
-      "lastUpdated": "2025-12-20T05:26:07Z"
+      "cdhash": "635f8c2debd99c8016377cf9010d98ef552ac154",
+      "signingId": "3ML357Q795:io.aircall.phone",
+      "teamId": "3ML357Q795",
+      "lastUpdated": "2026-01-30T05:52:26Z"
     },
     {
       "slug": "aircall/windows",
