@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-30T06:04:20Z",
+  "lastUpdated": "2026-01-30T06:12:14Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -432,21 +432,30 @@
       "name": "Bruno",
       "version": "3.0.2",
       "sha256": "8b238708a51c4141533d53ffd321311d05f3fde2f373d975f21afa19da931676",
-      "lastUpdated": "2026-01-08T15:10:23Z"
+      "cdhash": "0d6063b1266adb9caef14b648e7b54e3f859f836",
+      "signingId": "W7LPPWA48L:com.usebruno.app",
+      "teamId": "W7LPPWA48L",
+      "lastUpdated": "2026-01-30T06:04:42Z"
     },
     {
       "slug": "calibre/darwin",
       "name": "calibre",
       "version": "8.16.2",
       "sha256": "baf7225a252944dbb7dcba0f895e3ce6d60407a66161de997d8acc40b37b12ce",
-      "lastUpdated": "2025-12-20T05:50:49Z"
+      "cdhash": "7ac122f8f94cad8703e8142cf1cac9d2b210141f",
+      "signingId": "NTY7FVCEKP:net.kovidgoyal.calibre",
+      "teamId": "NTY7FVCEKP",
+      "lastUpdated": "2026-01-30T06:05:33Z"
     },
     {
       "slug": "camtasia/darwin",
       "name": "Camtasia",
       "version": "2026.0.5",
       "sha256": "199f5f70ac242f57c5880345c958865b7105f3d537e7d10c76d19fa7cbbdc4c2",
-      "lastUpdated": "2026-01-20T16:26:05Z"
+      "cdhash": "434e65dd693b5b4503d937671680c9f14a95a13d",
+      "signingId": "7TQL462TU8:com.techsmith.camtasia",
+      "teamId": "7TQL462TU8",
+      "lastUpdated": "2026-01-30T06:06:07Z"
     },
     {
       "slug": "camtasia/windows",
@@ -465,14 +474,20 @@
       "name": "Canva",
       "version": "1.120.0",
       "sha256": "63ba569eecd4876cd514f08af564d321f22cff81d3573fb341f4cc89b15d5435",
-      "lastUpdated": "2026-01-22T17:15:17Z"
+      "cdhash": "d56463d2dfde389a3ee7932e5838a7990f6b3eb8",
+      "signingId": "5HD2ARTBFS:com.canva.CanvaDesktop",
+      "teamId": "5HD2ARTBFS",
+      "lastUpdated": "2026-01-30T06:06:32Z"
     },
     {
       "slug": "chatgpt-atlas/darwin",
       "name": "ChatGPT Atlas",
       "version": "1.2026.21.3",
       "sha256": "13bbd5db36d3e7791df3b290a00624ca4256d402a8b19e744a35330d29204b6b",
-      "lastUpdated": "2026-01-29T16:17:18Z"
+      "cdhash": "8f4f3423e5814c5053dd9b0d17e92ca20387dacb",
+      "signingId": "2DC432GLL2:com.openai.atlas",
+      "teamId": "2DC432GLL2",
+      "lastUpdated": "2026-01-30T06:06:58Z"
     },
     {
       "slug": "chatgpt/darwin",
@@ -482,14 +497,17 @@
       "cdhash": "a0a76f0f79e86d7a4fa1ec21424abaf77d7e7911",
       "signingId": "2DC432GLL2:com.openai.chat",
       "teamId": "2DC432GLL2",
-      "lastUpdated": "2026-01-30T00:34:29Z"
+      "lastUpdated": "2026-01-30T06:07:20Z"
     },
     {
       "slug": "cisco-jabber/darwin",
       "name": "Cisco Jabber",
       "version": "15.2.1",
       "sha256": "b1d1358c157a5eba70f4c7bb40995ae6a94ba125e79197e4f7ab11c882a9d545",
-      "lastUpdated": "2026-01-22T17:16:21Z"
+      "cdhash": "1d51abad33f1c4d22c319a126b2e232a97aac063",
+      "signingId": "DE8Y96K9QP:com.cisco.Jabber",
+      "teamId": "DE8Y96K9QP",
+      "lastUpdated": "2026-01-30T06:07:57Z"
     },
     {
       "slug": "cisco-jabber/windows",
@@ -508,21 +526,30 @@
       "name": "Citrix Workspace",
       "version": "25.11.1.42",
       "sha256": "d4b4199aaee7b1d830750c675a76f73ecb8600807748906b7353e7278f8505bd",
-      "lastUpdated": "2026-01-20T16:27:57Z"
+      "cdhash": "f949e49ba8a2057e73e5f3ea12c2629a372603de",
+      "signingId": "S272Y5R93J:com.citrix.receiver.nomas",
+      "teamId": "S272Y5R93J",
+      "lastUpdated": "2026-01-30T06:08:52Z"
     },
     {
       "slug": "claude/darwin",
       "name": "Claude",
       "version": "1.1.1200",
       "sha256": "d828141d07d481841daa7cae5533ec3df1b5e858ca86e715b80607292462ee38",
-      "lastUpdated": "2026-01-28T22:12:36Z"
+      "cdhash": "ef0afc2701cc725ea7feb54a8a285dcb0a85b8ff",
+      "signingId": "Q6L2SF6YDW:com.anthropic.claudefordesktop",
+      "teamId": "Q6L2SF6YDW",
+      "lastUpdated": "2026-01-30T06:09:18Z"
     },
     {
       "slug": "cleanmymac/darwin",
       "name": "CleanMyMac",
       "version": "5.3.1",
       "sha256": "1b34e7ec7de099b910d1dad91026298f8b83c1bfbf35b9ab17dce663f7ac616e",
-      "lastUpdated": "2026-01-28T19:13:25Z"
+      "cdhash": "4fd0822146c1ec689ae8749eb1c1c54d8678fbef",
+      "signingId": "S8EX82NJP6:com.macpaw.CleanMyMac5",
+      "teamId": "S8EX82NJP6",
+      "lastUpdated": "2026-01-30T06:10:01Z"
     },
     {
       "slug": "cleanshot/darwin",
