@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-30T05:52:28Z",
+  "lastUpdated": "2026-01-30T05:57:04Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -173,7 +173,10 @@
       "name": "Airtame",
       "version": "4.15.0",
       "sha256": "3320048a1b2705ed0de207a97a5727339c83e07276c248127dff57872ecde930",
-      "lastUpdated": "2025-12-20T05:26:21Z"
+      "cdhash": "355bbf310dd095a9c985335ddbb42f245eb1ec7d",
+      "signingId": "4TPSP88HN2:com.airtame.airtame-application",
+      "teamId": "4TPSP88HN2",
+      "lastUpdated": "2026-01-30T05:52:49Z"
     },
     {
       "slug": "airtame/windows",
@@ -191,42 +194,60 @@
       "name": "Amazon Chime",
       "version": "5.23.22475",
       "sha256": "555b2dfb818e146f976eaf698a2517cb43c17f9b3f06874f63f5741f6345beb7",
-      "lastUpdated": "2025-12-20T05:26:34Z"
+      "cdhash": "29c59458cdde5e0eb8b0b2e689351fc463b40853",
+      "signingId": "94KV3E626L:com.amazon.Amazon-Chime",
+      "teamId": "94KV3E626L",
+      "lastUpdated": "2026-01-30T05:53:13Z"
     },
     {
       "slug": "android-studio/darwin",
       "name": "Android Studio",
       "version": "2025.2.3.9",
       "sha256": "94f7cfa5b299361d79e760a09783ba09e84080d22cc40b0c31c2f6ae55002d58",
-      "lastUpdated": "2026-01-20T16:22:49Z"
+      "cdhash": "d7e8e1e2d6c055ea504b01a034b1efca5edca4b7",
+      "signingId": "EQHXZ8M8AV:com.google.android.studio",
+      "teamId": "EQHXZ8M8AV",
+      "lastUpdated": "2026-01-30T05:54:16Z"
     },
     {
       "slug": "anka-virtualization/darwin",
       "name": "Anka",
       "version": "3.8.4.210",
       "sha256": "063dcd403c33674009ef78b68caebcb3026ac5e1cebf7aa9eda36835e5e33140",
-      "lastUpdated": "2025-12-20T05:27:59Z"
+      "cdhash": "106758a00d4d34b09428a02207d2df2bbcf97a4f",
+      "signingId": "TT9FAWP6V4:com.veertu.anka",
+      "teamId": "TT9FAWP6V4",
+      "lastUpdated": "2026-01-30T05:54:47Z"
     },
     {
       "slug": "anydesk/darwin",
       "name": "AnyDesk",
       "version": "9.6.1",
       "sha256": "75f369a36e9efa0647dc75cf86461e8b13d5de4c00403c7d0c528a93ee6738d7",
-      "lastUpdated": "2025-12-20T05:28:12Z"
+      "cdhash": "7bc1495bbfdccbbb234d81cfd445f6b2312b9f79",
+      "signingId": "KHRWM533LU:com.philandro.anydesk",
+      "teamId": "KHRWM533LU",
+      "lastUpdated": "2026-01-30T05:55:10Z"
     },
     {
       "slug": "apparency/darwin",
       "name": "Apparency",
       "version": "3.1",
       "sha256": "7a45283f0cc591332a676a5cad5c1123780f2f1ba0390041ba3b56ca3ededa63",
-      "lastUpdated": "2025-12-20T05:28:25Z"
+      "cdhash": "6c85ca8c23c65432f3e80c42baa04837581e3a48",
+      "signingId": "936EB786NH:com.mothersruin.Apparency",
+      "teamId": "936EB786NH",
+      "lastUpdated": "2026-01-30T05:55:32Z"
     },
     {
       "slug": "appcleaner/darwin",
       "name": "AppCleaner",
       "version": "3.6.8",
       "sha256": "9440e4d74a64aade646ca3287cd82fea105be883a4dde7ea4f921d848d86eb86",
-      "lastUpdated": "2025-12-20T05:28:35Z"
+      "cdhash": "5bfb612ac35c03bf590f8622fc4ab91808edb0d0",
+      "signingId": "X85ZX835W9:net.freemacsoft.AppCleaner",
+      "teamId": "X85ZX835W9",
+      "lastUpdated": "2026-01-30T05:55:53Z"
     },
     {
       "slug": "arc/darwin",
@@ -236,21 +257,27 @@
       "cdhash": "fa153256daf165431322d38cd4589d99c2d35a02",
       "signingId": "S6N382Y83G:company.thebrowser.Browser",
       "teamId": "S6N382Y83G",
-      "lastUpdated": "2026-01-30T00:34:06Z"
+      "lastUpdated": "2026-01-30T05:56:19Z"
     },
     {
       "slug": "archaeology/darwin",
       "name": "Archaeology",
       "version": "1.5",
       "sha256": "dfcf3ea5cf8b8cbbfe3263fefd844f6f58280f7c2bb251a17d5a8f2d22ac9485",
-      "lastUpdated": "2025-12-20T05:29:08Z"
+      "cdhash": "1a64ab05e3cdff204e37ff8bc3b22d5ff15098a5",
+      "signingId": "936EB786NH:com.mothersruin.Archaeology",
+      "teamId": "936EB786NH",
+      "lastUpdated": "2026-01-30T05:56:40Z"
     },
     {
       "slug": "asana/darwin",
       "name": "Asana",
       "version": "2.5.1",
       "sha256": "dd036b8663134a5cac9d94226bd23d01309a086be7af5918d52544f488d9f639",
-      "lastUpdated": "2025-12-20T05:29:20Z"
+      "cdhash": "97cd7bee105b3ba761ccdca34adf7578ba800d0b",
+      "signingId": "A679L395M8:com.electron.asana",
+      "teamId": "A679L395M8",
+      "lastUpdated": "2026-01-30T05:57:02Z"
     },
     {
       "slug": "asana/windows",
