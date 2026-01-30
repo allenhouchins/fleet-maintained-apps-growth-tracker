@@ -93,6 +93,20 @@ jobs:
             fi
           fi
 
+      - name: Set up Go
+        if: steps.check-changes.outputs.changed == 'true'
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.21'
+
+      - name: Regenerate index.html with latest security info
+        if: steps.check-changes.outputs.changed == 'true'
+        run: |
+          go run generate_html.go
+        env:
+          # Ensure we have network for fetching apps list from Fleet
+          GOPROXY: https://proxy.golang.org,direct
+
       - name: Setup Pages
         if: steps.check-changes.outputs.changed == 'true'
         uses: actions/configure-pages@v4

@@ -228,7 +228,10 @@ func loadSecurityInfo() (*securityInfoData, error) {
 }
 
 func mergeSecurityInfo(apps *appsJSON, security *securityInfoData) {
-	// Create a map of security info by slug
+	if security == nil {
+		return
+	}
+	// Create a map of security info by slug (both macOS and Windows entries)
 	securityMap := make(map[string]securityInfoItem)
 	for _, sec := range security.Apps {
 		securityMap[sec.Slug] = sec
