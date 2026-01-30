@@ -85,13 +85,25 @@ func main() {
 		fmt.Printf("📋 No existing security info found (starting fresh)\n")
 	}
 
+	// Check for flags
+	forceCollect := false
+	testMode := false
+	for _, arg := range os.Args[1:] {
+		if arg == "--force" {
+			forceCollect = true
+		}
+		if arg == "--test" {
+			testMode = true
+		}
+	}
+
 	// Filter to macOS apps only
 	var macApps []securityAppVersionInfo
 	for _, app := range versions.Apps {
 		if app.Platform == "darwin" && app.InstallerURL != "" {
-			// Check if we need to update this app
+			// Include if missing, version changed, or --force (re-collect all)
 			existing, exists := existingMap[app.Slug]
-			if !exists || existing.Version != app.Version {
+			if forceCollect || !exists || existing.Version != app.Version {
 				macApps = append(macApps, app)
 			}
 		}
@@ -99,11 +111,15 @@ func main() {
 
 	if len(macApps) == 0 {
 		fmt.Println("✅ All macOS apps are up to date. No security info collection needed.")
+		fmt.Println("   Use --force to re-collect all apps anyway (e.g. after restoring from git history).")
 		return
 	}
 
+	if forceCollect {
+		fmt.Printf("🔄 --force: re-collecting security info for %d macOS apps\n\n", len(macApps))
+	}
+
 	// Check for test mode (limit to first app)
-	testMode := len(os.Args) > 1 && os.Args[1] == "--test"
 	if testMode && len(macApps) > 0 {
 		fmt.Printf("🧪 TEST MODE: Processing only first app: %s\n\n", macApps[0].Name)
 		macApps = macApps[:1]

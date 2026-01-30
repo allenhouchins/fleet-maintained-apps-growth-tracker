@@ -85,13 +85,25 @@ func main() {
 		fmt.Printf("📋 No existing security info found (starting fresh)\n")
 	}
 
+	// Check for flags
+	forceCollect := false
+	testMode := false
+	for _, arg := range os.Args[1:] {
+		if arg == "--force" {
+			forceCollect = true
+		}
+		if arg == "--test" {
+			testMode = true
+		}
+	}
+
 	// Filter to Windows apps only
 	var windowsApps []securityAppVersionInfo
 	for _, app := range versions.Apps {
 		if app.Platform == "windows" && app.InstallerURL != "" {
-			// Check if we need to update this app
+			// Include if missing, version changed, or --force (re-collect all)
 			existing, exists := existingMap[app.Slug]
-			if !exists || existing.Version != app.Version {
+			if forceCollect || !exists || existing.Version != app.Version {
 				windowsApps = append(windowsApps, app)
 			}
 		}
@@ -99,11 +111,15 @@ func main() {
 
 	if len(windowsApps) == 0 {
 		fmt.Println("✅ All Windows apps are up to date. No security info collection needed.")
+		fmt.Println("   Use --force to re-collect all apps anyway (e.g. after restoring from git history).")
 		return
 	}
 
+	if forceCollect {
+		fmt.Printf("🔄 --force: re-collecting security info for %d Windows apps\n\n", len(windowsApps))
+	}
+
 	// Check for test mode (limit to first app)
-	testMode := len(os.Args) > 1 && os.Args[1] == "--test"
 	if testMode && len(windowsApps) > 0 {
 		fmt.Printf("🧪 TEST MODE: Processing only first app: %s\n\n", windowsApps[0].Name)
 		windowsApps = windowsApps[:1]
