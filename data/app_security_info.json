@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-30T05:57:04Z",
+  "lastUpdated": "2026-01-30T06:04:20Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -296,56 +296,80 @@
       "name": "Audacity",
       "version": "3.7.7",
       "sha256": "8aaa79ab5e641bf06f34ce6ff23db33a2d29b6df65112405570bffc7185fe810",
-      "lastUpdated": "2025-12-20T05:29:36Z"
+      "cdhash": "2a703fef325396762744df023a1c1eb8643e8562",
+      "signingId": "AWEYX923UX:org.audacityteam.audacity",
+      "teamId": "AWEYX923UX",
+      "lastUpdated": "2026-01-30T05:57:24Z"
     },
     {
       "slug": "avast-secure-browser/darwin",
       "name": "Avast Secure Browser",
       "version": "139.0.6697.68",
       "sha256": "cd1c5eabf024bf461ede2fa8940ef56703469cf8b8d3793b9c75fda294c7ecb4",
-      "lastUpdated": "2025-12-20T05:29:57Z"
+      "cdhash": "2cf29c61476f729370613f01014aeea5905f1f32",
+      "signingId": "6H4HRTU5E3:com.avast.browser",
+      "teamId": "6H4HRTU5E3",
+      "lastUpdated": "2026-01-30T05:57:48Z"
     },
     {
       "slug": "aws-vpn-client/darwin",
       "name": "AWS Client VPN",
       "version": "5.3.3",
-      "sha256": "64fea2c038e3d0192dfd21e1c091b436208e2e892c7f590941f9205d0a4b443c",
-      "lastUpdated": "2025-12-27T15:08:49Z"
+      "sha256": "c8e93fb9251c0ac0d15a58fc72b3c3f3bc15aa039e22b9900a8330aabd75ada9",
+      "cdhash": "f2d7ee4a6b1950e94002e06bf5ca26abff46a202",
+      "signingId": "94KV3E626L:com.amazonaws.acvc.osx",
+      "teamId": "94KV3E626L",
+      "lastUpdated": "2026-01-30T05:59:13Z"
     },
     {
       "slug": "balenaetcher/darwin",
       "name": "balenaEtcher",
       "version": "2.1.4",
       "sha256": "4ce14cef3072d8a649ef5483d40f20de269517673dd1ab16365f0f800999aa09",
-      "lastUpdated": "2025-12-20T05:31:57Z"
+      "cdhash": "0df0f0674fa06213557390892b07c677b29ccf5e",
+      "signingId": "66H43P8FRG:io.balena.etcher",
+      "teamId": "66H43P8FRG",
+      "lastUpdated": "2026-01-30T06:00:18Z"
     },
     {
       "slug": "bbedit/darwin",
       "name": "BBEdit",
       "version": "15.5.4",
       "sha256": "bd0b8a3148d7b37f0e9d0f47f6b877afa17d2ee633f3e2f3c142956665ca3300",
-      "lastUpdated": "2025-12-20T05:32:08Z"
+      "cdhash": "45efe838d279adf87d7aff0cf11b817e4550095c",
+      "signingId": "W52GZAXT98:com.barebones.bbedit",
+      "teamId": "W52GZAXT98",
+      "lastUpdated": "2026-01-30T06:00:39Z"
     },
     {
       "slug": "beyond-compare/darwin",
       "name": "Beyond Compare",
       "version": "5.1.7.31736",
       "sha256": "ab9d086cc1a0485e94d713c818ad0ed8245c30c1d9411e8579456adb0a1853a5",
-      "lastUpdated": "2025-12-20T05:32:21Z"
+      "cdhash": "17a1f9413aeb6870c39a3e87cc82bc13781aa974",
+      "signingId": "BS29TEJF86:com.ScooterSoftware.BeyondCompare",
+      "teamId": "BS29TEJF86",
+      "lastUpdated": "2026-01-30T06:01:06Z"
     },
     {
       "slug": "bitwarden/darwin",
       "name": "Bitwarden",
       "version": "2025.12.1",
       "sha256": "caf3b19ef427d7f54d9ddb87936bc436e36a212f17633c24668c07f565735715",
-      "lastUpdated": "2026-01-20T16:23:40Z"
+      "cdhash": "bae2e80ddd340ea6a1b3397a29fd16d3263fe3f8",
+      "signingId": "LTZ2PFU5D6:com.bitwarden.desktop",
+      "teamId": "LTZ2PFU5D6",
+      "lastUpdated": "2026-01-30T06:01:36Z"
     },
     {
       "slug": "blender/darwin",
       "name": "Blender",
       "version": "5.0.1",
       "sha256": "e147a62d4dc3c53ded1361810e16921f88e13938a4f62cfea81fbf1fee2b3b6d",
-      "lastUpdated": "2025-12-20T05:47:38Z"
+      "cdhash": "2912ac94c0df47ee69f9d57c31eff6fe752090d0",
+      "signingId": "68UA947AUU:org.blenderfoundation.blender",
+      "teamId": "68UA947AUU",
+      "lastUpdated": "2026-01-30T06:02:07Z"
     },
     {
       "slug": "blender/windows",
@@ -364,7 +388,10 @@
       "name": "Box Drive",
       "version": "2.49.255",
       "sha256": "31963ddf5ab8a15478343305ed46a6dc2282a1e22465e92c03ecc1f5c1a1760a",
-      "lastUpdated": "2026-01-07T22:09:08Z"
+      "cdhash": "cf203b1783f28ff96d4ee463dfdd005678fe7157",
+      "signingId": "M683GB7CPW:com.box.desktop",
+      "teamId": "M683GB7CPW",
+      "lastUpdated": "2026-01-30T06:02:42Z"
     },
     {
       "slug": "box-drive/windows",
@@ -383,7 +410,10 @@
       "name": "Brave",
       "version": "144.1.86.146",
       "sha256": "c3af35eb4f2643d8320cced38c43ddde363778b942680c62aaf67af7895f23d7",
-      "lastUpdated": "2026-01-28T22:11:09Z"
+      "cdhash": "a6cc43649bbc7364d30b215ec3cafa84a6f72197",
+      "signingId": "KL8N8XSYF4:com.brave.Browser",
+      "teamId": "KL8N8XSYF4",
+      "lastUpdated": "2026-01-30T06:03:16Z"
     },
     {
       "slug": "brave-browser/windows",
