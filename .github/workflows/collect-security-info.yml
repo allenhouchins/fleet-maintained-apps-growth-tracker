@@ -2,6 +2,12 @@ name: Collect macOS App Security Info
 
 on:
   workflow_dispatch:  # Allow manual triggering or triggered by update-data workflow
+    inputs:
+      force:
+        description: 'Force re-collect all apps (ignore up-to-date)'
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: write  # Required to commit changes
@@ -135,7 +141,7 @@ jobs:
 
       - name: Collect macOS app security info
         run: |
-          cd cmd/collect-security-info && go run main.go
+          cd cmd/collect-security-info && go run main.go ${{ github.event.inputs.force == 'true' && '--force' || '' }}
 
       - name: Regenerate HTML with security info
         run: |
