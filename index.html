@@ -537,7 +537,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: January 29, 2026 at 7:38 PM CST</p>
+            Last updated: January 29, 2026 at 7:40 PM CST</p>
         </div>
     </div>
 
@@ -594,7 +594,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: January 29, 2026 at 7:38 PM CST</p>
+                <p id="modalLastUpdated">Last updated: January 29, 2026 at 7:40 PM CST</p>
             </div>
         </div>
     </div>
@@ -5218,8 +5218,11 @@
                 "version": "18.6.5",
                 "installerUrl": "https://cdn.teleport.dev/Teleport%20Connect-18.6.5.dmg",
                 "securityInfo": {
-                  "sha256": "42e1e0c0d3be066e499178d6a9c14042f713bbd8a757ae0b857135156dd75360",
-                  "lastUpdated": "2026-01-21T23:14:38Z"
+                  "sha256": "ae09238321afa64cee7ad315eedf402f4cb9247b58e61890ed1802981bf53906",
+                  "cdhash": "a80c763d3c73b3b9117824b31dc370787670a5b8",
+                  "signingId": "QH8AA5B8UP:gravitational.teleport.connect",
+                  "teamId": "QH8AA5B8UP",
+                  "lastUpdated": "2026-01-30T01:40:19Z"
                 }
               },
               {
@@ -6199,7 +6202,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `January 29, 2026 at 7:38 PM CST`;
+                let timestampText = 'Last updated: ' + `January 29, 2026 at 7:40 PM CST`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
