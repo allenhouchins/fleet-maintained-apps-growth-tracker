@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-03T16:29:38Z",
+  "lastUpdated": "2026-02-03T16:40:02Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1476,9 +1476,12 @@
     {
       "slug": "raycast/darwin",
       "name": "Raycast",
-      "version": "1.104.3",
-      "sha256": "c94a0018a36f98dc6be39c3c84a2eba05e544376805dcc0cbf5a8abb6e55df4d",
-      "lastUpdated": "2026-01-24T18:14:29Z"
+      "version": "1.104.4",
+      "sha256": "475254290258a22fa34677d9f98c4a4ce490d61f833871cabde7dc81cc9f5afd",
+      "cdhash": "c89b23a6b72d04c277c676cf3f3ef39c2b9b5666",
+      "signingId": "SY64MV22J9:com.raycast.macos",
+      "teamId": "SY64MV22J9",
+      "lastUpdated": "2026-02-03T16:29:59Z"
     },
     {
       "slug": "rectangle/darwin",
@@ -1756,29 +1759,38 @@
     {
       "slug": "teleport-connect/darwin",
       "name": "Teleport Connect",
-      "version": "18.6.5",
-      "sha256": "ae09238321afa64cee7ad315eedf402f4cb9247b58e61890ed1802981bf53906",
-      "lastUpdated": "2026-01-30T01:40:19Z"
+      "version": "18.6.6",
+      "sha256": "c48620bf817fca2c27b9aa36bb874598ea3360c2d480c80616e89fb60189b391",
+      "cdhash": "cf0726b47b413e2dba560b40778d86fe84229b2e",
+      "signingId": "QH8AA5B8UP:gravitational.teleport.connect",
+      "teamId": "QH8AA5B8UP",
+      "lastUpdated": "2026-02-03T16:30:28Z"
     },
     {
       "slug": "teleport-suite/darwin",
       "name": "Teleport Suite",
-      "version": "18.6.5",
-      "lastUpdated": "2026-01-30T15:26:21Z",
+      "version": "18.6.6",
+      "lastUpdated": "2026-02-03T16:38:57Z",
       "apps": [
         {
           "slug": "teleport-suite/darwin/tsh",
           "name": "tsh",
-          "version": "18.6.5",
-          "sha256": "fcf57e02f39a39c9db59b190e2d534a54c29db8abc0520d4de3442e2debc8c67",
-          "lastUpdated": "2026-01-30T15:26:40Z"
+          "version": "18.6.6",
+          "sha256": "f218caf2523daa86185b888941287ed25cf918ca9622175767f0cada17f9409d",
+          "cdhash": "c6a8b552df068f06d5354122832032f95e1d043f",
+          "signingId": "QH8AA5B8UP:QH8AA5B8UP.com.gravitational.teleport.tsh",
+          "teamId": "QH8AA5B8UP",
+          "lastUpdated": "2026-02-03T16:39:16Z"
         },
         {
           "slug": "teleport-suite/darwin/tctl",
           "name": "tctl",
-          "version": "18.6.5",
-          "sha256": "a8503e57dd5d472b617ccfa90c9ca269f846bd4e648a1230bdbb034e580d23b0",
-          "lastUpdated": "2026-01-30T15:26:55Z"
+          "version": "18.6.6",
+          "sha256": "837245a53ba1619fc31dde45979d5dface1d4757911f40d893fc89f0ee6cefbc",
+          "cdhash": "3b8b6f19effcd98e626d7126cca94246ec42d3e8",
+          "signingId": "QH8AA5B8UP:QH8AA5B8UP.com.gravitational.teleport.tctl",
+          "teamId": "QH8AA5B8UP",
+          "lastUpdated": "2026-02-03T16:39:31Z"
         }
       ]
     },
@@ -1940,9 +1952,12 @@
     {
       "slug": "whatsapp/darwin",
       "name": "WhatsApp",
-      "version": "26.4.18",
-      "sha256": "7cff1ddd9837d687dc6b462456667c2c2a938c35a95343f6c31c87bbc92fabd5",
-      "lastUpdated": "2026-01-28T22:14:58Z"
+      "version": "26.5.17",
+      "sha256": "2b70727923a366d21529a566f286073399ca39ea661974f1360190492495aa5c",
+      "cdhash": "fdab12ca6c4723b9e8fc7103dbf43db8566bfb97",
+      "signingId": "57T9237FN3:net.whatsapp.WhatsApp",
+      "teamId": "57T9237FN3",
+      "lastUpdated": "2026-02-03T16:40:00Z"
     },
     {
       "slug": "windows-app/darwin",
