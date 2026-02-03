@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-03T16:23:45Z",
+  "lastUpdated": "2026-02-03T16:29:38Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -630,9 +630,12 @@
     {
       "slug": "discord/darwin",
       "name": "Discord",
-      "version": "0.0.374",
-      "sha256": "5463a4bcaa8dd58bc67da2b47a75baa36bc67ccb5c0df84c4b01741f83a11899",
-      "lastUpdated": "2026-01-27T04:26:43Z"
+      "version": "0.0.375",
+      "sha256": "7f8ba2c6d2d0a0594a8aba3c6da6e990631233db82ccdbba000fa19b5e71e05e",
+      "cdhash": "5c0a82b47eb477625987d75865b2d8e9ddac70af",
+      "signingId": "53Q6R32WPB:com.hnc.Discord",
+      "teamId": "53Q6R32WPB",
+      "lastUpdated": "2026-02-03T16:24:09Z"
     },
     {
       "slug": "discord/windows",
@@ -656,9 +659,12 @@
     {
       "slug": "docker-desktop/darwin",
       "name": "Docker Desktop",
-      "version": "4.58.1",
-      "sha256": "dde51ee1e1a9bd51caa049a25db0123805b83876a5fc635cc4fc2836fcef21a3",
-      "lastUpdated": "2026-01-29T16:18:44Z"
+      "version": "4.59.1",
+      "sha256": "ff305c38be601dcd6a2aed8e104ece189d332ada63863ddc256d70c55bb5e920",
+      "cdhash": "19b4f5ac09b1433f843e4bfffa189f65e15e943f",
+      "signingId": "9BNSXJN65R:com.docker.docker",
+      "teamId": "9BNSXJN65R",
+      "lastUpdated": "2026-02-03T16:25:21Z"
     },
     {
       "slug": "docker/darwin",
@@ -724,9 +730,12 @@
     {
       "slug": "evernote/darwin",
       "name": "Evernote",
-      "version": "latest",
+      "version": "11.1.2",
       "sha256": "97f0e0274785c0bdfc72f5d3e0b7dd2e2bfdc50c53bb0b1256068d0151c28a00",
-      "lastUpdated": "2026-02-02T05:35:49Z"
+      "cdhash": "32a59f89e071f160e1737db8e3d0ccd708a613d1",
+      "signingId": "Q79WDW8YH9:com.evernote.Evernote",
+      "teamId": "Q79WDW8YH9",
+      "lastUpdated": "2026-02-03T16:25:52Z"
     },
     {
       "slug": "expressvpn/darwin",
@@ -896,9 +905,12 @@
     {
       "slug": "granola/darwin",
       "name": "Granola",
-      "version": "6.529.0",
-      "sha256": "6b38e546bad185fc1cae8c36edfabbc41dc649f275077b944dae95eb881f99eb",
-      "lastUpdated": "2026-01-30T00:35:21Z"
+      "version": "7.1.0",
+      "sha256": "8d428686d3520f022920cdd1c5a6ee7a559135383acab30a226a7768f968b87c",
+      "cdhash": "022aeb94313156505d55937f708b527f994f4e47",
+      "signingId": "QZ7DHHLN25:com.granola.app",
+      "teamId": "QZ7DHHLN25",
+      "lastUpdated": "2026-02-03T16:26:35Z"
     },
     {
       "slug": "hyper/darwin",
@@ -1191,16 +1203,22 @@
     {
       "slug": "nordpass/darwin",
       "name": "NordPass",
-      "version": "7.3.12",
-      "sha256": "f4dd999f41f740a56fb219d19d2ebe666dd001c88ba5780711ee28f6bb2553f9",
-      "lastUpdated": "2026-01-20T16:48:57Z"
+      "version": "7.3.14",
+      "sha256": "62682eaebe0d7de2d49f27bec15faf2a633a029b6313a6dd873d3c6a0618c705",
+      "cdhash": "e89236513475c1e9c7717896a6d117f2c5fc0521",
+      "signingId": "W5W395V82Y:com.nordsec.nordpass",
+      "teamId": "W5W395V82Y",
+      "lastUpdated": "2026-02-03T16:26:56Z"
     },
     {
       "slug": "nordvpn/darwin",
       "name": "NordVPN",
-      "version": "9.11.0",
-      "sha256": "80351ebcd00e0cf0ce0f1dcc5ae52edc2ef200f290ecaf9fb21402aa6b5da739",
-      "lastUpdated": "2026-01-20T16:49:38Z"
+      "version": "9.12.0",
+      "sha256": "a189df8e5257ff9407cfbc513e1f9d1f2460c49648f9c7ecb085a31ff2901428",
+      "cdhash": "d657ce699d34aa6c13bbd656d121728dcaa2a11a",
+      "signingId": "W5W395V82Y:com.nordvpn.macos",
+      "teamId": "W5W395V82Y",
+      "lastUpdated": "2026-02-03T16:27:35Z"
     },
     {
       "slug": "notepad++/windows",
@@ -1311,9 +1329,12 @@
     {
       "slug": "opera/darwin",
       "name": "Opera",
-      "version": "126.0.5750.59",
-      "sha256": "7c4dd729eb4f39a072628d7ad3ecf9fb4ed9e93862607c5dd16798b275989198",
-      "lastUpdated": "2026-01-23T00:36:14Z"
+      "version": "127.0.5778.14",
+      "sha256": "12f5716dc8200b4915d6c4dd33ed5d000848a93f6695d5aaac231a837e0ec069",
+      "cdhash": "3049d691aee67a8bc68df3afba19ce9647f116fd",
+      "signingId": "A2P9LX4JPN:com.operasoftware.Opera",
+      "teamId": "A2P9LX4JPN",
+      "lastUpdated": "2026-02-03T16:28:22Z"
     },
     {
       "slug": "orbstack/darwin",
@@ -1360,9 +1381,12 @@
     {
       "slug": "postman/darwin",
       "name": "Postman",
-      "version": "11.83.0",
-      "sha256": "5a69548a2b9ba01d5017b173b9392afb7e28ec359aa5a4d4a4951543493ad034",
-      "lastUpdated": "2026-02-03T04:39:30Z"
+      "version": "11.83.2",
+      "sha256": "5046279e6ca70ce84027fde3ffc7904e993a777fa3680b9405ff26ba997dc6dd",
+      "cdhash": "8f3df5d0373219bde88397f4abc1a6290de7b038",
+      "signingId": "H7H8Q7M5CK:com.postmanlabs.mac",
+      "teamId": "H7H8Q7M5CK",
+      "lastUpdated": "2026-02-03T16:28:44Z"
     },
     {
       "slug": "postman/windows",
@@ -1421,9 +1445,12 @@
     {
       "slug": "pycharm/darwin",
       "name": "PyCharm Professional",
-      "version": "2025.3.2",
-      "sha256": "48ed2bff556c404c74fc120094089066c6c16ed8c3af7e6a98a5dc18433527c5",
-      "lastUpdated": "2026-01-27T23:15:56Z"
+      "version": "2025.3.2.1",
+      "sha256": "530229836eab00a7aa9a88e3efce67d99010d0862e4c0b1c63a4bd7c02190a8a",
+      "cdhash": "49caede224d7b597a2aad60b5b0664995c82c53b",
+      "signingId": "2ZEFAR8TH3:com.jetbrains.pycharm",
+      "teamId": "2ZEFAR8TH3",
+      "lastUpdated": "2026-02-03T16:29:34Z"
     },
     {
       "slug": "quip/darwin",
