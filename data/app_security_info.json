@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-04T19:36:40Z",
+  "lastUpdated": "2026-02-04T20:15:39Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -422,9 +422,6 @@
       "name": "Claude",
       "version": "1.1.1890",
       "sha256": "87be1a17f1bf27b392af4f647ab6777bbd84cefae4b65ddfe8b0d4b6103bee70",
-      "cdhash": "c8f88433061b1e4cdbaf715e8180a4d9288fac27",
-      "signingId": "Q6L2SF6YDW:com.anthropic.claudefordesktop",
-      "teamId": "Q6L2SF6YDW",
       "lastUpdated": "2026-02-04T19:21:03Z"
     },
     {
@@ -472,9 +469,6 @@
       "name": "Clockify Desktop",
       "version": "2.12.1",
       "sha256": "6d1b8cab67fd3850f13b5483020df85792ccac3178efbddc6643b2d8c3f47bb5",
-      "cdhash": "ef4d26b3e99ae84703be22f6081a19c4d3d256e9",
-      "signingId": "LA96L67B8C:coing.ClockifyDesktop",
-      "teamId": "LA96L67B8C",
       "lastUpdated": "2026-02-04T19:21:25Z"
     },
     {
@@ -501,9 +495,6 @@
       "name": "Connect Fonts",
       "version": "28.0.2",
       "sha256": "5fede569bf654140c60ee88268e0c131f970a9ed770af7936992b5d7419cdb33",
-      "cdhash": "55a222bca570b77b727872080862433edb484a7c",
-      "signingId": "J6MMHGD9D6:com.extensis.SuitcaseFusion",
-      "teamId": "J6MMHGD9D6",
       "lastUpdated": "2026-02-04T17:22:28Z"
     },
     {
@@ -650,14 +641,14 @@
     {
       "slug": "discord/windows",
       "name": "Discord",
-      "version": "1.0.9222",
-      "sha256": "9ab8ef10e60662a90d5ba4bc43337bbe050012b80f9dbb7ece39aa8b51ae474b",
+      "version": "1.0.9223",
+      "sha256": "c26f64d469edcd92acec228d78282a59337b8bd918a33d1bb1adcb3c385846ac",
       "publisher": "CN=Discord Inc., O=Discord Inc., L=San Francisco, S=California, C=US, SERIALNUMBER=5128862, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0DE9CF2E718364A0062E0D83093E34D7",
       "thumbprint": "6C7552617E892DFCA5CEB96FA2870F4F1904820E",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-01-27T05:14:50Z"
+      "lastUpdated": "2026-02-04T20:15:39Z"
     },
     {
       "slug": "displaylink/darwin",
@@ -704,9 +695,6 @@
       "name": "Dropbox",
       "version": "241.4.4795",
       "sha256": "f68be0108fbc0ec810187ad7f29b64bbbf5593cb31731517e24c921b34d7d870",
-      "cdhash": "94cd28e294f5647e064f81b3d4aef9ec1110cd19",
-      "signingId": "G7HH3F8CAK:com.getdropbox.dropbox",
-      "teamId": "G7HH3F8CAK",
       "lastUpdated": "2026-02-04T19:21:53Z"
     },
     {
@@ -848,9 +836,6 @@
       "name": "GitKraken",
       "version": "11.9.0",
       "sha256": "6043aa8bced00de2f33fd348e8f3e8f31254dd9b1dfca12166b4020201880e67",
-      "cdhash": "0ad1ab94fe2afcf79f44fcf246a371020779b451",
-      "signingId": "T7QVVUTZQ8:com.axosoft.gitkraken",
-      "teamId": "T7QVVUTZQ8",
       "lastUpdated": "2026-02-04T19:22:18Z"
     },
     {
@@ -865,9 +850,6 @@
       "name": "Google Chrome",
       "version": "144.0.7559.133",
       "sha256": "4d2de8afd7f095856822f4981ccb8ab083701f6d0e3f44af0b2ab44612b00a03",
-      "cdhash": "723d807219de65510e51278336a9163eace9ca60",
-      "signingId": "EQHXZ8M8AV:com.google.Chrome",
-      "teamId": "EQHXZ8M8AV",
       "lastUpdated": "2026-02-04T19:23:07Z"
     },
     {
@@ -913,9 +895,6 @@
       "name": "Grammarly Desktop",
       "version": "1.151.1.0",
       "sha256": "8eba5f558a379a3a4af79ce0d2311eef87c1719ba566aa86a542adb9ba618290",
-      "cdhash": "9b9a5a831be0f6f00ebb36d6216a6729698da0ee",
-      "signingId": "W8F64X92K3:com.grammarly.ProjectLlama",
-      "teamId": "W8F64X92K3",
       "lastUpdated": "2026-02-04T19:23:30Z"
     },
     {
@@ -1047,9 +1026,6 @@
       "name": "LibreOffice",
       "version": "26.2.0",
       "sha256": "16ff209ad61c3da21c0ccf3067fc9911fd07b89c0571e34341f592be98bcedc0",
-      "cdhash": "3e1ab0ff1433bdca84614952ad47f4e12a002c1f",
-      "signingId": "7P5S3ZLCN7:org.libreoffice.script",
-      "teamId": "7P5S3ZLCN7",
       "lastUpdated": "2026-02-04T19:25:24Z"
     },
     {
@@ -1078,9 +1054,6 @@
       "name": "Loom",
       "version": "0.331.1",
       "sha256": "e7a476d114865fb37c039d2219fcfaf70e03b56f94e52e2e3fdcc21728d666d1",
-      "cdhash": "8b6b06cb51667357960a488113a80f3b9a6fd7f1",
-      "signingId": "QGD2ZPXZZG:com.loom.desktop",
-      "teamId": "QGD2ZPXZZG",
       "lastUpdated": "2026-02-04T19:25:49Z"
     },
     {
@@ -1142,9 +1115,6 @@
       "name": "Microsoft Excel",
       "version": "16.105.3",
       "sha256": "c4fe865fe2f77cb81d8b2e57e9c4761ba13a00e11d43fc27e314798fa0610b3c",
-      "cdhash": "9fee5621eb44889ae14b7a41cc85d09ccb1e252f",
-      "signingId": "UBF8T346G9:com.microsoft.Excel",
-      "teamId": "UBF8T346G9",
       "lastUpdated": "2026-02-04T19:27:19Z"
     },
     {
@@ -1159,9 +1129,6 @@
       "name": "Microsoft Outlook",
       "version": "16.105.26020123",
       "sha256": "9116254c91fb92f1e915dfe4726282e7d344134aef88274b0b273054afa02181",
-      "cdhash": "73de19eb29293da8119adf1548f1b028751440c6",
-      "signingId": "UBF8T346G9:com.microsoft.Outlook",
-      "teamId": "UBF8T346G9",
       "lastUpdated": "2026-02-04T19:29:14Z"
     },
     {
@@ -1169,9 +1136,6 @@
       "name": "Microsoft PowerPoint",
       "version": "16.105.26020123",
       "sha256": "aac26e75c0401ebef805a104d08bce37c0ce29339cb7189c6145c5f7d2ed7463",
-      "cdhash": "74e7a8abd2394cd56f7ca790b781f9e68ff51fba",
-      "signingId": "UBF8T346G9:com.microsoft.Powerpoint",
-      "teamId": "UBF8T346G9",
       "lastUpdated": "2026-02-04T19:30:45Z"
     },
     {
@@ -1198,9 +1162,6 @@
       "name": "Microsoft Word",
       "version": "16.105.3",
       "sha256": "d4aca1e40bf912590d784f30c19a246491fe3a6da47eaa7b15ec3b3303c5223e",
-      "cdhash": "880888aa0c9a07ddb9886e229cfd0c7ef181162c",
-      "signingId": "UBF8T346G9:com.microsoft.Word",
-      "teamId": "UBF8T346G9",
       "lastUpdated": "2026-02-04T19:32:42Z"
     },
     {
@@ -1269,9 +1230,6 @@
       "name": "Notion",
       "version": "7.3.1",
       "sha256": "cc4129b858184bd06c0615f0eed6da161772a54134026f1ee2bec814b3f28322",
-      "cdhash": "f8ee5bd597b62f4229ae1360046d5746f6579bd6",
-      "signingId": "LBQJ96FQ8D:notion.id",
-      "teamId": "LBQJ96FQ8D",
       "lastUpdated": "2026-02-04T19:33:12Z"
     },
     {
@@ -1331,9 +1289,6 @@
       "name": "Okta Verify",
       "version": "9.56.1",
       "sha256": "7efc84a2ecd6c4913be3271e912d69535431a0e50e5b7dace44048e1ab564bf6",
-      "cdhash": "a06ab0fa9d3ffe37c7b5e8f67d1d1f21e5175d25",
-      "signingId": "B7F62B65BN:com.okta.mobile",
-      "teamId": "B7F62B65BN",
       "lastUpdated": "2026-02-04T19:33:46Z"
     },
     {
@@ -1589,9 +1544,6 @@
       "name": "Snagit",
       "version": "2026.0.1",
       "sha256": "d3e1149b6204bc09ec43db8d8de64c4986ede44957a008ce808b48613991ec17",
-      "cdhash": "9dd607fbdf2ff8aebbffa7b3458cfa166cb58973",
-      "signingId": "7TQL462TU8:com.TechSmith.Snagit",
-      "teamId": "7TQL462TU8",
       "lastUpdated": "2026-02-04T19:34:16Z"
     },
     {
@@ -1613,9 +1565,6 @@
       "name": "Splashtop Business",
       "version": "3.8.0.5",
       "sha256": "85b3d0c6967190ddccecedb629c2fdd7777f52a233e00703e7f5b386d932a950",
-      "cdhash": "984f7f5095fc9bd01b24933362d5623c66c6e529",
-      "signingId": "CPQQ3AW49Y:com.splashtop.ScriptEditor.Uninstall-Splashtop-Business",
-      "teamId": "CPQQ3AW49Y",
       "lastUpdated": "2026-02-04T19:34:38Z"
     },
     {
@@ -1970,9 +1919,6 @@
       "name": "WhatsApp",
       "version": "26.5.18",
       "sha256": "f8911a120ba8a12e56791c464939bb2d7aecda02f1737f01e1220af72956caef",
-      "cdhash": "1bb0616dc9f53e9e2f3db04d7642b5895a604d41",
-      "signingId": "57T9237FN3:net.whatsapp.WhatsApp",
-      "teamId": "57T9237FN3",
       "lastUpdated": "2026-02-04T19:36:07Z"
     },
     {
@@ -1987,9 +1933,6 @@
       "name": "Windsurf",
       "version": "1.9544.28",
       "sha256": "0d41414484271232a5a428fdf311e361053b086f1be9114795c83b0c76082b4b",
-      "cdhash": "9a3c552a10cb69d949a7dcae39622719be8e1009",
-      "signingId": "83Z2LHX6XW:com.exafunction.windsurf",
-      "teamId": "83Z2LHX6XW",
       "lastUpdated": "2026-02-04T19:36:37Z"
     },
     {
