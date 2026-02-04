@@ -537,7 +537,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: February 4, 2026 at 10:22 AM CST</p>
+            Last updated: February 4, 2026 at 11:21 AM CST</p>
         </div>
     </div>
 
@@ -594,7 +594,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: February 4, 2026 at 10:22 AM CST</p>
+                <p id="modalLastUpdated">Last updated: February 4, 2026 at 11:21 AM CST</p>
             </div>
         </div>
     </div>
@@ -1280,7 +1280,7 @@
             251,
             251,
             251,
-            251
+            252
           ],
           "additions": [
             20,
@@ -1620,7 +1620,7 @@
             0,
             0,
             0,
-            0
+            1
           ],
           "macCounts": [
             20,
@@ -1960,7 +1960,7 @@
             205,
             205,
             205,
-            205
+            206
           ],
           "windowsCounts": [
             0,
@@ -2341,7 +2341,8 @@
             "2025-12-21",
             "2025-12-22",
             "2025-12-23",
-            "2026-01-07"
+            "2026-01-07",
+            "2026-02-04"
           ],
           "growthCounts": [
             20,
@@ -2382,7 +2383,8 @@
             247,
             248,
             250,
-            251
+            251,
+            252
           ],
           "growthAdditions": [
             20,
@@ -2423,6 +2425,7 @@
             1,
             1,
             2,
+            1,
             1
           ]
         };
@@ -3217,6 +3220,14 @@
                   "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
                   "lastUpdated": "2026-01-20T15:14:11Z"
                 }
+              },
+              {
+                "name": "Connect Fonts",
+                "slug": "connect-fonts/darwin",
+                "platform": "darwin",
+                "description": "Connect Fonts is an app that manages fonts and digital assets.",
+                "version": "28.0.2",
+                "installerUrl": "https://bin.extensis.com/ConnectFonts-M-28-0-2.dmg"
               },
               {
                 "name": "CotEditor",
@@ -6206,7 +6217,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `February 4, 2026 at 10:22 AM CST`;
+                let timestampText = 'Last updated: ' + `February 4, 2026 at 11:21 AM CST`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
