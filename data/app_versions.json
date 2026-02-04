@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-04T21:13:39Z",
+  "lastUpdated": "2026-02-04T22:08:43Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1729,6 +1729,13 @@
       "platform": "darwin",
       "version": "7.3.0",
       "installerUrl": "https://developers.yubico.com/yubioath-flutter/Releases/yubico-authenticator-7.3.0-mac.dmg"
+    },
+    {
+      "slug": "yubico-authenticator/windows",
+      "name": "Yubico Authenticator",
+      "platform": "windows",
+      "version": "7.3.1",
+      "installerUrl": "https://github.com/Yubico/yubioath-flutter/releases/download/7.3.1/yubico-authenticator-7.3.1-win64.msi"
     },
     {
       "slug": "yubico-yubikey-manager/darwin",
