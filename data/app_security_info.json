@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-04T20:16:12Z",
+  "lastUpdated": "2026-02-04T22:11:33Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1967,6 +1967,18 @@
       "version": "7.3.0",
       "sha256": "5c0c7495631e2bcccb22fdb6cc5979e2c2f72089bee3d7b469a5cb2b9a2f8bb2",
       "lastUpdated": "2025-12-20T09:31:41Z"
+    },
+    {
+      "slug": "yubico-authenticator/windows",
+      "name": "Yubico Authenticator",
+      "version": "7.3.1",
+      "sha256": "18ea5cd16b8ad9c12ccae5bb85c83940ba95fffc3d6453421d6867825548d967",
+      "publisher": "CN=Yubico AB, O=Yubico AB, L=STOCKHOLM, S=Stockholms län, C=SE",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "045F7F61F015CF37B0BF393282378289",
+      "thumbprint": "A1614CD84976030D49209B56162D9EFA69B73698",
+      "timestamp": "CN=Sectigo Public Time Stamping Signer R36, O=Sectigo Limited, S=West Yorkshire, C=GB",
+      "lastUpdated": "2026-02-04T22:11:33Z"
     },
     {
       "slug": "yubico-yubikey-manager/darwin",
