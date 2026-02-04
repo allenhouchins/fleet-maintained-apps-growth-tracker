@@ -537,7 +537,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: February 4, 2026 at 4:08 PM CST</p>
+            Last updated: February 4, 2026 at 4:11 PM CST</p>
         </div>
     </div>
 
@@ -594,7 +594,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: February 4, 2026 at 4:08 PM CST</p>
+                <p id="modalLastUpdated">Last updated: February 4, 2026 at 4:11 PM CST</p>
             </div>
         </div>
     </div>
@@ -5617,7 +5617,16 @@
                 "platform": "windows",
                 "description": "Yubico Authenticator is an application for generating TOTP and HOTP codes.",
                 "version": "7.3.1",
-                "installerUrl": "https://github.com/Yubico/yubioath-flutter/releases/download/7.3.1/yubico-authenticator-7.3.1-win64.msi"
+                "installerUrl": "https://github.com/Yubico/yubioath-flutter/releases/download/7.3.1/yubico-authenticator-7.3.1-win64.msi",
+                "securityInfo": {
+                  "sha256": "18ea5cd16b8ad9c12ccae5bb85c83940ba95fffc3d6453421d6867825548d967",
+                  "publisher": "CN=Yubico AB, O=Yubico AB, L=STOCKHOLM, S=Stockholms län, C=SE",
+                  "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+                  "serialNumber": "045F7F61F015CF37B0BF393282378289",
+                  "thumbprint": "A1614CD84976030D49209B56162D9EFA69B73698",
+                  "timestamp": "CN=Sectigo Public Time Stamping Signer R36, O=Sectigo Limited, S=West Yorkshire, C=GB",
+                  "lastUpdated": "2026-02-04T22:11:33Z"
+                }
               },
               {
                 "name": "Yubikey Manager",
@@ -6229,7 +6238,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `February 4, 2026 at 4:08 PM CST`;
+                let timestampText = 'Last updated: ' + `February 4, 2026 at 4:11 PM CST`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
