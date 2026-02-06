@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-06T15:27:44Z",
+  "lastUpdated": "2026-02-06T15:41:51Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -798,9 +798,12 @@
     {
       "slug": "firefox/darwin",
       "name": "Mozilla Firefox",
-      "version": "147.0.2",
-      "sha256": "aca94e123e44e86e904c30c287e9ffa81304bef2752ee5845069546a30128703",
-      "lastUpdated": "2026-01-27T23:08:57Z"
+      "version": "147.0.3",
+      "sha256": "accea9482314b40f238c7be004227f71131875075c3626c1ea998494e6dc2ea2",
+      "cdhash": "225bfb15ca2e8edb29d9f686864711bc87a419c2",
+      "signingId": "43AQ936H96:org.mozilla.firefox",
+      "teamId": "43AQ936H96",
+      "lastUpdated": "2026-02-06T15:28:13Z"
     },
     {
       "slug": "firefox/windows",
@@ -930,9 +933,12 @@
     {
       "slug": "granola/darwin",
       "name": "Granola",
-      "version": "7.1.0",
-      "sha256": "8d428686d3520f022920cdd1c5a6ee7a559135383acab30a226a7768f968b87c",
-      "lastUpdated": "2026-02-03T16:26:35Z"
+      "version": "7.6.1",
+      "sha256": "0b5f7c4ae664e3e9734d905db67e0fc85d2d16107c329d5f18d0baf89d5ebf14",
+      "cdhash": "35f15371e1d15094587d973a4f9be6c56bcf9d24",
+      "signingId": "QZ7DHHLN25:com.granola.app",
+      "teamId": "QZ7DHHLN25",
+      "lastUpdated": "2026-02-06T15:31:16Z"
     },
     {
       "slug": "hyper/darwin",
@@ -965,9 +971,12 @@
     {
       "slug": "insomnia/darwin",
       "name": "Insomnia",
-      "version": "12.3.0",
-      "sha256": "7a022d771455344befbc3e1d67947290452af73ffce56017efa5fb2d8d7bcfb0",
-      "lastUpdated": "2026-01-20T16:38:54Z"
+      "version": "12.3.1",
+      "sha256": "a6c1d80c793c72575f6130fbb5e6d499341511714a652740261ee2b9f9726ea0",
+      "cdhash": "9af0df04ac0efcc07d898c4be85e80851f8fe060",
+      "signingId": "FX44YY62GV:com.insomnia.app",
+      "teamId": "FX44YY62GV",
+      "lastUpdated": "2026-02-06T15:31:46Z"
     },
     {
       "slug": "intellij-idea-ce/darwin",
@@ -1047,9 +1056,12 @@
     {
       "slug": "lens/darwin",
       "name": "Lens",
-      "version": "2026.1.161237",
-      "sha256": "91106b821782625f3959b71914bb14f3584d1bfafd0837cf2342511ed04ebe92",
-      "lastUpdated": "2026-01-20T16:39:21Z"
+      "version": "2026.2.20807",
+      "sha256": "12285c62451e2a3620b91d42781c81626a37b5effa43b80e6096f03003f7cc79",
+      "cdhash": "61272ec67b8ec13882acc8dce48d56c0e786b41c",
+      "signingId": "JJ22T2W355:com.electron.kontena-lens",
+      "teamId": "JJ22T2W355",
+      "lastUpdated": "2026-02-06T15:32:14Z"
     },
     {
       "slug": "libreoffice/darwin",
@@ -1124,9 +1136,12 @@
     {
       "slug": "microsoft-edge/darwin",
       "name": "Microsoft Edge",
-      "version": "144.0.3719.104",
-      "sha256": "deb5340306bec1cbd80aa606d6789c26bc1465f1d5f0e1f94f3636c5674ac0c4",
-      "lastUpdated": "2026-01-30T15:17:56Z"
+      "version": "144.0.3719.115",
+      "sha256": "9071442ba9d59a2854fb332645e8372f8e431008bdce129b06836dd4faa6cfed",
+      "cdhash": "67d040dffd3c849d99f046b56872080e27fa951d",
+      "signingId": "UBF8T346G9:com.microsoft.edgemac",
+      "teamId": "UBF8T346G9",
+      "lastUpdated": "2026-02-06T15:33:36Z"
     },
     {
       "slug": "microsoft-edge/windows",
@@ -1310,9 +1325,12 @@
     {
       "slug": "obsidian/darwin",
       "name": "Obsidian",
-      "version": "1.11.5",
-      "sha256": "a89f796e14e22070d12c091a0c92b2384ffcc2bb09a5688486e50499556d3133",
-      "lastUpdated": "2026-01-20T22:13:26Z"
+      "version": "1.11.7",
+      "sha256": "289cf93b1c3e92e9400b5983e58619ecd954ef2d52d70c7fe7e25737170085ef",
+      "cdhash": "1f71e30674db695fecc7e32c5ae16c00544a0bb8",
+      "signingId": "6JSW4SJWN9:md.obsidian",
+      "teamId": "6JSW4SJWN9",
+      "lastUpdated": "2026-02-06T15:34:01Z"
     },
     {
       "slug": "okta-verify/darwin",
@@ -1366,16 +1384,22 @@
     {
       "slug": "parallels/darwin",
       "name": "Parallels Desktop",
-      "version": "26.2.1",
-      "sha256": "56847b9a2f8a34646831ed50db01734de810c401a159f01d8da7f4facf8d7146",
-      "lastUpdated": "2026-01-20T16:50:53Z"
+      "version": "26.2.2",
+      "sha256": "5dc07d504d5f5467948c9a310c9b2f6fa6a8a5f0de3abb7ab140589cc8dc715c",
+      "cdhash": "1fa8a3a4c7f823ecfd11ab9c6223096805521345",
+      "signingId": "4C6364ACXT:com.parallels.desktop.console",
+      "teamId": "4C6364ACXT",
+      "lastUpdated": "2026-02-06T15:34:28Z"
     },
     {
       "slug": "pgadmin4/darwin",
       "name": "pgAdmin4",
-      "version": "9.11",
-      "sha256": "75833087a18232e11908e50fda19e5ab0bd756ac1b90b57914a1b7e7bae45192",
-      "lastUpdated": "2025-12-20T07:56:10Z"
+      "version": "9.12",
+      "sha256": "d5ae85771bc2023ed8fdec3bdc72cc1cb8096f56f8632546d71aaae63d9a4ad2",
+      "cdhash": "be2efd8a2c3936bc25409ceb9fba43cc31d031e0",
+      "signingId": "TCHGL2R7C5:org.pgadmin.pgadmin4",
+      "teamId": "TCHGL2R7C5",
+      "lastUpdated": "2026-02-06T15:37:05Z"
     },
     {
       "slug": "phpstorm/darwin",
@@ -1539,9 +1563,12 @@
     {
       "slug": "signal/darwin",
       "name": "Signal",
-      "version": "7.87.0",
-      "sha256": "ec84c953185af18c12168be111a650191699d130fabe6c4afbe54b340834cb74",
-      "lastUpdated": "2026-01-29T16:19:07Z"
+      "version": "7.88.0",
+      "sha256": "be1bf6deb45c14ce56cbb7aa7bd1553ba3db44457fdc9ea81058e960a463bf69",
+      "cdhash": "6b6b4ce0e505c2e232b69a958596bbb595098ef9",
+      "signingId": "U68MSDN6DR:org.whispersystems.signal-desktop",
+      "teamId": "U68MSDN6DR",
+      "lastUpdated": "2026-02-06T15:41:06Z"
     },
     {
       "slug": "sketch/darwin",
@@ -1725,9 +1752,12 @@
     {
       "slug": "teamviewer/darwin",
       "name": "TeamViewer",
-      "version": "15.74.3",
-      "sha256": "08688a6ae43a7bbf687c819b58a841b54b62e358275ad5fcaa0b04e99ca85049",
-      "lastUpdated": "2026-01-27T21:12:52Z"
+      "version": "15.74.5",
+      "sha256": "efc5303465d20a3f31205bcfacd35a211ffe34ab2fec4675e604c0aa5b5eddc8",
+      "cdhash": "d5f2536529589fd6e7a1ff2de9ab4252c6838235",
+      "signingId": "H7UGFBUGV6:com.teamviewer.TeamViewer",
+      "teamId": "H7UGFBUGV6",
+      "lastUpdated": "2026-02-06T15:41:48Z"
     },
     {
       "slug": "teamviewer/windows",
