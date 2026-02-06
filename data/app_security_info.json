@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-06T15:20:25Z",
+  "lastUpdated": "2026-02-06T15:27:44Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -279,9 +279,12 @@
     {
       "slug": "bitwarden/darwin",
       "name": "Bitwarden",
-      "version": "2025.12.1",
-      "sha256": "caf3b19ef427d7f54d9ddb87936bc436e36a212f17633c24668c07f565735715",
-      "lastUpdated": "2026-01-30T06:01:36Z"
+      "version": "2026.1.0",
+      "sha256": "f4d0c19ea4ba01e60b856244a789e75921ce2749f0fcedb48c1ed311c85e7395",
+      "cdhash": "97b52bb91aab20aa269aa5b8d7e5e17217c1f095",
+      "signingId": "LTZ2PFU5D6:com.bitwarden.desktop",
+      "teamId": "LTZ2PFU5D6",
+      "lastUpdated": "2026-02-06T15:20:52Z"
     },
     {
       "slug": "blender/darwin",
@@ -324,9 +327,12 @@
     {
       "slug": "brave-browser/darwin",
       "name": "Brave",
-      "version": "144.1.86.146",
-      "sha256": "c3af35eb4f2643d8320cced38c43ddde363778b942680c62aaf67af7895f23d7",
-      "lastUpdated": "2026-01-30T06:03:16Z"
+      "version": "144.1.86.148",
+      "sha256": "bd423533d60138b94afad37838dd2fb303eded991731760cc3733c9e0de5cec9",
+      "cdhash": "45162a15d516c631356d5f8358dc39b76ab5f6b1",
+      "signingId": "KL8N8XSYF4:com.brave.Browser",
+      "teamId": "KL8N8XSYF4",
+      "lastUpdated": "2026-02-06T15:21:24Z"
     },
     {
       "slug": "brave-browser/windows",
@@ -350,16 +356,22 @@
     {
       "slug": "calibre/darwin",
       "name": "calibre",
-      "version": "9.1.0",
-      "sha256": "de56d6c50ff71a94a85f58e627734e64aa1fd45b2c0d94376a47eba4cf4014a9",
-      "lastUpdated": "2026-02-01T04:49:54Z"
+      "version": "9.2.1",
+      "sha256": "fd14e17898b7a8656c6851be555db92f9bdbbf77e6564d5f620bc4fa9674f5b0",
+      "cdhash": "208b09ae335f66eb2a16285d8c306b44c05081a7",
+      "signingId": "NTY7FVCEKP:net.kovidgoyal.calibre",
+      "teamId": "NTY7FVCEKP",
+      "lastUpdated": "2026-02-06T15:23:54Z"
     },
     {
       "slug": "camtasia/darwin",
       "name": "Camtasia",
-      "version": "2026.0.5",
-      "sha256": "199f5f70ac242f57c5880345c958865b7105f3d537e7d10c76d19fa7cbbdc4c2",
-      "lastUpdated": "2026-01-30T06:06:07Z"
+      "version": "2026.0.6",
+      "sha256": "8d5d83a22ced37b6b9163216a741b73d9e744ec0d25387970c484d290184f940",
+      "cdhash": "b51ea054d0a7107f287db32ef63dde37ae7df2fe",
+      "signingId": "7TQL462TU8:com.techsmith.camtasia",
+      "teamId": "7TQL462TU8",
+      "lastUpdated": "2026-02-06T15:24:33Z"
     },
     {
       "slug": "camtasia/windows",
@@ -383,16 +395,22 @@
     {
       "slug": "chatgpt-atlas/darwin",
       "name": "ChatGPT Atlas",
-      "version": "1.2026.21.3",
-      "sha256": "13bbd5db36d3e7791df3b290a00624ca4256d402a8b19e744a35330d29204b6b",
-      "lastUpdated": "2026-01-30T06:06:58Z"
+      "version": "1.2026.28.6",
+      "sha256": "31e328bc25b4408db300a8abccc8442cff8a576dc6a84a029042da1f20fd5126",
+      "cdhash": "26662777ccb7c75352ec33bc9464006db4fdd911",
+      "signingId": "2DC432GLL2:com.openai.atlas",
+      "teamId": "2DC432GLL2",
+      "lastUpdated": "2026-02-06T15:25:09Z"
     },
     {
       "slug": "chatgpt/darwin",
       "name": "ChatGPT Desktop",
-      "version": "1.2026.014",
-      "sha256": "26b4f6f375ff30f2873fe8d1768940c92670b46a9d54b61943ccd8d4920bbe75",
-      "lastUpdated": "2026-01-30T06:07:20Z"
+      "version": "1.2026.027",
+      "sha256": "40d97d187a940660e97c136596af567a3fe94e25fb5be7618536121764b49443",
+      "cdhash": "6c77545c4d8e1418aa54c8c1c973b6693792ed4e",
+      "signingId": "2DC432GLL2:com.openai.chat",
+      "teamId": "2DC432GLL2",
+      "lastUpdated": "2026-02-06T15:25:34Z"
     },
     {
       "slug": "cisco-jabber/darwin",
@@ -423,9 +441,12 @@
     {
       "slug": "claude/darwin",
       "name": "Claude",
-      "version": "1.1.1890",
-      "sha256": "87be1a17f1bf27b392af4f647ab6777bbd84cefae4b65ddfe8b0d4b6103bee70",
-      "lastUpdated": "2026-02-04T19:21:03Z"
+      "version": "1.1.2156",
+      "sha256": "76a7d896e8fdc73555eba8e7b0fa9ab2e715b9628296620ae48164375ba7e791",
+      "cdhash": "3cebb1eaad35f10f92470bc8811971e2327f2e35",
+      "signingId": "Q6L2SF6YDW:com.anthropic.claudefordesktop",
+      "teamId": "Q6L2SF6YDW",
+      "lastUpdated": "2026-02-06T15:25:59Z"
     },
     {
       "slug": "cleanmymac/darwin",
@@ -529,9 +550,12 @@
     {
       "slug": "cursor/darwin",
       "name": "Cursor",
-      "version": "2.4.22",
-      "sha256": "d46f91e24b1ec7ef6db2a7fd92feccbcd01909cabd4c575cc30e1b5ab4156846",
-      "lastUpdated": "2026-01-28T19:16:18Z"
+      "version": "2.4.28",
+      "sha256": "246da0d6ff2a4bd48582f6f369421e0f20cc061ae9d74a78197e77202cb7d571",
+      "cdhash": "4b64953bfbf7c466a56fc628df2543a54e1827da",
+      "signingId": "VDXQ22DGB9:com.todesktop.230313mzl4w4u92",
+      "teamId": "VDXQ22DGB9",
+      "lastUpdated": "2026-02-06T15:26:47Z"
     },
     {
       "slug": "cursor/windows",
@@ -574,9 +598,12 @@
     {
       "slug": "datagrip/darwin",
       "name": "DataGrip",
-      "version": "2025.3.4",
-      "sha256": "b330a5e28d7168ac869f9066b6c38df6f7236247693b2b6194a8358d4c8e30a5",
-      "lastUpdated": "2026-01-22T17:17:05Z"
+      "version": "2025.3.5",
+      "sha256": "77da397612d0bdc7ec8d8dab28e6f65906cbeb0c598df989da0d264dbd31cf17",
+      "cdhash": "44dbb486a97950716968db339c129f3401e5f98d",
+      "signingId": "2ZEFAR8TH3:com.jetbrains.datagrip",
+      "teamId": "2ZEFAR8TH3",
+      "lastUpdated": "2026-02-06T15:27:41Z"
     },
     {
       "slug": "db-browser-for-sqlite/darwin",
