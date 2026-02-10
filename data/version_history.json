@@ -1,132 +1,6 @@
 {
   "changes": [
     {
-      "date": "2025-11-29T03:33:54Z",
-      "appName": "Docker Desktop",
-      "slug": "docker/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.52.0",
-      "newVersion": "4.53.0",
-      "installerUrl": "https://desktop.docker.com/mac/main/arm64/211793/Docker.dmg"
-    },
-    {
-      "date": "2025-11-29T03:33:54Z",
-      "appName": "DataGrip",
-      "slug": "datagrip/darwin",
-      "platform": "darwin",
-      "oldVersion": "2025.2.4",
-      "newVersion": "2025.2.5",
-      "installerUrl": "https://download.jetbrains.com/datagrip/datagrip-2025.2.5-aarch64.dmg"
-    },
-    {
-      "date": "2025-11-29T03:33:54Z",
-      "appName": "Adobe Digital Editions",
-      "slug": "adobe-digital-editions/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "4.5.12",
-      "installerUrl": "https://adedownload.adobe.com/pub/adobe/digitaleditions/ADE_4.5_Installer.dmg"
-    },
-    {
-      "date": "2025-11-29T03:33:54Z",
-      "appName": "Rider",
-      "slug": "rider/darwin",
-      "platform": "darwin",
-      "oldVersion": "2025.3.0.2",
-      "newVersion": "2025.3.0.3",
-      "installerUrl": "https://download.jetbrains.com/rider/JetBrains.Rider-2025.3.0.3-aarch64.dmg"
-    },
-    {
-      "date": "2025-11-29T03:33:54Z",
-      "appName": "PyCharm Professional",
-      "slug": "pycharm/darwin",
-      "platform": "darwin",
-      "oldVersion": "2025.2.4",
-      "newVersion": "2025.2.5",
-      "installerUrl": "https://download.jetbrains.com/python/pycharm-professional-2025.2.5-aarch64.dmg"
-    },
-    {
-      "date": "2025-11-29T03:33:54Z",
-      "appName": "Zed",
-      "slug": "zed/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.214.5",
-      "newVersion": "0.214.6",
-      "installerUrl": "https://zed.dev/api/releases/stable/0.214.6/Zed-aarch64.dmg"
-    },
-    {
-      "date": "2025-11-29T03:33:54Z",
-      "appName": "Postman",
-      "slug": "postman/darwin",
-      "platform": "darwin",
-      "oldVersion": "11.73.4",
-      "newVersion": "11.73.5",
-      "installerUrl": "https://dl.pstmn.io/download/version/11.73.5/osx_arm64"
-    },
-    {
-      "date": "2025-11-28T03:09:03Z",
-      "appName": "Mozilla Firefox",
-      "slug": "firefox/windows",
-      "platform": "windows",
-      "oldVersion": "145.0.1",
-      "newVersion": "145.0.2",
-      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/145.0.2/win64/en-US/Firefox%20Setup%20145.0.2.exe"
-    },
-    {
-      "date": "2025-11-28T03:09:03Z",
-      "appName": "Figma",
-      "slug": "figma/windows",
-      "platform": "windows",
-      "oldVersion": "125.10.5",
-      "newVersion": "125.10.8",
-      "installerUrl": "https://desktop.figma.com/win/build/Figma-125.10.8.exe"
-    },
-    {
-      "date": "2025-11-28T03:09:03Z",
-      "appName": "Telegram",
-      "slug": "telegram/windows",
-      "platform": "windows",
-      "oldVersion": "6.3.3",
-      "newVersion": "6.3.4",
-      "installerUrl": "https://td.telegram.org/tx64/tsetup-x64.6.3.4.exe"
-    },
-    {
-      "date": "2025-11-28T03:09:03Z",
-      "appName": "ChatGPT Atlas",
-      "slug": "chatgpt-atlas/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.2025.316.6",
-      "newVersion": "1.2025.323.6",
-      "installerUrl": "https://persistent.oaistatic.com/atlas/public/ChatGPT_Atlas_Desktop_public_1.2025.323.6_20251124201745000.dmg"
-    },
-    {
-      "date": "2025-11-28T03:09:03Z",
-      "appName": "Microsoft Visual Studio Code",
-      "slug": "visual-studio-code/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.106.2",
-      "newVersion": "1.106.3",
-      "installerUrl": "https://update.code.visualstudio.com/1.106.3/darwin-arm64/stable"
-    },
-    {
-      "date": "2025-11-28T03:09:03Z",
-      "appName": "Grammarly Desktop",
-      "slug": "grammarly-desktop/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.143.3.0",
-      "newVersion": "1.144.1.0",
-      "installerUrl": "https://download-mac.grammarly.com/versions/1.144.1.0/Grammarly.dmg"
-    },
-    {
-      "date": "2025-11-28T03:09:03Z",
-      "appName": "Opera",
-      "slug": "opera/darwin",
-      "platform": "darwin",
-      "oldVersion": "124.0.5705.42",
-      "newVersion": "124.0.5705.65",
-      "installerUrl": "https://get.geo.opera.com/pub/opera/desktop/124.0.5705.65/mac/Opera_124.0.5705.65_Setup.dmg"
-    },
-    {
       "date": "2025-11-28T03:09:03Z",
       "appName": "Cursor",
       "slug": "cursor/darwin",
@@ -8999,6 +8873,132 @@
       "oldVersion": "7.6.2",
       "newVersion": "7.14.0",
       "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.14.0/Granola-7.14.0-mac-universal.dmg"
+    },
+    {
+      "date": "2026-02-10T23:18:07Z",
+      "appName": "Microsoft PowerPoint",
+      "slug": "microsoft-powerpoint/darwin",
+      "platform": "darwin",
+      "oldVersion": "16.105.26020123",
+      "newVersion": "16.106.26020821",
+      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.106.26020821_Installer.pkg"
+    },
+    {
+      "date": "2026-02-10T23:18:07Z",
+      "appName": "Asana",
+      "slug": "asana/windows",
+      "platform": "windows",
+      "oldVersion": "2.5.1",
+      "newVersion": "2.6.0",
+      "installerUrl": "https://desktop-downloads.asana.com/win32_x64/prod/v2.6.0/AsanaSetup.exe"
+    },
+    {
+      "date": "2026-02-10T23:18:07Z",
+      "appName": "Microsoft Visual Studio Code",
+      "slug": "visual-studio-code/windows",
+      "platform": "windows",
+      "oldVersion": "1.108.0",
+      "newVersion": "1.109.1",
+      "installerUrl": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/6534f6ba7604bf324f94cc9a590727f39a4af040/VSCodeSetup-x64-1.109.1.exe"
+    },
+    {
+      "date": "2026-02-10T23:18:07Z",
+      "appName": "NordVPN",
+      "slug": "nordvpn/darwin",
+      "platform": "darwin",
+      "oldVersion": "9.12.0",
+      "newVersion": "9.13.0",
+      "installerUrl": "https://downloads.nordcdn.com/apps/macos/generic/NordVPN-OpenVPN/9.13.0/NordVPN.pkg"
+    },
+    {
+      "date": "2026-02-10T23:18:07Z",
+      "appName": "Webex",
+      "slug": "webex/windows",
+      "platform": "windows",
+      "oldVersion": "46.2.0.34137",
+      "newVersion": "46.2.1.34187",
+      "installerUrl": "https://binaries.webex.com/WebexDesktop-Win-64-Gold/20260210145511/Webex.msi"
+    },
+    {
+      "date": "2026-02-10T23:18:07Z",
+      "appName": "Microsoft Word",
+      "slug": "microsoft-word/darwin",
+      "platform": "darwin",
+      "oldVersion": "16.105.3",
+      "newVersion": "16.106.26020821",
+      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.106.26020821_Installer.pkg"
+    },
+    {
+      "date": "2026-02-10T23:18:07Z",
+      "appName": "1Password",
+      "slug": "1password/darwin",
+      "platform": "darwin",
+      "oldVersion": "8.12.0",
+      "newVersion": "8.12.2",
+      "installerUrl": "https://downloads.1password.com/mac/1Password.pkg"
+    },
+    {
+      "date": "2026-02-10T23:18:07Z",
+      "appName": "Microsoft Outlook",
+      "slug": "microsoft-outlook/darwin",
+      "platform": "darwin",
+      "oldVersion": "16.105.26020123",
+      "newVersion": "16.106.26020821",
+      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.106.26020821_Installer.pkg"
+    },
+    {
+      "date": "2026-02-10T23:18:07Z",
+      "appName": "Microsoft Excel",
+      "slug": "microsoft-excel/darwin",
+      "platform": "darwin",
+      "oldVersion": "16.105.3",
+      "newVersion": "16.106.26020821",
+      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.106.26020821_Installer.pkg"
+    },
+    {
+      "date": "2026-02-10T23:18:07Z",
+      "appName": "Microsoft OneNote",
+      "slug": "microsoft-onenote/darwin",
+      "platform": "darwin",
+      "oldVersion": "16.105.26011018",
+      "newVersion": "16.106.26020821",
+      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.106.26020821_Updater.pkg"
+    },
+    {
+      "date": "2026-02-10T23:18:07Z",
+      "appName": "Microsoft Visual Studio Code",
+      "slug": "visual-studio-code/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.109.0",
+      "newVersion": "1.109.1",
+      "installerUrl": "https://update.code.visualstudio.com/1.109.1/darwin-arm64/stable"
+    },
+    {
+      "date": "2026-02-10T23:18:07Z",
+      "appName": "Loom",
+      "slug": "loom/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.332.0",
+      "newVersion": "0.333.0",
+      "installerUrl": "https://packages.loom.com/desktop-packages/Loom-0.333.0-arm64.dmg"
+    },
+    {
+      "date": "2026-02-10T23:18:07Z",
+      "appName": "Zoom",
+      "slug": "zoom/windows",
+      "platform": "windows",
+      "oldVersion": "6.7.26346",
+      "newVersion": "6.7.30439",
+      "installerUrl": "https://zoom.us/client/6.7.5.30439/ZoomInstallerFull.msi?archType=x64"
+    },
+    {
+      "date": "2026-02-10T23:18:07Z",
+      "appName": "Docker Desktop",
+      "slug": "docker-desktop/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.60.0",
+      "newVersion": "4.60.1",
+      "installerUrl": "https://desktop.docker.com/mac/main/arm64/218372/Docker.dmg"
     }
   ]
 }
