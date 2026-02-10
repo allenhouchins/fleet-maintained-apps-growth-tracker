@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-10T19:48:17Z",
+  "lastUpdated": "2026-02-10T20:21:32Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -422,9 +422,6 @@
       "name": "Claude",
       "version": "1.1.2512",
       "sha256": "91db648c5567d5b38f30a2fb35106417338c463f2338620f5ecb38491eff8db1",
-      "cdhash": "f11933808f48d38b3c595ea5b41d6fd79ea352ca",
-      "signingId": "Q6L2SF6YDW:com.anthropic.claudefordesktop",
-      "teamId": "Q6L2SF6YDW",
       "lastUpdated": "2026-02-10T19:30:23Z"
     },
     {
@@ -531,9 +528,6 @@
       "name": "Cursor",
       "version": "2.4.31",
       "sha256": "000cae1ca70b76f5c5608ffa2450f44fa3ef3345ee1f04bcff83c6ed6bb62b18",
-      "cdhash": "e31b887517756ac32c6de19c6247a88f203a65a3",
-      "signingId": "VDXQ22DGB9:com.todesktop.230313mzl4w4u92",
-      "teamId": "VDXQ22DGB9",
       "lastUpdated": "2026-02-10T19:31:08Z"
     },
     {
@@ -642,9 +636,6 @@
       "name": "Discord",
       "version": "0.0.376",
       "sha256": "57f5801f84f1e057ee4fb107798cd9634f3ccec5b0d56f7d63168ea4491cb38b",
-      "cdhash": "fb348f6bccecbff180714e347e6d1b29f0985b40",
-      "signingId": "53Q6R32WPB:com.hnc.Discord",
-      "teamId": "53Q6R32WPB",
       "lastUpdated": "2026-02-10T19:31:35Z"
     },
     {
@@ -671,9 +662,6 @@
       "name": "Docker Desktop",
       "version": "4.60.0",
       "sha256": "62dc23e6413ab6dfcad0f4ae694861403bc6e25c856627e2dc9fe8ba750c0541",
-      "cdhash": "6eb0e6ba33072f160f0e1b9c9e14b26784f3a266",
-      "signingId": "9BNSXJN65R:com.docker.docker",
-      "teamId": "9BNSXJN65R",
       "lastUpdated": "2026-02-10T19:32:46Z"
     },
     {
@@ -855,9 +843,6 @@
       "name": "GoLand",
       "version": "2025.3.2",
       "sha256": "37d5b5655e13f957767e60ad4a70c4c4ccff41c2bc35aef5b71bf86545ab9a38",
-      "cdhash": "56eb968cb3ea3dcb3b8eb6eaa8fc73afd510a822",
-      "signingId": "2ZEFAR8TH3:com.jetbrains.goland",
-      "teamId": "2ZEFAR8TH3",
       "lastUpdated": "2026-02-10T19:33:33Z"
     },
     {
@@ -910,9 +895,6 @@
       "name": "Grammarly Desktop",
       "version": "1.152.1.0",
       "sha256": "75b11cb7255239ccdb185f995548a5cdb0d6866d9ca41d2315d13cc22b79f4ff",
-      "cdhash": "618f3f66ba8bddf946308d2faeafd6233e17719c",
-      "signingId": "W8F64X92K3:com.grammarly.ProjectLlama",
-      "teamId": "W8F64X92K3",
       "lastUpdated": "2026-02-10T19:33:57Z"
     },
     {
@@ -920,9 +902,6 @@
       "name": "Granola",
       "version": "7.14.0",
       "sha256": "937521ebcc9b5d4491617eb441f49e9bd61ec9e433613587b6a2e7c38af955a2",
-      "cdhash": "bbc91335e8165af2133efbf436ae4e2b20cba00d",
-      "signingId": "QZ7DHHLN25:com.granola.app",
-      "teamId": "QZ7DHHLN25",
       "lastUpdated": "2026-02-10T19:36:38Z"
     },
     {
@@ -1068,9 +1047,6 @@
       "name": "Logi Options+",
       "version": "1.99.834046",
       "sha256": "c7641e968d3ead3bcdcc412817a91a28a9f943839f315d0bfcffcade3cdc4085",
-      "cdhash": "0c52ab176806ae7a68ca5d14e08c6a6ed3a63c97",
-      "signingId": "QED4VVPZWA:com.logi.optionsplus.installer",
-      "teamId": "QED4VVPZWA",
       "lastUpdated": "2026-02-10T19:36:59Z"
     },
     {
@@ -1254,9 +1230,6 @@
       "name": "Notion",
       "version": "7.4.0",
       "sha256": "2f8f80f5f07728d248a098f0e321e1caabff611a4d4cff004cdbe162c09f1812",
-      "cdhash": "bc78004d8d990a867a76b50f0fd6669402410d3d",
-      "signingId": "LBQJ96FQ8D:notion.id",
-      "teamId": "LBQJ96FQ8D",
       "lastUpdated": "2026-02-10T19:38:57Z"
     },
     {
@@ -1426,9 +1399,6 @@
       "name": "Proton Mail",
       "version": "1.12.1",
       "sha256": "8beb63545ab8a952a9befeb79c300d114ca535cb21b281f6515332e8ddce3207",
-      "cdhash": "d65ac2363574bf97e86e46c68b35f428e8efa0b1",
-      "signingId": "6UN54H93QT:ch.protonmail.desktop",
-      "teamId": "6UN54H93QT",
       "lastUpdated": "2026-02-10T19:39:50Z"
     },
     {
@@ -1614,14 +1584,14 @@
     {
       "slug": "spotify/windows",
       "name": "Spotify",
-      "version": "1.2.83.453.g1fae877b",
-      "sha256": "5eace58214bafb22468027816787f0fbda1d7e7ce664b1fcca161eb5e255e2a3",
+      "version": "1.2.83.456.g111afea6",
+      "sha256": "e88837bc3a675902f25cb07dc7dd2db45efa03ee9872eddcd5078dcbe5aececc",
       "publisher": "CN=Spotify AB, O=Spotify AB, L=Stockholm, C=SE, SERIALNUMBER=556703-7485, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=SE",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0B37A6915B00FA0D38102665EB7F2A8A",
       "thumbprint": "0DCC8F6DF315A86E6E40A76EFF4F78D2B16E7F02",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-02-08T16:12:34Z"
+      "lastUpdated": "2026-02-10T20:21:32Z"
     },
     {
       "slug": "stats/darwin",
@@ -1765,9 +1735,6 @@
       "name": "Teleport Connect",
       "version": "18.6.7",
       "sha256": "0a3c2be21df398783cdcad6922dad2f409a33906a79265b918ef5e102bb8d1c2",
-      "cdhash": "d737b66085d0b27bd5b1e10590d05243d2532f5d",
-      "signingId": "QH8AA5B8UP:gravitational.teleport.connect",
-      "teamId": "QH8AA5B8UP",
       "lastUpdated": "2026-02-10T19:40:24Z"
     },
     {
@@ -1781,9 +1748,6 @@
           "name": "tsh",
           "version": "18.6.7",
           "sha256": "162808d3a83df969ab2ed480bad9a83d4c78967b483017136616bd2a1f198108",
-          "cdhash": "107ac45b8ddd0f9e3d2d7a45cdd0fb7286427936",
-          "signingId": "QH8AA5B8UP:QH8AA5B8UP.com.gravitational.teleport.tsh",
-          "teamId": "QH8AA5B8UP",
           "lastUpdated": "2026-02-10T19:45:11Z"
         },
         {
@@ -1791,9 +1755,6 @@
           "name": "tctl",
           "version": "18.6.7",
           "sha256": "2b8af5d242ec396a02074fdbfcbf756a561e9264fc7445ab61dfe6aec0c0ccca",
-          "cdhash": "4d993227fd22cdd711fb83379680e2fd62e78046",
-          "signingId": "QH8AA5B8UP:QH8AA5B8UP.com.gravitational.teleport.tctl",
-          "teamId": "QH8AA5B8UP",
           "lastUpdated": "2026-02-10T19:45:26Z"
         }
       ]
@@ -1958,9 +1919,6 @@
       "name": "WhatsApp",
       "version": "26.6.23",
       "sha256": "4a4b02fe689d838685d6e618781c2cf15de856b6120ac9b43b901de62a21ef15",
-      "cdhash": "4da1687967c839305cff8a70d7c2ba59dc0b8a01",
-      "signingId": "57T9237FN3:net.whatsapp.WhatsApp",
-      "teamId": "57T9237FN3",
       "lastUpdated": "2026-02-10T19:45:50Z"
     },
     {
@@ -2048,9 +2006,6 @@
       "name": "Zoom",
       "version": "6.7.5.75246",
       "sha256": "2f1262f5ed18f82e0c134fe9df1a9d684d97b9d73d54bde4312707bf91f08ca4",
-      "cdhash": "0b8c9cd35906d92b9fef1d7fca0bff6c9eb4cbc8",
-      "signingId": "BJ4HAAB9B3:us.zoom.xos",
-      "teamId": "BJ4HAAB9B3",
       "lastUpdated": "2026-02-10T19:47:29Z"
     },
     {
