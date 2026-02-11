@@ -2,69 +2,6 @@
   "changes": [
     {
       "date": "2025-11-28T03:09:03Z",
-      "appName": "Teleport Connect",
-      "slug": "teleport-connect/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "18.4.1",
-      "installerUrl": "https://cdn.teleport.dev/Teleport%20Connect-18.4.1.dmg"
-    },
-    {
-      "date": "2025-11-28T03:09:03Z",
-      "appName": "Rancher Desktop",
-      "slug": "rancher/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.20.1",
-      "newVersion": "1.21.0",
-      "installerUrl": "https://github.com/rancher-sandbox/rancher-desktop/releases/download/v1.21.0/Rancher.Desktop-1.21.0.aarch64.dmg"
-    },
-    {
-      "date": "2025-11-28T03:09:03Z",
-      "appName": "Microsoft Outlook",
-      "slug": "microsoft-outlook/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.103.25110922",
-      "newVersion": "16.103.25112216",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.103.25112216_Installer.pkg"
-    },
-    {
-      "date": "2025-11-28T03:09:03Z",
-      "appName": "Figma",
-      "slug": "figma/darwin",
-      "platform": "darwin",
-      "oldVersion": "125.10.7",
-      "newVersion": "125.10.8",
-      "installerUrl": "https://desktop.figma.com/mac-arm/Figma-125.10.8.zip"
-    },
-    {
-      "date": "2025-11-28T03:09:03Z",
-      "appName": "Microsoft Excel",
-      "slug": "microsoft-excel/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.103.1",
-      "newVersion": "16.103.2",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.103.25112216_Installer.pkg"
-    },
-    {
-      "date": "2025-11-28T03:09:03Z",
-      "appName": "Company Portal",
-      "slug": "intune-company-portal/darwin",
-      "platform": "darwin",
-      "oldVersion": "5.2510.0",
-      "newVersion": "5.2510.1",
-      "installerUrl": "https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/CompanyPortal_5.2510.1-Upgrade.pkg"
-    },
-    {
-      "date": "2025-11-28T03:09:03Z",
-      "appName": "Zed",
-      "slug": "zed/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.213.7",
-      "newVersion": "0.214.5",
-      "installerUrl": "https://zed.dev/api/releases/stable/0.214.5/Zed-aarch64.dmg"
-    },
-    {
-      "date": "2025-11-28T03:09:03Z",
       "appName": "Microsoft Word",
       "slug": "microsoft-word/darwin",
       "platform": "darwin",
@@ -8999,6 +8936,69 @@
       "oldVersion": "16.106.26020821",
       "newVersion": "16.106",
       "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.106.26020821_Installer.pkg"
+    },
+    {
+      "date": "2026-02-11T16:27:38Z",
+      "appName": "Postman",
+      "slug": "postman/darwin",
+      "platform": "darwin",
+      "oldVersion": "11.83.2",
+      "newVersion": "11.84.2",
+      "installerUrl": "https://dl.pstmn.io/download/version/11.84.2/osx_arm64"
+    },
+    {
+      "date": "2026-02-11T16:27:38Z",
+      "appName": "Opera",
+      "slug": "opera/darwin",
+      "platform": "darwin",
+      "oldVersion": "127.0.5778.14",
+      "newVersion": "127.0.5778.47",
+      "installerUrl": "https://get.geo.opera.com/pub/opera/desktop/127.0.5778.47/mac/Opera_127.0.5778.47_Setup.dmg"
+    },
+    {
+      "date": "2026-02-11T16:27:38Z",
+      "appName": "Miro",
+      "slug": "miro/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.11.125",
+      "newVersion": "0.11.128",
+      "installerUrl": "https://desktop.miro.com/platforms/darwin-arm64/Install-Miro.dmg"
+    },
+    {
+      "date": "2026-02-11T16:27:38Z",
+      "appName": "Google Chrome",
+      "slug": "google-chrome/darwin",
+      "platform": "darwin",
+      "oldVersion": "144.0.7559.133",
+      "newVersion": "145.0.7632.46",
+      "installerUrl": "https://dl.google.com/dl/chrome/mac/universal/stable/gcem/GoogleChrome.pkg"
+    },
+    {
+      "date": "2026-02-11T16:27:38Z",
+      "appName": "Raycast",
+      "slug": "raycast/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.104.5",
+      "newVersion": "1.104.6",
+      "installerUrl": "https://releases.raycast.com/releases/1.104.6/download?build=arm"
+    },
+    {
+      "date": "2026-02-11T16:27:38Z",
+      "appName": "Dropbox",
+      "slug": "dropbox/darwin",
+      "platform": "darwin",
+      "oldVersion": "241.4.4795",
+      "newVersion": "241.4.4853",
+      "installerUrl": "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20241.4.4853.arm64.dmg"
+    },
+    {
+      "date": "2026-02-11T16:27:38Z",
+      "appName": "Google Drive",
+      "slug": "google-drive/darwin",
+      "platform": "darwin",
+      "oldVersion": "120.0.1",
+      "newVersion": "121.0.1",
+      "installerUrl": "https://dl.google.com/drive-file-stream/5-percent/GoogleDrive.dmg"
     }
   ]
 }
