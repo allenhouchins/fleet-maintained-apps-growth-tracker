@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-11T04:50:58Z",
+  "lastUpdated": "2026-02-11T05:03:23Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -447,9 +447,12 @@
     {
       "slug": "clickup/darwin",
       "name": "ClickUp",
-      "version": "3.5.163",
-      "sha256": "97e7373afe8d3bce85c18767fe4081d946b439dba3734c8b45be40c1e9e68e81",
-      "lastUpdated": "2026-01-13T23:10:49Z"
+      "version": "3.5.176",
+      "sha256": "425f6056c2ee0c3e9ee71e5cbd39baa577b88e73547ff0be299b0c2b3190cc2b",
+      "cdhash": "817b503ad3e877a000cd4114caab830efb8fa876",
+      "signingId": "5RJWFAUGXQ:com.clickup.desktop-app",
+      "teamId": "5RJWFAUGXQ",
+      "lastUpdated": "2026-02-11T04:51:22Z"
     },
     {
       "slug": "clickup/windows",
@@ -909,9 +912,12 @@
     {
       "slug": "granola/darwin",
       "name": "Granola",
-      "version": "7.14.0",
-      "sha256": "937521ebcc9b5d4491617eb441f49e9bd61ec9e433613587b6a2e7c38af955a2",
-      "lastUpdated": "2026-02-10T19:36:38Z"
+      "version": "7.14.2",
+      "sha256": "9690662d5569fb479845689acabea123aed90fc61c30ff6ad730480d7d3dc0ba",
+      "cdhash": "e8110680e7ede03e2733a4c0b9183700695672b5",
+      "signingId": "QZ7DHHLN25:com.granola.app",
+      "teamId": "QZ7DHHLN25",
+      "lastUpdated": "2026-02-11T04:52:12Z"
     },
     {
       "slug": "hyper/darwin",
@@ -1125,12 +1131,12 @@
     {
       "slug": "microsoft-excel/darwin",
       "name": "Microsoft Excel",
-      "version": "16.106.26020821",
+      "version": "16.106",
       "sha256": "dc7e1f1accfd6e3d2ef2800cf4713383fc5f4cee8842e7b41a2515027ac756b4",
       "cdhash": "ca3a05a35815d145f23c70ae6093d29a55d279f0",
       "signingId": "UBF8T346G9:com.microsoft.Excel",
       "teamId": "UBF8T346G9",
-      "lastUpdated": "2026-02-11T00:43:42Z"
+      "lastUpdated": "2026-02-11T04:53:57Z"
     },
     {
       "slug": "microsoft-onenote/darwin",
@@ -1184,12 +1190,12 @@
     {
       "slug": "microsoft-word/darwin",
       "name": "Microsoft Word",
-      "version": "16.106.26020821",
+      "version": "16.106",
       "sha256": "a029a62ef0d438f5018b37f9d62821f025914e6c71f32f4530dc57081a7dff46",
       "cdhash": "b3643b8c1b245184996686ec42046a89f579d5ca",
       "signingId": "UBF8T346G9:com.microsoft.Word",
       "teamId": "UBF8T346G9",
-      "lastUpdated": "2026-02-11T00:49:29Z"
+      "lastUpdated": "2026-02-11T04:56:04Z"
     },
     {
       "slug": "miro/darwin",
@@ -1763,29 +1769,38 @@
     {
       "slug": "teleport-connect/darwin",
       "name": "Teleport Connect",
-      "version": "18.6.7",
-      "sha256": "0a3c2be21df398783cdcad6922dad2f409a33906a79265b918ef5e102bb8d1c2",
-      "lastUpdated": "2026-02-10T19:40:24Z"
+      "version": "18.6.8",
+      "sha256": "e08961d107260d59bb7241bffd3f30c187a13e1746782dc69978bec62169d38e",
+      "cdhash": "d020f2766f004ffd83e05ba8095462f5b7aa08c0",
+      "signingId": "QH8AA5B8UP:gravitational.teleport.connect",
+      "teamId": "QH8AA5B8UP",
+      "lastUpdated": "2026-02-11T04:56:40Z"
     },
     {
       "slug": "teleport-suite/darwin",
       "name": "Teleport Suite",
-      "version": "18.6.7",
-      "lastUpdated": "2026-02-10T19:44:53Z",
+      "version": "18.6.8",
+      "lastUpdated": "2026-02-11T05:00:39Z",
       "apps": [
         {
           "slug": "teleport-suite/darwin/tsh",
           "name": "tsh",
-          "version": "18.6.7",
-          "sha256": "162808d3a83df969ab2ed480bad9a83d4c78967b483017136616bd2a1f198108",
-          "lastUpdated": "2026-02-10T19:45:11Z"
+          "version": "18.6.8",
+          "sha256": "9a8bc28850ebfde7cb477c084598ec81f7f877bc6c236c3a2ae149611441f5f6",
+          "cdhash": "8c9b294ce29f97d4bc85fb56f09dd8f03e5e2c95",
+          "signingId": "QH8AA5B8UP:QH8AA5B8UP.com.gravitational.teleport.tsh",
+          "teamId": "QH8AA5B8UP",
+          "lastUpdated": "2026-02-11T05:00:58Z"
         },
         {
           "slug": "teleport-suite/darwin/tctl",
           "name": "tctl",
-          "version": "18.6.7",
-          "sha256": "2b8af5d242ec396a02074fdbfcbf756a561e9264fc7445ab61dfe6aec0c0ccca",
-          "lastUpdated": "2026-02-10T19:45:26Z"
+          "version": "18.6.8",
+          "sha256": "86a7d046890e27a82db777a93ba6fa71780c68524496957fa1f240332e887145",
+          "cdhash": "58b8dfc9f9d3a0d0150735ea1fe1c6054c2c9675",
+          "signingId": "QH8AA5B8UP:QH8AA5B8UP.com.gravitational.teleport.tctl",
+          "teamId": "QH8AA5B8UP",
+          "lastUpdated": "2026-02-11T05:01:13Z"
         }
       ]
     },
@@ -1874,12 +1889,12 @@
     {
       "slug": "visual-studio-code/darwin",
       "name": "Microsoft Visual Studio Code",
-      "version": "1.109.1",
-      "sha256": "c5b4804d00aa87a26409bbf17189c917995a5483f6cbdbe733a5fefdabcc4cc4",
-      "cdhash": "f07d0c8e970de335273d7cdcdce7c9563241707c",
+      "version": "1.109.2",
+      "sha256": "5b4a8eadb095d7cb7a9f4a789e54b9b0f3415de6733b91e32d6c31369c938a35",
+      "cdhash": "d2414616f31547d39238154152c2e5efc6de3015",
       "signingId": "UBF8T346G9:com.microsoft.VSCode",
       "teamId": "UBF8T346G9",
-      "lastUpdated": "2026-02-11T00:50:41Z"
+      "lastUpdated": "2026-02-11T05:01:37Z"
     },
     {
       "slug": "visual-studio-code/windows",
@@ -1924,9 +1939,12 @@
     {
       "slug": "webex/darwin",
       "name": "Webex",
-      "version": "46.2.0.34137",
-      "sha256": "1b7660966b90de3f4f75d22f4ac156d9191eb2fc4bafc97884ef0af0e42e31e4",
-      "lastUpdated": "2026-02-08T15:13:25Z"
+      "version": "46.2.1.34187",
+      "sha256": "fa1c697fbdbcfc1275866cfad778fc65af7984ca4912d5bc0acf54747cf1ccc5",
+      "cdhash": "168029bd5dc6ad3935711b1c967cdd2c4a2d8e4b",
+      "signingId": "DE8Y96K9QP:Cisco-Systems.Spark",
+      "teamId": "DE8Y96K9QP",
+      "lastUpdated": "2026-02-11T05:03:20Z"
     },
     {
       "slug": "webex/windows",
