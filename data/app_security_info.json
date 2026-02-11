@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-10T23:19:45Z",
+  "lastUpdated": "2026-02-11T00:52:12Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -23,9 +23,12 @@
     {
       "slug": "1password/darwin",
       "name": "1Password",
-      "version": "8.12.0",
-      "sha256": "16a8aefe7c2f7d8ff5df4cefdcf8d21b5fd605c2467c401138b7f6bb52269a3c",
-      "lastUpdated": "2026-01-30T05:40:36Z"
+      "version": "8.12.2",
+      "sha256": "275e2bccf0a2e2a039577a7c6634bf28cdd9681bf66113b4ec28f76742bc50a8",
+      "cdhash": "50a10ba7abe79c95ae13abf5d0273e9be653f75b",
+      "signingId": "2BUA8C4S2C:com.1password.1password",
+      "teamId": "2BUA8C4S2C",
+      "lastUpdated": "2026-02-11T00:40:52Z"
     },
     {
       "slug": "1password/windows",
@@ -660,9 +663,12 @@
     {
       "slug": "docker-desktop/darwin",
       "name": "Docker Desktop",
-      "version": "4.60.0",
-      "sha256": "62dc23e6413ab6dfcad0f4ae694861403bc6e25c856627e2dc9fe8ba750c0541",
-      "lastUpdated": "2026-02-10T19:32:46Z"
+      "version": "4.60.1",
+      "sha256": "7cdbaaf5d29b134c3996b602562ac140d1059765f34c22af0a86456fcae97a7c",
+      "cdhash": "fc59328de72007da280a86b0d5c75560c92ac73c",
+      "signingId": "9BNSXJN65R:com.docker.docker",
+      "teamId": "9BNSXJN65R",
+      "lastUpdated": "2026-02-11T00:41:52Z"
     },
     {
       "slug": "docker/darwin",
@@ -1052,9 +1058,12 @@
     {
       "slug": "loom/darwin",
       "name": "Loom",
-      "version": "0.332.0",
-      "sha256": "6e209ba713e825dad0e0724e12a115e44e07dc50833ea49c5aee9d16984532ad",
-      "lastUpdated": "2026-02-08T15:11:16Z"
+      "version": "0.333.0",
+      "sha256": "31ba9366a1f0213f5652aba250d15594209a424463e65d19db19c9e54e167220",
+      "cdhash": "56532b55e71975edac4f902693353e493da0ee32",
+      "signingId": "QGD2ZPXZZG:com.loom.desktop",
+      "teamId": "QGD2ZPXZZG",
+      "lastUpdated": "2026-02-11T00:42:16Z"
     },
     {
       "slug": "lulu/darwin",
@@ -1113,30 +1122,42 @@
     {
       "slug": "microsoft-excel/darwin",
       "name": "Microsoft Excel",
-      "version": "16.105.3",
-      "sha256": "c4fe865fe2f77cb81d8b2e57e9c4761ba13a00e11d43fc27e314798fa0610b3c",
-      "lastUpdated": "2026-02-04T19:27:19Z"
+      "version": "16.106.26020821",
+      "sha256": "dc7e1f1accfd6e3d2ef2800cf4713383fc5f4cee8842e7b41a2515027ac756b4",
+      "cdhash": "ca3a05a35815d145f23c70ae6093d29a55d279f0",
+      "signingId": "UBF8T346G9:com.microsoft.Excel",
+      "teamId": "UBF8T346G9",
+      "lastUpdated": "2026-02-11T00:43:42Z"
     },
     {
       "slug": "microsoft-onenote/darwin",
       "name": "Microsoft OneNote",
-      "version": "16.105.26011018",
-      "sha256": "7a56e81d02203bb6f9f235ec1c2c04475c86e65ea12b7bc249ab19e82fe23372",
-      "lastUpdated": "2026-01-20T16:43:48Z"
+      "version": "16.106.26020821",
+      "sha256": "6f3772ad91b413399d3c6f802662fc49526324f93e4365d6e90d14691f838044",
+      "cdhash": "c20d57c070ead91b9979cfd4889feed0b2c8168a",
+      "signingId": "UBF8T346G9:com.microsoft.onenote.mac",
+      "teamId": "UBF8T346G9",
+      "lastUpdated": "2026-02-11T00:44:45Z"
     },
     {
       "slug": "microsoft-outlook/darwin",
       "name": "Microsoft Outlook",
-      "version": "16.105.26020123",
-      "sha256": "9116254c91fb92f1e915dfe4726282e7d344134aef88274b0b273054afa02181",
-      "lastUpdated": "2026-02-04T19:29:14Z"
+      "version": "16.106.26020821",
+      "sha256": "1732bc13a5c4fef152c1c9fc40f882534fc056b852c65971f8cc4ba87659a11f",
+      "cdhash": "fce585b179388cb868ab0e1b80124ae45582028e",
+      "signingId": "UBF8T346G9:com.microsoft.Outlook",
+      "teamId": "UBF8T346G9",
+      "lastUpdated": "2026-02-11T00:46:34Z"
     },
     {
       "slug": "microsoft-powerpoint/darwin",
       "name": "Microsoft PowerPoint",
-      "version": "16.105.26020123",
-      "sha256": "aac26e75c0401ebef805a104d08bce37c0ce29339cb7189c6145c5f7d2ed7463",
-      "lastUpdated": "2026-02-04T19:30:45Z"
+      "version": "16.106.26020821",
+      "sha256": "7db3236d7fa35babca5665ad464d6d1f3069dcec55bb2ca7b5a96a02c71407cd",
+      "cdhash": "82b620c2dd05832fb853625be782d1a805bb99aa",
+      "signingId": "UBF8T346G9:com.microsoft.Powerpoint",
+      "teamId": "UBF8T346G9",
+      "lastUpdated": "2026-02-11T00:47:57Z"
     },
     {
       "slug": "microsoft-teams/darwin",
@@ -1160,9 +1181,12 @@
     {
       "slug": "microsoft-word/darwin",
       "name": "Microsoft Word",
-      "version": "16.105.3",
-      "sha256": "d4aca1e40bf912590d784f30c19a246491fe3a6da47eaa7b15ec3b3303c5223e",
-      "lastUpdated": "2026-02-04T19:32:42Z"
+      "version": "16.106.26020821",
+      "sha256": "a029a62ef0d438f5018b37f9d62821f025914e6c71f32f4530dc57081a7dff46",
+      "cdhash": "b3643b8c1b245184996686ec42046a89f579d5ca",
+      "signingId": "UBF8T346G9:com.microsoft.Word",
+      "teamId": "UBF8T346G9",
+      "lastUpdated": "2026-02-11T00:49:29Z"
     },
     {
       "slug": "miro/darwin",
@@ -1202,9 +1226,12 @@
     {
       "slug": "nordvpn/darwin",
       "name": "NordVPN",
-      "version": "9.12.0",
-      "sha256": "a189df8e5257ff9407cfbc513e1f9d1f2460c49648f9c7ecb085a31ff2901428",
-      "lastUpdated": "2026-02-03T16:27:35Z"
+      "version": "9.13.0",
+      "sha256": "e348f8a908184b666f9c4c1a5c5f3ab37ecf50108fb7cfa0fce1921ca2a3530b",
+      "cdhash": "90f090d1ef5ccead6654352c34932c072d843629",
+      "signingId": "W5W395V82Y:com.nordvpn.macos",
+      "teamId": "W5W395V82Y",
+      "lastUpdated": "2026-02-11T00:50:16Z"
     },
     {
       "slug": "notepad++/windows",
@@ -1844,9 +1871,12 @@
     {
       "slug": "visual-studio-code/darwin",
       "name": "Microsoft Visual Studio Code",
-      "version": "1.109.0",
-      "sha256": "c102bb94f3889dbdb591a8cc9ac5bfeac59ec0c3c3b22d62819563624cf2bea1",
-      "lastUpdated": "2026-02-06T15:44:56Z"
+      "version": "1.109.1",
+      "sha256": "c5b4804d00aa87a26409bbf17189c917995a5483f6cbdbe733a5fefdabcc4cc4",
+      "cdhash": "f07d0c8e970de335273d7cdcdce7c9563241707c",
+      "signingId": "UBF8T346G9:com.microsoft.VSCode",
+      "teamId": "UBF8T346G9",
+      "lastUpdated": "2026-02-11T00:50:41Z"
     },
     {
       "slug": "visual-studio-code/windows",
