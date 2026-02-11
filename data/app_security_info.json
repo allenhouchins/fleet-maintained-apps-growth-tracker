@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-11T05:03:23Z",
+  "lastUpdated": "2026-02-11T05:37:13Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -25,22 +25,19 @@
       "name": "1Password",
       "version": "8.12.2",
       "sha256": "275e2bccf0a2e2a039577a7c6634bf28cdd9681bf66113b4ec28f76742bc50a8",
-      "cdhash": "50a10ba7abe79c95ae13abf5d0273e9be653f75b",
-      "signingId": "2BUA8C4S2C:com.1password.1password",
-      "teamId": "2BUA8C4S2C",
       "lastUpdated": "2026-02-11T00:40:52Z"
     },
     {
       "slug": "1password/windows",
       "name": "1Password",
-      "version": "8.12.1",
-      "sha256": "ca81e36ae2cabe1a0ee9fb8d7ed34c0ccbaaf344f16b52cd692f20f328493756",
+      "version": "8.12.2",
+      "sha256": "6863f40f2f6f5485a70a59c669f7366678f3a6951ddd831020e5a8db37b3250d",
       "publisher": "CN=Agilebits, O=Agilebits, L=Toronto, S=Ontario, C=CA",
-      "issuer": "CN=Microsoft ID Verified CS EOC CA 02, O=Microsoft Corporation, C=US",
-      "serialNumber": "330006A7E3F08B1663989C769600000006A7E3",
-      "thumbprint": "AF452FA6322373A93985162EC204F5AC7894D393",
-      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:A500-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-01-28T20:13:02Z"
+      "issuer": "CN=Microsoft ID Verified CS AOC CA 01, O=Microsoft Corporation, C=US",
+      "serialNumber": "330007890B84C0F1EAB7D07C5300000007890B",
+      "thumbprint": "F270F22D66B4C9395BF0CB87C296D7589029425A",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7D00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-02-11T05:37:13Z"
     },
     {
       "slug": "7-zip/windows",
@@ -425,9 +422,6 @@
       "name": "Claude",
       "version": "1.1.2685",
       "sha256": "acf6bd4ec92fdeb57ce4e271b7bb7d6c3f0657184cf695089ead7a3797d04a4b",
-      "cdhash": "b30d2d3454e1585642bded2a38e3f6ee4d8f8c1c",
-      "signingId": "Q6L2SF6YDW:com.anthropic.claudefordesktop",
-      "teamId": "Q6L2SF6YDW",
       "lastUpdated": "2026-02-11T04:50:56Z"
     },
     {
@@ -449,9 +443,6 @@
       "name": "ClickUp",
       "version": "3.5.176",
       "sha256": "425f6056c2ee0c3e9ee71e5cbd39baa577b88e73547ff0be299b0c2b3190cc2b",
-      "cdhash": "817b503ad3e877a000cd4114caab830efb8fa876",
-      "signingId": "5RJWFAUGXQ:com.clickup.desktop-app",
-      "teamId": "5RJWFAUGXQ",
       "lastUpdated": "2026-02-11T04:51:22Z"
     },
     {
@@ -671,9 +662,6 @@
       "name": "Docker Desktop",
       "version": "4.60.1",
       "sha256": "7cdbaaf5d29b134c3996b602562ac140d1059765f34c22af0a86456fcae97a7c",
-      "cdhash": "fc59328de72007da280a86b0d5c75560c92ac73c",
-      "signingId": "9BNSXJN65R:com.docker.docker",
-      "teamId": "9BNSXJN65R",
       "lastUpdated": "2026-02-11T00:41:52Z"
     },
     {
@@ -914,9 +902,6 @@
       "name": "Granola",
       "version": "7.14.2",
       "sha256": "9690662d5569fb479845689acabea123aed90fc61c30ff6ad730480d7d3dc0ba",
-      "cdhash": "e8110680e7ede03e2733a4c0b9183700695672b5",
-      "signingId": "QZ7DHHLN25:com.granola.app",
-      "teamId": "QZ7DHHLN25",
       "lastUpdated": "2026-02-11T04:52:12Z"
     },
     {
@@ -1069,9 +1054,6 @@
       "name": "Loom",
       "version": "0.333.0",
       "sha256": "31ba9366a1f0213f5652aba250d15594209a424463e65d19db19c9e54e167220",
-      "cdhash": "56532b55e71975edac4f902693353e493da0ee32",
-      "signingId": "QGD2ZPXZZG:com.loom.desktop",
-      "teamId": "QGD2ZPXZZG",
       "lastUpdated": "2026-02-11T00:42:16Z"
     },
     {
@@ -1133,9 +1115,6 @@
       "name": "Microsoft Excel",
       "version": "16.106",
       "sha256": "dc7e1f1accfd6e3d2ef2800cf4713383fc5f4cee8842e7b41a2515027ac756b4",
-      "cdhash": "ca3a05a35815d145f23c70ae6093d29a55d279f0",
-      "signingId": "UBF8T346G9:com.microsoft.Excel",
-      "teamId": "UBF8T346G9",
       "lastUpdated": "2026-02-11T04:53:57Z"
     },
     {
@@ -1143,9 +1122,6 @@
       "name": "Microsoft OneNote",
       "version": "16.106.26020821",
       "sha256": "6f3772ad91b413399d3c6f802662fc49526324f93e4365d6e90d14691f838044",
-      "cdhash": "c20d57c070ead91b9979cfd4889feed0b2c8168a",
-      "signingId": "UBF8T346G9:com.microsoft.onenote.mac",
-      "teamId": "UBF8T346G9",
       "lastUpdated": "2026-02-11T00:44:45Z"
     },
     {
@@ -1153,9 +1129,6 @@
       "name": "Microsoft Outlook",
       "version": "16.106.26020821",
       "sha256": "1732bc13a5c4fef152c1c9fc40f882534fc056b852c65971f8cc4ba87659a11f",
-      "cdhash": "fce585b179388cb868ab0e1b80124ae45582028e",
-      "signingId": "UBF8T346G9:com.microsoft.Outlook",
-      "teamId": "UBF8T346G9",
       "lastUpdated": "2026-02-11T00:46:34Z"
     },
     {
@@ -1163,9 +1136,6 @@
       "name": "Microsoft PowerPoint",
       "version": "16.106.26020821",
       "sha256": "7db3236d7fa35babca5665ad464d6d1f3069dcec55bb2ca7b5a96a02c71407cd",
-      "cdhash": "82b620c2dd05832fb853625be782d1a805bb99aa",
-      "signingId": "UBF8T346G9:com.microsoft.Powerpoint",
-      "teamId": "UBF8T346G9",
       "lastUpdated": "2026-02-11T00:47:57Z"
     },
     {
@@ -1192,9 +1162,6 @@
       "name": "Microsoft Word",
       "version": "16.106",
       "sha256": "a029a62ef0d438f5018b37f9d62821f025914e6c71f32f4530dc57081a7dff46",
-      "cdhash": "b3643b8c1b245184996686ec42046a89f579d5ca",
-      "signingId": "UBF8T346G9:com.microsoft.Word",
-      "teamId": "UBF8T346G9",
       "lastUpdated": "2026-02-11T04:56:04Z"
     },
     {
@@ -1237,9 +1204,6 @@
       "name": "NordVPN",
       "version": "9.13.0",
       "sha256": "e348f8a908184b666f9c4c1a5c5f3ab37ecf50108fb7cfa0fce1921ca2a3530b",
-      "cdhash": "90f090d1ef5ccead6654352c34932c072d843629",
-      "signingId": "W5W395V82Y:com.nordvpn.macos",
-      "teamId": "W5W395V82Y",
       "lastUpdated": "2026-02-11T00:50:16Z"
     },
     {
@@ -1771,9 +1735,6 @@
       "name": "Teleport Connect",
       "version": "18.6.8",
       "sha256": "e08961d107260d59bb7241bffd3f30c187a13e1746782dc69978bec62169d38e",
-      "cdhash": "d020f2766f004ffd83e05ba8095462f5b7aa08c0",
-      "signingId": "QH8AA5B8UP:gravitational.teleport.connect",
-      "teamId": "QH8AA5B8UP",
       "lastUpdated": "2026-02-11T04:56:40Z"
     },
     {
@@ -1787,9 +1748,6 @@
           "name": "tsh",
           "version": "18.6.8",
           "sha256": "9a8bc28850ebfde7cb477c084598ec81f7f877bc6c236c3a2ae149611441f5f6",
-          "cdhash": "8c9b294ce29f97d4bc85fb56f09dd8f03e5e2c95",
-          "signingId": "QH8AA5B8UP:QH8AA5B8UP.com.gravitational.teleport.tsh",
-          "teamId": "QH8AA5B8UP",
           "lastUpdated": "2026-02-11T05:00:58Z"
         },
         {
@@ -1797,9 +1755,6 @@
           "name": "tctl",
           "version": "18.6.8",
           "sha256": "86a7d046890e27a82db777a93ba6fa71780c68524496957fa1f240332e887145",
-          "cdhash": "58b8dfc9f9d3a0d0150735ea1fe1c6054c2c9675",
-          "signingId": "QH8AA5B8UP:QH8AA5B8UP.com.gravitational.teleport.tctl",
-          "teamId": "QH8AA5B8UP",
           "lastUpdated": "2026-02-11T05:01:13Z"
         }
       ]
@@ -1891,9 +1846,6 @@
       "name": "Microsoft Visual Studio Code",
       "version": "1.109.2",
       "sha256": "5b4a8eadb095d7cb7a9f4a789e54b9b0f3415de6733b91e32d6c31369c938a35",
-      "cdhash": "d2414616f31547d39238154152c2e5efc6de3015",
-      "signingId": "UBF8T346G9:com.microsoft.VSCode",
-      "teamId": "UBF8T346G9",
       "lastUpdated": "2026-02-11T05:01:37Z"
     },
     {
@@ -1941,9 +1893,6 @@
       "name": "Webex",
       "version": "46.2.1.34187",
       "sha256": "fa1c697fbdbcfc1275866cfad778fc65af7984ca4912d5bc0acf54747cf1ccc5",
-      "cdhash": "168029bd5dc6ad3935711b1c967cdd2c4a2d8e4b",
-      "signingId": "DE8Y96K9QP:Cisco-Systems.Spark",
-      "teamId": "DE8Y96K9QP",
       "lastUpdated": "2026-02-11T05:03:20Z"
     },
     {
