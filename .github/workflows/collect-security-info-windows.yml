@@ -67,18 +67,24 @@ jobs:
           # Try to merge remote changes
           git merge origin/main -m "Merge remote changes" 2>&1
           if ($LASTEXITCODE -ne 0) {
-            # If merge fails due to conflicts, resolve by regenerating index.html
-            Write-Host "Merge conflict detected, regenerating index.html..."
+            Write-Host "Merge conflict detected, resolving..."
+            # Resolve data/app_security_info.json conflict by merging ours + theirs
+            $unmerged = git diff --name-only --diff-filter=U
+            if ($unmerged -match "data/app_security_info.json") {
+              Write-Host "Merging app_security_info.json (ours + theirs)..."
+              $oursPath = Join-Path $env:TEMP "ours.json"
+              $theirsPath = Join-Path $env:TEMP "theirs.json"
+              git show ":2:data/app_security_info.json" | Out-File -Encoding utf8 $oursPath
+              git show ":3:data/app_security_info.json" | Out-File -Encoding utf8 $theirsPath
+              go run scripts/merge-security-info.go $oursPath $theirsPath | Out-File -Encoding utf8 data/app_security_info.json
+              git add data/app_security_info.json
+            }
+            # Resolve any index.html conflict by regenerating
             if (Test-Path "index.html") {
-              # Regenerate index.html to resolve conflicts
               go run generate_html.go
               git add index.html
-              git commit -m "Resolve merge conflict by regenerating index.html"
-            } else {
-              # If no index.html, just abort and let the workflow fail
-              git merge --abort
-              exit 1
             }
+            git commit -m "Resolve merge conflict by merging security info"
           }
           git push origin main
 

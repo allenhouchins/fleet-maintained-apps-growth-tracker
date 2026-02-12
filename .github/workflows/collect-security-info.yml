@@ -168,18 +168,21 @@ jobs:
           git fetch origin main
           # Try to merge remote changes
           if ! git merge origin/main -m "Merge remote changes"; then
-            # If merge fails due to conflicts, resolve by regenerating index.html
-            echo "Merge conflict detected, regenerating index.html..."
+            echo "Merge conflict detected, resolving..."
+            # Resolve data/app_security_info.json conflict by merging ours + theirs
+            if git diff --name-only --diff-filter=U | grep -q "data/app_security_info.json"; then
+              echo "Merging app_security_info.json (ours + theirs)..."
+              git show :2:data/app_security_info.json > /tmp/ours.json
+              git show :3:data/app_security_info.json > /tmp/theirs.json
+              go run scripts/merge-security-info.go /tmp/ours.json /tmp/theirs.json > data/app_security_info.json
+              git add data/app_security_info.json
+            fi
+            # Resolve any index.html conflict by regenerating
             if [ -f "index.html" ]; then
-              # Regenerate index.html to resolve conflicts
               go run generate_html.go
               git add index.html
-              git commit -m "Resolve merge conflict by regenerating index.html"
-            else
-              # If no index.html, just abort and let the workflow fail
-              git merge --abort
-              exit 1
             fi
+            git commit -m "Resolve merge conflict by merging security info"
           fi
           git push origin main
 
