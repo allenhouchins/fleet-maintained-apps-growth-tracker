@@ -174,8 +174,23 @@ func main() {
 			}
 		}
 
-		// Add newly collected data
+		// Add newly collected data, but preserve existing macOS security fields if new collection is missing them
 		for slug, info := range collectedSecurity {
+			// If this is a macOS app and we have existing data, preserve security fields that might be missing
+			if len(slug) > 7 && slug[len(slug)-7:] == "/darwin" {
+				if existing, exists := existingMap[slug]; exists {
+					// Preserve macOS security fields if they exist in old data but are missing in new
+					if info.Cdhash == "" && existing.Cdhash != "" {
+						info.Cdhash = existing.Cdhash
+					}
+					if info.SigningID == "" && existing.SigningID != "" {
+						info.SigningID = existing.SigningID
+					}
+					if info.TeamID == "" && existing.TeamID != "" {
+						info.TeamID = existing.TeamID
+					}
+				}
+			}
 			finalSecurityMap[slug] = info
 		}
 
@@ -225,8 +240,11 @@ func main() {
 		securityInfo, err := collectSecurityInfoForApp(app)
 		if err != nil {
 			fmt.Printf("  ⚠️  Warning: Failed to collect security info: %v\n", err)
-			// Keep existing info if available
+			// Keep existing info if available, preserving macOS security fields
 			if existing, exists := existingMap[app.Slug]; exists {
+				// Update version and lastUpdated but preserve all security fields
+				existing.Version = app.Version
+				existing.LastUpdated = time.Now().UTC().Format(time.RFC3339)
 				collectedSecurity[app.Slug] = existing
 				processedSlugs[app.Slug] = true
 			}
@@ -235,6 +253,20 @@ func main() {
 				fmt.Fprintf(os.Stderr, "  ⚠️  Warning: Failed to save progress: %v\n", err)
 			}
 			continue
+		}
+
+		// Merge newly collected info with existing, preserving macOS security fields if missing
+		if existing, exists := existingMap[app.Slug]; exists && len(app.Slug) > 7 && app.Slug[len(app.Slug)-7:] == "/darwin" {
+			// Preserve macOS security fields if they exist in old data but are missing in new
+			if securityInfo.Cdhash == "" && existing.Cdhash != "" {
+				securityInfo.Cdhash = existing.Cdhash
+			}
+			if securityInfo.SigningID == "" && existing.SigningID != "" {
+				securityInfo.SigningID = existing.SigningID
+			}
+			if securityInfo.TeamID == "" && existing.TeamID != "" {
+				securityInfo.TeamID = existing.TeamID
+			}
 		}
 
 		collectedSecurity[app.Slug] = securityInfo
