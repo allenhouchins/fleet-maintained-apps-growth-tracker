@@ -1,159 +1,6 @@
 {
   "changes": [
     {
-      "date": "2025-11-25T04:39:22Z",
-      "appName": "Adobe Acrobat Pro DC",
-      "slug": "adobe-acrobat-pro/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "25.001.20937",
-      "installerUrl": "https://trials.adobe.com/AdobeProducts/APRO/Acrobat_HelpX/osx10/Acrobat_DC_Web_WWMUI.dmg"
-    },
-    {
-      "date": "2025-11-25T04:24:54Z",
-      "appName": "OmniGraffle",
-      "slug": "omnigraffle/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "7.25.1",
-      "installerUrl": "https://downloads.omnigroup.com/software/macOS/12/OmniGraffle-7.25.1.dmg"
-    },
-    {
-      "date": "2025-11-25T04:04:28Z",
-      "appName": "Wrike",
-      "slug": "wrike/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "4.6.0",
-      "installerUrl": "https://dl.wrike.com/download/WrikeDesktopApp_ARM.v4.6.0.dmg"
-    },
-    {
-      "date": "2025-11-25T03:20:21Z",
-      "appName": "Discord",
-      "slug": "discord/windows",
-      "platform": "windows",
-      "oldVersion": "1.0.9215",
-      "newVersion": "1.0.9216",
-      "installerUrl": "https://stable.dl2.discordapp.net/distro/app/stable/win/x64/1.0.9216/DiscordSetup.exe"
-    },
-    {
-      "date": "2025-11-25T03:20:21Z",
-      "appName": "Tailscale",
-      "slug": "tailscale-app/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "1.90.8",
-      "installerUrl": "https://pkgs.tailscale.com/stable/Tailscale-1.90.8-macos.pkg"
-    },
-    {
-      "date": "2025-11-25T03:20:21Z",
-      "appName": "Zed",
-      "slug": "zed/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.213.6",
-      "newVersion": "0.213.7",
-      "installerUrl": "https://zed.dev/api/releases/stable/0.213.7/Zed-aarch64.dmg"
-    },
-    {
-      "date": "2025-11-25T03:20:21Z",
-      "appName": "Discord",
-      "slug": "discord/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.0.367",
-      "newVersion": "0.0.368",
-      "installerUrl": "https://dl.discordapp.net/apps/osx/0.0.368/Discord.dmg"
-    },
-    {
-      "date": "2025-11-25T03:20:21Z",
-      "appName": "Cursor",
-      "slug": "cursor/windows",
-      "platform": "windows",
-      "oldVersion": "2.1.25",
-      "newVersion": "2.1.26",
-      "installerUrl": "https://downloads.cursor.com/production/f628a4761be40b8869ca61a6189cafd14756dff4/win32/x64/system-setup/CursorSetup-x64-2.1.26.exe"
-    },
-    {
-      "date": "2025-11-25T03:20:21Z",
-      "appName": "Loom",
-      "slug": "loom/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.323.1",
-      "newVersion": "0.324.0",
-      "installerUrl": "https://packages.loom.com/desktop-packages/Loom-0.324.0-arm64.dmg"
-    },
-    {
-      "date": "2025-11-25T01:06:52Z",
-      "appName": "Rider",
-      "slug": "rider/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "2025.3.0.2",
-      "installerUrl": "https://download.jetbrains.com/rider/JetBrains.Rider-2025.3.0.2-aarch64.dmg"
-    },
-    {
-      "date": "2025-11-25T01:06:29Z",
-      "appName": "Rancher Desktop",
-      "slug": "rancher/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "1.20.1",
-      "installerUrl": "https://github.com/rancher-sandbox/rancher-desktop/releases/download/v1.20.1/Rancher.Desktop-1.20.1.aarch64.dmg"
-    },
-    {
-      "date": "2025-11-25T01:06:16Z",
-      "appName": "TablePlus",
-      "slug": "tableplus/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "6.7.4",
-      "installerUrl": "https://files.tableplus.com/macos/642/TablePlus.dmg"
-    },
-    {
-      "date": "2025-11-25T01:05:57Z",
-      "appName": "Zed",
-      "slug": "zed/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "0.213.6",
-      "installerUrl": "https://zed.dev/api/releases/stable/0.213.6/Zed-aarch64.dmg"
-    },
-    {
-      "date": "2025-11-25T00:51:15Z",
-      "appName": "VLC media player",
-      "slug": "vlc/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "3.0.21",
-      "installerUrl": "https://get.videolan.org/vlc/3.0.21/macosx/vlc-3.0.21-arm64.dmg"
-    },
-    {
-      "date": "2025-11-25T00:49:15Z",
-      "appName": "Notion Calendar",
-      "slug": "notion-calendar/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "1.132.0",
-      "installerUrl": "https://calendar-desktop-release.notion-static.com/Notion%20Calendar-darwin-arm64-1.132.0.zip"
-    },
-    {
-      "date": "2025-11-25T00:48:02Z",
-      "appName": "Todoist",
-      "slug": "todoist-app/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "9.24.0",
-      "installerUrl": "https://electron-dl.todoist.com/mac/Todoist-darwin-9.24.0-arm64-latest.dmg"
-    },
-    {
-      "date": "2025-11-25T00:07:53Z",
-      "appName": "DisplayLink USB Graphics Software",
-      "slug": "displaylink/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "14.2",
-      "installerUrl": "https://www.synaptics.com/sites/default/files/exe_files/2025-11/DisplayLink%20Manager%20Graphics%20Connectivity14.2-EXE.zip"
-    },
-    {
       "date": "2025-11-24T21:34:42Z",
       "appName": "WebStorm",
       "slug": "webstorm/darwin",
@@ -8999,6 +8846,159 @@
       "oldVersion": "11.84.2",
       "newVersion": "11.84.3",
       "installerUrl": "https://dl.pstmn.io/download/version/11.84.3/osx_arm64"
+    },
+    {
+      "date": "2026-02-13T16:19:07Z",
+      "appName": "Microsoft Visual Studio Code",
+      "slug": "visual-studio-code/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.109.2",
+      "newVersion": "1.109.3",
+      "installerUrl": "https://update.code.visualstudio.com/1.109.3/darwin-arm64/stable"
+    },
+    {
+      "date": "2026-02-13T16:19:07Z",
+      "appName": "Dialpad",
+      "slug": "dialpad/darwin",
+      "platform": "darwin",
+      "oldVersion": "2512.1.0",
+      "newVersion": "2602.0.0",
+      "installerUrl": "https://storage.googleapis.com/dialpad_native/osx/arm64/Dialpad.2602.0.0.zip"
+    },
+    {
+      "date": "2026-02-13T16:19:07Z",
+      "appName": "Transmit",
+      "slug": "transmit/darwin",
+      "platform": "darwin",
+      "oldVersion": "5.11.4",
+      "newVersion": "5.11.5",
+      "installerUrl": "https://download-cdn.panic.com/transmit/Transmit%205.11.5.zip"
+    },
+    {
+      "date": "2026-02-13T16:19:07Z",
+      "appName": "AnyDesk",
+      "slug": "anydesk/darwin",
+      "platform": "darwin",
+      "oldVersion": "9.6.2",
+      "newVersion": "9.6.3",
+      "installerUrl": "https://download.anydesk.com/anydesk.dmg"
+    },
+    {
+      "date": "2026-02-13T16:19:07Z",
+      "appName": "Grammarly Desktop",
+      "slug": "grammarly-desktop/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.152.1.0",
+      "newVersion": "1.152.2.0",
+      "installerUrl": "https://download-mac.grammarly.com/versions/1.152.2.0/Grammarly.dmg"
+    },
+    {
+      "date": "2026-02-13T16:19:07Z",
+      "appName": "Arc",
+      "slug": "arc/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.133.0",
+      "newVersion": "1.134.0",
+      "installerUrl": "https://releases.arc.net/release/Arc-1.134.0-74986.zip"
+    },
+    {
+      "date": "2026-02-13T16:19:07Z",
+      "appName": "Windsurf",
+      "slug": "windsurf/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.9544.35",
+      "newVersion": "1.9552.21",
+      "installerUrl": "https://windsurf-stable.codeiumdata.com/darwin-arm64-dmg/stable/16cc024632923bc387171d59cf5638057d4c8918/Windsurf-darwin-arm64-1.9552.21.dmg"
+    },
+    {
+      "date": "2026-02-13T16:19:07Z",
+      "appName": "Google Chrome",
+      "slug": "google-chrome/darwin",
+      "platform": "darwin",
+      "oldVersion": "145.0.7632.46",
+      "newVersion": "145.0.7632.68",
+      "installerUrl": "https://dl.google.com/dl/chrome/mac/universal/stable/gcem/GoogleChrome.pkg"
+    },
+    {
+      "date": "2026-02-13T16:19:07Z",
+      "appName": "Google Chrome",
+      "slug": "google-chrome/windows",
+      "platform": "windows",
+      "oldVersion": "144.0.7559.133",
+      "newVersion": "145.0.7632.68",
+      "installerUrl": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi"
+    },
+    {
+      "date": "2026-02-13T16:19:07Z",
+      "appName": "Lens",
+      "slug": "lens/darwin",
+      "platform": "darwin",
+      "oldVersion": "2026.2.20807",
+      "newVersion": "2026.2.111511",
+      "installerUrl": "https://api.k8slens.dev/binaries/Lens-2026.2.111511-latest-arm64.dmg"
+    },
+    {
+      "date": "2026-02-13T16:19:07Z",
+      "appName": "Cursor",
+      "slug": "cursor/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.4.31",
+      "newVersion": "2.4.36",
+      "installerUrl": "https://downloads.cursor.com/production/f9919bf991f247689f9ead605b5c5a3239a2a794/darwin/arm64/Cursor-darwin-arm64.zip"
+    },
+    {
+      "date": "2026-02-13T16:19:07Z",
+      "appName": "Canva",
+      "slug": "canva/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.120.0",
+      "newVersion": "1.121.0",
+      "installerUrl": "https://desktop-release.canva.com/Canva-1.121.0-universal.dmg"
+    },
+    {
+      "date": "2026-02-13T16:19:07Z",
+      "appName": "TeamViewer",
+      "slug": "teamviewer/windows",
+      "platform": "windows",
+      "oldVersion": "15.74.5",
+      "newVersion": "15.74.6",
+      "installerUrl": "https://download.teamviewer.com/download/version_15x/TeamViewer_Setup_x64.exe"
+    },
+    {
+      "date": "2026-02-13T16:19:07Z",
+      "appName": "Claude",
+      "slug": "claude/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.1.2685",
+      "newVersion": "1.1.2998",
+      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.1.2998/Claude-1f1d4db7e0019f539cc3c59fba17a541ccffe0d5.zip"
+    },
+    {
+      "date": "2026-02-13T16:19:07Z",
+      "appName": "Jabra Direct",
+      "slug": "jabra-direct/darwin",
+      "platform": "darwin",
+      "oldVersion": "6.26.32801",
+      "newVersion": "6.27.03702",
+      "installerUrl": "https://jabraxpressonlineprdstor.blob.core.windows.net/jdo/JabraDirectSetup.dmg"
+    },
+    {
+      "date": "2026-02-13T16:19:07Z",
+      "appName": "Brave",
+      "slug": "brave-browser/darwin",
+      "platform": "darwin",
+      "oldVersion": "144.1.86.148",
+      "newVersion": "145.1.87.186",
+      "installerUrl": "https://updates-cdn.bravesoftware.com/sparkle/Brave-Browser/stable-arm64/187.186/Brave-Browser-arm64.dmg"
+    },
+    {
+      "date": "2026-02-13T16:19:07Z",
+      "appName": "7-zip",
+      "slug": "7-zip/windows",
+      "platform": "windows",
+      "oldVersion": "25.01",
+      "newVersion": "26.00",
+      "installerUrl": "https://7-zip.org/a/7z2600-x64.msi"
     }
   ]
 }
