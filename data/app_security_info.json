@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-16T00:39:11Z",
+  "lastUpdated": "2026-02-16T01:48:47Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -321,9 +321,12 @@
     {
       "slug": "brave-browser/darwin",
       "name": "Brave",
-      "version": "145.1.87.186",
-      "sha256": "934524ef9989a09365dfe336668165d121aa867af9fe0faf9937a3a0d47591d0",
-      "lastUpdated": "2026-02-13T16:21:31Z"
+      "version": "145.1.87.188",
+      "sha256": "f14ec913e1649fddb369867570d0eb29410a829900630329fb3bb4082755c3f4",
+      "cdhash": "3f02b98b1f1bb6e8a1527f03a6d0406d73eb9b42",
+      "signingId": "KL8N8XSYF4:com.brave.Browser",
+      "teamId": "KL8N8XSYF4",
+      "lastUpdated": "2026-02-16T01:39:53Z"
     },
     {
       "slug": "brave-browser/windows",
@@ -380,9 +383,12 @@
     {
       "slug": "chatgpt-atlas/darwin",
       "name": "ChatGPT Atlas",
-      "version": "1.2026.35.4",
-      "sha256": "dd94e6923d89940cf1d7b42ec1a8ca0f5ae301f2afbf1689b5150589b0eba1b2",
-      "lastUpdated": "2026-02-12T17:28:10Z"
+      "version": "1.2026.35.5",
+      "sha256": "4d01920b2db7a429eccbabab1167aeb446e348a243418496fc6b5cb4d596531d",
+      "cdhash": "989d0f851b68059df10aaaea1f1fb91df9968ac1",
+      "signingId": "2DC432GLL2:com.openai.atlas",
+      "teamId": "2DC432GLL2",
+      "lastUpdated": "2026-02-16T01:41:35Z"
     },
     {
       "slug": "chatgpt/darwin",
@@ -420,9 +426,12 @@
     {
       "slug": "claude/darwin",
       "name": "Claude",
-      "version": "1.1.2998",
-      "sha256": "13e57078cfe437e86c844e448c0bad071036344b115c17dc4adf47132a8868b9",
-      "lastUpdated": "2026-02-13T16:24:32Z"
+      "version": "1.1.3189",
+      "sha256": "438545be7e9667aff6d046b0ca3f04dd71df89765e7bdd842cfa68c3602dca97",
+      "cdhash": "4e8fadf78b7408ed45169b28a648a6fcc20cf5ab",
+      "signingId": "Q6L2SF6YDW:com.anthropic.claudefordesktop",
+      "teamId": "Q6L2SF6YDW",
+      "lastUpdated": "2026-02-16T01:42:03Z"
     },
     {
       "slug": "cleanmymac/darwin",
@@ -526,9 +535,12 @@
     {
       "slug": "cursor/darwin",
       "name": "Cursor",
-      "version": "2.4.36",
-      "sha256": "95a643b93944bbc85aa940f95ab257121a2152116968fe8d53713e91b84ecfa8",
-      "lastUpdated": "2026-02-13T16:25:14Z"
+      "version": "2.4.37",
+      "sha256": "c511cde6e20ad39aed608175b592e145ed1345af4ddf80e8096c69905cd7eea5",
+      "cdhash": "5f3e745b9b8feefb2f98f83d8b7d491e93735ed3",
+      "signingId": "VDXQ22DGB9:com.todesktop.230313mzl4w4u92",
+      "teamId": "VDXQ22DGB9",
+      "lastUpdated": "2026-02-16T01:42:40Z"
     },
     {
       "slug": "cursor/windows",
@@ -585,9 +597,12 @@
     {
       "slug": "dbeaver-community/darwin",
       "name": "DBeaver",
-      "version": "25.3.4",
-      "sha256": "7f901c3e283839218cdd63dddd2e761c2e2a29a5d5564010b85122757c145183",
-      "lastUpdated": "2026-02-02T05:35:06Z"
+      "version": "25.3.5",
+      "sha256": "2e4050005f48919ea948adba8623d204227b03d652662c98ad8b49772104b952",
+      "cdhash": "094925f29ec1d542a7faad0cee28bfa8731de25d",
+      "signingId": "42B6MDKMW8:org.jkiss.dbeaver.core.product",
+      "teamId": "42B6MDKMW8",
+      "lastUpdated": "2026-02-16T01:43:06Z"
     },
     {
       "slug": "dbeaver-enterprise/darwin",
@@ -848,9 +863,12 @@
     {
       "slug": "google-chrome/darwin",
       "name": "Google Chrome",
-      "version": "145.0.7632.68",
-      "sha256": "c7de1bc2bc3e188e3d5ff6cb45550624e94585c4423247f76ff6fa8105e26b2c",
-      "lastUpdated": "2026-02-13T16:26:25Z"
+      "version": "145.0.7632.76",
+      "sha256": "75258131972a1352996ec85b67bcfbdb449b64cbc47770fb4531905b01c39a14",
+      "cdhash": "c8ac8f325e03bc3df4ac307632a51002dd60afed",
+      "signingId": "EQHXZ8M8AV:com.google.Chrome",
+      "teamId": "EQHXZ8M8AV",
+      "lastUpdated": "2026-02-16T01:43:49Z"
     },
     {
       "slug": "google-chrome/windows",
@@ -1094,9 +1112,12 @@
     {
       "slug": "microsoft-edge/darwin",
       "name": "Microsoft Edge",
-      "version": "144.0.3719.115",
-      "sha256": "9071442ba9d59a2854fb332645e8372f8e431008bdce129b06836dd4faa6cfed",
-      "lastUpdated": "2026-02-06T15:33:36Z"
+      "version": "145.0.3800.58",
+      "sha256": "ee739dc660111a7a37306964de59260e26470562fa79efabb230881da151f51f",
+      "cdhash": "c7ca576e2882808b1a5f497e6cdc261229647d1d",
+      "signingId": "UBF8T346G9:com.microsoft.edgemac",
+      "teamId": "UBF8T346G9",
+      "lastUpdated": "2026-02-16T01:44:53Z"
     },
     {
       "slug": "microsoft-edge/windows",
@@ -1315,9 +1336,12 @@
     {
       "slug": "opera/darwin",
       "name": "Opera",
-      "version": "127.0.5778.47",
-      "sha256": "b4d72602fdcbb6868088ae508589fa50b188fa069bd21b56c92a7b68ebed9628",
-      "lastUpdated": "2026-02-11T16:32:46Z"
+      "version": "127.0.5778.64",
+      "sha256": "6339ab71ebea5e5824a5aeb6d12d63209909bf71b2d0f2f2e13d7e965e68e4ed",
+      "cdhash": "ab45aa9b3c77e492603487ea63a883cf9ef2f04d",
+      "signingId": "A2P9LX4JPN:com.operasoftware.Opera",
+      "teamId": "A2P9LX4JPN",
+      "lastUpdated": "2026-02-16T01:45:40Z"
     },
     {
       "slug": "orbstack/darwin",
@@ -1432,9 +1456,12 @@
     {
       "slug": "quip/darwin",
       "name": "Quip",
-      "version": "9.17.6",
-      "sha256": "9ee517da55d3b7c5307fee186b693ad2c0196233cbf26fb3a3b85c59b26201ba",
-      "lastUpdated": "2025-12-20T08:03:33Z"
+      "version": "9.32.7",
+      "sha256": "ace9fbe2df8b898ca2142a9d03ff3d1afd5b10d67e99b7c8b703268a2d343f9a",
+      "cdhash": "33f82b607c20d8bd66454dc5b356521af4e26311",
+      "signingId": "FMRT79K8DG:com.quip.Desktop",
+      "teamId": "FMRT79K8DG",
+      "lastUpdated": "2026-02-16T01:46:02Z"
     },
     {
       "slug": "rancher/darwin",
@@ -1523,9 +1550,12 @@
     {
       "slug": "slack/darwin",
       "name": "Slack",
-      "version": "4.47.72",
-      "sha256": "67f47cd00e78eb0339e2b29ecb979b34a764fb3986fd6075a2d7c6dc7a3b3e13",
-      "lastUpdated": "2025-12-20T09:10:48Z"
+      "version": "4.48.92",
+      "sha256": "5dcab50482a0a6e4d755187444b7aff418202ae6e241b421baa387eb6dbe187c",
+      "cdhash": "b81ef47c4fffa24331732d574dad0d66a8ec6e6d",
+      "signingId": "BQR82RBBHL:com.tinyspeck.slackmacgap",
+      "teamId": "BQR82RBBHL",
+      "lastUpdated": "2026-02-16T01:46:41Z"
     },
     {
       "slug": "slack/windows",
@@ -1577,9 +1607,12 @@
     {
       "slug": "spotify/darwin",
       "name": "Spotify",
-      "version": "1.2.82.428",
-      "sha256": "e388becd3719fbb43c520e1cb02f905f6ce3290a04913aafe667de38dd077640",
-      "lastUpdated": "2026-01-30T22:10:44Z"
+      "version": "1.2.83.461",
+      "sha256": "a3151786b9bb3b3b17a3968c3cf711c1695b04c382423cc0b4a26f3e63d3a068",
+      "cdhash": "7f798b486c632531be4fb38ffb092cf88ebf000e",
+      "signingId": "2FNC3A47ZF:com.spotify.client",
+      "teamId": "2FNC3A47ZF",
+      "lastUpdated": "2026-02-16T01:47:19Z"
     },
     {
       "slug": "spotify/windows",
@@ -1596,9 +1629,12 @@
     {
       "slug": "stats/darwin",
       "name": "Stats",
-      "version": "2.11.66",
-      "sha256": "ba3f22ae20227ef779cfaaee82ce7011ff518bdc94aa77f4018411ab9dc896ea",
-      "lastUpdated": "2026-02-02T05:36:57Z"
+      "version": "2.11.67",
+      "sha256": "3cb4ba9004016c2955d49e7a407f9db05d6502879761d665c0d144fd8909619f",
+      "cdhash": "bbfdfc1202dea49d5b521c24fec52483302978db",
+      "signingId": "RP2S87B72W:eu.exelban.Stats",
+      "teamId": "RP2S87B72W",
+      "lastUpdated": "2026-02-16T01:47:40Z"
     },
     {
       "slug": "steam/darwin",
@@ -1676,9 +1712,12 @@
     {
       "slug": "tailscale-app/darwin",
       "name": "Tailscale",
-      "version": "1.94.1",
-      "sha256": "038c56b947b9de29821265b695c4a4094eb36bbfb59ebfb76757b867ece4e5d9",
-      "lastUpdated": "2026-01-28T19:23:43Z"
+      "version": "1.94.2",
+      "sha256": "43998749909818fcecf22f99cbd2498fa692dd93be8a35c353c165e6ddacccb3",
+      "cdhash": "35f60263d11ed172374c9108df657851419b61bf",
+      "signingId": "W5364U7YZB:io.tailscale.ipn.macsys",
+      "teamId": "W5364U7YZB",
+      "lastUpdated": "2026-02-16T01:48:11Z"
     },
     {
       "slug": "tailscale/windows",
@@ -1776,9 +1815,12 @@
     {
       "slug": "todoist-app/darwin",
       "name": "Todoist",
-      "version": "9.26.3",
-      "sha256": "fe5f44836aca4aae6d651c066e5378195b2145067c2e22884456c66617170240",
-      "lastUpdated": "2026-02-06T15:42:31Z"
+      "version": "9.26.4",
+      "sha256": "3ffe32828002aefaa201df477fd297e4c76d440ef418715ae05ca69f4ef2a46e",
+      "cdhash": "27bf082892739367f09e0a1068d1e75644bb930f",
+      "signingId": "S3DD273774:com.todoist.mac.Todoist",
+      "teamId": "S3DD273774",
+      "lastUpdated": "2026-02-16T01:48:45Z"
     },
     {
       "slug": "tower/darwin",
