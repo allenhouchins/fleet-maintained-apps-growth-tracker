@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-17T03:07:17Z",
+  "lastUpdated": "2026-02-17T03:15:49Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -786,9 +786,12 @@
     {
       "slug": "firefox/darwin",
       "name": "Mozilla Firefox",
-      "version": "147.0.3",
-      "sha256": "accea9482314b40f238c7be004227f71131875075c3626c1ea998494e6dc2ea2",
-      "lastUpdated": "2026-02-06T15:28:13Z"
+      "version": "147.0.4",
+      "sha256": "21731282485e1267f1cff4336c22e90bd5262823b8f70321f97375d7e3be506f",
+      "cdhash": "c166bed5c6a94c3d66be92570544bfcda93bd54a",
+      "signingId": "43AQ936H96:org.mozilla.firefox",
+      "teamId": "43AQ936H96",
+      "lastUpdated": "2026-02-17T03:07:47Z"
     },
     {
       "slug": "firefox/windows",
@@ -1811,9 +1814,12 @@
     {
       "slug": "thunderbird/darwin",
       "name": "Thunderbird",
-      "version": "147.0.1",
-      "sha256": "6b981ff94071b3b4b7a65f71f2add375553c5c42c19beed43ebe428a382f525c",
-      "lastUpdated": "2026-01-28T22:13:51Z"
+      "version": "147.0.2",
+      "sha256": "bb66acde510b0cfb80072d0b5f89b24b1bd024dfa355de1b86ced15e5ecf98c8",
+      "cdhash": "3230117b5102c57ebd2150069ebecdb8051e3ca1",
+      "signingId": "43AQ936H96:org.mozilla.thunderbird",
+      "teamId": "43AQ936H96",
+      "lastUpdated": "2026-02-17T03:11:38Z"
     },
     {
       "slug": "todoist-app/darwin",
@@ -1889,9 +1895,12 @@
     {
       "slug": "visual-studio-code/darwin",
       "name": "Microsoft Visual Studio Code",
-      "version": "1.109.3",
-      "sha256": "bdadf80f944656e7833ce01b957fa08a61d7d7a10a3b20b05cee140c6e3a04bd",
-      "lastUpdated": "2026-02-13T16:30:43Z"
+      "version": "1.109.4",
+      "sha256": "d86397e440d6abd283fdeff51d9e7a43da4fd9a53e09eea24cb294e2df0ab374",
+      "cdhash": "a5df3e6cf0fa41107133b1e98abc31f4cd7df3db",
+      "signingId": "UBF8T346G9:com.microsoft.VSCode",
+      "teamId": "UBF8T346G9",
+      "lastUpdated": "2026-02-17T03:12:16Z"
     },
     {
       "slug": "visual-studio-code/windows",
