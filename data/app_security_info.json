@@ -215,9 +215,12 @@
     {
       "slug": "asana/darwin",
       "name": "Asana",
-      "version": "2.5.1",
-      "sha256": "dd036b8663134a5cac9d94226bd23d01309a086be7af5918d52544f488d9f639",
-      "lastUpdated": "2026-01-30T05:57:02Z"
+      "version": "2.6.0",
+      "sha256": "e92ae9b37592e216dd76bd692e7f99d2b5f763b9b8f376a2f6580d6c09ac1e5d",
+      "cdhash": "ffddba94b789cf97f06c4359c8d96ce99611fec6",
+      "signingId": "A679L395M8:com.electron.asana",
+      "teamId": "A679L395M8",
+      "lastUpdated": "2026-02-17T16:24:49Z"
     },
     {
       "slug": "asana/windows",
@@ -323,6 +326,9 @@
       "name": "Brave",
       "version": "145.1.87.188",
       "sha256": "f14ec913e1649fddb369867570d0eb29410a829900630329fb3bb4082755c3f4",
+      "cdhash": "3f02b98b1f1bb6e8a1527f03a6d0406d73eb9b42",
+      "signingId": "KL8N8XSYF4:com.brave.Browser",
+      "teamId": "KL8N8XSYF4",
       "lastUpdated": "2026-02-16T01:39:53Z"
     },
     {
@@ -340,9 +346,12 @@
     {
       "slug": "bruno/darwin",
       "name": "Bruno",
-      "version": "3.1.0",
-      "sha256": "8301904c2c122f7162106f8441cbf0756e9123ca8ee805eb66d276d8580ac9bd",
-      "lastUpdated": "2026-02-17T03:07:15Z"
+      "version": "3.1.1",
+      "sha256": "6808c2c83939b393190cb5eed9de6dfd6bc4e1476446267f4b3c38c40c9ce7ba",
+      "cdhash": "f3c4b58223190250ac469d1a051a98f22aab3b1a",
+      "signingId": "W7LPPWA48L:com.usebruno.app",
+      "teamId": "W7LPPWA48L",
+      "lastUpdated": "2026-02-17T16:25:22Z"
     },
     {
       "slug": "calibre/darwin",
@@ -382,6 +391,9 @@
       "name": "ChatGPT Atlas",
       "version": "1.2026.35.5",
       "sha256": "4d01920b2db7a429eccbabab1167aeb446e348a243418496fc6b5cb4d596531d",
+      "cdhash": "989d0f851b68059df10aaaea1f1fb91df9968ac1",
+      "signingId": "2DC432GLL2:com.openai.atlas",
+      "teamId": "2DC432GLL2",
       "lastUpdated": "2026-02-16T01:41:35Z"
     },
     {
@@ -422,6 +434,9 @@
       "name": "Claude",
       "version": "1.1.3189",
       "sha256": "438545be7e9667aff6d046b0ca3f04dd71df89765e7bdd842cfa68c3602dca97",
+      "cdhash": "4e8fadf78b7408ed45169b28a648a6fcc20cf5ab",
+      "signingId": "Q6L2SF6YDW:com.anthropic.claudefordesktop",
+      "teamId": "Q6L2SF6YDW",
       "lastUpdated": "2026-02-16T01:42:03Z"
     },
     {
@@ -528,6 +543,9 @@
       "name": "Cursor",
       "version": "2.4.37",
       "sha256": "c511cde6e20ad39aed608175b592e145ed1345af4ddf80e8096c69905cd7eea5",
+      "cdhash": "5f3e745b9b8feefb2f98f83d8b7d491e93735ed3",
+      "signingId": "VDXQ22DGB9:com.todesktop.230313mzl4w4u92",
+      "teamId": "VDXQ22DGB9",
       "lastUpdated": "2026-02-16T01:42:40Z"
     },
     {
@@ -587,6 +605,9 @@
       "name": "DBeaver",
       "version": "25.3.5",
       "sha256": "2e4050005f48919ea948adba8623d204227b03d652662c98ad8b49772104b952",
+      "cdhash": "094925f29ec1d542a7faad0cee28bfa8731de25d",
+      "signingId": "42B6MDKMW8:org.jkiss.dbeaver.core.product",
+      "teamId": "42B6MDKMW8",
       "lastUpdated": "2026-02-16T01:43:06Z"
     },
     {
@@ -770,6 +791,9 @@
       "name": "Mozilla Firefox",
       "version": "147.0.4",
       "sha256": "21731282485e1267f1cff4336c22e90bd5262823b8f70321f97375d7e3be506f",
+      "cdhash": "c166bed5c6a94c3d66be92570544bfcda93bd54a",
+      "signingId": "43AQ936H96:org.mozilla.firefox",
+      "teamId": "43AQ936H96",
       "lastUpdated": "2026-02-17T03:07:47Z"
     },
     {
@@ -850,6 +874,9 @@
       "name": "Google Chrome",
       "version": "145.0.7632.76",
       "sha256": "75258131972a1352996ec85b67bcfbdb449b64cbc47770fb4531905b01c39a14",
+      "cdhash": "c8ac8f325e03bc3df4ac307632a51002dd60afed",
+      "signingId": "EQHXZ8M8AV:com.google.Chrome",
+      "teamId": "EQHXZ8M8AV",
       "lastUpdated": "2026-02-16T01:43:49Z"
     },
     {
@@ -1096,6 +1123,9 @@
       "name": "Microsoft Edge",
       "version": "145.0.3800.58",
       "sha256": "ee739dc660111a7a37306964de59260e26470562fa79efabb230881da151f51f",
+      "cdhash": "c7ca576e2882808b1a5f497e6cdc261229647d1d",
+      "signingId": "UBF8T346G9:com.microsoft.edgemac",
+      "teamId": "UBF8T346G9",
       "lastUpdated": "2026-02-16T01:44:53Z"
     },
     {
@@ -1317,6 +1347,9 @@
       "name": "Opera",
       "version": "127.0.5778.64",
       "sha256": "6339ab71ebea5e5824a5aeb6d12d63209909bf71b2d0f2f2e13d7e965e68e4ed",
+      "cdhash": "ab45aa9b3c77e492603487ea63a883cf9ef2f04d",
+      "signingId": "A2P9LX4JPN:com.operasoftware.Opera",
+      "teamId": "A2P9LX4JPN",
       "lastUpdated": "2026-02-16T01:45:40Z"
     },
     {
@@ -1364,9 +1397,12 @@
     {
       "slug": "postman/darwin",
       "name": "Postman",
-      "version": "11.84.3",
-      "sha256": "b2c71c663b218c4fbb468a56f6d0a794ecfc0456e5c58840dbb2723346c0eccc",
-      "lastUpdated": "2026-02-12T17:28:57Z"
+      "version": "11.85.1",
+      "sha256": "8079ad236821487e4cca692fe1a85c0a1fcee663f77e0f15ec5d22b1feaf11e0",
+      "cdhash": "26e57eb93d1321c4e32043f0aa2a08a8e447e04d",
+      "signingId": "H7H8Q7M5CK:com.postmanlabs.mac",
+      "teamId": "H7H8Q7M5CK",
+      "lastUpdated": "2026-02-17T16:25:52Z"
     },
     {
       "slug": "postman/windows",
@@ -1434,6 +1470,9 @@
       "name": "Quip",
       "version": "9.32.7",
       "sha256": "ace9fbe2df8b898ca2142a9d03ff3d1afd5b10d67e99b7c8b703268a2d343f9a",
+      "cdhash": "33f82b607c20d8bd66454dc5b356521af4e26311",
+      "signingId": "FMRT79K8DG:com.quip.Desktop",
+      "teamId": "FMRT79K8DG",
       "lastUpdated": "2026-02-16T01:46:02Z"
     },
     {
@@ -1525,6 +1564,9 @@
       "name": "Slack",
       "version": "4.48.92",
       "sha256": "5dcab50482a0a6e4d755187444b7aff418202ae6e241b421baa387eb6dbe187c",
+      "cdhash": "b81ef47c4fffa24331732d574dad0d66a8ec6e6d",
+      "signingId": "BQR82RBBHL:com.tinyspeck.slackmacgap",
+      "teamId": "BQR82RBBHL",
       "lastUpdated": "2026-02-16T01:46:41Z"
     },
     {
@@ -1579,6 +1621,9 @@
       "name": "Spotify",
       "version": "1.2.83.461",
       "sha256": "a3151786b9bb3b3b17a3968c3cf711c1695b04c382423cc0b4a26f3e63d3a068",
+      "cdhash": "7f798b486c632531be4fb38ffb092cf88ebf000e",
+      "signingId": "2FNC3A47ZF:com.spotify.client",
+      "teamId": "2FNC3A47ZF",
       "lastUpdated": "2026-02-16T01:47:19Z"
     },
     {
@@ -1598,6 +1643,9 @@
       "name": "Stats",
       "version": "2.11.67",
       "sha256": "3cb4ba9004016c2955d49e7a407f9db05d6502879761d665c0d144fd8909619f",
+      "cdhash": "bbfdfc1202dea49d5b521c24fec52483302978db",
+      "signingId": "RP2S87B72W:eu.exelban.Stats",
+      "teamId": "RP2S87B72W",
       "lastUpdated": "2026-02-16T01:47:40Z"
     },
     {
@@ -1678,6 +1726,9 @@
       "name": "Tailscale",
       "version": "1.94.2",
       "sha256": "43998749909818fcecf22f99cbd2498fa692dd93be8a35c353c165e6ddacccb3",
+      "cdhash": "35f60263d11ed172374c9108df657851419b61bf",
+      "signingId": "W5364U7YZB:io.tailscale.ipn.macsys",
+      "teamId": "W5364U7YZB",
       "lastUpdated": "2026-02-16T01:48:11Z"
     },
     {
@@ -1771,6 +1822,9 @@
       "name": "Thunderbird",
       "version": "147.0.2",
       "sha256": "bb66acde510b0cfb80072d0b5f89b24b1bd024dfa355de1b86ced15e5ecf98c8",
+      "cdhash": "3230117b5102c57ebd2150069ebecdb8051e3ca1",
+      "signingId": "43AQ936H96:org.mozilla.thunderbird",
+      "teamId": "43AQ936H96",
       "lastUpdated": "2026-02-17T03:11:38Z"
     },
     {
@@ -1778,6 +1832,9 @@
       "name": "Todoist",
       "version": "9.26.4",
       "sha256": "3ffe32828002aefaa201df477fd297e4c76d440ef418715ae05ca69f4ef2a46e",
+      "cdhash": "27bf082892739367f09e0a1068d1e75644bb930f",
+      "signingId": "S3DD273774:com.todoist.mac.Todoist",
+      "teamId": "S3DD273774",
       "lastUpdated": "2026-02-16T01:48:45Z"
     },
     {
@@ -1846,6 +1903,9 @@
       "name": "Microsoft Visual Studio Code",
       "version": "1.109.4",
       "sha256": "d86397e440d6abd283fdeff51d9e7a43da4fd9a53e09eea24cb294e2df0ab374",
+      "cdhash": "a5df3e6cf0fa41107133b1e98abc31f4cd7df3db",
+      "signingId": "UBF8T346G9:com.microsoft.VSCode",
+      "teamId": "UBF8T346G9",
       "lastUpdated": "2026-02-17T03:12:16Z"
     },
     {
@@ -1917,9 +1977,12 @@
     {
       "slug": "whatsapp/darwin",
       "name": "WhatsApp",
-      "version": "26.6.23",
-      "sha256": "4a4b02fe689d838685d6e618781c2cf15de856b6120ac9b43b901de62a21ef15",
-      "lastUpdated": "2026-02-10T19:45:50Z"
+      "version": "26.7.18",
+      "sha256": "d62c4472723c0b9c032f6ea44684228fc973e719736ce0827cb83fae7c469672",
+      "cdhash": "49e1399587efb09c5849a67b6c421bcba3d15aa3",
+      "signingId": "57T9237FN3:net.whatsapp.WhatsApp",
+      "teamId": "57T9237FN3",
+      "lastUpdated": "2026-02-17T16:26:29Z"
     },
     {
       "slug": "windows-app/darwin",
@@ -1990,9 +2053,12 @@
     {
       "slug": "zed/darwin",
       "name": "Zed",
-      "version": "0.223.3",
-      "sha256": "4731662533db3a76907d39538640da17f93daef12f3341966f4cc3e65348417c",
-      "lastUpdated": "2026-02-12T17:30:53Z"
+      "version": "0.223.4",
+      "sha256": "9b85c18ccbe6f7dca68c22122adb21523876a2dc56961b7ee025d2fc491924dc",
+      "cdhash": "d46eefab6e5d262318e9e745a53f9932ee1cc809",
+      "signingId": "MQ55VZLNZQ:dev.zed.Zed",
+      "teamId": "MQ55VZLNZQ",
+      "lastUpdated": "2026-02-17T16:26:55Z"
     },
     {
       "slug": "zeplin/darwin",
