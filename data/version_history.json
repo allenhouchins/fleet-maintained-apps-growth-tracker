@@ -1,69 +1,6 @@
 {
   "changes": [
     {
-      "date": "2025-11-21T02:48:34Z",
-      "appName": "Microsoft PowerPoint",
-      "slug": "microsoft-powerpoint/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.103.25110922",
-      "newVersion": "16.103.25111719",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.103.25111719_Installer.pkg"
-    },
-    {
-      "date": "2025-11-21T02:48:34Z",
-      "appName": "Figma",
-      "slug": "figma/windows",
-      "platform": "windows",
-      "oldVersion": "125.10.4",
-      "newVersion": "125.10.5",
-      "installerUrl": "https://desktop.figma.com/win/build/Figma-125.10.5.exe"
-    },
-    {
-      "date": "2025-11-21T02:48:34Z",
-      "appName": "Microsoft Edge",
-      "slug": "microsoft-edge/darwin",
-      "platform": "darwin",
-      "oldVersion": "142.0.3595.90",
-      "newVersion": "142.0.3595.94",
-      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/9d2b7e5f-8c6f-4661-9c90-afadc2befce6/MicrosoftEdge-142.0.3595.94.dmg"
-    },
-    {
-      "date": "2025-11-21T02:48:34Z",
-      "appName": "NordVPN",
-      "slug": "nordvpn/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "9.8.1",
-      "installerUrl": "https://downloads.nordcdn.com/apps/macos/generic/NordVPN-OpenVPN/9.8.1/NordVPN.pkg"
-    },
-    {
-      "date": "2025-11-21T02:48:34Z",
-      "appName": "Microsoft Word",
-      "slug": "microsoft-word/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.103",
-      "newVersion": "16.103.1",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.103.25111410_Installer.pkg"
-    },
-    {
-      "date": "2025-11-21T02:48:34Z",
-      "appName": "Microsoft Excel",
-      "slug": "microsoft-excel/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.103",
-      "newVersion": "16.103.1",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.103.25111624_Installer.pkg"
-    },
-    {
-      "date": "2025-11-20T23:31:15Z",
-      "appName": "8x8 Work",
-      "slug": "8x8-work/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "8.28.2",
-      "installerUrl": "https://work-desktop-assets.8x8.com/prod-publish/ga/work-arm64-dmg-v8.28.2-3.dmg"
-    },
-    {
       "date": "2025-11-20T23:30:50Z",
       "appName": "GitHub Desktop",
       "slug": "github/darwin",
@@ -8999,6 +8936,69 @@
       "oldVersion": "1.109.3",
       "newVersion": "1.109.4",
       "installerUrl": "https://update.code.visualstudio.com/1.109.4/darwin-arm64/stable"
+    },
+    {
+      "date": "2026-02-17T16:23:10Z",
+      "appName": "WhatsApp",
+      "slug": "whatsapp/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.6.23",
+      "newVersion": "26.7.18",
+      "installerUrl": "https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release\u0026src=whatsapp_downloads_page"
+    },
+    {
+      "date": "2026-02-17T16:23:10Z",
+      "appName": "Microsoft Visual Studio Code",
+      "slug": "visual-studio-code/windows",
+      "platform": "windows",
+      "oldVersion": "1.109.3",
+      "newVersion": "1.109.4",
+      "installerUrl": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/VSCodeSetup-x64-1.109.4.exe"
+    },
+    {
+      "date": "2026-02-17T16:23:10Z",
+      "appName": "Zed",
+      "slug": "zed/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.223.3",
+      "newVersion": "0.223.4",
+      "installerUrl": "https://zed.dev/api/releases/stable/0.223.4/Zed-aarch64.dmg"
+    },
+    {
+      "date": "2026-02-17T16:23:10Z",
+      "appName": "Postman",
+      "slug": "postman/darwin",
+      "platform": "darwin",
+      "oldVersion": "11.84.3",
+      "newVersion": "11.85.1",
+      "installerUrl": "https://dl.pstmn.io/download/version/11.85.1/osx_arm64"
+    },
+    {
+      "date": "2026-02-17T16:23:10Z",
+      "appName": "Notepad++",
+      "slug": "notepad++/windows",
+      "platform": "windows",
+      "oldVersion": "8.9.1",
+      "newVersion": "8.9.2",
+      "installerUrl": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9.2/npp.8.9.2.Installer.x64.exe"
+    },
+    {
+      "date": "2026-02-17T16:23:10Z",
+      "appName": "Bruno",
+      "slug": "bruno/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.1.0",
+      "newVersion": "3.1.1",
+      "installerUrl": "https://github.com/usebruno/bruno/releases/download/v3.1.1/bruno_3.1.1_arm64_mac.dmg"
+    },
+    {
+      "date": "2026-02-17T16:23:10Z",
+      "appName": "Asana",
+      "slug": "asana/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.5.1",
+      "newVersion": "2.6.0",
+      "installerUrl": "https://desktop-downloads.asana.com/darwin_arm64/prod/v2.6.0/Asana-darwin-arm64-2.6.0.zip"
     }
   ]
 }
