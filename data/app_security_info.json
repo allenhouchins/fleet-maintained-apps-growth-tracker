@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-18T16:39:02Z",
+  "lastUpdated": "2026-02-18T16:46:12Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1639,9 +1639,12 @@
     {
       "slug": "sourcetree/darwin",
       "name": "SourceTree",
-      "version": "4.2.16",
-      "sha256": "24e75113ecd71808bbc5618d133c8f9444396fc3045aab6a9a2df98ed06ebbed",
-      "lastUpdated": "2026-01-08T22:12:54Z"
+      "version": "4.2.17",
+      "sha256": "0459e4cc95486f8450e8b5df23a4d9aa7e84dad62787959844416be9b361cddc",
+      "cdhash": "3f323894674437414a234cfda460a1f111b1f7ac",
+      "signingId": "UPXU4CQZ5P:com.torusknot.SourceTreeNotMAS",
+      "teamId": "UPXU4CQZ5P",
+      "lastUpdated": "2026-02-18T16:39:24Z"
     },
     {
       "slug": "sourcetree/windows",
@@ -1744,9 +1747,12 @@
     {
       "slug": "surfshark/darwin",
       "name": "Surfshark",
-      "version": "4.25.1",
-      "sha256": "15938e685141b14b4670bdfdf859e97e5a64dc96fcbc05727fa32343498f9d57",
-      "lastUpdated": "2026-01-06T22:09:38Z"
+      "version": "4.26.0",
+      "sha256": "a12420fea5dd533d60d5068277ef08e5cae6bdeceac84dcbf09a96dc6db44914",
+      "cdhash": "fe8a432d86115166baef914be2ccda31bb64c92a",
+      "signingId": "YHUG37CKN8:com.surfshark.vpnclient.macos.direct",
+      "teamId": "YHUG37CKN8",
+      "lastUpdated": "2026-02-18T16:39:49Z"
     },
     {
       "slug": "suspicious-package/darwin",
@@ -1832,29 +1838,38 @@
     {
       "slug": "teleport-connect/darwin",
       "name": "Teleport Connect",
-      "version": "18.6.8",
-      "sha256": "e08961d107260d59bb7241bffd3f30c187a13e1746782dc69978bec62169d38e",
-      "lastUpdated": "2026-02-11T04:56:40Z"
+      "version": "18.7.0",
+      "sha256": "b5cbadded37f453b638fee0e31ef4c1bc1d3cd3f37805ab0f36f795085caf7fc",
+      "cdhash": "a3bd09af6a3b3ad322b8274b6d7c66e8861c8a50",
+      "signingId": "QH8AA5B8UP:gravitational.teleport.connect",
+      "teamId": "QH8AA5B8UP",
+      "lastUpdated": "2026-02-18T16:40:16Z"
     },
     {
       "slug": "teleport-suite/darwin",
       "name": "Teleport Suite",
-      "version": "18.6.8",
-      "lastUpdated": "2026-02-11T05:00:39Z",
+      "version": "18.7.0",
+      "lastUpdated": "2026-02-18T16:44:35Z",
       "apps": [
         {
           "slug": "teleport-suite/darwin/tsh",
           "name": "tsh",
-          "version": "18.6.8",
-          "sha256": "9a8bc28850ebfde7cb477c084598ec81f7f877bc6c236c3a2ae149611441f5f6",
-          "lastUpdated": "2026-02-11T05:00:58Z"
+          "version": "18.7.0",
+          "sha256": "912a26485a15b0b3023669d0fc51beee29e369365faaf26d8b3b07f98b284afd",
+          "cdhash": "9cc6d7ec21b387dcc0142361b8f3701690be4ba0",
+          "signingId": "QH8AA5B8UP:QH8AA5B8UP.com.gravitational.teleport.tsh",
+          "teamId": "QH8AA5B8UP",
+          "lastUpdated": "2026-02-18T16:44:54Z"
         },
         {
           "slug": "teleport-suite/darwin/tctl",
           "name": "tctl",
-          "version": "18.6.8",
-          "sha256": "86a7d046890e27a82db777a93ba6fa71780c68524496957fa1f240332e887145",
-          "lastUpdated": "2026-02-11T05:01:13Z"
+          "version": "18.7.0",
+          "sha256": "4a398b057fed79f9e2b17b500187de7189fad552c89d42872049d14f2767f3bb",
+          "cdhash": "e48d2184fcbcef3793713af5addc3da9aee01f4b",
+          "signingId": "QH8AA5B8UP:QH8AA5B8UP.com.gravitational.teleport.tctl",
+          "teamId": "QH8AA5B8UP",
+          "lastUpdated": "2026-02-18T16:45:10Z"
         }
       ]
     },
@@ -2042,9 +2057,12 @@
     {
       "slug": "windsurf/darwin",
       "name": "Windsurf",
-      "version": "1.9552.21",
-      "sha256": "721831f92919eea7e4e53997616e8f6b27f0197cc2587c7a6dbdd1504ac5295b",
-      "lastUpdated": "2026-02-13T16:32:17Z"
+      "version": "1.9552.24",
+      "sha256": "7e028f6d0f282b888ca9810f5a4058620824673b754d06b1c2591af3e7d90c1b",
+      "cdhash": "cc6bf0c71ae56d2398714fd2ff3eb20c45947ccf",
+      "signingId": "83Z2LHX6XW:com.exafunction.windsurf",
+      "teamId": "83Z2LHX6XW",
+      "lastUpdated": "2026-02-18T16:45:45Z"
     },
     {
       "slug": "wireshark-app/darwin",
@@ -2101,12 +2119,12 @@
     {
       "slug": "zed/darwin",
       "name": "Zed",
-      "version": "0.223.4",
-      "sha256": "9b85c18ccbe6f7dca68c22122adb21523876a2dc56961b7ee025d2fc491924dc",
-      "cdhash": "d46eefab6e5d262318e9e745a53f9932ee1cc809",
+      "version": "0.223.5",
+      "sha256": "776b589b2aef1094b0672837cee2e0304752e790b841663b6eade341f5c0a822",
+      "cdhash": "2756beaf4c2de8075a615a51a1c9244e1ef49a88",
       "signingId": "MQ55VZLNZQ:dev.zed.Zed",
       "teamId": "MQ55VZLNZQ",
-      "lastUpdated": "2026-02-17T16:26:55Z"
+      "lastUpdated": "2026-02-18T16:46:10Z"
     },
     {
       "slug": "zeplin/darwin",
