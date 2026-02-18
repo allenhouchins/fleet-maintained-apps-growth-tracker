@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-18T16:30:11Z",
+  "lastUpdated": "2026-02-18T16:39:02Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -524,9 +524,12 @@
     {
       "slug": "coteditor/darwin",
       "name": "CotEditor",
-      "version": "6.2.2",
-      "sha256": "03d9cb0a33bb620bd6dd013592d8d604f7c3956f8171056095cb2759fdc6984a",
-      "lastUpdated": "2026-01-29T16:17:42Z"
+      "version": "6.2.3",
+      "sha256": "c95f7c2e8df5c1ce604471b213da40c87bbb8d28038e73f6138eb90b532592fd",
+      "cdhash": "66cf485a1912aaffc2b7d9a0ca657b61d5662fa4",
+      "signingId": "HT3Z3A72WZ:com.coteditor.CotEditor",
+      "teamId": "HT3Z3A72WZ",
+      "lastUpdated": "2026-02-18T16:30:33Z"
     },
     {
       "slug": "crashplan/darwin",
@@ -664,9 +667,12 @@
     {
       "slug": "discord/darwin",
       "name": "Discord",
-      "version": "0.0.376",
-      "sha256": "57f5801f84f1e057ee4fb107798cd9634f3ccec5b0d56f7d63168ea4491cb38b",
-      "lastUpdated": "2026-02-10T19:31:35Z"
+      "version": "0.0.377",
+      "sha256": "2f51ad7cfabf5b60957b220c80fc200ec32e79b27ec47c90683c21a60e831755",
+      "cdhash": "b446f44b68dc49f1aaca2ad56faca7c36553f8a6",
+      "signingId": "53Q6R32WPB:com.hnc.Discord",
+      "teamId": "53Q6R32WPB",
+      "lastUpdated": "2026-02-18T16:31:03Z"
     },
     {
       "slug": "discord/windows",
@@ -772,9 +778,12 @@
     {
       "slug": "figma/darwin",
       "name": "Figma",
-      "version": "126.0.4",
-      "sha256": "d7bd30b7e26bb348ea82ccbd3eab2162eaaa348256481c33287387a89a1f8f22",
-      "lastUpdated": "2026-01-28T19:16:48Z"
+      "version": "126.1.2",
+      "sha256": "d7b6be7f4ab37b15f62536a44562df6b03ce96ae3d27f7b2b26092d2c1468ab1",
+      "cdhash": "71012c64d074fc8353e9dee405084e79f3115169",
+      "signingId": "T8RA8NE3B7:com.figma.Desktop",
+      "teamId": "T8RA8NE3B7",
+      "lastUpdated": "2026-02-18T16:31:32Z"
     },
     {
       "slug": "figma/windows",
@@ -860,9 +869,12 @@
     {
       "slug": "github/darwin",
       "name": "GitHub Desktop",
-      "version": "3.5.4",
-      "sha256": "65255bd4ba9c785357333162997f19119b470e422612895de744ffe54cf37aef",
-      "lastUpdated": "2025-12-20T06:48:06Z"
+      "version": "3.5.5",
+      "sha256": "f1e56dd6cf82a821b400e3c2e5993bd40292961abe9bb830119543665144c63a",
+      "cdhash": "1ee151f214416fa9294a15525b26729128d053af",
+      "signingId": "VEKTX9H2N7:com.github.GitHubClient",
+      "teamId": "VEKTX9H2N7",
+      "lastUpdated": "2026-02-18T16:32:03Z"
     },
     {
       "slug": "gitkraken/darwin",
@@ -1161,9 +1173,12 @@
     {
       "slug": "microsoft-excel/darwin",
       "name": "Microsoft Excel",
-      "version": "16.106",
-      "sha256": "dc7e1f1accfd6e3d2ef2800cf4713383fc5f4cee8842e7b41a2515027ac756b4",
-      "lastUpdated": "2026-02-11T04:53:57Z"
+      "version": "16.106.26021521",
+      "sha256": "97e19c6f6a3fa56e3c3f23857aad71508b940c6e2583210f07bf574548897955",
+      "cdhash": "8710710d00bc72a0cba07cc09cc417d1dd57daa1",
+      "signingId": "UBF8T346G9:com.microsoft.Excel",
+      "teamId": "UBF8T346G9",
+      "lastUpdated": "2026-02-18T16:33:55Z"
     },
     {
       "slug": "microsoft-onenote/darwin",
@@ -1175,16 +1190,22 @@
     {
       "slug": "microsoft-outlook/darwin",
       "name": "Microsoft Outlook",
-      "version": "16.106.26020821",
-      "sha256": "1732bc13a5c4fef152c1c9fc40f882534fc056b852c65971f8cc4ba87659a11f",
-      "lastUpdated": "2026-02-11T00:46:34Z"
+      "version": "16.106.26021521",
+      "sha256": "3134c565a1ba05dd17294008a6eab3fa672254d8a705c0e94c9df574715b8dcc",
+      "cdhash": "db9cf20b5d1fb9be400fb0f49d930f20f8cd700e",
+      "signingId": "UBF8T346G9:com.microsoft.Outlook",
+      "teamId": "UBF8T346G9",
+      "lastUpdated": "2026-02-18T16:35:37Z"
     },
     {
       "slug": "microsoft-powerpoint/darwin",
       "name": "Microsoft PowerPoint",
-      "version": "16.106.26020821",
-      "sha256": "7db3236d7fa35babca5665ad464d6d1f3069dcec55bb2ca7b5a96a02c71407cd",
-      "lastUpdated": "2026-02-11T00:47:57Z"
+      "version": "16.106.26021521",
+      "sha256": "955a86aef32f6d42c26f59c0e6dfd87b6bb57465fe700c25a485ccee0fc43a0c",
+      "cdhash": "1c825aa667aac9a82c1887733eb871bc5e162a53",
+      "signingId": "UBF8T346G9:com.microsoft.Powerpoint",
+      "teamId": "UBF8T346G9",
+      "lastUpdated": "2026-02-18T16:36:57Z"
     },
     {
       "slug": "microsoft-teams/darwin",
@@ -1208,9 +1229,12 @@
     {
       "slug": "microsoft-word/darwin",
       "name": "Microsoft Word",
-      "version": "16.106",
-      "sha256": "a029a62ef0d438f5018b37f9d62821f025914e6c71f32f4530dc57081a7dff46",
-      "lastUpdated": "2026-02-11T04:56:04Z"
+      "version": "16.106.26021521",
+      "sha256": "561fefd632f6af67721f08f85e004e4b080538996ea874edb27709c6cf366b8a",
+      "cdhash": "132de4f10a2c55e5f3d1d55c0c71a415cd7874bd",
+      "signingId": "UBF8T346G9:com.microsoft.Word",
+      "teamId": "UBF8T346G9",
+      "lastUpdated": "2026-02-18T16:38:27Z"
     },
     {
       "slug": "miro/darwin",
@@ -1276,9 +1300,12 @@
     {
       "slug": "notion/darwin",
       "name": "Notion",
-      "version": "7.4.0",
-      "sha256": "2f8f80f5f07728d248a098f0e321e1caabff611a4d4cff004cdbe162c09f1812",
-      "lastUpdated": "2026-02-10T19:38:57Z"
+      "version": "7.5.0",
+      "sha256": "b51079ce7ae164800238786ed27832ec3c0598c8abea4e0f7751667586bc4f70",
+      "cdhash": "93fedbf3bdbfc96ad227011bda3f4a4b20cfbc6e",
+      "signingId": "LBQJ96FQ8D:notion.id",
+      "teamId": "LBQJ96FQ8D",
+      "lastUpdated": "2026-02-18T16:39:00Z"
     },
     {
       "slug": "notion/windows",
