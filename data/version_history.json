@@ -1,51 +1,6 @@
 {
   "changes": [
     {
-      "date": "2025-11-19T05:16:55Z",
-      "appName": "Signal",
-      "slug": "signal/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "7.79.0",
-      "installerUrl": "https://updates.signal.org/desktop/signal-desktop-mac-arm64-7.79.0.zip"
-    },
-    {
-      "date": "2025-11-19T04:34:15Z",
-      "appName": "Opera",
-      "slug": "opera/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "124.0.5705.15",
-      "installerUrl": "https://get.geo.opera.com/pub/opera/desktop/124.0.5705.15/mac/Opera_124.0.5705.15_Setup.dmg"
-    },
-    {
-      "date": "2025-11-19T03:02:21Z",
-      "appName": "Dropbox",
-      "slug": "dropbox/darwin",
-      "platform": "darwin",
-      "oldVersion": "236.4.5918",
-      "newVersion": "237.4.5655",
-      "installerUrl": "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20237.4.5655.arm64.dmg"
-    },
-    {
-      "date": "2025-11-19T03:02:21Z",
-      "appName": "Google Chrome",
-      "slug": "google-chrome/windows",
-      "platform": "windows",
-      "oldVersion": "142.0.7444.163",
-      "newVersion": "142.0.7444.176",
-      "installerUrl": "https://dl.google.com/release2/chrome/bbr6qt3xcagrgxijuicelipp7a_142.0.7444.176/142.0.7444.176_chrome_installer_uncompressed.exe"
-    },
-    {
-      "date": "2025-11-19T03:02:21Z",
-      "appName": "Canva",
-      "slug": "canva/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "1.119.0",
-      "installerUrl": "https://desktop-release.canva.com/Canva-1.119.0-universal.dmg"
-    },
-    {
       "date": "2025-11-19T01:53:34Z",
       "appName": "Google Drive",
       "slug": "google-drive/darwin",
@@ -8999,6 +8954,51 @@
       "oldVersion": "16.106.26020821",
       "newVersion": "16.106.26021521",
       "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.106.26021521_Installer.pkg"
+    },
+    {
+      "date": "2026-02-18T19:24:26Z",
+      "appName": "Bruno",
+      "slug": "bruno/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.1.1",
+      "newVersion": "3.1.2",
+      "installerUrl": "https://github.com/usebruno/bruno/releases/download/v3.1.2/bruno_3.1.2_arm64_mac.dmg"
+    },
+    {
+      "date": "2026-02-18T19:24:26Z",
+      "appName": "Adobe Acrobat Reader",
+      "slug": "adobe-acrobat-reader/windows",
+      "platform": "windows",
+      "oldVersion": "25.001.21208",
+      "newVersion": "25.001.21223",
+      "installerUrl": "https://ardownload2.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2500121223/AcroRdrDCx642500121223_MUI.exe"
+    },
+    {
+      "date": "2026-02-18T19:24:26Z",
+      "appName": "Opera",
+      "slug": "opera/darwin",
+      "platform": "darwin",
+      "oldVersion": "127.0.5778.64",
+      "newVersion": "127.0.5778.76",
+      "installerUrl": "https://get.geo.opera.com/pub/opera/desktop/127.0.5778.76/mac/Opera_127.0.5778.76_Setup.dmg"
+    },
+    {
+      "date": "2026-02-18T19:24:26Z",
+      "appName": "WhatsApp",
+      "slug": "whatsapp/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.7.18",
+      "newVersion": "26.7.19",
+      "installerUrl": "https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release\u0026src=whatsapp_downloads_page"
+    },
+    {
+      "date": "2026-02-18T19:24:26Z",
+      "appName": "Docker Desktop",
+      "slug": "docker-desktop/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.60.1",
+      "newVersion": "4.61.0",
+      "installerUrl": "https://desktop.docker.com/mac/main/arm64/219004/Docker.dmg"
     }
   ]
 }
