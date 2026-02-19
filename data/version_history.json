@@ -1,141 +1,6 @@
 {
   "changes": [
     {
-      "date": "2025-11-19T01:53:34Z",
-      "appName": "Mozilla Firefox",
-      "slug": "firefox/windows",
-      "platform": "windows",
-      "oldVersion": "145.0",
-      "newVersion": "145.0.1",
-      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/145.0.1/win64/en-US/Firefox%20Setup%20145.0.1.exe"
-    },
-    {
-      "date": "2025-11-19T01:53:34Z",
-      "appName": "Microsoft Edge",
-      "slug": "microsoft-edge/darwin",
-      "platform": "darwin",
-      "oldVersion": "142.0.3595.80",
-      "newVersion": "142.0.3595.90",
-      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/134800ab-5cba-4f5f-8716-baa1e92fdd0f/MicrosoftEdge-142.0.3595.90.dmg"
-    },
-    {
-      "date": "2025-11-19T01:53:34Z",
-      "appName": "Google Drive",
-      "slug": "google-drive/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "116.0.6.0",
-      "installerUrl": "https://dl.google.com/release2/drive-file-stream/dsiupwjcww5gzroykb7fpxic4q_116.0.6.0/setup.exe"
-    },
-    {
-      "date": "2025-11-19T01:53:34Z",
-      "appName": "Brave",
-      "slug": "brave-browser/darwin",
-      "platform": "darwin",
-      "oldVersion": "142.1.84.139",
-      "newVersion": "142.1.84.141",
-      "installerUrl": "https://updates-cdn.bravesoftware.com/sparkle/Brave-Browser/stable-arm64/184.141/Brave-Browser-arm64.dmg"
-    },
-    {
-      "date": "2025-12-01T04:26:09Z",
-      "appName": "Webex",
-      "slug": "webex/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "45.11.1.33570",
-      "installerUrl": "https://binaries.webex.com/WebexDesktop-Win-64-Gold/20251120141634/Webex.msi"
-    },
-    {
-      "date": "2025-12-01T15:07:42Z",
-      "appName": "Little Snitch",
-      "slug": "little-snitch/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "6.3.3",
-      "installerUrl": "https://www.obdev.at/downloads/littlesnitch/LittleSnitch-6.3.3.dmg"
-    },
-    {
-      "date": "2025-12-01T16:09:03Z",
-      "appName": "Citrix Workspace",
-      "slug": "citrix-workspace/darwin",
-      "platform": "darwin",
-      "oldVersion": "25.08.10",
-      "newVersion": "25.08.10.31",
-      "installerUrl": "https://downloadplugins.citrix.com/ReceiverUpdates/Prod/Receiver/Mac/CitrixWorkspaceAppUniversal25.08.10.31.pkg"
-    },
-    {
-      "date": "2025-12-01T16:09:03Z",
-      "appName": "Twingate",
-      "slug": "twingate/darwin",
-      "platform": "darwin",
-      "oldVersion": "2025.327",
-      "newVersion": "2025.327.21336",
-      "installerUrl": "https://binaries.twingate.com/client/macos/2025.327.21336/Twingate.pkg"
-    },
-    {
-      "date": "2025-12-01T17:08:34Z",
-      "appName": "Tailscale",
-      "slug": "tailscale/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "1.90.9",
-      "installerUrl": "https://pkgs.tailscale.com/stable/tailscale-setup-1.90.9-amd64.msi"
-    },
-    {
-      "date": "2025-12-01T17:08:34Z",
-      "appName": "GitHub Desktop",
-      "slug": "github-desktop/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "3.5.4",
-      "installerUrl": "https://desktop.githubusercontent.com/releases/3.5.4-9dfb8d8d/GitHubDesktopSetup-x64.msi"
-    },
-    {
-      "date": "2025-12-01T17:28:21Z",
-      "appName": "Android Studio",
-      "slug": "android-studio/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "2025.2",
-      "installerUrl": "https://redirector.gvt1.com/edgedl/android/studio/install/2025.2.1.8/android-studio-2025.2.1.8-mac_arm.dmg"
-    },
-    {
-      "date": "2025-12-01T18:09:36Z",
-      "appName": "Zoom",
-      "slug": "zoom/windows",
-      "platform": "windows",
-      "oldVersion": "6.6.22255",
-      "newVersion": "6.6.23272",
-      "installerUrl": "https://zoom.us/client/6.6.11.23272/ZoomInstallerFull.msi?archType=x64"
-    },
-    {
-      "date": "2025-12-01T18:09:36Z",
-      "appName": "Sublime Text",
-      "slug": "sublime-text/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "4.0.0.420000",
-      "installerUrl": "https://download.sublimetext.com/sublime_text_build_4200_x64_setup.exe"
-    },
-    {
-      "date": "2025-12-01T18:09:36Z",
-      "appName": "Zoom",
-      "slug": "zoom/darwin",
-      "platform": "darwin",
-      "oldVersion": "6.6.10.69071",
-      "newVersion": "6.6.11.70003",
-      "installerUrl": "https://cdn.zoom.us/prod/6.6.11.70003/ZoomInstallerIT.pkg"
-    },
-    {
-      "date": "2025-12-01T18:09:36Z",
-      "appName": "Android Studio",
-      "slug": "android-studio/darwin",
-      "platform": "darwin",
-      "oldVersion": "2025.2",
-      "newVersion": "2025.2.1.8",
-      "installerUrl": "https://redirector.gvt1.com/edgedl/android/studio/install/2025.2.1.8/android-studio-2025.2.1.8-mac_arm.dmg"
-    },
-    {
       "date": "2025-12-01T18:09:36Z",
       "appName": "Cursor",
       "slug": "cursor/darwin",
@@ -8999,6 +8864,141 @@
       "oldVersion": "",
       "newVersion": "4.1.5",
       "installerUrl": "https://github.com/waydabber/BetterDisplay/releases/download/v4.1.5/BetterDisplay-v4.1.5.dmg"
+    },
+    {
+      "date": "2026-02-19T19:20:30Z",
+      "appName": "Signal",
+      "slug": "signal/darwin",
+      "platform": "darwin",
+      "oldVersion": "7.89.0",
+      "newVersion": "7.90.0",
+      "installerUrl": "https://updates.signal.org/desktop/signal-desktop-mac-arm64-7.90.0.zip"
+    },
+    {
+      "date": "2026-02-19T19:20:30Z",
+      "appName": "CrashPlan",
+      "slug": "crashplan/windows",
+      "platform": "windows",
+      "oldVersion": "11.8.0.609",
+      "newVersion": "11.9.0.507",
+      "installerUrl": "https://download.crashplan.com/installs/agent/cloud/11.9.0/507/install/CrashPlan_11.9.0_507_Win64.msi"
+    },
+    {
+      "date": "2026-02-19T19:20:30Z",
+      "appName": "ChatGPT Desktop",
+      "slug": "chatgpt/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.2026.027",
+      "newVersion": "1.2026.041",
+      "installerUrl": "https://persistent.oaistatic.com/sidekick/public/ChatGPT_Desktop_public_1.2026.041_1771039076.dmg"
+    },
+    {
+      "date": "2026-02-19T19:20:30Z",
+      "appName": "Dropbox",
+      "slug": "dropbox/darwin",
+      "platform": "darwin",
+      "oldVersion": "241.4.4853",
+      "newVersion": "242.4.5815",
+      "installerUrl": "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20242.4.5815.arm64.dmg"
+    },
+    {
+      "date": "2026-02-19T19:20:30Z",
+      "appName": "Postman",
+      "slug": "postman/windows",
+      "platform": "windows",
+      "oldVersion": "11.84.3",
+      "newVersion": "11.85.1",
+      "installerUrl": "https://dl.pstmn.io/download/version/11.85.1/windows_64"
+    },
+    {
+      "date": "2026-02-19T19:20:30Z",
+      "appName": "ChatGPT Atlas",
+      "slug": "chatgpt-atlas/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.2026.35.5",
+      "newVersion": "1.2026.42.5",
+      "installerUrl": "https://persistent.oaistatic.com/atlas/public/ChatGPT_Atlas_Desktop_public_1.2026.42.5_20260218044738000.dmg"
+    },
+    {
+      "date": "2026-02-19T19:20:30Z",
+      "appName": "Claude",
+      "slug": "claude/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.1.3363",
+      "newVersion": "1.1.3541",
+      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.1.3541/Claude-1e65e4f0a2acc921b2009fc1216fc2b78cd93d18.zip"
+    },
+    {
+      "date": "2026-02-19T19:20:30Z",
+      "appName": "Slack",
+      "slug": "slack/windows",
+      "platform": "windows",
+      "oldVersion": "4.48.92",
+      "newVersion": "4.48.94",
+      "installerUrl": "https://downloads.slack-edge.com/desktop-releases/windows/x64/4.48.94/slack-standalone-4.48.94.0.msi"
+    },
+    {
+      "date": "2026-02-19T19:20:30Z",
+      "appName": "Slack",
+      "slug": "slack/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.48.92",
+      "newVersion": "4.48.94",
+      "installerUrl": "https://slack.com/api/desktop.latestRelease?redirect=1\u0026variant=pkg\u0026arch=universal"
+    },
+    {
+      "date": "2026-02-19T19:20:30Z",
+      "appName": "GoLand",
+      "slug": "goland/darwin",
+      "platform": "darwin",
+      "oldVersion": "2025.3.2",
+      "newVersion": "2025.3.3",
+      "installerUrl": "https://download.jetbrains.com/go/goland-2025.3.3-aarch64.dmg"
+    },
+    {
+      "date": "2026-02-19T19:20:30Z",
+      "appName": "Loom",
+      "slug": "loom/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.334.2",
+      "newVersion": "0.334.3",
+      "installerUrl": "https://packages.loom.com/desktop-packages/Loom-0.334.3-arm64.dmg"
+    },
+    {
+      "date": "2026-02-19T19:20:30Z",
+      "appName": "Adobe Acrobat Reader",
+      "slug": "adobe-acrobat-reader/darwin",
+      "platform": "darwin",
+      "oldVersion": "25.001.21111",
+      "newVersion": "25.001.21223",
+      "installerUrl": "https://ardownload2.adobe.com/pub/adobe/reader/mac/AcrobatDC/2500121223/AcroRdrDC_2500121223_MUI.dmg"
+    },
+    {
+      "date": "2026-02-19T19:20:30Z",
+      "appName": "CrashPlan",
+      "slug": "crashplan/darwin",
+      "platform": "darwin",
+      "oldVersion": "11.8.0",
+      "newVersion": "11.9.0",
+      "installerUrl": "https://download.crashplan.com/installs/agent/cloud/11.9.0/507/install/CrashPlan_11.9.0_507_Mac.dmg"
+    },
+    {
+      "date": "2026-02-19T19:20:30Z",
+      "appName": "Company Portal",
+      "slug": "intune-company-portal/darwin",
+      "platform": "darwin",
+      "oldVersion": "5.2511.0",
+      "newVersion": "5.2601.0",
+      "installerUrl": "https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/CompanyPortal_5.2601.0-Upgrade.pkg"
+    },
+    {
+      "date": "2026-02-19T19:20:30Z",
+      "appName": "Zed",
+      "slug": "zed/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.223.5",
+      "newVersion": "0.224.6",
+      "installerUrl": "https://zed.dev/api/releases/stable/0.224.6/Zed-aarch64.dmg"
     }
   ]
 }
