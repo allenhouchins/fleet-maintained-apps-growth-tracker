@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-19T04:41:59Z",
+  "lastUpdated": "2026-02-19T19:31:47Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -203,9 +203,6 @@
       "name": "Arc",
       "version": "1.134.1",
       "sha256": "3a7699bc9dd28caaf00332e50b79f5c4fa6af1f1ee630d22e251ac29f620a54d",
-      "cdhash": "1fc729c12522a48ea3e6ec06efe01a1701030e25",
-      "signingId": "S6N382Y83G:company.thebrowser.Browser",
-      "teamId": "S6N382Y83G",
       "lastUpdated": "2026-02-18T14:28:01Z"
     },
     {
@@ -220,9 +217,6 @@
       "name": "Asana",
       "version": "2.6.0",
       "sha256": "e92ae9b37592e216dd76bd692e7f99d2b5f763b9b8f376a2f6580d6c09ac1e5d",
-      "cdhash": "ffddba94b789cf97f06c4359c8d96ce99611fec6",
-      "signingId": "A679L395M8:com.electron.asana",
-      "teamId": "A679L395M8",
       "lastUpdated": "2026-02-17T16:24:49Z"
     },
     {
@@ -256,9 +250,6 @@
       "name": "AWS Client VPN",
       "version": "5.3.4",
       "sha256": "509921deefb6fc03a1a930a7e0b5a7710247c5257450c0654e8c55d5907bb6c6",
-      "cdhash": "60d99bc252c7d42ea8daf6a0c3b5986b5b3b8dc2",
-      "signingId": "94KV3E626L:com.amazonaws.acvc.osx",
-      "teamId": "94KV3E626L",
       "lastUpdated": "2026-02-18T16:28:20Z"
     },
     {
@@ -273,9 +264,6 @@
       "name": "BBEdit",
       "version": "15.5.5",
       "sha256": "2d17a6f967dbd7992eeccb1b4c90880d658b432b8aadfdaec58bfe1f6f43c909",
-      "cdhash": "2376207413580ffa753695c9f588985b4c95c03b",
-      "signingId": "W52GZAXT98:com.barebones.bbedit",
-      "teamId": "W52GZAXT98",
       "lastUpdated": "2026-02-18T14:28:27Z"
     },
     {
@@ -283,9 +271,6 @@
       "name": "BetterDisplay",
       "version": "4.1.5",
       "sha256": "c92751faa5ec76486a0a34a01aedabf533b7bfd7ea3fc073f210a574c5f2416c",
-      "cdhash": "2cb2831f2dd27a20f198d9455c316e8de2642b6c",
-      "signingId": "299YSU96J7:pro.betterdisplay.BetterDisplay",
-      "teamId": "299YSU96J7",
       "lastUpdated": "2026-02-19T04:41:57Z"
     },
     {
@@ -345,9 +330,6 @@
       "name": "Brave",
       "version": "145.1.87.188",
       "sha256": "f14ec913e1649fddb369867570d0eb29410a829900630329fb3bb4082755c3f4",
-      "cdhash": "3f02b98b1f1bb6e8a1527f03a6d0406d73eb9b42",
-      "signingId": "KL8N8XSYF4:com.brave.Browser",
-      "teamId": "KL8N8XSYF4",
       "lastUpdated": "2026-02-16T01:39:53Z"
     },
     {
@@ -367,9 +349,6 @@
       "name": "Bruno",
       "version": "3.1.2",
       "sha256": "1cbacbb21ebe20616b14bf459406d718774429b266ee386cc253d41ec3d48c19",
-      "cdhash": "f0dbeb1b6523aa9b9785083487e2ac4b5f65dc24",
-      "signingId": "W7LPPWA48L:com.usebruno.app",
-      "teamId": "W7LPPWA48L",
       "lastUpdated": "2026-02-18T19:25:58Z"
     },
     {
@@ -410,9 +389,6 @@
       "name": "ChatGPT Atlas",
       "version": "1.2026.35.5",
       "sha256": "4d01920b2db7a429eccbabab1167aeb446e348a243418496fc6b5cb4d596531d",
-      "cdhash": "989d0f851b68059df10aaaea1f1fb91df9968ac1",
-      "signingId": "2DC432GLL2:com.openai.atlas",
-      "teamId": "2DC432GLL2",
       "lastUpdated": "2026-02-16T01:41:35Z"
     },
     {
@@ -453,9 +429,6 @@
       "name": "Claude",
       "version": "1.1.3363",
       "sha256": "981976454c758460f4ca18252a876f9d64ef5a743354604608fde03627c6a28e",
-      "cdhash": "7169ddeca46a1f4a16799907ec021cde4acf2cc6",
-      "signingId": "Q6L2SF6YDW:com.anthropic.claudefordesktop",
-      "teamId": "Q6L2SF6YDW",
       "lastUpdated": "2026-02-18T14:29:05Z"
     },
     {
@@ -536,9 +509,6 @@
       "name": "CotEditor",
       "version": "6.2.3",
       "sha256": "c95f7c2e8df5c1ce604471b213da40c87bbb8d28038e73f6138eb90b532592fd",
-      "cdhash": "66cf485a1912aaffc2b7d9a0ca657b61d5662fa4",
-      "signingId": "HT3Z3A72WZ:com.coteditor.CotEditor",
-      "teamId": "HT3Z3A72WZ",
       "lastUpdated": "2026-02-18T16:30:33Z"
     },
     {
@@ -551,23 +521,20 @@
     {
       "slug": "crashplan/windows",
       "name": "CrashPlan",
-      "version": "11.8.0.609",
-      "sha256": "be0953f5b939d035350254dac67f7a0605fdecd949a7c62f89633d97e65dfcaf",
+      "version": "11.9.0.507",
+      "sha256": "777629ee7dc62705eb2967dec0d14491aaba7debfbe84991f2e1bfa73ccf19c1",
       "publisher": "CN=CrashPlan Group LLC, O=CrashPlan Group LLC, L=Minneapolis, S=Minnesota, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0F73BA2A71FA7B959B05B8D97E5C50A0",
       "thumbprint": "330A4484DEEA95A7ACCB8E01635AC63F7908E5CC",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2025-12-25T01:44:27Z"
+      "lastUpdated": "2026-02-19T19:31:47Z"
     },
     {
       "slug": "cursor/darwin",
       "name": "Cursor",
       "version": "2.5.17",
       "sha256": "6150c6c6bd563b49b63cdffdbff62b372feb3a59958ac10a4e30d7d5a45545f7",
-      "cdhash": "67675d9a732ed37e81f7e2df70298eaaee38a2f0",
-      "signingId": "VDXQ22DGB9:com.todesktop.230313mzl4w4u92",
-      "teamId": "VDXQ22DGB9",
       "lastUpdated": "2026-02-18T14:30:18Z"
     },
     {
@@ -627,9 +594,6 @@
       "name": "DBeaver",
       "version": "25.3.5",
       "sha256": "2e4050005f48919ea948adba8623d204227b03d652662c98ad8b49772104b952",
-      "cdhash": "094925f29ec1d542a7faad0cee28bfa8731de25d",
-      "signingId": "42B6MDKMW8:org.jkiss.dbeaver.core.product",
-      "teamId": "42B6MDKMW8",
       "lastUpdated": "2026-02-16T01:43:06Z"
     },
     {
@@ -679,9 +643,6 @@
       "name": "Discord",
       "version": "0.0.377",
       "sha256": "2f51ad7cfabf5b60957b220c80fc200ec32e79b27ec47c90683c21a60e831755",
-      "cdhash": "b446f44b68dc49f1aaca2ad56faca7c36553f8a6",
-      "signingId": "53Q6R32WPB:com.hnc.Discord",
-      "teamId": "53Q6R32WPB",
       "lastUpdated": "2026-02-18T16:31:03Z"
     },
     {
@@ -708,9 +669,6 @@
       "name": "Docker Desktop",
       "version": "4.61.0",
       "sha256": "b34522344193449bf64741768540748739c2b556824628590f433ad841908b5a",
-      "cdhash": "bfdc20e0192c5acc5b86a13f800204d6f48e8801",
-      "signingId": "9BNSXJN65R:com.docker.docker",
-      "teamId": "9BNSXJN65R",
       "lastUpdated": "2026-02-18T19:27:06Z"
     },
     {
@@ -793,9 +751,6 @@
       "name": "Figma",
       "version": "126.1.2",
       "sha256": "d7b6be7f4ab37b15f62536a44562df6b03ce96ae3d27f7b2b26092d2c1468ab1",
-      "cdhash": "71012c64d074fc8353e9dee405084e79f3115169",
-      "signingId": "T8RA8NE3B7:com.figma.Desktop",
-      "teamId": "T8RA8NE3B7",
       "lastUpdated": "2026-02-18T16:31:32Z"
     },
     {
@@ -822,9 +777,6 @@
       "name": "Mozilla Firefox",
       "version": "147.0.4",
       "sha256": "21731282485e1267f1cff4336c22e90bd5262823b8f70321f97375d7e3be506f",
-      "cdhash": "c166bed5c6a94c3d66be92570544bfcda93bd54a",
-      "signingId": "43AQ936H96:org.mozilla.firefox",
-      "teamId": "43AQ936H96",
       "lastUpdated": "2026-02-17T03:07:47Z"
     },
     {
@@ -884,9 +836,6 @@
       "name": "GitHub Desktop",
       "version": "3.5.5",
       "sha256": "f1e56dd6cf82a821b400e3c2e5993bd40292961abe9bb830119543665144c63a",
-      "cdhash": "1ee151f214416fa9294a15525b26729128d053af",
-      "signingId": "VEKTX9H2N7:com.github.GitHubClient",
-      "teamId": "VEKTX9H2N7",
       "lastUpdated": "2026-02-18T16:32:03Z"
     },
     {
@@ -908,9 +857,6 @@
       "name": "Google Chrome",
       "version": "145.0.7632.76",
       "sha256": "75258131972a1352996ec85b67bcfbdb449b64cbc47770fb4531905b01c39a14",
-      "cdhash": "c8ac8f325e03bc3df4ac307632a51002dd60afed",
-      "signingId": "EQHXZ8M8AV:com.google.Chrome",
-      "teamId": "EQHXZ8M8AV",
       "lastUpdated": "2026-02-16T01:43:49Z"
     },
     {
@@ -956,9 +902,6 @@
       "name": "Grammarly Desktop",
       "version": "1.153.0.0",
       "sha256": "711ca93ac4fe4a6b5c058c50ecc98e09ccb898fa43014f41f903f44fa42d45f7",
-      "cdhash": "fd4069047233487e0a6da465839d1964d77a2109",
-      "signingId": "W8F64X92K3:com.grammarly.ProjectLlama",
-      "teamId": "W8F64X92K3",
       "lastUpdated": "2026-02-18T14:30:55Z"
     },
     {
@@ -1118,9 +1061,6 @@
       "name": "Loom",
       "version": "0.334.2",
       "sha256": "285c8082eb681eca994ae3c7bc1581d307fe926d4289ba808f1d4f417763efe5",
-      "cdhash": "32fb3ace98e4c40daad7b8834a1c825bc526d8d5",
-      "signingId": "QGD2ZPXZZG:com.loom.desktop",
-      "teamId": "QGD2ZPXZZG",
       "lastUpdated": "2026-02-18T14:34:58Z"
     },
     {
@@ -1156,9 +1096,6 @@
       "name": "Microsoft Auto Update",
       "version": "4.82.26020434",
       "sha256": "9071442ba9d59a2854fb332645e8372f8e431008bdce129b06836dd4faa6cfed",
-      "cdhash": "67d040dffd3c849d99f046b56872080e27fa951d",
-      "signingId": "UBF8T346G9:com.microsoft.edgemac",
-      "teamId": "UBF8T346G9",
       "lastUpdated": "2026-02-18T14:42:32Z"
     },
     {
@@ -1166,9 +1103,6 @@
       "name": "Microsoft Edge",
       "version": "145.0.3800.58",
       "sha256": "ee739dc660111a7a37306964de59260e26470562fa79efabb230881da151f51f",
-      "cdhash": "c7ca576e2882808b1a5f497e6cdc261229647d1d",
-      "signingId": "UBF8T346G9:com.microsoft.edgemac",
-      "teamId": "UBF8T346G9",
       "lastUpdated": "2026-02-16T01:44:53Z"
     },
     {
@@ -1188,9 +1122,6 @@
       "name": "Microsoft Excel",
       "version": "16.106.26021521",
       "sha256": "97e19c6f6a3fa56e3c3f23857aad71508b940c6e2583210f07bf574548897955",
-      "cdhash": "8710710d00bc72a0cba07cc09cc417d1dd57daa1",
-      "signingId": "UBF8T346G9:com.microsoft.Excel",
-      "teamId": "UBF8T346G9",
       "lastUpdated": "2026-02-18T16:33:55Z"
     },
     {
@@ -1205,9 +1136,6 @@
       "name": "Microsoft Outlook",
       "version": "16.106.26021521",
       "sha256": "3134c565a1ba05dd17294008a6eab3fa672254d8a705c0e94c9df574715b8dcc",
-      "cdhash": "db9cf20b5d1fb9be400fb0f49d930f20f8cd700e",
-      "signingId": "UBF8T346G9:com.microsoft.Outlook",
-      "teamId": "UBF8T346G9",
       "lastUpdated": "2026-02-18T16:35:37Z"
     },
     {
@@ -1215,9 +1143,6 @@
       "name": "Microsoft PowerPoint",
       "version": "16.106.26021521",
       "sha256": "955a86aef32f6d42c26f59c0e6dfd87b6bb57465fe700c25a485ccee0fc43a0c",
-      "cdhash": "1c825aa667aac9a82c1887733eb871bc5e162a53",
-      "signingId": "UBF8T346G9:com.microsoft.Powerpoint",
-      "teamId": "UBF8T346G9",
       "lastUpdated": "2026-02-18T16:36:57Z"
     },
     {
@@ -1244,9 +1169,6 @@
       "name": "Microsoft Word",
       "version": "16.106.26021521",
       "sha256": "561fefd632f6af67721f08f85e004e4b080538996ea874edb27709c6cf366b8a",
-      "cdhash": "132de4f10a2c55e5f3d1d55c0c71a415cd7874bd",
-      "signingId": "UBF8T346G9:com.microsoft.Word",
-      "teamId": "UBF8T346G9",
       "lastUpdated": "2026-02-18T16:38:27Z"
     },
     {
@@ -1315,9 +1237,6 @@
       "name": "Notion",
       "version": "7.5.0",
       "sha256": "b51079ce7ae164800238786ed27832ec3c0598c8abea4e0f7751667586bc4f70",
-      "cdhash": "93fedbf3bdbfc96ad227011bda3f4a4b20cfbc6e",
-      "signingId": "LBQJ96FQ8D:notion.id",
-      "teamId": "LBQJ96FQ8D",
       "lastUpdated": "2026-02-18T16:39:00Z"
     },
     {
@@ -1337,9 +1256,6 @@
       "name": "Nova",
       "version": "13.4",
       "sha256": "9ec7f334dbc1ebf95bd7c52f6b69778479f5f2e3746972b0a64b8c94b69a9a16",
-      "cdhash": "a4bbdbf84ccaa2ba70d379bae75b1049f277cd4a",
-      "signingId": "VE8FC488U5:com.panic.Nova",
-      "teamId": "VE8FC488U5",
       "lastUpdated": "2026-02-18T14:48:14Z"
     },
     {
@@ -1408,9 +1324,6 @@
       "name": "Opera",
       "version": "127.0.5778.76",
       "sha256": "7ec226e905dc75a73b5009e3245399368ce201669a29098c564729287ea5b326",
-      "cdhash": "8c6a638c9ae525a1c0fab59fa01af04d043b7249",
-      "signingId": "A2P9LX4JPN:com.operasoftware.Opera",
-      "teamId": "A2P9LX4JPN",
       "lastUpdated": "2026-02-18T19:27:58Z"
     },
     {
@@ -1460,9 +1373,6 @@
       "name": "Postman",
       "version": "11.85.1",
       "sha256": "8079ad236821487e4cca692fe1a85c0a1fcee663f77e0f15ec5d22b1feaf11e0",
-      "cdhash": "26e57eb93d1321c4e32043f0aa2a08a8e447e04d",
-      "signingId": "H7H8Q7M5CK:com.postmanlabs.mac",
-      "teamId": "H7H8Q7M5CK",
       "lastUpdated": "2026-02-17T16:25:52Z"
     },
     {
@@ -1531,9 +1441,6 @@
       "name": "Quip",
       "version": "9.32.7",
       "sha256": "ace9fbe2df8b898ca2142a9d03ff3d1afd5b10d67e99b7c8b703268a2d343f9a",
-      "cdhash": "33f82b607c20d8bd66454dc5b356521af4e26311",
-      "signingId": "FMRT79K8DG:com.quip.Desktop",
-      "teamId": "FMRT79K8DG",
       "lastUpdated": "2026-02-16T01:46:02Z"
     },
     {
@@ -1625,9 +1532,6 @@
       "name": "Slack",
       "version": "4.48.92",
       "sha256": "5dcab50482a0a6e4d755187444b7aff418202ae6e241b421baa387eb6dbe187c",
-      "cdhash": "b81ef47c4fffa24331732d574dad0d66a8ec6e6d",
-      "signingId": "BQR82RBBHL:com.tinyspeck.slackmacgap",
-      "teamId": "BQR82RBBHL",
       "lastUpdated": "2026-02-16T01:46:41Z"
     },
     {
@@ -1654,9 +1558,6 @@
       "name": "SourceTree",
       "version": "4.2.17",
       "sha256": "0459e4cc95486f8450e8b5df23a4d9aa7e84dad62787959844416be9b361cddc",
-      "cdhash": "3f323894674437414a234cfda460a1f111b1f7ac",
-      "signingId": "UPXU4CQZ5P:com.torusknot.SourceTreeNotMAS",
-      "teamId": "UPXU4CQZ5P",
       "lastUpdated": "2026-02-18T16:39:24Z"
     },
     {
@@ -1685,9 +1586,6 @@
       "name": "Spotify",
       "version": "1.2.83.461",
       "sha256": "a3151786b9bb3b3b17a3968c3cf711c1695b04c382423cc0b4a26f3e63d3a068",
-      "cdhash": "7f798b486c632531be4fb38ffb092cf88ebf000e",
-      "signingId": "2FNC3A47ZF:com.spotify.client",
-      "teamId": "2FNC3A47ZF",
       "lastUpdated": "2026-02-16T01:47:19Z"
     },
     {
@@ -1707,9 +1605,6 @@
       "name": "Stats",
       "version": "2.11.67",
       "sha256": "3cb4ba9004016c2955d49e7a407f9db05d6502879761d665c0d144fd8909619f",
-      "cdhash": "bbfdfc1202dea49d5b521c24fec52483302978db",
-      "signingId": "RP2S87B72W:eu.exelban.Stats",
-      "teamId": "RP2S87B72W",
       "lastUpdated": "2026-02-16T01:47:40Z"
     },
     {
@@ -1762,9 +1657,6 @@
       "name": "Surfshark",
       "version": "4.26.0",
       "sha256": "a12420fea5dd533d60d5068277ef08e5cae6bdeceac84dcbf09a96dc6db44914",
-      "cdhash": "fe8a432d86115166baef914be2ccda31bb64c92a",
-      "signingId": "YHUG37CKN8:com.surfshark.vpnclient.macos.direct",
-      "teamId": "YHUG37CKN8",
       "lastUpdated": "2026-02-18T16:39:49Z"
     },
     {
@@ -1793,9 +1685,6 @@
       "name": "Tailscale",
       "version": "1.94.2",
       "sha256": "43998749909818fcecf22f99cbd2498fa692dd93be8a35c353c165e6ddacccb3",
-      "cdhash": "35f60263d11ed172374c9108df657851419b61bf",
-      "signingId": "W5364U7YZB:io.tailscale.ipn.macsys",
-      "teamId": "W5364U7YZB",
       "lastUpdated": "2026-02-16T01:48:11Z"
     },
     {
@@ -1853,9 +1742,6 @@
       "name": "Teleport Connect",
       "version": "18.7.0",
       "sha256": "b5cbadded37f453b638fee0e31ef4c1bc1d3cd3f37805ab0f36f795085caf7fc",
-      "cdhash": "a3bd09af6a3b3ad322b8274b6d7c66e8861c8a50",
-      "signingId": "QH8AA5B8UP:gravitational.teleport.connect",
-      "teamId": "QH8AA5B8UP",
       "lastUpdated": "2026-02-18T16:40:16Z"
     },
     {
@@ -1892,9 +1778,6 @@
       "name": "Thunderbird",
       "version": "147.0.2",
       "sha256": "bb66acde510b0cfb80072d0b5f89b24b1bd024dfa355de1b86ced15e5ecf98c8",
-      "cdhash": "3230117b5102c57ebd2150069ebecdb8051e3ca1",
-      "signingId": "43AQ936H96:org.mozilla.thunderbird",
-      "teamId": "43AQ936H96",
       "lastUpdated": "2026-02-17T03:11:38Z"
     },
     {
@@ -1902,9 +1785,6 @@
       "name": "Todoist",
       "version": "9.26.4",
       "sha256": "3ffe32828002aefaa201df477fd297e4c76d440ef418715ae05ca69f4ef2a46e",
-      "cdhash": "27bf082892739367f09e0a1068d1e75644bb930f",
-      "signingId": "S3DD273774:com.todoist.mac.Todoist",
-      "teamId": "S3DD273774",
       "lastUpdated": "2026-02-16T01:48:45Z"
     },
     {
@@ -1973,9 +1853,6 @@
       "name": "Microsoft Visual Studio Code",
       "version": "1.109.4",
       "sha256": "d86397e440d6abd283fdeff51d9e7a43da4fd9a53e09eea24cb294e2df0ab374",
-      "cdhash": "a5df3e6cf0fa41107133b1e98abc31f4cd7df3db",
-      "signingId": "UBF8T346G9:com.microsoft.VSCode",
-      "teamId": "UBF8T346G9",
       "lastUpdated": "2026-02-17T03:12:16Z"
     },
     {
@@ -2049,9 +1926,6 @@
       "name": "WhatsApp",
       "version": "26.7.19",
       "sha256": "a20785ba90ba35f9646390fde4bfb11a30761ac5d8766fb8aa62480bcb49c487",
-      "cdhash": "804e0d21e452adfd37622dca25cdb3fe19a94ce3",
-      "signingId": "57T9237FN3:net.whatsapp.WhatsApp",
-      "teamId": "57T9237FN3",
       "lastUpdated": "2026-02-18T19:28:27Z"
     },
     {
@@ -2066,9 +1940,6 @@
       "name": "Windsurf",
       "version": "1.9552.24",
       "sha256": "7e028f6d0f282b888ca9810f5a4058620824673b754d06b1c2591af3e7d90c1b",
-      "cdhash": "cc6bf0c71ae56d2398714fd2ff3eb20c45947ccf",
-      "signingId": "83Z2LHX6XW:com.exafunction.windsurf",
-      "teamId": "83Z2LHX6XW",
       "lastUpdated": "2026-02-18T16:45:45Z"
     },
     {
@@ -2128,9 +1999,6 @@
       "name": "Zed",
       "version": "0.223.5",
       "sha256": "776b589b2aef1094b0672837cee2e0304752e790b841663b6eade341f5c0a822",
-      "cdhash": "2756beaf4c2de8075a615a51a1c9244e1ef49a88",
-      "signingId": "MQ55VZLNZQ:dev.zed.Zed",
-      "teamId": "MQ55VZLNZQ",
       "lastUpdated": "2026-02-18T16:46:10Z"
     },
     {
