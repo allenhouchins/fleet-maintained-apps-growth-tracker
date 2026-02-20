@@ -537,7 +537,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: February 19, 2026 at 9:05 PM CST</p>
+            Last updated: February 19, 2026 at 10:38 PM CST</p>
         </div>
     </div>
 
@@ -594,7 +594,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: February 19, 2026 at 9:05 PM CST</p>
+                <p id="modalLastUpdated">Last updated: February 19, 2026 at 10:38 PM CST</p>
             </div>
         </div>
     </div>
@@ -1312,7 +1312,7 @@
             253,
             253,
             254,
-            254
+            256
           ],
           "additions": [
             20,
@@ -1668,7 +1668,7 @@
             0,
             0,
             1,
-            0
+            2
           ],
           "macCounts": [
             20,
@@ -2380,7 +2380,7 @@
             47,
             47,
             47,
-            47
+            49
           ],
           "growthDates": [
             "2025-03-04",
@@ -2423,7 +2423,8 @@
             "2025-12-23",
             "2026-01-07",
             "2026-02-04",
-            "2026-02-19"
+            "2026-02-19",
+            "2026-02-20"
           ],
           "growthCounts": [
             20,
@@ -2466,7 +2467,8 @@
             250,
             251,
             253,
-            254
+            254,
+            256
           ],
           "growthAdditions": [
             20,
@@ -2509,7 +2511,8 @@
             2,
             1,
             2,
-            1
+            1,
+            2
           ]
         };
         
@@ -2589,7 +2592,7 @@
                 "name": "8x8 Work",
                 "slug": "8x8-work/darwin",
                 "platform": "darwin",
-                "description": "8x8 Work is a communications application with voice, video, chat, and web conferencing.",
+                "description": "8x8 Work is a communications application with voice, video, chat, and web conferencing.\nNote: After installation, the app may show an auto-update error on each login if file ownership is set to root; changing ownership of 8x8 Work.app to the logged-in user resolves this, or auto-updates can be disabled via the Profile Policies setting in the 8x8 Admin Console.",
                 "version": "8.30.2",
                 "installerUrl": "https://work-desktop-assets.8x8.com/prod-publish/ga/work-arm64-dmg-v8.30.2-10.dmg",
                 "securityInfo": {
@@ -4239,6 +4242,14 @@
                 }
               },
               {
+                "name": "LastPass",
+                "slug": "lastpass/windows",
+                "platform": "windows",
+                "description": "LastPass is a password manager.",
+                "version": "5.4.0.1404",
+                "installerUrl": "https://download.cloud.lastpass.com/windows_installer/LastPassInstaller.msi"
+              },
+              {
                 "name": "Lens",
                 "slug": "lens/darwin",
                 "platform": "darwin",
@@ -4919,6 +4930,14 @@
                   "sha256": "b8d9b8281ff7dcf6419e7242377f122646d30ecb01e693f9f9fef6c7ecd98a57",
                   "lastUpdated": "2026-01-23T00:37:34Z"
                 }
+              },
+              {
+                "name": "PuTTY",
+                "slug": "putty/windows",
+                "platform": "windows",
+                "description": "PuTTY is a free, open-source SSH and Telnet client for Windows.",
+                "version": "0.83.0.0",
+                "installerUrl": "https://the.earth.li/~sgtatham/putty/0.83/w64/putty-64bit-0.83-installer.msi"
               },
               {
                 "name": "PyCharm Community Edition",
@@ -6486,7 +6505,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `February 19, 2026 at 9:05 PM CST`;
+                let timestampText = 'Last updated: ' + `February 19, 2026 at 10:38 PM CST`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {

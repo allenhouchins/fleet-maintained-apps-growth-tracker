@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-20T03:03:40Z",
+  "lastUpdated": "2026-02-20T04:38:27Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -891,6 +891,13 @@
       "installerUrl": "https://github.com/aonez/Keka/releases/download/v1.6.0/Keka-1.6.0.dmg"
     },
     {
+      "slug": "lastpass/windows",
+      "name": "LastPass",
+      "platform": "windows",
+      "version": "5.4.0.1404",
+      "installerUrl": "https://download.cloud.lastpass.com/windows_installer/LastPassInstaller.msi"
+    },
+    {
       "slug": "lens/darwin",
       "name": "Lens",
       "platform": "darwin",
@@ -1253,6 +1260,13 @@
       "platform": "darwin",
       "version": "3.15",
       "installerUrl": "https://www.proxifier.com/download/ProxifierMac.dmg"
+    },
+    {
+      "slug": "putty/windows",
+      "name": "PuTTY",
+      "platform": "windows",
+      "version": "0.83.0.0",
+      "installerUrl": "https://the.earth.li/~sgtatham/putty/0.83/w64/putty-64bit-0.83-installer.msi"
     },
     {
       "slug": "pycharm-ce/darwin",
