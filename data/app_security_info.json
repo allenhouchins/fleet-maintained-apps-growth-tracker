@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-20T06:25:31Z",
+  "lastUpdated": "2026-02-20T06:33:49Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -331,9 +331,12 @@
     {
       "slug": "brave-browser/darwin",
       "name": "Brave",
-      "version": "145.1.87.188",
-      "sha256": "f14ec913e1649fddb369867570d0eb29410a829900630329fb3bb4082755c3f4",
-      "lastUpdated": "2026-02-16T01:39:53Z"
+      "version": "145.1.87.190",
+      "sha256": "caffb49bf171e2a5cba25ba5dbe4ac0d61cb2af92974c1d6680e66e3e0e994e9",
+      "cdhash": "c6dc19a74d2422b172e53615b561425be0310780",
+      "signingId": "KL8N8XSYF4:com.brave.Browser",
+      "teamId": "KL8N8XSYF4",
+      "lastUpdated": "2026-02-20T06:26:03Z"
     },
     {
       "slug": "brave-browser/windows",
@@ -357,9 +360,12 @@
     {
       "slug": "calibre/darwin",
       "name": "calibre",
-      "version": "9.2.1",
-      "sha256": "fd14e17898b7a8656c6851be555db92f9bdbbf77e6564d5f620bc4fa9674f5b0",
-      "lastUpdated": "2026-02-06T15:23:54Z"
+      "version": "9.3.0",
+      "sha256": "0f2c012219f96a6b582ea51549263cf6819a8652adeaac05663724acf6e0ee11",
+      "cdhash": "a8fda1b7a2b67ee71c116162e96f352ee1b38c4e",
+      "signingId": "NTY7FVCEKP:net.kovidgoyal.calibre",
+      "teamId": "NTY7FVCEKP",
+      "lastUpdated": "2026-02-20T06:28:28Z"
     },
     {
       "slug": "camtasia/darwin",
@@ -430,9 +436,12 @@
     {
       "slug": "claude/darwin",
       "name": "Claude",
-      "version": "1.1.3541",
-      "sha256": "992b0d9b477e5c12c0f8d1adc5a3afe872c28c1468c01b7ff7e7d1b5f5a6c6eb",
-      "lastUpdated": "2026-02-19T19:23:47Z"
+      "version": "1.1.3770",
+      "sha256": "21cb796de35c30e85a37ca91da6d0860b983d717e02e5e0cf2f404c91167268e",
+      "cdhash": "6660534aaeb3a9d6bd904c7d414c0eab00e30b30",
+      "signingId": "Q6L2SF6YDW:com.anthropic.claudefordesktop",
+      "teamId": "Q6L2SF6YDW",
+      "lastUpdated": "2026-02-20T06:28:56Z"
     },
     {
       "slug": "cleanmymac/darwin",
@@ -470,9 +479,12 @@
     {
       "slug": "clion/darwin",
       "name": "CLion",
-      "version": "2025.3.2",
-      "sha256": "a3cd0e59cd43d06cf975c55505a66460ddc1bee34ff7d6afe11c78831b625f3d",
-      "lastUpdated": "2026-01-23T00:32:26Z"
+      "version": "2025.3.3",
+      "sha256": "1ace1fa949bea6eccd5d1792563f035dce92ae22f14a7f84f739f6cf312f124c",
+      "cdhash": "896ce95e0565731804d5bb2683b189d5584d7a8b",
+      "signingId": "2ZEFAR8TH3:com.jetbrains.CLion",
+      "teamId": "2ZEFAR8TH3",
+      "lastUpdated": "2026-02-20T06:30:19Z"
     },
     {
       "slug": "clockify/darwin",
@@ -555,9 +567,12 @@
     {
       "slug": "cyberduck/darwin",
       "name": "Cyberduck",
-      "version": "9.3.1",
-      "sha256": "6970b34db2dea93faa351126a12fccacd024d692b3cc6a35e444d3b959f6d294",
-      "lastUpdated": "2025-12-20T06:28:56Z"
+      "version": "9.4.0",
+      "sha256": "3625c8e4628e882587f0dcd4ec27f6d7ee95865467ac8942489ee4cae1fe63de",
+      "cdhash": "43e1abe21d424695eb3f975b1b2ac057cf135462",
+      "signingId": "G69SCX94XU:ch.sudo.cyberduck",
+      "teamId": "G69SCX94XU",
+      "lastUpdated": "2026-02-20T06:30:49Z"
     },
     {
       "slug": "cyberduck/windows",
@@ -637,9 +652,12 @@
     {
       "slug": "dialpad/darwin",
       "name": "Dialpad",
-      "version": "2602.0.0",
-      "sha256": "cd9ec67c3a53493cdcf764989e41dc17fe3233cf05649da4eec4661d7938cf6c",
-      "lastUpdated": "2026-02-13T16:25:41Z"
+      "version": "2602.0.1",
+      "sha256": "0d1701cb5f6e956e5917fe514030a6008e56578b13defe050500b2b169592e7a",
+      "cdhash": "44f213c6267ec43e03a55811535a895dee9ef786",
+      "signingId": "9V29MQSZ9M:com.electron.dialpad",
+      "teamId": "9V29MQSZ9M",
+      "lastUpdated": "2026-02-20T06:31:14Z"
     },
     {
       "slug": "discord/darwin",
@@ -910,9 +928,12 @@
     {
       "slug": "granola/darwin",
       "name": "Granola",
-      "version": "7.14.2",
-      "sha256": "9690662d5569fb479845689acabea123aed90fc61c30ff6ad730480d7d3dc0ba",
-      "lastUpdated": "2026-02-11T04:52:12Z"
+      "version": "7.30.1",
+      "sha256": "5b2bdaca538aa13bac3b72acbbbabfdd08f2d387af34bc1d584c859b89d20fe1",
+      "cdhash": "51d7da9ee39c4f9a102d8a8142db44a22fb19a17",
+      "signingId": "QZ7DHHLN25:com.granola.app",
+      "teamId": "QZ7DHHLN25",
+      "lastUpdated": "2026-02-20T06:31:56Z"
     },
     {
       "slug": "hyper/darwin",
@@ -1426,9 +1447,12 @@
     {
       "slug": "protonvpn/darwin",
       "name": "ProtonVPN",
-      "version": "6.3.0",
-      "sha256": "116b3159a2af6e6b0842c3db4ad870149f9779043b545f9d1793bd156d8bffe0",
-      "lastUpdated": "2026-01-30T00:35:55Z"
+      "version": "6.4.0",
+      "sha256": "1ee431acb7fd2a73ca35d8a766f084eec3e75a1817c01c223e5ecb0c05e4dde5",
+      "cdhash": "0a7faec1a2939a60e01e0fd0b7e2713e438d4668",
+      "signingId": "J6S6Q257EK:ch.protonvpn.mac",
+      "teamId": "J6S6Q257EK",
+      "lastUpdated": "2026-02-20T06:32:27Z"
     },
     {
       "slug": "proxifier/darwin",
@@ -1501,9 +1525,12 @@
     {
       "slug": "rider/darwin",
       "name": "Rider",
-      "version": "2025.3.2",
-      "sha256": "a72ecc7d3eb00dd9de56fb544f311e72c3df2e234b8ccbd20fc2f948f97e9de7",
-      "lastUpdated": "2026-01-30T00:37:52Z"
+      "version": "2025.3.3",
+      "sha256": "5a2e158d547da9ce3951a3a0ecc34c5ca91eb8ae0de22ed1647a02d0323cdd97",
+      "cdhash": "47b4f97fb8d57c9f486d45b44b9ca54b144bc3d9",
+      "signingId": "2ZEFAR8TH3:com.jetbrains.rider",
+      "teamId": "2ZEFAR8TH3",
+      "lastUpdated": "2026-02-20T06:33:45Z"
     },
     {
       "slug": "royal-tsx/darwin",
