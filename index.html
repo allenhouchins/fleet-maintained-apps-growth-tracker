@@ -537,7 +537,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: February 23, 2026 at 9:29 AM CST</p>
+            Last updated: February 23, 2026 at 10:23 AM CST</p>
         </div>
     </div>
 
@@ -594,7 +594,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: February 23, 2026 at 9:29 AM CST</p>
+                <p id="modalLastUpdated">Last updated: February 23, 2026 at 10:23 AM CST</p>
             </div>
         </div>
     </div>
@@ -1318,7 +1318,7 @@
             256,
             256,
             256,
-            256
+            257
           ],
           "additions": [
             20,
@@ -1677,7 +1677,7 @@
             2,
             0,
             0,
-            0
+            1
           ],
           "macCounts": [
             20,
@@ -2395,7 +2395,7 @@
             49,
             49,
             49,
-            49
+            50
           ],
           "growthDates": [
             "2025-03-04",
@@ -2439,7 +2439,8 @@
             "2026-01-07",
             "2026-02-04",
             "2026-02-19",
-            "2026-02-20"
+            "2026-02-20",
+            "2026-02-23"
           ],
           "growthCounts": [
             20,
@@ -2483,7 +2484,8 @@
             251,
             253,
             254,
-            256
+            256,
+            257
           ],
           "growthAdditions": [
             20,
@@ -2527,7 +2529,8 @@
             1,
             2,
             1,
-            2
+            2,
+            1
           ]
         };
         
@@ -4687,6 +4690,14 @@
                 }
               },
               {
+                "name": "Okta Verify",
+                "slug": "okta-verify/windows",
+                "platform": "windows",
+                "description": "Okta Verify is a multi-factor authentication app that provides secure identity verification and passwordless sign-in for users accessing Okta-protected applications.",
+                "version": "6.6.2.0",
+                "installerUrl": "https://altana-ai.okta.com/api/v1/artifacts/WINDOWS_OKTA_VERIFY/download?releaseChannel=GA\u0026packageType=EXE"
+              },
+              {
                 "name": "OmniGraffle",
                 "slug": "omnigraffle/darwin",
                 "platform": "darwin",
@@ -6451,7 +6462,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `February 23, 2026 at 9:29 AM CST`;
+                let timestampText = 'Last updated: ' + `February 23, 2026 at 10:23 AM CST`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
