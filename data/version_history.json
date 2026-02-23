@@ -1,78 +1,6 @@
 {
   "changes": [
     {
-      "date": "2025-12-05T00:27:18Z",
-      "appName": "Loom",
-      "slug": "loom/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.324.0",
-      "newVersion": "0.325.2",
-      "installerUrl": "https://packages.loom.com/desktop-packages/Loom-0.325.2-arm64.dmg"
-    },
-    {
-      "date": "2025-12-05T00:27:18Z",
-      "appName": "Webex",
-      "slug": "webex/darwin",
-      "platform": "darwin",
-      "oldVersion": "45.11.1.33570",
-      "newVersion": "45.12.0.33709",
-      "installerUrl": "https://binaries.webex.com/webex-macos-apple-silicon/Webex.dmg"
-    },
-    {
-      "date": "2025-12-05T00:27:18Z",
-      "appName": "Docker Desktop",
-      "slug": "docker/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.53.0",
-      "newVersion": "4.54.0",
-      "installerUrl": "https://desktop.docker.com/mac/main/arm64/212467/Docker.dmg"
-    },
-    {
-      "date": "2025-12-05T00:27:18Z",
-      "appName": "Spotify",
-      "slug": "spotify/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.2.77.358",
-      "newVersion": "1.2.78.418",
-      "installerUrl": "https://download.scdn.co/SpotifyARM64.dmg"
-    },
-    {
-      "date": "2025-12-05T00:27:18Z",
-      "appName": "Android Studio",
-      "slug": "android-studio/darwin",
-      "platform": "darwin",
-      "oldVersion": "2025.2.1.8",
-      "newVersion": "2025.2.2.7",
-      "installerUrl": "https://redirector.gvt1.com/edgedl/android/studio/install/2025.2.2.7/android-studio-2025.2.2.7-mac_arm.dmg"
-    },
-    {
-      "date": "2025-12-05T16:07:39Z",
-      "appName": "Telegram",
-      "slug": "telegram/darwin",
-      "platform": "darwin",
-      "oldVersion": "12.2.1",
-      "newVersion": "12.3",
-      "installerUrl": "https://osx.telegram.org/updates/Telegram-12.3.277495.app.zip"
-    },
-    {
-      "date": "2025-12-05T16:07:39Z",
-      "appName": "Teleport Suite",
-      "slug": "teleport-suite/darwin",
-      "platform": "darwin",
-      "oldVersion": "18.4.2",
-      "newVersion": "18.5.0",
-      "installerUrl": "https://cdn.teleport.dev/teleport-18.5.0.pkg"
-    },
-    {
-      "date": "2025-12-05T16:07:39Z",
-      "appName": "Postman",
-      "slug": "postman/darwin",
-      "platform": "darwin",
-      "oldVersion": "11.74.4",
-      "newVersion": "11.74.5",
-      "installerUrl": "https://dl.pstmn.io/download/version/11.74.5/osx_arm64"
-    },
-    {
       "date": "2025-12-05T16:07:39Z",
       "appName": "Microsoft Edge",
       "slug": "microsoft-edge/darwin",
@@ -8999,6 +8927,78 @@
       "oldVersion": "2025.3.2",
       "newVersion": "2025.3.3",
       "installerUrl": "https://download.jetbrains.com/idea/ideaIU-2025.3.3-aarch64.dmg"
+    },
+    {
+      "date": "2026-02-23T15:21:07Z",
+      "appName": "Claude",
+      "slug": "claude/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.1.3963",
+      "newVersion": "1.1.4010",
+      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.1.4010/Claude-da63f369d7533437f1b59f14173962eb5b54c714.zip"
+    },
+    {
+      "date": "2026-02-23T15:21:07Z",
+      "appName": "DeepL",
+      "slug": "deepl/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.1.33715377",
+      "newVersion": "26.2.13897266",
+      "installerUrl": "https://www.deepl.com/macos/download/26.2/13897266/DeepL.dmg"
+    },
+    {
+      "date": "2026-02-23T15:21:07Z",
+      "appName": "Miro",
+      "slug": "miro/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.11.128",
+      "newVersion": "0.11.132",
+      "installerUrl": "https://desktop.miro.com/platforms/darwin-arm64/Install-Miro.dmg"
+    },
+    {
+      "date": "2026-02-23T15:21:07Z",
+      "appName": "draw.io",
+      "slug": "drawio/darwin",
+      "platform": "darwin",
+      "oldVersion": "29.5.1",
+      "newVersion": "29.5.2",
+      "installerUrl": "https://github.com/jgraph/drawio-desktop/releases/download/v29.5.2/draw.io-arm64-29.5.2.dmg"
+    },
+    {
+      "date": "2026-02-23T15:21:07Z",
+      "appName": "Stats",
+      "slug": "stats/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.11.67",
+      "newVersion": "2.12.0",
+      "installerUrl": "https://github.com/exelban/stats/releases/download/v2.12.0/Stats.dmg"
+    },
+    {
+      "date": "2026-02-23T15:21:07Z",
+      "appName": "NordPass",
+      "slug": "nordpass/darwin",
+      "platform": "darwin",
+      "oldVersion": "7.3.14",
+      "newVersion": "7.4.8",
+      "installerUrl": "https://downloads.npass.app/mac/arm/NordPass.dmg"
+    },
+    {
+      "date": "2026-02-23T15:21:07Z",
+      "appName": "Android Studio",
+      "slug": "android-studio/darwin",
+      "platform": "darwin",
+      "oldVersion": "2025.2.3.9",
+      "newVersion": "2025.3.1.8",
+      "installerUrl": "https://edgedl.me.gvt1.com/android/studio/install/2025.3.1.8/android-studio-panda1-patch1-mac_arm.dmg"
+    },
+    {
+      "date": "2026-02-23T15:21:07Z",
+      "appName": "NordVPN",
+      "slug": "nordvpn/darwin",
+      "platform": "darwin",
+      "oldVersion": "9.13.0",
+      "newVersion": "9.14.0",
+      "installerUrl": "https://downloads.nordcdn.com/apps/macos/generic/NordVPN-OpenVPN/9.14.0/NordVPN.pkg"
     }
   ]
 }
