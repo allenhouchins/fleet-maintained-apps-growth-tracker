@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-23T17:30:20Z",
+  "lastUpdated": "2026-02-24T04:43:15Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -818,6 +818,18 @@
       "version": "3.0.8",
       "sha256": "caeaa959973fd1752789def0237d92577eff5bd12e177e3001b64e1bbeb9a78b",
       "lastUpdated": "2026-01-26T16:13:19Z"
+    },
+    {
+      "slug": "gimp/windows",
+      "name": "GIMP",
+      "version": "3.0.8.2",
+      "sha256": "3e4ff5845126a026e22302ab0aeecb0a79caff495f7675e254e1da4878cd3d72",
+      "publisher": "CN=Jernej Simončič, O=Jernej Simončič, L=Ljubljana, C=SI",
+      "issuer": "CN=Certum Code Signing 2021 CA, O=Asseco Data Systems S.A., C=PL",
+      "serialNumber": "04C7F0B4A058C867A8174952557CFA2F",
+      "thumbprint": "9DCC14D7BB6BDE953624601AF7541456040666BB",
+      "timestamp": "CN=Certum Timestamp 2025, O=Asseco Data Systems S.A., C=PL",
+      "lastUpdated": "2026-02-24T04:43:15Z"
     },
     {
       "slug": "github-desktop/windows",
@@ -1962,9 +1974,6 @@
       "name": "WhatsApp",
       "version": "26.8.17",
       "sha256": "08bda78f511bff1f428cee5b129a8ed82f748e7742bfea77f2a352bb3dbc7989",
-      "cdhash": "13ec3486449992dc96249b767b86f5589f671d3f",
-      "signingId": "57T9237FN3:net.whatsapp.WhatsApp",
-      "teamId": "57T9237FN3",
       "lastUpdated": "2026-02-23T17:30:17Z"
     },
     {
