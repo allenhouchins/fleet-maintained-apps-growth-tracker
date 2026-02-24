@@ -537,7 +537,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: February 23, 2026 at 9:08 PM CST</p>
+            Last updated: February 23, 2026 at 10:40 PM CST</p>
         </div>
     </div>
 
@@ -594,7 +594,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: February 23, 2026 at 9:08 PM CST</p>
+                <p id="modalLastUpdated">Last updated: February 23, 2026 at 10:40 PM CST</p>
             </div>
         </div>
     </div>
@@ -1320,7 +1320,7 @@
             256,
             256,
             257,
-            257
+            258
           ],
           "additions": [
             20,
@@ -1680,7 +1680,7 @@
             0,
             0,
             1,
-            0
+            1
           ],
           "macCounts": [
             20,
@@ -2400,7 +2400,7 @@
             49,
             49,
             50,
-            50
+            51
           ],
           "growthDates": [
             "2025-03-04",
@@ -2445,7 +2445,8 @@
             "2026-02-04",
             "2026-02-19",
             "2026-02-20",
-            "2026-02-23"
+            "2026-02-23",
+            "2026-02-24"
           ],
           "growthCounts": [
             20,
@@ -2490,7 +2491,8 @@
             253,
             254,
             256,
-            257
+            257,
+            258
           ],
           "growthAdditions": [
             20,
@@ -2535,6 +2537,7 @@
             2,
             1,
             2,
+            1,
             1
           ]
         };
@@ -3856,6 +3859,14 @@
                   "sha256": "caeaa959973fd1752789def0237d92577eff5bd12e177e3001b64e1bbeb9a78b",
                   "lastUpdated": "2026-01-26T16:13:19Z"
                 }
+              },
+              {
+                "name": "GIMP",
+                "slug": "gimp/windows",
+                "platform": "windows",
+                "description": "GIMP is a free and open-source image editor.",
+                "version": "3.0.8.2",
+                "installerUrl": "https://download.gimp.org/gimp/v3.0/windows/gimp-3.0.8-setup-2.exe"
               },
               {
                 "name": "GitHub Desktop",
@@ -6413,7 +6424,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `February 23, 2026 at 9:08 PM CST`;
+                let timestampText = 'Last updated: ' + `February 23, 2026 at 10:40 PM CST`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {

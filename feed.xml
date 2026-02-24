@@ -5,13 +5,20 @@
     <link>https://fmalibrary.com</link>
     <description>Track version updates and new app additions for Fleet-maintained apps. Get notified when apps are updated with new versions or when new apps are added to the library.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Feb 2026 03:05:42 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Feb 2026 04:40:31 +0000</lastBuildDate>
     <atom:link href="https://fmalibrary.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://fmalibrary.com/cloud-city.png</url>
       <title>Fleet-maintained apps</title>
       <link>https://fmalibrary.com</link>
     </image>
+    <item>
+      <title>New App: GIMP 3.0.8.2 (Windows)</title>
+      <link>https://fmalibrary.com</link>
+      <description>GIMP has been added to the Fleet-maintained apps library with version 3.0.8.2 on February 24, 2026. &lt;a href=&quot;https://download.gimp.org/gimp/v3.0/windows/gimp-3.0.8-setup-2.exe&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Tue, 24 Feb 2026 04:40:31 +0000</pubDate>
+      <guid isPermaLink="false">gimp/windows--3.0.8.2</guid>
+    </item>
     <item>
       <title>WhatsApp 26.7.19 → 26.8.17 (Mac)</title>
       <link>https://fmalibrary.com</link>
@@ -3261,18 +3268,18 @@
       <guid isPermaLink="false">front/darwin-3.67.6-3.68.0</guid>
     </item>
     <item>
-      <title>MongoDB Compass 1.48.2 → 1.49.0 (Mac)</title>
+      <title>Zed 0.218.7 → 0.219.5 (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>MongoDB Compass has been updated from version 1.48.2 to 1.49.0 on January 20, 2026. &lt;a href=&quot;https://downloads.mongodb.com/compass/mongodb-compass-1.49.0-darwin-arm64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Zed has been updated from version 0.218.7 to 0.219.5 on January 20, 2026. &lt;a href=&quot;https://zed.dev/api/releases/stable/0.219.5/Zed-aarch64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Tue, 20 Jan 2026 15:12:25 +0000</pubDate>
-      <guid isPermaLink="false">mongodb-compass/darwin-1.48.2-1.49.0</guid>
+      <guid isPermaLink="false">zed/darwin-0.218.7-0.219.5</guid>
     </item>
     <item>
-      <title>1Password 8.11.22 → 8.12.0 (Mac)</title>
+      <title>NordVPN 9.10.1 → 9.11.0 (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>1Password has been updated from version 8.11.22 to 8.12.0 on January 20, 2026. &lt;a href=&quot;https://downloads.1password.com/mac/1Password.pkg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>NordVPN has been updated from version 9.10.1 to 9.11.0 on January 20, 2026. &lt;a href=&quot;https://downloads.nordcdn.com/apps/macos/generic/NordVPN-OpenVPN/9.11.0/NordVPN.pkg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Tue, 20 Jan 2026 15:12:25 +0000</pubDate>
-      <guid isPermaLink="false">1password/darwin-8.11.22-8.12.0</guid>
+      <guid isPermaLink="false">nordvpn/darwin-9.10.1-9.11.0</guid>
     </item>
     <item>
       <title>Brave 143.1.85.120 → 144.1.86.139 (Windows)</title>
@@ -3294,13 +3301,6 @@
       <description>Camtasia has been updated from version 26.0.0.13551 to 26.0.1.14418 on January 20, 2026. &lt;a href=&quot;https://download.techsmith.com/camtasiastudio/releases/2601/camtasia.msi&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Tue, 20 Jan 2026 15:12:25 +0000</pubDate>
       <guid isPermaLink="false">camtasia/windows-26.0.0.13551-26.0.1.14418</guid>
-    </item>
-    <item>
-      <title>Splashtop Streamer 3.8.0.2 → 3.8.0.4 (Mac)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Splashtop Streamer has been updated from version 3.8.0.2 to 3.8.0.4 on January 20, 2026. &lt;a href=&quot;https://d17kmd0va0f0mp.cloudfront.net/mac/Splashtop_Streamer_Mac_INSTALLER_v3.8.0.4.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Tue, 20 Jan 2026 15:12:25 +0000</pubDate>
-      <guid isPermaLink="false">splashtop-streamer/darwin-3.8.0.2-3.8.0.4</guid>
     </item>
     <item>
       <title>Granola 6.479.0 → 6.491.0 (Mac)</title>
@@ -3478,39 +3478,39 @@
       <guid isPermaLink="false">parallels/darwin-26.2.0-26.2.1</guid>
     </item>
     <item>
-      <title>NordVPN 9.10.1 → 9.11.0 (Mac)</title>
+      <title>MongoDB Compass 1.48.2 → 1.49.0 (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>NordVPN has been updated from version 9.10.1 to 9.11.0 on January 20, 2026. &lt;a href=&quot;https://downloads.nordcdn.com/apps/macos/generic/NordVPN-OpenVPN/9.11.0/NordVPN.pkg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>MongoDB Compass has been updated from version 1.48.2 to 1.49.0 on January 20, 2026. &lt;a href=&quot;https://downloads.mongodb.com/compass/mongodb-compass-1.49.0-darwin-arm64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Tue, 20 Jan 2026 15:12:25 +0000</pubDate>
-      <guid isPermaLink="false">nordvpn/darwin-9.10.1-9.11.0</guid>
+      <guid isPermaLink="false">mongodb-compass/darwin-1.48.2-1.49.0</guid>
     </item>
     <item>
-      <title>Android Studio 2025.2.2.8 → 2025.2.3.9 (Mac)</title>
+      <title>Cloudflare WARP 25.9.558.0 → 25.10.186.0 (Windows)</title>
       <link>https://fmalibrary.com</link>
-      <description>Android Studio has been updated from version 2025.2.2.8 to 2025.2.3.9 on January 20, 2026. &lt;a href=&quot;https://redirector.gvt1.com/edgedl/android/studio/install/2025.2.3.9/android-studio-2025.2.3.9-mac_arm.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Cloudflare WARP has been updated from version 25.9.558.0 to 25.10.186.0 on January 20, 2026. &lt;a href=&quot;https://downloads.cloudflareclient.com/v1/download/windows/version/2025.10.186.0&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Tue, 20 Jan 2026 15:12:25 +0000</pubDate>
-      <guid isPermaLink="false">android-studio/darwin-2025.2.2.8-2025.2.3.9</guid>
+      <guid isPermaLink="false">cloudflare-warp/windows-25.9.558.0-25.10.186.0</guid>
     </item>
     <item>
-      <title>Thunderbird 146.0.1 → 147.0 (Mac)</title>
+      <title>Docker Desktop 4.56.0 → 4.57.0 (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>Thunderbird has been updated from version 146.0.1 to 147.0 on January 20, 2026. &lt;a href=&quot;https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/147.0/mac/en-US/Thunderbird%20147.0.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Docker Desktop has been updated from version 4.56.0 to 4.57.0 on January 20, 2026. &lt;a href=&quot;https://desktop.docker.com/mac/main/arm64/215387/Docker.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Tue, 20 Jan 2026 15:12:25 +0000</pubDate>
-      <guid isPermaLink="false">thunderbird/darwin-146.0.1-147.0</guid>
+      <guid isPermaLink="false">docker-desktop/darwin-4.56.0-4.57.0</guid>
     </item>
     <item>
-      <title>Splashtop Business 3.8.0.1 → 3.8.0.4 (Mac)</title>
+      <title>Mozilla Firefox 147.0 → 147.0.1 (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>Splashtop Business has been updated from version 3.8.0.1 to 3.8.0.4 on January 20, 2026. &lt;a href=&quot;https://d17kmd0va0f0mp.cloudfront.net/macclient/STB/Splashtop_Business_Mac_INSTALLER_v3.8.0.4.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Mozilla Firefox has been updated from version 147.0 to 147.0.1 on January 20, 2026. &lt;a href=&quot;https://download-installer.cdn.mozilla.net/pub/firefox/releases/147.0.1/mac/en-US/Firefox%20147.0.1.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Tue, 20 Jan 2026 15:12:25 +0000</pubDate>
-      <guid isPermaLink="false">splashtop-business/darwin-3.8.0.1-3.8.0.4</guid>
+      <guid isPermaLink="false">firefox/darwin-147.0-147.0.1</guid>
     </item>
     <item>
-      <title>Signal 7.84.0 → 7.85.0 (Mac)</title>
+      <title>Citrix Workspace 25.11.0.36 → 25.11.1.42 (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>Signal has been updated from version 7.84.0 to 7.85.0 on January 20, 2026. &lt;a href=&quot;https://updates.signal.org/desktop/signal-desktop-mac-arm64-7.85.0.zip&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Citrix Workspace has been updated from version 25.11.0.36 to 25.11.1.42 on January 20, 2026. &lt;a href=&quot;https://downloadplugins.citrix.com/ReceiverUpdates/Prod/Receiver/Mac/CitrixWorkspaceAppUniversal25.11.1.42.pkg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Tue, 20 Jan 2026 15:12:25 +0000</pubDate>
-      <guid isPermaLink="false">signal/darwin-7.84.0-7.85.0</guid>
+      <guid isPermaLink="false">citrix-workspace/darwin-25.11.0.36-25.11.1.42</guid>
     </item>
   </channel>
 </rss>
