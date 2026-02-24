@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-24T19:26:52Z",
+  "lastUpdated": "2026-02-24T19:36:49Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -162,9 +162,12 @@
     {
       "slug": "amazon-chime/darwin",
       "name": "Amazon Chime",
-      "version": "5.23.22475",
-      "sha256": "555b2dfb818e146f976eaf698a2517cb43c17f9b3f06874f63f5741f6345beb7",
-      "lastUpdated": "2026-01-30T05:53:13Z"
+      "version": "5.23.22488",
+      "sha256": "5d5540f263b4f791efc41863fe44613d905b231c3abf07040b2f4a15312aefb4",
+      "cdhash": "9abc1b5e3380ef4f806f3e5a3b61f4fd5142dce5",
+      "signingId": "94KV3E626L:com.amazon.Amazon-Chime",
+      "teamId": "94KV3E626L",
+      "lastUpdated": "2026-02-24T19:27:18Z"
     },
     {
       "slug": "android-studio/darwin",
@@ -279,9 +282,12 @@
     {
       "slug": "beyond-compare/darwin",
       "name": "Beyond Compare",
-      "version": "5.1.7.31736",
-      "sha256": "ab9d086cc1a0485e94d713c818ad0ed8245c30c1d9411e8579456adb0a1853a5",
-      "lastUpdated": "2026-01-30T06:01:06Z"
+      "version": "5.2.0.31950",
+      "sha256": "08bb223a147121961a5aff7ad378e7ac8fef07afd1395670ae264c3f6938f274",
+      "cdhash": "82fc37cde6e7e6656ed160bc7783f1e2d21454b8",
+      "signingId": "BS29TEJF86:com.ScooterSoftware.BeyondCompare",
+      "teamId": "BS29TEJF86",
+      "lastUpdated": "2026-02-24T19:27:44Z"
     },
     {
       "slug": "bitwarden/darwin",
@@ -430,9 +436,12 @@
     {
       "slug": "claude/darwin",
       "name": "Claude",
-      "version": "1.1.4010",
-      "sha256": "cd0dd5eeb9c8ee3aa6124633f5b4740cc9a848743edd024364b261fd20f62f7a",
-      "lastUpdated": "2026-02-23T15:24:19Z"
+      "version": "1.1.4088",
+      "sha256": "4f26077bebe8ed574b55e62e9cf0ca44087d867877472b2f352dab0ee1bc8131",
+      "cdhash": "54257c73a38e57aecbc0c32f18fa12b8acc7fab1",
+      "signingId": "Q6L2SF6YDW:com.anthropic.claudefordesktop",
+      "teamId": "Q6L2SF6YDW",
+      "lastUpdated": "2026-02-24T19:28:14Z"
     },
     {
       "slug": "cleanmymac/darwin",
@@ -484,9 +493,12 @@
     {
       "slug": "cloudflare-warp/darwin",
       "name": "Cloudflare WARP",
-      "version": "2025.10.186.0",
-      "sha256": "3521eedcb6fec3e2190e8da7d52e67de65013b4e8dc984ee6869bf172126d9cb",
-      "lastUpdated": "2026-01-13T23:11:34Z"
+      "version": "2026.1.150.0",
+      "sha256": "d18ec6e8a2ebfb6255796261c47c6a945d4086ff18029d392d5d8669316f1bc4",
+      "cdhash": "cfba1f6d7560570a657b5d8d81c93b43d58503bd",
+      "signingId": "68WVV388M8:com.cloudflare.1dot1dot1dot1.macos",
+      "teamId": "68WVV388M8",
+      "lastUpdated": "2026-02-24T19:28:58Z"
     },
     {
       "slug": "cloudflare-warp/windows",
@@ -644,9 +656,12 @@
     {
       "slug": "discord/darwin",
       "name": "Discord",
-      "version": "0.0.377",
-      "sha256": "2f51ad7cfabf5b60957b220c80fc200ec32e79b27ec47c90683c21a60e831755",
-      "lastUpdated": "2026-02-18T16:31:03Z"
+      "version": "0.0.378",
+      "sha256": "1b5483c491c51b12f2f7b7f6e5f69b505c844765ca7e654f854f146bc932fcff",
+      "cdhash": "d1994e48a84cbef452b5fe6f931f9091ef21527f",
+      "signingId": "53Q6R32WPB:com.hnc.Discord",
+      "teamId": "53Q6R32WPB",
+      "lastUpdated": "2026-02-24T19:29:32Z"
     },
     {
       "slug": "discord/windows",
@@ -663,16 +678,22 @@
     {
       "slug": "displaylink/darwin",
       "name": "DisplayLink USB Graphics Software",
-      "version": "15.0",
-      "sha256": "dc7e40e118f05c8dd7bf95a3057390cfa9a46339660cf45e6e10c2b6664a683f",
-      "lastUpdated": "2025-12-26T02:43:50Z"
+      "version": "15.1",
+      "sha256": "8daf99ba67f604f0fa33a885c57214143e5f4a58f5f100a0780b55c508a0e30a",
+      "cdhash": "34180a0ef35576672d952cad5a77e29adb45885a",
+      "signingId": "73YQY62QM3:com.displaylink.DisplayLinkUserAgent",
+      "teamId": "73YQY62QM3",
+      "lastUpdated": "2026-02-24T19:31:52Z"
     },
     {
       "slug": "docker-desktop/darwin",
       "name": "Docker Desktop",
-      "version": "4.61.0",
-      "sha256": "b34522344193449bf64741768540748739c2b556824628590f433ad841908b5a",
-      "lastUpdated": "2026-02-18T19:27:06Z"
+      "version": "4.62.0",
+      "sha256": "74c3f61c0777c866b5826ffc2d506ee2550bc0454f99ef4e9d4b32ec45c64f14",
+      "cdhash": "b210ff7d24114199c57334c47f9b2b42e392ef73",
+      "signingId": "9BNSXJN65R:com.docker.docker",
+      "teamId": "9BNSXJN65R",
+      "lastUpdated": "2026-02-24T19:33:49Z"
     },
     {
       "slug": "docker/darwin",
@@ -745,9 +766,12 @@
     {
       "slug": "expressvpn/darwin",
       "name": "ExpressVPN",
-      "version": "12.1.0.12128",
-      "sha256": "0b9f95d017d85e6d73f7d5a43f293d64180d68596e980def2092c6f5f026144e",
-      "lastUpdated": "2026-01-27T22:09:44Z"
+      "version": "12.1.0.12141",
+      "sha256": "412b89d4cd7bed767d53072a5c7700d03810bb27f28b6863e2c9c16483dde6fa",
+      "cdhash": "2486a55c675f53bf90ab9f3bec24d8f2ad62cc47",
+      "signingId": "TC292Y5427:com.express.vpn",
+      "teamId": "TC292Y5427",
+      "lastUpdated": "2026-02-24T19:34:14Z"
     },
     {
       "slug": "figma/darwin",
@@ -778,9 +802,12 @@
     {
       "slug": "firefox/darwin",
       "name": "Mozilla Firefox",
-      "version": "147.0.4",
-      "sha256": "21731282485e1267f1cff4336c22e90bd5262823b8f70321f97375d7e3be506f",
-      "lastUpdated": "2026-02-17T03:07:47Z"
+      "version": "148.0",
+      "sha256": "72112addf9adf5305c1a8c1b6db19d17e87c4690da8f0b5702309b4eaa22386c",
+      "cdhash": "d708d19ce502c5b882378f77c1fb28071ec2cc43",
+      "signingId": "43AQ936H96:org.mozilla.firefox",
+      "teamId": "43AQ936H96",
+      "lastUpdated": "2026-02-24T19:35:41Z"
     },
     {
       "slug": "firefox/windows",
