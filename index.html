@@ -537,7 +537,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: February 23, 2026 at 10:40 PM CST</p>
+            Last updated: February 23, 2026 at 10:43 PM CST</p>
         </div>
     </div>
 
@@ -594,7 +594,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: February 23, 2026 at 10:40 PM CST</p>
+                <p id="modalLastUpdated">Last updated: February 23, 2026 at 10:43 PM CST</p>
             </div>
         </div>
     </div>
@@ -3866,7 +3866,16 @@
                 "platform": "windows",
                 "description": "GIMP is a free and open-source image editor.",
                 "version": "3.0.8.2",
-                "installerUrl": "https://download.gimp.org/gimp/v3.0/windows/gimp-3.0.8-setup-2.exe"
+                "installerUrl": "https://download.gimp.org/gimp/v3.0/windows/gimp-3.0.8-setup-2.exe",
+                "securityInfo": {
+                  "sha256": "3e4ff5845126a026e22302ab0aeecb0a79caff495f7675e254e1da4878cd3d72",
+                  "publisher": "CN=Jernej Simončič, O=Jernej Simončič, L=Ljubljana, C=SI",
+                  "issuer": "CN=Certum Code Signing 2021 CA, O=Asseco Data Systems S.A., C=PL",
+                  "serialNumber": "04C7F0B4A058C867A8174952557CFA2F",
+                  "thumbprint": "9DCC14D7BB6BDE953624601AF7541456040666BB",
+                  "timestamp": "CN=Certum Timestamp 2025, O=Asseco Data Systems S.A., C=PL",
+                  "lastUpdated": "2026-02-24T04:43:15Z"
+                }
               },
               {
                 "name": "GitHub Desktop",
@@ -5714,9 +5723,6 @@
                 "installerUrl": "https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release\u0026src=whatsapp_downloads_page",
                 "securityInfo": {
                   "sha256": "08bda78f511bff1f428cee5b129a8ed82f748e7742bfea77f2a352bb3dbc7989",
-                  "cdhash": "13ec3486449992dc96249b767b86f5589f671d3f",
-                  "signingId": "57T9237FN3:net.whatsapp.WhatsApp",
-                  "teamId": "57T9237FN3",
                   "lastUpdated": "2026-02-23T17:30:17Z"
                 }
               },
@@ -6424,7 +6430,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `February 23, 2026 at 10:40 PM CST`;
+                let timestampText = 'Last updated: ' + `February 23, 2026 at 10:43 PM CST`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
