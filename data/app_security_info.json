@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-25T20:16:09Z",
+  "lastUpdated": "2026-02-25T20:26:11Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -340,9 +340,12 @@
     {
       "slug": "brave-browser/darwin",
       "name": "Brave",
-      "version": "145.1.87.190",
-      "sha256": "caffb49bf171e2a5cba25ba5dbe4ac0d61cb2af92974c1d6680e66e3e0e994e9",
-      "lastUpdated": "2026-02-20T06:26:03Z"
+      "version": "145.1.87.191",
+      "sha256": "0bda71d82510470f82ad927ee23714946f286941b549c66733bf8ee952049248",
+      "cdhash": "38ae5ef9ffd0ff4cf229b86d2695703a4459a8ab",
+      "signingId": "KL8N8XSYF4:com.brave.Browser",
+      "teamId": "KL8N8XSYF4",
+      "lastUpdated": "2026-02-25T20:16:43Z"
     },
     {
       "slug": "brave-browser/windows",
@@ -359,9 +362,12 @@
     {
       "slug": "bruno/darwin",
       "name": "Bruno",
-      "version": "3.1.3",
-      "sha256": "fe395e4bad14b339bfff9e2e85b0b7da03e874efc34abc9bc0b46f71959077f2",
-      "lastUpdated": "2026-02-22T07:21:04Z"
+      "version": "3.1.4",
+      "sha256": "b3d33dd3b93f6b3f7f16cac8bd2bdf6be46e862e5ed0b7dcc9b48192a55c9768",
+      "cdhash": "b4a0787d683179dd126a55377c1fccd39502b89d",
+      "signingId": "W7LPPWA48L:com.usebruno.app",
+      "teamId": "W7LPPWA48L",
+      "lastUpdated": "2026-02-25T20:18:20Z"
     },
     {
       "slug": "calibre/darwin",
@@ -399,9 +405,12 @@
     {
       "slug": "chatgpt-atlas/darwin",
       "name": "ChatGPT Atlas",
-      "version": "1.2026.42.5",
-      "sha256": "b7f07da0d0739a0bb2b7097c856ab3933b9e3f2362e9c9b69f86932b30166f7b",
-      "lastUpdated": "2026-02-19T19:22:59Z"
+      "version": "1.2026.49.8",
+      "sha256": "6b7a96e0463a3daad4e903574b63dc5fa3602e4b18134bf447844c0e506656c0",
+      "cdhash": "15854afa478aa3c88ac17afa44cadc26c5666e17",
+      "signingId": "2DC432GLL2:com.openai.atlas",
+      "teamId": "2DC432GLL2",
+      "lastUpdated": "2026-02-25T20:18:44Z"
     },
     {
       "slug": "chatgpt/darwin",
@@ -439,12 +448,12 @@
     {
       "slug": "claude/darwin",
       "name": "Claude",
-      "version": "1.1.4088",
-      "sha256": "4f26077bebe8ed574b55e62e9cf0ca44087d867877472b2f352dab0ee1bc8131",
-      "cdhash": "54257c73a38e57aecbc0c32f18fa12b8acc7fab1",
+      "version": "1.1.4173",
+      "sha256": "4cd85fd2ac8a665546b5f1bee851d8167ccb3e7f1ce1709d065338767b31d4f3",
+      "cdhash": "1dd6fd29eb065a9ee546a461824441d24690f107",
       "signingId": "Q6L2SF6YDW:com.anthropic.claudefordesktop",
       "teamId": "Q6L2SF6YDW",
-      "lastUpdated": "2026-02-24T19:28:14Z"
+      "lastUpdated": "2026-02-25T20:19:10Z"
     },
     {
       "slug": "cleanmymac/darwin",
@@ -551,9 +560,12 @@
     {
       "slug": "cursor/darwin",
       "name": "Cursor",
-      "version": "2.5.20",
-      "sha256": "4509f1146ced1a3485520d5d03b977e4f536d4f527ade2232c9be16c4f4552f4",
-      "lastUpdated": "2026-02-22T07:23:31Z"
+      "version": "2.5.25",
+      "sha256": "f4c5e609d9f582ea774b8c8ce7ee0a322c38ffdbb4febff3d1e2b4b33303da07",
+      "cdhash": "685d219f7d0b280d9f921c4808cb0ba1940b4d5b",
+      "signingId": "VDXQ22DGB9:com.todesktop.230313mzl4w4u92",
+      "teamId": "VDXQ22DGB9",
+      "lastUpdated": "2026-02-25T20:19:49Z"
     },
     {
       "slug": "cursor/windows",
@@ -1183,9 +1195,12 @@
     {
       "slug": "microsoft-excel/darwin",
       "name": "Microsoft Excel",
-      "version": "16.106.26021521",
-      "sha256": "97e19c6f6a3fa56e3c3f23857aad71508b940c6e2583210f07bf574548897955",
-      "lastUpdated": "2026-02-18T16:33:55Z"
+      "version": "16.106.2",
+      "sha256": "a1d218dadd31e336ecbbbffaa60ade0873e6439dedb63d22ca3fbd9f41a9e790",
+      "cdhash": "bca67d9a3a0750552b73f79d5fa15a7e2dcca180",
+      "signingId": "UBF8T346G9:com.microsoft.Excel",
+      "teamId": "UBF8T346G9",
+      "lastUpdated": "2026-02-25T20:21:22Z"
     },
     {
       "slug": "microsoft-onenote/darwin",
@@ -1197,16 +1212,22 @@
     {
       "slug": "microsoft-outlook/darwin",
       "name": "Microsoft Outlook",
-      "version": "16.106.26021521",
-      "sha256": "3134c565a1ba05dd17294008a6eab3fa672254d8a705c0e94c9df574715b8dcc",
-      "lastUpdated": "2026-02-18T16:35:37Z"
+      "version": "16.106.26022219",
+      "sha256": "8f1fbc8a482f2941f98a8ef94e7f911a8ceeae137d74816dfa80385ab6e194f5",
+      "cdhash": "2933c048d20040578ebd0c88218e22e725f12f30",
+      "signingId": "UBF8T346G9:com.microsoft.Outlook",
+      "teamId": "UBF8T346G9",
+      "lastUpdated": "2026-02-25T20:23:02Z"
     },
     {
       "slug": "microsoft-powerpoint/darwin",
       "name": "Microsoft PowerPoint",
-      "version": "16.106.26021521",
-      "sha256": "955a86aef32f6d42c26f59c0e6dfd87b6bb57465fe700c25a485ccee0fc43a0c",
-      "lastUpdated": "2026-02-18T16:36:57Z"
+      "version": "16.106.26022219",
+      "sha256": "d6beee7bb1a1f38735d82a7f2744d0e8e259965f4d5d155cdaa212464bf73663",
+      "cdhash": "c6269efb4604eeb7e147cd609a83633b43e38b98",
+      "signingId": "UBF8T346G9:com.microsoft.Powerpoint",
+      "teamId": "UBF8T346G9",
+      "lastUpdated": "2026-02-25T20:24:27Z"
     },
     {
       "slug": "microsoft-teams/darwin",
@@ -1230,9 +1251,12 @@
     {
       "slug": "microsoft-word/darwin",
       "name": "Microsoft Word",
-      "version": "16.106.26021521",
-      "sha256": "561fefd632f6af67721f08f85e004e4b080538996ea874edb27709c6cf366b8a",
-      "lastUpdated": "2026-02-18T16:38:27Z"
+      "version": "16.106.2",
+      "sha256": "d3e5a8edcf425dfa26a23ec58258e3de57622c0f07278744173170365173961b",
+      "cdhash": "8a268cb2b2b096efed73f6c0bdaee339b11b4459",
+      "signingId": "UBF8T346G9:com.microsoft.Word",
+      "teamId": "UBF8T346G9",
+      "lastUpdated": "2026-02-25T20:26:05Z"
     },
     {
       "slug": "miro/darwin",
