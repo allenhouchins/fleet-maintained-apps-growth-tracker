@@ -1,87 +1,6 @@
 {
   "changes": [
     {
-      "date": "2025-12-09T06:10:08Z",
-      "appName": "ChatGPT Desktop",
-      "slug": "chatgpt/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.2025.329",
-      "newVersion": "1.2025.330",
-      "installerUrl": "https://persistent.oaistatic.com/sidekick/public/ChatGPT_Desktop_public_1.2025.330_1764823666.dmg"
-    },
-    {
-      "date": "2025-12-09T15:08:03Z",
-      "appName": "Figma",
-      "slug": "figma/windows",
-      "platform": "windows",
-      "oldVersion": "125.10.8",
-      "newVersion": "125.11.6",
-      "installerUrl": "https://desktop.figma.com/win/build/Figma-125.11.6.exe"
-    },
-    {
-      "date": "2025-12-09T20:07:04Z",
-      "appName": "Blender",
-      "slug": "blender/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "5.0.0",
-      "installerUrl": "https://download.blender.org/release/Blender5.0/blender-5.0.0-windows-x64.msi"
-    },
-    {
-      "date": "2025-12-09T20:07:04Z",
-      "appName": "Arc",
-      "slug": "arc/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "1.124.0",
-      "installerUrl": "https://releases.arc.net/release/Arc-1.124.0-71787.zip"
-    },
-    {
-      "date": "2025-12-09T20:07:04Z",
-      "appName": "Blender",
-      "slug": "blender/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "5.0.0",
-      "installerUrl": "https://download.blender.org/release/Blender5.0/blender-5.0.0-macos-arm64.dmg"
-    },
-    {
-      "date": "2025-12-09T20:07:04Z",
-      "appName": "Bruno",
-      "slug": "bruno/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "2.15.1",
-      "installerUrl": "https://github.com/usebruno/bruno/releases/download/v2.15.1/bruno_2.15.1_arm64_mac.dmg"
-    },
-    {
-      "date": "2025-12-10T04:15:32Z",
-      "appName": "Anka",
-      "slug": "anka-virtualization/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "3.8.4.210",
-      "installerUrl": "https://downloads.veertu.com/anka/Anka-3.8.4.210.pkg"
-    },
-    {
-      "date": "2025-12-10T04:15:32Z",
-      "appName": "Apparency",
-      "slug": "apparency/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "3.1",
-      "installerUrl": "https://www.mothersruin.com/software/archives/Apparency-3.1.dmg"
-    },
-    {
-      "date": "2025-12-10T04:15:32Z",
-      "appName": "Avast Secure Browser",
-      "slug": "avast-secure-browser/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "139.0.6697.68",
-      "installerUrl": "https://cdn-update.avast.securebrowser.com/browser/mac/arm/139.0.6697.68/AvastSecureBrowser.dmg"
-    },
-    {
       "date": "2025-12-10T04:15:32Z",
       "appName": "Aircall",
       "slug": "aircall/darwin",
@@ -8999,6 +8918,87 @@
       "oldVersion": "26.8.18",
       "newVersion": "26.8.21",
       "installerUrl": "https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release\u0026src=whatsapp_downloads_page"
+    },
+    {
+      "date": "2026-02-27T04:37:58Z",
+      "appName": "OmniGraffle",
+      "slug": "omnigraffle/darwin",
+      "platform": "darwin",
+      "oldVersion": "7.25.1",
+      "newVersion": "7.25.2",
+      "installerUrl": "https://downloads.omnigroup.com/software/macOS/12/OmniGraffle-7.25.2.dmg"
+    },
+    {
+      "date": "2026-02-27T04:37:58Z",
+      "appName": "Claude",
+      "slug": "claude/windows",
+      "platform": "windows",
+      "oldVersion": "1.1.4088",
+      "newVersion": "1.1.4328",
+      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.1.4328/Claude-d8e39139e1c50f5530ac3da3af80e689710c8ea1.exe"
+    },
+    {
+      "date": "2026-02-27T04:37:58Z",
+      "appName": "Windsurf",
+      "slug": "windsurf/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.9552.25",
+      "newVersion": "1.9566.11",
+      "installerUrl": "https://windsurf-stable.codeiumdata.com/darwin-arm64-dmg/stable/8911695f6454083fd48c3422f4736eb88053357c/Windsurf-darwin-arm64-1.9566.11.dmg"
+    },
+    {
+      "date": "2026-02-27T04:37:58Z",
+      "appName": "Spotify",
+      "slug": "spotify/windows",
+      "platform": "windows",
+      "oldVersion": "1.2.84.474.g9f006f58",
+      "newVersion": "1.2.84.477.gcfdf84e8",
+      "installerUrl": "https://upgrade.scdn.co/upgrade/client/win32-x86_64/spotify_installer-1.2.84.477.gcfdf84e8-2359.exe"
+    },
+    {
+      "date": "2026-02-27T04:37:58Z",
+      "appName": "Wireshark",
+      "slug": "wireshark-app/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.6.3",
+      "newVersion": "4.6.4",
+      "installerUrl": "https://www.wireshark.org/download/osx/all-versions/Wireshark%204.6.4.dmg"
+    },
+    {
+      "date": "2026-02-27T04:37:58Z",
+      "appName": "Zed",
+      "slug": "zed/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.224.11",
+      "newVersion": "0.225.9",
+      "installerUrl": "https://zed.dev/api/releases/stable/0.225.9/Zed-aarch64.dmg"
+    },
+    {
+      "date": "2026-02-27T04:37:58Z",
+      "appName": "Brave",
+      "slug": "brave-browser/windows",
+      "platform": "windows",
+      "oldVersion": "145.1.87.190",
+      "newVersion": "145.1.87.191",
+      "installerUrl": "https://github.com/brave/brave-browser/releases/download/v1.87.191/BraveBrowserStandaloneSilentSetup.exe"
+    },
+    {
+      "date": "2026-02-27T04:37:58Z",
+      "appName": "Signal",
+      "slug": "signal/darwin",
+      "platform": "darwin",
+      "oldVersion": "7.90.0",
+      "newVersion": "8.0.0",
+      "installerUrl": "https://updates.signal.org/desktop/signal-desktop-mac-arm64-8.0.0.zip"
+    },
+    {
+      "date": "2026-02-27T04:37:58Z",
+      "appName": "Grammarly Desktop",
+      "slug": "grammarly-desktop/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.153.0.0",
+      "newVersion": "1.154.0.0",
+      "installerUrl": "https://download-mac.grammarly.com/versions/1.154.0.0/Grammarly.dmg"
     }
   ]
 }
