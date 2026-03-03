@@ -478,6 +478,45 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
             margin-bottom: 10px;
             font-size: 24px;
         }
+        .apps-count-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+        }
+        .apps-search {
+            position: relative;
+            width: 280px;
+            flex-shrink: 0;
+        }
+        .apps-search-icon {
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #94a3b8;
+            pointer-events: none;
+        }
+        .apps-search input {
+            width: 100%;
+            padding: 10px 12px 10px 38px;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            font-size: 14px;
+            color: #1e293b;
+            background: #f8fafc;
+            outline: none;
+            transition: all 0.2s ease;
+            box-sizing: border-box;
+        }
+        .apps-search input:focus {
+            border-color: #2563eb;
+            background: white;
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+        }
+        .apps-search input::placeholder {
+            color: #94a3b8;
+        }
         .apps-count {
             color: #64748b;
             font-size: 16px;
@@ -826,6 +865,13 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
                 width: 100%;
                 justify-content: center;
             }
+            .apps-count-row {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            .apps-search {
+                width: 100%;
+            }
             .apps-grid {
                 grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
                 gap: 15px;
@@ -867,7 +913,13 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
         <div class="apps-section">
             <div class="apps-header">
                 <h2>Fleet-maintained apps</h2>
-                <p class="apps-count"><span id="appsCount">0</span> and counting...</p>
+                <div class="apps-count-row">
+                    <p class="apps-count"><span id="appsCount">0</span> and counting...</p>
+                    <div class="apps-search">
+                        <svg class="apps-search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                        <input type="text" id="appSearchInput" placeholder="Search apps..." oninput="handleSearch(this.value)">
+                    </div>
+                </div>
             </div>
             <div class="apps-grid" id="appsGrid">
                 <!-- Apps will be populated by JavaScript -->
@@ -901,6 +953,10 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
                 <div class="modal-info-row">
                     <div class="modal-info-label">Description</div>
                     <div class="modal-info-value" id="modalDescription"></div>
+                </div>
+                <div class="modal-info-row">
+                    <div class="modal-info-label">Slug</div>
+                    <div class="modal-info-value" id="modalSlug"></div>
                 </div>
                 <div class="modal-info-row" id="modalSecurityRow" style="display: none;">
                     <div class="modal-info-label">Security Information</div>
@@ -963,6 +1019,7 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
         let chartInstance = null;
         let chartData = null;
         let currentFilter = 'total';
+        let currentSearchQuery = '';
         
         function getAppIconUrl(slug) {
             // Convert slug format "app-name/platform" to icon filename "app-icon-app-name-60x60@2x.png"
@@ -997,6 +1054,11 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
             return div.innerHTML;
         }
         
+        function handleSearch(query) {
+            currentSearchQuery = query.toLowerCase().trim();
+            filterApps(currentFilter);
+        }
+        
         function filterApps(viewType) {
             currentFilter = viewType;
             const grid = document.getElementById('appsGrid');
@@ -1005,9 +1067,17 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
             let filteredApps = appsData;
             
             if (viewType === 'mac') {
-                filteredApps = appsData.filter(app => app.platform === 'darwin');
+                filteredApps = filteredApps.filter(app => app.platform === 'darwin');
             } else if (viewType === 'windows') {
-                filteredApps = appsData.filter(app => app.platform === 'windows');
+                filteredApps = filteredApps.filter(app => app.platform === 'windows');
+            }
+            
+            if (currentSearchQuery) {
+                filteredApps = filteredApps.filter(app => {
+                    const name = (app.name || '').toLowerCase();
+                    const slug = (app.slug || '').toLowerCase();
+                    return name.includes(currentSearchQuery) || slug.includes(currentSearchQuery);
+                });
             }
             
             // Sort apps by name (case-insensitive), then by platform to group same-name apps together
@@ -1021,7 +1091,9 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
                 return a.platform.localeCompare(b.platform);
             });
             
-            countEl.textContent = filteredApps.length;
+            if (!currentSearchQuery) {
+                countEl.textContent = filteredApps.length;
+            }
             
             grid.innerHTML = filteredApps.map(app => {
                 const iconUrl = getAppIconUrl(app.slug);
@@ -1272,6 +1344,11 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
             if (modalPlatform) {
                 modalPlatform.textContent = platformLabel;
                 modalPlatform.className = 'modal-platform ' + app.platform;
+            }
+            
+            const modalSlug = document.getElementById('modalSlug');
+            if (modalSlug) {
+                modalSlug.textContent = app.slug;
             }
             
             // Set version
