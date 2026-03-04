@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-04T00:34:38Z",
+  "lastUpdated": "2026-03-04T00:41:16Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -54,11 +54,12 @@
     {
       "slug": "8x8-work/darwin",
       "name": "8x8 Work",
-      "version": "8.30.2",
-      "sha256": "6952c020e8de0c92bf58e479f74b5774a61502cd94cd3496d5e92dfa7897c030",
+      "version": "8.31.3",
+      "sha256": "032247d2d796280a91a9a04aab5799997001776a48fda869907b05b19ba95602",
+      "cdhash": "1390f22a3b0a1409ff92e75872b7113e29077872",
       "signingId": "FC967L3QRG:com.electron.8x8---virtual-office",
       "teamId": "FC967L3QRG",
-      "lastUpdated": "2026-01-30T05:41:04Z"
+      "lastUpdated": "2026-03-04T00:35:06Z"
     },
     {
       "slug": "8x8-work/windows",
@@ -197,11 +198,12 @@
     {
       "slug": "android-studio/darwin",
       "name": "Android Studio",
-      "version": "2025.3.1.8",
-      "sha256": "2a93d00c04340d2e8eb4204bcc233cd53bd4adebfe33440c4f58089834be44d8",
+      "version": "2025.3.2.6",
+      "sha256": "1e22cee124c9d7dff1d3b6965d7cc7bff2e9e5e614f8207d2e6935d82dcbdd0e",
+      "cdhash": "729321a4a07eb69f2a8b7c94cbe3e8bd0aa77c0b",
       "signingId": "EQHXZ8M8AV:com.google.android.studio",
       "teamId": "EQHXZ8M8AV",
-      "lastUpdated": "2026-02-23T15:23:53Z"
+      "lastUpdated": "2026-03-04T00:36:58Z"
     },
     {
       "slug": "anka-virtualization/darwin",
@@ -245,11 +247,12 @@
     {
       "slug": "arc/darwin",
       "name": "Arc",
-      "version": "1.135.0",
-      "sha256": "b192994372b8d0ef7beb465c3cad0f2d02a227c6988238e037d8e026536db688",
+      "version": "1.136.0",
+      "sha256": "915624d29fa733bf398466ac126f0e6565efb48996833ae0244c65abfa58ca67",
+      "cdhash": "878f3ea65610d00fdf4920fdd47bd26ac23d3ad0",
       "signingId": "S6N382Y83G:company.thebrowser.Browser",
       "teamId": "S6N382Y83G",
-      "lastUpdated": "2026-02-20T06:25:29Z"
+      "lastUpdated": "2026-03-04T00:37:29Z"
     },
     {
       "slug": "archaeology/darwin",
@@ -435,11 +438,12 @@
     {
       "slug": "calibre/darwin",
       "name": "calibre",
-      "version": "9.3.1",
-      "sha256": "3f50da702ad7a864401c2817f3824a88dbe162cc0eed17e3749d891c9aba4cf6",
+      "version": "9.4.0",
+      "sha256": "ba8adc70fcbeee19a2cc52a8f4b693403975c1a3e37f03dc10384ff87da4f8dd",
+      "cdhash": "e8ff98e88e542e513068414b7d0bc1ce8e1f9512",
       "signingId": "NTY7FVCEKP:net.kovidgoyal.calibre",
       "teamId": "NTY7FVCEKP",
-      "lastUpdated": "2026-02-22T07:22:03Z"
+      "lastUpdated": "2026-03-04T00:38:26Z"
     },
     {
       "slug": "camtasia/darwin",
@@ -484,11 +488,12 @@
     {
       "slug": "chatgpt/darwin",
       "name": "ChatGPT Desktop",
-      "version": "1.2026.041",
-      "sha256": "4f48172f1c1c95dea04133f963df2e4f24c4c2155dda3dcf3ab4d44dd36c12ad",
+      "version": "1.2026.048",
+      "sha256": "b8f273871c32184beb568ab62b3ed71d3ec6b2d3bce6f8b22f6b1a14a54d4832",
+      "cdhash": "7adde8d85efb3190e0a7f5a3e490bd08427dc903",
       "signingId": "2DC432GLL2:com.openai.chat",
       "teamId": "2DC432GLL2",
-      "lastUpdated": "2026-02-19T19:23:21Z"
+      "lastUpdated": "2026-03-04T00:38:49Z"
     },
     {
       "slug": "cisco-jabber/darwin",
@@ -523,12 +528,12 @@
     {
       "slug": "claude/darwin",
       "name": "Claude",
-      "version": "1.1.4328",
-      "sha256": "5eae43cf8b5cdcbb86363951122fecc208c5b0f94abe84e5274c2c365a8d00d2",
-      "cdhash": "d791e6e65871a92e2354123663a809dc4192ee67",
+      "version": "1.1.4498",
+      "sha256": "e4dd77e62d03deb110811bfce39af98553a7090bf1ea62a39dccfe5c899432e4",
+      "cdhash": "9da8c257c047b50f59fbc7aa1e869561930ca211",
       "signingId": "Q6L2SF6YDW:com.anthropic.claudefordesktop",
       "teamId": "Q6L2SF6YDW",
-      "lastUpdated": "2026-02-25T21:15:49Z"
+      "lastUpdated": "2026-03-04T00:39:14Z"
     },
     {
       "slug": "claude/windows",
@@ -630,11 +635,12 @@
     {
       "slug": "coteditor/darwin",
       "name": "CotEditor",
-      "version": "6.2.3",
-      "sha256": "c95f7c2e8df5c1ce604471b213da40c87bbb8d28038e73f6138eb90b532592fd",
+      "version": "6.2.4",
+      "sha256": "61c32a073616529faddc846db826e4b4328f7265256b4abf62171db60c99a625",
+      "cdhash": "ed45fee9370d2ce80453716fc5cdac8bdf1c7ee1",
       "signingId": "HT3Z3A72WZ:com.coteditor.CotEditor",
       "teamId": "HT3Z3A72WZ",
-      "lastUpdated": "2026-02-18T16:30:33Z"
+      "lastUpdated": "2026-03-04T00:39:51Z"
     },
     {
       "slug": "crashplan/darwin",
@@ -660,12 +666,12 @@
     {
       "slug": "cursor/darwin",
       "name": "Cursor",
-      "version": "2.5.25",
-      "sha256": "f4c5e609d9f582ea774b8c8ce7ee0a322c38ffdbb4febff3d1e2b4b33303da07",
-      "cdhash": "685d219f7d0b280d9f921c4808cb0ba1940b4d5b",
+      "version": "2.5.26",
+      "sha256": "d2696c712b3fddb5a9f9616100a1cb64a09c203c872343f155055bb7352f130f",
+      "cdhash": "aeed3ef64e033f956d37a591da4846e95de051c9",
       "signingId": "VDXQ22DGB9:com.todesktop.230313mzl4w4u92",
       "teamId": "VDXQ22DGB9",
-      "lastUpdated": "2026-02-25T20:19:49Z"
+      "lastUpdated": "2026-03-04T00:40:42Z"
     },
     {
       "slug": "cursor/windows",
@@ -682,11 +688,12 @@
     {
       "slug": "cyberduck/darwin",
       "name": "Cyberduck",
-      "version": "9.4.0",
-      "sha256": "3625c8e4628e882587f0dcd4ec27f6d7ee95865467ac8942489ee4cae1fe63de",
+      "version": "9.4.1",
+      "sha256": "baf92403e5d2ff6054dd8cfcd7eceb0389876971b0beb9f3ffd32feec37cbd54",
+      "cdhash": "b160e740ecea6f19c37f9592e7ff50018bc25e5d",
       "signingId": "G69SCX94XU:ch.sudo.cyberduck",
       "teamId": "G69SCX94XU",
-      "lastUpdated": "2026-02-20T06:30:49Z"
+      "lastUpdated": "2026-03-04T00:41:14Z"
     },
     {
       "slug": "cyberduck/windows",
