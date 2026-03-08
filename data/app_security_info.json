@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-08T00:41:33Z",
+  "lastUpdated": "2026-03-08T00:50:44Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1145,22 +1145,22 @@
     {
       "slug": "grammarly-desktop/darwin",
       "name": "Grammarly Desktop",
-      "version": "1.154.0.0",
-      "sha256": "a106f73ee2cd954f8521081bb2315b15ef0d2624c247be77a35c3b8bbcf9431a",
-      "cdhash": "3dceb38b3433d31320b99c3ddb3e51c16dcd8219",
+      "version": "1.155.0.0",
+      "sha256": "b58f31a303e71eb61fd08ad0de118b70b206f4449cdee05b7dc5ff495b9dd759",
+      "cdhash": "1c5755bde3e27067e99b7dcf92439f004a401593",
       "signingId": "W8F64X92K3:com.grammarly.ProjectLlama",
       "teamId": "W8F64X92K3",
-      "lastUpdated": "2026-02-27T04:39:10Z"
+      "lastUpdated": "2026-03-08T00:41:55Z"
     },
     {
       "slug": "granola/darwin",
       "name": "Granola",
-      "version": "7.45.0",
-      "sha256": "e145d2a0de310eb714394029cdb4134a0ba25b1d95b906d160bce10e994ad4b9",
-      "cdhash": "724f76c9e48bfc7e0b2518a9baf58073739ed011",
+      "version": "7.54.0",
+      "sha256": "7cb0da7779b6bbc675ae1bfbfe08a4dc22905ed93d029c030e8d7c83107001df",
+      "cdhash": "308f9215f2476b9b76e1a794331e7a87236681e5",
       "signingId": "QZ7DHHLN25:com.granola.app",
       "teamId": "QZ7DHHLN25",
-      "lastUpdated": "2026-03-04T00:48:39Z"
+      "lastUpdated": "2026-03-08T00:44:29Z"
     },
     {
       "slug": "hyper/darwin",
@@ -1201,11 +1201,12 @@
     {
       "slug": "insomnia/darwin",
       "name": "Insomnia",
-      "version": "12.3.1",
-      "sha256": "a6c1d80c793c72575f6130fbb5e6d499341511714a652740261ee2b9f9726ea0",
+      "version": "12.4.0",
+      "sha256": "ec818779b6d61dbaf12a5e4aeb257bb227090259336e6559fe59f6b75c8b537c",
+      "cdhash": "0ae970ac5d74659b9a081f9a30e9a4f71ca783a2",
       "signingId": "FX44YY62GV:com.insomnia.app",
       "teamId": "FX44YY62GV",
-      "lastUpdated": "2026-02-06T15:31:46Z"
+      "lastUpdated": "2026-03-08T00:45:03Z"
     },
     {
       "slug": "intellij-idea-ce/darwin",
@@ -1257,12 +1258,12 @@
     {
       "slug": "jetbrains-toolbox/darwin",
       "name": "JetBrains Toolbox",
-      "version": "3.3",
-      "sha256": "f0cc899933db1700d20d9ba5735e20a99f79666174b9dad406de55da40a9baf9",
-      "cdhash": "057e7aa9f70f43d59a8f0c0a34aa4f140fa9dec7",
+      "version": "3.3.1",
+      "sha256": "3c5f58ab5b2f6939758b74627864f661f85edc5957bea1d0adc2a0e78d412622",
+      "cdhash": "18655071a0286decd1fdfa1abf5379046eabf5fc",
       "signingId": "2ZEFAR8TH3:com.jetbrains.toolbox",
       "teamId": "2ZEFAR8TH3",
-      "lastUpdated": "2026-03-04T00:50:41Z"
+      "lastUpdated": "2026-03-08T00:45:27Z"
     },
     {
       "slug": "keepassxc/darwin",
@@ -1359,21 +1360,22 @@
     {
       "slug": "logi-options+/darwin",
       "name": "Logi Options+",
-      "version": "1.99.834046",
-      "sha256": "c7641e968d3ead3bcdcc412817a91a28a9f943839f315d0bfcffcade3cdc4085",
+      "version": "2.0.848900",
+      "sha256": "6aad493fe4aef2bab41d3946a25157d01314f8c7693b20ee2147b052d285eb27",
+      "cdhash": "3e5adf9aacb8276c41e15f96e1ab4cc15e2bdc43",
       "signingId": "QED4VVPZWA:com.logi.optionsplus.installer",
       "teamId": "QED4VVPZWA",
-      "lastUpdated": "2026-02-10T19:36:59Z"
+      "lastUpdated": "2026-03-08T00:45:48Z"
     },
     {
       "slug": "loom/darwin",
       "name": "Loom",
-      "version": "0.336.4",
-      "sha256": "7bed8dcc6bc7d6a4c69ddd5a5a5edb67cd18b45e4a53fcc5c64e3a9095ced803",
-      "cdhash": "679ab15069e84979531433b45d8da967970c8399",
+      "version": "0.336.5",
+      "sha256": "2608a0cdbc306e8ec600c9e00dae452baa6c6fb271a4866eef9aa33bc78e2065",
+      "cdhash": "301042dcc3b73167a00d0dd60bf763ffe3cb5629",
       "signingId": "QGD2ZPXZZG:com.loom.desktop",
       "teamId": "QGD2ZPXZZG",
-      "lastUpdated": "2026-03-04T00:52:17Z"
+      "lastUpdated": "2026-03-08T00:47:40Z"
     },
     {
       "slug": "lulu/darwin",
@@ -1397,11 +1399,12 @@
     {
       "slug": "mattermost/darwin",
       "name": "Mattermost",
-      "version": "6.0.4",
-      "sha256": "d42a9ba66c091bc6f912f6fbdaa7da997c8832162244eca5aebef3fc3bd42b29",
+      "version": "6.1.0",
+      "sha256": "007f2e4eae5c93e5473fc8cf24393276b9692d685a89195a53f3c1df6a89e435",
+      "cdhash": "2cf2509685cf7b817faebf4d2d04d1101f1f0b33",
       "signingId": "UQ8HT4Q2XM:Mattermost.Desktop",
       "teamId": "UQ8HT4Q2XM",
-      "lastUpdated": "2026-01-20T22:11:06Z"
+      "lastUpdated": "2026-03-08T00:48:05Z"
     },
     {
       "slug": "messenger/darwin",
@@ -1425,12 +1428,12 @@
     {
       "slug": "microsoft-edge/darwin",
       "name": "Microsoft Edge",
-      "version": "145.0.3800.82",
-      "sha256": "e78aa1db3320bad21e93a1a74fc8aa4ee489251beb74057069160774fd00ffe2",
-      "cdhash": "4d5f2ae1d40bf9e17dac635474b08307b1f70047",
+      "version": "145.0.3800.97",
+      "sha256": "5c01b8d4118732fdbf880ab900ac79c8a87c734f290e3587cc6ee72baa60cf71",
+      "cdhash": "5259d0f51bd37df565968817cf2acef97b214394",
       "signingId": "UBF8T346G9:com.microsoft.edgemac",
       "teamId": "UBF8T346G9",
-      "lastUpdated": "2026-03-04T00:53:20Z"
+      "lastUpdated": "2026-03-08T00:49:22Z"
     },
     {
       "slug": "microsoft-edge/windows",
@@ -1667,12 +1670,12 @@
     {
       "slug": "okta-verify/darwin",
       "name": "Okta Verify",
-      "version": "9.57.2",
-      "sha256": "db16b0d0aeb8bf37c97830479e16697deb4ee32fc0b9830f52ed52927ecf87e1",
-      "cdhash": "ece6d06a50cd2d77ccb8c4593c6742ba1e840e4f",
+      "version": "9.57.3",
+      "sha256": "1c19d6e063afe64e2ed0d3a456677a1b516ce537f76ea269763a04ed83acefd6",
+      "cdhash": "04c02a983dba570dd57c34da2283671c12a829e5",
       "signingId": "B7F62B65BN:com.okta.mobile",
       "teamId": "B7F62B65BN",
-      "lastUpdated": "2026-03-04T00:56:29Z"
+      "lastUpdated": "2026-03-08T00:49:54Z"
     },
     {
       "slug": "okta-verify/windows",
@@ -1709,12 +1712,12 @@
     {
       "slug": "onedrive/darwin",
       "name": "OneDrive",
-      "version": "26.017.0126.0002",
-      "sha256": "e35b9aaee024895fc3c152c1acb9b81e98bda2f3a2c597e78741227baa045e13",
-      "cdhash": "b3c283bf7c41bb7b244bf5a908e7143d94ad2755",
+      "version": "26.022.0203.0006",
+      "sha256": "db2046c04b7ec7d5ecd903dec6df4557275931f1b4a91046f4d583f4942f067e",
+      "cdhash": "6757b0e5a8eeed0e86a30d5f71fb10523090709d",
       "signingId": "UBF8T346G9:com.microsoft.OneDrive",
       "teamId": "UBF8T346G9",
-      "lastUpdated": "2026-02-24T19:38:53Z"
+      "lastUpdated": "2026-03-08T00:50:42Z"
     },
     {
       "slug": "opera/darwin",
