@@ -1,51 +1,6 @@
 {
   "changes": [
     {
-      "date": "2025-12-13T05:07:44Z",
-      "appName": "Teleport Connect",
-      "slug": "teleport-connect/darwin",
-      "platform": "darwin",
-      "oldVersion": "18.5.0",
-      "newVersion": "18.5.1",
-      "installerUrl": "https://cdn.teleport.dev/Teleport%20Connect-18.5.1.dmg"
-    },
-    {
-      "date": "2025-12-13T05:07:44Z",
-      "appName": "Microsoft Auto Update",
-      "slug": "microsoft-auto-update/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.81.25111027",
-      "newVersion": "4.81.25121042",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_AutoUpdate_4.81.25121042_Updater.pkg"
-    },
-    {
-      "date": "2025-12-13T05:07:44Z",
-      "appName": "Dialpad",
-      "slug": "dialpad/darwin",
-      "platform": "darwin",
-      "oldVersion": "2511.1.1",
-      "newVersion": "2512.0.0",
-      "installerUrl": "https://storage.googleapis.com/dialpad_native/osx/arm64/Dialpad.2512.0.0.zip"
-    },
-    {
-      "date": "2025-12-13T05:07:44Z",
-      "appName": "Slack",
-      "slug": "slack/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.47.69",
-      "newVersion": "4.47.72",
-      "installerUrl": "https://slack.com/api/desktop.latestRelease?redirect=1\u0026variant=pkg\u0026arch=universal"
-    },
-    {
-      "date": "2025-12-13T05:07:44Z",
-      "appName": "Notion",
-      "slug": "notion/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "6.1.0",
-      "installerUrl": "https://desktop-release.notion-static.com/Notion%20Setup%206.1.0.exe"
-    },
-    {
       "date": "2025-12-13T06:09:23Z",
       "appName": "Postman",
       "slug": "postman/windows",
@@ -8999,6 +8954,51 @@
       "oldVersion": "2.12.1",
       "newVersion": "2.12.3",
       "installerUrl": "https://github.com/exelban/stats/releases/download/v2.12.3/Stats.dmg"
+    },
+    {
+      "date": "2026-03-09T15:25:00Z",
+      "appName": "WhatsApp",
+      "slug": "whatsapp/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.9.21",
+      "newVersion": "26.10.16",
+      "installerUrl": "https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release\u0026src=whatsapp_downloads_page"
+    },
+    {
+      "date": "2026-03-09T15:25:00Z",
+      "appName": "Claude",
+      "slug": "claude/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.1.5368",
+      "newVersion": "1.1.5749",
+      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.1.5749/Claude-ecf3d94e6eb8c8af9caed33a16c58e199abe2aec.zip"
+    },
+    {
+      "date": "2026-03-09T15:25:00Z",
+      "appName": "MongoDB Compass",
+      "slug": "mongodb-compass/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.49.2",
+      "newVersion": "1.49.3",
+      "installerUrl": "https://downloads.mongodb.com/compass/mongodb-compass-1.49.3-darwin-arm64.dmg"
+    },
+    {
+      "date": "2026-03-09T15:25:00Z",
+      "appName": "Microsoft Visual Studio Code",
+      "slug": "visual-studio-code/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.110.1",
+      "newVersion": "1.111.0",
+      "installerUrl": "https://update.code.visualstudio.com/1.111.0/darwin-arm64/stable"
+    },
+    {
+      "date": "2026-03-09T15:25:00Z",
+      "appName": "Microsoft Visual Studio Code",
+      "slug": "visual-studio-code/windows",
+      "platform": "windows",
+      "oldVersion": "1.110.0",
+      "newVersion": "1.111.0",
+      "installerUrl": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/VSCodeSetup-x64-1.111.0.exe"
     }
   ]
 }
