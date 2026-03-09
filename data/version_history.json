@@ -1,42 +1,6 @@
 {
   "changes": [
     {
-      "date": "2025-12-13T06:09:23Z",
-      "appName": "Postman",
-      "slug": "postman/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "11.75.4",
-      "installerUrl": "https://dl.pstmn.io/download/version/11.75.4/windows_64"
-    },
-    {
-      "date": "2025-12-13T15:06:07Z",
-      "appName": "OneDrive",
-      "slug": "onedrive/darwin",
-      "platform": "darwin",
-      "oldVersion": "25.184.0921.0004",
-      "newVersion": "25.222.1112.0002",
-      "installerUrl": "https://oneclient.sfx.ms/Mac/Installers/25.222.1112.0002/universal/OneDrive.pkg"
-    },
-    {
-      "date": "2025-12-13T22:06:32Z",
-      "appName": "Tailscale",
-      "slug": "tailscale/windows",
-      "platform": "windows",
-      "oldVersion": "1.90.9",
-      "newVersion": "1.92.1",
-      "installerUrl": "https://pkgs.tailscale.com/stable/tailscale-setup-1.92.1-amd64.msi"
-    },
-    {
-      "date": "2025-12-13T22:06:32Z",
-      "appName": "Cursor",
-      "slug": "cursor/windows",
-      "platform": "windows",
-      "oldVersion": "2.1.50",
-      "newVersion": "2.2.14",
-      "installerUrl": "https://downloads.cursor.com/production/1685afce45886aa5579025ac7e077fc3d4369c52/win32/x64/system-setup/CursorSetup-x64-2.2.14.exe"
-    },
-    {
       "date": "2025-12-14T03:35:24Z",
       "appName": "8x8 Work",
       "slug": "8x8-work/windows",
@@ -8999,6 +8963,42 @@
       "oldVersion": "1.110.0",
       "newVersion": "1.111.0",
       "installerUrl": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/VSCodeSetup-x64-1.111.0.exe"
+    },
+    {
+      "date": "2026-03-09T22:10:27Z",
+      "appName": "Ghostty",
+      "slug": "ghostty/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.2.3",
+      "newVersion": "1.3.0",
+      "installerUrl": "https://release.files.ghostty.org/1.3.0/Ghostty.dmg"
+    },
+    {
+      "date": "2026-03-09T22:10:27Z",
+      "appName": "Spotify",
+      "slug": "spotify/windows",
+      "platform": "windows",
+      "oldVersion": "1.2.85.504.gbcffb495",
+      "newVersion": "1.2.85.507.g795fff93",
+      "installerUrl": "https://upgrade.scdn.co/upgrade/client/win32-x86_64/spotify_installer-1.2.85.507.g795fff93-3545.exe"
+    },
+    {
+      "date": "2026-03-09T22:10:27Z",
+      "appName": "Cursor",
+      "slug": "cursor/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.6.13",
+      "newVersion": "2.6.14",
+      "installerUrl": "https://downloads.cursor.com/production/eb1c4e0702d201d1226d2a7afb25c501c2e56088/darwin/arm64/Cursor-darwin-arm64.zip"
+    },
+    {
+      "date": "2026-03-09T22:10:27Z",
+      "appName": "Claude",
+      "slug": "claude/windows",
+      "platform": "windows",
+      "oldVersion": "1.1.5368",
+      "newVersion": "1.1.5749",
+      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.1.5749/Claude-ecf3d94e6eb8c8af9caed33a16c58e199abe2aec.exe"
     }
   ]
 }
