@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: March 11, 2026 at 4:12 PM CDT</p>
+            Last updated: March 11, 2026 at 4:13 PM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: March 11, 2026 at 4:12 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: March 11, 2026 at 4:13 PM CDT</p>
             </div>
         </div>
     </div>
@@ -5187,7 +5187,14 @@
                 "platform": "darwin",
                 "description": "Ollama is a tool to get up and running with large language models locally.",
                 "version": "0.17.7",
-                "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.17.7/Ollama-darwin.zip"
+                "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.17.7/Ollama-darwin.zip",
+                "securityInfo": {
+                  "sha256": "e050dd385a2da3b5affe99737cbfd780da16fbea1a966b3b3457056f8d4a073c",
+                  "cdhash": "9f2ee9d500da9f9cd5d0229f8ea2a28946015b29",
+                  "signingId": "3MU9H2V9Y9:com.electron.ollama",
+                  "teamId": "3MU9H2V9Y9",
+                  "lastUpdated": "2026-03-11T21:13:40Z"
+                }
               },
               {
                 "name": "Ollama",
@@ -7236,7 +7243,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `March 11, 2026 at 4:12 PM CDT`;
+                let timestampText = 'Last updated: ' + `March 11, 2026 at 4:13 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
