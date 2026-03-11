@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-11T20:14:47Z",
+  "lastUpdated": "2026-03-11T21:13:42Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1704,6 +1704,16 @@
       "thumbprint": "02EA08B564116C1547354F2B1F909CABB6AE9F9F",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-02-23T16:24:38Z"
+    },
+    {
+      "slug": "ollama/darwin",
+      "name": "Ollama",
+      "version": "0.17.7",
+      "sha256": "e050dd385a2da3b5affe99737cbfd780da16fbea1a966b3b3457056f8d4a073c",
+      "cdhash": "9f2ee9d500da9f9cd5d0229f8ea2a28946015b29",
+      "signingId": "3MU9H2V9Y9:com.electron.ollama",
+      "teamId": "3MU9H2V9Y9",
+      "lastUpdated": "2026-03-11T21:13:40Z"
     },
     {
       "slug": "omnigraffle/darwin",
