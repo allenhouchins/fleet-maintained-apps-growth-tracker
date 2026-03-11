@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: March 11, 2026 at 3:12 PM CDT</p>
+            Last updated: March 11, 2026 at 3:15 PM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: March 11, 2026 at 3:12 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: March 11, 2026 at 3:15 PM CDT</p>
             </div>
         </div>
     </div>
@@ -4427,7 +4427,14 @@
                 "platform": "darwin",
                 "description": "IINA is a modern, free and open-source media player for macOS.",
                 "version": "1.4.1",
-                "installerUrl": "https://dl-portal.iina.io/IINA.v1.4.1.dmg"
+                "installerUrl": "https://dl-portal.iina.io/IINA.v1.4.1.dmg",
+                "securityInfo": {
+                  "sha256": "d07a6f5bb74604d5cb90468f6a67fec02518cf03a75d7de269859f7b1e56148c",
+                  "cdhash": "83f789bdc789aacb83bf8651749dec08b9f8f6aa",
+                  "signingId": "67CQ77V27R:com.colliderli.iina",
+                  "teamId": "67CQ77V27R",
+                  "lastUpdated": "2026-03-11T20:14:02Z"
+                }
               },
               {
                 "name": "iMazing Profile Editor",
@@ -5619,7 +5626,14 @@
                 "platform": "darwin",
                 "description": "Sequel Ace is a MySQL and MariaDB database manager for macOS.",
                 "version": "5.2.0",
-                "installerUrl": "https://github.com/Sequel-Ace/Sequel-Ace/releases/download/production/5.2.0-20099/Sequel-Ace-5.2.0.zip"
+                "installerUrl": "https://github.com/Sequel-Ace/Sequel-Ace/releases/download/production/5.2.0-20099/Sequel-Ace-5.2.0.zip",
+                "securityInfo": {
+                  "sha256": "37f2913db707e4f165b341a479ef366db1029f95c326fa2499cb0d5aa6d98281",
+                  "cdhash": "0f39afa496595c1fb89fc4cdffe93299c7e1f1ee",
+                  "signingId": "NKQ4HJ66PX:com.sequel-ace.sequel-ace",
+                  "teamId": "NKQ4HJ66PX",
+                  "lastUpdated": "2026-03-11T20:14:23Z"
+                }
               },
               {
                 "name": "Shottr",
@@ -6105,7 +6119,14 @@
                 "platform": "darwin",
                 "description": "The Unarchiver is an archive extraction utility that supports many formats including ZIP, RAR, and 7z.",
                 "version": "4.3.9",
-                "installerUrl": "https://dl.devmate.com/com.macpaw.site.theunarchiver/147/1742287964/TheUnarchiver-147.zip"
+                "installerUrl": "https://dl.devmate.com/com.macpaw.site.theunarchiver/147/1742287964/TheUnarchiver-147.zip",
+                "securityInfo": {
+                  "sha256": "54f3c99b600a88af75c563e7592df5b725f43ffe9419b388d2af6e20e2bf7d9e",
+                  "cdhash": "3677a86cc008ee7c9a947818e17412f83b7d2c08",
+                  "signingId": "S8EX82NJP6:com.macpaw.site.theunarchiver",
+                  "teamId": "S8EX82NJP6",
+                  "lastUpdated": "2026-03-11T20:14:45Z"
+                }
               },
               {
                 "name": "Thunderbird",
@@ -7199,7 +7220,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `March 11, 2026 at 3:12 PM CDT`;
+                let timestampText = 'Last updated: ' + `March 11, 2026 at 3:15 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
