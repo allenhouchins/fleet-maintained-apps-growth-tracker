@@ -1,33 +1,6 @@
 {
   "changes": [
     {
-      "date": "2025-12-16T20:07:50Z",
-      "appName": "Grammarly Desktop",
-      "slug": "grammarly-desktop/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.145.0.0",
-      "newVersion": "1.146.2.0",
-      "installerUrl": "https://download-mac.grammarly.com/versions/1.146.2.0/Grammarly.dmg"
-    },
-    {
-      "date": "2025-12-16T20:07:50Z",
-      "appName": "CrashPlan",
-      "slug": "crashplan/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "11.8.0.609",
-      "installerUrl": "https://download.crashplan.com/installs/agent/cloud/11.8.0/609/install/CrashPlan_11.8.0_609_Win64.msi"
-    },
-    {
-      "date": "2025-12-17T01:35:59Z",
-      "appName": "Google Chrome",
-      "slug": "google-chrome/windows",
-      "platform": "windows",
-      "oldVersion": "143.0.7499.110",
-      "newVersion": "143.0.7499.147",
-      "installerUrl": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi"
-    },
-    {
       "date": "2025-12-17T03:32:48Z",
       "appName": "Tailscale",
       "slug": "tailscale-app/darwin",
@@ -8999,6 +8972,33 @@
       "oldVersion": "18.7.2",
       "newVersion": "18.7.3",
       "installerUrl": "https://cdn.teleport.dev/Teleport%20Connect-18.7.3.dmg"
+    },
+    {
+      "date": "2026-03-11T16:22:42Z",
+      "appName": "Grammarly Desktop",
+      "slug": "grammarly-desktop/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.155.0.0",
+      "newVersion": "1.156.1.0",
+      "installerUrl": "https://download-mac.grammarly.com/versions/1.156.1.0/Grammarly.dmg"
+    },
+    {
+      "date": "2026-03-11T16:22:42Z",
+      "appName": "Company Portal",
+      "slug": "intune-company-portal/darwin",
+      "platform": "darwin",
+      "oldVersion": "5.2601.0",
+      "newVersion": "5.2602.0",
+      "installerUrl": "https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/CompanyPortal_5.2602.0-Upgrade.pkg"
+    },
+    {
+      "date": "2026-03-11T16:22:42Z",
+      "appName": "MongoDB Compass",
+      "slug": "mongodb-compass/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.49.3",
+      "newVersion": "1.49.4",
+      "installerUrl": "https://downloads.mongodb.com/compass/mongodb-compass-1.49.4-darwin-arm64.dmg"
     }
   ]
 }
