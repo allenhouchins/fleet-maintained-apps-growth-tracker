@@ -2,24 +2,6 @@
   "changes": [
     {
       "date": "2025-12-17T03:32:48Z",
-      "appName": "Microsoft Excel",
-      "slug": "microsoft-excel/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.103.25120717",
-      "newVersion": "16.104",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.104.25121423_Installer.pkg"
-    },
-    {
-      "date": "2025-12-17T03:32:48Z",
-      "appName": "Microsoft PowerPoint",
-      "slug": "microsoft-powerpoint/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.103.25120717",
-      "newVersion": "16.104.25121423",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.104.25121423_Installer.pkg"
-    },
-    {
-      "date": "2025-12-17T03:32:48Z",
       "appName": "Zed",
       "slug": "zed/darwin",
       "platform": "darwin",
@@ -8999,6 +8981,24 @@
       "oldVersion": "",
       "newVersion": "5.2.0",
       "installerUrl": "https://github.com/Sequel-Ace/Sequel-Ace/releases/download/production/5.2.0-20099/Sequel-Ace-5.2.0.zip"
+    },
+    {
+      "date": "2026-03-11T21:12:33Z",
+      "appName": "Ollama",
+      "slug": "ollama/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "0.17.7",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.17.7/OllamaSetup.exe"
+    },
+    {
+      "date": "2026-03-11T21:12:33Z",
+      "appName": "Ollama",
+      "slug": "ollama/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "0.17.7",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.17.7/Ollama-darwin.zip"
     }
   ]
 }

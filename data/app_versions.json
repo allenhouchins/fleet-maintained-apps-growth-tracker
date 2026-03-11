@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-11T20:12:29Z",
+  "lastUpdated": "2026-03-11T21:12:33Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1162,6 +1162,20 @@
       "platform": "darwin",
       "version": "9.57.3",
       "installerUrl": "https://okta.okta.com/artifacts/OKTA_VERIFY_MACOS/9.57.3/OktaVerify-9.57.3-5981-85d4901.pkg"
+    },
+    {
+      "slug": "ollama/darwin",
+      "name": "Ollama",
+      "platform": "darwin",
+      "version": "0.17.7",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.17.7/Ollama-darwin.zip"
+    },
+    {
+      "slug": "ollama/windows",
+      "name": "Ollama",
+      "platform": "windows",
+      "version": "0.17.7",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.17.7/OllamaSetup.exe"
     },
     {
       "slug": "omnigraffle/darwin",

@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: March 11, 2026 at 3:16 PM CDT</p>
+            Last updated: March 11, 2026 at 4:12 PM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: March 11, 2026 at 3:16 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: March 11, 2026 at 4:12 PM CDT</p>
             </div>
         </div>
     </div>
@@ -1406,7 +1406,7 @@
             258,
             258,
             258,
-            264
+            266
           ],
           "additions": [
             20,
@@ -1781,7 +1781,7 @@
             0,
             0,
             0,
-            5
+            7
           ],
           "macCounts": [
             20,
@@ -2156,7 +2156,7 @@
             207,
             207,
             207,
-            212
+            213
           ],
           "windowsCounts": [
             0,
@@ -2531,7 +2531,7 @@
             51,
             51,
             51,
-            52
+            53
           ],
           "growthDates": [
             "2025-03-04",
@@ -2627,7 +2627,7 @@
             257,
             258,
             259,
-            264
+            266
           ],
           "growthAdditions": [
             20,
@@ -2675,7 +2675,7 @@
             1,
             1,
             1,
-            5
+            7
           ]
         };
         
@@ -5182,6 +5182,22 @@
                 }
               },
               {
+                "name": "Ollama",
+                "slug": "ollama/darwin",
+                "platform": "darwin",
+                "description": "Ollama is a tool to get up and running with large language models locally.",
+                "version": "0.17.7",
+                "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.17.7/Ollama-darwin.zip"
+              },
+              {
+                "name": "Ollama",
+                "slug": "ollama/windows",
+                "platform": "windows",
+                "description": "Ollama is a tool to get up and running with large language models locally.",
+                "version": "0.17.7",
+                "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.17.7/OllamaSetup.exe"
+              },
+              {
                 "name": "OmniGraffle",
                 "slug": "omnigraffle/darwin",
                 "platform": "darwin",
@@ -7220,7 +7236,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `March 11, 2026 at 3:16 PM CDT`;
+                let timestampText = 'Last updated: ' + `March 11, 2026 at 4:12 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
