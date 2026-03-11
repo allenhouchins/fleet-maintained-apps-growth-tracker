@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: March 11, 2026 at 2:21 PM CDT</p>
+            Last updated: March 11, 2026 at 2:22 PM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: March 11, 2026 at 2:21 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: March 11, 2026 at 2:22 PM CDT</p>
             </div>
         </div>
     </div>
@@ -6589,7 +6589,14 @@
                 "platform": "darwin",
                 "description": "Zotero is a free tool for collecting, organizing, citing, and sharing research.",
                 "version": "8.0.4",
-                "installerUrl": "https://download.zotero.org/client/release/8.0.4/Zotero-8.0.4.dmg"
+                "installerUrl": "https://download.zotero.org/client/release/8.0.4/Zotero-8.0.4.dmg",
+                "securityInfo": {
+                  "sha256": "69eb57e73de73734510ce0133e7fc0dd4ac195784beee80334b7b164874c1165",
+                  "cdhash": "b976cf4553751429840849a0756c68cd9463b706",
+                  "signingId": "8LAYR367YV:org.zotero.zotero",
+                  "teamId": "8LAYR367YV",
+                  "lastUpdated": "2026-03-11T19:22:38Z"
+                }
               },
               {
                 "name": "Zotero",
@@ -7165,7 +7172,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `March 11, 2026 at 2:21 PM CDT`;
+                let timestampText = 'Last updated: ' + `March 11, 2026 at 2:22 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
