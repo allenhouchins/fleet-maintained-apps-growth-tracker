@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: March 11, 2026 at 1:26 PM CDT</p>
+            Last updated: March 11, 2026 at 2:21 PM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: March 11, 2026 at 1:26 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: March 11, 2026 at 2:21 PM CDT</p>
             </div>
         </div>
     </div>
@@ -1406,7 +1406,7 @@
             258,
             258,
             258,
-            259
+            261
           ],
           "additions": [
             20,
@@ -1781,7 +1781,7 @@
             0,
             0,
             0,
-            0
+            2
           ],
           "macCounts": [
             20,
@@ -2156,7 +2156,7 @@
             207,
             207,
             207,
-            208
+            209
           ],
           "windowsCounts": [
             0,
@@ -2531,7 +2531,7 @@
             51,
             51,
             51,
-            51
+            52
           ],
           "growthDates": [
             "2025-03-04",
@@ -2578,7 +2578,8 @@
             "2026-02-20",
             "2026-02-23",
             "2026-02-24",
-            "2026-02-25"
+            "2026-02-25",
+            "2026-03-11"
           ],
           "growthCounts": [
             20,
@@ -2625,7 +2626,8 @@
             256,
             257,
             258,
-            259
+            259,
+            261
           ],
           "growthAdditions": [
             20,
@@ -2672,7 +2674,8 @@
             2,
             1,
             1,
-            1
+            1,
+            2
           ]
         };
         
@@ -6579,6 +6582,22 @@
                   "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
                   "lastUpdated": "2026-02-10T23:19:45Z"
                 }
+              },
+              {
+                "name": "Zotero",
+                "slug": "zotero/darwin",
+                "platform": "darwin",
+                "description": "Zotero is a free tool for collecting, organizing, citing, and sharing research.",
+                "version": "8.0.4",
+                "installerUrl": "https://download.zotero.org/client/release/8.0.4/Zotero-8.0.4.dmg"
+              },
+              {
+                "name": "Zotero",
+                "slug": "zotero/windows",
+                "platform": "windows",
+                "description": "Zotero is a free tool for collecting, organizing, citing, and sharing research.",
+                "version": "8.0.4",
+                "installerUrl": "https://download.zotero.org/client/release/8.0.4/Zotero-8.0.4_x64_setup.exe"
               }
             ];
         
@@ -7146,7 +7165,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `March 11, 2026 at 1:26 PM CDT`;
+                let timestampText = 'Last updated: ' + `March 11, 2026 at 2:21 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {

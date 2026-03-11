@@ -2,24 +2,6 @@
   "changes": [
     {
       "date": "2025-12-17T03:32:48Z",
-      "appName": "Tailscale",
-      "slug": "tailscale-app/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.92.2",
-      "newVersion": "1.92.3",
-      "installerUrl": "https://pkgs.tailscale.com/stable/Tailscale-1.92.3-macos.pkg"
-    },
-    {
-      "date": "2025-12-17T03:32:48Z",
-      "appName": "Steam",
-      "slug": "steam/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "2.10.91.91",
-      "installerUrl": "https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe"
-    },
-    {
-      "date": "2025-12-17T03:32:48Z",
       "appName": "Microsoft OneNote",
       "slug": "microsoft-onenote/darwin",
       "platform": "darwin",
@@ -8999,6 +8981,24 @@
       "oldVersion": "1.49.3",
       "newVersion": "1.49.4",
       "installerUrl": "https://downloads.mongodb.com/compass/mongodb-compass-1.49.4-darwin-arm64.dmg"
+    },
+    {
+      "date": "2026-03-11T19:20:58Z",
+      "appName": "Zotero",
+      "slug": "zotero/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "8.0.4",
+      "installerUrl": "https://download.zotero.org/client/release/8.0.4/Zotero-8.0.4_x64_setup.exe"
+    },
+    {
+      "date": "2026-03-11T19:20:58Z",
+      "appName": "Zotero",
+      "slug": "zotero/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "8.0.4",
+      "installerUrl": "https://download.zotero.org/client/release/8.0.4/Zotero-8.0.4.dmg"
     }
   ]
 }
