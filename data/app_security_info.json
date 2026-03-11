@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-11T15:30:57Z",
+  "lastUpdated": "2026-03-11T15:42:03Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1473,22 +1473,22 @@
     {
       "slug": "microsoft-outlook/darwin",
       "name": "Microsoft Outlook",
-      "version": "16.106.26030211",
-      "sha256": "cbb0c4821923055807ec3f116e51df79c734abfd61e43fa62652b08a064a7f10",
-      "cdhash": "5c04e2d49c7711b732d8c4adb8d188b49635d44b",
+      "version": "16.107.26030937",
+      "sha256": "0a88189924d9f4d12c60712933e341e01e6d3d4465d6e1b2cb93232444efe4cc",
+      "cdhash": "d19bcd63c9e6c478e8e0883038f1387985608734",
       "signingId": "UBF8T346G9:com.microsoft.Outlook",
       "teamId": "UBF8T346G9",
-      "lastUpdated": "2026-03-04T00:54:58Z"
+      "lastUpdated": "2026-03-11T15:32:40Z"
     },
     {
       "slug": "microsoft-powerpoint/darwin",
       "name": "Microsoft PowerPoint",
-      "version": "16.106.26030211",
-      "sha256": "0f6a58a9caf122f26d0df4ab87f6b6d9776960fe90c77a2480162ec05f64776c",
-      "cdhash": "4c845740d7efbbcc54689d2a02290e0ba307c0f9",
+      "version": "16.107.26030819",
+      "sha256": "cf95eb0d2f8b98e79f0418633d3513cac7a11d9abbeb6f61b05ce6a435de834f",
+      "cdhash": "4aacfca464170d931625a014997839bc1c0b2d23",
       "signingId": "UBF8T346G9:com.microsoft.Powerpoint",
       "teamId": "UBF8T346G9",
-      "lastUpdated": "2026-03-04T15:22:04Z"
+      "lastUpdated": "2026-03-11T15:34:14Z"
     },
     {
       "slug": "microsoft-teams/darwin",
@@ -1515,12 +1515,12 @@
     {
       "slug": "microsoft-word/darwin",
       "name": "Microsoft Word",
-      "version": "16.106.3",
-      "sha256": "9c7e3813ca4740b228d6fc0251789db0c7296729df0c5e96b8afbb22589741bd",
-      "cdhash": "ad1f38213d0cf4798152481b717c11e35085f593",
+      "version": "16.107",
+      "sha256": "f520e0dc9918ad6e9d3f93f9b5fcf72d957d1652cae311e11f1b87bea771f89f",
+      "cdhash": "79926bf153d51cb86c38500e04179a29cb4174bd",
       "signingId": "UBF8T346G9:com.microsoft.Word",
       "teamId": "UBF8T346G9",
-      "lastUpdated": "2026-03-04T15:23:53Z"
+      "lastUpdated": "2026-03-11T15:36:01Z"
     },
     {
       "slug": "miro/darwin",
@@ -1602,12 +1602,12 @@
     {
       "slug": "notion/darwin",
       "name": "Notion",
-      "version": "7.6.1",
-      "sha256": "82da7b86cc6b45beec637d2f24a75ee2355c2c2eca672cda1a1428814e96b87c",
-      "cdhash": "4006357f0572e2337844f669f3ec70fa22ea04c3",
+      "version": "7.7.1",
+      "sha256": "acece4f129210b60821166ff218a42d7e1ad14ef7a7f5ce61a8bceb05962b7b1",
+      "cdhash": "f7eab37cb4ca6ddb2868efe190a3a96c60c2ab22",
       "signingId": "LBQJ96FQ8D:notion.id",
       "teamId": "LBQJ96FQ8D",
-      "lastUpdated": "2026-02-25T20:26:55Z"
+      "lastUpdated": "2026-03-11T15:36:32Z"
     },
     {
       "slug": "notion/windows",
@@ -1794,12 +1794,12 @@
     {
       "slug": "postman/darwin",
       "name": "Postman",
-      "version": "12.1.1",
-      "sha256": "c021328e06feb2a1724812f3b659bd35a090f0554dceb920b63b90faee6d9772",
-      "cdhash": "3fd89c17880b52eececd401a614111bcfc7dd8fc",
+      "version": "12.1.2",
+      "sha256": "f5156f7230d506b07e260b457d1083384d9561f05d40e94147d4d30f5bdaa039",
+      "cdhash": "bf73a49bd7b605255764a99f8e97d382324f3f84",
       "signingId": "H7H8Q7M5CK:com.postmanlabs.mac",
       "teamId": "H7H8Q7M5CK",
-      "lastUpdated": "2026-03-10T15:26:44Z"
+      "lastUpdated": "2026-03-11T15:36:55Z"
     },
     {
       "slug": "postman/windows",
@@ -2270,34 +2270,40 @@
     {
       "slug": "teleport-connect/darwin",
       "name": "Teleport Connect",
-      "version": "18.7.2",
-      "sha256": "d875257d398c632ef70d6f024c1c8f42263ad64489481a35cd5f65723183d74a",
-      "cdhash": "5611b7bb600d59cd9894c394051ebebb736a9141",
+      "version": "18.7.3",
+      "sha256": "0f4a00e94144782452f44928f81718b910d73074e5aa7f2752fc422b7aa7df67",
+      "cdhash": "045e639a6097a2e73b02c045b8a162b757d5f1e6",
       "signingId": "QH8AA5B8UP:gravitational.teleport.connect",
       "teamId": "QH8AA5B8UP",
-      "lastUpdated": "2026-03-08T00:58:06Z"
+      "lastUpdated": "2026-03-11T15:37:23Z"
     },
     {
       "slug": "teleport-suite/darwin",
       "name": "Teleport Suite",
-      "version": "18.7.2",
+      "version": "18.7.3",
       "signingId": "QH8AA5B8UP:QH8AA5B8UP.com.gravitational.teleport.tctl",
       "teamId": "QH8AA5B8UP",
-      "lastUpdated": "2026-03-08T01:00:27Z",
+      "lastUpdated": "2026-03-11T15:41:00Z",
       "apps": [
         {
           "slug": "teleport-suite/darwin/tsh",
           "name": "tsh",
-          "version": "18.7.2",
-          "sha256": "05e71fed47ff1566578a6d5afb6fee03001c437fbf9e58ecad7d7836c81480ce",
-          "lastUpdated": "2026-03-08T01:00:46Z"
+          "version": "18.7.3",
+          "sha256": "fac6ec379a898e0a9d5afa15f702c9dfc3502059b4626d61d1e3e6aa69d37a32",
+          "cdhash": "87ae075f90755c8a755fa064de5aa7bc4fa953f3",
+          "signingId": "QH8AA5B8UP:QH8AA5B8UP.com.gravitational.teleport.tsh",
+          "teamId": "QH8AA5B8UP",
+          "lastUpdated": "2026-03-11T15:41:19Z"
         },
         {
           "slug": "teleport-suite/darwin/tctl",
           "name": "tctl",
-          "version": "18.7.2",
-          "sha256": "3d9007bb0c866ad16a1103247fae681d6524fba541ab827e542c74513e2d018a",
-          "lastUpdated": "2026-03-08T01:01:02Z"
+          "version": "18.7.3",
+          "sha256": "1cfd411f3bdb2c35fa4ea3848b205a16711a507cd60ee06ac6896c05a71f5174",
+          "cdhash": "f442aeb63bcc38c7158082b8b289fc39c415ce26",
+          "signingId": "QH8AA5B8UP:QH8AA5B8UP.com.gravitational.teleport.tctl",
+          "teamId": "QH8AA5B8UP",
+          "lastUpdated": "2026-03-11T15:41:35Z"
         }
       ]
     },
@@ -2466,12 +2472,12 @@
     {
       "slug": "warp/darwin",
       "name": "Warp",
-      "version": "0.2026.02.25.08.24.01",
-      "sha256": "3b481774c1767b24701d8af02250190239b5c9cd548ae44562aa0b0a937a7dbe",
-      "cdhash": "c6b0e81ee1d633835a69b0f59511b1e32c43c85c",
+      "version": "0.2026.03.04.08.20.02",
+      "sha256": "c362ff6c615f8ed80256834090c2606083b64cee09fa79b7f2c3017f0837a427",
+      "cdhash": "29eec6652b347ba04754dddc74d141d1cea6d331",
       "signingId": "2BBY89MBSN:dev.warp.Warp-Stable",
       "teamId": "2BBY89MBSN",
-      "lastUpdated": "2026-03-11T14:29:11Z"
+      "lastUpdated": "2026-03-11T15:42:01Z"
     },
     {
       "slug": "webex/darwin",
