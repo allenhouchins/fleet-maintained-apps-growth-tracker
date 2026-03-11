@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: March 11, 2026 at 5:09 PM CDT</p>
+            Last updated: March 11, 2026 at 5:12 PM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: March 11, 2026 at 5:09 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: March 11, 2026 at 5:12 PM CDT</p>
             </div>
         </div>
     </div>
@@ -3157,7 +3157,14 @@
                 "platform": "darwin",
                 "description": "Backblaze is a data backup and storage service.",
                 "version": "10.0.0.1030",
-                "installerUrl": "https://secure.backblaze.com/api/install_backblaze?file=bzinstall-mac-10.0.0.1030.dmg"
+                "installerUrl": "https://secure.backblaze.com/api/install_backblaze?file=bzinstall-mac-10.0.0.1030.dmg",
+                "securityInfo": {
+                  "sha256": "c756f5c715da3da068974fbede1fa7064bfb9e2aea250b453b593afe93b2dd22",
+                  "cdhash": "f548175c939421f8b968f61d37f12f3ce434c3cb",
+                  "signingId": "G4K4BQ7S8J:com.backblaze.bzuninstallerswift",
+                  "teamId": "G4K4BQ7S8J",
+                  "lastUpdated": "2026-03-11T22:11:12Z"
+                }
               },
               {
                 "name": "balenaEtcher",
@@ -7260,7 +7267,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `March 11, 2026 at 5:09 PM CDT`;
+                let timestampText = 'Last updated: ' + `March 11, 2026 at 5:12 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
