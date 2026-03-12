@@ -1,114 +1,6 @@
 {
   "changes": [
     {
-      "date": "2025-12-17T03:32:48Z",
-      "appName": "Steam",
-      "slug": "steam/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "4.0",
-      "installerUrl": "https://cdn.cloudflare.steamstatic.com/client/installer/steam.dmg"
-    },
-    {
-      "date": "2025-12-17T03:32:48Z",
-      "appName": "Postman",
-      "slug": "postman/windows",
-      "platform": "windows",
-      "oldVersion": "11.76.0",
-      "newVersion": "11.76.3",
-      "installerUrl": "https://dl.pstmn.io/download/version/11.76.3/windows_64"
-    },
-    {
-      "date": "2025-12-17T03:32:48Z",
-      "appName": "Tailscale",
-      "slug": "tailscale/windows",
-      "platform": "windows",
-      "oldVersion": "1.92.1",
-      "newVersion": "1.92.3",
-      "installerUrl": "https://pkgs.tailscale.com/stable/tailscale-setup-1.92.3-amd64.msi"
-    },
-    {
-      "date": "2025-12-17T04:15:24Z",
-      "appName": "Inkscape",
-      "slug": "inkscape/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "1.4.2",
-      "installerUrl": "https://media.inkscape.org/dl/resources/file/inkscape-1.4.2_2025-05-13_f4327f4-x64.msi"
-    },
-    {
-      "date": "2025-12-17T18:10:51Z",
-      "appName": "Granola",
-      "slug": "granola/darwin",
-      "platform": "darwin",
-      "oldVersion": "6.426.0",
-      "newVersion": "6.442.0",
-      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/6.442.0/Granola-6.442.0-mac-universal.dmg"
-    },
-    {
-      "date": "2025-12-17T18:10:51Z",
-      "appName": "Discord",
-      "slug": "discord/windows",
-      "platform": "windows",
-      "oldVersion": "1.0.9216",
-      "newVersion": "1.0.9219",
-      "installerUrl": "https://stable.dl2.discordapp.net/distro/app/stable/win/x64/1.0.9219/DiscordSetup.exe"
-    },
-    {
-      "date": "2025-12-17T18:10:51Z",
-      "appName": "Grammarly Desktop",
-      "slug": "grammarly-desktop/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.146.2.0",
-      "newVersion": "1.146.3.0",
-      "installerUrl": "https://download-mac.grammarly.com/versions/1.146.3.0/Grammarly.dmg"
-    },
-    {
-      "date": "2025-12-17T18:10:51Z",
-      "appName": "Webex",
-      "slug": "webex/darwin",
-      "platform": "darwin",
-      "oldVersion": "45.12.0.33709",
-      "newVersion": "45.12.0.33788",
-      "installerUrl": "https://binaries.webex.com/webex-macos-apple-silicon/Webex.dmg"
-    },
-    {
-      "date": "2025-12-17T18:10:51Z",
-      "appName": "CleanMyMac",
-      "slug": "cleanmymac/darwin",
-      "platform": "darwin",
-      "oldVersion": "5.2.10",
-      "newVersion": "5.3.0",
-      "installerUrl": "https://dl.devmate.com/com.macpaw.CleanMyMac5/50300.0.2512161141/1765961351/CleanMyMac5-50300.0.2512161141.zip"
-    },
-    {
-      "date": "2025-12-17T18:10:51Z",
-      "appName": "Windsurf",
-      "slug": "windsurf/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.12.44",
-      "newVersion": "1.12.47",
-      "installerUrl": "https://windsurf-stable.codeiumdata.com/darwin-arm64-dmg/stable/8951cd3ad688e789573d7f51750d67ae4a0bea7d/Windsurf-darwin-arm64-1.12.47.dmg"
-    },
-    {
-      "date": "2025-12-17T18:10:51Z",
-      "appName": "Docker Desktop",
-      "slug": "docker/windows",
-      "platform": "windows",
-      "oldVersion": "4.54.0",
-      "newVersion": "4.55.0",
-      "installerUrl": "https://desktop.docker.com/win/main/amd64/213807/Docker%20Desktop%20Installer.exe"
-    },
-    {
-      "date": "2025-12-17T18:10:51Z",
-      "appName": "Google Chrome",
-      "slug": "google-chrome/darwin",
-      "platform": "darwin",
-      "oldVersion": "143.0.7499.110",
-      "newVersion": "143.0.7499.147",
-      "installerUrl": "https://dl.google.com/dl/chrome/mac/universal/stable/gcem/GoogleChrome.pkg"
-    },
-    {
       "date": "2025-12-17T18:10:51Z",
       "appName": "Clockify Desktop",
       "slug": "clockify/darwin",
@@ -8999,6 +8891,114 @@
       "oldVersion": "",
       "newVersion": "10.0.0.1030",
       "installerUrl": "https://secure.backblaze.com/api/install_backblaze?file=bzinstall-mac-10.0.0.1030.dmg"
+    },
+    {
+      "date": "2026-03-12T16:27:55Z",
+      "appName": "Brave",
+      "slug": "brave-browser/darwin",
+      "platform": "darwin",
+      "oldVersion": "145.1.87.192",
+      "newVersion": "146.1.88.127",
+      "installerUrl": "https://updates-cdn.bravesoftware.com/sparkle/Brave-Browser/stable-arm64/188.127/Brave-Browser-arm64.dmg"
+    },
+    {
+      "date": "2026-03-12T16:27:55Z",
+      "appName": "Loom",
+      "slug": "loom/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.337.3",
+      "newVersion": "0.337.5",
+      "installerUrl": "https://packages.loom.com/desktop-packages/Loom-0.337.5-arm64.dmg"
+    },
+    {
+      "date": "2026-03-12T16:27:55Z",
+      "appName": "Camtasia",
+      "slug": "camtasia/windows",
+      "platform": "windows",
+      "oldVersion": "26.0.3.15135",
+      "newVersion": "26.0.4.15557",
+      "installerUrl": "https://download.techsmith.com/camtasiastudio/releases/2604/camtasia.msi"
+    },
+    {
+      "date": "2026-03-12T16:27:55Z",
+      "appName": "Zed",
+      "slug": "zed/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.226.5",
+      "newVersion": "0.227.1",
+      "installerUrl": "https://zed.dev/api/releases/stable/0.227.1/Zed-aarch64.dmg"
+    },
+    {
+      "date": "2026-03-12T16:27:55Z",
+      "appName": "Postman",
+      "slug": "postman/darwin",
+      "platform": "darwin",
+      "oldVersion": "12.1.2",
+      "newVersion": "12.1.3",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.1.3/osx_arm64"
+    },
+    {
+      "date": "2026-03-12T16:27:55Z",
+      "appName": "Eclipse IDE",
+      "slug": "eclipse-ide/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.38",
+      "newVersion": "4.39",
+      "installerUrl": "https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2026-03/R/eclipse-committers-2026-03-R-macosx-cocoa-aarch64.dmg\u0026r=1"
+    },
+    {
+      "date": "2026-03-12T16:27:55Z",
+      "appName": "Signal",
+      "slug": "signal/darwin",
+      "platform": "darwin",
+      "oldVersion": "8.1.0",
+      "newVersion": "8.2.0",
+      "installerUrl": "https://updates.signal.org/desktop/signal-desktop-mac-arm64-8.2.0.zip"
+    },
+    {
+      "date": "2026-03-12T16:27:55Z",
+      "appName": "Nextcloud",
+      "slug": "nextcloud/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.0.6",
+      "newVersion": "4.0.7",
+      "installerUrl": "https://github.com/nextcloud-releases/desktop/releases/download/v4.0.7/Nextcloud-4.0.7.pkg"
+    },
+    {
+      "date": "2026-03-12T16:27:55Z",
+      "appName": "BetterDisplay",
+      "slug": "betterdisplay/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.1.5",
+      "newVersion": "4.2.2",
+      "installerUrl": "https://github.com/waydabber/BetterDisplay/releases/download/v4.2.2/BetterDisplay-v4.2.2.dmg"
+    },
+    {
+      "date": "2026-03-12T16:27:55Z",
+      "appName": "Apparency",
+      "slug": "apparency/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.1",
+      "newVersion": "3.2",
+      "installerUrl": "https://www.mothersruin.com/software/archives/Apparency-3.2.dmg"
+    },
+    {
+      "date": "2026-03-12T16:27:55Z",
+      "appName": "Figma",
+      "slug": "figma/windows",
+      "platform": "windows",
+      "oldVersion": "126.1.2",
+      "newVersion": "126.2.5",
+      "installerUrl": "https://desktop.figma.com/win/build/Figma-126.2.5.exe"
+    },
+    {
+      "date": "2026-03-12T16:27:55Z",
+      "appName": "Warp",
+      "slug": "warp/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.2026.03.04.08.20.02",
+      "newVersion": "0.2026.03.04.08.20.03",
+      "installerUrl": "https://releases.warp.dev/stable/v0.2026.03.04.08.20.stable_03/Warp.dmg"
     }
   ]
 }
