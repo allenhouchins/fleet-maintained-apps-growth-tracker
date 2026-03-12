@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-12T16:29:34Z",
+  "lastUpdated": "2026-03-12T16:35:23Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -348,9 +348,12 @@
     {
       "slug": "betterdisplay/darwin",
       "name": "BetterDisplay",
-      "version": "4.1.5",
-      "sha256": "c92751faa5ec76486a0a34a01aedabf533b7bfd7ea3fc073f210a574c5f2416c",
-      "lastUpdated": "2026-02-19T04:41:57Z"
+      "version": "4.2.2",
+      "sha256": "14dadf5694b62a607f263f389ec53ce046492446963ce7cc76183aaf63da87dd",
+      "cdhash": "f2cfd0589b4def65d91c03af7df27c2d55a9f203",
+      "signingId": "299YSU96J7:pro.betterdisplay.BetterDisplay",
+      "teamId": "299YSU96J7",
+      "lastUpdated": "2026-03-12T16:29:53Z"
     },
     {
       "slug": "beyond-compare/darwin",
@@ -419,12 +422,12 @@
     {
       "slug": "brave-browser/darwin",
       "name": "Brave",
-      "version": "145.1.87.192",
-      "sha256": "847a99cf680ca16bf74b0c789805cf5ea7470e0ceec94be8eb9273ccaaf79342",
-      "cdhash": "5902c784372b586903c6278a92670a108519b165",
+      "version": "146.1.88.127",
+      "sha256": "d7106e8b761381eb73e758631f0545e8d7b3c53f54c389b533e3c430cc4e0970",
+      "cdhash": "47b9df63a6a3f9a36f91bad68bf0662d61a95b6d",
       "signingId": "KL8N8XSYF4:com.brave.Browser",
       "teamId": "KL8N8XSYF4",
-      "lastUpdated": "2026-03-08T00:37:25Z"
+      "lastUpdated": "2026-03-12T16:30:31Z"
     },
     {
       "slug": "brave-browser/windows",
@@ -904,11 +907,12 @@
     {
       "slug": "eclipse-ide/darwin",
       "name": "Eclipse IDE",
-      "version": "4.38",
-      "sha256": "72ac398c3443f5ecc7c925c83943fa470e38dc87a44d760cdfa6ccaf8d2a17d7",
+      "version": "4.39",
+      "sha256": "73b8706249cda0c511166e8f6d92940da9e705a83fee6ac2bdaeec4eeb6a77f6",
+      "cdhash": "e8f851f40fb8ec4dd84e94cc98f2af8fed6eb5dc",
       "signingId": "JCDTMS22B4:epp.package.committers",
       "teamId": "JCDTMS22B4",
-      "lastUpdated": "2025-12-30T05:12:39Z"
+      "lastUpdated": "2026-03-12T16:32:24Z"
     },
     {
       "slug": "egnyte/darwin",
@@ -1395,12 +1399,12 @@
     {
       "slug": "loom/darwin",
       "name": "Loom",
-      "version": "0.337.3",
-      "sha256": "456df1dc8dcd2496a45ee4b7eba6970bd4183dac7da4168775de2ae8ae35eae0",
-      "cdhash": "6961e715418d3cf6981043c2913998e67d356a0a",
+      "version": "0.337.5",
+      "sha256": "2dec5ef923fdf9c2834714706a699ad8d485767e555728c7aaeab6f5dd408344",
+      "cdhash": "a418f305ed397c5f0e61f661e4309f6cd1d1c035",
       "signingId": "QGD2ZPXZZG:com.loom.desktop",
       "teamId": "QGD2ZPXZZG",
-      "lastUpdated": "2026-03-11T14:26:54Z"
+      "lastUpdated": "2026-03-12T16:32:50Z"
     },
     {
       "slug": "lulu/darwin",
@@ -1575,9 +1579,12 @@
     {
       "slug": "nextcloud/darwin",
       "name": "Nextcloud",
-      "version": "4.0.6",
-      "sha256": "e3eb15e07c4127ae19dbc1e6dc1097ad0a9f05d4edafaa9d063b2d8a41da2e84",
-      "lastUpdated": "2026-01-23T00:35:14Z"
+      "version": "4.0.7",
+      "sha256": "467aa150d987c91f32698845ab46c451813fbbbe9f6978dc044cb5435c065527",
+      "cdhash": "ec101df5b3ef91950e31b5942d06a734061563a6",
+      "signingId": "NKUJUXUJ3B:com.nextcloud.desktopclient",
+      "teamId": "NKUJUXUJ3B",
+      "lastUpdated": "2026-03-12T16:33:43Z"
     },
     {
       "slug": "nordpass/darwin",
@@ -1837,12 +1844,12 @@
     {
       "slug": "postman/darwin",
       "name": "Postman",
-      "version": "12.1.2",
-      "sha256": "f5156f7230d506b07e260b457d1083384d9561f05d40e94147d4d30f5bdaa039",
-      "cdhash": "bf73a49bd7b605255764a99f8e97d382324f3f84",
+      "version": "12.1.3",
+      "sha256": "c0b38655e3bb928c0effe38de3ec442aa130480ffa8f3f6f6a172b80379627ad",
+      "cdhash": "a93fe8789dad348d286ffddeb06bc7fba9235ea9",
       "signingId": "H7H8Q7M5CK:com.postmanlabs.mac",
       "teamId": "H7H8Q7M5CK",
-      "lastUpdated": "2026-03-11T15:36:55Z"
+      "lastUpdated": "2026-03-12T16:34:06Z"
     },
     {
       "slug": "postman/windows",
@@ -2049,12 +2056,12 @@
     {
       "slug": "signal/darwin",
       "name": "Signal",
-      "version": "8.1.0",
-      "sha256": "1f3ac606edef9d471fb0e1a211d9cea1b3afe19464988b9d6e1a2be0ea3e3d21",
-      "cdhash": "bc9420fee565fd374c0e3a0e49aa4b9f021f13c6",
+      "version": "8.2.0",
+      "sha256": "5826c85ab7fa8a9972767c48189529ecf9ad7fd5a9865342c254f4069b6203b5",
+      "cdhash": "a24317d47903a4bdae4ea7a244e9e1109ccd2e9f",
       "signingId": "U68MSDN6DR:org.whispersystems.signal-desktop",
       "teamId": "U68MSDN6DR",
-      "lastUpdated": "2026-03-08T00:56:50Z"
+      "lastUpdated": "2026-03-12T16:34:28Z"
     },
     {
       "slug": "sketch/darwin",
@@ -2529,12 +2536,12 @@
     {
       "slug": "warp/darwin",
       "name": "Warp",
-      "version": "0.2026.03.04.08.20.02",
-      "sha256": "c362ff6c615f8ed80256834090c2606083b64cee09fa79b7f2c3017f0837a427",
-      "cdhash": "29eec6652b347ba04754dddc74d141d1cea6d331",
+      "version": "0.2026.03.04.08.20.03",
+      "sha256": "b2a93b47f090a7aea4886dabe5f171441dc118f07b90d0fc4c72cc31347fdd22",
+      "cdhash": "9f0fb82f801240682a30ffe843e7805f9e323e50",
       "signingId": "2BBY89MBSN:dev.warp.Warp-Stable",
       "teamId": "2BBY89MBSN",
-      "lastUpdated": "2026-03-11T15:42:01Z"
+      "lastUpdated": "2026-03-12T16:34:57Z"
     },
     {
       "slug": "webex/darwin",
@@ -2663,12 +2670,12 @@
     {
       "slug": "zed/darwin",
       "name": "Zed",
-      "version": "0.226.5",
-      "sha256": "a6e84dde40652b0f0dc3f5950cb3ea1547aba8532888f08000ce6a95c7ce87c4",
-      "cdhash": "5caa810fd69c08dad70fc841e738624fd226a463",
+      "version": "0.227.1",
+      "sha256": "4165ffc542eb7e4825cf7cdbd9ba33c5ff89ccc2ff18c181f5119db60e09b7e2",
+      "cdhash": "619e47bceef07196667822489fe7a79a97315a5b",
       "signingId": "MQ55VZLNZQ:dev.zed.Zed",
       "teamId": "MQ55VZLNZQ",
-      "lastUpdated": "2026-03-08T01:03:36Z"
+      "lastUpdated": "2026-03-12T16:35:21Z"
     },
     {
       "slug": "zeplin/darwin",
