@@ -1,249 +1,6 @@
 {
   "changes": [
     {
-      "date": "2025-12-18T16:09:16Z",
-      "appName": "Notion",
-      "slug": "notion/darwin",
-      "platform": "darwin",
-      "oldVersion": "6.0.0",
-      "newVersion": "6.3.1",
-      "installerUrl": "https://desktop-release.notion-static.com/Notion-6.3.1-arm64.dmg"
-    },
-    {
-      "date": "2025-12-18T16:09:16Z",
-      "appName": "Raycast",
-      "slug": "raycast/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.104.0",
-      "newVersion": "1.104.1",
-      "installerUrl": "https://releases.raycast.com/releases/1.104.1/download?build=arm"
-    },
-    {
-      "date": "2025-12-18T16:09:16Z",
-      "appName": "Santa",
-      "slug": "santa/darwin",
-      "platform": "darwin",
-      "oldVersion": "2025.11",
-      "newVersion": "2025.12",
-      "installerUrl": "https://github.com/northpolesec/santa/releases/download/2025.12/santa-2025.12.dmg"
-    },
-    {
-      "date": "2025-12-18T16:09:16Z",
-      "appName": "Todoist",
-      "slug": "todoist-app/darwin",
-      "platform": "darwin",
-      "oldVersion": "9.25.1",
-      "newVersion": "9.26.0",
-      "installerUrl": "https://electron-dl.todoist.com/mac/Todoist-darwin-9.26.0-arm64-latest.dmg"
-    },
-    {
-      "date": "2025-12-18T16:09:16Z",
-      "appName": "Zed",
-      "slug": "zed/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.217.1",
-      "newVersion": "0.217.2",
-      "installerUrl": "https://zed.dev/api/releases/stable/0.217.2/Zed-aarch64.dmg"
-    },
-    {
-      "date": "2025-12-18T16:09:16Z",
-      "appName": "Shottr",
-      "slug": "shottr/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.9",
-      "newVersion": "1.9.1",
-      "installerUrl": "https://shottr.cc/dl/Shottr-1.9.1.dmg"
-    },
-    {
-      "date": "2025-12-18T16:09:16Z",
-      "appName": "Cursor",
-      "slug": "cursor/windows",
-      "platform": "windows",
-      "oldVersion": "2.2.14",
-      "newVersion": "2.2.35",
-      "installerUrl": "https://downloads.cursor.com/production/86d7e0c1a66a0a5f7e32cdbaf9b4bfbaf20ddaf2/win32/x64/system-setup/CursorSetup-x64-2.2.35.exe"
-    },
-    {
-      "date": "2025-12-18T16:09:16Z",
-      "appName": "Twingate",
-      "slug": "twingate/darwin",
-      "platform": "darwin",
-      "oldVersion": "2025.327.21336",
-      "newVersion": "2025.338.21484",
-      "installerUrl": "https://binaries.twingate.com/client/macos/2025.338.21484/Twingate.pkg"
-    },
-    {
-      "date": "2025-12-18T16:09:16Z",
-      "appName": "Brave",
-      "slug": "brave-browser/darwin",
-      "platform": "darwin",
-      "oldVersion": "143.1.85.116",
-      "newVersion": "143.1.85.117",
-      "installerUrl": "https://updates-cdn.bravesoftware.com/sparkle/Brave-Browser/stable-arm64/185.117/Brave-Browser-arm64.dmg"
-    },
-    {
-      "date": "2025-12-18T16:09:16Z",
-      "appName": "Tableau Desktop",
-      "slug": "tableau/darwin",
-      "platform": "darwin",
-      "oldVersion": "2025.3.0",
-      "newVersion": "2025.3.1",
-      "installerUrl": "https://downloads.tableau.com/esdalt/2025.3.1/TableauDesktop-2025-3-1-arm64.dmg"
-    },
-    {
-      "date": "2025-12-18T16:09:16Z",
-      "appName": "Miro",
-      "slug": "miro/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.11.124",
-      "newVersion": "0.11.125",
-      "installerUrl": "https://desktop.miro.com/platforms/darwin-arm64/Install-Miro.dmg"
-    },
-    {
-      "date": "2025-12-18T16:09:16Z",
-      "appName": "Sublime Merge",
-      "slug": "sublime-merge/darwin",
-      "platform": "darwin",
-      "oldVersion": "2112",
-      "newVersion": "2121",
-      "installerUrl": "https://download.sublimetext.com/sublime_merge_build_2121_mac.zip"
-    },
-    {
-      "date": "2025-12-18T17:09:38Z",
-      "appName": "JetBrains Toolbox",
-      "slug": "jetbrains-toolbox/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.1.2",
-      "newVersion": "3.2",
-      "installerUrl": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-3.2.0.65851-arm64.dmg"
-    },
-    {
-      "date": "2025-12-18T17:09:38Z",
-      "appName": "Signal",
-      "slug": "signal/darwin",
-      "platform": "darwin",
-      "oldVersion": "7.82.0",
-      "newVersion": "7.83.0",
-      "installerUrl": "https://updates.signal.org/desktop/signal-desktop-mac-arm64-7.83.0.zip"
-    },
-    {
-      "date": "2025-12-18T17:09:38Z",
-      "appName": "Opera",
-      "slug": "opera/darwin",
-      "platform": "darwin",
-      "oldVersion": "125.0.5729.21",
-      "newVersion": "125.0.5729.49",
-      "installerUrl": "https://get.geo.opera.com/pub/opera/desktop/125.0.5729.49/mac/Opera_125.0.5729.49_Setup.dmg"
-    },
-    {
-      "date": "2025-12-18T17:09:38Z",
-      "appName": "TeamViewer",
-      "slug": "teamviewer/darwin",
-      "platform": "darwin",
-      "oldVersion": "15.73.3",
-      "newVersion": "15.73.5",
-      "installerUrl": "https://dl.teamviewer.com/download/version_15x/update/15.73.5/TeamViewer.pkg"
-    },
-    {
-      "date": "2025-12-19T07:08:28Z",
-      "appName": "IntelliJ IDEA Ultimate",
-      "slug": "intellij-idea/darwin",
-      "platform": "darwin",
-      "oldVersion": "2025.3",
-      "newVersion": "2025.3.1",
-      "installerUrl": "https://download.jetbrains.com/idea/ideaIU-2025.3.1-aarch64.dmg"
-    },
-    {
-      "date": "2025-12-19T07:08:28Z",
-      "appName": "Zed",
-      "slug": "zed/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.217.2",
-      "newVersion": "0.217.3",
-      "installerUrl": "https://zed.dev/api/releases/stable/0.217.3/Zed-aarch64.dmg"
-    },
-    {
-      "date": "2025-12-19T07:08:28Z",
-      "appName": "Beyond Compare",
-      "slug": "beyond-compare/darwin",
-      "platform": "darwin",
-      "oldVersion": "5.1.6.31527",
-      "newVersion": "5.1.7.31736",
-      "installerUrl": "https://www.scootersoftware.com/files/BCompareOSX-5.1.7.31736.zip"
-    },
-    {
-      "date": "2025-12-19T07:08:28Z",
-      "appName": "Arc",
-      "slug": "arc/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.125.1",
-      "newVersion": "1.126.0",
-      "installerUrl": "https://releases.arc.net/release/Arc-1.126.0-72533.zip"
-    },
-    {
-      "date": "2025-12-19T07:08:28Z",
-      "appName": "DataGrip",
-      "slug": "datagrip/darwin",
-      "platform": "darwin",
-      "oldVersion": "2025.3",
-      "newVersion": "2025.3.1",
-      "installerUrl": "https://download.jetbrains.com/datagrip/datagrip-2025.3.1-aarch64.dmg"
-    },
-    {
-      "date": "2025-12-19T07:08:28Z",
-      "appName": "Rider",
-      "slug": "rider/darwin",
-      "platform": "darwin",
-      "oldVersion": "2025.3.0.4",
-      "newVersion": "2025.3.1",
-      "installerUrl": "https://download.jetbrains.com/rider/JetBrains.Rider-2025.3.1-aarch64.dmg"
-    },
-    {
-      "date": "2025-12-19T07:08:28Z",
-      "appName": "RubyMine",
-      "slug": "rubymine/darwin",
-      "platform": "darwin",
-      "oldVersion": "2025.3",
-      "newVersion": "2025.3.1",
-      "installerUrl": "https://download.jetbrains.com/ruby/RubyMine-2025.3.1-aarch64.dmg"
-    },
-    {
-      "date": "2025-12-19T07:08:28Z",
-      "appName": "Mozilla Firefox",
-      "slug": "firefox/darwin",
-      "platform": "darwin",
-      "oldVersion": "146.0",
-      "newVersion": "146.0.1",
-      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/146.0.1/mac/en-US/Firefox%20146.0.1.dmg"
-    },
-    {
-      "date": "2025-12-19T07:08:28Z",
-      "appName": "NordVPN",
-      "slug": "nordvpn/darwin",
-      "platform": "darwin",
-      "oldVersion": "9.10.0",
-      "newVersion": "9.10.1",
-      "installerUrl": "https://downloads.nordcdn.com/apps/macos/generic/NordVPN-OpenVPN/9.10.1/NordVPN.pkg"
-    },
-    {
-      "date": "2025-12-19T07:08:28Z",
-      "appName": "Mozilla Firefox",
-      "slug": "firefox/windows",
-      "platform": "windows",
-      "oldVersion": "146.0",
-      "newVersion": "146.0.1",
-      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/146.0.1/win64/en-US/Firefox%20Setup%20146.0.1.exe"
-    },
-    {
-      "date": "2025-12-19T07:08:28Z",
-      "appName": "WebStorm",
-      "slug": "webstorm/darwin",
-      "platform": "darwin",
-      "oldVersion": "2025.3",
-      "newVersion": "2025.3.1",
-      "installerUrl": "https://download.jetbrains.com/webstorm/WebStorm-2025.3.1-aarch64.dmg"
-    },
-    {
       "date": "2025-12-19T07:08:28Z",
       "appName": "CLion",
       "slug": "clion/darwin",
@@ -8999,6 +8756,249 @@
       "oldVersion": "2602.0.1",
       "newVersion": "2602.4.1",
       "installerUrl": "https://storage.googleapis.com/dialpad_native/osx/arm64/Dialpad.2602.4.1.zip"
+    },
+    {
+      "date": "2026-03-15T17:10:27Z",
+      "appName": "Lens",
+      "slug": "lens/darwin",
+      "platform": "darwin",
+      "oldVersion": "2026.2.111511",
+      "newVersion": "2026.3.130712",
+      "installerUrl": "https://api.k8slens.dev/binaries/Lens-2026.3.130712-latest-arm64.dmg"
+    },
+    {
+      "date": "2026-03-15T17:10:27Z",
+      "appName": "Adobe DNG Converter",
+      "slug": "adobe-dng-converter/darwin",
+      "platform": "darwin",
+      "oldVersion": "18.2",
+      "newVersion": "18.2.2",
+      "installerUrl": "https://download.adobe.com/pub/adobe/dng/mac/DNGConverter_18_2_2.dmg"
+    },
+    {
+      "date": "2026-03-15T17:10:27Z",
+      "appName": "ChatGPT Atlas",
+      "slug": "chatgpt-atlas/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.2026.63.7",
+      "newVersion": "1.2026.63.9",
+      "installerUrl": "https://persistent.oaistatic.com/atlas/public/ChatGPT_Atlas_Desktop_public_1.2026.63.9_20260313050914000.dmg"
+    },
+    {
+      "date": "2026-03-15T17:10:27Z",
+      "appName": "Pritunl",
+      "slug": "pritunl/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.3.4562.57",
+      "newVersion": "1.3.4566.62",
+      "installerUrl": "https://github.com/pritunl/pritunl-client-electron/releases/download/1.3.4566.62/Pritunl.pkg.zip"
+    },
+    {
+      "date": "2026-03-15T17:10:27Z",
+      "appName": "Windsurf",
+      "slug": "windsurf/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.9577.24",
+      "newVersion": "1.9577.27",
+      "installerUrl": "https://windsurf-stable.codeiumdata.com/darwin-arm64-dmg/stable/d8f5ffde018f40c5787712b4ce2bcadcfffcf7a2/Windsurf-darwin-arm64-1.9577.27.dmg"
+    },
+    {
+      "date": "2026-03-15T17:10:27Z",
+      "appName": "calibre",
+      "slug": "calibre/darwin",
+      "platform": "darwin",
+      "oldVersion": "9.4.0",
+      "newVersion": "9.5.0",
+      "installerUrl": "https://download.calibre-ebook.com/9.5.0/calibre-9.5.0.dmg"
+    },
+    {
+      "date": "2026-03-15T17:10:27Z",
+      "appName": "CotEditor",
+      "slug": "coteditor/darwin",
+      "platform": "darwin",
+      "oldVersion": "6.2.4",
+      "newVersion": "6.2.5",
+      "installerUrl": "https://github.com/coteditor/CotEditor/releases/download/6.2.5/CotEditor_6.2.5.dmg"
+    },
+    {
+      "date": "2026-03-15T17:10:27Z",
+      "appName": "Google Drive",
+      "slug": "google-drive/windows",
+      "platform": "windows",
+      "oldVersion": "121.0.1.0",
+      "newVersion": "122.0.1.0",
+      "installerUrl": "https://dl.google.com/release2/drive-file-stream/mebnisjkqbeors7btjbik5rm6y_122.0.1.0/setup.exe"
+    },
+    {
+      "date": "2026-03-15T17:10:27Z",
+      "appName": "Opera",
+      "slug": "opera/darwin",
+      "platform": "darwin",
+      "oldVersion": "128.0.5807.66",
+      "newVersion": "128.0.5807.77",
+      "installerUrl": "https://get.geo.opera.com/pub/opera/desktop/128.0.5807.77/mac/Opera_128.0.5807.77_Setup.dmg"
+    },
+    {
+      "date": "2026-03-15T17:10:27Z",
+      "appName": "Postman",
+      "slug": "postman/windows",
+      "platform": "windows",
+      "oldVersion": "12.1.2",
+      "newVersion": "12.1.4",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.1.4/windows_64"
+    },
+    {
+      "date": "2026-03-15T17:10:27Z",
+      "appName": "Arc",
+      "slug": "arc/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.138.1",
+      "newVersion": "1.138.2",
+      "installerUrl": "https://releases.arc.net/release/Arc-1.138.2-77089.zip"
+    },
+    {
+      "date": "2026-03-15T17:10:27Z",
+      "appName": "ClickUp",
+      "slug": "clickup/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.5.176",
+      "newVersion": "3.5.185",
+      "installerUrl": "https://download.todesktop.com/221003ra4tebclw/ClickUp%203.5.185%20-%20Build%202603135dev5rzzi-arm64.dmg"
+    },
+    {
+      "date": "2026-03-15T17:10:27Z",
+      "appName": "Microsoft Edge",
+      "slug": "microsoft-edge/darwin",
+      "platform": "darwin",
+      "oldVersion": "145.0.3800.97",
+      "newVersion": "146.0.3856.59",
+      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/2e151389-609f-4420-a818-64f416bd44d4/MicrosoftEdge-146.0.3856.59.dmg"
+    },
+    {
+      "date": "2026-03-15T17:10:27Z",
+      "appName": "ClickUp",
+      "slug": "clickup/windows",
+      "platform": "windows",
+      "oldVersion": "3.5.176",
+      "newVersion": "3.5.185",
+      "installerUrl": "https://download.todesktop.com/221003ra4tebclw/ClickUp-3.5.185-build-2603135dev5rzzi-x64.msi"
+    },
+    {
+      "date": "2026-03-15T17:10:27Z",
+      "appName": "Claude",
+      "slug": "claude/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.1.6452",
+      "newVersion": "1.1.6679",
+      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.1.6679/Claude-f8f4ffd55f41cdea65b2c8adb312eb985aef916f.zip"
+    },
+    {
+      "date": "2026-03-15T17:10:27Z",
+      "appName": "Claude",
+      "slug": "claude/windows",
+      "platform": "windows",
+      "oldVersion": "1.1.6041",
+      "newVersion": "1.1.6679",
+      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.1.6679/Claude-f8f4ffd55f41cdea65b2c8adb312eb985aef916f.exe"
+    },
+    {
+      "date": "2026-03-15T17:10:27Z",
+      "appName": "LuLu",
+      "slug": "lulu/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.2.1",
+      "newVersion": "4.3.0",
+      "installerUrl": "https://github.com/objective-see/LuLu/releases/download/v4.3.0/LuLu_4.3.0.dmg"
+    },
+    {
+      "date": "2026-03-15T17:10:27Z",
+      "appName": "Ollama",
+      "slug": "ollama/windows",
+      "platform": "windows",
+      "oldVersion": "0.17.7",
+      "newVersion": "0.18.0",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.18.0/OllamaSetup.exe"
+    },
+    {
+      "date": "2026-03-15T17:10:27Z",
+      "appName": "Ollama",
+      "slug": "ollama/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.17.7",
+      "newVersion": "0.18.0",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.18.0/Ollama-darwin.zip"
+    },
+    {
+      "date": "2026-03-15T17:10:27Z",
+      "appName": "Ghostty",
+      "slug": "ghostty/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.3.0",
+      "newVersion": "1.3.1",
+      "installerUrl": "https://release.files.ghostty.org/1.3.1/Ghostty.dmg"
+    },
+    {
+      "date": "2026-03-15T17:10:27Z",
+      "appName": "Signal",
+      "slug": "signal/darwin",
+      "platform": "darwin",
+      "oldVersion": "8.2.0",
+      "newVersion": "8.2.1",
+      "installerUrl": "https://updates.signal.org/desktop/signal-desktop-mac-arm64-8.2.1.zip"
+    },
+    {
+      "date": "2026-03-15T17:10:27Z",
+      "appName": "Stats",
+      "slug": "stats/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.12.3",
+      "newVersion": "2.12.4",
+      "installerUrl": "https://github.com/exelban/stats/releases/download/v2.12.4/Stats.dmg"
+    },
+    {
+      "date": "2026-03-15T17:10:27Z",
+      "appName": "Brave",
+      "slug": "brave-browser/darwin",
+      "platform": "darwin",
+      "oldVersion": "146.1.88.127",
+      "newVersion": "146.1.88.132",
+      "installerUrl": "https://updates-cdn.bravesoftware.com/sparkle/Brave-Browser/stable-arm64/188.132/Brave-Browser-arm64.dmg"
+    },
+    {
+      "date": "2026-03-15T17:10:27Z",
+      "appName": "Google Chrome",
+      "slug": "google-chrome/windows",
+      "platform": "windows",
+      "oldVersion": "145.0.7632.160",
+      "newVersion": "146.0.7680.80",
+      "installerUrl": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi"
+    },
+    {
+      "date": "2026-03-15T17:10:27Z",
+      "appName": "Google Chrome",
+      "slug": "google-chrome/darwin",
+      "platform": "darwin",
+      "oldVersion": "146.0.7680.72",
+      "newVersion": "146.0.7680.80",
+      "installerUrl": "https://dl.google.com/dl/chrome/mac/universal/stable/gcem/GoogleChrome.pkg"
+    },
+    {
+      "date": "2026-03-15T17:10:27Z",
+      "appName": "GIMP",
+      "slug": "gimp/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.0.8",
+      "newVersion": "3.2.0",
+      "installerUrl": "https://download.gimp.org/gimp/v3.2/macos/gimp-3.2.0-arm64.dmg"
+    },
+    {
+      "date": "2026-03-15T17:10:27Z",
+      "appName": "Postman",
+      "slug": "postman/darwin",
+      "platform": "darwin",
+      "oldVersion": "12.1.3",
+      "newVersion": "12.1.4",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.1.4/osx_arm64"
     }
   ]
 }
