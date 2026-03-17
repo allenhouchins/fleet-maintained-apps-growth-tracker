@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: March 17, 2026 at 11:30 AM CDT</p>
+            Last updated: March 17, 2026 at 11:32 AM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: March 17, 2026 at 11:30 AM CDT</p>
+                <p id="modalLastUpdated">Last updated: March 17, 2026 at 11:32 AM CDT</p>
             </div>
         </div>
     </div>
@@ -3467,7 +3467,14 @@
                 "platform": "darwin",
                 "description": "Charles is an HTTP proxy and monitor that lets developers view all HTTP and HTTPS traffic between their machine and the internet.",
                 "version": "5.0.3",
-                "installerUrl": "https://www.charlesproxy.com/assets/release/5.0.3/charles-proxy-5.0.3.dmg"
+                "installerUrl": "https://www.charlesproxy.com/assets/release/5.0.3/charles-proxy-5.0.3.dmg",
+                "securityInfo": {
+                  "sha256": "ad64dae63a52ace367a1917f7989c8c8eb77dee6e5c4721410f989b11f5cad5e",
+                  "cdhash": "3363204022dbca617758b5a283db8ab5b7867479",
+                  "signingId": "9A5PCU4FSD:com.xk72.Charles",
+                  "teamId": "9A5PCU4FSD",
+                  "lastUpdated": "2026-03-17T16:31:15Z"
+                }
               },
               {
                 "name": "ChatGPT Atlas",
@@ -4727,7 +4734,14 @@
                 "platform": "darwin",
                 "description": "Krita is a free and open-source digital painting application.",
                 "version": "5.2.16",
-                "installerUrl": "https://download.kde.org/stable/krita/5.2.16/krita-5.2.16-signed.dmg"
+                "installerUrl": "https://download.kde.org/stable/krita/5.2.16/krita-5.2.16-signed.dmg",
+                "securityInfo": {
+                  "sha256": "4428206bde0f5ced0c5f158743c8cd6e92c0eca070f263fdb600990d125efd51",
+                  "cdhash": "4697a3099a5d1681a7707cd12001d72f31c65275",
+                  "signingId": "DL93766A3G:org.krita",
+                  "teamId": "DL93766A3G",
+                  "lastUpdated": "2026-03-17T16:31:51Z"
+                }
               },
               {
                 "name": "Krita",
@@ -6298,7 +6312,14 @@
                 "platform": "darwin",
                 "description": "Tor Browser is a privacy-focused web browser that protects against tracking, surveillance, and censorship by routing traffic through the Tor network.",
                 "version": "15.0.7",
-                "installerUrl": "https://www.torproject.org/dist/torbrowser/15.0.7/tor-browser-macos-15.0.7.dmg"
+                "installerUrl": "https://www.torproject.org/dist/torbrowser/15.0.7/tor-browser-macos-15.0.7.dmg",
+                "securityInfo": {
+                  "sha256": "90c01c34ed4a47b525db63496a3a2126b4b8ad81358490f753942522052fe1cb",
+                  "cdhash": "d6cdeb97446f5dc4f8f5e118a8033dfa72be72ed",
+                  "signingId": "MADPSAYN6T:org.torproject.torbrowser",
+                  "teamId": "MADPSAYN6T",
+                  "lastUpdated": "2026-03-17T16:32:23Z"
+                }
               },
               {
                 "name": "Tower",
@@ -7363,7 +7384,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `March 17, 2026 at 11:30 AM CDT`;
+                let timestampText = 'Last updated: ' + `March 17, 2026 at 11:32 AM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
