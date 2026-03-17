@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17T15:28:02Z",
+  "lastUpdated": "2026-03-17T16:29:59Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -343,6 +343,13 @@
       "platform": "darwin",
       "version": "1.121.0",
       "installerUrl": "https://desktop-release.canva.com/Canva-1.121.0-universal.dmg"
+    },
+    {
+      "slug": "charles/darwin",
+      "name": "Charles",
+      "platform": "darwin",
+      "version": "5.0.3",
+      "installerUrl": "https://www.charlesproxy.com/assets/release/5.0.3/charles-proxy-5.0.3.dmg"
     },
     {
       "slug": "chatgpt-atlas/darwin",
@@ -924,6 +931,20 @@
       "platform": "darwin",
       "version": "1.6.0",
       "installerUrl": "https://github.com/aonez/Keka/releases/download/v1.6.0/Keka-1.6.0.dmg"
+    },
+    {
+      "slug": "krita/darwin",
+      "name": "Krita",
+      "platform": "darwin",
+      "version": "5.2.16",
+      "installerUrl": "https://download.kde.org/stable/krita/5.2.16/krita-5.2.16-signed.dmg"
+    },
+    {
+      "slug": "krita/windows",
+      "name": "Krita",
+      "platform": "windows",
+      "version": "5.2.16.0",
+      "installerUrl": "https://download.kde.org/stable/krita/5.2.16/krita-x64-5.2.16-setup.exe"
     },
     {
       "slug": "lastpass/windows",
@@ -1645,6 +1666,13 @@
       "platform": "darwin",
       "version": "9.26.4",
       "installerUrl": "https://electron-dl.todoist.com/mac/Todoist-darwin-9.26.4-arm64-latest.dmg"
+    },
+    {
+      "slug": "tor-browser/darwin",
+      "name": "Tor Browser",
+      "platform": "darwin",
+      "version": "15.0.7",
+      "installerUrl": "https://www.torproject.org/dist/torbrowser/15.0.7/tor-browser-macos-15.0.7.dmg"
     },
     {
       "slug": "tower/darwin",
