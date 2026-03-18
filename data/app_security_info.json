@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-18T16:30:17Z",
+  "lastUpdated": "2026-03-18T16:34:16Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -221,11 +221,12 @@
     {
       "slug": "anydesk/darwin",
       "name": "AnyDesk",
-      "version": "9.6.3",
-      "sha256": "9075defb8c5907af62401b16c6b079931ddd78c724619d1fb66941048aca2c29",
+      "version": "9.6.4",
+      "sha256": "1c0766a8d991f960827a392de71a013619c3e2abb6146b7be946d300ef64a52e",
+      "cdhash": "696f0da3408137eefc8ae247df9625d66ebf63f6",
       "signingId": "KHRWM533LU:com.philandro.anydesk",
       "teamId": "KHRWM533LU",
-      "lastUpdated": "2026-02-13T16:20:19Z"
+      "lastUpdated": "2026-03-18T16:30:39Z"
     },
     {
       "slug": "apparency/darwin",
@@ -250,12 +251,12 @@
     {
       "slug": "arc/darwin",
       "name": "Arc",
-      "version": "1.138.2",
-      "sha256": "5f7a650dd8f070daf5aa1412f46f7bcf3b13bc85d9fe0d30756e94c0f594d2c5",
-      "cdhash": "1cfc283de768789e23732a157813c9c1e7c1a739",
+      "version": "1.138.3",
+      "sha256": "a9f7c5d5ccb94369ae9caa52259436a40016a88c9c6d68b9945d933590ccc3e9",
+      "cdhash": "3df64002875010320516a0faab05cdf91b8aa4ab",
       "signingId": "S6N382Y83G:company.thebrowser.Browser",
       "teamId": "S6N382Y83G",
-      "lastUpdated": "2026-03-15T17:13:58Z"
+      "lastUpdated": "2026-03-18T16:31:12Z"
     },
     {
       "slug": "archaeology/darwin",
@@ -566,12 +567,12 @@
     {
       "slug": "claude/darwin",
       "name": "Claude",
-      "version": "1.1.7053",
-      "sha256": "9bc68970151e777e0769843844027b2a67125ce9edc6e7beac277bba59742d7d",
-      "cdhash": "4ca4e6f2c603d017e9bf57c3fc4de5f05f95310e",
+      "version": "1.1.7203",
+      "sha256": "19bfa935d1993b4ccc51ebc6b546178886926d8847cf2b4f113259a40cceb130",
+      "cdhash": "19652cdbb9fb361e2170c680d623f418b7beed49",
       "signingId": "Q6L2SF6YDW:com.anthropic.claudefordesktop",
       "teamId": "Q6L2SF6YDW",
-      "lastUpdated": "2026-03-17T15:31:20Z"
+      "lastUpdated": "2026-03-18T16:31:37Z"
     },
     {
       "slug": "claude/windows",
@@ -638,9 +639,12 @@
     {
       "slug": "clockify/darwin",
       "name": "Clockify Desktop",
-      "version": "2.12.2",
-      "sha256": "6689abdb80e93fcaa4ff580ba1bee369c63707801149e3cca83ce5c1d82e88b0",
-      "lastUpdated": "2026-02-22T07:22:51Z"
+      "version": "2.12.3",
+      "sha256": "4d6b85949a80b143a4a06f51313a282d44bfc57955b0250eb70528c41c3e24ac",
+      "cdhash": "422700ce44d0e6537bc2f4f27381e10193d6195d",
+      "signingId": "LA96L67B8C:coing.ClockifyDesktop",
+      "teamId": "LA96L67B8C",
+      "lastUpdated": "2026-03-18T16:31:59Z"
     },
     {
       "slug": "cloudflare-warp/darwin",
@@ -797,22 +801,22 @@
     {
       "slug": "dbeaverlite/darwin",
       "name": "DBeaverLite",
-      "version": "25.3.0",
-      "sha256": "5b20eeffbaa778b8a9d7bbcd3f54e9b7fe3dee15bfb0b214492b9c53fbdf1803",
-      "cdhash": "26c25b080f604879d3ccfe4dea1d4b09bf4a666c",
+      "version": "26.0.0",
+      "sha256": "559d0f49a3778975de474638ee253c82ea678eb9f6249016010a411f9d238300",
+      "cdhash": "6e1629d2b4a03fa00ccb2938f8b304d1a0988985",
       "signingId": "42B6MDKMW8:com.dbeaver.product.lite",
       "teamId": "42B6MDKMW8",
-      "lastUpdated": "2025-12-20T06:45:37Z"
+      "lastUpdated": "2026-03-18T16:32:26Z"
     },
     {
       "slug": "dbeaverultimate/darwin",
       "name": "DBeaverUltimate",
-      "version": "25.3.0",
-      "sha256": "a926a9349d8841fcfc3c9f45ca31ee77f3e25fbb3562cac63d47d4825659a2c5",
-      "cdhash": "6a0a589043cff0d4bfd53fd04b413180734d21f7",
+      "version": "26.0.0",
+      "sha256": "951eda78cac1d7ba7618fcb70c8f9bd55daff4f7e72bb88a28a4f3de7289d37d",
+      "cdhash": "e3b87cfae46626fcda3ae97e443ba2b47ac59f6b",
       "signingId": "42B6MDKMW8:com.dbeaver.product.ultimate",
       "teamId": "42B6MDKMW8",
-      "lastUpdated": "2025-12-20T06:45:59Z"
+      "lastUpdated": "2026-03-18T16:32:57Z"
     },
     {
       "slug": "dcv-viewer/darwin",
@@ -827,11 +831,12 @@
     {
       "slug": "deepl/darwin",
       "name": "DeepL",
-      "version": "26.2.13897266",
-      "sha256": "ed02541df92dd76350c366b5a72d35bbf11371f1c2feef6eb28807375e95f154",
+      "version": "26.3.14124477",
+      "sha256": "ff31c855d238f39c70b51ee02d4176acfb261050d0f96849b07cf0a5df661085",
+      "cdhash": "1fad9e3cde93b119e667a8ea1f41685888cfbe6b",
       "signingId": "4N8BGCG336:com.linguee.DeepLCopyTranslator",
       "teamId": "4N8BGCG336",
-      "lastUpdated": "2026-02-23T15:24:44Z"
+      "lastUpdated": "2026-03-18T16:33:22Z"
     },
     {
       "slug": "dialpad/darwin",
@@ -846,12 +851,12 @@
     {
       "slug": "discord/darwin",
       "name": "Discord",
-      "version": "0.0.380",
-      "sha256": "46f464353628111648afa8d4bc59428feca07482eafc44b4ce85f352003f1ce3",
-      "cdhash": "8e41b64b759aa7344cac66474807a640c1a16a3c",
+      "version": "0.0.381",
+      "sha256": "e7ee3c5ccf8401d6c8187a832bc002e29bac6afd5539c949b01e76f98ea4a807",
+      "cdhash": "b213939babe73a29dd0f61dea04edeba9e90e84f",
       "signingId": "53Q6R32WPB:com.hnc.Discord",
       "teamId": "53Q6R32WPB",
-      "lastUpdated": "2026-03-10T15:25:41Z"
+      "lastUpdated": "2026-03-18T16:33:46Z"
     },
     {
       "slug": "discord/windows",
@@ -920,12 +925,12 @@
     {
       "slug": "dropbox/darwin",
       "name": "Dropbox",
-      "version": "243.4.6956",
-      "sha256": "2258fa8b5e33c05096a4e5564f09e5c38ebaa5dc6846ce6b3d231ebcc8412ace",
-      "cdhash": "fa30d335f1aaef4063b8002a82b09209616c10b0",
+      "version": "244.4.6580",
+      "sha256": "0cec6a9b768d12c0edefe4820621e39389312101d27c888db8b46f87a75d7996",
+      "cdhash": "30785b19df274c4a94ee947411984a70331705a1",
       "signingId": "G7HH3F8CAK:com.getdropbox.dropbox",
       "teamId": "G7HH3F8CAK",
-      "lastUpdated": "2026-03-04T00:43:42Z"
+      "lastUpdated": "2026-03-18T16:34:14Z"
     },
     {
       "slug": "eclipse-ide/darwin",
