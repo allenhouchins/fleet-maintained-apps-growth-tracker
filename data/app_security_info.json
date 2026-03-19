@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-18T16:53:47Z",
+  "lastUpdated": "2026-03-19T16:27:59Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1043,6 +1043,16 @@
       "thumbprint": "6663D5C4FDAF9EFD5F823A26C9C410DC9928C44A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-03-11T14:31:13Z"
+    },
+    {
+      "slug": "firefox@esr/darwin",
+      "name": "Mozilla Firefox ESR",
+      "version": "140.7.1",
+      "sha256": "efe6191eab7981e50c66c5925b8987e91659a0d4c09f6445f6abf2f36b331187",
+      "cdhash": "6668538be7186e872d627029bb9c5abb81596658",
+      "signingId": "43AQ936H96:org.mozilla.firefox",
+      "teamId": "43AQ936H96",
+      "lastUpdated": "2026-03-19T16:25:59Z"
     },
     {
       "slug": "fork/darwin",
