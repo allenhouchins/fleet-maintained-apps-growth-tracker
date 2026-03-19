@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: March 19, 2026 at 10:24 AM CDT</p>
+            Last updated: March 19, 2026 at 11:24 AM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: March 19, 2026 at 10:24 AM CDT</p>
+                <p id="modalLastUpdated">Last updated: March 19, 2026 at 11:24 AM CDT</p>
             </div>
         </div>
     </div>
@@ -1422,7 +1422,7 @@
             267,
             272,
             272,
-            272
+            274
           ],
           "additions": [
             20,
@@ -1805,7 +1805,7 @@
             0,
             5,
             0,
-            0
+            2
           ],
           "macCounts": [
             20,
@@ -2188,7 +2188,7 @@
             214,
             218,
             218,
-            218
+            219
           ],
           "windowsCounts": [
             0,
@@ -2571,7 +2571,7 @@
             53,
             54,
             54,
-            54
+            55
           ],
           "growthDates": [
             "2025-03-04",
@@ -2620,7 +2620,8 @@
             "2026-02-24",
             "2026-02-25",
             "2026-03-11",
-            "2026-03-17"
+            "2026-03-17",
+            "2026-03-19"
           ],
           "growthCounts": [
             20,
@@ -2669,7 +2670,8 @@
             258,
             259,
             267,
-            272
+            272,
+            274
           ],
           "growthAdditions": [
             20,
@@ -2718,7 +2720,8 @@
             1,
             1,
             8,
-            5
+            5,
+            2
           ]
         };
         
@@ -4261,6 +4264,22 @@
                   "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
                   "lastUpdated": "2026-03-11T14:31:13Z"
                 }
+              },
+              {
+                "name": "Mozilla Firefox ESR",
+                "slug": "firefox@esr/darwin",
+                "platform": "darwin",
+                "description": "Mozilla Firefox ESR is the Extended Support Release version of the popular web browser Firefox.",
+                "version": "140.7.1",
+                "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/140.7.1esr/mac/en-US/Firefox%20140.7.1esr.dmg"
+              },
+              {
+                "name": "Mozilla Firefox ESR",
+                "slug": "firefox@esr/windows",
+                "platform": "windows",
+                "description": "Mozilla Firefox ESR is the Extended Support Release version of the popular web browser Firefox.",
+                "version": "140.7.1",
+                "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/140.7.1esr/win64/en-US/Firefox%20Setup%20140.7.1esr.exe"
               },
               {
                 "name": "Fork",
@@ -7408,7 +7427,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `March 19, 2026 at 10:24 AM CDT`;
+                let timestampText = 'Last updated: ' + `March 19, 2026 at 11:24 AM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
