@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: March 19, 2026 at 11:24 AM CDT</p>
+            Last updated: March 19, 2026 at 11:28 AM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: March 19, 2026 at 11:24 AM CDT</p>
+                <p id="modalLastUpdated">Last updated: March 19, 2026 at 11:28 AM CDT</p>
             </div>
         </div>
     </div>
@@ -4271,7 +4271,14 @@
                 "platform": "darwin",
                 "description": "Mozilla Firefox ESR is the Extended Support Release version of the popular web browser Firefox.",
                 "version": "140.7.1",
-                "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/140.7.1esr/mac/en-US/Firefox%20140.7.1esr.dmg"
+                "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/140.7.1esr/mac/en-US/Firefox%20140.7.1esr.dmg",
+                "securityInfo": {
+                  "sha256": "efe6191eab7981e50c66c5925b8987e91659a0d4c09f6445f6abf2f36b331187",
+                  "cdhash": "6668538be7186e872d627029bb9c5abb81596658",
+                  "signingId": "43AQ936H96:org.mozilla.firefox",
+                  "teamId": "43AQ936H96",
+                  "lastUpdated": "2026-03-19T16:25:59Z"
+                }
               },
               {
                 "name": "Mozilla Firefox ESR",
@@ -7427,7 +7434,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `March 19, 2026 at 11:24 AM CDT`;
+                let timestampText = 'Last updated: ' + `March 19, 2026 at 11:28 AM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
