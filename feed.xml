@@ -5,13 +5,20 @@
     <link>https://fmalibrary.com</link>
     <description>Track version updates and new app additions for Fleet-maintained apps. Get notified when apps are updated with new versions or when new apps are added to the library.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Mar 2026 16:24:56 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2026 17:22:46 +0000</lastBuildDate>
     <atom:link href="https://fmalibrary.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://fmalibrary.com/cloud-city.png</url>
       <title>Fleet-maintained apps</title>
       <link>https://fmalibrary.com</link>
     </image>
+    <item>
+      <title>New App: kitty 0.46.0 (Mac)</title>
+      <link>https://fmalibrary.com</link>
+      <description>kitty has been added to the Fleet-maintained apps library with version 0.46.0 on March 23, 2026. &lt;a href=&quot;https://github.com/kovidgoyal/kitty/releases/download/v0.46.0/kitty-0.46.0.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Mon, 23 Mar 2026 17:22:46 +0000</pubDate>
+      <guid isPermaLink="false">kitty/darwin--0.46.0</guid>
+    </item>
     <item>
       <title>DBeaver 26.0.0 → 26.0.1 (Mac)</title>
       <link>https://fmalibrary.com</link>
@@ -3478,25 +3485,11 @@
       <guid isPermaLink="false">github-desktop/windows-3.5.4-3.5.5</guid>
     </item>
     <item>
-      <title>Nova 13.3 → 13.4 (Mac)</title>
+      <title>Claude 1.1.3189 → 1.1.3363 (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>Nova has been updated from version 13.3 to 13.4 on February 18, 2026. &lt;a href=&quot;https://panic.com/download/nova/Nova%2013.4.zip&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Claude has been updated from version 1.1.3189 to 1.1.3363 on February 18, 2026. &lt;a href=&quot;https://downloads.claude.ai/releases/darwin/universal/1.1.3363/Claude-ee424797ca4d37a06f6b4a1e48dc944838ac3b18.zip&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Wed, 18 Feb 2026 14:26:14 +0000</pubDate>
-      <guid isPermaLink="false">nova/darwin-13.3-13.4</guid>
-    </item>
-    <item>
-      <title>BBEdit 15.5.4 → 15.5.5 (Mac)</title>
-      <link>https://fmalibrary.com</link>
-      <description>BBEdit has been updated from version 15.5.4 to 15.5.5 on February 18, 2026. &lt;a href=&quot;https://s3.amazonaws.com/BBSW-download/BBEdit_15.5.5.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Wed, 18 Feb 2026 14:26:14 +0000</pubDate>
-      <guid isPermaLink="false">bbedit/darwin-15.5.4-15.5.5</guid>
-    </item>
-    <item>
-      <title>Loom 0.333.0 → 0.334.2 (Mac)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Loom has been updated from version 0.333.0 to 0.334.2 on February 18, 2026. &lt;a href=&quot;https://packages.loom.com/desktop-packages/Loom-0.334.2-arm64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Wed, 18 Feb 2026 14:26:14 +0000</pubDate>
-      <guid isPermaLink="false">loom/darwin-0.333.0-0.334.2</guid>
+      <guid isPermaLink="false">claude/darwin-1.1.3189-1.1.3363</guid>
     </item>
     <item>
       <title>Microsoft Auto Update 4.81.25121042 → 4.82.26020434 (Mac)</title>
@@ -3506,11 +3499,18 @@
       <guid isPermaLink="false">microsoft-auto-update/darwin-4.81.25121042-4.82.26020434</guid>
     </item>
     <item>
-      <title>Claude 1.1.3189 → 1.1.3363 (Mac)</title>
+      <title>Nova 13.3 → 13.4 (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>Claude has been updated from version 1.1.3189 to 1.1.3363 on February 18, 2026. &lt;a href=&quot;https://downloads.claude.ai/releases/darwin/universal/1.1.3363/Claude-ee424797ca4d37a06f6b4a1e48dc944838ac3b18.zip&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Nova has been updated from version 13.3 to 13.4 on February 18, 2026. &lt;a href=&quot;https://panic.com/download/nova/Nova%2013.4.zip&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Wed, 18 Feb 2026 14:26:14 +0000</pubDate>
-      <guid isPermaLink="false">claude/darwin-1.1.3189-1.1.3363</guid>
+      <guid isPermaLink="false">nova/darwin-13.3-13.4</guid>
+    </item>
+    <item>
+      <title>Loom 0.333.0 → 0.334.2 (Mac)</title>
+      <link>https://fmalibrary.com</link>
+      <description>Loom has been updated from version 0.333.0 to 0.334.2 on February 18, 2026. &lt;a href=&quot;https://packages.loom.com/desktop-packages/Loom-0.334.2-arm64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Wed, 18 Feb 2026 14:26:14 +0000</pubDate>
+      <guid isPermaLink="false">loom/darwin-0.333.0-0.334.2</guid>
     </item>
   </channel>
 </rss>
