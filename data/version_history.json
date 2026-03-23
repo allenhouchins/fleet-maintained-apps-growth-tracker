@@ -1,87 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-01-07T03:50:07Z",
-      "appName": "Loom",
-      "slug": "loom/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.325.4",
-      "newVersion": "0.326.5",
-      "installerUrl": "https://packages.loom.com/desktop-packages/Loom-0.326.5-arm64.dmg"
-    },
-    {
-      "date": "2026-01-07T03:50:07Z",
-      "appName": "Notion",
-      "slug": "notion/darwin",
-      "platform": "darwin",
-      "oldVersion": "6.3.2",
-      "newVersion": "6.4.0",
-      "installerUrl": "https://desktop-release.notion-static.com/Notion-6.4.0-arm64.dmg"
-    },
-    {
-      "date": "2026-01-07T03:50:07Z",
-      "appName": "Microsoft PowerPoint",
-      "slug": "microsoft-powerpoint/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.104.25121423",
-      "newVersion": "16.104.26010228",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.104.26010228_Installer.pkg"
-    },
-    {
-      "date": "2026-01-07T04:22:19Z",
-      "appName": "Nextcloud",
-      "slug": "nextcloud/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "4.0.4",
-      "installerUrl": "https://github.com/nextcloud-releases/desktop/releases/download/v4.0.4/Nextcloud-4.0.4.pkg"
-    },
-    {
-      "date": "2026-01-07T15:08:52Z",
-      "appName": "Google Chrome",
-      "slug": "google-chrome/darwin",
-      "platform": "darwin",
-      "oldVersion": "143.0.7499.170",
-      "newVersion": "143.0.7499.193",
-      "installerUrl": "https://dl.google.com/dl/chrome/mac/universal/stable/gcem/GoogleChrome.pkg"
-    },
-    {
-      "date": "2026-01-07T15:08:52Z",
-      "appName": "Google Drive",
-      "slug": "google-drive/darwin",
-      "platform": "darwin",
-      "oldVersion": "119.0",
-      "newVersion": "119.0.2",
-      "installerUrl": "https://dl.google.com/drive-file-stream/5-percent/GoogleDrive.dmg"
-    },
-    {
-      "date": "2026-01-07T15:08:52Z",
-      "appName": "Postman",
-      "slug": "postman/windows",
-      "platform": "windows",
-      "oldVersion": "11.78.3",
-      "newVersion": "11.79.3",
-      "installerUrl": "https://dl.pstmn.io/download/version/11.79.3/windows_64"
-    },
-    {
-      "date": "2026-01-07T15:08:52Z",
-      "appName": "Microsoft Excel",
-      "slug": "microsoft-excel/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.104.26010228",
-      "newVersion": "16.104.1",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.104.26010228_Installer.pkg"
-    },
-    {
-      "date": "2026-01-07T15:08:52Z",
-      "appName": "WhatsApp",
-      "slug": "whatsapp/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.1.56",
-      "newVersion": "26.1.58",
-      "installerUrl": "https://web.whatsapp.com/desktop/mac_native/release/?version=2.26.1.58\u0026extension=zip\u0026configuration=Release\u0026branch=master\u0026is_buck=true"
-    },
-    {
       "date": "2026-01-07T15:08:52Z",
       "appName": "Egnyte",
       "slug": "egnyte/darwin",
@@ -8999,6 +8918,87 @@
       "oldVersion": "",
       "newVersion": "6.6.0",
       "installerUrl": "https://download.proxyman.com/60600/Proxyman_6.6.0.dmg"
+    },
+    {
+      "date": "2026-03-23T16:24:56Z",
+      "appName": "Proxyman",
+      "slug": "proxyman/darwin",
+      "platform": "darwin",
+      "oldVersion": "6.6.0",
+      "newVersion": "6.7.0",
+      "installerUrl": "https://download.proxyman.com/60700/Proxyman_6.7.0.dmg"
+    },
+    {
+      "date": "2026-03-23T16:24:56Z",
+      "appName": "Postman",
+      "slug": "postman/windows",
+      "platform": "windows",
+      "oldVersion": "12.2.3",
+      "newVersion": "12.3.0",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.3.0/windows_64"
+    },
+    {
+      "date": "2026-03-23T16:24:56Z",
+      "appName": "Postman",
+      "slug": "postman/darwin",
+      "platform": "darwin",
+      "oldVersion": "12.2.3",
+      "newVersion": "12.3.0",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.3.0/osx_arm64"
+    },
+    {
+      "date": "2026-03-23T16:24:56Z",
+      "appName": "Granola",
+      "slug": "granola/darwin",
+      "platform": "darwin",
+      "oldVersion": "7.80.1",
+      "newVersion": "7.80.2",
+      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.80.2/Granola-7.80.2-mac-universal.dmg"
+    },
+    {
+      "date": "2026-03-23T16:24:56Z",
+      "appName": "Stats",
+      "slug": "stats/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.12.4",
+      "newVersion": "2.12.5",
+      "installerUrl": "https://github.com/exelban/stats/releases/download/v2.12.5/Stats.dmg"
+    },
+    {
+      "date": "2026-03-23T16:24:56Z",
+      "appName": "Raycast",
+      "slug": "raycast/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.104.10",
+      "newVersion": "1.104.11",
+      "installerUrl": "https://releases.raycast.com/releases/1.104.11/download?build=arm"
+    },
+    {
+      "date": "2026-03-23T16:24:56Z",
+      "appName": "RubyMine",
+      "slug": "rubymine/darwin",
+      "platform": "darwin",
+      "oldVersion": "2025.3.3",
+      "newVersion": "2025.3.4",
+      "installerUrl": "https://download.jetbrains.com/ruby/RubyMine-2025.3.4-aarch64.dmg"
+    },
+    {
+      "date": "2026-03-23T16:24:56Z",
+      "appName": "CotEditor",
+      "slug": "coteditor/darwin",
+      "platform": "darwin",
+      "oldVersion": "6.2.5",
+      "newVersion": "6.2.6",
+      "installerUrl": "https://github.com/coteditor/CotEditor/releases/download/6.2.6/CotEditor_6.2.6.dmg"
+    },
+    {
+      "date": "2026-03-23T16:24:56Z",
+      "appName": "DBeaver",
+      "slug": "dbeaver-community/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.0.0",
+      "newVersion": "26.0.1",
+      "installerUrl": "https://dbeaver.io/files/26.0.1/dbeaver-ce-26.0.1-macos-aarch64.dmg"
     }
   ]
 }
