@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: March 23, 2026 at 12:22 PM CDT</p>
+            Last updated: March 23, 2026 at 12:25 PM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: March 23, 2026 at 12:22 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: March 23, 2026 at 12:25 PM CDT</p>
             </div>
         </div>
     </div>
@@ -4813,7 +4813,14 @@
                 "platform": "darwin",
                 "description": "kitty is a fast, feature-rich, GPU-based terminal emulator.",
                 "version": "0.46.0",
-                "installerUrl": "https://github.com/kovidgoyal/kitty/releases/download/v0.46.0/kitty-0.46.0.dmg"
+                "installerUrl": "https://github.com/kovidgoyal/kitty/releases/download/v0.46.0/kitty-0.46.0.dmg",
+                "securityInfo": {
+                  "sha256": "97f5e26d5f44afc26ee8a4322916207c8c59614c7857f543a129a83d6c83d09b",
+                  "cdhash": "7d5a7917e6bf3c90ce059a33ec189717aaae379f",
+                  "signingId": "NTY7FVCEKP:net.kovidgoyal.kitty",
+                  "teamId": "NTY7FVCEKP",
+                  "lastUpdated": "2026-03-23T17:25:38Z"
+                }
               },
               {
                 "name": "Krita",
@@ -7496,7 +7503,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `March 23, 2026 at 12:22 PM CDT`;
+                let timestampText = 'Last updated: ' + `March 23, 2026 at 12:25 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
