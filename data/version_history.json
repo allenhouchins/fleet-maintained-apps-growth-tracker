@@ -2,123 +2,6 @@
   "changes": [
     {
       "date": "2026-01-20T15:12:25Z",
-      "appName": "010 Editor",
-      "slug": "010-editor/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.0.2",
-      "newVersion": "16.0.3",
-      "installerUrl": "https://download.sweetscape.com/010EditorMacARM64Installer16.0.3.dmg"
-    },
-    {
-      "date": "2026-01-20T15:12:25Z",
-      "appName": "Arc",
-      "slug": "arc/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.129.0",
-      "newVersion": "1.130.1",
-      "installerUrl": "https://releases.arc.net/release/Arc-1.130.1-73666.zip"
-    },
-    {
-      "date": "2026-01-20T15:12:25Z",
-      "appName": "TextExpander",
-      "slug": "textexpander/darwin",
-      "platform": "darwin",
-      "oldVersion": "8.4",
-      "newVersion": "8.4.1",
-      "installerUrl": "https://cdn.textexpander.com/mac/841.5/TextExpander_8.4.1.dmg"
-    },
-    {
-      "date": "2026-01-20T15:12:25Z",
-      "appName": "Figma",
-      "slug": "figma/windows",
-      "platform": "windows",
-      "oldVersion": "125.11.6",
-      "newVersion": "126.0.4",
-      "installerUrl": "https://desktop.figma.com/win/build/Figma-126.0.4.exe"
-    },
-    {
-      "date": "2026-01-20T15:12:25Z",
-      "appName": "Microsoft Edge",
-      "slug": "microsoft-edge/darwin",
-      "platform": "darwin",
-      "oldVersion": "143.0.3650.139",
-      "newVersion": "144.0.3719.82",
-      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/29a1c543-7b60-4a99-b2eb-a8ca04d66a52/MicrosoftEdge-144.0.3719.82.dmg"
-    },
-    {
-      "date": "2026-01-20T15:12:25Z",
-      "appName": "Bitwarden",
-      "slug": "bitwarden/darwin",
-      "platform": "darwin",
-      "oldVersion": "2025.12.0",
-      "newVersion": "2025.12.1",
-      "installerUrl": "https://github.com/bitwarden/clients/releases/download/desktop-v2025.12.1/Bitwarden-2025.12.1-universal.dmg"
-    },
-    {
-      "date": "2026-01-20T15:12:25Z",
-      "appName": "Parallels Desktop",
-      "slug": "parallels/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.2.0",
-      "newVersion": "26.2.1",
-      "installerUrl": "https://download.parallels.com/desktop/v26/26.2.1-57371/ParallelsDesktop-26.2.1-57371.dmg"
-    },
-    {
-      "date": "2026-01-20T15:12:25Z",
-      "appName": "MongoDB Compass",
-      "slug": "mongodb-compass/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.48.2",
-      "newVersion": "1.49.0",
-      "installerUrl": "https://downloads.mongodb.com/compass/mongodb-compass-1.49.0-darwin-arm64.dmg"
-    },
-    {
-      "date": "2026-01-20T15:12:25Z",
-      "appName": "Zed",
-      "slug": "zed/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.218.7",
-      "newVersion": "0.219.5",
-      "installerUrl": "https://zed.dev/api/releases/stable/0.219.5/Zed-aarch64.dmg"
-    },
-    {
-      "date": "2026-01-20T15:12:25Z",
-      "appName": "Cloudflare WARP",
-      "slug": "cloudflare-warp/windows",
-      "platform": "windows",
-      "oldVersion": "25.9.558.0",
-      "newVersion": "25.10.186.0",
-      "installerUrl": "https://downloads.cloudflareclient.com/v1/download/windows/version/2025.10.186.0"
-    },
-    {
-      "date": "2026-01-20T15:12:25Z",
-      "appName": "Docker Desktop",
-      "slug": "docker-desktop/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.56.0",
-      "newVersion": "4.57.0",
-      "installerUrl": "https://desktop.docker.com/mac/main/arm64/215387/Docker.dmg"
-    },
-    {
-      "date": "2026-01-20T15:12:25Z",
-      "appName": "Mozilla Firefox",
-      "slug": "firefox/darwin",
-      "platform": "darwin",
-      "oldVersion": "147.0",
-      "newVersion": "147.0.1",
-      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/147.0.1/mac/en-US/Firefox%20147.0.1.dmg"
-    },
-    {
-      "date": "2026-01-20T15:12:25Z",
-      "appName": "Citrix Workspace",
-      "slug": "citrix-workspace/darwin",
-      "platform": "darwin",
-      "oldVersion": "25.11.0.36",
-      "newVersion": "25.11.1.42",
-      "installerUrl": "https://downloadplugins.citrix.com/ReceiverUpdates/Prod/Receiver/Mac/CitrixWorkspaceAppUniversal25.11.1.42.pkg"
-    },
-    {
-      "date": "2026-01-20T15:12:25Z",
       "appName": "Rancher Desktop",
       "slug": "rancher/darwin",
       "platform": "darwin",
@@ -8999,6 +8882,123 @@
       "oldVersion": "",
       "newVersion": "138.0.7204.26",
       "installerUrl": "https://dl.google.com/credentialprovider/gcpwstandaloneenterprise64.msi"
+    },
+    {
+      "date": "2026-03-29T03:10:27Z",
+      "appName": "Claude",
+      "slug": "claude/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.1.9134",
+      "newVersion": "1.1.9310",
+      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.1.9310/Claude-cb30ace41ae027db67a2e649866d8a2bb6f4c2af.zip"
+    },
+    {
+      "date": "2026-03-29T03:10:27Z",
+      "appName": "CrashPlan",
+      "slug": "crashplan/windows",
+      "platform": "windows",
+      "oldVersion": "11.9.0.507",
+      "newVersion": "11.8.0.609",
+      "installerUrl": "https://download.crashplan.com/installs/agent/cloud/11.8.0/609/install/CrashPlan_11.8.0_609_Win64.msi"
+    },
+    {
+      "date": "2026-03-29T03:10:27Z",
+      "appName": "Spotify",
+      "slug": "spotify/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.2.85.519",
+      "newVersion": "1.2.86.502",
+      "installerUrl": "https://download.scdn.co/SpotifyARM64.dmg"
+    },
+    {
+      "date": "2026-03-29T03:10:27Z",
+      "appName": "Warp",
+      "slug": "warp/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.2026.03.18.08.24.03",
+      "newVersion": "0.2026.03.25.08.24.05",
+      "installerUrl": "https://releases.warp.dev/stable/v0.2026.03.25.08.24.stable_05/Warp.dmg"
+    },
+    {
+      "date": "2026-03-29T03:10:27Z",
+      "appName": "Cursor",
+      "slug": "cursor/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.6.21",
+      "newVersion": "2.6.22",
+      "installerUrl": "https://downloads.cursor.com/production/c6285feaba0ad62603f7c22e72f0a170dc8415a5/darwin/arm64/Cursor-darwin-arm64.zip"
+    },
+    {
+      "date": "2026-03-29T03:10:27Z",
+      "appName": "Rider",
+      "slug": "rider/darwin",
+      "platform": "darwin",
+      "oldVersion": "2025.3.3",
+      "newVersion": "2025.3.4",
+      "installerUrl": "https://download.jetbrains.com/rider/JetBrains.Rider-2025.3.4-aarch64.dmg"
+    },
+    {
+      "date": "2026-03-29T03:10:27Z",
+      "appName": "Loom",
+      "slug": "loom/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.338.4",
+      "newVersion": "0.339.4",
+      "installerUrl": "https://packages.loom.com/desktop-packages/Loom-0.339.4-arm64.dmg"
+    },
+    {
+      "date": "2026-03-29T03:10:27Z",
+      "appName": "Claude",
+      "slug": "claude/windows",
+      "platform": "windows",
+      "oldVersion": "1.1.8629",
+      "newVersion": "1.1.9134",
+      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.1.9134/Claude-87a63a530ffde53c132fa8e81bb53b2238e0c4e5.exe"
+    },
+    {
+      "date": "2026-03-29T03:10:27Z",
+      "appName": "Nudge",
+      "slug": "nudge/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.1.0.81852",
+      "newVersion": "2.1.1.81855",
+      "installerUrl": "https://github.com/macadmins/nudge/releases/download/v2.1.1.81855/Nudge-2.1.1.81855.pkg"
+    },
+    {
+      "date": "2026-03-29T03:10:27Z",
+      "appName": "Microsoft Edge",
+      "slug": "microsoft-edge/windows",
+      "platform": "windows",
+      "oldVersion": "146.0.3856.78",
+      "newVersion": "146.0.3856.84",
+      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/cbd65e96-0e75-421d-8359-f219338e6ce2/MicrosoftEdgeEnterpriseX64.msi"
+    },
+    {
+      "date": "2026-03-29T03:10:27Z",
+      "appName": "Google Drive",
+      "slug": "google-drive/darwin",
+      "platform": "darwin",
+      "oldVersion": "123.0.1",
+      "newVersion": "123.0",
+      "installerUrl": "https://dl.google.com/drive-file-stream/5-percent/GoogleDrive.dmg"
+    },
+    {
+      "date": "2026-03-29T03:10:27Z",
+      "appName": "Tunnelblick",
+      "slug": "tunnelblick/darwin",
+      "platform": "darwin",
+      "oldVersion": "8.0",
+      "newVersion": "8.0.1",
+      "installerUrl": "https://tunnelblick.net/iprelease/Tunnelblick_8.0.1_build_6301.dmg"
+    },
+    {
+      "date": "2026-03-29T03:10:27Z",
+      "appName": "Spotify",
+      "slug": "spotify/windows",
+      "platform": "windows",
+      "oldVersion": "1.2.85.519.g549a528b",
+      "newVersion": "1.2.86.502.g8cd7fb22",
+      "installerUrl": "https://download.scdn.co/SpotifyFullSetupX64.exe"
     }
   ]
 }
