@@ -2,78 +2,6 @@
   "changes": [
     {
       "date": "2026-01-20T15:12:25Z",
-      "appName": "DeepL",
-      "slug": "deepl/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.1.13531937",
-      "newVersion": "26.1.23595006",
-      "installerUrl": "https://www.deepl.com/macos/download/26.1/23595006/DeepL.dmg"
-    },
-    {
-      "date": "2026-01-20T15:12:25Z",
-      "appName": "Nextcloud",
-      "slug": "nextcloud/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.0.4",
-      "newVersion": "4.0.5",
-      "installerUrl": "https://github.com/nextcloud-releases/desktop/releases/download/v4.0.5/Nextcloud-4.0.5.pkg"
-    },
-    {
-      "date": "2026-01-20T15:12:25Z",
-      "appName": "Microsoft Visual Studio Code",
-      "slug": "visual-studio-code/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.108.0",
-      "newVersion": "1.108.1",
-      "installerUrl": "https://update.code.visualstudio.com/1.108.1/darwin-arm64/stable"
-    },
-    {
-      "date": "2026-01-20T15:12:25Z",
-      "appName": "Google Chrome",
-      "slug": "google-chrome/darwin",
-      "platform": "darwin",
-      "oldVersion": "143.0.7499.193",
-      "newVersion": "144.0.7559.60",
-      "installerUrl": "https://dl.google.com/dl/chrome/mac/universal/stable/gcem/GoogleChrome.pkg"
-    },
-    {
-      "date": "2026-01-20T15:12:25Z",
-      "appName": "Mattermost",
-      "slug": "mattermost/darwin",
-      "platform": "darwin",
-      "oldVersion": "6.0.2",
-      "newVersion": "6.0.3",
-      "installerUrl": "https://releases.mattermost.com/desktop/6.0.3/mattermost-desktop-6.0.3-mac-m1.zip"
-    },
-    {
-      "date": "2026-01-20T15:12:25Z",
-      "appName": "Wireshark",
-      "slug": "wireshark/windows",
-      "platform": "windows",
-      "oldVersion": "4.6.2",
-      "newVersion": "4.6.3",
-      "installerUrl": "https://2.na.dl.wireshark.org/win64/all-versions/Wireshark-4.6.3-x64.msi"
-    },
-    {
-      "date": "2026-01-20T15:12:25Z",
-      "appName": "Wireshark",
-      "slug": "wireshark-app/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.6.2",
-      "newVersion": "4.6.3",
-      "installerUrl": "https://www.wireshark.org/download/osx/all-versions/Wireshark%204.6.3.dmg"
-    },
-    {
-      "date": "2026-01-20T15:12:25Z",
-      "appName": "ChatGPT Desktop",
-      "slug": "chatgpt/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.2025.350",
-      "newVersion": "1.2026.006",
-      "installerUrl": "https://persistent.oaistatic.com/sidekick/public/ChatGPT_Desktop_public_1.2026.006_1768086529.dmg"
-    },
-    {
-      "date": "2026-01-20T15:12:25Z",
       "appName": "Google Chrome",
       "slug": "google-chrome/windows",
       "platform": "windows",
@@ -8999,6 +8927,78 @@
       "oldVersion": "2.12.6",
       "newVersion": "2.12.7",
       "installerUrl": "https://github.com/exelban/stats/releases/download/v2.12.7/Stats.dmg"
+    },
+    {
+      "date": "2026-03-30T15:33:43Z",
+      "appName": "Ollama",
+      "slug": "ollama/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.18.3",
+      "newVersion": "0.19.0",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.19.0/Ollama-darwin.zip"
+    },
+    {
+      "date": "2026-03-30T15:33:43Z",
+      "appName": "WhatsApp",
+      "slug": "whatsapp/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.12.22",
+      "newVersion": "26.13.15",
+      "installerUrl": "https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release\u0026src=whatsapp_downloads_page"
+    },
+    {
+      "date": "2026-03-30T15:33:43Z",
+      "appName": "Docker Desktop",
+      "slug": "docker-desktop/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.66.1",
+      "newVersion": "4.67.0",
+      "installerUrl": "https://desktop.docker.com/mac/main/arm64/222858/Docker.dmg"
+    },
+    {
+      "date": "2026-03-30T15:33:43Z",
+      "appName": "Postman",
+      "slug": "postman/darwin",
+      "platform": "darwin",
+      "oldVersion": "12.3.6",
+      "newVersion": "12.4.0",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.4.0/osx_arm64"
+    },
+    {
+      "date": "2026-03-30T15:33:43Z",
+      "appName": "Privileges",
+      "slug": "privileges/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.5.1",
+      "newVersion": "2.5.2",
+      "installerUrl": "https://github.com/SAP/macOS-enterprise-privileges/releases/download/2.5.2/Privileges_2.5.2.pkg"
+    },
+    {
+      "date": "2026-03-30T15:33:43Z",
+      "appName": "Microsoft Teams",
+      "slug": "microsoft-teams/darwin",
+      "platform": "darwin",
+      "oldVersion": "26043.2109.4484.3337",
+      "newVersion": "26059.604.4471.2584",
+      "installerUrl": "https://statics.teams.cdn.office.net/production-osx/26059.604.4471.2584/MicrosoftTeams.pkg"
+    },
+    {
+      "date": "2026-03-30T15:33:43Z",
+      "appName": "Postman",
+      "slug": "postman/windows",
+      "platform": "windows",
+      "oldVersion": "12.3.6",
+      "newVersion": "12.4.0",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.4.0/windows_64"
+    },
+    {
+      "date": "2026-03-30T15:33:43Z",
+      "appName": "Rider",
+      "slug": "rider/darwin",
+      "platform": "darwin",
+      "oldVersion": "2025.3.4",
+      "newVersion": "2026.1",
+      "installerUrl": "https://download.jetbrains.com/rider/JetBrains.Rider-2026.1-aarch64.dmg"
     }
   ]
 }
