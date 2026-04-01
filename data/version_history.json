@@ -1,186 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-01-20T22:08:23Z",
-      "appName": "Dropbox",
-      "slug": "dropbox/darwin",
-      "platform": "darwin",
-      "oldVersion": "239.4.8301",
-      "newVersion": "240.4.8493",
-      "installerUrl": "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20240.4.8493.arm64.dmg"
-    },
-    {
-      "date": "2026-01-20T22:08:23Z",
-      "appName": "Front",
-      "slug": "front/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.67.6",
-      "newVersion": "3.68.0",
-      "installerUrl": "https://dl.frontapp.com/desktop/builds/3.68.0/Front-3.68.0-arm64.zip"
-    },
-    {
-      "date": "2026-01-20T22:08:23Z",
-      "appName": "Microsoft Outlook",
-      "slug": "microsoft-outlook/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.105.26011018",
-      "newVersion": "16.105.26011816",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.105.26011816_Installer.pkg"
-    },
-    {
-      "date": "2026-01-20T22:08:23Z",
-      "appName": "Granola",
-      "slug": "granola/darwin",
-      "platform": "darwin",
-      "oldVersion": "6.491.0",
-      "newVersion": "6.491.2",
-      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/6.491.2/Granola-6.491.2-mac-universal.dmg"
-    },
-    {
-      "date": "2026-01-20T22:08:23Z",
-      "appName": "Obsidian",
-      "slug": "obsidian/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.11.4",
-      "newVersion": "1.11.5",
-      "installerUrl": "https://github.com/obsidianmd/obsidian-releases/releases/download/v1.11.5/Obsidian-1.11.5.dmg"
-    },
-    {
-      "date": "2026-01-20T22:08:23Z",
-      "appName": "Adobe Acrobat Reader",
-      "slug": "adobe-acrobat-reader/windows",
-      "platform": "windows",
-      "oldVersion": "25.001.21078",
-      "newVersion": "25.001.21111",
-      "installerUrl": "https://ardownload2.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2500121111/AcroRdrDCx642500121111_MUI.exe"
-    },
-    {
-      "date": "2026-01-20T22:08:23Z",
-      "appName": "Mattermost",
-      "slug": "mattermost/darwin",
-      "platform": "darwin",
-      "oldVersion": "6.0.3",
-      "newVersion": "6.0.4",
-      "installerUrl": "https://releases.mattermost.com/desktop/6.0.4/mattermost-desktop-6.0.4-mac-m1.zip"
-    },
-    {
-      "date": "2026-01-21T19:14:13Z",
-      "appName": "8x8 Work",
-      "slug": "8x8-work/windows",
-      "platform": "windows",
-      "oldVersion": "8.29.1",
-      "newVersion": "8.30.2",
-      "installerUrl": "https://work-desktop-assets.8x8.com/prod-publish/ga/work-64-msi-v8.30.2-10.msi"
-    },
-    {
-      "date": "2026-01-21T19:14:13Z",
-      "appName": "Notion",
-      "slug": "notion/windows",
-      "platform": "windows",
-      "oldVersion": "7.0.0",
-      "newVersion": "7.1.0",
-      "installerUrl": "https://desktop-release.notion-static.com/Notion%20Setup%207.1.0.exe"
-    },
-    {
-      "date": "2026-01-21T19:14:13Z",
-      "appName": "Adobe Acrobat Reader",
-      "slug": "adobe-acrobat-reader/darwin",
-      "platform": "darwin",
-      "oldVersion": "25.001.20997",
-      "newVersion": "25.001.21111",
-      "installerUrl": "https://ardownload2.adobe.com/pub/adobe/reader/mac/AcrobatDC/2500121111/AcroRdrDC_2500121111_MUI.dmg"
-    },
-    {
-      "date": "2026-01-21T19:14:13Z",
-      "appName": "Raycast",
-      "slug": "raycast/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.104.1",
-      "newVersion": "1.104.2",
-      "installerUrl": "https://releases.raycast.com/releases/1.104.2/download?build=arm"
-    },
-    {
-      "date": "2026-01-21T19:14:13Z",
-      "appName": "Microsoft PowerPoint",
-      "slug": "microsoft-powerpoint/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.105.26011018",
-      "newVersion": "16.105.26011816",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.105.26011816_Installer.pkg"
-    },
-    {
-      "date": "2026-01-21T19:14:13Z",
-      "appName": "Discord",
-      "slug": "discord/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.0.372",
-      "newVersion": "0.0.373",
-      "installerUrl": "https://dl.discordapp.net/apps/osx/0.0.373/Discord.dmg"
-    },
-    {
-      "date": "2026-01-21T19:14:13Z",
-      "appName": "Company Portal",
-      "slug": "intune-company-portal/darwin",
-      "platform": "darwin",
-      "oldVersion": "5.2510.1",
-      "newVersion": "5.2511.0",
-      "installerUrl": "https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/CompanyPortal_5.2511.0-Upgrade.pkg"
-    },
-    {
-      "date": "2026-01-21T19:14:13Z",
-      "appName": "OneDrive",
-      "slug": "onedrive/darwin",
-      "platform": "darwin",
-      "oldVersion": "25.222.1112.0002",
-      "newVersion": "25.238.1204.0001",
-      "installerUrl": "https://oneclient.sfx.ms/Mac/Installers/25.238.1204.0001/universal/OneDrive.pkg"
-    },
-    {
-      "date": "2026-01-21T19:14:13Z",
-      "appName": "Google Chrome",
-      "slug": "google-chrome/darwin",
-      "platform": "darwin",
-      "oldVersion": "144.0.7559.60",
-      "newVersion": "144.0.7559.97",
-      "installerUrl": "https://dl.google.com/dl/chrome/mac/universal/stable/gcem/GoogleChrome.pkg"
-    },
-    {
-      "date": "2026-01-21T19:14:13Z",
-      "appName": "Notion",
-      "slug": "notion/darwin",
-      "platform": "darwin",
-      "oldVersion": "7.0.0",
-      "newVersion": "7.1.0",
-      "installerUrl": "https://desktop-release.notion-static.com/Notion-7.1.0-arm64.dmg"
-    },
-    {
-      "date": "2026-01-21T19:14:13Z",
-      "appName": "Discord",
-      "slug": "discord/windows",
-      "platform": "windows",
-      "oldVersion": "1.0.9220",
-      "newVersion": "1.0.9221",
-      "installerUrl": "https://stable.dl2.discordapp.net/distro/app/stable/win/x64/1.0.9221/DiscordSetup.exe"
-    },
-    {
-      "date": "2026-01-21T19:14:13Z",
-      "appName": "Google Chrome",
-      "slug": "google-chrome/windows",
-      "platform": "windows",
-      "oldVersion": "144.0.7559.60",
-      "newVersion": "144.0.7559.97",
-      "installerUrl": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi"
-    },
-    {
-      "date": "2026-01-21T19:14:13Z",
-      "appName": "Microsoft Word",
-      "slug": "microsoft-word/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.105",
-      "newVersion": "16.105.1",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.105.26011816_Installer.pkg"
-    },
-    {
       "date": "2026-01-21T19:14:13Z",
       "appName": "Box Drive",
       "slug": "box-drive/windows",
@@ -8999,6 +8819,186 @@
       "oldVersion": "1.158.0.0",
       "newVersion": "1.159.0.0",
       "installerUrl": "https://download-mac.grammarly.com/versions/1.159.0.0/Grammarly.dmg"
+    },
+    {
+      "date": "2026-04-01T19:29:07Z",
+      "appName": "GitHub Desktop",
+      "slug": "github/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.5.6",
+      "newVersion": "3.5.7",
+      "installerUrl": "https://desktop.githubusercontent.com/releases/3.5.7-c5e06544/GitHubDesktop-arm64.zip"
+    },
+    {
+      "date": "2026-04-01T19:29:07Z",
+      "appName": "Anka",
+      "slug": "anka-virtualization/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.8.5.211",
+      "newVersion": "3.8.6.212",
+      "installerUrl": "https://downloads.veertu.com/anka/Anka-3.8.6.212.pkg"
+    },
+    {
+      "date": "2026-04-01T19:29:07Z",
+      "appName": "Notion",
+      "slug": "notion/windows",
+      "platform": "windows",
+      "oldVersion": "7.9.0",
+      "newVersion": "7.9.1",
+      "installerUrl": "https://desktop-release.notion-static.com/Notion%20Setup%207.9.1.exe"
+    },
+    {
+      "date": "2026-04-01T19:29:07Z",
+      "appName": "Google Chrome",
+      "slug": "google-chrome/windows",
+      "platform": "windows",
+      "oldVersion": "146.0.7680.165",
+      "newVersion": "146.0.7680.178",
+      "installerUrl": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi"
+    },
+    {
+      "date": "2026-04-01T19:29:07Z",
+      "appName": "Microsoft PowerPoint",
+      "slug": "microsoft-powerpoint/darwin",
+      "platform": "darwin",
+      "oldVersion": "16.107.26032211",
+      "newVersion": "16.107.26032814",
+      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.107.26032814_Installer.pkg"
+    },
+    {
+      "date": "2026-04-01T19:29:07Z",
+      "appName": "Postman",
+      "slug": "postman/darwin",
+      "platform": "darwin",
+      "oldVersion": "12.4.2",
+      "newVersion": "12.4.3",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.4.3/osx_arm64"
+    },
+    {
+      "date": "2026-04-01T19:29:07Z",
+      "appName": "Microsoft Word",
+      "slug": "microsoft-word/darwin",
+      "platform": "darwin",
+      "oldVersion": "16.107.2",
+      "newVersion": "16.107.3",
+      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.107.26032814_Installer.pkg"
+    },
+    {
+      "date": "2026-04-01T19:29:07Z",
+      "appName": "Microsoft Excel",
+      "slug": "microsoft-excel/darwin",
+      "platform": "darwin",
+      "oldVersion": "16.107.2",
+      "newVersion": "16.107.3",
+      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.107.26032814_Installer.pkg"
+    },
+    {
+      "date": "2026-04-01T19:29:07Z",
+      "appName": "Claude",
+      "slug": "claude/windows",
+      "platform": "windows",
+      "oldVersion": "1.1.9493",
+      "newVersion": "1.1.9669",
+      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.1.9669/Claude-aea25dadb1a5850303cbd7f3126691a15dc41963.exe"
+    },
+    {
+      "date": "2026-04-01T19:29:07Z",
+      "appName": "Elgato Stream Deck",
+      "slug": "elgato-stream-deck/darwin",
+      "platform": "darwin",
+      "oldVersion": "7.3.1.22604",
+      "newVersion": "7.4.0.22712",
+      "installerUrl": "https://edge.elgato.com/egc/macos/sd/Stream_Deck_7.4.0.22712.pkg"
+    },
+    {
+      "date": "2026-04-01T19:29:07Z",
+      "appName": "Citrix Workspace",
+      "slug": "citrix-workspace/darwin",
+      "platform": "darwin",
+      "oldVersion": "25.11.1.42",
+      "newVersion": "26.03.0.49",
+      "installerUrl": "https://downloadplugins.citrix.com/ReceiverUpdates/Prod/Receiver/Mac/CitrixWorkspaceAppUniversal26.03.0.49.pkg"
+    },
+    {
+      "date": "2026-04-01T19:29:07Z",
+      "appName": "GitHub Desktop",
+      "slug": "github-desktop/windows",
+      "platform": "windows",
+      "oldVersion": "3.5.6",
+      "newVersion": "3.5.7",
+      "installerUrl": "https://desktop.githubusercontent.com/releases/3.5.7-c5e06544/GitHubDesktopSetup-x64.msi"
+    },
+    {
+      "date": "2026-04-01T19:29:07Z",
+      "appName": "Postman",
+      "slug": "postman/windows",
+      "platform": "windows",
+      "oldVersion": "12.4.2",
+      "newVersion": "12.4.3",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.4.3/windows_64"
+    },
+    {
+      "date": "2026-04-01T19:29:07Z",
+      "appName": "Notion",
+      "slug": "notion/darwin",
+      "platform": "darwin",
+      "oldVersion": "7.9.0",
+      "newVersion": "7.9.1",
+      "installerUrl": "https://desktop-release.notion-static.com/Notion-7.9.1-arm64.dmg"
+    },
+    {
+      "date": "2026-04-01T19:29:07Z",
+      "appName": "Microsoft OneNote",
+      "slug": "microsoft-onenote/darwin",
+      "platform": "darwin",
+      "oldVersion": "16.107.26032211",
+      "newVersion": "16.107.26032814",
+      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.107.26032814_Updater.pkg"
+    },
+    {
+      "date": "2026-04-01T19:29:07Z",
+      "appName": "Dropbox",
+      "slug": "dropbox/darwin",
+      "platform": "darwin",
+      "oldVersion": "244.4.6580",
+      "newVersion": "246.4.3513",
+      "installerUrl": "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20246.4.3513.arm64.dmg"
+    },
+    {
+      "date": "2026-04-01T19:29:07Z",
+      "appName": "Zoom",
+      "slug": "zoom/windows",
+      "platform": "windows",
+      "oldVersion": "7.0.33767",
+      "newVersion": "7.0.34140",
+      "installerUrl": "https://zoom.us/client/7.0.1.34140/ZoomInstallerFull.msi?archType=x64"
+    },
+    {
+      "date": "2026-04-01T19:29:07Z",
+      "appName": "Microsoft Outlook",
+      "slug": "microsoft-outlook/darwin",
+      "platform": "darwin",
+      "oldVersion": "16.107.26032211",
+      "newVersion": "16.107.26032814",
+      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.107.26032814_Installer.pkg"
+    },
+    {
+      "date": "2026-04-01T19:29:07Z",
+      "appName": "Nextcloud",
+      "slug": "nextcloud/darwin",
+      "platform": "darwin",
+      "oldVersion": "33.0.1",
+      "newVersion": "33.0.2",
+      "installerUrl": "https://github.com/nextcloud-releases/desktop/releases/download/v33.0.2/Nextcloud-33.0.2.pkg"
+    },
+    {
+      "date": "2026-04-01T19:29:07Z",
+      "appName": "Google Chrome",
+      "slug": "google-chrome/darwin",
+      "platform": "darwin",
+      "oldVersion": "146.0.7680.165",
+      "newVersion": "146.0.7680.178",
+      "installerUrl": "https://dl.google.com/dl/chrome/mac/universal/stable/gcem/GoogleChrome.pkg"
     }
   ]
 }
