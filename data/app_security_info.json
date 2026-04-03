@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-03T19:21:53Z",
+  "lastUpdated": "2026-04-03T19:33:44Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -456,12 +456,12 @@
     {
       "slug": "bruno/darwin",
       "name": "Bruno",
-      "version": "3.2.0",
-      "sha256": "4b75ad5b99e82e5cf1639e732a906b0b5e7546bdc8aa81a5ec73b4b5b3034e27",
-      "cdhash": "fdea953320731a8ef22981b02f04323a7c0dad06",
+      "version": "3.2.2",
+      "sha256": "40eb1c307f8b301f680c8694a154e65fe85c0e34eb6a591b921bfeb105ed49cf",
+      "cdhash": "c1941dd79a8e2a48493dc4afe45397538ccfc09f",
       "signingId": "W7LPPWA48L:com.usebruno.app",
       "teamId": "W7LPPWA48L",
-      "lastUpdated": "2026-03-21T19:13:44Z"
+      "lastUpdated": "2026-04-03T19:22:14Z"
     },
     {
       "slug": "calibre/darwin",
@@ -558,12 +558,12 @@
     {
       "slug": "citrix-workspace/darwin",
       "name": "Citrix Workspace",
-      "version": "26.03.0.49",
+      "version": "26.03.0",
       "sha256": "5dc5b2372eb42e6f1958d33c51c48f99f2ab8580066805b4bebaa9cc1620d4e2",
       "cdhash": "8bea46de4e8f8f996bdd408f10c53e7c66fdd808",
       "signingId": "S272Y5R93J:com.citrix.receiver.nomas",
       "teamId": "S272Y5R93J",
-      "lastUpdated": "2026-04-01T19:31:10Z"
+      "lastUpdated": "2026-04-03T19:23:13Z"
     },
     {
       "slug": "claude/darwin",
@@ -972,12 +972,12 @@
     {
       "slug": "elgato-stream-deck/darwin",
       "name": "Elgato Stream Deck",
-      "version": "7.4.0.22712",
+      "version": "7.4.0",
       "sha256": "3b621afad1c45518d9ddfa192bd06ed7aac9178d00cca2c9ee5b9842dab04aa5",
       "cdhash": "4f314710e9c8037069aea1be395bd1ff598233ac",
       "signingId": "Y93VXCB8Q5:com.elgato.StreamDeck",
       "teamId": "Y93VXCB8Q5",
-      "lastUpdated": "2026-04-01T19:32:25Z"
+      "lastUpdated": "2026-04-03T19:23:55Z"
     },
     {
       "slug": "evernote/darwin",
@@ -1023,12 +1023,12 @@
     {
       "slug": "filemaker-pro/darwin",
       "name": "FileMaker Pro",
-      "version": "22.0.5.500",
+      "version": "22.0.5",
       "sha256": "2442fe1a14ed355d896749161e05ce1732e73cf76fb50b7eab1a959e9e2a1809",
       "cdhash": "4d9bc54ee574883af89c4b1414a4a42c97a2e5ff",
       "signingId": "J6K4T76U7W:com.filemaker.client.pro12",
       "teamId": "J6K4T76U7W",
-      "lastUpdated": "2026-03-04T00:46:32Z"
+      "lastUpdated": "2026-04-03T19:26:30Z"
     },
     {
       "slug": "firefox/darwin",
@@ -1457,12 +1457,12 @@
     {
       "slug": "lens/darwin",
       "name": "Lens",
-      "version": "2026.3.251250",
+      "version": "2026.3.251250-latest",
       "sha256": "01647876b377c3fc2463278722469a56b5fb901eea8ff68bd0ad42493848a9a6",
       "cdhash": "b23a28eeabb23fcc6f403e9b6e24d3be797ebaae",
       "signingId": "JJ22T2W355:com.electron.kontena-lens",
       "teamId": "JJ22T2W355",
-      "lastUpdated": "2026-03-26T15:47:39Z"
+      "lastUpdated": "2026-04-03T19:27:17Z"
     },
     {
       "slug": "libreoffice/darwin",
@@ -1535,6 +1535,16 @@
       "lastUpdated": "2025-12-20T07:25:52Z"
     },
     {
+      "slug": "marvel/darwin",
+      "name": "Marvel",
+      "version": "11.5",
+      "sha256": "22c267e58396da1a3505987bf5531b5699f8c246095ccd70a3ecf6e199016ccd",
+      "cdhash": "2a440d3b08f5457a1f3296a71c26eb9916bbf702",
+      "signingId": "7C95EP5VB7:com.marvelprototyping.marvelmacos",
+      "teamId": "7C95EP5VB7",
+      "lastUpdated": "2026-04-03T19:27:41Z"
+    },
+    {
       "slug": "mattermost/darwin",
       "name": "Mattermost",
       "version": "6.1.0",
@@ -1557,11 +1567,12 @@
     {
       "slug": "microsoft-auto-update/darwin",
       "name": "Microsoft Auto Update",
-      "version": "4.82.26020434",
-      "sha256": "9071442ba9d59a2854fb332645e8372f8e431008bdce129b06836dd4faa6cfed",
+      "version": "4.82",
+      "sha256": "c1e147a05b82e1ba1066dba359af70a664514ff8a69d934d5aa22d95274340ea",
+      "cdhash": "422c04c56713358223cf2f53d543a435d78f8448",
       "signingId": "UBF8T346G9:com.microsoft.edgemac",
       "teamId": "UBF8T346G9",
-      "lastUpdated": "2026-02-18T14:42:32Z"
+      "lastUpdated": "2026-04-03T19:29:55Z"
     },
     {
       "slug": "microsoft-edge/darwin",
@@ -1680,11 +1691,12 @@
     {
       "slug": "mysqlworkbench/darwin",
       "name": "MySQL Workbench",
-      "version": "8.0.46",
+      "version": "8.0.46.CE",
       "sha256": "8c7f7083870c59b1e2dd9d7d61d5979fdba25cc6bdb1032a7406e43a3effb7ef",
+      "cdhash": "9592d75c3a5fa97592e33816062f3230d2e1d079",
       "signingId": "VB5E2TV963:com.oracle.workbench.MySQLWorkbench",
       "teamId": "VB5E2TV963",
-      "lastUpdated": "2026-01-21T23:14:11Z"
+      "lastUpdated": "2026-04-03T19:32:50Z"
     },
     {
       "slug": "nextcloud/darwin",
@@ -1888,12 +1900,12 @@
     {
       "slug": "opera/darwin",
       "name": "Opera",
-      "version": "129.0.5823.44",
+      "version": "129.0",
       "sha256": "5d31103eeb531524ff6dd2d6874ba0ad4ea1a6e5e023c57c386fa4b5f762491b",
       "cdhash": "4325e822c63e9aa27e08f97bd9fc6ac4a2812eb6",
       "signingId": "A2P9LX4JPN:com.operasoftware.Opera",
       "teamId": "A2P9LX4JPN",
-      "lastUpdated": "2026-04-03T17:35:36Z"
+      "lastUpdated": "2026-04-03T19:33:41Z"
     },
     {
       "slug": "orbstack/darwin",
