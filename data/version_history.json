@@ -1,69 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-01-28T19:11:22Z",
-      "appName": "Figma",
-      "slug": "figma/darwin",
-      "platform": "darwin",
-      "oldVersion": "125.11.6",
-      "newVersion": "126.0.4",
-      "installerUrl": "https://desktop.figma.com/mac-arm/Figma-126.0.4.zip"
-    },
-    {
-      "date": "2026-01-28T19:11:22Z",
-      "appName": "Google Chrome",
-      "slug": "google-chrome/darwin",
-      "platform": "darwin",
-      "oldVersion": "144.0.7559.97",
-      "newVersion": "144.0.7559.110",
-      "installerUrl": "https://dl.google.com/dl/chrome/mac/universal/stable/gcem/GoogleChrome.pkg"
-    },
-    {
-      "date": "2026-01-28T19:11:22Z",
-      "appName": "Cursor",
-      "slug": "cursor/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.4.21",
-      "newVersion": "2.4.22",
-      "installerUrl": "https://downloads.cursor.com/production/618c607a249dd7fd2ffc662c6531143833bebd44/darwin/arm64/Cursor-darwin-arm64.zip"
-    },
-    {
-      "date": "2026-01-28T19:11:22Z",
-      "appName": "CleanMyMac",
-      "slug": "cleanmymac/darwin",
-      "platform": "darwin",
-      "oldVersion": "5.3.0",
-      "newVersion": "5.3.1",
-      "installerUrl": "https://dl.devmate.com/com.macpaw.CleanMyMac5/50301.0.2601271414/1769524551/CleanMyMac5-50301.0.2601271414.zip"
-    },
-    {
-      "date": "2026-01-28T19:11:22Z",
-      "appName": "Microsoft Excel",
-      "slug": "microsoft-excel/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.105.26012530",
-      "newVersion": "16.105.2",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.105.26012530_Installer.pkg"
-    },
-    {
-      "date": "2026-01-28T19:11:22Z",
-      "appName": "Microsoft Word",
-      "slug": "microsoft-word/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.105.26012530",
-      "newVersion": "16.105.2",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.105.26012530_Installer.pkg"
-    },
-    {
-      "date": "2026-01-28T22:09:38Z",
-      "appName": "WhatsApp",
-      "slug": "whatsapp/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.3.18",
-      "newVersion": "26.4.18",
-      "installerUrl": "https://web.whatsapp.com/desktop/mac_native/release/?version=2.26.4.18\u0026extension=zip\u0026configuration=Release\u0026branch=master\u0026is_buck=true"
-    },
-    {
       "date": "2026-01-28T22:09:38Z",
       "appName": "Thunderbird",
       "slug": "thunderbird/darwin",
@@ -8999,6 +8936,69 @@
       "oldVersion": "140.9.0",
       "newVersion": "140.9.1",
       "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/140.9.1esr/mac/en-US/Firefox%20140.9.1esr.dmg"
+    },
+    {
+      "date": "2026-04-07T18:24:49Z",
+      "appName": "Mozilla Firefox",
+      "slug": "firefox/windows",
+      "platform": "windows",
+      "oldVersion": "149.0",
+      "newVersion": "149.0.2",
+      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/149.0.2/win64/en-US/Firefox%20Setup%20149.0.2.exe"
+    },
+    {
+      "date": "2026-04-07T18:24:49Z",
+      "appName": "NordVPN",
+      "slug": "nordvpn/darwin",
+      "platform": "darwin",
+      "oldVersion": "9.15.0",
+      "newVersion": "10.0.1",
+      "installerUrl": "https://downloads.nordcdn.com/apps/macos/generic/NordVPN-OpenVPN/10.0.1/NordVPN.pkg"
+    },
+    {
+      "date": "2026-04-07T18:24:49Z",
+      "appName": "Sketch",
+      "slug": "sketch/darwin",
+      "platform": "darwin",
+      "oldVersion": "2025.3.4",
+      "newVersion": "2026.1",
+      "installerUrl": "https://download.sketch.com/sketch-2026.1-228201.zip"
+    },
+    {
+      "date": "2026-04-07T18:24:49Z",
+      "appName": "Tor Browser",
+      "slug": "tor-browser/darwin",
+      "platform": "darwin",
+      "oldVersion": "15.0.8",
+      "newVersion": "15.0.9",
+      "installerUrl": "https://www.torproject.org/dist/torbrowser/15.0.9/tor-browser-macos-15.0.9.dmg"
+    },
+    {
+      "date": "2026-04-07T18:24:49Z",
+      "appName": "Microsoft Outlook",
+      "slug": "microsoft-outlook/darwin",
+      "platform": "darwin",
+      "oldVersion": "16.107.3",
+      "newVersion": "16.107",
+      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.107.26040410_Installer.pkg"
+    },
+    {
+      "date": "2026-04-07T18:24:49Z",
+      "appName": "Discord",
+      "slug": "discord/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.0.383",
+      "newVersion": "0.0.384",
+      "installerUrl": "https://dl.discordapp.net/apps/osx/0.0.384/Discord.dmg"
+    },
+    {
+      "date": "2026-04-07T18:24:49Z",
+      "appName": "Docker Desktop",
+      "slug": "docker-desktop/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.67.0",
+      "newVersion": "4.68.0",
+      "installerUrl": "https://desktop.docker.com/mac/main/arm64/223695/Docker.dmg"
     }
   ]
 }
