@@ -1,96 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-01-27T23:07:26Z",
-      "appName": "Microsoft Word",
-      "slug": "microsoft-word/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.105.1",
-      "newVersion": "16.105.26012530",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.105.26012530_Installer.pkg"
-    },
-    {
-      "date": "2026-01-28T19:11:22Z",
-      "appName": "Tailscale",
-      "slug": "tailscale-app/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.92.3",
-      "newVersion": "1.94.1",
-      "installerUrl": "https://pkgs.tailscale.com/stable/Tailscale-1.94.1-macos.pkg"
-    },
-    {
-      "date": "2026-01-28T19:11:22Z",
-      "appName": "Microsoft Edge",
-      "slug": "microsoft-edge/windows",
-      "platform": "windows",
-      "oldVersion": "144.0.3719.82",
-      "newVersion": "144.0.3719.92",
-      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/2e48a591-04a7-4dd6-8db5-23c6190e5058/MicrosoftEdgeEnterpriseX64.msi"
-    },
-    {
-      "date": "2026-01-28T19:11:22Z",
-      "appName": "Microsoft Outlook",
-      "slug": "microsoft-outlook/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.105.26011816",
-      "newVersion": "16.105.26012530",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.105.26012530_Installer.pkg"
-    },
-    {
-      "date": "2026-01-28T19:11:22Z",
-      "appName": "Zed",
-      "slug": "zed/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.220.6",
-      "newVersion": "0.220.7",
-      "installerUrl": "https://zed.dev/api/releases/stable/0.220.7/Zed-aarch64.dmg"
-    },
-    {
-      "date": "2026-01-28T19:11:22Z",
-      "appName": "1Password",
-      "slug": "1password/windows",
-      "platform": "windows",
-      "oldVersion": "8.12.0",
-      "newVersion": "8.12.1",
-      "installerUrl": "https://c.1password.com/dist/1P/win8/1PasswordSetup-8.12.1.msi"
-    },
-    {
-      "date": "2026-01-28T19:11:22Z",
-      "appName": "Windsurf",
-      "slug": "windsurf/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.13.13",
-      "newVersion": "1.13.14",
-      "installerUrl": "https://windsurf-stable.codeiumdata.com/darwin-arm64-dmg/stable/5c2968103bdb09ce4f81ebbeacebb15ed409feed/Windsurf-darwin-arm64-1.13.14.dmg"
-    },
-    {
-      "date": "2026-01-28T19:11:22Z",
-      "appName": "Claude",
-      "slug": "claude/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.1.886",
-      "newVersion": "1.1.1093",
-      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.1.1093/Claude-5a5517183d88766e37a07fc3ad73585d1298a051.zip"
-    },
-    {
-      "date": "2026-01-28T19:11:22Z",
-      "appName": "Google Chrome",
-      "slug": "google-chrome/windows",
-      "platform": "windows",
-      "oldVersion": "144.0.7559.97",
-      "newVersion": "144.0.7559.110",
-      "installerUrl": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi"
-    },
-    {
-      "date": "2026-01-28T19:11:22Z",
-      "appName": "ChatGPT Desktop",
-      "slug": "chatgpt/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.2026.006",
-      "newVersion": "1.2026.013",
-      "installerUrl": "https://persistent.oaistatic.com/sidekick/public/ChatGPT_Desktop_public_1.2026.013_1768606532.dmg"
-    },
-    {
       "date": "2026-01-28T19:11:22Z",
       "appName": "Figma",
       "slug": "figma/darwin",
@@ -8999,6 +8909,96 @@
       "oldVersion": "0.230.1",
       "newVersion": "0.230.2",
       "installerUrl": "https://zed.dev/api/releases/stable/0.230.2/Zed-aarch64.dmg"
+    },
+    {
+      "date": "2026-04-07T15:34:43Z",
+      "appName": "Windsurf",
+      "slug": "windsurf/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.9600.38",
+      "newVersion": "1.9600.40",
+      "installerUrl": "https://windsurf-stable.codeiumdata.com/darwin-arm64-dmg/stable/33797ef35c395e31fc2c9c35d2509de83c01fd7c/Windsurf-darwin-arm64-1.9600.40.dmg"
+    },
+    {
+      "date": "2026-04-07T15:34:43Z",
+      "appName": "Mozilla Firefox",
+      "slug": "firefox/darwin",
+      "platform": "darwin",
+      "oldVersion": "149.0",
+      "newVersion": "149.0.2",
+      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/149.0.2/mac/en-US/Firefox%20149.0.2.dmg"
+    },
+    {
+      "date": "2026-04-07T15:34:43Z",
+      "appName": "Notion",
+      "slug": "notion/darwin",
+      "platform": "darwin",
+      "oldVersion": "7.9.1",
+      "newVersion": "7.10.0",
+      "installerUrl": "https://desktop-release.notion-static.com/Notion-7.10.0-arm64.dmg"
+    },
+    {
+      "date": "2026-04-07T15:34:43Z",
+      "appName": "Postman",
+      "slug": "postman/windows",
+      "platform": "windows",
+      "oldVersion": "12.4.5",
+      "newVersion": "12.5.2",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.5.2/windows_64"
+    },
+    {
+      "date": "2026-04-07T15:34:43Z",
+      "appName": "Ollama",
+      "slug": "ollama/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.20.2",
+      "newVersion": "0.20.3",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.20.3/Ollama-darwin.zip"
+    },
+    {
+      "date": "2026-04-07T15:34:43Z",
+      "appName": "Postman",
+      "slug": "postman/darwin",
+      "platform": "darwin",
+      "oldVersion": "12.4.5",
+      "newVersion": "12.5.2",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.5.2/osx_arm64"
+    },
+    {
+      "date": "2026-04-07T15:34:43Z",
+      "appName": "Splashtop Streamer",
+      "slug": "splashtop-streamer/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.8.0.4",
+      "newVersion": "3.8.2.0",
+      "installerUrl": "https://d17kmd0va0f0mp.cloudfront.net/mac/Splashtop_Streamer_Mac_INSTALLER_v3.8.2.0.dmg"
+    },
+    {
+      "date": "2026-04-07T15:34:43Z",
+      "appName": "Splashtop Business",
+      "slug": "splashtop-business/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.8.0.6",
+      "newVersion": "3.8.2.0",
+      "installerUrl": "https://d17kmd0va0f0mp.cloudfront.net/macclient/STB/Splashtop_Business_Mac_INSTALLER_v3.8.2.0.dmg"
+    },
+    {
+      "date": "2026-04-07T15:34:43Z",
+      "appName": "DisplayLink USB Graphics Software",
+      "slug": "displaylink/darwin",
+      "platform": "darwin",
+      "oldVersion": "15.1",
+      "newVersion": "16.0",
+      "installerUrl": "https://www.synaptics.com/sites/default/files/exe_files/2026-04/DisplayLink%20Manager%20Graphics%20Connectivity16.0-EXE.pkg"
+    },
+    {
+      "date": "2026-04-07T15:34:43Z",
+      "appName": "Mozilla Firefox ESR",
+      "slug": "firefox@esr/darwin",
+      "platform": "darwin",
+      "oldVersion": "140.9.0",
+      "newVersion": "140.9.1",
+      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/140.9.1esr/mac/en-US/Firefox%20140.9.1esr.dmg"
     }
   ]
 }
