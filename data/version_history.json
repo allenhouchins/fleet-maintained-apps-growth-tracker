@@ -1,96 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-01-28T22:09:38Z",
-      "appName": "Thunderbird",
-      "slug": "thunderbird/darwin",
-      "platform": "darwin",
-      "oldVersion": "147.0",
-      "newVersion": "147.0.1",
-      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/147.0.1/mac/en-US/Thunderbird%20147.0.1.dmg"
-    },
-    {
-      "date": "2026-01-28T22:09:38Z",
-      "appName": "VirtualBox",
-      "slug": "virtualbox/darwin",
-      "platform": "darwin",
-      "oldVersion": "7.2.4",
-      "newVersion": "7.2.6",
-      "installerUrl": "https://download.virtualbox.org/virtualbox/7.2.6/VirtualBox-7.2.6-172322-macOSArm64.dmg"
-    },
-    {
-      "date": "2026-01-28T22:09:38Z",
-      "appName": "Brave",
-      "slug": "brave-browser/darwin",
-      "platform": "darwin",
-      "oldVersion": "144.1.86.142",
-      "newVersion": "144.1.86.146",
-      "installerUrl": "https://updates-cdn.bravesoftware.com/sparkle/Brave-Browser/stable-arm64/186.146/Brave-Browser-arm64.dmg"
-    },
-    {
-      "date": "2026-01-28T22:09:38Z",
-      "appName": "Claude",
-      "slug": "claude/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.1.1093",
-      "newVersion": "1.1.1200",
-      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.1.1200/Claude-46e5339828adcd54a87842c010c8c0607f729b52.zip"
-    },
-    {
-      "date": "2026-01-28T22:09:38Z",
-      "appName": "Zed",
-      "slug": "zed/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.220.7",
-      "newVersion": "0.221.4",
-      "installerUrl": "https://zed.dev/api/releases/stable/0.221.4/Zed-aarch64.dmg"
-    },
-    {
-      "date": "2026-01-28T22:09:38Z",
-      "appName": "RustRover",
-      "slug": "rustrover/darwin",
-      "platform": "darwin",
-      "oldVersion": "2025.3.2",
-      "newVersion": "2025.3.3",
-      "installerUrl": "https://download.jetbrains.com/rustrover/RustRover-2025.3.3-aarch64.dmg"
-    },
-    {
-      "date": "2026-01-29T16:15:47Z",
-      "appName": "Signal",
-      "slug": "signal/darwin",
-      "platform": "darwin",
-      "oldVersion": "7.86.0",
-      "newVersion": "7.87.0",
-      "installerUrl": "https://updates.signal.org/desktop/signal-desktop-mac-arm64-7.87.0.zip"
-    },
-    {
-      "date": "2026-01-29T16:15:47Z",
-      "appName": "Cisco Jabber",
-      "slug": "cisco-jabber/windows",
-      "platform": "windows",
-      "oldVersion": "15.2.0.60459",
-      "newVersion": "15.2.1.60627",
-      "installerUrl": "https://binaries.webex.com/jabberclientwindows/20260121061957/CiscoJabberSetup.msi"
-    },
-    {
-      "date": "2026-01-29T16:15:47Z",
-      "appName": "ChatGPT Atlas",
-      "slug": "chatgpt-atlas/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.2026.15.3",
-      "newVersion": "1.2026.21.3",
-      "installerUrl": "https://persistent.oaistatic.com/atlas/public/ChatGPT_Atlas_Desktop_public_1.2026.21.3_20260128170249000.dmg"
-    },
-    {
-      "date": "2026-01-29T16:15:47Z",
-      "appName": "Docker Desktop",
-      "slug": "docker-desktop/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.58.0",
-      "newVersion": "4.58.1",
-      "installerUrl": "https://desktop.docker.com/mac/main/arm64/217134/Docker.dmg"
-    },
-    {
       "date": "2026-01-29T16:15:47Z",
       "appName": "CotEditor",
       "slug": "coteditor/darwin",
@@ -8999,6 +8909,96 @@
       "oldVersion": "4.67.0",
       "newVersion": "4.68.0",
       "installerUrl": "https://desktop.docker.com/mac/main/arm64/223695/Docker.dmg"
+    },
+    {
+      "date": "2026-04-08T14:39:50Z",
+      "appName": "Microsoft Word",
+      "slug": "microsoft-word/darwin",
+      "platform": "darwin",
+      "oldVersion": "16.107.3",
+      "newVersion": "16.107",
+      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.107.26040410_Installer.pkg"
+    },
+    {
+      "date": "2026-04-08T14:39:50Z",
+      "appName": "Thunderbird",
+      "slug": "thunderbird/darwin",
+      "platform": "darwin",
+      "oldVersion": "149.0.1",
+      "newVersion": "149.0.2",
+      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/149.0.2/mac/en-US/Thunderbird%20149.0.2.dmg"
+    },
+    {
+      "date": "2026-04-08T14:39:50Z",
+      "appName": "Discord",
+      "slug": "discord/windows",
+      "platform": "windows",
+      "oldVersion": "1.0.9231",
+      "newVersion": "1.0.9232",
+      "installerUrl": "https://stable.dl2.discordapp.net/distro/app/stable/win/x64/1.0.9232/DiscordSetup.exe"
+    },
+    {
+      "date": "2026-04-08T14:39:50Z",
+      "appName": "Loom",
+      "slug": "loom/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.341.0",
+      "newVersion": "0.342.1",
+      "installerUrl": "https://packages.loom.com/desktop-packages/Loom-0.342.1-arm64.dmg"
+    },
+    {
+      "date": "2026-04-08T14:39:50Z",
+      "appName": "Microsoft PowerPoint",
+      "slug": "microsoft-powerpoint/darwin",
+      "platform": "darwin",
+      "oldVersion": "16.107.3",
+      "newVersion": "16.107",
+      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.107.26040410_Installer.pkg"
+    },
+    {
+      "date": "2026-04-08T14:39:50Z",
+      "appName": "Microsoft Excel",
+      "slug": "microsoft-excel/darwin",
+      "platform": "darwin",
+      "oldVersion": "16.107.3",
+      "newVersion": "16.107",
+      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.107.26040410_Installer.pkg"
+    },
+    {
+      "date": "2026-04-08T14:39:50Z",
+      "appName": "Teleport Connect",
+      "slug": "teleport-connect/darwin",
+      "platform": "darwin",
+      "oldVersion": "18.7.3",
+      "newVersion": "18.7.4",
+      "installerUrl": "https://cdn.teleport.dev/Teleport%20Connect-18.7.4.dmg"
+    },
+    {
+      "date": "2026-04-08T14:39:50Z",
+      "appName": "Claude",
+      "slug": "claude/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.569.0",
+      "newVersion": "1.1062.0",
+      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.1062.0/Claude-b81bcd21a6bc90aa5b302a81dea7a6161dd03413.zip"
+    },
+    {
+      "date": "2026-04-08T14:39:50Z",
+      "appName": "Teleport Suite",
+      "slug": "teleport-suite/darwin",
+      "platform": "darwin",
+      "oldVersion": "18.7.3",
+      "newVersion": "18.7.4",
+      "installerUrl": "https://cdn.teleport.dev/teleport-18.7.4.pkg"
+    },
+    {
+      "date": "2026-04-08T14:39:50Z",
+      "appName": "Connect Fonts",
+      "slug": "connect-fonts/darwin",
+      "platform": "darwin",
+      "oldVersion": "28.0.4",
+      "newVersion": "28.1.0",
+      "installerUrl": "https://bin.extensis.com/ConnectFonts-M-28-1-0.dmg"
     }
   ]
 }
