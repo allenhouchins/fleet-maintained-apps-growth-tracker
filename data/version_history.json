@@ -2,24 +2,6 @@
   "changes": [
     {
       "date": "2026-01-30T22:07:44Z",
-      "appName": "Dropbox",
-      "slug": "dropbox/darwin",
-      "platform": "darwin",
-      "oldVersion": "240.4.8493",
-      "newVersion": "240.4.8609",
-      "installerUrl": "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20240.4.8609.arm64.dmg"
-    },
-    {
-      "date": "2026-01-30T22:07:44Z",
-      "appName": "Postman",
-      "slug": "postman/darwin",
-      "platform": "darwin",
-      "oldVersion": "11.82.5",
-      "newVersion": "11.82.6",
-      "installerUrl": "https://dl.pstmn.io/download/version/11.82.6/osx_arm64"
-    },
-    {
-      "date": "2026-01-30T22:07:44Z",
       "appName": "Windsurf",
       "slug": "windsurf/darwin",
       "platform": "darwin",
@@ -8999,6 +8981,24 @@
       "oldVersion": "1.569.0",
       "newVersion": "1.1348.0",
       "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.1348.0/Claude-efa3fd592db60fbce44a6c3bc4b85e018d17be31.msix"
+    },
+    {
+      "date": "2026-04-09T22:18:26Z",
+      "appName": "Ollama",
+      "slug": "ollama/windows",
+      "platform": "windows",
+      "oldVersion": "0.20.2",
+      "newVersion": "0.20.4",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.20.4/OllamaSetup.exe"
+    },
+    {
+      "date": "2026-04-09T22:18:26Z",
+      "appName": "Ollama",
+      "slug": "ollama/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.20.3",
+      "newVersion": "0.20.4",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.20.4/Ollama-darwin.zip"
     }
   ]
 }
