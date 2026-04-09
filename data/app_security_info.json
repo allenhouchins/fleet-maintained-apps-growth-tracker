@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-09T23:39:56Z",
+  "lastUpdated": "2026-04-09T23:42:55Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -573,14 +573,14 @@
     {
       "slug": "cursor/windows",
       "name": "Cursor",
-      "version": "3.0.12",
-      "sha256": "1ba2e7f58c959d60fba8200f3dc0eee735d70596511baece4d88e97959a1af58",
+      "version": "3.0.13",
+      "sha256": "e28116738637ee473fc345f4e1e29a3e31f12784019d1b0157ff49ce77e16708",
       "publisher": "CN=\"Anysphere, Inc.\", O=\"Anysphere, Inc.\", L=San Francisco, S=California, C=US",
-      "issuer": "CN=Microsoft ID Verified CS EOC CA 01, O=Microsoft Corporation, C=US",
-      "serialNumber": "330007D7BB50E79045564C62B300000007D7BB",
-      "thumbprint": "E767DEA8B03FD9F9ED49702443F7430BBFF344B4",
-      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:A500-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-04-08T17:38:14Z"
+      "issuer": "CN=Microsoft ID Verified CS AOC CA 01, O=Microsoft Corporation, C=US",
+      "serialNumber": "330008F4CBEDE6CB998EFBA9D600000008F4CB",
+      "thumbprint": "E7D38498730176C9E87078A9E70ED877EB31C5A4",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7D00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-04-09T23:40:02Z"
     },
     {
       "slug": "cyberduck/darwin",
@@ -714,14 +714,14 @@
     {
       "slug": "docker/windows",
       "name": "Docker Desktop",
-      "version": "4.67.0",
-      "sha256": "9e334622293ddf15eb7ecb935b829370899a93c92a53385a2e4c7749e5d57c77",
+      "version": "4.68.0",
+      "sha256": "09dd3d5de2646e9fe8d578a59785d0da2f1a2dabafa1d35e1ff2e05c6e332c84",
       "publisher": "CN=Docker Inc, O=Docker Inc, L=Palo Alto, S=California, C=US, SERIALNUMBER=4817464, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0E0BB520661A510F1392903FA3862C9D",
       "thumbprint": "CACB4F507942C182C47EF14E7B9050CBDE780EB9",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-04-08T17:38:26Z"
+      "lastUpdated": "2026-04-09T23:40:17Z"
     },
     {
       "slug": "drawio/darwin",
@@ -926,14 +926,14 @@
     {
       "slug": "google-chrome/windows",
       "name": "Google Chrome",
-      "version": "146.0.7680.178",
-      "sha256": "db9c5e0519c83fbecfe5e5ac1fac0fe44c15b3943c9611d52759fe474436d31e",
+      "version": "147.0.7727.56",
+      "sha256": "aa67a6f9efc652e7517c8d163fe3548ffecd78c8f9e2723d6195eca486a5daa1",
       "publisher": "CN=Google LLC, O=Google LLC, L=Mountain View, S=California, C=US, SERIALNUMBER=3582691, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0B50CF246B263EFD85A729315158F3FF",
       "thumbprint": "607A3EDAA64933E94422FC8F0C80388E0590986C",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-04-01T19:49:42Z"
+      "lastUpdated": "2026-04-09T23:40:27Z"
     },
     {
       "slug": "google-credential-provider-for-windows/windows",
@@ -1133,14 +1133,14 @@
     {
       "slug": "lastpass/windows",
       "name": "LastPass",
-      "version": "5.4.1.1429",
-      "sha256": "f51e40b412c75cd1afc35e1d4199a3dc8af1feacdcdeb508c108b415a1884411",
+      "version": "5.4.2.1452",
+      "sha256": "e2b0262eb9ccb3abece46582fdbf03935fd2b1c3fa3ae0e3103d6d728c1497a6",
       "publisher": "E=domain@lastpass.com, CN=LastPass US LP, O=LastPass US LP, L=Boston, S=Massachusetts, C=US, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=6402861, OID.2.5.4.15=Private Organization",
       "issuer": "CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
       "serialNumber": "2FD755BC6451DEAEF6A1D4C6",
       "thumbprint": "9C20368399D45AAFD9DDEB9F1E55F31FB90892BB",
       "timestamp": "CN=Globalsign R45 TSA for CodeSign 202510, O=GlobalSign nv-sa, C=BE",
-      "lastUpdated": "2026-03-17T15:43:05Z"
+      "lastUpdated": "2026-04-09T23:40:34Z"
     },
     {
       "slug": "lens/darwin",
@@ -1370,14 +1370,14 @@
     {
       "slug": "notion/windows",
       "name": "Notion",
-      "version": "7.9.1",
-      "sha256": "b8e51ebf1f07bb1ba6595a33d5a23ec37af160551e89dc8cdf3f322da057b4ed",
+      "version": "7.10.0",
+      "sha256": "5d2802a05e6802afaeb670216c80408e36c989aa65239263a4d538a018e6d5d4",
       "publisher": "CN=\"Notion Labs, Inc.\", O=\"Notion Labs, Inc.\", L=San Francisco, S=California, C=US",
       "issuer": "CN=Microsoft ID Verified CS EOC CA 02, O=Microsoft Corporation, C=US",
-      "serialNumber": "330007BBD863FFA2C16927EB8300000007BBD8",
-      "thumbprint": "4BB65EF889FD4DA9F8A80F2A23A62C3AA314BE0B",
-      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7D00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-04-01T19:49:45Z"
+      "serialNumber": "330007E3ECC0443FB5E35E2CC100000007E3EC",
+      "thumbprint": "E8E9AF38AAA9A7C0B1BF7711F14EE67419F3200F",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:A500-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-04-09T23:40:38Z"
     },
     {
       "slug": "nova/darwin",
@@ -1403,14 +1403,14 @@
     {
       "slug": "obs/windows",
       "name": "OBS",
-      "version": "32.1.0",
-      "sha256": "0e3d75eb83951d3fe100cdc7a97fd870f16781bbdcf544fbe101d9b89f9c6231",
+      "version": "32.1.1",
+      "sha256": "9b4b643a44154ed8bee5229a4e0c85f6826f76b7e38b1d0d1d7e8b349dfa38e1",
       "publisher": "CN=\"OBS Project, LLC\", O=\"OBS Project, LLC\", L=Sheridan, S=Wyoming, C=US, SERIALNUMBER=2023-001272252, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Wyoming, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert G5 CS ECC SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "03FD473B8C7F439D691978FFB12B7F67",
       "thumbprint": "178EB178111547B52B3821A278653EEDC3E5B1F7",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-03-21T19:36:15Z"
+      "lastUpdated": "2026-04-09T23:40:44Z"
     },
     {
       "slug": "obsidian/darwin",
@@ -1537,14 +1537,14 @@
     {
       "slug": "postman/windows",
       "name": "Postman",
-      "version": "12.5.2",
-      "sha256": "69c2e120d271dba4d1a7f773dd11ca8289ea40b5f2a5a41297e1eb4d95ce1e7c",
+      "version": "12.5.5",
+      "sha256": "e16b07771712a2b2bd24a8b101ef7417c991c7649448a1ceca921fe3679153e4",
       "publisher": "CN=\"Postman, Inc.\", O=\"Postman, Inc.\", L=San Francisco, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "06BF9F29E018BD749B536C714E98D6A5",
       "thumbprint": "8F1DDDA5C241B2F3424D4211991BBE1CD22226CC",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-04-07T15:55:53Z"
+      "lastUpdated": "2026-04-09T23:40:50Z"
     },
     {
       "slug": "pritunl/darwin",
@@ -1913,14 +1913,14 @@
     {
       "slug": "telegram/windows",
       "name": "Telegram",
-      "version": "6.7.1",
-      "sha256": "a7e332acd6ccf19ebe3ba988fac07b24acbc097887170bea57c3811b388ecec5",
+      "version": "6.7.5",
+      "sha256": "e4ab08b640ca75cff0ad367e7ed0ce1c8bc5b936a895d0f206cee2f0dee386e7",
       "publisher": "E=info@telegram.org, CN=Telegram FZ-LLC, O=Telegram FZ-LLC, L=Dubai, S=Dubai, C=AE, OID.1.3.6.1.4.1.311.60.2.1.2=Dubai, OID.1.3.6.1.4.1.311.60.2.1.3=AE, SERIALNUMBER=94349, OID.2.5.4.15=Private Organization",
       "issuer": "CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
       "serialNumber": "5D1F24A60AE1A27511D88625",
       "thumbprint": "C8CB11E5352916312801039AEDC5F9E8C78E48D8",
       "timestamp": "CN=Sectigo Public Time Stamping Signer R36, O=Sectigo Limited, S=West Yorkshire, C=GB",
-      "lastUpdated": "2026-04-07T03:21:54Z"
+      "lastUpdated": "2026-04-09T23:42:41Z"
     },
     {
       "slug": "teleport-connect/darwin",
@@ -2111,14 +2111,14 @@
     {
       "slug": "webex/windows",
       "name": "Webex",
-      "version": "46.3.1.34493",
-      "sha256": "d6b2c1983922016ec264c3337c06b6ed274a13c975e52cd67f2a30eae02ffdce",
+      "version": "46.4.0.34620",
+      "sha256": "f709b420d5a3a99b46aa61d5ea36d18b3bb850217bf1b9b225c16d75faff2336",
       "publisher": "CN=\"Cisco Systems, Inc.\", O=\"Cisco Systems, Inc.\", L=San Jose, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "04A2F9C9B36609C6B0B37E674B9BA1C6",
       "thumbprint": "EBEFAF2586DEA8382016BF964776769FA8335AC8",
       "timestamp": "CN=Globalsign TSA for Advanced - G4, O=GlobalSign nv-sa, C=BE",
-      "lastUpdated": "2026-03-26T16:12:44Z"
+      "lastUpdated": "2026-04-09T23:42:55Z"
     },
     {
       "slug": "webstorm/darwin",
