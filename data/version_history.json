@@ -2,78 +2,6 @@
   "changes": [
     {
       "date": "2026-02-04T19:19:34Z",
-      "appName": "Microsoft Word",
-      "slug": "microsoft-word/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.105.2",
-      "newVersion": "16.105.3",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.105.26020123_Installer.pkg"
-    },
-    {
-      "date": "2026-02-04T19:19:34Z",
-      "appName": "Google Chrome",
-      "slug": "google-chrome/darwin",
-      "platform": "darwin",
-      "oldVersion": "144.0.7559.110",
-      "newVersion": "144.0.7559.133",
-      "installerUrl": "https://dl.google.com/dl/chrome/mac/universal/stable/gcem/GoogleChrome.pkg"
-    },
-    {
-      "date": "2026-02-04T19:19:34Z",
-      "appName": "Splashtop Business",
-      "slug": "splashtop-business/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.8.0.4",
-      "newVersion": "3.8.0.5",
-      "installerUrl": "https://d17kmd0va0f0mp.cloudfront.net/macclient/STB/Splashtop_Business_Mac_INSTALLER_v3.8.0.5.dmg"
-    },
-    {
-      "date": "2026-02-04T19:19:34Z",
-      "appName": "Discord",
-      "slug": "discord/windows",
-      "platform": "windows",
-      "oldVersion": "1.0.9222",
-      "newVersion": "1.0.9223",
-      "installerUrl": "https://stable.dl2.discordapp.net/distro/app/stable/win/x64/1.0.9223/DiscordSetup.exe"
-    },
-    {
-      "date": "2026-02-04T19:19:34Z",
-      "appName": "Notion",
-      "slug": "notion/darwin",
-      "platform": "darwin",
-      "oldVersion": "7.2.1",
-      "newVersion": "7.3.1",
-      "installerUrl": "https://desktop-release.notion-static.com/Notion-7.3.1-arm64.dmg"
-    },
-    {
-      "date": "2026-02-04T19:19:34Z",
-      "appName": "Slack",
-      "slug": "slack/windows",
-      "platform": "windows",
-      "oldVersion": "4.47.69",
-      "newVersion": "4.48.86",
-      "installerUrl": "https://downloads.slack-edge.com/desktop-releases/windows/x64/4.48.86/slack-standalone-4.48.86.0.msi"
-    },
-    {
-      "date": "2026-02-04T19:19:34Z",
-      "appName": "Notion",
-      "slug": "notion/windows",
-      "platform": "windows",
-      "oldVersion": "7.2.1",
-      "newVersion": "7.3.1",
-      "installerUrl": "https://desktop-release.notion-static.com/Notion%20Setup%207.3.1.exe"
-    },
-    {
-      "date": "2026-02-04T19:19:34Z",
-      "appName": "Clockify Desktop",
-      "slug": "clockify/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.12.0",
-      "newVersion": "2.12.1",
-      "installerUrl": "https://clockify.me/downloads/ClockifyDesktop.zip"
-    },
-    {
-      "date": "2026-02-04T19:19:34Z",
       "appName": "GitKraken",
       "slug": "gitkraken/darwin",
       "platform": "darwin",
@@ -8999,6 +8927,78 @@
       "oldVersion": "3.0.13",
       "newVersion": "3.0.16",
       "installerUrl": "https://downloads.cursor.com/production/475871d112608994deb2e3065dfb7c6b0baa0c54/win32/x64/system-setup/CursorSetup-x64-3.0.16.exe"
+    },
+    {
+      "date": "2026-04-11T15:13:50Z",
+      "appName": "Microsoft Edge",
+      "slug": "microsoft-edge/windows",
+      "platform": "windows",
+      "oldVersion": "146.0.3856.97",
+      "newVersion": "147.0.3912.60",
+      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/5428dd4e-4363-469a-a2f5-e7d44afa501f/MicrosoftEdgeEnterpriseX64.msi"
+    },
+    {
+      "date": "2026-04-11T15:13:50Z",
+      "appName": "ChatGPT Desktop",
+      "slug": "chatgpt/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.2026.049",
+      "newVersion": "1.2026.051",
+      "installerUrl": "https://persistent.oaistatic.com/sidekick/public/ChatGPT_Desktop_public_1.2026.051_1775834670.dmg"
+    },
+    {
+      "date": "2026-04-11T15:13:50Z",
+      "appName": "Microsoft Edge",
+      "slug": "microsoft-edge/darwin",
+      "platform": "darwin",
+      "oldVersion": "146.0.3856.97",
+      "newVersion": "147.0.3912.60",
+      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/b3b6a577-fc74-4bfe-b7a9-ee3a54e24a9a/MicrosoftEdge-147.0.3912.60.dmg"
+    },
+    {
+      "date": "2026-04-11T15:13:50Z",
+      "appName": "Zotero",
+      "slug": "zotero/darwin",
+      "platform": "darwin",
+      "oldVersion": "8.0.5",
+      "newVersion": "9.0",
+      "installerUrl": "https://download.zotero.org/client/release/9.0/Zotero-9.0.dmg"
+    },
+    {
+      "date": "2026-04-11T15:13:50Z",
+      "appName": "Adobe Acrobat Reader",
+      "slug": "adobe-acrobat-reader/windows",
+      "platform": "windows",
+      "oldVersion": "26.001.21367",
+      "newVersion": "26.001.21411",
+      "installerUrl": "https://ardownload3.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2600121411/AcroRdrDCx642600121411_MUI.exe"
+    },
+    {
+      "date": "2026-04-11T15:13:50Z",
+      "appName": "Zotero",
+      "slug": "zotero/windows",
+      "platform": "windows",
+      "oldVersion": "8.0.4",
+      "newVersion": "9.0",
+      "installerUrl": "https://download.zotero.org/client/release/9.0/Zotero-9.0_x64_setup.exe"
+    },
+    {
+      "date": "2026-04-11T15:13:50Z",
+      "appName": "ChatGPT Atlas",
+      "slug": "chatgpt-atlas/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.2026.63.11",
+      "newVersion": "1.2026.84.2",
+      "installerUrl": "https://persistent.oaistatic.com/atlas/public/ChatGPT_Atlas_Desktop_public_1.2026.84.2_20260408151909000.dmg"
+    },
+    {
+      "date": "2026-04-11T15:13:50Z",
+      "appName": "ExpressVPN",
+      "slug": "expressvpn/darwin",
+      "platform": "darwin",
+      "oldVersion": "14.0.0.12844",
+      "newVersion": "14.0.1.12858",
+      "installerUrl": "https://www.expressvpn.works/clients/mac/expressvpn-macos-universal-14.0.1.12858_release.zip"
     }
   ]
 }
