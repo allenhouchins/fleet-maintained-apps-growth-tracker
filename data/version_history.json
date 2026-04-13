@@ -1,24 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-02-04T19:19:34Z",
-      "appName": "Loom",
-      "slug": "loom/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.330.1",
-      "newVersion": "0.331.1",
-      "installerUrl": "https://packages.loom.com/desktop-packages/Loom-0.331.1-arm64.dmg"
-    },
-    {
-      "date": "2026-02-04T19:19:34Z",
-      "appName": "Dropbox",
-      "slug": "dropbox/darwin",
-      "platform": "darwin",
-      "oldVersion": "240.4.8609",
-      "newVersion": "241.4.4795",
-      "installerUrl": "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20241.4.4795.arm64.dmg"
-    },
-    {
       "date": "2026-02-04T22:08:43Z",
       "appName": "Yubico Authenticator",
       "slug": "yubico-authenticator/windows",
@@ -8999,6 +8981,24 @@
       "oldVersion": "2.12.8",
       "newVersion": "2.12.9",
       "installerUrl": "https://github.com/exelban/stats/releases/download/v2.12.9/Stats.dmg"
+    },
+    {
+      "date": "2026-04-13T14:39:09Z",
+      "appName": "Docker Desktop",
+      "slug": "docker-desktop/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.68.0",
+      "newVersion": "4.69.0",
+      "installerUrl": "https://desktop.docker.com/mac/main/arm64/224084/Docker.dmg"
+    },
+    {
+      "date": "2026-04-13T14:39:09Z",
+      "appName": "Ollama",
+      "slug": "ollama/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.20.5",
+      "newVersion": "0.20.6",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.20.6/Ollama-darwin.zip"
     }
   ]
 }
