@@ -1,42 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-02-04T22:08:43Z",
-      "appName": "Yubico Authenticator",
-      "slug": "yubico-authenticator/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "7.3.1",
-      "installerUrl": "https://github.com/Yubico/yubioath-flutter/releases/download/7.3.1/yubico-authenticator-7.3.1-win64.msi"
-    },
-    {
-      "date": "2026-02-06T15:18:35Z",
-      "appName": "Mozilla Firefox",
-      "slug": "firefox/windows",
-      "platform": "windows",
-      "oldVersion": "147.0.2",
-      "newVersion": "147.0.3",
-      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/147.0.3/win64/en-US/Firefox%20Setup%20147.0.3.exe"
-    },
-    {
-      "date": "2026-02-06T15:18:35Z",
-      "appName": "TeamViewer",
-      "slug": "teamviewer/darwin",
-      "platform": "darwin",
-      "oldVersion": "15.74.3",
-      "newVersion": "15.74.5",
-      "installerUrl": "https://dl.teamviewer.com/download/version_15x/update/15.74.5/TeamViewer.pkg"
-    },
-    {
-      "date": "2026-02-06T15:18:35Z",
-      "appName": "DataGrip",
-      "slug": "datagrip/darwin",
-      "platform": "darwin",
-      "oldVersion": "2025.3.4",
-      "newVersion": "2025.3.5",
-      "installerUrl": "https://download.jetbrains.com/datagrip/datagrip-2025.3.5-aarch64.dmg"
-    },
-    {
       "date": "2026-02-06T15:18:35Z",
       "appName": "ChatGPT Atlas",
       "slug": "chatgpt-atlas/darwin",
@@ -8999,6 +8963,42 @@
       "oldVersion": "0.20.5",
       "newVersion": "0.20.6",
       "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.20.6/Ollama-darwin.zip"
+    },
+    {
+      "date": "2026-04-14T14:40:06Z",
+      "appName": "WhatsApp",
+      "slug": "whatsapp/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.15.12",
+      "newVersion": "26.15.16",
+      "installerUrl": "https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release\u0026src=whatsapp_downloads_page"
+    },
+    {
+      "date": "2026-04-14T14:40:06Z",
+      "appName": "Windows App",
+      "slug": "windows-app/darwin",
+      "platform": "darwin",
+      "oldVersion": "11.3.4",
+      "newVersion": "11.3.5",
+      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Windows_App_11.3.5_installer.pkg"
+    },
+    {
+      "date": "2026-04-14T14:40:06Z",
+      "appName": "Loom",
+      "slug": "loom/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.342.1",
+      "newVersion": "0.343.0",
+      "installerUrl": "https://packages.loom.com/desktop-packages/Loom-0.343.0-arm64.dmg"
+    },
+    {
+      "date": "2026-04-14T14:40:06Z",
+      "appName": "Signal",
+      "slug": "signal/darwin",
+      "platform": "darwin",
+      "oldVersion": "8.6.0",
+      "newVersion": "8.6.1",
+      "installerUrl": "https://updates.signal.org/desktop/signal-desktop-mac-arm64-8.6.1.zip"
     }
   ]
 }
