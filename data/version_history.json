@@ -1,42 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-02-06T15:18:35Z",
-      "appName": "Webex",
-      "slug": "webex/windows",
-      "platform": "windows",
-      "oldVersion": "46.1.0.33913",
-      "newVersion": "46.2.0.34137",
-      "installerUrl": "https://binaries.webex.com/WebexDesktop-Win-64-Gold/20260204160606/Webex.msi"
-    },
-    {
-      "date": "2026-02-06T15:18:35Z",
-      "appName": "Twingate",
-      "slug": "twingate/darwin",
-      "platform": "darwin",
-      "oldVersion": "2025.363.22082",
-      "newVersion": "2026.29.22575",
-      "installerUrl": "https://binaries.twingate.com/client/macos/2026.29.22575/Twingate.pkg"
-    },
-    {
-      "date": "2026-02-06T15:18:35Z",
-      "appName": "ChatGPT Desktop",
-      "slug": "chatgpt/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.2026.014",
-      "newVersion": "1.2026.027",
-      "installerUrl": "https://persistent.oaistatic.com/sidekick/public/ChatGPT_Desktop_public_1.2026.027_1769832365.dmg"
-    },
-    {
-      "date": "2026-02-06T15:18:35Z",
-      "appName": "Brave",
-      "slug": "brave-browser/windows",
-      "platform": "windows",
-      "oldVersion": "144.1.86.146",
-      "newVersion": "144.1.86.148",
-      "installerUrl": "https://github.com/brave/brave-browser/releases/download/v1.86.148/BraveBrowserStandaloneSilentSetup.exe"
-    },
-    {
       "date": "2026-02-08T15:08:41Z",
       "appName": "Webex",
       "slug": "webex/darwin",
@@ -8999,6 +8963,42 @@
       "oldVersion": "16.107.4",
       "newVersion": "16.108",
       "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.108.26041219_Installer.pkg"
+    },
+    {
+      "date": "2026-04-14T21:21:32Z",
+      "appName": "Dropbox",
+      "slug": "dropbox/darwin",
+      "platform": "darwin",
+      "oldVersion": "246.4.3513",
+      "newVersion": "248.4.3576",
+      "installerUrl": "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20248.4.3576.arm64.dmg"
+    },
+    {
+      "date": "2026-04-14T21:21:32Z",
+      "appName": "Connect Fonts",
+      "slug": "connect-fonts/darwin",
+      "platform": "darwin",
+      "oldVersion": "28.1.0",
+      "newVersion": "28.1.1",
+      "installerUrl": "https://bin.extensis.com/ConnectFonts-M-28-1-1.dmg"
+    },
+    {
+      "date": "2026-04-14T21:21:32Z",
+      "appName": "iMazing Profile Editor",
+      "slug": "imazing-profile-editor/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "2.2.0",
+      "installerUrl": "https://downloads.imazing.com/mac/iMazing-Profile-Editor/2.2.0.392103/iMazing_Profile_Editor_2.2.0.392103.dmg"
+    },
+    {
+      "date": "2026-04-14T21:21:32Z",
+      "appName": "Claude",
+      "slug": "claude/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.2278.0",
+      "newVersion": "1.2581.0",
+      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.2581.0/Claude-f103981571883c6ef0522635cf396089a3ae0e0f.zip"
     }
   ]
 }
