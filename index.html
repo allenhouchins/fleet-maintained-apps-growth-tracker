@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: April 14, 2026 at 3:24 PM CDT</p>
+            Last updated: April 14, 2026 at 3:33 PM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: April 14, 2026 at 3:24 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: April 14, 2026 at 3:33 PM CDT</p>
             </div>
         </div>
     </div>
@@ -4764,6 +4764,21 @@
                 }
               },
               {
+                "name": "iMazing Profile Editor",
+                "slug": "imazing-profile-editor/darwin",
+                "platform": "darwin",
+                "description": "iMazing Profile Editor is an app for creating and editing Apple configuration profiles.",
+                "version": "2.2.0",
+                "installerUrl": "https://downloads.imazing.com/mac/iMazing-Profile-Editor/2.2.0.392103/iMazing_Profile_Editor_2.2.0.392103.dmg",
+                "securityInfo": {
+                  "sha256": "d72df217b944391f3ac18426fde2b599c6f1537e7a131ad3bcfb551e85bbe02e",
+                  "cdhash": "a140d1d0e1fab7bbcf8ba39f3090e5dfe670d817",
+                  "signingId": "J5PR93692Y:com.DigiDNA.iMazingProfileEditorMac",
+                  "teamId": "J5PR93692Y",
+                  "lastUpdated": "2026-04-09T23:24:45Z"
+                }
+              },
+              {
                 "name": "iMazing",
                 "slug": "imazing/darwin",
                 "platform": "darwin",
@@ -7730,7 +7745,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `April 14, 2026 at 3:24 PM CDT`;
+                let timestampText = 'Last updated: ' + `April 14, 2026 at 3:33 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
