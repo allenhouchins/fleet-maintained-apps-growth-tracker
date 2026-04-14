@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: April 14, 2026 at 3:24 PM CDT</p>
+            Last updated: April 14, 2026 at 3:32 PM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: April 14, 2026 at 3:24 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: April 14, 2026 at 3:32 PM CDT</p>
             </div>
         </div>
     </div>
@@ -4764,12 +4764,27 @@
                 }
               },
               {
+                "name": "iMazing Profile Editor",
+                "slug": "imazing-profile-editor/darwin",
+                "platform": "darwin",
+                "description": "iMazing Profile Editor is an app for creating and editing Apple configuration profiles.",
+                "version": "2.2.0",
+                "installerUrl": "https://downloads.imazing.com/mac/iMazing-Profile-Editor/2.2.0.392103/iMazing_Profile_Editor_2.2.0.392103.dmg"
+              },
+              {
                 "name": "iMazing",
                 "slug": "imazing/darwin",
                 "platform": "darwin",
                 "description": "iMazing is an iPhone management application.",
                 "version": "3.5.2",
-                "installerUrl": "https://downloads.imazing.com/mac/iMazing/3.5.2.24017/iMazing_3.5.2.24017.dmg"
+                "installerUrl": "https://downloads.imazing.com/mac/iMazing/3.5.2.24017/iMazing_3.5.2.24017.dmg",
+                "securityInfo": {
+                  "sha256": "bbff5288ab698cffc22c599884cd8a5276e7663bc1d4b53ce3a89a9d8de539c0",
+                  "cdhash": "d93967a0f5851a564cc7c6272de1ca3a900ad5cc",
+                  "signingId": "J5PR93692Y:com.DigiDNA.iMazing3Mac",
+                  "teamId": "J5PR93692Y",
+                  "lastUpdated": "2026-04-14T20:26:31Z"
+                }
               },
               {
                 "name": "Inkscape",
@@ -5293,11 +5308,11 @@
                 "version": "16.108",
                 "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.108.26041219_Installer.pkg",
                 "securityInfo": {
-                  "sha256": "d9cb9734a998e93306a45049c7156a3165f3a7ede1fbc55184a5a5496ba75e0b",
-                  "cdhash": "f7f6b7f6291acea544b481644f4270f91b574f09",
+                  "sha256": "0c3a9646f1535cb1265defbfb386b483419d4a271096e8feb55f38082a6732e7",
+                  "cdhash": "c172a10dc540b0ddb1935131c04ec2f4bde30ee2",
                   "signingId": "UBF8T346G9:com.microsoft.Outlook",
                   "teamId": "UBF8T346G9",
-                  "lastUpdated": "2026-04-09T23:28:26Z"
+                  "lastUpdated": "2026-04-14T20:28:08Z"
                 }
               },
               {
@@ -6643,10 +6658,11 @@
                 "version": "9.27.1",
                 "installerUrl": "https://electron-dl.todoist.com/mac/Todoist-darwin-9.27.1-arm64-latest.dmg",
                 "securityInfo": {
-                  "sha256": "3ffe32828002aefaa201df477fd297e4c76d440ef418715ae05ca69f4ef2a46e",
+                  "sha256": "12dbb07e6f6667c6d65fc1e72c713db09d091c97be5fe3c6eebcc94cb97faf56",
+                  "cdhash": "b5e6710251a584907913e94ed713cbf542b63c68",
                   "signingId": "S3DD273774:com.todoist.mac.Todoist",
                   "teamId": "S3DD273774",
-                  "lastUpdated": "2026-02-16T01:48:45Z"
+                  "lastUpdated": "2026-04-14T20:32:04Z"
                 }
               },
               {
@@ -7730,7 +7746,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `April 14, 2026 at 3:24 PM CDT`;
+                let timestampText = 'Last updated: ' + `April 14, 2026 at 3:32 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
