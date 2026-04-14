@@ -5,13 +5,20 @@
     <link>https://fmalibrary.com</link>
     <description>Track version updates and new app additions for Fleet-maintained apps. Get notified when apps are updated with new versions or when new apps are added to the library.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Apr 2026 17:29:42 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2026 18:30:50 +0000</lastBuildDate>
     <atom:link href="https://fmalibrary.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://fmalibrary.com/cloud-city.png</url>
       <title>Fleet-maintained apps</title>
       <link>https://fmalibrary.com</link>
     </image>
+    <item>
+      <title>New App: Thunderbird 149.0.2 (Windows)</title>
+      <link>https://fmalibrary.com</link>
+      <description>Thunderbird has been added to the Fleet-maintained apps library with version 149.0.2 on April 14, 2026. &lt;a href=&quot;https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/149.0.2/win64/en-US/Thunderbird%20Setup%20149.0.2.exe&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Tue, 14 Apr 2026 18:30:50 +0000</pubDate>
+      <guid isPermaLink="false">thunderbird/windows--149.0.2</guid>
+    </item>
     <item>
       <title>Surfshark 4.26.2 → 4.27.0 (Mac)</title>
       <link>https://fmalibrary.com</link>
@@ -3373,18 +3380,18 @@
       <guid isPermaLink="false">raycast/darwin-1.104.9-1.104.10</guid>
     </item>
     <item>
-      <title>Google Drive 121.0.1.0 → 122.0.1.0 (Windows)</title>
+      <title>Opera 128.0.5807.66 → 128.0.5807.77 (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>Google Drive has been updated from version 121.0.1.0 to 122.0.1.0 on March 15, 2026. &lt;a href=&quot;https://dl.google.com/release2/drive-file-stream/mebnisjkqbeors7btjbik5rm6y_122.0.1.0/setup.exe&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Opera has been updated from version 128.0.5807.66 to 128.0.5807.77 on March 15, 2026. &lt;a href=&quot;https://get.geo.opera.com/pub/opera/desktop/128.0.5807.77/mac/Opera_128.0.5807.77_Setup.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Sun, 15 Mar 2026 17:10:27 +0000</pubDate>
-      <guid isPermaLink="false">google-drive/windows-121.0.1.0-122.0.1.0</guid>
+      <guid isPermaLink="false">opera/darwin-128.0.5807.66-128.0.5807.77</guid>
     </item>
     <item>
-      <title>Arc 1.138.1 → 1.138.2 (Mac)</title>
+      <title>Lens 2026.2.111511 → 2026.3.130712 (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>Arc has been updated from version 1.138.1 to 1.138.2 on March 15, 2026. &lt;a href=&quot;https://releases.arc.net/release/Arc-1.138.2-77089.zip&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Lens has been updated from version 2026.2.111511 to 2026.3.130712 on March 15, 2026. &lt;a href=&quot;https://api.k8slens.dev/binaries/Lens-2026.3.130712-latest-arm64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Sun, 15 Mar 2026 17:10:27 +0000</pubDate>
-      <guid isPermaLink="false">arc/darwin-1.138.1-1.138.2</guid>
+      <guid isPermaLink="false">lens/darwin-2026.2.111511-2026.3.130712</guid>
     </item>
     <item>
       <title>Adobe DNG Converter 18.2 → 18.2.2 (Mac)</title>
@@ -3422,20 +3429,6 @@
       <guid isPermaLink="false">calibre/darwin-9.4.0-9.5.0</guid>
     </item>
     <item>
-      <title>Ollama 0.17.7 → 0.18.0 (Windows)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Ollama has been updated from version 0.17.7 to 0.18.0 on March 15, 2026. &lt;a href=&quot;https://github.com/ollama/ollama/releases/download/v0.18.0/OllamaSetup.exe&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Sun, 15 Mar 2026 17:10:27 +0000</pubDate>
-      <guid isPermaLink="false">ollama/windows-0.17.7-0.18.0</guid>
-    </item>
-    <item>
-      <title>LuLu 4.2.1 → 4.3.0 (Mac)</title>
-      <link>https://fmalibrary.com</link>
-      <description>LuLu has been updated from version 4.2.1 to 4.3.0 on March 15, 2026. &lt;a href=&quot;https://github.com/objective-see/LuLu/releases/download/v4.3.0/LuLu_4.3.0.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Sun, 15 Mar 2026 17:10:27 +0000</pubDate>
-      <guid isPermaLink="false">lulu/darwin-4.2.1-4.3.0</guid>
-    </item>
-    <item>
       <title>CotEditor 6.2.4 → 6.2.5 (Mac)</title>
       <link>https://fmalibrary.com</link>
       <description>CotEditor has been updated from version 6.2.4 to 6.2.5 on March 15, 2026. &lt;a href=&quot;https://github.com/coteditor/CotEditor/releases/download/6.2.5/CotEditor_6.2.5.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
@@ -3443,11 +3436,32 @@
       <guid isPermaLink="false">coteditor/darwin-6.2.4-6.2.5</guid>
     </item>
     <item>
-      <title>Claude 1.1.6041 → 1.1.6679 (Windows)</title>
+      <title>Google Drive 121.0.1.0 → 122.0.1.0 (Windows)</title>
       <link>https://fmalibrary.com</link>
-      <description>Claude has been updated from version 1.1.6041 to 1.1.6679 on March 15, 2026. &lt;a href=&quot;https://downloads.claude.ai/releases/win32/x64/1.1.6679/Claude-f8f4ffd55f41cdea65b2c8adb312eb985aef916f.exe&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Google Drive has been updated from version 121.0.1.0 to 122.0.1.0 on March 15, 2026. &lt;a href=&quot;https://dl.google.com/release2/drive-file-stream/mebnisjkqbeors7btjbik5rm6y_122.0.1.0/setup.exe&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Sun, 15 Mar 2026 17:10:27 +0000</pubDate>
-      <guid isPermaLink="false">claude/windows-1.1.6041-1.1.6679</guid>
+      <guid isPermaLink="false">google-drive/windows-121.0.1.0-122.0.1.0</guid>
+    </item>
+    <item>
+      <title>Ghostty 1.3.0 → 1.3.1 (Mac)</title>
+      <link>https://fmalibrary.com</link>
+      <description>Ghostty has been updated from version 1.3.0 to 1.3.1 on March 15, 2026. &lt;a href=&quot;https://release.files.ghostty.org/1.3.1/Ghostty.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Sun, 15 Mar 2026 17:10:27 +0000</pubDate>
+      <guid isPermaLink="false">ghostty/darwin-1.3.0-1.3.1</guid>
+    </item>
+    <item>
+      <title>Ollama 0.17.7 → 0.18.0 (Mac)</title>
+      <link>https://fmalibrary.com</link>
+      <description>Ollama has been updated from version 0.17.7 to 0.18.0 on March 15, 2026. &lt;a href=&quot;https://github.com/ollama/ollama/releases/download/v0.18.0/Ollama-darwin.zip&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Sun, 15 Mar 2026 17:10:27 +0000</pubDate>
+      <guid isPermaLink="false">ollama/darwin-0.17.7-0.18.0</guid>
+    </item>
+    <item>
+      <title>Ollama 0.17.7 → 0.18.0 (Windows)</title>
+      <link>https://fmalibrary.com</link>
+      <description>Ollama has been updated from version 0.17.7 to 0.18.0 on March 15, 2026. &lt;a href=&quot;https://github.com/ollama/ollama/releases/download/v0.18.0/OllamaSetup.exe&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Sun, 15 Mar 2026 17:10:27 +0000</pubDate>
+      <guid isPermaLink="false">ollama/windows-0.17.7-0.18.0</guid>
     </item>
     <item>
       <title>Postman 12.1.3 → 12.1.4 (Mac)</title>
@@ -3471,18 +3485,18 @@
       <guid isPermaLink="false">google-chrome/darwin-146.0.7680.72-146.0.7680.80</guid>
     </item>
     <item>
+      <title>Signal 8.2.0 → 8.2.1 (Mac)</title>
+      <link>https://fmalibrary.com</link>
+      <description>Signal has been updated from version 8.2.0 to 8.2.1 on March 15, 2026. &lt;a href=&quot;https://updates.signal.org/desktop/signal-desktop-mac-arm64-8.2.1.zip&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Sun, 15 Mar 2026 17:10:27 +0000</pubDate>
+      <guid isPermaLink="false">signal/darwin-8.2.0-8.2.1</guid>
+    </item>
+    <item>
       <title>Google Chrome 145.0.7632.160 → 146.0.7680.80 (Windows)</title>
       <link>https://fmalibrary.com</link>
       <description>Google Chrome has been updated from version 145.0.7632.160 to 146.0.7680.80 on March 15, 2026. &lt;a href=&quot;https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Sun, 15 Mar 2026 17:10:27 +0000</pubDate>
       <guid isPermaLink="false">google-chrome/windows-145.0.7632.160-146.0.7680.80</guid>
-    </item>
-    <item>
-      <title>Lens 2026.2.111511 → 2026.3.130712 (Mac)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Lens has been updated from version 2026.2.111511 to 2026.3.130712 on March 15, 2026. &lt;a href=&quot;https://api.k8slens.dev/binaries/Lens-2026.3.130712-latest-arm64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Sun, 15 Mar 2026 17:10:27 +0000</pubDate>
-      <guid isPermaLink="false">lens/darwin-2026.2.111511-2026.3.130712</guid>
     </item>
     <item>
       <title>Brave 146.1.88.127 → 146.1.88.132 (Mac)</title>
@@ -3497,20 +3511,6 @@
       <description>Stats has been updated from version 2.12.3 to 2.12.4 on March 15, 2026. &lt;a href=&quot;https://github.com/exelban/stats/releases/download/v2.12.4/Stats.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Sun, 15 Mar 2026 17:10:27 +0000</pubDate>
       <guid isPermaLink="false">stats/darwin-2.12.3-2.12.4</guid>
-    </item>
-    <item>
-      <title>Signal 8.2.0 → 8.2.1 (Mac)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Signal has been updated from version 8.2.0 to 8.2.1 on March 15, 2026. &lt;a href=&quot;https://updates.signal.org/desktop/signal-desktop-mac-arm64-8.2.1.zip&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Sun, 15 Mar 2026 17:10:27 +0000</pubDate>
-      <guid isPermaLink="false">signal/darwin-8.2.0-8.2.1</guid>
-    </item>
-    <item>
-      <title>Ghostty 1.3.0 → 1.3.1 (Mac)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Ghostty has been updated from version 1.3.0 to 1.3.1 on March 15, 2026. &lt;a href=&quot;https://release.files.ghostty.org/1.3.1/Ghostty.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Sun, 15 Mar 2026 17:10:27 +0000</pubDate>
-      <guid isPermaLink="false">ghostty/darwin-1.3.0-1.3.1</guid>
     </item>
   </channel>
 </rss>
