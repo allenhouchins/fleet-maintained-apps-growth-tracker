@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-14T15:44:16Z",
+  "lastUpdated": "2026-04-14T15:45:51Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -311,14 +311,14 @@
     {
       "slug": "blender/windows",
       "name": "Blender",
-      "version": "5.1.0",
-      "sha256": "f9d2e744702354e7d182861fb924bc128ea85d8cf0577b91dcb4d92f09cdc287",
+      "version": "5.1.1",
+      "sha256": "b952b58cafe44050ae016bda94c91de0968b028b1c7082a824d7087985619642",
       "publisher": "CN=Blender Foundation, O=Blender Foundation, L=Amsterdam, S=Noord-Holland, C=NL",
-      "issuer": "CN=Microsoft ID Verified CS AOC CA 01, O=Microsoft Corporation, C=US",
-      "serialNumber": "330008789860BC84CF2608D9B2000000087898",
-      "thumbprint": "4279B89B91833156B70C17772563F73774C40915",
+      "issuer": "CN=Microsoft ID Verified CS EOC CA 04, O=Microsoft Corporation, C=US",
+      "serialNumber": "3300004568AED81E08FFDA8320000000004568",
+      "thumbprint": "D1F79A082EAF03FDD5CEFC28836791832B079BEF",
       "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7B1A-05E0-D947, OU=Microsoft Ireland Operations Limited, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-03-18T16:52:44Z"
+      "lastUpdated": "2026-04-14T15:44:50Z"
     },
     {
       "slug": "box-drive/darwin",
@@ -681,14 +681,14 @@
     {
       "slug": "discord/windows",
       "name": "Discord",
-      "version": "1.0.9232",
-      "sha256": "177a3ed4342d5cbee6e153d3bda6c0f6ef6f70ae01e5dc19eb6ae8688b76ef22",
+      "version": "1.0.9233",
+      "sha256": "eaba7863d5a7ed017a865f991267583e0768914aba99590874da0980832e45a3",
       "publisher": "CN=Discord Inc., O=Discord Inc., L=San Francisco, S=California, C=US, SERIALNUMBER=5128862, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0DE9CF2E718364A0062E0D83093E34D7",
       "thumbprint": "6C7552617E892DFCA5CEB96FA2870F4F1904820E",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-04-08T14:40:54Z"
+      "lastUpdated": "2026-04-14T15:44:58Z"
     },
     {
       "slug": "displaylink/darwin",
@@ -1164,6 +1164,18 @@
       "lastUpdated": "2026-03-21T19:20:16Z"
     },
     {
+      "slug": "linear/windows",
+      "name": "Linear",
+      "version": "1.28.13",
+      "sha256": "6279df1ceab3d4c66ff9185b8a3bb121137d52e0abae80db5a0b9708d0eb2352",
+      "publisher": "CN=\"LINEAR ORBIT, INC.\", O=\"LINEAR ORBIT, INC.\", STREET=\"440 N BARRANCA AVE #4242\", L=Covina, S=California, C=US, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=7241468, OID.2.5.4.15=Private Organization",
+      "issuer": "CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
+      "serialNumber": "0D02998B5972AA8295B228FB",
+      "thumbprint": "61E45F522BDF44D09A6735402BB2C326DF1FC1F2",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-04-14T15:45:05Z"
+    },
+    {
       "slug": "little-snitch/darwin",
       "name": "Little Snitch",
       "version": "6.3.3",
@@ -1448,14 +1460,14 @@
     {
       "slug": "ollama/windows",
       "name": "Ollama",
-      "version": "0.20.5",
-      "sha256": "730b47a24eb66a08bc2eee450ecf06efa136d6c729d148c9282cce9fbc082a42",
+      "version": "0.20.7",
+      "sha256": "eb67a3a654034cccd27bfb90639890a1071b857876a8393128f72e6edb671b0f",
       "publisher": "CN=Ollama Inc., O=Ollama Inc., L=Toronto, S=Ontario, C=CA, SERIALNUMBER=2713355, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Ontario, OID.1.3.6.1.4.1.311.60.2.1.3=CA",
       "issuer": "CN=DigiCert G5 CS ECC SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "09EC0C6B3ACF2FCBBD0BB7489E389999",
       "thumbprint": "716CD3BC8C02361431A18F56F98C72DE88066103",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-04-10T21:27:07Z"
+      "lastUpdated": "2026-04-14T15:45:42Z"
     },
     {
       "slug": "omnigraffle/darwin",
@@ -1537,14 +1549,14 @@
     {
       "slug": "postman/windows",
       "name": "Postman",
-      "version": "12.5.6",
-      "sha256": "6718b6ff4add0966dd9fb4aee4affa8e978ccdf53e973f4d2c499a30a1ce004b",
+      "version": "12.6.1",
+      "sha256": "05b9354590ca81664d120230a716f70d02f0eeb260086ab4a0679aa40df58879",
       "publisher": "CN=\"Postman, Inc.\", O=\"Postman, Inc.\", L=San Francisco, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "06BF9F29E018BD749B536C714E98D6A5",
       "thumbprint": "8F1DDDA5C241B2F3424D4211991BBE1CD22226CC",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-04-10T15:22:54Z"
+      "lastUpdated": "2026-04-14T15:45:47Z"
     },
     {
       "slug": "pritunl/darwin",
@@ -1776,14 +1788,14 @@
     {
       "slug": "spotify/windows",
       "name": "Spotify",
-      "version": "1.2.86.502.g8cd7fb22",
-      "sha256": "46e61f81688bab5d7a59f01225522d1d50511293b0e63f225d97fdd61a9dd323",
+      "version": "1.2.87.414.g4e7a1155",
+      "sha256": "c2e640ed2dbeefcf2f6266659a6a1a03f4110f05e4499b91951755febc9929d6",
       "publisher": "CN=Spotify AB, O=Spotify AB, L=Stockholm, C=SE, SERIALNUMBER=556703-7485, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=SE",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0B37A6915B00FA0D38102665EB7F2A8A",
       "thumbprint": "0DCC8F6DF315A86E6E40A76EFF4F78D2B16E7F02",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-03-29T03:24:32Z"
+      "lastUpdated": "2026-04-14T15:45:51Z"
     },
     {
       "slug": "stats/darwin",
