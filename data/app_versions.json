@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-14T14:40:06Z",
+  "lastUpdated": "2026-04-14T15:31:18Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -68,15 +68,15 @@
       "slug": "adobe-acrobat-reader/darwin",
       "name": "Adobe Acrobat Reader",
       "platform": "darwin",
-      "version": "26.001.21411",
-      "installerUrl": "https://ardownload2.adobe.com/pub/adobe/reader/mac/AcrobatDC/2600121411/AcroRdrDC_2600121411_MUI.dmg"
+      "version": "26.001.21431",
+      "installerUrl": "https://ardownload2.adobe.com/pub/adobe/reader/mac/AcrobatDC/2600121431/AcroRdrDC_2600121431_MUI.dmg"
     },
     {
       "slug": "adobe-acrobat-reader/windows",
       "name": "Adobe Acrobat Reader",
       "platform": "windows",
-      "version": "26.001.21411",
-      "installerUrl": "https://ardownload3.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2600121411/AcroRdrDCx642600121411_MUI.exe"
+      "version": "26.001.21431",
+      "installerUrl": "https://ardownload3.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2600121431/AcroRdrDCx642600121431_MUI.exe"
     },
     {
       "slug": "adobe-creative-cloud/darwin",
@@ -139,7 +139,7 @@
       "name": "Android Studio",
       "platform": "darwin",
       "version": "2025.3",
-      "installerUrl": "https://edgedl.me.gvt1.com/android/studio/install/2025.3.3.6/android-studio-panda3-mac_arm.dmg"
+      "installerUrl": "https://edgedl.me.gvt1.com/android/studio/install/2025.3.3.7/android-studio-panda3-patch1-mac_arm.dmg"
     },
     {
       "slug": "anka-virtualization/darwin",
@@ -271,15 +271,15 @@
       "slug": "blender/darwin",
       "name": "Blender",
       "platform": "darwin",
-      "version": "5.1.0",
-      "installerUrl": "https://download.blender.org/release/Blender5.1/blender-5.1.0-macos-arm64.dmg"
+      "version": "5.1.1",
+      "installerUrl": "https://download.blender.org/release/Blender5.1/blender-5.1.1-macos-arm64.dmg"
     },
     {
       "slug": "blender/windows",
       "name": "Blender",
       "platform": "windows",
-      "version": "5.1.0",
-      "installerUrl": "https://download.blender.org/release/Blender5.1/blender-5.1.0-windows-x64.msi"
+      "version": "5.1.1",
+      "installerUrl": "https://download.blender.org/release/Blender5.1/blender-5.1.1-windows-x64.msi"
     },
     {
       "slug": "box-drive/darwin",
@@ -390,8 +390,8 @@
       "slug": "claude/darwin",
       "name": "Claude",
       "platform": "darwin",
-      "version": "1.1617.0",
-      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.1617.0/Claude-8d63450d9eae59f17102abdee7bf0759472f30a2.zip"
+      "version": "1.2278.0",
+      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.2278.0/Claude-e5213fcf70d7f16280888f281833a19f6ee13156.zip"
     },
     {
       "slug": "claude/windows",
@@ -488,8 +488,8 @@
       "slug": "cursor/darwin",
       "name": "Cursor",
       "platform": "darwin",
-      "version": "3.0.16",
-      "installerUrl": "https://downloads.cursor.com/production/475871d112608994deb2e3065dfb7c6b0baa0c54/darwin/arm64/Cursor-darwin-arm64.zip"
+      "version": "3.1.10",
+      "installerUrl": "https://downloads.cursor.com/production/dacbe9b31599a253763e4910eb6ab3870465332c/darwin/arm64/Cursor-darwin-arm64.zip"
     },
     {
       "slug": "cursor/windows",
@@ -586,15 +586,15 @@
       "slug": "discord/darwin",
       "name": "Discord",
       "platform": "darwin",
-      "version": "0.0.384",
-      "installerUrl": "https://dl.discordapp.net/apps/osx/0.0.384/Discord.dmg"
+      "version": "0.0.385",
+      "installerUrl": "https://dl.discordapp.net/apps/osx/0.0.385/Discord.dmg"
     },
     {
       "slug": "discord/windows",
       "name": "Discord",
       "platform": "windows",
-      "version": "1.0.9232",
-      "installerUrl": "https://stable.dl2.discordapp.net/distro/app/stable/win/x64/1.0.9232/DiscordSetup.exe"
+      "version": "1.0.9233",
+      "installerUrl": "https://stable.dl2.discordapp.net/distro/app/stable/win/x64/1.0.9233/DiscordSetup.exe"
     },
     {
       "slug": "displaylink/darwin",
@@ -656,8 +656,8 @@
       "slug": "elgato-stream-deck/darwin",
       "name": "Elgato Stream Deck",
       "platform": "darwin",
-      "version": "7.4.0",
-      "installerUrl": "https://edge.elgato.com/egc/macos/sd/Stream_Deck_7.4.0.22712.pkg"
+      "version": "7.4.1",
+      "installerUrl": "https://edge.elgato.com/egc/macos/sd/Stream_Deck_7.4.1.22720.pkg"
     },
     {
       "slug": "evernote/darwin",
@@ -1003,6 +1003,13 @@
       "installerUrl": "https://download.todesktop.com/200315glz2793v6/Linear%201.28.13%20-%20Build%20260318pho1bttxr-arm64-mac.zip"
     },
     {
+      "slug": "linear/windows",
+      "name": "Linear",
+      "platform": "windows",
+      "version": "1.28.13",
+      "installerUrl": "https://download.todesktop.com/200315glz2793v6/Linear%20Setup%201.28.13%20-%20Build%20260318pho1bttxr-x64.exe"
+    },
+    {
       "slug": "little-snitch/darwin",
       "name": "Little Snitch",
       "platform": "darwin",
@@ -1153,7 +1160,7 @@
       "slug": "nordpass/darwin",
       "name": "NordPass",
       "platform": "darwin",
-      "version": "7.5.7",
+      "version": "7.6.14",
       "installerUrl": "https://downloads.npass.app/mac/arm/NordPass.dmg"
     },
     {
@@ -1237,15 +1244,15 @@
       "slug": "ollama/darwin",
       "name": "Ollama",
       "platform": "darwin",
-      "version": "0.20.6",
-      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.20.6/Ollama-darwin.zip"
+      "version": "0.20.7",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.20.7/Ollama-darwin.zip"
     },
     {
       "slug": "ollama/windows",
       "name": "Ollama",
       "platform": "windows",
-      "version": "0.20.5",
-      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.20.5/OllamaSetup.exe"
+      "version": "0.20.7",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.20.7/OllamaSetup.exe"
     },
     {
       "slug": "omnigraffle/darwin",
@@ -1321,15 +1328,15 @@
       "slug": "postman/darwin",
       "name": "Postman",
       "platform": "darwin",
-      "version": "12.5.6",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.5.6/osx_arm64"
+      "version": "12.6.1",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.6.1/osx_arm64"
     },
     {
       "slug": "postman/windows",
       "name": "Postman",
       "platform": "windows",
-      "version": "12.5.6",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.5.6/windows_64"
+      "version": "12.6.1",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.6.1/windows_64"
     },
     {
       "slug": "pritunl/darwin",
@@ -1552,7 +1559,7 @@
       "slug": "spotify/windows",
       "name": "Spotify",
       "platform": "windows",
-      "version": "1.2.86.502.g8cd7fb22",
+      "version": "1.2.87.414.g4e7a1155",
       "installerUrl": "https://download.scdn.co/SpotifyFullSetupX64.exe"
     },
     {
@@ -1580,8 +1587,8 @@
       "slug": "sublime-merge/darwin",
       "name": "Sublime Merge",
       "platform": "darwin",
-      "version": "Build 2123",
-      "installerUrl": "https://download.sublimetext.com/sublime_merge_build_2123_mac.zip"
+      "version": "Build 2125",
+      "installerUrl": "https://download.sublimetext.com/sublime_merge_build_2125_mac.zip"
     },
     {
       "slug": "sublime-text/darwin",
@@ -1825,8 +1832,8 @@
       "slug": "warp/darwin",
       "name": "Warp",
       "platform": "darwin",
-      "version": "0.2026.04.08.08.36.02",
-      "installerUrl": "https://releases.warp.dev/stable/v0.2026.04.08.08.36.stable_02/Warp.dmg"
+      "version": "0.2026.04.08.08.36.05",
+      "installerUrl": "https://releases.warp.dev/stable/v0.2026.04.08.08.36.stable_05/Warp.dmg"
     },
     {
       "slug": "webex/darwin",
