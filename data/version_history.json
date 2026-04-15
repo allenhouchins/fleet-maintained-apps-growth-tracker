@@ -1,141 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-02-08T15:08:41Z",
-      "appName": "Telegram",
-      "slug": "telegram/darwin",
-      "platform": "darwin",
-      "oldVersion": "12.4.1",
-      "newVersion": "12.4.2",
-      "installerUrl": "https://osx.telegram.org/updates/Telegram-12.4.2.278481.app.zip"
-    },
-    {
-      "date": "2026-02-08T15:08:41Z",
-      "appName": "Microsoft Edge",
-      "slug": "microsoft-edge/windows",
-      "platform": "windows",
-      "oldVersion": "144.0.3719.104",
-      "newVersion": "144.0.3719.115",
-      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/f2a31dc0-dabd-4e4e-9618-0b31a3fc5d53/MicrosoftEdgeEnterpriseX64.msi"
-    },
-    {
-      "date": "2026-02-08T15:08:41Z",
-      "appName": "Spotify",
-      "slug": "spotify/windows",
-      "platform": "windows",
-      "oldVersion": "1.2.82.428.g0ac8be2b",
-      "newVersion": "1.2.83.453.g1fae877b",
-      "installerUrl": "https://upgrade.scdn.co/upgrade/client/win32-x86_64/spotify_installer-1.2.83.453.g1fae877b-483.exe"
-    },
-    {
-      "date": "2026-02-08T15:08:41Z",
-      "appName": "Claude",
-      "slug": "claude/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.1.2156",
-      "newVersion": "1.1.2321",
-      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.1.2321/Claude-495628f91fbfa276fabd6da835ba226fdf5ec68e.zip"
-    },
-    {
-      "date": "2026-02-10T18:28:29Z",
-      "appName": "Logi Options+",
-      "slug": "logi-options+/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.98.824948",
-      "newVersion": "1.99.834046",
-      "installerUrl": "https://download01.logi.com/web/ftp/pub/techsupport/optionsplus/logioptionsplus_installer.zip"
-    },
-    {
-      "date": "2026-02-10T18:28:29Z",
-      "appName": "GoLand",
-      "slug": "goland/darwin",
-      "platform": "darwin",
-      "oldVersion": "2025.3.1.1",
-      "newVersion": "2025.3.2",
-      "installerUrl": "https://download.jetbrains.com/go/goland-2025.3.2-aarch64.dmg"
-    },
-    {
-      "date": "2026-02-10T18:28:29Z",
-      "appName": "WhatsApp",
-      "slug": "whatsapp/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.5.18",
-      "newVersion": "26.6.23",
-      "installerUrl": "https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release\u0026src=whatsapp_downloads_page"
-    },
-    {
-      "date": "2026-02-10T18:28:29Z",
-      "appName": "Discord",
-      "slug": "discord/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.0.375",
-      "newVersion": "0.0.376",
-      "installerUrl": "https://dl.discordapp.net/apps/osx/0.0.376/Discord.dmg"
-    },
-    {
-      "date": "2026-02-10T18:28:29Z",
-      "appName": "Teleport Suite",
-      "slug": "teleport-suite/darwin",
-      "platform": "darwin",
-      "oldVersion": "18.6.6",
-      "newVersion": "18.6.7",
-      "installerUrl": "https://cdn.teleport.dev/teleport-18.6.7.pkg"
-    },
-    {
-      "date": "2026-02-10T18:28:29Z",
-      "appName": "Zoom",
-      "slug": "zoom/darwin",
-      "platform": "darwin",
-      "oldVersion": "6.7.2.72191",
-      "newVersion": "6.7.5.75246",
-      "installerUrl": "https://zoom.us/client/latest/ZoomInstallerIT.pkg"
-    },
-    {
-      "date": "2026-02-10T18:28:29Z",
-      "appName": "Notion",
-      "slug": "notion/darwin",
-      "platform": "darwin",
-      "oldVersion": "7.3.1",
-      "newVersion": "7.4.0",
-      "installerUrl": "https://desktop-release.notion-static.com/Notion-7.4.0-arm64.dmg"
-    },
-    {
-      "date": "2026-02-10T18:28:29Z",
-      "appName": "Notion",
-      "slug": "notion/windows",
-      "platform": "windows",
-      "oldVersion": "7.3.4",
-      "newVersion": "7.4.0",
-      "installerUrl": "https://desktop-release.notion-static.com/Notion%20Setup%207.4.0.exe"
-    },
-    {
-      "date": "2026-02-10T18:28:29Z",
-      "appName": "Docker Desktop",
-      "slug": "docker-desktop/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.59.1",
-      "newVersion": "4.60.0",
-      "installerUrl": "https://desktop.docker.com/mac/main/arm64/218231/Docker.dmg"
-    },
-    {
-      "date": "2026-02-10T18:28:29Z",
-      "appName": "Teleport Connect",
-      "slug": "teleport-connect/darwin",
-      "platform": "darwin",
-      "oldVersion": "18.6.6",
-      "newVersion": "18.6.7",
-      "installerUrl": "https://cdn.teleport.dev/Teleport%20Connect-18.6.7.dmg"
-    },
-    {
-      "date": "2026-02-10T18:28:29Z",
-      "appName": "Claude",
-      "slug": "claude/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.1.2321",
-      "newVersion": "1.1.2512",
-      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.1.2512/Claude-4d27082e7ea0c9cd9a59e334497a9ca397025cc5.zip"
-    },
-    {
       "date": "2026-02-10T18:28:29Z",
       "appName": "Proton Mail",
       "slug": "proton-mail/darwin",
@@ -8999,6 +8864,141 @@
       "oldVersion": "16.107.4",
       "newVersion": "16.108",
       "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.108.26041219_Updater.pkg"
+    },
+    {
+      "date": "2026-04-15T14:38:46Z",
+      "appName": "Loom",
+      "slug": "loom/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.343.0",
+      "newVersion": "0.344.0",
+      "installerUrl": "https://packages.loom.com/desktop-packages/Loom-0.344.0-arm64.dmg"
+    },
+    {
+      "date": "2026-04-15T14:38:46Z",
+      "appName": "Postman",
+      "slug": "postman/darwin",
+      "platform": "darwin",
+      "oldVersion": "12.6.1",
+      "newVersion": "12.6.3",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.6.3/osx_arm64"
+    },
+    {
+      "date": "2026-04-15T14:38:46Z",
+      "appName": "Cursor",
+      "slug": "cursor/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.1.10",
+      "newVersion": "3.1.14",
+      "installerUrl": "https://downloads.cursor.com/production/d8673fb56ba50fda33ad78382000b519bb8acb7e/darwin/arm64/Cursor-darwin-arm64.zip"
+    },
+    {
+      "date": "2026-04-15T14:38:46Z",
+      "appName": "Sketch",
+      "slug": "sketch/darwin",
+      "platform": "darwin",
+      "oldVersion": "2026.1",
+      "newVersion": "2026.1.1",
+      "installerUrl": "https://download.sketch.com/sketch-2026.1.1-228340.zip"
+    },
+    {
+      "date": "2026-04-15T14:38:46Z",
+      "appName": "Microsoft Visual Studio Code",
+      "slug": "visual-studio-code/windows",
+      "platform": "windows",
+      "oldVersion": "1.115.0",
+      "newVersion": "1.116.0",
+      "installerUrl": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/560a9dba96f961efea7b1612916f89e5d5d4d679/VSCodeSetup-x64-1.116.0.exe"
+    },
+    {
+      "date": "2026-04-15T14:38:46Z",
+      "appName": "WhatsApp",
+      "slug": "whatsapp/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.15.16",
+      "newVersion": "26.15.18",
+      "installerUrl": "https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release\u0026src=whatsapp_downloads_page"
+    },
+    {
+      "date": "2026-04-15T14:38:46Z",
+      "appName": "Zeplin",
+      "slug": "zeplin/darwin",
+      "platform": "darwin",
+      "oldVersion": "10.31.0",
+      "newVersion": "10.32.0",
+      "installerUrl": "https://pkg.zeplin.io/macos/latest/zeplin-darwin-universal.zip"
+    },
+    {
+      "date": "2026-04-15T14:38:46Z",
+      "appName": "GitHub Desktop",
+      "slug": "github/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.5.7",
+      "newVersion": "3.5.8",
+      "installerUrl": "https://desktop.githubusercontent.com/releases/3.5.8-b1d863ab/GitHubDesktop-arm64.zip"
+    },
+    {
+      "date": "2026-04-15T14:38:46Z",
+      "appName": "Claude",
+      "slug": "claude/windows",
+      "platform": "windows",
+      "oldVersion": "1.1617.0",
+      "newVersion": "1.2581.0",
+      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.2581.0/Claude-f103981571883c6ef0522635cf396089a3ae0e0f.msix"
+    },
+    {
+      "date": "2026-04-15T14:38:46Z",
+      "appName": "GitHub Desktop",
+      "slug": "github-desktop/windows",
+      "platform": "windows",
+      "oldVersion": "3.5.7",
+      "newVersion": "3.5.8",
+      "installerUrl": "https://desktop.githubusercontent.com/releases/3.5.8-b1d863ab/GitHubDesktopSetup-x64.msi"
+    },
+    {
+      "date": "2026-04-15T14:38:46Z",
+      "appName": "Telegram",
+      "slug": "telegram/windows",
+      "platform": "windows",
+      "oldVersion": "6.7.5",
+      "newVersion": "6.7.6",
+      "installerUrl": "https://td.telegram.org/tx64/tsetup-x64.6.7.6.exe"
+    },
+    {
+      "date": "2026-04-15T14:38:46Z",
+      "appName": "Notion",
+      "slug": "notion/darwin",
+      "platform": "darwin",
+      "oldVersion": "7.10.0",
+      "newVersion": "7.11.0",
+      "installerUrl": "https://desktop-release.notion-static.com/Notion-7.11.0-arm64.dmg"
+    },
+    {
+      "date": "2026-04-15T14:38:46Z",
+      "appName": "Cursor",
+      "slug": "cursor/windows",
+      "platform": "windows",
+      "oldVersion": "3.0.16",
+      "newVersion": "3.1.14",
+      "installerUrl": "https://downloads.cursor.com/production/d8673fb56ba50fda33ad78382000b519bb8acb7e/win32/x64/system-setup/CursorSetup-x64-3.1.14.exe"
+    },
+    {
+      "date": "2026-04-15T14:38:46Z",
+      "appName": "Postman",
+      "slug": "postman/windows",
+      "platform": "windows",
+      "oldVersion": "12.6.1",
+      "newVersion": "12.6.3",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.6.3/windows_64"
+    },
+    {
+      "date": "2026-04-15T14:38:46Z",
+      "appName": "Microsoft Visual Studio Code",
+      "slug": "visual-studio-code/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.115.0",
+      "newVersion": "1.116.0",
+      "installerUrl": "https://update.code.visualstudio.com/1.116.0/darwin-arm64/stable"
     }
   ]
 }
