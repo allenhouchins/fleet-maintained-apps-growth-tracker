@@ -2,24 +2,6 @@
   "changes": [
     {
       "date": "2026-02-11T04:48:44Z",
-      "appName": "ClickUp",
-      "slug": "clickup/windows",
-      "platform": "windows",
-      "oldVersion": "3.5.163",
-      "newVersion": "3.5.176",
-      "installerUrl": "https://download.todesktop.com/221003ra4tebclw/ClickUp-3.5.176-build-260210al7vspjfr-x64.msi"
-    },
-    {
-      "date": "2026-02-11T04:48:44Z",
-      "appName": "ClickUp",
-      "slug": "clickup/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.5.163",
-      "newVersion": "3.5.176",
-      "installerUrl": "https://download.todesktop.com/221003ra4tebclw/ClickUp%203.5.176%20-%20Build%20260210al7vspjfr-arm64.dmg"
-    },
-    {
-      "date": "2026-02-11T04:48:44Z",
       "appName": "Teleport Suite",
       "slug": "teleport-suite/darwin",
       "platform": "darwin",
@@ -8999,6 +8981,24 @@
       "oldVersion": "7.3.2",
       "newVersion": "7.3.3",
       "installerUrl": "https://github.com/Yubico/yubioath-flutter/releases/download/7.3.3/yubico-authenticator-7.3.3-win64.msi"
+    },
+    {
+      "date": "2026-04-16T15:38:00Z",
+      "appName": "Keka",
+      "slug": "keka/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.6.2",
+      "newVersion": "1.6.3",
+      "installerUrl": "https://github.com/aonez/Keka/releases/download/v1.6.3/Keka-1.6.3.dmg"
+    },
+    {
+      "date": "2026-04-16T15:38:00Z",
+      "appName": "Egnyte",
+      "slug": "egnyte/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.15.0",
+      "newVersion": "1.16.0",
+      "installerUrl": "https://egnyte-cdn.egnyte.com/desktopapp/mac/en-us/1.16.0/Egnyte_1.16.0_2332.dmg"
     }
   ]
 }
