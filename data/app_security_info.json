@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-16T14:58:39Z",
+  "lastUpdated": "2026-04-16T14:59:11Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -573,14 +573,14 @@
     {
       "slug": "cursor/windows",
       "name": "Cursor",
-      "version": "3.1.14",
-      "sha256": "ad341c2685daa9f28e8b5668b560f3d369b3533e1118388bf2d93824731786f5",
+      "version": "3.1.15",
+      "sha256": "d667e13c7e538e11b23569071f2a47b271494038f9ae0be6c424a30c318bc73b",
       "publisher": "CN=\"Anysphere, Inc.\", O=\"Anysphere, Inc.\", L=San Francisco, S=California, C=US",
-      "issuer": "CN=Microsoft ID Verified CS AOC CA 04, O=Microsoft Corporation, C=US",
-      "serialNumber": "3300001424C5591C8011687AC0000000001424",
-      "thumbprint": "625DD7261BB41E63EFFB5C6218BCB261A0BC6DA7",
-      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7800-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-04-15T14:39:52Z"
+      "issuer": "CN=Microsoft ID Verified CS EOC CA 03, O=Microsoft Corporation, C=US",
+      "serialNumber": "33000053A2484DABD08E468B950000000053A2",
+      "thumbprint": "8134FF68982200B78CBC0A3DA2CB7352DF8BA1EB",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7D00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-04-16T14:58:45Z"
     },
     {
       "slug": "cyberduck/darwin",
@@ -926,14 +926,14 @@
     {
       "slug": "google-chrome/windows",
       "name": "Google Chrome",
-      "version": "147.0.7727.56",
-      "sha256": "aa67a6f9efc652e7517c8d163fe3548ffecd78c8f9e2723d6195eca486a5daa1",
+      "version": "147.0.7727.102",
+      "sha256": "2066cc13e3b579f6afc2ddeafd9a17fe5d4e5e34e8e04f8e01c3a0eebcf468e7",
       "publisher": "CN=Google LLC, O=Google LLC, L=Mountain View, S=California, C=US, SERIALNUMBER=3582691, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0B50CF246B263EFD85A729315158F3FF",
       "thumbprint": "607A3EDAA64933E94422FC8F0C80388E0590986C",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-04-09T23:40:27Z"
+      "lastUpdated": "2026-04-16T14:58:59Z"
     },
     {
       "slug": "google-credential-provider-for-windows/windows",
@@ -1401,14 +1401,14 @@
     {
       "slug": "notion/windows",
       "name": "Notion",
-      "version": "7.10.0",
-      "sha256": "5d2802a05e6802afaeb670216c80408e36c989aa65239263a4d538a018e6d5d4",
+      "version": "7.11.0",
+      "sha256": "61c472524b4735a293791659807e3dc5d5efa5d4893d2e541ac33fc0c903bdf4",
       "publisher": "CN=\"Notion Labs, Inc.\", O=\"Notion Labs, Inc.\", L=San Francisco, S=California, C=US",
-      "issuer": "CN=Microsoft ID Verified CS EOC CA 02, O=Microsoft Corporation, C=US",
-      "serialNumber": "330007E3ECC0443FB5E35E2CC100000007E3EC",
-      "thumbprint": "E8E9AF38AAA9A7C0B1BF7711F14EE67419F3200F",
-      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:A500-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-04-09T23:40:38Z"
+      "issuer": "CN=Microsoft ID Verified CS EOC CA 04, O=Microsoft Corporation, C=US",
+      "serialNumber": "3300004D4390000A8584EA3DB3000000004D43",
+      "thumbprint": "ACF3E6F3E4A379EF5C3DA6BC6661F85CE96B87C2",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7D00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-04-16T14:59:03Z"
     },
     {
       "slug": "nova/darwin",
@@ -2227,14 +2227,14 @@
     {
       "slug": "yubico-authenticator/windows",
       "name": "Yubico Authenticator",
-      "version": "7.3.2",
-      "sha256": "72d7d953af64ceccd31617d204e219fdf82fe8edac1837e4fc0a5bdfb7c30b56",
+      "version": "7.3.3",
+      "sha256": "cce091a6e28eeb80c166e8efabae204f544018b2038913744ac57cd1e4a1eda5",
       "publisher": "CN=Yubico AB, O=Yubico AB, L=STOCKHOLM, S=Stockholms län, C=SE",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "045F7F61F015CF37B0BF393282378289",
       "thumbprint": "A1614CD84976030D49209B56162D9EFA69B73698",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-03-04T15:35:43Z"
+      "lastUpdated": "2026-04-16T14:59:11Z"
     },
     {
       "slug": "yubico-yubikey-manager/darwin",
