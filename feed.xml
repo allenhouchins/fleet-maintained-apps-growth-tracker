@@ -5,13 +5,20 @@
     <link>https://fmalibrary.com</link>
     <description>Track version updates and new app additions for Fleet-maintained apps. Get notified when apps are updated with new versions or when new apps are added to the library.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Apr 2026 14:39:50 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2026 15:35:05 +0000</lastBuildDate>
     <atom:link href="https://fmalibrary.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://fmalibrary.com/cloud-city.png</url>
       <title>Fleet-maintained apps</title>
       <link>https://fmalibrary.com</link>
     </image>
+    <item>
+      <title>WhatsApp 26.15.20 → 26.16.15 (Mac)</title>
+      <link>https://fmalibrary.com</link>
+      <description>WhatsApp has been updated from version 26.15.20 to 26.16.15 on April 20, 2026. &lt;a href=&quot;https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release&amp;amp;src=whatsapp_downloads_page&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Mon, 20 Apr 2026 15:35:05 +0000</pubDate>
+      <guid isPermaLink="false">whatsapp/darwin-26.15.20-26.16.15</guid>
+    </item>
     <item>
       <title>RapidAPI 4.5.4 → 4.5.5 (Mac)</title>
       <link>https://fmalibrary.com</link>
@@ -3275,18 +3282,18 @@
       <guid isPermaLink="false">proxyman/darwin--6.6.0</guid>
     </item>
     <item>
-      <title>1Password 8.12.5 → 8.12.6 (Windows)</title>
+      <title>Tailscale 1.94.2 → 1.96.3 (Windows)</title>
       <link>https://fmalibrary.com</link>
-      <description>1Password has been updated from version 8.12.5 to 8.12.6 on March 21, 2026. &lt;a href=&quot;https://c.1password.com/dist/1P/win8/1PasswordSetup-8.12.6.msi&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Tailscale has been updated from version 1.94.2 to 1.96.3 on March 21, 2026. &lt;a href=&quot;https://pkgs.tailscale.com/stable/tailscale-setup-1.96.3-amd64.msi&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Sat, 21 Mar 2026 19:10:29 +0000</pubDate>
-      <guid isPermaLink="false">1password/windows-8.12.5-8.12.6</guid>
+      <guid isPermaLink="false">tailscale/windows-1.94.2-1.96.3</guid>
     </item>
     <item>
-      <title>Brave 146.1.88.127 → 146.1.88.134 (Windows)</title>
+      <title>Postman 12.2.2 → 12.2.3 (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>Brave has been updated from version 146.1.88.127 to 146.1.88.134 on March 21, 2026. &lt;a href=&quot;https://github.com/brave/brave-browser/releases/download/v1.88.134/BraveBrowserStandaloneSilentSetup.exe&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Postman has been updated from version 12.2.2 to 12.2.3 on March 21, 2026. &lt;a href=&quot;https://dl.pstmn.io/download/version/12.2.3/osx_arm64&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Sat, 21 Mar 2026 19:10:29 +0000</pubDate>
-      <guid isPermaLink="false">brave-browser/windows-146.1.88.127-146.1.88.134</guid>
+      <guid isPermaLink="false">postman/darwin-12.2.2-12.2.3</guid>
     </item>
     <item>
       <title>Claude 1.1.7053 → 1.1.7714 (Windows)</title>
@@ -3408,11 +3415,11 @@
       <guid isPermaLink="false">loom/darwin-0.337.5-0.338.4</guid>
     </item>
     <item>
-      <title>Postman 12.2.2 → 12.2.3 (Mac)</title>
+      <title>Zed 0.227.1 → 0.228.0 (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>Postman has been updated from version 12.2.2 to 12.2.3 on March 21, 2026. &lt;a href=&quot;https://dl.pstmn.io/download/version/12.2.3/osx_arm64&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Zed has been updated from version 0.227.1 to 0.228.0 on March 21, 2026. &lt;a href=&quot;https://zed.dev/api/releases/stable/0.228.0/Zed-aarch64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Sat, 21 Mar 2026 19:10:29 +0000</pubDate>
-      <guid isPermaLink="false">postman/darwin-12.2.2-12.2.3</guid>
+      <guid isPermaLink="false">zed/darwin-0.227.1-0.228.0</guid>
     </item>
     <item>
       <title>Cursor 2.6.19 → 2.6.20 (Mac)</title>
@@ -3422,11 +3429,25 @@
       <guid isPermaLink="false">cursor/darwin-2.6.19-2.6.20</guid>
     </item>
     <item>
-      <title>Zed 0.227.1 → 0.228.0 (Mac)</title>
+      <title>Arc 1.138.3 → 1.139.0 (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>Zed has been updated from version 0.227.1 to 0.228.0 on March 21, 2026. &lt;a href=&quot;https://zed.dev/api/releases/stable/0.228.0/Zed-aarch64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Arc has been updated from version 1.138.3 to 1.139.0 on March 21, 2026. &lt;a href=&quot;https://releases.arc.net/release/Arc-1.139.0-77482.zip&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Sat, 21 Mar 2026 19:10:29 +0000</pubDate>
-      <guid isPermaLink="false">zed/darwin-0.227.1-0.228.0</guid>
+      <guid isPermaLink="false">arc/darwin-1.138.3-1.139.0</guid>
+    </item>
+    <item>
+      <title>1Password 8.12.5 → 8.12.6 (Windows)</title>
+      <link>https://fmalibrary.com</link>
+      <description>1Password has been updated from version 8.12.5 to 8.12.6 on March 21, 2026. &lt;a href=&quot;https://c.1password.com/dist/1P/win8/1PasswordSetup-8.12.6.msi&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Sat, 21 Mar 2026 19:10:29 +0000</pubDate>
+      <guid isPermaLink="false">1password/windows-8.12.5-8.12.6</guid>
+    </item>
+    <item>
+      <title>Brave 146.1.88.127 → 146.1.88.134 (Windows)</title>
+      <link>https://fmalibrary.com</link>
+      <description>Brave has been updated from version 146.1.88.127 to 146.1.88.134 on March 21, 2026. &lt;a href=&quot;https://github.com/brave/brave-browser/releases/download/v1.88.134/BraveBrowserStandaloneSilentSetup.exe&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Sat, 21 Mar 2026 19:10:29 +0000</pubDate>
+      <guid isPermaLink="false">brave-browser/windows-146.1.88.127-146.1.88.134</guid>
     </item>
     <item>
       <title>Warp 0.2026.03.04.08.20.03 → 0.2026.03.18.08.24.01 (Mac)</title>
@@ -3434,13 +3455,6 @@
       <description>Warp has been updated from version 0.2026.03.04.08.20.03 to 0.2026.03.18.08.24.01 on March 21, 2026. &lt;a href=&quot;https://releases.warp.dev/stable/v0.2026.03.18.08.24.stable_01/Warp.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Sat, 21 Mar 2026 19:10:29 +0000</pubDate>
       <guid isPermaLink="false">warp/darwin-0.2026.03.04.08.20.03-0.2026.03.18.08.24.01</guid>
-    </item>
-    <item>
-      <title>Arc 1.138.3 → 1.139.0 (Mac)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Arc has been updated from version 1.138.3 to 1.139.0 on March 21, 2026. &lt;a href=&quot;https://releases.arc.net/release/Arc-1.139.0-77482.zip&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Sat, 21 Mar 2026 19:10:29 +0000</pubDate>
-      <guid isPermaLink="false">arc/darwin-1.138.3-1.139.0</guid>
     </item>
     <item>
       <title>Okta Verify 9.57.3 → 9.59.0 (Mac)</title>
@@ -3497,20 +3511,6 @@
       <description>Nextcloud has been updated from version 4.0.7 to 4.0.8 on March 21, 2026. &lt;a href=&quot;https://github.com/nextcloud-releases/desktop/releases/download/v4.0.8/Nextcloud-4.0.8.pkg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Sat, 21 Mar 2026 19:10:29 +0000</pubDate>
       <guid isPermaLink="false">nextcloud/darwin-4.0.7-4.0.8</guid>
-    </item>
-    <item>
-      <title>OBS 32.0.4 → 32.1.0 (Windows)</title>
-      <link>https://fmalibrary.com</link>
-      <description>OBS has been updated from version 32.0.4 to 32.1.0 on March 21, 2026. &lt;a href=&quot;https://github.com/obsproject/obs-studio/releases/download/32.1.0/OBS-Studio-32.1.0-Windows-x64-Installer.exe&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Sat, 21 Mar 2026 19:10:29 +0000</pubDate>
-      <guid isPermaLink="false">obs/windows-32.0.4-32.1.0</guid>
-    </item>
-    <item>
-      <title>Granola 7.71.1 → 7.80.1 (Mac)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Granola has been updated from version 7.71.1 to 7.80.1 on March 21, 2026. &lt;a href=&quot;https://dr2v7l5emb758.cloudfront.net/7.80.1/Granola-7.80.1-mac-universal.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Sat, 21 Mar 2026 19:10:29 +0000</pubDate>
-      <guid isPermaLink="false">granola/darwin-7.71.1-7.80.1</guid>
     </item>
   </channel>
 </rss>
