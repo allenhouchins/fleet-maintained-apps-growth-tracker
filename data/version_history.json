@@ -2,87 +2,6 @@
   "changes": [
     {
       "date": "2026-02-13T16:19:07Z",
-      "appName": "Grammarly Desktop",
-      "slug": "grammarly-desktop/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.152.1.0",
-      "newVersion": "1.152.2.0",
-      "installerUrl": "https://download-mac.grammarly.com/versions/1.152.2.0/Grammarly.dmg"
-    },
-    {
-      "date": "2026-02-13T16:19:07Z",
-      "appName": "Arc",
-      "slug": "arc/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.133.0",
-      "newVersion": "1.134.0",
-      "installerUrl": "https://releases.arc.net/release/Arc-1.134.0-74986.zip"
-    },
-    {
-      "date": "2026-02-13T16:19:07Z",
-      "appName": "Windsurf",
-      "slug": "windsurf/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.9544.35",
-      "newVersion": "1.9552.21",
-      "installerUrl": "https://windsurf-stable.codeiumdata.com/darwin-arm64-dmg/stable/16cc024632923bc387171d59cf5638057d4c8918/Windsurf-darwin-arm64-1.9552.21.dmg"
-    },
-    {
-      "date": "2026-02-13T16:19:07Z",
-      "appName": "Google Chrome",
-      "slug": "google-chrome/darwin",
-      "platform": "darwin",
-      "oldVersion": "145.0.7632.46",
-      "newVersion": "145.0.7632.68",
-      "installerUrl": "https://dl.google.com/dl/chrome/mac/universal/stable/gcem/GoogleChrome.pkg"
-    },
-    {
-      "date": "2026-02-13T16:19:07Z",
-      "appName": "Google Chrome",
-      "slug": "google-chrome/windows",
-      "platform": "windows",
-      "oldVersion": "144.0.7559.133",
-      "newVersion": "145.0.7632.68",
-      "installerUrl": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi"
-    },
-    {
-      "date": "2026-02-13T16:19:07Z",
-      "appName": "Lens",
-      "slug": "lens/darwin",
-      "platform": "darwin",
-      "oldVersion": "2026.2.20807",
-      "newVersion": "2026.2.111511",
-      "installerUrl": "https://api.k8slens.dev/binaries/Lens-2026.2.111511-latest-arm64.dmg"
-    },
-    {
-      "date": "2026-02-13T16:19:07Z",
-      "appName": "Cursor",
-      "slug": "cursor/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.4.31",
-      "newVersion": "2.4.36",
-      "installerUrl": "https://downloads.cursor.com/production/f9919bf991f247689f9ead605b5c5a3239a2a794/darwin/arm64/Cursor-darwin-arm64.zip"
-    },
-    {
-      "date": "2026-02-13T16:19:07Z",
-      "appName": "Canva",
-      "slug": "canva/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.120.0",
-      "newVersion": "1.121.0",
-      "installerUrl": "https://desktop-release.canva.com/Canva-1.121.0-universal.dmg"
-    },
-    {
-      "date": "2026-02-13T16:19:07Z",
-      "appName": "TeamViewer",
-      "slug": "teamviewer/windows",
-      "platform": "windows",
-      "oldVersion": "15.74.5",
-      "newVersion": "15.74.6",
-      "installerUrl": "https://download.teamviewer.com/download/version_15x/TeamViewer_Setup_x64.exe"
-    },
-    {
-      "date": "2026-02-13T16:19:07Z",
       "appName": "Claude",
       "slug": "claude/darwin",
       "platform": "darwin",
@@ -8999,6 +8918,87 @@
       "oldVersion": "12.0.0",
       "newVersion": "12.0.1",
       "installerUrl": "https://api.gitkraken.dev/releases/production/darwin/arm64/12.0.1/GitKraken-v12.0.1.zip"
+    },
+    {
+      "date": "2026-04-20T13:38:57Z",
+      "appName": "GIMP",
+      "slug": "gimp/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.2.2",
+      "newVersion": "3.2.4",
+      "installerUrl": "https://download.gimp.org/gimp/v3.2/macos/gimp-3.2.4-arm64.dmg"
+    },
+    {
+      "date": "2026-04-20T13:38:57Z",
+      "appName": "GIMP",
+      "slug": "gimp/windows",
+      "platform": "windows",
+      "oldVersion": "3.2.2.0",
+      "newVersion": "3.2.4.0",
+      "installerUrl": "https://download.gimp.org/gimp/v3.2/windows/gimp-3.2.4-setup.exe"
+    },
+    {
+      "date": "2026-04-20T13:38:57Z",
+      "appName": "CotEditor",
+      "slug": "coteditor/darwin",
+      "platform": "darwin",
+      "oldVersion": "6.2.6",
+      "newVersion": "7.0.0",
+      "installerUrl": "https://github.com/coteditor/CotEditor/releases/download/7.0.0/CotEditor_7.0.0.dmg"
+    },
+    {
+      "date": "2026-04-20T13:38:57Z",
+      "appName": "Postman",
+      "slug": "postman/darwin",
+      "platform": "darwin",
+      "oldVersion": "12.6.8",
+      "newVersion": "12.7.0",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.7.0/osx_arm64"
+    },
+    {
+      "date": "2026-04-20T13:38:57Z",
+      "appName": "Postman",
+      "slug": "postman/windows",
+      "platform": "windows",
+      "oldVersion": "12.6.8",
+      "newVersion": "12.7.0",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.7.0/windows_64"
+    },
+    {
+      "date": "2026-04-20T13:38:57Z",
+      "appName": "DBeaver",
+      "slug": "dbeaver-community/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.0.2",
+      "newVersion": "26.0.3",
+      "installerUrl": "https://dbeaver.io/files/26.0.3/dbeaver-ce-26.0.3-macos-aarch64.dmg"
+    },
+    {
+      "date": "2026-04-20T13:38:57Z",
+      "appName": "Stats",
+      "slug": "stats/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.12.9",
+      "newVersion": "2.12.11",
+      "installerUrl": "https://github.com/exelban/stats/releases/download/v2.12.11/Stats.dmg"
+    },
+    {
+      "date": "2026-04-20T13:38:57Z",
+      "appName": "OrbStack",
+      "slug": "orbstack/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.0.5",
+      "newVersion": "2.1.0",
+      "installerUrl": "https://cdn-updates.orbstack.dev/arm64/OrbStack_v2.1.0_19993_arm64.dmg"
+    },
+    {
+      "date": "2026-04-20T13:38:57Z",
+      "appName": "RapidAPI",
+      "slug": "rapidapi/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.5.4",
+      "newVersion": "4.5.5",
+      "installerUrl": "https://cdn-builds.paw.cloud/paw/RapidAPI-4.5.5.zip"
     }
   ]
 }
