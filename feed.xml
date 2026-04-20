@@ -5,13 +5,20 @@
     <link>https://fmalibrary.com</link>
     <description>Track version updates and new app additions for Fleet-maintained apps. Get notified when apps are updated with new versions or when new apps are added to the library.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Apr 2026 20:19:09 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2026 21:21:08 +0000</lastBuildDate>
     <atom:link href="https://fmalibrary.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://fmalibrary.com/cloud-city.png</url>
       <title>Fleet-maintained apps</title>
       <link>https://fmalibrary.com</link>
     </image>
+    <item>
+      <title>New App: Druva inSync 7.5.7 (Windows)</title>
+      <link>https://fmalibrary.com</link>
+      <description>Druva inSync has been added to the Fleet-maintained apps library with version 7.5.7 on April 20, 2026. &lt;a href=&quot;https://downloads.druva.com/downloads/inSync/Windows/7.5.7/inSync7.5.7r110923.msi&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Mon, 20 Apr 2026 21:21:08 +0000</pubDate>
+      <guid isPermaLink="false">druva-insync/windows--7.5.7</guid>
+    </item>
     <item>
       <title>WhatsApp 26.15.20 → 26.16.15 (Mac)</title>
       <link>https://fmalibrary.com</link>
@@ -3282,39 +3289,11 @@
       <guid isPermaLink="false">proxyman/darwin--6.6.0</guid>
     </item>
     <item>
-      <title>Tailscale 1.94.2 → 1.96.3 (Windows)</title>
+      <title>Spotify 1.2.85.513.g45f09625 → 1.2.85.519.g549a528b (Windows)</title>
       <link>https://fmalibrary.com</link>
-      <description>Tailscale has been updated from version 1.94.2 to 1.96.3 on March 21, 2026. &lt;a href=&quot;https://pkgs.tailscale.com/stable/tailscale-setup-1.96.3-amd64.msi&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Spotify has been updated from version 1.2.85.513.g45f09625 to 1.2.85.519.g549a528b on March 21, 2026. &lt;a href=&quot;https://download.scdn.co/SpotifyFullSetupX64.exe&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Sat, 21 Mar 2026 19:10:29 +0000</pubDate>
-      <guid isPermaLink="false">tailscale/windows-1.94.2-1.96.3</guid>
-    </item>
-    <item>
-      <title>Postman 12.2.2 → 12.2.3 (Mac)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Postman has been updated from version 12.2.2 to 12.2.3 on March 21, 2026. &lt;a href=&quot;https://dl.pstmn.io/download/version/12.2.3/osx_arm64&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Sat, 21 Mar 2026 19:10:29 +0000</pubDate>
-      <guid isPermaLink="false">postman/darwin-12.2.2-12.2.3</guid>
-    </item>
-    <item>
-      <title>Claude 1.1.7053 → 1.1.7714 (Windows)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Claude has been updated from version 1.1.7053 to 1.1.7714 on March 21, 2026. &lt;a href=&quot;https://downloads.claude.ai/releases/win32/x64/1.1.7714/Claude-3bd6f69326a0abac98bb269c29140e2a543cad64.exe&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Sat, 21 Mar 2026 19:10:29 +0000</pubDate>
-      <guid isPermaLink="false">claude/windows-1.1.7053-1.1.7714</guid>
-    </item>
-    <item>
-      <title>Microsoft Teams 26032.605.4378.6183 → 26043.2109.4484.3337 (Mac)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Microsoft Teams has been updated from version 26032.605.4378.6183 to 26043.2109.4484.3337 on March 21, 2026. &lt;a href=&quot;https://statics.teams.cdn.office.net/production-osx/26043.2109.4484.3337/MicrosoftTeams.pkg&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Sat, 21 Mar 2026 19:10:29 +0000</pubDate>
-      <guid isPermaLink="false">microsoft-teams/darwin-26032.605.4378.6183-26043.2109.4484.3337</guid>
-    </item>
-    <item>
-      <title>GIMP 3.0.8.2 → 3.2.0.0 (Windows)</title>
-      <link>https://fmalibrary.com</link>
-      <description>GIMP has been updated from version 3.0.8.2 to 3.2.0.0 on March 21, 2026. &lt;a href=&quot;https://download.gimp.org/gimp/v3.2/windows/gimp-3.2.0-setup.exe&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Sat, 21 Mar 2026 19:10:29 +0000</pubDate>
-      <guid isPermaLink="false">gimp/windows-3.0.8.2-3.2.0.0</guid>
+      <guid isPermaLink="false">spotify/windows-1.2.85.513.g45f09625-1.2.85.519.g549a528b</guid>
     </item>
     <item>
       <title>Microsoft Edge 146.0.3856.62 → 146.0.3856.72 (Mac)</title>
@@ -3324,18 +3303,25 @@
       <guid isPermaLink="false">microsoft-edge/darwin-146.0.3856.62-146.0.3856.72</guid>
     </item>
     <item>
-      <title>Microsoft Visual Studio Code 1.111.0 → 1.112.0 (Mac)</title>
+      <title>Claude 1.1.7053 → 1.1.7714 (Windows)</title>
       <link>https://fmalibrary.com</link>
-      <description>Microsoft Visual Studio Code has been updated from version 1.111.0 to 1.112.0 on March 21, 2026. &lt;a href=&quot;https://update.code.visualstudio.com/1.112.0/darwin-arm64/stable&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Claude has been updated from version 1.1.7053 to 1.1.7714 on March 21, 2026. &lt;a href=&quot;https://downloads.claude.ai/releases/win32/x64/1.1.7714/Claude-3bd6f69326a0abac98bb269c29140e2a543cad64.exe&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Sat, 21 Mar 2026 19:10:29 +0000</pubDate>
-      <guid isPermaLink="false">visual-studio-code/darwin-1.111.0-1.112.0</guid>
+      <guid isPermaLink="false">claude/windows-1.1.7053-1.1.7714</guid>
     </item>
     <item>
-      <title>Claude 1.1.7203 → 1.1.7714 (Mac)</title>
+      <title>Mozilla Firefox ESR 140.7.1 → 140.8.0 (Windows)</title>
       <link>https://fmalibrary.com</link>
-      <description>Claude has been updated from version 1.1.7203 to 1.1.7714 on March 21, 2026. &lt;a href=&quot;https://downloads.claude.ai/releases/darwin/universal/1.1.7714/Claude-3bd6f69326a0abac98bb269c29140e2a543cad64.zip&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Mozilla Firefox ESR has been updated from version 140.7.1 to 140.8.0 on March 21, 2026. &lt;a href=&quot;https://download-installer.cdn.mozilla.net/pub/firefox/releases/140.8.0esr/win64/en-US/Firefox%20Setup%20140.8.0esr.exe&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Sat, 21 Mar 2026 19:10:29 +0000</pubDate>
-      <guid isPermaLink="false">claude/darwin-1.1.7203-1.1.7714</guid>
+      <guid isPermaLink="false">firefox@esr/windows-140.7.1-140.8.0</guid>
+    </item>
+    <item>
+      <title>Bruno 3.1.4 → 3.2.0 (Mac)</title>
+      <link>https://fmalibrary.com</link>
+      <description>Bruno has been updated from version 3.1.4 to 3.2.0 on March 21, 2026. &lt;a href=&quot;https://github.com/usebruno/bruno/releases/download/v3.2.0/bruno_3.2.0_arm64_mac.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Sat, 21 Mar 2026 19:10:29 +0000</pubDate>
+      <guid isPermaLink="false">bruno/darwin-3.1.4-3.2.0</guid>
     </item>
     <item>
       <title>Surfshark 4.26.1 → 4.26.2 (Mac)</title>
@@ -3415,11 +3401,11 @@
       <guid isPermaLink="false">loom/darwin-0.337.5-0.338.4</guid>
     </item>
     <item>
-      <title>Zed 0.227.1 → 0.228.0 (Mac)</title>
+      <title>Postman 12.2.2 → 12.2.3 (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>Zed has been updated from version 0.227.1 to 0.228.0 on March 21, 2026. &lt;a href=&quot;https://zed.dev/api/releases/stable/0.228.0/Zed-aarch64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Postman has been updated from version 12.2.2 to 12.2.3 on March 21, 2026. &lt;a href=&quot;https://dl.pstmn.io/download/version/12.2.3/osx_arm64&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Sat, 21 Mar 2026 19:10:29 +0000</pubDate>
-      <guid isPermaLink="false">zed/darwin-0.227.1-0.228.0</guid>
+      <guid isPermaLink="false">postman/darwin-12.2.2-12.2.3</guid>
     </item>
     <item>
       <title>Cursor 2.6.19 → 2.6.20 (Mac)</title>
@@ -3427,6 +3413,48 @@
       <description>Cursor has been updated from version 2.6.19 to 2.6.20 on March 21, 2026. &lt;a href=&quot;https://downloads.cursor.com/production/b29eb4ee5f9f6d1cb2afbc09070198d3ea6ad76f/darwin/arm64/Cursor-darwin-arm64.zip&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Sat, 21 Mar 2026 19:10:29 +0000</pubDate>
       <guid isPermaLink="false">cursor/darwin-2.6.19-2.6.20</guid>
+    </item>
+    <item>
+      <title>Brave 146.1.88.127 → 146.1.88.134 (Windows)</title>
+      <link>https://fmalibrary.com</link>
+      <description>Brave has been updated from version 146.1.88.127 to 146.1.88.134 on March 21, 2026. &lt;a href=&quot;https://github.com/brave/brave-browser/releases/download/v1.88.134/BraveBrowserStandaloneSilentSetup.exe&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Sat, 21 Mar 2026 19:10:29 +0000</pubDate>
+      <guid isPermaLink="false">brave-browser/windows-146.1.88.127-146.1.88.134</guid>
+    </item>
+    <item>
+      <title>Microsoft Teams 26032.605.4378.6183 → 26043.2109.4484.3337 (Mac)</title>
+      <link>https://fmalibrary.com</link>
+      <description>Microsoft Teams has been updated from version 26032.605.4378.6183 to 26043.2109.4484.3337 on March 21, 2026. &lt;a href=&quot;https://statics.teams.cdn.office.net/production-osx/26043.2109.4484.3337/MicrosoftTeams.pkg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Sat, 21 Mar 2026 19:10:29 +0000</pubDate>
+      <guid isPermaLink="false">microsoft-teams/darwin-26032.605.4378.6183-26043.2109.4484.3337</guid>
+    </item>
+    <item>
+      <title>GIMP 3.0.8.2 → 3.2.0.0 (Windows)</title>
+      <link>https://fmalibrary.com</link>
+      <description>GIMP has been updated from version 3.0.8.2 to 3.2.0.0 on March 21, 2026. &lt;a href=&quot;https://download.gimp.org/gimp/v3.2/windows/gimp-3.2.0-setup.exe&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Sat, 21 Mar 2026 19:10:29 +0000</pubDate>
+      <guid isPermaLink="false">gimp/windows-3.0.8.2-3.2.0.0</guid>
+    </item>
+    <item>
+      <title>Brave 146.1.88.132 → 146.1.88.134 (Mac)</title>
+      <link>https://fmalibrary.com</link>
+      <description>Brave has been updated from version 146.1.88.132 to 146.1.88.134 on March 21, 2026. &lt;a href=&quot;https://updates-cdn.bravesoftware.com/sparkle/Brave-Browser/stable-arm64/188.134/Brave-Browser-arm64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Sat, 21 Mar 2026 19:10:29 +0000</pubDate>
+      <guid isPermaLink="false">brave-browser/darwin-146.1.88.132-146.1.88.134</guid>
+    </item>
+    <item>
+      <title>Microsoft Visual Studio Code 1.111.0 → 1.112.0 (Mac)</title>
+      <link>https://fmalibrary.com</link>
+      <description>Microsoft Visual Studio Code has been updated from version 1.111.0 to 1.112.0 on March 21, 2026. &lt;a href=&quot;https://update.code.visualstudio.com/1.112.0/darwin-arm64/stable&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Sat, 21 Mar 2026 19:10:29 +0000</pubDate>
+      <guid isPermaLink="false">visual-studio-code/darwin-1.111.0-1.112.0</guid>
+    </item>
+    <item>
+      <title>Claude 1.1.7203 → 1.1.7714 (Mac)</title>
+      <link>https://fmalibrary.com</link>
+      <description>Claude has been updated from version 1.1.7203 to 1.1.7714 on March 21, 2026. &lt;a href=&quot;https://downloads.claude.ai/releases/darwin/universal/1.1.7714/Claude-3bd6f69326a0abac98bb269c29140e2a543cad64.zip&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Sat, 21 Mar 2026 19:10:29 +0000</pubDate>
+      <guid isPermaLink="false">claude/darwin-1.1.7203-1.1.7714</guid>
     </item>
     <item>
       <title>Arc 1.138.3 → 1.139.0 (Mac)</title>
@@ -3443,11 +3471,18 @@
       <guid isPermaLink="false">1password/windows-8.12.5-8.12.6</guid>
     </item>
     <item>
-      <title>Brave 146.1.88.127 → 146.1.88.134 (Windows)</title>
+      <title>Tailscale 1.94.2 → 1.96.3 (Windows)</title>
       <link>https://fmalibrary.com</link>
-      <description>Brave has been updated from version 146.1.88.127 to 146.1.88.134 on March 21, 2026. &lt;a href=&quot;https://github.com/brave/brave-browser/releases/download/v1.88.134/BraveBrowserStandaloneSilentSetup.exe&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Tailscale has been updated from version 1.94.2 to 1.96.3 on March 21, 2026. &lt;a href=&quot;https://pkgs.tailscale.com/stable/tailscale-setup-1.96.3-amd64.msi&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Sat, 21 Mar 2026 19:10:29 +0000</pubDate>
-      <guid isPermaLink="false">brave-browser/windows-146.1.88.127-146.1.88.134</guid>
+      <guid isPermaLink="false">tailscale/windows-1.94.2-1.96.3</guid>
+    </item>
+    <item>
+      <title>Zed 0.227.1 → 0.228.0 (Mac)</title>
+      <link>https://fmalibrary.com</link>
+      <description>Zed has been updated from version 0.227.1 to 0.228.0 on March 21, 2026. &lt;a href=&quot;https://zed.dev/api/releases/stable/0.228.0/Zed-aarch64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Sat, 21 Mar 2026 19:10:29 +0000</pubDate>
+      <guid isPermaLink="false">zed/darwin-0.227.1-0.228.0</guid>
     </item>
     <item>
       <title>Warp 0.2026.03.04.08.20.03 → 0.2026.03.18.08.24.01 (Mac)</title>
@@ -3476,41 +3511,6 @@
       <description>Postman has been updated from version 12.1.4 to 12.2.3 on March 21, 2026. &lt;a href=&quot;https://dl.pstmn.io/download/version/12.2.3/windows_64&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Sat, 21 Mar 2026 19:10:29 +0000</pubDate>
       <guid isPermaLink="false">postman/windows-12.1.4-12.2.3</guid>
-    </item>
-    <item>
-      <title>Brave 146.1.88.132 → 146.1.88.134 (Mac)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Brave has been updated from version 146.1.88.132 to 146.1.88.134 on March 21, 2026. &lt;a href=&quot;https://updates-cdn.bravesoftware.com/sparkle/Brave-Browser/stable-arm64/188.134/Brave-Browser-arm64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Sat, 21 Mar 2026 19:10:29 +0000</pubDate>
-      <guid isPermaLink="false">brave-browser/darwin-146.1.88.132-146.1.88.134</guid>
-    </item>
-    <item>
-      <title>Mozilla Firefox ESR 140.7.1 → 140.8.0 (Windows)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Mozilla Firefox ESR has been updated from version 140.7.1 to 140.8.0 on March 21, 2026. &lt;a href=&quot;https://download-installer.cdn.mozilla.net/pub/firefox/releases/140.8.0esr/win64/en-US/Firefox%20Setup%20140.8.0esr.exe&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Sat, 21 Mar 2026 19:10:29 +0000</pubDate>
-      <guid isPermaLink="false">firefox@esr/windows-140.7.1-140.8.0</guid>
-    </item>
-    <item>
-      <title>Bruno 3.1.4 → 3.2.0 (Mac)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Bruno has been updated from version 3.1.4 to 3.2.0 on March 21, 2026. &lt;a href=&quot;https://github.com/usebruno/bruno/releases/download/v3.2.0/bruno_3.2.0_arm64_mac.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Sat, 21 Mar 2026 19:10:29 +0000</pubDate>
-      <guid isPermaLink="false">bruno/darwin-3.1.4-3.2.0</guid>
-    </item>
-    <item>
-      <title>Mozilla Firefox ESR 140.7.1 → 140.8.0 (Mac)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Mozilla Firefox ESR has been updated from version 140.7.1 to 140.8.0 on March 21, 2026. &lt;a href=&quot;https://download-installer.cdn.mozilla.net/pub/firefox/releases/140.8.0esr/mac/en-US/Firefox%20140.8.0esr.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Sat, 21 Mar 2026 19:10:29 +0000</pubDate>
-      <guid isPermaLink="false">firefox@esr/darwin-140.7.1-140.8.0</guid>
-    </item>
-    <item>
-      <title>Nextcloud 4.0.7 → 4.0.8 (Mac)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Nextcloud has been updated from version 4.0.7 to 4.0.8 on March 21, 2026. &lt;a href=&quot;https://github.com/nextcloud-releases/desktop/releases/download/v4.0.8/Nextcloud-4.0.8.pkg&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Sat, 21 Mar 2026 19:10:29 +0000</pubDate>
-      <guid isPermaLink="false">nextcloud/darwin-4.0.7-4.0.8</guid>
     </item>
   </channel>
 </rss>

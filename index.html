@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: April 20, 2026 at 3:25 PM CDT</p>
+            Last updated: April 20, 2026 at 4:21 PM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: April 20, 2026 at 3:25 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: April 20, 2026 at 4:21 PM CDT</p>
             </div>
         </div>
     </div>
@@ -1486,7 +1486,7 @@
             283,
             283,
             283,
-            283
+            284
           ],
           "additions": [
             20,
@@ -1901,7 +1901,7 @@
             0,
             0,
             0,
-            0
+            1
           ],
           "macCounts": [
             20,
@@ -2731,7 +2731,7 @@
             59,
             59,
             59,
-            59
+            60
           ],
           "growthDates": [
             "2025-03-04",
@@ -2786,7 +2786,8 @@
             "2026-03-26",
             "2026-03-28",
             "2026-04-03",
-            "2026-04-14"
+            "2026-04-14",
+            "2026-04-20"
           ],
           "growthCounts": [
             20,
@@ -2841,7 +2842,8 @@
             277,
             278,
             279,
-            283
+            283,
+            284
           ],
           "growthAdditions": [
             20,
@@ -2896,7 +2898,8 @@
             1,
             1,
             1,
-            4
+            4,
+            1
           ]
         };
         
@@ -4282,6 +4285,14 @@
                 }
               },
               {
+                "name": "Druva inSync",
+                "slug": "druva-insync/windows",
+                "platform": "windows",
+                "description": "Druva inSync is a cloud-based product that protects endpoint data.",
+                "version": "7.5.7",
+                "installerUrl": "https://downloads.druva.com/downloads/inSync/Windows/7.5.7/inSync7.5.7r110923.msi"
+              },
+              {
                 "name": "Eclipse IDE",
                 "slug": "eclipse-ide/darwin",
                 "platform": "darwin",
@@ -4315,7 +4326,7 @@
                 "name": "Elgato Control Center",
                 "slug": "elgato-control-center/darwin",
                 "platform": "darwin",
-                "description": "Elgate Control Center is an app to control your Elgato key lights.",
+                "description": "Elgato Control Center is an app to control your Elgato key lights.",
                 "version": "1.8.2",
                 "installerUrl": "https://edge.elgato.com/egc/macos/eccm/1.8.2/ElgatoControlCenter-1.8.2.20643.zip",
                 "securityInfo": {
@@ -4330,7 +4341,7 @@
                 "name": "Elgato Stream Deck",
                 "slug": "elgato-stream-deck/darwin",
                 "platform": "darwin",
-                "description": "Elgateo Stream Deck is an app to assign keys, and then decorate and label them, on a Stream Deck.",
+                "description": "Elgato Stream Deck is an app to assign keys, and then decorate and label them, on a Stream Deck.",
                 "version": "7.4.1",
                 "installerUrl": "https://edge.elgato.com/egc/macos/sd/Stream_Deck_7.4.1.22720.pkg",
                 "securityInfo": {
@@ -7784,7 +7795,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `April 20, 2026 at 3:25 PM CDT`;
+                let timestampText = 'Last updated: ' + `April 20, 2026 at 4:21 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
