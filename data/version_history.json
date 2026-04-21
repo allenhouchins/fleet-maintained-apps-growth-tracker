@@ -1,105 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-02-13T16:19:07Z",
-      "appName": "Brave",
-      "slug": "brave-browser/darwin",
-      "platform": "darwin",
-      "oldVersion": "144.1.86.148",
-      "newVersion": "145.1.87.186",
-      "installerUrl": "https://updates-cdn.bravesoftware.com/sparkle/Brave-Browser/stable-arm64/187.186/Brave-Browser-arm64.dmg"
-    },
-    {
-      "date": "2026-02-13T16:19:07Z",
-      "appName": "7-zip",
-      "slug": "7-zip/windows",
-      "platform": "windows",
-      "oldVersion": "25.01",
-      "newVersion": "26.00",
-      "installerUrl": "https://7-zip.org/a/7z2600-x64.msi"
-    },
-    {
-      "date": "2026-02-13T19:20:22Z",
-      "appName": "Zoom",
-      "slug": "zoom/darwin",
-      "platform": "darwin",
-      "oldVersion": "6.7.5.75246",
-      "newVersion": "6.7.6.75444",
-      "installerUrl": "https://zoom.us/client/latest/ZoomInstallerIT.pkg"
-    },
-    {
-      "date": "2026-02-16T00:35:28Z",
-      "appName": "Tailscale",
-      "slug": "tailscale-app/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.94.1",
-      "newVersion": "1.94.2",
-      "installerUrl": "https://pkgs.tailscale.com/stable/Tailscale-1.94.2-macos.pkg"
-    },
-    {
-      "date": "2026-02-16T00:35:28Z",
-      "appName": "DBeaver",
-      "slug": "dbeaver-community/darwin",
-      "platform": "darwin",
-      "oldVersion": "25.3.4",
-      "newVersion": "25.3.5",
-      "installerUrl": "https://dbeaver.io/files/25.3.5/dbeaver-ce-25.3.5-macos-aarch64.dmg"
-    },
-    {
-      "date": "2026-02-16T00:35:28Z",
-      "appName": "Google Chrome",
-      "slug": "google-chrome/windows",
-      "platform": "windows",
-      "oldVersion": "145.0.7632.68",
-      "newVersion": "145.0.7632.76",
-      "installerUrl": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi"
-    },
-    {
-      "date": "2026-02-16T00:35:28Z",
-      "appName": "ChatGPT Atlas",
-      "slug": "chatgpt-atlas/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.2026.35.4",
-      "newVersion": "1.2026.35.5",
-      "installerUrl": "https://persistent.oaistatic.com/atlas/public/ChatGPT_Atlas_Desktop_public_1.2026.35.5_20260214010206000.dmg"
-    },
-    {
-      "date": "2026-02-16T00:35:28Z",
-      "appName": "Spotify",
-      "slug": "spotify/windows",
-      "platform": "windows",
-      "oldVersion": "1.2.83.460.gb5356552",
-      "newVersion": "1.2.83.461.g4d9c3dae",
-      "installerUrl": "https://upgrade.scdn.co/upgrade/client/win32-x86_64/spotify_installer-1.2.83.461.g4d9c3dae-801.exe"
-    },
-    {
-      "date": "2026-02-16T00:35:28Z",
-      "appName": "Slack",
-      "slug": "slack/windows",
-      "platform": "windows",
-      "oldVersion": "4.48.86",
-      "newVersion": "4.48.92",
-      "installerUrl": "https://downloads.slack-edge.com/desktop-releases/windows/x64/4.48.92/slack-standalone-4.48.92.0.msi"
-    },
-    {
-      "date": "2026-02-16T00:35:28Z",
-      "appName": "Microsoft Edge",
-      "slug": "microsoft-edge/windows",
-      "platform": "windows",
-      "oldVersion": "144.0.3719.115",
-      "newVersion": "145.0.3800.58",
-      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/e0e65c50-aefd-4612-8e6d-803e4c365065/MicrosoftEdgeEnterpriseX64.msi"
-    },
-    {
-      "date": "2026-02-16T00:35:28Z",
-      "appName": "Camtasia",
-      "slug": "camtasia/windows",
-      "platform": "windows",
-      "oldVersion": "26.0.1.14418",
-      "newVersion": "26.0.3.15135",
-      "installerUrl": "https://download.techsmith.com/camtasiastudio/releases/2603/camtasia.msi"
-    },
-    {
       "date": "2026-02-16T00:35:28Z",
       "appName": "Brave",
       "slug": "brave-browser/windows",
@@ -8999,6 +8900,105 @@
       "oldVersion": "",
       "newVersion": "7.5.7",
       "installerUrl": "https://downloads.druva.com/downloads/inSync/Windows/7.5.7/inSync7.5.7r110923.msi"
+    },
+    {
+      "date": "2026-04-21T03:10:23Z",
+      "appName": "Cursor",
+      "slug": "cursor/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.1.15",
+      "newVersion": "3.1.17",
+      "installerUrl": "https://downloads.cursor.com/production/fce1e9ab7844f9ea35793da01e634aa7e50bce90/darwin/arm64/Cursor-darwin-arm64.zip"
+    },
+    {
+      "date": "2026-04-21T03:10:23Z",
+      "appName": "Claude",
+      "slug": "claude/windows",
+      "platform": "windows",
+      "oldVersion": "1.3109.0",
+      "newVersion": "1.3561.0",
+      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.3561.0/Claude-fbc74be3fdc714a2c46ef1fb84f71d4e4c062930.msix"
+    },
+    {
+      "date": "2026-04-21T03:10:23Z",
+      "appName": "Discord",
+      "slug": "discord/windows",
+      "platform": "windows",
+      "oldVersion": "1.0.9233",
+      "newVersion": "1.0.9234",
+      "installerUrl": "https://stable.dl2.discordapp.net/distro/app/stable/win/x64/1.0.9234/DiscordSetup.exe"
+    },
+    {
+      "date": "2026-04-21T03:10:23Z",
+      "appName": "Discord",
+      "slug": "discord/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.0.385",
+      "newVersion": "0.0.386",
+      "installerUrl": "https://dl.discordapp.net/apps/osx/0.0.386/Discord.dmg"
+    },
+    {
+      "date": "2026-04-21T03:10:23Z",
+      "appName": "OrbStack",
+      "slug": "orbstack/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.1.0",
+      "newVersion": "2.1.1",
+      "installerUrl": "https://cdn-updates.orbstack.dev/arm64/OrbStack_v2.1.1_20026_arm64.dmg"
+    },
+    {
+      "date": "2026-04-21T03:10:23Z",
+      "appName": "Cursor",
+      "slug": "cursor/windows",
+      "platform": "windows",
+      "oldVersion": "3.1.15",
+      "newVersion": "3.1.17",
+      "installerUrl": "https://downloads.cursor.com/production/fce1e9ab7844f9ea35793da01e634aa7e50bce90/win32/x64/system-setup/CursorSetup-x64-3.1.17.exe"
+    },
+    {
+      "date": "2026-04-21T03:10:23Z",
+      "appName": "Docker Desktop",
+      "slug": "docker-desktop/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.69.0",
+      "newVersion": "4.70.0",
+      "installerUrl": "https://desktop.docker.com/mac/main/arm64/224270/Docker.dmg"
+    },
+    {
+      "date": "2026-04-21T03:10:23Z",
+      "appName": "ChatGPT Desktop",
+      "slug": "chatgpt/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.2026.098",
+      "newVersion": "1.2026.099",
+      "installerUrl": "https://persistent.oaistatic.com/sidekick/public/ChatGPT_Desktop_public_1.2026.099_1776706502.dmg"
+    },
+    {
+      "date": "2026-04-21T03:10:23Z",
+      "appName": "Loom",
+      "slug": "loom/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.344.0",
+      "newVersion": "0.345.1",
+      "installerUrl": "https://packages.loom.com/desktop-packages/Loom-0.345.1-arm64.dmg"
+    },
+    {
+      "date": "2026-04-21T03:10:23Z",
+      "appName": "Claude",
+      "slug": "claude/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.3109.0",
+      "newVersion": "1.3561.0",
+      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.3561.0/Claude-fbc74be3fdc714a2c46ef1fb84f71d4e4c062930.zip"
+    },
+    {
+      "date": "2026-04-21T03:10:23Z",
+      "appName": "Zed",
+      "slug": "zed/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.232.2",
+      "newVersion": "0.232.3",
+      "installerUrl": "https://zed.dev/api/releases/stable/0.232.3/Zed-aarch64.dmg"
     }
   ]
 }
