@@ -2,69 +2,6 @@
   "changes": [
     {
       "date": "2026-02-16T00:35:28Z",
-      "appName": "Brave",
-      "slug": "brave-browser/windows",
-      "platform": "windows",
-      "oldVersion": "144.1.86.148",
-      "newVersion": "145.1.87.188",
-      "installerUrl": "https://github.com/brave/brave-browser/releases/download/v1.87.188/BraveBrowserStandaloneSilentSetup.exe"
-    },
-    {
-      "date": "2026-02-16T00:35:28Z",
-      "appName": "Tailscale",
-      "slug": "tailscale/windows",
-      "platform": "windows",
-      "oldVersion": "1.94.1",
-      "newVersion": "1.94.2",
-      "installerUrl": "https://pkgs.tailscale.com/stable/tailscale-setup-1.94.2-amd64.msi"
-    },
-    {
-      "date": "2026-02-16T00:35:28Z",
-      "appName": "Microsoft Edge",
-      "slug": "microsoft-edge/darwin",
-      "platform": "darwin",
-      "oldVersion": "144.0.3719.115",
-      "newVersion": "145.0.3800.58",
-      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/385c31aa-ef91-4d66-a991-b1f9b2b07987/MicrosoftEdge-145.0.3800.58.dmg"
-    },
-    {
-      "date": "2026-02-16T00:35:28Z",
-      "appName": "Telegram",
-      "slug": "telegram/windows",
-      "platform": "windows",
-      "oldVersion": "6.4.2",
-      "newVersion": "6.5.1",
-      "installerUrl": "https://td.telegram.org/tx64/tsetup-x64.6.5.1.exe"
-    },
-    {
-      "date": "2026-02-16T00:35:28Z",
-      "appName": "Brave",
-      "slug": "brave-browser/darwin",
-      "platform": "darwin",
-      "oldVersion": "145.1.87.186",
-      "newVersion": "145.1.87.188",
-      "installerUrl": "https://updates-cdn.bravesoftware.com/sparkle/Brave-Browser/stable-arm64/187.188/Brave-Browser-arm64.dmg"
-    },
-    {
-      "date": "2026-02-16T00:35:28Z",
-      "appName": "Opera",
-      "slug": "opera/darwin",
-      "platform": "darwin",
-      "oldVersion": "127.0.5778.47",
-      "newVersion": "127.0.5778.64",
-      "installerUrl": "https://get.geo.opera.com/pub/opera/desktop/127.0.5778.64/mac/Opera_127.0.5778.64_Setup.dmg"
-    },
-    {
-      "date": "2026-02-16T00:35:28Z",
-      "appName": "Stats",
-      "slug": "stats/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.11.66",
-      "newVersion": "2.11.67",
-      "installerUrl": "https://github.com/exelban/stats/releases/download/v2.11.67/Stats.dmg"
-    },
-    {
-      "date": "2026-02-16T00:35:28Z",
       "appName": "Microsoft Visual Studio Code",
       "slug": "visual-studio-code/windows",
       "platform": "windows",
@@ -8999,6 +8936,69 @@
       "oldVersion": "0.232.2",
       "newVersion": "0.232.3",
       "installerUrl": "https://zed.dev/api/releases/stable/0.232.3/Zed-aarch64.dmg"
+    },
+    {
+      "date": "2026-04-21T13:39:04Z",
+      "appName": "Mattermost",
+      "slug": "mattermost/darwin",
+      "platform": "darwin",
+      "oldVersion": "6.1.1",
+      "newVersion": "6.1.2",
+      "installerUrl": "https://releases.mattermost.com/desktop/6.1.2/mattermost-desktop-6.1.2-mac-arm64.zip"
+    },
+    {
+      "date": "2026-04-21T13:39:04Z",
+      "appName": "iTerm2",
+      "slug": "iterm2/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.6.9",
+      "newVersion": "3.6.10",
+      "installerUrl": "https://iterm2.com/downloads/stable/iTerm2-3_6_10.zip"
+    },
+    {
+      "date": "2026-04-21T13:39:04Z",
+      "appName": "Box Drive",
+      "slug": "box-drive/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.51.230",
+      "newVersion": "2.51.233",
+      "installerUrl": "https://e3.boxcdn.net/desktop/releases/mac/BoxDrive-2.51.233.pkg"
+    },
+    {
+      "date": "2026-04-21T13:39:04Z",
+      "appName": "Charles",
+      "slug": "charles/darwin",
+      "platform": "darwin",
+      "oldVersion": "5.0.3",
+      "newVersion": "5.1",
+      "installerUrl": "https://www.charlesproxy.com/assets/release/5.1/charles-proxy-5.1.dmg"
+    },
+    {
+      "date": "2026-04-21T13:39:04Z",
+      "appName": "Docker Desktop",
+      "slug": "docker/windows",
+      "platform": "windows",
+      "oldVersion": "4.68.0",
+      "newVersion": "4.70.0",
+      "installerUrl": "https://desktop.docker.com/win/main/amd64/224270/Docker%20Desktop%20Installer.exe"
+    },
+    {
+      "date": "2026-04-21T13:39:04Z",
+      "appName": "OneDrive",
+      "slug": "onedrive/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.051.0316.0004",
+      "newVersion": "26.055.0323.0004",
+      "installerUrl": "https://oneclient.sfx.ms/Mac/Installers/26.055.0323.0004/universal/OneDrive.pkg"
+    },
+    {
+      "date": "2026-04-21T13:39:04Z",
+      "appName": "Windsurf",
+      "slug": "windsurf/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.0.61",
+      "newVersion": "2.0.63",
+      "installerUrl": "https://windsurf-stable.codeiumdata.com/darwin-arm64-dmg/stable/8636ab52872ef59a7227b8f7f386fd30d94b2249/Windsurf-darwin-arm64-2.0.63.dmg"
     }
   ]
 }
