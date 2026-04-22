@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-22T22:21:51Z",
+  "lastUpdated": "2026-04-22T22:29:23Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -2521,34 +2521,40 @@
     {
       "slug": "teleport-connect/darwin",
       "name": "Teleport Connect",
-      "version": "18.7.4",
-      "sha256": "96bf5a006201c8934f976c99cad2e67a25228fab6b83a10ed930ce82365153e7",
-      "cdhash": "4b344e9277e01b51bcfb09b6a2b37c4135925d31",
+      "version": "18.7.5",
+      "sha256": "74d9fe5b108e5bf33336f6eff397d9f3705d28d08eb6e4c4888ef557631d9224",
+      "cdhash": "31f1efa7c82361481b56c32eaab23d32ef84b747",
       "signingId": "QH8AA5B8UP:gravitational.teleport.connect",
       "teamId": "QH8AA5B8UP",
-      "lastUpdated": "2026-04-08T14:53:06Z"
+      "lastUpdated": "2026-04-22T22:24:50Z"
     },
     {
       "slug": "teleport-suite/darwin",
       "name": "Teleport Suite",
-      "version": "18.7.4",
+      "version": "18.7.5",
       "signingId": "QH8AA5B8UP:QH8AA5B8UP.com.gravitational.teleport.tctl",
       "teamId": "QH8AA5B8UP",
-      "lastUpdated": "2026-04-08T14:57:12Z",
+      "lastUpdated": "2026-04-22T22:28:22Z",
       "apps": [
         {
           "slug": "teleport-suite/darwin/tsh",
           "name": "tsh",
-          "version": "18.7.4",
-          "sha256": "ff5fb5ccb769d87a1d0a7b771299bfc1aef38b22593404871434230ad2ff88b9",
-          "lastUpdated": "2026-04-08T14:57:32Z"
+          "version": "18.7.5",
+          "sha256": "f2e2b451f574124bcdd7916514ef0ac4eb5f0599b3d205c31dfcb8bbdcf8d32a",
+          "cdhash": "b219c62e09ae96c7a366805006bee3c7815b6e58",
+          "signingId": "QH8AA5B8UP:QH8AA5B8UP.com.gravitational.teleport.tsh",
+          "teamId": "QH8AA5B8UP",
+          "lastUpdated": "2026-04-22T22:28:42Z"
         },
         {
           "slug": "teleport-suite/darwin/tctl",
           "name": "tctl",
-          "version": "18.7.4",
-          "sha256": "b3dfa1a61328ef481c57a98e8ac6bdc8e154352c277ca679d7349c95fcc3b84a",
-          "lastUpdated": "2026-04-08T14:57:47Z"
+          "version": "18.7.5",
+          "sha256": "b01177a07ab44efc249a754632200c2e40f39d6a2c24f7d7970345e6fc9adaba",
+          "cdhash": "1ce169826444fb1180778750f1f677af990fb1de",
+          "signingId": "QH8AA5B8UP:QH8AA5B8UP.com.gravitational.teleport.tctl",
+          "teamId": "QH8AA5B8UP",
+          "lastUpdated": "2026-04-22T22:28:59Z"
         }
       ]
     },
@@ -2889,12 +2895,12 @@
     {
       "slug": "zed/darwin",
       "name": "Zed",
-      "version": "0.232.3",
-      "sha256": "d7deef5bbea56475e50eb45fe40c4cfa310ae558884fa9a05674b40f6c306703",
-      "cdhash": "d8c625887857cf5098b099ed8538e6659e770099",
+      "version": "0.233.5",
+      "sha256": "6ab0a7cdb37da6e5781ff33980c5cf2e9371ca0f52aec48d334971ba5f3688c0",
+      "cdhash": "6f235a4646a38c5b8006aba10c87705e11fb7fdd",
       "signingId": "MQ55VZLNZQ:dev.zed.Zed",
       "teamId": "MQ55VZLNZQ",
-      "lastUpdated": "2026-04-21T03:19:23Z"
+      "lastUpdated": "2026-04-22T22:29:21Z"
     },
     {
       "slug": "zeplin/darwin",
