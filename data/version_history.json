@@ -1,249 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-02-18T19:24:26Z",
-      "appName": "Docker Desktop",
-      "slug": "docker-desktop/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.60.1",
-      "newVersion": "4.61.0",
-      "installerUrl": "https://desktop.docker.com/mac/main/arm64/219004/Docker.dmg"
-    },
-    {
-      "date": "2026-02-19T04:40:53Z",
-      "appName": "BetterDisplay",
-      "slug": "betterdisplay/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "4.1.5",
-      "installerUrl": "https://github.com/waydabber/BetterDisplay/releases/download/v4.1.5/BetterDisplay-v4.1.5.dmg"
-    },
-    {
-      "date": "2026-02-19T19:20:30Z",
-      "appName": "Signal",
-      "slug": "signal/darwin",
-      "platform": "darwin",
-      "oldVersion": "7.89.0",
-      "newVersion": "7.90.0",
-      "installerUrl": "https://updates.signal.org/desktop/signal-desktop-mac-arm64-7.90.0.zip"
-    },
-    {
-      "date": "2026-02-19T19:20:30Z",
-      "appName": "CrashPlan",
-      "slug": "crashplan/windows",
-      "platform": "windows",
-      "oldVersion": "11.8.0.609",
-      "newVersion": "11.9.0.507",
-      "installerUrl": "https://download.crashplan.com/installs/agent/cloud/11.9.0/507/install/CrashPlan_11.9.0_507_Win64.msi"
-    },
-    {
-      "date": "2026-02-19T19:20:30Z",
-      "appName": "ChatGPT Desktop",
-      "slug": "chatgpt/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.2026.027",
-      "newVersion": "1.2026.041",
-      "installerUrl": "https://persistent.oaistatic.com/sidekick/public/ChatGPT_Desktop_public_1.2026.041_1771039076.dmg"
-    },
-    {
-      "date": "2026-02-19T19:20:30Z",
-      "appName": "Dropbox",
-      "slug": "dropbox/darwin",
-      "platform": "darwin",
-      "oldVersion": "241.4.4853",
-      "newVersion": "242.4.5815",
-      "installerUrl": "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20242.4.5815.arm64.dmg"
-    },
-    {
-      "date": "2026-02-19T19:20:30Z",
-      "appName": "Postman",
-      "slug": "postman/windows",
-      "platform": "windows",
-      "oldVersion": "11.84.3",
-      "newVersion": "11.85.1",
-      "installerUrl": "https://dl.pstmn.io/download/version/11.85.1/windows_64"
-    },
-    {
-      "date": "2026-02-19T19:20:30Z",
-      "appName": "ChatGPT Atlas",
-      "slug": "chatgpt-atlas/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.2026.35.5",
-      "newVersion": "1.2026.42.5",
-      "installerUrl": "https://persistent.oaistatic.com/atlas/public/ChatGPT_Atlas_Desktop_public_1.2026.42.5_20260218044738000.dmg"
-    },
-    {
-      "date": "2026-02-19T19:20:30Z",
-      "appName": "Claude",
-      "slug": "claude/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.1.3363",
-      "newVersion": "1.1.3541",
-      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.1.3541/Claude-1e65e4f0a2acc921b2009fc1216fc2b78cd93d18.zip"
-    },
-    {
-      "date": "2026-02-19T19:20:30Z",
-      "appName": "Slack",
-      "slug": "slack/windows",
-      "platform": "windows",
-      "oldVersion": "4.48.92",
-      "newVersion": "4.48.94",
-      "installerUrl": "https://downloads.slack-edge.com/desktop-releases/windows/x64/4.48.94/slack-standalone-4.48.94.0.msi"
-    },
-    {
-      "date": "2026-02-19T19:20:30Z",
-      "appName": "Slack",
-      "slug": "slack/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.48.92",
-      "newVersion": "4.48.94",
-      "installerUrl": "https://slack.com/api/desktop.latestRelease?redirect=1\u0026variant=pkg\u0026arch=universal"
-    },
-    {
-      "date": "2026-02-19T19:20:30Z",
-      "appName": "GoLand",
-      "slug": "goland/darwin",
-      "platform": "darwin",
-      "oldVersion": "2025.3.2",
-      "newVersion": "2025.3.3",
-      "installerUrl": "https://download.jetbrains.com/go/goland-2025.3.3-aarch64.dmg"
-    },
-    {
-      "date": "2026-02-19T19:20:30Z",
-      "appName": "Loom",
-      "slug": "loom/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.334.2",
-      "newVersion": "0.334.3",
-      "installerUrl": "https://packages.loom.com/desktop-packages/Loom-0.334.3-arm64.dmg"
-    },
-    {
-      "date": "2026-02-19T19:20:30Z",
-      "appName": "Adobe Acrobat Reader",
-      "slug": "adobe-acrobat-reader/darwin",
-      "platform": "darwin",
-      "oldVersion": "25.001.21111",
-      "newVersion": "25.001.21223",
-      "installerUrl": "https://ardownload2.adobe.com/pub/adobe/reader/mac/AcrobatDC/2500121223/AcroRdrDC_2500121223_MUI.dmg"
-    },
-    {
-      "date": "2026-02-19T19:20:30Z",
-      "appName": "CrashPlan",
-      "slug": "crashplan/darwin",
-      "platform": "darwin",
-      "oldVersion": "11.8.0",
-      "newVersion": "11.9.0",
-      "installerUrl": "https://download.crashplan.com/installs/agent/cloud/11.9.0/507/install/CrashPlan_11.9.0_507_Mac.dmg"
-    },
-    {
-      "date": "2026-02-19T19:20:30Z",
-      "appName": "Company Portal",
-      "slug": "intune-company-portal/darwin",
-      "platform": "darwin",
-      "oldVersion": "5.2511.0",
-      "newVersion": "5.2601.0",
-      "installerUrl": "https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/CompanyPortal_5.2601.0-Upgrade.pkg"
-    },
-    {
-      "date": "2026-02-19T19:20:30Z",
-      "appName": "Zed",
-      "slug": "zed/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.223.5",
-      "newVersion": "0.224.6",
-      "installerUrl": "https://zed.dev/api/releases/stable/0.224.6/Zed-aarch64.dmg"
-    },
-    {
-      "date": "2026-02-20T04:38:27Z",
-      "appName": "LastPass",
-      "slug": "lastpass/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "5.4.0.1404",
-      "installerUrl": "https://download.cloud.lastpass.com/windows_installer/LastPassInstaller.msi"
-    },
-    {
-      "date": "2026-02-20T04:38:27Z",
-      "appName": "PuTTY",
-      "slug": "putty/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "0.83.0.0",
-      "installerUrl": "https://the.earth.li/~sgtatham/putty/0.83/w64/putty-64bit-0.83-installer.msi"
-    },
-    {
-      "date": "2026-02-20T06:24:10Z",
-      "appName": "Brave",
-      "slug": "brave-browser/darwin",
-      "platform": "darwin",
-      "oldVersion": "145.1.87.188",
-      "newVersion": "145.1.87.190",
-      "installerUrl": "https://updates-cdn.bravesoftware.com/sparkle/Brave-Browser/stable-arm64/187.190/Brave-Browser-arm64.dmg"
-    },
-    {
-      "date": "2026-02-20T06:24:10Z",
-      "appName": "Tableau Desktop",
-      "slug": "tableau/darwin",
-      "platform": "darwin",
-      "oldVersion": "2025.3.2",
-      "newVersion": "2025.3.3",
-      "installerUrl": "https://downloads.tableau.com/esdalt/2025.3.3/TableauDesktop-2025-3-3-arm64.dmg"
-    },
-    {
-      "date": "2026-02-20T06:24:10Z",
-      "appName": "Cyberduck",
-      "slug": "cyberduck/darwin",
-      "platform": "darwin",
-      "oldVersion": "9.3.1",
-      "newVersion": "9.4.0",
-      "installerUrl": "https://update.cyberduck.io/Cyberduck-9.4.0.44341.zip"
-    },
-    {
-      "date": "2026-02-20T06:24:10Z",
-      "appName": "Rider",
-      "slug": "rider/darwin",
-      "platform": "darwin",
-      "oldVersion": "2025.3.2",
-      "newVersion": "2025.3.3",
-      "installerUrl": "https://download.jetbrains.com/rider/JetBrains.Rider-2025.3.3-aarch64.dmg"
-    },
-    {
-      "date": "2026-02-20T06:24:10Z",
-      "appName": "Suspicious Package",
-      "slug": "suspicious-package/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.6",
-      "newVersion": "4.6.1",
-      "installerUrl": "https://www.mothersruin.com/software/downloads/SuspiciousPackage.dmg"
-    },
-    {
-      "date": "2026-02-20T06:24:10Z",
-      "appName": "Dialpad",
-      "slug": "dialpad/darwin",
-      "platform": "darwin",
-      "oldVersion": "2602.0.0",
-      "newVersion": "2602.0.1",
-      "installerUrl": "https://storage.googleapis.com/dialpad_native/osx/arm64/Dialpad.2602.0.1.zip"
-    },
-    {
-      "date": "2026-02-20T06:24:10Z",
-      "appName": "Twingate",
-      "slug": "twingate/windows",
-      "platform": "windows",
-      "oldVersion": "20.26.7.2078",
-      "newVersion": "20.26.36.4338",
-      "installerUrl": "https://binaries.twingate.com/client/windows/versions/2026.36.4338/TwingateWindowsInstaller.msi"
-    },
-    {
-      "date": "2026-02-20T06:24:10Z",
-      "appName": "Zed",
-      "slug": "zed/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.224.6",
-      "newVersion": "0.224.7",
-      "installerUrl": "https://zed.dev/api/releases/stable/0.224.7/Zed-aarch64.dmg"
-    },
-    {
       "date": "2026-02-20T06:24:10Z",
       "appName": "calibre",
       "slug": "calibre/darwin",
@@ -8999,6 +8756,249 @@
       "oldVersion": "1.116.0",
       "newVersion": "1.117.0",
       "installerUrl": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/VSCodeSetup-x64-1.117.0.exe"
+    },
+    {
+      "date": "2026-04-24T15:31:19Z",
+      "appName": "Granola",
+      "slug": "granola/darwin",
+      "platform": "darwin",
+      "oldVersion": "7.147.1",
+      "newVersion": "7.155.1",
+      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.155.1/Granola-7.155.1-mac-universal.dmg"
+    },
+    {
+      "date": "2026-04-24T15:31:19Z",
+      "appName": "Postman",
+      "slug": "postman/darwin",
+      "platform": "darwin",
+      "oldVersion": "12.7.5",
+      "newVersion": "12.7.6",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.7.6/osx_arm64"
+    },
+    {
+      "date": "2026-04-24T15:31:19Z",
+      "appName": "Brave",
+      "slug": "brave-browser/windows",
+      "platform": "windows",
+      "oldVersion": "147.1.89.137",
+      "newVersion": "147.1.89.143",
+      "installerUrl": "https://github.com/brave/brave-browser/releases/download/v1.89.143/BraveBrowserStandaloneSilentSetup.exe"
+    },
+    {
+      "date": "2026-04-24T15:31:19Z",
+      "appName": "Ollama",
+      "slug": "ollama/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.21.1",
+      "newVersion": "0.21.2",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.21.2/Ollama-darwin.zip"
+    },
+    {
+      "date": "2026-04-24T15:31:19Z",
+      "appName": "Brave",
+      "slug": "brave-browser/darwin",
+      "platform": "darwin",
+      "oldVersion": "147.1.89.141",
+      "newVersion": "147.1.89.143",
+      "installerUrl": "https://updates-cdn.bravesoftware.com/sparkle/Brave-Browser/stable-arm64/189.143/Brave-Browser-arm64.dmg"
+    },
+    {
+      "date": "2026-04-24T15:31:19Z",
+      "appName": "Microsoft PowerPoint",
+      "slug": "microsoft-powerpoint/darwin",
+      "platform": "darwin",
+      "oldVersion": "16.108",
+      "newVersion": "16.108.1",
+      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.108.26041915_Installer.pkg"
+    },
+    {
+      "date": "2026-04-24T15:31:19Z",
+      "appName": "Postman",
+      "slug": "postman/windows",
+      "platform": "windows",
+      "oldVersion": "12.7.5",
+      "newVersion": "12.7.6",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.7.6/windows_64"
+    },
+    {
+      "date": "2026-04-24T15:31:19Z",
+      "appName": "GoLand",
+      "slug": "goland/darwin",
+      "platform": "darwin",
+      "oldVersion": "2026.1",
+      "newVersion": "2026.1.1",
+      "installerUrl": "https://download.jetbrains.com/go/goland-2026.1.1-aarch64.dmg"
+    },
+    {
+      "date": "2026-04-24T15:31:19Z",
+      "appName": "RustRover",
+      "slug": "rustrover/darwin",
+      "platform": "darwin",
+      "oldVersion": "2026.1",
+      "newVersion": "2026.1.1",
+      "installerUrl": "https://download.jetbrains.com/rustrover/RustRover-2026.1.1-aarch64.dmg"
+    },
+    {
+      "date": "2026-04-24T15:31:19Z",
+      "appName": "Granola",
+      "slug": "granola/windows",
+      "platform": "windows",
+      "oldVersion": "7.147.1",
+      "newVersion": "7.155.1",
+      "installerUrl": "https://api.granola.ai/v1/check-for-update/Granola-7.155.1-win-x64.exe"
+    },
+    {
+      "date": "2026-04-24T15:31:19Z",
+      "appName": "Microsoft Word",
+      "slug": "microsoft-word/darwin",
+      "platform": "darwin",
+      "oldVersion": "16.108",
+      "newVersion": "16.108.1",
+      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.108.26041915_Installer.pkg"
+    },
+    {
+      "date": "2026-04-24T15:31:19Z",
+      "appName": "Ollama",
+      "slug": "ollama/windows",
+      "platform": "windows",
+      "oldVersion": "0.21.0",
+      "newVersion": "0.21.2",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.21.2/OllamaSetup.exe"
+    },
+    {
+      "date": "2026-04-24T15:31:19Z",
+      "appName": "Microsoft Outlook",
+      "slug": "microsoft-outlook/darwin",
+      "platform": "darwin",
+      "oldVersion": "16.108",
+      "newVersion": "16.108.1",
+      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.108.26041915_Installer.pkg"
+    },
+    {
+      "date": "2026-04-24T15:31:19Z",
+      "appName": "Spotify",
+      "slug": "spotify/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.2.87.415",
+      "newVersion": "1.2.88.483",
+      "installerUrl": "https://download.scdn.co/SpotifyARM64.dmg"
+    },
+    {
+      "date": "2026-04-24T15:31:19Z",
+      "appName": "Clockify Desktop",
+      "slug": "clockify/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.12.3",
+      "newVersion": "2.12.4",
+      "installerUrl": "https://clockify.me/downloads/ClockifyDesktop.zip"
+    },
+    {
+      "date": "2026-04-24T15:31:19Z",
+      "appName": "WebStorm",
+      "slug": "webstorm/darwin",
+      "platform": "darwin",
+      "oldVersion": "2026.1",
+      "newVersion": "2026.1.1",
+      "installerUrl": "https://download.jetbrains.com/webstorm/WebStorm-2026.1.1-aarch64.dmg"
+    },
+    {
+      "date": "2026-04-24T15:31:19Z",
+      "appName": "Arc",
+      "slug": "arc/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.143.2",
+      "newVersion": "1.144.0",
+      "installerUrl": "https://releases.arc.net/release/Arc-1.144.0-79514.zip"
+    },
+    {
+      "date": "2026-04-24T15:31:19Z",
+      "appName": "RubyMine",
+      "slug": "rubymine/darwin",
+      "platform": "darwin",
+      "oldVersion": "2026.1",
+      "newVersion": "2026.1.1",
+      "installerUrl": "https://download.jetbrains.com/ruby/RubyMine-2026.1.1-aarch64.dmg"
+    },
+    {
+      "date": "2026-04-24T15:31:19Z",
+      "appName": "OBS",
+      "slug": "obs/windows",
+      "platform": "windows",
+      "oldVersion": "32.1.1",
+      "newVersion": "32.1.2",
+      "installerUrl": "https://github.com/obsproject/obs-studio/releases/download/32.1.2/OBS-Studio-32.1.2-Windows-x64-Installer.exe"
+    },
+    {
+      "date": "2026-04-24T15:31:19Z",
+      "appName": "PhpStorm",
+      "slug": "phpstorm/darwin",
+      "platform": "darwin",
+      "oldVersion": "2026.1",
+      "newVersion": "2026.1.1",
+      "installerUrl": "https://download.jetbrains.com/webide/PhpStorm-2026.1.1-aarch64.dmg"
+    },
+    {
+      "date": "2026-04-24T15:31:19Z",
+      "appName": "ProtonVPN",
+      "slug": "protonvpn/darwin",
+      "platform": "darwin",
+      "oldVersion": "6.4.0",
+      "newVersion": "6.5.0",
+      "installerUrl": "https://vpn.protondownload.com/download/macos/6.5.0/ProtonVPN_mac_v6.5.0.dmg"
+    },
+    {
+      "date": "2026-04-24T15:31:19Z",
+      "appName": "CLion",
+      "slug": "clion/darwin",
+      "platform": "darwin",
+      "oldVersion": "2026.1",
+      "newVersion": "2026.1.1",
+      "installerUrl": "https://download.jetbrains.com/cpp/CLion-2026.1.1-aarch64.dmg"
+    },
+    {
+      "date": "2026-04-24T15:31:19Z",
+      "appName": "Microsoft OneNote",
+      "slug": "microsoft-onenote/darwin",
+      "platform": "darwin",
+      "oldVersion": "16.108",
+      "newVersion": "16.108.1",
+      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.108.26041915_Updater.pkg"
+    },
+    {
+      "date": "2026-04-24T15:31:19Z",
+      "appName": "1Password",
+      "slug": "1password/windows",
+      "platform": "windows",
+      "oldVersion": "8.12.10",
+      "newVersion": "8.12.12",
+      "installerUrl": "https://c.1password.com/dist/1P/win8/1PasswordSetup-8.12.12.msi"
+    },
+    {
+      "date": "2026-04-24T15:31:19Z",
+      "appName": "Miro",
+      "slug": "miro/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.11.134",
+      "newVersion": "0.11.139",
+      "installerUrl": "https://desktop.miro.com/platforms/darwin-arm64/Install-Miro.dmg"
+    },
+    {
+      "date": "2026-04-24T15:31:19Z",
+      "appName": "Microsoft Excel",
+      "slug": "microsoft-excel/darwin",
+      "platform": "darwin",
+      "oldVersion": "16.108",
+      "newVersion": "16.108.1",
+      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.108.26041915_Installer.pkg"
+    },
+    {
+      "date": "2026-04-24T15:31:19Z",
+      "appName": "Adobe Acrobat Reader",
+      "slug": "adobe-acrobat-reader/windows",
+      "platform": "windows",
+      "oldVersion": "26.001.21431",
+      "newVersion": "26.001.21483",
+      "installerUrl": "https://ardownload2.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2600121483/AcroRdrDCx642600121483_MUI.exe"
     }
   ]
 }
