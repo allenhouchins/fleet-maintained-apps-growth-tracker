@@ -2,42 +2,6 @@
   "changes": [
     {
       "date": "2026-02-20T06:24:10Z",
-      "appName": "Brave",
-      "slug": "brave-browser/windows",
-      "platform": "windows",
-      "oldVersion": "145.1.87.188",
-      "newVersion": "145.1.87.190",
-      "installerUrl": "https://github.com/brave/brave-browser/releases/download/v1.87.190/BraveBrowserStandaloneSilentSetup.exe"
-    },
-    {
-      "date": "2026-02-20T06:24:10Z",
-      "appName": "Claude",
-      "slug": "claude/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.1.3541",
-      "newVersion": "1.1.3770",
-      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.1.3770/Claude-f7f5859a17386e383fad75f35ff6dd0f6e9dfd66.zip"
-    },
-    {
-      "date": "2026-02-20T06:24:10Z",
-      "appName": "Slack",
-      "slug": "slack/windows",
-      "platform": "windows",
-      "oldVersion": "4.48.94",
-      "newVersion": "4.48.95",
-      "installerUrl": "https://downloads.slack-edge.com/desktop-releases/windows/x64/4.48.95/slack-standalone-4.48.95.0.msi"
-    },
-    {
-      "date": "2026-02-20T06:24:10Z",
-      "appName": "Notion",
-      "slug": "notion/windows",
-      "platform": "windows",
-      "oldVersion": "7.5.0",
-      "newVersion": "7.5.2",
-      "installerUrl": "https://desktop-release.notion-static.com/Notion%20Setup%207.5.2.exe"
-    },
-    {
-      "date": "2026-02-20T06:24:10Z",
       "appName": "Arc",
       "slug": "arc/darwin",
       "platform": "darwin",
@@ -8999,6 +8963,42 @@
       "oldVersion": "",
       "newVersion": "1.19.8b",
       "installerUrl": "https://github.com/zen-browser/desktop/releases/download/1.19.8b/zen.macos-universal.dmg"
+    },
+    {
+      "date": "2026-04-25T03:09:24Z",
+      "appName": "Cursor",
+      "slug": "cursor/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.1.17",
+      "newVersion": "3.2.10",
+      "installerUrl": "https://downloads.cursor.com/production/87903b25fe9074e35b9ba372ed5bf14de5835962/darwin/arm64/Cursor-darwin-arm64.zip"
+    },
+    {
+      "date": "2026-04-25T03:09:24Z",
+      "appName": "Zen Browser",
+      "slug": "zen/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.19.8b",
+      "newVersion": "1.19.9b",
+      "installerUrl": "https://github.com/zen-browser/desktop/releases/download/1.19.9b/zen.macos-universal.dmg"
+    },
+    {
+      "date": "2026-04-25T03:09:24Z",
+      "appName": "Cursor",
+      "slug": "cursor/windows",
+      "platform": "windows",
+      "oldVersion": "3.1.17",
+      "newVersion": "3.2.10",
+      "installerUrl": "https://downloads.cursor.com/production/87903b25fe9074e35b9ba372ed5bf14de5835962/win32/x64/system-setup/CursorSetup-x64-3.2.10.exe"
+    },
+    {
+      "date": "2026-04-25T03:09:24Z",
+      "appName": "draw.io",
+      "slug": "drawio/darwin",
+      "platform": "darwin",
+      "oldVersion": "29.7.8",
+      "newVersion": "29.7.9",
+      "installerUrl": "https://github.com/jgraph/drawio-desktop/releases/download/v29.7.9/draw.io-arm64-29.7.9.dmg"
     }
   ]
 }
