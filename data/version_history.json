@@ -1,96 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-02-20T06:24:10Z",
-      "appName": "Arc",
-      "slug": "arc/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.134.1",
-      "newVersion": "1.135.0",
-      "installerUrl": "https://releases.arc.net/release/Arc-1.135.0-75383.zip"
-    },
-    {
-      "date": "2026-02-20T06:24:10Z",
-      "appName": "Microsoft Visual Studio Code",
-      "slug": "visual-studio-code/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.109.4",
-      "newVersion": "1.109.5",
-      "installerUrl": "https://update.code.visualstudio.com/1.109.5/darwin-arm64/stable"
-    },
-    {
-      "date": "2026-02-20T06:24:10Z",
-      "appName": "CLion",
-      "slug": "clion/darwin",
-      "platform": "darwin",
-      "oldVersion": "2025.3.2",
-      "newVersion": "2025.3.3",
-      "installerUrl": "https://download.jetbrains.com/cpp/CLion-2025.3.3-aarch64.dmg"
-    },
-    {
-      "date": "2026-02-20T06:24:10Z",
-      "appName": "Cyberduck",
-      "slug": "cyberduck/windows",
-      "platform": "windows",
-      "oldVersion": "9.3.1.44136",
-      "newVersion": "9.4.0.44341",
-      "installerUrl": "https://update.cyberduck.io//Cyberduck-Installer-9.4.0.44341.msi"
-    },
-    {
-      "date": "2026-02-20T06:24:10Z",
-      "appName": "WebStorm",
-      "slug": "webstorm/darwin",
-      "platform": "darwin",
-      "oldVersion": "2025.3.2",
-      "newVersion": "2025.3.3",
-      "installerUrl": "https://download.jetbrains.com/webstorm/WebStorm-2025.3.3-aarch64.dmg"
-    },
-    {
-      "date": "2026-02-20T06:24:10Z",
-      "appName": "ProtonVPN",
-      "slug": "protonvpn/darwin",
-      "platform": "darwin",
-      "oldVersion": "6.3.0",
-      "newVersion": "6.4.0",
-      "installerUrl": "https://vpn.protondownload.com/download/macos/6.4.0/ProtonVPN_mac_v6.4.0.dmg"
-    },
-    {
-      "date": "2026-02-20T06:24:10Z",
-      "appName": "Granola",
-      "slug": "granola/darwin",
-      "platform": "darwin",
-      "oldVersion": "7.14.2",
-      "newVersion": "7.30.1",
-      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.30.1/Granola-7.30.1-mac-universal.dmg"
-    },
-    {
-      "date": "2026-02-20T06:24:10Z",
-      "appName": "RustRover",
-      "slug": "rustrover/darwin",
-      "platform": "darwin",
-      "oldVersion": "2025.3.3",
-      "newVersion": "2025.3.4",
-      "installerUrl": "https://download.jetbrains.com/rustrover/RustRover-2025.3.4-aarch64.dmg"
-    },
-    {
-      "date": "2026-02-20T06:24:10Z",
-      "appName": "Slack",
-      "slug": "slack/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.48.94",
-      "newVersion": "4.48.95",
-      "installerUrl": "https://slack.com/api/desktop.latestRelease?redirect=1\u0026variant=pkg\u0026arch=universal"
-    },
-    {
-      "date": "2026-02-20T06:24:10Z",
-      "appName": "Microsoft Visual Studio Code",
-      "slug": "visual-studio-code/windows",
-      "platform": "windows",
-      "oldVersion": "1.109.4",
-      "newVersion": "1.109.5",
-      "installerUrl": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/072586267e68ece9a47aa43f8c108e0dcbf44622/VSCodeSetup-x64-1.109.5.exe"
-    },
-    {
       "date": "2026-02-20T15:18:33Z",
       "appName": "Spotify",
       "slug": "spotify/windows",
@@ -8999,6 +8909,96 @@
       "oldVersion": "29.7.8",
       "newVersion": "29.7.9",
       "installerUrl": "https://github.com/jgraph/drawio-desktop/releases/download/v29.7.9/draw.io-arm64-29.7.9.dmg"
+    },
+    {
+      "date": "2026-04-26T13:33:15Z",
+      "appName": "Claude",
+      "slug": "claude/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.3883.0",
+      "newVersion": "1.4758.0",
+      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.4758.0/Claude-fb266c24b61d94290860a3945b138d6d249425f6.zip"
+    },
+    {
+      "date": "2026-04-26T13:33:15Z",
+      "appName": "Telegram",
+      "slug": "telegram/windows",
+      "platform": "windows",
+      "oldVersion": "6.7.6",
+      "newVersion": "6.7.8",
+      "installerUrl": "https://github.com/telegramdesktop/tdesktop/releases/download/v6.7.8/tsetup-x64.6.7.8.exe"
+    },
+    {
+      "date": "2026-04-26T13:33:15Z",
+      "appName": "Microsoft Edge",
+      "slug": "microsoft-edge/darwin",
+      "platform": "darwin",
+      "oldVersion": "147.0.3912.72",
+      "newVersion": "147.0.3912.86",
+      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/02f2cb84-04fa-4090-9972-7d4571328442/MicrosoftEdge-147.0.3912.86.dmg"
+    },
+    {
+      "date": "2026-04-26T13:33:15Z",
+      "appName": "Claude",
+      "slug": "claude/windows",
+      "platform": "windows",
+      "oldVersion": "1.3883.0",
+      "newVersion": "1.4758.0",
+      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.4758.0/Claude-fb266c24b61d94290860a3945b138d6d249425f6.msix"
+    },
+    {
+      "date": "2026-04-26T13:33:15Z",
+      "appName": "CotEditor",
+      "slug": "coteditor/darwin",
+      "platform": "darwin",
+      "oldVersion": "7.0.0",
+      "newVersion": "7.0.1",
+      "installerUrl": "https://github.com/coteditor/CotEditor/releases/download/7.0.1/CotEditor_7.0.1.dmg"
+    },
+    {
+      "date": "2026-04-26T13:33:15Z",
+      "appName": "Spotify",
+      "slug": "spotify/windows",
+      "platform": "windows",
+      "oldVersion": "1.2.87.415.g88652836",
+      "newVersion": "1.2.88.483.g8aa8628e",
+      "installerUrl": "https://download.scdn.co/SpotifyFullSetupX64.exe"
+    },
+    {
+      "date": "2026-04-26T13:33:15Z",
+      "appName": "Cursor",
+      "slug": "cursor/windows",
+      "platform": "windows",
+      "oldVersion": "3.2.10",
+      "newVersion": "3.2.11",
+      "installerUrl": "https://downloads.cursor.com/production/e9ee1339915a927dfb2df4a836dd9c8337e17cc2/win32/x64/system-setup/CursorSetup-x64-3.2.11.exe"
+    },
+    {
+      "date": "2026-04-26T13:33:15Z",
+      "appName": "Zed",
+      "slug": "zed/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.233.5",
+      "newVersion": "0.233.10",
+      "installerUrl": "https://zed.dev/api/releases/stable/0.233.10/Zed-aarch64.dmg"
+    },
+    {
+      "date": "2026-04-26T13:33:15Z",
+      "appName": "Cursor",
+      "slug": "cursor/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.2.10",
+      "newVersion": "3.2.11",
+      "installerUrl": "https://downloads.cursor.com/production/e9ee1339915a927dfb2df4a836dd9c8337e17cc2/darwin/arm64/Cursor-darwin-arm64.zip"
+    },
+    {
+      "date": "2026-04-26T13:33:15Z",
+      "appName": "Warp",
+      "slug": "warp/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.2026.04.15.08.45.02",
+      "newVersion": "0.2026.04.22.08.46.03",
+      "installerUrl": "https://releases.warp.dev/stable/v0.2026.04.22.08.46.stable_03/Warp.dmg"
     }
   ]
 }
