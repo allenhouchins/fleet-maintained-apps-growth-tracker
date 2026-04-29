@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: April 29, 2026 at 2:36 PM CDT</p>
+            Last updated: April 29, 2026 at 2:40 PM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: April 29, 2026 at 2:36 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: April 29, 2026 at 2:40 PM CDT</p>
             </div>
         </div>
     </div>
@@ -5201,7 +5201,14 @@
                 "platform": "darwin",
                 "description": "Linear is an app to manage software development and track bugs.",
                 "version": "1.28.13",
-                "installerUrl": "https://download.todesktop.com/200315glz2793v6/Linear%201.28.13%20-%20Build%20260318pho1bttxr-arm64-mac.zip"
+                "installerUrl": "https://download.todesktop.com/200315glz2793v6/Linear%201.28.13%20-%20Build%20260318pho1bttxr-arm64-mac.zip",
+                "securityInfo": {
+                  "sha256": "1ee9cf2ec1217d89e3a0bae3cf958cb2c97fc19c583fa8211486f4822fe9b687",
+                  "cdhash": "3355cf4f4a0b2b9aa5c367e1daee61382051bf1f",
+                  "signingId": "7VZ2S3V9RV:com.linear",
+                  "teamId": "7VZ2S3V9RV",
+                  "lastUpdated": "2026-04-29T19:37:35Z"
+                }
               },
               {
                 "name": "Linear",
@@ -7883,7 +7890,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `April 29, 2026 at 2:36 PM CDT`;
+                let timestampText = 'Last updated: ' + `April 29, 2026 at 2:40 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
