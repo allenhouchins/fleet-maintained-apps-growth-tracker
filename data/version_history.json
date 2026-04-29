@@ -1,114 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-02-23T15:21:07Z",
-      "appName": "Claude",
-      "slug": "claude/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.1.3963",
-      "newVersion": "1.1.4010",
-      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.1.4010/Claude-da63f369d7533437f1b59f14173962eb5b54c714.zip"
-    },
-    {
-      "date": "2026-02-23T15:21:07Z",
-      "appName": "DeepL",
-      "slug": "deepl/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.1.33715377",
-      "newVersion": "26.2.13897266",
-      "installerUrl": "https://www.deepl.com/macos/download/26.2/13897266/DeepL.dmg"
-    },
-    {
-      "date": "2026-02-23T15:21:07Z",
-      "appName": "Miro",
-      "slug": "miro/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.11.128",
-      "newVersion": "0.11.132",
-      "installerUrl": "https://desktop.miro.com/platforms/darwin-arm64/Install-Miro.dmg"
-    },
-    {
-      "date": "2026-02-23T15:21:07Z",
-      "appName": "draw.io",
-      "slug": "drawio/darwin",
-      "platform": "darwin",
-      "oldVersion": "29.5.1",
-      "newVersion": "29.5.2",
-      "installerUrl": "https://github.com/jgraph/drawio-desktop/releases/download/v29.5.2/draw.io-arm64-29.5.2.dmg"
-    },
-    {
-      "date": "2026-02-23T15:21:07Z",
-      "appName": "Stats",
-      "slug": "stats/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.11.67",
-      "newVersion": "2.12.0",
-      "installerUrl": "https://github.com/exelban/stats/releases/download/v2.12.0/Stats.dmg"
-    },
-    {
-      "date": "2026-02-23T15:21:07Z",
-      "appName": "NordPass",
-      "slug": "nordpass/darwin",
-      "platform": "darwin",
-      "oldVersion": "7.3.14",
-      "newVersion": "7.4.8",
-      "installerUrl": "https://downloads.npass.app/mac/arm/NordPass.dmg"
-    },
-    {
-      "date": "2026-02-23T15:21:07Z",
-      "appName": "Android Studio",
-      "slug": "android-studio/darwin",
-      "platform": "darwin",
-      "oldVersion": "2025.2.3.9",
-      "newVersion": "2025.3.1.8",
-      "installerUrl": "https://edgedl.me.gvt1.com/android/studio/install/2025.3.1.8/android-studio-panda1-patch1-mac_arm.dmg"
-    },
-    {
-      "date": "2026-02-23T15:21:07Z",
-      "appName": "NordVPN",
-      "slug": "nordvpn/darwin",
-      "platform": "darwin",
-      "oldVersion": "9.13.0",
-      "newVersion": "9.14.0",
-      "installerUrl": "https://downloads.nordcdn.com/apps/macos/generic/NordVPN-OpenVPN/9.14.0/NordVPN.pkg"
-    },
-    {
-      "date": "2026-02-23T16:23:29Z",
-      "appName": "Okta Verify",
-      "slug": "okta-verify/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "6.6.2.0",
-      "installerUrl": "https://altana-ai.okta.com/api/v1/artifacts/WINDOWS_OKTA_VERIFY/download?releaseChannel=GA\u0026packageType=EXE"
-    },
-    {
-      "date": "2026-02-23T17:28:26Z",
-      "appName": "WhatsApp",
-      "slug": "whatsapp/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.7.19",
-      "newVersion": "26.8.17",
-      "installerUrl": "https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release\u0026src=whatsapp_downloads_page"
-    },
-    {
-      "date": "2026-02-24T04:40:31Z",
-      "appName": "GIMP",
-      "slug": "gimp/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "3.0.8.2",
-      "installerUrl": "https://download.gimp.org/gimp/v3.0/windows/gimp-3.0.8-setup-2.exe"
-    },
-    {
-      "date": "2026-02-24T19:25:26Z",
-      "appName": "Beyond Compare",
-      "slug": "beyond-compare/darwin",
-      "platform": "darwin",
-      "oldVersion": "5.1.7.31736",
-      "newVersion": "5.2.0.31950",
-      "installerUrl": "https://www.scootersoftware.com/files/BCompareOSX-5.2.0.31950.zip"
-    },
-    {
       "date": "2026-02-24T19:25:26Z",
       "appName": "Google Chrome",
       "slug": "google-chrome/windows",
@@ -8999,6 +8891,114 @@
       "oldVersion": "3.8.6.212",
       "newVersion": "3.8.6",
       "installerUrl": "https://downloads.veertu.com/anka/Anka-3.8.6.212.pkg"
+    },
+    {
+      "date": "2026-04-29T03:12:23Z",
+      "appName": "Granola",
+      "slug": "granola/windows",
+      "platform": "windows",
+      "oldVersion": "7.155.1",
+      "newVersion": "7.162.2",
+      "installerUrl": "https://api.granola.ai/v1/check-for-update/Granola-7.162.2-win-x64.exe"
+    },
+    {
+      "date": "2026-04-29T03:12:23Z",
+      "appName": "Granola",
+      "slug": "granola/darwin",
+      "platform": "darwin",
+      "oldVersion": "7.155.1",
+      "newVersion": "7.162.2",
+      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.162.2/Granola-7.162.2-mac-universal.dmg"
+    },
+    {
+      "date": "2026-04-29T03:12:23Z",
+      "appName": "Figma",
+      "slug": "figma/darwin",
+      "platform": "darwin",
+      "oldVersion": "126.2.10",
+      "newVersion": "126.3.12",
+      "installerUrl": "https://desktop.figma.com/mac-arm/Figma-126.3.12.zip"
+    },
+    {
+      "date": "2026-04-29T03:12:23Z",
+      "appName": "Mozilla Firefox ESR",
+      "slug": "firefox@esr/darwin",
+      "platform": "darwin",
+      "oldVersion": "140.10.0",
+      "newVersion": "140.10.1",
+      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/140.10.1esr/mac/en-US/Firefox%20140.10.1esr.dmg"
+    },
+    {
+      "date": "2026-04-29T03:12:23Z",
+      "appName": "Mozilla Firefox",
+      "slug": "firefox/darwin",
+      "platform": "darwin",
+      "oldVersion": "150.0",
+      "newVersion": "150.0.1",
+      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/150.0.1/mac/en-US/Firefox%20150.0.1.dmg"
+    },
+    {
+      "date": "2026-04-29T03:12:23Z",
+      "appName": "Notion",
+      "slug": "notion/darwin",
+      "platform": "darwin",
+      "oldVersion": "7.12.0",
+      "newVersion": "7.14.0",
+      "installerUrl": "https://desktop-release.notion-static.com/Notion-7.14.0-arm64.dmg"
+    },
+    {
+      "date": "2026-04-29T03:12:23Z",
+      "appName": "Mozilla Firefox",
+      "slug": "firefox/windows",
+      "platform": "windows",
+      "oldVersion": "150.0",
+      "newVersion": "150.0.1",
+      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/150.0.1/win64/en-US/Firefox%20Setup%20150.0.1.exe"
+    },
+    {
+      "date": "2026-04-29T03:12:23Z",
+      "appName": "Podman Desktop",
+      "slug": "podman-desktop/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.26.2",
+      "newVersion": "1.27.1",
+      "installerUrl": "https://github.com/containers/podman-desktop/releases/download/v1.27.1/podman-desktop-1.27.1-arm64.dmg"
+    },
+    {
+      "date": "2026-04-29T03:12:23Z",
+      "appName": "Microsoft Outlook",
+      "slug": "microsoft-outlook/darwin",
+      "platform": "darwin",
+      "oldVersion": "16.108.1",
+      "newVersion": "16.108",
+      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.108.26042616_Installer.pkg"
+    },
+    {
+      "date": "2026-04-29T03:12:23Z",
+      "appName": "PyCharm Professional",
+      "slug": "pycharm/darwin",
+      "platform": "darwin",
+      "oldVersion": "2026.1",
+      "newVersion": "2026.1.1",
+      "installerUrl": "https://download.jetbrains.com/python/pycharm-professional-2026.1.1-aarch64.dmg"
+    },
+    {
+      "date": "2026-04-29T03:12:23Z",
+      "appName": "Ollama",
+      "slug": "ollama/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.21.2",
+      "newVersion": "0.22.0",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.22.0/Ollama-darwin.zip"
+    },
+    {
+      "date": "2026-04-29T03:12:23Z",
+      "appName": "Warp",
+      "slug": "warp/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.2026.04.22.08.46.03",
+      "newVersion": "0.2026.04.27.15.32.02",
+      "installerUrl": "https://releases.warp.dev/stable/v0.2026.04.27.15.32.stable_02/Warp.dmg"
     }
   ]
 }
