@@ -1,222 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-02-24T19:25:26Z",
-      "appName": "Google Chrome",
-      "slug": "google-chrome/windows",
-      "platform": "windows",
-      "oldVersion": "145.0.7632.110",
-      "newVersion": "145.0.7632.117",
-      "installerUrl": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi"
-    },
-    {
-      "date": "2026-02-24T19:25:26Z",
-      "appName": "Cloudflare WARP",
-      "slug": "cloudflare-warp/windows",
-      "platform": "windows",
-      "oldVersion": "25.10.186.0",
-      "newVersion": "26.1.150.0",
-      "installerUrl": "https://downloads.cloudflareclient.com/v1/download/windows/version/2026.1.150.0"
-    },
-    {
-      "date": "2026-02-24T19:25:26Z",
-      "appName": "Docker Desktop",
-      "slug": "docker-desktop/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.61.0",
-      "newVersion": "4.62.0",
-      "installerUrl": "https://desktop.docker.com/mac/main/arm64/219486/Docker.dmg"
-    },
-    {
-      "date": "2026-02-24T19:25:26Z",
-      "appName": "Google Chrome",
-      "slug": "google-chrome/darwin",
-      "platform": "darwin",
-      "oldVersion": "145.0.7632.110",
-      "newVersion": "145.0.7632.117",
-      "installerUrl": "https://dl.google.com/dl/chrome/mac/universal/stable/gcem/GoogleChrome.pkg"
-    },
-    {
-      "date": "2026-02-24T19:25:26Z",
-      "appName": "Spotify",
-      "slug": "spotify/windows",
-      "platform": "windows",
-      "oldVersion": "1.2.84.465.gf71dea39",
-      "newVersion": "1.2.84.472.g6eba3a1b",
-      "installerUrl": "https://upgrade.scdn.co/upgrade/client/win32-x86_64/spotify_installer-1.2.84.472.g6eba3a1b-2070.exe"
-    },
-    {
-      "date": "2026-02-24T19:25:26Z",
-      "appName": "Tower",
-      "slug": "tower/darwin",
-      "platform": "darwin",
-      "oldVersion": "15.0.3",
-      "newVersion": "15.1",
-      "installerUrl": "https://www.git-tower.com/apps/tower3-mac/524-2420f6bb/Tower-15.1-524.zip"
-    },
-    {
-      "date": "2026-02-24T19:25:26Z",
-      "appName": "8x8 Work",
-      "slug": "8x8-work/windows",
-      "platform": "windows",
-      "oldVersion": "8.30.2",
-      "newVersion": "8.31.3",
-      "installerUrl": "https://work-desktop-assets.8x8.com/prod-publish/ga/work-64-msi-v8.31.3-1.msi"
-    },
-    {
-      "date": "2026-02-24T19:25:26Z",
-      "appName": "Discord",
-      "slug": "discord/windows",
-      "platform": "windows",
-      "oldVersion": "1.0.9225",
-      "newVersion": "1.0.9226",
-      "installerUrl": "https://stable.dl2.discordapp.net/distro/app/stable/win/x64/1.0.9226/DiscordSetup.exe"
-    },
-    {
-      "date": "2026-02-24T19:25:26Z",
-      "appName": "Mozilla Firefox",
-      "slug": "firefox/darwin",
-      "platform": "darwin",
-      "oldVersion": "147.0.4",
-      "newVersion": "148.0",
-      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/148.0/mac/en-US/Firefox%20148.0.dmg"
-    },
-    {
-      "date": "2026-02-24T19:25:26Z",
-      "appName": "ExpressVPN",
-      "slug": "expressvpn/darwin",
-      "platform": "darwin",
-      "oldVersion": "12.1.0.12128",
-      "newVersion": "12.1.0.12141",
-      "installerUrl": "https://www.expressvpn.works/clients/mac/expressvpn-macos-universal-12.1.0.12141_release.zip"
-    },
-    {
-      "date": "2026-02-24T19:25:26Z",
-      "appName": "Linear",
-      "slug": "linear-linear/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.28.10",
-      "newVersion": "1.28.11",
-      "installerUrl": "https://download.todesktop.com/200315glz2793v6/Linear%201.28.11%20-%20Build%202602232dq2d1ql3-arm64-mac.zip"
-    },
-    {
-      "date": "2026-02-24T19:25:26Z",
-      "appName": "Claude",
-      "slug": "claude/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.1.4010",
-      "newVersion": "1.1.4088",
-      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.1.4088/Claude-7e63fdb935ef758b2356a3d040ccd9176414cac7.zip"
-    },
-    {
-      "date": "2026-02-24T19:25:26Z",
-      "appName": "1Password",
-      "slug": "1password/darwin",
-      "platform": "darwin",
-      "oldVersion": "8.12.2",
-      "newVersion": "8.12.4",
-      "installerUrl": "https://downloads.1password.com/mac/1Password.pkg"
-    },
-    {
-      "date": "2026-02-24T19:25:26Z",
-      "appName": "TeamViewer",
-      "slug": "teamviewer/darwin",
-      "platform": "darwin",
-      "oldVersion": "15.74.6",
-      "newVersion": "15.75.4",
-      "installerUrl": "https://dl.teamviewer.com/download/version_15x/update/15.75.4/TeamViewer.pkg"
-    },
-    {
-      "date": "2026-02-24T19:25:26Z",
-      "appName": "Cloudflare WARP",
-      "slug": "cloudflare-warp/darwin",
-      "platform": "darwin",
-      "oldVersion": "2025.10.186.0",
-      "newVersion": "2026.1.150.0",
-      "installerUrl": "https://downloads.cloudflareclient.com/v1/download/macos/version/2026.1.150.0"
-    },
-    {
-      "date": "2026-02-24T19:25:26Z",
-      "appName": "OneDrive",
-      "slug": "onedrive/darwin",
-      "platform": "darwin",
-      "oldVersion": "25.243.1211.0001",
-      "newVersion": "26.017.0126.0002",
-      "installerUrl": "https://oneclient.sfx.ms/Mac/Installers/26.017.0126.0002/universal/OneDrive.pkg"
-    },
-    {
-      "date": "2026-02-24T19:25:26Z",
-      "appName": "1Password",
-      "slug": "1password/windows",
-      "platform": "windows",
-      "oldVersion": "8.12.2",
-      "newVersion": "8.12.4",
-      "installerUrl": "https://c.1password.com/dist/1P/win8/1PasswordSetup-8.12.4.msi"
-    },
-    {
-      "date": "2026-02-24T19:25:26Z",
-      "appName": "DisplayLink USB Graphics Software",
-      "slug": "displaylink/darwin",
-      "platform": "darwin",
-      "oldVersion": "15.0",
-      "newVersion": "15.1",
-      "installerUrl": "https://www.synaptics.com/sites/default/files/exe_files/2026-02/DisplayLink%20Manager%20Graphics%20Connectivity15.1-EXE.pkg"
-    },
-    {
-      "date": "2026-02-24T19:25:26Z",
-      "appName": "Discord",
-      "slug": "discord/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.0.377",
-      "newVersion": "0.0.378",
-      "installerUrl": "https://dl.discordapp.net/apps/osx/0.0.378/Discord.dmg"
-    },
-    {
-      "date": "2026-02-24T19:25:26Z",
-      "appName": "Amazon Chime",
-      "slug": "amazon-chime/darwin",
-      "platform": "darwin",
-      "oldVersion": "5.23.22475",
-      "newVersion": "5.23.22488",
-      "installerUrl": "https://clients.chime.aws/mac-nme/AmazonChime-5.23.22488.dmg"
-    },
-    {
-      "date": "2026-02-24T19:25:26Z",
-      "appName": "Mozilla Firefox",
-      "slug": "firefox/windows",
-      "platform": "windows",
-      "oldVersion": "147.0.4",
-      "newVersion": "148.0",
-      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/148.0/win64/en-US/Firefox%20Setup%20148.0.exe"
-    },
-    {
-      "date": "2026-02-24T19:25:26Z",
-      "appName": "Sublime Merge",
-      "slug": "sublime-merge/darwin",
-      "platform": "darwin",
-      "oldVersion": "2121",
-      "newVersion": "2123",
-      "installerUrl": "https://download.sublimetext.com/sublime_merge_build_2123_mac.zip"
-    },
-    {
-      "date": "2026-02-25T20:14:42Z",
-      "appName": "Microsoft Outlook",
-      "slug": "microsoft-outlook/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.106.26021521",
-      "newVersion": "16.106.26022219",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.106.26022219_Installer.pkg"
-    },
-    {
-      "date": "2026-02-25T20:14:42Z",
-      "appName": "Claude",
-      "slug": "claude/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.1.4088",
-      "newVersion": "1.1.4173",
-      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.1.4173/Claude-12766c56e46a0f6bf202bfa397fceafe4468d7de.zip"
-    },
-    {
       "date": "2026-02-25T20:14:42Z",
       "appName": "Box Drive",
       "slug": "box-drive/darwin",
@@ -8999,6 +8783,222 @@
       "oldVersion": "0.2026.04.22.08.46.03",
       "newVersion": "0.2026.04.27.15.32.02",
       "installerUrl": "https://releases.warp.dev/stable/v0.2026.04.27.15.32.stable_02/Warp.dmg"
+    },
+    {
+      "date": "2026-04-29T15:44:13Z",
+      "appName": "Cursor",
+      "slug": "cursor/windows",
+      "platform": "windows",
+      "oldVersion": "3.2.11",
+      "newVersion": "3.2.16",
+      "installerUrl": "https://downloads.cursor.com/production/3e548838cf824b70851dd3ef27d0c6aae371b3f6/win32/x64/system-setup/CursorSetup-x64-3.2.16.exe"
+    },
+    {
+      "date": "2026-04-29T15:44:13Z",
+      "appName": "Microsoft Excel",
+      "slug": "microsoft-excel/darwin",
+      "platform": "darwin",
+      "oldVersion": "16.108.1",
+      "newVersion": "16.108.2",
+      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.108.26042616_Installer.pkg"
+    },
+    {
+      "date": "2026-04-29T15:44:13Z",
+      "appName": "Raycast",
+      "slug": "raycast/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.104.13",
+      "newVersion": "1.104.14",
+      "installerUrl": "https://releases.raycast.com/releases/1.104.14/download?build=arm"
+    },
+    {
+      "date": "2026-04-29T15:44:13Z",
+      "appName": "Postman",
+      "slug": "postman/windows",
+      "platform": "windows",
+      "oldVersion": "12.8.1",
+      "newVersion": "12.8.3",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.8.3/windows_64"
+    },
+    {
+      "date": "2026-04-29T15:44:13Z",
+      "appName": "Claude",
+      "slug": "claude/windows",
+      "platform": "windows",
+      "oldVersion": "1.4758.0",
+      "newVersion": "1.5354.0",
+      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.5354.0/Claude-9a9e3d5a4a368f0f49a80dc303b0ed1a18bfedad.msix"
+    },
+    {
+      "date": "2026-04-29T15:44:13Z",
+      "appName": "Google Chrome",
+      "slug": "google-chrome/darwin",
+      "platform": "darwin",
+      "oldVersion": "147.0.7727.117",
+      "newVersion": "147.0.7727.138",
+      "installerUrl": "https://dl.google.com/dl/chrome/mac/universal/stable/gcem/GoogleChrome.pkg"
+    },
+    {
+      "date": "2026-04-29T15:44:13Z",
+      "appName": "Windsurf",
+      "slug": "windsurf/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.0.67",
+      "newVersion": "2.1.29",
+      "installerUrl": "https://windsurf-stable.codeiumdata.com/darwin-arm64-dmg/stable/5dab04154a4694324d3f81c0885897e41d0d2f82/Windsurf-darwin-arm64-2.1.29.dmg"
+    },
+    {
+      "date": "2026-04-29T15:44:13Z",
+      "appName": "Microsoft Visual Studio Code",
+      "slug": "visual-studio-code/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.117.0",
+      "newVersion": "1.118.0",
+      "installerUrl": "https://update.code.visualstudio.com/1.118.0/darwin-arm64/stable"
+    },
+    {
+      "date": "2026-04-29T15:44:13Z",
+      "appName": "Ollama",
+      "slug": "ollama/windows",
+      "platform": "windows",
+      "oldVersion": "0.21.2",
+      "newVersion": "0.22.0",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.22.0/OllamaSetup.exe"
+    },
+    {
+      "date": "2026-04-29T15:44:13Z",
+      "appName": "WhatsApp",
+      "slug": "whatsapp/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.16.17",
+      "newVersion": "26.17.19",
+      "installerUrl": "https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release\u0026src=whatsapp_downloads_page"
+    },
+    {
+      "date": "2026-04-29T15:44:13Z",
+      "appName": "Microsoft Word",
+      "slug": "microsoft-word/darwin",
+      "platform": "darwin",
+      "oldVersion": "16.108.1",
+      "newVersion": "16.108.2",
+      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.108.26042616_Installer.pkg"
+    },
+    {
+      "date": "2026-04-29T15:44:13Z",
+      "appName": "Sketch",
+      "slug": "sketch/darwin",
+      "platform": "darwin",
+      "oldVersion": "2026.1.1",
+      "newVersion": "2026.1.2",
+      "installerUrl": "https://download.sketch.com/sketch-2026.1.2-228390.zip"
+    },
+    {
+      "date": "2026-04-29T15:44:13Z",
+      "appName": "Opera",
+      "slug": "opera/darwin",
+      "platform": "darwin",
+      "oldVersion": "130.0",
+      "newVersion": "131.0",
+      "installerUrl": "https://get.geo.opera.com/pub/opera/desktop/131.0.5877.5/mac/Opera_131.0.5877.5_Setup.dmg"
+    },
+    {
+      "date": "2026-04-29T15:44:13Z",
+      "appName": "Cursor",
+      "slug": "cursor/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.2.11",
+      "newVersion": "3.2.16",
+      "installerUrl": "https://downloads.cursor.com/production/3e548838cf824b70851dd3ef27d0c6aae371b3f6/darwin/arm64/Cursor-darwin-arm64.zip"
+    },
+    {
+      "date": "2026-04-29T15:44:13Z",
+      "appName": "Postman",
+      "slug": "postman/darwin",
+      "platform": "darwin",
+      "oldVersion": "12.8.1",
+      "newVersion": "12.8.3",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.8.3/osx_arm64"
+    },
+    {
+      "date": "2026-04-29T15:44:13Z",
+      "appName": "Google Chrome",
+      "slug": "google-chrome/windows",
+      "platform": "windows",
+      "oldVersion": "147.0.7727.117",
+      "newVersion": "147.0.7727.138",
+      "installerUrl": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi"
+    },
+    {
+      "date": "2026-04-29T15:44:13Z",
+      "appName": "Mozilla Firefox ESR",
+      "slug": "firefox@esr/windows",
+      "platform": "windows",
+      "oldVersion": "140.10.0",
+      "newVersion": "140.10.1",
+      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/140.10.1esr/win64/en-US/Firefox%20Setup%20140.10.1esr.exe"
+    },
+    {
+      "date": "2026-04-29T15:44:13Z",
+      "appName": "Wacom Tablet",
+      "slug": "wacom-tablet/darwin",
+      "platform": "darwin",
+      "oldVersion": "6.4.12-3",
+      "newVersion": "6.4.13-4",
+      "installerUrl": "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.4.13-4.dmg"
+    },
+    {
+      "date": "2026-04-29T15:44:13Z",
+      "appName": "Claude",
+      "slug": "claude/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.4758.0",
+      "newVersion": "1.5354.0",
+      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.5354.0/Claude-9a9e3d5a4a368f0f49a80dc303b0ed1a18bfedad.zip"
+    },
+    {
+      "date": "2026-04-29T15:44:13Z",
+      "appName": "Microsoft Outlook",
+      "slug": "microsoft-outlook/darwin",
+      "platform": "darwin",
+      "oldVersion": "16.108",
+      "newVersion": "16.108.2",
+      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.108.26042616_Installer.pkg"
+    },
+    {
+      "date": "2026-04-29T15:44:13Z",
+      "appName": "Notion",
+      "slug": "notion/windows",
+      "platform": "windows",
+      "oldVersion": "7.12.0",
+      "newVersion": "7.14.0",
+      "installerUrl": "https://desktop-release.notion-static.com/Notion%20Setup%207.14.0.exe"
+    },
+    {
+      "date": "2026-04-29T15:44:13Z",
+      "appName": "Discord",
+      "slug": "discord/windows",
+      "platform": "windows",
+      "oldVersion": "1.0.9234",
+      "newVersion": "1.0.9235",
+      "installerUrl": "https://stable.dl2.discordapp.net/distro/app/stable/win/x64/1.0.9235/DiscordSetup.exe"
+    },
+    {
+      "date": "2026-04-29T15:44:13Z",
+      "appName": "Microsoft PowerPoint",
+      "slug": "microsoft-powerpoint/darwin",
+      "platform": "darwin",
+      "oldVersion": "16.108.1",
+      "newVersion": "16.108.2",
+      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.108.26042616_Installer.pkg"
+    },
+    {
+      "date": "2026-04-29T15:44:13Z",
+      "appName": "Microsoft OneNote",
+      "slug": "microsoft-onenote/darwin",
+      "platform": "darwin",
+      "oldVersion": "16.108.1",
+      "newVersion": "16.108.2",
+      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.108.26042616_Updater.pkg"
     }
   ]
 }
