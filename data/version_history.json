@@ -2,105 +2,6 @@
   "changes": [
     {
       "date": "2026-02-25T20:14:42Z",
-      "appName": "WhatsApp",
-      "slug": "whatsapp/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.8.17",
-      "newVersion": "26.8.18",
-      "installerUrl": "https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release\u0026src=whatsapp_downloads_page"
-    },
-    {
-      "date": "2026-02-25T20:14:42Z",
-      "appName": "TeamViewer",
-      "slug": "teamviewer/windows",
-      "platform": "windows",
-      "oldVersion": "15.74.6",
-      "newVersion": "15.75.4",
-      "installerUrl": "https://download.teamviewer.com/download/version_15x/TeamViewer_Setup_x64.exe"
-    },
-    {
-      "date": "2026-02-25T20:14:42Z",
-      "appName": "Cursor",
-      "slug": "cursor/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.5.20",
-      "newVersion": "2.5.25",
-      "installerUrl": "https://downloads.cursor.com/production/7150844152b426ed50d2b68dd6b33b5c5beb73ca/darwin/arm64/Cursor-darwin-arm64.zip"
-    },
-    {
-      "date": "2026-02-25T20:14:42Z",
-      "appName": "Rectangle",
-      "slug": "rectangle/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.93",
-      "newVersion": "0.94",
-      "installerUrl": "https://github.com/rxhanson/Rectangle/releases/download/v0.94/Rectangle0.94.dmg"
-    },
-    {
-      "date": "2026-02-25T20:14:42Z",
-      "appName": "Brave",
-      "slug": "brave-browser/darwin",
-      "platform": "darwin",
-      "oldVersion": "145.1.87.190",
-      "newVersion": "145.1.87.191",
-      "installerUrl": "https://updates-cdn.bravesoftware.com/sparkle/Brave-Browser/stable-arm64/187.191/Brave-Browser-arm64.dmg"
-    },
-    {
-      "date": "2026-02-25T20:14:42Z",
-      "appName": "Claude",
-      "slug": "claude/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "1.1.4088",
-      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.1.4088/Claude-7e63fdb935ef758b2356a3d040ccd9176414cac7.exe"
-    },
-    {
-      "date": "2026-02-25T20:14:42Z",
-      "appName": "MongoDB Compass",
-      "slug": "mongodb-compass/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.49.1",
-      "newVersion": "1.49.2",
-      "installerUrl": "https://downloads.mongodb.com/compass/mongodb-compass-1.49.2-darwin-arm64.dmg"
-    },
-    {
-      "date": "2026-02-25T20:14:42Z",
-      "appName": "Bruno",
-      "slug": "bruno/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.1.3",
-      "newVersion": "3.1.4",
-      "installerUrl": "https://github.com/usebruno/bruno/releases/download/v3.1.4/bruno_3.1.4_arm64_mac.dmg"
-    },
-    {
-      "date": "2026-02-25T20:14:42Z",
-      "appName": "Notion",
-      "slug": "notion/darwin",
-      "platform": "darwin",
-      "oldVersion": "7.5.2",
-      "newVersion": "7.6.1",
-      "installerUrl": "https://desktop-release.notion-static.com/Notion-7.6.1-arm64.dmg"
-    },
-    {
-      "date": "2026-02-25T20:14:42Z",
-      "appName": "Microsoft PowerPoint",
-      "slug": "microsoft-powerpoint/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.106.26021521",
-      "newVersion": "16.106.26022219",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.106.26022219_Installer.pkg"
-    },
-    {
-      "date": "2026-02-25T20:14:42Z",
-      "appName": "Thunderbird",
-      "slug": "thunderbird/darwin",
-      "platform": "darwin",
-      "oldVersion": "147.0.2",
-      "newVersion": "148.0",
-      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/148.0/mac/en-US/Thunderbird%20148.0.dmg"
-    },
-    {
-      "date": "2026-02-25T20:14:42Z",
       "appName": "Microsoft Excel",
       "slug": "microsoft-excel/darwin",
       "platform": "darwin",
@@ -8999,6 +8900,105 @@
       "oldVersion": "",
       "newVersion": "1.28.13",
       "installerUrl": "https://download.todesktop.com/200315glz2793v6/Linear%201.28.13%20-%20Build%20260318pho1bttxr-arm64-mac.zip"
+    },
+    {
+      "date": "2026-04-29T22:24:07Z",
+      "appName": "Brave",
+      "slug": "brave-browser/windows",
+      "platform": "windows",
+      "oldVersion": "147.1.89.143",
+      "newVersion": "147.1.89.145",
+      "installerUrl": "https://github.com/brave/brave-browser/releases/download/v1.89.145/BraveBrowserStandaloneSilentSetup.exe"
+    },
+    {
+      "date": "2026-04-29T22:24:07Z",
+      "appName": "Brave",
+      "slug": "brave-browser/darwin",
+      "platform": "darwin",
+      "oldVersion": "147.1.89.143",
+      "newVersion": "147.1.89.145",
+      "installerUrl": "https://updates-cdn.bravesoftware.com/sparkle/Brave-Browser/stable-arm64/189.145/Brave-Browser-arm64.dmg"
+    },
+    {
+      "date": "2026-04-29T22:24:07Z",
+      "appName": "CotEditor",
+      "slug": "coteditor/darwin",
+      "platform": "darwin",
+      "oldVersion": "7.0.1",
+      "newVersion": "7.0.2",
+      "installerUrl": "https://github.com/coteditor/CotEditor/releases/download/7.0.2/CotEditor_7.0.2.dmg"
+    },
+    {
+      "date": "2026-04-29T22:24:07Z",
+      "appName": "Company Portal",
+      "slug": "intune-company-portal/darwin",
+      "platform": "darwin",
+      "oldVersion": "5.2602.0",
+      "newVersion": "5.2603.0",
+      "installerUrl": "https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/CompanyPortal_5.2603.0-Upgrade.pkg"
+    },
+    {
+      "date": "2026-04-29T22:24:07Z",
+      "appName": "NordVPN",
+      "slug": "nordvpn/darwin",
+      "platform": "darwin",
+      "oldVersion": "10.0.4",
+      "newVersion": "10.1.0",
+      "installerUrl": "https://downloads.nordcdn.com/apps/macos/generic/NordVPN-OpenVPN/10.1.0/NordVPN.pkg"
+    },
+    {
+      "date": "2026-04-29T22:24:07Z",
+      "appName": "Raycast",
+      "slug": "raycast/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.104.14",
+      "newVersion": "1.104.15",
+      "installerUrl": "https://releases.raycast.com/releases/1.104.15/download?build=arm"
+    },
+    {
+      "date": "2026-04-29T22:24:07Z",
+      "appName": "Microsoft Visual Studio Code",
+      "slug": "visual-studio-code/windows",
+      "platform": "windows",
+      "oldVersion": "1.117.0",
+      "newVersion": "1.118.0",
+      "installerUrl": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/9b8ae15a8cf95b9bce1b590b42954530f440e816/VSCodeSetup-x64-1.118.0.exe"
+    },
+    {
+      "date": "2026-04-29T22:24:07Z",
+      "appName": "Windsurf",
+      "slug": "windsurf/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.1.29",
+      "newVersion": "2.1.32",
+      "installerUrl": "https://windsurf-stable.codeiumdata.com/darwin-arm64-dmg/stable/63e54ba26dd2a1b975c172966dff80bad8ae74c7/Windsurf-darwin-arm64-2.1.32.dmg"
+    },
+    {
+      "date": "2026-04-29T22:24:07Z",
+      "appName": "Dropbox",
+      "slug": "dropbox/darwin",
+      "platform": "darwin",
+      "oldVersion": "248.4.3576",
+      "newVersion": "250.4.3245",
+      "installerUrl": "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20250.4.3245.arm64.dmg"
+    },
+    {
+      "date": "2026-04-29T22:24:07Z",
+      "appName": "Zed",
+      "slug": "zed/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.233.10",
+      "newVersion": "1.0.0",
+      "installerUrl": "https://zed.dev/api/releases/stable/1.0.0/Zed-aarch64.dmg"
+    },
+    {
+      "date": "2026-04-29T22:24:07Z",
+      "appName": "Grammarly Desktop",
+      "slug": "grammarly-desktop/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.163.0",
+      "newVersion": "1.163.1",
+      "installerUrl": "https://download-mac.grammarly.com/versions/1.163.1.0/Grammarly.dmg"
     }
   ]
 }
