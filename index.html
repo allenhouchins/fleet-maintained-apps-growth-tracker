@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: April 29, 2026 at 8:41 PM CDT</p>
+            Last updated: April 29, 2026 at 8:50 PM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: April 29, 2026 at 8:41 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: April 29, 2026 at 8:50 PM CDT</p>
             </div>
         </div>
     </div>
@@ -4350,7 +4350,14 @@
                 "platform": "darwin",
                 "description": "Druva inSync is a cloud-based product that protects endpoint data.",
                 "version": "7.6.1",
-                "installerUrl": "https://downloads.druva.com/downloads/inSync/MAC/7.6.1/inSync-7.6.1-r110931.dmg"
+                "installerUrl": "https://downloads.druva.com/downloads/inSync/MAC/7.6.1/inSync-7.6.1-r110931.dmg",
+                "securityInfo": {
+                  "sha256": "21cfed5675e589f3d6934d9fb5e69438474e9a71f93ac0a0e3ebacee7fde3961",
+                  "cdhash": "e16e539463095df5d5a0b70b6f92e2a86a22c228",
+                  "signingId": "JN6HK3RMAP:com.druva.inSync",
+                  "teamId": "JN6HK3RMAP",
+                  "lastUpdated": "2026-04-30T01:43:48Z"
+                }
               },
               {
                 "name": "Druva inSync",
@@ -7290,7 +7297,14 @@
                 "platform": "darwin",
                 "description": "Zoom Rooms is conference room software for Zoom meetings.",
                 "version": "7.0.0.12322",
-                "installerUrl": "https://cdn.zoom.us/prod/7.0.0.12322/ZoomRooms.pkg"
+                "installerUrl": "https://cdn.zoom.us/prod/7.0.0.12322/ZoomRooms.pkg",
+                "securityInfo": {
+                  "sha256": "7c949f51c63ff23f1c41771baaa8cf25cd0ff260c29c4660af84a161fd49a6a0",
+                  "cdhash": "60541747c4d31246b525f75930a445c702eaac57",
+                  "signingId": "BJ4HAAB9B3:us.zoom.ZoomRoomsAssistant",
+                  "teamId": "BJ4HAAB9B3",
+                  "lastUpdated": "2026-04-30T01:49:25Z"
+                }
               },
               {
                 "name": "Zoom",
@@ -7922,7 +7936,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `April 29, 2026 at 8:41 PM CDT`;
+                let timestampText = 'Last updated: ' + `April 29, 2026 at 8:50 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
