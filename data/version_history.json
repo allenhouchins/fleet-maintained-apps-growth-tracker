@@ -1,69 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-02-25T21:14:34Z",
-      "appName": "Teleport Suite",
-      "slug": "teleport-suite/darwin",
-      "platform": "darwin",
-      "oldVersion": "18.7.0",
-      "newVersion": "18.7.1",
-      "installerUrl": "https://cdn.teleport.dev/teleport-18.7.1.pkg"
-    },
-    {
-      "date": "2026-02-25T21:14:34Z",
-      "appName": "Notion",
-      "slug": "notion/windows",
-      "platform": "windows",
-      "oldVersion": "7.5.2",
-      "newVersion": "7.6.1",
-      "installerUrl": "https://desktop-release.notion-static.com/Notion%20Setup%207.6.1.exe"
-    },
-    {
-      "date": "2026-02-25T21:14:34Z",
-      "appName": "Claude",
-      "slug": "claude/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.1.4173",
-      "newVersion": "1.1.4328",
-      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.1.4328/Claude-d8e39139e1c50f5530ac3da3af80e689710c8ea1.zip"
-    },
-    {
-      "date": "2026-02-25T21:14:34Z",
-      "appName": "WhatsApp",
-      "slug": "whatsapp/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.8.18",
-      "newVersion": "26.8.21",
-      "installerUrl": "https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release\u0026src=whatsapp_downloads_page"
-    },
-    {
-      "date": "2026-02-27T04:37:58Z",
-      "appName": "OmniGraffle",
-      "slug": "omnigraffle/darwin",
-      "platform": "darwin",
-      "oldVersion": "7.25.1",
-      "newVersion": "7.25.2",
-      "installerUrl": "https://downloads.omnigroup.com/software/macOS/12/OmniGraffle-7.25.2.dmg"
-    },
-    {
-      "date": "2026-02-27T04:37:58Z",
-      "appName": "Claude",
-      "slug": "claude/windows",
-      "platform": "windows",
-      "oldVersion": "1.1.4088",
-      "newVersion": "1.1.4328",
-      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.1.4328/Claude-d8e39139e1c50f5530ac3da3af80e689710c8ea1.exe"
-    },
-    {
-      "date": "2026-02-27T04:37:58Z",
-      "appName": "Windsurf",
-      "slug": "windsurf/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.9552.25",
-      "newVersion": "1.9566.11",
-      "installerUrl": "https://windsurf-stable.codeiumdata.com/darwin-arm64-dmg/stable/8911695f6454083fd48c3422f4736eb88053357c/Windsurf-darwin-arm64-1.9566.11.dmg"
-    },
-    {
       "date": "2026-02-27T04:37:58Z",
       "appName": "Spotify",
       "slug": "spotify/windows",
@@ -8999,6 +8936,69 @@
       "oldVersion": "1.118.0",
       "newVersion": "1.118.1",
       "installerUrl": "https://update.code.visualstudio.com/1.118.1/darwin-arm64/stable"
+    },
+    {
+      "date": "2026-04-30T15:40:02Z",
+      "appName": "Postman",
+      "slug": "postman/darwin",
+      "platform": "darwin",
+      "oldVersion": "12.8.3",
+      "newVersion": "12.8.4",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.8.4/osx_arm64"
+    },
+    {
+      "date": "2026-04-30T15:40:02Z",
+      "appName": "Wireshark",
+      "slug": "wireshark/windows",
+      "platform": "windows",
+      "oldVersion": "4.6.4",
+      "newVersion": "4.6.5",
+      "installerUrl": "https://2.na.dl.wireshark.org/win64/all-versions/Wireshark-4.6.5-x64.msi"
+    },
+    {
+      "date": "2026-04-30T15:40:02Z",
+      "appName": "NordPass",
+      "slug": "nordpass/darwin",
+      "platform": "darwin",
+      "oldVersion": "7.6.18",
+      "newVersion": "7.6.20",
+      "installerUrl": "https://downloads.npass.app/mac/arm/NordPass.dmg"
+    },
+    {
+      "date": "2026-04-30T15:40:02Z",
+      "appName": "Warp",
+      "slug": "warp/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.2026.04.27.15.32.02",
+      "newVersion": "0.2026.04.27.15.32.03",
+      "installerUrl": "https://releases.warp.dev/stable/v0.2026.04.27.15.32.stable_03/Warp.dmg"
+    },
+    {
+      "date": "2026-04-30T15:40:02Z",
+      "appName": "Wireshark",
+      "slug": "wireshark-app/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.6.4",
+      "newVersion": "4.6.5",
+      "installerUrl": "https://www.wireshark.org/download/osx/all-versions/Wireshark%204.6.5.dmg"
+    },
+    {
+      "date": "2026-04-30T15:40:02Z",
+      "appName": "Postman",
+      "slug": "postman/windows",
+      "platform": "windows",
+      "oldVersion": "12.8.3",
+      "newVersion": "12.8.4",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.8.4/windows_64"
+    },
+    {
+      "date": "2026-04-30T15:40:02Z",
+      "appName": "Google Drive",
+      "slug": "google-drive/windows",
+      "platform": "windows",
+      "oldVersion": "123.0.1.0",
+      "newVersion": "124.0.3.0",
+      "installerUrl": "https://dl.google.com/release2/drive-file-stream/ad3gkahhztgqrnd7u3npfpvue3ba_124.0.3.0/setup.exe"
     }
   ]
 }
