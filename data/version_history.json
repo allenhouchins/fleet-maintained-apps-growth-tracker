@@ -1,24 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-02-25T20:14:42Z",
-      "appName": "Microsoft Word",
-      "slug": "microsoft-word/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.106.26021521",
-      "newVersion": "16.106.2",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.106.26022219_Installer.pkg"
-    },
-    {
-      "date": "2026-02-25T21:14:34Z",
-      "appName": "Teleport Connect",
-      "slug": "teleport-connect/darwin",
-      "platform": "darwin",
-      "oldVersion": "18.7.0",
-      "newVersion": "18.7.1",
-      "installerUrl": "https://cdn.teleport.dev/Teleport%20Connect-18.7.1.dmg"
-    },
-    {
       "date": "2026-02-25T21:14:34Z",
       "appName": "Teleport Suite",
       "slug": "teleport-suite/darwin",
@@ -8999,6 +8981,24 @@
       "oldVersion": "",
       "newVersion": "7.0.0.12322",
       "installerUrl": "https://cdn.zoom.us/prod/7.0.0.12322/ZoomRooms.pkg"
+    },
+    {
+      "date": "2026-04-30T03:13:45Z",
+      "appName": "Microsoft Visual Studio Code",
+      "slug": "visual-studio-code/windows",
+      "platform": "windows",
+      "oldVersion": "1.118.0",
+      "newVersion": "1.118.1",
+      "installerUrl": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/034f571df509819cc10b0c8129f66ef77a542f0e/VSCodeSetup-x64-1.118.1.exe"
+    },
+    {
+      "date": "2026-04-30T03:13:45Z",
+      "appName": "Microsoft Visual Studio Code",
+      "slug": "visual-studio-code/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.118.0",
+      "newVersion": "1.118.1",
+      "installerUrl": "https://update.code.visualstudio.com/1.118.1/darwin-arm64/stable"
     }
   ]
 }
