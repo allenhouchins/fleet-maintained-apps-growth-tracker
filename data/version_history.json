@@ -2,105 +2,6 @@
   "changes": [
     {
       "date": "2026-03-04T00:32:54Z",
-      "appName": "Raycast",
-      "slug": "raycast/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.104.6",
-      "newVersion": "1.104.8",
-      "installerUrl": "https://releases.raycast.com/releases/1.104.8/download?build=arm"
-    },
-    {
-      "date": "2026-03-04T00:32:54Z",
-      "appName": "Elgato Stream Deck",
-      "slug": "elgato-stream-deck/darwin",
-      "platform": "darwin",
-      "oldVersion": "7.2.1.22472",
-      "newVersion": "7.3.0.22599",
-      "installerUrl": "https://edge.elgato.com/egc/macos/sd/Stream_Deck_7.3.0.22599.pkg"
-    },
-    {
-      "date": "2026-03-04T00:32:54Z",
-      "appName": "Postman",
-      "slug": "postman/windows",
-      "platform": "windows",
-      "oldVersion": "11.85.1",
-      "newVersion": "12.0.1",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.0.1/windows_64"
-    },
-    {
-      "date": "2026-03-04T00:32:54Z",
-      "appName": "Postman",
-      "slug": "postman/darwin",
-      "platform": "darwin",
-      "oldVersion": "11.85.1",
-      "newVersion": "11.86.1",
-      "installerUrl": "https://dl.pstmn.io/download/version/11.86.1/osx_arm64"
-    },
-    {
-      "date": "2026-03-04T00:32:54Z",
-      "appName": "1Password",
-      "slug": "1password/windows",
-      "platform": "windows",
-      "oldVersion": "8.12.4",
-      "newVersion": "8.12.5",
-      "installerUrl": "https://c.1password.com/dist/1P/win8/1PasswordSetup-8.12.5.msi"
-    },
-    {
-      "date": "2026-03-04T00:32:54Z",
-      "appName": "Arc",
-      "slug": "arc/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.135.0",
-      "newVersion": "1.136.0",
-      "installerUrl": "https://releases.arc.net/release/Arc-1.136.0-75750.zip"
-    },
-    {
-      "date": "2026-03-04T00:32:54Z",
-      "appName": "iTerm2",
-      "slug": "iterm2/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.6.7",
-      "newVersion": "3.6.8",
-      "installerUrl": "https://iterm2.com/downloads/stable/iTerm2-3_6_8.zip"
-    },
-    {
-      "date": "2026-03-04T00:32:54Z",
-      "appName": "Microsoft Outlook",
-      "slug": "microsoft-outlook/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.106.26022219",
-      "newVersion": "16.106.26030211",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.106.26030211_Installer.pkg"
-    },
-    {
-      "date": "2026-03-04T00:32:54Z",
-      "appName": "Microsoft Edge",
-      "slug": "microsoft-edge/darwin",
-      "platform": "darwin",
-      "oldVersion": "145.0.3800.70",
-      "newVersion": "145.0.3800.82",
-      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/9050b0de-c6a5-4c00-8118-41956d6747f7/MicrosoftEdge-145.0.3800.82.dmg"
-    },
-    {
-      "date": "2026-03-04T00:32:54Z",
-      "appName": "Android Studio",
-      "slug": "android-studio/darwin",
-      "platform": "darwin",
-      "oldVersion": "2025.3.1.8",
-      "newVersion": "2025.3.2.6",
-      "installerUrl": "https://edgedl.me.gvt1.com/android/studio/install/2025.3.2.6/android-studio-panda2-mac_arm.dmg"
-    },
-    {
-      "date": "2026-03-04T00:32:54Z",
-      "appName": "FileMaker Pro",
-      "slug": "filemaker-pro/darwin",
-      "platform": "darwin",
-      "oldVersion": "22.0.4.406",
-      "newVersion": "22.0.5.500",
-      "installerUrl": "https://downloads.claris.com/esd/fmp_22.0.5.500.dmg"
-    },
-    {
-      "date": "2026-03-04T00:32:54Z",
       "appName": "Pritunl",
       "slug": "pritunl/darwin",
       "platform": "darwin",
@@ -8999,6 +8900,105 @@
       "oldVersion": "1.144.0",
       "newVersion": "1.145.0",
       "installerUrl": "https://releases.arc.net/release/Arc-1.145.0-79930.zip"
+    },
+    {
+      "date": "2026-05-01T15:25:36Z",
+      "appName": "Ollama",
+      "slug": "ollama/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.22.0",
+      "newVersion": "0.22.1",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.22.1/Ollama-darwin.zip"
+    },
+    {
+      "date": "2026-05-01T15:25:36Z",
+      "appName": "Zotero",
+      "slug": "zotero/darwin",
+      "platform": "darwin",
+      "oldVersion": "9.0.1",
+      "newVersion": "9.0.2",
+      "installerUrl": "https://download.zotero.org/client/release/9.0.2/Zotero-9.0.2.dmg"
+    },
+    {
+      "date": "2026-05-01T15:25:36Z",
+      "appName": "Zotero",
+      "slug": "zotero/windows",
+      "platform": "windows",
+      "oldVersion": "9.0.1",
+      "newVersion": "9.0.2",
+      "installerUrl": "https://download.zotero.org/client/release/9.0.2/Zotero-9.0.2_x64_setup.exe"
+    },
+    {
+      "date": "2026-05-01T15:25:36Z",
+      "appName": "calibre",
+      "slug": "calibre/darwin",
+      "platform": "darwin",
+      "oldVersion": "9.7.0",
+      "newVersion": "9.8.0",
+      "installerUrl": "https://download.calibre-ebook.com/9.8.0/calibre-9.8.0.dmg"
+    },
+    {
+      "date": "2026-05-01T15:25:36Z",
+      "appName": "Microsoft Teams",
+      "slug": "microsoft-teams/darwin",
+      "platform": "darwin",
+      "oldVersion": "26072.608.4595.8484",
+      "newVersion": "26093.311.4599.3126",
+      "installerUrl": "https://statics.teams.cdn.office.net/production-osx/26093.311.4599.3126/MicrosoftTeams.pkg"
+    },
+    {
+      "date": "2026-05-01T15:25:36Z",
+      "appName": "Granola",
+      "slug": "granola/darwin",
+      "platform": "darwin",
+      "oldVersion": "7.162.2",
+      "newVersion": "7.162.5",
+      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.162.5/Granola-7.162.5-mac-universal.dmg"
+    },
+    {
+      "date": "2026-05-01T15:25:36Z",
+      "appName": "Teleport Connect",
+      "slug": "teleport-connect/darwin",
+      "platform": "darwin",
+      "oldVersion": "18.7.5",
+      "newVersion": "18.7.6",
+      "installerUrl": "https://cdn.teleport.dev/Teleport%20Connect-18.7.6.dmg"
+    },
+    {
+      "date": "2026-05-01T15:25:36Z",
+      "appName": "Microsoft Edge",
+      "slug": "microsoft-edge/windows",
+      "platform": "windows",
+      "oldVersion": "147.0.3912.86",
+      "newVersion": "147.0.3912.98",
+      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/33a7f26a-babe-4cfd-aa52-de77616e2850/MicrosoftEdgeEnterpriseX64.msi"
+    },
+    {
+      "date": "2026-05-01T15:25:36Z",
+      "appName": "Teleport Suite",
+      "slug": "teleport-suite/darwin",
+      "platform": "darwin",
+      "oldVersion": "18.7.5",
+      "newVersion": "18.7.6",
+      "installerUrl": "https://cdn.teleport.dev/teleport-18.7.6.pkg"
+    },
+    {
+      "date": "2026-05-01T15:25:36Z",
+      "appName": "Ollama",
+      "slug": "ollama/windows",
+      "platform": "windows",
+      "oldVersion": "0.22.0",
+      "newVersion": "0.22.1",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.22.1/OllamaSetup.exe"
+    },
+    {
+      "date": "2026-05-01T15:25:36Z",
+      "appName": "Fork",
+      "slug": "fork/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.63.2",
+      "newVersion": "2.66.7",
+      "installerUrl": "https://cdn.fork.dev/mac/Fork-2.66.7.dmg"
     }
   ]
 }
