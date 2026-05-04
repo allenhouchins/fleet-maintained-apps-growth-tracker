@@ -2,15 +2,6 @@
   "changes": [
     {
       "date": "2026-03-04T00:32:54Z",
-      "appName": "Dropbox",
-      "slug": "dropbox/darwin",
-      "platform": "darwin",
-      "oldVersion": "242.4.5815",
-      "newVersion": "243.4.6956",
-      "installerUrl": "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20243.4.6956.arm64.dmg"
-    },
-    {
-      "date": "2026-03-04T00:32:54Z",
       "appName": "1Password",
       "slug": "1password/darwin",
       "platform": "darwin",
@@ -8999,6 +8990,15 @@
       "oldVersion": "12.8.4",
       "newVersion": "12.9.0",
       "installerUrl": "https://dl.pstmn.io/download/version/12.9.0/windows_64"
+    },
+    {
+      "date": "2026-05-04T16:39:01Z",
+      "appName": "Fleet Desktop",
+      "slug": "fleet-desktop/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.1.0",
+      "newVersion": "1.2.0",
+      "installerUrl": "https://github.com/allenhouchins/fleet-desktop/releases/download/v1.2.0/fleet_desktop-v1.2.0.pkg"
     }
   ]
 }
