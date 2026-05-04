@@ -2,96 +2,6 @@
   "changes": [
     {
       "date": "2026-03-04T00:32:54Z",
-      "appName": "WhatsApp",
-      "slug": "whatsapp/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.8.21",
-      "newVersion": "26.9.17",
-      "installerUrl": "https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release\u0026src=whatsapp_downloads_page"
-    },
-    {
-      "date": "2026-03-04T00:32:54Z",
-      "appName": "Google Drive",
-      "slug": "google-drive/darwin",
-      "platform": "darwin",
-      "oldVersion": "121.0.1",
-      "newVersion": "122.0.1",
-      "installerUrl": "https://dl.google.com/drive-file-stream/5-percent/GoogleDrive.dmg"
-    },
-    {
-      "date": "2026-03-04T00:32:54Z",
-      "appName": "ChatGPT Desktop",
-      "slug": "chatgpt/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.2026.041",
-      "newVersion": "1.2026.048",
-      "installerUrl": "https://persistent.oaistatic.com/sidekick/public/ChatGPT_Desktop_public_1.2026.048_1771630681.dmg"
-    },
-    {
-      "date": "2026-03-04T00:32:54Z",
-      "appName": "LibreOffice",
-      "slug": "libreoffice/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.2.0",
-      "newVersion": "26.2.1",
-      "installerUrl": "https://download.documentfoundation.org/libreoffice/stable/26.2.1/mac/aarch64/LibreOffice_26.2.1_MacOS_aarch64.dmg"
-    },
-    {
-      "date": "2026-03-04T00:32:54Z",
-      "appName": "Cursor",
-      "slug": "cursor/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.5.25",
-      "newVersion": "2.5.26",
-      "installerUrl": "https://downloads.cursor.com/production/7d96c2a03bb088ad367615e9da1a3fe20fbbc6ae/darwin/arm64/Cursor-darwin-arm64.zip"
-    },
-    {
-      "date": "2026-03-04T00:32:54Z",
-      "appName": "Claude",
-      "slug": "claude/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.1.4328",
-      "newVersion": "1.1.4498",
-      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.1.4498/Claude-24f7682cc400dec8d91fc28e444aa02743ab79dd.zip"
-    },
-    {
-      "date": "2026-03-04T00:32:54Z",
-      "appName": "Docker Desktop",
-      "slug": "docker-desktop/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.62.0",
-      "newVersion": "4.63.0",
-      "installerUrl": "https://desktop.docker.com/mac/main/arm64/220185/Docker.dmg"
-    },
-    {
-      "date": "2026-03-04T00:32:54Z",
-      "appName": "Okta Verify",
-      "slug": "okta-verify/darwin",
-      "platform": "darwin",
-      "oldVersion": "9.56.1",
-      "newVersion": "9.57.2",
-      "installerUrl": "https://okta.okta.com/artifacts/OKTA_VERIFY_MACOS/9.57.2/OktaVerify-9.57.2-5980-2c4833b.pkg"
-    },
-    {
-      "date": "2026-03-04T00:32:54Z",
-      "appName": "Privileges",
-      "slug": "privileges/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.5.0",
-      "newVersion": "2.5.1",
-      "installerUrl": "https://github.com/SAP/macOS-enterprise-privileges/releases/download/2.5.1/Privileges_2.5.1.pkg"
-    },
-    {
-      "date": "2026-03-04T00:32:54Z",
-      "appName": "Adobe Acrobat Reader",
-      "slug": "adobe-acrobat-reader/windows",
-      "platform": "windows",
-      "oldVersion": "25.001.21223",
-      "newVersion": "25.001.21265",
-      "installerUrl": "https://ardownload2.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2500121265/AcroRdrDCx642500121265_MUI.exe"
-    },
-    {
-      "date": "2026-03-04T00:32:54Z",
       "appName": "Dropbox",
       "slug": "dropbox/darwin",
       "platform": "darwin",
@@ -8999,6 +8909,96 @@
       "oldVersion": "2.12.12",
       "newVersion": "2.12.13",
       "installerUrl": "https://github.com/exelban/stats/releases/download/v2.12.13/Stats.dmg"
+    },
+    {
+      "date": "2026-05-04T15:45:52Z",
+      "appName": "Postman",
+      "slug": "postman/darwin",
+      "platform": "darwin",
+      "oldVersion": "12.8.4",
+      "newVersion": "12.9.0",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.9.0/osx_arm64"
+    },
+    {
+      "date": "2026-05-04T15:45:52Z",
+      "appName": "Cursor",
+      "slug": "cursor/windows",
+      "platform": "windows",
+      "oldVersion": "3.2.16",
+      "newVersion": "3.2.21",
+      "installerUrl": "https://downloads.cursor.com/production/806df57ed3b6f1ee0175140d38039a38574ec722/win32/x64/system-setup/CursorSetup-x64-3.2.21.exe"
+    },
+    {
+      "date": "2026-05-04T15:45:52Z",
+      "appName": "Cursor",
+      "slug": "cursor/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.2.16",
+      "newVersion": "3.2.21",
+      "installerUrl": "https://downloads.cursor.com/production/806df57ed3b6f1ee0175140d38039a38574ec722/darwin/arm64/Cursor-darwin-arm64.zip"
+    },
+    {
+      "date": "2026-05-04T15:45:52Z",
+      "appName": "Zed",
+      "slug": "zed/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.0.0",
+      "newVersion": "1.0.1",
+      "installerUrl": "https://zed.dev/api/releases/stable/1.0.1/Zed-aarch64.dmg"
+    },
+    {
+      "date": "2026-05-04T15:45:52Z",
+      "appName": "Ollama",
+      "slug": "ollama/windows",
+      "platform": "windows",
+      "oldVersion": "0.22.1",
+      "newVersion": "0.23.0",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.23.0/OllamaSetup.exe"
+    },
+    {
+      "date": "2026-05-04T15:45:52Z",
+      "appName": "Adobe Acrobat Reader",
+      "slug": "adobe-acrobat-reader/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.001.21431",
+      "newVersion": "26.001.21529",
+      "installerUrl": "https://ardownload2.adobe.com/pub/adobe/reader/mac/AcrobatDC/2600121529/AcroRdrDC_2600121529_MUI.dmg"
+    },
+    {
+      "date": "2026-05-04T15:45:52Z",
+      "appName": "Ollama",
+      "slug": "ollama/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.22.1",
+      "newVersion": "0.23.0",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.23.0/Ollama-darwin.zip"
+    },
+    {
+      "date": "2026-05-04T15:45:52Z",
+      "appName": "8x8 Work",
+      "slug": "8x8-work/windows",
+      "platform": "windows",
+      "oldVersion": "8.32.2",
+      "newVersion": "8.33.2",
+      "installerUrl": "https://work-desktop-assets.8x8.com/prod-publish/ga/work-64-msi-v8.33.2-2.msi"
+    },
+    {
+      "date": "2026-05-04T15:45:52Z",
+      "appName": "8x8 Work",
+      "slug": "8x8-work/darwin",
+      "platform": "darwin",
+      "oldVersion": "8.32.2",
+      "newVersion": "8.33.2",
+      "installerUrl": "https://work-desktop-assets.8x8.com/prod-publish/ga/work-arm64-dmg-v8.33.2-2.dmg"
+    },
+    {
+      "date": "2026-05-04T15:45:52Z",
+      "appName": "Postman",
+      "slug": "postman/windows",
+      "platform": "windows",
+      "oldVersion": "12.8.4",
+      "newVersion": "12.9.0",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.9.0/windows_64"
     }
   ]
 }
