@@ -2,78 +2,6 @@
   "changes": [
     {
       "date": "2026-03-04T00:32:54Z",
-      "appName": "Opera",
-      "slug": "opera/darwin",
-      "platform": "darwin",
-      "oldVersion": "127.0.5778.76",
-      "newVersion": "128.0.5807.37",
-      "installerUrl": "https://get.geo.opera.com/pub/opera/desktop/128.0.5807.37/mac/Opera_128.0.5807.37_Setup.dmg"
-    },
-    {
-      "date": "2026-03-04T00:32:54Z",
-      "appName": "Microsoft Edge",
-      "slug": "microsoft-edge/windows",
-      "platform": "windows",
-      "oldVersion": "145.0.3800.70",
-      "newVersion": "145.0.3800.82",
-      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/7924a3fc-0236-4168-9363-b402d6795c37/MicrosoftEdgeEnterpriseX64.msi"
-    },
-    {
-      "date": "2026-03-04T00:32:54Z",
-      "appName": "Zed",
-      "slug": "zed/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.225.9",
-      "newVersion": "0.225.12",
-      "installerUrl": "https://zed.dev/api/releases/stable/0.225.12/Zed-aarch64.dmg"
-    },
-    {
-      "date": "2026-03-04T00:32:54Z",
-      "appName": "8x8 Work",
-      "slug": "8x8-work/darwin",
-      "platform": "darwin",
-      "oldVersion": "8.30.2",
-      "newVersion": "8.31.3",
-      "installerUrl": "https://work-desktop-assets.8x8.com/prod-publish/ga/work-arm64-dmg-v8.31.3-1.dmg"
-    },
-    {
-      "date": "2026-03-04T00:32:54Z",
-      "appName": "Miro",
-      "slug": "miro/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.11.132",
-      "newVersion": "0.11.134",
-      "installerUrl": "https://desktop.miro.com/platforms/darwin-arm64/Install-Miro.dmg"
-    },
-    {
-      "date": "2026-03-04T00:32:54Z",
-      "appName": "Discord",
-      "slug": "discord/windows",
-      "platform": "windows",
-      "oldVersion": "1.0.9226",
-      "newVersion": "1.0.9227",
-      "installerUrl": "https://stable.dl2.discordapp.net/distro/app/stable/win/x64/1.0.9227/DiscordSetup.exe"
-    },
-    {
-      "date": "2026-03-04T00:32:54Z",
-      "appName": "Stats",
-      "slug": "stats/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.12.0",
-      "newVersion": "2.12.1",
-      "installerUrl": "https://github.com/exelban/stats/releases/download/v2.12.1/Stats.dmg"
-    },
-    {
-      "date": "2026-03-04T00:32:54Z",
-      "appName": "Sourcetree",
-      "slug": "sourcetree/windows",
-      "platform": "windows",
-      "oldVersion": "3.4.29",
-      "newVersion": "3.4.30",
-      "installerUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.4.30.msi"
-    },
-    {
-      "date": "2026-03-04T00:32:54Z",
       "appName": "Cyberduck",
       "slug": "cyberduck/windows",
       "platform": "windows",
@@ -8999,6 +8927,78 @@
       "oldVersion": "9.6.5",
       "newVersion": "9.7.0",
       "installerUrl": "https://download.anydesk.com/anydesk.dmg"
+    },
+    {
+      "date": "2026-05-05T15:42:00Z",
+      "appName": "Nextcloud",
+      "slug": "nextcloud/darwin",
+      "platform": "darwin",
+      "oldVersion": "33.0.3",
+      "newVersion": "33.0.4",
+      "installerUrl": "https://github.com/nextcloud-releases/desktop/releases/download/v33.0.4/Nextcloud-33.0.4.pkg"
+    },
+    {
+      "date": "2026-05-05T15:42:00Z",
+      "appName": "Postman",
+      "slug": "postman/darwin",
+      "platform": "darwin",
+      "oldVersion": "12.9.0",
+      "newVersion": "12.9.2",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.9.2/osx_arm64"
+    },
+    {
+      "date": "2026-05-05T15:42:00Z",
+      "appName": "Discord",
+      "slug": "discord/windows",
+      "platform": "windows",
+      "oldVersion": "1.0.9235",
+      "newVersion": "1.0.9236",
+      "installerUrl": "https://stable.dl2.discordapp.net/distro/app/stable/win/x64/1.0.9236/DiscordSetup.exe"
+    },
+    {
+      "date": "2026-05-05T15:42:00Z",
+      "appName": "Discord",
+      "slug": "discord/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.0.388",
+      "newVersion": "0.0.389",
+      "installerUrl": "https://dl.discordapp.net/apps/osx/0.0.389/Discord.dmg"
+    },
+    {
+      "date": "2026-05-05T15:42:00Z",
+      "appName": "Grammarly Desktop",
+      "slug": "grammarly-desktop/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.163.1",
+      "newVersion": "1.164.0",
+      "installerUrl": "https://download-mac.grammarly.com/versions/1.164.0.0/Grammarly.dmg"
+    },
+    {
+      "date": "2026-05-05T15:42:00Z",
+      "appName": "Rancher Desktop",
+      "slug": "rancher/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.22.0",
+      "newVersion": "1.22.2",
+      "installerUrl": "https://github.com/rancher-sandbox/rancher-desktop/releases/download/v1.22.2/Rancher.Desktop-1.22.2.aarch64.dmg"
+    },
+    {
+      "date": "2026-05-05T15:42:00Z",
+      "appName": "Tower",
+      "slug": "tower/darwin",
+      "platform": "darwin",
+      "oldVersion": "15.1",
+      "newVersion": "16.0",
+      "installerUrl": "https://www.git-tower.com/apps/tower3-mac/534-1e48e030/Tower-16.0-534.zip"
+    },
+    {
+      "date": "2026-05-05T15:42:00Z",
+      "appName": "Anka",
+      "slug": "anka-virtualization/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.8.6",
+      "newVersion": "3.9.0",
+      "installerUrl": "https://downloads.veertu.com/anka/Anka-3.9.0.215.pkg"
     }
   ]
 }
