@@ -2,60 +2,6 @@
   "changes": [
     {
       "date": "2026-03-08T00:34:12Z",
-      "appName": "Slack",
-      "slug": "slack/windows",
-      "platform": "windows",
-      "oldVersion": "4.48.95",
-      "newVersion": "4.48.100",
-      "installerUrl": "https://downloads.slack-edge.com/desktop-releases/windows/x64/4.48.100/slack-standalone-4.48.100.0.msi"
-    },
-    {
-      "date": "2026-03-08T00:34:12Z",
-      "appName": "Insomnia",
-      "slug": "insomnia/darwin",
-      "platform": "darwin",
-      "oldVersion": "12.3.1",
-      "newVersion": "12.4.0",
-      "installerUrl": "https://github.com/Kong/insomnia/releases/download/core%4012.4.0/Insomnia.Core-12.4.0.dmg"
-    },
-    {
-      "date": "2026-03-08T00:34:12Z",
-      "appName": "Claude",
-      "slug": "claude/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.1.4498",
-      "newVersion": "1.1.5368",
-      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.1.5368/Claude-d12d0218c6c7bc46d52919117bd57508c591a8ad.zip"
-    },
-    {
-      "date": "2026-03-08T00:34:12Z",
-      "appName": "Grammarly Desktop",
-      "slug": "grammarly-desktop/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.154.0.0",
-      "newVersion": "1.155.0.0",
-      "installerUrl": "https://download-mac.grammarly.com/versions/1.155.0.0/Grammarly.dmg"
-    },
-    {
-      "date": "2026-03-08T00:34:12Z",
-      "appName": "Logi Options+",
-      "slug": "logi-options+/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.99.834046",
-      "newVersion": "2.0.848900",
-      "installerUrl": "https://download01.logi.com/web/ftp/pub/techsupport/optionsplus/logioptionsplus_installer.zip"
-    },
-    {
-      "date": "2026-03-08T00:34:12Z",
-      "appName": "Spotify",
-      "slug": "spotify/windows",
-      "platform": "windows",
-      "oldVersion": "1.2.84.477.gcfdf84e8",
-      "newVersion": "1.2.85.504.gbcffb495",
-      "installerUrl": "https://upgrade.scdn.co/upgrade/client/win32-x86_64/spotify_installer-1.2.85.504.gbcffb495-3444.exe"
-    },
-    {
-      "date": "2026-03-08T00:34:12Z",
       "appName": "TeamViewer",
       "slug": "teamviewer/windows",
       "platform": "windows",
@@ -8999,6 +8945,60 @@
       "oldVersion": "3.2.21",
       "newVersion": "3.3.12",
       "installerUrl": "https://downloads.cursor.com/production/75c0dfd29aecf2cc208dbaf761d5cc459c601aa2/darwin/arm64/Cursor-darwin-arm64.zip"
+    },
+    {
+      "date": "2026-05-06T22:20:51Z",
+      "appName": "MongoDB Compass",
+      "slug": "mongodb-compass/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.49.5",
+      "newVersion": "1.49.6",
+      "installerUrl": "https://downloads.mongodb.com/compass/mongodb-compass-1.49.6-darwin-arm64.dmg"
+    },
+    {
+      "date": "2026-05-06T22:20:51Z",
+      "appName": "Proxyman",
+      "slug": "proxyman/darwin",
+      "platform": "darwin",
+      "oldVersion": "6.9.0",
+      "newVersion": "6.10.0",
+      "installerUrl": "https://download.proxyman.com/61000/Proxyman_6.10.0.dmg"
+    },
+    {
+      "date": "2026-05-06T22:20:51Z",
+      "appName": "Docker Desktop",
+      "slug": "docker-desktop/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.71.0",
+      "newVersion": "4.72.0",
+      "installerUrl": "https://desktop.docker.com/mac/main/arm64/225998/Docker.dmg"
+    },
+    {
+      "date": "2026-05-06T22:20:51Z",
+      "appName": "ChatGPT Desktop",
+      "slug": "chatgpt/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.2026.104",
+      "newVersion": "1.2026.118",
+      "installerUrl": "https://persistent.oaistatic.com/sidekick/public/ChatGPT_Desktop_public_1.2026.118_1777682760.dmg"
+    },
+    {
+      "date": "2026-05-06T22:20:51Z",
+      "appName": "Inkscape",
+      "slug": "inkscape/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.4.3",
+      "newVersion": "1.4.4",
+      "installerUrl": "https://media.inkscape.org/dl/resources/file/Inkscape-1.4.4_arm64.dmg"
+    },
+    {
+      "date": "2026-05-06T22:20:51Z",
+      "appName": "Twingate",
+      "slug": "twingate/windows",
+      "platform": "windows",
+      "oldVersion": "20.26.90.8546",
+      "newVersion": "20.26.120.9484",
+      "installerUrl": "https://binaries.twingate.com/client/windows/versions/2026.120.9484/TwingateWindowsInstaller.msi"
     }
   ]
 }
