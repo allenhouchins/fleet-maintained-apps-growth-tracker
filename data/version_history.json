@@ -2,78 +2,6 @@
   "changes": [
     {
       "date": "2026-03-08T00:34:12Z",
-      "appName": "Arc",
-      "slug": "arc/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.136.0",
-      "newVersion": "1.137.0",
-      "installerUrl": "https://releases.arc.net/release/Arc-1.137.0-76310.zip"
-    },
-    {
-      "date": "2026-03-08T00:34:12Z",
-      "appName": "Postman",
-      "slug": "postman/darwin",
-      "platform": "darwin",
-      "oldVersion": "11.86.1",
-      "newVersion": "12.0.8",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.0.8/osx_arm64"
-    },
-    {
-      "date": "2026-03-08T00:34:12Z",
-      "appName": "Zed",
-      "slug": "zed/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.225.13",
-      "newVersion": "0.226.5",
-      "installerUrl": "https://zed.dev/api/releases/stable/0.226.5/Zed-aarch64.dmg"
-    },
-    {
-      "date": "2026-03-08T00:34:12Z",
-      "appName": "Bitwarden",
-      "slug": "bitwarden/darwin",
-      "platform": "darwin",
-      "oldVersion": "2026.1.1",
-      "newVersion": "2026.2.1",
-      "installerUrl": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.2.1/Bitwarden-2026.2.1-universal.dmg"
-    },
-    {
-      "date": "2026-03-08T00:34:12Z",
-      "appName": "Google Chrome",
-      "slug": "google-chrome/windows",
-      "platform": "windows",
-      "oldVersion": "145.0.7632.117",
-      "newVersion": "145.0.7632.160",
-      "installerUrl": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi"
-    },
-    {
-      "date": "2026-03-08T00:34:12Z",
-      "appName": "010 Editor",
-      "slug": "010-editor/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.0.3",
-      "newVersion": "16.0.4",
-      "installerUrl": "https://download.sweetscape.com/010EditorMacARM64Installer16.0.4.dmg"
-    },
-    {
-      "date": "2026-03-08T00:34:12Z",
-      "appName": "Brave",
-      "slug": "brave-browser/windows",
-      "platform": "windows",
-      "oldVersion": "145.1.87.191",
-      "newVersion": "145.1.87.192",
-      "installerUrl": "https://github.com/brave/brave-browser/releases/download/v1.87.192/BraveBrowserStandaloneSilentSetup.exe"
-    },
-    {
-      "date": "2026-03-08T00:34:12Z",
-      "appName": "Loom",
-      "slug": "loom/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.336.4",
-      "newVersion": "0.336.5",
-      "installerUrl": "https://packages.loom.com/desktop-packages/Loom-0.336.5-arm64.dmg"
-    },
-    {
-      "date": "2026-03-08T00:34:12Z",
       "appName": "Microsoft Visual Studio Code",
       "slug": "visual-studio-code/darwin",
       "platform": "darwin",
@@ -8999,6 +8927,78 @@
       "oldVersion": "3.2.21",
       "newVersion": "3.3.16",
       "installerUrl": "https://downloads.cursor.com/production/7f0f522221d0ba220e4edb766bb3c47c08c14ab7/win32/x64/system-setup/CursorSetup-x64-3.3.16.exe"
+    },
+    {
+      "date": "2026-05-07T19:36:21Z",
+      "appName": "Cursor",
+      "slug": "cursor/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.3.16",
+      "newVersion": "3.3.22",
+      "installerUrl": "https://downloads.cursor.com/production/38a27120cfc7419a5efa38420665eaeeed1e7b32/darwin/arm64/Cursor-darwin-arm64.zip"
+    },
+    {
+      "date": "2026-05-07T19:36:21Z",
+      "appName": "Brave",
+      "slug": "brave-browser/darwin",
+      "platform": "darwin",
+      "oldVersion": "147.1.89.145",
+      "newVersion": "148.1.90.121",
+      "installerUrl": "https://updates-cdn.bravesoftware.com/sparkle/Brave-Browser/stable-arm64/190.121/Brave-Browser-arm64.dmg"
+    },
+    {
+      "date": "2026-05-07T19:36:21Z",
+      "appName": "Mozilla Firefox ESR",
+      "slug": "firefox@esr/darwin",
+      "platform": "darwin",
+      "oldVersion": "140.10.1",
+      "newVersion": "140.10.2",
+      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/140.10.2esr/mac/en-US/Firefox%20140.10.2esr.dmg"
+    },
+    {
+      "date": "2026-05-07T19:36:21Z",
+      "appName": "Arc",
+      "slug": "arc/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.145.0",
+      "newVersion": "1.146.0",
+      "installerUrl": "https://releases.arc.net/release/Arc-1.146.0-80402.zip"
+    },
+    {
+      "date": "2026-05-07T19:36:21Z",
+      "appName": "Mozilla Firefox",
+      "slug": "firefox/darwin",
+      "platform": "darwin",
+      "oldVersion": "150.0.1",
+      "newVersion": "150.0.2",
+      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/150.0.2/mac/en-US/Firefox%20150.0.2.dmg"
+    },
+    {
+      "date": "2026-05-07T19:36:21Z",
+      "appName": "GitKraken",
+      "slug": "gitkraken/darwin",
+      "platform": "darwin",
+      "oldVersion": "12.1.0",
+      "newVersion": "12.1.1",
+      "installerUrl": "https://api.gitkraken.dev/releases/production/darwin/arm64/12.1.1/GitKraken-v12.1.1.zip"
+    },
+    {
+      "date": "2026-05-07T19:36:21Z",
+      "appName": "Signal",
+      "slug": "signal/darwin",
+      "platform": "darwin",
+      "oldVersion": "8.8.0",
+      "newVersion": "8.9.0",
+      "installerUrl": "https://updates.signal.org/desktop/signal-desktop-mac-arm64-8.9.0.zip"
+    },
+    {
+      "date": "2026-05-07T19:36:21Z",
+      "appName": "Tor Browser",
+      "slug": "tor-browser/darwin",
+      "platform": "darwin",
+      "oldVersion": "15.0.11",
+      "newVersion": "15.0.12",
+      "installerUrl": "https://www.torproject.org/dist/torbrowser/15.0.12/tor-browser-macos-15.0.12.dmg"
     }
   ]
 }
