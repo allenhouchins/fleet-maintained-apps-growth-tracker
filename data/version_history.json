@@ -2,42 +2,6 @@
   "changes": [
     {
       "date": "2026-03-08T00:34:12Z",
-      "appName": "TeamViewer",
-      "slug": "teamviewer/windows",
-      "platform": "windows",
-      "oldVersion": "15.75.4",
-      "newVersion": "15.75.5",
-      "installerUrl": "https://download.teamviewer.com/download/version_15x/TeamViewer_Setup_x64.exe"
-    },
-    {
-      "date": "2026-03-08T00:34:12Z",
-      "appName": "Google Chrome",
-      "slug": "google-chrome/darwin",
-      "platform": "darwin",
-      "oldVersion": "145.0.7632.117",
-      "newVersion": "145.0.7632.160",
-      "installerUrl": "https://dl.google.com/dl/chrome/mac/universal/stable/gcem/GoogleChrome.pkg"
-    },
-    {
-      "date": "2026-03-08T00:34:12Z",
-      "appName": "Signal",
-      "slug": "signal/darwin",
-      "platform": "darwin",
-      "oldVersion": "8.0.0",
-      "newVersion": "8.1.0",
-      "installerUrl": "https://updates.signal.org/desktop/signal-desktop-mac-arm64-8.1.0.zip"
-    },
-    {
-      "date": "2026-03-08T00:34:12Z",
-      "appName": "JetBrains Toolbox",
-      "slug": "jetbrains-toolbox/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.3",
-      "newVersion": "3.3.1",
-      "installerUrl": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-3.3.1.75249-arm64.dmg"
-    },
-    {
-      "date": "2026-03-08T00:34:12Z",
       "appName": "Teleport Connect",
       "slug": "teleport-connect/darwin",
       "platform": "darwin",
@@ -8999,6 +8963,42 @@
       "oldVersion": "20.26.90.8546",
       "newVersion": "20.26.120.9484",
       "installerUrl": "https://binaries.twingate.com/client/windows/versions/2026.120.9484/TwingateWindowsInstaller.msi"
+    },
+    {
+      "date": "2026-05-07T03:14:25Z",
+      "appName": "Zed",
+      "slug": "zed/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.0.1",
+      "newVersion": "1.1.6",
+      "installerUrl": "https://zed.dev/api/releases/stable/1.1.6/Zed-aarch64.dmg"
+    },
+    {
+      "date": "2026-05-07T03:14:25Z",
+      "appName": "Zotero",
+      "slug": "zotero/darwin",
+      "platform": "darwin",
+      "oldVersion": "9.0.2",
+      "newVersion": "9.0.3",
+      "installerUrl": "https://download.zotero.org/client/release/9.0.3/Zotero-9.0.3.dmg"
+    },
+    {
+      "date": "2026-05-07T03:14:25Z",
+      "appName": "Windsurf",
+      "slug": "windsurf/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.1.32",
+      "newVersion": "2.2.17",
+      "installerUrl": "https://windsurf-stable.codeiumdata.com/darwin-arm64-dmg/stable/a65d6c4e1fd335336d7a0b601099811667e184ca/Windsurf-darwin-arm64-2.2.17.dmg"
+    },
+    {
+      "date": "2026-05-07T03:14:25Z",
+      "appName": "Twingate",
+      "slug": "twingate/darwin",
+      "platform": "darwin",
+      "oldVersion": "2026.85",
+      "newVersion": "2026.120",
+      "installerUrl": "https://binaries.twingate.com/client/macos/2026.120.24748/Twingate.pkg"
     }
   ]
 }
