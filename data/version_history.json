@@ -1,150 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-03-09T15:25:00Z",
-      "appName": "WhatsApp",
-      "slug": "whatsapp/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.9.21",
-      "newVersion": "26.10.16",
-      "installerUrl": "https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release\u0026src=whatsapp_downloads_page"
-    },
-    {
-      "date": "2026-03-09T15:25:00Z",
-      "appName": "Claude",
-      "slug": "claude/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.1.5368",
-      "newVersion": "1.1.5749",
-      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.1.5749/Claude-ecf3d94e6eb8c8af9caed33a16c58e199abe2aec.zip"
-    },
-    {
-      "date": "2026-03-09T15:25:00Z",
-      "appName": "MongoDB Compass",
-      "slug": "mongodb-compass/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.49.2",
-      "newVersion": "1.49.3",
-      "installerUrl": "https://downloads.mongodb.com/compass/mongodb-compass-1.49.3-darwin-arm64.dmg"
-    },
-    {
-      "date": "2026-03-09T15:25:00Z",
-      "appName": "Microsoft Visual Studio Code",
-      "slug": "visual-studio-code/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.110.1",
-      "newVersion": "1.111.0",
-      "installerUrl": "https://update.code.visualstudio.com/1.111.0/darwin-arm64/stable"
-    },
-    {
-      "date": "2026-03-09T15:25:00Z",
-      "appName": "Microsoft Visual Studio Code",
-      "slug": "visual-studio-code/windows",
-      "platform": "windows",
-      "oldVersion": "1.110.0",
-      "newVersion": "1.111.0",
-      "installerUrl": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/VSCodeSetup-x64-1.111.0.exe"
-    },
-    {
-      "date": "2026-03-09T22:10:27Z",
-      "appName": "Ghostty",
-      "slug": "ghostty/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.2.3",
-      "newVersion": "1.3.0",
-      "installerUrl": "https://release.files.ghostty.org/1.3.0/Ghostty.dmg"
-    },
-    {
-      "date": "2026-03-09T22:10:27Z",
-      "appName": "Spotify",
-      "slug": "spotify/windows",
-      "platform": "windows",
-      "oldVersion": "1.2.85.504.gbcffb495",
-      "newVersion": "1.2.85.507.g795fff93",
-      "installerUrl": "https://upgrade.scdn.co/upgrade/client/win32-x86_64/spotify_installer-1.2.85.507.g795fff93-3545.exe"
-    },
-    {
-      "date": "2026-03-09T22:10:27Z",
-      "appName": "Cursor",
-      "slug": "cursor/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.6.13",
-      "newVersion": "2.6.14",
-      "installerUrl": "https://downloads.cursor.com/production/eb1c4e0702d201d1226d2a7afb25c501c2e56088/darwin/arm64/Cursor-darwin-arm64.zip"
-    },
-    {
-      "date": "2026-03-09T22:10:27Z",
-      "appName": "Claude",
-      "slug": "claude/windows",
-      "platform": "windows",
-      "oldVersion": "1.1.5368",
-      "newVersion": "1.1.5749",
-      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.1.5749/Claude-ecf3d94e6eb8c8af9caed33a16c58e199abe2aec.exe"
-    },
-    {
-      "date": "2026-03-10T15:23:54Z",
-      "appName": "Discord",
-      "slug": "discord/windows",
-      "platform": "windows",
-      "oldVersion": "1.0.9227",
-      "newVersion": "1.0.9228",
-      "installerUrl": "https://stable.dl2.discordapp.net/distro/app/stable/win/x64/1.0.9228/DiscordSetup.exe"
-    },
-    {
-      "date": "2026-03-10T15:23:54Z",
-      "appName": "Raycast",
-      "slug": "raycast/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.104.8",
-      "newVersion": "1.104.9",
-      "installerUrl": "https://releases.raycast.com/releases/1.104.9/download?build=arm"
-    },
-    {
-      "date": "2026-03-10T15:23:54Z",
-      "appName": "Discord",
-      "slug": "discord/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.0.379",
-      "newVersion": "0.0.380",
-      "installerUrl": "https://dl.discordapp.net/apps/osx/0.0.380/Discord.dmg"
-    },
-    {
-      "date": "2026-03-10T15:23:54Z",
-      "appName": "Spotify",
-      "slug": "spotify/windows",
-      "platform": "windows",
-      "oldVersion": "1.2.85.507.g795fff93",
-      "newVersion": "1.2.85.513.g45f09625",
-      "installerUrl": "https://upgrade.scdn.co/upgrade/client/win32-x86_64/spotify_installer-1.2.85.513.g45f09625-3679.exe"
-    },
-    {
-      "date": "2026-03-10T15:23:54Z",
-      "appName": "Postman",
-      "slug": "postman/windows",
-      "platform": "windows",
-      "oldVersion": "12.0.8",
-      "newVersion": "12.1.1",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.1.1/windows_64"
-    },
-    {
-      "date": "2026-03-10T15:23:54Z",
-      "appName": "Splashtop Business",
-      "slug": "splashtop-business/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.8.0.5",
-      "newVersion": "3.8.0.6",
-      "installerUrl": "https://d17kmd0va0f0mp.cloudfront.net/macclient/STB/Splashtop_Business_Mac_INSTALLER_v3.8.0.6.dmg"
-    },
-    {
-      "date": "2026-03-10T15:23:54Z",
-      "appName": "Windsurf",
-      "slug": "windsurf/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.9566.11",
-      "newVersion": "1.9577.24",
-      "installerUrl": "https://windsurf-stable.codeiumdata.com/darwin-arm64-dmg/stable/73ca2d6aa880de1bc504ad960c1ab79c9248d476/Windsurf-darwin-arm64-1.9577.24.dmg"
-    },
-    {
       "date": "2026-03-10T15:23:54Z",
       "appName": "Camtasia",
       "slug": "camtasia/darwin",
@@ -8999,6 +8855,150 @@
       "oldVersion": "3.5.185",
       "newVersion": "3.5.208",
       "installerUrl": "https://download.todesktop.com/221003ra4tebclw/ClickUp%203.5.208%20-%20Build%20260505zrf6t7imk-arm64.dmg"
+    },
+    {
+      "date": "2026-05-09T12:25:59Z",
+      "appName": "Cursor",
+      "slug": "cursor/windows",
+      "platform": "windows",
+      "oldVersion": "3.3.16",
+      "newVersion": "3.3.27",
+      "installerUrl": "https://downloads.cursor.com/production/80b138a7a0a948e1a798e9ed7867d76a1ba9a318/win32/x64/system-setup/CursorSetup-x64-3.3.27.exe"
+    },
+    {
+      "date": "2026-05-09T12:25:59Z",
+      "appName": "Claude",
+      "slug": "claude/windows",
+      "platform": "windows",
+      "oldVersion": "1.6259.1",
+      "newVersion": "1.6608.0",
+      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.6608.0/Claude-f65729daa9bbf1994963463204a556d0431e6054.msix"
+    },
+    {
+      "date": "2026-05-09T12:25:59Z",
+      "appName": "ClickUp",
+      "slug": "clickup/windows",
+      "platform": "windows",
+      "oldVersion": "3.5.185",
+      "newVersion": "3.5.208",
+      "installerUrl": "https://download.todesktop.com/221003ra4tebclw/ClickUp-3.5.208-build-260505zrf6t7imk-x64.msi"
+    },
+    {
+      "date": "2026-05-09T12:25:59Z",
+      "appName": "Warp",
+      "slug": "warp/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.2026.04.29.08.57.01",
+      "newVersion": "0.2026.05.06.15.42.03",
+      "installerUrl": "https://releases.warp.dev/stable/v0.2026.05.06.15.42.stable_03/Warp.dmg"
+    },
+    {
+      "date": "2026-05-09T12:25:59Z",
+      "appName": "Telegram",
+      "slug": "telegram/windows",
+      "platform": "windows",
+      "oldVersion": "6.7.8",
+      "newVersion": "6.8.1",
+      "installerUrl": "https://github.com/telegramdesktop/tdesktop/releases/download/v6.8.1/tsetup-x64.6.8.1.exe"
+    },
+    {
+      "date": "2026-05-09T12:25:59Z",
+      "appName": "Spotify",
+      "slug": "spotify/windows",
+      "platform": "windows",
+      "oldVersion": "1.2.88.483.g8aa8628e",
+      "newVersion": "1.2.89.539.gfb3c63a3",
+      "installerUrl": "https://download.scdn.co/SpotifyFullSetupX64.exe"
+    },
+    {
+      "date": "2026-05-09T12:25:59Z",
+      "appName": "Zotero",
+      "slug": "zotero/windows",
+      "platform": "windows",
+      "oldVersion": "9.0.2",
+      "newVersion": "9.0.3",
+      "installerUrl": "https://download.zotero.org/client/release/9.0.3/Zotero-9.0.3_x64_setup.exe"
+    },
+    {
+      "date": "2026-05-09T12:25:59Z",
+      "appName": "Claude",
+      "slug": "claude/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.6608.0",
+      "newVersion": "1.6608.2",
+      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.6608.2/Claude-ebf1a166e82541b54229aa620d117c60923a939a.zip"
+    },
+    {
+      "date": "2026-05-09T12:25:59Z",
+      "appName": "Microsoft Edge",
+      "slug": "microsoft-edge/windows",
+      "platform": "windows",
+      "oldVersion": "147.0.3912.98",
+      "newVersion": "148.0.3967.54",
+      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/1c94fae2-b0f4-4415-bb95-dae4c4c7189d/MicrosoftEdgeEnterpriseX64.msi"
+    },
+    {
+      "date": "2026-05-09T12:25:59Z",
+      "appName": "Mozilla Firefox ESR",
+      "slug": "firefox@esr/windows",
+      "platform": "windows",
+      "oldVersion": "140.10.1",
+      "newVersion": "140.10.2",
+      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/140.10.2esr/win64/en-US/Firefox%20Setup%20140.10.2esr.exe"
+    },
+    {
+      "date": "2026-05-09T12:25:59Z",
+      "appName": "Zen Browser",
+      "slug": "zen/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.19.11b",
+      "newVersion": "1.19.12b",
+      "installerUrl": "https://github.com/zen-browser/desktop/releases/download/1.19.12b/zen.macos-universal.dmg"
+    },
+    {
+      "date": "2026-05-09T12:25:59Z",
+      "appName": "OneDrive",
+      "slug": "onedrive/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.062.0402.0002",
+      "newVersion": "26.063.0405.0002",
+      "installerUrl": "https://oneclient.sfx.ms/Mac/Installers/26.063.0405.0002/universal/OneDrive.pkg"
+    },
+    {
+      "date": "2026-05-09T12:25:59Z",
+      "appName": "Granola",
+      "slug": "granola/windows",
+      "platform": "windows",
+      "oldVersion": "7.162.5",
+      "newVersion": "7.162.6",
+      "installerUrl": "https://api.granola.ai/v1/check-for-update/Granola-7.162.6-win-x64.exe"
+    },
+    {
+      "date": "2026-05-09T12:25:59Z",
+      "appName": "Brave",
+      "slug": "brave-browser/windows",
+      "platform": "windows",
+      "oldVersion": "147.1.89.145",
+      "newVersion": "148.1.90.121",
+      "installerUrl": "https://github.com/brave/brave-browser/releases/download/v1.90.121/BraveBrowserStandaloneSilentSetup.exe"
+    },
+    {
+      "date": "2026-05-09T12:25:59Z",
+      "appName": "Signal",
+      "slug": "signal/darwin",
+      "platform": "darwin",
+      "oldVersion": "8.9.0",
+      "newVersion": "8.9.1",
+      "installerUrl": "https://updates.signal.org/desktop/signal-desktop-mac-arm64-8.9.1.zip"
+    },
+    {
+      "date": "2026-05-09T12:25:59Z",
+      "appName": "Zed",
+      "slug": "zed/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.1.6",
+      "newVersion": "1.1.7",
+      "installerUrl": "https://zed.dev/api/releases/stable/1.1.7/Zed-aarch64.dmg"
     }
   ]
 }
