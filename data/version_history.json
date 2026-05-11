@@ -2,24 +2,6 @@
   "changes": [
     {
       "date": "2026-03-11T14:22:26Z",
-      "appName": "KeePassXC",
-      "slug": "keepassxc/windows",
-      "platform": "windows",
-      "oldVersion": "2.7.11",
-      "newVersion": "2.7.12",
-      "installerUrl": "https://github.com/keepassxreboot/keepassxc/releases/download/2.7.12/KeePassXC-2.7.12-Win64.msi"
-    },
-    {
-      "date": "2026-03-11T14:22:26Z",
-      "appName": "Pritunl",
-      "slug": "pritunl/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.3.4559.86",
-      "newVersion": "1.3.4562.57",
-      "installerUrl": "https://github.com/pritunl/pritunl-client-electron/releases/download/1.3.4562.57/Pritunl.pkg.zip"
-    },
-    {
-      "date": "2026-03-11T14:22:26Z",
       "appName": "Thunderbird",
       "slug": "thunderbird/darwin",
       "platform": "darwin",
@@ -8999,6 +8981,24 @@
       "oldVersion": "8.9.4",
       "newVersion": "8.9.5",
       "installerUrl": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9.5/npp.8.9.5.Installer.x64.exe"
+    },
+    {
+      "date": "2026-05-11T20:39:27Z",
+      "appName": "Docker Desktop",
+      "slug": "docker-desktop/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.72.0",
+      "newVersion": "4.73.0",
+      "installerUrl": "https://desktop.docker.com/mac/main/arm64/226246/Docker.dmg"
+    },
+    {
+      "date": "2026-05-11T20:39:27Z",
+      "appName": "Loom",
+      "slug": "loom/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.346.4",
+      "newVersion": "0.347.4",
+      "installerUrl": "https://packages.loom.com/desktop-packages/Loom-0.347.4-arm64.dmg"
     }
   ]
 }
