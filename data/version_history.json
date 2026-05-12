@@ -2,78 +2,6 @@
   "changes": [
     {
       "date": "2026-03-11T15:20:14Z",
-      "appName": "Warp",
-      "slug": "warp/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.2026.02.25.08.24.01",
-      "newVersion": "0.2026.03.04.08.20.02",
-      "installerUrl": "https://releases.warp.dev/stable/v0.2026.03.04.08.20.stable_02/Warp.dmg"
-    },
-    {
-      "date": "2026-03-11T15:20:14Z",
-      "appName": "DBeaverEE",
-      "slug": "dbeaver-enterprise/darwin",
-      "platform": "darwin",
-      "oldVersion": "25.3.0",
-      "newVersion": "26.0.0",
-      "installerUrl": "https://downloads.dbeaver.net/enterprise/26.0.0/dbeaver-ee-26.0.0-macos-aarch64.dmg"
-    },
-    {
-      "date": "2026-03-11T15:20:14Z",
-      "appName": "Microsoft Excel",
-      "slug": "microsoft-excel/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.106.3",
-      "newVersion": "16.107",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.107.26030819_Installer.pkg"
-    },
-    {
-      "date": "2026-03-11T15:20:14Z",
-      "appName": "Claude",
-      "slug": "claude/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.1.5749",
-      "newVersion": "1.1.6041",
-      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.1.6041/Claude-62e193c55a57c09a3640f5cf09c3759e802a4d46.zip"
-    },
-    {
-      "date": "2026-03-11T15:20:14Z",
-      "appName": "iTerm2",
-      "slug": "iterm2/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.6.8",
-      "newVersion": "3.6.9",
-      "installerUrl": "https://iterm2.com/downloads/stable/iTerm2-3_6_9.zip"
-    },
-    {
-      "date": "2026-03-11T15:20:14Z",
-      "appName": "Microsoft Word",
-      "slug": "microsoft-word/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.106.3",
-      "newVersion": "16.107",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.107.26030819_Installer.pkg"
-    },
-    {
-      "date": "2026-03-11T15:20:14Z",
-      "appName": "Docker Desktop",
-      "slug": "docker-desktop/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.63.0",
-      "newVersion": "4.64.0",
-      "installerUrl": "https://desktop.docker.com/mac/main/arm64/221278/Docker.dmg"
-    },
-    {
-      "date": "2026-03-11T15:20:14Z",
-      "appName": "GitHub Desktop",
-      "slug": "github-desktop/windows",
-      "platform": "windows",
-      "oldVersion": "3.5.5",
-      "newVersion": "3.5.6",
-      "installerUrl": "https://desktop.githubusercontent.com/releases/3.5.6-a180a018/GitHubDesktopSetup-x64.msi"
-    },
-    {
-      "date": "2026-03-11T15:20:14Z",
       "appName": "Google Chrome",
       "slug": "google-chrome/darwin",
       "platform": "darwin",
@@ -8999,6 +8927,78 @@
       "oldVersion": "",
       "newVersion": "3.8.1",
       "installerUrl": "https://swupdate.openvpn.net/downloads/connect/openvpn-connect-3.8.1.5790_signed.dmg"
+    },
+    {
+      "date": "2026-05-12T15:03:13Z",
+      "appName": "Mozilla Firefox",
+      "slug": "firefox/windows",
+      "platform": "windows",
+      "oldVersion": "150.0.2",
+      "newVersion": "150.0.3",
+      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/150.0.3/win64/en-US/Firefox%20Setup%20150.0.3.exe"
+    },
+    {
+      "date": "2026-05-12T15:03:13Z",
+      "appName": "Royal TSX",
+      "slug": "royal-tsx/darwin",
+      "platform": "darwin",
+      "oldVersion": "6.4.2",
+      "newVersion": "6.4.3",
+      "installerUrl": "https://royaltsx-v6.royalapps.com/updates/royaltsx_6.4.3.1000.dmg"
+    },
+    {
+      "date": "2026-05-12T15:03:13Z",
+      "appName": "WhatsApp",
+      "slug": "whatsapp/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.19.11",
+      "newVersion": "26.19.15",
+      "installerUrl": "https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release\u0026src=whatsapp_downloads_page"
+    },
+    {
+      "date": "2026-05-12T15:03:13Z",
+      "appName": "Granola",
+      "slug": "granola/windows",
+      "platform": "windows",
+      "oldVersion": "7.162.6",
+      "newVersion": "7.205.0",
+      "installerUrl": "https://api.granola.ai/v1/check-for-update/Granola-7.205.0-win-x64.exe"
+    },
+    {
+      "date": "2026-05-12T15:03:13Z",
+      "appName": "TablePlus",
+      "slug": "tableplus/darwin",
+      "platform": "darwin",
+      "oldVersion": "6.9.1",
+      "newVersion": "6.9.6",
+      "installerUrl": "https://files.tableplus.com/macos/676/TablePlus.dmg"
+    },
+    {
+      "date": "2026-05-12T15:03:13Z",
+      "appName": "Warp",
+      "slug": "warp/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.2026.05.06.15.42.03",
+      "newVersion": "0.2026.05.06.15.42.04",
+      "installerUrl": "https://releases.warp.dev/stable/v0.2026.05.06.15.42.stable_04/Warp.dmg"
+    },
+    {
+      "date": "2026-05-12T15:03:13Z",
+      "appName": "ProtonVPN",
+      "slug": "protonvpn/darwin",
+      "platform": "darwin",
+      "oldVersion": "6.5.0",
+      "newVersion": "6.5.1",
+      "installerUrl": "https://vpn.protondownload.com/download/macos/6.5.1/ProtonVPN_mac_v6.5.1.dmg"
+    },
+    {
+      "date": "2026-05-12T15:03:13Z",
+      "appName": "Telegram",
+      "slug": "telegram/windows",
+      "platform": "windows",
+      "oldVersion": "6.8.1",
+      "newVersion": "6.8.2",
+      "installerUrl": "https://github.com/telegramdesktop/tdesktop/releases/download/v6.8.2/tsetup-x64.6.8.2.exe"
     }
   ]
 }
