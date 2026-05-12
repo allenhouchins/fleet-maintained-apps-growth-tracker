@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T05:20:08Z",
+  "lastUpdated": "2026-05-12T05:26:41Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -664,12 +664,12 @@
     {
       "slug": "cloudflare-warp/darwin",
       "name": "Cloudflare WARP",
-      "version": "2026.3.846.0",
-      "sha256": "101433c79b405dad2e9ea531643bf05d03e59e322b2fb974618fb06df8d41393",
-      "cdhash": "bf4cbca15d36fe9b0a695c6d9e409b44291e733d",
+      "version": "2026.4.1350.0",
+      "sha256": "ad92fe98705cd7b1fb1d1ff819e412febda2555dab83b9a54b8fbdf08b2c7847",
+      "cdhash": "546ca51e3225a88662ada282fb242b6afa9a7d3a",
       "signingId": "68WVV388M8:com.cloudflare.1dot1dot1dot1.macos",
       "teamId": "68WVV388M8",
-      "lastUpdated": "2026-04-03T17:21:16Z"
+      "lastUpdated": "2026-05-12T05:20:44Z"
     },
     {
       "slug": "cloudflare-warp/windows",
@@ -1978,6 +1978,16 @@
       "lastUpdated": "2026-05-09T12:28:48Z"
     },
     {
+      "slug": "openvpn-connect/darwin",
+      "name": "OpenVPN Connect",
+      "version": "3.8.1",
+      "sha256": "968aaff374739fe21b54444df740e5e190385fdc13a357d78e826fd7d92d90cd",
+      "cdhash": "cce9a0549c0238a41b17e75fa4e962b922a2a433",
+      "signingId": "ACV7L3WCD8:org.openvpn.client.app",
+      "teamId": "ACV7L3WCD8",
+      "lastUpdated": "2026-05-12T05:21:24Z"
+    },
+    {
       "slug": "opera/darwin",
       "name": "Opera",
       "version": "131.0",
@@ -2020,12 +2030,12 @@
     {
       "slug": "pgadmin4/darwin",
       "name": "pgAdmin4",
-      "version": "9.14",
-      "sha256": "d79ef7327a8eb2030068555d694688d4f3e845fe8af7192d1888e830542e0aec",
-      "cdhash": "7b03b9a7a08657adcd887eeb3132df2347a39dc9",
+      "version": "9.15",
+      "sha256": "76f19c27890a904ae85730400275e5d1d9bbc4e64d8c9eeade78266330afab83",
+      "cdhash": "3ca60f794d58913633d44fa5d2a35749fe3ff9d6",
       "signingId": "TCHGL2R7C5:org.pgadmin.pgadmin4",
       "teamId": "TCHGL2R7C5",
-      "lastUpdated": "2026-04-03T17:37:45Z"
+      "lastUpdated": "2026-05-12T05:23:22Z"
     },
     {
       "slug": "phpstorm/darwin",
