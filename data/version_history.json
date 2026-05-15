@@ -2,42 +2,6 @@
   "changes": [
     {
       "date": "2026-03-17T15:28:02Z",
-      "appName": "Steam",
-      "slug": "steam/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.0",
-      "newVersion": "6.0",
-      "installerUrl": "https://cdn.cloudflare.steamstatic.com/client/installer/steam.dmg"
-    },
-    {
-      "date": "2026-03-17T15:28:02Z",
-      "appName": "Lens",
-      "slug": "lens/darwin",
-      "platform": "darwin",
-      "oldVersion": "2026.3.130712",
-      "newVersion": "2026.3.160808",
-      "installerUrl": "https://api.k8slens.dev/binaries/Lens-2026.3.160808-latest-arm64.dmg"
-    },
-    {
-      "date": "2026-03-17T15:28:02Z",
-      "appName": "OBS",
-      "slug": "obs/darwin",
-      "platform": "darwin",
-      "oldVersion": "32.0.4",
-      "newVersion": "32.1.0",
-      "installerUrl": "https://cdn-fastly.obsproject.com/downloads/obs-studio-32.1.0-macos-apple.dmg"
-    },
-    {
-      "date": "2026-03-17T15:28:02Z",
-      "appName": "ChatGPT Atlas",
-      "slug": "chatgpt-atlas/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.2026.63.9",
-      "newVersion": "1.2026.63.10",
-      "installerUrl": "https://persistent.oaistatic.com/atlas/public/ChatGPT_Atlas_Desktop_public_1.2026.63.10_20260316165632000.dmg"
-    },
-    {
-      "date": "2026-03-17T15:28:02Z",
       "appName": "Notion",
       "slug": "notion/windows",
       "platform": "windows",
@@ -8999,6 +8963,42 @@
       "oldVersion": "12.10.5",
       "newVersion": "12.10.6",
       "installerUrl": "https://dl.pstmn.io/download/version/12.10.6/osx_arm64"
+    },
+    {
+      "date": "2026-05-15T13:38:36Z",
+      "appName": "Mattermost",
+      "slug": "mattermost/darwin",
+      "platform": "darwin",
+      "oldVersion": "6.1.2",
+      "newVersion": "6.2.0",
+      "installerUrl": "https://releases.mattermost.com/desktop/6.2.0/mattermost-desktop-6.2.0-mac-arm64.zip"
+    },
+    {
+      "date": "2026-05-15T13:38:36Z",
+      "appName": "WebStorm",
+      "slug": "webstorm/darwin",
+      "platform": "darwin",
+      "oldVersion": "2026.1.1",
+      "newVersion": "2026.1.2",
+      "installerUrl": "https://download.jetbrains.com/webstorm/WebStorm-2026.1.2-aarch64.dmg"
+    },
+    {
+      "date": "2026-05-15T13:38:36Z",
+      "appName": "BetterDisplay",
+      "slug": "betterdisplay/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.2.3",
+      "newVersion": "4.3.3",
+      "installerUrl": "https://github.com/waydabber/BetterDisplay/releases/download/v4.3.3/BetterDisplay-v4.3.3.dmg"
+    },
+    {
+      "date": "2026-05-15T13:38:36Z",
+      "appName": "Zed",
+      "slug": "zed/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.2.4",
+      "newVersion": "1.2.5",
+      "installerUrl": "https://zed.dev/api/releases/stable/1.2.5/Zed-aarch64.dmg"
     }
   ]
 }
