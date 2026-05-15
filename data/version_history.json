@@ -2,15 +2,6 @@
   "changes": [
     {
       "date": "2026-03-17T15:28:02Z",
-      "appName": "OneDrive",
-      "slug": "onedrive/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.022.0203.0006",
-      "newVersion": "26.032.0217.0003",
-      "installerUrl": "https://oneclient.sfx.ms/Mac/Installers/26.032.0217.0003/universal/OneDrive.pkg"
-    },
-    {
-      "date": "2026-03-17T15:28:02Z",
       "appName": "Figma",
       "slug": "figma/windows",
       "platform": "windows",
@@ -8999,6 +8990,15 @@
       "oldVersion": "2026.1.1",
       "newVersion": "2026.1.2",
       "installerUrl": "https://download.jetbrains.com/python/pycharm-professional-2026.1.2-aarch64.dmg"
+    },
+    {
+      "date": "2026-05-15T18:38:41Z",
+      "appName": "Codex CLI",
+      "slug": "codex-cli/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "0.116.0",
+      "installerUrl": "https://github.com/openai/codex/releases/download/rust-v0.116.0/codex-x86_64-pc-windows-msvc.exe.zip"
     }
   ]
 }

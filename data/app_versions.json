@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-15T17:35:54Z",
+  "lastUpdated": "2026-05-15T18:38:41Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -462,6 +462,13 @@
       "platform": "windows",
       "version": "26.1.150.0",
       "installerUrl": "https://downloads.cloudflareclient.com/v1/download/windows/version/2026.1.150.0"
+    },
+    {
+      "slug": "codex-cli/windows",
+      "name": "Codex CLI",
+      "platform": "windows",
+      "version": "0.116.0",
+      "installerUrl": "https://github.com/openai/codex/releases/download/rust-v0.116.0/codex-x86_64-pc-windows-msvc.exe.zip"
     },
     {
       "slug": "connect-fonts/darwin",
