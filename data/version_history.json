@@ -2,96 +2,6 @@
   "changes": [
     {
       "date": "2026-03-17T15:28:02Z",
-      "appName": "Figma",
-      "slug": "figma/windows",
-      "platform": "windows",
-      "oldVersion": "126.2.5",
-      "newVersion": "126.2.7",
-      "installerUrl": "https://desktop.figma.com/win/build/Figma-126.2.7.exe"
-    },
-    {
-      "date": "2026-03-17T15:28:02Z",
-      "appName": "Figma",
-      "slug": "figma/darwin",
-      "platform": "darwin",
-      "oldVersion": "126.1.2",
-      "newVersion": "126.1.4",
-      "installerUrl": "https://desktop.figma.com/mac-arm/Figma-126.1.4.zip"
-    },
-    {
-      "date": "2026-03-17T15:28:02Z",
-      "appName": "NordPass",
-      "slug": "nordpass/darwin",
-      "platform": "darwin",
-      "oldVersion": "7.4.8",
-      "newVersion": "7.5.6",
-      "installerUrl": "https://downloads.npass.app/mac/arm/NordPass.dmg"
-    },
-    {
-      "date": "2026-03-17T15:28:02Z",
-      "appName": "WhatsApp",
-      "slug": "whatsapp/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.10.18",
-      "newVersion": "26.11.17",
-      "installerUrl": "https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release\u0026src=whatsapp_downloads_page"
-    },
-    {
-      "date": "2026-03-17T15:28:02Z",
-      "appName": "Spotify",
-      "slug": "spotify/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.2.84.476",
-      "newVersion": "1.2.85.519",
-      "installerUrl": "https://download.scdn.co/SpotifyARM64.dmg"
-    },
-    {
-      "date": "2026-03-17T15:28:02Z",
-      "appName": "Arduino IDE",
-      "slug": "arduino-ide/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "2.3.8",
-      "installerUrl": "https://github.com/arduino/arduino-ide/releases/download/2.3.8/arduino-ide_2.3.8_macOS_ARM64.dmg"
-    },
-    {
-      "date": "2026-03-17T15:28:02Z",
-      "appName": "Postman",
-      "slug": "postman/darwin",
-      "platform": "darwin",
-      "oldVersion": "12.1.4",
-      "newVersion": "12.2.1",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.2.1/osx_arm64"
-    },
-    {
-      "date": "2026-03-17T15:28:02Z",
-      "appName": "Microsoft Edge",
-      "slug": "microsoft-edge/darwin",
-      "platform": "darwin",
-      "oldVersion": "146.0.3856.59",
-      "newVersion": "146.0.3856.62",
-      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/b42fb089-5f48-4a1f-b50e-6ceb74ab9772/MicrosoftEdge-146.0.3856.62.dmg"
-    },
-    {
-      "date": "2026-03-17T15:28:02Z",
-      "appName": "LastPass",
-      "slug": "lastpass/windows",
-      "platform": "windows",
-      "oldVersion": "5.4.0.1404",
-      "newVersion": "5.4.1.1429",
-      "installerUrl": "https://download.cloud.lastpass.com/windows_installer/LastPassInstaller.msi"
-    },
-    {
-      "date": "2026-03-17T15:28:02Z",
-      "appName": "Notion",
-      "slug": "notion/darwin",
-      "platform": "darwin",
-      "oldVersion": "7.7.1",
-      "newVersion": "7.8.0",
-      "installerUrl": "https://desktop-release.notion-static.com/Notion-7.8.0-arm64.dmg"
-    },
-    {
-      "date": "2026-03-17T15:28:02Z",
       "appName": "Microsoft Teams",
       "slug": "microsoft-teams/darwin",
       "platform": "darwin",
@@ -8999,6 +8909,96 @@
       "oldVersion": "",
       "newVersion": "0.116.0",
       "installerUrl": "https://github.com/openai/codex/releases/download/rust-v0.116.0/codex-x86_64-pc-windows-msvc.exe.zip"
+    },
+    {
+      "date": "2026-05-15T21:26:57Z",
+      "appName": "GoLand",
+      "slug": "goland/darwin",
+      "platform": "darwin",
+      "oldVersion": "2026.1.1",
+      "newVersion": "2026.1.2",
+      "installerUrl": "https://download.jetbrains.com/go/goland-2026.1.2-aarch64.dmg"
+    },
+    {
+      "date": "2026-05-15T21:26:57Z",
+      "appName": "Tailscale",
+      "slug": "tailscale/windows",
+      "platform": "windows",
+      "oldVersion": "1.98.1",
+      "newVersion": "1.98.2",
+      "installerUrl": "https://pkgs.tailscale.com/stable/tailscale-setup-1.98.2-amd64.msi"
+    },
+    {
+      "date": "2026-05-15T21:26:57Z",
+      "appName": "Cursor",
+      "slug": "cursor/windows",
+      "platform": "windows",
+      "oldVersion": "3.4.16",
+      "newVersion": "3.4.20",
+      "installerUrl": "https://downloads.cursor.com/production/0cf8b06883f54e26bb4f0fb8647c9500ccb4331f/win32/x64/system-setup/CursorSetup-x64-3.4.20.exe"
+    },
+    {
+      "date": "2026-05-15T21:26:57Z",
+      "appName": "Zed",
+      "slug": "zed/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.2.5",
+      "newVersion": "1.2.6",
+      "installerUrl": "https://zed.dev/api/releases/stable/1.2.6/Zed-aarch64.dmg"
+    },
+    {
+      "date": "2026-05-15T21:26:57Z",
+      "appName": "RubyMine",
+      "slug": "rubymine/darwin",
+      "platform": "darwin",
+      "oldVersion": "2026.1.1",
+      "newVersion": "2026.1.2",
+      "installerUrl": "https://download.jetbrains.com/ruby/RubyMine-2026.1.2-aarch64.dmg"
+    },
+    {
+      "date": "2026-05-15T21:26:57Z",
+      "appName": "Figma",
+      "slug": "figma/windows",
+      "platform": "windows",
+      "oldVersion": "126.3.12",
+      "newVersion": "126.4.9",
+      "installerUrl": "https://desktop.figma.com/win/build/Figma-126.4.9.exe"
+    },
+    {
+      "date": "2026-05-15T21:26:57Z",
+      "appName": "Codex CLI",
+      "slug": "codex-cli/windows",
+      "platform": "windows",
+      "oldVersion": "0.116.0",
+      "newVersion": "0.130.0",
+      "installerUrl": "https://github.com/openai/codex/releases/download/rust-v0.130.0/codex-x86_64-pc-windows-msvc.exe.zip"
+    },
+    {
+      "date": "2026-05-15T21:26:57Z",
+      "appName": "Cursor",
+      "slug": "cursor/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.4.17",
+      "newVersion": "3.4.20",
+      "installerUrl": "https://downloads.cursor.com/production/0cf8b06883f54e26bb4f0fb8647c9500ccb4331f/darwin/arm64/Cursor-darwin-arm64.zip"
+    },
+    {
+      "date": "2026-05-15T21:26:57Z",
+      "appName": "IntelliJ IDEA Ultimate",
+      "slug": "intellij-idea/darwin",
+      "platform": "darwin",
+      "oldVersion": "2026.1.1",
+      "newVersion": "2026.1.2",
+      "installerUrl": "https://download.jetbrains.com/idea/ideaIU-2026.1.2-aarch64.dmg"
+    },
+    {
+      "date": "2026-05-15T21:26:57Z",
+      "appName": "Microsoft Edge",
+      "slug": "microsoft-edge/darwin",
+      "platform": "darwin",
+      "oldVersion": "148.0.3967.54",
+      "newVersion": "148.0.3967.70",
+      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/5678e805-962c-4a19-a14c-85a9417ce604/MicrosoftEdge-148.0.3967.70.dmg"
     }
   ]
 }
