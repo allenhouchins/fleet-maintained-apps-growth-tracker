@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: May 15, 2026 at 10:00 AM CDT</p>
+            Last updated: May 15, 2026 at 10:46 AM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: May 15, 2026 at 10:00 AM CDT</p>
+                <p id="modalLastUpdated">Last updated: May 15, 2026 at 10:46 AM CDT</p>
             </div>
         </div>
     </div>
@@ -1536,7 +1536,7 @@
             291,
             291,
             291,
-            291
+            292
           ],
           "additions": [
             20,
@@ -1976,7 +1976,7 @@
             1,
             0,
             0,
-            0
+            1
           ],
           "macCounts": [
             20,
@@ -2416,7 +2416,7 @@
             231,
             231,
             231,
-            231
+            232
           ],
           "windowsCounts": [
             0,
@@ -2917,7 +2917,8 @@
             "2026-04-28",
             "2026-04-30",
             "2026-05-06",
-            "2026-05-12"
+            "2026-05-12",
+            "2026-05-15"
           ],
           "growthCounts": [
             20,
@@ -2978,7 +2979,8 @@
             286,
             289,
             290,
-            291
+            291,
+            292
           ],
           "growthAdditions": [
             20,
@@ -3038,6 +3040,7 @@
             1,
             1,
             3,
+            1,
             1,
             1
           ]
@@ -6108,8 +6111,8 @@
                 "slug": "privileges/darwin",
                 "platform": "darwin",
                 "description": "Privileges is an admin rights switcher for macOS.",
-                "version": "2.5.2",
-                "installerUrl": "https://github.com/SAP/macOS-enterprise-privileges/releases/download/2.5.2/Privileges_2.5.2.pkg",
+                "version": "2.5.3",
+                "installerUrl": "https://github.com/SAP/macOS-enterprise-privileges/releases/download/2.5.3/Privileges_2.5.3.pkg",
                 "securityInfo": {
                   "sha256": "cf09d8378b603fde63879e06fede57121429599b7da6071643c02e50387285a9",
                   "cdhash": "b24db2ee8d0b733151526752342eee544d30141f",
@@ -6211,8 +6214,8 @@
                 "slug": "pycharm/darwin",
                 "platform": "darwin",
                 "description": "PyCharm Professional is a Jetbrains IDE for professional Python development. This version includes advanced features and requires a valid license.",
-                "version": "2026.1.1",
-                "installerUrl": "https://download.jetbrains.com/python/pycharm-professional-2026.1.1-aarch64.dmg",
+                "version": "2026.1.2",
+                "installerUrl": "https://download.jetbrains.com/python/pycharm-professional-2026.1.2-aarch64.dmg",
                 "securityInfo": {
                   "sha256": "39bf08a61d7476dd70afceb440577ac0f3a8b1b4ed03de1672b638c7186cbcd1",
                   "cdhash": "be06de326ed13b0c137dd93676357024847520a2",
@@ -7316,6 +7319,14 @@
                 }
               },
               {
+                "name": "XCreds",
+                "slug": "xcreds/darwin",
+                "platform": "darwin",
+                "description": "XCreds is an app that syncs a user's cloud identity provider password with their macOS login password.",
+                "version": "5.9",
+                "installerUrl": "https://github.com/twocanoes/xcreds/releases/download/tag-5.9(9148)/XCreds_Build-9148_Version-5.9.pkg"
+              },
+              {
                 "name": "Yubico Authenticator",
                 "slug": "yubico-authenticator/darwin",
                 "platform": "darwin",
@@ -8052,7 +8063,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `May 15, 2026 at 10:00 AM CDT`;
+                let timestampText = 'Last updated: ' + `May 15, 2026 at 10:46 AM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {

@@ -2,33 +2,6 @@
   "changes": [
     {
       "date": "2026-03-17T15:28:02Z",
-      "appName": "Notion",
-      "slug": "notion/windows",
-      "platform": "windows",
-      "oldVersion": "7.7.1",
-      "newVersion": "7.8.0",
-      "installerUrl": "https://desktop-release.notion-static.com/Notion%20Setup%207.8.0.exe"
-    },
-    {
-      "date": "2026-03-17T15:28:02Z",
-      "appName": "Docker Desktop",
-      "slug": "docker-desktop/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.64.0",
-      "newVersion": "4.65.0",
-      "installerUrl": "https://desktop.docker.com/mac/main/arm64/221669/Docker.dmg"
-    },
-    {
-      "date": "2026-03-17T15:28:02Z",
-      "appName": "Claude",
-      "slug": "claude/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.1.6679",
-      "newVersion": "1.1.7053",
-      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.1.7053/Claude-cc19495f49dd8394e4fbb0c98c2ec923cc457c6b.zip"
-    },
-    {
-      "date": "2026-03-17T15:28:02Z",
       "appName": "OneDrive",
       "slug": "onedrive/darwin",
       "platform": "darwin",
@@ -8999,6 +8972,33 @@
       "oldVersion": "1.2.4",
       "newVersion": "1.2.5",
       "installerUrl": "https://zed.dev/api/releases/stable/1.2.5/Zed-aarch64.dmg"
+    },
+    {
+      "date": "2026-05-15T15:46:49Z",
+      "appName": "XCreds",
+      "slug": "xcreds/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "5.9",
+      "installerUrl": "https://github.com/twocanoes/xcreds/releases/download/tag-5.9(9148)/XCreds_Build-9148_Version-5.9.pkg"
+    },
+    {
+      "date": "2026-05-15T15:46:49Z",
+      "appName": "Privileges",
+      "slug": "privileges/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.5.2",
+      "newVersion": "2.5.3",
+      "installerUrl": "https://github.com/SAP/macOS-enterprise-privileges/releases/download/2.5.3/Privileges_2.5.3.pkg"
+    },
+    {
+      "date": "2026-05-15T15:46:49Z",
+      "appName": "PyCharm Professional",
+      "slug": "pycharm/darwin",
+      "platform": "darwin",
+      "oldVersion": "2026.1.1",
+      "newVersion": "2026.1.2",
+      "installerUrl": "https://download.jetbrains.com/python/pycharm-professional-2026.1.2-aarch64.dmg"
     }
   ]
 }
