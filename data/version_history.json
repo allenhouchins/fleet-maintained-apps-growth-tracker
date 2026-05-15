@@ -2,33 +2,6 @@
   "changes": [
     {
       "date": "2026-03-15T17:10:27Z",
-      "appName": "Google Chrome",
-      "slug": "google-chrome/windows",
-      "platform": "windows",
-      "oldVersion": "145.0.7632.160",
-      "newVersion": "146.0.7680.80",
-      "installerUrl": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi"
-    },
-    {
-      "date": "2026-03-15T17:10:27Z",
-      "appName": "Google Chrome",
-      "slug": "google-chrome/darwin",
-      "platform": "darwin",
-      "oldVersion": "146.0.7680.72",
-      "newVersion": "146.0.7680.80",
-      "installerUrl": "https://dl.google.com/dl/chrome/mac/universal/stable/gcem/GoogleChrome.pkg"
-    },
-    {
-      "date": "2026-03-15T17:10:27Z",
-      "appName": "GIMP",
-      "slug": "gimp/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.0.8",
-      "newVersion": "3.2.0",
-      "installerUrl": "https://download.gimp.org/gimp/v3.2/macos/gimp-3.2.0-arm64.dmg"
-    },
-    {
-      "date": "2026-03-15T17:10:27Z",
       "appName": "Postman",
       "slug": "postman/darwin",
       "platform": "darwin",
@@ -8999,6 +8972,33 @@
       "oldVersion": "12.10.0",
       "newVersion": "12.10.5",
       "installerUrl": "https://dl.pstmn.io/download/version/12.10.5/windows_64"
+    },
+    {
+      "date": "2026-05-15T07:15:22Z",
+      "appName": "Zed",
+      "slug": "zed/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.2.3",
+      "newVersion": "1.2.4",
+      "installerUrl": "https://zed.dev/api/releases/stable/1.2.4/Zed-aarch64.dmg"
+    },
+    {
+      "date": "2026-05-15T07:15:22Z",
+      "appName": "Ollama",
+      "slug": "ollama/windows",
+      "platform": "windows",
+      "oldVersion": "0.23.3",
+      "newVersion": "0.24.0",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.24.0/OllamaSetup.exe"
+    },
+    {
+      "date": "2026-05-15T07:15:22Z",
+      "appName": "Ollama",
+      "slug": "ollama/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.23.4",
+      "newVersion": "0.24.0",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.24.0/Ollama-darwin.zip"
     }
   ]
 }
