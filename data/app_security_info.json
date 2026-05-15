@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-15T03:16:25Z",
+  "lastUpdated": "2026-05-15T03:23:23Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -324,11 +324,12 @@
     {
       "slug": "aws-vpn-client/darwin",
       "name": "AWS Client VPN",
-      "version": "5.3.4",
-      "sha256": "509921deefb6fc03a1a930a7e0b5a7710247c5257450c0654e8c55d5907bb6c6",
-      "signingId": "94KV3E626L:com.amazonaws.Uninstall-AWS-VPN-Client",
+      "version": "5.3.5",
+      "sha256": "811724deb1bea8e868ace2a420fa9e26624b5aed1d7f4d46b8b69e2005b7346f",
+      "cdhash": "f662c8a4e3174c9c267f3fd3e2e0c7209cd9afcf",
+      "signingId": "94KV3E626L:com.amazonaws.acvc.osx",
       "teamId": "94KV3E626L",
-      "lastUpdated": "2026-02-18T16:28:20Z"
+      "lastUpdated": "2026-05-15T03:17:59Z"
     },
     {
       "slug": "backblaze/darwin",
@@ -1545,12 +1546,12 @@
     {
       "slug": "linear/darwin",
       "name": "Linear",
-      "version": "1.28.13",
-      "sha256": "1ee9cf2ec1217d89e3a0bae3cf958cb2c97fc19c583fa8211486f4822fe9b687",
-      "cdhash": "3355cf4f4a0b2b9aa5c367e1daee61382051bf1f",
+      "version": "1.30.0",
+      "sha256": "a74e2d3b0a65ee2ed578e9846fcb097ab9c7bb5298328884f1c7f075ab604fbb",
+      "cdhash": "ed3913be4b29d3ce9918e95e65a2530e265589db",
       "signingId": "7VZ2S3V9RV:com.linear",
       "teamId": "7VZ2S3V9RV",
-      "lastUpdated": "2026-04-29T19:37:35Z"
+      "lastUpdated": "2026-05-15T03:19:38Z"
     },
     {
       "slug": "linear/windows",
@@ -1906,12 +1907,12 @@
     {
       "slug": "okta-verify/darwin",
       "name": "Okta Verify",
-      "version": "9.61.1",
-      "sha256": "589cbd08119a6c2d4420da9e3b6d6c4768d9f403e8c2a8953b5313fa5ba53150",
-      "cdhash": "b30be1973cdfb12ca2461736eb999cacd1047e58",
+      "version": "9.63.0",
+      "sha256": "0de0caac3aabeba4d74f5bb483ba9b8a037fd1782b49dd1c3015052c9334beef",
+      "cdhash": "f783463511643f73f1a8205dad450bd7435a58f7",
       "signingId": "B7F62B65BN:com.okta.mobile",
       "teamId": "B7F62B65BN",
-      "lastUpdated": "2026-05-06T16:02:32Z"
+      "lastUpdated": "2026-05-15T03:20:13Z"
     },
     {
       "slug": "okta-verify/windows",
@@ -2947,12 +2948,12 @@
     {
       "slug": "zen/darwin",
       "name": "Zen Browser",
-      "version": "1.19.12b",
-      "sha256": "26d5e3d6313fe5e3d72cd4eaa6d34ddfd8facc0e1713311cd29ba9be60e77b1e",
-      "cdhash": "9681ebab182c6a07890511cdf3eeec7ea7e4b8d9",
+      "version": "1.19.13b",
+      "sha256": "f72738d79ab8890928ebb106675bfe9b34a47a1de225b312aeedc0d3a13d8171",
+      "cdhash": "9f4c74afece5adf4bbecf92d5bf08960bd1f38f8",
       "signingId": "9V5K9TP787:app.zen-browser.zen",
       "teamId": "9V5K9TP787",
-      "lastUpdated": "2026-05-09T12:34:14Z"
+      "lastUpdated": "2026-05-15T03:23:21Z"
     },
     {
       "slug": "zeplin/darwin",
