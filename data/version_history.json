@@ -1,60 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-03-17T15:28:02Z",
-      "appName": "Microsoft Teams",
-      "slug": "microsoft-teams/darwin",
-      "platform": "darwin",
-      "oldVersion": "25290.302.4044.3989",
-      "newVersion": "26032.605.4378.6183",
-      "installerUrl": "https://statics.teams.cdn.office.net/production-osx/26032.605.4378.6183/MicrosoftTeams.pkg"
-    },
-    {
-      "date": "2026-03-17T15:28:02Z",
-      "appName": "Blender",
-      "slug": "blender/darwin",
-      "platform": "darwin",
-      "oldVersion": "5.0.1",
-      "newVersion": "5.1.0",
-      "installerUrl": "https://download.blender.org/release/Blender5.1/blender-5.1.0-macos-arm64.dmg"
-    },
-    {
-      "date": "2026-03-17T15:28:02Z",
-      "appName": "Claude",
-      "slug": "claude/windows",
-      "platform": "windows",
-      "oldVersion": "1.1.6679",
-      "newVersion": "1.1.7053",
-      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.1.7053/Claude-cc19495f49dd8394e4fbb0c98c2ec923cc457c6b.exe"
-    },
-    {
-      "date": "2026-03-17T16:29:59Z",
-      "appName": "Charles",
-      "slug": "charles/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "5.0.3",
-      "installerUrl": "https://www.charlesproxy.com/assets/release/5.0.3/charles-proxy-5.0.3.dmg"
-    },
-    {
-      "date": "2026-03-17T16:29:59Z",
-      "appName": "Krita",
-      "slug": "krita/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "5.2.16.0",
-      "installerUrl": "https://download.kde.org/stable/krita/5.2.16/krita-x64-5.2.16-setup.exe"
-    },
-    {
-      "date": "2026-03-17T16:29:59Z",
-      "appName": "Tor Browser",
-      "slug": "tor-browser/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "15.0.7",
-      "installerUrl": "https://www.torproject.org/dist/torbrowser/15.0.7/tor-browser-macos-15.0.7.dmg"
-    },
-    {
       "date": "2026-03-17T16:29:59Z",
       "appName": "Krita",
       "slug": "krita/darwin",
@@ -8999,6 +8945,60 @@
       "oldVersion": "148.0.3967.54",
       "newVersion": "148.0.3967.70",
       "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/5678e805-962c-4a19-a14c-85a9417ce604/MicrosoftEdge-148.0.3967.70.dmg"
+    },
+    {
+      "date": "2026-05-16T03:12:20Z",
+      "appName": "Claude",
+      "slug": "claude/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.7196.0",
+      "newVersion": "1.7196.1",
+      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.7196.1/Claude-ddbeb72efde1b1de61380e139a06736428211d60.zip"
+    },
+    {
+      "date": "2026-05-16T03:12:20Z",
+      "appName": "Tailscale",
+      "slug": "tailscale-app/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.98.1",
+      "newVersion": "1.98.2",
+      "installerUrl": "https://pkgs.tailscale.com/stable/Tailscale-1.98.2-macos.pkg"
+    },
+    {
+      "date": "2026-05-16T03:12:20Z",
+      "appName": "Claude",
+      "slug": "claude/windows",
+      "platform": "windows",
+      "oldVersion": "1.7196.0",
+      "newVersion": "1.7196.1",
+      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.7196.1/Claude-ddbeb72efde1b1de61380e139a06736428211d60.msix"
+    },
+    {
+      "date": "2026-05-16T03:12:20Z",
+      "appName": "Teleport Suite",
+      "slug": "teleport-suite/darwin",
+      "platform": "darwin",
+      "oldVersion": "18.8.0",
+      "newVersion": "18.8.1",
+      "installerUrl": "https://cdn.teleport.dev/teleport-18.8.1.pkg"
+    },
+    {
+      "date": "2026-05-16T03:12:20Z",
+      "appName": "Teleport Connect",
+      "slug": "teleport-connect/darwin",
+      "platform": "darwin",
+      "oldVersion": "18.8.0",
+      "newVersion": "18.8.1",
+      "installerUrl": "https://cdn.teleport.dev/Teleport%20Connect-18.8.1.dmg"
+    },
+    {
+      "date": "2026-05-16T03:12:20Z",
+      "appName": "Warp",
+      "slug": "warp/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.2026.05.13.09.15.01",
+      "newVersion": "0.2026.05.13.09.15.03",
+      "installerUrl": "https://releases.warp.dev/stable/v0.2026.05.13.09.15.stable_03/Warp.dmg"
     }
   ]
 }
