@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-16T03:13:48Z",
+  "lastUpdated": "2026-05-16T03:21:45Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -2515,12 +2515,12 @@
     {
       "slug": "tailscale-app/darwin",
       "name": "Tailscale",
-      "version": "1.98.1",
-      "sha256": "9982b82255eb5f223109a98d74002859b58e8c31b62ca3095d8838c13ba72255",
-      "cdhash": "8bc94865434b9e5849e4dd921fa910048f8bd739",
+      "version": "1.98.2",
+      "sha256": "6874699af0b290877f6235d12b5600f410429e7e5189fa0bfd120ff313c04027",
+      "cdhash": "e8b5c42714a03d3e5a5f2075e6d43321688a5bbd",
       "signingId": "W5364U7YZB:io.tailscale.ipn.macsys",
       "teamId": "W5364U7YZB",
-      "lastUpdated": "2026-05-14T03:24:38Z"
+      "lastUpdated": "2026-05-16T03:17:32Z"
     },
     {
       "slug": "tailscale/windows",
@@ -2580,34 +2580,40 @@
     {
       "slug": "teleport-connect/darwin",
       "name": "Teleport Connect",
-      "version": "18.8.0",
-      "sha256": "85263febaf987984a8d7d986469cc9079a3fbc93eff9204e8ffc6e6c1a52943f",
-      "cdhash": "559e34e5c0c279727d69972103c43f74d69af3b2",
+      "version": "18.8.1",
+      "sha256": "9b0e2114154ed927b75076b1694319a9d76be4c12d5df87f08491ef1867ae819",
+      "cdhash": "7cd8940f58f8d5dd4c8ff096a31eda8dfc2fbbdb",
       "signingId": "QH8AA5B8UP:gravitational.teleport.connect",
       "teamId": "QH8AA5B8UP",
-      "lastUpdated": "2026-05-13T03:31:11Z"
+      "lastUpdated": "2026-05-16T03:18:04Z"
     },
     {
       "slug": "teleport-suite/darwin",
       "name": "Teleport Suite",
-      "version": "18.8.0",
+      "version": "18.8.1",
       "signingId": "QH8AA5B8UP:QH8AA5B8UP.com.gravitational.teleport.tctl",
       "teamId": "QH8AA5B8UP",
-      "lastUpdated": "2026-05-13T03:34:10Z",
+      "lastUpdated": "2026-05-16T03:20:39Z",
       "apps": [
         {
           "slug": "teleport-suite/darwin/tsh",
           "name": "tsh",
-          "version": "18.8.0",
-          "sha256": "b3132e66cf9cc8725d77b89250fbe8f5cd3317906f66f0ea119b6225e9103db2",
-          "lastUpdated": "2026-05-13T03:34:29Z"
+          "version": "18.8.1",
+          "sha256": "23a763505fa56c8c5cac009974318b2ef1444a13a361760d601af35d5bea3d91",
+          "cdhash": "6f7a19d5762fe5cb096c5e7cf4297a0eb80511d8",
+          "signingId": "QH8AA5B8UP:QH8AA5B8UP.com.gravitational.teleport.tsh",
+          "teamId": "QH8AA5B8UP",
+          "lastUpdated": "2026-05-16T03:20:58Z"
         },
         {
           "slug": "teleport-suite/darwin/tctl",
           "name": "tctl",
-          "version": "18.8.0",
-          "sha256": "60a39c1932f791213b0d228feea43a4575d0dc68eff70e0387e707d62827f4ec",
-          "lastUpdated": "2026-05-13T03:34:45Z"
+          "version": "18.8.1",
+          "sha256": "c10a582b275311018e1391ae2de49b2b9103db57a6717e7f3c25fdc100024033",
+          "cdhash": "7c855bd89a2344e173f17df89ca87f41ceef93a9",
+          "signingId": "QH8AA5B8UP:QH8AA5B8UP.com.gravitational.teleport.tctl",
+          "teamId": "QH8AA5B8UP",
+          "lastUpdated": "2026-05-16T03:21:14Z"
         }
       ]
     },
@@ -2814,12 +2820,12 @@
     {
       "slug": "warp/darwin",
       "name": "Warp",
-      "version": "0.2026.05.13.09.15.01",
-      "sha256": "1580cd188b16df71ac016aeb21b190ab77d60ce926c9564770170537c5302000",
-      "cdhash": "61e5bd7afd72a3ed818da1e9d5d595ac076bdd2b",
+      "version": "0.2026.05.13.09.15.03",
+      "sha256": "5939b8facb86390d1cfce16ff45222810093e69b0643c288a185587c6c75131b",
+      "cdhash": "916ef38821eed44a0be59b290b341cec3e106acb",
       "signingId": "2BBY89MBSN:dev.warp.Warp-Stable",
       "teamId": "2BBY89MBSN",
-      "lastUpdated": "2026-05-15T12:51:36Z"
+      "lastUpdated": "2026-05-16T03:21:43Z"
     },
     {
       "slug": "webex/darwin",
