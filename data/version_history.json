@@ -2,42 +2,6 @@
   "changes": [
     {
       "date": "2026-03-18T16:28:29Z",
-      "appName": "Dropbox",
-      "slug": "dropbox/darwin",
-      "platform": "darwin",
-      "oldVersion": "243.4.6956",
-      "newVersion": "244.4.6580",
-      "installerUrl": "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20244.4.6580.arm64.dmg"
-    },
-    {
-      "date": "2026-03-18T16:28:29Z",
-      "appName": "DBeaverUltimate",
-      "slug": "dbeaverultimate/darwin",
-      "platform": "darwin",
-      "oldVersion": "25.3.0",
-      "newVersion": "26.0.0",
-      "installerUrl": "https://downloads.dbeaver.net/ultimate/26.0.0/dbeaver-ue-26.0.0-macos-aarch64.dmg"
-    },
-    {
-      "date": "2026-03-18T16:28:29Z",
-      "appName": "Arc",
-      "slug": "arc/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.138.2",
-      "newVersion": "1.138.3",
-      "installerUrl": "https://releases.arc.net/release/Arc-1.138.3-77277.zip"
-    },
-    {
-      "date": "2026-03-18T16:28:29Z",
-      "appName": "Microsoft Word",
-      "slug": "microsoft-word/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.107",
-      "newVersion": "16.107.26031524",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.107.26031524_Installer.pkg"
-    },
-    {
-      "date": "2026-03-18T16:28:29Z",
       "appName": "1Password",
       "slug": "1password/darwin",
       "platform": "darwin",
@@ -8999,6 +8963,42 @@
       "oldVersion": "0.0.390",
       "newVersion": "0.0.391",
       "installerUrl": "https://dl.discordapp.net/apps/osx/0.0.391/Discord.dmg"
+    },
+    {
+      "date": "2026-05-19T15:11:13Z",
+      "appName": "Postman",
+      "slug": "postman/darwin",
+      "platform": "darwin",
+      "oldVersion": "12.11.0",
+      "newVersion": "12.11.2",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.11.2/osx_arm64"
+    },
+    {
+      "date": "2026-05-19T15:11:13Z",
+      "appName": "Warp",
+      "slug": "warp/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.2026.05.13.09.15.03",
+      "newVersion": "0.2026.05.18.05.32.02",
+      "installerUrl": "https://releases.warp.dev/stable/v0.2026.05.18.05.32.stable_02/Warp.dmg"
+    },
+    {
+      "date": "2026-05-19T15:11:13Z",
+      "appName": "Blender",
+      "slug": "blender/darwin",
+      "platform": "darwin",
+      "oldVersion": "5.1.1",
+      "newVersion": "5.1.2",
+      "installerUrl": "https://download.blender.org/release/Blender5.1/blender-5.1.2-macos-arm64.dmg"
+    },
+    {
+      "date": "2026-05-19T15:11:13Z",
+      "appName": "Blender",
+      "slug": "blender/windows",
+      "platform": "windows",
+      "oldVersion": "5.1.1",
+      "newVersion": "5.1.2",
+      "installerUrl": "https://download.blender.org/release/Blender5.1/blender-5.1.2-windows-x64.msi"
     }
   ]
 }
