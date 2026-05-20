@@ -1,231 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-03-18T16:28:29Z",
-      "appName": "1Password",
-      "slug": "1password/darwin",
-      "platform": "darwin",
-      "oldVersion": "8.12.6",
-      "newVersion": "8.12.8",
-      "installerUrl": "https://downloads.1password.com/mac/1Password.pkg"
-    },
-    {
-      "date": "2026-03-18T16:28:29Z",
-      "appName": "JetBrains Toolbox",
-      "slug": "jetbrains-toolbox/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.3.1",
-      "newVersion": "3.4",
-      "installerUrl": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-3.4.0.77112-arm64.dmg"
-    },
-    {
-      "date": "2026-03-18T16:28:29Z",
-      "appName": "Microsoft Edge",
-      "slug": "microsoft-edge/windows",
-      "platform": "windows",
-      "oldVersion": "145.0.3800.97",
-      "newVersion": "146.0.3856.62",
-      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/e7ea1256-d70a-4019-872f-c65dea9da3a2/MicrosoftEdgeEnterpriseX64.msi"
-    },
-    {
-      "date": "2026-03-18T16:28:29Z",
-      "appName": "Blender",
-      "slug": "blender/windows",
-      "platform": "windows",
-      "oldVersion": "5.0.1",
-      "newVersion": "5.1.0",
-      "installerUrl": "https://download.blender.org/release/Blender5.1/blender-5.1.0-windows-x64.msi"
-    },
-    {
-      "date": "2026-03-18T16:28:29Z",
-      "appName": "Opera",
-      "slug": "opera/darwin",
-      "platform": "darwin",
-      "oldVersion": "128.0.5807.77",
-      "newVersion": "129.0.5823.15",
-      "installerUrl": "https://get.geo.opera.com/pub/opera/desktop/129.0.5823.15/mac/Opera_129.0.5823.15_Setup.dmg"
-    },
-    {
-      "date": "2026-03-18T16:28:29Z",
-      "appName": "Clockify Desktop",
-      "slug": "clockify/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.12.2",
-      "newVersion": "2.12.3",
-      "installerUrl": "https://clockify.me/downloads/ClockifyDesktop.zip"
-    },
-    {
-      "date": "2026-03-18T16:28:29Z",
-      "appName": "Keka",
-      "slug": "keka/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.6.0",
-      "newVersion": "1.6.1",
-      "installerUrl": "https://github.com/aonez/Keka/releases/download/v1.6.1/Keka-1.6.1.dmg"
-    },
-    {
-      "date": "2026-03-18T16:28:29Z",
-      "appName": "TextExpander",
-      "slug": "textexpander/darwin",
-      "platform": "darwin",
-      "oldVersion": "8.4.1",
-      "newVersion": "8.4.2",
-      "installerUrl": "https://cdn.textexpander.com/mac/842.9/TextExpander_8.4.2.dmg"
-    },
-    {
-      "date": "2026-03-18T16:28:29Z",
-      "appName": "Claude",
-      "slug": "claude/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.1.7053",
-      "newVersion": "1.1.7203",
-      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.1.7203/Claude-034f0796e916559a4e40673b6ee944c25a8478b2.zip"
-    },
-    {
-      "date": "2026-03-19T16:24:08Z",
-      "appName": "Mozilla Firefox ESR",
-      "slug": "firefox@esr/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "140.7.1",
-      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/140.7.1esr/win64/en-US/Firefox%20Setup%20140.7.1esr.exe"
-    },
-    {
-      "date": "2026-03-19T16:24:08Z",
-      "appName": "Mozilla Firefox ESR",
-      "slug": "firefox@esr/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "140.7.1",
-      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/140.7.1esr/mac/en-US/Firefox%20140.7.1esr.dmg"
-    },
-    {
-      "date": "2026-03-21T19:10:29Z",
-      "appName": "Zed",
-      "slug": "zed/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.227.1",
-      "newVersion": "0.228.0",
-      "installerUrl": "https://zed.dev/api/releases/stable/0.228.0/Zed-aarch64.dmg"
-    },
-    {
-      "date": "2026-03-21T19:10:29Z",
-      "appName": "Claude",
-      "slug": "claude/windows",
-      "platform": "windows",
-      "oldVersion": "1.1.7053",
-      "newVersion": "1.1.7714",
-      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.1.7714/Claude-3bd6f69326a0abac98bb269c29140e2a543cad64.exe"
-    },
-    {
-      "date": "2026-03-21T19:10:29Z",
-      "appName": "Microsoft Teams",
-      "slug": "microsoft-teams/darwin",
-      "platform": "darwin",
-      "oldVersion": "26032.605.4378.6183",
-      "newVersion": "26043.2109.4484.3337",
-      "installerUrl": "https://statics.teams.cdn.office.net/production-osx/26043.2109.4484.3337/MicrosoftTeams.pkg"
-    },
-    {
-      "date": "2026-03-21T19:10:29Z",
-      "appName": "GIMP",
-      "slug": "gimp/windows",
-      "platform": "windows",
-      "oldVersion": "3.0.8.2",
-      "newVersion": "3.2.0.0",
-      "installerUrl": "https://download.gimp.org/gimp/v3.2/windows/gimp-3.2.0-setup.exe"
-    },
-    {
-      "date": "2026-03-21T19:10:29Z",
-      "appName": "Microsoft Edge",
-      "slug": "microsoft-edge/darwin",
-      "platform": "darwin",
-      "oldVersion": "146.0.3856.62",
-      "newVersion": "146.0.3856.72",
-      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/efa8e7a7-9101-457f-a0b2-da924575e033/MicrosoftEdge-146.0.3856.72.dmg"
-    },
-    {
-      "date": "2026-03-21T19:10:29Z",
-      "appName": "Microsoft Visual Studio Code",
-      "slug": "visual-studio-code/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.111.0",
-      "newVersion": "1.112.0",
-      "installerUrl": "https://update.code.visualstudio.com/1.112.0/darwin-arm64/stable"
-    },
-    {
-      "date": "2026-03-21T19:10:29Z",
-      "appName": "Claude",
-      "slug": "claude/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.1.7203",
-      "newVersion": "1.1.7714",
-      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.1.7714/Claude-3bd6f69326a0abac98bb269c29140e2a543cad64.zip"
-    },
-    {
-      "date": "2026-03-21T19:10:29Z",
-      "appName": "Arc",
-      "slug": "arc/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.138.3",
-      "newVersion": "1.139.0",
-      "installerUrl": "https://releases.arc.net/release/Arc-1.139.0-77482.zip"
-    },
-    {
-      "date": "2026-03-21T19:10:29Z",
-      "appName": "1Password",
-      "slug": "1password/windows",
-      "platform": "windows",
-      "oldVersion": "8.12.5",
-      "newVersion": "8.12.6",
-      "installerUrl": "https://c.1password.com/dist/1P/win8/1PasswordSetup-8.12.6.msi"
-    },
-    {
-      "date": "2026-03-21T19:10:29Z",
-      "appName": "Tailscale",
-      "slug": "tailscale/windows",
-      "platform": "windows",
-      "oldVersion": "1.94.2",
-      "newVersion": "1.96.3",
-      "installerUrl": "https://pkgs.tailscale.com/stable/tailscale-setup-1.96.3-amd64.msi"
-    },
-    {
-      "date": "2026-03-21T19:10:29Z",
-      "appName": "Spotify",
-      "slug": "spotify/windows",
-      "platform": "windows",
-      "oldVersion": "1.2.85.513.g45f09625",
-      "newVersion": "1.2.85.519.g549a528b",
-      "installerUrl": "https://download.scdn.co/SpotifyFullSetupX64.exe"
-    },
-    {
-      "date": "2026-03-21T19:10:29Z",
-      "appName": "Microsoft Word",
-      "slug": "microsoft-word/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.107.26031524",
-      "newVersion": "16.107.1",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.107.26031524_Installer.pkg"
-    },
-    {
-      "date": "2026-03-21T19:10:29Z",
-      "appName": "Front",
-      "slug": "front/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.69.1",
-      "newVersion": "3.71.1",
-      "installerUrl": "https://dl.frontapp.com/desktop/builds/3.71.1/Front-3.71.1-arm64.zip"
-    },
-    {
-      "date": "2026-03-21T19:10:29Z",
-      "appName": "Google Chrome",
-      "slug": "google-chrome/darwin",
-      "platform": "darwin",
-      "oldVersion": "146.0.7680.80",
-      "newVersion": "146.0.7680.154",
-      "installerUrl": "https://dl.google.com/dl/chrome/mac/universal/stable/gcem/GoogleChrome.pkg"
-    },
-    {
       "date": "2026-03-21T19:10:29Z",
       "appName": "Tailscale",
       "slug": "tailscale-app/darwin",
@@ -8999,6 +8774,231 @@
       "oldVersion": "5.1.1",
       "newVersion": "5.1.2",
       "installerUrl": "https://download.blender.org/release/Blender5.1/blender-5.1.2-windows-x64.msi"
+    },
+    {
+      "date": "2026-05-20T01:48:58Z",
+      "appName": "Nextcloud",
+      "slug": "nextcloud/darwin",
+      "platform": "darwin",
+      "oldVersion": "33.0.4",
+      "newVersion": "33.0.5",
+      "installerUrl": "https://github.com/nextcloud-releases/desktop/releases/download/v33.0.5/Nextcloud-33.0.5.pkg"
+    },
+    {
+      "date": "2026-05-20T01:48:58Z",
+      "appName": "Mozilla Firefox",
+      "slug": "firefox/darwin",
+      "platform": "darwin",
+      "oldVersion": "150.0.3",
+      "newVersion": "151.0",
+      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/151.0/mac/en-US/Firefox%20151.0.dmg"
+    },
+    {
+      "date": "2026-05-20T01:48:58Z",
+      "appName": "Thunderbird",
+      "slug": "thunderbird/darwin",
+      "platform": "darwin",
+      "oldVersion": "150.0.2",
+      "newVersion": "151.0",
+      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/151.0/mac/en-US/Thunderbird%20151.0.dmg"
+    },
+    {
+      "date": "2026-05-20T01:48:58Z",
+      "appName": "Wireshark",
+      "slug": "wireshark/windows",
+      "platform": "windows",
+      "oldVersion": "4.6.5",
+      "newVersion": "4.6.6",
+      "installerUrl": "https://2.na.dl.wireshark.org/win64/all-versions/Wireshark-4.6.6-x64.msi"
+    },
+    {
+      "date": "2026-05-20T01:48:58Z",
+      "appName": "Docker Desktop",
+      "slug": "docker-desktop/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.73.0",
+      "newVersion": "4.74.0",
+      "installerUrl": "https://desktop.docker.com/mac/main/arm64/227015/Docker.dmg"
+    },
+    {
+      "date": "2026-05-20T01:48:58Z",
+      "appName": "kitty",
+      "slug": "kitty/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.46.2",
+      "newVersion": "0.47.0",
+      "installerUrl": "https://github.com/kovidgoyal/kitty/releases/download/v0.47.0/kitty-0.47.0.dmg"
+    },
+    {
+      "date": "2026-05-20T01:48:58Z",
+      "appName": "Claude",
+      "slug": "claude/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.7196.3",
+      "newVersion": "1.8089.1",
+      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.8089.1/Claude-b98a06c70e376344e3b6938d6980242e8cc20547.zip"
+    },
+    {
+      "date": "2026-05-20T01:48:58Z",
+      "appName": "GitKraken",
+      "slug": "gitkraken/darwin",
+      "platform": "darwin",
+      "oldVersion": "12.1.1",
+      "newVersion": "12.1.2",
+      "installerUrl": "https://api.gitkraken.dev/releases/production/darwin/arm64/12.1.2/GitKraken-v12.1.2.zip"
+    },
+    {
+      "date": "2026-05-20T01:48:58Z",
+      "appName": "Rider",
+      "slug": "rider/darwin",
+      "platform": "darwin",
+      "oldVersion": "2026.1.1",
+      "newVersion": "2026.1.2",
+      "installerUrl": "https://download.jetbrains.com/rider/JetBrains.Rider-2026.1.2-aarch64.dmg"
+    },
+    {
+      "date": "2026-05-20T01:48:58Z",
+      "appName": "iMazing Profile Editor",
+      "slug": "imazing-profile-editor/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.2.0",
+      "newVersion": "2.2.1",
+      "installerUrl": "https://downloads.imazing.com/mac/iMazing-Profile-Editor/2.2.1.393403/iMazing_Profile_Editor_2.2.1.393403.dmg"
+    },
+    {
+      "date": "2026-05-20T01:48:58Z",
+      "appName": "Mozilla Firefox ESR",
+      "slug": "firefox@esr/windows",
+      "platform": "windows",
+      "oldVersion": "140.10.2",
+      "newVersion": "140.11.0",
+      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/140.11.0esr/win64/en-US/Firefox%20Setup%20140.11.0esr.exe"
+    },
+    {
+      "date": "2026-05-20T01:48:58Z",
+      "appName": "Mozilla Firefox",
+      "slug": "firefox/windows",
+      "platform": "windows",
+      "oldVersion": "150.0.3",
+      "newVersion": "151.0",
+      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/151.0/win64/en-US/Firefox%20Setup%20151.0.exe"
+    },
+    {
+      "date": "2026-05-20T01:48:58Z",
+      "appName": "Loom",
+      "slug": "loom/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.347.8",
+      "newVersion": "0.348.4",
+      "installerUrl": "https://packages.loom.com/desktop-packages/Loom-0.348.4-arm64.dmg"
+    },
+    {
+      "date": "2026-05-20T01:48:58Z",
+      "appName": "PhpStorm",
+      "slug": "phpstorm/darwin",
+      "platform": "darwin",
+      "oldVersion": "2026.1.1",
+      "newVersion": "2026.1.2",
+      "installerUrl": "https://download.jetbrains.com/webide/PhpStorm-2026.1.2-aarch64.dmg"
+    },
+    {
+      "date": "2026-05-20T01:48:58Z",
+      "appName": "Postman",
+      "slug": "postman/windows",
+      "platform": "windows",
+      "oldVersion": "12.11.0",
+      "newVersion": "12.11.2",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.11.2/windows_64"
+    },
+    {
+      "date": "2026-05-20T01:48:58Z",
+      "appName": "Wireshark",
+      "slug": "wireshark-app/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.6.5",
+      "newVersion": "4.6.6",
+      "installerUrl": "https://www.wireshark.org/download/osx/all-versions/Wireshark%204.6.6.dmg"
+    },
+    {
+      "date": "2026-05-20T01:48:58Z",
+      "appName": "Tor Browser",
+      "slug": "tor-browser/darwin",
+      "platform": "darwin",
+      "oldVersion": "15.0.13",
+      "newVersion": "15.0.14",
+      "installerUrl": "https://www.torproject.org/dist/torbrowser/15.0.14/tor-browser-macos-15.0.14.dmg"
+    },
+    {
+      "date": "2026-05-20T01:48:58Z",
+      "appName": "TablePlus",
+      "slug": "tableplus/darwin",
+      "platform": "darwin",
+      "oldVersion": "7.0.0",
+      "newVersion": "7.0.4",
+      "installerUrl": "https://files.tableplus.com/macos/704/TablePlus.dmg"
+    },
+    {
+      "date": "2026-05-20T01:48:58Z",
+      "appName": "Zed",
+      "slug": "zed/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.2.6",
+      "newVersion": "1.2.7",
+      "installerUrl": "https://zed.dev/api/releases/stable/1.2.7/Zed-aarch64.dmg"
+    },
+    {
+      "date": "2026-05-20T01:48:58Z",
+      "appName": "Mozilla Firefox ESR",
+      "slug": "firefox@esr/darwin",
+      "platform": "darwin",
+      "oldVersion": "140.10.2",
+      "newVersion": "140.11.0",
+      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/140.11.0esr/mac/en-US/Firefox%20140.11.0esr.dmg"
+    },
+    {
+      "date": "2026-05-20T01:48:58Z",
+      "appName": "Granola",
+      "slug": "granola/darwin",
+      "platform": "darwin",
+      "oldVersion": "7.220.0",
+      "newVersion": "7.227.4",
+      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.227.4/Granola-7.227.4-mac-universal.dmg"
+    },
+    {
+      "date": "2026-05-20T01:48:58Z",
+      "appName": "Lens",
+      "slug": "lens/darwin",
+      "platform": "darwin",
+      "oldVersion": "2026.4.151333-latest",
+      "newVersion": "2026.5.181248-latest",
+      "installerUrl": "https://api.k8slens.dev/binaries/Lens-2026.5.181248-latest-arm64.dmg"
+    },
+    {
+      "date": "2026-05-20T01:48:58Z",
+      "appName": "Thunderbird",
+      "slug": "thunderbird/windows",
+      "platform": "windows",
+      "oldVersion": "150.0.2",
+      "newVersion": "151.0",
+      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/151.0/win64/en-US/Thunderbird%20Setup%20151.0.exe"
+    },
+    {
+      "date": "2026-05-20T01:48:58Z",
+      "appName": "Google Chrome",
+      "slug": "google-chrome/windows",
+      "platform": "windows",
+      "oldVersion": "148.0.7778.168",
+      "newVersion": "148.0.7778.179",
+      "installerUrl": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi"
+    },
+    {
+      "date": "2026-05-20T01:48:58Z",
+      "appName": "Claude",
+      "slug": "claude/windows",
+      "platform": "windows",
+      "oldVersion": "1.7196.3",
+      "newVersion": "1.8089.1",
+      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.8089.1/Claude-b98a06c70e376344e3b6938d6980242e8cc20547.msix"
     }
   ]
 }
