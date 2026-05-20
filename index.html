@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: May 20, 2026 at 10:15 AM CDT</p>
+            Last updated: May 20, 2026 at 10:23 AM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: May 20, 2026 at 10:15 AM CDT</p>
+                <p id="modalLastUpdated">Last updated: May 20, 2026 at 10:23 AM CDT</p>
             </div>
         </div>
     </div>
@@ -4511,7 +4511,14 @@
                 "platform": "darwin",
                 "description": "Duo Desktop is an app that checks the health and security posture of macOS, Windows, and Linux devices at every login.",
                 "version": "7.17.0.0",
-                "installerUrl": "https://dl.duosecurity.com/DuoDesktop-7.17.0.0.pkg"
+                "installerUrl": "https://dl.duosecurity.com/DuoDesktop-7.17.0.0.pkg",
+                "securityInfo": {
+                  "sha256": "6c506972687c8cc840aab0a5958909bb93831a00aedfa439e6f37cc7485c2eba",
+                  "cdhash": "66c55772dd560347baf1a7dad5c08a3783117ce0",
+                  "signingId": "FNN8Z5JMFP:com.duosecurity.duo-device-health",
+                  "teamId": "FNN8Z5JMFP",
+                  "lastUpdated": "2026-05-20T15:20:01Z"
+                }
               },
               {
                 "name": "Duo Desktop",
@@ -8129,7 +8136,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `May 20, 2026 at 10:15 AM CDT`;
+                let timestampText = 'Last updated: ' + `May 20, 2026 at 10:23 AM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
