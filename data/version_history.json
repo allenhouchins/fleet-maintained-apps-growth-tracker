@@ -2,24 +2,6 @@
   "changes": [
     {
       "date": "2026-03-21T19:10:29Z",
-      "appName": "Microsoft Excel",
-      "slug": "microsoft-excel/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.107.26031524",
-      "newVersion": "16.107.1",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.107.26031524_Installer.pkg"
-    },
-    {
-      "date": "2026-03-21T19:10:29Z",
-      "appName": "Ollama",
-      "slug": "ollama/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.18.1",
-      "newVersion": "0.18.2",
-      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.18.2/Ollama-darwin.zip"
-    },
-    {
-      "date": "2026-03-21T19:10:29Z",
       "appName": "Google Chrome",
       "slug": "google-chrome/windows",
       "platform": "windows",
@@ -8999,6 +8981,24 @@
       "oldVersion": "7.0.0.12322",
       "newVersion": "7.0.5.12655",
       "installerUrl": "https://cdn.zoom.us/prod/7.0.5.12655/ZoomRooms.pkg"
+    },
+    {
+      "date": "2026-05-20T21:38:34Z",
+      "appName": "Brave",
+      "slug": "brave-browser/windows",
+      "platform": "windows",
+      "oldVersion": "148.1.90.122",
+      "newVersion": "148.1.90.124",
+      "installerUrl": "https://github.com/brave/brave-browser/releases/download/v1.90.124/BraveBrowserStandaloneSilentSetup.exe"
+    },
+    {
+      "date": "2026-05-20T21:38:34Z",
+      "appName": "Figma",
+      "slug": "figma/windows",
+      "platform": "windows",
+      "oldVersion": "126.4.9",
+      "newVersion": "126.4.10",
+      "installerUrl": "https://desktop.figma.com/win/build/Figma-126.4.10.exe"
     }
   ]
 }
