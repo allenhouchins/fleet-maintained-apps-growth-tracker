@@ -2,24 +2,6 @@
   "changes": [
     {
       "date": "2026-03-21T19:10:29Z",
-      "appName": "Microsoft Edge",
-      "slug": "microsoft-edge/windows",
-      "platform": "windows",
-      "oldVersion": "146.0.3856.62",
-      "newVersion": "146.0.3856.72",
-      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/f692d627-f064-4dd3-94b4-7ac7ce0ac3c8/MicrosoftEdgeEnterpriseX64.msi"
-    },
-    {
-      "date": "2026-03-21T19:10:29Z",
-      "appName": "Okta Verify",
-      "slug": "okta-verify/darwin",
-      "platform": "darwin",
-      "oldVersion": "9.57.3",
-      "newVersion": "9.59.0",
-      "installerUrl": "https://okta.okta.com/artifacts/OKTA_VERIFY_MACOS/9.59.0/OktaVerify-9.59.0-6053-5038b2d.pkg"
-    },
-    {
-      "date": "2026-03-21T19:10:29Z",
       "appName": "Warp",
       "slug": "warp/darwin",
       "platform": "darwin",
@@ -8999,6 +8981,24 @@
       "oldVersion": "16.109",
       "newVersion": "16.109.1",
       "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.109.26051717_Installer.pkg"
+    },
+    {
+      "date": "2026-05-20T15:15:51Z",
+      "appName": "Duo Desktop",
+      "slug": "duo-desktop/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "7.17.0.0",
+      "installerUrl": "https://dl.duosecurity.com/DuoDesktop-7.17.0.0.pkg"
+    },
+    {
+      "date": "2026-05-20T15:15:51Z",
+      "appName": "Duo Desktop",
+      "slug": "duo-desktop/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "7.17.0",
+      "installerUrl": "https://dl.duosecurity.com/DuoDesktop-7.17.0.msi"
     }
   ]
 }

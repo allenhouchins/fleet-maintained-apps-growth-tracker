@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T13:59:49Z",
+  "lastUpdated": "2026-05-20T15:15:51Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -651,6 +651,20 @@
       "platform": "windows",
       "version": "7.5.7",
       "installerUrl": "https://downloads.druva.com/downloads/inSync/Windows/7.5.7/inSync7.5.7r110923.msi"
+    },
+    {
+      "slug": "duo-desktop/darwin",
+      "name": "Duo Desktop",
+      "platform": "darwin",
+      "version": "7.17.0.0",
+      "installerUrl": "https://dl.duosecurity.com/DuoDesktop-7.17.0.0.pkg"
+    },
+    {
+      "slug": "duo-desktop/windows",
+      "name": "Duo Desktop",
+      "platform": "windows",
+      "version": "7.17.0",
+      "installerUrl": "https://dl.duosecurity.com/DuoDesktop-7.17.0.msi"
     },
     {
       "slug": "eclipse-ide/darwin",
