@@ -1,132 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-03-21T19:10:29Z",
-      "appName": "GoLand",
-      "slug": "goland/darwin",
-      "platform": "darwin",
-      "oldVersion": "2025.3.3",
-      "newVersion": "2025.3.4",
-      "installerUrl": "https://download.jetbrains.com/go/goland-2025.3.4-aarch64.dmg"
-    },
-    {
-      "date": "2026-03-21T19:10:29Z",
-      "appName": "Surfshark",
-      "slug": "surfshark/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.26.1",
-      "newVersion": "4.26.2",
-      "installerUrl": "https://downloads.surfshark.com/macOS/stable/4.26.2/4284/Surfshark.dmg"
-    },
-    {
-      "date": "2026-03-23T15:27:02Z",
-      "appName": "Proxyman",
-      "slug": "proxyman/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "6.6.0",
-      "installerUrl": "https://download.proxyman.com/60600/Proxyman_6.6.0.dmg"
-    },
-    {
-      "date": "2026-03-23T16:24:56Z",
-      "appName": "Proxyman",
-      "slug": "proxyman/darwin",
-      "platform": "darwin",
-      "oldVersion": "6.6.0",
-      "newVersion": "6.7.0",
-      "installerUrl": "https://download.proxyman.com/60700/Proxyman_6.7.0.dmg"
-    },
-    {
-      "date": "2026-03-23T16:24:56Z",
-      "appName": "Postman",
-      "slug": "postman/windows",
-      "platform": "windows",
-      "oldVersion": "12.2.3",
-      "newVersion": "12.3.0",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.3.0/windows_64"
-    },
-    {
-      "date": "2026-03-23T16:24:56Z",
-      "appName": "Postman",
-      "slug": "postman/darwin",
-      "platform": "darwin",
-      "oldVersion": "12.2.3",
-      "newVersion": "12.3.0",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.3.0/osx_arm64"
-    },
-    {
-      "date": "2026-03-23T16:24:56Z",
-      "appName": "Granola",
-      "slug": "granola/darwin",
-      "platform": "darwin",
-      "oldVersion": "7.80.1",
-      "newVersion": "7.80.2",
-      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.80.2/Granola-7.80.2-mac-universal.dmg"
-    },
-    {
-      "date": "2026-03-23T16:24:56Z",
-      "appName": "Stats",
-      "slug": "stats/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.12.4",
-      "newVersion": "2.12.5",
-      "installerUrl": "https://github.com/exelban/stats/releases/download/v2.12.5/Stats.dmg"
-    },
-    {
-      "date": "2026-03-23T16:24:56Z",
-      "appName": "Raycast",
-      "slug": "raycast/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.104.10",
-      "newVersion": "1.104.11",
-      "installerUrl": "https://releases.raycast.com/releases/1.104.11/download?build=arm"
-    },
-    {
-      "date": "2026-03-23T16:24:56Z",
-      "appName": "RubyMine",
-      "slug": "rubymine/darwin",
-      "platform": "darwin",
-      "oldVersion": "2025.3.3",
-      "newVersion": "2025.3.4",
-      "installerUrl": "https://download.jetbrains.com/ruby/RubyMine-2025.3.4-aarch64.dmg"
-    },
-    {
-      "date": "2026-03-23T16:24:56Z",
-      "appName": "CotEditor",
-      "slug": "coteditor/darwin",
-      "platform": "darwin",
-      "oldVersion": "6.2.5",
-      "newVersion": "6.2.6",
-      "installerUrl": "https://github.com/coteditor/CotEditor/releases/download/6.2.6/CotEditor_6.2.6.dmg"
-    },
-    {
-      "date": "2026-03-23T16:24:56Z",
-      "appName": "DBeaver",
-      "slug": "dbeaver-community/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.0.0",
-      "newVersion": "26.0.1",
-      "installerUrl": "https://dbeaver.io/files/26.0.1/dbeaver-ce-26.0.1-macos-aarch64.dmg"
-    },
-    {
-      "date": "2026-03-23T17:22:46Z",
-      "appName": "kitty",
-      "slug": "kitty/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "0.46.0",
-      "installerUrl": "https://github.com/kovidgoyal/kitty/releases/download/v0.46.0/kitty-0.46.0.dmg"
-    },
-    {
-      "date": "2026-03-24T15:30:25Z",
-      "appName": "Tor Browser",
-      "slug": "tor-browser/darwin",
-      "platform": "darwin",
-      "oldVersion": "15.0.7",
-      "newVersion": "15.0.8",
-      "installerUrl": "https://www.torproject.org/dist/torbrowser/15.0.8/tor-browser-macos-15.0.8.dmg"
-    },
-    {
       "date": "2026-03-24T15:30:25Z",
       "appName": "Google Chrome",
       "slug": "google-chrome/windows",
@@ -8999,6 +8873,132 @@
       "oldVersion": "8.12.12",
       "newVersion": "8.12.21",
       "installerUrl": "https://c.1password.com/dist/1P/win8/1PasswordSetup-8.12.21.msi"
+    },
+    {
+      "date": "2026-05-21T13:16:53Z",
+      "appName": "Bruno",
+      "slug": "bruno/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.3.0",
+      "newVersion": "3.4.1",
+      "installerUrl": "https://github.com/usebruno/bruno/releases/download/v3.4.1/bruno_3.4.1_arm64_mac.dmg"
+    },
+    {
+      "date": "2026-05-21T13:16:53Z",
+      "appName": "Postman",
+      "slug": "postman/windows",
+      "platform": "windows",
+      "oldVersion": "12.11.3",
+      "newVersion": "12.11.4",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.11.4/windows_64"
+    },
+    {
+      "date": "2026-05-21T13:16:53Z",
+      "appName": "Postman",
+      "slug": "postman/darwin",
+      "platform": "darwin",
+      "oldVersion": "12.11.3",
+      "newVersion": "12.11.4",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.11.4/osx_arm64"
+    },
+    {
+      "date": "2026-05-21T13:16:53Z",
+      "appName": "Bitwarden",
+      "slug": "bitwarden/darwin",
+      "platform": "darwin",
+      "oldVersion": "2026.3.1",
+      "newVersion": "2026.4.0",
+      "installerUrl": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.4.0/Bitwarden-2026.4.0-universal.dmg"
+    },
+    {
+      "date": "2026-05-21T13:16:53Z",
+      "appName": "Granola",
+      "slug": "granola/darwin",
+      "platform": "darwin",
+      "oldVersion": "7.227.4",
+      "newVersion": "7.255.4",
+      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.255.4/Granola-7.255.4-mac-universal.dmg"
+    },
+    {
+      "date": "2026-05-21T13:16:53Z",
+      "appName": "Brave",
+      "slug": "brave-browser/darwin",
+      "platform": "darwin",
+      "oldVersion": "148.1.90.122",
+      "newVersion": "148.1.90.124",
+      "installerUrl": "https://updates-cdn.bravesoftware.com/sparkle/Brave-Browser/stable-arm64/190.124/Brave-Browser-arm64.dmg"
+    },
+    {
+      "date": "2026-05-21T13:16:53Z",
+      "appName": "Notion",
+      "slug": "notion/darwin",
+      "platform": "darwin",
+      "oldVersion": "7.17.0",
+      "newVersion": "7.18.0",
+      "installerUrl": "https://desktop-release.notion-static.com/Notion-7.18.0-arm64.dmg"
+    },
+    {
+      "date": "2026-05-21T13:16:53Z",
+      "appName": "Cursor",
+      "slug": "cursor/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.4.20",
+      "newVersion": "3.5.17",
+      "installerUrl": "https://downloads.cursor.com/production/d5b2fc092e16007956c9e5047f76097b9e626cab/darwin/arm64/Cursor-darwin-arm64.zip"
+    },
+    {
+      "date": "2026-05-21T13:16:53Z",
+      "appName": "TablePlus",
+      "slug": "tableplus/darwin",
+      "platform": "darwin",
+      "oldVersion": "7.0.4",
+      "newVersion": "7.0.6",
+      "installerUrl": "https://files.tableplus.com/macos/706/TablePlus.dmg"
+    },
+    {
+      "date": "2026-05-21T13:16:53Z",
+      "appName": "Signal",
+      "slug": "signal/darwin",
+      "platform": "darwin",
+      "oldVersion": "8.10.0",
+      "newVersion": "8.11.0",
+      "installerUrl": "https://updates.signal.org/desktop/signal-desktop-mac-arm64-8.11.0.zip"
+    },
+    {
+      "date": "2026-05-21T13:16:53Z",
+      "appName": "Zed",
+      "slug": "zed/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.2.7",
+      "newVersion": "1.3.5",
+      "installerUrl": "https://zed.dev/api/releases/stable/1.3.5/Zed-aarch64.dmg"
+    },
+    {
+      "date": "2026-05-21T13:16:53Z",
+      "appName": "Beyond Compare",
+      "slug": "beyond-compare/darwin",
+      "platform": "darwin",
+      "oldVersion": "5.2.1.32035",
+      "newVersion": "5.2.2.32209",
+      "installerUrl": "https://www.scootersoftware.com/files/BCompareOSX-5.2.2.32209.zip"
+    },
+    {
+      "date": "2026-05-21T13:16:53Z",
+      "appName": "iMazing",
+      "slug": "imazing/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.5.2",
+      "newVersion": "3.5.3",
+      "installerUrl": "https://downloads.imazing.com/mac/iMazing/3.5.3.24045/iMazing_3.5.3.24045.dmg"
+    },
+    {
+      "date": "2026-05-21T13:16:53Z",
+      "appName": "Santa",
+      "slug": "santa/darwin",
+      "platform": "darwin",
+      "oldVersion": "2026.3",
+      "newVersion": "2026.4",
+      "installerUrl": "https://github.com/northpolesec/santa/releases/download/2026.4/santa-2026.4.dmg"
     }
   ]
 }
