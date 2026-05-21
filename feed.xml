@@ -5,13 +5,20 @@
     <link>https://fmalibrary.com</link>
     <description>Track version updates and new app additions for Fleet-maintained apps. Get notified when apps are updated with new versions or when new apps are added to the library.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 May 2026 21:35:37 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 22:33:36 +0000</lastBuildDate>
     <atom:link href="https://fmalibrary.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://fmalibrary.com/cloud-city.png</url>
       <title>Fleet-maintained apps</title>
       <link>https://fmalibrary.com</link>
     </image>
+    <item>
+      <title>Claude 1.8089.1 → 1.8555.0 (Windows)</title>
+      <link>https://fmalibrary.com</link>
+      <description>Claude has been updated from version 1.8089.1 to 1.8555.0 on May 21, 2026. &lt;a href=&quot;https://downloads.claude.ai/releases/win32/x64/1.8555.0/Claude-8245b7a72393fec67fa946b26a825bfbd3f947b3.msix&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Thu, 21 May 2026 22:33:36 +0000</pubDate>
+      <guid isPermaLink="false">claude/windows-1.8089.1-1.8555.0</guid>
+    </item>
     <item>
       <title>Santa 2026.3 → 2026.4 (Mac)</title>
       <link>https://fmalibrary.com</link>
@@ -3471,25 +3478,11 @@
       <guid isPermaLink="false">google-chrome/windows-147.0.7727.102-147.0.7727.117</guid>
     </item>
     <item>
-      <title>OBS 32.1.1 → 32.1.2 (Mac)</title>
+      <title>Postman 12.7.0 → 12.7.4 (Windows)</title>
       <link>https://fmalibrary.com</link>
-      <description>OBS has been updated from version 32.1.1 to 32.1.2 on April 22, 2026. &lt;a href=&quot;https://cdn-fastly.obsproject.com/downloads/obs-studio-32.1.2-macos-apple.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Postman has been updated from version 12.7.0 to 12.7.4 on April 22, 2026. &lt;a href=&quot;https://dl.pstmn.io/download/version/12.7.4/windows_64&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Wed, 22 Apr 2026 15:32:55 +0000</pubDate>
-      <guid isPermaLink="false">obs/darwin-32.1.1-32.1.2</guid>
-    </item>
-    <item>
-      <title>Mozilla Firefox 149.0.2 → 150.0 (Windows)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Mozilla Firefox has been updated from version 149.0.2 to 150.0 on April 22, 2026. &lt;a href=&quot;https://download-installer.cdn.mozilla.net/pub/firefox/releases/150.0/win64/en-US/Firefox%20Setup%20150.0.exe&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Wed, 22 Apr 2026 15:32:55 +0000</pubDate>
-      <guid isPermaLink="false">firefox/windows-149.0.2-150.0</guid>
-    </item>
-    <item>
-      <title>Thunderbird 149.0.2 → 150.0 (Windows)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Thunderbird has been updated from version 149.0.2 to 150.0 on April 22, 2026. &lt;a href=&quot;https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/150.0/win64/en-US/Thunderbird%20Setup%20150.0.exe&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Wed, 22 Apr 2026 15:32:55 +0000</pubDate>
-      <guid isPermaLink="false">thunderbird/windows-149.0.2-150.0</guid>
+      <guid isPermaLink="false">postman/windows-12.7.0-12.7.4</guid>
     </item>
     <item>
       <title>Windsurf 2.0.63 → 2.0.67 (Mac)</title>
@@ -3506,11 +3499,18 @@
       <guid isPermaLink="false">visual-studio-code/darwin-1.116.0-1.117.0</guid>
     </item>
     <item>
-      <title>Microsoft Teams 26072.605.4546.510 → 26072.608.4595.8484 (Mac)</title>
+      <title>OBS 32.1.1 → 32.1.2 (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>Microsoft Teams has been updated from version 26072.605.4546.510 to 26072.608.4595.8484 on April 22, 2026. &lt;a href=&quot;https://statics.teams.cdn.office.net/production-osx/26072.608.4595.8484/MicrosoftTeams.pkg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>OBS has been updated from version 32.1.1 to 32.1.2 on April 22, 2026. &lt;a href=&quot;https://cdn-fastly.obsproject.com/downloads/obs-studio-32.1.2-macos-apple.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Wed, 22 Apr 2026 15:32:55 +0000</pubDate>
-      <guid isPermaLink="false">microsoft-teams/darwin-26072.605.4546.510-26072.608.4595.8484</guid>
+      <guid isPermaLink="false">obs/darwin-32.1.1-32.1.2</guid>
+    </item>
+    <item>
+      <title>Thunderbird 149.0.2 → 150.0 (Windows)</title>
+      <link>https://fmalibrary.com</link>
+      <description>Thunderbird has been updated from version 149.0.2 to 150.0 on April 22, 2026. &lt;a href=&quot;https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/150.0/win64/en-US/Thunderbird%20Setup%20150.0.exe&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Wed, 22 Apr 2026 15:32:55 +0000</pubDate>
+      <guid isPermaLink="false">thunderbird/windows-149.0.2-150.0</guid>
     </item>
   </channel>
 </rss>
