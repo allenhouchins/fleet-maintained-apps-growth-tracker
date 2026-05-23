@@ -2,78 +2,6 @@
   "changes": [
     {
       "date": "2026-03-26T15:33:44Z",
-      "appName": "Brave",
-      "slug": "brave-browser/darwin",
-      "platform": "darwin",
-      "oldVersion": "146.1.88.134",
-      "newVersion": "146.1.88.136",
-      "installerUrl": "https://updates-cdn.bravesoftware.com/sparkle/Brave-Browser/stable-arm64/188.136/Brave-Browser-arm64.dmg"
-    },
-    {
-      "date": "2026-03-26T15:33:44Z",
-      "appName": "Lens",
-      "slug": "lens/darwin",
-      "platform": "darwin",
-      "oldVersion": "2026.3.160808",
-      "newVersion": "2026.3.251250",
-      "installerUrl": "https://api.k8slens.dev/binaries/Lens-2026.3.251250-latest-arm64.dmg"
-    },
-    {
-      "date": "2026-03-26T15:33:44Z",
-      "appName": "Brave",
-      "slug": "brave-browser/windows",
-      "platform": "windows",
-      "oldVersion": "146.1.88.134",
-      "newVersion": "146.1.88.136",
-      "installerUrl": "https://github.com/brave/brave-browser/releases/download/v1.88.136/BraveBrowserStandaloneSilentSetup.exe"
-    },
-    {
-      "date": "2026-03-26T15:33:44Z",
-      "appName": "IntelliJ IDEA Ultimate",
-      "slug": "intellij-idea/darwin",
-      "platform": "darwin",
-      "oldVersion": "2025.3.4",
-      "newVersion": "2026.1",
-      "installerUrl": "https://download.jetbrains.com/idea/ideaIU-2026.1-aarch64.dmg"
-    },
-    {
-      "date": "2026-03-26T15:33:44Z",
-      "appName": "Postman",
-      "slug": "postman/darwin",
-      "platform": "darwin",
-      "oldVersion": "12.3.0",
-      "newVersion": "12.3.4",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.3.4/osx_arm64"
-    },
-    {
-      "date": "2026-03-26T15:33:44Z",
-      "appName": "Google Drive",
-      "slug": "google-drive/darwin",
-      "platform": "darwin",
-      "oldVersion": "122.0.1",
-      "newVersion": "123.0.1",
-      "installerUrl": "https://dl.google.com/drive-file-stream/5-percent/GoogleDrive.dmg"
-    },
-    {
-      "date": "2026-03-26T15:33:44Z",
-      "appName": "WhatsApp",
-      "slug": "whatsapp/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.11.21",
-      "newVersion": "26.12.22",
-      "installerUrl": "https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release\u0026src=whatsapp_downloads_page"
-    },
-    {
-      "date": "2026-03-26T15:33:44Z",
-      "appName": "Granola",
-      "slug": "granola/darwin",
-      "platform": "darwin",
-      "oldVersion": "7.80.2",
-      "newVersion": "7.87.7",
-      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.87.7/Granola-7.87.7-mac-universal.dmg"
-    },
-    {
-      "date": "2026-03-26T15:33:44Z",
       "appName": "Microsoft Outlook",
       "slug": "microsoft-outlook/darwin",
       "platform": "darwin",
@@ -8999,6 +8927,78 @@
       "oldVersion": "26.2.3",
       "newVersion": "25.8.7",
       "installerUrl": "https://download.documentfoundation.org/libreoffice/stable/25.8.7/mac/aarch64/LibreOffice_25.8.7_MacOS_aarch64.dmg"
+    },
+    {
+      "date": "2026-05-23T03:12:28Z",
+      "appName": "Zotero",
+      "slug": "zotero/windows",
+      "platform": "windows",
+      "oldVersion": "9.0.3",
+      "newVersion": "9.0.4",
+      "installerUrl": "https://download.zotero.org/client/release/9.0.4/Zotero-9.0.4_x64_setup.exe"
+    },
+    {
+      "date": "2026-05-23T03:12:28Z",
+      "appName": "Figma",
+      "slug": "figma/windows",
+      "platform": "windows",
+      "oldVersion": "126.4.10",
+      "newVersion": "126.4.11",
+      "installerUrl": "https://desktop.figma.com/win/build/Figma-126.4.11.exe"
+    },
+    {
+      "date": "2026-05-23T03:12:28Z",
+      "appName": "Zotero",
+      "slug": "zotero/darwin",
+      "platform": "darwin",
+      "oldVersion": "9.0.3",
+      "newVersion": "9.0.4",
+      "installerUrl": "https://download.zotero.org/client/release/9.0.4/Zotero-9.0.4.dmg"
+    },
+    {
+      "date": "2026-05-23T03:12:28Z",
+      "appName": "Claude",
+      "slug": "claude/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.8555.0",
+      "newVersion": "1.8555.1",
+      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.8555.1/Claude-cfe7d45eddd3d919d9d47913fd7b4f5f685d3044.zip"
+    },
+    {
+      "date": "2026-05-23T03:12:28Z",
+      "appName": "Teleport Connect",
+      "slug": "teleport-connect/darwin",
+      "platform": "darwin",
+      "oldVersion": "18.8.1",
+      "newVersion": "18.8.2",
+      "installerUrl": "https://cdn.teleport.dev/Teleport%20Connect-18.8.2.dmg"
+    },
+    {
+      "date": "2026-05-23T03:12:28Z",
+      "appName": "Teleport Suite",
+      "slug": "teleport-suite/darwin",
+      "platform": "darwin",
+      "oldVersion": "18.8.1",
+      "newVersion": "18.8.2",
+      "installerUrl": "https://cdn.teleport.dev/teleport-18.8.2.pkg"
+    },
+    {
+      "date": "2026-05-23T03:12:28Z",
+      "appName": "Warp",
+      "slug": "warp/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.2026.05.20.09.21.02",
+      "newVersion": "0.2026.05.20.09.21.03",
+      "installerUrl": "https://releases.warp.dev/stable/v0.2026.05.20.09.21.stable_03/Warp.dmg"
+    },
+    {
+      "date": "2026-05-23T03:12:28Z",
+      "appName": "Claude",
+      "slug": "claude/windows",
+      "platform": "windows",
+      "oldVersion": "1.8555.0",
+      "newVersion": "1.8555.1",
+      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.8555.1/Claude-cfe7d45eddd3d919d9d47913fd7b4f5f685d3044.msix"
     }
   ]
 }
