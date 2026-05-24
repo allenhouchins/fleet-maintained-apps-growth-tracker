@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: May 24, 2026 at 6:25 PM CDT</p>
+            Last updated: May 24, 2026 at 6:30 PM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: May 24, 2026 at 6:25 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: May 24, 2026 at 6:30 PM CDT</p>
             </div>
         </div>
     </div>
@@ -3624,10 +3624,11 @@
                 "version": "16.0",
                 "installerUrl": "https://s3.amazonaws.com/BBSW-download/BBEdit_16.0.dmg",
                 "securityInfo": {
-                  "sha256": "2d17a6f967dbd7992eeccb1b4c90880d658b432b8aadfdaec58bfe1f6f43c909",
+                  "sha256": "f7286fc27852e68f38e0003b037ede8fa20b2223cb1a7cec86de45df25d617aa",
+                  "cdhash": "15ba90f72cd7d356f086123a683281372f4533a7",
                   "signingId": "W52GZAXT98:com.barebones.bbedit",
                   "teamId": "W52GZAXT98",
-                  "lastUpdated": "2026-02-18T14:28:27Z"
+                  "lastUpdated": "2026-05-24T23:26:52Z"
                 }
               },
               {
@@ -6671,11 +6672,11 @@
                 "version": "2.12.15",
                 "installerUrl": "https://github.com/exelban/stats/releases/download/v2.12.15/Stats.dmg",
                 "securityInfo": {
-                  "sha256": "2e688e6a0ba0af6d4c1b116022e0f2d87272e4228da3f4186b1e2c886f9c119a",
-                  "cdhash": "7fa7c077e83e7d4dfebaa6310a44e357136429dd",
+                  "sha256": "5a894a434cc82170b703ff1c280ebab5c0aa91cc6835d1cfaeb0d098f6978727",
+                  "cdhash": "54684c29ec6fbd459355ca130f9c6f3f5c53a3cb",
                   "signingId": "RP2S87B72W:eu.exelban.Stats",
                   "teamId": "RP2S87B72W",
-                  "lastUpdated": "2026-05-17T13:36:43Z"
+                  "lastUpdated": "2026-05-24T23:27:16Z"
                 }
               },
               {
@@ -8165,7 +8166,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `May 24, 2026 at 6:25 PM CDT`;
+                let timestampText = 'Last updated: ' + `May 24, 2026 at 6:30 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
