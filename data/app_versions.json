@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-26T19:42:09Z",
+  "lastUpdated": "2026-05-26T20:46:27Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -287,6 +287,13 @@
       "platform": "windows",
       "version": "5.1.2",
       "installerUrl": "https://download.blender.org/release/Blender5.1/blender-5.1.2-windows-x64.msi"
+    },
+    {
+      "slug": "bluej/windows",
+      "name": "BlueJ",
+      "platform": "windows",
+      "version": "5.5.0",
+      "installerUrl": "https://github.com/k-pet-group/BlueJ-Greenfoot/releases/download/BLUEJ-RELEASE-5.5.0/BlueJ-windows-5.5.0.msi"
     },
     {
       "slug": "box-drive/darwin",
@@ -740,8 +747,8 @@
       "slug": "firefox/darwin",
       "name": "Mozilla Firefox",
       "platform": "darwin",
-      "version": "151.0.1",
-      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/151.0.1/mac/en-US/Firefox%20151.0.1.dmg"
+      "version": "151.0.2",
+      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/151.0.2/mac/en-US/Firefox%20151.0.2.dmg"
     },
     {
       "slug": "firefox/windows",
@@ -894,8 +901,8 @@
       "slug": "granola/darwin",
       "name": "Granola",
       "platform": "darwin",
-      "version": "7.255.6",
-      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.255.6/Granola-7.255.6-mac-universal.dmg"
+      "version": "7.269.0",
+      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.269.0/Granola-7.269.0-mac-universal.dmg"
     },
     {
       "slug": "granola/windows",
@@ -1104,8 +1111,8 @@
       "slug": "loom/darwin",
       "name": "Loom",
       "platform": "darwin",
-      "version": "0.349.0",
-      "installerUrl": "https://packages.loom.com/desktop-packages/Loom-0.349.0-arm64.dmg"
+      "version": "0.350.1",
+      "installerUrl": "https://packages.loom.com/desktop-packages/Loom-0.350.1-arm64.dmg"
     },
     {
       "slug": "lulu/darwin",
@@ -1407,6 +1414,13 @@
       "platform": "darwin",
       "version": "2026.1.2",
       "installerUrl": "https://download.jetbrains.com/webide/PhpStorm-2026.1.2-aarch64.dmg"
+    },
+    {
+      "slug": "phpstorm/windows",
+      "name": "PhpStorm",
+      "platform": "windows",
+      "version": "2026.1.2",
+      "installerUrl": "https://download.jetbrains.com/webide/PhpStorm-2026.1.2.exe"
     },
     {
       "slug": "podman-desktop/darwin",
@@ -1958,8 +1972,8 @@
       "slug": "webex/windows",
       "name": "Webex",
       "platform": "windows",
-      "version": "46.5.0.34931",
-      "installerUrl": "https://binaries.webex.com/WebexDesktop-Win-64-Gold/20260513172520/Webex.msi"
+      "version": "46.5.0.35006",
+      "installerUrl": "https://binaries.webex.com/WebexDesktop-Win-64-Gold/20260526150545/Webex.msi"
     },
     {
       "slug": "webstorm/darwin",
