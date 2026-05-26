@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-26T19:05:38Z",
+  "lastUpdated": "2026-05-26T19:05:52Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -872,14 +872,14 @@
     {
       "slug": "firefox/windows",
       "name": "Mozilla Firefox",
-      "version": "151.0.1",
-      "sha256": "1275fd22df71bab098c19671d6c5037c424a1594359a721be20a642c827f6e71",
+      "version": "151.0.2",
+      "sha256": "bf3ad3e5aca6d619785393920bc02ca81b8fe50e661fb8c50f9802868e2043b1",
       "publisher": "CN=Mozilla Corporation, OU=Firefox Engineering Operations, O=Mozilla Corporation, L=San Francisco, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0F0EF7C2D819273E8C13F016D2E09B25",
       "thumbprint": "6663D5C4FDAF9EFD5F823A26C9C410DC9928C44A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-05-22T03:27:12Z"
+      "lastUpdated": "2026-05-26T19:05:41Z"
     },
     {
       "slug": "firefox@esr/darwin",
@@ -2106,6 +2106,18 @@
       "version": "15.0.14",
       "sha256": "ece96ee114e2b1d6de1ac79ae0a103b5bc1bd770ce7a967ee7aea5815cfcfa4c",
       "lastUpdated": "2026-05-20T02:02:15Z"
+    },
+    {
+      "slug": "tortoisegit/windows",
+      "name": "TortoiseGit",
+      "version": "2.18.0.1",
+      "sha256": "d8b39b0114784977f07334107ec4a30613035bf4a4a49e6c6e16d46ecfec266d",
+      "publisher": "CN=\"Open Source Developer, Sven Strickroth\", O=Open Source Developer, S=Bayern, C=DE",
+      "issuer": "CN=Certum Code Signing 2021 CA, O=Asseco Data Systems S.A., C=PL",
+      "serialNumber": "3669A2825BC16A84A5BE4FD55276CCD9",
+      "thumbprint": "7FC09474A7EEC64B07EB5E965262D7D4A7895508",
+      "timestamp": "CN=Certum Timestamp 2025, O=Asseco Data Systems S.A., C=PL",
+      "lastUpdated": "2026-05-26T19:05:52Z"
     },
     {
       "slug": "tower/darwin",
