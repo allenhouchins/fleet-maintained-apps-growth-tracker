@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-26T17:11:14Z",
+  "lastUpdated": "2026-05-26T18:54:11Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -84,6 +84,13 @@
       "platform": "darwin",
       "version": "6.9.1.1",
       "installerUrl": "https://ccmdls.adobe.com/AdobeProducts/StandaloneBuilds/ACCC/ESD/6.9.1/1/macarm64/ACCCx6_9_1_1.dmg"
+    },
+    {
+      "slug": "adobe-creative-cloud/windows",
+      "name": "Adobe Creative Cloud",
+      "platform": "windows",
+      "version": "6.9.1.1",
+      "installerUrl": "https://prod-rel-ffc-ccm.oobesaas.adobe.com/adobe-ffc-external/core/v1/wam/download?sapCode=KCCC\u0026wamFeature=nuj-live"
     },
     {
       "slug": "adobe-digital-editions/darwin",
@@ -187,8 +194,8 @@
       "slug": "arduino-ide/darwin",
       "name": "Arduino IDE",
       "platform": "darwin",
-      "version": "2.3.8",
-      "installerUrl": "https://github.com/arduino/arduino-ide/releases/download/2.3.8/arduino-ide_2.3.8_macOS_ARM64.dmg"
+      "version": "2.3.9",
+      "installerUrl": "https://github.com/arduino/arduino-ide/releases/download/2.3.9/arduino-ide_2.3.9_macOS_ARM64.dmg"
     },
     {
       "slug": "asana/darwin",
@@ -397,8 +404,8 @@
       "slug": "claude/darwin",
       "name": "Claude",
       "platform": "darwin",
-      "version": "1.8555.2",
-      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.8555.2/Claude-a476c316c741715263e34f9c9d2bc45b6d0f21c7.zip"
+      "version": "1.9255.0",
+      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.9255.0/Claude-a22af1fabbbc85af5502e695ed8fbea9f74276fc.zip"
     },
     {
       "slug": "claude/windows",
@@ -614,8 +621,8 @@
       "slug": "docker-desktop/darwin",
       "name": "Docker Desktop",
       "platform": "darwin",
-      "version": "4.74.0",
-      "installerUrl": "https://desktop.docker.com/mac/main/arm64/227015/Docker.dmg"
+      "version": "4.75.0",
+      "installerUrl": "https://desktop.docker.com/mac/main/arm64/227598/Docker.dmg"
     },
     {
       "slug": "docker/windows",
@@ -698,7 +705,7 @@
       "slug": "evernote/darwin",
       "name": "Evernote",
       "platform": "darwin",
-      "version": "11.1.2",
+      "version": "11.17.3",
       "installerUrl": "https://mac.desktop.evernote.com/builds/Evernote-latest.dmg"
     },
     {
@@ -740,8 +747,8 @@
       "slug": "firefox/windows",
       "name": "Mozilla Firefox",
       "platform": "windows",
-      "version": "151.0.1",
-      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/151.0.1/win64/en-US/Firefox%20Setup%20151.0.1.exe"
+      "version": "151.0.2",
+      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/151.0.2/win64/en-US/Firefox%20Setup%20151.0.2.exe"
     },
     {
       "slug": "firefox@esr/darwin",
@@ -810,8 +817,8 @@
       "slug": "github/darwin",
       "name": "GitHub Desktop",
       "platform": "darwin",
-      "version": "3.5.10",
-      "installerUrl": "https://desktop.githubusercontent.com/releases/3.5.10-497192a5/GitHubDesktop-arm64.zip"
+      "version": "3.5.11",
+      "installerUrl": "https://desktop.githubusercontent.com/releases/3.5.11-0435ec91/GitHubDesktop-arm64.zip"
     },
     {
       "slug": "gitkraken/darwin",
@@ -1048,8 +1055,8 @@
       "slug": "lens/darwin",
       "name": "Lens",
       "platform": "darwin",
-      "version": "2026.5.181248-latest",
-      "installerUrl": "https://api.k8slens.dev/binaries/Lens-2026.5.181248-latest-arm64.dmg"
+      "version": "2026.5.250609-latest",
+      "installerUrl": "https://api.k8slens.dev/binaries/Lens-2026.5.250609-latest-arm64.dmg"
     },
     {
       "slug": "libreoffice/darwin",
@@ -1230,8 +1237,8 @@
       "slug": "nordvpn/darwin",
       "name": "NordVPN",
       "platform": "darwin",
-      "version": "10.2.0",
-      "installerUrl": "https://downloads.nordcdn.com/apps/macos/generic/NordVPN-OpenVPN/10.2.0/NordVPN.pkg"
+      "version": "10.3.0",
+      "installerUrl": "https://downloads.nordcdn.com/apps/macos/generic/NordVPN-OpenVPN/10.3.0/NordVPN.pkg"
     },
     {
       "slug": "notepad++/windows",
@@ -1475,8 +1482,8 @@
       "slug": "quip/darwin",
       "name": "Quip",
       "platform": "darwin",
-      "version": "9.32.7",
-      "installerUrl": "https://quip-clients.com/macosx_9.32.7.dmg"
+      "version": "9.44.0",
+      "installerUrl": "https://quip-clients.com/macosx_9.44.0.dmg"
     },
     {
       "slug": "rancher/darwin",
@@ -1713,8 +1720,8 @@
       "slug": "tableplus/darwin",
       "name": "TablePlus",
       "platform": "darwin",
-      "version": "7.0.8",
-      "installerUrl": "https://files.tableplus.com/macos/708/TablePlus.dmg"
+      "version": "7.1.0",
+      "installerUrl": "https://files.tableplus.com/macos/710/TablePlus.dmg"
     },
     {
       "slug": "tailscale-app/darwin",
@@ -1734,8 +1741,8 @@
       "slug": "teamviewer/darwin",
       "name": "TeamViewer",
       "platform": "darwin",
-      "version": "15.76.6",
-      "installerUrl": "https://dl.teamviewer.com/download/version_15x/update/15.76.6/TeamViewer.pkg"
+      "version": "15.78.3",
+      "installerUrl": "https://dl.teamviewer.com/download/version_15x/update/15.78.3/TeamViewer.pkg"
     },
     {
       "slug": "teamviewer/windows",
@@ -1748,8 +1755,8 @@
       "slug": "telegram/darwin",
       "name": "Telegram",
       "platform": "darwin",
-      "version": "12.4.2",
-      "installerUrl": "https://osx.telegram.org/updates/Telegram-12.4.2.278481.app.zip"
+      "version": "12.7",
+      "installerUrl": "https://osx.telegram.org/updates/Telegram-12.7.281600.app.zip"
     },
     {
       "slug": "telegram/windows",
@@ -1813,6 +1820,13 @@
       "platform": "darwin",
       "version": "15.0.14",
       "installerUrl": "https://www.torproject.org/dist/torbrowser/15.0.14/tor-browser-macos-15.0.14.dmg"
+    },
+    {
+      "slug": "tortoisegit/windows",
+      "name": "TortoiseGit",
+      "platform": "windows",
+      "version": "2.18.0.1",
+      "installerUrl": "https://download.tortoisegit.org/tgit/2.18.0.0/TortoiseGit-2.18.0.1-64bit.msi"
     },
     {
       "slug": "tower/darwin",
@@ -1944,7 +1958,7 @@
       "slug": "whatsapp/darwin",
       "name": "WhatsApp",
       "platform": "darwin",
-      "version": "26.20.23",
+      "version": "26.21.15",
       "installerUrl": "https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release\u0026src=whatsapp_downloads_page"
     },
     {
