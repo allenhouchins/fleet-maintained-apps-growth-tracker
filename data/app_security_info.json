@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-27T15:12:21Z",
+  "lastUpdated": "2026-05-27T15:22:12Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -697,12 +697,12 @@
     {
       "slug": "cloudflare-warp/darwin",
       "name": "Cloudflare WARP",
-      "version": "2026.4.1350.0",
-      "sha256": "ad92fe98705cd7b1fb1d1ff819e412febda2555dab83b9a54b8fbdf08b2c7847",
-      "cdhash": "546ca51e3225a88662ada282fb242b6afa9a7d3a",
+      "version": "2026.4.1390.0",
+      "sha256": "ebced15e149b7464bd5afcb61fbf164f09a9e36ca032e4947da69a098f76e41a",
+      "cdhash": "034e6b3c848bfb7daf11335e000b5712ac1dfb3b",
       "signingId": "68WVV388M8:com.cloudflare.1dot1dot1dot1.macos",
       "teamId": "68WVV388M8",
-      "lastUpdated": "2026-05-12T05:20:44Z"
+      "lastUpdated": "2026-05-27T15:13:01Z"
     },
     {
       "slug": "cloudflare-warp/windows",
@@ -761,12 +761,12 @@
     {
       "slug": "cursor/darwin",
       "name": "Cursor",
-      "version": "3.5.33",
-      "sha256": "a709aeaec15d86dd4c6192fa308d676ad5b458e429ac8667aa1c12a368a677d2",
-      "cdhash": "486fd3340bfd125039302b975b5973ae7484a99e",
+      "version": "3.5.38",
+      "sha256": "e53debd357312f3a64e98762f5ba9516ed5b58631b21a47bbf918a0ed7f83643",
+      "cdhash": "3f40df91ed28a230524e705efb4a36f7df13fb29",
       "signingId": "VDXQ22DGB9:com.todesktop.230313mzl4w4u92",
       "teamId": "VDXQ22DGB9",
-      "lastUpdated": "2026-05-23T22:23:17Z"
+      "lastUpdated": "2026-05-27T15:13:58Z"
     },
     {
       "slug": "cursor/windows",
@@ -1186,6 +1186,16 @@
       "lastUpdated": "2026-04-22T15:37:23Z"
     },
     {
+      "slug": "genesys-cloud/darwin",
+      "name": "Genesys Cloud",
+      "version": "2.49.25",
+      "sha256": "fa21a8fde0354a22a9e46fc2dddff28171098b6a8e7318facc37c1b5f84d5033",
+      "cdhash": "2a6ce8936b310946543f7675861140563ad6c5dd",
+      "signingId": "9U57N843V9:com.inin.purecloud.directory",
+      "teamId": "9U57N843V9",
+      "lastUpdated": "2026-05-27T15:14:36Z"
+    },
+    {
       "slug": "ghostty/darwin",
       "name": "Ghostty",
       "version": "1.3.1",
@@ -1296,12 +1306,12 @@
     {
       "slug": "google-drive/darwin",
       "name": "Google Drive",
-      "version": "125.0",
-      "sha256": "447cb46a671c446253f8ac874f4f44436feb3c64040b0a3fa4c749213fa67429",
-      "cdhash": "66085d4fb93e14d2dd5d716497d546e6d59e04cf",
+      "version": "126.0",
+      "sha256": "2d6be8e7346d37ef13d38bdf7fce023b2c27a1af257680b871be5babdaa32cd4",
+      "cdhash": "b924fc3291fe4df23c4a5f8b3dcc4fb2c706e10a",
       "signingId": "EQHXZ8M8AV:com.google.drivefs",
       "teamId": "EQHXZ8M8AV",
-      "lastUpdated": "2026-05-08T14:43:27Z"
+      "lastUpdated": "2026-05-27T15:15:16Z"
     },
     {
       "slug": "google-drive/windows",
@@ -1338,12 +1348,12 @@
     {
       "slug": "grammarly-desktop/darwin",
       "name": "Grammarly Desktop",
-      "version": "1.166.1",
-      "sha256": "43882808e58160968083ceaf9cd6498e6fa10c95ee86634c1413f057193231ab",
-      "cdhash": "c89f7314dfba1bb1dc756a62e8ff9121357a174a",
+      "version": "1.167.0",
+      "sha256": "d4c874354759439e0ac31be1f94a0e2e0e913df76c6ab3144da75f70741d0e13",
+      "cdhash": "8cf40c3071ea0c796c48efd87c58c4e876317e75",
       "signingId": "W8F64X92K3:com.grammarly.ProjectLlama",
       "teamId": "W8F64X92K3",
-      "lastUpdated": "2026-05-20T18:55:52Z"
+      "lastUpdated": "2026-05-27T15:15:39Z"
     },
     {
       "slug": "granola/darwin",
@@ -1747,42 +1757,42 @@
     {
       "slug": "microsoft-excel/darwin",
       "name": "Microsoft Excel",
-      "version": "16.109.1",
-      "sha256": "4d57446b37ea37a8cf366be136cde99cc88f56856dfaf24fcd5fdc8daf255246",
-      "cdhash": "2844da715bac5968137766f0d0f868391ea6a2f5",
+      "version": "16.109.2",
+      "sha256": "40f69afbae8391c415659847e41b9395e14222b47ce451ba6121ca7046069f13",
+      "cdhash": "c250566593e6d3af3c2d52698029c5df9b7112f4",
       "signingId": "UBF8T346G9:com.microsoft.Excel",
       "teamId": "UBF8T346G9",
-      "lastUpdated": "2026-05-20T14:03:18Z"
+      "lastUpdated": "2026-05-27T15:18:23Z"
     },
     {
       "slug": "microsoft-onenote/darwin",
       "name": "Microsoft OneNote",
-      "version": "16.109.1",
-      "sha256": "4f63d8a58d612fe5f843b4cc90c90a76b8ffdfc08727fb0f1fcf03d61ed51771",
-      "cdhash": "40dc04dff16e7f511fd82521fcde7f0b9fc79ce4",
+      "version": "16.109.2",
+      "sha256": "ec35668b2e674507ccec2f131e817356def31607332191b8ffee73545f9ea559",
+      "cdhash": "87ae27451b2b30a7388ce902c58c287d0689fc7a",
       "signingId": "UBF8T346G9:com.microsoft.onenote.mac",
       "teamId": "UBF8T346G9",
-      "lastUpdated": "2026-05-20T14:04:21Z"
+      "lastUpdated": "2026-05-27T15:19:22Z"
     },
     {
       "slug": "microsoft-outlook/darwin",
       "name": "Microsoft Outlook",
-      "version": "16.109",
+      "version": "16.109.2",
       "sha256": "4c3f899542e61a3232eb639ad857bd6429070501293f14472176f98acd6b8a3c",
       "cdhash": "5fdb3355e4d07315ebd17812df86aa4b9f57f93a",
       "signingId": "UBF8T346G9:com.microsoft.Outlook",
       "teamId": "UBF8T346G9",
-      "lastUpdated": "2026-05-27T03:19:07Z"
+      "lastUpdated": "2026-05-27T15:20:47Z"
     },
     {
       "slug": "microsoft-powerpoint/darwin",
       "name": "Microsoft PowerPoint",
-      "version": "16.109.1",
-      "sha256": "6d13ce9b2be34ffd89414a70f04bcd0f435afdaae56826c81142a95b1ef6a4f1",
-      "cdhash": "819093165e73fc58aaafa130ebe63771411ba618",
+      "version": "16.109.2",
+      "sha256": "f1704d4b391c25305fa3a3cedb01470b4570977731037df43e47278348c7075d",
+      "cdhash": "f87f1a19ca22522d92a78382ec30510ee2e4e2ad",
       "signingId": "UBF8T346G9:com.microsoft.Powerpoint",
       "teamId": "UBF8T346G9",
-      "lastUpdated": "2026-05-20T14:07:27Z"
+      "lastUpdated": "2026-05-27T15:22:05Z"
     },
     {
       "slug": "microsoft-teams/darwin",
