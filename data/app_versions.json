@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-27T15:11:00Z",
+  "lastUpdated": "2026-05-27T17:12:02Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1435,6 +1435,13 @@
       "platform": "darwin",
       "version": "2026.1",
       "installerUrl": "https://filehost.perforce.com/perforce/r26.1/bin.macosx12u/P4V.dmg"
+    },
+    {
+      "slug": "p4v/windows",
+      "name": "P4V",
+      "platform": "windows",
+      "version": "242.61.2",
+      "installerUrl": "https://filehost.perforce.com/perforce/r26.1/bin.ntx64/p4vinst64.msi"
     },
     {
       "slug": "parallels/darwin",
