@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: May 27, 2026 at 1:53 PM CDT</p>
+            Last updated: May 27, 2026 at 1:59 PM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: May 27, 2026 at 1:53 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: May 27, 2026 at 1:59 PM CDT</p>
             </div>
         </div>
     </div>
@@ -5124,7 +5124,14 @@
                 "platform": "darwin",
                 "description": "GoToMeeting is a tool for online meetings, desktop sharing, and video conferencing.",
                 "version": "19950",
-                "installerUrl": "https://builds.cdn.getgo.com/builds/g2m/19950/GoToMeeting.dmg"
+                "installerUrl": "https://builds.cdn.getgo.com/builds/g2m/19950/GoToMeeting.dmg",
+                "securityInfo": {
+                  "sha256": "f1d9aa72fb78d1fbd42ab02a420513865da387fe04dce87d62fc7cd989a9d4ea",
+                  "cdhash": "8037bf8174da238dffd6d7637dee5b390a844148",
+                  "signingId": "GFNFVT632V:com.logmein.GoToMeeting",
+                  "teamId": "GFNFVT632V",
+                  "lastUpdated": "2026-05-27T18:54:51Z"
+                }
               },
               {
                 "name": "GoToMeeting",
@@ -8420,7 +8427,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `May 27, 2026 at 1:53 PM CDT`;
+                let timestampText = 'Last updated: ' + `May 27, 2026 at 1:59 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
