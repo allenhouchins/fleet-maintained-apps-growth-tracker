@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T03:30:32Z",
+  "lastUpdated": "2026-05-28T03:31:14Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -635,14 +635,14 @@
     {
       "slug": "cursor/windows",
       "name": "Cursor",
-      "version": "3.5.33",
-      "sha256": "e9b2399e783dc846142eeaa0b7292da1e9abd33cd7fbd48d9af6c7f02ae9c006",
+      "version": "3.5.38",
+      "sha256": "20f7c16ec4a101ceb8f19846b546dc6f80b9b9ba6dc333fce93c8689713ee4ab",
       "publisher": "CN=\"Anysphere, Inc.\", O=\"Anysphere, Inc.\", L=San Francisco, S=California, C=US",
-      "issuer": "CN=Microsoft ID Verified CS EOC CA 04, O=Microsoft Corporation, C=US",
-      "serialNumber": "33000141D8C8E586A0FA3F94940000000141D8",
-      "thumbprint": "661AA88D2F08133DF6515921D96E325234FED745",
-      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7D00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-05-23T22:28:41Z"
+      "issuer": "CN=Microsoft ID Verified CS EOC CA 03, O=Microsoft Corporation, C=US",
+      "serialNumber": "3300016D5037B2134897618AB9000000016D50",
+      "thumbprint": "469B2D2C6D4254500F1353698BC4EB823744A2B8",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7800-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-05-28T03:30:39Z"
     },
     {
       "slug": "cyberduck/darwin",
@@ -1045,14 +1045,14 @@
     {
       "slug": "google-chrome/windows",
       "name": "Google Chrome",
-      "version": "148.0.7778.179",
-      "sha256": "f92c6c5a21cac1073ac1380cbc36a0d13ce206df6eff5380ea1eaa433529b79a",
+      "version": "148.0.7778.217",
+      "sha256": "92823bbb0a4341edcf681db06da954a8a6a256ec02dc8e4b492acb208915caa2",
       "publisher": "CN=Google LLC, O=Google LLC, L=Mountain View, S=California, C=US, SERIALNUMBER=3582691, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0B50CF246B263EFD85A729315158F3FF",
       "thumbprint": "607A3EDAA64933E94422FC8F0C80388E0590986C",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-05-20T02:04:45Z"
+      "lastUpdated": "2026-05-28T03:30:50Z"
     },
     {
       "slug": "google-credential-provider-for-windows/windows",
@@ -1135,14 +1135,14 @@
     {
       "slug": "granola/windows",
       "name": "Granola",
-      "version": "7.269.0",
-      "sha256": "ecd407e1ea46bc3ec25275ef73b37308cf357b29e8a96e052f22d260579bf274",
+      "version": "7.269.1",
+      "sha256": "ba64e959c9686d2d01152a61f11b611e22b80377f838300ad75ebb26d4ddecb7",
       "publisher": "CN=Granola Labs Ltd, O=Granola Labs Ltd, L=St. Albans, C=GB",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "09EC2851FE9C25200C0EBA306A0F3B4E",
       "thumbprint": "AECA9FD75FB1BA419EE81D17F667154095817355",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-05-27T03:31:46Z"
+      "lastUpdated": "2026-05-28T03:30:54Z"
     },
     {
       "slug": "hyper/darwin",
@@ -1309,14 +1309,9 @@
     {
       "slug": "krita/windows",
       "name": "Krita",
-      "version": "5.3.1.100",
-      "sha256": "ea9236b685ec2f2e6a6d07ea388acf28fd61baf42520b35265bc7c87f8971d24",
-      "publisher": "CN=K Desktop Environment e. V., O=K Desktop Environment e. V., S=Berlin, C=DE",
-      "issuer": "CN=Sectigo Public Code Signing CA R36, O=Sectigo Limited, C=GB",
-      "serialNumber": "74A68FEE73F705C5896A6669E26D7029",
-      "thumbprint": "EA8473F36019BBC97A6813D39993AABC80F5E5A5",
-      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-03-31T16:39:20Z"
+      "version": "5.3.2.0",
+      "sha256": "7542ddcfe4f75d9ad81337f053e81a4f3740b1d40e4e388a2ba489cfa29113f2",
+      "lastUpdated": "2026-05-28T03:31:01Z"
     },
     {
       "slug": "lastpass/windows",
@@ -1448,14 +1443,14 @@
     {
       "slug": "microsoft-edge/windows",
       "name": "Microsoft Edge",
-      "version": "148.0.3967.70",
-      "sha256": "a10e95215d860f76932d815eb2b2d12084a420bf9270afd32fb4500429cbea7a",
+      "version": "148.0.3967.83",
+      "sha256": "766dbe048bafe59ed79a4eaa6796402f3195db2dc40ebd7768cd2a2b706f34dc",
       "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
       "issuer": "CN=Microsoft Code Signing PCA 2024, O=Microsoft Corporation, C=US",
-      "serialNumber": "33000002334EC248564C2B5C6F000000000233",
-      "thumbprint": "4028CAD637509D4744B17EC5B42AED8D7A31E6AF",
-      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:8900-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-05-20T14:15:00Z"
+      "serialNumber": "33000002324EAEA630096A5E7A000000000232",
+      "thumbprint": "21CA9DD6DA7C57C3A599880D17317D7BDA31899C",
+      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:321A-05E0-D947, OU=Microsoft Ireland Operations Limited, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-05-28T03:31:11Z"
     },
     {
       "slug": "microsoft-excel/darwin",
@@ -2433,6 +2428,18 @@
       "version": "2.3.9",
       "sha256": "cee8d99ffe3dd0cad4d1063ceeddcf4a809afcb0d52d9d3ef9a33bcb424f789e",
       "lastUpdated": "2026-05-18T03:21:05Z"
+    },
+    {
+      "slug": "winscp/windows",
+      "name": "WinSCP",
+      "version": "6.5.6",
+      "sha256": "4488c493bafca6af4e7ae54ed39cb71479e65dc192c4d1a471647bf9cb9d6db0",
+      "publisher": "CN=Martin Přikryl, O=Martin Přikryl, L=Praha, C=CZ, SERIALNUMBER=87331519, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CZ",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0F49910B876B05DBF2FE1C5B3E17F3DA",
+      "thumbprint": "FD9BB1AE8DA14A218825FEC4A1BFB26DC8F005E7",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-05-28T03:31:14Z"
     },
     {
       "slug": "wireshark-app/darwin",
