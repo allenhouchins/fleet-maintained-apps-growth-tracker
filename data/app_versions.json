@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T17:22:24Z",
+  "lastUpdated": "2026-05-28T18:59:18Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -413,6 +413,13 @@
       "platform": "darwin",
       "version": "1.122.0",
       "installerUrl": "https://desktop-release.canva.com/Canva-1.122.0-universal.dmg"
+    },
+    {
+      "slug": "canva/windows",
+      "name": "Canva",
+      "platform": "windows",
+      "version": "1.122.0",
+      "installerUrl": "https://desktop-release.canva.com/Canva%20Setup%201.122.0.exe"
     },
     {
       "slug": "cavalry/darwin",
@@ -1696,6 +1703,13 @@
       "installerUrl": "https://dl.pstmn.io/download/version/12.12.4/windows_64"
     },
     {
+      "slug": "power-bi/windows",
+      "name": "Power BI",
+      "platform": "windows",
+      "version": "2.153.1206.0",
+      "installerUrl": "https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2026-04_x64.exe"
+    },
+    {
       "slug": "pritunl/darwin",
       "name": "Pritunl",
       "platform": "darwin",
@@ -1818,8 +1832,8 @@
       "slug": "raycast/darwin",
       "name": "Raycast",
       "platform": "darwin",
-      "version": "1.104.18",
-      "installerUrl": "https://releases.raycast.com/releases/1.104.18/download?build=arm"
+      "version": "1.104.19",
+      "installerUrl": "https://releases.raycast.com/releases/1.104.19/download?build=arm"
     },
     {
       "slug": "rectangle/darwin",
