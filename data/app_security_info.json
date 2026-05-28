@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T17:30:28Z",
+  "lastUpdated": "2026-05-28T17:34:54Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -2206,6 +2206,18 @@
       "lastUpdated": "2026-05-15T15:49:34Z"
     },
     {
+      "slug": "pycharm/windows",
+      "name": "PyCharm Professional",
+      "version": "2024.3.5",
+      "sha256": "5f6e7fe6cc1b0519544c6ede96264a96b46579ebd0039519d541c576103d962a",
+      "publisher": "CN=JetBrains s.r.o., SERIALNUMBER=26502275, OID.2.5.4.15=Private Organization, O=JetBrains s.r.o., OID.1.3.6.1.4.1.311.60.2.1.3=CZ, L=Praha, C=CZ",
+      "issuer": "CN=Entrust Extended Validation Code Signing CA - EVCS2, O=\"Entrust, Inc.\", C=US",
+      "serialNumber": "319D9D481AB6F5E092BCC5E34FF73C5B",
+      "thumbprint": "EAA81CD9F11DD9DE125898071473D21286ED1C22",
+      "timestamp": "CN=Entrust Timestamp Authority - TSA2, O=\"Entrust, Inc.\", C=US",
+      "lastUpdated": "2026-05-28T17:30:46Z"
+    },
+    {
       "slug": "quip/darwin",
       "name": "Quip",
       "version": "9.44.0",
@@ -2218,6 +2230,18 @@
       "version": "1.22.3",
       "sha256": "b0f79b5177bf8a467acd52f1eec32f7f6a5f64cb690118bc38b7323e651af2ab",
       "lastUpdated": "2026-05-14T03:19:57Z"
+    },
+    {
+      "slug": "rancher/windows",
+      "name": "Rancher Desktop",
+      "version": "1.22.3",
+      "sha256": "26e03818560e28e6bdf193173a331fbc1897691a3bdf6794b325db2c4bcc5f27",
+      "publisher": "OID.1.3.6.1.4.1.311.60.2.1.3=US, OID.1.3.6.1.4.1.311.60.2.1.2=Massachusetts, OID.2.5.4.15=Private Organization, CN=SUSE LLC, SERIALNUMBER=001073307, O=SUSE LLC, L=Provo, S=Utah, C=US",
+      "issuer": "CN=SSL.com EV Code Signing Intermediate CA RSA R3, O=SSL Corp, L=Houston, S=Texas, C=US",
+      "serialNumber": "2CEE39216B20899DEEE6928C856B85B7",
+      "thumbprint": "14E89EBEAF0D39AE95A0B8261CF7DEF3B4FE9250",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-05-28T17:31:18Z"
     },
     {
       "slug": "rapidapi/darwin",
@@ -2248,6 +2272,18 @@
       "lastUpdated": "2026-05-20T01:59:00Z"
     },
     {
+      "slug": "rider/windows",
+      "name": "Rider",
+      "version": "2026.1.2",
+      "sha256": "84f08e7758256b84503939de9b5ddf6336bd7286485c7cc257e7c434b299ed12",
+      "publisher": "CN=JetBrains s.r.o., O=JetBrains s.r.o., L=Prague, C=CZ, SERIALNUMBER=26502275, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CZ",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing Europe RSA4096 SHA384 2023 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "083EA13884BDFFCE8E5D9D5CAD2EFBDE",
+      "thumbprint": "8C1B506D0BD10A911D09FB7EDBCAB383F1CDAF20",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-05-28T17:31:54Z"
+    },
+    {
       "slug": "royal-tsx/darwin",
       "name": "Royal TSX",
       "version": "6.4.3",
@@ -2262,11 +2298,35 @@
       "lastUpdated": "2026-05-15T21:32:16Z"
     },
     {
+      "slug": "rubymine/windows",
+      "name": "RubyMine",
+      "version": "2026.1.2",
+      "sha256": "3f9c000d513818182548cc7e600323e22b3d47c9bc080a50de86d73d21f8a4bb",
+      "publisher": "CN=JetBrains s.r.o., O=JetBrains s.r.o., L=Prague, C=CZ, SERIALNUMBER=26502275, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CZ",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing Europe RSA4096 SHA384 2023 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "083EA13884BDFFCE8E5D9D5CAD2EFBDE",
+      "thumbprint": "8C1B506D0BD10A911D09FB7EDBCAB383F1CDAF20",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-05-28T17:32:14Z"
+    },
+    {
       "slug": "rustrover/darwin",
       "name": "RustRover",
       "version": "2026.1.2",
       "sha256": "76269b94c2fc9ab42b5da11e014a14041ef6f75b6ad1ed6316b09afc0d87b5e5",
       "lastUpdated": "2026-05-19T01:55:03Z"
+    },
+    {
+      "slug": "rustrover/windows",
+      "name": "RustRover",
+      "version": "2026.1.2",
+      "sha256": "0d0304a56e1216130b54d07927239902aa38450774ffa67636dd3298b1f8cbe6",
+      "publisher": "CN=JetBrains s.r.o., O=JetBrains s.r.o., L=Prague, C=CZ, SERIALNUMBER=26502275, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CZ",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing Europe RSA4096 SHA384 2023 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "083EA13884BDFFCE8E5D9D5CAD2EFBDE",
+      "thumbprint": "8C1B506D0BD10A911D09FB7EDBCAB383F1CDAF20",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-05-28T17:32:33Z"
     },
     {
       "slug": "santa/darwin",
@@ -2304,6 +2364,18 @@
       "lastUpdated": "2026-05-28T03:22:19Z"
     },
     {
+      "slug": "signal/windows",
+      "name": "Signal",
+      "version": "8.12.0",
+      "sha256": "ef3e3bc288c8b44b3fba0d045c7176651455991ccb574545f04f25fda08153af",
+      "publisher": "CN=\"Signal Messenger, LLC\", O=\"Signal Messenger, LLC\", L=Mountain View, S=California, C=US, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=6703101, OID.2.5.4.15=Private Organization",
+      "issuer": "CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
+      "serialNumber": "4EF1C2D67B37517957F42E8D",
+      "thumbprint": "8A5A56EFFDC462AE8A6CF732BB21E2541995BF36",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-05-28T17:32:40Z"
+    },
+    {
       "slug": "sketch/darwin",
       "name": "Sketch",
       "version": "2026.1.2",
@@ -2335,6 +2407,18 @@
       "version": "2026.1.0",
       "sha256": "1693c6577d2b20b7a84d64d1d8d16fd1c352562a5ed83e1183ff966281eeb917",
       "lastUpdated": "2026-05-14T21:38:29Z"
+    },
+    {
+      "slug": "snagit/windows",
+      "name": "Snagit",
+      "version": "26.2.1",
+      "sha256": "c815b0315c6e16bdded87395859445b8ff23f094e9b518f9ea15d51e7e931cc0",
+      "publisher": "CN=TechSmith Corporation, O=TechSmith Corporation, L=East Lansing, S=Michigan, C=US, SERIALNUMBER=800429440, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Michigan, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0BFA3C3A43B4B33E4E9EFAB3F59EF0C3",
+      "thumbprint": "E31703CF1542D9FF82CD4A0F25825108C1CEA2AF",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-05-28T17:32:58Z"
     },
     {
       "slug": "sourcetree/darwin",
@@ -2590,6 +2674,18 @@
       "lastUpdated": "2026-04-14T20:32:04Z"
     },
     {
+      "slug": "todoist-app/windows",
+      "name": "Todoist",
+      "version": "9.27.1",
+      "sha256": "912b6b0b29c2a22fc173c5a81de57fa4c6e7a1626eecec938fe8ee4ab4aafbff",
+      "publisher": "CN=Doist Inc., O=Doist Inc., L=Palo Alto, S=California, C=US, SERIALNUMBER=7231133, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "04A5FD795CC4BB9BFD866BCF4CC70F38",
+      "thumbprint": "B605D9FE09043ECBB29F1D07E28EF4C4576AF25E",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-05-28T17:33:01Z"
+    },
+    {
       "slug": "tor-browser/darwin",
       "name": "Tor Browser",
       "version": "15.0.14",
@@ -2614,6 +2710,18 @@
       "version": "16.0.1",
       "sha256": "37128564100079fe2fffb162f956545aeff4f8e795113db5991e04ec1283e756",
       "lastUpdated": "2026-05-20T17:25:05Z"
+    },
+    {
+      "slug": "tower/windows",
+      "name": "Tower",
+      "version": "12.1.557",
+      "sha256": "ea2bbec05ddda177424d86be835e3eabbb040e3451b9100077c9911a6d28c65d",
+      "publisher": "CN=Tower (SaaS.group GmbH), O=Tower (SaaS.group GmbH), L=Schönefeld, S=Berlin, C=DE",
+      "issuer": "CN=Microsoft ID Verified CS EOC CA 03, O=Microsoft Corporation, C=US",
+      "serialNumber": "330000F46A66A55E6FD11B0FE800000000F46A",
+      "thumbprint": "C4AD8EBA3456BFFE179C4685F9895710B8B7C984",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7A1A-05E0-D947, OU=Microsoft Ireland Operations Limited, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-05-28T17:34:49Z"
     },
     {
       "slug": "transmit/darwin",
@@ -2679,14 +2787,14 @@
     {
       "slug": "visual-studio-code/windows",
       "name": "Microsoft Visual Studio Code",
-      "version": "1.121.0",
-      "sha256": "6a8e538085d5fcc5e1b5befb97f55a129d353c37246231cd61cfb0707ad19d09",
+      "version": "1.122.0",
+      "sha256": "f391138c48ef740735112c0a9914df2644f9a5ddede7a347c41e0756254949a7",
       "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
       "issuer": "CN=Microsoft Code Signing PCA 2024, O=Microsoft Corporation, C=US",
       "serialNumber": "330000021D4D19C84ED70F574800000000021D",
       "thumbprint": "AB172913A2960A224809EE8A0C371CD47A079B72",
-      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:DC00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-05-20T14:15:11Z"
+      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:8900-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-05-28T17:34:54Z"
     },
     {
       "slug": "vlc/darwin",
