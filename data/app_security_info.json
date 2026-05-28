@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T17:26:23Z",
+  "lastUpdated": "2026-05-28T17:27:58Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -901,11 +901,35 @@
       "lastUpdated": "2026-05-28T03:18:34Z"
     },
     {
+      "slug": "drawio/windows",
+      "name": "draw.io",
+      "version": "30.0.4",
+      "sha256": "24776674f7b36e7cec763a3bdd0f2815d91a31d750b148f23db3e5d5f65deda5",
+      "publisher": "CN=draw.io Ltd, O=draw.io Ltd, L=Northampton, S=Northamptonshire, C=GB",
+      "issuer": "CN=Microsoft ID Verified CS EOC CA 04, O=Microsoft Corporation, C=US",
+      "serialNumber": "3300016E6EA39786ED2A6D942C000000016E6E",
+      "thumbprint": "2ACDA282C65737F41D6B3578D12995065623605D",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7D00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-05-28T17:26:28Z"
+    },
+    {
       "slug": "dropbox/darwin",
       "name": "Dropbox",
       "version": "254.4.2518",
       "sha256": "8b37c3ab4ed18c174935298f8b8896f156a8cff745d666c7a0dd0fa0851ac653",
       "lastUpdated": "2026-05-28T03:19:00Z"
+    },
+    {
+      "slug": "dropbox/windows",
+      "name": "Dropbox",
+      "version": "252.4.3485",
+      "sha256": "a27395733453af0d176bc98674b68cf6195fa3494468dd2bb5b3cb6af7046c1e",
+      "publisher": "CN=\"Dropbox, Inc\", O=\"Dropbox, Inc\", L=San Francisco, S=California, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "05C15BA9908EF70E96DFD8522395771D",
+      "thumbprint": "6B5343AF400BCFBFD546B225E48F55906E7F7396",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-05-28T17:26:38Z"
     },
     {
       "slug": "druva-insync/darwin",
@@ -1137,11 +1161,35 @@
       "lastUpdated": "2026-05-20T01:53:48Z"
     },
     {
+      "slug": "gitkraken/windows",
+      "name": "GitKraken",
+      "version": "12.1.2",
+      "sha256": "9d11b27ce7490b099b05b2c1a1790f9ffbe23f3d7f260f2c4e6cda8616554ddd",
+      "publisher": "CN=\"AXOSOFT, LLC\", O=\"AXOSOFT, LLC\", L=Scottsdale, S=Arizona, C=US, SERIALNUMBER=3380475, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0B7E54038F29694D1EF1B258FB404509",
+      "thumbprint": "3E1EAE5F7DEC4F7F9AA8B87CAC64EE957BFCC4CE",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-05-28T17:26:48Z"
+    },
+    {
       "slug": "goland/darwin",
       "name": "GoLand",
       "version": "2026.1.2",
       "sha256": "e092b017008a14e34cfbb6f3c5400e75fbac8bee16d9e9fe426ea0684b5543be",
       "lastUpdated": "2026-05-15T21:29:34Z"
+    },
+    {
+      "slug": "goland/windows",
+      "name": "GoLand",
+      "version": "2026.1.2",
+      "sha256": "db0c6e0563ef8e59d6de1f0667b3f4417d83c8b69001d86e7e28478cb118482d",
+      "publisher": "CN=JetBrains s.r.o., O=JetBrains s.r.o., L=Prague, C=CZ, SERIALNUMBER=26502275, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CZ",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing Europe RSA4096 SHA384 2023 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "083EA13884BDFFCE8E5D9D5CAD2EFBDE",
+      "thumbprint": "8C1B506D0BD10A911D09FB7EDBCAB383F1CDAF20",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-05-28T17:27:06Z"
     },
     {
       "slug": "google-chrome/darwin",
@@ -1302,6 +1350,18 @@
       "lastUpdated": "2026-05-22T15:12:58Z"
     },
     {
+      "slug": "insomnia/windows",
+      "name": "Insomnia",
+      "version": "12.6.0",
+      "sha256": "bec143adc50fcc78a838641af6593f585874856629fb5f1b8a6b62be058be714",
+      "publisher": "CN=Kong Inc., O=Kong Inc., L=San Francisco, S=California, C=US, SERIALNUMBER=4711251, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "087D7BCEF17D95840EBD65CDD7A345C5",
+      "thumbprint": "B22B8E938DAE7E9B202EE4ABB3ED5659F97A0633",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-05-28T17:27:21Z"
+    },
+    {
       "slug": "intellij-idea-ce/darwin",
       "name": "IntelliJ IDEA CE",
       "version": "2025.2.5",
@@ -1366,6 +1426,18 @@
       "version": "3.4.3",
       "sha256": "f3d18fe5d4a245ebb99130d317f20289d929303883ed38506a9ef93c29b8dbfd",
       "lastUpdated": "2026-04-16T14:48:28Z"
+    },
+    {
+      "slug": "jetbrains-toolbox/windows",
+      "name": "JetBrains Toolbox",
+      "version": "3.4.3.0",
+      "sha256": "059ba7c60815517f129e638f0024ed714911d9212820bb2e0b538a5b192f8da9",
+      "publisher": "CN=JetBrains s.r.o., O=JetBrains s.r.o., L=Prague, C=CZ, SERIALNUMBER=26502275, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CZ",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing Europe RSA4096 SHA384 2023 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "083EA13884BDFFCE8E5D9D5CAD2EFBDE",
+      "thumbprint": "8C1B506D0BD10A911D09FB7EDBCAB383F1CDAF20",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-05-28T17:27:26Z"
     },
     {
       "slug": "keepassxc/darwin",
@@ -1446,6 +1518,18 @@
       "lastUpdated": "2026-05-26T18:58:22Z"
     },
     {
+      "slug": "lens/windows",
+      "name": "Lens",
+      "version": "2026.5.250609-latest",
+      "sha256": "ec7be578c461126967b26c352e36d3e426b91dd817fd173bbe3392f34bc39f0a",
+      "publisher": "CN=\"Mirantis, Inc.\", O=\"Mirantis, Inc.\", L=Campbell, S=California, C=US",
+      "issuer": "CN=Microsoft ID Verified CS EOC CA 04, O=Microsoft Corporation, C=US",
+      "serialNumber": "330001563E814725083C9522C000000001563E",
+      "thumbprint": "F99F278C56F2007977D671C74C50AE2B34FFB7AB",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7800-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-05-28T17:27:32Z"
+    },
+    {
       "slug": "libreoffice/darwin",
       "name": "LibreOffice",
       "version": "25.8.7",
@@ -1503,6 +1587,18 @@
       "version": "0.350.1",
       "sha256": "b5cd995d15dd76479596f69835be15d9ee7c82f37ae73e3e5b451f95a5eeace1",
       "lastUpdated": "2026-05-26T20:52:12Z"
+    },
+    {
+      "slug": "loom/windows",
+      "name": "Loom",
+      "version": "0.350.1",
+      "sha256": "22938c6c6b97277ec5fc0571072b4506af266f8baa1a583ce2fab7cfbfea2213",
+      "publisher": "CN=\"Loom, Inc.\", O=\"Loom, Inc.\", L=San Francisco, S=California, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "075FEF2A2AF6925B9641D6C7FFA4C705",
+      "thumbprint": "0E4E993EBB874473561A37B5FFCD9E36986BE9B5",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-05-28T17:27:37Z"
     },
     {
       "slug": "lulu/darwin",
@@ -1627,11 +1723,35 @@
       "lastUpdated": "2026-05-14T21:36:01Z"
     },
     {
+      "slug": "miro/windows",
+      "name": "Miro",
+      "version": "0.11.140",
+      "sha256": "552ad2cf35ed14d688090ffba913dddf02124a2f86b22dcd55b2195ffadcdfc1",
+      "publisher": "CN=\"Realtimeboard, Inc.\", O=\"Realtimeboard, Inc.\", L=San Francisco, S=California, C=US, SERIALNUMBER=6438916, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "09CA0E2C12D5255775548951D4CE0D17",
+      "thumbprint": "BF66C77661A608ADE292BD869DDA274CD74C23A9",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-05-28T17:27:45Z"
+    },
+    {
       "slug": "mongodb-compass/darwin",
       "name": "MongoDB Compass",
       "version": "1.49.8",
       "sha256": "5829aa0332a058f28773a6350f51a2f3ac3b55b607ccf7837ffef5c01d00b5df",
       "lastUpdated": "2026-05-27T15:23:57Z"
+    },
+    {
+      "slug": "mongodb-compass/windows",
+      "name": "MongoDB Compass",
+      "version": "1.49.8.0",
+      "sha256": "4c55ffc06cbd7d912a62e8361c6f1727979572b199ec137025f2d5698781bc5c",
+      "publisher": "CN=\"MongoDB, Inc.\", O=\"MongoDB, Inc.\", L=New York, S=New York, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0AA53660E79501275B3225A90063E43C",
+      "thumbprint": "A5BBE2A6DA1D2A6E057EF870267E6A91E4D56BAA",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-05-28T17:27:58Z"
     },
     {
       "slug": "mysqlworkbench/darwin",
