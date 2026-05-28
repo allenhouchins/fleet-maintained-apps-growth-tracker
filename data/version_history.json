@@ -1,177 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-03-30T15:33:43Z",
-      "appName": "Privileges",
-      "slug": "privileges/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.5.1",
-      "newVersion": "2.5.2",
-      "installerUrl": "https://github.com/SAP/macOS-enterprise-privileges/releases/download/2.5.2/Privileges_2.5.2.pkg"
-    },
-    {
-      "date": "2026-03-30T15:33:43Z",
-      "appName": "Microsoft Teams",
-      "slug": "microsoft-teams/darwin",
-      "platform": "darwin",
-      "oldVersion": "26043.2109.4484.3337",
-      "newVersion": "26059.604.4471.2584",
-      "installerUrl": "https://statics.teams.cdn.office.net/production-osx/26059.604.4471.2584/MicrosoftTeams.pkg"
-    },
-    {
-      "date": "2026-03-30T15:33:43Z",
-      "appName": "Postman",
-      "slug": "postman/windows",
-      "platform": "windows",
-      "oldVersion": "12.3.6",
-      "newVersion": "12.4.0",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.4.0/windows_64"
-    },
-    {
-      "date": "2026-03-30T15:33:43Z",
-      "appName": "Rider",
-      "slug": "rider/darwin",
-      "platform": "darwin",
-      "oldVersion": "2025.3.4",
-      "newVersion": "2026.1",
-      "installerUrl": "https://download.jetbrains.com/rider/JetBrains.Rider-2026.1-aarch64.dmg"
-    },
-    {
-      "date": "2026-03-30T17:22:40Z",
-      "appName": "RustRover",
-      "slug": "rustrover/darwin",
-      "platform": "darwin",
-      "oldVersion": "2025.3.5",
-      "newVersion": "2026.1",
-      "installerUrl": "https://download.jetbrains.com/rustrover/RustRover-2026.1-aarch64.dmg"
-    },
-    {
-      "date": "2026-03-30T22:14:55Z",
-      "appName": "Postman",
-      "slug": "postman/windows",
-      "platform": "windows",
-      "oldVersion": "12.4.0",
-      "newVersion": "12.4.1",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.4.1/windows_64"
-    },
-    {
-      "date": "2026-03-31T14:37:09Z",
-      "appName": "Postman",
-      "slug": "postman/darwin",
-      "platform": "darwin",
-      "oldVersion": "12.4.0",
-      "newVersion": "12.4.1",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.4.1/osx_arm64"
-    },
-    {
-      "date": "2026-03-31T14:37:09Z",
-      "appName": "PyCharm Professional",
-      "slug": "pycharm/darwin",
-      "platform": "darwin",
-      "oldVersion": "2025.3.4",
-      "newVersion": "2026.1",
-      "installerUrl": "https://download.jetbrains.com/python/pycharm-professional-2026.1-aarch64.dmg"
-    },
-    {
-      "date": "2026-03-31T14:37:09Z",
-      "appName": "Discord",
-      "slug": "discord/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.0.382",
-      "newVersion": "0.0.383",
-      "installerUrl": "https://dl.discordapp.net/apps/osx/0.0.383/Discord.dmg"
-    },
-    {
-      "date": "2026-03-31T14:37:09Z",
-      "appName": "Nudge",
-      "slug": "nudge/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.1.1.81855",
-      "newVersion": "2.1.2.81856",
-      "installerUrl": "https://github.com/macadmins/nudge/releases/download/v2.1.2.81856/Nudge-2.1.2.81856.pkg"
-    },
-    {
-      "date": "2026-03-31T14:37:09Z",
-      "appName": "Discord",
-      "slug": "discord/windows",
-      "platform": "windows",
-      "oldVersion": "1.0.9230",
-      "newVersion": "1.0.9231",
-      "installerUrl": "https://stable.dl2.discordapp.net/distro/app/stable/win/x64/1.0.9231/DiscordSetup.exe"
-    },
-    {
-      "date": "2026-03-31T14:37:09Z",
-      "appName": "Nextcloud",
-      "slug": "nextcloud/darwin",
-      "platform": "darwin",
-      "oldVersion": "33.0.0",
-      "newVersion": "33.0.1",
-      "installerUrl": "https://github.com/nextcloud-releases/desktop/releases/download/v33.0.1/Nextcloud-33.0.1.pkg"
-    },
-    {
-      "date": "2026-03-31T16:27:43Z",
-      "appName": "Postman",
-      "slug": "postman/windows",
-      "platform": "windows",
-      "oldVersion": "12.4.1",
-      "newVersion": "12.4.2",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.4.2/windows_64"
-    },
-    {
-      "date": "2026-03-31T16:27:43Z",
-      "appName": "Krita",
-      "slug": "krita/darwin",
-      "platform": "darwin",
-      "oldVersion": "5.3.0",
-      "newVersion": "5.3.1",
-      "installerUrl": "https://download.kde.org/stable/krita/5.3.1/krita-5.3.1-signed.dmg"
-    },
-    {
-      "date": "2026-03-31T16:27:43Z",
-      "appName": "Windows App",
-      "slug": "windows-app/darwin",
-      "platform": "darwin",
-      "oldVersion": "11.3.2",
-      "newVersion": "11.3.3",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Windows_App_11.3.3_installer.pkg"
-    },
-    {
-      "date": "2026-03-31T16:27:43Z",
-      "appName": "Krita",
-      "slug": "krita/windows",
-      "platform": "windows",
-      "oldVersion": "5.3.0.100",
-      "newVersion": "5.3.1.100",
-      "installerUrl": "https://download.kde.org/stable/krita/5.3.1/krita-x64-5.3.1-setup.exe"
-    },
-    {
-      "date": "2026-03-31T16:27:43Z",
-      "appName": "Granola",
-      "slug": "granola/darwin",
-      "platform": "darwin",
-      "oldVersion": "7.87.7",
-      "newVersion": "7.99.1",
-      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.99.1/Granola-7.99.1-mac-universal.dmg"
-    },
-    {
-      "date": "2026-03-31T16:27:43Z",
-      "appName": "Postman",
-      "slug": "postman/darwin",
-      "platform": "darwin",
-      "oldVersion": "12.4.1",
-      "newVersion": "12.4.2",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.4.2/osx_arm64"
-    },
-    {
-      "date": "2026-03-31T16:27:43Z",
-      "appName": "Claude",
-      "slug": "claude/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.1.9493",
-      "newVersion": "1.1.9669",
-      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.1.9669/Claude-aea25dadb1a5850303cbd7f3126691a15dc41963.zip"
-    },
-    {
       "date": "2026-03-31T16:27:43Z",
       "appName": "Grammarly Desktop",
       "slug": "grammarly-desktop/darwin",
@@ -8999,6 +8828,177 @@
       "oldVersion": "",
       "newVersion": "10.19.0.19950",
       "installerUrl": "https://link.gotomeeting.com/latest-msi"
+    },
+    {
+      "date": "2026-05-28T03:16:59Z",
+      "appName": "draw.io",
+      "slug": "drawio/darwin",
+      "platform": "darwin",
+      "oldVersion": "30.0.2",
+      "newVersion": "30.0.4",
+      "installerUrl": "https://github.com/jgraph/drawio-desktop/releases/download/v30.0.4/draw.io-arm64-30.0.4.dmg"
+    },
+    {
+      "date": "2026-05-28T03:16:59Z",
+      "appName": "Wrike",
+      "slug": "wrike/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.6.0",
+      "newVersion": "4.6.1",
+      "installerUrl": "https://dl.wrike.com/download/WrikeDesktopApp_ARM.v4.6.1.dmg"
+    },
+    {
+      "date": "2026-05-28T03:16:59Z",
+      "appName": "Google Chrome",
+      "slug": "google-chrome/windows",
+      "platform": "windows",
+      "oldVersion": "148.0.7778.179",
+      "newVersion": "148.0.7778.217",
+      "installerUrl": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi"
+    },
+    {
+      "date": "2026-05-28T03:16:59Z",
+      "appName": "Cursor",
+      "slug": "cursor/windows",
+      "platform": "windows",
+      "oldVersion": "3.5.33",
+      "newVersion": "3.5.38",
+      "installerUrl": "https://downloads.cursor.com/production/009bb5a3600dd98fe1c1f25798f767f686e14759/win32/x64/system-setup/CursorSetup-x64-3.5.38.exe"
+    },
+    {
+      "date": "2026-05-28T03:16:59Z",
+      "appName": "Granola",
+      "slug": "granola/windows",
+      "platform": "windows",
+      "oldVersion": "7.269.0",
+      "newVersion": "7.269.1",
+      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.269.1/Granola-7.269.1-win-x64.exe"
+    },
+    {
+      "date": "2026-05-28T03:16:59Z",
+      "appName": "Microsoft Visual Studio Code",
+      "slug": "visual-studio-code/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.121.0",
+      "newVersion": "1.122.0",
+      "installerUrl": "https://update.code.visualstudio.com/1.122.0/darwin-arm64/stable"
+    },
+    {
+      "date": "2026-05-28T03:16:59Z",
+      "appName": "OneDrive",
+      "slug": "onedrive/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.063.0405.0002",
+      "newVersion": "26.078.0426.0002",
+      "installerUrl": "https://oneclient.sfx.ms/Mac/Installers/26.078.0426.0002/universal/OneDrive.pkg"
+    },
+    {
+      "date": "2026-05-28T03:16:59Z",
+      "appName": "Amazon Chime",
+      "slug": "amazon-chime/darwin",
+      "platform": "darwin",
+      "oldVersion": "5.23.22522",
+      "newVersion": "5.23.22533",
+      "installerUrl": "https://clients.chime.aws/mac-nme/AmazonChime-5.23.22533.dmg"
+    },
+    {
+      "date": "2026-05-28T03:16:59Z",
+      "appName": "Signal",
+      "slug": "signal/darwin",
+      "platform": "darwin",
+      "oldVersion": "8.11.0",
+      "newVersion": "8.12.0",
+      "installerUrl": "https://updates.signal.org/desktop/signal-desktop-mac-arm64-8.12.0.zip"
+    },
+    {
+      "date": "2026-05-28T03:16:59Z",
+      "appName": "WhatsApp",
+      "slug": "whatsapp/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.21.15",
+      "newVersion": "26.21.17",
+      "installerUrl": "https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release\u0026src=whatsapp_downloads_page"
+    },
+    {
+      "date": "2026-05-28T03:16:59Z",
+      "appName": "Granola",
+      "slug": "granola/darwin",
+      "platform": "darwin",
+      "oldVersion": "7.269.0",
+      "newVersion": "7.269.1",
+      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.269.1/Granola-7.269.1-mac-universal.dmg"
+    },
+    {
+      "date": "2026-05-28T03:16:59Z",
+      "appName": "Jabra Direct",
+      "slug": "jabra-direct/darwin",
+      "platform": "darwin",
+      "oldVersion": "6.27.03702",
+      "newVersion": "8.1.14601",
+      "installerUrl": "https://jabraxpressonlineprdstor.blob.core.windows.net/jdo/JabraDirectSetup.dmg"
+    },
+    {
+      "date": "2026-05-28T03:16:59Z",
+      "appName": "Microsoft Edge",
+      "slug": "microsoft-edge/windows",
+      "platform": "windows",
+      "oldVersion": "148.0.3967.70",
+      "newVersion": "148.0.3967.83",
+      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/fc7d62cf-e4c0-4214-abb6-450d9210daf2/MicrosoftEdgeEnterpriseX64.msi"
+    },
+    {
+      "date": "2026-05-28T03:16:59Z",
+      "appName": "Zen Browser",
+      "slug": "zen/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.20b",
+      "newVersion": "1.20.1b",
+      "installerUrl": "https://github.com/zen-browser/desktop/releases/download/1.20.1b/zen.macos-universal.dmg"
+    },
+    {
+      "date": "2026-05-28T03:16:59Z",
+      "appName": "Dropbox",
+      "slug": "dropbox/darwin",
+      "platform": "darwin",
+      "oldVersion": "252.4.3485",
+      "newVersion": "254.4.2518",
+      "installerUrl": "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20254.4.2518.arm64.dmg"
+    },
+    {
+      "date": "2026-05-28T03:16:59Z",
+      "appName": "AWS Client VPN",
+      "slug": "aws-vpn-client/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "5.3.4",
+      "installerUrl": "https://d20adtppz83p9s.cloudfront.net/WPF/5.3.4/AWS_VPN_Client.msi"
+    },
+    {
+      "date": "2026-05-28T03:16:59Z",
+      "appName": "Krita",
+      "slug": "krita/windows",
+      "platform": "windows",
+      "oldVersion": "5.3.1.100",
+      "newVersion": "5.3.2.0",
+      "installerUrl": "https://download.kde.org/stable/krita/5.3.2/krita-x64-5.3.2-setup.exe"
+    },
+    {
+      "date": "2026-05-28T03:16:59Z",
+      "appName": "Zed",
+      "slug": "zed/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.3.7",
+      "newVersion": "1.4.2",
+      "installerUrl": "https://zed.dev/api/releases/stable/1.4.2/Zed-aarch64.dmg"
+    },
+    {
+      "date": "2026-05-28T03:16:59Z",
+      "appName": "WinSCP",
+      "slug": "winscp/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "6.5.6",
+      "installerUrl": "https://sourceforge.net/projects/winscp/files/WinSCP/6.5.6/WinSCP-6.5.6-Setup.exe/download"
     }
   ]
 }

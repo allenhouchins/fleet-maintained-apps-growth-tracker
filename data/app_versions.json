@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T01:40:38Z",
+  "lastUpdated": "2026-05-28T03:16:59Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -138,8 +138,8 @@
       "slug": "amazon-chime/darwin",
       "name": "Amazon Chime",
       "platform": "darwin",
-      "version": "5.23.22522",
-      "installerUrl": "https://clients.chime.aws/mac-nme/AmazonChime-5.23.22522.dmg"
+      "version": "5.23.22533",
+      "installerUrl": "https://clients.chime.aws/mac-nme/AmazonChime-5.23.22533.dmg"
     },
     {
       "slug": "amazon-corretto-25/windows",
@@ -238,6 +238,13 @@
       "platform": "darwin",
       "version": "5.3.5",
       "installerUrl": "https://d20adtppz83p9s.cloudfront.net/OSX_ARM64/5.3.5/AWS_VPN_Client_ARM64.pkg"
+    },
+    {
+      "slug": "aws-vpn-client/windows",
+      "name": "AWS Client VPN",
+      "platform": "windows",
+      "version": "5.3.4",
+      "installerUrl": "https://d20adtppz83p9s.cloudfront.net/WPF/5.3.4/AWS_VPN_Client.msi"
     },
     {
       "slug": "backblaze/darwin",
@@ -530,8 +537,8 @@
       "slug": "cursor/windows",
       "name": "Cursor",
       "platform": "windows",
-      "version": "3.5.33",
-      "installerUrl": "https://downloads.cursor.com/production/aac81804b986d739acab348ed96b8bea6e83cc57/win32/x64/system-setup/CursorSetup-x64-3.5.33.exe"
+      "version": "3.5.38",
+      "installerUrl": "https://downloads.cursor.com/production/009bb5a3600dd98fe1c1f25798f767f686e14759/win32/x64/system-setup/CursorSetup-x64-3.5.38.exe"
     },
     {
       "slug": "cyberduck/darwin",
@@ -656,15 +663,15 @@
       "slug": "drawio/darwin",
       "name": "draw.io",
       "platform": "darwin",
-      "version": "30.0.2",
-      "installerUrl": "https://github.com/jgraph/drawio-desktop/releases/download/v30.0.2/draw.io-arm64-30.0.2.dmg"
+      "version": "30.0.4",
+      "installerUrl": "https://github.com/jgraph/drawio-desktop/releases/download/v30.0.4/draw.io-arm64-30.0.4.dmg"
     },
     {
       "slug": "dropbox/darwin",
       "name": "Dropbox",
       "platform": "darwin",
-      "version": "252.4.3485",
-      "installerUrl": "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20252.4.3485.arm64.dmg"
+      "version": "254.4.2518",
+      "installerUrl": "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20254.4.2518.arm64.dmg"
     },
     {
       "slug": "druva-insync/darwin",
@@ -880,7 +887,7 @@
       "slug": "google-chrome/windows",
       "name": "Google Chrome",
       "platform": "windows",
-      "version": "148.0.7778.179",
+      "version": "148.0.7778.217",
       "installerUrl": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi"
     },
     {
@@ -943,15 +950,15 @@
       "slug": "granola/darwin",
       "name": "Granola",
       "platform": "darwin",
-      "version": "7.269.0",
-      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.269.0/Granola-7.269.0-mac-universal.dmg"
+      "version": "7.269.1",
+      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.269.1/Granola-7.269.1-mac-universal.dmg"
     },
     {
       "slug": "granola/windows",
       "name": "Granola",
       "platform": "windows",
-      "version": "7.269.0",
-      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.269.0/Granola-7.269.0-win-x64.exe"
+      "version": "7.269.1",
+      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.269.1/Granola-7.269.1-win-x64.exe"
     },
     {
       "slug": "hyper/darwin",
@@ -1048,7 +1055,7 @@
       "slug": "jabra-direct/darwin",
       "name": "Jabra Direct",
       "platform": "darwin",
-      "version": "6.27.03702",
+      "version": "8.1.14601",
       "installerUrl": "https://jabraxpressonlineprdstor.blob.core.windows.net/jdo/JabraDirectSetup.dmg"
     },
     {
@@ -1104,8 +1111,8 @@
       "slug": "krita/windows",
       "name": "Krita",
       "platform": "windows",
-      "version": "5.3.1.100",
-      "installerUrl": "https://download.kde.org/stable/krita/5.3.1/krita-x64-5.3.1-setup.exe"
+      "version": "5.3.2.0",
+      "installerUrl": "https://download.kde.org/stable/krita/5.3.2/krita-x64-5.3.2-setup.exe"
     },
     {
       "slug": "lastpass/windows",
@@ -1223,8 +1230,8 @@
       "slug": "microsoft-edge/windows",
       "name": "Microsoft Edge",
       "platform": "windows",
-      "version": "148.0.3967.70",
-      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/53d457a0-d60c-48b7-bf76-cb781dd16beb/MicrosoftEdgeEnterpriseX64.msi"
+      "version": "148.0.3967.83",
+      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/fc7d62cf-e4c0-4214-abb6-450d9210daf2/MicrosoftEdgeEnterpriseX64.msi"
     },
     {
       "slug": "microsoft-excel/darwin",
@@ -1419,8 +1426,8 @@
       "slug": "onedrive/darwin",
       "name": "OneDrive",
       "platform": "darwin",
-      "version": "26.063.0405.0002",
-      "installerUrl": "https://oneclient.sfx.ms/Mac/Installers/26.063.0405.0002/universal/OneDrive.pkg"
+      "version": "26.078.0426.0002",
+      "installerUrl": "https://oneclient.sfx.ms/Mac/Installers/26.078.0426.0002/universal/OneDrive.pkg"
     },
     {
       "slug": "openvpn-connect/darwin",
@@ -1664,8 +1671,8 @@
       "slug": "signal/darwin",
       "name": "Signal",
       "platform": "darwin",
-      "version": "8.11.0",
-      "installerUrl": "https://updates.signal.org/desktop/signal-desktop-mac-arm64-8.11.0.zip"
+      "version": "8.12.0",
+      "installerUrl": "https://updates.signal.org/desktop/signal-desktop-mac-arm64-8.12.0.zip"
     },
     {
       "slug": "sketch/darwin",
@@ -1979,8 +1986,8 @@
       "slug": "visual-studio-code/darwin",
       "name": "Microsoft Visual Studio Code",
       "platform": "darwin",
-      "version": "1.121.0",
-      "installerUrl": "https://update.code.visualstudio.com/1.121.0/darwin-arm64/stable"
+      "version": "1.122.0",
+      "installerUrl": "https://update.code.visualstudio.com/1.122.0/darwin-arm64/stable"
     },
     {
       "slug": "visual-studio-code/windows",
@@ -2049,7 +2056,7 @@
       "slug": "whatsapp/darwin",
       "name": "WhatsApp",
       "platform": "darwin",
-      "version": "26.21.15",
+      "version": "26.21.17",
       "installerUrl": "https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release\u0026src=whatsapp_downloads_page"
     },
     {
@@ -2065,6 +2072,13 @@
       "platform": "darwin",
       "version": "2.3.9",
       "installerUrl": "https://windsurf-stable.codeiumdata.com/darwin-arm64-dmg/stable/a5d3f1ff990cabc0e8001cce6642bdb7ad429e73/Windsurf-darwin-arm64-2.3.9.dmg"
+    },
+    {
+      "slug": "winscp/windows",
+      "name": "WinSCP",
+      "platform": "windows",
+      "version": "6.5.6",
+      "installerUrl": "https://sourceforge.net/projects/winscp/files/WinSCP/6.5.6/WinSCP-6.5.6-Setup.exe/download"
     },
     {
       "slug": "wireshark-app/darwin",
@@ -2084,8 +2098,8 @@
       "slug": "wrike/darwin",
       "name": "Wrike",
       "platform": "darwin",
-      "version": "4.6.0",
-      "installerUrl": "https://dl.wrike.com/download/WrikeDesktopApp_ARM.v4.6.0.dmg"
+      "version": "4.6.1",
+      "installerUrl": "https://dl.wrike.com/download/WrikeDesktopApp_ARM.v4.6.1.dmg"
     },
     {
       "slug": "xcreds/darwin",
@@ -2119,15 +2133,15 @@
       "slug": "zed/darwin",
       "name": "Zed",
       "platform": "darwin",
-      "version": "1.3.7",
-      "installerUrl": "https://zed.dev/api/releases/stable/1.3.7/Zed-aarch64.dmg"
+      "version": "1.4.2",
+      "installerUrl": "https://zed.dev/api/releases/stable/1.4.2/Zed-aarch64.dmg"
     },
     {
       "slug": "zen/darwin",
       "name": "Zen Browser",
       "platform": "darwin",
-      "version": "1.20b",
-      "installerUrl": "https://github.com/zen-browser/desktop/releases/download/1.20b/zen.macos-universal.dmg"
+      "version": "1.20.1b",
+      "installerUrl": "https://github.com/zen-browser/desktop/releases/download/1.20.1b/zen.macos-universal.dmg"
     },
     {
       "slug": "zeplin/darwin",
