@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T17:38:16Z",
+  "lastUpdated": "2026-05-28T17:45:00Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1308,12 +1308,12 @@
     {
       "slug": "google-chrome/darwin",
       "name": "Google Chrome",
-      "version": "148.0.7778.179",
-      "sha256": "ffc511252e6194c6143503fbc401d21dd25ce43fbd82daea9f9da3436cb92144",
-      "cdhash": "e7693170606d7e64c92795a0744e9a40a94799ec",
+      "version": "148.0.7778.216",
+      "sha256": "4147db1da1447f0d964422d40967d8e79339dda4c25d2ae4b33dcd0a57caaee5",
+      "cdhash": "eebb3c1e38f5a60df7fbecce025f63adfa354c5a",
       "signingId": "EQHXZ8M8AV:com.google.Chrome",
       "teamId": "EQHXZ8M8AV",
-      "lastUpdated": "2026-05-20T14:01:42Z"
+      "lastUpdated": "2026-05-28T17:38:57Z"
     },
     {
       "slug": "google-chrome/windows",
@@ -1630,12 +1630,12 @@
     {
       "slug": "kitty/darwin",
       "name": "kitty",
-      "version": "0.47.0",
-      "sha256": "899fd5c46a34699c9e1c3654a5c4ce4033e212a177cab23f2d69c5b548bde842",
-      "cdhash": "7fcba37a2582aaa1018f3ba6f629b7c72268f08a",
+      "version": "0.47.1",
+      "sha256": "2089b6d9bf3c49c62435eec6936b8065434b3601f270f179ff23e4946df325cf",
+      "cdhash": "990ee16110bf3afb60ed6a68dc3d94928f0a2f3e",
       "signingId": "NTY7FVCEKP:net.kovidgoyal.kitty",
       "teamId": "NTY7FVCEKP",
-      "lastUpdated": "2026-05-20T01:55:17Z"
+      "lastUpdated": "2026-05-28T17:39:20Z"
     },
     {
       "slug": "krita/darwin",
@@ -2163,12 +2163,12 @@
     {
       "slug": "opera/darwin",
       "name": "Opera",
-      "version": "131.0",
-      "sha256": "2169ae8d958ecdcfadb956da6832c64338246698b635913f010250a21a73e867",
-      "cdhash": "bf7352b3ddb2c9c8df5fc3fec3a991fdc9974a3b",
+      "version": "132.0",
+      "sha256": "76aae376488db0030a5ae0e8cc9edb1385e39e8a79f595be12dffeb4d19c35b4",
+      "cdhash": "9599ca7274baf1130d4dcaaa74d60a3207909fe2",
       "signingId": "A2P9LX4JPN:com.operasoftware.Opera",
       "teamId": "A2P9LX4JPN",
-      "lastUpdated": "2026-04-29T15:56:51Z"
+      "lastUpdated": "2026-05-28T17:40:13Z"
     },
     {
       "slug": "orbstack/darwin",
@@ -2243,6 +2243,16 @@
       "thumbprint": "8C1B506D0BD10A911D09FB7EDBCAB383F1CDAF20",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-05-26T20:48:38Z"
+    },
+    {
+      "slug": "plugdata/darwin",
+      "name": "PlugData",
+      "version": "0.9.3",
+      "sha256": "8dbf6a660ce03b7eaa511969eb6a225ac3510b3af9ffb50d184b63c0f4010074",
+      "cdhash": "ce27966298e0206452fd5312b3ab493a99635f31",
+      "signingId": "7SV7JPRR2L:com.plugdata.plugdata",
+      "teamId": "7SV7JPRR2L",
+      "lastUpdated": "2026-05-28T17:41:00Z"
     },
     {
       "slug": "podman-desktop/darwin",
@@ -2539,12 +2549,12 @@
     {
       "slug": "snagit/darwin",
       "name": "Snagit",
-      "version": "2026.1.0",
-      "sha256": "1693c6577d2b20b7a84d64d1d8d16fd1c352562a5ed83e1183ff966281eeb917",
-      "cdhash": "724b166fd7e57350a7bfecd7364c2359ca1833dd",
+      "version": "2026.2.0",
+      "sha256": "ba6c29eda326f7716f557b71e6f8ed6287e8dfeac7968cbc6f2537186e2c080d",
+      "cdhash": "e6594b8f0c8556ca9ea79e95f3a59aacf6f42b59",
       "signingId": "7TQL462TU8:com.TechSmith.Snagit",
       "teamId": "7TQL462TU8",
-      "lastUpdated": "2026-05-14T21:38:29Z"
+      "lastUpdated": "2026-05-28T17:41:34Z"
     },
     {
       "slug": "sourcetree/darwin",
@@ -3064,12 +3074,12 @@
     {
       "slug": "whatsapp/darwin",
       "name": "WhatsApp",
-      "version": "26.21.17",
-      "sha256": "90c0f23176f3e12ad02e2d3f1fec82074d02cf7901b14970278aab1d24a1a29d",
-      "cdhash": "d50eac4c74695a1768b7523e7f1eb14c4f0cb175",
+      "version": "26.21.19",
+      "sha256": "65388281b372ca94adc1ce16b7e185a5620baa646f119b09462cd3df7b0932ae",
+      "cdhash": "e8491675edc1ee626e3fe6d0fa61c2ef841ae9c8",
       "signingId": "57T9237FN3:net.whatsapp.WhatsApp",
       "teamId": "57T9237FN3",
-      "lastUpdated": "2026-05-28T03:26:16Z"
+      "lastUpdated": "2026-05-28T17:44:57Z"
     },
     {
       "slug": "windows-app/darwin",
