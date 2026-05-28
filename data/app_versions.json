@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T15:14:50Z",
+  "lastUpdated": "2026-05-28T17:22:24Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -226,6 +226,13 @@
       "installerUrl": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.7/audacity-macOS-3.7.7-arm64.dmg"
     },
     {
+      "slug": "audacity/windows",
+      "name": "Audacity",
+      "platform": "windows",
+      "version": "3.7.7",
+      "installerUrl": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.7/audacity-win-3.7.7-64bit.exe"
+    },
+    {
       "slug": "avast-secure-browser/darwin",
       "name": "Avast Secure Browser",
       "platform": "darwin",
@@ -243,8 +250,8 @@
       "slug": "aws-vpn-client/windows",
       "name": "AWS Client VPN",
       "platform": "windows",
-      "version": "5.3.4",
-      "installerUrl": "https://d20adtppz83p9s.cloudfront.net/WPF/5.3.4/AWS_VPN_Client.msi"
+      "version": "5.3.5",
+      "installerUrl": "https://d20adtppz83p9s.cloudfront.net/WPF/5.3.5/AWS_VPN_Client.msi"
     },
     {
       "slug": "backblaze/darwin",
@@ -259,6 +266,13 @@
       "platform": "darwin",
       "version": "2.1.6",
       "installerUrl": "https://github.com/balena-io/etcher/releases/download/v2.1.6/balenaEtcher-2.1.6-arm64.dmg"
+    },
+    {
+      "slug": "balenaetcher/windows",
+      "name": "balenaEtcher",
+      "platform": "windows",
+      "version": "2.1.6",
+      "installerUrl": "https://github.com/balena-io/etcher/releases/download/v2.1.6/balenaEtcher-2.1.6.Setup.exe"
     },
     {
       "slug": "bbedit/darwin",
@@ -294,6 +308,13 @@
       "platform": "darwin",
       "version": "2026.4.0",
       "installerUrl": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.4.0/Bitwarden-2026.4.0-universal.dmg"
+    },
+    {
+      "slug": "bitwarden/windows",
+      "name": "Bitwarden",
+      "platform": "windows",
+      "version": "2026.4.0",
+      "installerUrl": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.4.0/Bitwarden-Installer-2026.4.0.exe"
     },
     {
       "slug": "blender/darwin",
@@ -352,11 +373,25 @@
       "installerUrl": "https://github.com/usebruno/bruno/releases/download/v3.4.2/bruno_3.4.2_arm64_mac.dmg"
     },
     {
+      "slug": "bruno/windows",
+      "name": "Bruno",
+      "platform": "windows",
+      "version": "3.4.2",
+      "installerUrl": "https://github.com/usebruno/bruno/releases/download/v3.4.2/bruno_3.4.2_x64_win.msi"
+    },
+    {
       "slug": "calibre/darwin",
       "name": "calibre",
       "platform": "darwin",
-      "version": "9.8.0",
-      "installerUrl": "https://download.calibre-ebook.com/9.8.0/calibre-9.8.0.dmg"
+      "version": "9.9.0",
+      "installerUrl": "https://download.calibre-ebook.com/9.9.0/calibre-9.9.0.dmg"
+    },
+    {
+      "slug": "calibre/windows",
+      "name": "calibre",
+      "platform": "windows",
+      "version": "9.9.0",
+      "installerUrl": "https://download.calibre-ebook.com/9.9.0/calibre-64bit-9.9.0.msi"
     },
     {
       "slug": "camtasia/darwin",
@@ -478,6 +513,13 @@
       "installerUrl": "https://download.jetbrains.com/cpp/CLion-2026.1.2-aarch64.dmg"
     },
     {
+      "slug": "clion/windows",
+      "name": "CLion",
+      "platform": "windows",
+      "version": "2026.1.2",
+      "installerUrl": "https://download.jetbrains.com/cpp/CLion-2026.1.2.exe"
+    },
+    {
       "slug": "clockify/darwin",
       "name": "Clockify Desktop",
       "platform": "darwin",
@@ -569,6 +611,13 @@
       "installerUrl": "https://download.jetbrains.com/datagrip/datagrip-2026.1.3-aarch64.dmg"
     },
     {
+      "slug": "datagrip/windows",
+      "name": "DataGrip",
+      "platform": "windows",
+      "version": "2026.1.3",
+      "installerUrl": "https://download.jetbrains.com/datagrip/datagrip-2026.1.3.exe"
+    },
+    {
       "slug": "db-browser-for-sqlite/darwin",
       "name": "DB Browser for SQLite",
       "platform": "darwin",
@@ -581,6 +630,13 @@
       "platform": "darwin",
       "version": "26.0.5",
       "installerUrl": "https://dbeaver.io/files/26.0.5/dbeaver-ce-26.0.5-macos-aarch64.dmg"
+    },
+    {
+      "slug": "dbeaver-community/windows",
+      "name": "DBeaver",
+      "platform": "windows",
+      "version": "26.0.5",
+      "installerUrl": "https://github.com/dbeaver/dbeaver/releases/download/26.0.5/dbeaver-ce-26.0.5-windows-x86_64.exe"
     },
     {
       "slug": "dbeaver-enterprise/darwin",
@@ -625,6 +681,13 @@
       "installerUrl": "https://download.dialpad.com/osx/arm64/dialpad.pkg"
     },
     {
+      "slug": "dialpad/windows",
+      "name": "Dialpad",
+      "platform": "windows",
+      "version": "2605.0.4",
+      "installerUrl": "https://storage.googleapis.com/dialpad_native/stable/win32/x64/DialpadSetup-2605.0.4_x64.exe"
+    },
+    {
       "slug": "discord/darwin",
       "name": "Discord",
       "platform": "darwin",
@@ -667,11 +730,25 @@
       "installerUrl": "https://github.com/jgraph/drawio-desktop/releases/download/v30.0.4/draw.io-arm64-30.0.4.dmg"
     },
     {
+      "slug": "drawio/windows",
+      "name": "draw.io",
+      "platform": "windows",
+      "version": "30.0.4",
+      "installerUrl": "https://github.com/jgraph/drawio-desktop/releases/download/v30.0.4/draw.io-30.0.4-windows-installer.exe"
+    },
+    {
       "slug": "dropbox/darwin",
       "name": "Dropbox",
       "platform": "darwin",
       "version": "254.4.2518",
       "installerUrl": "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20254.4.2518.arm64.dmg"
+    },
+    {
+      "slug": "dropbox/windows",
+      "name": "Dropbox",
+      "platform": "windows",
+      "version": "252.4.3485",
+      "installerUrl": "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20252.4.3485%20Enterprise%20Installer.x64.msi"
     },
     {
       "slug": "druva-insync/darwin",
@@ -870,6 +947,13 @@
       "installerUrl": "https://api.gitkraken.dev/releases/production/darwin/arm64/12.1.2/GitKraken-v12.1.2.zip"
     },
     {
+      "slug": "gitkraken/windows",
+      "name": "GitKraken",
+      "platform": "windows",
+      "version": "12.1.2",
+      "installerUrl": "https://api.gitkraken.dev/releases/production/windows/x64/12.1.2/GitKrakenSetup.exe"
+    },
+    {
       "slug": "goland/darwin",
       "name": "GoLand",
       "platform": "darwin",
@@ -877,10 +961,17 @@
       "installerUrl": "https://download.jetbrains.com/go/goland-2026.1.2-aarch64.dmg"
     },
     {
+      "slug": "goland/windows",
+      "name": "GoLand",
+      "platform": "windows",
+      "version": "2026.1.2",
+      "installerUrl": "https://download.jetbrains.com/go/goland-2026.1.2.exe"
+    },
+    {
       "slug": "google-chrome/darwin",
       "name": "Google Chrome",
       "platform": "darwin",
-      "version": "148.0.7778.179",
+      "version": "148.0.7778.216",
       "installerUrl": "https://dl.google.com/dl/chrome/mac/universal/stable/gcem/GoogleChrome.pkg"
     },
     {
@@ -1010,6 +1101,13 @@
       "installerUrl": "https://github.com/Kong/insomnia/releases/download/core%4012.6.0/Insomnia.Core-12.6.0.dmg"
     },
     {
+      "slug": "insomnia/windows",
+      "name": "Insomnia",
+      "platform": "windows",
+      "version": "12.6.0",
+      "installerUrl": "https://github.com/Kong/insomnia/releases/download/core@12.6.0/Insomnia.Core-12.6.0.exe"
+    },
+    {
       "slug": "intellij-idea-ce/darwin",
       "name": "IntelliJ IDEA CE",
       "platform": "darwin",
@@ -1066,6 +1164,13 @@
       "installerUrl": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-3.4.3.81140-arm64.dmg"
     },
     {
+      "slug": "jetbrains-toolbox/windows",
+      "name": "JetBrains Toolbox",
+      "platform": "windows",
+      "version": "3.4.3.0",
+      "installerUrl": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-3.4.3.81140.exe"
+    },
+    {
       "slug": "keepassxc/darwin",
       "name": "KeePassXC",
       "platform": "darwin",
@@ -1097,8 +1202,8 @@
       "slug": "kitty/darwin",
       "name": "kitty",
       "platform": "darwin",
-      "version": "0.47.0",
-      "installerUrl": "https://github.com/kovidgoyal/kitty/releases/download/v0.47.0/kitty-0.47.0.dmg"
+      "version": "0.47.1",
+      "installerUrl": "https://github.com/kovidgoyal/kitty/releases/download/v0.47.1/kitty-0.47.1.dmg"
     },
     {
       "slug": "krita/darwin",
@@ -1127,6 +1232,13 @@
       "platform": "darwin",
       "version": "2026.5.250609-latest",
       "installerUrl": "https://api.k8slens.dev/binaries/Lens-2026.5.250609-latest-arm64.dmg"
+    },
+    {
+      "slug": "lens/windows",
+      "name": "Lens",
+      "platform": "windows",
+      "version": "2026.5.250609-latest",
+      "installerUrl": "https://downloads.k8slens.dev/ide/Lens%20Setup%202026.5.250609-latest.exe"
     },
     {
       "slug": "libreoffice/darwin",
@@ -1176,6 +1288,13 @@
       "platform": "darwin",
       "version": "0.350.1",
       "installerUrl": "https://packages.loom.com/desktop-packages/Loom-0.350.1-arm64.dmg"
+    },
+    {
+      "slug": "loom/windows",
+      "name": "Loom",
+      "platform": "windows",
+      "version": "0.350.1",
+      "installerUrl": "https://cdn.loom.com/desktop-packages/Loom%20Setup%200.350.1.exe"
     },
     {
       "slug": "lulu/darwin",
@@ -1283,6 +1402,13 @@
       "installerUrl": "https://desktop.miro.com/platforms/darwin-arm64/Install-Miro.dmg"
     },
     {
+      "slug": "miro/windows",
+      "name": "Miro",
+      "platform": "windows",
+      "version": "0.11.140",
+      "installerUrl": "https://desktop.miro.com/platforms/win32-nsis-pu/Miro-setup.exe"
+    },
+    {
       "slug": "mongodb-compass/darwin",
       "name": "MongoDB Compass",
       "platform": "darwin",
@@ -1290,11 +1416,25 @@
       "installerUrl": "https://downloads.mongodb.com/compass/mongodb-compass-1.49.8-darwin-arm64.dmg"
     },
     {
+      "slug": "mongodb-compass/windows",
+      "name": "MongoDB Compass",
+      "platform": "windows",
+      "version": "1.49.8.0",
+      "installerUrl": "https://github.com/mongodb-js/compass/releases/download/v1.49.8/mongodb-compass-1.49.8-win32-x64.msi"
+    },
+    {
       "slug": "mysqlworkbench/darwin",
       "name": "MySQL Workbench",
       "platform": "darwin",
       "version": "8.0.47.CE",
       "installerUrl": "https://cdn.mysql.com/Downloads/MySQLGUITools/mysql-workbench-community-8.0.47-macos-arm64.dmg"
+    },
+    {
+      "slug": "mysqlworkbench/windows",
+      "name": "MySQL Workbench",
+      "platform": "windows",
+      "version": "8.0.47",
+      "installerUrl": "https://cdn.mysql.com/Downloads/MySQLGUITools/mysql-workbench-community-8.0.47-winx64.msi"
     },
     {
       "slug": "nextcloud/darwin",
@@ -1311,11 +1451,25 @@
       "installerUrl": "https://downloads.npass.app/mac/arm/NordPass.dmg"
     },
     {
+      "slug": "nordpass/windows",
+      "name": "NordPass",
+      "platform": "windows",
+      "version": "7.7.12",
+      "installerUrl": "https://downloads.npass.app/windows/NordPassSetup.exe"
+    },
+    {
       "slug": "nordvpn/darwin",
       "name": "NordVPN",
       "platform": "darwin",
       "version": "10.3.0",
       "installerUrl": "https://downloads.nordcdn.com/apps/macos/generic/NordVPN-OpenVPN/10.3.0/NordVPN.pkg"
+    },
+    {
+      "slug": "nordvpn/windows",
+      "name": "NordVPN",
+      "platform": "windows",
+      "version": "8.3.6.0",
+      "installerUrl": "https://downloads.nordcdn.com/apps/windows/NordVPN/8.3.6.0/NordVPNInstall.exe"
     },
     {
       "slug": "notepad++/windows",
@@ -1381,6 +1535,13 @@
       "installerUrl": "https://github.com/obsidianmd/obsidian-releases/releases/download/v1.12.7/Obsidian-1.12.7.dmg"
     },
     {
+      "slug": "obsidian/windows",
+      "name": "Obsidian",
+      "platform": "windows",
+      "version": "1.12.7",
+      "installerUrl": "https://github.com/obsidianmd/obsidian-releases/releases/download/v1.12.7/Obsidian-1.12.7.exe"
+    },
+    {
       "slug": "okta-verify/darwin",
       "name": "Okta Verify",
       "platform": "darwin",
@@ -1437,11 +1598,18 @@
       "installerUrl": "https://swupdate.openvpn.net/downloads/connect/openvpn-connect-3.8.2.6009_signed.dmg"
     },
     {
+      "slug": "openvpn-connect/windows",
+      "name": "OpenVPN Connect",
+      "platform": "windows",
+      "version": "3.8.0",
+      "installerUrl": "https://packages.openvpn.net/connect/v3/openvpn-connect-3.8.0.4528_signed.msi"
+    },
+    {
       "slug": "opera/darwin",
       "name": "Opera",
       "platform": "darwin",
-      "version": "131.0",
-      "installerUrl": "https://get.geo.opera.com/pub/opera/desktop/131.0.5877.97/mac/Opera_131.0.5877.97_Setup.dmg"
+      "version": "132.0",
+      "installerUrl": "https://get.geo.opera.com/pub/opera/desktop/132.0.5905.11/mac/Opera_132.0.5905.11_Setup.dmg"
     },
     {
       "slug": "orbstack/darwin",
@@ -1479,6 +1647,13 @@
       "installerUrl": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.15/macos/pgadmin4-9.15-arm64.dmg"
     },
     {
+      "slug": "pgadmin4/windows",
+      "name": "pgAdmin 4",
+      "platform": "windows",
+      "version": "9.15",
+      "installerUrl": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.15/windows/pgadmin4-9.15-x64.exe"
+    },
+    {
       "slug": "phpstorm/darwin",
       "name": "PhpStorm",
       "platform": "darwin",
@@ -1491,6 +1666,13 @@
       "platform": "windows",
       "version": "2026.1.2",
       "installerUrl": "https://download.jetbrains.com/webide/PhpStorm-2026.1.2.exe"
+    },
+    {
+      "slug": "plugdata/darwin",
+      "name": "PlugData",
+      "platform": "darwin",
+      "version": "0.9.3",
+      "installerUrl": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-macOS-Universal.pkg"
     },
     {
       "slug": "podman-desktop/darwin",
@@ -1510,8 +1692,8 @@
       "slug": "postman/windows",
       "name": "Postman",
       "platform": "windows",
-      "version": "12.12.3",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.12.3/windows_64"
+      "version": "12.12.4",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.12.4/windows_64"
     },
     {
       "slug": "pritunl/darwin",
@@ -1519,6 +1701,13 @@
       "platform": "darwin",
       "version": "1.3.4566.62",
       "installerUrl": "https://github.com/pritunl/pritunl-client-electron/releases/download/1.3.4566.62/Pritunl.pkg.zip"
+    },
+    {
+      "slug": "pritunl/windows",
+      "name": "Pritunl",
+      "platform": "windows",
+      "version": "1.3.4566.62",
+      "installerUrl": "https://github.com/pritunl/pritunl-client/releases/download/1.3.4566.62/Pritunl.exe"
     },
     {
       "slug": "privileges/darwin",
@@ -1540,6 +1729,13 @@
       "platform": "darwin",
       "version": "6.5.1",
       "installerUrl": "https://vpn.protondownload.com/download/macos/6.5.1/ProtonVPN_mac_v6.5.1.dmg"
+    },
+    {
+      "slug": "protonvpn/windows",
+      "name": "ProtonVPN",
+      "platform": "windows",
+      "version": "4.4.0",
+      "installerUrl": "https://vpn.protondownload.com/download/ProtonVPN_v4.4.0_x64.exe"
     },
     {
       "slug": "proxifier/darwin",
@@ -1570,11 +1766,25 @@
       "installerUrl": "https://download.jetbrains.com/python/pycharm-community-2025.2.5-aarch64.dmg"
     },
     {
+      "slug": "pycharm-ce/windows",
+      "name": "PyCharm Community Edition",
+      "platform": "windows",
+      "version": "2025.2.6.1",
+      "installerUrl": "https://download.jetbrains.com/python/pycharm-community-2025.2.6.1.exe"
+    },
+    {
       "slug": "pycharm/darwin",
       "name": "PyCharm Professional",
       "platform": "darwin",
       "version": "2026.1.2",
       "installerUrl": "https://download.jetbrains.com/python/pycharm-professional-2026.1.2-aarch64.dmg"
+    },
+    {
+      "slug": "pycharm/windows",
+      "name": "PyCharm Professional",
+      "platform": "windows",
+      "version": "2024.3.5",
+      "installerUrl": "https://download.jetbrains.com/python/pycharm-professional-2024.3.5.exe"
     },
     {
       "slug": "quip/darwin",
@@ -1589,6 +1799,13 @@
       "platform": "darwin",
       "version": "1.22.3",
       "installerUrl": "https://github.com/rancher-sandbox/rancher-desktop/releases/download/v1.22.3/Rancher.Desktop-1.22.3.aarch64.dmg"
+    },
+    {
+      "slug": "rancher/windows",
+      "name": "Rancher Desktop",
+      "platform": "windows",
+      "version": "1.22.3",
+      "installerUrl": "https://github.com/rancher-sandbox/rancher-desktop/releases/download/v1.22.3/Rancher.Desktop.Setup.1.22.3.msi"
     },
     {
       "slug": "rapidapi/darwin",
@@ -1619,6 +1836,13 @@
       "installerUrl": "https://download.jetbrains.com/rider/JetBrains.Rider-2026.1.2-aarch64.dmg"
     },
     {
+      "slug": "rider/windows",
+      "name": "Rider",
+      "platform": "windows",
+      "version": "2026.1.2",
+      "installerUrl": "https://download.jetbrains.com/rider/JetBrains.Rider-2026.1.2.exe"
+    },
+    {
       "slug": "royal-tsx/darwin",
       "name": "Royal TSX",
       "platform": "darwin",
@@ -1633,11 +1857,25 @@
       "installerUrl": "https://download.jetbrains.com/ruby/RubyMine-2026.1.2-aarch64.dmg"
     },
     {
+      "slug": "rubymine/windows",
+      "name": "RubyMine",
+      "platform": "windows",
+      "version": "2026.1.2",
+      "installerUrl": "https://download.jetbrains.com/ruby/RubyMine-2026.1.2.exe"
+    },
+    {
       "slug": "rustrover/darwin",
       "name": "RustRover",
       "platform": "darwin",
       "version": "2026.1.2",
       "installerUrl": "https://download.jetbrains.com/rustrover/RustRover-2026.1.2-aarch64.dmg"
+    },
+    {
+      "slug": "rustrover/windows",
+      "name": "RustRover",
+      "platform": "windows",
+      "version": "2026.1.2",
+      "installerUrl": "https://download.jetbrains.com/rustrover/RustRover-2026.1.2.exe"
     },
     {
       "slug": "santa/darwin",
@@ -1675,6 +1913,13 @@
       "installerUrl": "https://updates.signal.org/desktop/signal-desktop-mac-arm64-8.12.0.zip"
     },
     {
+      "slug": "signal/windows",
+      "name": "Signal",
+      "platform": "windows",
+      "version": "8.12.0",
+      "installerUrl": "https://updates.signal.org/desktop/signal-desktop-win-8.12.0.exe"
+    },
+    {
       "slug": "sketch/darwin",
       "name": "Sketch",
       "platform": "darwin",
@@ -1699,8 +1944,15 @@
       "slug": "snagit/darwin",
       "name": "Snagit",
       "platform": "darwin",
-      "version": "2026.1.0",
-      "installerUrl": "https://download.techsmith.com/snagitmac/releases/2026.1.0/snagit.dmg"
+      "version": "2026.2.0",
+      "installerUrl": "https://download.techsmith.com/snagitmac/releases/2026.2.0/snagit.dmg"
+    },
+    {
+      "slug": "snagit/windows",
+      "name": "Snagit",
+      "platform": "windows",
+      "version": "26.2.1",
+      "installerUrl": "https://download.techsmith.com/snagit/releases/2621/snagit.msi"
     },
     {
       "slug": "sourcetree/darwin",
@@ -1913,6 +2165,13 @@
       "installerUrl": "https://electron-dl.todoist.com/mac/Todoist-darwin-9.27.1-arm64-latest.dmg"
     },
     {
+      "slug": "todoist-app/windows",
+      "name": "Todoist",
+      "platform": "windows",
+      "version": "9.27.1",
+      "installerUrl": "https://electron-dl.todoist.net/windows/Todoist-win32-9.27.1-x64-latest.exe"
+    },
+    {
       "slug": "tor-browser/darwin",
       "name": "Tor Browser",
       "platform": "darwin",
@@ -1932,6 +2191,13 @@
       "platform": "darwin",
       "version": "16.0.1",
       "installerUrl": "https://www.git-tower.com/apps/tower3-mac/538-b2e67206/Tower-16.0.1-538.zip"
+    },
+    {
+      "slug": "tower/windows",
+      "name": "Tower",
+      "platform": "windows",
+      "version": "12.1.557",
+      "installerUrl": "https://www.git-tower.com/apps/tower3-win/557-ca9adea2/Tower-12.1.557.msi"
     },
     {
       "slug": "transmit/darwin",
@@ -1993,8 +2259,8 @@
       "slug": "visual-studio-code/windows",
       "name": "Microsoft Visual Studio Code",
       "platform": "windows",
-      "version": "1.121.0",
-      "installerUrl": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/f6cfa2ea2403534de03f069bdf160d06451ed282/VSCodeSetup-x64-1.121.0.exe"
+      "version": "1.122.0",
+      "installerUrl": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/6a49527b96e326fe62fbdb56f60e16877c9aa724/VSCodeSetup-x64-1.122.0.exe"
     },
     {
       "slug": "vlc/darwin",
@@ -2053,10 +2319,17 @@
       "installerUrl": "https://download.jetbrains.com/webstorm/WebStorm-2026.1.2-aarch64.dmg"
     },
     {
+      "slug": "webstorm/windows",
+      "name": "WebStorm",
+      "platform": "windows",
+      "version": "2026.1.2",
+      "installerUrl": "https://download.jetbrains.com/webstorm/WebStorm-2026.1.2.exe"
+    },
+    {
       "slug": "whatsapp/darwin",
       "name": "WhatsApp",
       "platform": "darwin",
-      "version": "26.21.17",
+      "version": "26.21.19",
       "installerUrl": "https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release\u0026src=whatsapp_downloads_page"
     },
     {
