@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T17:24:29Z",
+  "lastUpdated": "2026-05-28T17:26:23Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -298,14 +298,14 @@
     {
       "slug": "aws-vpn-client/windows",
       "name": "AWS Client VPN",
-      "version": "5.3.4",
-      "sha256": "ad3d36c78d1f5aee58aabb18259feecdf246bfda1072a24c02dde539d0623073",
+      "version": "5.3.5",
+      "sha256": "780d335ab914c9394b52465cec65f0abc56a04f0addbbb7118c14384e498929f",
       "publisher": "CN=Amazon.com Services LLC, OU=AWS Client VPN, O=Amazon.com Services LLC, L=Seattle, S=Washington, C=US, SERIALNUMBER=3482342, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
-      "serialNumber": "036101325E6E9F89C32CB1E55A96BDD3",
-      "thumbprint": "78FAF7887ED6323268E6101255E9AE2EC6D6A43A",
+      "serialNumber": "0BECF93F49E6F75DE323F4125098942E",
+      "thumbprint": "D17DD32F677D5AF0141F25A398A9F1DC59681A56",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-05-28T03:30:32Z"
+      "lastUpdated": "2026-05-28T17:24:41Z"
     },
     {
       "slug": "backblaze/darwin",
@@ -320,6 +320,18 @@
       "version": "2.1.6",
       "sha256": "1a73fe84e52e5665fa0978625ba7ba80694543c62255f78cc570ce0c315a411d",
       "lastUpdated": "2026-05-14T03:16:25Z"
+    },
+    {
+      "slug": "balenaetcher/windows",
+      "name": "balenaEtcher",
+      "version": "2.1.6",
+      "sha256": "78d1c45a55428e65ab2ac96e462ad6d77adbf7d1c0aa4b704b214bc00e1fcdfc",
+      "publisher": "CN=Balena Ltd, O=Balena Ltd, L=London, C=GB, SERIALNUMBER=07794151, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=GB",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "05172473C70CCEA53AA0DE3ACBD34366",
+      "thumbprint": "668D58190E972578AABAE6478426C2A76CE52A57",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-05-28T17:24:47Z"
     },
     {
       "slug": "bbedit/darwin",
@@ -360,6 +372,18 @@
       "version": "2026.4.0",
       "sha256": "797931e915cc585905ac2355dc75ea43c803e851161de906a81542b80b77ad23",
       "lastUpdated": "2026-05-21T13:18:36Z"
+    },
+    {
+      "slug": "bitwarden/windows",
+      "name": "Bitwarden",
+      "version": "2026.4.0",
+      "sha256": "e50063b68acb83362e07dd6a2a7e5a8c9e909d1146ea4420328505c71ffa6af8",
+      "publisher": "CN=Bitwarden Inc., O=Bitwarden Inc., L=Santa Barbara, S=California, C=US, SERIALNUMBER=7654941, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0C551B0E294185ED2F7E99017B88B8EA",
+      "thumbprint": "80375A0C9630A51ECB7EC79B37A8174C8DACCCED",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-05-28T17:24:49Z"
     },
     {
       "slug": "blender/darwin",
@@ -433,11 +457,35 @@
       "lastUpdated": "2026-05-27T03:17:01Z"
     },
     {
+      "slug": "bruno/windows",
+      "name": "Bruno",
+      "version": "3.4.2",
+      "sha256": "5c4f79b6a48c8b1465057196c55a6069ff0cfa63bac257313cf988fc819d9707",
+      "publisher": "CN=Bruno Software Inc, O=Bruno Software Inc, L=Bastrop, S=Texas, C=US, SERIALNUMBER=4259442, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0174F0DB029A714A3CCC8866E9340147",
+      "thumbprint": "B83EF0282C0D11C66C8A611E9606A1A3BAD9DD4A",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-05-28T17:24:58Z"
+    },
+    {
       "slug": "calibre/darwin",
       "name": "calibre",
       "version": "9.8.0",
       "sha256": "0b26bb50c1d06a4a0896db2f9b8e155dd3c2cf03b06c63fe277071f0de003d95",
       "lastUpdated": "2026-05-01T15:27:34Z"
+    },
+    {
+      "slug": "calibre/windows",
+      "name": "calibre",
+      "version": "9.9.0",
+      "sha256": "4bf33245a2944d905530b18ef857e36c28c9db2ca63319db78e66aa0e1999779",
+      "publisher": "CN=Kovid Goyal, O=Kovid Goyal, L=Mumbai, S=Maharashtra, C=IN",
+      "issuer": "CN=GoGetSSL G4 CS RSA4096 SHA256 2022 CA-1, O=EnVers Group SIA, C=LV",
+      "serialNumber": "0728894ACD1FDC7B3424851CBAC7299E",
+      "thumbprint": "980637D5ACC6319BEAE773CAC5291EDC3E84DC8E",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-05-28T17:25:24Z"
     },
     {
       "slug": "camtasia/darwin",
@@ -579,6 +627,18 @@
       "lastUpdated": "2026-05-19T01:50:56Z"
     },
     {
+      "slug": "clion/windows",
+      "name": "CLion",
+      "version": "2026.1.2",
+      "sha256": "e1b17183cd625904f97af5c5dce8554b9bef287098f1627ad468240a85694404",
+      "publisher": "CN=JetBrains s.r.o., O=JetBrains s.r.o., L=Prague, C=CZ, SERIALNUMBER=26502275, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CZ",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing Europe RSA4096 SHA384 2023 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "083EA13884BDFFCE8E5D9D5CAD2EFBDE",
+      "thumbprint": "8C1B506D0BD10A911D09FB7EDBCAB383F1CDAF20",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-05-28T17:25:54Z"
+    },
+    {
       "slug": "clockify/darwin",
       "name": "Clockify Desktop",
       "version": "2.12.4",
@@ -690,6 +750,18 @@
       "lastUpdated": "2026-05-06T15:53:42Z"
     },
     {
+      "slug": "datagrip/windows",
+      "name": "DataGrip",
+      "version": "2026.1.3",
+      "sha256": "661bccdea8cb29aa482a23365395c086acfbd1ac55d8220d660a522a6fd43287",
+      "publisher": "CN=JetBrains s.r.o., O=JetBrains s.r.o., L=Prague, C=CZ, SERIALNUMBER=26502275, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CZ",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing Europe RSA4096 SHA384 2023 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "083EA13884BDFFCE8E5D9D5CAD2EFBDE",
+      "thumbprint": "8C1B506D0BD10A911D09FB7EDBCAB383F1CDAF20",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-05-28T17:26:13Z"
+    },
+    {
       "slug": "db-browser-for-sqlite/darwin",
       "name": "DB Browser for SQLite",
       "version": "3.13.1",
@@ -702,6 +774,18 @@
       "version": "26.0.5",
       "sha256": "eb784db7b7d20e86edd6a7be6acfff13b78252d59f10134667818a7a7df80bd2",
       "lastUpdated": "2026-05-18T03:17:10Z"
+    },
+    {
+      "slug": "dbeaver-community/windows",
+      "name": "DBeaver",
+      "version": "26.0.5",
+      "sha256": "473f069b03035acd0259a6479eee9af7517515bab0dc974cc81999f07bda0911",
+      "publisher": "CN=DBeaver Corp, O=DBeaver Corp, L=New York, S=New York, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0F796C01E82FD5BF2995AFFEA7CDA26D",
+      "thumbprint": "3D6F5CE8A7F8BAB9AAF4BAF37BD131E71254CA1F",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-05-28T17:26:17Z"
     },
     {
       "slug": "dbeaver-enterprise/darwin",
@@ -744,6 +828,18 @@
       "version": "2605.0.4",
       "sha256": "080c5cb82c29deee796d75c6587afbff72db7316faefcafc3e6045c846ee1ae8",
       "lastUpdated": "2026-05-15T12:46:45Z"
+    },
+    {
+      "slug": "dialpad/windows",
+      "name": "Dialpad",
+      "version": "2605.0.4",
+      "sha256": "2c2df8760e5cb95f1cb0af7ee1e0f75d060abb588503c8782f97830d178a8022",
+      "publisher": "CN=\"Dialpad, Inc.\", O=\"Dialpad, Inc.\", L=San Ramon, S=California, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0AD4A0BE1DE62BE8BD27E66991E752FC",
+      "thumbprint": "11B6DD635E34F693FC2E48B03E28E030E942B3BB",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-05-28T17:26:23Z"
     },
     {
       "slug": "discord/darwin",
