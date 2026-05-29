@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T22:47:29Z",
+  "lastUpdated": "2026-05-29T22:47:53Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -779,14 +779,14 @@
     {
       "slug": "cursor/windows",
       "name": "Cursor",
-      "version": "3.5.38",
-      "sha256": "20f7c16ec4a101ceb8f19846b546dc6f80b9b9ba6dc333fce93c8689713ee4ab",
+      "version": "3.6.21",
+      "sha256": "b54a26d0fd0895947aa010d25adda8de31d07987083fd9e20b444b954a9d7b36",
       "publisher": "CN=\"Anysphere, Inc.\", O=\"Anysphere, Inc.\", L=San Francisco, S=California, C=US",
-      "issuer": "CN=Microsoft ID Verified CS EOC CA 03, O=Microsoft Corporation, C=US",
-      "serialNumber": "3300016D5037B2134897618AB9000000016D50",
-      "thumbprint": "469B2D2C6D4254500F1353698BC4EB823744A2B8",
-      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7800-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-05-28T03:30:39Z"
+      "issuer": "CN=Microsoft ID Verified CS AOC CA 04, O=Microsoft Corporation, C=US",
+      "serialNumber": "3300016888D78B0410BF689ABE000000016888",
+      "thumbprint": "663CE32CED9174A21D7EB6E77A3F242DF34133F2",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:A500-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-05-29T22:47:35Z"
     },
     {
       "slug": "cyberduck/darwin",
@@ -1778,6 +1778,18 @@
       "version": "6.2.0",
       "sha256": "c681e70a60c52b62845fd3ef0e12ea09ccca81c5001c8abed6718b2eb03b9c7c",
       "lastUpdated": "2026-05-15T13:40:56Z"
+    },
+    {
+      "slug": "mattermost/windows",
+      "name": "Mattermost",
+      "version": "6.0.4",
+      "sha256": "1c691d537c8912dcd416b9a48d8b5ace2055f812e2eb2a752f3cb0b3fc724dda",
+      "publisher": "CN=\"Mattermost, Inc.\", O=\"Mattermost, Inc.\", L=Palo Alto, S=California, C=US",
+      "issuer": "CN=Microsoft ID Verified CS AOC CA 02, O=Microsoft Corporation, C=US",
+      "serialNumber": "330006F5644ECC7103E8C9879800000006F564",
+      "thumbprint": "9B8B6C29F7F687B397521C0F5E4C5A0BC448C293",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7800-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-05-29T22:47:48Z"
     },
     {
       "slug": "messenger/darwin",
@@ -2894,14 +2906,14 @@
     {
       "slug": "todoist-app/windows",
       "name": "Todoist",
-      "version": "9.27.1",
-      "sha256": "912b6b0b29c2a22fc173c5a81de57fa4c6e7a1626eecec938fe8ee4ab4aafbff",
+      "version": "9.28.0",
+      "sha256": "9ca044d266546dd7fe016ca9ec68452b4347650e75f09aba574dcc6785e118ed",
       "publisher": "CN=Doist Inc., O=Doist Inc., L=Palo Alto, S=California, C=US, SERIALNUMBER=7231133, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "04A5FD795CC4BB9BFD866BCF4CC70F38",
       "thumbprint": "B605D9FE09043ECBB29F1D07E28EF4C4576AF25E",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-05-28T17:33:01Z"
+      "lastUpdated": "2026-05-29T22:47:53Z"
     },
     {
       "slug": "tor-browser/darwin",
