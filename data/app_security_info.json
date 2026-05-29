@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T15:20:32Z",
+  "lastUpdated": "2026-05-29T15:21:20Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1548,6 +1548,18 @@
       "lastUpdated": "2026-05-28T17:27:26Z"
     },
     {
+      "slug": "joplin/windows",
+      "name": "Joplin",
+      "version": "3.6.14",
+      "sha256": "4ac91174220d28a93538aca8fefd87f4d9f358d98388a5a001432d506898e650",
+      "publisher": "CN=Joplin, O=Joplin, L=Nancy, C=FR",
+      "issuer": "CN=SSL.com Code Signing Intermediate CA RSA R1, O=SSL Corp, L=Houston, S=Texas, C=US",
+      "serialNumber": "73CFC43AF68F0F279BDD4C285494F440",
+      "thumbprint": "AF0C1B9451567F9AF077DD0646D2927153B05DAF",
+      "timestamp": "CN=SSL.com Timestamping Unit 2025 E1, O=SSL Corp, L=Houston, S=Texas, C=US",
+      "lastUpdated": "2026-05-29T15:20:41Z"
+    },
+    {
       "slug": "keepassxc/darwin",
       "name": "KeePassXC",
       "version": "2.7.12",
@@ -1760,14 +1772,14 @@
     {
       "slug": "microsoft-edge/windows",
       "name": "Microsoft Edge",
-      "version": "148.0.3967.83",
-      "sha256": "766dbe048bafe59ed79a4eaa6796402f3195db2dc40ebd7768cd2a2b706f34dc",
+      "version": "148.0.3967.96",
+      "sha256": "022d78c7b2dfbe62dc97a1e5b6f7e373b2c90d91a484a98548928575c0aa2ac4",
       "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
       "issuer": "CN=Microsoft Code Signing PCA 2024, O=Microsoft Corporation, C=US",
       "serialNumber": "33000002324EAEA630096A5E7A000000000232",
       "thumbprint": "21CA9DD6DA7C57C3A599880D17317D7BDA31899C",
-      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:321A-05E0-D947, OU=Microsoft Ireland Operations Limited, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-05-28T03:31:11Z"
+      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:4C1A-05E0-D947, OU=Microsoft Ireland Operations Limited, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-05-29T15:20:51Z"
     },
     {
       "slug": "microsoft-excel/darwin",
@@ -2219,14 +2231,14 @@
     {
       "slug": "postman/windows",
       "name": "Postman",
-      "version": "12.12.4",
-      "sha256": "14acc0589b3f925441f9ed4a782454854dc8da9d8b095603e564d715350b3df0",
+      "version": "12.12.6",
+      "sha256": "f133fcff9f2a6a238e585fb0dda55287d998e698649eed9e434ac38c9da8e58c",
       "publisher": "CN=\"Postman, Inc.\", O=\"Postman, Inc.\", L=San Francisco, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "06BF9F29E018BD749B536C714E98D6A5",
       "thumbprint": "8F1DDDA5C241B2F3424D4211991BBE1CD22226CC",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-05-28T17:29:57Z"
+      "lastUpdated": "2026-05-29T15:20:56Z"
     },
     {
       "slug": "power-bi/windows",
@@ -2804,6 +2816,18 @@
       "lastUpdated": "2026-05-27T15:27:06Z"
     },
     {
+      "slug": "textexpander/windows",
+      "name": "TextExpander",
+      "version": "254.8.4.307",
+      "sha256": "64981a6db204c23521127ad726d0e2b38f09054ea5dfa9715269be3a19945261",
+      "publisher": "CN=\"TextExpander, Inc.\", O=\"TextExpander, Inc.\", S=California, C=US, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=California, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=5100903",
+      "issuer": "CN=Sectigo Public Code Signing CA EV R36, O=Sectigo Limited, C=GB",
+      "serialNumber": "25068ACB1A35FE853AB6B02C9EF5ABFD",
+      "thumbprint": "8364983FE40A3BD2BA9443106EAC2CE9EB9489B1",
+      "timestamp": "CN=Sectigo Public Time Stamping Signer R36, O=Sectigo Limited, S=West Yorkshire, C=GB",
+      "lastUpdated": "2026-05-29T15:21:07Z"
+    },
+    {
       "slug": "the-unarchiver/darwin",
       "name": "The Unarchiver",
       "version": "4.3.9",
@@ -2962,14 +2986,14 @@
     {
       "slug": "visual-studio-code/windows",
       "name": "Microsoft Visual Studio Code",
-      "version": "1.122.0",
-      "sha256": "f391138c48ef740735112c0a9914df2644f9a5ddede7a347c41e0756254949a7",
+      "version": "1.122.1",
+      "sha256": "0508a23a33f25ec0b3bdb0efbf270147d6a860635bd9216edb80963059c3816b",
       "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
       "issuer": "CN=Microsoft Code Signing PCA 2024, O=Microsoft Corporation, C=US",
-      "serialNumber": "330000021D4D19C84ED70F574800000000021D",
-      "thumbprint": "AB172913A2960A224809EE8A0C371CD47A079B72",
-      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:8900-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-05-28T17:34:54Z"
+      "serialNumber": "330000021CFACDC59BE82F7EC400000000021C",
+      "thumbprint": "1D77A9B9E8FE2075D9AD15123257FB90DB0DA4A1",
+      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:651A-05E0-D947, OU=Microsoft Ireland Operations Limited, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-05-29T15:21:16Z"
     },
     {
       "slug": "vlc/darwin",
@@ -2998,6 +3022,18 @@
       "version": "7.15.1",
       "sha256": "5bc015f903301ba0e21440a1df96a69d322c35cdcd0b9168960bb65a2fa50f3d",
       "lastUpdated": "2025-12-20T22:58:48Z"
+    },
+    {
+      "slug": "vscodium/windows",
+      "name": "VSCodium",
+      "version": "1.121.03429",
+      "sha256": "4e67a8147e9fc4b9e7ef31d95d8b0d3cd3bab66caa59ada1b4de99f4243f9cdf",
+      "publisher": "CN=SignPath Foundation, O=SignPath Foundation, L=Lewes, S=Delaware, C=US",
+      "issuer": "CN=GlobalSign GCC R45 CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
+      "serialNumber": "6A6E0CF252C31315349750BD",
+      "thumbprint": "09E174E7BEBC3FACA0754CBB91E8C9571BFE5A16",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-05-29T15:21:20Z"
     },
     {
       "slug": "wacom-tablet/darwin",
