@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T04:37:57Z",
+  "lastUpdated": "2026-05-29T04:38:22Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -3000,6 +3000,18 @@
       "lastUpdated": "2026-04-29T16:05:23Z"
     },
     {
+      "slug": "wacom-tablet/windows",
+      "name": "Wacom Tablet",
+      "version": "6.4.13-4",
+      "sha256": "2d987a21fb9caa2501da4604bc15bd5b6c8d32578913cc0c095e572ab95b51d3",
+      "publisher": "CN=\"Wacom Co., Ltd.\", OU=\"Wacom Co., Ltd.\", O=\"Wacom Co., Ltd.\", L=Kazo-shi, S=Saitama, C=JP",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0AB081BB0A4EB43F9BDAB905CE0D40BE",
+      "thumbprint": "84D37C934B0D6FCF1D1DA6079E829D45B0A0333D",
+      "timestamp": "CN=Sectigo Public Time Stamping Signer R36, O=Sectigo Limited, S=West Yorkshire, C=GB",
+      "lastUpdated": "2026-05-29T04:38:03Z"
+    },
+    {
       "slug": "warp/darwin",
       "name": "Warp",
       "version": "0.2026.05.20.09.21.03",
@@ -3064,6 +3076,18 @@
       "version": "2.3.9",
       "sha256": "cee8d99ffe3dd0cad4d1063ceeddcf4a809afcb0d52d9d3ef9a33bcb424f789e",
       "lastUpdated": "2026-05-18T03:21:05Z"
+    },
+    {
+      "slug": "windsurf/windows",
+      "name": "Windsurf",
+      "version": "2.3.15",
+      "sha256": "d30ff9c6a490597aac354746b689335587f6bf8da671b935e8d1be51b3825d15",
+      "publisher": "CN=\"Exafunction, Inc.\", O=\"Exafunction, Inc.\", L=Mountain View, S=California, C=US",
+      "issuer": "CN=Microsoft ID Verified CS AOC CA 03, O=Microsoft Corporation, C=US",
+      "serialNumber": "3300015E9BA4ECBE3A8EDD7419000000015E9B",
+      "thumbprint": "B8612EF7E0B7BC4121F3832298C6DB2FAA12F6CA",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7D00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-05-29T04:38:09Z"
     },
     {
       "slug": "winscp/windows",
@@ -3163,6 +3187,18 @@
       "version": "7.0.5.12655",
       "sha256": "cff1a0ef4fc88acab7d4c2a83602a712ff82273ec5bf3ac526a206bd42de913e",
       "lastUpdated": "2026-05-20T19:54:24Z"
+    },
+    {
+      "slug": "zoom-rooms/windows",
+      "name": "Zoom Rooms",
+      "version": "7.0.5",
+      "sha256": "b1df278c2360f29a0d39aa972b4f045b11291cc0870418b75f64675f095df651",
+      "publisher": "CN=\"Zoom Communications, Inc.\", O=\"Zoom Communications, Inc.\", L=San Jose, S=California, C=US, SERIALNUMBER=4969967, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA256 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "082CF5EC5A2EC38232ED17FB6C172E9D",
+      "thumbprint": "9B424BCBCA39711D2909A6C0518034D7901812DE",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-05-29T04:38:22Z"
     },
     {
       "slug": "zoom/darwin",
