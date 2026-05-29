@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T04:36:53Z",
+  "lastUpdated": "2026-05-29T04:37:57Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -330,6 +330,18 @@
       "thumbprint": "2C02F523C3748B1D850420B27AAD3CB65671F8B9",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-05-29T04:36:53Z"
+    },
+    {
+      "slug": "azul-zulu-25-jre/windows",
+      "name": "Azul Zulu JRE 25",
+      "version": "25.34.17",
+      "sha256": "f20f539ab07d4f1f27fed040d2e43f358b3b269b980abcdf91b22a70bd11b17d",
+      "publisher": "CN=\"Azul Systems, Inc.\", O=\"Azul Systems, Inc.\", L=Sunnyvale, S=California, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0372BC44F559F6946440B58D0A1921A0",
+      "thumbprint": "2C02F523C3748B1D850420B27AAD3CB65671F8B9",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-05-29T04:37:00Z"
     },
     {
       "slug": "backblaze/darwin",
@@ -805,6 +817,18 @@
       "lastUpdated": "2025-12-20T06:29:15Z"
     },
     {
+      "slug": "db-browser-for-sqlite/windows",
+      "name": "DB Browser for SQLite",
+      "version": "3.13.1",
+      "sha256": "7fb13edab4367b5c3df7df9bad9c750df3433d6baceafcabefb3b23c83b73ba1",
+      "publisher": "CN=SignPath Foundation, O=SignPath Foundation, L=Lewes, S=Delaware, C=US",
+      "issuer": "CN=GlobalSign GCC R45 CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
+      "serialNumber": "29C04178160FC78D2206A0C7",
+      "thumbprint": "B5E9759F876A2CF9F6E8739B32607069B82C1846",
+      "timestamp": "CN=DigiCert Timestamp 2024, O=DigiCert, C=US",
+      "lastUpdated": "2026-05-29T04:37:05Z"
+    },
+    {
       "slug": "dbeaver-community/darwin",
       "name": "DBeaver",
       "version": "26.0.5",
@@ -831,6 +855,18 @@
       "lastUpdated": "2026-03-11T15:24:05Z"
     },
     {
+      "slug": "dbeaver-enterprise/windows",
+      "name": "DBeaverEE",
+      "version": "26.0.0",
+      "sha256": "5ad29a11b254045b124364e1d335403faae1f6b420c036d77b23999e334765d0",
+      "publisher": "CN=DBeaver Corp, O=DBeaver Corp, L=New York, S=New York, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0F796C01E82FD5BF2995AFFEA7CDA26D",
+      "thumbprint": "3D6F5CE8A7F8BAB9AAF4BAF37BD131E71254CA1F",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-05-29T04:37:14Z"
+    },
+    {
       "slug": "dbeaverlite/darwin",
       "name": "DBeaverLite",
       "version": "26.0.0",
@@ -838,11 +874,35 @@
       "lastUpdated": "2026-03-18T16:32:26Z"
     },
     {
+      "slug": "dbeaverlite/windows",
+      "name": "DBeaverLite",
+      "version": "26.0.0",
+      "sha256": "11b33c8d282e1e4ccd304da4d1c5c8677d380312c104e509cc5e5ded5367852d",
+      "publisher": "CN=DBeaver Corp, O=DBeaver Corp, L=New York, S=New York, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0F796C01E82FD5BF2995AFFEA7CDA26D",
+      "thumbprint": "3D6F5CE8A7F8BAB9AAF4BAF37BD131E71254CA1F",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-05-29T04:37:22Z"
+    },
+    {
       "slug": "dbeaverultimate/darwin",
       "name": "DBeaverUltimate",
       "version": "26.0.0",
       "sha256": "951eda78cac1d7ba7618fcb70c8f9bd55daff4f7e72bb88a28a4f3de7289d37d",
       "lastUpdated": "2026-03-18T16:32:57Z"
+    },
+    {
+      "slug": "dbeaverultimate/windows",
+      "name": "DBeaverUltimate",
+      "version": "26.0.0",
+      "sha256": "fe28a204a932105c6dddf1f673a00f95e30180bf814dea099f6633cae0567805",
+      "publisher": "CN=DBeaver Corp, O=DBeaver Corp, L=New York, S=New York, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0F796C01E82FD5BF2995AFFEA7CDA26D",
+      "thumbprint": "3D6F5CE8A7F8BAB9AAF4BAF37BD131E71254CA1F",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-05-29T04:37:32Z"
     },
     {
       "slug": "dcv-viewer/darwin",
@@ -1117,6 +1177,18 @@
       "version": "2.66.7",
       "sha256": "809504ef3a688fc05e0e15187bf0318e40bb7d54c4a48bc02b773ff7652ff081",
       "lastUpdated": "2026-05-01T15:28:05Z"
+    },
+    {
+      "slug": "fork/windows",
+      "name": "Fork",
+      "version": "2.19.0",
+      "sha256": "a6a0455962d26a5b8ab39bb16185d6eb5534af11f3d8dbde350289ca487c196f",
+      "publisher": "CN=Danil Pristupov, O=Danil Pristupov, L=Prague, S=Prague, C=CZ, PostalCode=150 00",
+      "issuer": "CN=Microsoft ID Verified CS AOC CA 04, O=Microsoft Corporation, C=US",
+      "serialNumber": "330000741BD942A2A1333BBE3300000000741B",
+      "thumbprint": "277FA4EBEB788C13B190160A5D3B386C9D5DE16B",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:491A-05E0-D947, OU=Microsoft Ireland Operations Limited, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-05-29T04:37:34Z"
     },
     {
       "slug": "front/darwin",
@@ -1873,6 +1945,18 @@
       "lastUpdated": "2026-05-29T03:18:56Z"
     },
     {
+      "slug": "notion-calendar/windows",
+      "name": "Notion Calendar",
+      "version": "1.133.0",
+      "sha256": "4256d294aec58932b1723760d19d97528a20bf89922db88e66e3931962d63c36",
+      "publisher": "CN=\"Notion Labs, Inc.\", O=\"Notion Labs, Inc.\", L=San Francisco, S=California, C=US",
+      "issuer": "CN=Microsoft ID Verified CS AOC CA 04, O=Microsoft Corporation, C=US",
+      "serialNumber": "3300002DECC1AB22FF9685CDA6000000002DEC",
+      "thumbprint": "66058640D3875E37E2C50BE482E7647C0C9A608C",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7D00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-05-29T04:37:37Z"
+    },
+    {
       "slug": "notion/darwin",
       "name": "Notion",
       "version": "7.19.0",
@@ -2601,6 +2685,18 @@
       "lastUpdated": "2026-02-20T06:35:40Z"
     },
     {
+      "slug": "tableau-desktop/windows",
+      "name": "Tableau Desktop",
+      "version": "24.3.965",
+      "sha256": "fcf55eeb582b080af3480a1b41875abf0dd0e9913150c91c6d2c240514f2cf88",
+      "publisher": "CN=\"Salesforce, Inc.\", O=\"Salesforce, Inc.\", L=San Francisco, S=California, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "019D7E129F300D748DCB92BC8C112A08",
+      "thumbprint": "CD990CC450D0AE93D91277DFBB8941FB299B6A13",
+      "timestamp": "CN=DigiCert Timestamp 2024, O=DigiCert, C=US",
+      "lastUpdated": "2026-05-29T04:37:52Z"
+    },
+    {
       "slug": "tableau/darwin",
       "name": "Tableau Desktop",
       "version": "2026.1.2",
@@ -2836,6 +2932,18 @@
       "version": "7.2.8",
       "sha256": "84ffe8dd3660ce439d99e1c15361e6eaad2e44e93d3000e3668e98b419a67c39",
       "lastUpdated": "2026-04-21T17:31:31Z"
+    },
+    {
+      "slug": "virtualbox/windows",
+      "name": "VirtualBox",
+      "version": "7.2.8",
+      "sha256": "ae5415cc968c0e8acddd99358c21d267a2c31ac4ff5182861aab9e6931001606",
+      "publisher": "CN=\"Oracle America, Inc.\", O=\"Oracle America, Inc.\", L=Redwood City, S=California, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0AA18F63F96F11771CBB0B43E4D690B8",
+      "thumbprint": "2B1BD188256EB612578949A943DE0DDC52D1DF79",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-05-29T04:37:57Z"
     },
     {
       "slug": "viscosity/darwin",
