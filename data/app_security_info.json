@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T04:27:35Z",
+  "lastUpdated": "2026-05-29T04:34:45Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -3502,6 +3502,16 @@
       "lastUpdated": "2025-12-31T23:19:51Z"
     },
     {
+      "slug": "vnc-server/darwin",
+      "name": "VNC Server",
+      "version": "7.15.0",
+      "sha256": "ad25183ec2b285955d2d9af8ac819196c3857f38afa0c643c132a89bb6d74436",
+      "cdhash": "da822d740e3427c88e14f6b373b04f6d030deb34",
+      "signingId": "ZNCQ8JEH7X:com.realvnc.vncserver_service",
+      "teamId": "ZNCQ8JEH7X",
+      "lastUpdated": "2026-05-29T04:32:32Z"
+    },
+    {
       "slug": "vnc-viewer/darwin",
       "name": "VNC Viewer",
       "version": "7.15.1",
@@ -3524,12 +3534,12 @@
     {
       "slug": "warp/darwin",
       "name": "Warp",
-      "version": "0.2026.05.20.09.21.03",
-      "sha256": "30b4f1eba1c4d4c752593f6ca8911e8e09625efa020aad75ba67c880e1e9875b",
-      "cdhash": "37093433d2d8356b26d337200c8905c5402f2989",
+      "version": "0.2026.05.27.15.44.01",
+      "sha256": "41aec017cc1b7c531366d062735cd11ca8b10bfbc1983c5965ae911c007a400c",
+      "cdhash": "96ff03468d28eb77ee7a737131926f67cde3ef41",
       "signingId": "2BBY89MBSN:dev.warp.Warp-Stable",
       "teamId": "2BBY89MBSN",
-      "lastUpdated": "2026-05-23T03:20:57Z"
+      "lastUpdated": "2026-05-29T04:34:06Z"
     },
     {
       "slug": "webex/darwin",
@@ -3598,12 +3608,12 @@
     {
       "slug": "windsurf/darwin",
       "name": "Windsurf",
-      "version": "2.3.9",
-      "sha256": "cee8d99ffe3dd0cad4d1063ceeddcf4a809afcb0d52d9d3ef9a33bcb424f789e",
-      "cdhash": "61cbbbfafba2e401bc634c540e17b82711dc0463",
+      "version": "2.3.15",
+      "sha256": "4691b857cef923f209652a346cdba42dc31e50be7602bd6dc59bdef953955d96",
+      "cdhash": "aa883605d74ac144245f6b8144a86be839f5e49d",
       "signingId": "83Z2LHX6XW:com.exafunction.windsurf",
       "teamId": "83Z2LHX6XW",
-      "lastUpdated": "2026-05-18T03:21:05Z"
+      "lastUpdated": "2026-05-29T04:34:42Z"
     },
     {
       "slug": "winscp/windows",
