@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T13:16:07Z",
+  "lastUpdated": "2026-05-29T15:11:58Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -257,8 +257,8 @@
       "slug": "aws-vpn-client/windows",
       "name": "AWS Client VPN",
       "platform": "windows",
-      "version": "5.3.5",
-      "installerUrl": "https://d20adtppz83p9s.cloudfront.net/WPF/5.3.5/AWS_VPN_Client.msi"
+      "version": "5.3.6",
+      "installerUrl": "https://d20adtppz83p9s.cloudfront.net/WPF/5.3.6/AWS_VPN_Client.msi"
     },
     {
       "slug": "azul-zulu-25-jdk/windows",
@@ -1234,6 +1234,20 @@
       "installerUrl": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-3.4.3.81140.exe"
     },
     {
+      "slug": "joplin/darwin",
+      "name": "Joplin",
+      "platform": "darwin",
+      "version": "3.6.14",
+      "installerUrl": "https://github.com/laurent22/joplin/releases/download/v3.6.14/Joplin-3.6.14-arm64.DMG"
+    },
+    {
+      "slug": "joplin/windows",
+      "name": "Joplin",
+      "platform": "windows",
+      "version": "3.6.14",
+      "installerUrl": "https://github.com/laurent22/joplin/releases/download/v3.6.14/Joplin-Setup-3.6.14.exe"
+    },
+    {
       "slug": "keepassxc/darwin",
       "name": "KeePassXC",
       "platform": "darwin",
@@ -1412,8 +1426,8 @@
       "slug": "microsoft-edge/windows",
       "name": "Microsoft Edge",
       "platform": "windows",
-      "version": "148.0.3967.83",
-      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/fc7d62cf-e4c0-4214-abb6-450d9210daf2/MicrosoftEdgeEnterpriseX64.msi"
+      "version": "148.0.3967.96",
+      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/1e31b6ea-8368-4a80-b494-2ffa12a70507/MicrosoftEdgeEnterpriseX64.msi"
     },
     {
       "slug": "microsoft-excel/darwin",
@@ -1755,15 +1769,15 @@
       "slug": "postman/darwin",
       "name": "Postman",
       "platform": "darwin",
-      "version": "12.12.3",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.12.3/osx_arm64"
+      "version": "12.12.6",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.12.6/osx_arm64"
     },
     {
       "slug": "postman/windows",
       "name": "Postman",
       "platform": "windows",
-      "version": "12.12.4",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.12.4/windows_64"
+      "version": "12.12.6",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.12.6/windows_64"
     },
     {
       "slug": "power-bi/windows",
@@ -2228,6 +2242,13 @@
       "installerUrl": "https://cdn.textexpander.com/mac/844.1/TextExpander_8.4.4.dmg"
     },
     {
+      "slug": "textexpander/windows",
+      "name": "TextExpander",
+      "platform": "windows",
+      "version": "254.8.4.307",
+      "installerUrl": "https://cdn.textexpander.com/windows/843.7.0/TextExpander_x64.msi"
+    },
+    {
       "slug": "the-unarchiver/darwin",
       "name": "The Unarchiver",
       "platform": "darwin",
@@ -2350,15 +2371,15 @@
       "slug": "visual-studio-code/darwin",
       "name": "Microsoft Visual Studio Code",
       "platform": "darwin",
-      "version": "1.122.0",
-      "installerUrl": "https://update.code.visualstudio.com/1.122.0/darwin-arm64/stable"
+      "version": "1.122.1",
+      "installerUrl": "https://update.code.visualstudio.com/1.122.1/darwin-arm64/stable"
     },
     {
       "slug": "visual-studio-code/windows",
       "name": "Microsoft Visual Studio Code",
       "platform": "windows",
-      "version": "1.122.0",
-      "installerUrl": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/6a49527b96e326fe62fbdb56f60e16877c9aa724/VSCodeSetup-x64-1.122.0.exe"
+      "version": "1.122.1",
+      "installerUrl": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/VSCodeSetup-x64-1.122.1.exe"
     },
     {
       "slug": "vlc/darwin",
@@ -2387,6 +2408,20 @@
       "platform": "darwin",
       "version": "7.15.1",
       "installerUrl": "https://downloads.realvnc.com/download/file/viewer.files/VNC-Viewer-7.15.1-MacOSX-universal.dmg"
+    },
+    {
+      "slug": "vscodium/darwin",
+      "name": "VSCodium",
+      "platform": "darwin",
+      "version": "1.121.03429",
+      "installerUrl": "https://github.com/VSCodium/vscodium/releases/download/1.121.03429/VSCodium-darwin-arm64-1.121.03429.zip"
+    },
+    {
+      "slug": "vscodium/windows",
+      "name": "VSCodium",
+      "platform": "windows",
+      "version": "1.121.03429",
+      "installerUrl": "https://github.com/VSCodium/vscodium/releases/download/1.121.03429/VSCodiumSetup-x64-1.121.03429.exe"
     },
     {
       "slug": "wacom-tablet/darwin",
