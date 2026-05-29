@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: May 29, 2026 at 10:12 AM CDT</p>
+            Last updated: May 29, 2026 at 10:19 AM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: May 29, 2026 at 10:12 AM CDT</p>
+                <p id="modalLastUpdated">Last updated: May 29, 2026 at 10:19 AM CDT</p>
             </div>
         </div>
     </div>
@@ -5885,7 +5885,14 @@
                 "platform": "darwin",
                 "description": "Joplin is a note taking and to-do application with synchronisation capabilities.",
                 "version": "3.6.14",
-                "installerUrl": "https://github.com/laurent22/joplin/releases/download/v3.6.14/Joplin-3.6.14-arm64.DMG"
+                "installerUrl": "https://github.com/laurent22/joplin/releases/download/v3.6.14/Joplin-3.6.14-arm64.DMG",
+                "securityInfo": {
+                  "sha256": "fd8b6ecb4db62ea090a5135f7eeb5f77bd8398ecd0e7a5f13f2bf51a9dfd173e",
+                  "cdhash": "beb2960e1ed3a64bb3713e30afba5dd8e6fb1b70",
+                  "signingId": "A9BXAFS6CT:net.cozic.joplin-desktop",
+                  "teamId": "A9BXAFS6CT",
+                  "lastUpdated": "2026-05-29T15:13:26Z"
+                }
               },
               {
                 "name": "Joplin",
@@ -7059,11 +7066,11 @@
                 "version": "12.12.6",
                 "installerUrl": "https://dl.pstmn.io/download/version/12.12.6/osx_arm64",
                 "securityInfo": {
-                  "sha256": "d851764f7888a08aeb87af776220c9bb54019752801c881ccbb9ecbb265f4000",
-                  "cdhash": "5433b6b5c6becc7c7196e715afcb057df75bed2b",
+                  "sha256": "ab7ecaf765f88d0f64217fccaa0d3e9e2fa9bab03289ae1c468fb1f5c4bd3421",
+                  "cdhash": "18ec4ce68d1633128099aaf0c82c969b15b243fd",
                   "signingId": "H7H8Q7M5CK:com.postmanlabs.mac",
                   "teamId": "H7H8Q7M5CK",
-                  "lastUpdated": "2026-05-27T15:24:19Z"
+                  "lastUpdated": "2026-05-29T15:13:55Z"
                 }
               },
               {
@@ -8390,11 +8397,11 @@
                 "version": "1.122.1",
                 "installerUrl": "https://update.code.visualstudio.com/1.122.1/darwin-arm64/stable",
                 "securityInfo": {
-                  "sha256": "a30595394f3f3d7653ec82401d85a847da2c53840b238dfd3fa9be542cc1e18a",
-                  "cdhash": "88cbe6127ea622d4f62908ed80d409bdab482708",
+                  "sha256": "c9f236dddc649be1b730db1ad1d624fabc0a44ae0f24852ca4c27a6ce93d8926",
+                  "cdhash": "96d37c253f8f25e614d44d5d1fbc85eb034ca699",
                   "signingId": "UBF8T346G9:com.microsoft.VSCode",
                   "teamId": "UBF8T346G9",
-                  "lastUpdated": "2026-05-28T03:25:03Z"
+                  "lastUpdated": "2026-05-29T15:17:26Z"
                 }
               },
               {
@@ -8476,7 +8483,14 @@
                 "platform": "darwin",
                 "description": "VSCodium is a release of VS Code without MS branding, telemetry, and licensing.",
                 "version": "1.121.03429",
-                "installerUrl": "https://github.com/VSCodium/vscodium/releases/download/1.121.03429/VSCodium-darwin-arm64-1.121.03429.zip"
+                "installerUrl": "https://github.com/VSCodium/vscodium/releases/download/1.121.03429/VSCodium-darwin-arm64-1.121.03429.zip",
+                "securityInfo": {
+                  "sha256": "592aebee2f63108d88d6ffe8c3a9e1fe7a8697668d352d55f8ccebb0fdc4dedb",
+                  "cdhash": "33586085ac950924abba6fd75d07c23c32e1c7a0",
+                  "signingId": "VC39D2VNQ7:com.vscodium",
+                  "teamId": "VC39D2VNQ7",
+                  "lastUpdated": "2026-05-29T15:18:48Z"
+                }
               },
               {
                 "name": "VSCodium",
@@ -9492,7 +9506,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `May 29, 2026 at 10:12 AM CDT`;
+                let timestampText = 'Last updated: ' + `May 29, 2026 at 10:19 AM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
