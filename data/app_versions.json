@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T01:48:23Z",
+  "lastUpdated": "2026-05-29T03:16:10Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -240,6 +240,13 @@
       "installerUrl": "https://cdn-update.avast.securebrowser.com/browser/mac/arm/139.0.6697.68/AvastSecureBrowser.dmg"
     },
     {
+      "slug": "aws-cli/windows",
+      "name": "AWS Command Line Interface v2",
+      "platform": "windows",
+      "version": "2.34.56",
+      "installerUrl": "https://awscli.amazonaws.com/AWSCLIV2-2.34.56.msi"
+    },
+    {
       "slug": "aws-vpn-client/darwin",
       "name": "AWS Client VPN",
       "platform": "darwin",
@@ -362,8 +369,8 @@
       "slug": "brave-browser/windows",
       "name": "Brave",
       "platform": "windows",
-      "version": "148.1.90.124",
-      "installerUrl": "https://github.com/brave/brave-browser/releases/download/v1.90.124/BraveBrowserStandaloneSilentSetup.exe"
+      "version": "148.1.90.128",
+      "installerUrl": "https://github.com/brave/brave-browser/releases/download/v1.90.128/BraveBrowserStandaloneSilentSetup.exe"
     },
     {
       "slug": "bruno/darwin",
@@ -481,8 +488,8 @@
       "slug": "claude/windows",
       "name": "Claude",
       "platform": "windows",
-      "version": "1.9255.2",
-      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.9255.2/Claude-1dc8f7b0f46a151e8522f24f6656aab10182bf92.msix"
+      "version": "1.9659.2",
+      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.9659.2/Claude-390d6ca38de808ca81aeccd2945d9c8be800f47d.msix"
     },
     {
       "slug": "cleanmymac/darwin",
@@ -691,8 +698,8 @@
       "slug": "dialpad/windows",
       "name": "Dialpad",
       "platform": "windows",
-      "version": "2605.0.4",
-      "installerUrl": "https://storage.googleapis.com/dialpad_native/stable/win32/x64/DialpadSetup-2605.0.4_x64.exe"
+      "version": "2605.1.0",
+      "installerUrl": "https://storage.googleapis.com/dialpad_native/stable/win32/x64/DialpadSetup-2605.1.0_x64.exe"
     },
     {
       "slug": "discord/darwin",
@@ -754,8 +761,8 @@
       "slug": "dropbox/windows",
       "name": "Dropbox",
       "platform": "windows",
-      "version": "252.4.3485",
-      "installerUrl": "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20252.4.3485%20Enterprise%20Installer.x64.msi"
+      "version": "254.4.2518",
+      "installerUrl": "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20254.4.2518%20Enterprise%20Installer.x64.msi"
     },
     {
       "slug": "druva-insync/darwin",
@@ -831,8 +838,8 @@
       "slug": "figma/darwin",
       "name": "Figma",
       "platform": "darwin",
-      "version": "126.3.12",
-      "installerUrl": "https://desktop.figma.com/mac-arm/Figma-126.3.12.zip"
+      "version": "126.4.11",
+      "installerUrl": "https://desktop.figma.com/mac-arm/Figma-126.4.11.zip"
     },
     {
       "slug": "figma/windows",
@@ -1230,7 +1237,7 @@
       "slug": "lastpass/windows",
       "name": "LastPass",
       "platform": "windows",
-      "version": "5.4.2.1452",
+      "version": "5.4.3.1481",
       "installerUrl": "https://download.cloud.lastpass.com/windows_installer/LastPassInstaller.msi"
     },
     {
@@ -1349,8 +1356,8 @@
       "slug": "microsoft-edge/darwin",
       "name": "Microsoft Edge",
       "platform": "darwin",
-      "version": "148.0.3967.83",
-      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/cbe3f056-80b0-4d3c-aa6c-d308911e50c2/MicrosoftEdge-148.0.3967.83.dmg"
+      "version": "148.0.3967.96",
+      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/207765a9-3991-4576-80dd-92c5dd9daac0/MicrosoftEdge-148.0.3967.96.dmg"
     },
     {
       "slug": "microsoft-edge/windows",
@@ -1489,8 +1496,8 @@
       "slug": "notion-calendar/darwin",
       "name": "Notion Calendar",
       "platform": "darwin",
-      "version": "1.133.0",
-      "installerUrl": "https://calendar-desktop-release.notion-static.com/Notion%20Calendar-darwin-arm64-1.133.0.zip"
+      "version": "1.134.2",
+      "installerUrl": "https://calendar-desktop-release.notion-static.com/Notion%20Calendar-darwin-arm64-1.134.2.zip"
     },
     {
       "slug": "notion/darwin",
@@ -1708,6 +1715,13 @@
       "platform": "windows",
       "version": "2.154.956.0",
       "installerUrl": "https://download.microsoft.com/download/8/8/0/880bca75-79dd-466a-927d-1abf1f5454b0/PBIDesktopSetup_x64.exe"
+    },
+    {
+      "slug": "prisma-browser/windows",
+      "name": "Prisma Browser",
+      "platform": "windows",
+      "version": "148.18.4.217",
+      "installerUrl": "https://updates.talon-sec.com/releases/Prisma%20Access%20Browser/win/packaged/x64/crx_signed_o4_stable_prisma_access_browser_installer_148_18_4_217-148.18.4.217-57dd232e.msi"
     },
     {
       "slug": "pritunl/darwin",
@@ -2098,8 +2112,8 @@
       "slug": "tailscale/windows",
       "name": "Tailscale",
       "platform": "windows",
-      "version": "1.98.2",
-      "installerUrl": "https://pkgs.tailscale.com/stable/tailscale-setup-1.98.2-amd64.msi"
+      "version": "1.98.4",
+      "installerUrl": "https://pkgs.tailscale.com/stable/tailscale-setup-1.98.4-amd64.msi"
     },
     {
       "slug": "teamviewer/darwin",
@@ -2420,8 +2434,8 @@
       "slug": "zed/darwin",
       "name": "Zed",
       "platform": "darwin",
-      "version": "1.4.2",
-      "installerUrl": "https://zed.dev/api/releases/stable/1.4.2/Zed-aarch64.dmg"
+      "version": "1.4.4",
+      "installerUrl": "https://zed.dev/api/releases/stable/1.4.4/Zed-aarch64.dmg"
     },
     {
       "slug": "zen/darwin",

@@ -1,114 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-04-03T17:14:17Z",
-      "appName": "Signal",
-      "slug": "signal/darwin",
-      "platform": "darwin",
-      "oldVersion": "8.4.1",
-      "newVersion": "8.5.0",
-      "installerUrl": "https://updates.signal.org/desktop/signal-desktop-mac-arm64-8.5.0.zip"
-    },
-    {
-      "date": "2026-04-03T17:14:17Z",
-      "appName": "Telegram",
-      "slug": "telegram/windows",
-      "platform": "windows",
-      "oldVersion": "6.6.2",
-      "newVersion": "6.7.0",
-      "installerUrl": "https://td.telegram.org/tx64/tsetup-x64.6.7.0.exe"
-    },
-    {
-      "date": "2026-04-03T17:14:17Z",
-      "appName": "Postman",
-      "slug": "postman/windows",
-      "platform": "windows",
-      "oldVersion": "12.4.3",
-      "newVersion": "12.4.5",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.4.5/windows_64"
-    },
-    {
-      "date": "2026-04-03T19:19:07Z",
-      "appName": "Microsoft Auto Update",
-      "slug": "microsoft-auto-update/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.82.26020434",
-      "newVersion": "4.82",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_AutoUpdate_4.82.26020434_Updater.pkg"
-    },
-    {
-      "date": "2026-04-03T19:19:07Z",
-      "appName": "Opera",
-      "slug": "opera/darwin",
-      "platform": "darwin",
-      "oldVersion": "129.0.5823.44",
-      "newVersion": "129.0",
-      "installerUrl": "https://get.geo.opera.com/pub/opera/desktop/129.0.5823.44/mac/Opera_129.0.5823.44_Setup.dmg"
-    },
-    {
-      "date": "2026-04-03T19:19:07Z",
-      "appName": "MySQL Workbench",
-      "slug": "mysqlworkbench/darwin",
-      "platform": "darwin",
-      "oldVersion": "8.0.46",
-      "newVersion": "8.0.46.CE",
-      "installerUrl": "https://cdn.mysql.com/Downloads/MySQLGUITools/mysql-workbench-community-8.0.46-macos-arm64.dmg"
-    },
-    {
-      "date": "2026-04-03T19:19:07Z",
-      "appName": "Citrix Workspace",
-      "slug": "citrix-workspace/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.03.0.49",
-      "newVersion": "26.03.0",
-      "installerUrl": "https://downloadplugins.citrix.com/ReceiverUpdates/Prod/Receiver/Mac/CitrixWorkspaceAppUniversal26.03.0.49.pkg"
-    },
-    {
-      "date": "2026-04-03T19:19:07Z",
-      "appName": "Marvel",
-      "slug": "marvel/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "11.5",
-      "installerUrl": "https://storage.googleapis.com/sketch-plugin/11.5/Marvel.zip"
-    },
-    {
-      "date": "2026-04-03T19:19:07Z",
-      "appName": "Android Studio",
-      "slug": "android-studio/darwin",
-      "platform": "darwin",
-      "oldVersion": "2025.3.3.6",
-      "newVersion": "2025.3",
-      "installerUrl": "https://edgedl.me.gvt1.com/android/studio/install/2025.3.3.6/android-studio-panda3-mac_arm.dmg"
-    },
-    {
-      "date": "2026-04-03T19:19:07Z",
-      "appName": "FileMaker Pro",
-      "slug": "filemaker-pro/darwin",
-      "platform": "darwin",
-      "oldVersion": "22.0.5.500",
-      "newVersion": "22.0.5",
-      "installerUrl": "https://downloads.claris.com/esd/fmp_22.0.5.500.dmg"
-    },
-    {
-      "date": "2026-04-03T19:19:07Z",
-      "appName": "Elgato Stream Deck",
-      "slug": "elgato-stream-deck/darwin",
-      "platform": "darwin",
-      "oldVersion": "7.4.0.22712",
-      "newVersion": "7.4.0",
-      "installerUrl": "https://edge.elgato.com/egc/macos/sd/Stream_Deck_7.4.0.22712.pkg"
-    },
-    {
-      "date": "2026-04-03T19:19:07Z",
-      "appName": "Lens",
-      "slug": "lens/darwin",
-      "platform": "darwin",
-      "oldVersion": "2026.3.251250",
-      "newVersion": "2026.3.251250-latest",
-      "installerUrl": "https://api.k8slens.dev/binaries/Lens-2026.3.251250-latest-arm64.dmg"
-    },
-    {
       "date": "2026-04-03T19:19:07Z",
       "appName": "Bruno",
       "slug": "bruno/darwin",
@@ -8999,6 +8891,114 @@
       "oldVersion": "8.9.5",
       "newVersion": "8.9.6",
       "installerUrl": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9.6/npp.8.9.6.Installer.x64.exe"
+    },
+    {
+      "date": "2026-05-29T03:16:10Z",
+      "appName": "Tailscale",
+      "slug": "tailscale/windows",
+      "platform": "windows",
+      "oldVersion": "1.98.2",
+      "newVersion": "1.98.4",
+      "installerUrl": "https://pkgs.tailscale.com/stable/tailscale-setup-1.98.4-amd64.msi"
+    },
+    {
+      "date": "2026-05-29T03:16:10Z",
+      "appName": "Prisma Browser",
+      "slug": "prisma-browser/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "148.18.4.217",
+      "installerUrl": "https://updates.talon-sec.com/releases/Prisma%20Access%20Browser/win/packaged/x64/crx_signed_o4_stable_prisma_access_browser_installer_148_18_4_217-148.18.4.217-57dd232e.msi"
+    },
+    {
+      "date": "2026-05-29T03:16:10Z",
+      "appName": "Brave",
+      "slug": "brave-browser/windows",
+      "platform": "windows",
+      "oldVersion": "148.1.90.124",
+      "newVersion": "148.1.90.128",
+      "installerUrl": "https://github.com/brave/brave-browser/releases/download/v1.90.128/BraveBrowserStandaloneSilentSetup.exe"
+    },
+    {
+      "date": "2026-05-29T03:16:10Z",
+      "appName": "Microsoft Edge",
+      "slug": "microsoft-edge/darwin",
+      "platform": "darwin",
+      "oldVersion": "148.0.3967.83",
+      "newVersion": "148.0.3967.96",
+      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/207765a9-3991-4576-80dd-92c5dd9daac0/MicrosoftEdge-148.0.3967.96.dmg"
+    },
+    {
+      "date": "2026-05-29T03:16:10Z",
+      "appName": "Notion Calendar",
+      "slug": "notion-calendar/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.133.0",
+      "newVersion": "1.134.2",
+      "installerUrl": "https://calendar-desktop-release.notion-static.com/Notion%20Calendar-darwin-arm64-1.134.2.zip"
+    },
+    {
+      "date": "2026-05-29T03:16:10Z",
+      "appName": "Dialpad",
+      "slug": "dialpad/windows",
+      "platform": "windows",
+      "oldVersion": "2605.0.4",
+      "newVersion": "2605.1.0",
+      "installerUrl": "https://storage.googleapis.com/dialpad_native/stable/win32/x64/DialpadSetup-2605.1.0_x64.exe"
+    },
+    {
+      "date": "2026-05-29T03:16:10Z",
+      "appName": "Claude",
+      "slug": "claude/windows",
+      "platform": "windows",
+      "oldVersion": "1.9255.2",
+      "newVersion": "1.9659.2",
+      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.9659.2/Claude-390d6ca38de808ca81aeccd2945d9c8be800f47d.msix"
+    },
+    {
+      "date": "2026-05-29T03:16:10Z",
+      "appName": "Zed",
+      "slug": "zed/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.4.2",
+      "newVersion": "1.4.4",
+      "installerUrl": "https://zed.dev/api/releases/stable/1.4.4/Zed-aarch64.dmg"
+    },
+    {
+      "date": "2026-05-29T03:16:10Z",
+      "appName": "Dropbox",
+      "slug": "dropbox/windows",
+      "platform": "windows",
+      "oldVersion": "252.4.3485",
+      "newVersion": "254.4.2518",
+      "installerUrl": "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20254.4.2518%20Enterprise%20Installer.x64.msi"
+    },
+    {
+      "date": "2026-05-29T03:16:10Z",
+      "appName": "AWS Command Line Interface v2",
+      "slug": "aws-cli/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "2.34.56",
+      "installerUrl": "https://awscli.amazonaws.com/AWSCLIV2-2.34.56.msi"
+    },
+    {
+      "date": "2026-05-29T03:16:10Z",
+      "appName": "Figma",
+      "slug": "figma/darwin",
+      "platform": "darwin",
+      "oldVersion": "126.3.12",
+      "newVersion": "126.4.11",
+      "installerUrl": "https://desktop.figma.com/mac-arm/Figma-126.4.11.zip"
+    },
+    {
+      "date": "2026-05-29T03:16:10Z",
+      "appName": "LastPass",
+      "slug": "lastpass/windows",
+      "platform": "windows",
+      "oldVersion": "5.4.2.1452",
+      "newVersion": "5.4.3.1481",
+      "installerUrl": "https://download.cloud.lastpass.com/windows_installer/LastPassInstaller.msi"
     }
   ]
 }
