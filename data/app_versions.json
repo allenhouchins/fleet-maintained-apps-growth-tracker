@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T21:39:28Z",
+  "lastUpdated": "2026-05-29T22:36:28Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -478,6 +478,13 @@
       "installerUrl": "https://persistent.oaistatic.com/sidekick/public/ChatGPT_Desktop_public_1.2026.118_1777682760.dmg"
     },
     {
+      "slug": "chrome-remote-desktop/windows",
+      "name": "Chrome Remote Desktop",
+      "platform": "windows",
+      "version": "148.0.7778.23",
+      "installerUrl": "https://dl.google.com/release2/misc/acrsfvl3wyga6uijvhfjjoxbji3a_148.0.7778.23/remoting-host.msi"
+    },
+    {
       "slug": "cisco-jabber/darwin",
       "name": "Cisco Jabber",
       "platform": "darwin",
@@ -614,8 +621,8 @@
       "slug": "cursor/windows",
       "name": "Cursor",
       "platform": "windows",
-      "version": "3.5.38",
-      "installerUrl": "https://downloads.cursor.com/production/009bb5a3600dd98fe1c1f25798f767f686e14759/win32/x64/system-setup/CursorSetup-x64-3.5.38.exe"
+      "version": "3.6.21",
+      "installerUrl": "https://downloads.cursor.com/production/e7a7e93f4d75f8272503ecf33cedbaae10114a15/win32/x64/system-setup/CursorSetup-x64-3.6.21.exe"
     },
     {
       "slug": "cyberduck/darwin",
@@ -1370,8 +1377,8 @@
       "slug": "loom/darwin",
       "name": "Loom",
       "platform": "darwin",
-      "version": "0.350.1",
-      "installerUrl": "https://packages.loom.com/desktop-packages/Loom-0.350.1-arm64.dmg"
+      "version": "0.351.1",
+      "installerUrl": "https://packages.loom.com/desktop-packages/Loom-0.351.1-arm64.dmg"
     },
     {
       "slug": "loom/windows",
@@ -1407,6 +1414,13 @@
       "platform": "darwin",
       "version": "6.2.0",
       "installerUrl": "https://releases.mattermost.com/desktop/6.2.0/mattermost-desktop-6.2.0-mac-arm64.zip"
+    },
+    {
+      "slug": "mattermost/windows",
+      "name": "Mattermost",
+      "platform": "windows",
+      "version": "6.0.4",
+      "installerUrl": "https://releases.mattermost.com/desktop/6.0.4/mattermost-desktop-6.0.4-win-x64.msi"
     },
     {
       "slug": "messenger/darwin",
@@ -2280,15 +2294,15 @@
       "slug": "todoist-app/darwin",
       "name": "Todoist",
       "platform": "darwin",
-      "version": "9.27.1",
-      "installerUrl": "https://electron-dl.todoist.com/mac/Todoist-darwin-9.27.1-arm64-latest.dmg"
+      "version": "9.28.0",
+      "installerUrl": "https://electron-dl.todoist.com/mac/Todoist-darwin-9.28.0-arm64-latest.dmg"
     },
     {
       "slug": "todoist-app/windows",
       "name": "Todoist",
       "platform": "windows",
-      "version": "9.27.1",
-      "installerUrl": "https://electron-dl.todoist.net/windows/Todoist-win32-9.27.1-x64-latest.exe"
+      "version": "9.28.0",
+      "installerUrl": "https://electron-dl.todoist.net/windows/Todoist-win32-9.28.0-x64-latest.exe"
     },
     {
       "slug": "tor-browser/darwin",

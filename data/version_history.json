@@ -2,60 +2,6 @@
   "changes": [
     {
       "date": "2026-04-07T18:24:49Z",
-      "appName": "Mozilla Firefox",
-      "slug": "firefox/windows",
-      "platform": "windows",
-      "oldVersion": "149.0",
-      "newVersion": "149.0.2",
-      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/149.0.2/win64/en-US/Firefox%20Setup%20149.0.2.exe"
-    },
-    {
-      "date": "2026-04-07T18:24:49Z",
-      "appName": "NordVPN",
-      "slug": "nordvpn/darwin",
-      "platform": "darwin",
-      "oldVersion": "9.15.0",
-      "newVersion": "10.0.1",
-      "installerUrl": "https://downloads.nordcdn.com/apps/macos/generic/NordVPN-OpenVPN/10.0.1/NordVPN.pkg"
-    },
-    {
-      "date": "2026-04-07T18:24:49Z",
-      "appName": "Sketch",
-      "slug": "sketch/darwin",
-      "platform": "darwin",
-      "oldVersion": "2025.3.4",
-      "newVersion": "2026.1",
-      "installerUrl": "https://download.sketch.com/sketch-2026.1-228201.zip"
-    },
-    {
-      "date": "2026-04-07T18:24:49Z",
-      "appName": "Tor Browser",
-      "slug": "tor-browser/darwin",
-      "platform": "darwin",
-      "oldVersion": "15.0.8",
-      "newVersion": "15.0.9",
-      "installerUrl": "https://www.torproject.org/dist/torbrowser/15.0.9/tor-browser-macos-15.0.9.dmg"
-    },
-    {
-      "date": "2026-04-07T18:24:49Z",
-      "appName": "Microsoft Outlook",
-      "slug": "microsoft-outlook/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.107.3",
-      "newVersion": "16.107",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.107.26040410_Installer.pkg"
-    },
-    {
-      "date": "2026-04-07T18:24:49Z",
-      "appName": "Discord",
-      "slug": "discord/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.0.383",
-      "newVersion": "0.0.384",
-      "installerUrl": "https://dl.discordapp.net/apps/osx/0.0.384/Discord.dmg"
-    },
-    {
-      "date": "2026-04-07T18:24:49Z",
       "appName": "Docker Desktop",
       "slug": "docker-desktop/darwin",
       "platform": "darwin",
@@ -8999,6 +8945,60 @@
       "oldVersion": "",
       "newVersion": "2026.3.3",
       "installerUrl": "https://portswigger-cdn.net/burp/releases/download?product=community\u0026version=2026.3.3\u0026type=WindowsX64"
+    },
+    {
+      "date": "2026-05-29T22:36:28Z",
+      "appName": "Chrome Remote Desktop",
+      "slug": "chrome-remote-desktop/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "148.0.7778.23",
+      "installerUrl": "https://dl.google.com/release2/misc/acrsfvl3wyga6uijvhfjjoxbji3a_148.0.7778.23/remoting-host.msi"
+    },
+    {
+      "date": "2026-05-29T22:36:28Z",
+      "appName": "Todoist",
+      "slug": "todoist-app/darwin",
+      "platform": "darwin",
+      "oldVersion": "9.27.1",
+      "newVersion": "9.28.0",
+      "installerUrl": "https://electron-dl.todoist.com/mac/Todoist-darwin-9.28.0-arm64-latest.dmg"
+    },
+    {
+      "date": "2026-05-29T22:36:28Z",
+      "appName": "Cursor",
+      "slug": "cursor/windows",
+      "platform": "windows",
+      "oldVersion": "3.5.38",
+      "newVersion": "3.6.21",
+      "installerUrl": "https://downloads.cursor.com/production/e7a7e93f4d75f8272503ecf33cedbaae10114a15/win32/x64/system-setup/CursorSetup-x64-3.6.21.exe"
+    },
+    {
+      "date": "2026-05-29T22:36:28Z",
+      "appName": "Loom",
+      "slug": "loom/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.350.1",
+      "newVersion": "0.351.1",
+      "installerUrl": "https://packages.loom.com/desktop-packages/Loom-0.351.1-arm64.dmg"
+    },
+    {
+      "date": "2026-05-29T22:36:28Z",
+      "appName": "Mattermost",
+      "slug": "mattermost/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "6.0.4",
+      "installerUrl": "https://releases.mattermost.com/desktop/6.0.4/mattermost-desktop-6.0.4-win-x64.msi"
+    },
+    {
+      "date": "2026-05-29T22:36:28Z",
+      "appName": "Todoist",
+      "slug": "todoist-app/windows",
+      "platform": "windows",
+      "oldVersion": "9.27.1",
+      "newVersion": "9.28.0",
+      "installerUrl": "https://electron-dl.todoist.net/windows/Todoist-win32-9.28.0-x64-latest.exe"
     }
   ]
 }
