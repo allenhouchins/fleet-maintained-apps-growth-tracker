@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T15:11:58Z",
+  "lastUpdated": "2026-05-29T17:15:51Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -399,6 +399,13 @@
       "platform": "windows",
       "version": "3.4.2",
       "installerUrl": "https://github.com/usebruno/bruno/releases/download/v3.4.2/bruno_3.4.2_x64_win.msi"
+    },
+    {
+      "slug": "burp-suite-community/windows",
+      "name": "Burp Suite Community Edition",
+      "platform": "windows",
+      "version": "2026.3.3",
+      "installerUrl": "https://portswigger-cdn.net/burp/releases/download?product=community\u0026version=2026.3.3\u0026type=WindowsX64"
     },
     {
       "slug": "calibre/darwin",
