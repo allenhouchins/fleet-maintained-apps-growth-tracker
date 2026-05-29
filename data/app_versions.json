@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T03:16:10Z",
+  "lastUpdated": "2026-05-29T04:26:11Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -261,6 +261,20 @@
       "installerUrl": "https://d20adtppz83p9s.cloudfront.net/WPF/5.3.5/AWS_VPN_Client.msi"
     },
     {
+      "slug": "azul-zulu-25-jdk/windows",
+      "name": "Azul Zulu JDK 25",
+      "platform": "windows",
+      "version": "25.34.17",
+      "installerUrl": "https://cdn.azul.com/zulu/bin/zulu25.34.17-ca-jdk25.0.3-win_x64.msi"
+    },
+    {
+      "slug": "azul-zulu-25-jre/windows",
+      "name": "Azul Zulu JRE 25",
+      "platform": "windows",
+      "version": "25.34.17",
+      "installerUrl": "https://cdn.azul.com/zulu/bin/zulu25.34.17-ca-jre25.0.3-win_x64.msi"
+    },
+    {
       "slug": "backblaze/darwin",
       "name": "Backblaze",
       "platform": "darwin",
@@ -481,8 +495,8 @@
       "slug": "claude/darwin",
       "name": "Claude",
       "platform": "darwin",
-      "version": "1.9659.1",
-      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.9659.1/Claude-193bcb17691a9a10334d7013382ef6ec26c126bc.zip"
+      "version": "1.9659.2",
+      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.9659.2/Claude-390d6ca38de808ca81aeccd2945d9c8be800f47d.zip"
     },
     {
       "slug": "claude/windows",
@@ -639,6 +653,13 @@
       "installerUrl": "https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.13.1/DB.Browser.for.SQLite-v3.13.1.dmg"
     },
     {
+      "slug": "db-browser-for-sqlite/windows",
+      "name": "DB Browser for SQLite",
+      "platform": "windows",
+      "version": "3.13.1",
+      "installerUrl": "https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.13.1/DB.Browser.for.SQLite-v3.13.1-win64.msi"
+    },
+    {
       "slug": "dbeaver-community/darwin",
       "name": "DBeaver",
       "platform": "darwin",
@@ -660,6 +681,13 @@
       "installerUrl": "https://downloads.dbeaver.net/enterprise/26.0.0/dbeaver-ee-26.0.0-macos-aarch64.dmg"
     },
     {
+      "slug": "dbeaver-enterprise/windows",
+      "name": "DBeaverEE",
+      "platform": "windows",
+      "version": "26.0.0",
+      "installerUrl": "https://downloads.dbeaver.net/enterprise/26.0.0/dbeaver-ee-26.0.0-windows-x86_64.exe"
+    },
+    {
       "slug": "dbeaverlite/darwin",
       "name": "DBeaverLite",
       "platform": "darwin",
@@ -667,11 +695,25 @@
       "installerUrl": "https://downloads.dbeaver.net/lite/26.0.0/dbeaver-le-26.0.0-macos-aarch64.dmg"
     },
     {
+      "slug": "dbeaverlite/windows",
+      "name": "DBeaverLite",
+      "platform": "windows",
+      "version": "26.0.0",
+      "installerUrl": "https://downloads.dbeaver.net/lite/26.0.0/dbeaver-le-26.0.0-windows-x86_64.exe"
+    },
+    {
       "slug": "dbeaverultimate/darwin",
       "name": "DBeaverUltimate",
       "platform": "darwin",
       "version": "26.0.0",
       "installerUrl": "https://downloads.dbeaver.net/ultimate/26.0.0/dbeaver-ue-26.0.0-macos-aarch64.dmg"
+    },
+    {
+      "slug": "dbeaverultimate/windows",
+      "name": "DBeaverUltimate",
+      "platform": "windows",
+      "version": "26.0.0",
+      "installerUrl": "https://downloads.dbeaver.net/ultimate/26.0.0/dbeaver-ue-26.0.0-windows-x86_64.exe"
     },
     {
       "slug": "dcv-viewer/darwin",
@@ -896,6 +938,13 @@
       "platform": "darwin",
       "version": "2.66.7",
       "installerUrl": "https://cdn.fork.dev/mac/Fork-2.66.7.dmg"
+    },
+    {
+      "slug": "fork/windows",
+      "name": "Fork",
+      "platform": "windows",
+      "version": "2.19.0",
+      "installerUrl": "https://cdn.fork.dev/win/Fork-2.19.0.exe"
     },
     {
       "slug": "front/darwin",
@@ -1500,6 +1549,13 @@
       "installerUrl": "https://calendar-desktop-release.notion-static.com/Notion%20Calendar-darwin-arm64-1.134.2.zip"
     },
     {
+      "slug": "notion-calendar/windows",
+      "name": "Notion Calendar",
+      "platform": "windows",
+      "version": "1.133.0",
+      "installerUrl": "https://calendar-desktop-release.notion-static.com/Notion%20Calendar%20Setup%201.133.0.exe"
+    },
+    {
       "slug": "notion/darwin",
       "name": "Notion",
       "platform": "darwin",
@@ -2088,6 +2144,13 @@
       "installerUrl": "https://github.com/swiftDialog/swiftDialog/releases/download/v3.0.1/dialog-3.0.1-4955.pkg"
     },
     {
+      "slug": "tableau-desktop/windows",
+      "name": "Tableau Desktop",
+      "platform": "windows",
+      "version": "24.3.965",
+      "installerUrl": "https://downloads.tableau.com/esdalt/2024.3.4/TableauDesktop-64bit-2024-3-4.exe"
+    },
+    {
       "slug": "tableau/darwin",
       "name": "Tableau Desktop",
       "platform": "darwin",
@@ -2270,6 +2333,13 @@
       "installerUrl": "https://download.virtualbox.org/virtualbox/7.2.8/VirtualBox-7.2.8-173730-macOSArm64.dmg"
     },
     {
+      "slug": "virtualbox/windows",
+      "name": "VirtualBox",
+      "platform": "windows",
+      "version": "7.2.8",
+      "installerUrl": "https://download.virtualbox.org/virtualbox/7.2.8/VirtualBox-7.2.8-173730-Win.exe"
+    },
+    {
       "slug": "viscosity/darwin",
       "name": "Viscosity",
       "platform": "darwin",
@@ -2305,6 +2375,13 @@
       "installerUrl": "https://download.videolan.org/pub/videolan/vlc/3.0.23/win64/vlc-3.0.23-win64.msi"
     },
     {
+      "slug": "vnc-server/darwin",
+      "name": "VNC Server",
+      "platform": "darwin",
+      "version": "7.15.0",
+      "installerUrl": "https://downloads.realvnc.com/download/file/vnc.files/VNC-Server-7.15.0-MacOSX-universal.pkg"
+    },
+    {
       "slug": "vnc-viewer/darwin",
       "name": "VNC Viewer",
       "platform": "darwin",
@@ -2319,11 +2396,18 @@
       "installerUrl": "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.4.13-4.dmg"
     },
     {
+      "slug": "wacom-tablet/windows",
+      "name": "Wacom Tablet",
+      "platform": "windows",
+      "version": "6.4.13-4",
+      "installerUrl": "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.4.13-4.exe"
+    },
+    {
       "slug": "warp/darwin",
       "name": "Warp",
       "platform": "darwin",
-      "version": "0.2026.05.20.09.21.03",
-      "installerUrl": "https://releases.warp.dev/stable/v0.2026.05.20.09.21.stable_03/Warp.dmg"
+      "version": "0.2026.05.27.15.44.01",
+      "installerUrl": "https://releases.warp.dev/stable/v0.2026.05.27.15.44.stable_01/Warp.dmg"
     },
     {
       "slug": "webex/darwin",
@@ -2371,8 +2455,15 @@
       "slug": "windsurf/darwin",
       "name": "Windsurf",
       "platform": "darwin",
-      "version": "2.3.9",
-      "installerUrl": "https://windsurf-stable.codeiumdata.com/darwin-arm64-dmg/stable/a5d3f1ff990cabc0e8001cce6642bdb7ad429e73/Windsurf-darwin-arm64-2.3.9.dmg"
+      "version": "2.3.15",
+      "installerUrl": "https://windsurf-stable.codeiumdata.com/darwin-arm64-dmg/stable/c46c49e94b4d3f41181204d59809d8f1b2c48d68/Windsurf-darwin-arm64-2.3.15.dmg"
+    },
+    {
+      "slug": "windsurf/windows",
+      "name": "Windsurf",
+      "platform": "windows",
+      "version": "2.3.15",
+      "installerUrl": "https://windsurf-stable.codeiumdata.com/win32-x64/stable/c46c49e94b4d3f41181204d59809d8f1b2c48d68/WindsurfSetup-x64-2.3.15.exe"
     },
     {
       "slug": "winscp/windows",
@@ -2457,6 +2548,13 @@
       "platform": "darwin",
       "version": "7.0.5.12655",
       "installerUrl": "https://cdn.zoom.us/prod/7.0.5.12655/ZoomRooms.pkg"
+    },
+    {
+      "slug": "zoom-rooms/windows",
+      "name": "Zoom Rooms",
+      "platform": "windows",
+      "version": "7.0.5",
+      "installerUrl": "https://cdn.zoom.us/prod/7.0.5.7643/x64/zoomrooms-7.0.5.7643-x64.msi"
     },
     {
       "slug": "zoom/darwin",

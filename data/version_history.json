@@ -1,159 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-04-03T19:19:07Z",
-      "appName": "Bruno",
-      "slug": "bruno/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.2.0",
-      "newVersion": "3.2.2",
-      "installerUrl": "https://github.com/usebruno/bruno/releases/download/v3.2.2/bruno_3.2.2_arm64_mac.dmg"
-    },
-    {
-      "date": "2026-04-03T19:19:07Z",
-      "appName": "Royal TSX",
-      "slug": "royal-tsx/darwin",
-      "platform": "darwin",
-      "oldVersion": "6.4.2.1000",
-      "newVersion": "6.4.2",
-      "installerUrl": "https://royaltsx-v6.royalapps.com/updates/royaltsx_6.4.2.1000.dmg"
-    },
-    {
-      "date": "2026-04-03T19:19:07Z",
-      "appName": "Sublime Text",
-      "slug": "sublime-text/darwin",
-      "platform": "darwin",
-      "oldVersion": "4200",
-      "newVersion": "Build 4200",
-      "installerUrl": "https://download.sublimetext.com/sublime_text_build_4200_mac.zip"
-    },
-    {
-      "date": "2026-04-03T19:19:07Z",
-      "appName": "Sublime Merge",
-      "slug": "sublime-merge/darwin",
-      "platform": "darwin",
-      "oldVersion": "2123",
-      "newVersion": "Build 2123",
-      "installerUrl": "https://download.sublimetext.com/sublime_merge_build_2123_mac.zip"
-    },
-    {
-      "date": "2026-04-03T19:19:07Z",
-      "appName": "Twingate",
-      "slug": "twingate/darwin",
-      "platform": "darwin",
-      "oldVersion": "2026.85.23872",
-      "newVersion": "2026.85",
-      "installerUrl": "https://binaries.twingate.com/client/macos/2026.85.23872/Twingate.pkg"
-    },
-    {
-      "date": "2026-04-07T03:09:26Z",
-      "appName": "Cursor",
-      "slug": "cursor/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.0.9",
-      "newVersion": "3.0.12",
-      "installerUrl": "https://downloads.cursor.com/production/a80ff7dfcaa45d7750f6e30be457261379c29b06/darwin/arm64/Cursor-darwin-arm64.zip"
-    },
-    {
-      "date": "2026-04-07T03:09:26Z",
-      "appName": "Windsurf",
-      "slug": "windsurf/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.9577.43",
-      "newVersion": "1.9600.38",
-      "installerUrl": "https://windsurf-stable.codeiumdata.com/darwin-arm64-dmg/stable/82e3334310e3c09bdc53f668d8a19d3cdada67e3/Windsurf-darwin-arm64-1.9600.38.dmg"
-    },
-    {
-      "date": "2026-04-07T03:09:26Z",
-      "appName": "DBeaver",
-      "slug": "dbeaver-community/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.0.1",
-      "newVersion": "26.0.2",
-      "installerUrl": "https://dbeaver.io/files/26.0.2/dbeaver-ce-26.0.2-macos-aarch64.dmg"
-    },
-    {
-      "date": "2026-04-07T03:09:26Z",
-      "appName": "Ollama",
-      "slug": "ollama/windows",
-      "platform": "windows",
-      "oldVersion": "0.18.3",
-      "newVersion": "0.20.2",
-      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.20.2/OllamaSetup.exe"
-    },
-    {
-      "date": "2026-04-07T03:09:26Z",
-      "appName": "GIMP",
-      "slug": "gimp/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.2.0",
-      "newVersion": "3.2.2",
-      "installerUrl": "https://download.gimp.org/gimp/v3.2/macos/gimp-3.2.2-arm64.dmg"
-    },
-    {
-      "date": "2026-04-07T03:09:26Z",
-      "appName": "Slack",
-      "slug": "slack/windows",
-      "platform": "windows",
-      "oldVersion": "4.48.102",
-      "newVersion": "4.49.81",
-      "installerUrl": "https://downloads.slack-edge.com/desktop-releases/windows/x64/4.49.81/Slack.msix"
-    },
-    {
-      "date": "2026-04-07T03:09:26Z",
-      "appName": "Stats",
-      "slug": "stats/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.12.7",
-      "newVersion": "2.12.8",
-      "installerUrl": "https://github.com/exelban/stats/releases/download/v2.12.8/Stats.dmg"
-    },
-    {
-      "date": "2026-04-07T03:09:26Z",
-      "appName": "Proxyman",
-      "slug": "proxyman/darwin",
-      "platform": "darwin",
-      "oldVersion": "6.7.0",
-      "newVersion": "6.8.0",
-      "installerUrl": "https://download.proxyman.com/60800/Proxyman_6.8.0.dmg"
-    },
-    {
-      "date": "2026-04-07T03:09:26Z",
-      "appName": "Microsoft Edge",
-      "slug": "microsoft-edge/windows",
-      "platform": "windows",
-      "oldVersion": "146.0.3856.84",
-      "newVersion": "146.0.3856.97",
-      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/460a8815-de07-4b4d-8b65-29051aefd4d6/MicrosoftEdgeEnterpriseX64.msi"
-    },
-    {
-      "date": "2026-04-07T03:09:26Z",
-      "appName": "Adobe Acrobat Reader",
-      "slug": "adobe-acrobat-reader/windows",
-      "platform": "windows",
-      "oldVersion": "26.001.21346",
-      "newVersion": "26.001.21367",
-      "installerUrl": "https://ardownload2.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2600121367/AcroRdrDCx642600121367_MUI.exe"
-    },
-    {
-      "date": "2026-04-07T03:09:26Z",
-      "appName": "Ollama",
-      "slug": "ollama/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.20.0",
-      "newVersion": "0.20.2",
-      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.20.2/Ollama-darwin.zip"
-    },
-    {
-      "date": "2026-04-07T03:09:26Z",
-      "appName": "Telegram",
-      "slug": "telegram/windows",
-      "platform": "windows",
-      "oldVersion": "6.7.0",
-      "newVersion": "6.7.1",
-      "installerUrl": "https://td.telegram.org/tx64/tsetup-x64.6.7.1.exe"
-    },
-    {
       "date": "2026-04-07T03:09:26Z",
       "appName": "Adobe Acrobat Reader",
       "slug": "adobe-acrobat-reader/darwin",
@@ -8999,6 +8846,159 @@
       "oldVersion": "5.4.2.1452",
       "newVersion": "5.4.3.1481",
       "installerUrl": "https://download.cloud.lastpass.com/windows_installer/LastPassInstaller.msi"
+    },
+    {
+      "date": "2026-05-29T04:26:11Z",
+      "appName": "VNC Server",
+      "slug": "vnc-server/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "7.15.0",
+      "installerUrl": "https://downloads.realvnc.com/download/file/vnc.files/VNC-Server-7.15.0-MacOSX-universal.pkg"
+    },
+    {
+      "date": "2026-05-29T04:26:11Z",
+      "appName": "Azul Zulu JDK 25",
+      "slug": "azul-zulu-25-jdk/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "25.34.17",
+      "installerUrl": "https://cdn.azul.com/zulu/bin/zulu25.34.17-ca-jdk25.0.3-win_x64.msi"
+    },
+    {
+      "date": "2026-05-29T04:26:11Z",
+      "appName": "DB Browser for SQLite",
+      "slug": "db-browser-for-sqlite/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "3.13.1",
+      "installerUrl": "https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.13.1/DB.Browser.for.SQLite-v3.13.1-win64.msi"
+    },
+    {
+      "date": "2026-05-29T04:26:11Z",
+      "appName": "Notion Calendar",
+      "slug": "notion-calendar/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "1.133.0",
+      "installerUrl": "https://calendar-desktop-release.notion-static.com/Notion%20Calendar%20Setup%201.133.0.exe"
+    },
+    {
+      "date": "2026-05-29T04:26:11Z",
+      "appName": "Zoom Rooms",
+      "slug": "zoom-rooms/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "7.0.5",
+      "installerUrl": "https://cdn.zoom.us/prod/7.0.5.7643/x64/zoomrooms-7.0.5.7643-x64.msi"
+    },
+    {
+      "date": "2026-05-29T04:26:11Z",
+      "appName": "Azul Zulu JRE 25",
+      "slug": "azul-zulu-25-jre/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "25.34.17",
+      "installerUrl": "https://cdn.azul.com/zulu/bin/zulu25.34.17-ca-jre25.0.3-win_x64.msi"
+    },
+    {
+      "date": "2026-05-29T04:26:11Z",
+      "appName": "Windsurf",
+      "slug": "windsurf/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.3.9",
+      "newVersion": "2.3.15",
+      "installerUrl": "https://windsurf-stable.codeiumdata.com/darwin-arm64-dmg/stable/c46c49e94b4d3f41181204d59809d8f1b2c48d68/Windsurf-darwin-arm64-2.3.15.dmg"
+    },
+    {
+      "date": "2026-05-29T04:26:11Z",
+      "appName": "Tableau Desktop",
+      "slug": "tableau-desktop/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "24.3.965",
+      "installerUrl": "https://downloads.tableau.com/esdalt/2024.3.4/TableauDesktop-64bit-2024-3-4.exe"
+    },
+    {
+      "date": "2026-05-29T04:26:11Z",
+      "appName": "Fork",
+      "slug": "fork/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "2.19.0",
+      "installerUrl": "https://cdn.fork.dev/win/Fork-2.19.0.exe"
+    },
+    {
+      "date": "2026-05-29T04:26:11Z",
+      "appName": "DBeaverLite",
+      "slug": "dbeaverlite/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "26.0.0",
+      "installerUrl": "https://downloads.dbeaver.net/lite/26.0.0/dbeaver-le-26.0.0-windows-x86_64.exe"
+    },
+    {
+      "date": "2026-05-29T04:26:11Z",
+      "appName": "Windsurf",
+      "slug": "windsurf/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "2.3.15",
+      "installerUrl": "https://windsurf-stable.codeiumdata.com/win32-x64/stable/c46c49e94b4d3f41181204d59809d8f1b2c48d68/WindsurfSetup-x64-2.3.15.exe"
+    },
+    {
+      "date": "2026-05-29T04:26:11Z",
+      "appName": "DBeaverEE",
+      "slug": "dbeaver-enterprise/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "26.0.0",
+      "installerUrl": "https://downloads.dbeaver.net/enterprise/26.0.0/dbeaver-ee-26.0.0-windows-x86_64.exe"
+    },
+    {
+      "date": "2026-05-29T04:26:11Z",
+      "appName": "VirtualBox",
+      "slug": "virtualbox/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "7.2.8",
+      "installerUrl": "https://download.virtualbox.org/virtualbox/7.2.8/VirtualBox-7.2.8-173730-Win.exe"
+    },
+    {
+      "date": "2026-05-29T04:26:11Z",
+      "appName": "Warp",
+      "slug": "warp/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.2026.05.20.09.21.03",
+      "newVersion": "0.2026.05.27.15.44.01",
+      "installerUrl": "https://releases.warp.dev/stable/v0.2026.05.27.15.44.stable_01/Warp.dmg"
+    },
+    {
+      "date": "2026-05-29T04:26:11Z",
+      "appName": "DBeaverUltimate",
+      "slug": "dbeaverultimate/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "26.0.0",
+      "installerUrl": "https://downloads.dbeaver.net/ultimate/26.0.0/dbeaver-ue-26.0.0-windows-x86_64.exe"
+    },
+    {
+      "date": "2026-05-29T04:26:11Z",
+      "appName": "Wacom Tablet",
+      "slug": "wacom-tablet/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "6.4.13-4",
+      "installerUrl": "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.4.13-4.exe"
+    },
+    {
+      "date": "2026-05-29T04:26:11Z",
+      "appName": "Claude",
+      "slug": "claude/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.9659.1",
+      "newVersion": "1.9659.2",
+      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.9659.2/Claude-390d6ca38de808ca81aeccd2945d9c8be800f47d.zip"
     }
   ]
 }
