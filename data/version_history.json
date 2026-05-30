@@ -1,78 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-04-07T18:24:49Z",
-      "appName": "Docker Desktop",
-      "slug": "docker-desktop/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.67.0",
-      "newVersion": "4.68.0",
-      "installerUrl": "https://desktop.docker.com/mac/main/arm64/223695/Docker.dmg"
-    },
-    {
-      "date": "2026-04-08T14:39:50Z",
-      "appName": "Microsoft Word",
-      "slug": "microsoft-word/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.107.3",
-      "newVersion": "16.107",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.107.26040410_Installer.pkg"
-    },
-    {
-      "date": "2026-04-08T14:39:50Z",
-      "appName": "Thunderbird",
-      "slug": "thunderbird/darwin",
-      "platform": "darwin",
-      "oldVersion": "149.0.1",
-      "newVersion": "149.0.2",
-      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/149.0.2/mac/en-US/Thunderbird%20149.0.2.dmg"
-    },
-    {
-      "date": "2026-04-08T14:39:50Z",
-      "appName": "Discord",
-      "slug": "discord/windows",
-      "platform": "windows",
-      "oldVersion": "1.0.9231",
-      "newVersion": "1.0.9232",
-      "installerUrl": "https://stable.dl2.discordapp.net/distro/app/stable/win/x64/1.0.9232/DiscordSetup.exe"
-    },
-    {
-      "date": "2026-04-08T14:39:50Z",
-      "appName": "Loom",
-      "slug": "loom/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.341.0",
-      "newVersion": "0.342.1",
-      "installerUrl": "https://packages.loom.com/desktop-packages/Loom-0.342.1-arm64.dmg"
-    },
-    {
-      "date": "2026-04-08T14:39:50Z",
-      "appName": "Microsoft PowerPoint",
-      "slug": "microsoft-powerpoint/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.107.3",
-      "newVersion": "16.107",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.107.26040410_Installer.pkg"
-    },
-    {
-      "date": "2026-04-08T14:39:50Z",
-      "appName": "Microsoft Excel",
-      "slug": "microsoft-excel/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.107.3",
-      "newVersion": "16.107",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.107.26040410_Installer.pkg"
-    },
-    {
-      "date": "2026-04-08T14:39:50Z",
-      "appName": "Teleport Connect",
-      "slug": "teleport-connect/darwin",
-      "platform": "darwin",
-      "oldVersion": "18.7.3",
-      "newVersion": "18.7.4",
-      "installerUrl": "https://cdn.teleport.dev/Teleport%20Connect-18.7.4.dmg"
-    },
-    {
       "date": "2026-04-08T14:39:50Z",
       "appName": "Claude",
       "slug": "claude/darwin",
@@ -8999,6 +8927,78 @@
       "oldVersion": "9.27.1",
       "newVersion": "9.28.0",
       "installerUrl": "https://electron-dl.todoist.net/windows/Todoist-win32-9.28.0-x64-latest.exe"
+    },
+    {
+      "date": "2026-05-30T01:42:56Z",
+      "appName": "Cryptomator",
+      "slug": "cryptomator/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "1.19.2",
+      "installerUrl": "https://github.com/cryptomator/cryptomator/releases/download/1.19.2/Cryptomator-1.19.2-arm64.dmg"
+    },
+    {
+      "date": "2026-05-30T01:42:56Z",
+      "appName": "Android Studio",
+      "slug": "android-studio/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "2025.3.4.7",
+      "installerUrl": "https://edgedl.me.gvt1.com/android/studio/install/2025.3.4.7/android-studio-panda4-patch1-windows.exe"
+    },
+    {
+      "date": "2026-05-30T01:42:56Z",
+      "appName": "ChatGPT Atlas",
+      "slug": "chatgpt-atlas/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.2026.119.1",
+      "newVersion": "1.2026.126.0",
+      "installerUrl": "https://persistent.oaistatic.com/atlas/public/ChatGPT_Atlas_Desktop_public_1.2026.126.0_20260529183006000.dmg"
+    },
+    {
+      "date": "2026-05-30T01:42:56Z",
+      "appName": "AWS Command Line Interface v2",
+      "slug": "aws-cli/windows",
+      "platform": "windows",
+      "oldVersion": "2.34.56",
+      "newVersion": "2.34.57",
+      "installerUrl": "https://awscli.amazonaws.com/AWSCLIV2-2.34.57.msi"
+    },
+    {
+      "date": "2026-05-30T01:42:56Z",
+      "appName": "Cryptomator",
+      "slug": "cryptomator/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "1.19.2",
+      "installerUrl": "https://github.com/cryptomator/cryptomator/releases/download/1.19.2/Cryptomator-1.19.2-x64.msi"
+    },
+    {
+      "date": "2026-05-30T01:42:56Z",
+      "appName": "Keka",
+      "slug": "keka/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.6.4",
+      "newVersion": "1.6.5",
+      "installerUrl": "https://github.com/aonez/Keka/releases/download/v1.6.5/Keka-1.6.5.dmg"
+    },
+    {
+      "date": "2026-05-30T01:42:56Z",
+      "appName": "Microsoft Teams",
+      "slug": "microsoft-teams/darwin",
+      "platform": "darwin",
+      "oldVersion": "26106.2113.4690.1073",
+      "newVersion": "26120.3106.4725.800",
+      "installerUrl": "https://statics.teams.cdn.office.net/production-osx/26120.3106.4725.800/MicrosoftTeams.pkg"
+    },
+    {
+      "date": "2026-05-30T01:42:56Z",
+      "appName": "Cursor",
+      "slug": "cursor/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.5.38",
+      "newVersion": "3.6.21",
+      "installerUrl": "https://downloads.cursor.com/production/e7a7e93f4d75f8272503ecf33cedbaae10114a15/darwin/arm64/Cursor-darwin-arm64.zip"
     }
   ]
 }
