@@ -2,15 +2,6 @@
   "changes": [
     {
       "date": "2026-04-08T15:35:16Z",
-      "appName": "Mattermost",
-      "slug": "mattermost/darwin",
-      "platform": "darwin",
-      "oldVersion": "6.1.0",
-      "newVersion": "6.1.1",
-      "installerUrl": "https://releases.mattermost.com/desktop/6.1.1/mattermost-desktop-6.1.1-mac-arm64.zip"
-    },
-    {
-      "date": "2026-04-08T15:35:16Z",
       "appName": "Cursor",
       "slug": "cursor/darwin",
       "platform": "darwin",
@@ -8999,6 +8990,15 @@
       "oldVersion": "2026.4.0",
       "newVersion": "2026.5.0",
       "installerUrl": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.5.0/Bitwarden-Installer-2026.5.0.exe"
+    },
+    {
+      "date": "2026-05-30T05:22:18Z",
+      "appName": "RustDesk",
+      "slug": "rustdesk/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "1.4.6",
+      "installerUrl": "https://github.com/rustdesk/rustdesk/releases/download/1.4.6/rustdesk-1.4.6-aarch64.dmg"
     }
   ]
 }
