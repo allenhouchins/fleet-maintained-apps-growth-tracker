@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-30T01:42:56Z",
+  "lastUpdated": "2026-05-30T03:13:04Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -168,6 +168,20 @@
       "platform": "darwin",
       "version": "3.9.0",
       "installerUrl": "https://downloads.veertu.com/anka/Anka-3.9.0.215.pkg"
+    },
+    {
+      "slug": "another-redis-desktop-manager/darwin",
+      "name": "Another Redis Desktop Manager",
+      "platform": "darwin",
+      "version": "1.7.1",
+      "installerUrl": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v1.7.1/Another-Redis-Desktop-Manager-mac-1.7.1-arm64.dmg"
+    },
+    {
+      "slug": "another-redis-desktop-manager/windows",
+      "name": "Another Redis Desktop Manager",
+      "platform": "windows",
+      "version": "1.7.1",
+      "installerUrl": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v1.7.1/Another-Redis-Desktop-Manager-win-1.7.1-x64.exe"
     },
     {
       "slug": "anydesk/darwin",
@@ -341,8 +355,8 @@
       "slug": "bitwarden/windows",
       "name": "Bitwarden",
       "platform": "windows",
-      "version": "2026.4.0",
-      "installerUrl": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.4.0/Bitwarden-Installer-2026.4.0.exe"
+      "version": "2026.5.0",
+      "installerUrl": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.5.0/Bitwarden-Installer-2026.5.0.exe"
     },
     {
       "slug": "blender/darwin",
@@ -658,6 +672,13 @@
       "platform": "windows",
       "version": "9.4.1.44384",
       "installerUrl": "https://update.cyberduck.io//Cyberduck-Installer-9.4.1.44384.msi"
+    },
+    {
+      "slug": "cycling74-max/darwin",
+      "name": "Max",
+      "platform": "darwin",
+      "version": "9.1.4",
+      "installerUrl": "https://downloads.cdn.cycling74.com/max9/Max914_260407.dmg"
     },
     {
       "slug": "dash/darwin",
