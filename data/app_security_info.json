@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-30T01:53:20Z",
+  "lastUpdated": "2026-05-30T01:53:58Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -303,14 +303,14 @@
     {
       "slug": "aws-cli/windows",
       "name": "AWS Command Line Interface v2",
-      "version": "2.34.56",
-      "sha256": "fb68ebf2f446c43cf2ed2117bdf4807ab75fe4095fb8fce87db7231b5bfb04e8",
+      "version": "2.34.57",
+      "sha256": "c1be8b8930414720904de2191d041f2742ca1d05944078ff51b3dbc689ad08e6",
       "publisher": "CN=\"Amazon Web Services, Inc.\", OU=AWS, O=\"Amazon Web Services, Inc.\", L=Seattle, S=Washington, C=US, SERIALNUMBER=4152954, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0590C4CF0DB014199953A68CFCE9B0E7",
       "thumbprint": "81A9EFB93199F2C7441EE14050360EDAB7E8242A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-05-29T03:23:15Z"
+      "lastUpdated": "2026-05-30T01:53:47Z"
     },
     {
       "slug": "aws-vpn-client/darwin",
@@ -780,6 +780,18 @@
       "thumbprint": "330A4484DEEA95A7ACCB8E01635AC63F7908E5CC",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-04-03T17:52:23Z"
+    },
+    {
+      "slug": "cryptomator/windows",
+      "name": "Cryptomator",
+      "version": "1.19.2",
+      "sha256": "ccab006783f580c3334348bcd645b8a8838f075d0590131e489729840729200b",
+      "publisher": "CN=Skymatic GmbH, O=Skymatic GmbH, L=Bonn, C=DE",
+      "issuer": "CN=Microsoft ID Verified CS AOC CA 01, O=Microsoft Corporation, C=US",
+      "serialNumber": "33000890B1B9DFF7EE6E525B2D0000000890B1",
+      "thumbprint": "20F30D7C5B1AB3ACAFA4AB27874ACBC4B47B0697",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:A500-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-05-30T01:53:58Z"
     },
     {
       "slug": "cursor/darwin",
