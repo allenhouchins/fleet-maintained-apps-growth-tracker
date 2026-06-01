@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01T03:19:04Z",
+  "lastUpdated": "2026-06-01T07:56:12Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1465,13 +1465,6 @@
       "installerUrl": "https://releases.mattermost.com/desktop/6.0.4/mattermost-desktop-6.0.4-win-x64.msi"
     },
     {
-      "slug": "messenger/darwin",
-      "name": "Messenger",
-      "platform": "darwin",
-      "version": "525.0.0.34.106",
-      "installerUrl": "https://www.messenger.com/messenger/desktop/downloadV2/?platform=mac\u0026variant=catalyst"
-    },
-    {
       "slug": "microsoft-auto-update/darwin",
       "name": "Microsoft Auto Update",
       "platform": "darwin",
@@ -2632,6 +2625,13 @@
       "platform": "darwin",
       "version": "1.4.4",
       "installerUrl": "https://zed.dev/api/releases/stable/1.4.4/Zed-aarch64.dmg"
+    },
+    {
+      "slug": "zed/windows",
+      "name": "Zed",
+      "platform": "windows",
+      "version": "1.4.4",
+      "installerUrl": "https://github.com/zed-industries/zed/releases/download/v1.4.4/Zed-x86_64.exe"
     },
     {
       "slug": "zen/darwin",

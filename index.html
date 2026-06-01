@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: May 31, 2026 at 10:29 PM CDT</p>
+            Last updated: June 1, 2026 at 2:56 AM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: May 31, 2026 at 10:29 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: June 1, 2026 at 2:56 AM CDT</p>
             </div>
         </div>
     </div>
@@ -2484,7 +2484,7 @@
             240,
             244,
             244,
-            244
+            243
           ],
           "windowsCounts": [
             0,
@@ -2941,7 +2941,7 @@
             137,
             140,
             140,
-            140
+            141
           ],
           "growthDates": [
             "2025-03-04",
@@ -6415,21 +6415,6 @@
                 }
               },
               {
-                "name": "Messenger",
-                "slug": "messenger/darwin",
-                "platform": "darwin",
-                "description": "Messenger is a native desktop app for Messenger (formerly Facebook Messenger).",
-                "version": "525.0.0.34.106",
-                "installerUrl": "https://www.messenger.com/messenger/desktop/downloadV2/?platform=mac\u0026variant=catalyst",
-                "securityInfo": {
-                  "sha256": "24f9af10e82a0c619e30c74a39f8e743b6742abc9803f2d9c89429ae9790464a",
-                  "cdhash": "18b88191eace8663804b7534da559eff6b497cd8",
-                  "signingId": "V9WTTPBFK9:com.facebook.archon.developerID",
-                  "teamId": "V9WTTPBFK9",
-                  "lastUpdated": "2025-12-20T07:26:25Z"
-                }
-              },
-              {
                 "name": "Microsoft Auto Update",
                 "slug": "microsoft-auto-update/darwin",
                 "platform": "darwin",
@@ -9017,6 +9002,14 @@
                 }
               },
               {
+                "name": "Zed",
+                "slug": "zed/windows",
+                "platform": "windows",
+                "description": "Zed is a multiplayer code editor.",
+                "version": "1.4.4",
+                "installerUrl": "https://github.com/zed-industries/zed/releases/download/v1.4.4/Zed-x86_64.exe"
+              },
+              {
                 "name": "Zen Browser",
                 "slug": "zen/darwin",
                 "platform": "darwin",
@@ -9708,7 +9701,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `May 31, 2026 at 10:29 PM CDT`;
+                let timestampText = 'Last updated: ' + `June 1, 2026 at 2:56 AM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
