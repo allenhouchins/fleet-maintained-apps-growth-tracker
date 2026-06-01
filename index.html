@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: June 1, 2026 at 10:09 AM CDT</p>
+            Last updated: June 1, 2026 at 10:20 AM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: June 1, 2026 at 10:09 AM CDT</p>
+                <p id="modalLastUpdated">Last updated: June 1, 2026 at 10:20 AM CDT</p>
             </div>
         </div>
     </div>
@@ -3495,7 +3495,14 @@
                 "platform": "darwin",
                 "description": "Amazon WorkSpaces is an app that provides secure, managed virtual desktop infrastructure (VDI) in the cloud.",
                 "version": "5.32.0.6080",
-                "installerUrl": "https://d2td7dqidlhjx7.cloudfront.net/prod/global/osx/WorkSpaces_AllProducts_6080.zip"
+                "installerUrl": "https://d2td7dqidlhjx7.cloudfront.net/prod/global/osx/WorkSpaces_AllProducts_6080.zip",
+                "securityInfo": {
+                  "sha256": "6dceb571e377e76139579716ce102d1dfaa27438bd5c43d8e609492e11b66553",
+                  "cdhash": "d6e02914094c352a292732e86b9120b197c6173b",
+                  "signingId": "94KV3E626L:com.amazon.workspaces",
+                  "teamId": "94KV3E626L",
+                  "lastUpdated": "2026-06-01T15:15:21Z"
+                }
               },
               {
                 "name": "Amazon WorkSpaces",
@@ -4622,11 +4629,11 @@
                 "version": "3.6.31",
                 "installerUrl": "https://downloads.cursor.com/production/81fcf2931d7687b4ff3f3017858d0c6dee7e2a68/darwin/arm64/Cursor-darwin-arm64.zip",
                 "securityInfo": {
-                  "sha256": "38d9f8accfac7fc7172092f439d627eb1bd97e932264bc4d8c2f6e3a6a3a71ae",
-                  "cdhash": "14049b2347e8f52cdafba5edfc9904c652d22e18",
+                  "sha256": "db3c00f46bf623fd9f6338e5c857562987f4bdd2532a8bd4c0bb70d8d949854b",
+                  "cdhash": "c783bc7e7776b40fa01b01c1122151f55ee63641",
                   "signingId": "VDXQ22DGB9:com.todesktop.230313mzl4w4u92",
                   "teamId": "VDXQ22DGB9",
-                  "lastUpdated": "2026-05-30T01:45:06Z"
+                  "lastUpdated": "2026-06-01T15:16:48Z"
                 }
               },
               {
@@ -5688,11 +5695,11 @@
                 "version": "1.63.12.361",
                 "installerUrl": "https://dl.google.com/release2/j33ro/release/Gemini.dmg",
                 "securityInfo": {
-                  "sha256": "0482d329b5ae1016a42285ff421c2a03677656a85e20b959f5f9a393ad4cf980",
-                  "cdhash": "d208d60d400baecc16be76255af3435beae82214",
+                  "sha256": "3f685774e517d5a610dfd13365fb48b05772dbf8baf4fe0aa3d86bbfa78ef814",
+                  "cdhash": "8fc62f30c4c6167e38adb4946c753395438052da",
                   "signingId": "EQHXZ8M8AV:com.google.GeminiMacOS",
                   "teamId": "EQHXZ8M8AV",
-                  "lastUpdated": "2026-05-26T15:10:55Z"
+                  "lastUpdated": "2026-06-01T15:17:18Z"
                 }
               },
               {
@@ -9737,7 +9744,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `June 1, 2026 at 10:09 AM CDT`;
+                let timestampText = 'Last updated: ' + `June 1, 2026 at 10:20 AM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
