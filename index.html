@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: June 1, 2026 at 7:16 AM CDT</p>
+            Last updated: June 1, 2026 at 10:09 AM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: June 1, 2026 at 7:16 AM CDT</p>
+                <p id="modalLastUpdated">Last updated: June 1, 2026 at 10:09 AM CDT</p>
             </div>
         </div>
     </div>
@@ -1570,7 +1570,7 @@
             377,
             384,
             384,
-            384
+            387
           ],
           "additions": [
             20,
@@ -2027,7 +2027,7 @@
             24,
             7,
             0,
-            0
+            3
           ],
           "macCounts": [
             20,
@@ -2484,7 +2484,7 @@
             240,
             244,
             244,
-            243
+            244
           ],
           "windowsCounts": [
             0,
@@ -2941,7 +2941,7 @@
             137,
             140,
             140,
-            141
+            143
           ],
           "growthDates": [
             "2025-03-04",
@@ -3009,7 +3009,8 @@
             "2026-05-27",
             "2026-05-28",
             "2026-05-29",
-            "2026-05-30"
+            "2026-05-30",
+            "2026-06-01"
           ],
           "growthCounts": [
             20,
@@ -3077,7 +3078,8 @@
             310,
             353,
             377,
-            384
+            384,
+            387
           ],
           "growthAdditions": [
             20,
@@ -3145,7 +3147,8 @@
             9,
             43,
             24,
-            7
+            7,
+            3
           ]
         };
         
@@ -3275,10 +3278,10 @@
                 }
               },
               {
-                "name": "Adobe Acrobat Pro DC",
+                "name": "Adobe Acrobat Pro",
                 "slug": "adobe-acrobat-pro/darwin",
                 "platform": "darwin",
-                "description": "Adobe Acrobat Pro DC is a professional PDF editor for creating, editing, converting, and managing PDF documents.",
+                "description": "Adobe Acrobat Pro is a professional PDF editor for creating, editing, converting, and managing PDF documents.",
                 "version": "25.001.20937",
                 "installerUrl": "https://trials.adobe.com/AdobeProducts/APRO/Acrobat_HelpX/osx10/Acrobat_DC_Web_WWMUI.dmg",
                 "securityInfo": {
@@ -3288,6 +3291,14 @@
                   "teamId": "JQ525L2MZD",
                   "lastUpdated": "2026-01-30T05:45:11Z"
                 }
+              },
+              {
+                "name": "Adobe Acrobat Pro",
+                "slug": "adobe-acrobat-pro/windows",
+                "platform": "windows",
+                "description": "Adobe Acrobat Pro is a professional PDF editor for creating, editing, converting, and managing PDF documents.",
+                "version": "26.001.21529",
+                "installerUrl": "https://trials.adobe.com/AdobeProducts/APRO/Acrobat_HelpX/win32/Acrobat_DC_Web_x64_WWMUI.zip"
               },
               {
                 "name": "Adobe Acrobat Reader",
@@ -3477,6 +3488,22 @@
                   "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
                   "lastUpdated": "2026-05-27T03:31:21Z"
                 }
+              },
+              {
+                "name": "Amazon WorkSpaces",
+                "slug": "amazon-workspaces/darwin",
+                "platform": "darwin",
+                "description": "Amazon WorkSpaces is an app that provides secure, managed virtual desktop infrastructure (VDI) in the cloud.",
+                "version": "5.32.0.6080",
+                "installerUrl": "https://d2td7dqidlhjx7.cloudfront.net/prod/global/osx/WorkSpaces_AllProducts_6080.zip"
+              },
+              {
+                "name": "Amazon WorkSpaces",
+                "slug": "amazon-workspaces/windows",
+                "platform": "windows",
+                "description": "Amazon WorkSpaces is an app that provides secure, managed virtual desktop infrastructure (VDI) in the cloud.",
+                "version": "5.32.2.5905",
+                "installerUrl": "https://d2td7dqidlhjx7.cloudfront.net/prod/global/windows/Amazon+WorkSpaces.msi"
               },
               {
                 "name": "Android Studio",
@@ -4592,8 +4619,8 @@
                 "slug": "cursor/darwin",
                 "platform": "darwin",
                 "description": "Cursor AI boosts your coding productivity by giving smart, context-aware code suggestions, quick explanations, and easy refactors - all inside your editor.",
-                "version": "3.6.21",
-                "installerUrl": "https://downloads.cursor.com/production/e7a7e93f4d75f8272503ecf33cedbaae10114a15/darwin/arm64/Cursor-darwin-arm64.zip",
+                "version": "3.6.31",
+                "installerUrl": "https://downloads.cursor.com/production/81fcf2931d7687b4ff3f3017858d0c6dee7e2a68/darwin/arm64/Cursor-darwin-arm64.zip",
                 "securityInfo": {
                   "sha256": "38d9f8accfac7fc7172092f439d627eb1bd97e932264bc4d8c2f6e3a6a3a71ae",
                   "cdhash": "14049b2347e8f52cdafba5edfc9904c652d22e18",
@@ -5658,7 +5685,7 @@
                 "slug": "google-gemini/darwin",
                 "platform": "darwin",
                 "description": "Gemini is a native desktop AI assistant from Google.",
-                "version": "1.60.2.323",
+                "version": "1.63.12.361",
                 "installerUrl": "https://dl.google.com/release2/j33ro/release/Gemini.dmg",
                 "securityInfo": {
                   "sha256": "0482d329b5ae1016a42285ff421c2a03677656a85e20b959f5f9a393ad4cf980",
@@ -9710,7 +9737,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `June 1, 2026 at 7:16 AM CDT`;
+                let timestampText = 'Last updated: ' + `June 1, 2026 at 10:09 AM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {

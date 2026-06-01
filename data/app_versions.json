@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01T12:07:41Z",
+  "lastUpdated": "2026-06-01T15:09:38Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -59,10 +59,17 @@
     },
     {
       "slug": "adobe-acrobat-pro/darwin",
-      "name": "Adobe Acrobat Pro DC",
+      "name": "Adobe Acrobat Pro",
       "platform": "darwin",
       "version": "25.001.20937",
       "installerUrl": "https://trials.adobe.com/AdobeProducts/APRO/Acrobat_HelpX/osx10/Acrobat_DC_Web_WWMUI.dmg"
+    },
+    {
+      "slug": "adobe-acrobat-pro/windows",
+      "name": "Adobe Acrobat Pro",
+      "platform": "windows",
+      "version": "26.001.21529",
+      "installerUrl": "https://trials.adobe.com/AdobeProducts/APRO/Acrobat_HelpX/win32/Acrobat_DC_Web_x64_WWMUI.zip"
     },
     {
       "slug": "adobe-acrobat-reader/darwin",
@@ -147,6 +154,20 @@
       "platform": "windows",
       "version": "25.0.3.9",
       "installerUrl": "https://corretto.aws/downloads/resources/25.0.3.9.1/amazon-corretto-25.0.3.9.1-windows-x64.msi"
+    },
+    {
+      "slug": "amazon-workspaces/darwin",
+      "name": "Amazon WorkSpaces",
+      "platform": "darwin",
+      "version": "5.32.0.6080",
+      "installerUrl": "https://d2td7dqidlhjx7.cloudfront.net/prod/global/osx/WorkSpaces_AllProducts_6080.zip"
+    },
+    {
+      "slug": "amazon-workspaces/windows",
+      "name": "Amazon WorkSpaces",
+      "platform": "windows",
+      "version": "5.32.2.5905",
+      "installerUrl": "https://d2td7dqidlhjx7.cloudfront.net/prod/global/windows/Amazon+WorkSpaces.msi"
     },
     {
       "slug": "android-studio/darwin",
@@ -649,8 +670,8 @@
       "slug": "cursor/darwin",
       "name": "Cursor",
       "platform": "darwin",
-      "version": "3.6.21",
-      "installerUrl": "https://downloads.cursor.com/production/e7a7e93f4d75f8272503ecf33cedbaae10114a15/darwin/arm64/Cursor-darwin-arm64.zip"
+      "version": "3.6.31",
+      "installerUrl": "https://downloads.cursor.com/production/81fcf2931d7687b4ff3f3017858d0c6dee7e2a68/darwin/arm64/Cursor-darwin-arm64.zip"
     },
     {
       "slug": "cursor/windows",
@@ -1125,7 +1146,7 @@
       "slug": "google-gemini/darwin",
       "name": "Gemini",
       "platform": "darwin",
-      "version": "1.60.2.323",
+      "version": "1.63.12.361",
       "installerUrl": "https://dl.google.com/release2/j33ro/release/Gemini.dmg"
     },
     {
