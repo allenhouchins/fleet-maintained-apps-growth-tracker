@@ -2,51 +2,6 @@
   "changes": [
     {
       "date": "2026-04-09T23:19:33Z",
-      "appName": "Webex",
-      "slug": "webex/windows",
-      "platform": "windows",
-      "oldVersion": "46.3.1.34493",
-      "newVersion": "46.4.0.34620",
-      "installerUrl": "https://binaries.webex.com/WebexDesktop-Win-64-Gold/20260408162106/Webex.msi"
-    },
-    {
-      "date": "2026-04-09T23:19:33Z",
-      "appName": "Rider",
-      "slug": "rider/darwin",
-      "platform": "darwin",
-      "oldVersion": "2026.1",
-      "newVersion": "2026.1.0.1",
-      "installerUrl": "https://download.jetbrains.com/rider/JetBrains.Rider-2026.1.0.1-aarch64.dmg"
-    },
-    {
-      "date": "2026-04-09T23:19:33Z",
-      "appName": "DataGrip",
-      "slug": "datagrip/darwin",
-      "platform": "darwin",
-      "oldVersion": "2026.1.1",
-      "newVersion": "2026.1.2",
-      "installerUrl": "https://download.jetbrains.com/datagrip/datagrip-2026.1.2-aarch64.dmg"
-    },
-    {
-      "date": "2026-04-09T23:19:33Z",
-      "appName": "Zed",
-      "slug": "zed/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.230.2",
-      "newVersion": "0.231.1",
-      "installerUrl": "https://zed.dev/api/releases/stable/0.231.1/Zed-aarch64.dmg"
-    },
-    {
-      "date": "2026-04-09T23:19:33Z",
-      "appName": "Signal",
-      "slug": "signal/darwin",
-      "platform": "darwin",
-      "oldVersion": "8.5.0",
-      "newVersion": "8.6.0",
-      "installerUrl": "https://updates.signal.org/desktop/signal-desktop-mac-arm64-8.6.0.zip"
-    },
-    {
-      "date": "2026-04-09T23:19:33Z",
       "appName": "Google Chrome",
       "slug": "google-chrome/windows",
       "platform": "windows",
@@ -8999,6 +8954,51 @@
       "oldVersion": "0.351.1",
       "newVersion": "0.351.2",
       "installerUrl": "https://packages.loom.com/desktop-packages/Loom-0.351.2-arm64.dmg"
+    },
+    {
+      "date": "2026-06-02T03:18:21Z",
+      "appName": "Tailscale",
+      "slug": "tailscale-app/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.98.2",
+      "newVersion": "1.98.5",
+      "installerUrl": "https://pkgs.tailscale.com/stable/Tailscale-1.98.5-macos.pkg"
+    },
+    {
+      "date": "2026-06-02T03:18:21Z",
+      "appName": "ChatGPT Desktop",
+      "slug": "chatgpt/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.2026.118",
+      "newVersion": "1.2026.119",
+      "installerUrl": "https://persistent.oaistatic.com/sidekick/public/ChatGPT_Desktop_public_1.2026.119_1780053722.dmg"
+    },
+    {
+      "date": "2026-06-02T03:18:21Z",
+      "appName": "GitHub Desktop",
+      "slug": "github/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.5.11",
+      "newVersion": "3.5.12",
+      "installerUrl": "https://desktop.githubusercontent.com/releases/3.5.12-c6aad713/GitHubDesktop-arm64.zip"
+    },
+    {
+      "date": "2026-06-02T03:18:21Z",
+      "appName": "Notion",
+      "slug": "notion/darwin",
+      "platform": "darwin",
+      "oldVersion": "7.19.0",
+      "newVersion": "7.20.0",
+      "installerUrl": "https://desktop-release.notion-static.com/Notion-7.20.0-arm64.dmg"
+    },
+    {
+      "date": "2026-06-02T03:18:21Z",
+      "appName": "Genesys Cloud",
+      "slug": "genesys-cloud/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.49.25",
+      "newVersion": "2.50.28",
+      "installerUrl": "https://app.mypurecloud.com/directory-mac/build-assets/2.50.28-181/genesys-cloud-mac-2.50.28.dmg"
     }
   ]
 }
