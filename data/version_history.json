@@ -2,60 +2,6 @@
   "changes": [
     {
       "date": "2026-04-09T23:19:33Z",
-      "appName": "Google Chrome",
-      "slug": "google-chrome/windows",
-      "platform": "windows",
-      "oldVersion": "146.0.7680.178",
-      "newVersion": "147.0.7727.56",
-      "installerUrl": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi"
-    },
-    {
-      "date": "2026-04-09T23:19:33Z",
-      "appName": "Microsoft Excel",
-      "slug": "microsoft-excel/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.107",
-      "newVersion": "16.107.4",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.107.26040410_Installer.pkg"
-    },
-    {
-      "date": "2026-04-09T23:19:33Z",
-      "appName": "Microsoft Outlook",
-      "slug": "microsoft-outlook/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.107",
-      "newVersion": "16.107.4",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.107.26040410_Installer.pkg"
-    },
-    {
-      "date": "2026-04-09T23:19:33Z",
-      "appName": "1Password",
-      "slug": "1password/windows",
-      "platform": "windows",
-      "oldVersion": "8.12.8",
-      "newVersion": "8.12.10",
-      "installerUrl": "https://c.1password.com/dist/1P/win8/1PasswordSetup-8.12.10.msi"
-    },
-    {
-      "date": "2026-04-09T23:19:33Z",
-      "appName": "LastPass",
-      "slug": "lastpass/windows",
-      "platform": "windows",
-      "oldVersion": "5.4.1.1429",
-      "newVersion": "5.4.2.1452",
-      "installerUrl": "https://download.cloud.lastpass.com/windows_installer/LastPassInstaller.msi"
-    },
-    {
-      "date": "2026-04-09T23:19:33Z",
-      "appName": "Dialpad",
-      "slug": "dialpad/darwin",
-      "platform": "darwin",
-      "oldVersion": "2603.3.2",
-      "newVersion": "2603.3.3",
-      "installerUrl": "https://storage.googleapis.com/dialpad_native/osx/arm64/Dialpad.2603.3.3.zip"
-    },
-    {
-      "date": "2026-04-09T23:19:33Z",
       "appName": "Docker Desktop",
       "slug": "docker/windows",
       "platform": "windows",
@@ -8999,6 +8945,60 @@
       "oldVersion": "2.49.25",
       "newVersion": "2.50.28",
       "installerUrl": "https://app.mypurecloud.com/directory-mac/build-assets/2.50.28-181/genesys-cloud-mac-2.50.28.dmg"
+    },
+    {
+      "date": "2026-06-02T13:26:33Z",
+      "appName": "Cisco Jabber",
+      "slug": "cisco-jabber/windows",
+      "platform": "windows",
+      "oldVersion": "15.2.2.60904",
+      "newVersion": "15.2.3.61008",
+      "installerUrl": "https://binaries.webex.com/jabberclientwindows/20260527035625/CiscoJabberSetup.msi"
+    },
+    {
+      "date": "2026-06-02T13:26:33Z",
+      "appName": "Claude",
+      "slug": "claude/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.9659.2",
+      "newVersion": "1.9659.4",
+      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.9659.4/Claude-8cc65547f75f6ddd5b8ff0e04d3a2c450a970ccc.zip"
+    },
+    {
+      "date": "2026-06-02T13:26:33Z",
+      "appName": "Postman",
+      "slug": "postman/windows",
+      "platform": "windows",
+      "oldVersion": "12.12.6",
+      "newVersion": "12.13.2",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.13.2/windows_64"
+    },
+    {
+      "date": "2026-06-02T13:26:33Z",
+      "appName": "Ollama",
+      "slug": "ollama/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.24.0",
+      "newVersion": "0.30.0",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.30.0/Ollama-darwin.zip"
+    },
+    {
+      "date": "2026-06-02T13:26:33Z",
+      "appName": "Notepad++",
+      "slug": "notepad++/windows",
+      "platform": "windows",
+      "oldVersion": "8.9.6.1",
+      "newVersion": "8.9.6.2",
+      "installerUrl": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9.6.2/npp.8.9.6.2.Installer.x64.exe"
+    },
+    {
+      "date": "2026-06-02T13:26:33Z",
+      "appName": "Postman",
+      "slug": "postman/darwin",
+      "platform": "darwin",
+      "oldVersion": "12.12.6",
+      "newVersion": "12.13.2",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.13.2/osx_arm64"
     }
   ]
 }
