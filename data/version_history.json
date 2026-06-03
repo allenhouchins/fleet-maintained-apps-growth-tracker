@@ -2,69 +2,6 @@
   "changes": [
     {
       "date": "2026-04-14T15:31:18Z",
-      "appName": "Linear",
-      "slug": "linear/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "1.28.13",
-      "installerUrl": "https://download.todesktop.com/200315glz2793v6/Linear%20Setup%201.28.13%20-%20Build%20260318pho1bttxr-x64.exe"
-    },
-    {
-      "date": "2026-04-14T15:31:18Z",
-      "appName": "Adobe Acrobat Reader",
-      "slug": "adobe-acrobat-reader/windows",
-      "platform": "windows",
-      "oldVersion": "26.001.21411",
-      "newVersion": "26.001.21431",
-      "installerUrl": "https://ardownload3.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2600121431/AcroRdrDCx642600121431_MUI.exe"
-    },
-    {
-      "date": "2026-04-14T15:31:18Z",
-      "appName": "NordPass",
-      "slug": "nordpass/darwin",
-      "platform": "darwin",
-      "oldVersion": "7.5.7",
-      "newVersion": "7.6.14",
-      "installerUrl": "https://downloads.npass.app/mac/arm/NordPass.dmg"
-    },
-    {
-      "date": "2026-04-14T15:31:18Z",
-      "appName": "Sublime Merge",
-      "slug": "sublime-merge/darwin",
-      "platform": "darwin",
-      "oldVersion": "Build 2123",
-      "newVersion": "Build 2125",
-      "installerUrl": "https://download.sublimetext.com/sublime_merge_build_2125_mac.zip"
-    },
-    {
-      "date": "2026-04-14T15:31:18Z",
-      "appName": "Ollama",
-      "slug": "ollama/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.20.6",
-      "newVersion": "0.20.7",
-      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.20.7/Ollama-darwin.zip"
-    },
-    {
-      "date": "2026-04-14T15:31:18Z",
-      "appName": "Warp",
-      "slug": "warp/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.2026.04.08.08.36.02",
-      "newVersion": "0.2026.04.08.08.36.05",
-      "installerUrl": "https://releases.warp.dev/stable/v0.2026.04.08.08.36.stable_05/Warp.dmg"
-    },
-    {
-      "date": "2026-04-14T15:31:18Z",
-      "appName": "Claude",
-      "slug": "claude/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.1617.0",
-      "newVersion": "1.2278.0",
-      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.2278.0/Claude-e5213fcf70d7f16280888f281833a19f6ee13156.zip"
-    },
-    {
-      "date": "2026-04-14T15:31:18Z",
       "appName": "Adobe Acrobat Reader",
       "slug": "adobe-acrobat-reader/darwin",
       "platform": "darwin",
@@ -8999,6 +8936,69 @@
       "oldVersion": "8.33.2",
       "newVersion": "8.34.1",
       "installerUrl": "https://work-desktop-assets.8x8.com/prod-publish/ga/work-arm64-dmg-v8.34.1-11.dmg"
+    },
+    {
+      "date": "2026-06-03T17:46:17Z",
+      "appName": "SF Symbols",
+      "slug": "sf-symbols/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "7.2",
+      "installerUrl": "https://devimages-cdn.apple.com/design/resources/download/SF-Symbols-7.dmg"
+    },
+    {
+      "date": "2026-06-03T17:46:17Z",
+      "appName": "Tor Browser",
+      "slug": "tor-browser/darwin",
+      "platform": "darwin",
+      "oldVersion": "15.0.14",
+      "newVersion": "15.0.15",
+      "installerUrl": "https://www.torproject.org/dist/torbrowser/15.0.15/tor-browser-macos-15.0.15.dmg"
+    },
+    {
+      "date": "2026-06-03T17:46:17Z",
+      "appName": "Microsoft Visual Studio Code",
+      "slug": "visual-studio-code/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.122.1",
+      "newVersion": "1.123.0",
+      "installerUrl": "https://update.code.visualstudio.com/1.123.0/darwin-arm64/stable"
+    },
+    {
+      "date": "2026-06-03T17:46:17Z",
+      "appName": "Prisma Browser",
+      "slug": "prisma-browser/windows",
+      "platform": "windows",
+      "oldVersion": "148.18.4.217",
+      "newVersion": "149.10.3.53",
+      "installerUrl": "https://updates.talon-sec.com/releases/Prisma%20Access%20Browser/win/packaged/x64/crx_signed_o4_stable_prisma_access_browser_installer_149_10_3_53-149.10.3.53-f52fe377.msi"
+    },
+    {
+      "date": "2026-06-03T17:46:17Z",
+      "appName": "VirtualBuddy",
+      "slug": "virtualbuddy/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "2.1",
+      "installerUrl": "https://su.virtualbuddy.app/VirtualBuddy_v2.1-325.dmg"
+    },
+    {
+      "date": "2026-06-03T17:46:17Z",
+      "appName": "Stats",
+      "slug": "stats/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.12.15",
+      "newVersion": "2.12.16",
+      "installerUrl": "https://github.com/exelban/stats/releases/download/v2.12.16/Stats.dmg"
+    },
+    {
+      "date": "2026-06-03T17:46:17Z",
+      "appName": "Microsoft Visual Studio Code",
+      "slug": "visual-studio-code/windows",
+      "platform": "windows",
+      "oldVersion": "1.122.1",
+      "newVersion": "1.123.0",
+      "installerUrl": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/6a44c352bd24569c417e530095901b649960f9f8/VSCodeSetup-x64-1.123.0.exe"
     }
   ]
 }
