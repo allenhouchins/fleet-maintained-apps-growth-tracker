@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-04T15:21:57Z",
+  "lastUpdated": "2026-06-04T15:23:17Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -212,6 +212,18 @@
       "lastUpdated": "2026-06-04T15:21:57Z"
     },
     {
+      "slug": "amazon-dcv-server/windows",
+      "name": "Amazon DCV Server",
+      "version": "25.0.20103.0",
+      "sha256": "2f513d651c9b4370e6e0d856ebbdef751b631fca1daf81b511efded47a6df863",
+      "publisher": "CN=\"Amazon Web Services, Inc.\", OU=AWS HPC and Visualization - NICE, O=\"Amazon Web Services, Inc.\", L=Seattle, S=Washington, C=US, SERIALNUMBER=4152954, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "06AB7E4E59F86DC4050E8845E03E97AD",
+      "thumbprint": "ADA9A0383B9F67E978FD7CC4C3F5B93D1C0B0E03",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-04T15:22:09Z"
+    },
+    {
       "slug": "amazon-workspaces/darwin",
       "name": "Amazon WorkSpaces",
       "version": "5.32.0.6080",
@@ -355,14 +367,14 @@
     {
       "slug": "aws-cli/windows",
       "name": "AWS Command Line Interface v2",
-      "version": "2.34.60",
-      "sha256": "98d1ce72130286e75156b3ca7defc4447ba1d9cda12c756be4c96e07641eb356",
+      "version": "2.34.61",
+      "sha256": "c3bd0e07bbb73d37e9e677a0eaf588365b709bbfbf858d97ff07f15a136c2f1d",
       "publisher": "CN=\"Amazon Web Services, Inc.\", OU=AWS, O=\"Amazon Web Services, Inc.\", L=Seattle, S=Washington, C=US, SERIALNUMBER=4152954, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0590C4CF0DB014199953A68CFCE9B0E7",
       "thumbprint": "81A9EFB93199F2C7441EE14050360EDAB7E8242A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-06-03T13:48:52Z"
+      "lastUpdated": "2026-06-04T15:22:35Z"
     },
     {
       "slug": "aws-vpn-client/darwin",
@@ -713,14 +725,14 @@
     {
       "slug": "claude/windows",
       "name": "Claude",
-      "version": "1.10628.0",
-      "sha256": "3a5e5b89b6fb237bf70064efbbc7379f32469dc0391523a8507f52cbf946f6ca",
+      "version": "1.10628.2",
+      "sha256": "b79f9dd744797f8377069a232825172964670ea39e659983d516242e598c833a",
       "publisher": "CN=\"Anthropic, PBC\", O=\"Anthropic, PBC\", L=San Francisco, S=California, C=US, SERIALNUMBER=4860621, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0ED59CA47F15D09A57755E4B12D31A50",
       "thumbprint": "0D7581D2C51C59DF686C3000C70BF543F9F6C6CB",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-06-03T13:49:07Z"
+      "lastUpdated": "2026-06-04T15:22:48Z"
     },
     {
       "slug": "cleanmymac/darwin",
@@ -1031,6 +1043,30 @@
       "version": "26.4.24484530",
       "sha256": "88bd28de13364c2338aaad6e3194ba03c7cb484cd38434cdb9c6a85b6caca22d",
       "lastUpdated": "2026-04-21T16:31:33Z"
+    },
+    {
+      "slug": "dell-command-update/windows",
+      "name": "Dell Command Update",
+      "version": "5.7.0",
+      "sha256": "b6d0d06edf25a7d9092208b2686502e031deda5ccb2d283ba8a434b27891f3cf",
+      "publisher": "CN=Dell Technologies Inc., OU=DUP Client Creation Service, O=Dell Technologies Inc., L=Round Rock, S=Texas, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "04B7FFD9F579DA59855363DA27A37064",
+      "thumbprint": "22D29E118E0FEB341B46147AB8A6D5EA6F5C6ADC",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-04T15:22:52Z"
+    },
+    {
+      "slug": "dell-display-manager/windows",
+      "name": "Dell Display Manager",
+      "version": "2.3.1.16",
+      "sha256": "768291b914d469dc5025d75bc4b626aadfa74b8d0d522f3931640b460b9a57e9",
+      "publisher": "CN=Dell Technologies Inc., SERIALNUMBER=5280394, OID.2.5.4.15=Private Organization, O=Dell Technologies Inc., OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, L=Round Rock, S=Texas, C=US",
+      "issuer": "CN=Entrust Extended Validation Code Signing CA - EVCS2, O=\"Entrust, Inc.\", C=US",
+      "serialNumber": "5E9A44C1D54C8C01726685210BE0C6A2",
+      "thumbprint": "36D508D9EA0BA920F12FC34D8B422182CC15EE49",
+      "timestamp": "CN=Entrust Timestamp Authority - TSA2, O=\"Entrust, Inc.\", L=Ottawa, S=Ontario, C=CA",
+      "lastUpdated": "2026-06-04T15:23:01Z"
     },
     {
       "slug": "dialpad/darwin",
@@ -1454,14 +1490,14 @@
     {
       "slug": "google-drive/windows",
       "name": "Google Drive",
-      "version": "125.0.0.0",
-      "sha256": "b8fffc8035f4a6abf8d7650da0cf9f73ed474c161f3b577464d8dd87a86482a6",
+      "version": "126.0.5.0",
+      "sha256": "a3c045ab377bd70da0d9eed15614d50635467d2b30e3333fb32a5919d9300ae2",
       "publisher": "CN=Google LLC, O=Google LLC, L=Mountain View, S=California, C=US, SERIALNUMBER=3582691, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0B50CF246B263EFD85A729315158F3FF",
       "thumbprint": "607A3EDAA64933E94422FC8F0C80388E0590986C",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-05-13T19:48:46Z"
+      "lastUpdated": "2026-06-04T15:23:08Z"
     },
     {
       "slug": "google-gemini/darwin",
@@ -1752,6 +1788,18 @@
       "lastUpdated": "2026-05-29T03:23:59Z"
     },
     {
+      "slug": "lenovo-dock-manager/windows",
+      "name": "Lenovo Dock Manager",
+      "version": "1.6.5.2",
+      "sha256": "1e59428c339137f1c6d3651744df0054f3770d9ec05514a2aad3ed157defb042",
+      "publisher": "CN=Lenovo, OU=G06, O=Lenovo, L=Morrisville, S=North Carolina, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "064BD9511A3965E1B7896FA2FDC02767",
+      "thumbprint": "E1ECF94BA4C9AD6630AB65244C79674A8475DBF3",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-04T15:23:10Z"
+    },
+    {
       "slug": "lens/darwin",
       "name": "Lens",
       "version": "2026.5.250609-latest",
@@ -1936,6 +1984,18 @@
       "lastUpdated": "2026-06-03T03:31:30Z"
     },
     {
+      "slug": "microsoft-remote-help/windows",
+      "name": "Microsoft Remote Help",
+      "version": "5.1.1998.0",
+      "sha256": "c05687063f22079ac09b7b6856e09e8f8e56221e4c1ae62a744e9d2e58dd54f5",
+      "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "issuer": "CN=Microsoft Code Signing PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "serialNumber": "33000003FD364439730DDC02280000000003FD",
+      "thumbprint": "4927AC5EF60900C3CD038A4FB9B5764F26A3E067",
+      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:9600-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-06-04T15:23:12Z"
+    },
+    {
       "slug": "microsoft-teams/darwin",
       "name": "Microsoft Teams",
       "version": "26120.3106.4725.800",
@@ -2017,6 +2077,18 @@
       "thumbprint": "2B1BD188256EB612578949A943DE0DDC52D1DF79",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-05-28T17:29:10Z"
+    },
+    {
+      "slug": "nessus-agent/windows",
+      "name": "Nessus Agent",
+      "version": "11.2.0.20301",
+      "sha256": "b99b979659513403ab7a69a493a7fffb183c1626084d513a2f66c8570237d784",
+      "publisher": "CN=\"TENABLE, INC.\", O=\"TENABLE, INC.\", L=Columbia, S=Maryland, C=US, SERIALNUMBER=3569085, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA256 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0E018383E2BBB9BCBBDF14BC94D51937",
+      "thumbprint": "93968F4AE482CF391F10E639CEE8A0B784E58DFD",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-04T15:23:17Z"
     },
     {
       "slug": "nextcloud/darwin",
