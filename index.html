@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: June 4, 2026 at 2:45 PM CDT</p>
+            Last updated: June 4, 2026 at 2:49 PM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: June 4, 2026 at 2:45 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: June 4, 2026 at 2:49 PM CDT</p>
             </div>
         </div>
     </div>
@@ -7816,7 +7816,14 @@
                 "platform": "darwin",
                 "description": "REAPER is a digital audio production application.",
                 "version": "7.73",
-                "installerUrl": "https://dlcf.reaper.fm/7.x/reaper773_universal.dmg"
+                "installerUrl": "https://dlcf.reaper.fm/7.x/reaper773_universal.dmg",
+                "securityInfo": {
+                  "sha256": "c69bebb684f6e7b215e267ab79e365b09714c5210f5f5852a989c3c1771d46a8",
+                  "cdhash": "415a1f9d99ef12b09b62f9546cfab17681c8370d",
+                  "signingId": "Y3T58622SG:com.cockos.reaper",
+                  "teamId": "Y3T58622SG",
+                  "lastUpdated": "2026-06-04T19:46:47Z"
+                }
               },
               {
                 "name": "Rectangle",
@@ -10018,7 +10025,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `June 4, 2026 at 2:45 PM CDT`;
+                let timestampText = 'Last updated: ' + `June 4, 2026 at 2:49 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
