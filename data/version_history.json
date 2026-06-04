@@ -2,78 +2,6 @@
   "changes": [
     {
       "date": "2026-04-15T14:38:46Z",
-      "appName": "Postman",
-      "slug": "postman/darwin",
-      "platform": "darwin",
-      "oldVersion": "12.6.1",
-      "newVersion": "12.6.3",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.6.3/osx_arm64"
-    },
-    {
-      "date": "2026-04-15T14:38:46Z",
-      "appName": "Cursor",
-      "slug": "cursor/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.1.10",
-      "newVersion": "3.1.14",
-      "installerUrl": "https://downloads.cursor.com/production/d8673fb56ba50fda33ad78382000b519bb8acb7e/darwin/arm64/Cursor-darwin-arm64.zip"
-    },
-    {
-      "date": "2026-04-15T14:38:46Z",
-      "appName": "Sketch",
-      "slug": "sketch/darwin",
-      "platform": "darwin",
-      "oldVersion": "2026.1",
-      "newVersion": "2026.1.1",
-      "installerUrl": "https://download.sketch.com/sketch-2026.1.1-228340.zip"
-    },
-    {
-      "date": "2026-04-15T14:38:46Z",
-      "appName": "Microsoft Visual Studio Code",
-      "slug": "visual-studio-code/windows",
-      "platform": "windows",
-      "oldVersion": "1.115.0",
-      "newVersion": "1.116.0",
-      "installerUrl": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/560a9dba96f961efea7b1612916f89e5d5d4d679/VSCodeSetup-x64-1.116.0.exe"
-    },
-    {
-      "date": "2026-04-15T14:38:46Z",
-      "appName": "WhatsApp",
-      "slug": "whatsapp/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.15.16",
-      "newVersion": "26.15.18",
-      "installerUrl": "https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release\u0026src=whatsapp_downloads_page"
-    },
-    {
-      "date": "2026-04-15T14:38:46Z",
-      "appName": "Zeplin",
-      "slug": "zeplin/darwin",
-      "platform": "darwin",
-      "oldVersion": "10.31.0",
-      "newVersion": "10.32.0",
-      "installerUrl": "https://pkg.zeplin.io/macos/latest/zeplin-darwin-universal.zip"
-    },
-    {
-      "date": "2026-04-15T14:38:46Z",
-      "appName": "GitHub Desktop",
-      "slug": "github/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.5.7",
-      "newVersion": "3.5.8",
-      "installerUrl": "https://desktop.githubusercontent.com/releases/3.5.8-b1d863ab/GitHubDesktop-arm64.zip"
-    },
-    {
-      "date": "2026-04-15T14:38:46Z",
-      "appName": "Claude",
-      "slug": "claude/windows",
-      "platform": "windows",
-      "oldVersion": "1.1617.0",
-      "newVersion": "1.2581.0",
-      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.2581.0/Claude-f103981571883c6ef0522635cf396089a3ae0e0f.msix"
-    },
-    {
-      "date": "2026-04-15T14:38:46Z",
       "appName": "GitHub Desktop",
       "slug": "github-desktop/windows",
       "platform": "windows",
@@ -8999,6 +8927,78 @@
       "oldVersion": "2026.1.2",
       "newVersion": "2026.1.3",
       "installerUrl": "https://download.jetbrains.com/idea/ideaIU-2026.1.3-aarch64.dmg"
+    },
+    {
+      "date": "2026-06-04T18:54:26Z",
+      "appName": "Loom",
+      "slug": "loom/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.351.2",
+      "newVersion": "0.352.4",
+      "installerUrl": "https://packages.loom.com/desktop-packages/Loom-0.352.4-arm64.dmg"
+    },
+    {
+      "date": "2026-06-04T18:54:26Z",
+      "appName": "Icon Composer",
+      "slug": "icon-composer/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "1.2",
+      "installerUrl": "https://devimages-cdn.apple.com/design/resources/download/Icon-Composer-1.2.dmg"
+    },
+    {
+      "date": "2026-06-04T18:54:26Z",
+      "appName": "WebStorm",
+      "slug": "webstorm/darwin",
+      "platform": "darwin",
+      "oldVersion": "2026.1.2",
+      "newVersion": "2026.1.3",
+      "installerUrl": "https://download.jetbrains.com/webstorm/WebStorm-2026.1.3-aarch64.dmg"
+    },
+    {
+      "date": "2026-06-04T18:54:26Z",
+      "appName": "OrbStack",
+      "slug": "orbstack/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.1.3",
+      "newVersion": "2.2.0",
+      "installerUrl": "https://cdn-updates.orbstack.dev/arm64/OrbStack_v2.2.0_20607_arm64.dmg"
+    },
+    {
+      "date": "2026-06-04T18:54:26Z",
+      "appName": "Figma",
+      "slug": "figma/darwin",
+      "platform": "darwin",
+      "oldVersion": "126.4.11",
+      "newVersion": "126.4.12",
+      "installerUrl": "https://desktop.figma.com/mac-arm/Figma-126.4.12.zip"
+    },
+    {
+      "date": "2026-06-04T18:54:26Z",
+      "appName": "Brave",
+      "slug": "brave-browser/darwin",
+      "platform": "darwin",
+      "oldVersion": "148.1.90.128",
+      "newVersion": "149.1.91.168",
+      "installerUrl": "https://updates-cdn.bravesoftware.com/sparkle/Brave-Browser/stable-arm64/191.168/Brave-Browser-arm64.dmg"
+    },
+    {
+      "date": "2026-06-04T18:54:26Z",
+      "appName": "Granola",
+      "slug": "granola/darwin",
+      "platform": "darwin",
+      "oldVersion": "7.290.0",
+      "newVersion": "7.303.0",
+      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.303.0/Granola-7.303.0-mac-universal.dmg"
+    },
+    {
+      "date": "2026-06-04T18:54:26Z",
+      "appName": "RubyMine",
+      "slug": "rubymine/darwin",
+      "platform": "darwin",
+      "oldVersion": "2026.1.2",
+      "newVersion": "2026.1.3",
+      "installerUrl": "https://download.jetbrains.com/ruby/RubyMine-2026.1.3-aarch64.dmg"
     }
   ]
 }
