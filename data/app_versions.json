@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-04T13:14:10Z",
+  "lastUpdated": "2026-06-04T15:08:28Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -156,6 +156,20 @@
       "installerUrl": "https://corretto.aws/downloads/resources/25.0.3.9.1/amazon-corretto-25.0.3.9.1-windows-x64.msi"
     },
     {
+      "slug": "amazon-dcv-client/windows",
+      "name": "Amazon DCV Client",
+      "platform": "windows",
+      "version": "25.0.9800.0",
+      "installerUrl": "https://d1uj6qtbmh3dt5.cloudfront.net/2025.0/Clients/nice-dcv-client-Release-2025.0-9800.msi"
+    },
+    {
+      "slug": "amazon-dcv-server/windows",
+      "name": "Amazon DCV Server",
+      "platform": "windows",
+      "version": "25.0.20103.0",
+      "installerUrl": "https://d1uj6qtbmh3dt5.cloudfront.net/2025.0/Servers/nice-dcv-server-x64-Release-2025.0-20103.msi"
+    },
+    {
       "slug": "amazon-workspaces/darwin",
       "name": "Amazon WorkSpaces",
       "platform": "darwin",
@@ -285,8 +299,8 @@
       "slug": "aws-cli/windows",
       "name": "AWS Command Line Interface v2",
       "platform": "windows",
-      "version": "2.34.60",
-      "installerUrl": "https://awscli.amazonaws.com/AWSCLIV2-2.34.60.msi"
+      "version": "2.34.61",
+      "installerUrl": "https://awscli.amazonaws.com/AWSCLIV2-2.34.61.msi"
     },
     {
       "slug": "aws-vpn-client/darwin",
@@ -551,22 +565,22 @@
       "slug": "claude/darwin",
       "name": "Claude",
       "platform": "darwin",
-      "version": "1.10628.0",
-      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.10628.0/Claude-b4f860bb5e61a4289cf2a8bca78f006ebde1bb3f.zip"
+      "version": "1.10628.2",
+      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.10628.2/Claude-deee0a79e9070caed69480a2c8d2e09f895512c4.zip"
     },
     {
       "slug": "claude/windows",
       "name": "Claude",
       "platform": "windows",
-      "version": "1.10628.0",
-      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.10628.0/Claude-b4f860bb5e61a4289cf2a8bca78f006ebde1bb3f.msix"
+      "version": "1.10628.2",
+      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.10628.2/Claude-deee0a79e9070caed69480a2c8d2e09f895512c4.msix"
     },
     {
       "slug": "cleanmymac/darwin",
       "name": "CleanMyMac",
       "platform": "darwin",
-      "version": "5.3.1",
-      "installerUrl": "https://dl.devmate.com/com.macpaw.CleanMyMac5/50301.0.2601271414/1769524551/CleanMyMac5-50301.0.2601271414.zip"
+      "version": "5.5.4",
+      "installerUrl": "https://updates.cleanmymac.com/com.macpaw.cleanmymac5/releases/CleanMyMac5_50504.0.2605191427.zip"
     },
     {
       "slug": "cleanshot/darwin",
@@ -805,6 +819,20 @@
       "platform": "darwin",
       "version": "26.4.24484530",
       "installerUrl": "https://www.deepl.com/macos/download/26.4/24484530/DeepL.dmg"
+    },
+    {
+      "slug": "dell-command-update/windows",
+      "name": "Dell Command Update",
+      "platform": "windows",
+      "version": "5.7.0",
+      "installerUrl": "https://dl.dell.com/FOLDER14424243M/1/Dell-Command-Update-Application_RXT5N_WIN64_5.7.0_A00.EXE"
+    },
+    {
+      "slug": "dell-display-manager/windows",
+      "name": "Dell Display Manager",
+      "platform": "windows",
+      "version": "2.3.1.16",
+      "installerUrl": "https://dl.dell.com/FOLDER11807726M/1/ddmsetup.exe"
     },
     {
       "slug": "dialpad/darwin",
@@ -1139,8 +1167,8 @@
       "slug": "google-drive/windows",
       "name": "Google Drive",
       "platform": "windows",
-      "version": "125.0.0.0",
-      "installerUrl": "https://dl.google.com/release2/drive-file-stream/jdnygtxjhspl3nvfi5zi6oumli_125.0.0.0/setup.exe"
+      "version": "126.0.5.0",
+      "installerUrl": "https://dl.google.com/release2/drive-file-stream/bojq6y2g3cpbbgm6smuw7zmwby_126.0.5.0/setup.exe"
     },
     {
       "slug": "google-gemini/darwin",
@@ -1381,6 +1409,13 @@
       "installerUrl": "https://download.cloud.lastpass.com/windows_installer/LastPassInstaller.msi"
     },
     {
+      "slug": "lenovo-dock-manager/windows",
+      "name": "Lenovo Dock Manager",
+      "platform": "windows",
+      "version": "1.6.5.2",
+      "installerUrl": "https://download.lenovo.com/consumer/options/dockManagersetup_1.6.5.2.exe"
+    },
+    {
       "slug": "lens/darwin",
       "name": "Lens",
       "platform": "darwin",
@@ -1535,6 +1570,13 @@
       "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.109.26053122_Installer.pkg"
     },
     {
+      "slug": "microsoft-remote-help/windows",
+      "name": "Microsoft Remote Help",
+      "platform": "windows",
+      "version": "5.1.1998.0",
+      "installerUrl": "https://catalog.s.download.windowsupdate.com/c/msdownload/update/software/updt/2025/03/remotehelpinstaller_bd142b4c833c024a512ed124a1f9058461e18cab.exe"
+    },
+    {
       "slug": "microsoft-teams/darwin",
       "name": "Microsoft Teams",
       "platform": "darwin",
@@ -1591,6 +1633,13 @@
       "installerUrl": "https://cdn.mysql.com/Downloads/MySQLGUITools/mysql-workbench-community-8.0.47-winx64.msi"
     },
     {
+      "slug": "nessus-agent/windows",
+      "name": "Nessus Agent",
+      "platform": "windows",
+      "version": "11.2.0.20301",
+      "installerUrl": "https://www.tenable.com/downloads/api/v2/pages/nessus-agents/files/NessusAgent-11.2.0-x64.msi"
+    },
+    {
       "slug": "nextcloud/darwin",
       "name": "Nextcloud",
       "platform": "darwin",
@@ -1629,8 +1678,8 @@
       "slug": "notepad++/windows",
       "name": "Notepad++",
       "platform": "windows",
-      "version": "8.9.6.2",
-      "installerUrl": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9.6.2/npp.8.9.6.2.Installer.x64.exe"
+      "version": "8.9.6.4",
+      "installerUrl": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9.6.4/npp.8.9.6.4.Installer.x64.exe"
     },
     {
       "slug": "notion-calendar/darwin",
@@ -1713,15 +1762,15 @@
       "slug": "ollama/darwin",
       "name": "Ollama",
       "platform": "darwin",
-      "version": "0.30.2",
-      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.30.2/Ollama-darwin.zip"
+      "version": "0.30.4",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.30.4/Ollama-darwin.zip"
     },
     {
       "slug": "ollama/windows",
       "name": "Ollama",
       "platform": "windows",
-      "version": "0.24.0",
-      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.24.0/OllamaSetup.exe"
+      "version": "0.30.4",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.30.4/OllamaSetup.exe"
     },
     {
       "slug": "omnigraffle/darwin",
@@ -1829,6 +1878,13 @@
       "installerUrl": "https://download.jetbrains.com/webide/PhpStorm-2026.1.2.exe"
     },
     {
+      "slug": "plantronics-hub/windows",
+      "name": "Plantronics Hub",
+      "platform": "windows",
+      "version": "3.25.54307.37251",
+      "installerUrl": "https://downloads.poly.com/headsets/PlantronicsHubInstaller.exe"
+    },
+    {
       "slug": "plugdata/darwin",
       "name": "PlugData",
       "platform": "darwin",
@@ -1846,15 +1902,22 @@
       "slug": "postman/darwin",
       "name": "Postman",
       "platform": "darwin",
-      "version": "12.13.4",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.13.4/osx_arm64"
+      "version": "12.13.5",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.13.5/osx_arm64"
     },
     {
       "slug": "postman/windows",
       "name": "Postman",
       "platform": "windows",
-      "version": "12.13.4",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.13.4/windows_64"
+      "version": "12.13.5",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.13.5/windows_64"
+    },
+    {
+      "slug": "power-automate/windows",
+      "name": "Power Automate",
+      "platform": "windows",
+      "version": "2.68.00237.26118",
+      "installerUrl": "https://download.microsoft.com/download/838dff97-79b5-455a-8126-ad8e395554d8/Setup.Microsoft.PowerAutomate.exe"
     },
     {
       "slug": "power-bi/windows",
@@ -1862,6 +1925,13 @@
       "platform": "windows",
       "version": "2.154.1260.0",
       "installerUrl": "https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2026-05_x64.exe"
+    },
+    {
+      "slug": "powertoys/windows",
+      "name": "PowerToys",
+      "platform": "windows",
+      "version": "0.99.1",
+      "installerUrl": "https://github.com/microsoft/PowerToys/releases/download/v0.99.1/PowerToysSetup-0.99.1-x64.exe"
     },
     {
       "slug": "prisma-browser/windows",
@@ -2025,6 +2095,13 @@
       "installerUrl": "https://royaltsx-v6.royalapps.com/updates/royaltsx_6.4.3.1000.dmg"
     },
     {
+      "slug": "rstudio/windows",
+      "name": "RStudio",
+      "platform": "windows",
+      "version": "2026.05.0+218",
+      "installerUrl": "https://download1.rstudio.org/electron/windows/RStudio-2026.05.0-218.exe"
+    },
+    {
       "slug": "rubymine/darwin",
       "name": "RubyMine",
       "platform": "darwin",
@@ -2098,15 +2175,15 @@
       "slug": "signal/darwin",
       "name": "Signal",
       "platform": "darwin",
-      "version": "8.12.0",
-      "installerUrl": "https://updates.signal.org/desktop/signal-desktop-mac-arm64-8.12.0.zip"
+      "version": "8.13.0",
+      "installerUrl": "https://updates.signal.org/desktop/signal-desktop-mac-arm64-8.13.0.zip"
     },
     {
       "slug": "signal/windows",
       "name": "Signal",
       "platform": "windows",
-      "version": "8.12.0",
-      "installerUrl": "https://updates.signal.org/desktop/signal-desktop-win-8.12.0.exe"
+      "version": "8.13.0",
+      "installerUrl": "https://updates.signal.org/desktop/signal-desktop-win-8.13.0.exe"
     },
     {
       "slug": "sketch/darwin",
@@ -2140,8 +2217,8 @@
       "slug": "snagit/windows",
       "name": "Snagit",
       "platform": "windows",
-      "version": "26.2.1",
-      "installerUrl": "https://download.techsmith.com/snagit/releases/2621/snagit.msi"
+      "version": "26.2.2",
+      "installerUrl": "https://download.techsmith.com/snagit/releases/2622/snagit.msi"
     },
     {
       "slug": "sourcetree/darwin",
@@ -2658,22 +2735,22 @@
       "slug": "zed/darwin",
       "name": "Zed",
       "platform": "darwin",
-      "version": "1.4.4",
-      "installerUrl": "https://zed.dev/api/releases/stable/1.4.4/Zed-aarch64.dmg"
+      "version": "1.5.3",
+      "installerUrl": "https://zed.dev/api/releases/stable/1.5.3/Zed-aarch64.dmg"
     },
     {
       "slug": "zed/windows",
       "name": "Zed",
       "platform": "windows",
-      "version": "1.4.4",
-      "installerUrl": "https://github.com/zed-industries/zed/releases/download/v1.4.4/Zed-x86_64.exe"
+      "version": "1.5.3",
+      "installerUrl": "https://github.com/zed-industries/zed/releases/download/v1.5.3/Zed-x86_64.exe"
     },
     {
       "slug": "zen/darwin",
       "name": "Zen Browser",
       "platform": "darwin",
-      "version": "1.20.1b",
-      "installerUrl": "https://github.com/zen-browser/desktop/releases/download/1.20.1b/zen.macos-universal.dmg"
+      "version": "1.20.2b",
+      "installerUrl": "https://github.com/zen-browser/desktop/releases/download/1.20.2b/zen.macos-universal.dmg"
     },
     {
       "slug": "zeplin/darwin",
