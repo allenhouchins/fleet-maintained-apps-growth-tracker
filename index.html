@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: June 5, 2026 at 5:30 PM CDT</p>
+            Last updated: June 5, 2026 at 5:36 PM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: June 5, 2026 at 5:30 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: June 5, 2026 at 5:36 PM CDT</p>
             </div>
         </div>
     </div>
@@ -7624,6 +7624,14 @@
                 }
               },
               {
+                "name": "PowerShell",
+                "slug": "powershell/windows",
+                "platform": "windows",
+                "description": "PowerShell is a cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework.",
+                "version": "7.6.2.0",
+                "installerUrl": "https://github.com/PowerShell/PowerShell/releases/download/v7.6.2/PowerShell-7.6.2-win-x64.msi"
+              },
+              {
                 "name": "PowerToys",
                 "slug": "powertoys/windows",
                 "platform": "windows",
@@ -10184,7 +10192,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `June 5, 2026 at 5:30 PM CDT`;
+                let timestampText = 'Last updated: ' + `June 5, 2026 at 5:36 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
