@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: June 5, 2026 at 11:53 AM CDT</p>
+            Last updated: June 5, 2026 at 11:58 AM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: June 5, 2026 at 11:53 AM CDT</p>
+                <p id="modalLastUpdated">Last updated: June 5, 2026 at 11:58 AM CDT</p>
             </div>
         </div>
     </div>
@@ -6836,7 +6836,14 @@
                 "platform": "darwin",
                 "description": "MindManager is a mind mapping and visual work-management tool for organizing ideas, planning projects, and presenting information in diagrams.",
                 "version": "25.2.105",
-                "installerUrl": "https://download.mindjet.com/MindManager_Mac_25.2.105.dmg"
+                "installerUrl": "https://download.mindjet.com/MindManager_Mac_25.2.105.dmg",
+                "securityInfo": {
+                  "sha256": "86fed620ba750d630ba8bbef4ff8de8dd85000a2b505226cdb36fd59bbfad03a",
+                  "cdhash": "1f7ef196977e823dfc46dce5f52edbf20b767c97",
+                  "signingId": "ZF6ZZ779N5:com.mindjet.mindmanager.25",
+                  "teamId": "ZF6ZZ779N5",
+                  "lastUpdated": "2026-06-05T16:55:40Z"
+                }
               },
               {
                 "name": "Miro",
@@ -10126,7 +10133,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `June 5, 2026 at 11:53 AM CDT`;
+                let timestampText = 'Last updated: ' + `June 5, 2026 at 11:58 AM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
