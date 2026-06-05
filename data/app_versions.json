@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-05T03:16:54Z",
+  "lastUpdated": "2026-06-05T05:37:23Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -149,11 +149,32 @@
       "installerUrl": "https://clients.chime.aws/mac-nme/AmazonChime-5.23.22533.dmg"
     },
     {
+      "slug": "amazon-corretto-21/windows",
+      "name": "Amazon Corretto 21",
+      "platform": "windows",
+      "version": "21.0.11.10",
+      "installerUrl": "https://corretto.aws/downloads/resources/21.0.11.10.1/amazon-corretto-21.0.11.10.1-windows-x64.msi"
+    },
+    {
+      "slug": "amazon-corretto-24/windows",
+      "name": "Amazon Corretto 24",
+      "platform": "windows",
+      "version": "24.0.2.12",
+      "installerUrl": "https://corretto.aws/downloads/resources/24.0.2.12.1/amazon-corretto-24.0.2.12.1-windows-x64.msi"
+    },
+    {
       "slug": "amazon-corretto-25/windows",
       "name": "Amazon Corretto 25",
       "platform": "windows",
       "version": "25.0.3.9",
       "installerUrl": "https://corretto.aws/downloads/resources/25.0.3.9.1/amazon-corretto-25.0.3.9.1-windows-x64.msi"
+    },
+    {
+      "slug": "amazon-corretto-26/windows",
+      "name": "Amazon Corretto 26",
+      "platform": "windows",
+      "version": "26.0.1.8",
+      "installerUrl": "https://corretto.aws/downloads/resources/26.0.1.8.1/amazon-corretto-26.0.1.8.1-windows-x64.msi"
     },
     {
       "slug": "amazon-dcv-client/windows",
@@ -299,8 +320,8 @@
       "slug": "aws-cli/windows",
       "name": "AWS Command Line Interface v2",
       "platform": "windows",
-      "version": "2.34.61",
-      "installerUrl": "https://awscli.amazonaws.com/AWSCLIV2-2.34.61.msi"
+      "version": "2.34.62",
+      "installerUrl": "https://awscli.amazonaws.com/AWSCLIV2-2.34.62.msi"
     },
     {
       "slug": "aws-vpn-client/darwin",
@@ -439,8 +460,8 @@
       "slug": "brave-browser/windows",
       "name": "Brave",
       "platform": "windows",
-      "version": "148.1.90.128",
-      "installerUrl": "https://github.com/brave/brave-browser/releases/download/v1.90.128/BraveBrowserStandaloneSilentSetup.exe"
+      "version": "149.1.91.168",
+      "installerUrl": "https://github.com/brave/brave-browser/releases/download/v1.91.168/BraveBrowserStandaloneSilentSetup.exe"
     },
     {
       "slug": "bruno/darwin",
@@ -565,15 +586,15 @@
       "slug": "claude/darwin",
       "name": "Claude",
       "platform": "darwin",
-      "version": "1.10628.2",
-      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.10628.2/Claude-deee0a79e9070caed69480a2c8d2e09f895512c4.zip"
+      "version": "1.11187.1",
+      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.11187.1/Claude-370d3bd8e2159025901b720ad479c9ae36f180fa.zip"
     },
     {
       "slug": "claude/windows",
       "name": "Claude",
       "platform": "windows",
-      "version": "1.10628.2",
-      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.10628.2/Claude-deee0a79e9070caed69480a2c8d2e09f895512c4.msix"
+      "version": "1.11187.1",
+      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.11187.1/Claude-370d3bd8e2159025901b720ad479c9ae36f180fa.msix"
     },
     {
       "slug": "cleanmymac/darwin",
@@ -1216,8 +1237,8 @@
       "slug": "granola/windows",
       "name": "Granola",
       "platform": "windows",
-      "version": "7.290.0",
-      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.290.0/Granola-7.290.0-win-x64.exe"
+      "version": "7.303.0",
+      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.303.0/Granola-7.303.0-win-x64.exe"
     },
     {
       "slug": "hyper/darwin",
@@ -1489,8 +1510,8 @@
       "slug": "loom/windows",
       "name": "Loom",
       "platform": "windows",
-      "version": "0.351.2",
-      "installerUrl": "https://cdn.loom.com/desktop-packages/Loom%20Setup%200.351.2.exe"
+      "version": "0.352.4",
+      "installerUrl": "https://cdn.loom.com/desktop-packages/Loom%20Setup%200.352.4.exe"
     },
     {
       "slug": "lulu/darwin",
@@ -1535,11 +1556,25 @@
       "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_AutoUpdate_4.83.26040910_Updater.pkg"
     },
     {
+      "slug": "microsoft-dotnet-runtime-10/windows",
+      "name": "Microsoft .NET Runtime 10",
+      "platform": "windows",
+      "version": "10.0.8",
+      "installerUrl": "https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.8/dotnet-runtime-10.0.8-win-x64.exe"
+    },
+    {
+      "slug": "microsoft-dotnet-runtime-8/windows",
+      "name": "Microsoft .NET Runtime 8",
+      "platform": "windows",
+      "version": "8.0.27",
+      "installerUrl": "https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.27/dotnet-runtime-8.0.27-win-x64.exe"
+    },
+    {
       "slug": "microsoft-edge/darwin",
       "name": "Microsoft Edge",
       "platform": "darwin",
-      "version": "148.0.3967.96",
-      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/207765a9-3991-4576-80dd-92c5dd9daac0/MicrosoftEdge-148.0.3967.96.dmg"
+      "version": "149.0.4022.52",
+      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/175d61fb-7a6d-4b2c-87c3-2b8cfcf3247e/MicrosoftEdge-149.0.4022.52.dmg"
     },
     {
       "slug": "microsoft-edge/windows",
@@ -1678,8 +1713,8 @@
       "slug": "nordvpn/windows",
       "name": "NordVPN",
       "platform": "windows",
-      "version": "8.3.6.0",
-      "installerUrl": "https://downloads.nordcdn.com/apps/windows/NordVPN/8.3.6.0/NordVPNInstall.exe"
+      "version": "8.4.3.0",
+      "installerUrl": "https://downloads.nordcdn.com/apps/windows/NordVPN/8.4.3.0/NordVPNInstall.exe"
     },
     {
       "slug": "notepad++/windows",
@@ -1769,8 +1804,8 @@
       "slug": "ollama/darwin",
       "name": "Ollama",
       "platform": "darwin",
-      "version": "0.30.4",
-      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.30.4/Ollama-darwin.zip"
+      "version": "0.30.5",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.30.5/Ollama-darwin.zip"
     },
     {
       "slug": "ollama/windows",
@@ -1832,8 +1867,8 @@
       "slug": "orbstack/darwin",
       "name": "OrbStack",
       "platform": "darwin",
-      "version": "2.2.0",
-      "installerUrl": "https://cdn-updates.orbstack.dev/arm64/OrbStack_v2.2.0_20607_arm64.dmg"
+      "version": "2.2.1",
+      "installerUrl": "https://cdn-updates.orbstack.dev/arm64/OrbStack_v2.2.1_20628_arm64.dmg"
     },
     {
       "slug": "p4v/darwin",
@@ -1874,8 +1909,8 @@
       "slug": "phpstorm/darwin",
       "name": "PhpStorm",
       "platform": "darwin",
-      "version": "2026.1.2",
-      "installerUrl": "https://download.jetbrains.com/webide/PhpStorm-2026.1.2-aarch64.dmg"
+      "version": "2026.1.3",
+      "installerUrl": "https://download.jetbrains.com/webide/PhpStorm-2026.1.3-aarch64.dmg"
     },
     {
       "slug": "phpstorm/windows",
@@ -2126,8 +2161,8 @@
       "slug": "rubymine/windows",
       "name": "RubyMine",
       "platform": "windows",
-      "version": "2026.1.2",
-      "installerUrl": "https://download.jetbrains.com/ruby/RubyMine-2026.1.2.exe"
+      "version": "2026.1.3",
+      "installerUrl": "https://download.jetbrains.com/ruby/RubyMine-2026.1.3.exe"
     },
     {
       "slug": "rustdesk/darwin",
@@ -2413,8 +2448,8 @@
       "slug": "teleport-suite/darwin",
       "name": "Teleport Suite",
       "platform": "darwin",
-      "version": "18.8.2",
-      "installerUrl": "https://cdn.teleport.dev/teleport-18.8.2.pkg"
+      "version": "18.8.3",
+      "installerUrl": "https://cdn.teleport.dev/teleport-18.8.3.pkg"
     },
     {
       "slug": "textexpander/darwin",
@@ -2658,8 +2693,8 @@
       "slug": "webstorm/windows",
       "name": "WebStorm",
       "platform": "windows",
-      "version": "2026.1.2",
-      "installerUrl": "https://download.jetbrains.com/webstorm/WebStorm-2026.1.2.exe"
+      "version": "2026.1.3",
+      "installerUrl": "https://download.jetbrains.com/webstorm/WebStorm-2026.1.3.exe"
     },
     {
       "slug": "whatsapp/darwin",
