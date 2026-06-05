@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-05T22:30:27Z",
+  "lastUpdated": "2026-06-05T23:31:15Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1981,6 +1981,13 @@
       "platform": "windows",
       "version": "2.154.1260.0",
       "installerUrl": "https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2026-05_x64.exe"
+    },
+    {
+      "slug": "powershell/windows",
+      "name": "PowerShell",
+      "platform": "windows",
+      "version": "7.6.2.0",
+      "installerUrl": "https://github.com/PowerShell/PowerShell/releases/download/v7.6.2/PowerShell-7.6.2-win-x64.msi"
     },
     {
       "slug": "powertoys/windows",
