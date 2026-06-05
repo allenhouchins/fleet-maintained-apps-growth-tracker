@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-05T16:53:42Z",
+  "lastUpdated": "2026-06-05T17:39:56Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1694,6 +1694,13 @@
       "platform": "darwin",
       "version": "33.0.5",
       "installerUrl": "https://github.com/nextcloud-releases/desktop/releases/download/v33.0.5/Nextcloud-33.0.5.pkg"
+    },
+    {
+      "slug": "nodejs/windows",
+      "name": "Node.js",
+      "platform": "windows",
+      "version": "26.3.0",
+      "installerUrl": "https://nodejs.org/dist/v26.3.0/node-v26.3.0-x64.msi"
     },
     {
       "slug": "nordpass/darwin",
