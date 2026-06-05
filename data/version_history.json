@@ -2,24 +2,6 @@
   "changes": [
     {
       "date": "2026-04-18T13:30:51Z",
-      "appName": "Brave",
-      "slug": "brave-browser/windows",
-      "platform": "windows",
-      "oldVersion": "147.1.89.132",
-      "newVersion": "147.1.89.137",
-      "installerUrl": "https://github.com/brave/brave-browser/releases/download/v1.89.137/BraveBrowserStandaloneSilentSetup.exe"
-    },
-    {
-      "date": "2026-04-18T13:30:51Z",
-      "appName": "Microsoft Auto Update",
-      "slug": "microsoft-auto-update/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.82",
-      "newVersion": "4.83",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_AutoUpdate_4.83.26040910_Updater.pkg"
-    },
-    {
-      "date": "2026-04-18T13:30:51Z",
       "appName": "ChatGPT Desktop",
       "slug": "chatgpt/darwin",
       "platform": "darwin",
@@ -8999,6 +8981,24 @@
       "oldVersion": "126.5.5",
       "newVersion": "126.5.6",
       "installerUrl": "https://desktop.figma.com/win/build/Figma-126.5.6.exe"
+    },
+    {
+      "date": "2026-06-05T19:38:23Z",
+      "appName": "Microsoft Visual C++ 2013 Redistributable (x64)",
+      "slug": "vc-redist-2013-x64/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "12.0.40664.0",
+      "installerUrl": "https://download.visualstudio.microsoft.com/download/pr/10912041/cee5d6bca2ddbcd039da727bf4acb48a/vcredist_x64.exe"
+    },
+    {
+      "date": "2026-06-05T19:38:23Z",
+      "appName": "Microsoft Visual C++ 2015-2022 Redistributable (x64)",
+      "slug": "vc-redist-x64/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "14.51.36231.0",
+      "installerUrl": "https://download.visualstudio.microsoft.com/download/pr/c1bd4f2c-3672-468e-8480-7ed419dbb641/90E48ADE404E4576D023ABFA374F323555F233982A8805EA9AC63DCA9491A16B/VC_redist.x64.exe"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-05T18:45:09Z",
+  "lastUpdated": "2026-06-05T19:38:23Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -2576,6 +2576,20 @@
       "platform": "darwin",
       "version": "4.7.5",
       "installerUrl": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM.dmg"
+    },
+    {
+      "slug": "vc-redist-2013-x64/windows",
+      "name": "Microsoft Visual C++ 2013 Redistributable (x64)",
+      "platform": "windows",
+      "version": "12.0.40664.0",
+      "installerUrl": "https://download.visualstudio.microsoft.com/download/pr/10912041/cee5d6bca2ddbcd039da727bf4acb48a/vcredist_x64.exe"
+    },
+    {
+      "slug": "vc-redist-x64/windows",
+      "name": "Microsoft Visual C++ 2015-2022 Redistributable (x64)",
+      "platform": "windows",
+      "version": "14.51.36231.0",
+      "installerUrl": "https://download.visualstudio.microsoft.com/download/pr/c1bd4f2c-3672-468e-8480-7ed419dbb641/90E48ADE404E4576D023ABFA374F323555F233982A8805EA9AC63DCA9491A16B/VC_redist.x64.exe"
     },
     {
       "slug": "virtualbox/darwin",
