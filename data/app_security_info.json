@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-05T05:52:48Z",
+  "lastUpdated": "2026-06-05T05:54:15Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -200,6 +200,18 @@
       "lastUpdated": "2026-06-05T05:52:48Z"
     },
     {
+      "slug": "amazon-corretto-24/windows",
+      "name": "Amazon Corretto 24",
+      "version": "24.0.2.12",
+      "sha256": "be10fcf66a5e8ef644466eda07e9828e9407596002d0cd1bf6493b7603069ce2",
+      "publisher": "CN=Amazon.com Services LLC, OU=Amazon Corretto, O=Amazon.com Services LLC, L=Seattle, S=Washington, C=US, SERIALNUMBER=3482342, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0D6A346432309CA9A5BDDE51FE80E15C",
+      "thumbprint": "57D6CEAB947B007C5978949260FA019D056D0CED",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-05T05:52:58Z"
+    },
+    {
       "slug": "amazon-corretto-25/windows",
       "name": "Amazon Corretto 25",
       "version": "25.0.3.9",
@@ -210,6 +222,18 @@
       "thumbprint": "57D6CEAB947B007C5978949260FA019D056D0CED",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-05-27T03:31:21Z"
+    },
+    {
+      "slug": "amazon-corretto-26/windows",
+      "name": "Amazon Corretto 26",
+      "version": "26.0.1.8",
+      "sha256": "dece6af0e8782dcaef78726c05345b1c2923fceefed55b55e26f8a06cf592cc7",
+      "publisher": "CN=Amazon.com Services LLC, OU=Amazon Corretto, O=Amazon.com Services LLC, L=Seattle, S=Washington, C=US, SERIALNUMBER=3482342, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0D6A346432309CA9A5BDDE51FE80E15C",
+      "thumbprint": "57D6CEAB947B007C5978949260FA019D056D0CED",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-05T05:53:08Z"
     },
     {
       "slug": "amazon-dcv-client/windows",
@@ -379,14 +403,14 @@
     {
       "slug": "aws-cli/windows",
       "name": "AWS Command Line Interface v2",
-      "version": "2.34.61",
-      "sha256": "c3bd0e07bbb73d37e9e677a0eaf588365b709bbfbf858d97ff07f15a136c2f1d",
+      "version": "2.34.62",
+      "sha256": "8838e33ea871b907626ef39e5929a330338dce01d92fb3c133258a9f10c1317d",
       "publisher": "CN=\"Amazon Web Services, Inc.\", OU=AWS, O=\"Amazon Web Services, Inc.\", L=Seattle, S=Washington, C=US, SERIALNUMBER=4152954, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0590C4CF0DB014199953A68CFCE9B0E7",
       "thumbprint": "81A9EFB93199F2C7441EE14050360EDAB7E8242A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-06-04T15:22:35Z"
+      "lastUpdated": "2026-06-05T05:53:45Z"
     },
     {
       "slug": "aws-vpn-client/darwin",
@@ -564,14 +588,14 @@
     {
       "slug": "brave-browser/windows",
       "name": "Brave",
-      "version": "148.1.90.128",
-      "sha256": "0e0bde3759ed648e28b6e9fdec9ca30c0391d7733566a789381254f35348665b",
+      "version": "149.1.91.168",
+      "sha256": "7905a5351d5c52d03fbe21423c443f00c60260f573e74ec3375b364da7367cbb",
       "publisher": "CN=\"Brave Software, Inc.\", O=\"Brave Software, Inc.\", L=San Francisco, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0E982FDDF06E93E911065D037D4DD482",
       "thumbprint": "F8AC5F11DE7E26383B7A389FC19A2613835799D7",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-05-29T03:23:27Z"
+      "lastUpdated": "2026-06-05T05:53:54Z"
     },
     {
       "slug": "bruno/darwin",
@@ -737,14 +761,14 @@
     {
       "slug": "claude/windows",
       "name": "Claude",
-      "version": "1.10628.2",
-      "sha256": "b79f9dd744797f8377069a232825172964670ea39e659983d516242e598c833a",
+      "version": "1.11187.1",
+      "sha256": "fbfbe80324668dda94a3bb737301624ce0eaa70dc24c859953d5e8ecd1b62482",
       "publisher": "CN=\"Anthropic, PBC\", O=\"Anthropic, PBC\", L=San Francisco, S=California, C=US, SERIALNUMBER=4860621, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0ED59CA47F15D09A57755E4B12D31A50",
       "thumbprint": "0D7581D2C51C59DF686C3000C70BF543F9F6C6CB",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-06-04T15:22:48Z"
+      "lastUpdated": "2026-06-05T05:54:01Z"
     },
     {
       "slug": "cleanmymac/darwin",
@@ -1561,14 +1585,14 @@
     {
       "slug": "granola/windows",
       "name": "Granola",
-      "version": "7.290.0",
-      "sha256": "1ea982b793b2a255cb83cafde4f7f450dea949feb692113812a721fd48b2936e",
+      "version": "7.303.0",
+      "sha256": "5381b059899caf0a6b6f7b7d6506db4b7d7b408afe8eec05ea42535dc3628da8",
       "publisher": "CN=Granola Labs Ltd, O=Granola Labs Ltd, L=St. Albans, C=GB",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "09EC2851FE9C25200C0EBA306A0F3B4E",
       "thumbprint": "AECA9FD75FB1BA419EE81D17F667154095817355",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-06-03T03:42:50Z"
+      "lastUpdated": "2026-06-05T05:54:05Z"
     },
     {
       "slug": "hyper/darwin",
@@ -1899,14 +1923,14 @@
     {
       "slug": "loom/windows",
       "name": "Loom",
-      "version": "0.351.2",
-      "sha256": "cea75d3df8ce7f8ba7205683cbe3ccbb9287016582ac5fb38b352b80fdd879e7",
+      "version": "0.352.4",
+      "sha256": "24ad5a943ea509eeb51cb3e55f430899e032c4b67ab2f1024a0e2c871cad830c",
       "publisher": "CN=\"Loom, Inc.\", O=\"Loom, Inc.\", L=San Francisco, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "075FEF2A2AF6925B9641D6C7FFA4C705",
       "thumbprint": "0E4E993EBB874473561A37B5FFCD9E36986BE9B5",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-06-03T03:43:01Z"
+      "lastUpdated": "2026-06-05T05:54:10Z"
     },
     {
       "slug": "lulu/darwin",
@@ -1954,6 +1978,30 @@
       "version": "4.83",
       "sha256": "71eceedc61dd7e2ba58d7d9f2221fe375c62e19685891aa7361095de24b39d88",
       "lastUpdated": "2026-04-18T13:37:45Z"
+    },
+    {
+      "slug": "microsoft-dotnet-runtime-10/windows",
+      "name": "Microsoft .NET Runtime 10",
+      "version": "10.0.8",
+      "sha256": "f8f6127cfe88f861217353ae3915830488effdd1ba2fe629c127d06533e83556",
+      "publisher": "CN=.NET, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "issuer": "CN=Microsoft Code Signing PCA 2024, O=Microsoft Corporation, C=US",
+      "serialNumber": "33000001C79AA1EEDC27E2F8B70000000001C7",
+      "thumbprint": "43A50DB15AC95D0C1D187616AE187467975846D0",
+      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:3605-05E0-D947, OU=Microsoft Ireland Operations Limited, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-06-05T05:54:12Z"
+    },
+    {
+      "slug": "microsoft-dotnet-runtime-8/windows",
+      "name": "Microsoft .NET Runtime 8",
+      "version": "8.0.27",
+      "sha256": "3a3cb183d3565a3e8ac94aa6eb9df68ffc3ba2fe13bf9897fd9ca47f114ffa57",
+      "publisher": "CN=.NET, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "issuer": "CN=Microsoft Code Signing PCA 2024, O=Microsoft Corporation, C=US",
+      "serialNumber": "33000001C8243AC81E4D9388BB0000000001C8",
+      "thumbprint": "BB793DB742624269BB5F4515BBE9A3DF418F588D",
+      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:9600-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-06-05T05:54:15Z"
     },
     {
       "slug": "microsoft-edge/darwin",
