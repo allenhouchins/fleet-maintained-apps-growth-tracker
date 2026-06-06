@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: June 6, 2026 at 6:39 AM CDT</p>
+            Last updated: June 6, 2026 at 7:34 AM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: June 6, 2026 at 6:39 AM CDT</p>
+                <p id="modalLastUpdated">Last updated: June 6, 2026 at 7:34 AM CDT</p>
             </div>
         </div>
     </div>
@@ -1580,7 +1580,7 @@
             389,
             402,
             412,
-            412
+            413
           ],
           "additions": [
             20,
@@ -2042,7 +2042,7 @@
             2,
             13,
             10,
-            0
+            1
           ],
           "macCounts": [
             20,
@@ -2966,7 +2966,7 @@
             143,
             154,
             163,
-            163
+            164
           ],
           "growthDates": [
             "2025-03-04",
@@ -3038,7 +3038,8 @@
             "2026-06-01",
             "2026-06-03",
             "2026-06-04",
-            "2026-06-05"
+            "2026-06-05",
+            "2026-06-06"
           ],
           "growthCounts": [
             20,
@@ -3110,7 +3111,8 @@
             387,
             389,
             402,
-            412
+            412,
+            413
           ],
           "growthAdditions": [
             20,
@@ -3182,7 +3184,8 @@
             3,
             2,
             13,
-            10
+            10,
+            1
           ]
         };
         
@@ -4442,6 +4445,14 @@
                 }
               },
               {
+                "name": "Cinc Workstation",
+                "slug": "cinc/windows",
+                "platform": "windows",
+                "description": "Cinc Workstation is an open-source distribution of Chef Workstation that bundles the tools needed to author, test, and manage Chef Infra cookbooks and configurations.",
+                "version": "23.5.1040",
+                "installerUrl": "https://downloads.cinc.sh/files/stable/cinc-workstation/23.5.1040/windows/2012r2/cinc-workstation-23.5.1040-1-x64.msi"
+              },
+              {
                 "name": "Cisco Jabber",
                 "slug": "cisco-jabber/darwin",
                 "platform": "darwin",
@@ -5102,6 +5113,14 @@
                   "timestamp": "CN=Entrust Timestamp Authority - TSA2, O=\"Entrust, Inc.\", L=Ottawa, S=Ontario, C=CA",
                   "lastUpdated": "2026-06-04T15:23:01Z"
                 }
+              },
+              {
+                "name": "Devin Desktop",
+                "slug": "devin-desktop/darwin",
+                "platform": "darwin",
+                "description": "Devin Desktop is an agentic IDE with an AI agent command center, formerly known as Windsurf.",
+                "version": "3.0.28",
+                "installerUrl": "https://windsurf-stable.codeiumdata.com/darwin-arm64-dmg/stable/e9f7e622f49ec544e97d0e624691d71a963ac40b/Devin-darwin-arm64-3.0.28.dmg"
               },
               {
                 "name": "Dialpad",
@@ -9326,21 +9345,6 @@
               },
               {
                 "name": "Windsurf",
-                "slug": "windsurf/darwin",
-                "platform": "darwin",
-                "description": "Windsurf is an agentic IDE powered by AI Flow paradigm.",
-                "version": "2.3.15",
-                "installerUrl": "https://windsurf-stable.codeiumdata.com/darwin-arm64-dmg/stable/c46c49e94b4d3f41181204d59809d8f1b2c48d68/Windsurf-darwin-arm64-2.3.15.dmg",
-                "securityInfo": {
-                  "sha256": "4691b857cef923f209652a346cdba42dc31e50be7602bd6dc59bdef953955d96",
-                  "cdhash": "aa883605d74ac144245f6b8144a86be839f5e49d",
-                  "signingId": "83Z2LHX6XW:com.exafunction.windsurf",
-                  "teamId": "83Z2LHX6XW",
-                  "lastUpdated": "2026-05-29T04:34:42Z"
-                }
-              },
-              {
-                "name": "Windsurf",
                 "slug": "windsurf/windows",
                 "platform": "windows",
                 "description": "Windsurf is an agentic IDE powered by AI Flow paradigm.",
@@ -10206,7 +10210,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `June 6, 2026 at 6:39 AM CDT`;
+                let timestampText = 'Last updated: ' + `June 6, 2026 at 7:34 AM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {

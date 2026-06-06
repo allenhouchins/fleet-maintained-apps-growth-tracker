@@ -2,24 +2,6 @@
   "changes": [
     {
       "date": "2026-04-18T13:30:51Z",
-      "appName": "Claude",
-      "slug": "claude/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.2773.0",
-      "newVersion": "1.3109.0",
-      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.3109.0/Claude-35cbf6530e05912137624cde0f075dc7f121fa60.zip"
-    },
-    {
-      "date": "2026-04-18T13:30:51Z",
-      "appName": "Ollama",
-      "slug": "ollama/windows",
-      "platform": "windows",
-      "oldVersion": "0.20.7",
-      "newVersion": "0.21.0",
-      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.21.0/OllamaSetup.exe"
-    },
-    {
-      "date": "2026-04-18T13:30:51Z",
       "appName": "Microsoft Edge",
       "slug": "microsoft-edge/darwin",
       "platform": "darwin",
@@ -8999,6 +8981,24 @@
       "oldVersion": "0.30.4",
       "newVersion": "0.30.6",
       "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.30.6/OllamaSetup.exe"
+    },
+    {
+      "date": "2026-06-06T12:34:16Z",
+      "appName": "Cinc Workstation",
+      "slug": "cinc/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "23.5.1040",
+      "installerUrl": "https://downloads.cinc.sh/files/stable/cinc-workstation/23.5.1040/windows/2012r2/cinc-workstation-23.5.1040-1-x64.msi"
+    },
+    {
+      "date": "2026-06-06T12:34:16Z",
+      "appName": "Devin Desktop",
+      "slug": "devin-desktop/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "3.0.28",
+      "installerUrl": "https://windsurf-stable.codeiumdata.com/darwin-arm64-dmg/stable/e9f7e622f49ec544e97d0e624691d71a963ac40b/Devin-darwin-arm64-3.0.28.dmg"
     }
   ]
 }

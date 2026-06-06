@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-06T11:34:29Z",
+  "lastUpdated": "2026-06-06T12:34:16Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -562,6 +562,13 @@
       "installerUrl": "https://dl.google.com/release2/misc/hxfuhhe6oo55r6utjit63fk764_149.0.7827.18/remoting-host.msi"
     },
     {
+      "slug": "cinc/windows",
+      "name": "Cinc Workstation",
+      "platform": "windows",
+      "version": "23.5.1040",
+      "installerUrl": "https://downloads.cinc.sh/files/stable/cinc-workstation/23.5.1040/windows/2012r2/cinc-workstation-23.5.1040-1-x64.msi"
+    },
+    {
       "slug": "cisco-jabber/darwin",
       "name": "Cisco Jabber",
       "platform": "darwin",
@@ -854,6 +861,13 @@
       "platform": "windows",
       "version": "2.3.1.16",
       "installerUrl": "https://dl.dell.com/FOLDER11807726M/1/ddmsetup.exe"
+    },
+    {
+      "slug": "devin-desktop/darwin",
+      "name": "Devin Desktop",
+      "platform": "darwin",
+      "version": "3.0.28",
+      "installerUrl": "https://windsurf-stable.codeiumdata.com/darwin-arm64-dmg/stable/e9f7e622f49ec544e97d0e624691d71a963ac40b/Devin-darwin-arm64-3.0.28.dmg"
     },
     {
       "slug": "dialpad/darwin",
@@ -2744,13 +2758,6 @@
       "platform": "darwin",
       "version": "11.3.5",
       "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Windows_App_11.3.5_installer.pkg"
-    },
-    {
-      "slug": "windsurf/darwin",
-      "name": "Windsurf",
-      "platform": "darwin",
-      "version": "2.3.15",
-      "installerUrl": "https://windsurf-stable.codeiumdata.com/darwin-arm64-dmg/stable/c46c49e94b4d3f41181204d59809d8f1b2c48d68/Windsurf-darwin-arm64-2.3.15.dmg"
     },
     {
       "slug": "windsurf/windows",
