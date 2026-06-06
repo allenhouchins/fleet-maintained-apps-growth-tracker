@@ -2,24 +2,6 @@
   "changes": [
     {
       "date": "2026-04-18T13:30:51Z",
-      "appName": "Ollama",
-      "slug": "ollama/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.20.7",
-      "newVersion": "0.21.0",
-      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.21.0/Ollama-darwin.zip"
-    },
-    {
-      "date": "2026-04-18T13:30:51Z",
-      "appName": "Claude",
-      "slug": "claude/windows",
-      "platform": "windows",
-      "oldVersion": "1.2773.0",
-      "newVersion": "1.3109.0",
-      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.3109.0/Claude-35cbf6530e05912137624cde0f075dc7f121fa60.msix"
-    },
-    {
-      "date": "2026-04-18T13:30:51Z",
       "appName": "Claude",
       "slug": "claude/darwin",
       "platform": "darwin",
@@ -8999,6 +8981,24 @@
       "oldVersion": "0.30.5",
       "newVersion": "0.30.6",
       "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.30.6/Ollama-darwin.zip"
+    },
+    {
+      "date": "2026-06-06T03:13:19Z",
+      "appName": "Claude",
+      "slug": "claude/windows",
+      "platform": "windows",
+      "oldVersion": "1.11187.1",
+      "newVersion": "1.11187.4",
+      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.11187.4/Claude-58400536f3ccde1cff9a129de6c3112dc8cb489a.msix"
+    },
+    {
+      "date": "2026-06-06T03:13:19Z",
+      "appName": "Ollama",
+      "slug": "ollama/windows",
+      "platform": "windows",
+      "oldVersion": "0.30.4",
+      "newVersion": "0.30.6",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.30.6/OllamaSetup.exe"
     }
   ]
 }
