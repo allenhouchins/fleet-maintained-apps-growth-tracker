@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: June 6, 2026 at 7:34 AM CDT</p>
+            Last updated: June 6, 2026 at 7:37 AM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: June 6, 2026 at 7:34 AM CDT</p>
+                <p id="modalLastUpdated">Last updated: June 6, 2026 at 7:37 AM CDT</p>
             </div>
         </div>
     </div>
@@ -3944,8 +3944,8 @@
                 "slug": "azul-zulu-25-jdk/windows",
                 "platform": "windows",
                 "description": "Azul Zulu JDK 25 is a free, certified build of OpenJDK 25 from Azul Systems.",
-                "version": "25.34.17",
-                "installerUrl": "https://cdn.azul.com/zulu/bin/zulu25.34.17-ca-jdk25.0.3-win_x64.msi",
+                "version": "",
+                "installerUrl": "",
                 "securityInfo": {
                   "sha256": "1f2fff71921e8a1f581935d6a8aae866589d9d675b4b2a63042ce7918bf3e42c",
                   "publisher": "CN=\"Azul Systems, Inc.\", O=\"Azul Systems, Inc.\", L=Sunnyvale, S=California, C=US",
@@ -5120,7 +5120,14 @@
                 "platform": "darwin",
                 "description": "Devin Desktop is an agentic IDE with an AI agent command center, formerly known as Windsurf.",
                 "version": "3.0.28",
-                "installerUrl": "https://windsurf-stable.codeiumdata.com/darwin-arm64-dmg/stable/e9f7e622f49ec544e97d0e624691d71a963ac40b/Devin-darwin-arm64-3.0.28.dmg"
+                "installerUrl": "https://windsurf-stable.codeiumdata.com/darwin-arm64-dmg/stable/e9f7e622f49ec544e97d0e624691d71a963ac40b/Devin-darwin-arm64-3.0.28.dmg",
+                "securityInfo": {
+                  "sha256": "ed52497d03073150a78d5fa8ae4a15102bc53537c59d044165db1cb2e8da08e2",
+                  "cdhash": "2f9f592f02e96d6049a11b6cd279087a2fd9bd5d",
+                  "signingId": "83Z2LHX6XW:com.exafunction.windsurf",
+                  "teamId": "83Z2LHX6XW",
+                  "lastUpdated": "2026-06-06T12:35:28Z"
+                }
               },
               {
                 "name": "Dialpad",
@@ -10210,7 +10217,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `June 6, 2026 at 7:34 AM CDT`;
+                let timestampText = 'Last updated: ' + `June 6, 2026 at 7:37 AM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
