@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: June 7, 2026 at 1:35 PM CDT</p>
+            Last updated: June 7, 2026 at 1:40 PM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: June 7, 2026 at 1:35 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: June 7, 2026 at 1:40 PM CDT</p>
             </div>
         </div>
     </div>
@@ -4610,7 +4610,14 @@
                 "platform": "darwin",
                 "description": "Claude DevTools is an app to visualise and analyse Claude Code session executions.",
                 "version": "0.5.0",
-                "installerUrl": "https://github.com/matt1398/claude-devtools/releases/download/v0.5.0/claude-devtools-0.5.0-arm64.dmg"
+                "installerUrl": "https://github.com/matt1398/claude-devtools/releases/download/v0.5.0/claude-devtools-0.5.0-arm64.dmg",
+                "securityInfo": {
+                  "sha256": "1574369d426fc5f58cf8e4f16803849a78b240a0d3073741e0d365ae0bebc88e",
+                  "cdhash": "1ce94c8b849432e77aeffe4b7e5e93acb8c504cd",
+                  "signingId": "55PSHY2MW6:com.claudecode.context",
+                  "teamId": "55PSHY2MW6",
+                  "lastUpdated": "2026-06-07T18:36:13Z"
+                }
               },
               {
                 "name": "Claude",
@@ -10778,7 +10785,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `June 7, 2026 at 1:35 PM CDT`;
+                let timestampText = 'Last updated: ' + `June 7, 2026 at 1:40 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
