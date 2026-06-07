@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T17:40:53Z",
+  "lastUpdated": "2026-06-07T17:42:13Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1877,6 +1877,18 @@
       "lastUpdated": "2026-05-28T03:21:03Z"
     },
     {
+      "slug": "jabra-direct/windows",
+      "name": "Jabra Direct",
+      "version": "8.1.14601",
+      "sha256": "5e11f3709fb3327b206b19e2291aa69e74ef08d93e56d826488206d94c8c48d5",
+      "publisher": "CN=GN Hearing A/S, O=GN Hearing A/S, L=Ballerup, S=Capital Region, C=DK",
+      "issuer": "CN=Microsoft ID Verified CS EOC CA 03, O=Microsoft Corporation, C=US",
+      "serialNumber": "33000165B6DEF1A207E03D66150000000165B6",
+      "thumbprint": "B03B26CB83951DB0E628CB14410552A9A4D16299",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7B1A-05E0-D947, OU=Microsoft Ireland Operations Limited, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-06-07T17:41:23Z"
+    },
+    {
       "slug": "jetbrains-toolbox/darwin",
       "name": "JetBrains Toolbox",
       "version": "3.5",
@@ -2246,14 +2258,14 @@
     {
       "slug": "microsoft-teams/windows",
       "name": "Microsoft Teams",
-      "version": "25332.1210.4188.1171",
-      "sha256": "95d508cc89fd1cd43163c1789b26e8f770c30f4be077e817226d77720606ba08",
+      "version": "26120.3106.4722.3411",
+      "sha256": "9d9651dadc6cccd7408ba0207b5598c22b06a12fab027a0dbddf53203fe1908f",
       "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "issuer": "CN=Microsoft Code Signing PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "serialNumber": "33000004B533D6BC4CCBC892070000000004B5",
-      "thumbprint": "D92E5FC1081845D4DF64B56FC65402D300421D01",
-      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:7F00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2025-12-28T01:38:59Z"
+      "issuer": "CN=Microsoft Code Signing PCA 2024, O=Microsoft Corporation, C=US",
+      "serialNumber": "3300000201F407D6D8638F8F18000000000201",
+      "thumbprint": "3CD22333087B30CFB9FE44455482F894F623ABD3",
+      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:E002-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-06-07T17:41:41Z"
     },
     {
       "slug": "microsoft-word/darwin",
@@ -2591,6 +2603,18 @@
       "version": "26.088.0510.0004",
       "sha256": "8a27f2f48f0bc6eb794e85e4e295c2bd0b3b8bde0a1199c761a75a7d91a63947",
       "lastUpdated": "2026-06-07T05:44:08Z"
+    },
+    {
+      "slug": "onedrive/windows",
+      "name": "OneDrive",
+      "version": "26.088.0510.0004",
+      "sha256": "0e175c6e4484196f3dc388e764b5674bbb08aef6fbefef9484c885fde36306b1",
+      "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "issuer": "CN=Microsoft Windows Code Signing PCA 2024, O=Microsoft Corporation, C=US",
+      "serialNumber": "3300000102027DBC9D2A9D3307000000000102",
+      "thumbprint": "84B71332947747A3826D84017DFD36960E99B370",
+      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:A000-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-06-07T17:41:45Z"
     },
     {
       "slug": "openvpn-connect/darwin",
@@ -2975,6 +2999,18 @@
       "version": "7.73",
       "sha256": "c69bebb684f6e7b215e267ab79e365b09714c5210f5f5852a989c3c1771d46a8",
       "lastUpdated": "2026-06-04T19:46:47Z"
+    },
+    {
+      "slug": "reaper/windows",
+      "name": "REAPER",
+      "version": "7.73",
+      "sha256": "1a96f1aaf2c8fec04f92753078582ff577ad666f267965303daa12511db8752b",
+      "publisher": "OID.1.3.6.1.4.1.311.60.2.1.3=US, OID.1.3.6.1.4.1.311.60.2.1.2=California, OID.2.5.4.15=Private Organization, CN=Cockos Incorporated, SERIALNUMBER=2639014, O=Cockos Incorporated, L=Brooklyn, S=New York, C=US",
+      "issuer": "CN=SSL.com EV Code Signing Intermediate CA RSA R3, O=SSL Corp, L=Houston, S=Texas, C=US",
+      "serialNumber": "5AAEA0B4BBE49C481638430D2C2F7AAB",
+      "thumbprint": "05A3AE08ABCED811278217BB80E2B0B9FF70626E",
+      "timestamp": "CN=SSL.com Timestamping Unit 2025 E1, O=SSL Corp, L=Houston, S=Texas, C=US",
+      "lastUpdated": "2026-06-07T17:41:47Z"
     },
     {
       "slug": "rectangle/darwin",
@@ -3613,6 +3649,18 @@
       "lastUpdated": "2026-02-12T17:30:27Z"
     },
     {
+      "slug": "viscosity/windows",
+      "name": "Viscosity",
+      "version": "1.12.1.1857",
+      "sha256": "3b24196980a6d2675b80e447c3368475b709914d42861e1c8aba4adf4e469138",
+      "publisher": "CN=SparkLabs Pty Ltd, O=SparkLabs Pty Ltd, S=New South Wales, C=AU, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=AU, SERIALNUMBER=79 154 607 682",
+      "issuer": "CN=Sectigo Public Code Signing CA EV R36, O=Sectigo Limited, C=GB",
+      "serialNumber": "0089888A069C8E972DA6C5D11B5F99E229",
+      "thumbprint": "0278766E4B9F4059F848044B6E896889E7D6016C",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-07T17:41:49Z"
+    },
+    {
       "slug": "visual-studio-code/darwin",
       "name": "Microsoft Visual Studio Code",
       "version": "1.123.0",
@@ -3757,6 +3805,18 @@
       "lastUpdated": "2026-04-14T14:47:53Z"
     },
     {
+      "slug": "windows-app/windows",
+      "name": "Windows App",
+      "version": "2.0.1129.0",
+      "sha256": "d62958ee2a332778a015e8766c8b5771565c7cd3490715277eb022c92d6f84b8",
+      "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "issuer": "CN=Microsoft Code Signing PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "serialNumber": "33000004855E99EC0E592FCDD7000000000485",
+      "thumbprint": "3F56A45111684D454E231CFDC4DA5C8D370F9816",
+      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:7F00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-06-07T17:42:03Z"
+    },
+    {
       "slug": "windsurf/darwin",
       "name": "Windsurf",
       "version": "2.3.15",
@@ -3824,6 +3884,18 @@
       "version": "4.6.1",
       "sha256": "0b729043b0ef1a0c9913bccbd774fd50c9603005400cbe259cb109bb4a157f12",
       "lastUpdated": "2026-05-28T03:26:47Z"
+    },
+    {
+      "slug": "wrike/windows",
+      "name": "Wrike",
+      "version": "4.6.1",
+      "sha256": "8b8edb15a118241b018cc00ca76ce35e9ac2a2499dcdbccfb111d19b2e73886b",
+      "publisher": "CN=\"Wrike, Inc.\", O=\"Wrike, Inc.\", L=San Diego, S=California, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0766D44B93D42D3D43CFEE4063A07819",
+      "thumbprint": "840B8827B74786B50FC96B1FFD06165D91DEC7C7",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-07T17:42:13Z"
     },
     {
       "slug": "xcreds/darwin",
