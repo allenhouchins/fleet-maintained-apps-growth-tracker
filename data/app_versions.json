@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T22:27:21Z",
+  "lastUpdated": "2026-06-07T23:28:40Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -2128,6 +2128,13 @@
       "platform": "darwin",
       "version": "1.27.2",
       "installerUrl": "https://github.com/containers/podman-desktop/releases/download/v1.27.2/podman-desktop-1.27.2-arm64.dmg"
+    },
+    {
+      "slug": "postgresql-18/windows",
+      "name": "PostgreSQL 18",
+      "platform": "windows",
+      "version": "18.4-1",
+      "installerUrl": "https://get.enterprisedb.com/postgresql/postgresql-18.4-1-windows-x64.exe"
     },
     {
       "slug": "postman/darwin",
