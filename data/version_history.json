@@ -1,105 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-04-21T03:10:23Z",
-      "appName": "Claude",
-      "slug": "claude/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.3109.0",
-      "newVersion": "1.3561.0",
-      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.3561.0/Claude-fbc74be3fdc714a2c46ef1fb84f71d4e4c062930.zip"
-    },
-    {
-      "date": "2026-04-21T03:10:23Z",
-      "appName": "Zed",
-      "slug": "zed/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.232.2",
-      "newVersion": "0.232.3",
-      "installerUrl": "https://zed.dev/api/releases/stable/0.232.3/Zed-aarch64.dmg"
-    },
-    {
-      "date": "2026-04-21T13:39:04Z",
-      "appName": "Mattermost",
-      "slug": "mattermost/darwin",
-      "platform": "darwin",
-      "oldVersion": "6.1.1",
-      "newVersion": "6.1.2",
-      "installerUrl": "https://releases.mattermost.com/desktop/6.1.2/mattermost-desktop-6.1.2-mac-arm64.zip"
-    },
-    {
-      "date": "2026-04-21T13:39:04Z",
-      "appName": "iTerm2",
-      "slug": "iterm2/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.6.9",
-      "newVersion": "3.6.10",
-      "installerUrl": "https://iterm2.com/downloads/stable/iTerm2-3_6_10.zip"
-    },
-    {
-      "date": "2026-04-21T13:39:04Z",
-      "appName": "Box Drive",
-      "slug": "box-drive/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.51.230",
-      "newVersion": "2.51.233",
-      "installerUrl": "https://e3.boxcdn.net/desktop/releases/mac/BoxDrive-2.51.233.pkg"
-    },
-    {
-      "date": "2026-04-21T13:39:04Z",
-      "appName": "Charles",
-      "slug": "charles/darwin",
-      "platform": "darwin",
-      "oldVersion": "5.0.3",
-      "newVersion": "5.1",
-      "installerUrl": "https://www.charlesproxy.com/assets/release/5.1/charles-proxy-5.1.dmg"
-    },
-    {
-      "date": "2026-04-21T13:39:04Z",
-      "appName": "Docker Desktop",
-      "slug": "docker/windows",
-      "platform": "windows",
-      "oldVersion": "4.68.0",
-      "newVersion": "4.70.0",
-      "installerUrl": "https://desktop.docker.com/win/main/amd64/224270/Docker%20Desktop%20Installer.exe"
-    },
-    {
-      "date": "2026-04-21T13:39:04Z",
-      "appName": "OneDrive",
-      "slug": "onedrive/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.051.0316.0004",
-      "newVersion": "26.055.0323.0004",
-      "installerUrl": "https://oneclient.sfx.ms/Mac/Installers/26.055.0323.0004/universal/OneDrive.pkg"
-    },
-    {
-      "date": "2026-04-21T13:39:04Z",
-      "appName": "Windsurf",
-      "slug": "windsurf/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.0.61",
-      "newVersion": "2.0.63",
-      "installerUrl": "https://windsurf-stable.codeiumdata.com/darwin-arm64-dmg/stable/8636ab52872ef59a7227b8f7f386fd30d94b2249/Windsurf-darwin-arm64-2.0.63.dmg"
-    },
-    {
-      "date": "2026-04-21T16:29:25Z",
-      "appName": "Grammarly Desktop",
-      "slug": "grammarly-desktop/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.161.1",
-      "newVersion": "1.162.2",
-      "installerUrl": "https://download-mac.grammarly.com/versions/1.162.2.0/Grammarly.dmg"
-    },
-    {
-      "date": "2026-04-21T16:29:25Z",
-      "appName": "1Password",
-      "slug": "1password/darwin",
-      "platform": "darwin",
-      "oldVersion": "8.12.10",
-      "newVersion": "8.12.12",
-      "installerUrl": "https://downloads.1password.com/mac/1Password.pkg"
-    },
-    {
       "date": "2026-04-21T16:29:25Z",
       "appName": "Mozilla Firefox",
       "slug": "firefox/darwin",
@@ -8999,6 +8900,105 @@
       "oldVersion": "",
       "newVersion": "1.108.0.248",
       "installerUrl": "https://releases.arc.net/windows/prod/1.108.0.248/Arc.x64.msix"
+    },
+    {
+      "date": "2026-06-07T17:33:51Z",
+      "appName": "Microsoft Teams",
+      "slug": "microsoft-teams/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "26120.3106.4722.3411",
+      "installerUrl": "https://teamsinstaller.public.onecdn.static.microsoft/production-windows-x64/26120.3106.4722.3411/MSTeams-x64.msix"
+    },
+    {
+      "date": "2026-06-07T17:33:51Z",
+      "appName": "Affinity",
+      "slug": "affinity/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "3.2.1.4425",
+      "installerUrl": "https://affinity-update.serif.com/windows/3/studio/retail/Affinity-Affinity-Store-x64-4425-adf53bda2ec2cfe17697bea84177df9f43c74624.msix"
+    },
+    {
+      "date": "2026-06-07T17:33:51Z",
+      "appName": "OneDrive",
+      "slug": "onedrive/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "26.088.0510.0004",
+      "installerUrl": "https://oneclient.sfx.ms/Win/Installers/26.088.0510.0004/amd64/OneDriveSetup.exe"
+    },
+    {
+      "date": "2026-06-07T17:33:51Z",
+      "appName": "Wrike",
+      "slug": "wrike/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "4.6.1",
+      "installerUrl": "https://dl.wrike.com/download/WrikeDesktopApp_64.v4.6.1.msi"
+    },
+    {
+      "date": "2026-06-07T17:33:51Z",
+      "appName": "Windows App",
+      "slug": "windows-app/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "2.0.1129.0",
+      "installerUrl": "https://res.cdn.office.net/remote-desktop-windows-client/0a11b53f-95d7-4ea7-a283-00f8162fabdf/WindowsApp_x64_Release_2.0.1129.0.msix"
+    },
+    {
+      "date": "2026-06-07T17:33:51Z",
+      "appName": "VNC Viewer",
+      "slug": "vnc-viewer/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "7.15.1.18",
+      "installerUrl": "https://downloads.realvnc.com/download/file/viewer.files/VNC-Viewer-7.15.1-Windows-msi.zip"
+    },
+    {
+      "date": "2026-06-07T17:33:51Z",
+      "appName": "REAPER",
+      "slug": "reaper/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "7.73",
+      "installerUrl": "https://www.reaper.fm/files/7.x/reaper773_x64-install.exe"
+    },
+    {
+      "date": "2026-06-07T17:33:51Z",
+      "appName": "Viscosity",
+      "slug": "viscosity/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "1.12.1.1857",
+      "installerUrl": "https://swupdate.sparklabs.com/download/win/release/viscosity/Viscosity%20Installer%201.12.1.exe"
+    },
+    {
+      "date": "2026-06-07T17:33:51Z",
+      "appName": "VNC Server",
+      "slug": "vnc-server/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "7.17.0.5",
+      "installerUrl": "https://downloads.realvnc.com/download/file/vnc.files/VNC-Server-7.17.0-Windows-msi.zip"
+    },
+    {
+      "date": "2026-06-07T17:33:51Z",
+      "appName": "Jabra Direct",
+      "slug": "jabra-direct/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "8.1.14601",
+      "installerUrl": "https://jabraxpressonlineprdstor.blob.core.windows.net/jdo/JabraDirectSetup.exe"
+    },
+    {
+      "date": "2026-06-07T17:33:51Z",
+      "appName": "Affinity",
+      "slug": "affinity/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "3.2.1",
+      "installerUrl": "https://affinity-update.s3.amazonaws.com/mac2/retail/Affinity%20Affinity%20Store%204425.zip"
     }
   ]
 }

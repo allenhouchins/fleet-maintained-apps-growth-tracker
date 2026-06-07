@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T16:35:01Z",
+  "lastUpdated": "2026-06-07T17:33:51Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -112,6 +112,20 @@
       "platform": "darwin",
       "version": "18.3.2",
       "installerUrl": "https://download.adobe.com/pub/adobe/dng/mac/DNGConverter_18_3_2.dmg"
+    },
+    {
+      "slug": "affinity/darwin",
+      "name": "Affinity",
+      "platform": "darwin",
+      "version": "3.2.1",
+      "installerUrl": "https://affinity-update.s3.amazonaws.com/mac2/retail/Affinity%20Affinity%20Store%204425.zip"
+    },
+    {
+      "slug": "affinity/windows",
+      "name": "Affinity",
+      "platform": "windows",
+      "version": "3.2.1.4425",
+      "installerUrl": "https://affinity-update.serif.com/windows/3/studio/retail/Affinity-Affinity-Store-x64-4425-adf53bda2ec2cfe17697bea84177df9f43c74624.msix"
     },
     {
       "slug": "aircall/darwin",
@@ -1458,6 +1472,13 @@
       "installerUrl": "https://jabraxpressonlineprdstor.blob.core.windows.net/jdo/JabraDirectSetup.dmg"
     },
     {
+      "slug": "jabra-direct/windows",
+      "name": "Jabra Direct",
+      "platform": "windows",
+      "version": "8.1.14601",
+      "installerUrl": "https://jabraxpressonlineprdstor.blob.core.windows.net/jdo/JabraDirectSetup.exe"
+    },
+    {
       "slug": "jetbrains-toolbox/darwin",
       "name": "JetBrains Toolbox",
       "platform": "darwin",
@@ -1745,6 +1766,13 @@
       "installerUrl": "https://statics.teams.cdn.office.net/production-osx/26120.3106.4725.800/MicrosoftTeams.pkg"
     },
     {
+      "slug": "microsoft-teams/windows",
+      "name": "Microsoft Teams",
+      "platform": "windows",
+      "version": "26120.3106.4722.3411",
+      "installerUrl": "https://teamsinstaller.public.onecdn.static.microsoft/production-windows-x64/26120.3106.4722.3411/MSTeams-x64.msix"
+    },
+    {
       "slug": "microsoft-word/darwin",
       "name": "Microsoft Word",
       "platform": "darwin",
@@ -1988,6 +2016,13 @@
       "platform": "darwin",
       "version": "26.088.0510.0004",
       "installerUrl": "https://oneclient.sfx.ms/Mac/Installers/26.088.0510.0004/universal/OneDrive.pkg"
+    },
+    {
+      "slug": "onedrive/windows",
+      "name": "OneDrive",
+      "platform": "windows",
+      "version": "26.088.0510.0004",
+      "installerUrl": "https://oneclient.sfx.ms/Win/Installers/26.088.0510.0004/amd64/OneDriveSetup.exe"
     },
     {
       "slug": "openvpn-connect/darwin",
@@ -2282,6 +2317,13 @@
       "platform": "darwin",
       "version": "7.73",
       "installerUrl": "https://dlcf.reaper.fm/7.x/reaper773_universal.dmg"
+    },
+    {
+      "slug": "reaper/windows",
+      "name": "REAPER",
+      "platform": "windows",
+      "version": "7.73",
+      "installerUrl": "https://www.reaper.fm/files/7.x/reaper773_x64-install.exe"
     },
     {
       "slug": "rectangle/darwin",
@@ -2788,6 +2830,13 @@
       "installerUrl": "https://swupdate.sparklabs.com/download/mac/release/viscosity/Viscosity%201.12.1.dmg"
     },
     {
+      "slug": "viscosity/windows",
+      "name": "Viscosity",
+      "platform": "windows",
+      "version": "1.12.1.1857",
+      "installerUrl": "https://swupdate.sparklabs.com/download/win/release/viscosity/Viscosity%20Installer%201.12.1.exe"
+    },
+    {
       "slug": "visual-studio-code/darwin",
       "name": "Microsoft Visual Studio Code",
       "platform": "darwin",
@@ -2823,11 +2872,25 @@
       "installerUrl": "https://downloads.realvnc.com/download/file/vnc.files/VNC-Server-7.17.0-MacOSX-universal.pkg"
     },
     {
+      "slug": "vnc-server/windows",
+      "name": "VNC Server",
+      "platform": "windows",
+      "version": "7.17.0.5",
+      "installerUrl": "https://downloads.realvnc.com/download/file/vnc.files/VNC-Server-7.17.0-Windows-msi.zip"
+    },
+    {
       "slug": "vnc-viewer/darwin",
       "name": "VNC Viewer",
       "platform": "darwin",
       "version": "7.15.1",
       "installerUrl": "https://downloads.realvnc.com/download/file/viewer.files/VNC-Viewer-7.15.1-MacOSX-universal.dmg"
+    },
+    {
+      "slug": "vnc-viewer/windows",
+      "name": "VNC Viewer",
+      "platform": "windows",
+      "version": "7.15.1.18",
+      "installerUrl": "https://downloads.realvnc.com/download/file/viewer.files/VNC-Viewer-7.15.1-Windows-msi.zip"
     },
     {
       "slug": "vscodium/darwin",
@@ -2907,6 +2970,13 @@
       "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Windows_App_11.3.5_installer.pkg"
     },
     {
+      "slug": "windows-app/windows",
+      "name": "Windows App",
+      "platform": "windows",
+      "version": "2.0.1129.0",
+      "installerUrl": "https://res.cdn.office.net/remote-desktop-windows-client/0a11b53f-95d7-4ea7-a283-00f8162fabdf/WindowsApp_x64_Release_2.0.1129.0.msix"
+    },
+    {
       "slug": "windsurf/windows",
       "name": "Windsurf",
       "platform": "windows",
@@ -2947,6 +3017,13 @@
       "platform": "darwin",
       "version": "4.6.1",
       "installerUrl": "https://dl.wrike.com/download/WrikeDesktopApp_ARM.v4.6.1.dmg"
+    },
+    {
+      "slug": "wrike/windows",
+      "name": "Wrike",
+      "platform": "windows",
+      "version": "4.6.1",
+      "installerUrl": "https://dl.wrike.com/download/WrikeDesktopApp_64.v4.6.1.msi"
     },
     {
       "slug": "xcreds/darwin",
