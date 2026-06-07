@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T12:39:56Z",
+  "lastUpdated": "2026-06-07T13:37:23Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -149,6 +149,13 @@
       "installerUrl": "https://clients.chime.aws/mac-nme/AmazonChime-5.23.22533.dmg"
     },
     {
+      "slug": "amazon-chime/windows",
+      "name": "Amazon Chime",
+      "platform": "windows",
+      "version": "5.23.32138",
+      "installerUrl": "https://clients.chime.aws/win-nme/Chime-5.23.32138.exe"
+    },
+    {
       "slug": "amazon-corretto-21/windows",
       "name": "Amazon Corretto 21",
       "platform": "windows",
@@ -240,6 +247,13 @@
       "installerUrl": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v1.7.1/Another-Redis-Desktop-Manager-win-1.7.1-x64.exe"
     },
     {
+      "slug": "antigravity/darwin",
+      "name": "Google Antigravity",
+      "platform": "darwin",
+      "version": "2.0.11",
+      "installerUrl": "https://storage.googleapis.com/antigravity-public/antigravity-hub/2.0.11-6560309696135168/darwin-arm/Antigravity.dmg"
+    },
+    {
       "slug": "anydesk/darwin",
       "name": "AnyDesk",
       "platform": "darwin",
@@ -268,6 +282,13 @@
       "installerUrl": "https://releases.arc.net/release/Arc-1.149.0-81456.zip"
     },
     {
+      "slug": "arc/windows",
+      "name": "Arc",
+      "platform": "windows",
+      "version": "1.108.0.248",
+      "installerUrl": "https://releases.arc.net/windows/prod/1.108.0.248/Arc.x64.msix"
+    },
+    {
       "slug": "archaeology/darwin",
       "name": "Archaeology",
       "platform": "darwin",
@@ -280,6 +301,13 @@
       "platform": "darwin",
       "version": "2.3.9",
       "installerUrl": "https://github.com/arduino/arduino-ide/releases/download/2.3.9/arduino-ide_2.3.9_macOS_ARM64.dmg"
+    },
+    {
+      "slug": "arduino-ide/windows",
+      "name": "Arduino IDE",
+      "platform": "windows",
+      "version": "2.3.8",
+      "installerUrl": "https://github.com/arduino/arduino-ide/releases/download/2.3.8/arduino-ide_2.3.8_Windows_64bit.msi"
     },
     {
       "slug": "asana/darwin",
@@ -1010,6 +1038,13 @@
       "installerUrl": "https://egnyte-cdn.egnyte.com/desktopapp/mac/en-us/1.17.0/Egnyte_1.17.0_2340.dmg"
     },
     {
+      "slug": "egnyte/windows",
+      "name": "Egnyte",
+      "platform": "windows",
+      "version": "3.31.1.179",
+      "installerUrl": "https://egnyte-cdn.egnyte.com/egnytedrive/win/en-us/3.31.1/EgnyteDesktopApp_3.31.1_179.msi"
+    },
+    {
       "slug": "elgato-control-center/darwin",
       "name": "Elgato Control Center",
       "platform": "darwin",
@@ -1017,11 +1052,25 @@
       "installerUrl": "https://edge.elgato.com/egc/macos/eccm/1.8.2/ElgatoControlCenter-1.8.2.20643.zip"
     },
     {
+      "slug": "elgato-control-center/windows",
+      "name": "Elgato Control Center",
+      "platform": "windows",
+      "version": "1.8.2.714",
+      "installerUrl": "https://edge.elgato.com/egc/windows/eccw/1.8.2/ControlCenter_1.8.2.714_x64.msi"
+    },
+    {
       "slug": "elgato-stream-deck/darwin",
       "name": "Elgato Stream Deck",
       "platform": "darwin",
       "version": "7.4.2",
       "installerUrl": "https://edge.elgato.com/egc/macos/sd/Stream_Deck_7.4.2.22730.pkg"
+    },
+    {
+      "slug": "elgato-stream-deck/windows",
+      "name": "Elgato Stream Deck",
+      "platform": "windows",
+      "version": "7.4.2.22730",
+      "installerUrl": "https://edge.elgato.com/egc/windows/sd/Stream_Deck_7.4.2.22730.msi"
     },
     {
       "slug": "evernote/darwin",
@@ -1311,11 +1360,25 @@
       "installerUrl": "https://downloads.imazing.com/mac/iMazing-Profile-Editor/2.2.1.393403/iMazing_Profile_Editor_2.2.1.393403.dmg"
     },
     {
+      "slug": "imazing-profile-editor/windows",
+      "name": "iMazing Profile Editor",
+      "platform": "windows",
+      "version": "2.0.3.0",
+      "installerUrl": "https://downloads.imazing.com/windows/iMazing-Profile-Editor/2.0.3/iMazing_Profile_Editor_2.0.3.exe"
+    },
+    {
       "slug": "imazing/darwin",
       "name": "iMazing",
       "platform": "darwin",
       "version": "3.5.3",
       "installerUrl": "https://downloads.imazing.com/mac/iMazing/3.5.3.24045/iMazing_3.5.3.24045.dmg"
+    },
+    {
+      "slug": "imazing/windows",
+      "name": "iMazing",
+      "platform": "windows",
+      "version": "3.5.3.0",
+      "installerUrl": "https://downloads.imazing.com/windows/iMazing/iMazing3forWindows.exe"
     },
     {
       "slug": "inkscape/darwin",
@@ -1507,6 +1570,13 @@
       "installerUrl": "https://download.documentfoundation.org/libreoffice/stable/25.8.7/mac/aarch64/LibreOffice_25.8.7_MacOS_aarch64.dmg"
     },
     {
+      "slug": "libreoffice/windows",
+      "name": "LibreOffice",
+      "platform": "windows",
+      "version": "26.2.3.2",
+      "installerUrl": "https://download.documentfoundation.org/libreoffice/stable/26.2.3/win/x86_64/LibreOffice_26.2.3_Win_x86-64.msi"
+    },
+    {
       "slug": "linear/darwin",
       "name": "Linear",
       "platform": "darwin",
@@ -1689,6 +1759,13 @@
       "installerUrl": "https://download.mindjet.com/MindManager_Mac_25.2.105.dmg"
     },
     {
+      "slug": "mindmanager/windows",
+      "name": "MindManager",
+      "platform": "windows",
+      "version": "25.0.208.0",
+      "installerUrl": "https://download.mindjet.com/MindManager_64bit_25.0.208_redist.exe"
+    },
+    {
       "slug": "miro/darwin",
       "name": "Miro",
       "platform": "darwin",
@@ -1743,6 +1820,13 @@
       "platform": "darwin",
       "version": "33.0.5",
       "installerUrl": "https://github.com/nextcloud-releases/desktop/releases/download/v33.0.5/Nextcloud-33.0.5.pkg"
+    },
+    {
+      "slug": "nextcloud/windows",
+      "name": "Nextcloud",
+      "platform": "windows",
+      "version": "33.0.5",
+      "installerUrl": "https://github.com/nextcloud-releases/desktop/releases/download/v33.0.5/Nextcloud-33.0.5-x64.msi"
     },
     {
       "slug": "nodejs/windows",
@@ -2107,6 +2191,13 @@
       "platform": "darwin",
       "version": "3.15",
       "installerUrl": "https://www.proxifier.com/download/ProxifierMac.dmg"
+    },
+    {
+      "slug": "proxifier/windows",
+      "name": "Proxifier",
+      "platform": "windows",
+      "version": "4.14",
+      "installerUrl": "https://www.proxifier.com/download/ProxifierSetup.exe"
     },
     {
       "slug": "proxyman/darwin",
@@ -2527,6 +2618,13 @@
       "platform": "darwin",
       "version": "18.8.3",
       "installerUrl": "https://cdn.teleport.dev/Teleport%20Connect-18.8.3.dmg"
+    },
+    {
+      "slug": "teleport-connect/windows",
+      "name": "Teleport Connect",
+      "platform": "windows",
+      "version": "18.8.3",
+      "installerUrl": "https://cdn.teleport.dev/Teleport%20Connect%20Setup-18.8.3.exe"
     },
     {
       "slug": "teleport-suite/darwin",
