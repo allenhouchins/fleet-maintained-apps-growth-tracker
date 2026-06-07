@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T03:16:20Z",
+  "lastUpdated": "2026-06-07T05:38:03Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -82,8 +82,8 @@
       "slug": "adobe-acrobat-reader/windows",
       "name": "Adobe Acrobat Reader",
       "platform": "windows",
-      "version": "26.001.21563",
-      "installerUrl": "https://ardownload2.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2600121563/AcroRdrDCx642600121563_MUI.exe"
+      "version": "26.001.21651",
+      "installerUrl": "https://ardownload2.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2600121651/AcroRdrDCx642600121651_MUI.exe"
     },
     {
       "slug": "adobe-creative-cloud/darwin",
@@ -320,8 +320,8 @@
       "slug": "aws-cli/windows",
       "name": "AWS Command Line Interface v2",
       "platform": "windows",
-      "version": "2.34.62",
-      "installerUrl": "https://awscli.amazonaws.com/AWSCLIV2-2.34.62.msi"
+      "version": "2.34.63",
+      "installerUrl": "https://awscli.amazonaws.com/AWSCLIV2-2.34.63.msi"
     },
     {
       "slug": "aws-vpn-client/darwin",
@@ -439,8 +439,8 @@
       "slug": "box-drive/darwin",
       "name": "Box Drive",
       "platform": "darwin",
-      "version": "2.51.233",
-      "installerUrl": "https://e3.boxcdn.net/desktop/releases/mac/BoxDrive-2.51.233.pkg"
+      "version": "2.52.306",
+      "installerUrl": "https://e3.boxcdn.net/desktop/releases/mac/BoxDrive-2.52.306.pkg"
     },
     {
       "slug": "box-drive/windows",
@@ -586,8 +586,8 @@
       "slug": "citrix-workspace/darwin",
       "name": "Citrix Workspace",
       "platform": "darwin",
-      "version": "26.03.0",
-      "installerUrl": "https://downloadplugins.citrix.com/ReceiverUpdates/Prod/Receiver/Mac/CitrixWorkspaceAppUniversal26.03.0.49.pkg"
+      "version": "26.03.10",
+      "installerUrl": "https://downloadplugins.citrix.com/ReceiverUpdates/Prod/Receiver/Mac/CitrixWorkspaceAppUniversal26.03.10.40.pkg"
     },
     {
       "slug": "claude/darwin",
@@ -674,6 +674,20 @@
       "installerUrl": "https://downloads.cloudflareclient.com/v1/download/windows/version/2026.1.150.0"
     },
     {
+      "slug": "comet/darwin",
+      "name": "Comet",
+      "platform": "darwin",
+      "version": "148.0.7778.1016",
+      "installerUrl": "https://www.perplexity.ai/rest/browser/download?channel=stable\u0026platform=mac_arm64"
+    },
+    {
+      "slug": "comet/windows",
+      "name": "Comet",
+      "platform": "windows",
+      "version": "148.0.7778.1018",
+      "installerUrl": "https://www.perplexity.ai/rest/browser/download?platform=win_x64\u0026channel=stable"
+    },
+    {
       "slug": "connect-fonts/darwin",
       "name": "Connect Fonts",
       "platform": "darwin",
@@ -691,8 +705,8 @@
       "slug": "crashplan/darwin",
       "name": "CrashPlan",
       "platform": "darwin",
-      "version": "11.9.1",
-      "installerUrl": "https://download.crashplan.com/installs/agent/cloud/11.9.1/19/install/CrashPlan_11.9.1_19_Mac.dmg"
+      "version": "12.0.0",
+      "installerUrl": "https://download.crashplan.com/installs/agent/cloud/12.0.0/735/install/CrashPlan_12.0.0_735_Mac.dmg"
     },
     {
       "slug": "crashplan/windows",
@@ -726,8 +740,8 @@
       "slug": "cursor/windows",
       "name": "Cursor",
       "platform": "windows",
-      "version": "3.6.31",
-      "installerUrl": "https://downloads.cursor.com/production/81fcf2931d7687b4ff3f3017858d0c6dee7e2a68/win32/x64/system-setup/CursorSetup-x64-3.6.31.exe"
+      "version": "3.7.12",
+      "installerUrl": "https://downloads.cursor.com/production/b887a26c4f70bd8136bfffeda812b24194ec9ce0/win32/x64/system-setup/CursorSetup-x64-3.7.12.exe"
     },
     {
       "slug": "cyberduck/darwin",
@@ -1447,8 +1461,8 @@
       "slug": "krita/darwin",
       "name": "Krita",
       "platform": "darwin",
-      "version": "5.3.1.1",
-      "installerUrl": "https://download.kde.org/stable/krita/5.3.1/krita-5.3.1.1-signed.dmg"
+      "version": "5.3.2.1",
+      "installerUrl": "https://download.kde.org/stable/krita/5.3.2.1/krita-5.3.2.1-signed.dmg"
     },
     {
       "slug": "krita/windows",
@@ -1615,8 +1629,8 @@
       "slug": "microsoft-edge/windows",
       "name": "Microsoft Edge",
       "platform": "windows",
-      "version": "148.0.3967.96",
-      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/1e31b6ea-8368-4a80-b494-2ffa12a70507/MicrosoftEdgeEnterpriseX64.msi"
+      "version": "149.0.4022.52",
+      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/da6559fb-cc77-4065-bcfd-c80e0053967a/MicrosoftEdgeEnterpriseX64.msi"
     },
     {
       "slug": "microsoft-excel/darwin",
@@ -1888,8 +1902,8 @@
       "slug": "onedrive/darwin",
       "name": "OneDrive",
       "platform": "darwin",
-      "version": "26.078.0426.0002",
-      "installerUrl": "https://oneclient.sfx.ms/Mac/Installers/26.078.0426.0002/universal/OneDrive.pkg"
+      "version": "26.088.0510.0004",
+      "installerUrl": "https://oneclient.sfx.ms/Mac/Installers/26.088.0510.0004/universal/OneDrive.pkg"
     },
     {
       "slug": "openvpn-connect/darwin",
@@ -2084,8 +2098,8 @@
       "slug": "protonvpn/windows",
       "name": "ProtonVPN",
       "platform": "windows",
-      "version": "4.4.0",
-      "installerUrl": "https://vpn.protondownload.com/download/ProtonVPN_v4.4.0_x64.exe"
+      "version": "4.4.1",
+      "installerUrl": "https://vpn.protondownload.com/download/ProtonVPN_v4.4.1_x64.exe"
     },
     {
       "slug": "proxifier/darwin",
@@ -2459,6 +2473,13 @@
       "installerUrl": "https://files.tableplus.com/macos/710/TablePlus.dmg"
     },
     {
+      "slug": "tableplus/windows",
+      "name": "TablePlus",
+      "platform": "windows",
+      "version": "7.1.2",
+      "installerUrl": "https://files.tableplus.com/windows/7.1.2/TablePlusSetup.exe"
+    },
+    {
       "slug": "tailscale-app/darwin",
       "name": "Tailscale",
       "platform": "darwin",
@@ -2525,8 +2546,8 @@
       "slug": "textexpander/windows",
       "name": "TextExpander",
       "platform": "windows",
-      "version": "254.8.4.307",
-      "installerUrl": "https://cdn.textexpander.com/windows/843.7.0/TextExpander_x64.msi"
+      "version": "254.8.4.402",
+      "installerUrl": "https://cdn.textexpander.com/windows/844.2.0/TextExpander_x64.msi"
     },
     {
       "slug": "the-unarchiver/darwin",
@@ -2700,8 +2721,8 @@
       "slug": "vnc-server/darwin",
       "name": "VNC Server",
       "platform": "darwin",
-      "version": "7.15.0",
-      "installerUrl": "https://downloads.realvnc.com/download/file/vnc.files/VNC-Server-7.15.0-MacOSX-universal.pkg"
+      "version": "7.17.0",
+      "installerUrl": "https://downloads.realvnc.com/download/file/vnc.files/VNC-Server-7.17.0-MacOSX-universal.pkg"
     },
     {
       "slug": "vnc-viewer/darwin",
@@ -2795,6 +2816,13 @@
       "installerUrl": "https://windsurf-stable.codeiumdata.com/win32-x64/stable/c46c49e94b4d3f41181204d59809d8f1b2c48d68/WindsurfSetup-x64-2.3.15.exe"
     },
     {
+      "slug": "winrar/windows",
+      "name": "WinRAR",
+      "platform": "windows",
+      "version": "7.22.0",
+      "installerUrl": "https://www.rarlab.com/rar/winrar-x64-722.exe"
+    },
+    {
       "slug": "winscp/windows",
       "name": "WinSCP",
       "platform": "windows",
@@ -2854,15 +2882,22 @@
       "slug": "zed/darwin",
       "name": "Zed",
       "platform": "darwin",
-      "version": "1.5.3",
-      "installerUrl": "https://zed.dev/api/releases/stable/1.5.3/Zed-aarch64.dmg"
+      "version": "1.5.4",
+      "installerUrl": "https://zed.dev/api/releases/stable/1.5.4/Zed-aarch64.dmg"
     },
     {
       "slug": "zed/windows",
       "name": "Zed",
       "platform": "windows",
-      "version": "1.5.3",
-      "installerUrl": "https://github.com/zed-industries/zed/releases/download/v1.5.3/Zed-x86_64.exe"
+      "version": "1.5.4",
+      "installerUrl": "https://github.com/zed-industries/zed/releases/download/v1.5.4/Zed-x86_64.exe"
+    },
+    {
+      "slug": "zen-browser/windows",
+      "name": "Zen Browser",
+      "platform": "windows",
+      "version": "1.20b",
+      "installerUrl": "https://github.com/zen-browser/desktop/releases/download/1.20b/zen.installer.exe"
     },
     {
       "slug": "zen/darwin",
