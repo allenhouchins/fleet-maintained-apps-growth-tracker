@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: June 7, 2026 at 8:37 AM CDT</p>
+            Last updated: June 7, 2026 at 8:42 AM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: June 7, 2026 at 8:37 AM CDT</p>
+                <p id="modalLastUpdated">Last updated: June 7, 2026 at 8:42 AM CDT</p>
             </div>
         </div>
     </div>
@@ -3743,7 +3743,14 @@
                 "platform": "darwin",
                 "description": "Google Antigravity is an agent orchestration platform.",
                 "version": "2.0.11",
-                "installerUrl": "https://storage.googleapis.com/antigravity-public/antigravity-hub/2.0.11-6560309696135168/darwin-arm/Antigravity.dmg"
+                "installerUrl": "https://storage.googleapis.com/antigravity-public/antigravity-hub/2.0.11-6560309696135168/darwin-arm/Antigravity.dmg",
+                "securityInfo": {
+                  "sha256": "73fe72f1f27b5356bfa96bf465426d27fdb651627379f0cfb23362f5b95c55fc",
+                  "cdhash": "21358be789047293aeebd0c11dbc7366c329b832",
+                  "signingId": "EQHXZ8M8AV:com.google.antigravity",
+                  "teamId": "EQHXZ8M8AV",
+                  "lastUpdated": "2026-06-07T13:38:27Z"
+                }
               },
               {
                 "name": "AnyDesk",
@@ -10480,7 +10487,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `June 7, 2026 at 8:37 AM CDT`;
+                let timestampText = 'Last updated: ' + `June 7, 2026 at 8:42 AM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
