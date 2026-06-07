@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T13:46:21Z",
+  "lastUpdated": "2026-06-07T13:46:44Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -2339,6 +2339,18 @@
       "lastUpdated": "2026-05-20T01:57:01Z"
     },
     {
+      "slug": "nextcloud/windows",
+      "name": "Nextcloud",
+      "version": "33.0.5",
+      "sha256": "fa3db40e08d880c2b913a9eb87f92edb18a811b199481599d8bb286421d0d39c",
+      "publisher": "CN=Nextcloud GmbH, O=Nextcloud GmbH, S=Baden-Württemberg, C=DE",
+      "issuer": "CN=Sectigo Public Code Signing CA R36, O=Sectigo Limited, C=GB",
+      "serialNumber": "00BF5A991AFB9ACA79C3329007B9AA620A",
+      "thumbprint": "9C81A764910FFF3D0B8BC1613EFD72CCF4828EC3",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-07T13:46:37Z"
+    },
+    {
       "slug": "nodejs/windows",
       "name": "Node.js",
       "version": "26.3.0",
@@ -2828,6 +2840,18 @@
       "version": "3.15",
       "sha256": "b8d9b8281ff7dcf6419e7242377f122646d30ecb01e693f9f9fef6c7ecd98a57",
       "lastUpdated": "2026-01-23T00:37:34Z"
+    },
+    {
+      "slug": "proxifier/windows",
+      "name": "Proxifier",
+      "version": "4.14",
+      "sha256": "db20473361892bef8a3516b7017ea414790edd12ba2ef1b41a7350375c31b4c4",
+      "publisher": "E=info@ventobyte.com, CN=VENTOBYTE SL, O=VENTOBYTE SL, STREET=C/ Los Prados 166, L=Gijón, S=Asturias, C=ES, OID.1.3.6.1.4.1.311.60.2.1.3=ES, SERIALNUMBER=000237148, OID.2.5.4.15=Private Organization",
+      "issuer": "CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
+      "serialNumber": "5FDA67EF716415CDF13698FB",
+      "thumbprint": "B9E47F5A1DB1501C86257826F1D2D0A999401A72",
+      "timestamp": "CN=Globalsign TSA for CodeSign1 - R6, O=GlobalSign nv-sa, C=BE",
+      "lastUpdated": "2026-06-07T13:46:39Z"
     },
     {
       "slug": "proxyman/darwin",
@@ -3336,6 +3360,17 @@
       "version": "18.8.3",
       "sha256": "7682d1b229bba64baf5a61d0f0bd9fde73d1a8bfb2763ee6941c657588360b3c",
       "lastUpdated": "2026-06-05T15:12:54Z"
+    },
+    {
+      "slug": "teleport-connect/windows",
+      "name": "Teleport Connect",
+      "version": "18.8.3",
+      "sha256": "03909fec34c320e69b09b5c19acaa87778749aef5b904b837628aa514185d6d3",
+      "publisher": "CN=\"Gravitational, Inc.\", O=\"Gravitational, Inc.\", L=Oakland, S=California, C=US, SERIALNUMBER=5720258, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0A013D24022E356BB5C86E36BAE5595A",
+      "thumbprint": "C644BAB07912F5BD09BDB3C2D9AE6A724F9B2391",
+      "lastUpdated": "2026-06-07T13:46:44Z"
     },
     {
       "slug": "teleport-suite/darwin",
