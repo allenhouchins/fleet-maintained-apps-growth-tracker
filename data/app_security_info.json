@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T05:39:14Z",
+  "lastUpdated": "2026-06-07T05:48:31Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -878,12 +878,12 @@
     {
       "slug": "citrix-workspace/darwin",
       "name": "Citrix Workspace",
-      "version": "26.03.0",
-      "sha256": "5dc5b2372eb42e6f1958d33c51c48f99f2ab8580066805b4bebaa9cc1620d4e2",
-      "cdhash": "8bea46de4e8f8f996bdd408f10c53e7c66fdd808",
+      "version": "26.03.10",
+      "sha256": "83f163f5c266f80360c105d31c62004d9cae81e3f5e4b0cb9cc84ced969431ce",
+      "cdhash": "a2a567a92cb1dcca2101e834315953311d450617",
       "signingId": "S272Y5R93J:com.citrix.receiver.nomas",
       "teamId": "S272Y5R93J",
-      "lastUpdated": "2026-04-03T19:23:13Z"
+      "lastUpdated": "2026-06-07T05:40:02Z"
     },
     {
       "slug": "claude/darwin",
@@ -1014,6 +1014,16 @@
       "lastUpdated": "2026-02-24T19:42:40Z"
     },
     {
+      "slug": "comet/darwin",
+      "name": "Comet",
+      "version": "148.0.7778.1016",
+      "sha256": "9aa651fa7da6417908cdc39c37faa58567f81ec521b101c97a2549e3249c1dbe",
+      "cdhash": "b2fa0b6f57cc33003877a9bfde17b0b2dd66ea43",
+      "signingId": "7S8W4W365S:ai.perplexity.comet",
+      "teamId": "7S8W4W365S",
+      "lastUpdated": "2026-06-07T05:40:42Z"
+    },
+    {
       "slug": "connect-fonts/darwin",
       "name": "Connect Fonts",
       "version": "28.1.4",
@@ -1036,12 +1046,12 @@
     {
       "slug": "crashplan/darwin",
       "name": "CrashPlan",
-      "version": "11.9.1",
-      "sha256": "9b8f7f05bb5722aeaf6ba1738c4e1cb84cdfc56035223f713306044463108f92",
-      "cdhash": "9c3ec109952faeb99f232d85c387c7f2fe28bf4d",
-      "signingId": "UGHXR79U6M:Uninstall",
+      "version": "12.0.0",
+      "sha256": "c09b14cbec67fb468cb1900e03d874ff63478545e779d3ea124bd7cd3fff14ea",
+      "cdhash": "b372b2b20a75580ae4cfeaabd4cc19e9bf0bb711",
+      "signingId": "UGHXR79U6M:com.crashplan.uninstaller",
       "teamId": "UGHXR79U6M",
-      "lastUpdated": "2026-04-03T17:21:49Z"
+      "lastUpdated": "2026-06-07T05:41:10Z"
     },
     {
       "slug": "crashplan/windows",
@@ -2189,12 +2199,12 @@
     {
       "slug": "krita/darwin",
       "name": "Krita",
-      "version": "5.3.1.1",
-      "sha256": "addf5b1a2f182c6b0f0b50271518c2569380c161af0f393e520739379e79ca02",
-      "cdhash": "e6eaef15eabaadb7ff399b7348f26aeb53cf57b4",
+      "version": "5.3.2.1",
+      "sha256": "c6e77c7337f27eb1455e31717186b243d3500055eba66aac91475e4e2f8156b5",
+      "cdhash": "e596c85621e67a67cd851e5b1eefff345914fc3f",
       "signingId": "DL93766A3G:org.krita",
       "teamId": "DL93766A3G",
-      "lastUpdated": "2026-04-23T15:48:39Z"
+      "lastUpdated": "2026-06-07T05:43:18Z"
     },
     {
       "slug": "krita/windows",
@@ -2894,12 +2904,12 @@
     {
       "slug": "onedrive/darwin",
       "name": "OneDrive",
-      "version": "26.078.0426.0002",
-      "sha256": "96989698cae2938eb4f6cb471d7eab64ba3e42268053897bd67f34575abdc2c9",
-      "cdhash": "04748aff7322878ba029bc0076db7c12724b6ed3",
+      "version": "26.088.0510.0004",
+      "sha256": "8a27f2f48f0bc6eb794e85e4e295c2bd0b3b8bde0a1199c761a75a7d91a63947",
+      "cdhash": "c51545bce71385da1b3cb5e6a36248a721b1eb5a",
       "signingId": "UBF8T346G9:com.microsoft.OneDrive",
       "teamId": "UBF8T346G9",
-      "lastUpdated": "2026-05-28T03:21:55Z"
+      "lastUpdated": "2026-06-07T05:44:08Z"
     },
     {
       "slug": "openvpn-connect/darwin",
@@ -4124,12 +4134,12 @@
     {
       "slug": "vnc-server/darwin",
       "name": "VNC Server",
-      "version": "7.15.0",
-      "sha256": "ad25183ec2b285955d2d9af8ac819196c3857f38afa0c643c132a89bb6d74436",
-      "cdhash": "da822d740e3427c88e14f6b373b04f6d030deb34",
+      "version": "7.17.0",
+      "sha256": "bcaaac961f92d2a4d92ea2f46c78d5e6e42cdbb1d113e6c71676e303443ffd77",
+      "cdhash": "fc5f263d32686129091be1bf5ffe19279bc4a4cc",
       "signingId": "ZNCQ8JEH7X:com.realvnc.vncserver_service",
       "teamId": "ZNCQ8JEH7X",
-      "lastUpdated": "2026-05-29T04:32:32Z"
+      "lastUpdated": "2026-06-07T05:47:29Z"
     },
     {
       "slug": "vnc-viewer/darwin",
@@ -4370,12 +4380,12 @@
     {
       "slug": "zed/darwin",
       "name": "Zed",
-      "version": "1.5.3",
-      "sha256": "be06d7377cb3d8d9b3287d7054eafcf3d4598a7f9b2814c33b233ca466f9062d",
-      "cdhash": "52c7f4f70623d11c9f91405f5f9b375977a86265",
+      "version": "1.5.4",
+      "sha256": "b27863e8b13008c30a33f1a71a504a9d4a9bd3e482ff48852ce7c821d2c56d59",
+      "cdhash": "5042e5c98e216f728cbbbf0d38ce9013696d156a",
       "signingId": "MQ55VZLNZQ:dev.zed.Zed",
       "teamId": "MQ55VZLNZQ",
-      "lastUpdated": "2026-06-04T15:18:24Z"
+      "lastUpdated": "2026-06-07T05:48:29Z"
     },
     {
       "slug": "zed/windows",
