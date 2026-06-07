@@ -2,15 +2,6 @@
   "changes": [
     {
       "date": "2026-04-21T16:29:25Z",
-      "appName": "Mozilla Firefox",
-      "slug": "firefox/darwin",
-      "platform": "darwin",
-      "oldVersion": "149.0.2",
-      "newVersion": "150.0",
-      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/150.0/mac/en-US/Firefox%20150.0.dmg"
-    },
-    {
-      "date": "2026-04-21T16:29:25Z",
       "appName": "Mozilla Firefox ESR",
       "slug": "firefox@esr/darwin",
       "platform": "darwin",
@@ -8999,6 +8990,15 @@
       "oldVersion": "",
       "newVersion": "3.2.1",
       "installerUrl": "https://affinity-update.s3.amazonaws.com/mac2/retail/Affinity%20Affinity%20Store%204425.zip"
+    },
+    {
+      "date": "2026-06-07T18:33:58Z",
+      "appName": "Claude DevTools",
+      "slug": "claude-devtools/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "0.5.0",
+      "installerUrl": "https://github.com/matt1398/claude-devtools/releases/download/v0.5.0/claude-devtools-0.5.0-arm64.dmg"
     }
   ]
 }

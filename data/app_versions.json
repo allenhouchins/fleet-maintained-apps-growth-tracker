@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T17:33:51Z",
+  "lastUpdated": "2026-06-07T18:33:58Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -630,6 +630,13 @@
       "platform": "darwin",
       "version": "26.03.10",
       "installerUrl": "https://downloadplugins.citrix.com/ReceiverUpdates/Prod/Receiver/Mac/CitrixWorkspaceAppUniversal26.03.10.40.pkg"
+    },
+    {
+      "slug": "claude-devtools/darwin",
+      "name": "Claude DevTools",
+      "platform": "darwin",
+      "version": "0.5.0",
+      "installerUrl": "https://github.com/matt1398/claude-devtools/releases/download/v0.5.0/claude-devtools-0.5.0-arm64.dmg"
     },
     {
       "slug": "claude/darwin",
