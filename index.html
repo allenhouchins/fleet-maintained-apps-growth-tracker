@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: June 7, 2026 at 12:33 PM CDT</p>
+            Last updated: June 7, 2026 at 12:39 PM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: June 7, 2026 at 12:33 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: June 7, 2026 at 12:39 PM CDT</p>
             </div>
         </div>
     </div>
@@ -3454,7 +3454,14 @@
                 "platform": "darwin",
                 "description": "Affinity is an image editing and design software.",
                 "version": "3.2.1",
-                "installerUrl": "https://affinity-update.s3.amazonaws.com/mac2/retail/Affinity%20Affinity%20Store%204425.zip"
+                "installerUrl": "https://affinity-update.s3.amazonaws.com/mac2/retail/Affinity%20Affinity%20Store%204425.zip",
+                "securityInfo": {
+                  "sha256": "a5201c6932260e18de34e677154ca2c27be233360bc08b66875942d8af0d5d81",
+                  "cdhash": "47295e71c608678aa80ea73d7e0d621bce396603",
+                  "signingId": "5HD2ARTBFS:com.canva.affinity",
+                  "teamId": "5HD2ARTBFS",
+                  "lastUpdated": "2026-06-07T17:35:56Z"
+                }
               },
               {
                 "name": "Affinity",
@@ -4587,6 +4594,14 @@
                   "teamId": "S272Y5R93J",
                   "lastUpdated": "2026-06-07T05:40:02Z"
                 }
+              },
+              {
+                "name": "Claude DevTools",
+                "slug": "claude-devtools/darwin",
+                "platform": "darwin",
+                "description": "Claude DevTools is an app to visualise and analyse Claude Code session executions.",
+                "version": "0.5.0",
+                "installerUrl": "https://github.com/matt1398/claude-devtools/releases/download/v0.5.0/claude-devtools-0.5.0-arm64.dmg"
               },
               {
                 "name": "Claude",
@@ -10700,7 +10715,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `June 7, 2026 at 12:33 PM CDT`;
+                let timestampText = 'Last updated: ' + `June 7, 2026 at 12:39 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
