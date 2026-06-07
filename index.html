@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: June 6, 2026 at 10:16 PM CDT</p>
+            Last updated: June 6, 2026 at 10:23 PM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: June 6, 2026 at 10:16 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: June 6, 2026 at 10:23 PM CDT</p>
             </div>
         </div>
     </div>
@@ -4574,7 +4574,14 @@
                 "platform": "darwin",
                 "description": "ClickShare is a wireless screen sharing client for Barco conferencing systems.",
                 "version": "4.50.0",
-                "installerUrl": "https://assets.cloud.barco.com/clickshare/release/ClickShare-4.50.0-b15_mac.zip"
+                "installerUrl": "https://assets.cloud.barco.com/clickshare/release/ClickShare-4.50.0-b15_mac.zip",
+                "securityInfo": {
+                  "sha256": "cb6a3e557727bb87e296a1bd5a4b0bb81e324e977af7973fb208ab559041044b",
+                  "cdhash": "c65277a0e46e5561a955c569064a136678b1e676",
+                  "signingId": "P6CDJZR997:com.barco.clickshare.updater",
+                  "teamId": "P6CDJZR997",
+                  "lastUpdated": "2026-06-07T03:17:34Z"
+                }
               },
               {
                 "name": "ClickUp",
@@ -6011,7 +6018,14 @@
                 "platform": "darwin",
                 "description": "Groove OmniDialer is an outbound sales dialer for making and managing calls.",
                 "version": "26.603.1017",
-                "installerUrl": "https://groove-dialer.s3-us-west-2.amazonaws.com/electron/Groove%20OmniDialer-26.603.1017-universal.dmg"
+                "installerUrl": "https://groove-dialer.s3-us-west-2.amazonaws.com/electron/Groove%20OmniDialer-26.603.1017-universal.dmg",
+                "securityInfo": {
+                  "sha256": "4bcf3f34b8c2c257ff5ee085510d1ab20167832880313f21fb18e6481a638055",
+                  "cdhash": "2879e0a257f5370a748fbfc4ed293ee2c5aa716f",
+                  "signingId": "ZDYDJ5XPF3:com.electron.dialer",
+                  "teamId": "ZDYDJ5XPF3",
+                  "lastUpdated": "2026-06-07T03:18:16Z"
+                }
               },
               {
                 "name": "Hyper",
@@ -6703,7 +6717,14 @@
                 "platform": "darwin",
                 "description": "Microsoft 365 Copilot is an AI-powered productivity assistant that integrates with Microsoft 365 apps.",
                 "version": "1.2605.2501",
-                "installerUrl": "https://res.cdn.office.net/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_365_Copilot_universal_1.2605.2501_Installer.pkg"
+                "installerUrl": "https://res.cdn.office.net/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_365_Copilot_universal_1.2605.2501_Installer.pkg",
+                "securityInfo": {
+                  "sha256": "70bb5244670af5e852afda22a7241f89f00ba1bf14c7e8df8d4240cdc08f990c",
+                  "cdhash": "af7d85b1ee76334c6950d3549da4c0c50142736b",
+                  "signingId": "UBF8T346G9:com.microsoft.m365copilot",
+                  "teamId": "UBF8T346G9",
+                  "lastUpdated": "2026-06-07T03:19:13Z"
+                }
               },
               {
                 "name": "Microsoft Auto Update",
@@ -7692,7 +7713,14 @@
                 "platform": "darwin",
                 "description": "Power Monitor is an app that reports power adapter and battery status.",
                 "version": "1.3.3",
-                "installerUrl": "https://github.com/SAP/power-monitoring-tool-for-macos/releases/download/1.3.3/PowerMonitor_1.3.3.pkg"
+                "installerUrl": "https://github.com/SAP/power-monitoring-tool-for-macos/releases/download/1.3.3/PowerMonitor_1.3.3.pkg",
+                "securityInfo": {
+                  "sha256": "ed1c052bdb5c3722a0918e20e63014cd2979f9be8503cd55b3aa5d38709068b5",
+                  "cdhash": "85a30a9e067ce7cad99109a497c6ac7b842ffbb7",
+                  "signingId": "7R5ZEU67FQ:corp.sap.PowerMonitor",
+                  "teamId": "7R5ZEU67FQ",
+                  "lastUpdated": "2026-06-07T03:19:45Z"
+                }
               },
               {
                 "name": "PowerShell",
@@ -10257,7 +10285,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `June 6, 2026 at 10:16 PM CDT`;
+                let timestampText = 'Last updated: ' + `June 6, 2026 at 10:23 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
