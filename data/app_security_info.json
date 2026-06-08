@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T03:27:52Z",
+  "lastUpdated": "2026-06-08T03:29:40Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -2764,6 +2764,42 @@
       "version": "1.27.2",
       "sha256": "582de5c7832d4fcf03873948949fde3c1c14a1c414252ba5b03ec3b3c1d823fe",
       "lastUpdated": "2026-05-22T03:21:27Z"
+    },
+    {
+      "slug": "postgresql-15/windows",
+      "name": "PostgreSQL 15",
+      "version": "15.18-1",
+      "sha256": "8d1ac971810b819d861ac6bc47ceaa87a23251c9194f66255ec4ac208d15d688",
+      "publisher": "CN=EnterpriseDB Corporation, O=EnterpriseDB Corporation, L=Wilmington, S=Delaware, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0DE96C819D6A32A561DFCE5FBDD486AC",
+      "thumbprint": "7BEDD1269FCCF7A5D95F18274750B79893C06C70",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-08T03:29:19Z"
+    },
+    {
+      "slug": "postgresql-16/windows",
+      "name": "PostgreSQL 16",
+      "version": "16.14-1",
+      "sha256": "d389834df279a9b7ce4b4a030b6545fd0befb05385ff66932ac37454ad9b9312",
+      "publisher": "CN=EnterpriseDB Corporation, O=EnterpriseDB Corporation, L=Wilmington, S=Delaware, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0DE96C819D6A32A561DFCE5FBDD486AC",
+      "thumbprint": "7BEDD1269FCCF7A5D95F18274750B79893C06C70",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-08T03:29:27Z"
+    },
+    {
+      "slug": "postgresql-17/windows",
+      "name": "PostgreSQL 17",
+      "version": "17.10-1",
+      "sha256": "c0728faccc95ced5a280efdc32413fe35764b2302670eec72569b0fd41ac3513",
+      "publisher": "CN=EnterpriseDB Corporation, O=EnterpriseDB Corporation, L=Wilmington, S=Delaware, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0DE96C819D6A32A561DFCE5FBDD486AC",
+      "thumbprint": "7BEDD1269FCCF7A5D95F18274750B79893C06C70",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-08T03:29:35Z"
     },
     {
       "slug": "postgresql-18/windows",
