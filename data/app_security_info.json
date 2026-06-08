@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T05:42:19Z",
+  "lastUpdated": "2026-06-08T05:46:12Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -845,6 +845,16 @@
       "thumbprint": "61E0C4B02C5A6AD9A6045FCDCECF006D3FEA87C2",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-05-29T17:21:50Z"
+    },
+    {
+      "slug": "burp-suite/darwin",
+      "name": "Burp Suite Community Edition",
+      "version": "2026.3.3",
+      "sha256": "83a36ce291cce53d03b8012b5ff5b5ad89ae8c18640d687f3f738ec5ac6c731a",
+      "cdhash": "8a54100df7a725b29e34a5bfd8f0e0c1d7c80ef9",
+      "signingId": "N82YM748DZ:com.install4j.9806-1938-4586-6531.70",
+      "teamId": "N82YM748DZ",
+      "lastUpdated": "2026-06-08T05:42:53Z"
     },
     {
       "slug": "calibre/darwin",
@@ -2441,6 +2451,16 @@
       "thumbprint": "EA8473F36019BBC97A6813D39993AABC80F5E5A5",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-06-02T17:40:51Z"
+    },
+    {
+      "slug": "lastpass/darwin",
+      "name": "LastPass",
+      "version": "4.116.0",
+      "sha256": "7042367c540f6e58e235edfc1ac6e927c6e4697238333c02fc160c0e42e85085",
+      "cdhash": "67f7d6a6539857c4bd40a7298d32f1a5967ebf0a",
+      "signingId": "N24REP3BMN:com.lastpass.lastpassmacdesktop",
+      "teamId": "N24REP3BMN",
+      "lastUpdated": "2026-06-08T05:43:25Z"
     },
     {
       "slug": "lastpass/windows",
