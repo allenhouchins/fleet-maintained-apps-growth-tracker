@@ -1,105 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-04-22T22:20:30Z",
-      "appName": "Google Chrome",
-      "slug": "google-chrome/windows",
-      "platform": "windows",
-      "oldVersion": "147.0.7727.102",
-      "newVersion": "147.0.7727.117",
-      "installerUrl": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi"
-    },
-    {
-      "date": "2026-04-22T22:20:30Z",
-      "appName": "Webex",
-      "slug": "webex/windows",
-      "platform": "windows",
-      "oldVersion": "46.4.0.34620",
-      "newVersion": "46.4.0.34752",
-      "installerUrl": "https://binaries.webex.com/WebexDesktop-Win-64-Gold/20260422174916/Webex.msi"
-    },
-    {
-      "date": "2026-04-22T22:20:30Z",
-      "appName": "Teleport Suite",
-      "slug": "teleport-suite/darwin",
-      "platform": "darwin",
-      "oldVersion": "18.7.4",
-      "newVersion": "18.7.5",
-      "installerUrl": "https://cdn.teleport.dev/teleport-18.7.5.pkg"
-    },
-    {
-      "date": "2026-04-22T22:20:30Z",
-      "appName": "Zed",
-      "slug": "zed/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.232.3",
-      "newVersion": "0.233.5",
-      "installerUrl": "https://zed.dev/api/releases/stable/0.233.5/Zed-aarch64.dmg"
-    },
-    {
-      "date": "2026-04-22T22:20:30Z",
-      "appName": "Ollama",
-      "slug": "ollama/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.21.0",
-      "newVersion": "0.21.1",
-      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.21.1/Ollama-darwin.zip"
-    },
-    {
-      "date": "2026-04-23T15:40:38Z",
-      "appName": "Google Chrome",
-      "slug": "google-chrome/darwin",
-      "platform": "darwin",
-      "oldVersion": "147.0.7727.102",
-      "newVersion": "147.0.7727.117",
-      "installerUrl": "https://dl.google.com/dl/chrome/mac/universal/stable/gcem/GoogleChrome.pkg"
-    },
-    {
-      "date": "2026-04-23T15:40:38Z",
-      "appName": "Krita",
-      "slug": "krita/darwin",
-      "platform": "darwin",
-      "oldVersion": "5.3.1",
-      "newVersion": "5.3.1.1",
-      "installerUrl": "https://download.kde.org/stable/krita/5.3.1/krita-5.3.1.1-signed.dmg"
-    },
-    {
-      "date": "2026-04-23T15:40:38Z",
-      "appName": "MySQL Workbench",
-      "slug": "mysqlworkbench/darwin",
-      "platform": "darwin",
-      "oldVersion": "8.0.46.CE",
-      "newVersion": "8.0.47.CE",
-      "installerUrl": "https://cdn.mysql.com/Downloads/MySQLGUITools/mysql-workbench-community-8.0.47-macos-arm64.dmg"
-    },
-    {
-      "date": "2026-04-23T15:40:38Z",
-      "appName": "MongoDB Compass",
-      "slug": "mongodb-compass/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.49.4",
-      "newVersion": "1.49.5",
-      "installerUrl": "https://downloads.mongodb.com/compass/mongodb-compass-1.49.5-darwin-arm64.dmg"
-    },
-    {
-      "date": "2026-04-23T15:40:38Z",
-      "appName": "Proxyman",
-      "slug": "proxyman/darwin",
-      "platform": "darwin",
-      "oldVersion": "6.8.0",
-      "newVersion": "6.9.0",
-      "installerUrl": "https://download.proxyman.com/60900/Proxyman_6.9.0.dmg"
-    },
-    {
-      "date": "2026-04-23T15:40:38Z",
-      "appName": "Notion",
-      "slug": "notion/windows",
-      "platform": "windows",
-      "oldVersion": "7.11.0",
-      "newVersion": "7.12.0",
-      "installerUrl": "https://desktop-release.notion-static.com/Notion%20Setup%207.12.0.exe"
-    },
-    {
       "date": "2026-04-23T15:40:38Z",
       "appName": "Webex",
       "slug": "webex/darwin",
@@ -8999,6 +8900,105 @@
       "oldVersion": "",
       "newVersion": "2.54.0",
       "installerUrl": "https://github.com/git-for-windows/git/releases/download/v2.54.0.windows.1/Git-2.54.0-64-bit.exe"
+    },
+    {
+      "date": "2026-06-08T19:47:30Z",
+      "appName": "Loom",
+      "slug": "loom/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.352.4",
+      "newVersion": "0.352.5",
+      "installerUrl": "https://packages.loom.com/desktop-packages/Loom-0.352.5-arm64.dmg"
+    },
+    {
+      "date": "2026-06-08T19:47:30Z",
+      "appName": "Postman",
+      "slug": "postman/windows",
+      "platform": "windows",
+      "oldVersion": "12.13.6",
+      "newVersion": "12.14.0",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.14.0/windows_64"
+    },
+    {
+      "date": "2026-06-08T19:47:30Z",
+      "appName": "Microsoft Teams",
+      "slug": "microsoft-teams/windows",
+      "platform": "windows",
+      "oldVersion": "26120.3106.4722.3411",
+      "newVersion": "26134.1702.4747.7366",
+      "installerUrl": "https://teamsinstaller.public.onecdn.static.microsoft/production-windows-x64/26134.1702.4747.7366/MSTeams-x64.msix"
+    },
+    {
+      "date": "2026-06-08T19:47:30Z",
+      "appName": "Santa",
+      "slug": "santa/darwin",
+      "platform": "darwin",
+      "oldVersion": "2026.4",
+      "newVersion": "2026.5",
+      "installerUrl": "https://github.com/northpolesec/santa/releases/download/2026.5/santa-2026.5.dmg"
+    },
+    {
+      "date": "2026-06-08T19:47:30Z",
+      "appName": "iMazing",
+      "slug": "imazing/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.5.3",
+      "newVersion": "3.5.4",
+      "installerUrl": "https://downloads.imazing.com/mac/iMazing/3.5.4.24052/iMazing_3.5.4.24052.dmg"
+    },
+    {
+      "date": "2026-06-08T19:47:30Z",
+      "appName": "Arc",
+      "slug": "arc/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.149.0",
+      "newVersion": "1.150.0",
+      "installerUrl": "https://releases.arc.net/release/Arc-1.150.0-81693.zip"
+    },
+    {
+      "date": "2026-06-08T19:47:30Z",
+      "appName": "Arc",
+      "slug": "arc/windows",
+      "platform": "windows",
+      "oldVersion": "1.108.0.248",
+      "newVersion": "1.109.0.242",
+      "installerUrl": "https://releases.arc.net/windows/prod/1.109.0.242/Arc.x64.msix"
+    },
+    {
+      "date": "2026-06-08T19:47:30Z",
+      "appName": "Cursor",
+      "slug": "cursor/windows",
+      "platform": "windows",
+      "oldVersion": "3.7.12",
+      "newVersion": "3.7.19",
+      "installerUrl": "https://downloads.cursor.com/production/80c653c2c3528e65016a0d304b54486084b470bb/win32/x64/system-setup/CursorSetup-x64-3.7.19.exe"
+    },
+    {
+      "date": "2026-06-08T19:47:30Z",
+      "appName": "Fork",
+      "slug": "fork/windows",
+      "platform": "windows",
+      "oldVersion": "2.20.0",
+      "newVersion": "2.20.1",
+      "installerUrl": "https://cdn.fork.dev/win/Fork-2.20.1.exe"
+    },
+    {
+      "date": "2026-06-08T19:47:30Z",
+      "appName": "Loom",
+      "slug": "loom/windows",
+      "platform": "windows",
+      "oldVersion": "0.352.4",
+      "newVersion": "0.352.5",
+      "installerUrl": "https://cdn.loom.com/desktop-packages/Loom%20Setup%200.352.5.exe"
+    },
+    {
+      "date": "2026-06-08T19:47:30Z",
+      "appName": "Microsoft Office",
+      "slug": "microsoft-office/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "16.0.19929.20090",
+      "installerUrl": "https://officecdn.microsoft.com/pr/wsus/setup.exe"
     }
   ]
 }
