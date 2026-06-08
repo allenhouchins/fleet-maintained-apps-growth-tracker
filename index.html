@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: June 8, 2026 at 10:14 AM CDT</p>
+            Last updated: June 8, 2026 at 10:19 AM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: June 8, 2026 at 10:14 AM CDT</p>
+                <p id="modalLastUpdated">Last updated: June 8, 2026 at 10:19 AM CDT</p>
             </div>
         </div>
     </div>
@@ -4581,7 +4581,14 @@
                 "platform": "darwin",
                 "description": "CapCut is a video editing and image design platform.",
                 "version": "3.3.0.1159",
-                "installerUrl": "https://lf16-capcut.faceulv.com/obj/capcutpc-packages-us/packages/CapCut_3_3_0_1159_capcutpc_0_creatortool.dmg"
+                "installerUrl": "https://lf16-capcut.faceulv.com/obj/capcutpc-packages-us/packages/CapCut_3_3_0_1159_capcutpc_0_creatortool.dmg",
+                "securityInfo": {
+                  "sha256": "af588a11ae999c2579a8a75d8419f9f5db379890ca9e6855086a61bd95ec4a6e",
+                  "cdhash": "8887aefc648184e19f4877703be915ad918f816d",
+                  "signingId": "22MMUN2RN5:com.lemon.lvoverseas",
+                  "teamId": "22MMUN2RN5",
+                  "lastUpdated": "2026-06-08T15:16:10Z"
+                }
               },
               {
                 "name": "Cavalry",
@@ -11039,7 +11046,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `June 8, 2026 at 10:14 AM CDT`;
+                let timestampText = 'Last updated: ' + `June 8, 2026 at 10:19 AM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
