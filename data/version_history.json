@@ -2,42 +2,6 @@
   "changes": [
     {
       "date": "2026-04-22T15:32:55Z",
-      "appName": "WhatsApp",
-      "slug": "whatsapp/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.16.15",
-      "newVersion": "26.16.17",
-      "installerUrl": "https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release\u0026src=whatsapp_downloads_page"
-    },
-    {
-      "date": "2026-04-22T15:32:55Z",
-      "appName": "Claude",
-      "slug": "claude/windows",
-      "platform": "windows",
-      "oldVersion": "1.3561.0",
-      "newVersion": "1.3883.0",
-      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.3883.0/Claude-93ff6cb984386882b4bd9b6bca80d4cf5af8e13b.msix"
-    },
-    {
-      "date": "2026-04-22T15:32:55Z",
-      "appName": "Zotero",
-      "slug": "zotero/windows",
-      "platform": "windows",
-      "oldVersion": "9.0",
-      "newVersion": "9.0.1",
-      "installerUrl": "https://download.zotero.org/client/release/9.0.1/Zotero-9.0.1_x64_setup.exe"
-    },
-    {
-      "date": "2026-04-22T15:32:55Z",
-      "appName": "Granola",
-      "slug": "granola/windows",
-      "platform": "windows",
-      "oldVersion": "7.140.1",
-      "newVersion": "7.147.1",
-      "installerUrl": "https://api.granola.ai/v1/check-for-update/Granola-7.147.1-win-x64.exe"
-    },
-    {
-      "date": "2026-04-22T15:32:55Z",
       "appName": "Postman",
       "slug": "postman/darwin",
       "platform": "darwin",
@@ -8999,6 +8963,42 @@
       "oldVersion": "",
       "newVersion": "16.14-1",
       "installerUrl": "https://get.enterprisedb.com/postgresql/postgresql-16.14-1-windows-x64.exe"
+    },
+    {
+      "date": "2026-06-08T05:41:11Z",
+      "appName": "BlueJ",
+      "slug": "bluej/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "5.5.0",
+      "installerUrl": "https://github.com/k-pet-group/BlueJ-Greenfoot/releases/download/BLUEJ-RELEASE-5.5.0/BlueJ-mac-aarch64-5.5.0.dmg"
+    },
+    {
+      "date": "2026-06-08T05:41:11Z",
+      "appName": "LastPass",
+      "slug": "lastpass/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "4.116.0",
+      "installerUrl": "https://download.cloud.lastpass.com/mac/LastPass.dmg"
+    },
+    {
+      "date": "2026-06-08T05:41:11Z",
+      "appName": "Beekeeper Studio",
+      "slug": "beekeeper-studio/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "5.8.1",
+      "installerUrl": "https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v5.8.1/Beekeeper-Studio-Setup-5.8.1.exe"
+    },
+    {
+      "date": "2026-06-08T05:41:11Z",
+      "appName": "Burp Suite Community Edition",
+      "slug": "burp-suite/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "2026.3.3",
+      "installerUrl": "https://portswigger-cdn.net/burp/releases/download?product=community\u0026version=2026.3.3\u0026type=MacOsArm64"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T03:17:18Z",
+  "lastUpdated": "2026-06-08T05:41:11Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -443,6 +443,13 @@
       "installerUrl": "https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v5.8.1/Beekeeper-Studio-5.8.1-arm64.dmg"
     },
     {
+      "slug": "beekeeper-studio/windows",
+      "name": "Beekeeper Studio",
+      "platform": "windows",
+      "version": "5.8.1",
+      "installerUrl": "https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v5.8.1/Beekeeper-Studio-Setup-5.8.1.exe"
+    },
+    {
       "slug": "betterdisplay/darwin",
       "name": "BetterDisplay",
       "platform": "darwin",
@@ -490,6 +497,13 @@
       "platform": "windows",
       "version": "5.1.2",
       "installerUrl": "https://download.blender.org/release/Blender5.1/blender-5.1.2-windows-x64.msi"
+    },
+    {
+      "slug": "bluej/darwin",
+      "name": "BlueJ",
+      "platform": "darwin",
+      "version": "5.5.0",
+      "installerUrl": "https://github.com/k-pet-group/BlueJ-Greenfoot/releases/download/BLUEJ-RELEASE-5.5.0/BlueJ-mac-aarch64-5.5.0.dmg"
     },
     {
       "slug": "bluej/windows",
@@ -546,6 +560,13 @@
       "platform": "windows",
       "version": "2026.3.3",
       "installerUrl": "https://portswigger-cdn.net/burp/releases/download?product=community\u0026version=2026.3.3\u0026type=WindowsX64"
+    },
+    {
+      "slug": "burp-suite/darwin",
+      "name": "Burp Suite Community Edition",
+      "platform": "darwin",
+      "version": "2026.3.3",
+      "installerUrl": "https://portswigger-cdn.net/burp/releases/download?product=community\u0026version=2026.3.3\u0026type=MacOsArm64"
     },
     {
       "slug": "calibre/darwin",
@@ -1596,6 +1617,13 @@
       "platform": "windows",
       "version": "5.3.2.1",
       "installerUrl": "https://download.kde.org/stable/krita/5.3.2.1/krita-x64-5.3.2.1-setup.exe"
+    },
+    {
+      "slug": "lastpass/darwin",
+      "name": "LastPass",
+      "platform": "darwin",
+      "version": "4.116.0",
+      "installerUrl": "https://download.cloud.lastpass.com/mac/LastPass.dmg"
     },
     {
       "slug": "lastpass/windows",
