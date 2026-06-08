@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: June 8, 2026 at 12:28 PM CDT</p>
+            Last updated: June 8, 2026 at 1:56 PM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: June 8, 2026 at 12:28 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: June 8, 2026 at 1:56 PM CDT</p>
             </div>
         </div>
     </div>
@@ -1584,7 +1584,7 @@
             412,
             413,
             449,
-            468
+            470
           ],
           "additions": [
             20,
@@ -2048,7 +2048,7 @@
             10,
             1,
             36,
-            19
+            21
           ],
           "macCounts": [
             20,
@@ -2976,7 +2976,7 @@
             163,
             164,
             192,
-            200
+            202
           ],
           "growthDates": [
             "2025-03-04",
@@ -3126,7 +3126,7 @@
             412,
             413,
             449,
-            468
+            470
           ],
           "growthAdditions": [
             20,
@@ -3201,7 +3201,7 @@
             10,
             1,
             36,
-            19
+            21
           ]
         };
         
@@ -6070,6 +6070,14 @@
                 }
               },
               {
+                "name": "Git",
+                "slug": "git/windows",
+                "platform": "windows",
+                "description": "Git is a free and open source distributed version control system designed to handle everything from small to very large projects.",
+                "version": "2.54.0",
+                "installerUrl": "https://github.com/git-for-windows/git/releases/download/v2.54.0.windows.1/Git-2.54.0-64-bit.exe"
+              },
+              {
                 "name": "GitHub Desktop",
                 "slug": "github-desktop/windows",
                 "platform": "windows",
@@ -8641,6 +8649,14 @@
                 }
               },
               {
+                "name": "R for Windows",
+                "slug": "r/windows",
+                "platform": "windows",
+                "description": "R is a free software environment for statistical computing and graphics.",
+                "version": "4.6.0",
+                "installerUrl": "https://cloud.r-project.org/bin/windows/base/old/4.6.0/R-4.6.0-win.exe"
+              },
+              {
                 "name": "Rancher Desktop",
                 "slug": "rancher/darwin",
                 "platform": "darwin",
@@ -11104,7 +11120,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `June 8, 2026 at 12:28 PM CDT`;
+                let timestampText = 'Last updated: ' + `June 8, 2026 at 1:56 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {

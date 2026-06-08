@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T17:12:45Z",
+  "lastUpdated": "2026-06-08T18:56:18Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1283,6 +1283,13 @@
       "installerUrl": "https://download.gimp.org/gimp/v3.2/windows/gimp-3.2.4-setup.exe"
     },
     {
+      "slug": "git/windows",
+      "name": "Git",
+      "platform": "windows",
+      "version": "2.54.0",
+      "installerUrl": "https://github.com/git-for-windows/git/releases/download/v2.54.0.windows.1/Git-2.54.0-64-bit.exe"
+    },
+    {
       "slug": "github-desktop/windows",
       "name": "GitHub Desktop",
       "platform": "windows",
@@ -2422,6 +2429,13 @@
       "platform": "darwin",
       "version": "9.44.0",
       "installerUrl": "https://quip-clients.com/macosx_9.44.0.dmg"
+    },
+    {
+      "slug": "r/windows",
+      "name": "R for Windows",
+      "platform": "windows",
+      "version": "4.6.0",
+      "installerUrl": "https://cloud.r-project.org/bin/windows/base/old/4.6.0/R-4.6.0-win.exe"
     },
     {
       "slug": "rancher/darwin",

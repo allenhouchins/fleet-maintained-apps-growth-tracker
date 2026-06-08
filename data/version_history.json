@@ -1,24 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-04-22T15:32:55Z",
-      "appName": "Claude",
-      "slug": "claude/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.3561.0",
-      "newVersion": "1.3883.0",
-      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.3883.0/Claude-93ff6cb984386882b4bd9b6bca80d4cf5af8e13b.zip"
-    },
-    {
-      "date": "2026-04-22T22:20:30Z",
-      "appName": "Teleport Connect",
-      "slug": "teleport-connect/darwin",
-      "platform": "darwin",
-      "oldVersion": "18.7.4",
-      "newVersion": "18.7.5",
-      "installerUrl": "https://cdn.teleport.dev/Teleport%20Connect-18.7.5.dmg"
-    },
-    {
       "date": "2026-04-22T22:20:30Z",
       "appName": "Google Chrome",
       "slug": "google-chrome/windows",
@@ -8999,6 +8981,24 @@
       "oldVersion": "12.13.6",
       "newVersion": "12.14.0",
       "installerUrl": "https://dl.pstmn.io/download/version/12.14.0/osx_arm64"
+    },
+    {
+      "date": "2026-06-08T18:56:18Z",
+      "appName": "R for Windows",
+      "slug": "r/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "4.6.0",
+      "installerUrl": "https://cloud.r-project.org/bin/windows/base/old/4.6.0/R-4.6.0-win.exe"
+    },
+    {
+      "date": "2026-06-08T18:56:18Z",
+      "appName": "Git",
+      "slug": "git/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "2.54.0",
+      "installerUrl": "https://github.com/git-for-windows/git/releases/download/v2.54.0.windows.1/Git-2.54.0-64-bit.exe"
     }
   ]
 }
