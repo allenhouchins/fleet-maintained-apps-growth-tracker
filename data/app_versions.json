@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T01:04:11Z",
+  "lastUpdated": "2026-06-08T03:17:18Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -261,6 +261,20 @@
       "installerUrl": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v1.7.1/Another-Redis-Desktop-Manager-win-1.7.1-x64.exe"
     },
     {
+      "slug": "antigravity-ide/darwin",
+      "name": "Google Antigravity IDE",
+      "platform": "darwin",
+      "version": "2.0.4",
+      "installerUrl": "https://edgedl.me.gvt1.com/edgedl/release2/j0qc3/antigravity/stable/2.0.4-6381998290370560/darwin-arm/Antigravity%20IDE.dmg"
+    },
+    {
+      "slug": "antigravity-ide/windows",
+      "name": "Google Antigravity IDE",
+      "platform": "windows",
+      "version": "2.0.4",
+      "installerUrl": "https://edgedl.me.gvt1.com/edgedl/release2/j0qc3/antigravity/stable/2.0.4-6381998290370560/windows-x64/Antigravity%20IDE.exe"
+    },
+    {
       "slug": "antigravity/darwin",
       "name": "Google Antigravity",
       "platform": "darwin",
@@ -420,6 +434,13 @@
       "platform": "darwin",
       "version": "16.0.1",
       "installerUrl": "https://s3.amazonaws.com/BBSW-download/BBEdit_16.0.1.dmg"
+    },
+    {
+      "slug": "beekeeper-studio/darwin",
+      "name": "Beekeeper Studio",
+      "platform": "darwin",
+      "version": "5.8.1",
+      "installerUrl": "https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v5.8.1/Beekeeper-Studio-5.8.1-arm64.dmg"
     },
     {
       "slug": "betterdisplay/darwin",
@@ -940,6 +961,13 @@
       "installerUrl": "https://windsurf-stable.codeiumdata.com/darwin-arm64-dmg/stable/e9f7e622f49ec544e97d0e624691d71a963ac40b/Devin-darwin-arm64-3.0.28.dmg"
     },
     {
+      "slug": "dfu-blaster-pro/darwin",
+      "name": "DFU Blaster Pro",
+      "platform": "darwin",
+      "version": "4.2",
+      "installerUrl": "https://twocanoes-software-updates.s3.amazonaws.com/DFU_Blaster_Pro_Build-3282_Version-4.2.dmg"
+    },
+    {
       "slug": "dialpad/darwin",
       "name": "Dialpad",
       "platform": "darwin",
@@ -1360,6 +1388,13 @@
       "installerUrl": "https://github.com/vercel/hyper/releases/download/v3.4.1/Hyper-3.4.1-mac-arm64.zip"
     },
     {
+      "slug": "ibm-notifier/darwin",
+      "name": "IBM Notifier",
+      "platform": "darwin",
+      "version": "3.2.3",
+      "installerUrl": "https://github.com/IBM/mac-ibm-notifications/releases/download/v-3.2.3-b-135/IBM.Notifier.zip"
+    },
+    {
       "slug": "icon-composer/darwin",
       "name": "Icon Composer",
       "platform": "darwin",
@@ -1545,8 +1580,8 @@
       "slug": "kitty/darwin",
       "name": "kitty",
       "platform": "darwin",
-      "version": "0.47.1",
-      "installerUrl": "https://github.com/kovidgoyal/kitty/releases/download/v0.47.1/kitty-0.47.1.dmg"
+      "version": "0.47.2",
+      "installerUrl": "https://github.com/kovidgoyal/kitty/releases/download/v0.47.2/kitty-0.47.2.dmg"
     },
     {
       "slug": "krita/darwin",
@@ -1757,6 +1792,13 @@
       "platform": "darwin",
       "version": "16.109.3",
       "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.109.26053122_Installer.pkg"
+    },
+    {
+      "slug": "microsoft-remote-help/darwin",
+      "name": "Microsoft Remote Help",
+      "platform": "darwin",
+      "version": "1.0.2601221",
+      "installerUrl": "https://res.public.onecdn.static.microsoft/mro1cdnstorage/1ac37578-5a24-40fb-892e-b89d85b6dfaa/MacAutoupdate/Microsoft_Remote_Help_1.0.2601221_installer.pkg"
     },
     {
       "slug": "microsoft-remote-help/windows",
@@ -2128,6 +2170,27 @@
       "platform": "darwin",
       "version": "1.27.2",
       "installerUrl": "https://github.com/containers/podman-desktop/releases/download/v1.27.2/podman-desktop-1.27.2-arm64.dmg"
+    },
+    {
+      "slug": "postgresql-15/windows",
+      "name": "PostgreSQL 15",
+      "platform": "windows",
+      "version": "15.18-1",
+      "installerUrl": "https://get.enterprisedb.com/postgresql/postgresql-15.18-1-windows-x64.exe"
+    },
+    {
+      "slug": "postgresql-16/windows",
+      "name": "PostgreSQL 16",
+      "platform": "windows",
+      "version": "16.14-1",
+      "installerUrl": "https://get.enterprisedb.com/postgresql/postgresql-16.14-1-windows-x64.exe"
+    },
+    {
+      "slug": "postgresql-17/windows",
+      "name": "PostgreSQL 17",
+      "platform": "windows",
+      "version": "17.10-1",
+      "installerUrl": "https://get.enterprisedb.com/postgresql/postgresql-17.10-1-windows-x64.exe"
     },
     {
       "slug": "postgresql-18/windows",
@@ -2539,8 +2602,8 @@
       "slug": "stats/darwin",
       "name": "Stats",
       "platform": "darwin",
-      "version": "2.12.16",
-      "installerUrl": "https://github.com/exelban/stats/releases/download/v2.12.16/Stats.dmg"
+      "version": "3.0.1",
+      "installerUrl": "https://github.com/exelban/stats/releases/download/v3.0.1/Stats.dmg"
     },
     {
       "slug": "steam/darwin",
