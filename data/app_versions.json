@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T15:13:54Z",
+  "lastUpdated": "2026-06-08T17:12:45Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -49,6 +49,13 @@
       "platform": "windows",
       "version": "8.34.1",
       "installerUrl": "https://work-desktop-assets.8x8.com/prod-publish/ga/work-64-msi-v8.34.1-11.msi"
+    },
+    {
+      "slug": "ableton-live-suite/darwin",
+      "name": "Ableton Live Suite",
+      "platform": "darwin",
+      "version": "12.4.1",
+      "installerUrl": "https://cdn-downloads.ableton.com/channels/12.4.1/ableton_live_suite_12.4.1_universal.dmg"
     },
     {
       "slug": "abstract/darwin",
@@ -831,8 +838,8 @@
       "slug": "cursor/darwin",
       "name": "Cursor",
       "platform": "darwin",
-      "version": "3.7.12",
-      "installerUrl": "https://downloads.cursor.com/production/b887a26c4f70bd8136bfffeda812b24194ec9ce0/darwin/arm64/Cursor-darwin-arm64.zip"
+      "version": "3.7.19",
+      "installerUrl": "https://downloads.cursor.com/production/80c653c2c3528e65016a0d304b54486084b470bb/darwin/arm64/Cursor-darwin-arm64.zip"
     },
     {
       "slug": "cursor/windows",
@@ -915,8 +922,8 @@
       "slug": "dbeaver-enterprise/darwin",
       "name": "DBeaverEE",
       "platform": "darwin",
-      "version": "26.0.0",
-      "installerUrl": "https://downloads.dbeaver.net/enterprise/26.0.0/dbeaver-ee-26.0.0-macos-aarch64.dmg"
+      "version": "26.1.0",
+      "installerUrl": "https://downloads.dbeaver.net/enterprise/26.1.0/dbeaver-ee-26.1.0-macos-aarch64.dmg"
     },
     {
       "slug": "dbeaver-enterprise/windows",
@@ -929,8 +936,8 @@
       "slug": "dbeaverlite/darwin",
       "name": "DBeaverLite",
       "platform": "darwin",
-      "version": "26.0.0",
-      "installerUrl": "https://downloads.dbeaver.net/lite/26.0.0/dbeaver-le-26.0.0-macos-aarch64.dmg"
+      "version": "26.1.0",
+      "installerUrl": "https://downloads.dbeaver.net/lite/26.1.0/dbeaver-le-26.1.0-macos-aarch64.dmg"
     },
     {
       "slug": "dbeaverlite/windows",
@@ -943,8 +950,8 @@
       "slug": "dbeaverultimate/darwin",
       "name": "DBeaverUltimate",
       "platform": "darwin",
-      "version": "26.0.0",
-      "installerUrl": "https://downloads.dbeaver.net/ultimate/26.0.0/dbeaver-ue-26.0.0-macos-aarch64.dmg"
+      "version": "26.1.0",
+      "installerUrl": "https://downloads.dbeaver.net/ultimate/26.1.0/dbeaver-ue-26.1.0-macos-aarch64.dmg"
     },
     {
       "slug": "dbeaverultimate/windows",
@@ -1846,8 +1853,8 @@
       "slug": "microsoft-teams/darwin",
       "name": "Microsoft Teams",
       "platform": "darwin",
-      "version": "26120.3106.4725.800",
-      "installerUrl": "https://statics.teams.cdn.office.net/production-osx/26120.3106.4725.800/MicrosoftTeams.pkg"
+      "version": "26134.1610.4759.7759",
+      "installerUrl": "https://statics.teams.cdn.office.net/production-osx/26134.1610.4759.7759/MicrosoftTeams.pkg"
     },
     {
       "slug": "microsoft-teams/windows",
@@ -2245,8 +2252,8 @@
       "slug": "postman/darwin",
       "name": "Postman",
       "platform": "darwin",
-      "version": "12.13.6",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.13.6/osx_arm64"
+      "version": "12.14.0",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.14.0/osx_arm64"
     },
     {
       "slug": "postman/windows",
@@ -2394,6 +2401,20 @@
       "platform": "windows",
       "version": "2024.3.5",
       "installerUrl": "https://download.jetbrains.com/python/pycharm-professional-2024.3.5.exe"
+    },
+    {
+      "slug": "python-3.13/windows",
+      "name": "Python 3.13",
+      "platform": "windows",
+      "version": "3.13.13",
+      "installerUrl": "https://www.python.org/ftp/python/3.13.13/python-3.13.13-amd64.exe"
+    },
+    {
+      "slug": "python-3.14/windows",
+      "name": "Python 3.14",
+      "platform": "windows",
+      "version": "3.14.5",
+      "installerUrl": "https://www.python.org/ftp/python/3.14.5/python-3.14.5-amd64.exe"
     },
     {
       "slug": "quip/darwin",
