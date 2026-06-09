@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T17:00:20Z",
+  "lastUpdated": "2026-06-09T17:46:36Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -2956,6 +2956,13 @@
       "installerUrl": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM.dmg"
     },
     {
+      "slug": "vanilla/darwin",
+      "name": "Vanilla",
+      "platform": "darwin",
+      "version": "2.2",
+      "installerUrl": "https://macrelease.matthewpalmer.net/distribution/appcasts/Vanilla-61.dmg"
+    },
+    {
       "slug": "vc-redist-2013-x64/windows",
       "name": "Microsoft Visual C++ 2013 Redistributable (x64)",
       "platform": "windows",
@@ -2968,6 +2975,41 @@
       "platform": "windows",
       "version": "14.51.36231.0",
       "installerUrl": "https://download.visualstudio.microsoft.com/download/pr/c1bd4f2c-3672-468e-8480-7ed419dbb641/90E48ADE404E4576D023ABFA374F323555F233982A8805EA9AC63DCA9491A16B/VC_redist.x64.exe"
+    },
+    {
+      "slug": "vellum/darwin",
+      "name": "Vellum",
+      "platform": "darwin",
+      "version": "4.1.3",
+      "installerUrl": "https://180g.s3.amazonaws.com/downloads/Vellum-41300.zip"
+    },
+    {
+      "slug": "vernier-spectral-analysis/darwin",
+      "name": "Vernier Spectral Analysis",
+      "platform": "darwin",
+      "version": "5.1.0-2993",
+      "installerUrl": "https://software-releases.graphicalanalysis.com/sa/mac/release/Vernier-Spectral-Analysis-5.1.0-2993.dmg"
+    },
+    {
+      "slug": "versions/darwin",
+      "name": "Versions",
+      "platform": "darwin",
+      "version": "2.4.4",
+      "installerUrl": "https://updates.versionsapp.com/v2/prod/Versions-2.4.4-2040.zip"
+    },
+    {
+      "slug": "via/darwin",
+      "name": "VIA",
+      "platform": "darwin",
+      "version": "3.0.0",
+      "installerUrl": "https://github.com/the-via/releases/releases/download/v3.0.0/via-3.0.0-mac.dmg"
+    },
+    {
+      "slug": "vimcal/darwin",
+      "name": "Vimcal",
+      "platform": "darwin",
+      "version": "1.0.46",
+      "installerUrl": "https://vimcal-m1.s3.amazonaws.com/Vimcal-1.0.46-arm64.dmg"
     },
     {
       "slug": "virtualbox/darwin",
@@ -3005,6 +3047,13 @@
       "installerUrl": "https://swupdate.sparklabs.com/download/win/release/viscosity/Viscosity%20Installer%201.12.1.exe"
     },
     {
+      "slug": "visual-paradigm/darwin",
+      "name": "Visual Paradigm",
+      "platform": "darwin",
+      "version": "18.0",
+      "installerUrl": "https://www.visual-paradigm.com/downloads/vp18.0/20260521/Visual_Paradigm_18_0_20260521_OSX_AArch64.dmg"
+    },
+    {
       "slug": "visual-studio-code/darwin",
       "name": "Microsoft Visual Studio Code",
       "platform": "darwin",
@@ -3017,6 +3066,20 @@
       "platform": "windows",
       "version": "1.123.0",
       "installerUrl": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/6a44c352bd24569c417e530095901b649960f9f8/VSCodeSetup-x64-1.123.0.exe"
+    },
+    {
+      "slug": "vivid-app/darwin",
+      "name": "Vivid",
+      "platform": "darwin",
+      "version": "2.18.1",
+      "installerUrl": "https://lumen-digital.com/apps/vivid/releases/Vivid2.18.1.zip"
+    },
+    {
+      "slug": "viz/darwin",
+      "name": "Viz",
+      "platform": "darwin",
+      "version": "2.3.3",
+      "installerUrl": "https://github.com/alienator88/Viz/releases/download/2.3.3/Viz.zip"
     },
     {
       "slug": "vlc/darwin",
@@ -3061,6 +3124,20 @@
       "installerUrl": "https://downloads.realvnc.com/download/file/viewer.files/VNC-Viewer-7.15.1-Windows-msi.zip"
     },
     {
+      "slug": "voiceink/darwin",
+      "name": "VoiceInk",
+      "platform": "darwin",
+      "version": "1.79",
+      "installerUrl": "https://github.com/Beingpax/VoiceInk/releases/download/v1.79/VoiceInk.dmg"
+    },
+    {
+      "slug": "vpn-tracker-365/darwin",
+      "name": "VPN Tracker 365",
+      "platform": "darwin",
+      "version": "26.3",
+      "installerUrl": "https://download.equinux.com/files/other/VPN%20Tracker%20365%20-%2026.3.87.zip"
+    },
+    {
       "slug": "vscodium/darwin",
       "name": "VSCodium",
       "platform": "darwin",
@@ -3073,6 +3150,27 @@
       "platform": "windows",
       "version": "1.121.03429",
       "installerUrl": "https://github.com/VSCodium/vscodium/releases/download/1.121.03429/VSCodiumSetup-x64-1.121.03429.exe"
+    },
+    {
+      "slug": "vuescan/darwin",
+      "name": "VueScan",
+      "platform": "darwin",
+      "version": "9.8.54",
+      "installerUrl": "https://www.hamrick.com/files/vuea6498.dmg"
+    },
+    {
+      "slug": "vyprvpn/darwin",
+      "name": "VyprVPN",
+      "platform": "darwin",
+      "version": "6.0.4.11438",
+      "installerUrl": "https://downloads.vyprvpn.com/downloads/vyprvpn/desktop/mac/production/6.0.4.11438/VyprVPN_v6.0.4.11438.dmg"
+    },
+    {
+      "slug": "vysor/darwin",
+      "name": "Vysor",
+      "platform": "darwin",
+      "version": "5.0.7",
+      "installerUrl": "https://github.com/koush/vysor.io/releases/download/v5.0.7/Vysor-mac-5.0.7.zip"
     },
     {
       "slug": "wacom-tablet/darwin",
