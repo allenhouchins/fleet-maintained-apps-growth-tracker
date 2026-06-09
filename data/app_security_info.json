@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T17:52:33Z",
+  "lastUpdated": "2026-06-09T17:56:24Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -4564,6 +4564,53 @@
       "lastUpdated": "2026-06-05T19:44:12Z"
     },
     {
+      "slug": "vellum/darwin",
+      "name": "Vellum",
+      "version": "4.1.3",
+      "sha256": "8e5ebef561821aa9222985f1d0b4d4c8419ec13cc85171823029a95522df6b22",
+      "cdhash": "5a3e8fcb735e993aae784e6703d61fb11f3d709e",
+      "signingId": "5KKYLJ96NW:co.180g.Vellum",
+      "teamId": "5KKYLJ96NW",
+      "lastUpdated": "2026-06-09T17:52:57Z"
+    },
+    {
+      "slug": "vernier-spectral-analysis/darwin",
+      "name": "Vernier Spectral Analysis",
+      "version": "5.1.0-2993",
+      "sha256": "87d00b20160b912db1473ffd41d272b07a15090b792c03444d97bdf7aa14be86",
+      "cdhash": "8b7521c04c29cbebd46b8536c2db633e51bd261d",
+      "signingId": "75WN2B2WR8:Vernier.SpectralAnalysis",
+      "teamId": "75WN2B2WR8",
+      "lastUpdated": "2026-06-09T17:53:27Z"
+    },
+    {
+      "slug": "versions/darwin",
+      "name": "Versions",
+      "version": "2.4.4",
+      "sha256": "11becb556b3640616620993cab6d12b268c0e8a7f15d6b2dc37de6ee06745e4d",
+      "cdhash": "38024cfe81f1679a684a1a036daaf9cb65550d31",
+      "signingId": "4G35KLFD64:com.versionsapp.v2",
+      "teamId": "4G35KLFD64",
+      "lastUpdated": "2026-06-09T17:53:49Z"
+    },
+    {
+      "slug": "via/darwin",
+      "name": "VIA",
+      "version": "3.0.0",
+      "sha256": "a889bc6831f3a2b84d32d575552b22ae839f30031c19ab6f02f087da68d2614f",
+      "lastUpdated": "2026-06-09T17:54:12Z"
+    },
+    {
+      "slug": "vimcal/darwin",
+      "name": "Vimcal",
+      "version": "1.0.46",
+      "sha256": "271c5900e5f4e3718615af361747d66eb314ff0c21b591d6cf2577a41c96b504",
+      "cdhash": "ae733dc0c8aeda1607d572f6042b91a89d64e271",
+      "signingId": "7F7GXK9J99:com.vimcal.app",
+      "teamId": "7F7GXK9J99",
+      "lastUpdated": "2026-06-09T17:54:37Z"
+    },
+    {
       "slug": "virtualbox/darwin",
       "name": "VirtualBox",
       "version": "7.2.8",
@@ -4617,6 +4664,16 @@
       "lastUpdated": "2026-06-07T17:41:49Z"
     },
     {
+      "slug": "visual-paradigm/darwin",
+      "name": "Visual Paradigm",
+      "version": "18.0",
+      "sha256": "92bdafafb4b66503b4fa5cf14db051db5e6bde8bd6e7b25925730834d5e5daf7",
+      "cdhash": "2af3aa5199f610bd66173eebc5e4a1c162b1f7c9",
+      "signingId": "DZ999TZELT:com.install4j.1106-5897-7327-6550.5",
+      "teamId": "DZ999TZELT",
+      "lastUpdated": "2026-06-09T17:55:16Z"
+    },
+    {
       "slug": "visual-studio-code/darwin",
       "name": "Microsoft Visual Studio Code",
       "version": "1.123.0",
@@ -4637,6 +4694,26 @@
       "thumbprint": "1D77A9B9E8FE2075D9AD15123257FB90DB0DA4A1",
       "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:401A-05E0-D947, OU=Microsoft Ireland Operations Limited, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
       "lastUpdated": "2026-06-03T17:47:45Z"
+    },
+    {
+      "slug": "vivid-app/darwin",
+      "name": "Vivid",
+      "version": "2.18.1",
+      "sha256": "8d16f3343732c5b14cc429bbfbc48a004e01c5eb95e4240d38f53d37ae48547f",
+      "cdhash": "ea5198ceccc7fc0c18c97d8ff79b121207d2281a",
+      "signingId": "793V7A9UA3:com.goodsnooze.vivid",
+      "teamId": "793V7A9UA3",
+      "lastUpdated": "2026-06-09T17:55:40Z"
+    },
+    {
+      "slug": "viz/darwin",
+      "name": "Viz",
+      "version": "2.3.3",
+      "sha256": "d43e2801176a536a4ff9cbe24694c5a2c9110bd3a38d5aa1b5824cd0c0bdd51e",
+      "cdhash": "7b4d211731bdee3f8e9eb7e70b2cc91572c2fbe5",
+      "signingId": "BK8443AXLU:com.alienator88.Viz",
+      "teamId": "BK8443AXLU",
+      "lastUpdated": "2026-06-09T17:56:01Z"
     },
     {
       "slug": "vlc/darwin",
@@ -4673,6 +4750,16 @@
       "signingId": "ZNCQ8JEH7X:com.realvnc.vncviewer",
       "teamId": "ZNCQ8JEH7X",
       "lastUpdated": "2025-12-20T22:58:48Z"
+    },
+    {
+      "slug": "voiceink/darwin",
+      "name": "VoiceInk",
+      "version": "1.79",
+      "sha256": "530bd89c690bf2c54ca916f6ee5248d76a2742bcc9795c0ebb00ab93733ce7a2",
+      "cdhash": "d453eac71d91bbe23b07836f2b0be310853e138f",
+      "signingId": "V6J6A3VWY2:com.prakashjoshipax.VoiceInk",
+      "teamId": "V6J6A3VWY2",
+      "lastUpdated": "2026-06-09T17:56:22Z"
     },
     {
       "slug": "vscodium/darwin",
