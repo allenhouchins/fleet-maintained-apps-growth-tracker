@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T20:45:40Z",
+  "lastUpdated": "2026-06-09T21:28:44Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -576,6 +576,20 @@
       "installerUrl": "https://portswigger-cdn.net/burp/releases/download?product=community\u0026version=2026.3.3\u0026type=MacOsArm64"
     },
     {
+      "slug": "cacher/darwin",
+      "name": "Cacher",
+      "platform": "darwin",
+      "version": "2.47.9",
+      "installerUrl": "https://cacher-download.nyc3.digitaloceanspaces.com/Cacher-2.47.9-universal-mac.zip"
+    },
+    {
+      "slug": "caffeine/darwin",
+      "name": "Caffeine",
+      "platform": "darwin",
+      "version": "1.1.4",
+      "installerUrl": "https://github.com/IntelliScape/caffeine/releases/download/1.1.4/Caffeine.dmg"
+    },
+    {
       "slug": "calibre/darwin",
       "name": "calibre",
       "platform": "darwin",
@@ -590,6 +604,20 @@
       "installerUrl": "https://download.calibre-ebook.com/9.9.0/calibre-64bit-9.9.0.msi"
     },
     {
+      "slug": "calibrite-profiler/darwin",
+      "name": "calibrite PROFILER",
+      "platform": "darwin",
+      "version": "3.1.0",
+      "installerUrl": "https://github.com/LUMESCA/calibrite-profiler-releases/releases/download/v3.1.0/calibrite-PROFILER-3.1.0.dmg"
+    },
+    {
+      "slug": "camo-studio/darwin",
+      "name": "Camo Studio",
+      "platform": "darwin",
+      "version": "2.7.2",
+      "installerUrl": "https://releases.reincubate.com/camo/camo-macos-2.7.2.22847.zip"
+    },
+    {
       "slug": "camtasia/darwin",
       "name": "Camtasia",
       "platform": "darwin",
@@ -602,6 +630,13 @@
       "platform": "windows",
       "version": "26.1.2.16723",
       "installerUrl": "https://download.techsmith.com/camtasiastudio/releases/2612/camtasia.msi"
+    },
+    {
+      "slug": "camunda-modeler/darwin",
+      "name": "Camunda Modeler",
+      "platform": "darwin",
+      "version": "5.47.0",
+      "installerUrl": "https://downloads.camunda.cloud/release/camunda-modeler/5.47.0/camunda-modeler-5.47.0-mac-arm64.zip"
     },
     {
       "slug": "canva/darwin",
@@ -625,6 +660,41 @@
       "installerUrl": "https://lf16-capcut.faceulv.com/obj/capcutpc-packages-us/packages/CapCut_3_3_0_1159_capcutpc_0_creatortool.dmg"
     },
     {
+      "slug": "captain/darwin",
+      "name": "Captain",
+      "platform": "darwin",
+      "version": "10.5.0",
+      "installerUrl": "https://github.com/RickWong/Captain/releases/download/v10.5.0/Captain-10.5.0-arm64.dmg"
+    },
+    {
+      "slug": "captin/darwin",
+      "name": "Captin",
+      "platform": "darwin",
+      "version": "1.3.1",
+      "installerUrl": "https://raw.githubusercontent.com/cool8jay/public/master/captin/Captin.zip"
+    },
+    {
+      "slug": "capto/darwin",
+      "name": "Capto",
+      "platform": "darwin",
+      "version": "2.1.5",
+      "installerUrl": "https://d3l6g06uqih57x.cloudfront.net/Captomac/webstore/Capto.dmg"
+    },
+    {
+      "slug": "carbon-copy-cloner/darwin",
+      "name": "Carbon Copy Cloner",
+      "platform": "darwin",
+      "version": "7.1.5",
+      "installerUrl": "https://bombich.scdn1.secure.raxcdn.com/software/files/ccc-7.1.5.8335.zip"
+    },
+    {
+      "slug": "cardhop/darwin",
+      "name": "Cardhop",
+      "platform": "darwin",
+      "version": "2.4.7",
+      "installerUrl": "https://cdn.flexibits.com/Cardhop_2.4.7.zip"
+    },
+    {
       "slug": "cavalry/darwin",
       "name": "Cavalry",
       "platform": "darwin",
@@ -632,11 +702,32 @@
       "installerUrl": "https://cavalry.studio/downloads/latest/Cavalry.dmg"
     },
     {
+      "slug": "cellprofiler/darwin",
+      "name": "CellProfiler",
+      "platform": "darwin",
+      "version": "4.2.8",
+      "installerUrl": "https://github.com/CellProfiler/CellProfiler/releases/download/v4.2.8/CellProfiler-macOS-4.2.8.zip"
+    },
+    {
+      "slug": "chalk/darwin",
+      "name": "Chalk",
+      "platform": "darwin",
+      "version": "1.7.5",
+      "installerUrl": "https://pierre.chachatelier.fr/chalk/downloads/Chalk-1_7_5.dmg"
+    },
+    {
       "slug": "charles/darwin",
       "name": "Charles",
       "platform": "darwin",
       "version": "5.1",
       "installerUrl": "https://www.charlesproxy.com/assets/release/5.1/charles-proxy-5.1.dmg"
+    },
+    {
+      "slug": "charmstone/darwin",
+      "name": "Charmstone",
+      "platform": "darwin",
+      "version": "1.44",
+      "installerUrl": "https://charmstone.app/downloads/Charmstone1.44.dmg"
     },
     {
       "slug": "chatgpt-atlas/darwin",
@@ -651,6 +742,48 @@
       "platform": "darwin",
       "version": "1.2026.119",
       "installerUrl": "https://persistent.oaistatic.com/sidekick/public/ChatGPT_Desktop_public_1.2026.119_1780053722.dmg"
+    },
+    {
+      "slug": "chatwise/darwin",
+      "name": "ChatWise",
+      "platform": "darwin",
+      "version": "26.5.3",
+      "installerUrl": "https://releases.chatwise.app/26.5.3/ChatWise-26.5.3-arm64.dmg"
+    },
+    {
+      "slug": "cheetah3d/darwin",
+      "name": "Cheetah3D",
+      "platform": "darwin",
+      "version": "8.1.3",
+      "installerUrl": "https://www.cheetah3d.com/download/Cheetah3D.dmg"
+    },
+    {
+      "slug": "cherry-studio/darwin",
+      "name": "Cherry Studio",
+      "platform": "darwin",
+      "version": "1.9.11",
+      "installerUrl": "https://github.com/CherryHQ/cherry-studio/releases/download/v1.9.11/Cherry-Studio-1.9.11-arm64.dmg"
+    },
+    {
+      "slug": "chime/darwin",
+      "name": "Chime",
+      "platform": "darwin",
+      "version": "2.2.5",
+      "installerUrl": "https://updates.chimehq.com/com.chimehq.Edit/157/Chime.app.zip"
+    },
+    {
+      "slug": "choosy/darwin",
+      "name": "Choosy",
+      "platform": "darwin",
+      "version": "2.5.2",
+      "installerUrl": "https://downloads.choosy.app/choosy_2.5.2.zip"
+    },
+    {
+      "slug": "chrome-remote-desktop-host/darwin",
+      "name": "Chrome Remote Desktop",
+      "platform": "darwin",
+      "version": "147.0.7727.3",
+      "installerUrl": "https://dl.google.com/chrome-remote-desktop/chromeremotedesktop.dmg"
     },
     {
       "slug": "chrome-remote-desktop/windows",
@@ -709,6 +842,13 @@
       "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.11187.4/Claude-58400536f3ccde1cff9a129de6c3112dc8cb489a.msix"
     },
     {
+      "slug": "cleanclip/darwin",
+      "name": "CleanClip",
+      "platform": "darwin",
+      "version": "2.4.7",
+      "installerUrl": "https://cleanclip.cc/releases/download/v2.4.7/CleanClip.dmg"
+    },
+    {
       "slug": "cleanmymac/darwin",
       "name": "CleanMyMac",
       "platform": "darwin",
@@ -758,11 +898,46 @@
       "installerUrl": "https://download.jetbrains.com/cpp/CLion-2026.1.2.exe"
     },
     {
+      "slug": "clipbook/darwin",
+      "name": "ClipBook",
+      "platform": "darwin",
+      "version": "1.35.0",
+      "installerUrl": "https://f005.backblazeb2.com/file/clipbook/ClipBook-1.35.0-arm64.dmg"
+    },
+    {
+      "slug": "clipgrab/darwin",
+      "name": "ClipGrab",
+      "platform": "darwin",
+      "version": "3.9.16",
+      "installerUrl": "https://download.clipgrab.org/ClipGrab-3.9.16.dmg"
+    },
+    {
+      "slug": "clipy/darwin",
+      "name": "Clipy",
+      "platform": "darwin",
+      "version": "1.2.1",
+      "installerUrl": "https://github.com/Clipy/Clipy/releases/download/1.2.1/Clipy_1.2.1.dmg"
+    },
+    {
+      "slug": "clocker/darwin",
+      "name": "Clocker",
+      "platform": "darwin",
+      "version": "26.13",
+      "installerUrl": "https://github.com/n0shake/Clocker/releases/download/v26.13/Clocker.zip"
+    },
+    {
       "slug": "clockify/darwin",
       "name": "Clockify Desktop",
       "platform": "darwin",
       "version": "2.12.5",
       "installerUrl": "https://clockify.me/downloads/ClockifyDesktop.zip"
+    },
+    {
+      "slug": "clop/darwin",
+      "name": "Clop",
+      "platform": "darwin",
+      "version": "2.11.6",
+      "installerUrl": "https://files.lowtechguys.com/releases/Clop-2.11.6.dmg"
     },
     {
       "slug": "cloudflare-warp/darwin",
@@ -779,6 +954,76 @@
       "installerUrl": "https://downloads.cloudflareclient.com/v1/download/windows/version/2026.1.150.0"
     },
     {
+      "slug": "cloudmounter/darwin",
+      "name": "Eltima CloudMounter",
+      "platform": "darwin",
+      "version": "4.17",
+      "installerUrl": "https://cdn.electronic.us/products/cloudmounter/mac/download/cloudmounter.dmg"
+    },
+    {
+      "slug": "cmake-app/darwin",
+      "name": "CMake",
+      "platform": "darwin",
+      "version": "4.3.3",
+      "installerUrl": "https://cmake.org/files/v4.3/cmake-4.3.3-macos-universal.dmg"
+    },
+    {
+      "slug": "cmux/darwin",
+      "name": "cmux",
+      "platform": "darwin",
+      "version": "0.64.14",
+      "installerUrl": "https://github.com/manaflow-ai/cmux/releases/download/v0.64.14/cmux-macos.dmg"
+    },
+    {
+      "slug": "coconutbattery/darwin",
+      "name": "coconutBattery",
+      "platform": "darwin",
+      "version": "4.3.2",
+      "installerUrl": "https://www.coconut-flavour.com/downloads/coconutBattery_432_213.zip"
+    },
+    {
+      "slug": "codeedit/darwin",
+      "name": "CodeEdit",
+      "platform": "darwin",
+      "version": "0.3.6",
+      "installerUrl": "https://github.com/CodeEditApp/CodeEdit/releases/download/v0.3.6/CodeEdit.dmg"
+    },
+    {
+      "slug": "coderunner/darwin",
+      "name": "CodeRunner",
+      "platform": "darwin",
+      "version": "4.5",
+      "installerUrl": "https://coderunnerapp.com/download/update/CodeRunner-4.5.zip"
+    },
+    {
+      "slug": "codexbar/darwin",
+      "name": "CodexBar",
+      "platform": "darwin",
+      "version": "0.32.4",
+      "installerUrl": "https://github.com/steipete/CodexBar/releases/download/v0.32.4/CodexBar-macos-universal-0.32.4.zip"
+    },
+    {
+      "slug": "cog-app/darwin",
+      "name": "Cog",
+      "platform": "darwin",
+      "version": "3588",
+      "installerUrl": "https://cogcdn.cog.losno.co/Cog-690280d1c.zip"
+    },
+    {
+      "slug": "colorsnapper/darwin",
+      "name": "ColorSnapper 2",
+      "platform": "darwin",
+      "version": "1.7.1",
+      "installerUrl": "https://cs2-binaries.s3.amazonaws.com/ColorSnapper2-1_7_1.zip"
+    },
+    {
+      "slug": "colour-contrast-analyser/darwin",
+      "name": "Colour Contrast Analyser",
+      "platform": "darwin",
+      "version": "3.5.5",
+      "installerUrl": "https://github.com/ThePacielloGroup/CCAe/releases/download/v3.5.5/CCA-3.5.5.dmg"
+    },
+    {
       "slug": "comet/darwin",
       "name": "Comet",
       "platform": "darwin",
@@ -793,11 +1038,53 @@
       "installerUrl": "https://www.perplexity.ai/rest/browser/download?platform=win_x64\u0026channel=stable"
     },
     {
+      "slug": "command-tab-plus/darwin",
+      "name": "Command-Tab Plus",
+      "platform": "darwin",
+      "version": "2.9.9",
+      "installerUrl": "https://macplus-software.com/downloads/Command-Tab%20Plus%202.zip"
+    },
+    {
+      "slug": "commander-one/darwin",
+      "name": "Commander One",
+      "platform": "darwin",
+      "version": "3.17.1",
+      "installerUrl": "https://cdn.electronic.us/products/commander/mac/download/commander.dmg"
+    },
+    {
+      "slug": "commander/darwin",
+      "name": "Commander",
+      "platform": "darwin",
+      "version": "0.7.998",
+      "installerUrl": "https://download.thecommander.app/release/Commander-0.7.998.zip"
+    },
+    {
+      "slug": "companion/darwin",
+      "name": "Bitfocus Companion",
+      "platform": "darwin",
+      "version": "4.3.4",
+      "installerUrl": "https://cf-pub.bitfocus.io/companion/companion/companion-mac-arm64-4.3.4-9244-stable-c14e5e3334.dmg"
+    },
+    {
       "slug": "connect-fonts/darwin",
       "name": "Connect Fonts",
       "platform": "darwin",
       "version": "28.1.5",
       "installerUrl": "https://bin.extensis.com/ConnectFonts-M-28-1-5.dmg"
+    },
+    {
+      "slug": "copilot-money/darwin",
+      "name": "Copilot",
+      "platform": "darwin",
+      "version": "6.4.0",
+      "installerUrl": "https://storage.googleapis.com/copilot-mac-releases/images/Copilot-6.4.0-326-ab0a5a95.dmg"
+    },
+    {
+      "slug": "cork/darwin",
+      "name": "Cork",
+      "platform": "darwin",
+      "version": "1.7.5",
+      "installerUrl": "https://corkmac.app/RLS/1.7.5/Cork.zip"
     },
     {
       "slug": "coteditor/darwin",
@@ -821,6 +1108,13 @@
       "installerUrl": "https://download.crashplan.com/installs/agent/cloud/11.9.1/19/install/CrashPlan_11.9.1_19_Win64.msi"
     },
     {
+      "slug": "crossover/darwin",
+      "name": "CrossOver",
+      "platform": "darwin",
+      "version": "26.1.0",
+      "installerUrl": "https://media.codeweavers.com/pub/crossover/cxmac/demo/crossover-26.1.0.zip"
+    },
+    {
       "slug": "cryptomator/darwin",
       "name": "Cryptomator",
       "platform": "darwin",
@@ -835,6 +1129,13 @@
       "installerUrl": "https://github.com/cryptomator/cryptomator/releases/download/1.19.2/Cryptomator-1.19.2-x64.msi"
     },
     {
+      "slug": "crystalfetch/darwin",
+      "name": "Crystalfetch",
+      "platform": "darwin",
+      "version": "2.2.0",
+      "installerUrl": "https://github.com/TuringSoftware/CrystalFetch/releases/download/v2.2.0/CrystalFetch.dmg"
+    },
+    {
       "slug": "cursor/darwin",
       "name": "Cursor",
       "platform": "darwin",
@@ -847,6 +1148,27 @@
       "platform": "windows",
       "version": "3.7.19",
       "installerUrl": "https://downloads.cursor.com/production/80c653c2c3528e65016a0d304b54486084b470bb/win32/x64/system-setup/CursorSetup-x64-3.7.19.exe"
+    },
+    {
+      "slug": "cursorsense/darwin",
+      "name": "CursorSense",
+      "platform": "darwin",
+      "version": "2.4.3",
+      "installerUrl": "https://plentycom.jp/ctrl/files_cs/CursorSense2.4.3.dmg"
+    },
+    {
+      "slug": "cursr/darwin",
+      "name": "Cursr",
+      "platform": "darwin",
+      "version": "1.7.3",
+      "installerUrl": "https://github.com/bitgapp/Cursr/releases/download/v1.7.3/Cursr-mac-arm64.dmg"
+    },
+    {
+      "slug": "customshortcuts/darwin",
+      "name": "CustomShortcuts",
+      "platform": "darwin",
+      "version": "1.3",
+      "installerUrl": "https://dl.houdah.com/customShortcuts/updates/cast_assets/CustomShortcuts1.3.zip"
     },
     {
       "slug": "cyberduck/darwin",
@@ -2947,6 +3269,69 @@
       "platform": "windows",
       "version": "20.26.140.168",
       "installerUrl": "https://binaries.twingate.com/client/windows/versions/2026.140.168/TwingateWindowsInstaller.msi"
+    },
+    {
+      "slug": "ua-connect/darwin",
+      "name": "UA Connect",
+      "platform": "darwin",
+      "version": "1.9.3",
+      "installerUrl": "https://builds.uaudio.com/apps/UA_Connect/UA_Connect_1_9_3_3672_Mac.dmg"
+    },
+    {
+      "slug": "ukelele/darwin",
+      "name": "Ukelele",
+      "platform": "darwin",
+      "version": "3.6.1",
+      "installerUrl": "https://software.sil.org/downloads/r/ukelele/Ukelele_3.6.1.dmg"
+    },
+    {
+      "slug": "ultimaker-cura/darwin",
+      "name": "UltiMaker Cura",
+      "platform": "darwin",
+      "version": "5.13.0",
+      "installerUrl": "https://github.com/Ultimaker/Cura/releases/download/5.13.0/UltiMaker-Cura-5.13.0-macos-ARM64.dmg"
+    },
+    {
+      "slug": "unclutter/darwin",
+      "name": "Unclutter",
+      "platform": "darwin",
+      "version": "2.2.18d",
+      "installerUrl": "https://unclutterapp.com/files/Unclutter.zip"
+    },
+    {
+      "slug": "unicodechecker/darwin",
+      "name": "UnicodeChecker",
+      "platform": "darwin",
+      "version": "1.25.1",
+      "installerUrl": "https://earthlingsoft.net/UnicodeChecker/UnicodeChecker%201.25.1%20(862).zip"
+    },
+    {
+      "slug": "unity-hub/darwin",
+      "name": "Unity Hub",
+      "platform": "darwin",
+      "version": "3.18.2",
+      "installerUrl": "https://public-cdn.cloud.unity3d.com/hub/prod/UnityHubSetup-arm64.dmg"
+    },
+    {
+      "slug": "updf/darwin",
+      "name": "UPDF",
+      "platform": "darwin",
+      "version": "2.5.3",
+      "installerUrl": "https://download.updf.com/updf/basic/mac/apple/updf-mac-full.dmg"
+    },
+    {
+      "slug": "upscayl/darwin",
+      "name": "Upscayl",
+      "platform": "darwin",
+      "version": "2.15.0",
+      "installerUrl": "https://github.com/upscayl/upscayl/releases/download/v2.15.0/upscayl-2.15.0-mac.dmg"
+    },
+    {
+      "slug": "usage-app/darwin",
+      "name": "Usage",
+      "platform": "darwin",
+      "version": "1.4.6",
+      "installerUrl": "https://mediaatelier.com/Usage/Usage_1.4.6.dmg"
     },
     {
       "slug": "utm/darwin",
