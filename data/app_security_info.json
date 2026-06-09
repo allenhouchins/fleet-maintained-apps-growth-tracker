@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T21:30:21Z",
+  "lastUpdated": "2026-06-09T21:34:51Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -889,6 +889,16 @@
       "lastUpdated": "2026-06-09T21:30:19Z"
     },
     {
+      "slug": "caffeine/darwin",
+      "name": "Caffeine",
+      "version": "1.1.4",
+      "sha256": "75e190554aee8d6ab115423e734156a684cc83e562fe908dffa4a7e425b9a631",
+      "cdhash": "99a75fe139183d738a8de4a792e8f69c16705242",
+      "signingId": "YD6LEYT6WZ:com.intelliscapesolutions.caffeine",
+      "teamId": "YD6LEYT6WZ",
+      "lastUpdated": "2026-06-09T21:30:42Z"
+    },
+    {
       "slug": "calibre/darwin",
       "name": "calibre",
       "version": "9.9.0",
@@ -911,6 +921,26 @@
       "lastUpdated": "2026-05-28T17:25:24Z"
     },
     {
+      "slug": "calibrite-profiler/darwin",
+      "name": "calibrite PROFILER",
+      "version": "3.1.0",
+      "sha256": "d1c54dd5bc802ff76297d0561ed7c3552c1cf2e79031fcd973e224d87fd2babb",
+      "cdhash": "18577bac53fc85fbbee50c4ca86eeb255fccc3fd",
+      "signingId": "5C392763F5:com.calibrite.profiler",
+      "teamId": "5C392763F5",
+      "lastUpdated": "2026-06-09T21:31:50Z"
+    },
+    {
+      "slug": "camo-studio/darwin",
+      "name": "Camo Studio",
+      "version": "2.7.2",
+      "sha256": "5d3f381ea6eaf5ed8947a4be4c8a4c4e38f853eb26edde4066c8ae51c2a8040e",
+      "cdhash": "1257bcc2d76b0e31bdb12683e01578a43ca23742",
+      "signingId": "Q248YREB53:com.reincubate.macos.cam",
+      "teamId": "Q248YREB53",
+      "lastUpdated": "2026-06-09T21:32:15Z"
+    },
+    {
       "slug": "camtasia/darwin",
       "name": "Camtasia",
       "version": "2026.1.3",
@@ -931,6 +961,16 @@
       "thumbprint": "E31703CF1542D9FF82CD4A0F25825108C1CEA2AF",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-05-16T13:44:27Z"
+    },
+    {
+      "slug": "camunda-modeler/darwin",
+      "name": "Camunda Modeler",
+      "version": "5.47.0",
+      "sha256": "6ec6edf7ed7fc223b2d02a71e8ad85acf827b13773d6fa1f6ab85dfd893f6fea",
+      "cdhash": "bd57bd33015fadab18ec25bb62d49fac228bcd22",
+      "signingId": "3JVGD57JQZ:com.camunda.CamundaModeler",
+      "teamId": "3JVGD57JQZ",
+      "lastUpdated": "2026-06-09T21:32:53Z"
     },
     {
       "slug": "canva/darwin",
@@ -963,6 +1003,56 @@
       "signingId": "22MMUN2RN5:com.lemon.lvoverseas",
       "teamId": "22MMUN2RN5",
       "lastUpdated": "2026-06-08T15:16:10Z"
+    },
+    {
+      "slug": "captain/darwin",
+      "name": "Captain",
+      "version": "10.5.0",
+      "sha256": "e7a6e521bfdf7af4112c27786a871149ebdd3a62bf21ebc7b1822c359a5f1ee1",
+      "cdhash": "f3ade066bce4abdeb5e5283ddeebc24fbef16432",
+      "signingId": "U6X2HP972P:com.electron.captain",
+      "teamId": "U6X2HP972P",
+      "lastUpdated": "2026-06-09T21:33:16Z"
+    },
+    {
+      "slug": "captin/darwin",
+      "name": "Captin",
+      "version": "1.3.1",
+      "sha256": "924f382e9e4078900bc31dadcfe4f3f1dc242ea13fdfab29a202dd8922541552",
+      "cdhash": "3ca39f420d3698623b416498b15146219cdf159c",
+      "signingId": "CTW3P64G5P:com.100hps.captin",
+      "teamId": "CTW3P64G5P",
+      "lastUpdated": "2026-06-09T21:33:38Z"
+    },
+    {
+      "slug": "capto/darwin",
+      "name": "Capto",
+      "version": "2.1.5",
+      "sha256": "f129f682afa8e3d60159414754e6ad452ffa5ada2388d7b54ab2fb663d1b2fcf",
+      "cdhash": "1461d677fb3fc602c64f887c3972f86ee688e882",
+      "signingId": "U4MRT5KL8R:com.globaldelight.Capto",
+      "teamId": "U4MRT5KL8R",
+      "lastUpdated": "2026-06-09T21:34:03Z"
+    },
+    {
+      "slug": "carbon-copy-cloner/darwin",
+      "name": "Carbon Copy Cloner",
+      "version": "7.1.5",
+      "sha256": "1a3e8d834b312c3dc3acec57ae3e8b1b3fa9e72ebf9036439f51018fe646f83d",
+      "cdhash": "d761a6edcfb542d1f0bc52a3b0f4b1ad06b987c6",
+      "signingId": "L4F2DED5Q7:com.bombich.ccc",
+      "teamId": "L4F2DED5Q7",
+      "lastUpdated": "2026-06-09T21:34:26Z"
+    },
+    {
+      "slug": "cardhop/darwin",
+      "name": "Cardhop",
+      "version": "2.4.7",
+      "sha256": "1e11793edbfd76fbf0039996638ca6da80cf7356aa98c6406a9d2a25eb4d77ea",
+      "cdhash": "9169e99df0fa056005e81459d5bf2292ca95618b",
+      "signingId": "85C27NK92C:com.flexibits.cardhop.mac",
+      "teamId": "85C27NK92C",
+      "lastUpdated": "2026-06-09T21:34:49Z"
     },
     {
       "slug": "cavalry/darwin",
