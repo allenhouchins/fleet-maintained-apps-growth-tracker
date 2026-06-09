@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T21:48:02Z",
+  "lastUpdated": "2026-06-09T21:55:22Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1476,6 +1476,56 @@
       "lastUpdated": "2026-06-09T21:48:00Z"
     },
     {
+      "slug": "coderunner/darwin",
+      "name": "CodeRunner",
+      "version": "4.5",
+      "sha256": "a76e75538bf00fca08cea488024eebda64b16ba74ccb41450a918b1b8647a5bf",
+      "cdhash": "7970961bee364e6b83265ebe5fa2b2bfdc8dc880",
+      "signingId": "R4GD98AJF9:com.krill.CodeRunner",
+      "teamId": "R4GD98AJF9",
+      "lastUpdated": "2026-06-09T21:48:24Z"
+    },
+    {
+      "slug": "codexbar/darwin",
+      "name": "CodexBar",
+      "version": "0.32.4",
+      "sha256": "199fb55fab854a3ff237f9cedfd7bff733020c2c6d02b0768442cff8919f2668",
+      "cdhash": "f72e125391ea7567e7668e73075481b68437dcc0",
+      "signingId": "Y5PE65HELJ:com.steipete.codexbar",
+      "teamId": "Y5PE65HELJ",
+      "lastUpdated": "2026-06-09T21:48:46Z"
+    },
+    {
+      "slug": "cog-app/darwin",
+      "name": "Cog",
+      "version": "3588",
+      "sha256": "26478ef8c2d4150a23940b200b6d4dc120666ad84f7803e817ebb5de035a411c",
+      "cdhash": "4ff19f01c0c7db239f7d8a3616ab5521f3ba2ed5",
+      "signingId": "N6E749HJ2X:org.cogx.cog",
+      "teamId": "N6E749HJ2X",
+      "lastUpdated": "2026-06-09T21:49:09Z"
+    },
+    {
+      "slug": "colorsnapper/darwin",
+      "name": "ColorSnapper 2",
+      "version": "1.7.1",
+      "sha256": "7f6dd57ee4b93a6bdd6d0fc6611c980488245f5a3a2d9bbcb1154cd15c70a450",
+      "cdhash": "e905b15ddd3bac2c512401d3ff1309aac689a8e2",
+      "signingId": "6U325Z8W3G:com.koolesache.ColorSnapper2",
+      "teamId": "6U325Z8W3G",
+      "lastUpdated": "2026-06-09T21:49:30Z"
+    },
+    {
+      "slug": "colour-contrast-analyser/darwin",
+      "name": "Colour Contrast Analyser",
+      "version": "3.5.5",
+      "sha256": "aca7fe4cc613469788b43dff32c27c5fcb0486fc0f907c2c8b8f90df85cc8f58",
+      "cdhash": "9194c6f29ecb736922fae6f96b92581078216c1b",
+      "signingId": "34RS4UC3M6:com.electron.cca",
+      "teamId": "34RS4UC3M6",
+      "lastUpdated": "2026-06-09T21:50:13Z"
+    },
+    {
       "slug": "comet/darwin",
       "name": "Comet",
       "version": "148.0.7778.1016",
@@ -1498,6 +1548,46 @@
       "lastUpdated": "2026-06-07T05:51:55Z"
     },
     {
+      "slug": "command-tab-plus/darwin",
+      "name": "Command-Tab Plus",
+      "version": "2.9.9",
+      "sha256": "ce7eed5bca9131114b5272c17644963cd6e10e8652db09c217ee5f1340e440e7",
+      "cdhash": "3fcb125ba259ca82ddbe9e2b8f006fd31acb6a49",
+      "signingId": "ZCQ7H77CA9:com.sergey-gerasimenko.Command-Tab-Plus-2",
+      "teamId": "ZCQ7H77CA9",
+      "lastUpdated": "2026-06-09T21:50:34Z"
+    },
+    {
+      "slug": "commander-one/darwin",
+      "name": "Commander One",
+      "version": "3.17.1",
+      "sha256": "c882883fe6307734c039c1b9644722f69d56c6f5c21c6d5ad979603bb8709221",
+      "cdhash": "fe5f7996f8e0fec4e90334af222951f6e15f1a7c",
+      "signingId": "XS85JU6YZ3:com.eltima.cmd1",
+      "teamId": "XS85JU6YZ3",
+      "lastUpdated": "2026-06-09T21:52:00Z"
+    },
+    {
+      "slug": "commander/darwin",
+      "name": "Commander",
+      "version": "0.7.998",
+      "sha256": "3b61ed66c84d9757b8120aac7e680c746201dfc5bcdc6ca5648ad3ec460ea8bf",
+      "cdhash": "2df703a279eb4162afdda5fe7501027d72fbc2b7",
+      "signingId": "67RAULRX93:com.krzyzanowskim.Commander",
+      "teamId": "67RAULRX93",
+      "lastUpdated": "2026-06-09T21:52:22Z"
+    },
+    {
+      "slug": "companion/darwin",
+      "name": "Bitfocus Companion",
+      "version": "4.3.4",
+      "sha256": "68fdc3cb09a058e716c26090ad9d0a7af79986bc9dd32a97cef1953531a34c26",
+      "cdhash": "05561b396a08e0e191f94e666ffa98d38b649a9a",
+      "signingId": "FGQ2G3HYBT:test-companion.bitfocus.no",
+      "teamId": "FGQ2G3HYBT",
+      "lastUpdated": "2026-06-09T21:52:51Z"
+    },
+    {
       "slug": "connect-fonts/darwin",
       "name": "Connect Fonts",
       "version": "28.1.5",
@@ -1506,6 +1596,16 @@
       "signingId": "J6MMHGD9D6:com.extensis.SuitcaseFusion",
       "teamId": "J6MMHGD9D6",
       "lastUpdated": "2026-06-09T19:48:39Z"
+    },
+    {
+      "slug": "copilot-money/darwin",
+      "name": "Copilot",
+      "version": "6.4.0",
+      "sha256": "7c4bda16016b6c856793f49d0ee6692a07d5e6b09dbffecf588aade87ce919db",
+      "cdhash": "5fce1bc15f6c7c56174db81e4ac8876aa98ca8e7",
+      "signingId": "HC6S5EYZJR:com.copilot.production",
+      "teamId": "HC6S5EYZJR",
+      "lastUpdated": "2026-06-09T21:55:20Z"
     },
     {
       "slug": "coteditor/darwin",
