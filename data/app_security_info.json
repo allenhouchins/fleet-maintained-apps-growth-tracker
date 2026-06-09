@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T22:38:34Z",
+  "lastUpdated": "2026-06-09T22:48:15Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -2369,6 +2369,56 @@
       "lastUpdated": "2026-06-09T22:38:32Z"
     },
     {
+      "slug": "gather/darwin",
+      "name": "Gather Town",
+      "version": "1.37.1",
+      "sha256": "8d18de20ba73c07e7779e471f557756b6c85cdf4877c8bfd9ee2b22aec1a6053",
+      "cdhash": "3b685c739b7f59d847565ca2ac0988503511e990",
+      "signingId": "W28UKP642P:com.gather.Gather",
+      "teamId": "W28UKP642P",
+      "lastUpdated": "2026-06-09T22:39:03Z"
+    },
+    {
+      "slug": "gdevelop/darwin",
+      "name": "GDevelop",
+      "version": "5.6.271",
+      "sha256": "b7813cb82d0d8b7491896f2507860902998f49f7afadcd322fb34851f6bdfcc4",
+      "cdhash": "f7183cf58efb60f84844b56c5139b81b9145de14",
+      "signingId": "5CG65LEVUK:com.gdevelop-app.ide",
+      "teamId": "5CG65LEVUK",
+      "lastUpdated": "2026-06-09T22:39:36Z"
+    },
+    {
+      "slug": "geany/darwin",
+      "name": "Geany",
+      "version": "2.1",
+      "sha256": "76e664417c6809cbc4024e4f08fcab55b0c23b7bc36a3681ef9975c9d9846d98",
+      "cdhash": "766863fc65134f5004ba36074a4b8c26f891b2bc",
+      "signingId": "SJQ2ZZ5SLU:org.geany.geany",
+      "teamId": "SJQ2ZZ5SLU",
+      "lastUpdated": "2026-06-09T22:41:55Z"
+    },
+    {
+      "slug": "geekbench/darwin",
+      "name": "Geekbench",
+      "version": "6.7.1",
+      "sha256": "b474156563e246fef03b8dec53549dada955be909c89bae21863213fd4aac7b4",
+      "cdhash": "aa4c644a980f90b6ff9ae6d3c8fcecf5f8b7dd04",
+      "signingId": "SRW94G4YYQ:com.primatelabs.Geekbench6",
+      "teamId": "SRW94G4YYQ",
+      "lastUpdated": "2026-06-09T22:42:29Z"
+    },
+    {
+      "slug": "gemini/darwin",
+      "name": "Gemini",
+      "version": "2.10.0",
+      "sha256": "adcfeb94ad2ed3c579a0297a5512e3678c21c44d94e687df85afc02a28858ba4",
+      "cdhash": "eba9ada3a25430f85b57dd8b7f8ce66b05bd577a",
+      "signingId": "S8EX82NJP6:com.macpaw.site.Gemini2",
+      "teamId": "S8EX82NJP6",
+      "lastUpdated": "2026-06-09T22:44:40Z"
+    },
+    {
       "slug": "genesys-cloud/darwin",
       "name": "Genesys Cloud",
       "version": "2.50.28",
@@ -2389,6 +2439,16 @@
       "thumbprint": "C321F921DEC9F97316371784FAA12F94FF4D315B",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-06-03T13:49:23Z"
+    },
+    {
+      "slug": "gephi/darwin",
+      "name": "Gephi",
+      "version": "0.11.2",
+      "sha256": "94472ef567112e88fa8cad9c25552cb1a0dea82c9db31fd41fefb2f815a18d27",
+      "cdhash": "9d73afaeba5dceb5762f21bcdc4ade1697c06a97",
+      "signingId": "3D8H75J8UL:org.gephi",
+      "teamId": "3D8H75J8UL",
+      "lastUpdated": "2026-06-09T22:46:43Z"
     },
     {
       "slug": "ghostty/darwin",
@@ -2435,6 +2495,26 @@
       "lastUpdated": "2026-06-08T19:02:22Z"
     },
     {
+      "slug": "gitfinder/darwin",
+      "name": "GitFinder",
+      "version": "1.7.11",
+      "sha256": "68cbbb0edb138376bce2fec8c6397217ef6888917a5a183a73a6cfaf76159295",
+      "cdhash": "ddce1112f774439596eb132fbdb07efa0685062a",
+      "signingId": "MQ76M469AB:ag.zigz.GitFinder",
+      "teamId": "MQ76M469AB",
+      "lastUpdated": "2026-06-09T22:47:05Z"
+    },
+    {
+      "slug": "github-copilot-for-xcode/darwin",
+      "name": "GitHub Copilot for Xcode",
+      "version": "0.50.0",
+      "sha256": "7273da5e15150d9c98558d71cd1136fb0165b6d1e5e27f2d621a72fc361005e8",
+      "cdhash": "be0340158d6178b68e9afdd61001335320a664bb",
+      "signingId": "VEKTX9H2N7:com.github.CopilotForXcode",
+      "teamId": "VEKTX9H2N7",
+      "lastUpdated": "2026-06-09T22:47:42Z"
+    },
+    {
       "slug": "github-desktop/windows",
       "name": "GitHub Desktop",
       "version": "3.5.12",
@@ -2455,6 +2535,16 @@
       "signingId": "VEKTX9H2N7:com.github.GitHubClient",
       "teamId": "VEKTX9H2N7",
       "lastUpdated": "2026-06-02T03:20:47Z"
+    },
+    {
+      "slug": "gitify/darwin",
+      "name": "Gitify",
+      "version": "6.20.0",
+      "sha256": "5879e5005f817b7f074f177e99460319dc50cc0ba12f56eed8ff4681ee273702",
+      "cdhash": "3782c1dcba02dd33f819c16faa96000f7e4f5964",
+      "signingId": "5KD23H9729:com.electron.gitify",
+      "teamId": "5KD23H9729",
+      "lastUpdated": "2026-06-09T22:48:13Z"
     },
     {
       "slug": "gitkraken/darwin",
