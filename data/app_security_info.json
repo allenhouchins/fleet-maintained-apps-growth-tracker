@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T21:55:22Z",
+  "lastUpdated": "2026-06-09T22:04:04Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1608,6 +1608,16 @@
       "lastUpdated": "2026-06-09T21:55:20Z"
     },
     {
+      "slug": "cork/darwin",
+      "name": "Cork",
+      "version": "1.7.5",
+      "sha256": "0b615ae52b576021b2c796e7e171d2ab8e44c45d3fd68e9ab8936c7edd81afc2",
+      "cdhash": "7329d1c779ddf53366125b4c8a3b4e92303e2e02",
+      "signingId": "ZSVA6DVZHM:eu.davidbures.cork",
+      "teamId": "ZSVA6DVZHM",
+      "lastUpdated": "2026-06-09T21:55:43Z"
+    },
+    {
       "slug": "coteditor/darwin",
       "name": "CotEditor",
       "version": "7.0.4",
@@ -1640,6 +1650,16 @@
       "lastUpdated": "2026-04-03T17:52:23Z"
     },
     {
+      "slug": "crossover/darwin",
+      "name": "CrossOver",
+      "version": "26.1.0",
+      "sha256": "57ec351771c8b85ebb8404f99e02224a99cf4fcbc19f4106b7ebefe2e9009138",
+      "cdhash": "db3f58e76cccef4e6340431f4057213d97792e59",
+      "signingId": "9C6B7X7Z8E:com.codeweavers.CrossOver",
+      "teamId": "9C6B7X7Z8E",
+      "lastUpdated": "2026-06-09T21:56:26Z"
+    },
+    {
       "slug": "cryptomator/darwin",
       "name": "Cryptomator",
       "version": "1.19.2",
@@ -1662,6 +1682,16 @@
       "lastUpdated": "2026-05-30T01:53:58Z"
     },
     {
+      "slug": "crystalfetch/darwin",
+      "name": "Crystalfetch",
+      "version": "2.2.0",
+      "sha256": "c06ca9795a9e9206da2b788af04c9b878029baf1411afbfcdd37f3117eef7f02",
+      "cdhash": "430dad3a7a0b0882f950b0801991f9e7180584ed",
+      "signingId": "WDNLXAD4W8:llc.turing.CrystalFetch",
+      "teamId": "WDNLXAD4W8",
+      "lastUpdated": "2026-06-09T21:56:49Z"
+    },
+    {
       "slug": "cursor/darwin",
       "name": "Cursor",
       "version": "3.7.21",
@@ -1682,6 +1712,36 @@
       "thumbprint": "D389B409F599377BA1EFAA1BA02DA6B00B0A7069",
       "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7D00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
       "lastUpdated": "2026-06-08T19:49:03Z"
+    },
+    {
+      "slug": "cursorsense/darwin",
+      "name": "CursorSense",
+      "version": "2.4.3",
+      "sha256": "d5ba10a6379606828cb7d1ac24f12485b091f792e0584b5f1ee797dbeb9f7e72",
+      "cdhash": "5acee7be91abd2576b2dfa32b3eb95f317eafa40",
+      "signingId": "UHEB36849R:jp.plentycom.CursorSense.app",
+      "teamId": "UHEB36849R",
+      "lastUpdated": "2026-06-09T21:57:12Z"
+    },
+    {
+      "slug": "cursr/darwin",
+      "name": "Cursr",
+      "version": "1.7.3",
+      "sha256": "4de496284dc4b6848c1f36d75b6fc0ef5b0c177047ab0719c6a1ad305450070b",
+      "cdhash": "5e52eafb072587d8123d869ad92fadc538b8dc03",
+      "signingId": "JZA6C97KJA:com.bitgapp.cursr",
+      "teamId": "JZA6C97KJA",
+      "lastUpdated": "2026-06-09T21:57:36Z"
+    },
+    {
+      "slug": "customshortcuts/darwin",
+      "name": "CustomShortcuts",
+      "version": "1.3",
+      "sha256": "98e980c8c66024a99856a228a262b9fed64e0bc70b7376ee3aab1ddfddaf6df4",
+      "cdhash": "4d725547d57b3250d9191ba2250329a02764a7aa",
+      "signingId": "DKGQD8H8ZY:com.houdah.CustomShortcuts",
+      "teamId": "DKGQD8H8ZY",
+      "lastUpdated": "2026-06-09T21:57:57Z"
     },
     {
       "slug": "cyberduck/darwin",
@@ -4919,6 +4979,46 @@
       "thumbprint": "4B67AB534ED95F1757A54D48D253359D778B4FBF",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-05-22T03:27:31Z"
+    },
+    {
+      "slug": "ua-connect/darwin",
+      "name": "UA Connect",
+      "version": "1.9.3",
+      "sha256": "ea16e32b350dc44399e2ecf2885b758652ed898561f38d48e2a1840d1c1ed76a",
+      "cdhash": "59c26f120c1e49f6230fd3efa516c9d1911a32d2",
+      "signingId": "4KAC9AX6CG:com.uaudio.ua-connect",
+      "teamId": "4KAC9AX6CG",
+      "lastUpdated": "2026-06-09T22:02:30Z"
+    },
+    {
+      "slug": "ukelele/darwin",
+      "name": "Ukelele",
+      "version": "3.6.1",
+      "sha256": "834b7ee865b5915d83bcd81f05bd3abbd2faf053a262e4e5a24f9045f112f37e",
+      "cdhash": "e0493f56be73c170250548b9df50d525fa23b9f2",
+      "signingId": "3YE4W86L3G:org.sil.ukelele",
+      "teamId": "3YE4W86L3G",
+      "lastUpdated": "2026-06-09T22:02:57Z"
+    },
+    {
+      "slug": "ultimaker-cura/darwin",
+      "name": "UltiMaker Cura",
+      "version": "5.13.0",
+      "sha256": "86ccea71e1dbc19d89ec942bc419700b83b4fdd7c14657087897dba32b6654a5",
+      "cdhash": "c4b682388e48a215763cbfeff2941b7aecf87ea8",
+      "signingId": "V4B3JXRRQS:nl.ultimaker.cura_UltiMaker_Cura",
+      "teamId": "V4B3JXRRQS",
+      "lastUpdated": "2026-06-09T22:03:38Z"
+    },
+    {
+      "slug": "unclutter/darwin",
+      "name": "Unclutter",
+      "version": "2.2.18d",
+      "sha256": "21220a763bedeb8765d8991200705c1b866c8654c1615c70a9beb99328237302",
+      "cdhash": "844df09d237ffa34467c1eb6176811d77e8dd178",
+      "signingId": "GH83R9Y33Z:com.softwareambience.Unclutter",
+      "teamId": "GH83R9Y33Z",
+      "lastUpdated": "2026-06-09T22:04:01Z"
     },
     {
       "slug": "utm/darwin",
