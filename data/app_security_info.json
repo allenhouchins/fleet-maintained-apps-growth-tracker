@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T21:34:51Z",
+  "lastUpdated": "2026-06-09T21:42:02Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1065,6 +1065,26 @@
       "lastUpdated": "2026-05-13T19:38:36Z"
     },
     {
+      "slug": "cellprofiler/darwin",
+      "name": "CellProfiler",
+      "version": "4.2.8",
+      "sha256": "2b1a243abc87b32d39665a06168794d3536333d19354dcf6cc2eea5f971b100a",
+      "cdhash": "49672656f67b5dc01a1772462e3a6018cc90f780",
+      "signingId": "27YQ9U45D9:org.cellprofiler.CellProfiler",
+      "teamId": "27YQ9U45D9",
+      "lastUpdated": "2026-06-09T21:35:32Z"
+    },
+    {
+      "slug": "chalk/darwin",
+      "name": "Chalk",
+      "version": "1.7.5",
+      "sha256": "afcae1ca40509dafe80665e35fce9e30008b61b0f4da0b9f3b61dea37845db3b",
+      "cdhash": "5dcb00ce6203175b5220d28ba19ca731454a5cd4",
+      "signingId": "7SFX84GNR7:fr.chachatelier.pierre.Chalk",
+      "teamId": "7SFX84GNR7",
+      "lastUpdated": "2026-06-09T21:35:58Z"
+    },
+    {
       "slug": "charles/darwin",
       "name": "Charles",
       "version": "5.1",
@@ -1073,6 +1093,16 @@
       "signingId": "9A5PCU4FSD:com.xk72.Charles",
       "teamId": "9A5PCU4FSD",
       "lastUpdated": "2026-04-21T13:41:11Z"
+    },
+    {
+      "slug": "charmstone/darwin",
+      "name": "Charmstone",
+      "version": "1.44",
+      "sha256": "88416354fe2f0e6419223fc9360e32fe0f8aeef1468fb53834388d6c2a686716",
+      "cdhash": "45728b950e5454b5a2daa5942d9d3b98991e1acc",
+      "signingId": "XSYZ3E4B7D:com.knollsoft.CharmstonePro",
+      "teamId": "XSYZ3E4B7D",
+      "lastUpdated": "2026-06-09T21:36:19Z"
     },
     {
       "slug": "chatgpt-atlas/darwin",
@@ -1093,6 +1123,66 @@
       "signingId": "2DC432GLL2:com.openai.chat",
       "teamId": "2DC432GLL2",
       "lastUpdated": "2026-06-02T03:19:41Z"
+    },
+    {
+      "slug": "chatwise/darwin",
+      "name": "ChatWise",
+      "version": "26.5.3",
+      "sha256": "717df85c1cfda005d7dfa2dde4acf0cc063fa5d565ccc069d4c7733a8cdc6cb9",
+      "cdhash": "fafcf9b3ffd71abf30ec5dbb86af49b859ab5625",
+      "signingId": "GJE9R5VE87:app.chatwise",
+      "teamId": "GJE9R5VE87",
+      "lastUpdated": "2026-06-09T21:36:56Z"
+    },
+    {
+      "slug": "cheetah3d/darwin",
+      "name": "Cheetah3D",
+      "version": "8.1.3",
+      "sha256": "97ea7e132463799971f1d3b9d782f13c43eb22c3f84c3480bd87f6d0c45ede83",
+      "cdhash": "3884fe89344a6d6e402016bdf0fdbbbdd420d77b",
+      "signingId": "E7G4KFH9MG:de.wengenmayer.Cheetah3D",
+      "teamId": "E7G4KFH9MG",
+      "lastUpdated": "2026-06-09T21:37:26Z"
+    },
+    {
+      "slug": "cherry-studio/darwin",
+      "name": "Cherry Studio",
+      "version": "1.9.11",
+      "sha256": "6d1f13db3345729d2fe6369337f9ad749f59a926dd7a2c3cc23735258ad5f491",
+      "cdhash": "5cf4a1679258e32db833e2ba0bc7b23694a2f859",
+      "signingId": "87242QY66T:com.kangfenmao.CherryStudio",
+      "teamId": "87242QY66T",
+      "lastUpdated": "2026-06-09T21:37:53Z"
+    },
+    {
+      "slug": "chime/darwin",
+      "name": "Chime",
+      "version": "2.2.5",
+      "sha256": "991d0d5906713e68bc4a591e79eb0c2d869ae8f5d20689a35686e05f3c858e53",
+      "cdhash": "ce36241d31119d99e51fc182a1b918a2d3f2effc",
+      "signingId": "77X93NZ3G2:com.chimehq.Edit",
+      "teamId": "77X93NZ3G2",
+      "lastUpdated": "2026-06-09T21:38:15Z"
+    },
+    {
+      "slug": "choosy/darwin",
+      "name": "Choosy",
+      "version": "2.5.2",
+      "sha256": "a791dc614826a0d6265091d971dd7bf95bdffa9b28e43fc1a73db95545ae09ec",
+      "cdhash": "bfcd7a215f43ac8667dc157301b73cfce1e30daa",
+      "signingId": "5YVSNS92FV:com.choosyosx.Choosy",
+      "teamId": "5YVSNS92FV",
+      "lastUpdated": "2026-06-09T21:38:45Z"
+    },
+    {
+      "slug": "chrome-remote-desktop-host/darwin",
+      "name": "Chrome Remote Desktop",
+      "version": "147.0.7727.3",
+      "sha256": "72cf8e64c1d8530e80bd3a8f3a3fdd0bd4757be2fc6f9da5a06f95f42f1172f6",
+      "cdhash": "67537645be514c0182580a28a37d1e28de1e79f3",
+      "signingId": "EQHXZ8M8AV:com.google.chromeremotedesktop.me2me-host-uninstaller",
+      "teamId": "EQHXZ8M8AV",
+      "lastUpdated": "2026-06-09T21:40:55Z"
     },
     {
       "slug": "chrome-remote-desktop/windows",
@@ -1168,6 +1258,16 @@
       "thumbprint": "0D7581D2C51C59DF686C3000C70BF543F9F6C6CB",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-06-06T03:18:52Z"
+    },
+    {
+      "slug": "cleanclip/darwin",
+      "name": "CleanClip",
+      "version": "2.4.7",
+      "sha256": "aec355eb886172d4dcec34c511243f2010184ea5560ba9987949fbec7ec141af",
+      "cdhash": "53fb7cf3c9cfe55b9175bf56115b753d6beb0055",
+      "signingId": "JDZMWLF652:com.antiless.cleanclip.mac",
+      "teamId": "JDZMWLF652",
+      "lastUpdated": "2026-06-09T21:42:00Z"
     },
     {
       "slug": "cleanmymac/darwin",
