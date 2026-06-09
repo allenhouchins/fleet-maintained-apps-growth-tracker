@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T15:25:09Z",
+  "lastUpdated": "2026-06-09T15:30:43Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -4905,6 +4905,46 @@
       "lastUpdated": "2026-06-09T15:25:07Z"
     },
     {
+      "slug": "yacreader/darwin",
+      "name": "YACReader",
+      "version": "10.0.0.260501214",
+      "sha256": "9f1626f2be240f3114149cf01f19b9c7c355b075cee78625795aab30f9dc9c2a",
+      "cdhash": "3a68e6c8cffc658dd5e73111acb175b4fad6d993",
+      "signingId": "9B6KKVW3WM:com.yacreader.YACReaderLibrary",
+      "teamId": "9B6KKVW3WM",
+      "lastUpdated": "2026-06-09T15:25:31Z"
+    },
+    {
+      "slug": "yattee/darwin",
+      "name": "Yattee",
+      "version": "1.5.1",
+      "sha256": "8f04b6c8febc64b20f9aa5edb97c42e1516923f751c8ef6dc56163820e30c45f",
+      "cdhash": "beb33827762e802e84ca5538276ace8cedb69b7b",
+      "signingId": "78Z5H3M6RJ:stream.yattee.app",
+      "teamId": "78Z5H3M6RJ",
+      "lastUpdated": "2026-06-09T15:26:46Z"
+    },
+    {
+      "slug": "yippy/darwin",
+      "name": "Yippy",
+      "version": "2.8.1",
+      "sha256": "ca4c4d87cc5ceb04b3ba6d6660db196a50af5fc062a93ce62e6f99ac40ec4e1d",
+      "cdhash": "cc8863a34d5adfedf9ebb8155cfa73c8d1626790",
+      "signingId": "HY8YZ2D6M7:MatthewDavidson.Yippy",
+      "teamId": "HY8YZ2D6M7",
+      "lastUpdated": "2026-06-09T15:27:07Z"
+    },
+    {
+      "slug": "yt-music/darwin",
+      "name": "YouTube Music",
+      "version": "1.3.3",
+      "sha256": "47f4449a804735ccc65617e77ce64ca75f325a10880a6cc7c79cc32fda430213",
+      "cdhash": "bd5cdac1ba849471d95341ed66cdddf1a4f8158a",
+      "signingId": "B598AEF9ZM:uk.co.wearecocoon.YT-Music",
+      "teamId": "B598AEF9ZM",
+      "lastUpdated": "2026-06-09T15:27:28Z"
+    },
+    {
       "slug": "yubico-authenticator/darwin",
       "name": "Yubico Authenticator",
       "version": "7.3.3",
@@ -4935,6 +4975,16 @@
       "signingId": "LQA3CS5MM7:com.yubico.ykman",
       "teamId": "LQA3CS5MM7",
       "lastUpdated": "2025-12-20T09:32:47Z"
+    },
+    {
+      "slug": "zappy/darwin",
+      "name": "Zappy",
+      "version": "4.9.8",
+      "sha256": "1a83156fea8fbfa32f7c136f7b46cd52d4b42e22b8429f6b818f678a6ba0dba8",
+      "cdhash": "fa0ffd5754f13889917eeaaaede167dce17b3aa9",
+      "signingId": "6LS97Q5E79:com.blackbeltlabs.Zappy",
+      "teamId": "6LS97Q5E79",
+      "lastUpdated": "2026-06-09T15:28:57Z"
     },
     {
       "slug": "zed/darwin",
@@ -4989,6 +5039,26 @@
       "signingId": "8U3Y4X5WDQ:io.zeplin.osx",
       "teamId": "8U3Y4X5WDQ",
       "lastUpdated": "2026-04-15T14:50:58Z"
+    },
+    {
+      "slug": "zettlr/darwin",
+      "name": "Zettlr",
+      "version": "4.5.0",
+      "sha256": "c81cecef6fa587fc5d6cb16d9300bc613423bc9c39e33d253ad9e93a30e33462",
+      "cdhash": "44691c5a8e36d448c4ecb3e334aa63acd4fa2b90",
+      "signingId": "QS52BN8W68:com.zettlr.app",
+      "teamId": "QS52BN8W68",
+      "lastUpdated": "2026-06-09T15:29:24Z"
+    },
+    {
+      "slug": "zight/darwin",
+      "name": "Zight",
+      "version": "8.7.2",
+      "sha256": "6dbd8ef847786e6be4c30f0e1544681fd21a3be0f8205c6e9a242ef96a469d1b",
+      "cdhash": "be9cc805008eb387243953711b3a245f59b0e05e",
+      "signingId": "DCMDDJEW9X:com.linebreak.CloudAppMacOSX",
+      "teamId": "DCMDDJEW9X",
+      "lastUpdated": "2026-06-09T15:29:46Z"
     },
     {
       "slug": "zoom-rooms/darwin",
@@ -5055,6 +5125,26 @@
       "thumbprint": "1667BFAB98EFEB0E290B9B9C8EFF503AD1CFD33D",
       "timestamp": "CN=SSL.com Timestamping Unit 2025 E1, O=SSL Corp, L=Houston, S=Texas, C=US",
       "lastUpdated": "2026-05-23T03:23:22Z"
+    },
+    {
+      "slug": "zulip/darwin",
+      "name": "Zulip",
+      "version": "5.12.3",
+      "sha256": "51cda3075e40f1ee24e5157602673842ec66bf77246930ffd2c1d01b5845855e",
+      "cdhash": "71fd28dfbd834bcd38fca727b11cdc00936123f9",
+      "signingId": "66KHCWMEYB:org.zulip.zulip-electron",
+      "teamId": "66KHCWMEYB",
+      "lastUpdated": "2026-06-09T15:30:10Z"
+    },
+    {
+      "slug": "zwift/darwin",
+      "name": "Zwift",
+      "version": "1.1.16",
+      "sha256": "e55b105c61865b9544539f916d0e4470962118acb319cdc217e9c0fe634d5f1f",
+      "cdhash": "e0e2cf5b0d949832aaaae492788faeb8a0b503a0",
+      "signingId": "C2GM8Y9VFM:com.zwift.ZwiftLauncher",
+      "teamId": "C2GM8Y9VFM",
+      "lastUpdated": "2026-06-09T15:30:40Z"
     }
   ]
 }
