@@ -1,78 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-04-26T13:33:15Z",
-      "appName": "Claude",
-      "slug": "claude/windows",
-      "platform": "windows",
-      "oldVersion": "1.3883.0",
-      "newVersion": "1.4758.0",
-      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.4758.0/Claude-fb266c24b61d94290860a3945b138d6d249425f6.msix"
-    },
-    {
-      "date": "2026-04-26T13:33:15Z",
-      "appName": "CotEditor",
-      "slug": "coteditor/darwin",
-      "platform": "darwin",
-      "oldVersion": "7.0.0",
-      "newVersion": "7.0.1",
-      "installerUrl": "https://github.com/coteditor/CotEditor/releases/download/7.0.1/CotEditor_7.0.1.dmg"
-    },
-    {
-      "date": "2026-04-26T13:33:15Z",
-      "appName": "Spotify",
-      "slug": "spotify/windows",
-      "platform": "windows",
-      "oldVersion": "1.2.87.415.g88652836",
-      "newVersion": "1.2.88.483.g8aa8628e",
-      "installerUrl": "https://download.scdn.co/SpotifyFullSetupX64.exe"
-    },
-    {
-      "date": "2026-04-26T13:33:15Z",
-      "appName": "Cursor",
-      "slug": "cursor/windows",
-      "platform": "windows",
-      "oldVersion": "3.2.10",
-      "newVersion": "3.2.11",
-      "installerUrl": "https://downloads.cursor.com/production/e9ee1339915a927dfb2df4a836dd9c8337e17cc2/win32/x64/system-setup/CursorSetup-x64-3.2.11.exe"
-    },
-    {
-      "date": "2026-04-26T13:33:15Z",
-      "appName": "Zed",
-      "slug": "zed/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.233.5",
-      "newVersion": "0.233.10",
-      "installerUrl": "https://zed.dev/api/releases/stable/0.233.10/Zed-aarch64.dmg"
-    },
-    {
-      "date": "2026-04-26T13:33:15Z",
-      "appName": "Cursor",
-      "slug": "cursor/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.2.10",
-      "newVersion": "3.2.11",
-      "installerUrl": "https://downloads.cursor.com/production/e9ee1339915a927dfb2df4a836dd9c8337e17cc2/darwin/arm64/Cursor-darwin-arm64.zip"
-    },
-    {
-      "date": "2026-04-26T13:33:15Z",
-      "appName": "Warp",
-      "slug": "warp/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.2026.04.15.08.45.02",
-      "newVersion": "0.2026.04.22.08.46.03",
-      "installerUrl": "https://releases.warp.dev/stable/v0.2026.04.22.08.46.stable_03/Warp.dmg"
-    },
-    {
-      "date": "2026-04-27T01:40:00Z",
-      "appName": "Signal",
-      "slug": "signal/darwin",
-      "platform": "darwin",
-      "oldVersion": "8.7.0",
-      "newVersion": "8.8.0",
-      "installerUrl": "https://updates.signal.org/desktop/signal-desktop-mac-arm64-8.8.0.zip"
-    },
-    {
       "date": "2026-04-27T01:40:00Z",
       "appName": "Notepad++",
       "slug": "notepad++/windows",
@@ -8999,6 +8927,78 @@
       "oldVersion": "",
       "newVersion": "26.3",
       "installerUrl": "https://download.equinux.com/files/other/VPN%20Tracker%20365%20-%2026.3.87.zip"
+    },
+    {
+      "date": "2026-06-09T18:50:43Z",
+      "appName": "XQuartz",
+      "slug": "xquartz/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "2.8.5",
+      "installerUrl": "https://github.com/XQuartz/XQuartz/releases/download/XQuartz-2.8.5/XQuartz-2.8.5.pkg"
+    },
+    {
+      "date": "2026-06-09T18:50:43Z",
+      "appName": "X Lossless Decoder",
+      "slug": "xld/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "20250302",
+      "installerUrl": "https://downloads.sourceforge.net/xld/xld-20250302.dmg"
+    },
+    {
+      "date": "2026-06-09T18:50:43Z",
+      "appName": "Xnapper",
+      "slug": "xnapper/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "1.17.1",
+      "installerUrl": "https://xnapper.com/dmg/Xnapper-1.17.1.dmg"
+    },
+    {
+      "date": "2026-06-09T18:50:43Z",
+      "appName": "XnViewMP",
+      "slug": "xnviewmp/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "1.11.2",
+      "installerUrl": "https://download.xnview.com/old_versions/XnView_MP/XnView_MP-1.11.2-mac.dmg"
+    },
+    {
+      "date": "2026-06-09T18:50:43Z",
+      "appName": "XCA",
+      "slug": "xca/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "2.9.0",
+      "installerUrl": "https://github.com/chris2511/xca/releases/download/RELEASE.2.9.0/xca-2.9.0-Darwin.dmg"
+    },
+    {
+      "date": "2026-06-09T18:50:43Z",
+      "appName": "XnSoft XnConvert",
+      "slug": "xnconvert/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "1.111.0",
+      "installerUrl": "https://download.xnview.com/old_versions/XnConvert/XnConvert-1.111.0-mac.dmg"
+    },
+    {
+      "date": "2026-06-09T18:50:43Z",
+      "appName": "XMenu",
+      "slug": "xmenu/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "1.9.11",
+      "installerUrl": "https://download.devontechnologies.com/download/freeware/xmenu/1.9.11/XMenu.app.zip"
+    },
+    {
+      "date": "2026-06-09T18:50:43Z",
+      "appName": "Xmplify",
+      "slug": "xmplify/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "1.11.11",
+      "installerUrl": "https://xmplifyapp.com/releases/Xmplify-1.11.11.dmg"
     }
   ]
 }

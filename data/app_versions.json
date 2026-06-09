@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T17:46:36Z",
+  "lastUpdated": "2026-06-09T18:50:43Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -3432,11 +3432,67 @@
       "installerUrl": "https://dl.wrike.com/download/WrikeDesktopApp_64.v4.6.1.msi"
     },
     {
+      "slug": "xca/darwin",
+      "name": "XCA",
+      "platform": "darwin",
+      "version": "2.9.0",
+      "installerUrl": "https://github.com/chris2511/xca/releases/download/RELEASE.2.9.0/xca-2.9.0-Darwin.dmg"
+    },
+    {
       "slug": "xcreds/darwin",
       "name": "XCreds",
       "platform": "darwin",
       "version": "5.9",
       "installerUrl": "https://github.com/twocanoes/xcreds/releases/download/tag-5.9(9148)/XCreds_Build-9148_Version-5.9.pkg"
+    },
+    {
+      "slug": "xld/darwin",
+      "name": "X Lossless Decoder",
+      "platform": "darwin",
+      "version": "20250302",
+      "installerUrl": "https://downloads.sourceforge.net/xld/xld-20250302.dmg"
+    },
+    {
+      "slug": "xmenu/darwin",
+      "name": "XMenu",
+      "platform": "darwin",
+      "version": "1.9.11",
+      "installerUrl": "https://download.devontechnologies.com/download/freeware/xmenu/1.9.11/XMenu.app.zip"
+    },
+    {
+      "slug": "xmplify/darwin",
+      "name": "Xmplify",
+      "platform": "darwin",
+      "version": "1.11.11",
+      "installerUrl": "https://xmplifyapp.com/releases/Xmplify-1.11.11.dmg"
+    },
+    {
+      "slug": "xnapper/darwin",
+      "name": "Xnapper",
+      "platform": "darwin",
+      "version": "1.17.1",
+      "installerUrl": "https://xnapper.com/dmg/Xnapper-1.17.1.dmg"
+    },
+    {
+      "slug": "xnconvert/darwin",
+      "name": "XnSoft XnConvert",
+      "platform": "darwin",
+      "version": "1.111.0",
+      "installerUrl": "https://download.xnview.com/old_versions/XnConvert/XnConvert-1.111.0-mac.dmg"
+    },
+    {
+      "slug": "xnviewmp/darwin",
+      "name": "XnViewMP",
+      "platform": "darwin",
+      "version": "1.11.2",
+      "installerUrl": "https://download.xnview.com/old_versions/XnView_MP/XnView_MP-1.11.2-mac.dmg"
+    },
+    {
+      "slug": "xquartz/darwin",
+      "name": "XQuartz",
+      "platform": "darwin",
+      "version": "2.8.5",
+      "installerUrl": "https://github.com/XQuartz/XQuartz/releases/download/XQuartz-2.8.5/XQuartz-2.8.5.pkg"
     },
     {
       "slug": "yaak/darwin",
