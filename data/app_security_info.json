@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T22:48:15Z",
+  "lastUpdated": "2026-06-09T22:57:29Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -2569,6 +2569,66 @@
       "lastUpdated": "2026-06-03T13:49:40Z"
     },
     {
+      "slug": "gitup-app/darwin",
+      "name": "GitUp",
+      "version": "1.4.3",
+      "sha256": "bc3f3c5bd44d4ff7c1e197515e162e82873a524b6d164400cad3e34e9fc10784",
+      "cdhash": "13f227772328340e93cadf381ed89f61745580ac",
+      "signingId": "FP44AY6HHW:co.gitup.mac",
+      "teamId": "FP44AY6HHW",
+      "lastUpdated": "2026-06-09T22:48:35Z"
+    },
+    {
+      "slug": "glyphs/darwin",
+      "name": "Glyphs",
+      "version": "3.5",
+      "sha256": "8c83d0620ce912988370d5890310a971f608243a67425cae4d83c89a5f4af1b5",
+      "cdhash": "9d25276fab59dbc0a0bf447de1b13014491398df",
+      "signingId": "X2L8375ZQ7:com.GeorgSeifert.Glyphs3",
+      "teamId": "X2L8375ZQ7",
+      "lastUpdated": "2026-06-09T22:49:02Z"
+    },
+    {
+      "slug": "go2shell/darwin",
+      "name": "Go2Shell",
+      "version": "2.5",
+      "sha256": "c930101ff4b3aa98488c3ab2c9fcb1c031ab33dd4270d1996613648ae0de3502",
+      "cdhash": "02d87487abc1577325d459510780adca2022727b",
+      "signingId": "92PT3A7J5V:com.zipzapmac.Go2Shell",
+      "teamId": "92PT3A7J5V",
+      "lastUpdated": "2026-06-09T22:51:14Z"
+    },
+    {
+      "slug": "godot/darwin",
+      "name": "Godot Engine",
+      "version": "4.6.3",
+      "sha256": "40fb1c588438ed98efbdd4aeb71b90aec6e269b1abb5f18419755340ef8e1514",
+      "cdhash": "ebc1a9fa208415e028556631ad20077fec16de75",
+      "signingId": "6K46PWY5DM:org.godotengine.godot",
+      "teamId": "6K46PWY5DM",
+      "lastUpdated": "2026-06-09T22:51:39Z"
+    },
+    {
+      "slug": "godspeed/darwin",
+      "name": "Godspeed",
+      "version": "1.9.19",
+      "sha256": "4a8a4d5ddc456ef9e7975a8d25d950a194b62acda48994ff3edbc3802efe879e",
+      "cdhash": "0cc1e48f3df791cc255df59449b80b977766e527",
+      "signingId": "672GQ2QM97:com.godspeedapp.Godspeed",
+      "teamId": "672GQ2QM97",
+      "lastUpdated": "2026-06-09T22:52:12Z"
+    },
+    {
+      "slug": "gog-galaxy/darwin",
+      "name": "GOG Galaxy",
+      "version": "2.0.100.1",
+      "sha256": "302779e99163b74efdfc7e89107499470aa2253968d3e8e4e58c9dcaee115314",
+      "cdhash": "4d871ebfb09181c5e69e92402629702732fc30d0",
+      "signingId": "9WS36Q8886:com.gog.galaxy",
+      "teamId": "9WS36Q8886",
+      "lastUpdated": "2026-06-09T22:53:43Z"
+    },
+    {
       "slug": "goland/darwin",
       "name": "GoLand",
       "version": "2026.1.2",
@@ -2589,6 +2649,16 @@
       "thumbprint": "8C1B506D0BD10A911D09FB7EDBCAB383F1CDAF20",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-05-28T17:27:06Z"
+    },
+    {
+      "slug": "goodsync/darwin",
+      "name": "GoodSync",
+      "version": "12.11.2",
+      "sha256": "b598d60e95c6722f75798dad0b61ffcfdac36cc154e75d1b78bb4fdc4521d5a4",
+      "cdhash": "ddf4f6a67000bf6c8f25d3438e28bd0bbe8cb6aa",
+      "signingId": "924KXEUXP3:com.sibersystems.goodsyncmac2000",
+      "teamId": "924KXEUXP3",
+      "lastUpdated": "2026-06-09T22:54:10Z"
     },
     {
       "slug": "google-chrome/darwin",
@@ -2647,6 +2717,16 @@
       "lastUpdated": "2026-06-04T15:23:08Z"
     },
     {
+      "slug": "google-earth-pro/darwin",
+      "name": "Google Earth Pro",
+      "version": "7.3.7.1155",
+      "sha256": "14b0140cac9df68b6b7d46499b0d34045f41e9e814d5d08b1b7c98ea7c046b07",
+      "cdhash": "cb4bf8582bafd892ac31c5dc0e87c9ade7a1b717",
+      "signingId": "EQHXZ8M8AV:com.google.GoogleEarthUpdateHelper",
+      "teamId": "EQHXZ8M8AV",
+      "lastUpdated": "2026-06-09T22:54:35Z"
+    },
+    {
       "slug": "google-gemini/darwin",
       "name": "Gemini",
       "version": "1.64.1.362",
@@ -2689,6 +2769,13 @@
       "lastUpdated": "2025-12-20T06:59:55Z"
     },
     {
+      "slug": "gpodder/darwin",
+      "name": "gPodder",
+      "version": "3.11.5",
+      "sha256": "32d6ec6ea0c0499b7aa9dbcc79571c9513a36c1abbcc1933a77ba793ca54a313",
+      "lastUpdated": "2026-06-09T22:57:04Z"
+    },
+    {
       "slug": "grammarly-desktop/darwin",
       "name": "Grammarly Desktop",
       "version": "1.169.1",
@@ -2697,6 +2784,16 @@
       "signingId": "W8F64X92K3:com.grammarly.ProjectLlama",
       "teamId": "W8F64X92K3",
       "lastUpdated": "2026-06-09T19:53:43Z"
+    },
+    {
+      "slug": "grandperspective/darwin",
+      "name": "GrandPerspective",
+      "version": "3.7.2",
+      "sha256": "5f22674ed23453b25c314183e029c1f9521e70c27b53478279b59a38e44a5c32",
+      "cdhash": "16c4086190edafc23898e44fe7b73163c432746b",
+      "signingId": "3Z75QZGN66:net.sourceforge.grandperspectiv",
+      "teamId": "3Z75QZGN66",
+      "lastUpdated": "2026-06-09T22:57:27Z"
     },
     {
       "slug": "granola/darwin",
