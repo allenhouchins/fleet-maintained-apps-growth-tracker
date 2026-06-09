@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T21:42:02Z",
+  "lastUpdated": "2026-06-09T21:48:02Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1344,6 +1344,46 @@
       "lastUpdated": "2026-05-28T17:25:54Z"
     },
     {
+      "slug": "clipbook/darwin",
+      "name": "ClipBook",
+      "version": "1.35.0",
+      "sha256": "181c7120888137aa5c49f92e029efe01f6c6a439185aff28b07d49e22dc91e28",
+      "cdhash": "fcc509267b735da5d65cd637c715680d4cae70c8",
+      "signingId": "96B3X7S47C:com.ikryanov.clipbook",
+      "teamId": "96B3X7S47C",
+      "lastUpdated": "2026-06-09T21:42:28Z"
+    },
+    {
+      "slug": "clipgrab/darwin",
+      "name": "ClipGrab",
+      "version": "3.9.16",
+      "sha256": "5493bd688a88d7479a2529f10c9ff7ca21229f988b079303d30baaf06ec53966",
+      "cdhash": "8c236a49fed4fc907d31e980553ead0d65c668c6",
+      "signingId": "E8BJ3ZV5W8:de.clipgrab.ClipGrab",
+      "teamId": "E8BJ3ZV5W8",
+      "lastUpdated": "2026-06-09T21:43:23Z"
+    },
+    {
+      "slug": "clipy/darwin",
+      "name": "Clipy",
+      "version": "1.2.1",
+      "sha256": "975a437afcf13479dd60def73e19d9a5964c008ef689ced2cfb5413d3e264208",
+      "cdhash": "9bdefe124d26125b94f1cd9f94559ab3da8c3755",
+      "signingId": "BBCHAJ584H:com.clipy-app.Clipy",
+      "teamId": "BBCHAJ584H",
+      "lastUpdated": "2026-06-09T21:43:44Z"
+    },
+    {
+      "slug": "clocker/darwin",
+      "name": "Clocker",
+      "version": "26.13",
+      "sha256": "538047b10d52519084443fcad27cc61fcaf9eb542e9d3af8a04219de4f4c7e15",
+      "cdhash": "e60c77b171a14ad84da31d1a05b943883645f9bc",
+      "signingId": "AJS5SNW8EY:com.abhishek.Clocker",
+      "teamId": "AJS5SNW8EY",
+      "lastUpdated": "2026-06-09T21:44:05Z"
+    },
+    {
       "slug": "clockify/darwin",
       "name": "Clockify Desktop",
       "version": "2.12.5",
@@ -1352,6 +1392,16 @@
       "signingId": "LA96L67B8C:coing.ClockifyDesktop",
       "teamId": "LA96L67B8C",
       "lastUpdated": "2026-06-09T19:48:17Z"
+    },
+    {
+      "slug": "clop/darwin",
+      "name": "Clop",
+      "version": "2.11.6",
+      "sha256": "43f5234d359b48f238cada689a5062446547ef2cd751de7eb79e82b675ab3dd5",
+      "cdhash": "42ad86749d104df7069eea42a3e94b38cd97b8a4",
+      "signingId": "RDDXV84A73:com.lowtechguys.Clop",
+      "teamId": "RDDXV84A73",
+      "lastUpdated": "2026-06-09T21:44:37Z"
     },
     {
       "slug": "cloudflare-warp/darwin",
@@ -1374,6 +1424,56 @@
       "thumbprint": "AB819AAE2A643DAE5A67DFA21BABC8C964F7C525",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-02-24T19:42:40Z"
+    },
+    {
+      "slug": "cloudmounter/darwin",
+      "name": "Eltima CloudMounter",
+      "version": "4.17",
+      "sha256": "ac207aa0d8ce4ffdf6e61d7ff33f386b43ecc1fe957e3314d21ea7c2da32445b",
+      "cdhash": "36c0f6139432f4f5b5865adeff001fa687a37422",
+      "signingId": "XS85JU6YZ3:com.eltima.cloudmounter",
+      "teamId": "XS85JU6YZ3",
+      "lastUpdated": "2026-06-09T21:45:00Z"
+    },
+    {
+      "slug": "cmake-app/darwin",
+      "name": "CMake",
+      "version": "4.3.3",
+      "sha256": "1a1a0aa2e3e14f131342adc9d1afda86654ddc4fc0e9f6fdf2ffdc461aea6b14",
+      "cdhash": "219ca14e0ff6fa99423aa41889df67da02d3b144",
+      "signingId": "W38PE5Y733:org.cmake.cmake",
+      "teamId": "W38PE5Y733",
+      "lastUpdated": "2026-06-09T21:46:48Z"
+    },
+    {
+      "slug": "cmux/darwin",
+      "name": "cmux",
+      "version": "0.64.14",
+      "sha256": "7f699ae390d6fa5c125d1fa7b5b4c9222b0d2c3d0d65e2f40bc6eb73ec1fba0e",
+      "cdhash": "7c91120d72f7c6e3db7ba954d2db44d56c708472",
+      "signingId": "7WLXT3NR37:com.cmuxterm.app",
+      "teamId": "7WLXT3NR37",
+      "lastUpdated": "2026-06-09T21:47:12Z"
+    },
+    {
+      "slug": "coconutbattery/darwin",
+      "name": "coconutBattery",
+      "version": "4.3.2",
+      "sha256": "78eea064dff8b7cb22ba16be77d3cddfe44b69fb96cfdb40a7b2e09ca272309a",
+      "cdhash": "6dbba1132addfd30305bc3ba09d3ff44bddd9b0a",
+      "signingId": "R5SC3K86L5:com.coconut-flavour.coconutBattery",
+      "teamId": "R5SC3K86L5",
+      "lastUpdated": "2026-06-09T21:47:36Z"
+    },
+    {
+      "slug": "codeedit/darwin",
+      "name": "CodeEdit",
+      "version": "0.3.6",
+      "sha256": "cb2dd7f72026652d098b654c0e98463d2c7c28077caeff0d595bcb683c9bf632",
+      "cdhash": "882fa0d65124cbe4dea777942fcdc5724d4d76c7",
+      "signingId": "9VS2VKC5LQ:app.codeedit.CodeEdit",
+      "teamId": "9VS2VKC5LQ",
+      "lastUpdated": "2026-06-09T21:48:00Z"
     },
     {
       "slug": "comet/darwin",
