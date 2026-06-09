@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T21:28:44Z",
+  "lastUpdated": "2026-06-09T21:39:38Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1570,6 +1570,48 @@
       "installerUrl": "https://dl.frontapp.com/desktop/builds/3.73.0/Front-3.73.0-arm64.zip"
     },
     {
+      "slug": "garmin-express/darwin",
+      "name": "Garmin Express",
+      "platform": "darwin",
+      "version": "7.28.0",
+      "installerUrl": "https://download.garmin.com/omt/express/GarminExpress.dmg"
+    },
+    {
+      "slug": "gather/darwin",
+      "name": "Gather Town",
+      "platform": "darwin",
+      "version": "1.37.1",
+      "installerUrl": "https://github.com/gathertown/gather-town-desktop-releases/releases/download/v1.37.1/Gather-1.37.1-arm64-mac.zip"
+    },
+    {
+      "slug": "gdevelop/darwin",
+      "name": "GDevelop",
+      "platform": "darwin",
+      "version": "5.6.271",
+      "installerUrl": "https://github.com/4ian/GDevelop/releases/download/v5.6.271/GDevelop-5-5.6.271-universal.dmg"
+    },
+    {
+      "slug": "geany/darwin",
+      "name": "Geany",
+      "platform": "darwin",
+      "version": "2.1",
+      "installerUrl": "https://download.geany.org/geany-2.1_osx_arm64.dmg"
+    },
+    {
+      "slug": "geekbench/darwin",
+      "name": "Geekbench",
+      "platform": "darwin",
+      "version": "6.7.1",
+      "installerUrl": "https://cdn.geekbench.com/Geekbench-6.7.1-Mac.zip"
+    },
+    {
+      "slug": "gemini/darwin",
+      "name": "Gemini",
+      "platform": "darwin",
+      "version": "2.10.0",
+      "installerUrl": "https://dl.devmate.com/com.macpaw.site.Gemini2/405/1774975750/Gemini2-405.zip"
+    },
+    {
       "slug": "genesys-cloud/darwin",
       "name": "Genesys Cloud",
       "platform": "darwin",
@@ -1582,6 +1624,13 @@
       "platform": "windows",
       "version": "2.50.909.0",
       "installerUrl": "https://app.mypurecloud.com/directory-windows/build-assets/2.50.909-243/genesys-cloud-windows-2.50.909-x86.msi"
+    },
+    {
+      "slug": "gephi/darwin",
+      "name": "Gephi",
+      "platform": "darwin",
+      "version": "0.11.2",
+      "installerUrl": "https://github.com/gephi/gephi/releases/download/v0.11.2/gephi-0.11.2-macos-aarch64.dmg"
     },
     {
       "slug": "ghostty/darwin",
@@ -1612,6 +1661,20 @@
       "installerUrl": "https://github.com/git-for-windows/git/releases/download/v2.54.0.windows.1/Git-2.54.0-64-bit.exe"
     },
     {
+      "slug": "gitfinder/darwin",
+      "name": "GitFinder",
+      "platform": "darwin",
+      "version": "1.7.11",
+      "installerUrl": "https://gitfinder.com/updates/GitFinder1_7_11.dmg"
+    },
+    {
+      "slug": "github-copilot-for-xcode/darwin",
+      "name": "GitHub Copilot for Xcode",
+      "platform": "darwin",
+      "version": "0.50.0",
+      "installerUrl": "https://githubcopilotide.z13.web.core.windows.net/0.50.0/GitHubCopilotForXcode.dmg"
+    },
+    {
       "slug": "github-desktop/windows",
       "name": "GitHub Desktop",
       "platform": "windows",
@@ -1624,6 +1687,13 @@
       "platform": "darwin",
       "version": "3.5.12",
       "installerUrl": "https://desktop.githubusercontent.com/releases/3.5.12-c6aad713/GitHubDesktop-arm64.zip"
+    },
+    {
+      "slug": "gitify/darwin",
+      "name": "Gitify",
+      "platform": "darwin",
+      "version": "6.20.0",
+      "installerUrl": "https://github.com/gitify-app/gitify/releases/download/v6.20.0/Gitify-6.20.0-universal-mac.zip"
     },
     {
       "slug": "gitkraken/darwin",
@@ -1640,6 +1710,48 @@
       "installerUrl": "https://api.gitkraken.dev/releases/production/windows/x64/12.2.0/GitKrakenSetup.exe"
     },
     {
+      "slug": "gitup-app/darwin",
+      "name": "GitUp",
+      "platform": "darwin",
+      "version": "1.4.3",
+      "installerUrl": "https://github.com/git-up/GitUp/releases/download/v1.4.3/GitUp.zip"
+    },
+    {
+      "slug": "glyphs/darwin",
+      "name": "Glyphs",
+      "platform": "darwin",
+      "version": "3.5",
+      "installerUrl": "https://updates.glyphsapp.com/Glyphs3.5-3526.zip"
+    },
+    {
+      "slug": "go2shell/darwin",
+      "name": "Go2Shell",
+      "platform": "darwin",
+      "version": "2.5",
+      "installerUrl": "https://zipzapmac.com/DMGs/Go2Shell.dmg"
+    },
+    {
+      "slug": "godot/darwin",
+      "name": "Godot Engine",
+      "platform": "darwin",
+      "version": "4.6.3",
+      "installerUrl": "https://github.com/godotengine/godot/releases/download/4.6.3-stable/Godot_v4.6.3-stable_macos.universal.zip"
+    },
+    {
+      "slug": "godspeed/darwin",
+      "name": "Godspeed",
+      "platform": "darwin",
+      "version": "1.9.19",
+      "installerUrl": "https://app-updates.godspeedapp.com/1.9.19%2FGodspeed.zip"
+    },
+    {
+      "slug": "gog-galaxy/darwin",
+      "name": "GOG Galaxy",
+      "platform": "darwin",
+      "version": "2.0.100.1",
+      "installerUrl": "https://gog-cdn-fastly.gog.com/open/galaxy/client/galaxy_client_2.0.100.1.pkg"
+    },
+    {
       "slug": "goland/darwin",
       "name": "GoLand",
       "platform": "darwin",
@@ -1652,6 +1764,13 @@
       "platform": "windows",
       "version": "2026.1.2",
       "installerUrl": "https://download.jetbrains.com/go/goland-2026.1.2.exe"
+    },
+    {
+      "slug": "goodsync/darwin",
+      "name": "GoodSync",
+      "platform": "darwin",
+      "version": "12.11.2",
+      "installerUrl": "https://www.goodsync.com/download/goodsync-vsub-mac.dmg"
     },
     {
       "slug": "google-chrome/darwin",
@@ -1689,6 +1808,13 @@
       "installerUrl": "https://dl.google.com/release2/drive-file-stream/bojq6y2g3cpbbgm6smuw7zmwby_126.0.5.0/setup.exe"
     },
     {
+      "slug": "google-earth-pro/darwin",
+      "name": "Google Earth Pro",
+      "platform": "darwin",
+      "version": "7.3.7.1155",
+      "installerUrl": "https://dl.google.com/dl/earth/client/advanced/current/googleearthpromac-intel-7.3.7.dmg"
+    },
+    {
       "slug": "google-gemini/darwin",
       "name": "Gemini",
       "platform": "darwin",
@@ -1717,11 +1843,25 @@
       "installerUrl": "https://releases.gpgtools.org/GPG_Suite-2023.3.dmg"
     },
     {
+      "slug": "gpodder/darwin",
+      "name": "gPodder",
+      "platform": "darwin",
+      "version": "3.11.5",
+      "installerUrl": "https://github.com/gpodder/gpodder/releases/download/3.11.5/macOS-gPodder-3.11.5.zip"
+    },
+    {
       "slug": "grammarly-desktop/darwin",
       "name": "Grammarly Desktop",
       "platform": "darwin",
       "version": "1.169.1",
       "installerUrl": "https://download-mac.grammarly.com/versions/1.169.1.0/Grammarly.dmg"
+    },
+    {
+      "slug": "grandperspective/darwin",
+      "name": "GrandPerspective",
+      "platform": "darwin",
+      "version": "3.7.2",
+      "installerUrl": "https://downloads.sourceforge.net/grandperspectiv/grandperspective/3.7.2/GrandPerspective-3_7_2.dmg"
     },
     {
       "slug": "granola/darwin",
@@ -1738,11 +1878,25 @@
       "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.309.0/Granola-7.309.0-win-x64.exe"
     },
     {
+      "slug": "grids/darwin",
+      "name": "Grids",
+      "platform": "darwin",
+      "version": "8.5.8",
+      "installerUrl": "https://gridsapp.net/bin/Grids_8.5.8.zip"
+    },
+    {
       "slug": "groove-omnidialer/darwin",
       "name": "Groove OmniDialer",
       "platform": "darwin",
       "version": "26.603.1017",
       "installerUrl": "https://groove-dialer.s3-us-west-2.amazonaws.com/electron/Groove%20OmniDialer-26.603.1017-universal.dmg"
+    },
+    {
+      "slug": "gyazo/darwin",
+      "name": "Nota Gyazo GIF",
+      "platform": "darwin",
+      "version": "10.9.0",
+      "installerUrl": "https://files.gyazo.com/setup/Gyazo-10.9.0.pkg"
     },
     {
       "slug": "hyper/darwin",
