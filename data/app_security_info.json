@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T17:21:05Z",
+  "lastUpdated": "2026-06-10T17:28:48Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -3067,6 +3067,26 @@
       "lastUpdated": "2026-06-10T17:21:01Z"
     },
     {
+      "slug": "jasp/darwin",
+      "name": "JASP",
+      "version": "0.97.1.0",
+      "sha256": "11804bb4c6bbcf1f0e33370acc44c9524037ead01dce32b26f81c853226a2504",
+      "cdhash": "514c5c170455b08e874318ac7b52b0b119059774",
+      "signingId": "AWJJ3YVK9B:org.jaspstats.jasp",
+      "teamId": "AWJJ3YVK9B",
+      "lastUpdated": "2026-06-10T17:23:09Z"
+    },
+    {
+      "slug": "jellyfin/darwin",
+      "name": "Jellyfin",
+      "version": "10.11.11",
+      "sha256": "0aca8558d631b5ea74a0daafe8de4c83aad302f93e60bce1d9eae538e7fc101f",
+      "cdhash": "4987b0ba0efb66a14194139617e352789a4995f2",
+      "signingId": "6YC6EAV7ES:Jellyfin.Server",
+      "teamId": "6YC6EAV7ES",
+      "lastUpdated": "2026-06-10T17:23:49Z"
+    },
+    {
       "slug": "jetbrains-toolbox/darwin",
       "name": "JetBrains Toolbox",
       "version": "3.5",
@@ -3089,6 +3109,26 @@
       "lastUpdated": "2026-06-03T03:42:56Z"
     },
     {
+      "slug": "jiggler/darwin",
+      "name": "Jiggler",
+      "version": "1.10",
+      "sha256": "0e82282cadf5f16d2bbde744873a948c8877fadfb50f4f7c9172b4171fb01629",
+      "cdhash": "f6c019fc91ba2c24bf81afe38ab2350bfce04865",
+      "signingId": "C5P6M43RZ7:com.stick.app.jiggler",
+      "teamId": "C5P6M43RZ7",
+      "lastUpdated": "2026-06-10T17:24:11Z"
+    },
+    {
+      "slug": "jitsi-meet/darwin",
+      "name": "Jitsi Meet",
+      "version": "2026.6.0",
+      "sha256": "d5cbba3dc8a009405f746805b83b4e17bdb9c01e22eb1b194750ab65468b1376",
+      "cdhash": "45559e4753b0f2f7b4e30c66a98307e7b9a826a2",
+      "signingId": "FC967L3QRG:org.jitsi.jitsi-meet",
+      "teamId": "FC967L3QRG",
+      "lastUpdated": "2026-06-10T17:24:36Z"
+    },
+    {
       "slug": "joplin/darwin",
       "name": "Joplin",
       "version": "3.6.14",
@@ -3109,6 +3149,66 @@
       "thumbprint": "AF0C1B9451567F9AF077DD0646D2927153B05DAF",
       "timestamp": "CN=SSL.com Timestamping Unit 2025 E1, O=SSL Corp, L=Houston, S=Texas, C=US",
       "lastUpdated": "2026-05-29T15:20:41Z"
+    },
+    {
+      "slug": "jordanbaird-ice/darwin",
+      "name": "Ice",
+      "version": "0.11.12",
+      "sha256": "4180a56a19e04d84184014a9e75fd42a995a1a3fc690232c54d115f9ea0daad6",
+      "cdhash": "473c2f15098acddc98dda45e0af1ef71c103bf20",
+      "signingId": "K2ATHQPJDP:com.jordanbaird.Ice",
+      "teamId": "K2ATHQPJDP",
+      "lastUpdated": "2026-06-10T17:24:57Z"
+    },
+    {
+      "slug": "julia-app/darwin",
+      "name": "Julia",
+      "version": "1.12.6",
+      "sha256": "969027646c7b35288eab9b6eda940599831f67c2e945e73ffc64a1f158a4f496",
+      "cdhash": "7c3feba3016a2e0113068a632bf3027cb18e756d",
+      "signingId": "A427R7F42H:org.julialang.launcherapp",
+      "teamId": "A427R7F42H",
+      "lastUpdated": "2026-06-10T17:25:29Z"
+    },
+    {
+      "slug": "jump-desktop/darwin",
+      "name": "Jump Desktop",
+      "version": "9.1.9",
+      "sha256": "92afe32517e5aa0b0cec5d54ed8e110060abb03ff88676fbe2fb401922488b26",
+      "cdhash": "d2eb3a2f52168f2d436a0a7045ed8c46e635c4d6",
+      "signingId": "2HCKV38EEC:com.p5sys.jump.mac.viewer.web",
+      "teamId": "2HCKV38EEC",
+      "lastUpdated": "2026-06-10T17:26:53Z"
+    },
+    {
+      "slug": "kaleidoscope/darwin",
+      "name": "Kaleidoscope",
+      "version": "6.7",
+      "sha256": "2131ffa23a054473a4961593aebf17a0c71e33d5cea47aa55e0acaf69be0d9d9",
+      "cdhash": "8d8406a14ac5aae39400f543c9115964c2b6cc50",
+      "signingId": "4G35KLFD64:app.kaleidoscope.v4",
+      "teamId": "4G35KLFD64",
+      "lastUpdated": "2026-06-10T17:27:16Z"
+    },
+    {
+      "slug": "kap/darwin",
+      "name": "Kap",
+      "version": "3.6.0",
+      "sha256": "1f065ab847af0e698848bb126086691a28503254d46b758b95d3daad5505ca08",
+      "cdhash": "824f889c11c3098faffde653e9566d3cbff3288c",
+      "signingId": "2KEEHXF6R6:com.wulkano.kap",
+      "teamId": "2KEEHXF6R6",
+      "lastUpdated": "2026-06-10T17:27:41Z"
+    },
+    {
+      "slug": "kdenlive/darwin",
+      "name": "Kdenlive",
+      "version": "26.04.2",
+      "sha256": "7c586dcdccfb3f7296ad40a6a8bc4dbd8d4e2247a450420ce87e7d5823b6923a",
+      "cdhash": "b65813314c379a4672e00a5703b26923cdfb4410",
+      "signingId": "5433B4KXM8:org.kde.Kdenlive",
+      "teamId": "5433B4KXM8",
+      "lastUpdated": "2026-06-10T17:28:45Z"
     },
     {
       "slug": "keepassxc/darwin",
