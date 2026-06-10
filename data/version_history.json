@@ -1,222 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-05-04T15:45:52Z",
-      "appName": "Adobe Acrobat Reader",
-      "slug": "adobe-acrobat-reader/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.001.21431",
-      "newVersion": "26.001.21529",
-      "installerUrl": "https://ardownload2.adobe.com/pub/adobe/reader/mac/AcrobatDC/2600121529/AcroRdrDC_2600121529_MUI.dmg"
-    },
-    {
-      "date": "2026-05-04T15:45:52Z",
-      "appName": "Ollama",
-      "slug": "ollama/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.22.1",
-      "newVersion": "0.23.0",
-      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.23.0/Ollama-darwin.zip"
-    },
-    {
-      "date": "2026-05-04T15:45:52Z",
-      "appName": "8x8 Work",
-      "slug": "8x8-work/windows",
-      "platform": "windows",
-      "oldVersion": "8.32.2",
-      "newVersion": "8.33.2",
-      "installerUrl": "https://work-desktop-assets.8x8.com/prod-publish/ga/work-64-msi-v8.33.2-2.msi"
-    },
-    {
-      "date": "2026-05-04T15:45:52Z",
-      "appName": "8x8 Work",
-      "slug": "8x8-work/darwin",
-      "platform": "darwin",
-      "oldVersion": "8.32.2",
-      "newVersion": "8.33.2",
-      "installerUrl": "https://work-desktop-assets.8x8.com/prod-publish/ga/work-arm64-dmg-v8.33.2-2.dmg"
-    },
-    {
-      "date": "2026-05-04T15:45:52Z",
-      "appName": "Postman",
-      "slug": "postman/windows",
-      "platform": "windows",
-      "oldVersion": "12.8.4",
-      "newVersion": "12.9.0",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.9.0/windows_64"
-    },
-    {
-      "date": "2026-05-04T16:39:01Z",
-      "appName": "Fleet Desktop",
-      "slug": "fleet-desktop/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.1.0",
-      "newVersion": "1.2.0",
-      "installerUrl": "https://github.com/allenhouchins/fleet-desktop/releases/download/v1.2.0/fleet_desktop-v1.2.0.pkg"
-    },
-    {
-      "date": "2026-05-04T17:36:20Z",
-      "appName": "AnyDesk",
-      "slug": "anydesk/darwin",
-      "platform": "darwin",
-      "oldVersion": "9.6.5",
-      "newVersion": "9.7.0",
-      "installerUrl": "https://download.anydesk.com/anydesk.dmg"
-    },
-    {
-      "date": "2026-05-05T15:42:00Z",
-      "appName": "Nextcloud",
-      "slug": "nextcloud/darwin",
-      "platform": "darwin",
-      "oldVersion": "33.0.3",
-      "newVersion": "33.0.4",
-      "installerUrl": "https://github.com/nextcloud-releases/desktop/releases/download/v33.0.4/Nextcloud-33.0.4.pkg"
-    },
-    {
-      "date": "2026-05-05T15:42:00Z",
-      "appName": "Postman",
-      "slug": "postman/darwin",
-      "platform": "darwin",
-      "oldVersion": "12.9.0",
-      "newVersion": "12.9.2",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.9.2/osx_arm64"
-    },
-    {
-      "date": "2026-05-05T15:42:00Z",
-      "appName": "Discord",
-      "slug": "discord/windows",
-      "platform": "windows",
-      "oldVersion": "1.0.9235",
-      "newVersion": "1.0.9236",
-      "installerUrl": "https://stable.dl2.discordapp.net/distro/app/stable/win/x64/1.0.9236/DiscordSetup.exe"
-    },
-    {
-      "date": "2026-05-05T15:42:00Z",
-      "appName": "Discord",
-      "slug": "discord/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.0.388",
-      "newVersion": "0.0.389",
-      "installerUrl": "https://dl.discordapp.net/apps/osx/0.0.389/Discord.dmg"
-    },
-    {
-      "date": "2026-05-05T15:42:00Z",
-      "appName": "Grammarly Desktop",
-      "slug": "grammarly-desktop/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.163.1",
-      "newVersion": "1.164.0",
-      "installerUrl": "https://download-mac.grammarly.com/versions/1.164.0.0/Grammarly.dmg"
-    },
-    {
-      "date": "2026-05-05T15:42:00Z",
-      "appName": "Rancher Desktop",
-      "slug": "rancher/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.22.0",
-      "newVersion": "1.22.2",
-      "installerUrl": "https://github.com/rancher-sandbox/rancher-desktop/releases/download/v1.22.2/Rancher.Desktop-1.22.2.aarch64.dmg"
-    },
-    {
-      "date": "2026-05-05T15:42:00Z",
-      "appName": "Tower",
-      "slug": "tower/darwin",
-      "platform": "darwin",
-      "oldVersion": "15.1",
-      "newVersion": "16.0",
-      "installerUrl": "https://www.git-tower.com/apps/tower3-mac/534-1e48e030/Tower-16.0-534.zip"
-    },
-    {
-      "date": "2026-05-05T15:42:00Z",
-      "appName": "Anka",
-      "slug": "anka-virtualization/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.8.6",
-      "newVersion": "3.9.0",
-      "installerUrl": "https://downloads.veertu.com/anka/Anka-3.9.0.215.pkg"
-    },
-    {
-      "date": "2026-05-05T18:37:29Z",
-      "appName": "Asana",
-      "slug": "asana/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.6.0",
-      "newVersion": "2.7.1",
-      "installerUrl": "https://desktop-downloads.asana.com/darwin_arm64/prod/v2.7.1/Asana-darwin-arm64-2.7.1.zip"
-    },
-    {
-      "date": "2026-05-05T18:37:29Z",
-      "appName": "Postman",
-      "slug": "postman/windows",
-      "platform": "windows",
-      "oldVersion": "12.9.0",
-      "newVersion": "12.9.2",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.9.2/windows_64"
-    },
-    {
-      "date": "2026-05-05T18:37:29Z",
-      "appName": "Asana",
-      "slug": "asana/windows",
-      "platform": "windows",
-      "oldVersion": "2.6.0",
-      "newVersion": "2.7.1",
-      "installerUrl": "https://desktop-downloads.asana.com/win32_x64/prod/v2.7.1/AsanaSetup.exe"
-    },
-    {
-      "date": "2026-05-06T14:59:52Z",
-      "appName": "Cavalry",
-      "slug": "cavalry/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "2.7.1",
-      "installerUrl": "https://cavalry.studio/downloads/latest/Cavalry.dmg"
-    },
-    {
-      "date": "2026-05-06T15:51:04Z",
-      "appName": "Microsoft Excel",
-      "slug": "microsoft-excel/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.108.2",
-      "newVersion": "16.108.3",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.108.26050324_Installer.pkg"
-    },
-    {
-      "date": "2026-05-06T15:51:04Z",
-      "appName": "Claude",
-      "slug": "claude/windows",
-      "platform": "windows",
-      "oldVersion": "1.5354.0",
-      "newVersion": "1.6259.1",
-      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.6259.1/Claude-5095e7dddcba4ca974d351ee397e17d204814f07.msix"
-    },
-    {
-      "date": "2026-05-06T15:51:04Z",
-      "appName": "DataGrip",
-      "slug": "datagrip/darwin",
-      "platform": "darwin",
-      "oldVersion": "2026.1.2",
-      "newVersion": "2026.1.3",
-      "installerUrl": "https://download.jetbrains.com/datagrip/datagrip-2026.1.3-aarch64.dmg"
-    },
-    {
-      "date": "2026-05-06T15:51:04Z",
-      "appName": "Ollama",
-      "slug": "ollama/windows",
-      "platform": "windows",
-      "oldVersion": "0.23.0",
-      "newVersion": "0.23.1",
-      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.23.1/OllamaSetup.exe"
-    },
-    {
-      "date": "2026-05-06T15:51:04Z",
-      "appName": "Egnyte",
-      "slug": "egnyte/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.16.0",
-      "newVersion": "1.17.0",
-      "installerUrl": "https://egnyte-cdn.egnyte.com/desktopapp/mac/en-us/1.17.0/Egnyte_1.17.0_2340.dmg"
-    },
-    {
       "date": "2026-05-06T15:51:04Z",
       "appName": "Ollama",
       "slug": "ollama/darwin",
@@ -8999,6 +8783,222 @@
       "oldVersion": "",
       "newVersion": "3.5",
       "installerUrl": "https://updates.glyphsapp.com/Glyphs3.5-3526.zip"
+    },
+    {
+      "date": "2026-06-10T03:15:35Z",
+      "appName": "ONLYOFFICE",
+      "slug": "onlyoffice/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "9.4.0",
+      "installerUrl": "https://download.onlyoffice.com/install/desktop/editors/mac/arm/updates/ONLYOFFICE-arm-9.4.0.zip"
+    },
+    {
+      "date": "2026-06-10T03:15:35Z",
+      "appName": "OpenCode",
+      "slug": "opencode-desktop/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "1.16.2",
+      "installerUrl": "https://github.com/anomalyco/opencode/releases/download/v1.16.2/opencode-desktop-mac-arm64.dmg"
+    },
+    {
+      "date": "2026-06-10T03:15:35Z",
+      "appName": "OpenInTerminal",
+      "slug": "openinterminal/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "2.3.8",
+      "installerUrl": "https://github.com/Ji4n1ng/OpenInTerminal/releases/download/v2.3.8/OpenInTerminal.zip"
+    },
+    {
+      "date": "2026-06-10T03:15:35Z",
+      "appName": "OK JSON",
+      "slug": "ok-json/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "2.10.2",
+      "installerUrl": "https://okjson.app/download/okjson-latest.zip"
+    },
+    {
+      "date": "2026-06-10T03:15:35Z",
+      "appName": "ocenaudio",
+      "slug": "ocenaudio/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "3.19.2",
+      "installerUrl": "https://www.ocenaudio.com/downloads/index.php/ocenaudio_universal.dmg"
+    },
+    {
+      "date": "2026-06-10T03:15:35Z",
+      "appName": "OpenRefine",
+      "slug": "openrefine/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "3.10.1",
+      "installerUrl": "https://github.com/OpenRefine/OpenRefine/releases/download/3.10.1/openrefine-mac-3.10.1.dmg"
+    },
+    {
+      "date": "2026-06-10T03:15:35Z",
+      "appName": "OnlySwitch",
+      "slug": "only-switch/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "2.6.7",
+      "installerUrl": "https://github.com/jacklandrin/OnlySwitch/releases/download/release_2.6.7/OnlySwitch.dmg"
+    },
+    {
+      "date": "2026-06-10T03:15:35Z",
+      "appName": "OmniPlan",
+      "slug": "omniplan/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "4.10.2",
+      "installerUrl": "https://downloads.omnigroup.com/software/macOS/12/OmniPlan-4.10.2.dmg"
+    },
+    {
+      "date": "2026-06-10T03:15:35Z",
+      "appName": "OpenMTP",
+      "slug": "openmtp/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "3.2.25",
+      "installerUrl": "https://github.com/ganeshrvel/openmtp/releases/download/v3.2.25/openmtp-3.2.25-mac-arm64.zip"
+    },
+    {
+      "date": "2026-06-10T03:15:35Z",
+      "appName": "Okta Advanced Server Access",
+      "slug": "okta-advanced-server-access/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "1.107.0",
+      "installerUrl": "https://dist.scaleft.com/repos/macos/stable/all/macos-client/v1.107.0/ScaleFT-1.107.0.pkg"
+    },
+    {
+      "date": "2026-06-10T03:15:35Z",
+      "appName": "Origami Studio",
+      "slug": "origami-studio/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "221.0.0.0.0",
+      "installerUrl": "https://facebook.com/designtools/origami/"
+    },
+    {
+      "date": "2026-06-10T03:15:35Z",
+      "appName": "OpenBoard",
+      "slug": "openboard/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "1.7.7",
+      "installerUrl": "https://github.com/OpenBoard-org/OpenBoard/releases/download/v1.7.7/OpenBoard-1.7.7.dmg"
+    },
+    {
+      "date": "2026-06-10T03:15:35Z",
+      "appName": "Opal Composer",
+      "slug": "opal-composer/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "2.0.0",
+      "installerUrl": "https://updates.opal.camera/release/Opal_Composer_2.0.0_24.dmg"
+    },
+    {
+      "date": "2026-06-10T03:15:35Z",
+      "appName": "OmniOutliner",
+      "slug": "omnioutliner/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "6.1",
+      "installerUrl": "https://downloads.omnigroup.com/software/macOS/15/OmniOutliner-6.1.dmg"
+    },
+    {
+      "date": "2026-06-10T03:15:35Z",
+      "appName": "OmniFocus",
+      "slug": "omnifocus/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "4.8.11",
+      "installerUrl": "https://downloads.omnigroup.com/software/macOS/14/OmniFocus-4.8.11.dmg"
+    },
+    {
+      "date": "2026-06-10T03:15:35Z",
+      "appName": "OpenAudible",
+      "slug": "openaudible/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "4.8.2",
+      "installerUrl": "https://github.com/openaudible/openaudible/releases/download/v4.8.2/OpenAudible_4.8.2.dmg"
+    },
+    {
+      "date": "2026-06-10T03:15:35Z",
+      "appName": "One Switch",
+      "slug": "one-switch/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "1.35.4",
+      "installerUrl": "https://fireball.studio/media/uploads/files/OneSwitchOfficial-440.dmg"
+    },
+    {
+      "date": "2026-06-10T03:15:35Z",
+      "appName": "OpenToonz",
+      "slug": "opentoonz/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "1.7.1",
+      "installerUrl": "https://github.com/opentoonz/opentoonz/releases/download/v1.7.1/OpenToonz.pkg"
+    },
+    {
+      "date": "2026-06-10T03:15:35Z",
+      "appName": "OmniDiskSweeper",
+      "slug": "omnidisksweeper/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "1.16",
+      "installerUrl": "https://downloads.omnigroup.com/software/macOS/11/OmniDiskSweeper-1.16.dmg"
+    },
+    {
+      "date": "2026-06-10T03:15:35Z",
+      "appName": "OpenCloud Desktop",
+      "slug": "opencloud/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "3.0.3",
+      "installerUrl": "https://github.com/opencloud-eu/desktop/releases/download/v3.0.3/OpenCloud_Desktop-v3.0.3-macos-clang-arm64.pkg"
+    },
+    {
+      "date": "2026-06-10T03:15:35Z",
+      "appName": "OnionShare",
+      "slug": "onionshare/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "2.6.3",
+      "installerUrl": "https://onionshare.org/dist/2.6.3/OnionShare-2.6.3.dmg"
+    },
+    {
+      "date": "2026-06-10T03:15:35Z",
+      "appName": "OpenRCT2",
+      "slug": "openrct2/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "0.5.2",
+      "installerUrl": "https://github.com/OpenRCT2/OpenRCT2/releases/download/v0.5.2/OpenRCT2-v0.5.2-macos-universal.zip"
+    },
+    {
+      "date": "2026-06-10T03:15:35Z",
+      "appName": "OpenLens",
+      "slug": "openlens/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "6.5.2-366",
+      "installerUrl": "https://github.com/MuhammedKalkan/OpenLens/releases/download/v6.5.2-366/OpenLens-6.5.2-366-arm64.dmg"
+    },
+    {
+      "date": "2026-06-10T03:15:35Z",
+      "appName": "Optimus Player",
+      "slug": "optimus-player/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "1.5",
+      "installerUrl": "https://download.optimusplayer.com/Optimus%20Player%201.5.dmg"
     }
   ]
 }
