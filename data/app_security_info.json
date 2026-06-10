@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T17:41:09Z",
+  "lastUpdated": "2026-06-10T17:49:40Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -4903,6 +4903,26 @@
       "lastUpdated": "2026-06-10T17:41:07Z"
     },
     {
+      "slug": "qlmarkdown/darwin",
+      "name": "sbarex QLMarkdown",
+      "version": "1.5.1",
+      "sha256": "5070b4f6d7596753de59acf5177f873fba8ffdb544758774305ccf00062811ee",
+      "cdhash": "dd81ec0729408f5d488f5e02ac0a1a79f21159b7",
+      "signingId": "D5VMCLD3ZK:org.sbarex.QLMarkdown",
+      "teamId": "D5VMCLD3ZK",
+      "lastUpdated": "2026-06-10T17:41:29Z"
+    },
+    {
+      "slug": "qspace-pro/darwin",
+      "name": "QSpace Pro",
+      "version": "6.2.2",
+      "sha256": "20b769b193562427d5f8f16be9ebc04b56648043201dc5a035c5442d706840db",
+      "cdhash": "a491d6bf3a871b6b009b0af96d4fdc573dccc1ea",
+      "signingId": "6JAT6A85B6:com.jinghaoshe.qspace.pro",
+      "teamId": "6JAT6A85B6",
+      "lastUpdated": "2026-06-10T17:42:53Z"
+    },
+    {
       "slug": "quip/darwin",
       "name": "Quip",
       "version": "9.44.0",
@@ -4911,6 +4931,14 @@
       "signingId": "FMRT79K8DG:com.quip.Desktop",
       "teamId": "FMRT79K8DG",
       "lastUpdated": "2026-05-26T18:59:24Z"
+    },
+    {
+      "slug": "qview/darwin",
+      "name": "qView",
+      "version": "7.1",
+      "sha256": "021be6a60e560f34178b1536e82f41d6dd61a807db46698daba0b4affbe0f044",
+      "cdhash": "8e73653014c27f86640928bbde987a392b5ab37b",
+      "lastUpdated": "2026-06-10T17:43:16Z"
     },
     {
       "slug": "r/windows",
@@ -5077,12 +5105,12 @@
     {
       "slug": "rustrover/darwin",
       "name": "RustRover",
-      "version": "2026.1.2",
-      "sha256": "76269b94c2fc9ab42b5da11e014a14041ef6f75b6ad1ed6316b09afc0d87b5e5",
-      "cdhash": "6da9ec70ff02dab32143397e511da2e3ff65c75e",
+      "version": "2026.1.3",
+      "sha256": "92e86178b11478047836849dd9acbd6914c0ab1e6eaebb50543efd4604d4b3d7",
+      "cdhash": "64d47b3d73868c5967eea952f138c10d88e9f38b",
       "signingId": "2ZEFAR8TH3:com.jetbrains.rustrover",
       "teamId": "2ZEFAR8TH3",
-      "lastUpdated": "2026-05-19T01:55:03Z"
+      "lastUpdated": "2026-06-10T17:44:08Z"
     },
     {
       "slug": "rustrover/windows",
@@ -5279,12 +5307,12 @@
     {
       "slug": "setapp/darwin",
       "name": "Setapp",
-      "version": "3.53.2",
-      "sha256": "5985a0ed19b278c9f866330f67a84cef07b0d9f0d143d807f861e8f60594195d",
-      "cdhash": "3a71155533561d00864515090488ddb5aa237e06",
+      "version": "3.53.4",
+      "sha256": "87b5df057a300415a7c2c82cf3e794fd843608aff2c0e2f1909122ae093c22ec",
+      "cdhash": "6e01640a827b929ba9c22a5623aafc51577aaf01",
       "signingId": "MEHY5QF425:com.setapp.DesktopClient",
       "teamId": "MEHY5QF425",
-      "lastUpdated": "2026-06-10T15:26:35Z"
+      "lastUpdated": "2026-06-10T17:44:35Z"
     },
     {
       "slug": "sf-symbols/darwin",
@@ -5297,12 +5325,12 @@
     {
       "slug": "shapr3d/darwin",
       "name": "Shapr3D",
-      "version": "26.91.0.11012",
-      "sha256": "ce9db3b022dc7b3287852bd30d5bc58c07e8b1e078563e3f9066e4a8cedc8d50",
-      "cdhash": "7cf90d21d17d5a2ac1ce08a6eeea30737b5c0d33",
+      "version": "26.100.0.11031",
+      "sha256": "b63717a97f92235668bf5ecfce43a94b14676bfbfd7a071da61bbf2750e3adc2",
+      "cdhash": "8198a28a631ca8e894742365c6c6706dff7927d3",
       "signingId": "3S68S4FLA7:com.shapr3d.shapr",
       "teamId": "3S68S4FLA7",
-      "lastUpdated": "2026-06-10T15:27:39Z"
+      "lastUpdated": "2026-06-10T17:45:23Z"
     },
     {
       "slug": "sharefile/darwin",
@@ -6031,12 +6059,12 @@
     {
       "slug": "superwhisper/darwin",
       "name": "superwhisper",
-      "version": "2.15.0",
-      "sha256": "d8ba9df58d79a33d62010f9e187aa9446b50b6141b0775ce562c3f80a24e46e2",
-      "cdhash": "d5e1c2bd77069e67fa1740fcae7ba100db360ebb",
+      "version": "2.16.0",
+      "sha256": "d3c2be76f3db58636231fe605beda749692f04835be84c172f97ef5705e21471",
+      "cdhash": "770a2e2586af23aa3e60cdca8d8777ac6185d04a",
       "signingId": "XDP69BYUP9:com.superduper.superwhisper",
       "teamId": "XDP69BYUP9",
-      "lastUpdated": "2026-06-10T16:03:14Z"
+      "lastUpdated": "2026-06-10T17:45:45Z"
     },
     {
       "slug": "supportcompanion/darwin",
@@ -6182,12 +6210,12 @@
     {
       "slug": "tableplus/darwin",
       "name": "TablePlus",
-      "version": "7.1.0",
-      "sha256": "4b1f80e105058809cea6637b95c5a3cefe49cd60054e5d27381d610d66cea77a",
-      "cdhash": "016d0aec21b2e1054e5adc7cd34e63fe19732b5d",
+      "version": "7.1.6",
+      "sha256": "8743bc97150642420bce32f935b66acfd459b0a54ed9de139853cfeb69da2783",
+      "cdhash": "bcdae3f3616abcc7cd13706273ef96714d9eefa2",
       "signingId": "3X57WP8E8V:com.tinyapp.TablePlus",
       "teamId": "3X57WP8E8V",
-      "lastUpdated": "2026-05-26T19:02:38Z"
+      "lastUpdated": "2026-06-10T17:48:43Z"
     },
     {
       "slug": "tableplus/windows",
@@ -6248,12 +6276,12 @@
     {
       "slug": "telegram/darwin",
       "name": "Telegram",
-      "version": "12.7",
-      "sha256": "82f86e943f556d1de97c7f077dcec3b95c05d18af0cbbefdd3b3e8889827603d",
-      "cdhash": "a1db26e751075e8646d78c390df4a760b410552f",
+      "version": "12.8",
+      "sha256": "3749f77ef98a6303ec64925bcbe83c58549ab066bab9530b8778402d94547061",
+      "cdhash": "64ccbcdb616a62192cc0a9526be81acfca7c9509",
       "signingId": "6N38VWS5BX:ru.keepcoder.Telegram",
       "teamId": "6N38VWS5BX",
-      "lastUpdated": "2026-05-26T19:03:45Z"
+      "lastUpdated": "2026-06-10T17:49:11Z"
     },
     {
       "slug": "telegram/windows",
@@ -6477,12 +6505,12 @@
     {
       "slug": "ua-connect/darwin",
       "name": "UA Connect",
-      "version": "1.9.3",
-      "sha256": "ea16e32b350dc44399e2ecf2885b758652ed898561f38d48e2a1840d1c1ed76a",
-      "cdhash": "59c26f120c1e49f6230fd3efa516c9d1911a32d2",
+      "version": "1.9.4",
+      "sha256": "623efcac3a1de4d6cbbdc92260642d1ab4a6137047b94ed21eca7f2e6acb6fbd",
+      "cdhash": "7dba36c463b9ad3ce4f05b9e9353d9c010054b18",
       "signingId": "4KAC9AX6CG:com.uaudio.ua-connect",
       "teamId": "4KAC9AX6CG",
-      "lastUpdated": "2026-06-09T22:02:30Z"
+      "lastUpdated": "2026-06-10T17:49:37Z"
     },
     {
       "slug": "ukelele/darwin",
