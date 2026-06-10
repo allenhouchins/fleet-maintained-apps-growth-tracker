@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: June 10, 2026 at 4:37 PM CDT</p>
+            Last updated: June 10, 2026 at 4:45 PM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: June 10, 2026 at 4:37 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: June 10, 2026 at 4:45 PM CDT</p>
             </div>
         </div>
     </div>
@@ -4171,7 +4171,14 @@
                 "platform": "darwin",
                 "description": "Background Music is an audio utility for per-application volume control.",
                 "version": "0.4.3",
-                "installerUrl": "https://github.com/kyleneideck/BackgroundMusic/releases/download/v0.4.3/BackgroundMusic-0.4.3.pkg"
+                "installerUrl": "https://github.com/kyleneideck/BackgroundMusic/releases/download/v0.4.3/BackgroundMusic-0.4.3.pkg",
+                "securityInfo": {
+                  "sha256": "93b18c0ca658126781892d168c7f5395b5e34e3a79a4e918b4abcbb1bff5e32a",
+                  "cdhash": "f90eef2c00ac292a1a46b69b97ba7ced6e69368c",
+                  "signingId": "PR7PXC66S5:com.bearisdriving.BGM.App",
+                  "teamId": "PR7PXC66S5",
+                  "lastUpdated": "2026-06-10T21:38:39Z"
+                }
               },
               {
                 "name": "Badgeify",
@@ -15333,7 +15340,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `June 10, 2026 at 4:37 PM CDT`;
+                let timestampText = 'Last updated: ' + `June 10, 2026 at 4:45 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
