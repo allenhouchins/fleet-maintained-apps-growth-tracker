@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T22:47:15Z",
+  "lastUpdated": "2026-06-10T22:53:52Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -2495,6 +2495,36 @@
       "lastUpdated": "2026-06-03T13:49:15Z"
     },
     {
+      "slug": "eaglefiler/darwin",
+      "name": "EagleFiler",
+      "version": "1.9.20",
+      "sha256": "37cafb08735c0a37e02acb9ad7346d795ba9559bae7c5c3ac437a84277ccd784",
+      "cdhash": "0eac71462092d220e5370ad899e43cef4b809bd5",
+      "signingId": "2XNHYXYT45:com.c-command.EagleFiler",
+      "teamId": "2XNHYXYT45",
+      "lastUpdated": "2026-06-10T22:47:45Z"
+    },
+    {
+      "slug": "easydict/darwin",
+      "name": "Easydict",
+      "version": "2.21.0",
+      "sha256": "f02e33462a906976c5762efea7095038d72237dcb4ec3943d9882fd2cc31c738",
+      "cdhash": "38b307ed41745af2b73e5437b5c532efdab073b7",
+      "signingId": "45Z6V4YD5U:com.izual.Easydict",
+      "teamId": "45Z6V4YD5U",
+      "lastUpdated": "2026-06-10T22:48:13Z"
+    },
+    {
+      "slug": "easyfind/darwin",
+      "name": "EasyFind",
+      "version": "5.0.2",
+      "sha256": "be4b6a47b9443da3d82f93e023db10253c0b5495ca32ac94bc9b7f185536fdfe",
+      "cdhash": "d3e5243b415da46fcd61e3854094c9e69df26e1c",
+      "signingId": "679S2QUWR8:org.grunenberg.EasyFind",
+      "teamId": "679S2QUWR8",
+      "lastUpdated": "2026-06-10T22:48:34Z"
+    },
+    {
       "slug": "eclipse-ide/darwin",
       "name": "Eclipse IDE",
       "version": "4.39",
@@ -2525,6 +2555,64 @@
       "thumbprint": "9272CAFD79BD0D84DEF40D0003B17C2A41C4387D",
       "timestamp": "CN=Sectigo Public Time Stamping Signer R36, O=Sectigo Limited, S=West Yorkshire, C=GB",
       "lastUpdated": "2026-06-07T13:44:33Z"
+    },
+    {
+      "slug": "electronmail/darwin",
+      "name": "ElectronMail",
+      "version": "5.3.6",
+      "sha256": "15994151b2345298082c9abbd804eddcd731b7af5b4f038c6752e921328838b4",
+      "cdhash": "1e01b7330c4d0c93bb47e6e288bf1c416ce8465b",
+      "lastUpdated": "2026-06-10T22:49:05Z"
+    },
+    {
+      "slug": "electrum/darwin",
+      "name": "Electrum",
+      "version": "4.7.2",
+      "sha256": "cf3281e3a2ceb656b5aa0151d3a6f9ae4976d4b3d7b13ffd26c54ffa18faed24",
+      "cdhash": "8709617a4cea1e3ecc4cebb7e664169c5f5486c0",
+      "signingId": "L6P37P7P56:Electrum",
+      "teamId": "L6P37P7P56",
+      "lastUpdated": "2026-06-10T22:51:41Z"
+    },
+    {
+      "slug": "element/darwin",
+      "name": "Element",
+      "version": "1.12.20",
+      "sha256": "f86a9a7a025ec31ec4867947a98c43bc2d528a7796531153a231e98ba0ecc3ea",
+      "cdhash": "ea80fc12fcd4c596d7bb540f29304e10ce2f2d16",
+      "signingId": "7J4U792NQT:im.riot.app",
+      "teamId": "7J4U792NQT",
+      "lastUpdated": "2026-06-10T22:52:12Z"
+    },
+    {
+      "slug": "elephas/darwin",
+      "name": "Elephas",
+      "version": "11.7008",
+      "sha256": "760b1da6796d7354cde7b5100344e2d9fa2ba7c036368421812b8105ec9f3314",
+      "cdhash": "0ed6887362a377d0689a2b5a1debdc982f4f5f10",
+      "signingId": "Y8TM6F3MC9:com.kamban.elephas",
+      "teamId": "Y8TM6F3MC9",
+      "lastUpdated": "2026-06-10T22:52:37Z"
+    },
+    {
+      "slug": "elgato-camera-hub/darwin",
+      "name": "Elgato Camera Hub",
+      "version": "2.2.1.6945",
+      "sha256": "b0bde17980db604cc19648fe90402397d6ddd4e75b1f010d10401255e8cf9997",
+      "cdhash": "812cac8738b2be90cec5f2b498d6e43738ec4221",
+      "signingId": "Y93VXCB8Q5:com.elgato.CameraHub",
+      "teamId": "Y93VXCB8Q5",
+      "lastUpdated": "2026-06-10T22:53:27Z"
+    },
+    {
+      "slug": "elgato-capture-device-utility/darwin",
+      "name": "Elgato Capture Device Utility",
+      "version": "1.3.1",
+      "sha256": "dbf61322784c7ee10e1a63b023bf4471ad37f0566bb34dda8eff39f56669419a",
+      "cdhash": "859a5d90aaf096b596d2c0282d887d4abbc2c373",
+      "signingId": "Y93VXCB8Q5:com.elgato.CaptureDeviceUtility",
+      "teamId": "Y93VXCB8Q5",
+      "lastUpdated": "2026-06-10T22:53:50Z"
     },
     {
       "slug": "elgato-control-center/darwin",
