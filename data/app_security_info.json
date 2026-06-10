@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T15:40:57Z",
+  "lastUpdated": "2026-06-10T15:51:02Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -5338,6 +5338,66 @@
       "lastUpdated": "2026-06-10T15:40:55Z"
     },
     {
+      "slug": "sony-ps-remote-play/darwin",
+      "name": "PS Remote Play",
+      "version": "9.0.0",
+      "sha256": "6e6e09495de366ae5a1264442cf3395c0f97ee7a03f493afa838cc9451401612",
+      "cdhash": "13191cad5a876d83e39c52f6df752804046f7e9f",
+      "signingId": "8UT4NVUACP:com.playstation.RemotePlay",
+      "teamId": "8UT4NVUACP",
+      "lastUpdated": "2026-06-10T15:42:28Z"
+    },
+    {
+      "slug": "soulver/darwin",
+      "name": "Soulver",
+      "version": "3.16.2",
+      "sha256": "75e3a3fecf56202e720f9928fc225e878abe6df7b259e35b22674f56b8de7578",
+      "cdhash": "3f23675ac4c0362cd3aaf5f5633c17be7e5de4b4",
+      "signingId": "SBA8TXW9N6:app.soulver.mac",
+      "teamId": "SBA8TXW9N6",
+      "lastUpdated": "2026-06-10T15:43:39Z"
+    },
+    {
+      "slug": "sound-control/darwin",
+      "name": "Sound Control",
+      "version": "3.3.3",
+      "sha256": "5ec2711c4cb24017dc8417f0b108551cac76ab555fa518c7163ee002e331c17a",
+      "cdhash": "d31ea73b911d14f3840e1ced7e0adee43c5e5f38",
+      "signingId": "LDG5AR2ES5:com.staticz.SoundControl",
+      "teamId": "LDG5AR2ES5",
+      "lastUpdated": "2026-06-10T15:45:05Z"
+    },
+    {
+      "slug": "sound-siphon/darwin",
+      "name": "SoundSiphon",
+      "version": "3.8.4",
+      "sha256": "67cad3711a16c7f297f4460111065126ddbeaaebcd70d8c458b1bf5f119fb396",
+      "cdhash": "7bc283ab7a6e12b5b1c5e48e2c22d9341d06b068",
+      "signingId": "LDG5AR2ES5:com.staticz.SoundSiphon3",
+      "teamId": "LDG5AR2ES5",
+      "lastUpdated": "2026-06-10T15:45:29Z"
+    },
+    {
+      "slug": "soundanchor/darwin",
+      "name": "SoundAnchor",
+      "version": "1.7.0",
+      "sha256": "eab236fdd5fa87b783f9dfcd2bbc77a25c8eb96e4a93c9de3b89911528582b1d",
+      "cdhash": "212f135188fca1dbcb02fcf564514d7b7dd33ab2",
+      "signingId": "B8R4H99K58:me.kopiro.soundanchor",
+      "teamId": "B8R4H99K58",
+      "lastUpdated": "2026-06-10T15:48:40Z"
+    },
+    {
+      "slug": "soundsource/darwin",
+      "name": "SoundSource",
+      "version": "6.0.6",
+      "sha256": "13032bbc50c3d8173ae74745dafc4015a37748a228e9369b0db2883bf6bd2db5",
+      "cdhash": "e78408cc3958da9b32c4117360a393e183b0c7e1",
+      "signingId": "7266XEXAPM:com.rogueamoeba.soundsource",
+      "teamId": "7266XEXAPM",
+      "lastUpdated": "2026-06-10T15:49:03Z"
+    },
+    {
       "slug": "sourcetree/darwin",
       "name": "Sourcetree",
       "version": "4.2.18",
@@ -5353,6 +5413,36 @@
       "version": "3.4.31",
       "sha256": "205a81c44fa73d5557558724722dad6f2ad46923ad486055f3800a1fbacc4e70",
       "lastUpdated": "2026-06-05T15:16:27Z"
+    },
+    {
+      "slug": "spamsieve/darwin",
+      "name": "SpamSieve",
+      "version": "3.3",
+      "sha256": "4d2098d5b7d3fc43a9083f6390bfb9ae2c8f89fc8a70fd051464da7ebb444337",
+      "cdhash": "69e672ffae61fe9bcfce89d4913de602eabac196",
+      "signingId": "2XNHYXYT45:com.c-command.SpamSieve",
+      "teamId": "2XNHYXYT45",
+      "lastUpdated": "2026-06-10T15:49:46Z"
+    },
+    {
+      "slug": "spectra-app/darwin",
+      "name": "Spectra",
+      "version": "2.3.1",
+      "sha256": "45f06152a05a4b9e1f7538f0e53916e6659e5b80009c87257f41c91153eda692",
+      "cdhash": "2def8451241defe730c7551c61d0370075e36e4d",
+      "signingId": "FC66NY57YN:app.spectra.dev",
+      "teamId": "FC66NY57YN",
+      "lastUpdated": "2026-06-10T15:50:08Z"
+    },
+    {
+      "slug": "spitfire-audio/darwin",
+      "name": "Spitfire Audio",
+      "version": "3.4.17",
+      "sha256": "e5aedb78bbd0aae77d83313eb923fc42f9fef0ed4b5e4316edbbb8f01a0e792d",
+      "cdhash": "a5a161afa34b6b72fcc092be71cd7034d9c32105",
+      "signingId": "ES3953U57U:com.spitfireaudio.spitfireaudio",
+      "teamId": "ES3953U57U",
+      "lastUpdated": "2026-06-10T15:50:30Z"
     },
     {
       "slug": "splashtop-business/darwin",
@@ -5373,6 +5463,16 @@
       "signingId": "CPQQ3AW49Y:com.splashtop.ScriptEditor.Uninstall-Splashtop-Streamer",
       "teamId": "CPQQ3AW49Y",
       "lastUpdated": "2026-05-18T15:12:21Z"
+    },
+    {
+      "slug": "splice/darwin",
+      "name": "Splice",
+      "version": "5.4.10",
+      "sha256": "02677c024f8175041b5d8b11ed7d924ede7f717763ba35f3a5d5b309c78940e8",
+      "cdhash": "df23635e7e16cc69d5a114337d62687a40cac4b4",
+      "signingId": "9962T6AKMH:com.splice.Splice",
+      "teamId": "9962T6AKMH",
+      "lastUpdated": "2026-06-10T15:50:59Z"
     },
     {
       "slug": "spotify/darwin",
