@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T16:03:16Z",
+  "lastUpdated": "2026-06-10T16:13:05Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -5769,6 +5769,16 @@
       "lastUpdated": "2026-06-10T16:03:14Z"
     },
     {
+      "slug": "supportcompanion/darwin",
+      "name": "Support Companion",
+      "version": "2.3.1.81039",
+      "sha256": "ed8c3761d8c078fec538f4942c964d3011f15cd7b43c9806b4eea1e62c01914b",
+      "cdhash": "bb90929e7d4dd32b753ff3f27c81e98e04429759",
+      "signingId": "T4SK8ZXCXG:com.github.macadmins.SupportCompanion",
+      "teamId": "T4SK8ZXCXG",
+      "lastUpdated": "2026-06-10T16:03:43Z"
+    },
+    {
       "slug": "surfshark/darwin",
       "name": "Surfshark",
       "version": "4.27.0",
@@ -5779,6 +5789,16 @@
       "lastUpdated": "2026-04-14T17:33:08Z"
     },
     {
+      "slug": "surge/darwin",
+      "name": "Surge",
+      "version": "6.6.0",
+      "sha256": "cf7aac637aae1dc1154b69d41eddb2e42922cdd55db2d3206835b8a24996f65a",
+      "cdhash": "4b70431f6b726eb78677485c4307fd19d34f9a54",
+      "signingId": "YCKFLA6N72:com.nssurge.surge-mac",
+      "teamId": "YCKFLA6N72",
+      "lastUpdated": "2026-06-10T16:04:04Z"
+    },
+    {
       "slug": "suspicious-package/darwin",
       "name": "Suspicious Package",
       "version": "4.6.1",
@@ -5786,6 +5806,86 @@
       "signingId": "936EB786NH:com.mothersruin.SuspiciousPackageApp",
       "teamId": "936EB786NH",
       "lastUpdated": "2026-02-20T06:35:40Z"
+    },
+    {
+      "slug": "swiftbar/darwin",
+      "name": "SwiftBar",
+      "version": "2.0.1",
+      "sha256": "5f45578ff5641687c9a64c165275af1af120024b54a82ab96b55e341defb422d",
+      "cdhash": "a920f43be1692a1fedfa89eb94ad0d26ca4fff27",
+      "signingId": "X93LWC49WV:com.ameba.SwiftBar",
+      "teamId": "X93LWC49WV",
+      "lastUpdated": "2026-06-10T16:04:25Z"
+    },
+    {
+      "slug": "swifty/darwin",
+      "name": "Swifty",
+      "version": "0.6.13",
+      "sha256": "d2dd3e264ad0e5860437b768c4c1ffca2ceb454a8aef647bfa4ff1d01460a539",
+      "cdhash": "1e2610f8272acd2e5cb1f9cbfa497dfbdead15aa",
+      "signingId": "UFBL3F444A:com.electron.swifty",
+      "teamId": "UFBL3F444A",
+      "lastUpdated": "2026-06-10T16:10:34Z"
+    },
+    {
+      "slug": "swish/darwin",
+      "name": "Swish",
+      "version": "1.13.2",
+      "sha256": "a5d261c03d57a1ed2e4149129ae372ff7ae0e6971a738bc25fec0f6eb7a78a15",
+      "cdhash": "ef06321004f8fd92c15d1fc1c3c74513e1c90d51",
+      "signingId": "P699HX7P5T:co.highlyopinionated.swish",
+      "teamId": "P699HX7P5T",
+      "lastUpdated": "2026-06-10T16:10:55Z"
+    },
+    {
+      "slug": "sync/darwin",
+      "name": "Sync",
+      "version": "2.2.58",
+      "sha256": "e4caafca6e83717995378088319fb2aa3afd1cf5675e90f392069a8ba91dcd0d",
+      "cdhash": "474873da8f6586f097142dae8f20a0f73424fe7c",
+      "signingId": "7QR39CMJ3W:com.sync.desktop",
+      "teamId": "7QR39CMJ3W",
+      "lastUpdated": "2026-06-10T16:11:19Z"
+    },
+    {
+      "slug": "syncmate/darwin",
+      "name": "SyncMate",
+      "version": "8.10.575",
+      "sha256": "0f54b55471277bb2d43c9053ff2b0128cdd769bcf0939c1c5f2fc97155230c6b",
+      "cdhash": "66ee829652d54baf8dcffbca594e1be07750e3dd",
+      "signingId": "XS85JU6YZ3:com.eltima.SyncMate",
+      "teamId": "XS85JU6YZ3",
+      "lastUpdated": "2026-06-10T16:11:43Z"
+    },
+    {
+      "slug": "syncovery/darwin",
+      "name": "Syncovery",
+      "version": "11.15.8",
+      "sha256": "199dfb09b48c32dbe9f05dd738135419be97570d7f5fe7c19c7dddf3ee795f9e",
+      "cdhash": "85b2079c6692115e69c14d0dd5af00aa39502ea7",
+      "signingId": "89729G5J2H:com.company.Syncovery",
+      "teamId": "89729G5J2H",
+      "lastUpdated": "2026-06-10T16:12:19Z"
+    },
+    {
+      "slug": "syncthing-app/darwin",
+      "name": "Syncthing",
+      "version": "2.0.14-1",
+      "sha256": "f5188030c01ebf9b356e769c970ceb07dad7a5f7fa0b05b1fbe2ab567b0cb599",
+      "cdhash": "1cf9b8435f0fc2270e98ed94506c2ede0fb3f2db",
+      "signingId": "LQE5SYM783:com.github.xor-gate.syncthing-macosx",
+      "teamId": "LQE5SYM783",
+      "lastUpdated": "2026-06-10T16:12:41Z"
+    },
+    {
+      "slug": "syntax-highlight/darwin",
+      "name": "Syntax Highlight",
+      "version": "2.1.30",
+      "sha256": "564b7c475bfbfdfd3545aa2d7edfa2b12dd9729f5e8b3a0a4322df60f321635a",
+      "cdhash": "14e0b8159c57fb9a5824aa7c97c6b7fabafe678b",
+      "signingId": "D5VMCLD3ZK:org.sbarex.SourceCodeSyntaxHighlight",
+      "teamId": "D5VMCLD3ZK",
+      "lastUpdated": "2026-06-10T16:13:03Z"
     },
     {
       "slug": "tableau-desktop/windows",
