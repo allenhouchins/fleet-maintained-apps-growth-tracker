@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T21:45:45Z",
+  "lastUpdated": "2026-06-10T21:50:50Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -808,6 +808,16 @@
       "lastUpdated": "2026-06-10T21:45:42Z"
     },
     {
+      "slug": "betterzip/darwin",
+      "name": "BetterZip",
+      "version": "5.4.2",
+      "sha256": "d60bdb3f14083367cdffcfe5f264d8615474fd114a2cddce3423417a0b7e668d",
+      "cdhash": "dc103a7af28eead8ba6ff1e6d53c2178090244f8",
+      "signingId": "79RR9LPM2N:com.macitbetter.betterzip",
+      "teamId": "79RR9LPM2N",
+      "lastUpdated": "2026-06-10T21:46:08Z"
+    },
+    {
       "slug": "beyond-compare/darwin",
       "name": "Beyond Compare",
       "version": "5.2.2.32209",
@@ -828,6 +838,66 @@
       "thumbprint": "C80702C5C69CE5EBBEF56AA67E0535A4CBDBE334",
       "timestamp": "CN=Sectigo Public Time Stamping Signer R36, O=Sectigo Limited, S=West Yorkshire, C=GB",
       "lastUpdated": "2026-05-27T15:29:25Z"
+    },
+    {
+      "slug": "bezel/darwin",
+      "name": "Bezel",
+      "version": "4.3.0",
+      "sha256": "e2db4540ad6834a6dcc6be40cc10e38ecd33de2866fe700274583eee9b0c18bb",
+      "cdhash": "5237ea3246d11e84ab9a46a7ee910478ff10e640",
+      "signingId": "WT5N9FK54M:com.nonstrict.Bezel-direct",
+      "teamId": "WT5N9FK54M",
+      "lastUpdated": "2026-06-10T21:46:30Z"
+    },
+    {
+      "slug": "bibdesk/darwin",
+      "name": "BibDesk",
+      "version": "1.9.12",
+      "sha256": "de4827a735b82b07549b7737ce24bd0407eeff84775a8e2d4e96beb186f2f819",
+      "cdhash": "4cb1cb5c1c2518df31bb8d6b02564365bcd815b6",
+      "signingId": "J33JTA7SY9:edu.ucsd.cs.mmccrack.bibdesk",
+      "teamId": "J33JTA7SY9",
+      "lastUpdated": "2026-06-10T21:46:52Z"
+    },
+    {
+      "slug": "binance/darwin",
+      "name": "Binance",
+      "version": "2.3.1",
+      "sha256": "e9b9f09751690243208bc223f20b45fca80e5e0bc624ab230a5d2d4abb5b21ee",
+      "cdhash": "1dc25b5b4e475bc26873f2881f109945fdedf4f8",
+      "signingId": "89H83DPVB8:com.binance.BinanceDesktop",
+      "teamId": "89H83DPVB8",
+      "lastUpdated": "2026-06-10T21:47:34Z"
+    },
+    {
+      "slug": "biscuit/darwin",
+      "name": "Biscuit",
+      "version": "2.1.1",
+      "sha256": "4b005ff98ffed33d93927b11a61c7604157e14bffaa1589ab5d51c38b69b7044",
+      "cdhash": "32bf9fe0009fb35560def39df75090eb94fd7272",
+      "signingId": "5ZM2K55Y8Y:com.eatbiscult.biscult",
+      "teamId": "5ZM2K55Y8Y",
+      "lastUpdated": "2026-06-10T21:48:08Z"
+    },
+    {
+      "slug": "bitbox/darwin",
+      "name": "BitBox",
+      "version": "4.51.0",
+      "sha256": "dd86ae7f64d835c00f668051cb9c6e81387a28fa7f32f7ff6f8a81bad76ccc82",
+      "cdhash": "fb4bf3cdf906e8b3f0840c07cb74a1d92e66a50d",
+      "signingId": "XK248TQN88:ch.shiftcrypto.wallet",
+      "teamId": "XK248TQN88",
+      "lastUpdated": "2026-06-10T21:48:37Z"
+    },
+    {
+      "slug": "bitrix24/darwin",
+      "name": "Bitrix24",
+      "version": "22.0.28.91",
+      "sha256": "99d1b4cc09af42612a613c93cf94bab0a80e2320d158e02cd3e0686d721c9ea4",
+      "cdhash": "f0c8e67a3738c3f8688b3803a85ad1ac5939a460",
+      "signingId": "5B3T3A994N:com.bitrixsoft.bitrix24desktop",
+      "teamId": "5B3T3A994N",
+      "lastUpdated": "2026-06-10T21:49:25Z"
     },
     {
       "slug": "bitwarden/darwin",
@@ -852,6 +922,16 @@
       "lastUpdated": "2026-05-30T03:19:53Z"
     },
     {
+      "slug": "bitwig-studio/darwin",
+      "name": "Bitwig Studio",
+      "version": "6.0.6",
+      "sha256": "ae5044db7786cd29cad544410b7eec5b2a08659be9c341d5f040cfaeb15c36c1",
+      "cdhash": "bd60733e95e34f2cbbb47dff3d659d6923117315",
+      "signingId": "2B6K987585:com.bitwig.studio",
+      "teamId": "2B6K987585",
+      "lastUpdated": "2026-06-10T21:50:04Z"
+    },
+    {
       "slug": "blender/darwin",
       "name": "Blender",
       "version": "5.1.2",
@@ -872,6 +952,26 @@
       "thumbprint": "B18F4D375AA04C5773ADB4401A5A23474C1C91A1",
       "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7A1A-05E0-D947, OU=Microsoft Ireland Operations Limited, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
       "lastUpdated": "2026-05-19T15:18:58Z"
+    },
+    {
+      "slug": "bleunlock/darwin",
+      "name": "BLEUnlock",
+      "version": "1.12.2",
+      "sha256": "9f4ae44444a0e751d59157050e82da59091721bab46856c5f9a73fc068189d09",
+      "cdhash": "d0582e88fe24d2b2f30390f499bc232a7058c669",
+      "signingId": "42LGPQYC7M:jp.sone.BLEUnlock",
+      "teamId": "42LGPQYC7M",
+      "lastUpdated": "2026-06-10T21:50:25Z"
+    },
+    {
+      "slug": "blip/darwin",
+      "name": "blip",
+      "version": "1.1.16",
+      "sha256": "ec97c062b4294d0163272095bdfc875a43669a4a574102270fd43ee60f5a1f61",
+      "cdhash": "2a4c8d2a63fdc40cf236d5bac16b8378a888bdef",
+      "signingId": "AY8UB8KTUX:net.blip.macos",
+      "teamId": "AY8UB8KTUX",
+      "lastUpdated": "2026-06-10T21:50:48Z"
     },
     {
       "slug": "bluej/darwin",
