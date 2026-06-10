@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T15:58:55Z",
+  "lastUpdated": "2026-06-10T16:03:16Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -5607,6 +5607,16 @@
       "lastUpdated": "2026-06-10T15:58:53Z"
     },
     {
+      "slug": "staruml/darwin",
+      "name": "StarUML",
+      "version": "6.3.4",
+      "sha256": "bd1c5e6d34f2ddfe631d4813bfe9e3f3b0fa4ce6fbbde73ab1394fa7ee36b139",
+      "cdhash": "7ecf50539c161d86f020d1d49d52c85461dec4ed",
+      "signingId": "57S63D4B8B:io.staruml.staruml",
+      "teamId": "57S63D4B8B",
+      "lastUpdated": "2026-06-10T15:59:17Z"
+    },
+    {
       "slug": "stats/darwin",
       "name": "Stats",
       "version": "3.0.1",
@@ -5639,6 +5649,44 @@
       "lastUpdated": "2025-12-25T01:47:44Z"
     },
     {
+      "slug": "steermouse/darwin",
+      "name": "SteerMouse",
+      "version": "5.7.8",
+      "sha256": "57ca14b8dc59ec90898a98495c4577d60189c083a4c07458757052fcfb497734",
+      "cdhash": "7ad26e7706c5af33073add37c1e373470ed19857",
+      "signingId": "UHEB36849R:jp.plentycom.app.SteerMouse",
+      "teamId": "UHEB36849R",
+      "lastUpdated": "2026-06-10T15:59:39Z"
+    },
+    {
+      "slug": "stellarium/darwin",
+      "name": "Stellarium",
+      "version": "26.1",
+      "sha256": "0f9f481c27d4013d4768d08ce4d923f264da7c162b4dccb99ad04ce1442f7953",
+      "cdhash": "2a10eeeb85d7fded48bf8277e2147fb5554beb20",
+      "signingId": "3WW8XR23DF:org.stellarium.Stellarium",
+      "teamId": "3WW8XR23DF",
+      "lastUpdated": "2026-06-10T16:00:23Z"
+    },
+    {
+      "slug": "stillcolor/darwin",
+      "name": "Stillcolor",
+      "version": "1.1",
+      "sha256": "c611eacb09e08a8c6726f208d3fd230d64800fecf6a12b3fc362840bae6cd771",
+      "cdhash": "115aacc616214070bd6a442490ef81eee37e1d01",
+      "signingId": "KH5HQL98XH:com.makkuk.Stillcolor",
+      "teamId": "KH5HQL98XH",
+      "lastUpdated": "2026-06-10T16:00:45Z"
+    },
+    {
+      "slug": "stretchly/darwin",
+      "name": "Stretchly",
+      "version": "1.21.0",
+      "sha256": "2a2d1089695e71e4dd017f43fffea076cd9201574abf40cd08d1b8f4606217ff",
+      "cdhash": "dc56bbe1fd151991a508c07aed49134cf183492c",
+      "lastUpdated": "2026-06-10T16:01:11Z"
+    },
+    {
       "slug": "sublime-merge/darwin",
       "name": "Sublime Merge",
       "version": "Build 2125",
@@ -5669,6 +5717,56 @@
       "thumbprint": "AB4550F114DB3599664A9965AF64BC35154288F6",
       "timestamp": "CN=DigiCert Timestamp 2024, O=DigiCert, C=US",
       "lastUpdated": "2025-12-25T01:47:46Z"
+    },
+    {
+      "slug": "super-productivity/darwin",
+      "name": "Super Productivity",
+      "version": "18.9.1",
+      "sha256": "38dec6aa5b72ed9ed5c9c29216959e870a582be1685d46c01a919e3125c29b93",
+      "cdhash": "6904566c9c0b870f0619b298a2943afa34cde61a",
+      "signingId": "363FAFK383:com.super-productivity.app",
+      "teamId": "363FAFK383",
+      "lastUpdated": "2026-06-10T16:01:37Z"
+    },
+    {
+      "slug": "supercollider/darwin",
+      "name": "SuperCollider",
+      "version": "3.14.1",
+      "sha256": "845757666a75fd2eaac40d26471fb8b3475b975fb49dff790d3d24d76db44e17",
+      "cdhash": "b221ab350b159a6fee8f0428f263526949eb1038",
+      "signingId": "HE5VJFE9E4:net.sourceforge.supercollider",
+      "teamId": "HE5VJFE9E4",
+      "lastUpdated": "2026-06-10T16:02:07Z"
+    },
+    {
+      "slug": "superhuman/darwin",
+      "name": "Superhuman",
+      "version": "1041.0.12",
+      "sha256": "75869e46abbd50afd0aafbdd631e6fd66af27e2f537fec739033cfd1b3ecfe3a",
+      "cdhash": "3227a49adf5c1ab5e84b2b689a4357ad637e03ba",
+      "signingId": "6XHFYUTQGX:com.superhuman.electron",
+      "teamId": "6XHFYUTQGX",
+      "lastUpdated": "2026-06-10T16:02:31Z"
+    },
+    {
+      "slug": "superkey/darwin",
+      "name": "Superkey",
+      "version": "1.62",
+      "sha256": "8306d987fc50e94c9d1235420faebc3f48aa75c14611e88e2b5a5685afc24ec4",
+      "cdhash": "efcda56705a82379f7768c24c56f199fa7b0d57b",
+      "signingId": "XSYZ3E4B7D:com.knollsoft.Superkey",
+      "teamId": "XSYZ3E4B7D",
+      "lastUpdated": "2026-06-10T16:02:52Z"
+    },
+    {
+      "slug": "superwhisper/darwin",
+      "name": "superwhisper",
+      "version": "2.15.0",
+      "sha256": "d8ba9df58d79a33d62010f9e187aa9446b50b6141b0775ce562c3f80a24e46e2",
+      "cdhash": "d5e1c2bd77069e67fa1740fcae7ba100db360ebb",
+      "signingId": "XDP69BYUP9:com.superduper.superwhisper",
+      "teamId": "XDP69BYUP9",
+      "lastUpdated": "2026-06-10T16:03:14Z"
     },
     {
       "slug": "surfshark/darwin",
