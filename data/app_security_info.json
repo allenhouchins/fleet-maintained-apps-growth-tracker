@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T15:23:03Z",
+  "lastUpdated": "2026-06-10T15:28:45Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -4927,6 +4927,26 @@
       "lastUpdated": "2026-06-10T15:23:01Z"
     },
     {
+      "slug": "scribus/darwin",
+      "name": "Scribus",
+      "version": "1.6.6",
+      "sha256": "1af18d4332eb6b16d68a574829030d9a381bd4b79fc9c144843f7b7a4b4b9dd3",
+      "cdhash": "b31a8fbe556e4c9c296affb119137f13846a49db",
+      "signingId": "627FV4LMG7:net.scribus",
+      "teamId": "627FV4LMG7",
+      "lastUpdated": "2026-06-10T15:23:38Z"
+    },
+    {
+      "slug": "scrivener/darwin",
+      "name": "Scrivener",
+      "version": "3.5.2",
+      "sha256": "598cba566761ad8728f017e3b9ce1e454a7bf18c59448cee27e6209383661e95",
+      "cdhash": "7c31f52ccc989a271d1f86ff3b699213c2c1d256",
+      "signingId": "W4QTL7X778:com.literatureandlatte.scrivener3",
+      "teamId": "W4QTL7X778",
+      "lastUpdated": "2026-06-10T15:24:05Z"
+    },
+    {
       "slug": "secretive/darwin",
       "name": "Secretive",
       "version": "3.0.4",
@@ -4935,6 +4955,36 @@
       "signingId": "Z72PRUAWF6:com.maxgoedjen.Secretive.Host",
       "teamId": "Z72PRUAWF6",
       "lastUpdated": "2026-05-20T03:15:42Z"
+    },
+    {
+      "slug": "securesafe/darwin",
+      "name": "SecureSafe",
+      "version": "2.25.0",
+      "sha256": "1c257156d9e5227b4dd9e7fda54206a69c3f2f416db625af8baf6a06208b453e",
+      "cdhash": "e62e8a006aae35e9f31c9bf4ae406cf8446c082f",
+      "signingId": "U8DL7XVP69:com.dswiss.securesafe.sync",
+      "teamId": "U8DL7XVP69",
+      "lastUpdated": "2026-06-10T15:24:49Z"
+    },
+    {
+      "slug": "selfcontrol/darwin",
+      "name": "SelfControl",
+      "version": "4.0.2",
+      "sha256": "bf3212ca7c29c48c6c3681590cfc715d43ee892951373ba314e113a8aa98a0b2",
+      "cdhash": "c5750051ff283c70469df9c6c4e52134c9b08ebd",
+      "signingId": "EG6ZYP3AQH:org.eyebeam.SelfControl",
+      "teamId": "EG6ZYP3AQH",
+      "lastUpdated": "2026-06-10T15:25:11Z"
+    },
+    {
+      "slug": "sensei/darwin",
+      "name": "Sensei",
+      "version": "2.1.1",
+      "sha256": "a4f4ff295316454e04c3cb875382962101f9992b79ca6e85adb983f2fcb0b3d2",
+      "cdhash": "39c5a15aa24635b7a3ca6cf0420ef8f9f1ea926c",
+      "signingId": "ZQK6SX26CE:org.cindori.Sensei",
+      "teamId": "ZQK6SX26CE",
+      "lastUpdated": "2026-06-10T15:25:35Z"
     },
     {
       "slug": "sequel-ace/darwin",
@@ -4947,12 +4997,62 @@
       "lastUpdated": "2026-04-18T13:42:03Z"
     },
     {
+      "slug": "session/darwin",
+      "name": "Session",
+      "version": "1.18.0",
+      "sha256": "2e199a6bc22e3d9f73b823db6bbed2bb18cab1567f74bbdde4e2dab4bd3cd53e",
+      "cdhash": "95e901d4f168c929c6f3a3a2f24b0d6353d1d22f",
+      "signingId": "SUQ8J2PCT7:com.loki-project.messenger-desktop",
+      "teamId": "SUQ8J2PCT7",
+      "lastUpdated": "2026-06-10T15:26:07Z"
+    },
+    {
+      "slug": "setapp/darwin",
+      "name": "Setapp",
+      "version": "3.53.2",
+      "sha256": "5985a0ed19b278c9f866330f67a84cef07b0d9f0d143d807f861e8f60594195d",
+      "cdhash": "3a71155533561d00864515090488ddb5aa237e06",
+      "signingId": "MEHY5QF425:com.setapp.DesktopClient",
+      "teamId": "MEHY5QF425",
+      "lastUpdated": "2026-06-10T15:26:35Z"
+    },
+    {
       "slug": "sf-symbols/darwin",
       "name": "SF Symbols",
       "version": "7.2",
       "sha256": "5e90a820d9b0b894da9b64ef113f98790318bff59dad31e4e23f0a79834a11da",
       "cdhash": "6461d34a6b8ba565e80019989ed9f14310d97e29",
       "lastUpdated": "2026-06-03T17:50:34Z"
+    },
+    {
+      "slug": "shapr3d/darwin",
+      "name": "Shapr3D",
+      "version": "26.91.0.11012",
+      "sha256": "ce9db3b022dc7b3287852bd30d5bc58c07e8b1e078563e3f9066e4a8cedc8d50",
+      "cdhash": "7cf90d21d17d5a2ac1ce08a6eeea30737b5c0d33",
+      "signingId": "3S68S4FLA7:com.shapr3d.shapr",
+      "teamId": "3S68S4FLA7",
+      "lastUpdated": "2026-06-10T15:27:39Z"
+    },
+    {
+      "slug": "sharefile/darwin",
+      "name": "ShareFile",
+      "version": "26.04.20",
+      "sha256": "157d0995f25a3b1803a37fbd9afd132819a22790a6fc5f2257a3325bb17c4c35",
+      "cdhash": "30f8182324cd234a4f4f1db7a5fe2a0f57396663",
+      "signingId": "42TZTUWV4Z:com.sharefile.desktop.widget",
+      "teamId": "42TZTUWV4Z",
+      "lastUpdated": "2026-06-10T15:28:19Z"
+    },
+    {
+      "slug": "shift/darwin",
+      "name": "Shift",
+      "version": "9.6.4.1231",
+      "sha256": "408d2bbf214f8b2ec8ee7f2750392b86346e860c0a6f72047c0baea573e80ae4",
+      "cdhash": "a0da80c22aeb92eb21903fb7a6a7439e849ca3ae",
+      "signingId": "TYR24A9JU5:com.rdbrck.shift",
+      "teamId": "TYR24A9JU5",
+      "lastUpdated": "2026-06-10T15:28:43Z"
     },
     {
       "slug": "shottr/darwin",
