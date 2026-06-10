@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T21:45:22Z",
+  "lastUpdated": "2026-06-10T22:42:56Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1668,6 +1668,27 @@
       "installerUrl": "https://dl.duosecurity.com/DuoDesktop-7.18.0.msi"
     },
     {
+      "slug": "eaglefiler/darwin",
+      "name": "EagleFiler",
+      "platform": "darwin",
+      "version": "1.9.20",
+      "installerUrl": "https://c-command.com/downloads/EagleFiler-1.9.20.dmg"
+    },
+    {
+      "slug": "easydict/darwin",
+      "name": "Easydict",
+      "platform": "darwin",
+      "version": "2.21.0",
+      "installerUrl": "https://github.com/tisfeng/Easydict/releases/download/2.21.0/Easydict.dmg"
+    },
+    {
+      "slug": "easyfind/darwin",
+      "name": "EasyFind",
+      "platform": "darwin",
+      "version": "5.0.2",
+      "installerUrl": "https://download.devontechnologies.com/download/freeware/easyfind/5.0.2/EasyFind.app.zip"
+    },
+    {
       "slug": "eclipse-ide/darwin",
       "name": "Eclipse IDE",
       "platform": "darwin",
@@ -1689,6 +1710,48 @@
       "installerUrl": "https://egnyte-cdn.egnyte.com/egnytedrive/win/en-us/3.31.1/EgnyteDesktopApp_3.31.1_179.msi"
     },
     {
+      "slug": "electronmail/darwin",
+      "name": "ElectronMail",
+      "platform": "darwin",
+      "version": "5.3.6",
+      "installerUrl": "https://github.com/vladimiry/ElectronMail/releases/download/v5.3.6/electron-mail-5.3.6-mac-arm64.dmg"
+    },
+    {
+      "slug": "electrum/darwin",
+      "name": "Electrum",
+      "platform": "darwin",
+      "version": "4.7.2",
+      "installerUrl": "https://download.electrum.org/4.7.2/electrum-4.7.2.dmg"
+    },
+    {
+      "slug": "element/darwin",
+      "name": "Element",
+      "platform": "darwin",
+      "version": "1.12.20",
+      "installerUrl": "https://packages.element.io/desktop/update/macos/Element-1.12.20-universal-mac.zip"
+    },
+    {
+      "slug": "elephas/darwin",
+      "name": "Elephas",
+      "platform": "darwin",
+      "version": "11.7008",
+      "installerUrl": "https://assets.elephas.app/Elephas_11_7008.dmg"
+    },
+    {
+      "slug": "elgato-camera-hub/darwin",
+      "name": "Elgato Camera Hub",
+      "platform": "darwin",
+      "version": "2.2.1.6945",
+      "installerUrl": "https://edge.elgato.com/egc/macos/echm/2.2.1/CameraHub_2.2.1.6945.pkg"
+    },
+    {
+      "slug": "elgato-capture-device-utility/darwin",
+      "name": "Elgato Capture Device Utility",
+      "platform": "darwin",
+      "version": "1.3.1",
+      "installerUrl": "https://edge.elgato.com/egc/macos/ecdu/1.3.1/ElgatoCaptureDeviceUtility-1.3.1.684.app.zip"
+    },
+    {
       "slug": "elgato-control-center/darwin",
       "name": "Elgato Control Center",
       "platform": "darwin",
@@ -1701,6 +1764,13 @@
       "platform": "windows",
       "version": "1.8.2.714",
       "installerUrl": "https://edge.elgato.com/egc/windows/eccw/1.8.2/ControlCenter_1.8.2.714_x64.msi"
+    },
+    {
+      "slug": "elgato-game-capture-hd/darwin",
+      "name": "Elgato Game Capture HD",
+      "platform": "darwin",
+      "version": "2.11.14",
+      "installerUrl": "https://edge.elgato.com/egc/macos/egcm/2.11.14/final/Game_Capture_HD_2.11.14.zip"
     },
     {
       "slug": "elgato-stream-deck/darwin",
@@ -1717,6 +1787,62 @@
       "installerUrl": "https://edge.elgato.com/egc/windows/sd/Stream_Deck_7.4.2.22730.msi"
     },
     {
+      "slug": "elgato-wave-link/darwin",
+      "name": "Elgato Wave Link",
+      "platform": "darwin",
+      "version": "3.2.0",
+      "installerUrl": "https://edge.elgato.com/egc/macos/ewlm/release/ElgatoWaveLink-3.2.0.2698.dmg"
+    },
+    {
+      "slug": "elmedia-player/darwin",
+      "name": "Elmedia Player",
+      "platform": "darwin",
+      "version": "8.24",
+      "installerUrl": "https://cdn.electronic.us/products/elmedia/mac/download/elmediaplayer.dmg"
+    },
+    {
+      "slug": "emclient/darwin",
+      "name": "eM Client",
+      "platform": "darwin",
+      "version": "10.4.5326",
+      "installerUrl": "https://cdn-dist.emclient.com/dist/v10.4.5326_Mac/setup.pkg"
+    },
+    {
+      "slug": "enpass/darwin",
+      "name": "Enpass",
+      "platform": "darwin",
+      "version": "6.12.2.2561",
+      "installerUrl": "https://dl.enpass.io/stable/mac/package/6.12.2.2561/Enpass.pkg"
+    },
+    {
+      "slug": "ente-auth/darwin",
+      "name": "Ente Auth",
+      "platform": "darwin",
+      "version": "4.4.22",
+      "installerUrl": "https://github.com/ente-io/ente/releases/download/auth-v4.4.22/ente-auth-v4.4.22.dmg"
+    },
+    {
+      "slug": "epic-games/darwin",
+      "name": "Epic Games Launcher",
+      "platform": "darwin",
+      "version": "19.2.3",
+      "installerUrl": "https://epicgames-download1.akamaized.net/Builds/UnrealEngineLauncher/Installers/Mac/EpicInstaller-19.2.3.dmg"
+    },
+    {
+      "slug": "equinox/darwin",
+      "name": "Equinox",
+      "platform": "darwin",
+      "version": "6.0",
+      "installerUrl": "https://github.com/rlxone/Equinox/releases/download/v6.0/Equinox-Installer.dmg"
+    },
+    {
+      "slug": "etrecheckpro/darwin",
+      "name": "EtreCheck",
+      "platform": "darwin",
+      "version": "6.8.14",
+      "installerUrl": "https://cdn.etrecheck.com/EtreCheckPro.zip"
+    },
+    {
       "slug": "evernote/darwin",
       "name": "Evernote",
       "platform": "darwin",
@@ -1724,11 +1850,32 @@
       "installerUrl": "https://mac.desktop.evernote.com/builds/Evernote-10.105.4-mac-ddl-stage-20240910164757-a2e60a8d876a07eded5d212fa56ba45214114ad0.dmg"
     },
     {
+      "slug": "exifcleaner/darwin",
+      "name": "ExifCleaner",
+      "platform": "darwin",
+      "version": "3.6.0",
+      "installerUrl": "https://github.com/szTheory/exifcleaner/releases/download/v3.6.0/ExifCleaner-3.6.0.dmg"
+    },
+    {
+      "slug": "exifrenamer/darwin",
+      "name": "ExifRenamer",
+      "platform": "darwin",
+      "version": "2.4.0",
+      "installerUrl": "https://www.qdev.de/downloads/files/ExifRenamer.dmg"
+    },
+    {
       "slug": "expressvpn/darwin",
       "name": "ExpressVPN",
       "platform": "darwin",
       "version": "14.1.1.13156",
       "installerUrl": "https://www.expressvpn.works/clients/mac/expressvpn-macos-universal-14.1.1.13156_release.zip"
+    },
+    {
+      "slug": "extradock/darwin",
+      "name": "ExtraDock",
+      "platform": "darwin",
+      "version": "4.2.7",
+      "installerUrl": "https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.2.7/extraDock.dmg"
     },
     {
       "slug": "figma/darwin",
