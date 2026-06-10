@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T22:53:52Z",
+  "lastUpdated": "2026-06-10T23:00:33Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -2637,6 +2637,16 @@
       "lastUpdated": "2026-06-07T13:44:38Z"
     },
     {
+      "slug": "elgato-game-capture-hd/darwin",
+      "name": "Elgato Game Capture HD",
+      "version": "2.11.14",
+      "sha256": "f0fa8f4a26fb10a028156dd953cc3af497a47d2f9ecc52780a24ff9e0845ae30",
+      "cdhash": "100f50da099877feb68ebdae61a1afff089c1139",
+      "signingId": "Y93VXCB8Q5:com.elgato.GameCaptureHD",
+      "teamId": "Y93VXCB8Q5",
+      "lastUpdated": "2026-06-10T22:54:13Z"
+    },
+    {
       "slug": "elgato-stream-deck/darwin",
       "name": "Elgato Stream Deck",
       "version": "7.4.2",
@@ -2659,6 +2669,86 @@
       "lastUpdated": "2026-06-07T13:44:51Z"
     },
     {
+      "slug": "elgato-wave-link/darwin",
+      "name": "Elgato Wave Link",
+      "version": "3.2.0",
+      "sha256": "156e52db2f8c01a61b495fe83bfee8808f9ea3308334573866cc5fd1031a9e4b",
+      "cdhash": "da07fddfe13784d815380c7577ce24efc2d2489d",
+      "signingId": "Y93VXCB8Q5:com.elgato.WaveLink3",
+      "teamId": "Y93VXCB8Q5",
+      "lastUpdated": "2026-06-10T22:55:44Z"
+    },
+    {
+      "slug": "elmedia-player/darwin",
+      "name": "Elmedia Player",
+      "version": "8.24",
+      "sha256": "6306785bd720fed25110d364cd86eb734491ebc04afed9665724223c3d866ee0",
+      "cdhash": "521d28a75c9f31af8068db2ccb3f0327908bc71d",
+      "signingId": "XS85JU6YZ3:com.Eltima.ElmediaPlayer",
+      "teamId": "XS85JU6YZ3",
+      "lastUpdated": "2026-06-10T22:56:09Z"
+    },
+    {
+      "slug": "emclient/darwin",
+      "name": "eM Client",
+      "version": "10.4.5326",
+      "sha256": "6de8dce30fdaf15987808abfe5b9e2ad178ee00d2df9a0075a6ecca60009a006",
+      "cdhash": "487b453ed1f4174c6bbfde4327dc180603ba3f5e",
+      "signingId": "2ED6AKD5KA:com.emclient.mail.client",
+      "teamId": "2ED6AKD5KA",
+      "lastUpdated": "2026-06-10T22:56:47Z"
+    },
+    {
+      "slug": "enpass/darwin",
+      "name": "Enpass",
+      "version": "6.12.2.2561",
+      "sha256": "2fb231cdd1eab6009ac5b6a2589c63e8f924de32cad9e2ed54cba43acf90ae26",
+      "cdhash": "1f977797e10996b1586e58d5f9d2c2c912bc0786",
+      "signingId": "7ADB8CC6TF:in.sinew.Enpass-Desktop.App",
+      "teamId": "7ADB8CC6TF",
+      "lastUpdated": "2026-06-10T22:57:22Z"
+    },
+    {
+      "slug": "ente-auth/darwin",
+      "name": "Ente Auth",
+      "version": "4.4.22",
+      "sha256": "92c3990584dac93bd13281229b1e45896676baa68ac371f585abfae0da71d5d0",
+      "cdhash": "b87e93df3b97e769d7f59bb7166eb4b0f7ba6ea6",
+      "signingId": "6Z68YJY9Q2:io.ente.auth.mac",
+      "teamId": "6Z68YJY9Q2",
+      "lastUpdated": "2026-06-10T22:57:48Z"
+    },
+    {
+      "slug": "epic-games/darwin",
+      "name": "Epic Games Launcher",
+      "version": "19.2.3",
+      "sha256": "e99e30a42f0a5d7e6262f60878ab496a11323ff1933c6adb2fc0b61492b9c562",
+      "cdhash": "602a5e57f9311c094d01339117ad0eee66f872b6",
+      "signingId": "96DBZ92D3Y:com.epicgames.EpicGamesLauncher",
+      "teamId": "96DBZ92D3Y",
+      "lastUpdated": "2026-06-10T22:58:19Z"
+    },
+    {
+      "slug": "equinox/darwin",
+      "name": "Equinox",
+      "version": "6.0",
+      "sha256": "7281aa7fc584f3395c6fbec58b87ed39286bf14b2a1607898ce7cd69003aef99",
+      "cdhash": "a69967523ae2773fd8b02439136babc35615163e",
+      "signingId": "ANWX99972B:com.rlxone.equinox",
+      "teamId": "ANWX99972B",
+      "lastUpdated": "2026-06-10T22:58:41Z"
+    },
+    {
+      "slug": "etrecheckpro/darwin",
+      "name": "EtreCheck",
+      "version": "6.8.14",
+      "sha256": "8e335f58d039acb8c016eb4be42b8e1a46a770486655d0d69d1fa64c6279fc78",
+      "cdhash": "99327ca5b7d06f79b796ce95641b6a35b8d49adc",
+      "signingId": "U87NE528LC:com.etresoft.EtreCheck4",
+      "teamId": "U87NE528LC",
+      "lastUpdated": "2026-06-10T22:59:02Z"
+    },
+    {
       "slug": "evernote/darwin",
       "name": "Evernote",
       "version": "11.17.3",
@@ -2667,6 +2757,13 @@
       "signingId": "Q79WDW8YH9:com.evernote.Evernote",
       "teamId": "Q79WDW8YH9",
       "lastUpdated": "2026-05-26T18:57:24Z"
+    },
+    {
+      "slug": "exifcleaner/darwin",
+      "name": "ExifCleaner",
+      "version": "3.6.0",
+      "sha256": "905021a17058d39d9f8240c7678393dcfe72434779fa2b05551ba0e5ce66927d",
+      "lastUpdated": "2026-06-10T23:00:31Z"
     },
     {
       "slug": "expressvpn/darwin",
