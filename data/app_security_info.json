@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T17:28:48Z",
+  "lastUpdated": "2026-06-10T17:32:40Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -3242,6 +3242,26 @@
       "lastUpdated": "2026-01-09T19:10:31Z"
     },
     {
+      "slug": "keepingyouawake/darwin",
+      "name": "KeepingYouAwake",
+      "version": "1.6.8",
+      "sha256": "829b38a923a1528ead2c92475f8c2b7ae1368155a616412ef78cbbcf75668f8f",
+      "cdhash": "7e4c58d127bed2d706e14e008f4ebe93ac89196e",
+      "signingId": "5KESHV9W85:info.marcel-dierkes.KeepingYouAwake",
+      "teamId": "5KESHV9W85",
+      "lastUpdated": "2026-06-10T17:29:07Z"
+    },
+    {
+      "slug": "keeweb/darwin",
+      "name": "KeeWeb",
+      "version": "1.18.7",
+      "sha256": "f02d275b73b71d1c870853d36b0f03c4b899e33f8d610af36f9d1cbce790d3ee",
+      "cdhash": "1390f96abfd1f900fc31e673f36ddeedd8c1ba89",
+      "signingId": "3LE7JZ657W:net.antelle.keeweb",
+      "teamId": "3LE7JZ657W",
+      "lastUpdated": "2026-06-10T17:29:30Z"
+    },
+    {
       "slug": "keka/darwin",
       "name": "Keka",
       "version": "1.6.5",
@@ -3250,6 +3270,86 @@
       "signingId": "4FG648TM2A:com.aone.keka",
       "teamId": "4FG648TM2A",
       "lastUpdated": "2026-05-30T01:45:33Z"
+    },
+    {
+      "slug": "keyboard-cowboy/darwin",
+      "name": "Keyboard Cowboy",
+      "version": "3.28.4",
+      "sha256": "2fd33ec6fd8636bba6f5655e9162bce4289be657fede594067b24a07c7ff5219",
+      "cdhash": "e2de8900653a7eaaf428ce8e9ffa5460e5905cd5",
+      "signingId": "E23HUP39A3:com.zenangst.Keyboard-Cowboy",
+      "teamId": "E23HUP39A3",
+      "lastUpdated": "2026-06-10T17:29:52Z"
+    },
+    {
+      "slug": "keyboard-maestro/darwin",
+      "name": "Keyboard Maestro",
+      "version": "11.0.4",
+      "sha256": "509721b0f4db201792fea877461a85f0f011b2ed9c6aa9d81924b5bbb04fe207",
+      "cdhash": "2e5da21b0ec7780fff123affb41f9a33441f2aab",
+      "signingId": "QMHRBA4LGH:com.stairways.keyboardmaestro.editor",
+      "teamId": "QMHRBA4LGH",
+      "lastUpdated": "2026-06-10T17:30:14Z"
+    },
+    {
+      "slug": "keyboardcleantool/darwin",
+      "name": "KeyboardCleanTool",
+      "version": "7",
+      "sha256": "454a60a36f04117301fd7b1fa22cac0d039a9704769d3b109e65bf4c97cc71b1",
+      "cdhash": "e525e55952043f4724295521878aa0feefe97973",
+      "signingId": "DAFVSXZ82P:com.hegenberg.KeyboardCleanTool",
+      "teamId": "DAFVSXZ82P",
+      "lastUpdated": "2026-06-10T17:30:36Z"
+    },
+    {
+      "slug": "keycastr/darwin",
+      "name": "KeyCastr",
+      "version": "0.10.5",
+      "sha256": "5d3b9fb2b018cd24aa95f26a63c37d2aa097b271778d818cad9b778e1637b895",
+      "cdhash": "dc65adb63d061e5601f76dcdb6912b8d08bb4e16",
+      "signingId": "68TUCLNAPS:io.github.keycastr",
+      "teamId": "68TUCLNAPS",
+      "lastUpdated": "2026-06-10T17:30:57Z"
+    },
+    {
+      "slug": "keyclu/darwin",
+      "name": "KeyClu",
+      "version": "0.31",
+      "sha256": "51495cad104751042813240fbef1abb61b6fa5e384600e13e8c9f83f1c61e709",
+      "cdhash": "a7c53e0a5d1e9dba8e852535c9497923ec956f44",
+      "signingId": "5G3C37344R:com.0804Team.KeyClu",
+      "teamId": "5G3C37344R",
+      "lastUpdated": "2026-06-10T17:31:18Z"
+    },
+    {
+      "slug": "keystore-explorer/darwin",
+      "name": "KeyStore Explorer",
+      "version": "5.6.1",
+      "sha256": "50ca39f2e61f0d57553405602518621ee01ffe499389a3b642968d9bf52e9483",
+      "cdhash": "b6ba4b7cb16b20cca5f3b6ae158543f3e9deca8d",
+      "signingId": "BKXPBP395L:org.kse.keystore-explorer",
+      "teamId": "BKXPBP395L",
+      "lastUpdated": "2026-06-10T17:31:40Z"
+    },
+    {
+      "slug": "kiro-cli/darwin",
+      "name": "Kiro CLI",
+      "version": "2.6.0",
+      "sha256": "0cf76ad2af36976f1e35a321fa964fd8313990d095486506965c418140002bed",
+      "cdhash": "5626c29115f96ba74fafcb9740408c21c0488365",
+      "signingId": "94KV3E626L:com.amazon.codewhisperer",
+      "teamId": "94KV3E626L",
+      "lastUpdated": "2026-06-10T17:32:09Z"
+    },
+    {
+      "slug": "kiro/darwin",
+      "name": "kiro",
+      "version": "0.12.301",
+      "sha256": "68ac5367a7abf119c0e04da92eaf235e865a385b3a1d897ec9373d8217e00c4d",
+      "cdhash": "9c97d3885bbb99b536ea557672e276ff94284cae",
+      "signingId": "94KV3E626L:dev.kiro.desktop",
+      "teamId": "94KV3E626L",
+      "lastUpdated": "2026-06-10T17:32:38Z"
     },
     {
       "slug": "kitty/darwin",
