@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T20:58:35Z",
+  "lastUpdated": "2026-06-10T21:36:59Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -422,6 +422,20 @@
       "installerUrl": "https://secure.backblaze.com/api/install_backblaze?file=bzinstall-mac-10.0.0.1030.dmg"
     },
     {
+      "slug": "background-music/darwin",
+      "name": "Background Music",
+      "platform": "darwin",
+      "version": "0.4.3",
+      "installerUrl": "https://github.com/kyleneideck/BackgroundMusic/releases/download/v0.4.3/BackgroundMusic-0.4.3.pkg"
+    },
+    {
+      "slug": "badgeify/darwin",
+      "name": "Badgeify",
+      "platform": "darwin",
+      "version": "1.13.1",
+      "installerUrl": "https://api.badgeify.app/release/download/darwin/universal/1.13.1"
+    },
+    {
       "slug": "balenaetcher/darwin",
       "name": "balenaEtcher",
       "platform": "darwin",
@@ -436,11 +450,53 @@
       "installerUrl": "https://github.com/balena-io/etcher/releases/download/v2.1.6/balenaEtcher-2.1.6.Setup.exe"
     },
     {
+      "slug": "balsamiq-wireframes/darwin",
+      "name": "Balsamiq Wireframes",
+      "platform": "darwin",
+      "version": "4.8.6",
+      "installerUrl": "https://builds.balsamiq.com/bwd/Balsamiq%20Wireframes%204.8.6.dmg"
+    },
+    {
+      "slug": "bambu-studio/darwin",
+      "name": "Bambu Studio",
+      "platform": "darwin",
+      "version": "02.07.01.57",
+      "installerUrl": "https://github.com/bambulab/BambuStudio/releases/download/v02.07.01.57/Bambu_Studio_mac-v02.07.01.57-20260601165745.dmg"
+    },
+    {
+      "slug": "bartender/darwin",
+      "name": "Bartender",
+      "platform": "darwin",
+      "version": "6.5.2",
+      "installerUrl": "https://downloads.macbartender.com/B2/updates/6-5-2/Bartender%206.zip"
+    },
+    {
+      "slug": "batfi/darwin",
+      "name": "BatFi",
+      "platform": "darwin",
+      "version": "3.0.5",
+      "installerUrl": "https://files.micropixels.software/batfi/BatFi-latest.zip"
+    },
+    {
       "slug": "bbedit/darwin",
       "name": "BBEdit",
       "platform": "darwin",
       "version": "16.0.1",
       "installerUrl": "https://s3.amazonaws.com/BBSW-download/BBEdit_16.0.1.dmg"
+    },
+    {
+      "slug": "bdash/darwin",
+      "name": "Bdash",
+      "platform": "darwin",
+      "version": "1.35.0",
+      "installerUrl": "https://github.com/bdash-app/bdash/releases/download/v1.35.0/Bdash-1.35.0-universal-mac.zip"
+    },
+    {
+      "slug": "beaver-notes/darwin",
+      "name": "Beaver Notes",
+      "platform": "darwin",
+      "version": "4.4.0",
+      "installerUrl": "https://github.com/Beaver-Notes/Beaver-Notes/releases/download/4.4.0/Beaver-notes-4.4.0-universal.dmg"
     },
     {
       "slug": "beekeeper-studio/darwin",
@@ -457,11 +513,39 @@
       "installerUrl": "https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v5.8.1/Beekeeper-Studio-Setup-5.8.1.exe"
     },
     {
+      "slug": "beeper/darwin",
+      "name": "Beeper",
+      "platform": "darwin",
+      "version": "4.2.892",
+      "installerUrl": "https://beeper-desktop.download.beeper.com/builds/Beeper-4.2.892-arm64-mac.zip"
+    },
+    {
       "slug": "betterdisplay/darwin",
       "name": "BetterDisplay",
       "platform": "darwin",
       "version": "4.3.4",
       "installerUrl": "https://github.com/waydabber/BetterDisplay/releases/download/v4.3.4/BetterDisplay-v4.3.4.dmg"
+    },
+    {
+      "slug": "bettermouse/darwin",
+      "name": "BetterMouse",
+      "platform": "darwin",
+      "version": "1.6",
+      "installerUrl": "https://better-mouse.com/wp-content/uploads/BetterMouse.1.6.8837.zip"
+    },
+    {
+      "slug": "bettertouchtool/darwin",
+      "name": "BetterTouchTool",
+      "platform": "darwin",
+      "version": "6.553",
+      "installerUrl": "https://folivora.ai/releases/btt6.553-2026060702.zip"
+    },
+    {
+      "slug": "betterzip/darwin",
+      "name": "BetterZip",
+      "platform": "darwin",
+      "version": "5.4.2",
+      "installerUrl": "https://macitbetter.com/dl/BetterZip-5.4.2.zip"
     },
     {
       "slug": "beyond-compare/darwin",
@@ -478,6 +562,48 @@
       "installerUrl": "https://www.scootersoftware.com/files/BCompare-5.2.2.32209.exe"
     },
     {
+      "slug": "bezel/darwin",
+      "name": "Bezel",
+      "platform": "darwin",
+      "version": "4.3.0",
+      "installerUrl": "https://download.nonstrict.eu/bezel/Bezel-4.3.0.zip"
+    },
+    {
+      "slug": "bibdesk/darwin",
+      "name": "BibDesk",
+      "platform": "darwin",
+      "version": "1.9.12",
+      "installerUrl": "https://downloads.sourceforge.net/bibdesk/BibDesk/BibDesk-1.9.12/BibDesk-1.9.12.dmg"
+    },
+    {
+      "slug": "binance/darwin",
+      "name": "Binance",
+      "platform": "darwin",
+      "version": "2.3.1",
+      "installerUrl": "https://ftp.binance.com/electron-desktop/mac/production/binance-2.3.1-arm64.dmg"
+    },
+    {
+      "slug": "biscuit/darwin",
+      "name": "Biscuit",
+      "platform": "darwin",
+      "version": "2.1.1",
+      "installerUrl": "https://github.com/agata/dl.biscuit/releases/download/2.1.1/Biscuit-2.1.1-arm64.dmg"
+    },
+    {
+      "slug": "bitbox/darwin",
+      "name": "BitBox",
+      "platform": "darwin",
+      "version": "4.51.0",
+      "installerUrl": "https://github.com/BitBoxSwiss/bitbox-wallet-app/releases/download/v4.51.0/BitBox-4.51.0-macOS.dmg"
+    },
+    {
+      "slug": "bitrix24/darwin",
+      "name": "Bitrix24",
+      "platform": "darwin",
+      "version": "22.0.28.91",
+      "installerUrl": "https://dl.bitrix24.com/b24/bitrix24_desktop_arm.dmg"
+    },
+    {
       "slug": "bitwarden/darwin",
       "name": "Bitwarden",
       "platform": "darwin",
@@ -490,6 +616,13 @@
       "platform": "windows",
       "version": "2026.5.0",
       "installerUrl": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.5.0/Bitwarden-Installer-2026.5.0.exe"
+    },
+    {
+      "slug": "bitwig-studio/darwin",
+      "name": "Bitwig Studio",
+      "platform": "darwin",
+      "version": "6.0.6",
+      "installerUrl": "https://www.bitwig.com/dl/Bitwig%20Studio/6.0.6/installer_mac"
     },
     {
       "slug": "blender/darwin",
@@ -506,6 +639,20 @@
       "installerUrl": "https://download.blender.org/release/Blender5.1/blender-5.1.2-windows-x64.msi"
     },
     {
+      "slug": "bleunlock/darwin",
+      "name": "BLEUnlock",
+      "platform": "darwin",
+      "version": "1.12.2",
+      "installerUrl": "https://github.com/ts1/BLEUnlock/releases/download/1.12.2/BLEUnlock-1.12.2.zip"
+    },
+    {
+      "slug": "blip/darwin",
+      "name": "blip",
+      "platform": "darwin",
+      "version": "1.1.16",
+      "installerUrl": "https://f000.backblazeb2.com/file/push-mac/Blip-20260425132215.zip"
+    },
+    {
       "slug": "bluej/darwin",
       "name": "BlueJ",
       "platform": "darwin",
@@ -518,6 +665,55 @@
       "platform": "windows",
       "version": "5.5.0",
       "installerUrl": "https://github.com/k-pet-group/BlueJ-Greenfoot/releases/download/BLUEJ-RELEASE-5.5.0/BlueJ-windows-5.5.0.msi"
+    },
+    {
+      "slug": "bluewallet/darwin",
+      "name": "BlueWallet",
+      "platform": "darwin",
+      "version": "7.2.6",
+      "installerUrl": "https://github.com/BlueWallet/BlueWallet/releases/download/v7.2.6/BlueWallet.7.2.6.dmg"
+    },
+    {
+      "slug": "blurscreen/darwin",
+      "name": "BlurScreen",
+      "platform": "darwin",
+      "version": "1.0",
+      "installerUrl": "https://www.blurscreen.app/assets/BlurScreen-v2.pkg"
+    },
+    {
+      "slug": "boltai/darwin",
+      "name": "BoltAI 2",
+      "platform": "darwin",
+      "version": "2.13.3",
+      "installerUrl": "https://updates.boltai.com/dmg/BoltAI-2.13.3.dmg"
+    },
+    {
+      "slug": "bome-network/darwin",
+      "name": "Bome Network",
+      "platform": "darwin",
+      "version": "1.6.0",
+      "installerUrl": "https://download.bome.com/BomeNet1.6.0_macOS.dmg"
+    },
+    {
+      "slug": "boom-3d/darwin",
+      "name": "Boom 3D",
+      "platform": "darwin",
+      "version": "2.2.6",
+      "installerUrl": "https://dfvk972795zr9.cloudfront.net/Boom3Dmac/webstore/Boom3D.dmg"
+    },
+    {
+      "slug": "boop/darwin",
+      "name": "Boop",
+      "platform": "darwin",
+      "version": "1.4.0",
+      "installerUrl": "https://github.com/IvanMathy/Boop/releases/download/1.4.0/Boop.zip"
+    },
+    {
+      "slug": "boost-note/darwin",
+      "name": "Boost Note",
+      "platform": "darwin",
+      "version": "0.23.1",
+      "installerUrl": "https://github.com/BoostIO/BoostNote-App/releases/download/v0.23.1/boost-note-mac.dmg"
     },
     {
       "slug": "box-drive/darwin",
@@ -548,6 +744,20 @@
       "installerUrl": "https://github.com/brave/brave-browser/releases/download/v1.91.171/BraveBrowserStandaloneSilentSetup.exe"
     },
     {
+      "slug": "breaktimer/darwin",
+      "name": "BreakTimer",
+      "platform": "darwin",
+      "version": "2.0.3",
+      "installerUrl": "https://github.com/tom-james-watson/breaktimer-app/releases/download/v2.0.3/BreakTimer.dmg"
+    },
+    {
+      "slug": "bricklink-studio/darwin",
+      "name": "BrickLink Studio",
+      "platform": "darwin",
+      "version": "2.26.5_1",
+      "installerUrl": "https://studio.download.bricklink.info/Studio2.0/Archive/2.26.5_1/Studio+2.0.pkg"
+    },
+    {
       "slug": "bruno/darwin",
       "name": "Bruno",
       "platform": "darwin",
@@ -562,6 +772,13 @@
       "installerUrl": "https://github.com/usebruno/bruno/releases/download/v3.4.2/bruno_3.4.2_x64_win.msi"
     },
     {
+      "slug": "bunch/darwin",
+      "name": "Bunch",
+      "platform": "darwin",
+      "version": "1.4.17",
+      "installerUrl": "https://brettterpstra.com/updates/bunch/Bunch1.4.17180.dmg"
+    },
+    {
       "slug": "burp-suite-community/windows",
       "name": "Burp Suite Community Edition",
       "platform": "windows",
@@ -574,6 +791,27 @@
       "platform": "darwin",
       "version": "2026.3.3",
       "installerUrl": "https://portswigger-cdn.net/burp/releases/download?product=community\u0026version=2026.3.3\u0026type=MacOsArm64"
+    },
+    {
+      "slug": "busycontacts/darwin",
+      "name": "BusyContacts",
+      "platform": "darwin",
+      "version": "2026.2.2",
+      "installerUrl": "https://www.busymac.com/download/bct-2026.2.2.zip"
+    },
+    {
+      "slug": "buttercup/darwin",
+      "name": "Buttercup",
+      "platform": "darwin",
+      "version": "2.28.1",
+      "installerUrl": "https://github.com/buttercup/buttercup-desktop/releases/download/v2.28.1/Buttercup-mac-x64-2.28.1.dmg"
+    },
+    {
+      "slug": "buzz/darwin",
+      "name": "Buzz",
+      "platform": "darwin",
+      "version": "1.4.4",
+      "installerUrl": "https://github.com/chidiwilliams/buzz/releases/download/v1.4.4/Buzz-1.4.4-mac-ARM64.dmg"
     },
     {
       "slug": "cacher/darwin",

@@ -1,312 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-05-14T21:31:10Z",
-      "appName": "Miro",
-      "slug": "miro/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.11.139",
-      "newVersion": "0.11.140",
-      "installerUrl": "https://desktop.miro.com/platforms/darwin-arm64/Install-Miro.dmg"
-    },
-    {
-      "date": "2026-05-14T21:31:10Z",
-      "appName": "Postman",
-      "slug": "postman/darwin",
-      "platform": "darwin",
-      "oldVersion": "12.10.0",
-      "newVersion": "12.10.5",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.10.5/osx_arm64"
-    },
-    {
-      "date": "2026-05-14T21:31:10Z",
-      "appName": "NordVPN",
-      "slug": "nordvpn/darwin",
-      "platform": "darwin",
-      "oldVersion": "10.1.0",
-      "newVersion": "10.2.0",
-      "installerUrl": "https://downloads.nordcdn.com/apps/macos/generic/NordVPN-OpenVPN/10.2.0/NordVPN.pkg"
-    },
-    {
-      "date": "2026-05-14T21:31:10Z",
-      "appName": "Docker Desktop",
-      "slug": "docker/windows",
-      "platform": "windows",
-      "oldVersion": "4.71.0",
-      "newVersion": "4.73.0",
-      "installerUrl": "https://desktop.docker.com/win/main/amd64/226246/Docker%20Desktop%20Installer.exe"
-    },
-    {
-      "date": "2026-05-15T03:14:59Z",
-      "appName": "Okta Verify",
-      "slug": "okta-verify/darwin",
-      "platform": "darwin",
-      "oldVersion": "9.61.1",
-      "newVersion": "9.63.0",
-      "installerUrl": "https://okta.okta.com/artifacts/OKTA_VERIFY_MACOS/9.63.0/OktaVerify-9.63.0-6186-0c33212.pkg"
-    },
-    {
-      "date": "2026-05-15T03:14:59Z",
-      "appName": "AWS Client VPN",
-      "slug": "aws-vpn-client/darwin",
-      "platform": "darwin",
-      "oldVersion": "5.3.4",
-      "newVersion": "5.3.5",
-      "installerUrl": "https://d20adtppz83p9s.cloudfront.net/OSX_ARM64/5.3.5/AWS_VPN_Client_ARM64.pkg"
-    },
-    {
-      "date": "2026-05-15T03:14:59Z",
-      "appName": "Arc",
-      "slug": "arc/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.146.0",
-      "newVersion": "1.147.0",
-      "installerUrl": "https://releases.arc.net/release/Arc-1.147.0-80797.zip"
-    },
-    {
-      "date": "2026-05-15T03:14:59Z",
-      "appName": "Zen Browser",
-      "slug": "zen/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.19.12b",
-      "newVersion": "1.19.13b",
-      "installerUrl": "https://github.com/zen-browser/desktop/releases/download/1.19.13b/zen.macos-universal.dmg"
-    },
-    {
-      "date": "2026-05-15T03:14:59Z",
-      "appName": "Linear",
-      "slug": "linear/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.28.13",
-      "newVersion": "1.30.0",
-      "installerUrl": "https://releases.linear.app/Linear-1.30.0-universal.dmg"
-    },
-    {
-      "date": "2026-05-15T03:14:59Z",
-      "appName": "Postman",
-      "slug": "postman/windows",
-      "platform": "windows",
-      "oldVersion": "12.10.0",
-      "newVersion": "12.10.5",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.10.5/windows_64"
-    },
-    {
-      "date": "2026-05-15T07:15:22Z",
-      "appName": "Zed",
-      "slug": "zed/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.2.3",
-      "newVersion": "1.2.4",
-      "installerUrl": "https://zed.dev/api/releases/stable/1.2.4/Zed-aarch64.dmg"
-    },
-    {
-      "date": "2026-05-15T07:15:22Z",
-      "appName": "Ollama",
-      "slug": "ollama/windows",
-      "platform": "windows",
-      "oldVersion": "0.23.3",
-      "newVersion": "0.24.0",
-      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.24.0/OllamaSetup.exe"
-    },
-    {
-      "date": "2026-05-15T07:15:22Z",
-      "appName": "Ollama",
-      "slug": "ollama/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.23.4",
-      "newVersion": "0.24.0",
-      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.24.0/Ollama-darwin.zip"
-    },
-    {
-      "date": "2026-05-15T12:44:45Z",
-      "appName": "Dialpad",
-      "slug": "dialpad/darwin",
-      "platform": "darwin",
-      "oldVersion": "2605.0.2",
-      "newVersion": "2605.0.4",
-      "installerUrl": "https://download.dialpad.com/osx/arm64/dialpad.pkg"
-    },
-    {
-      "date": "2026-05-15T12:44:45Z",
-      "appName": "Warp",
-      "slug": "warp/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.2026.05.06.15.42.05",
-      "newVersion": "0.2026.05.13.09.15.01",
-      "installerUrl": "https://releases.warp.dev/stable/v0.2026.05.13.09.15.stable_01/Warp.dmg"
-    },
-    {
-      "date": "2026-05-15T12:44:45Z",
-      "appName": "Postman",
-      "slug": "postman/darwin",
-      "platform": "darwin",
-      "oldVersion": "12.10.5",
-      "newVersion": "12.10.6",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.10.6/osx_arm64"
-    },
-    {
-      "date": "2026-05-15T13:38:36Z",
-      "appName": "Mattermost",
-      "slug": "mattermost/darwin",
-      "platform": "darwin",
-      "oldVersion": "6.1.2",
-      "newVersion": "6.2.0",
-      "installerUrl": "https://releases.mattermost.com/desktop/6.2.0/mattermost-desktop-6.2.0-mac-arm64.zip"
-    },
-    {
-      "date": "2026-05-15T13:38:36Z",
-      "appName": "WebStorm",
-      "slug": "webstorm/darwin",
-      "platform": "darwin",
-      "oldVersion": "2026.1.1",
-      "newVersion": "2026.1.2",
-      "installerUrl": "https://download.jetbrains.com/webstorm/WebStorm-2026.1.2-aarch64.dmg"
-    },
-    {
-      "date": "2026-05-15T13:38:36Z",
-      "appName": "BetterDisplay",
-      "slug": "betterdisplay/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.2.3",
-      "newVersion": "4.3.3",
-      "installerUrl": "https://github.com/waydabber/BetterDisplay/releases/download/v4.3.3/BetterDisplay-v4.3.3.dmg"
-    },
-    {
-      "date": "2026-05-15T13:38:36Z",
-      "appName": "Zed",
-      "slug": "zed/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.2.4",
-      "newVersion": "1.2.5",
-      "installerUrl": "https://zed.dev/api/releases/stable/1.2.5/Zed-aarch64.dmg"
-    },
-    {
-      "date": "2026-05-15T15:46:49Z",
-      "appName": "XCreds",
-      "slug": "xcreds/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "5.9",
-      "installerUrl": "https://github.com/twocanoes/xcreds/releases/download/tag-5.9(9148)/XCreds_Build-9148_Version-5.9.pkg"
-    },
-    {
-      "date": "2026-05-15T15:46:49Z",
-      "appName": "Privileges",
-      "slug": "privileges/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.5.2",
-      "newVersion": "2.5.3",
-      "installerUrl": "https://github.com/SAP/macOS-enterprise-privileges/releases/download/2.5.3/Privileges_2.5.3.pkg"
-    },
-    {
-      "date": "2026-05-15T15:46:49Z",
-      "appName": "PyCharm Professional",
-      "slug": "pycharm/darwin",
-      "platform": "darwin",
-      "oldVersion": "2026.1.1",
-      "newVersion": "2026.1.2",
-      "installerUrl": "https://download.jetbrains.com/python/pycharm-professional-2026.1.2-aarch64.dmg"
-    },
-    {
-      "date": "2026-05-15T18:38:41Z",
-      "appName": "Codex CLI",
-      "slug": "codex-cli/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "0.116.0",
-      "installerUrl": "https://github.com/openai/codex/releases/download/rust-v0.116.0/codex-x86_64-pc-windows-msvc.exe.zip"
-    },
-    {
-      "date": "2026-05-15T21:26:57Z",
-      "appName": "GoLand",
-      "slug": "goland/darwin",
-      "platform": "darwin",
-      "oldVersion": "2026.1.1",
-      "newVersion": "2026.1.2",
-      "installerUrl": "https://download.jetbrains.com/go/goland-2026.1.2-aarch64.dmg"
-    },
-    {
-      "date": "2026-05-15T21:26:57Z",
-      "appName": "Tailscale",
-      "slug": "tailscale/windows",
-      "platform": "windows",
-      "oldVersion": "1.98.1",
-      "newVersion": "1.98.2",
-      "installerUrl": "https://pkgs.tailscale.com/stable/tailscale-setup-1.98.2-amd64.msi"
-    },
-    {
-      "date": "2026-05-15T21:26:57Z",
-      "appName": "Cursor",
-      "slug": "cursor/windows",
-      "platform": "windows",
-      "oldVersion": "3.4.16",
-      "newVersion": "3.4.20",
-      "installerUrl": "https://downloads.cursor.com/production/0cf8b06883f54e26bb4f0fb8647c9500ccb4331f/win32/x64/system-setup/CursorSetup-x64-3.4.20.exe"
-    },
-    {
-      "date": "2026-05-15T21:26:57Z",
-      "appName": "Zed",
-      "slug": "zed/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.2.5",
-      "newVersion": "1.2.6",
-      "installerUrl": "https://zed.dev/api/releases/stable/1.2.6/Zed-aarch64.dmg"
-    },
-    {
-      "date": "2026-05-15T21:26:57Z",
-      "appName": "RubyMine",
-      "slug": "rubymine/darwin",
-      "platform": "darwin",
-      "oldVersion": "2026.1.1",
-      "newVersion": "2026.1.2",
-      "installerUrl": "https://download.jetbrains.com/ruby/RubyMine-2026.1.2-aarch64.dmg"
-    },
-    {
-      "date": "2026-05-15T21:26:57Z",
-      "appName": "Figma",
-      "slug": "figma/windows",
-      "platform": "windows",
-      "oldVersion": "126.3.12",
-      "newVersion": "126.4.9",
-      "installerUrl": "https://desktop.figma.com/win/build/Figma-126.4.9.exe"
-    },
-    {
-      "date": "2026-05-15T21:26:57Z",
-      "appName": "Codex CLI",
-      "slug": "codex-cli/windows",
-      "platform": "windows",
-      "oldVersion": "0.116.0",
-      "newVersion": "0.130.0",
-      "installerUrl": "https://github.com/openai/codex/releases/download/rust-v0.130.0/codex-x86_64-pc-windows-msvc.exe.zip"
-    },
-    {
-      "date": "2026-05-15T21:26:57Z",
-      "appName": "Cursor",
-      "slug": "cursor/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.4.17",
-      "newVersion": "3.4.20",
-      "installerUrl": "https://downloads.cursor.com/production/0cf8b06883f54e26bb4f0fb8647c9500ccb4331f/darwin/arm64/Cursor-darwin-arm64.zip"
-    },
-    {
-      "date": "2026-05-15T21:26:57Z",
-      "appName": "IntelliJ IDEA Ultimate",
-      "slug": "intellij-idea/darwin",
-      "platform": "darwin",
-      "oldVersion": "2026.1.1",
-      "newVersion": "2026.1.2",
-      "installerUrl": "https://download.jetbrains.com/idea/ideaIU-2026.1.2-aarch64.dmg"
-    },
-    {
-      "date": "2026-05-15T21:26:57Z",
-      "appName": "Microsoft Edge",
-      "slug": "microsoft-edge/darwin",
-      "platform": "darwin",
-      "oldVersion": "148.0.3967.54",
-      "newVersion": "148.0.3967.70",
-      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/5678e805-962c-4a19-a14c-85a9417ce604/MicrosoftEdge-148.0.3967.70.dmg"
-    },
-    {
       "date": "2026-05-16T03:12:20Z",
       "appName": "Claude",
       "slug": "claude/darwin",
@@ -8999,6 +8693,312 @@
       "oldVersion": "1.109.0.242",
       "newVersion": "1.109.1.2",
       "installerUrl": "https://releases.arc.net/windows/prod/1.109.1.2/Arc.x64.msix"
+    },
+    {
+      "date": "2026-06-10T21:36:59Z",
+      "appName": "BlurScreen",
+      "slug": "blurscreen/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "1.0",
+      "installerUrl": "https://www.blurscreen.app/assets/BlurScreen-v2.pkg"
+    },
+    {
+      "date": "2026-06-10T21:36:59Z",
+      "appName": "Bome Network",
+      "slug": "bome-network/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "1.6.0",
+      "installerUrl": "https://download.bome.com/BomeNet1.6.0_macOS.dmg"
+    },
+    {
+      "date": "2026-06-10T21:36:59Z",
+      "appName": "Buttercup",
+      "slug": "buttercup/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "2.28.1",
+      "installerUrl": "https://github.com/buttercup/buttercup-desktop/releases/download/v2.28.1/Buttercup-mac-x64-2.28.1.dmg"
+    },
+    {
+      "date": "2026-06-10T21:36:59Z",
+      "appName": "Background Music",
+      "slug": "background-music/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "0.4.3",
+      "installerUrl": "https://github.com/kyleneideck/BackgroundMusic/releases/download/v0.4.3/BackgroundMusic-0.4.3.pkg"
+    },
+    {
+      "date": "2026-06-10T21:36:59Z",
+      "appName": "Buzz",
+      "slug": "buzz/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "1.4.4",
+      "installerUrl": "https://github.com/chidiwilliams/buzz/releases/download/v1.4.4/Buzz-1.4.4-mac-ARM64.dmg"
+    },
+    {
+      "date": "2026-06-10T21:36:59Z",
+      "appName": "blip",
+      "slug": "blip/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "1.1.16",
+      "installerUrl": "https://f000.backblazeb2.com/file/push-mac/Blip-20260425132215.zip"
+    },
+    {
+      "date": "2026-06-10T21:36:59Z",
+      "appName": "Bambu Studio",
+      "slug": "bambu-studio/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "02.07.01.57",
+      "installerUrl": "https://github.com/bambulab/BambuStudio/releases/download/v02.07.01.57/Bambu_Studio_mac-v02.07.01.57-20260601165745.dmg"
+    },
+    {
+      "date": "2026-06-10T21:36:59Z",
+      "appName": "Binance",
+      "slug": "binance/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "2.3.1",
+      "installerUrl": "https://ftp.binance.com/electron-desktop/mac/production/binance-2.3.1-arm64.dmg"
+    },
+    {
+      "date": "2026-06-10T21:36:59Z",
+      "appName": "BLEUnlock",
+      "slug": "bleunlock/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "1.12.2",
+      "installerUrl": "https://github.com/ts1/BLEUnlock/releases/download/1.12.2/BLEUnlock-1.12.2.zip"
+    },
+    {
+      "date": "2026-06-10T21:36:59Z",
+      "appName": "Balsamiq Wireframes",
+      "slug": "balsamiq-wireframes/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "4.8.6",
+      "installerUrl": "https://builds.balsamiq.com/bwd/Balsamiq%20Wireframes%204.8.6.dmg"
+    },
+    {
+      "date": "2026-06-10T21:36:59Z",
+      "appName": "Boop",
+      "slug": "boop/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "1.4.0",
+      "installerUrl": "https://github.com/IvanMathy/Boop/releases/download/1.4.0/Boop.zip"
+    },
+    {
+      "date": "2026-06-10T21:36:59Z",
+      "appName": "Boost Note",
+      "slug": "boost-note/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "0.23.1",
+      "installerUrl": "https://github.com/BoostIO/BoostNote-App/releases/download/v0.23.1/boost-note-mac.dmg"
+    },
+    {
+      "date": "2026-06-10T21:36:59Z",
+      "appName": "Bunch",
+      "slug": "bunch/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "1.4.17",
+      "installerUrl": "https://brettterpstra.com/updates/bunch/Bunch1.4.17180.dmg"
+    },
+    {
+      "date": "2026-06-10T21:36:59Z",
+      "appName": "BetterMouse",
+      "slug": "bettermouse/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "1.6",
+      "installerUrl": "https://better-mouse.com/wp-content/uploads/BetterMouse.1.6.8837.zip"
+    },
+    {
+      "date": "2026-06-10T21:36:59Z",
+      "appName": "Bitwig Studio",
+      "slug": "bitwig-studio/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "6.0.6",
+      "installerUrl": "https://www.bitwig.com/dl/Bitwig%20Studio/6.0.6/installer_mac"
+    },
+    {
+      "date": "2026-06-10T21:36:59Z",
+      "appName": "BreakTimer",
+      "slug": "breaktimer/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "2.0.3",
+      "installerUrl": "https://github.com/tom-james-watson/breaktimer-app/releases/download/v2.0.3/BreakTimer.dmg"
+    },
+    {
+      "date": "2026-06-10T21:36:59Z",
+      "appName": "Boom 3D",
+      "slug": "boom-3d/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "2.2.6",
+      "installerUrl": "https://dfvk972795zr9.cloudfront.net/Boom3Dmac/webstore/Boom3D.dmg"
+    },
+    {
+      "date": "2026-06-10T21:36:59Z",
+      "appName": "BatFi",
+      "slug": "batfi/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "3.0.5",
+      "installerUrl": "https://files.micropixels.software/batfi/BatFi-latest.zip"
+    },
+    {
+      "date": "2026-06-10T21:36:59Z",
+      "appName": "Biscuit",
+      "slug": "biscuit/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "2.1.1",
+      "installerUrl": "https://github.com/agata/dl.biscuit/releases/download/2.1.1/Biscuit-2.1.1-arm64.dmg"
+    },
+    {
+      "date": "2026-06-10T21:36:59Z",
+      "appName": "Bezel",
+      "slug": "bezel/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "4.3.0",
+      "installerUrl": "https://download.nonstrict.eu/bezel/Bezel-4.3.0.zip"
+    },
+    {
+      "date": "2026-06-10T21:36:59Z",
+      "appName": "BitBox",
+      "slug": "bitbox/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "4.51.0",
+      "installerUrl": "https://github.com/BitBoxSwiss/bitbox-wallet-app/releases/download/v4.51.0/BitBox-4.51.0-macOS.dmg"
+    },
+    {
+      "date": "2026-06-10T21:36:59Z",
+      "appName": "BrickLink Studio",
+      "slug": "bricklink-studio/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "2.26.5_1",
+      "installerUrl": "https://studio.download.bricklink.info/Studio2.0/Archive/2.26.5_1/Studio+2.0.pkg"
+    },
+    {
+      "date": "2026-06-10T21:36:59Z",
+      "appName": "Beeper",
+      "slug": "beeper/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "4.2.892",
+      "installerUrl": "https://beeper-desktop.download.beeper.com/builds/Beeper-4.2.892-arm64-mac.zip"
+    },
+    {
+      "date": "2026-06-10T21:36:59Z",
+      "appName": "Beaver Notes",
+      "slug": "beaver-notes/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "4.4.0",
+      "installerUrl": "https://github.com/Beaver-Notes/Beaver-Notes/releases/download/4.4.0/Beaver-notes-4.4.0-universal.dmg"
+    },
+    {
+      "date": "2026-06-10T21:36:59Z",
+      "appName": "BetterZip",
+      "slug": "betterzip/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "5.4.2",
+      "installerUrl": "https://macitbetter.com/dl/BetterZip-5.4.2.zip"
+    },
+    {
+      "date": "2026-06-10T21:36:59Z",
+      "appName": "BibDesk",
+      "slug": "bibdesk/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "1.9.12",
+      "installerUrl": "https://downloads.sourceforge.net/bibdesk/BibDesk/BibDesk-1.9.12/BibDesk-1.9.12.dmg"
+    },
+    {
+      "date": "2026-06-10T21:36:59Z",
+      "appName": "BusyContacts",
+      "slug": "busycontacts/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "2026.2.2",
+      "installerUrl": "https://www.busymac.com/download/bct-2026.2.2.zip"
+    },
+    {
+      "date": "2026-06-10T21:36:59Z",
+      "appName": "Bitrix24",
+      "slug": "bitrix24/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "22.0.28.91",
+      "installerUrl": "https://dl.bitrix24.com/b24/bitrix24_desktop_arm.dmg"
+    },
+    {
+      "date": "2026-06-10T21:36:59Z",
+      "appName": "BetterTouchTool",
+      "slug": "bettertouchtool/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "6.553",
+      "installerUrl": "https://folivora.ai/releases/btt6.553-2026060702.zip"
+    },
+    {
+      "date": "2026-06-10T21:36:59Z",
+      "appName": "Bartender",
+      "slug": "bartender/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "6.5.2",
+      "installerUrl": "https://downloads.macbartender.com/B2/updates/6-5-2/Bartender%206.zip"
+    },
+    {
+      "date": "2026-06-10T21:36:59Z",
+      "appName": "BoltAI 2",
+      "slug": "boltai/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "2.13.3",
+      "installerUrl": "https://updates.boltai.com/dmg/BoltAI-2.13.3.dmg"
+    },
+    {
+      "date": "2026-06-10T21:36:59Z",
+      "appName": "Badgeify",
+      "slug": "badgeify/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "1.13.1",
+      "installerUrl": "https://api.badgeify.app/release/download/darwin/universal/1.13.1"
+    },
+    {
+      "date": "2026-06-10T21:36:59Z",
+      "appName": "BlueWallet",
+      "slug": "bluewallet/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "7.2.6",
+      "installerUrl": "https://github.com/BlueWallet/BlueWallet/releases/download/v7.2.6/BlueWallet.7.2.6.dmg"
+    },
+    {
+      "date": "2026-06-10T21:36:59Z",
+      "appName": "Bdash",
+      "slug": "bdash/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "1.35.0",
+      "installerUrl": "https://github.com/bdash-app/bdash/releases/download/v1.35.0/Bdash-1.35.0-universal-mac.zip"
     }
   ]
 }
