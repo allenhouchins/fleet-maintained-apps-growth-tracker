@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T15:28:45Z",
+  "lastUpdated": "2026-06-10T15:36:34Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -5055,6 +5055,36 @@
       "lastUpdated": "2026-06-10T15:28:43Z"
     },
     {
+      "slug": "shifty/darwin",
+      "name": "Shifty",
+      "version": "1.2",
+      "sha256": "c86c55c53f15d38e2a15277fa2496d64f003f03f13f207b704cf48fc38a50b65",
+      "cdhash": "ef472ee54e097dff64b24ebf9c5d11d905cb7db4",
+      "signingId": "3Q7XKEDZ36:io.natethompson.Shifty",
+      "teamId": "3Q7XKEDZ36",
+      "lastUpdated": "2026-06-10T15:29:05Z"
+    },
+    {
+      "slug": "shortcat/darwin",
+      "name": "Sproutcube Shortcat",
+      "version": "0.12.2",
+      "sha256": "823a9ab2c131da45388da545065bed7de5137b219efec6f5f3a417e60120d81e",
+      "cdhash": "db2a7f1e0ee2ff7caf4731b367aa88ed9539c2c4",
+      "signingId": "Q4A8V3F9CY:com.sproutcube.Shortcat",
+      "teamId": "Q4A8V3F9CY",
+      "lastUpdated": "2026-06-10T15:29:26Z"
+    },
+    {
+      "slug": "shotcut/darwin",
+      "name": "Shotcut",
+      "version": "26.4.30",
+      "sha256": "3b18115f5c120458f8e8ceee719e44c06b77d59cad612f51829d9a91bf57bb8f",
+      "cdhash": "53f7e69dfd1fa1e84917e0881692c2c216ffe00f",
+      "signingId": "Y6RX44QG2G:com.Meltytech.Shotcut",
+      "teamId": "Y6RX44QG2G",
+      "lastUpdated": "2026-06-10T15:31:59Z"
+    },
+    {
       "slug": "shottr/darwin",
       "name": "Shottr",
       "version": "1.9.1",
@@ -5063,6 +5093,26 @@
       "signingId": "2Y683PRQWN:cc.ffitch.shottr",
       "teamId": "2Y683PRQWN",
       "lastUpdated": "2025-12-20T09:09:55Z"
+    },
+    {
+      "slug": "sidenotes/darwin",
+      "name": "SideNotes",
+      "version": "1.6.1",
+      "sha256": "b039c4f051172d53d4350c2ce462a508e3ea914b610c69a4ce2dde99a602614a",
+      "cdhash": "dda637847a6b4dfb1ab6186fb82622aed954c86f",
+      "signingId": "MLZTD8K9AU:com.apptorium.SideNotes-paddle",
+      "teamId": "MLZTD8K9AU",
+      "lastUpdated": "2026-06-10T15:32:21Z"
+    },
+    {
+      "slug": "sigmaos/darwin",
+      "name": "SigmaOS",
+      "version": "1.19.0.4",
+      "sha256": "2840caea829a26dcbe8d076f9faa12e616c6ef17fbc1b779aab241f8ec81bda4",
+      "cdhash": "715eb7abb43f800a13007cf057f40e5669ec0b26",
+      "signingId": "R4ZAXU7N3C:com.sigmaos.sigmaos.macos",
+      "teamId": "R4ZAXU7N3C",
+      "lastUpdated": "2026-06-10T15:32:44Z"
     },
     {
       "slug": "signal/darwin",
@@ -5087,6 +5137,26 @@
       "lastUpdated": "2026-06-04T15:24:34Z"
     },
     {
+      "slug": "simple-comic/darwin",
+      "name": "Simple Comic",
+      "version": "1.9.9",
+      "sha256": "6f57ba2c4b84f58bb63b07364249fc483c20e49aab0645025a2dc22516e07812",
+      "cdhash": "42bcf461d540ccf93ebe3b3bd9da46eacdfb90dc",
+      "signingId": "3D9SMH4RWM:com.ToWatchList.SimpleComic",
+      "teamId": "3D9SMH4RWM",
+      "lastUpdated": "2026-06-10T15:33:05Z"
+    },
+    {
+      "slug": "sirimote/darwin",
+      "name": "SiriMote",
+      "version": "1.4.6",
+      "sha256": "de2a266d56e60e428bfed0cff01d606746a32df9c62afeebf10b0558aababa83",
+      "cdhash": "8cf06397b952eb489f8589accbb08302c9242dd5",
+      "signingId": "G78RJ6NLJU:at.EternalStorms.SiriMote-nonappstore",
+      "teamId": "G78RJ6NLJU",
+      "lastUpdated": "2026-06-10T15:33:28Z"
+    },
+    {
       "slug": "sketch/darwin",
       "name": "Sketch",
       "version": "2026.1.2",
@@ -5095,6 +5165,16 @@
       "signingId": "WUGMZZ5K46:com.bohemiancoding.sketch3",
       "teamId": "WUGMZZ5K46",
       "lastUpdated": "2026-04-29T15:57:59Z"
+    },
+    {
+      "slug": "slab/darwin",
+      "name": "Slab",
+      "version": "1.7.2",
+      "sha256": "a4dc58109e6642960709191fdc9c1322d0e93a5b9b57c5a33292379dd3fc86ae",
+      "cdhash": "6fad6efe4fc0a90b43ab58a3ed21a2e8be38cb10",
+      "signingId": "Q67SW996Z5:com.slab.slab",
+      "teamId": "Q67SW996Z5",
+      "lastUpdated": "2026-06-10T15:33:52Z"
     },
     {
       "slug": "slack/darwin",
@@ -5117,6 +5197,23 @@
       "thumbprint": "0E2CE64CE623A6F1049BA69353D66BF60158C43D",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-06-09T20:13:43Z"
+    },
+    {
+      "slug": "slicer/darwin",
+      "name": "3D Slicer",
+      "version": "5.10.0",
+      "sha256": "18e0137cfddd28a277378824cbd65638a92fbc7f5762b82d3436f22e903e85de",
+      "lastUpdated": "2026-06-10T15:34:37Z"
+    },
+    {
+      "slug": "slidepad/darwin",
+      "name": "Slidepad",
+      "version": "1.6.2",
+      "sha256": "85d3d72c8c21db341b9ab0eab54b6fb857784c8d076c8384b3be82da8909b478",
+      "cdhash": "a131acb06f19d33d6790ed2c42f0506862b8c967",
+      "signingId": "9ADSHQJW8B:com.slidepad.slidepad",
+      "teamId": "9ADSHQJW8B",
+      "lastUpdated": "2026-06-10T15:36:32Z"
     },
     {
       "slug": "snagit/darwin",
