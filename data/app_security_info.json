@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T17:32:40Z",
+  "lastUpdated": "2026-06-10T17:41:09Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -3362,6 +3362,46 @@
       "lastUpdated": "2026-06-08T03:22:42Z"
     },
     {
+      "slug": "klokki/darwin",
+      "name": "Klokki",
+      "version": "1.3.7",
+      "sha256": "65497bb9a9fbc9bdaafba2f8e1879583e1b68caf49dc72215a7b27c9df6f6ec8",
+      "cdhash": "91ad0506c4904f074074bae0c3d466c8264b2b21",
+      "signingId": "Q9SATZMHPG:com.klokki.macos",
+      "teamId": "Q9SATZMHPG",
+      "lastUpdated": "2026-06-10T17:33:06Z"
+    },
+    {
+      "slug": "knime/darwin",
+      "name": "KNIME Analytics Platform",
+      "version": "5.8.3",
+      "sha256": "3929ddb222451901735d7b5893a8e3e8083d8fd146727fd3c509f90446fba73f",
+      "cdhash": "96eecaba8f14ff75cbccba160c0396c2b2c79e49",
+      "signingId": "V7WZJX2HS9:org.knime.desktop.product",
+      "teamId": "V7WZJX2HS9",
+      "lastUpdated": "2026-06-10T17:34:57Z"
+    },
+    {
+      "slug": "knockknock/darwin",
+      "name": "KnockKnock",
+      "version": "4.0.3",
+      "sha256": "a7836af427187d02511170606232e4509c3a41351f5bbc3bafafe2f0227cc2de",
+      "cdhash": "286bba80d035a5f2c671178ee5ba73328c03a0dc",
+      "signingId": "VBG97UB4TA:com.objective-see.KnockKnock",
+      "teamId": "VBG97UB4TA",
+      "lastUpdated": "2026-06-10T17:36:55Z"
+    },
+    {
+      "slug": "krisp/darwin",
+      "name": "Krisp",
+      "version": "3.12.5",
+      "sha256": "289e90eb5a1648454f06bcc6c3e5547a1e622280bc9dbbd8edbf343a6c041b8c",
+      "cdhash": "6b75532276e7f7380281ad48ddf07468100ad8f8",
+      "signingId": "U5R26XM5Z2:ai.krisp.krispMac",
+      "teamId": "U5R26XM5Z2",
+      "lastUpdated": "2026-06-10T17:37:50Z"
+    },
+    {
       "slug": "krita/darwin",
       "name": "Krita",
       "version": "5.3.2.1",
@@ -3636,12 +3676,12 @@
     {
       "slug": "microsoft-edge/darwin",
       "name": "Microsoft Edge",
-      "version": "149.0.4022.52",
-      "sha256": "f750c3d5107883db347709e10a8e51c9a851aede9bd7b12c943db9c0f81dc715",
-      "cdhash": "01b8f78f75bf42f67341133b71b5a4ba6579dc3b",
+      "version": "149.0.4022.62",
+      "sha256": "12c098fa11a1e04858309d90fc60f97e59d438f1a60451ce7a87f43f6afe426a",
+      "cdhash": "eb7e6d65751f8cb18cd48a8dbfdd0248aa0942bf",
       "signingId": "UBF8T346G9:com.microsoft.edgemac",
       "teamId": "UBF8T346G9",
-      "lastUpdated": "2026-06-05T05:40:10Z"
+      "lastUpdated": "2026-06-10T17:39:05Z"
     },
     {
       "slug": "microsoft-edge/windows",
@@ -3976,12 +4016,12 @@
     {
       "slug": "notion/darwin",
       "name": "Notion",
-      "version": "7.20.0",
-      "sha256": "7420a923c70ce7bed450cc0e6606c933e1524b2409832c4bd44eaa4c4f4635ca",
-      "cdhash": "d08654ef19095a62f60ddd37b5f881ccfe45c4c1",
+      "version": "7.21.0",
+      "sha256": "fd9e8ff491af60b3b8d6d9f5a7ce9d1e7bb2a72855094ddf24492e58f1ef4894",
+      "cdhash": "925e79885dadccdddb9bc5b0995672527fde3c09",
       "signingId": "LBQJ96FQ8D:notion.id",
       "teamId": "LBQJ96FQ8D",
-      "lastUpdated": "2026-06-02T03:21:10Z"
+      "lastUpdated": "2026-06-10T17:39:29Z"
     },
     {
       "slug": "notion/windows",
@@ -4239,12 +4279,12 @@
     {
       "slug": "onionshare/darwin",
       "name": "OnionShare",
-      "version": "2.6.3",
-      "sha256": "4ce879a9d70309d3448599ab512a6f68021be8724527f0692a86f55134cf4c78",
-      "cdhash": "5889d338cb1741208fb21a433ff020432b0e9705",
-      "signingId": "7WLJ4UBL5L:OnionShare",
-      "teamId": "7WLJ4UBL5L",
-      "lastUpdated": "2026-06-10T03:21:47Z"
+      "version": "2.6.4",
+      "sha256": "15f148d9c97139b52185ea9efe038f2074c4908c23704b6cc0941d13306d8f4a",
+      "cdhash": "e46c3a5ad56f418b781a5c90f7bd988d704b2ecb",
+      "signingId": "G762K6CH36:OnionShare",
+      "teamId": "G762K6CH36",
+      "lastUpdated": "2026-06-10T17:39:56Z"
     },
     {
       "slug": "only-switch/darwin",
@@ -4309,12 +4349,12 @@
     {
       "slug": "opencode-desktop/darwin",
       "name": "OpenCode",
-      "version": "1.16.2",
-      "sha256": "dd384e328164050f30c61256d1e45bdd4755eea28f784c1b6942be5294134559",
-      "cdhash": "f8750d45213bed257d941733a1b86f3c345f6ef0",
+      "version": "1.17.0",
+      "sha256": "479454d597424aabfbc502445d8bab2411ec12270b9294d28cecf3fad10dd081",
+      "cdhash": "44c470918506a589635b27464c87f0c87e7f8511",
       "signingId": "5NZ4Q7NXJ4:ai.opencode.desktop",
       "teamId": "5NZ4Q7NXJ4",
-      "lastUpdated": "2026-06-10T03:28:11Z"
+      "lastUpdated": "2026-06-10T17:40:20Z"
     },
     {
       "slug": "openinterminal/darwin",
@@ -4591,12 +4631,12 @@
     {
       "slug": "postman/darwin",
       "name": "Postman",
-      "version": "12.14.2",
-      "sha256": "999db3a56cfbd42df8cbd02b9cc27089aff6806568afcc17b82be3c16d12ac72",
-      "cdhash": "d06b49f55d12189959716e86328b124cabc08488",
+      "version": "12.14.3",
+      "sha256": "476cd8289dfd34b73a2777e73ab73a440951a40c5c14355ec806febee4ab1b63",
+      "cdhash": "10921890f52c12a62f1314968f5dee5675b92862",
       "signingId": "H7H8Q7M5CK:com.postmanlabs.mac",
       "teamId": "H7H8Q7M5CK",
-      "lastUpdated": "2026-06-09T19:57:08Z"
+      "lastUpdated": "2026-06-10T17:40:43Z"
     },
     {
       "slug": "postman/windows",
@@ -4851,6 +4891,16 @@
       "thumbprint": "C66F874B9F3818095F2C1A9430758F1F00238123",
       "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:A500-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
       "lastUpdated": "2026-06-08T17:28:31Z"
+    },
+    {
+      "slug": "qlab/darwin",
+      "name": "QLab",
+      "version": "5.5.10",
+      "sha256": "d9ae512daa75a87671f201335521562e51434302e05ec36f0a476b1a98635a63",
+      "cdhash": "8a0270d0c6b2df741d2a0ae4d17c90c7fc68716d",
+      "signingId": "7672N4CCJM:com.figure53.QLab.5",
+      "teamId": "7672N4CCJM",
+      "lastUpdated": "2026-06-10T17:41:07Z"
     },
     {
       "slug": "quip/darwin",
