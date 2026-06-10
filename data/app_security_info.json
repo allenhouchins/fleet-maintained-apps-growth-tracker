@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T15:51:02Z",
+  "lastUpdated": "2026-06-10T15:58:55Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -5497,6 +5497,14 @@
       "lastUpdated": "2026-05-22T15:19:09Z"
     },
     {
+      "slug": "spyder/darwin",
+      "name": "Spyder",
+      "version": "6.1.4",
+      "sha256": "273fd5b4be95087820b8f2656ff03e9848ef63d673d3d90770a1897e0174b899",
+      "cdhash": "36f2dc503f6db43808cf7197d91022023a052d51",
+      "lastUpdated": "2026-06-10T15:54:23Z"
+    },
+    {
       "slug": "sql-server-management-studio/windows",
       "name": "SQL Server Management Studio",
       "version": "22.6.0",
@@ -5507,6 +5515,96 @@
       "thumbprint": "AB172913A2960A224809EE8A0C371CD47A079B72",
       "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:A935-03E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
       "lastUpdated": "2026-06-08T15:21:08Z"
+    },
+    {
+      "slug": "sqlectron/darwin",
+      "name": "Sqlectron",
+      "version": "1.39.0",
+      "sha256": "8bc26e7cb37545fa69d7191f65be4872c08dc2adc637febaf3dd65b9e1b86c1c",
+      "cdhash": "88d0a63c4773f6a4169ce66a62b45f2345771cae",
+      "signingId": "636PQWRU63:org.sqlectron.gui",
+      "teamId": "636PQWRU63",
+      "lastUpdated": "2026-06-10T15:55:50Z"
+    },
+    {
+      "slug": "sqlpro-for-mssql/darwin",
+      "name": "SQLPro for MSSQL",
+      "version": "2026.85",
+      "sha256": "0d222fe30e50779db296cb0c5de1981df791df94f8f95996710700c21e1c9d5d",
+      "cdhash": "00cd689b085915f21810eca6c524d75e878f71d8",
+      "signingId": "LKJB72232C:com.hankinsoft.osx.tinysqlstudio",
+      "teamId": "LKJB72232C",
+      "lastUpdated": "2026-06-10T15:56:12Z"
+    },
+    {
+      "slug": "sqlpro-for-mysql/darwin",
+      "name": "SQLPro for MySQL",
+      "version": "2026.85",
+      "sha256": "0f13e1e7d1a0d4f7697d223ab4a320b4b3bdf0784a4a5a6345606558e70b8621",
+      "cdhash": "169ee16ca1e52147e0f00ac24dfe90a214456ca0",
+      "signingId": "LKJB72232C:com.hankinsoft.osx.mysql",
+      "teamId": "LKJB72232C",
+      "lastUpdated": "2026-06-10T15:56:34Z"
+    },
+    {
+      "slug": "sqlpro-for-postgres/darwin",
+      "name": "SQLPro for Postgres",
+      "version": "2026.87",
+      "sha256": "3557f02e3153794ccb7de02267d92494781e0c6c2660afa4fef21011984aa949",
+      "cdhash": "b3b89a647acb8da233fc4ef692ce9e1be73bb322",
+      "signingId": "LKJB72232C:com.hankinsoft.osx.SQLProPostgres",
+      "teamId": "LKJB72232C",
+      "lastUpdated": "2026-06-10T15:56:56Z"
+    },
+    {
+      "slug": "sqlpro-for-sqlite/darwin",
+      "name": "SQLPro for SQLite",
+      "version": "2026.85",
+      "sha256": "68e37a9785474bb60f72488646afa8223ee65b2a23004fa9ae8afdd6de05294b",
+      "cdhash": "946786215dd322026847dd7f890ab2d5681161b2",
+      "signingId": "LKJB72232C:com.hankinsoft.osx.sqliteprofessional",
+      "teamId": "LKJB72232C",
+      "lastUpdated": "2026-06-10T15:57:18Z"
+    },
+    {
+      "slug": "sqlpro-studio/darwin",
+      "name": "SQLPro Studio",
+      "version": "2026.87",
+      "sha256": "910199b30caa13d4586ee22bd9a5685d53fa4c8e9917ad67f7a8b6caf6e8231e",
+      "cdhash": "02be2e42dede98dc2a6389fd5e88bccb40e3400a",
+      "signingId": "LKJB72232C:com.hankinsoft.osx.sqlprostudio",
+      "teamId": "LKJB72232C",
+      "lastUpdated": "2026-06-10T15:57:42Z"
+    },
+    {
+      "slug": "squash/darwin",
+      "name": "squash",
+      "version": "3.3.0",
+      "sha256": "97db6f227751dbac1564cd12302e09c7c8bc305b863314a557d5e8939f5cc4ae",
+      "cdhash": "023f4db1aa97175bfa5c7235c3e7424f74b86019",
+      "signingId": "P97H7FTHWN:com.realmacsoftware.squash3",
+      "teamId": "P97H7FTHWN",
+      "lastUpdated": "2026-06-10T15:58:03Z"
+    },
+    {
+      "slug": "ssh-config-editor/darwin",
+      "name": "SSH Config Editor",
+      "version": "2.6.11",
+      "sha256": "299330c975bf10880df1ee56ecefaad6297bb81aef50e4cdcfcff534dce5820e",
+      "cdhash": "460dcbdc8dce0690af91c47ad8f2992b169013d9",
+      "signingId": "772G83MDGQ:org.hejki.osx.sshce",
+      "teamId": "772G83MDGQ",
+      "lastUpdated": "2026-06-10T15:58:26Z"
+    },
+    {
+      "slug": "standard-notes/darwin",
+      "name": "Standard Notes",
+      "version": "3.201.21",
+      "sha256": "79c0b82625c331e0ea1a7b91ef0c568450d9055c5bceb75c28fd3b8e990f5bc8",
+      "cdhash": "337bbe215a00029688ee31661287aeabdf29aff3",
+      "signingId": "HKF9BXSN95:org.standardnotes.standardnotes",
+      "teamId": "HKF9BXSN95",
+      "lastUpdated": "2026-06-10T15:58:53Z"
     },
     {
       "slug": "stats/darwin",
