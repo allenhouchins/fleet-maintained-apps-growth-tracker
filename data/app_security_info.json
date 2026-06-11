@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T23:36:10Z",
+  "lastUpdated": "2026-06-11T23:40:18Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -5563,6 +5563,36 @@
       "lastUpdated": "2026-06-11T23:36:08Z"
     },
     {
+      "slug": "menubar-stats/darwin",
+      "name": "MenuBar Stats",
+      "version": "3.9",
+      "sha256": "9f0782b0e3ea97b182488c55cd6c2c0f99f28f8223e46394778ec4a136cf1777",
+      "cdhash": "24b24febf11792de9f6400e92b7100e74647825d",
+      "signingId": "3EYN7PPTPF:com.fabriceleyne.menubarstats",
+      "teamId": "3EYN7PPTPF",
+      "lastUpdated": "2026-06-11T23:36:30Z"
+    },
+    {
+      "slug": "menubarx/darwin",
+      "name": "MenubarX",
+      "version": "1.7.6",
+      "sha256": "2e237a0b96cd0bc963e4b1ad523fae74c1b05ed63ebc1f6e162c3df24aecbaa3",
+      "cdhash": "590bff7fc53b598bfe95452192fbf502a43c3cb8",
+      "signingId": "UAEM649DN3:com.app.menubarx",
+      "teamId": "UAEM649DN3",
+      "lastUpdated": "2026-06-11T23:36:53Z"
+    },
+    {
+      "slug": "merlin-project/darwin",
+      "name": "Merlin Project",
+      "version": "9.1.2",
+      "sha256": "72b0060e1b6cca7182099c4522e6134d23f2f02bd38cd8bdb9575255fdb41e50",
+      "cdhash": "1b93ceae9d7ee235afbb0aea6143f63d24366d4f",
+      "signingId": "9R6P9VZV27:net.projectwizards.merlinproject",
+      "teamId": "9R6P9VZV27",
+      "lastUpdated": "2026-06-11T23:37:19Z"
+    },
+    {
       "slug": "microsoft-365-copilot/darwin",
       "name": "Microsoft 365 Copilot",
       "version": "1.2606.0101",
@@ -5581,6 +5611,16 @@
       "signingId": "UBF8T346G9:com.microsoft.edgemac",
       "teamId": "UBF8T346G9",
       "lastUpdated": "2026-04-18T13:37:45Z"
+    },
+    {
+      "slug": "microsoft-azure-storage-explorer/darwin",
+      "name": "Microsoft Azure Storage Explorer",
+      "version": "1.43.0",
+      "sha256": "3001db47d2ba7e9be785917bb1e2a99c94ce7cfa4d78aeaaf4c98140ca931046",
+      "cdhash": "54136fa723cfdedd2768c607da8f9b5b5e1e4a02",
+      "signingId": "UBF8T346G9:com.microsoft.StorageExplorer",
+      "teamId": "UBF8T346G9",
+      "lastUpdated": "2026-06-11T23:37:52Z"
     },
     {
       "slug": "microsoft-dotnet-runtime-10/windows",
@@ -5733,6 +5773,66 @@
       "signingId": "UBF8T346G9:com.microsoft.Word",
       "teamId": "UBF8T346G9",
       "lastUpdated": "2026-06-03T03:33:01Z"
+    },
+    {
+      "slug": "middle/darwin",
+      "name": "Middle",
+      "version": "1.14",
+      "sha256": "2cbf342f6742c39be14551da94cf108435a7311b1df226a3aaa789d6a4428ced",
+      "cdhash": "7fea6bee4315801141768c115c92d929f0ff530e",
+      "signingId": "XSYZ3E4B7D:com.knollsoft.Middle",
+      "teamId": "XSYZ3E4B7D",
+      "lastUpdated": "2026-06-11T23:38:14Z"
+    },
+    {
+      "slug": "middleclick/darwin",
+      "name": "MiddleClick",
+      "version": "3.2.0",
+      "sha256": "3d776b77cbc7b2743608417b35efe616bff6b46a2e3372f1f8f7c81ca37ee9ce",
+      "cdhash": "fc02d8d87e390e3be03b1e781183785771fb2571",
+      "signingId": "R2294BC6J8:art.ginzburg.MiddleClick",
+      "teamId": "R2294BC6J8",
+      "lastUpdated": "2026-06-11T23:38:34Z"
+    },
+    {
+      "slug": "milanote/darwin",
+      "name": "Milanote",
+      "version": "3.18.107",
+      "sha256": "e8d77ee5189bf0c090696e35e67b337c7920533200c85cc737ea88987ddb2e40",
+      "cdhash": "a1acd5e9747120427810b9f9ac17b6693b11d255",
+      "signingId": "9T9DP69Z4A:com.milanote.app",
+      "teamId": "9T9DP69Z4A",
+      "lastUpdated": "2026-06-11T23:39:11Z"
+    },
+    {
+      "slug": "mimecast/darwin",
+      "name": "Mimecast for Mac",
+      "version": "2.11",
+      "sha256": "4fa165c99b83f9d6cf79840f3590deccf3ed78ce758ef4e76e5b556dd419a59f",
+      "cdhash": "0dceceb670e9701c7786555fb9e15205f5600335",
+      "signingId": "7NM7G573E4:com.mimecast.Mimecast-Mail",
+      "teamId": "7NM7G573E4",
+      "lastUpdated": "2026-06-11T23:39:33Z"
+    },
+    {
+      "slug": "mimestream/darwin",
+      "name": "Mimestream",
+      "version": "1.10.1",
+      "sha256": "593a829ea205f3a3d31768c7023193278c98ac740c2cda0e6cffa05394ef59e8",
+      "cdhash": "386b525899747703967f853dd194b0c4865a3733",
+      "signingId": "P2759L65T8:com.mimestream.Mimestream",
+      "teamId": "P2759L65T8",
+      "lastUpdated": "2026-06-11T23:39:54Z"
+    },
+    {
+      "slug": "mindmac/darwin",
+      "name": "MindMac",
+      "version": "1.9.28",
+      "sha256": "25d0a53ace31439b0ffdfc7bd5a11de86d342a03fa5ca09a8f0c487f55793482",
+      "cdhash": "dd291a4e0ac1dbca68d5a04704c7825324a1d305",
+      "signingId": "KRMVUJ3G59:app.mindmac.macos",
+      "teamId": "KRMVUJ3G59",
+      "lastUpdated": "2026-06-11T23:40:16Z"
     },
     {
       "slug": "mindmanager/darwin",
