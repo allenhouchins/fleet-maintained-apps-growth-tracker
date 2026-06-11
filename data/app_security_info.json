@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T16:22:35Z",
+  "lastUpdated": "2026-06-11T16:28:01Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -3530,12 +3530,12 @@
     {
       "slug": "hive-app/darwin",
       "name": "Hive",
-      "version": "1.1.25",
-      "sha256": "8777c168a22de379ca17bb7901304269c9757c804bd898f7c2e3fa257a853a43",
-      "cdhash": "aa222ff0b8b7d0c70e7563e4808b2c9104e6faa4",
+      "version": "1.1.27",
+      "sha256": "fb02b879adb0e212344104a4dae2a7e475348b932be0a7674452f37586cea616",
+      "cdhash": "6ee91bd19785e80621cc8c3098ea0cb71a190268",
       "signingId": "SQ65AQ9V2J:com.hive.app",
       "teamId": "SQ65AQ9V2J",
-      "lastUpdated": "2026-06-11T15:05:37Z"
+      "lastUpdated": "2026-06-11T16:23:05Z"
     },
     {
       "slug": "home-assistant/darwin",
@@ -4440,6 +4440,16 @@
       "thumbprint": "BFAB6EF922D0DDE848AE747B2AD58506E17D9ED1",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-06-10T17:58:26Z"
+    },
+    {
+      "slug": "logitune/darwin",
+      "name": "Logi Tune",
+      "version": "3.11.89",
+      "sha256": "ffca68442f8bcd96d3c42195759511fc517e0cb23e20f877ea8bac04292f6878",
+      "cdhash": "23f7d1d23e9cc36594ea2543082c1115b0b88217",
+      "signingId": "QED4VVPZWA:com.logitech.logitune",
+      "teamId": "QED4VVPZWA",
+      "lastUpdated": "2026-06-11T16:23:43Z"
     },
     {
       "slug": "loom/darwin",
@@ -5381,6 +5391,36 @@
       "lastUpdated": "2026-05-27T17:16:57Z"
     },
     {
+      "slug": "pacifist/darwin",
+      "name": "Pacifist",
+      "version": "4.1.4",
+      "sha256": "5bc75ff69a0772be484bd87a58cf462f989bb93780a6ef52eb2102a57637cf36",
+      "cdhash": "207000fa02cabb97f04f1cd2ec9f0c0371c84ea6",
+      "signingId": "HRLUCP7QP4:com.charlessoft.pacifist",
+      "teamId": "HRLUCP7QP4",
+      "lastUpdated": "2026-06-11T16:24:09Z"
+    },
+    {
+      "slug": "pale-moon/darwin",
+      "name": "Pale Moon",
+      "version": "34.3.0",
+      "sha256": "bedb58748e09d305cedcf43a6dd79b2ae4db04dec3e901f8cb0ae7bba0d3d04d",
+      "cdhash": "575f4da61a59d0d02c4f3c6029306099a6ab88df",
+      "signingId": "Q2CJ6Y7329:org.mozilla.pale moon",
+      "teamId": "Q2CJ6Y7329",
+      "lastUpdated": "2026-06-11T16:24:37Z"
+    },
+    {
+      "slug": "paletro/darwin",
+      "name": "Paletro",
+      "version": "1.11.0",
+      "sha256": "32a5323a559f289ea018740d1002ae0c9300e75958688ef43cfe7f048ce84049",
+      "cdhash": "03dfb7e1f5cf31b861dd0dfb03f9a53faf227d7b",
+      "signingId": "9HWK5273G4:io.appmakes.Paletro",
+      "teamId": "9HWK5273G4",
+      "lastUpdated": "2026-06-11T16:25:01Z"
+    },
+    {
       "slug": "parallels/darwin",
       "name": "Parallels Desktop",
       "version": "26.3.3",
@@ -5389,6 +5429,46 @@
       "signingId": "4C6364ACXT:com.parallels.desktop.console",
       "teamId": "4C6364ACXT",
       "lastUpdated": "2026-05-28T21:51:06Z"
+    },
+    {
+      "slug": "pastebot/darwin",
+      "name": "Pastebot",
+      "version": "2.4.6",
+      "sha256": "db2a745264789d3a996b6ac0bdb6864e357e761b1e224c03194dd8deae396595",
+      "cdhash": "87f96f52412cd5a7ce23f0139bf3344da34f9633",
+      "signingId": "9JTH7AWHE6:com.tapbots.Pastebot2Mac",
+      "teamId": "9JTH7AWHE6",
+      "lastUpdated": "2026-06-11T16:25:22Z"
+    },
+    {
+      "slug": "pcoipclient/darwin",
+      "name": "Teradici PCoIP Software Client for macOS",
+      "version": "26.01.2",
+      "sha256": "e67117e29e800a6aeaa0d4c57eaddb255bcce2fa005f5b2b641202f66bb67e98",
+      "cdhash": "1df251f415a6dffa3bfe76055c80dcaffdb47d8a",
+      "signingId": "RU4LW7W32C:com.teradici.pcoipclient",
+      "teamId": "RU4LW7W32C",
+      "lastUpdated": "2026-06-11T16:25:46Z"
+    },
+    {
+      "slug": "pdf-expert/darwin",
+      "name": "PDF Expert",
+      "version": "3.11.3",
+      "sha256": "700db66adf709de3e4a0c345f7a1ddacf41f9c338c2d140c42009de1e156c528",
+      "cdhash": "4693d2e4c94f4e59dd137f29a3893ce45861cf9f",
+      "signingId": "3L68KQB4HG:com.readdle.PDFExpert-Mac",
+      "teamId": "3L68KQB4HG",
+      "lastUpdated": "2026-06-11T16:27:36Z"
+    },
+    {
+      "slug": "pdf-pals/darwin",
+      "name": "PDF Pals",
+      "version": "1.9.0",
+      "sha256": "24f4211bbb8f70978c04667fe232dc602b13776cdd7b3f00f9915ff0f77a23e8",
+      "cdhash": "b7b6e2f2ebb0c71ea56b4186cb8221a9f35ee4e7",
+      "signingId": "6D5N473QP3:co.podzim.PDFPals",
+      "teamId": "6D5N473QP3",
+      "lastUpdated": "2026-06-11T16:27:59Z"
     },
     {
       "slug": "pgadmin4/darwin",
