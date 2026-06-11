@@ -1,285 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-05-28T03:16:59Z",
-      "appName": "Zen Browser",
-      "slug": "zen/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.20b",
-      "newVersion": "1.20.1b",
-      "installerUrl": "https://github.com/zen-browser/desktop/releases/download/1.20.1b/zen.macos-universal.dmg"
-    },
-    {
-      "date": "2026-05-28T03:16:59Z",
-      "appName": "Dropbox",
-      "slug": "dropbox/darwin",
-      "platform": "darwin",
-      "oldVersion": "252.4.3485",
-      "newVersion": "254.4.2518",
-      "installerUrl": "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20254.4.2518.arm64.dmg"
-    },
-    {
-      "date": "2026-05-28T03:16:59Z",
-      "appName": "AWS Client VPN",
-      "slug": "aws-vpn-client/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "5.3.4",
-      "installerUrl": "https://d20adtppz83p9s.cloudfront.net/WPF/5.3.4/AWS_VPN_Client.msi"
-    },
-    {
-      "date": "2026-05-28T03:16:59Z",
-      "appName": "Krita",
-      "slug": "krita/windows",
-      "platform": "windows",
-      "oldVersion": "5.3.1.100",
-      "newVersion": "5.3.2.0",
-      "installerUrl": "https://download.kde.org/stable/krita/5.3.2/krita-x64-5.3.2-setup.exe"
-    },
-    {
-      "date": "2026-05-28T03:16:59Z",
-      "appName": "Zed",
-      "slug": "zed/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.3.7",
-      "newVersion": "1.4.2",
-      "installerUrl": "https://zed.dev/api/releases/stable/1.4.2/Zed-aarch64.dmg"
-    },
-    {
-      "date": "2026-05-28T03:16:59Z",
-      "appName": "WinSCP",
-      "slug": "winscp/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "6.5.6",
-      "installerUrl": "https://sourceforge.net/projects/winscp/files/WinSCP/6.5.6/WinSCP-6.5.6-Setup.exe/download"
-    },
-    {
-      "date": "2026-05-28T17:22:24Z",
-      "appName": "OpenVPN Connect",
-      "slug": "openvpn-connect/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "3.8.0",
-      "installerUrl": "https://packages.openvpn.net/connect/v3/openvpn-connect-3.8.0.4528_signed.msi"
-    },
-    {
-      "date": "2026-05-28T17:22:24Z",
-      "appName": "RubyMine",
-      "slug": "rubymine/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "2026.1.2",
-      "installerUrl": "https://download.jetbrains.com/ruby/RubyMine-2026.1.2.exe"
-    },
-    {
-      "date": "2026-05-28T17:22:24Z",
-      "appName": "Snagit",
-      "slug": "snagit/darwin",
-      "platform": "darwin",
-      "oldVersion": "2026.1.0",
-      "newVersion": "2026.2.0",
-      "installerUrl": "https://download.techsmith.com/snagitmac/releases/2026.2.0/snagit.dmg"
-    },
-    {
-      "date": "2026-05-28T17:22:24Z",
-      "appName": "PlugData",
-      "slug": "plugdata/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "0.9.3",
-      "installerUrl": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-macOS-Universal.pkg"
-    },
-    {
-      "date": "2026-05-28T17:22:24Z",
-      "appName": "JetBrains Toolbox",
-      "slug": "jetbrains-toolbox/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "3.4.3.0",
-      "installerUrl": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-3.4.3.81140.exe"
-    },
-    {
-      "date": "2026-05-28T17:22:24Z",
-      "appName": "GoLand",
-      "slug": "goland/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "2026.1.2",
-      "installerUrl": "https://download.jetbrains.com/go/goland-2026.1.2.exe"
-    },
-    {
-      "date": "2026-05-28T17:22:24Z",
-      "appName": "RustRover",
-      "slug": "rustrover/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "2026.1.2",
-      "installerUrl": "https://download.jetbrains.com/rustrover/RustRover-2026.1.2.exe"
-    },
-    {
-      "date": "2026-05-28T17:22:24Z",
-      "appName": "calibre",
-      "slug": "calibre/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "9.9.0",
-      "installerUrl": "https://download.calibre-ebook.com/9.9.0/calibre-64bit-9.9.0.msi"
-    },
-    {
-      "date": "2026-05-28T17:22:24Z",
-      "appName": "NordPass",
-      "slug": "nordpass/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "7.7.12",
-      "installerUrl": "https://downloads.npass.app/windows/NordPassSetup.exe"
-    },
-    {
-      "date": "2026-05-28T17:22:24Z",
-      "appName": "CLion",
-      "slug": "clion/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "2026.1.2",
-      "installerUrl": "https://download.jetbrains.com/cpp/CLion-2026.1.2.exe"
-    },
-    {
-      "date": "2026-05-28T17:22:24Z",
-      "appName": "MySQL Workbench",
-      "slug": "mysqlworkbench/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "8.0.47",
-      "installerUrl": "https://cdn.mysql.com/Downloads/MySQLGUITools/mysql-workbench-community-8.0.47-winx64.msi"
-    },
-    {
-      "date": "2026-05-28T17:22:24Z",
-      "appName": "DataGrip",
-      "slug": "datagrip/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "2026.1.3",
-      "installerUrl": "https://download.jetbrains.com/datagrip/datagrip-2026.1.3.exe"
-    },
-    {
-      "date": "2026-05-28T17:22:24Z",
-      "appName": "Signal",
-      "slug": "signal/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "8.12.0",
-      "installerUrl": "https://updates.signal.org/desktop/signal-desktop-win-8.12.0.exe"
-    },
-    {
-      "date": "2026-05-28T17:22:24Z",
-      "appName": "Google Chrome",
-      "slug": "google-chrome/darwin",
-      "platform": "darwin",
-      "oldVersion": "148.0.7778.179",
-      "newVersion": "148.0.7778.216",
-      "installerUrl": "https://dl.google.com/dl/chrome/mac/universal/stable/gcem/GoogleChrome.pkg"
-    },
-    {
-      "date": "2026-05-28T17:22:24Z",
-      "appName": "PyCharm Community Edition",
-      "slug": "pycharm-ce/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "2025.2.6.1",
-      "installerUrl": "https://download.jetbrains.com/python/pycharm-community-2025.2.6.1.exe"
-    },
-    {
-      "date": "2026-05-28T17:22:24Z",
-      "appName": "Tower",
-      "slug": "tower/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "12.1.557",
-      "installerUrl": "https://www.git-tower.com/apps/tower3-win/557-ca9adea2/Tower-12.1.557.msi"
-    },
-    {
-      "date": "2026-05-28T17:22:24Z",
-      "appName": "PyCharm Professional",
-      "slug": "pycharm/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "2024.3.5",
-      "installerUrl": "https://download.jetbrains.com/python/pycharm-professional-2024.3.5.exe"
-    },
-    {
-      "date": "2026-05-28T17:22:24Z",
-      "appName": "Lens",
-      "slug": "lens/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "2026.5.250609-latest",
-      "installerUrl": "https://downloads.k8slens.dev/ide/Lens%20Setup%202026.5.250609-latest.exe"
-    },
-    {
-      "date": "2026-05-28T17:22:24Z",
-      "appName": "Snagit",
-      "slug": "snagit/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "26.2.1",
-      "installerUrl": "https://download.techsmith.com/snagit/releases/2621/snagit.msi"
-    },
-    {
-      "date": "2026-05-28T17:22:24Z",
-      "appName": "pgAdmin 4",
-      "slug": "pgadmin4/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "9.15",
-      "installerUrl": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.15/windows/pgadmin4-9.15-x64.exe"
-    },
-    {
-      "date": "2026-05-28T17:22:24Z",
-      "appName": "DBeaver",
-      "slug": "dbeaver-community/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "26.0.5",
-      "installerUrl": "https://github.com/dbeaver/dbeaver/releases/download/26.0.5/dbeaver-ce-26.0.5-windows-x86_64.exe"
-    },
-    {
-      "date": "2026-05-28T17:22:24Z",
-      "appName": "Miro",
-      "slug": "miro/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "0.11.140",
-      "installerUrl": "https://desktop.miro.com/platforms/win32-nsis-pu/Miro-setup.exe"
-    },
-    {
-      "date": "2026-05-28T17:22:24Z",
-      "appName": "calibre",
-      "slug": "calibre/darwin",
-      "platform": "darwin",
-      "oldVersion": "9.8.0",
-      "newVersion": "9.9.0",
-      "installerUrl": "https://download.calibre-ebook.com/9.9.0/calibre-9.9.0.dmg"
-    },
-    {
-      "date": "2026-05-28T17:22:24Z",
-      "appName": "Insomnia",
-      "slug": "insomnia/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "12.6.0",
-      "installerUrl": "https://github.com/Kong/insomnia/releases/download/core@12.6.0/Insomnia.Core-12.6.0.exe"
-    },
-    {
-      "date": "2026-05-28T17:22:24Z",
-      "appName": "WebStorm",
-      "slug": "webstorm/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "2026.1.2",
-      "installerUrl": "https://download.jetbrains.com/webstorm/WebStorm-2026.1.2.exe"
-    },
-    {
       "date": "2026-05-28T17:22:24Z",
       "appName": "Loom",
       "slug": "loom/windows",
@@ -8999,6 +8720,285 @@
       "oldVersion": "",
       "newVersion": "1.7.5",
       "installerUrl": "https://macplus-software.com/downloads/DockViewStandard.zip"
+    },
+    {
+      "date": "2026-06-11T21:45:44Z",
+      "appName": "Fission",
+      "slug": "fission/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "2.9.4",
+      "installerUrl": "https://cdn.rogueamoeba.com/fission/download/Fission.zip"
+    },
+    {
+      "date": "2026-06-11T21:45:44Z",
+      "appName": "Fastmail",
+      "slug": "fastmail/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "1.2.1",
+      "installerUrl": "https://dl.fastmailcdn.com/desktop/production/mac/arm64/Fastmail-1.2.1-arm64-mac.zip"
+    },
+    {
+      "date": "2026-06-11T21:45:44Z",
+      "appName": "Forecast",
+      "slug": "forecast/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "0.9.6",
+      "installerUrl": "https://d2uzvmey2c90kn.cloudfront.net/appcast_download/Forecast_0.9.6_139.zip"
+    },
+    {
+      "date": "2026-06-11T21:45:44Z",
+      "appName": "FreeFileSync",
+      "slug": "freefilesync/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "14.9",
+      "installerUrl": "https://freefilesync.org/download/FreeFileSync_14.9_macOS.zip"
+    },
+    {
+      "date": "2026-06-11T21:45:44Z",
+      "appName": "Franz",
+      "slug": "franz/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "5.11.0",
+      "installerUrl": "https://github.com/meetfranz/franz/releases/download/v5.11.0/franz-5.11.0-arm64.dmg"
+    },
+    {
+      "date": "2026-06-11T21:45:44Z",
+      "appName": "fig",
+      "slug": "fig/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "2.19.0",
+      "installerUrl": "https://repo.fig.io/generic/stable/asset/2.19.0/universal/fig.dmg"
+    },
+    {
+      "date": "2026-06-11T21:45:44Z",
+      "appName": "FLEXOPTIX App",
+      "slug": "flexoptix/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "5.64.0-latest",
+      "installerUrl": "https://flexbox.reconfigure.me/download/electron/mac/arm64/FLEXOPTIX%20App-5.64.0-latest-arm64.dmg"
+    },
+    {
+      "date": "2026-06-11T21:45:44Z",
+      "appName": "Fantastical",
+      "slug": "fantastical/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "4.1.13",
+      "installerUrl": "https://cdn.flexibits.com/Fantastical_4.1.13.zip"
+    },
+    {
+      "date": "2026-06-11T21:45:44Z",
+      "appName": "Fire Alpaca",
+      "slug": "firealpaca/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "2.15.2",
+      "installerUrl": "https://firealpaca.com/download/mac"
+    },
+    {
+      "date": "2026-06-11T21:45:44Z",
+      "appName": "FSMonitor",
+      "slug": "fsmonitor/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "2.0",
+      "installerUrl": "https://tristan-software.ch/FSMonitor/Archives/FSMonitor_2.0(158).zip"
+    },
+    {
+      "date": "2026-06-11T21:45:44Z",
+      "appName": "Farrago",
+      "slug": "farrago/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "2.1.5",
+      "installerUrl": "https://cdn.rogueamoeba.com/farrago/download/Farrago.zip"
+    },
+    {
+      "date": "2026-06-11T21:45:44Z",
+      "appName": "Ferdium",
+      "slug": "ferdium/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "7.1.2",
+      "installerUrl": "https://github.com/ferdium/ferdium-app/releases/download/v7.1.2/Ferdium-mac-7.1.2-arm64.dmg"
+    },
+    {
+      "date": "2026-06-11T21:45:44Z",
+      "appName": "Firefly",
+      "slug": "firefly-iota-desktop/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "2.1.2",
+      "installerUrl": "https://dl.firefly.iota.org/firefly-iota-desktop-2.1.2.dmg"
+    },
+    {
+      "date": "2026-06-11T21:45:44Z",
+      "appName": "FontBase",
+      "slug": "fontbase/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "2026.5.17",
+      "installerUrl": "https://releases.fontba.se/mac/FontBase-2026.5.17.dmg"
+    },
+    {
+      "date": "2026-06-11T21:45:44Z",
+      "appName": "ForkLift",
+      "slug": "forklift/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "4.6.3",
+      "installerUrl": "https://download.binarynights.com/ForkLift/ForkLift4.6.3.zip"
+    },
+    {
+      "date": "2026-06-11T21:45:44Z",
+      "appName": "FastScripts",
+      "slug": "fastscripts/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "3.3.8",
+      "installerUrl": "https://redsweater.com/fastscripts/FastScripts3.3.8.zip"
+    },
+    {
+      "date": "2026-06-11T21:45:44Z",
+      "appName": "Focusrite Control 2",
+      "slug": "focusrite-control-2/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "1.1014.0.0",
+      "installerUrl": "https://releases.focusrite.com/com.focusrite.focusrite-control/release/Focusrite-Control-2-1.1014.0.0.dmg"
+    },
+    {
+      "date": "2026-06-11T21:45:44Z",
+      "appName": "Fontlab",
+      "slug": "fontlab/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "8.4.2.8950",
+      "installerUrl": "https://fontlab.s3.amazonaws.com/fontlab-8/8950/FontLab-8-Mac-Install-8950.dmg"
+    },
+    {
+      "date": "2026-06-11T21:45:44Z",
+      "appName": "Free Download Manager",
+      "slug": "free-download-manager/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "6.34.1",
+      "installerUrl": "https://files2.freedownloadmanager.org/6/latest/fdm.dmg"
+    },
+    {
+      "date": "2026-06-11T21:45:44Z",
+      "appName": "File Juicer",
+      "slug": "file-juicer/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "4.115",
+      "installerUrl": "https://echoone.com/filejuicer/FileJuicer-4.115.zip"
+    },
+    {
+      "date": "2026-06-11T21:45:44Z",
+      "appName": "Folx",
+      "slug": "folx/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "5.34",
+      "installerUrl": "https://cdn.electronic.us/products/folx/mac/download/downloader_mac.dmg"
+    },
+    {
+      "date": "2026-06-11T21:45:44Z",
+      "appName": "Framer",
+      "slug": "framer/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "2026.12.6",
+      "installerUrl": "https://updates.framer.com/electron/darwin/arm64/Framer-2026.12.6.zip"
+    },
+    {
+      "date": "2026-06-11T21:45:44Z",
+      "appName": "Fellow",
+      "slug": "fellow/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "5.3.3",
+      "installerUrl": "https://cdn.fellow.app/desktop/5.3.3/darwin/stable/universal/Fellow-5.3.3-universal.dmg"
+    },
+    {
+      "date": "2026-06-11T21:45:44Z",
+      "appName": "Fing Desktop",
+      "slug": "fing/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "3.10.1",
+      "installerUrl": "https://get.fing.com/fing-desktop-releases/mac/Fing-3.10.1.dmg"
+    },
+    {
+      "date": "2026-06-11T21:45:44Z",
+      "appName": "Filen",
+      "slug": "filen/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "3.0.47",
+      "installerUrl": "https://cdn.filen.io/@filen/desktop/release/v3.0.47/Filen_mac_arm64.dmg"
+    },
+    {
+      "date": "2026-06-11T21:45:44Z",
+      "appName": "Fetch",
+      "slug": "fetch-app/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "5.8.3",
+      "installerUrl": "https://fetchsoftworks.com/fetch/download/Fetch_5.8.3.zip"
+    },
+    {
+      "date": "2026-06-11T21:45:44Z",
+      "appName": "Funter",
+      "slug": "funter/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "7.1.1",
+      "installerUrl": "https://download.nektony.com/download/funter/Funter.dmg?build=374"
+    },
+    {
+      "date": "2026-06-11T21:45:44Z",
+      "appName": "Fluid",
+      "slug": "fluid/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "2.1.2",
+      "installerUrl": "https://fluidapp.com/dist/Fluid_2.1.2.zip"
+    },
+    {
+      "date": "2026-06-11T21:45:44Z",
+      "appName": "Firefly Shimmer",
+      "slug": "firefly-shimmer/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "2.2.2",
+      "installerUrl": "https://github.com/iotaledger/firefly/releases/download/desktop-shimmer-2.2.2/firefly-shimmer-desktop-2.2.2.dmg"
+    },
+    {
+      "date": "2026-06-11T21:45:44Z",
+      "appName": "far2l",
+      "slug": "far2l/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "2.8.0",
+      "installerUrl": "https://github.com/elfmz/far2l/releases/download/v_2.8.0/far2l-2.8.0-beta-MacOS-11.2-universal.dmg"
+    },
+    {
+      "date": "2026-06-11T21:45:44Z",
+      "appName": "f.lux",
+      "slug": "flux-app/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "42.2",
+      "installerUrl": "https://justgetflux.com/mac/Flux42.2.zip"
     }
   ]
 }
