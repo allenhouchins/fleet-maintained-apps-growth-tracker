@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T23:19:51Z",
+  "lastUpdated": "2026-06-11T23:23:47Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -5228,6 +5228,16 @@
       "lastUpdated": "2026-05-04T03:15:39Z"
     },
     {
+      "slug": "mac-mouse-fix/darwin",
+      "name": "Mac Mouse Fix",
+      "version": "3.0.8",
+      "sha256": "6eeccc5cc861681193557cb0e90b4afa62ca715b53efc6a0f8f43ebe8506a74d",
+      "cdhash": "25a96f030ebcb25698e2baed73d31986f1e0ba4e",
+      "signingId": "LM5Z78756B:com.nuebling.mac-mouse-fix",
+      "teamId": "LM5Z78756B",
+      "lastUpdated": "2026-06-11T23:20:12Z"
+    },
+    {
       "slug": "maccy/darwin",
       "name": "Maccy",
       "version": "2.6.1",
@@ -5236,6 +5246,93 @@
       "signingId": "MN3X4648SC:org.p0deje.Maccy",
       "teamId": "MN3X4648SC",
       "lastUpdated": "2025-12-20T07:25:52Z"
+    },
+    {
+      "slug": "macdown/darwin",
+      "name": "MacDown",
+      "version": "0.7.2",
+      "sha256": "db277c7f2212be1f3499df4ecc987d90ebbf1fc900cffae34debb6fa42fa4705",
+      "lastUpdated": "2026-06-11T23:20:33Z"
+    },
+    {
+      "slug": "mace/darwin",
+      "name": "MACE",
+      "version": "0.2.1-beta",
+      "sha256": "0301f65f3662d4ba50bd6b2fc2058d4e4b3e048ae95ccc1273359110ef090dd4",
+      "cdhash": "d74cee96dc19c77e449a774619c39ea20cf5a289",
+      "signingId": "7U624389H9:com.mace.app",
+      "teamId": "7U624389H9",
+      "lastUpdated": "2026-06-11T23:20:57Z"
+    },
+    {
+      "slug": "macjournal/darwin",
+      "name": "MacJournal",
+      "version": "7.4",
+      "sha256": "7785dbe374dfafc9f1e16e93e84ad69734e4e21c9365d59acb7301ba27a2ab3a",
+      "cdhash": "a2766c42f2f5857468b1e1502af083b785d16083",
+      "signingId": "6452TM43S2:com.DanSchimpf.MacJournal",
+      "teamId": "6452TM43S2",
+      "lastUpdated": "2026-06-11T23:21:19Z"
+    },
+    {
+      "slug": "macpacker/darwin",
+      "name": "MacPacker",
+      "version": "0.15.1",
+      "sha256": "e63bb21002fb0f52864501c461ee73bc013dfb661ed8e11977f2fc6880bbe087",
+      "cdhash": "406463aafeae3989b653ec86cebd598e941ca34f",
+      "signingId": "ZJ2TSMMJWF:com.sarensx.MacPacker",
+      "teamId": "ZJ2TSMMJWF",
+      "lastUpdated": "2026-06-11T23:21:41Z"
+    },
+    {
+      "slug": "macpass/darwin",
+      "name": "MacPass",
+      "version": "0.8.1",
+      "sha256": "4931f2bdd47e87b5374d2abc155917fb77a7b7b2bb756da2f811c2a6e6f72aac",
+      "cdhash": "3052b13b30936cee51e3602bdea6a4100c2e5139",
+      "signingId": "55SM4L4Z97:com.hicknhacksoftware.MacPass",
+      "teamId": "55SM4L4Z97",
+      "lastUpdated": "2026-06-11T23:22:02Z"
+    },
+    {
+      "slug": "macpilot/darwin",
+      "name": "MacPilot",
+      "version": "17.5",
+      "sha256": "20c55fed6e018a6996f722596e6fc7e78fd86f80cd616d618cf36365481eb321",
+      "cdhash": "44f50bef37294f62a0871c93d676bb1e49451e23",
+      "signingId": "CH23HELMP2:com.koingosw.MacPilot",
+      "teamId": "CH23HELMP2",
+      "lastUpdated": "2026-06-11T23:22:26Z"
+    },
+    {
+      "slug": "macs-fan-control/darwin",
+      "name": "Macs Fan Control",
+      "version": "1.5.21",
+      "sha256": "65146b1964ae6f5a37f87c00ea9bd3b1d9a51265f72f022fbb0c3458487da8b3",
+      "cdhash": "128c31d5c833bc65193623556bef8f879330b627",
+      "signingId": "ACC5R6RH47:com.crystalidea.macsfancontrol",
+      "teamId": "ACC5R6RH47",
+      "lastUpdated": "2026-06-11T23:22:47Z"
+    },
+    {
+      "slug": "macsyzones/darwin",
+      "name": "MacsyZones",
+      "version": "3.0.4",
+      "sha256": "11f516a9b29303adf023b2dcf743fb0bb8656fdaee0c224a9c30aec2d141388c",
+      "cdhash": "35683d971436f8ccf5a6c955974e94d4c3b6387f",
+      "signingId": "59CP56H446:MeowingCat.MacsyZones",
+      "teamId": "59CP56H446",
+      "lastUpdated": "2026-06-11T23:23:08Z"
+    },
+    {
+      "slug": "mactracker/darwin",
+      "name": "Mactracker",
+      "version": "8.2.3",
+      "sha256": "60ee8ed7e40698d76dd73ce3f90c777c142cb8c98458926ec6d7bdb12ae4874c",
+      "cdhash": "14420a28ed56908dabdd139b6ba8641cc2b63a20",
+      "signingId": "63TP32R3AB:com.mactrackerapp.Mactracker",
+      "teamId": "63TP32R3AB",
+      "lastUpdated": "2026-06-11T23:23:45Z"
     },
     {
       "slug": "marvel/darwin",
