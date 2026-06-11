@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T19:11:59Z",
+  "lastUpdated": "2026-06-11T19:16:24Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -2176,6 +2176,34 @@
       "lastUpdated": "2026-06-11T19:11:57Z"
     },
     {
+      "slug": "dangerzone/darwin",
+      "name": "Dangerzone",
+      "version": "0.10.0",
+      "sha256": "0565f6bc3e9c872d036367352bf9498524dd75492c33a9214857ac0d4d0ab7bd",
+      "cdhash": "872b7b9e84cdade178a9a005ca9c51f8c30502fc",
+      "signingId": "94ZZGGGJ3W:press.freedom.dangerzone",
+      "teamId": "94ZZGGGJ3W",
+      "lastUpdated": "2026-06-11T19:12:47Z"
+    },
+    {
+      "slug": "darkmodebuddy/darwin",
+      "name": "DarkModeBuddy",
+      "version": "1.2",
+      "sha256": "38a178d576f3bcfd464f8084912d4d86feb2c55621c45c924dcec7119095f48a",
+      "cdhash": "a171a343261b20471c6d90dc2b3e093a959090fe",
+      "signingId": "8C7439RJLG:codes.rambo.DarkModeBuddy",
+      "teamId": "8C7439RJLG",
+      "lastUpdated": "2026-06-11T19:13:08Z"
+    },
+    {
+      "slug": "darktable/darwin",
+      "name": "darktable",
+      "version": "5.4.1",
+      "sha256": "be0ac2b5a689d9aeee52e407571e608c1b424e479c9a041a68818d24344cd8e9",
+      "cdhash": "34aef820df49c4bc6e492ad5d0bcb98bd627fe41",
+      "lastUpdated": "2026-06-11T19:13:33Z"
+    },
+    {
       "slug": "dash/darwin",
       "name": "Dash",
       "version": "8.1.1",
@@ -2183,6 +2211,16 @@
       "signingId": "JP58VMK957:com.kapeli.dashdoc",
       "teamId": "JP58VMK957",
       "lastUpdated": "2026-01-21T23:12:12Z"
+    },
+    {
+      "slug": "dataflare/darwin",
+      "name": "Dataflare",
+      "version": "3.1.1",
+      "sha256": "46680b7afa4fb962a60583ddb768653ddb2e14b0f2bff76d29153353278425d4",
+      "cdhash": "6503e693260dc4ac60f7595afb3410596c31aaad",
+      "signingId": "8Z4759S53G:app.dataflare.desktop",
+      "teamId": "8Z4759S53G",
+      "lastUpdated": "2026-06-11T19:13:54Z"
     },
     {
       "slug": "datagrip/darwin",
@@ -2205,6 +2243,26 @@
       "thumbprint": "8C1B506D0BD10A911D09FB7EDBCAB383F1CDAF20",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-05-28T17:26:13Z"
+    },
+    {
+      "slug": "dataspell/darwin",
+      "name": "DataSpell",
+      "version": "2026.1.2",
+      "sha256": "b330082f4030772063b4fb7cfc4d0f71236d5e27fd7b59a20e93b4eb2d419763",
+      "cdhash": "5d95827a1e8f84da516e89ca59791477469ff721",
+      "signingId": "2ZEFAR8TH3:com.jetbrains.dataspell",
+      "teamId": "2ZEFAR8TH3",
+      "lastUpdated": "2026-06-11T19:14:37Z"
+    },
+    {
+      "slug": "dayflow/darwin",
+      "name": "Dayflow",
+      "version": "1.14.0",
+      "sha256": "a69d1668d0bfec014bcbcb7f525d2bcb89f224554cad3520fdfe63ac1d4ac928",
+      "cdhash": "92afa66f48bf560c4b0080140e10bea29008b941",
+      "signingId": "L75WYD8X4Y:teleportlabs.com.Dayflow",
+      "teamId": "L75WYD8X4Y",
+      "lastUpdated": "2026-06-11T19:15:00Z"
     },
     {
       "slug": "db-browser-for-sqlite/darwin",
@@ -2317,6 +2375,26 @@
       "lastUpdated": "2026-06-09T20:12:26Z"
     },
     {
+      "slug": "dbgate/darwin",
+      "name": "DbGate",
+      "version": "7.2.0",
+      "sha256": "42e9a0a6d56d4d710968944c80b0b41f0ef757cbdfa04b16befdf25fdf392b8f",
+      "cdhash": "838ea8fe11402990f44213580728c35f518e9d80",
+      "signingId": "79WVL87KXQ:org.dbgate",
+      "teamId": "79WVL87KXQ",
+      "lastUpdated": "2026-06-11T19:15:25Z"
+    },
+    {
+      "slug": "dbvisualizer/darwin",
+      "name": "DbVisualizer",
+      "version": "26.1.2",
+      "sha256": "be9576c74d2a3527b525e93621c48ca7cd64cc0e8c11f219a8991a0393304126",
+      "cdhash": "f6b6b57d2d23ca89786058a5d6444b104bfebe4b",
+      "signingId": "U9TP5KYV49:com.dbvis.DbVisualizer",
+      "teamId": "U9TP5KYV49",
+      "lastUpdated": "2026-06-11T19:16:01Z"
+    },
+    {
       "slug": "dcv-viewer/darwin",
       "name": "Amazon DCV",
       "version": "2025.0.8846",
@@ -2325,6 +2403,16 @@
       "signingId": "94KV3E626L:com.nicesoftware.dcvviewer",
       "teamId": "94KV3E626L",
       "lastUpdated": "2025-12-20T06:29:49Z"
+    },
+    {
+      "slug": "debookee/darwin",
+      "name": "Debookee",
+      "version": "8.2.0",
+      "sha256": "a83cf661e4b561cbce1bd8720d61866925e1e043877835e0685803c10d4e535a",
+      "cdhash": "02c9cf232be798690f0356af5b6ffef5377db386",
+      "signingId": "AATLWWB4MZ:com.iwaxx.Debookee",
+      "teamId": "AATLWWB4MZ",
+      "lastUpdated": "2026-06-11T19:16:22Z"
     },
     {
       "slug": "deepl/darwin",
