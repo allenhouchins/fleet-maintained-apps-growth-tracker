@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T16:37:29Z",
+  "lastUpdated": "2026-06-11T16:44:40Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -5747,6 +5747,16 @@
       "lastUpdated": "2026-06-11T16:37:26Z"
     },
     {
+      "slug": "postgres-app/darwin",
+      "name": "Postgres",
+      "version": "2.9.5",
+      "sha256": "32a3bd8e8593a0538e4f9dd512db2bac771346abffb689137d39a208c18d4634",
+      "cdhash": "697e942a0330e9a31d64df736b109e31e5693504",
+      "signingId": "ZF84SJ5A3G:com.postgresapp.Postgres2",
+      "teamId": "ZF84SJ5A3G",
+      "lastUpdated": "2026-06-11T16:38:18Z"
+    },
+    {
       "slug": "postgresql-15/windows",
       "name": "PostgreSQL 15",
       "version": "15.18-1",
@@ -5793,6 +5803,16 @@
       "thumbprint": "7BEDD1269FCCF7A5D95F18274750B79893C06C70",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-06-07T23:38:25Z"
+    },
+    {
+      "slug": "postico/darwin",
+      "name": "Postico",
+      "version": "2.3.3",
+      "sha256": "8868505829dccf19a1f7f634ef4122c37da11a2fe230e0a63b97d9cbfdc24482",
+      "cdhash": "0fce4ecb6d675bcee011bf3cd3072c5aace43ab7",
+      "signingId": "ZF84SJ5A3G:at.eggerapps.Postico",
+      "teamId": "ZF84SJ5A3G",
+      "lastUpdated": "2026-06-11T16:38:42Z"
     },
     {
       "slug": "postman/darwin",
@@ -5851,6 +5871,16 @@
       "lastUpdated": "2026-06-07T03:19:45Z"
     },
     {
+      "slug": "powerphotos/darwin",
+      "name": "PowerPhotos",
+      "version": "3.3.5",
+      "sha256": "050b8e420bea396cf4c4b955ae769e04fbd6c6ce48e700f1f1fa6c6b5f3e0315",
+      "cdhash": "6d2763905973a8ba4c51f8edf37c5f0a4c276da7",
+      "signingId": "8NQ43ND65V:com.fatcatsoftware.PowerPhotos",
+      "teamId": "8NQ43ND65V",
+      "lastUpdated": "2026-06-11T16:40:10Z"
+    },
+    {
       "slug": "powershell/windows",
       "name": "PowerShell",
       "version": "7.6.2.0",
@@ -5883,6 +5913,36 @@
       "signingId": "483DWKW443:com.jamf.opensource.pppcutility",
       "teamId": "483DWKW443",
       "lastUpdated": "2026-06-11T05:53:22Z"
+    },
+    {
+      "slug": "preform/darwin",
+      "name": "PreForm",
+      "version": "3.48.0",
+      "sha256": "ea5ac740351b43b75fb73e71c394a56283f92dea778dffe8aab16ef7e0259bdf",
+      "cdhash": "f0b13c46e158da4902682b62d6fce68526f00e6e",
+      "signingId": "KVPE3R79SR:com.formlabs.PreForm",
+      "teamId": "KVPE3R79SR",
+      "lastUpdated": "2026-06-11T16:41:01Z"
+    },
+    {
+      "slug": "principle/darwin",
+      "name": "Principle",
+      "version": "6.42",
+      "sha256": "4685b2a7a899903fbc0eda46ce9e677dd8e797e96ab3933c2cb22c3d28c95135",
+      "cdhash": "16eda6481f5792893eeb721659be77baf1aa9016",
+      "signingId": "JWLPBZ6FYH:com.danielhooper.principle",
+      "teamId": "JWLPBZ6FYH",
+      "lastUpdated": "2026-06-11T16:41:23Z"
+    },
+    {
+      "slug": "prism/darwin",
+      "name": "GraphPad Prism",
+      "version": "11.0.2",
+      "sha256": "b572facaaa94757f8049683af86956d46176a7592aaebe8d1ec9360b2d5b9da7",
+      "cdhash": "026b2e83b4c37084c2f9689cb6a3de439772982f",
+      "signingId": "YQ2D36NS9M:com.GraphPad.Prism",
+      "teamId": "YQ2D36NS9M",
+      "lastUpdated": "2026-06-11T16:41:53Z"
     },
     {
       "slug": "prisma-browser/windows",
@@ -5927,6 +5987,46 @@
       "signingId": "7R5ZEU67FQ:corp.sap.privileges",
       "teamId": "7R5ZEU67FQ",
       "lastUpdated": "2026-05-15T15:48:32Z"
+    },
+    {
+      "slug": "prizmo/darwin",
+      "name": "Prizmo",
+      "version": "4.7.1",
+      "sha256": "ebacec4821468cc542fc82839a826067a730d206c9602c6b44f410f9314d8959",
+      "cdhash": "699cf1ac415b540eb1ccfddfea28d0a5da13b8e8",
+      "signingId": "62UF8HAVJA:com.creaceed.prizmo2",
+      "teamId": "62UF8HAVJA",
+      "lastUpdated": "2026-06-11T16:43:22Z"
+    },
+    {
+      "slug": "processing/darwin",
+      "name": "Processing",
+      "version": "4.5.2",
+      "sha256": "a34bcc5366435ffb58ce4e5db1c6d0f50157e074631d92dabc17fe3af0cc9c38",
+      "cdhash": "5b91a228079cddc7a31de602005593c6e4a6ec18",
+      "signingId": "6297K33652:org.processing.app",
+      "teamId": "6297K33652",
+      "lastUpdated": "2026-06-11T16:43:56Z"
+    },
+    {
+      "slug": "processspy/darwin",
+      "name": "ProcessSpy",
+      "version": "1.13.4",
+      "sha256": "206b9a263936c0e2f07a1021c658e7b97d1e32f251210715d23584ec354e554d",
+      "cdhash": "d83f717dc1a10e62a03c851adcb0dfb8bf2ed647",
+      "signingId": "CU2ZY4UU43:com.itone.ProcessSpy",
+      "teamId": "CU2ZY4UU43",
+      "lastUpdated": "2026-06-11T16:44:17Z"
+    },
+    {
+      "slug": "pronotes/darwin",
+      "name": "ProNotes",
+      "version": "0.7.8.2",
+      "sha256": "54265355634cc9e3239aea324fb7fa28502b83ba8f8210ffe046393b7f5a934c",
+      "cdhash": "f3771040b810e64f8f731670350aaf703db948f3",
+      "signingId": "LQ2VH8VB84:com.dexterleng.ProNotes",
+      "teamId": "LQ2VH8VB84",
+      "lastUpdated": "2026-06-11T16:44:38Z"
     },
     {
       "slug": "proton-mail/darwin",
