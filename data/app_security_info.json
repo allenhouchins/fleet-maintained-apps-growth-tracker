@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T16:31:42Z",
+  "lastUpdated": "2026-06-11T16:37:29Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -5615,6 +5615,16 @@
       "lastUpdated": "2026-06-11T16:31:40Z"
     },
     {
+      "slug": "pixelsnap/darwin",
+      "name": "PixelSnap",
+      "version": "2.6.3",
+      "sha256": "a2ce5db50dcb16bd9ecd3fb8d09d67e739b5d0744f1fe7ed40f603a18bfa2d3f",
+      "cdhash": "4d0bd5394101b6879244fc5474b0e59c97684fdd",
+      "signingId": "AFJU4P8ZV4:pl.maketheweb.pixelsnap2",
+      "teamId": "AFJU4P8ZV4",
+      "lastUpdated": "2026-06-11T16:32:03Z"
+    },
+    {
       "slug": "plantronics-hub/windows",
       "name": "Plantronics Hub",
       "version": "3.25.54307.37251",
@@ -5625,6 +5635,56 @@
       "thumbprint": "F9DF34021DECB155BD54CDE8FBC07823F41E8F27",
       "timestamp": "CN=DigiCert Timestamp 2023, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-06-04T15:23:49Z"
+    },
+    {
+      "slug": "platypus/darwin",
+      "name": "Platypus",
+      "version": "5.5.0",
+      "sha256": "c3aaa89cff0fa1b94e6479d97f68273b59b5976692090ac94afe09af22ac1c6c",
+      "cdhash": "f9345c15ec84e8baecfed5696ac8ab5e51dd67e4",
+      "signingId": "5WX26Y89JP:org.sveinbjorn.Platypus",
+      "teamId": "5WX26Y89JP",
+      "lastUpdated": "2026-06-11T16:33:58Z"
+    },
+    {
+      "slug": "plex-htpc/darwin",
+      "name": "Plex HTPC",
+      "version": "1.71.1.346",
+      "sha256": "94c3d0816fc988c0b597df9b1c5148796f0b7e791d5064b5f9c9008ffc00db09",
+      "cdhash": "64ad79f65576600664963728f955bdd2fde976f3",
+      "signingId": "K4QJ56KR4A:tv.plex.htpc",
+      "teamId": "K4QJ56KR4A",
+      "lastUpdated": "2026-06-11T16:34:29Z"
+    },
+    {
+      "slug": "plex-media-server/darwin",
+      "name": "Plex Media Server",
+      "version": "1.43.2.10687",
+      "sha256": "f02a8aee58d37d302fe680433aa83b6fba67c86a7534bf62e0924c711f5b1f63",
+      "cdhash": "973549778b7320315e2d302c99e2fe81678e56c3",
+      "signingId": "K4QJ56KR4A:com.plexapp.plexmediaserver",
+      "teamId": "K4QJ56KR4A",
+      "lastUpdated": "2026-06-11T16:34:55Z"
+    },
+    {
+      "slug": "plex/darwin",
+      "name": "Plex",
+      "version": "1.112.0.359",
+      "sha256": "d77f9f9474f908fbba1f259a09c6cdb42776f2be0b1f1a64fb69a17977271c22",
+      "cdhash": "e816803f606b62e97022904344e28a2ebc74d33a",
+      "signingId": "K4QJ56KR4A:tv.plex.desktop",
+      "teamId": "K4QJ56KR4A",
+      "lastUpdated": "2026-06-11T16:35:26Z"
+    },
+    {
+      "slug": "plistedit-pro/darwin",
+      "name": "PlistEdit Pro",
+      "version": "1.10.0",
+      "sha256": "b4ef8a4294d6de6f9243126717807f76720c20445fee39a35171d9a22f517554",
+      "cdhash": "e465a9106a44d10836d92765867463bd50865ab2",
+      "signingId": "8NQ43ND65V:com.fatcatsoftware.pledpro",
+      "teamId": "8NQ43ND65V",
+      "lastUpdated": "2026-06-11T16:35:47Z"
     },
     {
       "slug": "plugdata/darwin",
@@ -5645,6 +5705,46 @@
       "signingId": "HYSCB8KRL2:io.podmandesktop.PodmanDesktop",
       "teamId": "HYSCB8KRL2",
       "lastUpdated": "2026-05-22T03:21:27Z"
+    },
+    {
+      "slug": "popchar/darwin",
+      "name": "PopChar X",
+      "version": "10.5",
+      "sha256": "66135b9a393d35263bc55f6c6f79ccbf076d879a56f4d6976dc2c065246c92ed",
+      "cdhash": "e7695f660f2c1b30f91a4d3d4ffff7988ddd9e9b",
+      "signingId": "TU7D9Y7GTQ:com.macility.popchar3",
+      "teamId": "TU7D9Y7GTQ",
+      "lastUpdated": "2026-06-11T16:36:10Z"
+    },
+    {
+      "slug": "popclip/darwin",
+      "name": "PopClip",
+      "version": "2025.9.2",
+      "sha256": "76f57ac9090b2e8d86565b338375c51db5001bdd8e64a0765d03b1444422b7ab",
+      "cdhash": "1574408f6ecbc0028575a0721803530217f7df34",
+      "signingId": "6W6K75YWQ9:com.pilotmoon.popclip",
+      "teamId": "6W6K75YWQ9",
+      "lastUpdated": "2026-06-11T16:36:32Z"
+    },
+    {
+      "slug": "popsql/darwin",
+      "name": "PopSQL",
+      "version": "1.0.135",
+      "sha256": "07c9f12616a2584630f618d538946ce7aa5300edeca386a4510486cd8c1ae22f",
+      "cdhash": "dc5ed0ef7acbb9d8ccf5ac5ca646d0e5a3a0f91b",
+      "signingId": "4TFVQY839W:org.electron.popsql",
+      "teamId": "4TFVQY839W",
+      "lastUpdated": "2026-06-11T16:37:02Z"
+    },
+    {
+      "slug": "portfolioperformance/darwin",
+      "name": "Portfolio Performance",
+      "version": "0.84.0",
+      "sha256": "1d09e158183d50c8a047dd2979f18964632183f2faa52647dec4a47f522e7f4c",
+      "cdhash": "fc22f25e7735e9a128396cb8d93ab8461350a7d9",
+      "signingId": "P3N6NZSUQK:name.abuchen.portfolio.distro.product",
+      "teamId": "P3N6NZSUQK",
+      "lastUpdated": "2026-06-11T16:37:26Z"
     },
     {
       "slug": "postgresql-15/windows",
