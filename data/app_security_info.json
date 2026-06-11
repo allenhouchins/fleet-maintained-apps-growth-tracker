@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T16:44:40Z",
+  "lastUpdated": "2026-06-11T16:52:11Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -6029,6 +6029,26 @@
       "lastUpdated": "2026-06-11T16:44:38Z"
     },
     {
+      "slug": "proton-drive/darwin",
+      "name": "Proton Drive",
+      "version": "3.0.0",
+      "sha256": "d174ccededd2a3d63999ac1117d5630ba2a8ef10f622a5316e8b32be3b1e1a16",
+      "cdhash": "a277802c9e51166f4db64b167b855f23314025cb",
+      "signingId": "2SB5Z68H26:ch.protonmail.drive",
+      "teamId": "2SB5Z68H26",
+      "lastUpdated": "2026-06-11T16:45:18Z"
+    },
+    {
+      "slug": "proton-mail-bridge/darwin",
+      "name": "Proton Mail Bridge",
+      "version": "3.24.2",
+      "sha256": "8ac20779d646bf0f71259db04c1144f95b50e9f3cae7ddb78e1c34f5e8222b08",
+      "cdhash": "590d73912b60b737362a9b082bedb8831f79b332",
+      "signingId": "2SB5Z68H26:com.protonmail.bridge",
+      "teamId": "2SB5Z68H26",
+      "lastUpdated": "2026-06-11T16:45:52Z"
+    },
+    {
       "slug": "proton-mail/darwin",
       "name": "Proton Mail",
       "version": "1.12.1",
@@ -6036,6 +6056,26 @@
       "signingId": "6UN54H93QT:ch.protonmail.desktop",
       "teamId": "6UN54H93QT",
       "lastUpdated": "2026-02-10T19:39:50Z"
+    },
+    {
+      "slug": "proton-meet/darwin",
+      "name": "Proton Meet",
+      "version": "1.0.9",
+      "sha256": "40c819a045bf238d50c4cd9fefa790ac7d0814bd8f191470f4fd5b80f5f279cc",
+      "cdhash": "6fe66fd63439800f888bd110243228cec0652b5c",
+      "signingId": "6UN54H93QT:ch.protonmeet.desktop",
+      "teamId": "6UN54H93QT",
+      "lastUpdated": "2026-06-11T16:46:22Z"
+    },
+    {
+      "slug": "proton-pass/darwin",
+      "name": "Proton Pass",
+      "version": "1.37.0",
+      "sha256": "5b4d2719cad97bcdc592f62cc74128017c9fe3bcf79432dcc9c2e60ea3d84f8e",
+      "cdhash": "226d671eec6cc440617059a5021ca294c048d68e",
+      "signingId": "2SB5Z68H26:me.proton.pass.electron",
+      "teamId": "2SB5Z68H26",
+      "lastUpdated": "2026-06-11T16:46:55Z"
     },
     {
       "slug": "protonvpn/darwin",
@@ -6058,6 +6098,16 @@
       "thumbprint": "F0B999E273EAFDABCDA5A3B86315E5604DFB9A49",
       "timestamp": "CN=Sectigo Public Time Stamping Signer R36, O=Sectigo Limited, S=West Yorkshire, C=GB",
       "lastUpdated": "2026-06-07T05:52:13Z"
+    },
+    {
+      "slug": "protopie/darwin",
+      "name": "ProtoPie",
+      "version": "9.0.0",
+      "sha256": "eb647a34809e74f594bbf70d685a61f53973b782d4644475b39d734809a93ae4",
+      "cdhash": "cb14eadc3ada205a65f332bd0a704b0794b591e8",
+      "signingId": "24V7JB28L6:io.protopie",
+      "teamId": "24V7JB28L6",
+      "lastUpdated": "2026-06-11T16:47:25Z"
     },
     {
       "slug": "proxifier/darwin",
@@ -6087,6 +6137,26 @@
       "signingId": "3X57WP8E8V:com.proxyman.NSProxy",
       "teamId": "3X57WP8E8V",
       "lastUpdated": "2026-06-09T19:57:31Z"
+    },
+    {
+      "slug": "pulsar/darwin",
+      "name": "Pulsar",
+      "version": "1.132.1",
+      "sha256": "b5a8ac557ec85fe9e8064c6f28fb44c1b84c6e01166ceb0e17d19cd872dc77c2",
+      "cdhash": "c77a9ed04a8c6cdb03ec1fc9786b8c6b7961e03c",
+      "signingId": "D3KV2P2CZ8:dev.pulsar-edit.pulsar",
+      "teamId": "D3KV2P2CZ8",
+      "lastUpdated": "2026-06-11T16:48:02Z"
+    },
+    {
+      "slug": "purevpn/darwin",
+      "name": "PureVPN",
+      "version": "9.43.0",
+      "sha256": "073feb69f010e6154bc746a2398f21b1151018a7c163b0336623d5180c35333a",
+      "cdhash": "bf4f1b5114c91240c5ea1662f0ed741794b0e6e3",
+      "signingId": "4H849Z7V2K:com.purevpn.app.mac",
+      "teamId": "4H849Z7V2K",
+      "lastUpdated": "2026-06-11T16:48:42Z"
     },
     {
       "slug": "putty/windows",
@@ -6515,12 +6585,12 @@
     {
       "slug": "rightfont/darwin",
       "name": "RightFont",
-      "version": "10.0",
-      "sha256": "69c5ef316b992f0edc1a511d0a62fbcc780140967d82ab1db8ba3ea7560bf76c",
-      "cdhash": "ec6ae9f5df0fbddcf7960840a9d11f72d582660f",
+      "version": "10.0.1",
+      "sha256": "6d3f0079743186d9f6532b35ba754e0d711dd4256aee2c061fb76c6d7288f3bd",
+      "cdhash": "b3da10024529ac83d8d68c0800ea7c3ab95b5f6f",
       "signingId": "VABUY2Z595:com.rightfontapp.RightFont5",
       "teamId": "VABUY2Z595",
-      "lastUpdated": "2026-06-11T15:25:52Z"
+      "lastUpdated": "2026-06-11T16:49:09Z"
     },
     {
       "slug": "rive/darwin",
