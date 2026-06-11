@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T21:58:15Z",
+  "lastUpdated": "2026-06-11T22:04:35Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -3534,6 +3534,46 @@
       "lastUpdated": "2026-06-11T21:58:13Z"
     },
     {
+      "slug": "folx/darwin",
+      "name": "Folx",
+      "version": "5.34",
+      "sha256": "bfb69094ef291e4b34a8de9028140cf2f9665b6c1b244d5247b7640ace14fd02",
+      "cdhash": "7d341cee0992f2e599a81eabd1cf9049919bea57",
+      "signingId": "XS85JU6YZ3:com.eltima.Folx3",
+      "teamId": "XS85JU6YZ3",
+      "lastUpdated": "2026-06-11T21:58:37Z"
+    },
+    {
+      "slug": "fontbase/darwin",
+      "name": "FontBase",
+      "version": "2026.5.17",
+      "sha256": "55e7ef619d9285762a129b9de4cb46ef95d676418ed07555b8c46695eb91dcc4",
+      "cdhash": "da7569a0747dd4aa6d7831805b91bcc8aae3ad6f",
+      "signingId": "457B89RFCZ:com.dominiklevitsky.fontbase",
+      "teamId": "457B89RFCZ",
+      "lastUpdated": "2026-06-11T21:59:06Z"
+    },
+    {
+      "slug": "fontlab/darwin",
+      "name": "Fontlab",
+      "version": "8.4.2.8950",
+      "sha256": "bacb4c926bc8014b3bdfd0d93478290ffa3709d0d8cc5a724a670ad59e159e70",
+      "cdhash": "51906539c853c4e05f463a1c9062c994494248e3",
+      "signingId": "TL8MM67DL9:com.fontlab.fontlab8",
+      "teamId": "TL8MM67DL9",
+      "lastUpdated": "2026-06-11T21:59:34Z"
+    },
+    {
+      "slug": "forecast/darwin",
+      "name": "Forecast",
+      "version": "0.9.6",
+      "sha256": "ed99af2821fffb16bd6d4b2934d1964c95ab26755b25adbf3c945039f055fb14",
+      "cdhash": "98aabbf458d6a081d915743301d67e9e030d3aae",
+      "signingId": "7QXYLT27C4:fm.overcast.forecast-encoder",
+      "teamId": "7QXYLT27C4",
+      "lastUpdated": "2026-06-11T22:01:20Z"
+    },
+    {
       "slug": "fork/darwin",
       "name": "Fork",
       "version": "2.66.7",
@@ -3556,6 +3596,56 @@
       "lastUpdated": "2026-06-08T19:49:07Z"
     },
     {
+      "slug": "forklift/darwin",
+      "name": "ForkLift",
+      "version": "4.6.3",
+      "sha256": "e6bad44b24babfcb122cf83134cba7a7435f59cf1177c4ae502c18dc4b167382",
+      "cdhash": "23c61053675a908615bd5bd55cff7871ce14581a",
+      "signingId": "J3CP9BBBN6:com.binarynights.ForkLift",
+      "teamId": "J3CP9BBBN6",
+      "lastUpdated": "2026-06-11T22:01:42Z"
+    },
+    {
+      "slug": "framer/darwin",
+      "name": "Framer",
+      "version": "2026.12.6",
+      "sha256": "cf4fc82f677c4cf027b7e6d148b6dca74072a3c3aa7ed6abb87053cf6560577d",
+      "cdhash": "b9f8b0d8cf880e04d706333342970338bdd8cd21",
+      "signingId": "JZ2M63CZ28:com.framer.electron",
+      "teamId": "JZ2M63CZ28",
+      "lastUpdated": "2026-06-11T22:02:10Z"
+    },
+    {
+      "slug": "franz/darwin",
+      "name": "Franz",
+      "version": "5.11.0",
+      "sha256": "ec6714cf3426938f88f34e18843d23ca8050261931bc45150fe4968d3e6f97b5",
+      "cdhash": "d000c9c941e5b022212e339c8e157ee687909c26",
+      "signingId": "TAC9P63ANZ:com.meetfranz.franz",
+      "teamId": "TAC9P63ANZ",
+      "lastUpdated": "2026-06-11T22:02:40Z"
+    },
+    {
+      "slug": "free-download-manager/darwin",
+      "name": "Free Download Manager",
+      "version": "6.34.1",
+      "sha256": "75c382ba8940542aed2d3370622d3912873a79659eba819171327725668a4599",
+      "cdhash": "a7c88875f6a05ee821ddf91ac8e463cccc95dfce",
+      "signingId": "8CK79SY7LA:org.freedownloadmanager.fdm6",
+      "teamId": "8CK79SY7LA",
+      "lastUpdated": "2026-06-11T22:03:39Z"
+    },
+    {
+      "slug": "freefilesync/darwin",
+      "name": "FreeFileSync",
+      "version": "14.9",
+      "sha256": "13798fb0fc1dc670f64e4715cd203ee4a9f1478812434fc2b8f371aded91c20e",
+      "cdhash": "d5cefe159a0fccab162a397bbeb1c6a0ddce7500",
+      "signingId": "Y8U4RUM443:org.freefilesync.FreeFileSync",
+      "teamId": "Y8U4RUM443",
+      "lastUpdated": "2026-06-11T22:04:09Z"
+    },
+    {
       "slug": "front/darwin",
       "name": "Front",
       "version": "3.73.0",
@@ -3564,6 +3654,16 @@
       "signingId": "X549L7572J:com.frontapp.Front",
       "teamId": "X549L7572J",
       "lastUpdated": "2026-04-22T15:37:23Z"
+    },
+    {
+      "slug": "fsmonitor/darwin",
+      "name": "FSMonitor",
+      "version": "2.0",
+      "sha256": "dbd77cee5378a707ed0cb134da3abb4bb4703b96a90b062953bc991f8aa06b49",
+      "cdhash": "3b0d126273ce7d974d522e4208c033c29a5f8b4d",
+      "signingId": "V85GBYB7B9:com.tristan.FSMonitor",
+      "teamId": "V85GBYB7B9",
+      "lastUpdated": "2026-06-11T22:04:33Z"
     },
     {
       "slug": "garmin-express/darwin",
