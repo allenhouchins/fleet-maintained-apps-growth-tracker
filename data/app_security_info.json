@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T05:43:07Z",
+  "lastUpdated": "2026-06-11T05:46:48Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -54,6 +54,46 @@
       "signingId": "GHQ37VJF83:com.openmedia.4kslideshowmaker",
       "teamId": "GHQ37VJF83",
       "lastUpdated": "2026-06-11T05:43:05Z"
+    },
+    {
+      "slug": "4k-stogram/darwin",
+      "name": "4K Stogram",
+      "version": "4.9.0",
+      "sha256": "dc51d9120b9980b8b71f9ecd19e7fe344fc7720559a6fb0e8d8fad5e0535f5d6",
+      "cdhash": "489f9b6015c57141234c76c3390117d35a346c99",
+      "signingId": "GHQ37VJF83:com.openmedia.4kstogram",
+      "teamId": "GHQ37VJF83",
+      "lastUpdated": "2026-06-11T05:43:29Z"
+    },
+    {
+      "slug": "4k-video-downloader/darwin",
+      "name": "4K Video Downloader",
+      "version": "4.33.5",
+      "sha256": "6e6ae7c3af4022f9b183a3db84c17d602c01d080bfe58b05071ae5f5ecf00aca",
+      "cdhash": "5f7fb5c0e2061a1059d4017261ea5ff0ad2dc862",
+      "signingId": "GHQ37VJF83:com.openmedia.4kvideodownloader",
+      "teamId": "GHQ37VJF83",
+      "lastUpdated": "2026-06-11T05:43:57Z"
+    },
+    {
+      "slug": "4k-video-to-mp3/darwin",
+      "name": "4K Video to MP3",
+      "version": "3.0.1",
+      "sha256": "7760f9660b8fe5b1113bd0ebf452c945967d5f53b565e0a73dad06611f5806d1",
+      "cdhash": "1189518edbf1964e4bd96052f4a8d8a5670b054a",
+      "signingId": "GHQ37VJF83:com.openmedia.4kvideotomp3",
+      "teamId": "GHQ37VJF83",
+      "lastUpdated": "2026-06-11T05:44:18Z"
+    },
+    {
+      "slug": "4k-youtube-to-mp3/darwin",
+      "name": "4K YouTube to MP3",
+      "version": "26.1.4",
+      "sha256": "d1a96ff6773db7776aec9ba6a57c37ed46b3b84ac87578b4afc3c65a36c8091b",
+      "cdhash": "29b7f0300105651fb7e1e641676e6dffa7f86cf1",
+      "signingId": "GHQ37VJF83:com.openmedia.4kyoutubetomp3",
+      "teamId": "GHQ37VJF83",
+      "lastUpdated": "2026-06-11T05:44:47Z"
     },
     {
       "slug": "7-zip/windows",
@@ -3391,6 +3431,53 @@
       "signingId": "ZDYDJ5XPF3:com.electron.dialer",
       "teamId": "ZDYDJ5XPF3",
       "lastUpdated": "2026-06-07T03:18:16Z"
+    },
+    {
+      "slug": "hammerspoon/darwin",
+      "name": "Hammerspoon",
+      "version": "1.1.1",
+      "sha256": "35ddf568c624246683b217c8df0061c99feea4afc1a65444c175c88e1c155b17",
+      "cdhash": "1997498f2654911d7d40db3a49b1454b25d023a4",
+      "signingId": "VQCYSNZB89:org.hammerspoon.Hammerspoon",
+      "teamId": "VQCYSNZB89",
+      "lastUpdated": "2026-06-11T05:45:17Z"
+    },
+    {
+      "slug": "handbrake-app/darwin",
+      "name": "HandBrake",
+      "version": "1.11.2",
+      "sha256": "08444f02e6788fec6d400aea4372ddca1409675e2b4fe1fd7c55794c1f082649",
+      "cdhash": "85e8a303cd84683762d9e0b6406bc4c3a2bfc1b8",
+      "signingId": "5X9DE89KYV:fr.handbrake.HandBrake",
+      "teamId": "5X9DE89KYV",
+      "lastUpdated": "2026-06-11T05:45:42Z"
+    },
+    {
+      "slug": "hazel/darwin",
+      "name": "Hazel",
+      "version": "6.1.2",
+      "sha256": "568dd385b00df364ad8d7fd5abdf1f04c840240c187c2fab3b215a4064b8afc4",
+      "cdhash": "6035d32fafc09944a0c0a68192451c7df209dc1c",
+      "signingId": "86Z3GCJ4MF:com.noodlesoft.Hazel",
+      "teamId": "86Z3GCJ4MF",
+      "lastUpdated": "2026-06-11T05:46:05Z"
+    },
+    {
+      "slug": "hazeover/darwin",
+      "name": "HazeOver",
+      "version": "1.9.7",
+      "sha256": "787a83c59c2365849390d3f1f29cc97f834ccf5241e04efb063344c51bbd37da",
+      "cdhash": "a86d02240c15a8ba620245e96883e67a94bff31f",
+      "signingId": "5C8K7Y3PE6:com.pointum.hazeover",
+      "teamId": "5C8K7Y3PE6",
+      "lastUpdated": "2026-06-11T05:46:26Z"
+    },
+    {
+      "slug": "helium/darwin",
+      "name": "Helium",
+      "version": "1.0.0",
+      "sha256": "78d5aabd159da50c42ba25d936be68099e009eeac0cdc61263e2828effb96f3f",
+      "lastUpdated": "2026-06-11T05:46:46Z"
     },
     {
       "slug": "hyper/darwin",
