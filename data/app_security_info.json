@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T15:07:23Z",
+  "lastUpdated": "2026-06-11T15:12:03Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -4390,12 +4390,12 @@
     {
       "slug": "linear/darwin",
       "name": "Linear",
-      "version": "1.30.2",
-      "sha256": "d13e9455342c5b9fe851d668901896bd541ecb7eaa6d12a9524286ffb3212d89",
-      "cdhash": "b18620803eb2f984e63a4c638f1ea47e5516a588",
+      "version": "1.31.0",
+      "sha256": "6357a3c629e3eb0c87e03f8ab2c906226b45ccc3e3469f1af5284f82df47f8ca",
+      "cdhash": "72b69eed08da4acd394dae43b1965feb314a6601",
       "signingId": "7VZ2S3V9RV:com.linear",
       "teamId": "7VZ2S3V9RV",
-      "lastUpdated": "2026-05-16T13:39:04Z"
+      "lastUpdated": "2026-06-11T15:07:52Z"
     },
     {
       "slug": "linear/windows",
@@ -4444,12 +4444,12 @@
     {
       "slug": "loom/darwin",
       "name": "Loom",
-      "version": "0.352.5",
-      "sha256": "27d8b422e878c77fc2953987d941e8e3a7e630044e2fdf9a61be1cbea86a56e2",
-      "cdhash": "039c77a531342ae0d233be856d2c3af0d39eb773",
+      "version": "0.353.3",
+      "sha256": "08cf2bd2206d022f0dbef6d0889f37c0ca0d243bcf846d7bf31a42495a538221",
+      "cdhash": "d785a7fd800caa2acc2b9bf9d27bbca0d30d9a58",
       "signingId": "QGD2ZPXZZG:com.loom.desktop",
       "teamId": "QGD2ZPXZZG",
-      "lastUpdated": "2026-06-08T19:53:10Z"
+      "lastUpdated": "2026-06-11T15:08:19Z"
     },
     {
       "slug": "loom/windows",
@@ -5091,12 +5091,12 @@
     {
       "slug": "omnioutliner/darwin",
       "name": "OmniOutliner",
-      "version": "6.1",
-      "sha256": "d6b8d97dda6e09784305151ef5417a2b329afc30dcc7ca7a1228d1ca9492ce72",
-      "cdhash": "d3e6f259279ea16cc90e9fb7dcaa3ce35262e019",
+      "version": "6.2",
+      "sha256": "c5f8aa1c296ef1bfba139087af3e773b55faa288c0e309620304199b47a3dcc7",
+      "cdhash": "ff781d6cfbe1fde33fe14c937374b92795039869",
       "signingId": "34YW5XSRB7:com.omnigroup.OmniOutliner6",
       "teamId": "34YW5XSRB7",
-      "lastUpdated": "2026-06-10T03:20:33Z"
+      "lastUpdated": "2026-06-11T15:08:46Z"
     },
     {
       "slug": "omniplan/darwin",
@@ -5235,12 +5235,12 @@
     {
       "slug": "opencode-desktop/darwin",
       "name": "OpenCode",
-      "version": "1.17.0",
-      "sha256": "479454d597424aabfbc502445d8bab2411ec12270b9294d28cecf3fad10dd081",
-      "cdhash": "44c470918506a589635b27464c87f0c87e7f8511",
+      "version": "1.17.3",
+      "sha256": "6b5e3c9a24d7881e5f74e32b925d287b49ed3568d544df0986d56b5f648b349b",
+      "cdhash": "ae345ace77275af85cb2183e3b88a3d1989e7afd",
       "signingId": "5NZ4Q7NXJ4:ai.opencode.desktop",
       "teamId": "5NZ4Q7NXJ4",
-      "lastUpdated": "2026-06-10T17:40:20Z"
+      "lastUpdated": "2026-06-11T15:09:10Z"
     },
     {
       "slug": "openinterminal/darwin",
@@ -5517,12 +5517,12 @@
     {
       "slug": "postman/darwin",
       "name": "Postman",
-      "version": "12.14.3",
-      "sha256": "476cd8289dfd34b73a2777e73ab73a440951a40c5c14355ec806febee4ab1b63",
-      "cdhash": "10921890f52c12a62f1314968f5dee5675b92862",
+      "version": "12.14.4",
+      "sha256": "5115b8bd4532259ebd398b349e649ba45f272a0f5ba6af8f71babc29983a8ba4",
+      "cdhash": "2be5f4578b5e176457521af1fec16f6c5d067fb3",
       "signingId": "H7H8Q7M5CK:com.postmanlabs.mac",
       "teamId": "H7H8Q7M5CK",
-      "lastUpdated": "2026-06-10T17:40:43Z"
+      "lastUpdated": "2026-06-11T15:09:34Z"
     },
     {
       "slug": "postman/windows",
@@ -5849,6 +5849,26 @@
       "lastUpdated": "2026-06-08T19:02:26Z"
     },
     {
+      "slug": "radio-silence/darwin",
+      "name": "Radio Silence",
+      "version": "3.4",
+      "sha256": "9b5071ece89a764bc61bce44928c9ba0a1c325d3ca1e22efc3be2e5640540b70",
+      "cdhash": "f635a20564acc3055fc8f50a41f43b704d6d31ca",
+      "signingId": "6JQLCT6DRB:com.radiosilenceapp.client",
+      "teamId": "6JQLCT6DRB",
+      "lastUpdated": "2026-06-11T15:10:04Z"
+    },
+    {
+      "slug": "raindropio/darwin",
+      "name": "Raindrop.io",
+      "version": "5.7.7",
+      "sha256": "c5474a3d679ca14b8269b556114ba82ed33c20a075fe9a8cef1d583b39bf7cdc",
+      "cdhash": "2b45770736b86f8d797482c16b9221f59114bb9c",
+      "signingId": "7459JWM5TY:io.raindrop.macapp",
+      "teamId": "7459JWM5TY",
+      "lastUpdated": "2026-06-11T15:10:41Z"
+    },
+    {
       "slug": "rancher/darwin",
       "name": "Rancher Desktop",
       "version": "1.22.3",
@@ -5881,6 +5901,16 @@
       "lastUpdated": "2026-04-20T13:42:56Z"
     },
     {
+      "slug": "rapidweaver/darwin",
+      "name": "RapidWeaver",
+      "version": "9.6.8",
+      "sha256": "68fd81de9f13e7b13456015819c180325a6d5577a2f577bb4aebd6f31e2a0a6b",
+      "cdhash": "b5918eb0373dab7952966c58c9912636e98af8d2",
+      "signingId": "P97H7FTHWN:com.realmacsoftware.rapidweaver8",
+      "teamId": "P97H7FTHWN",
+      "lastUpdated": "2026-06-11T15:11:15Z"
+    },
+    {
       "slug": "raycast/darwin",
       "name": "Raycast",
       "version": "1.104.19",
@@ -5889,6 +5919,16 @@
       "signingId": "SY64MV22J9:com.raycast.macos",
       "teamId": "SY64MV22J9",
       "lastUpdated": "2026-05-28T19:00:28Z"
+    },
+    {
+      "slug": "readest/darwin",
+      "name": "Readest",
+      "version": "0.11.4",
+      "sha256": "c78e103cb2d9d192336640705b0c8d84949f7a4c51733bbbf5939f1189703906",
+      "cdhash": "0bc3e4e7f3363bd644ef2c118ccb9325efdc4846",
+      "signingId": "J5W48D69VR:com.bilingify.readest",
+      "teamId": "J5W48D69VR",
+      "lastUpdated": "2026-06-11T15:11:40Z"
     },
     {
       "slug": "reaper/darwin",
@@ -5911,6 +5951,16 @@
       "thumbprint": "05A3AE08ABCED811278217BB80E2B0B9FF70626E",
       "timestamp": "CN=SSL.com Timestamping Unit 2025 E1, O=SSL Corp, L=Houston, S=Texas, C=US",
       "lastUpdated": "2026-06-09T20:13:38Z"
+    },
+    {
+      "slug": "recents/darwin",
+      "name": "Recents",
+      "version": "2.5.0",
+      "sha256": "3800eddc6af85c937a53b3cb7500bffacae510ab6a3d9529cb5ef57035211faf",
+      "cdhash": "7f9fc53075ed968bed4c130f35918f044ad1c140",
+      "signingId": "R269FLHN8Y:com.lapier.Recents",
+      "teamId": "R269FLHN8Y",
+      "lastUpdated": "2026-06-11T15:12:01Z"
     },
     {
       "slug": "rectangle/darwin",
