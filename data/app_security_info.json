@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T23:28:10Z",
+  "lastUpdated": "2026-06-11T23:36:10Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -5433,6 +5433,16 @@
       "lastUpdated": "2026-06-11T23:28:07Z"
     },
     {
+      "slug": "marta/darwin",
+      "name": "Marta File Manager",
+      "version": "0.8.2",
+      "sha256": "01451c6634abc444311b35ad03f8f9f3835dacfc0e5db24ff8938d9d03a7ac87",
+      "cdhash": "197c4f68cc6d3915d4f937a4176ff31fcf5797c5",
+      "signingId": "PYJ26U4KNX:org.yanex.marta",
+      "teamId": "PYJ26U4KNX",
+      "lastUpdated": "2026-06-11T23:28:29Z"
+    },
+    {
       "slug": "marvel/darwin",
       "name": "Marvel",
       "version": "11.5",
@@ -5441,6 +5451,14 @@
       "signingId": "7C95EP5VB7:com.marvelprototyping.marvelmacos",
       "teamId": "7C95EP5VB7",
       "lastUpdated": "2026-04-03T19:27:41Z"
+    },
+    {
+      "slug": "masscode/darwin",
+      "name": "massCode",
+      "version": "5.5.0",
+      "sha256": "337e6c4a07d604727c6f640db1ab4597ee509bf40e5040ae12e836f501812a6a",
+      "cdhash": "974fc26f0ee77e3701ab6d6ebc981c7a3dd3fa93",
+      "lastUpdated": "2026-06-11T23:28:54Z"
     },
     {
       "slug": "mattermost/darwin",
@@ -5463,6 +5481,86 @@
       "thumbprint": "9B8B6C29F7F687B397521C0F5E4C5A0BC448C293",
       "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7800-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
       "lastUpdated": "2026-05-29T22:47:48Z"
+    },
+    {
+      "slug": "meetingbar/darwin",
+      "name": "MeetingBar",
+      "version": "4.11.6",
+      "sha256": "d902e5a957fad973c9c013ebfeb5093b63d3f11b20f80e87ca21330da04cc09b",
+      "cdhash": "82bd289356fb09cc243269ff344dab45724134a6",
+      "signingId": "KGH289N6T8:leits.MeetingBar",
+      "teamId": "KGH289N6T8",
+      "lastUpdated": "2026-06-11T23:29:15Z"
+    },
+    {
+      "slug": "megasync/darwin",
+      "name": "MEGAsync",
+      "version": "6.4.0.2",
+      "sha256": "a1b0587e307bfe471f774aa0667b5020271d7f887e6ea3c4627a729cf19bb46c",
+      "cdhash": "edb64a582222defa6c27c43d405a6131ed28d273",
+      "signingId": "T9RH74Y7L9:mega.mac",
+      "teamId": "T9RH74Y7L9",
+      "lastUpdated": "2026-06-11T23:29:42Z"
+    },
+    {
+      "slug": "mellel/darwin",
+      "name": "Mellel",
+      "version": "6.6.7",
+      "sha256": "5bf551e4026c6cdcc7a535a78b7a036187062dd100d2388a2d7153f8d9b614e1",
+      "cdhash": "dd3684d4ce5529d75ddd8db0107a8c196ed4a612",
+      "signingId": "MKZZ6CG2N9:com.redlex.mellel6",
+      "teamId": "MKZZ6CG2N9",
+      "lastUpdated": "2026-06-11T23:30:55Z"
+    },
+    {
+      "slug": "melodics/darwin",
+      "name": "Melodics",
+      "version": "5.0.571",
+      "sha256": "5f43e9482c28aea199168516c6a020240690224e827db0b34e4f20ab6d6805f7",
+      "cdhash": "a23439b9d678a0e0b5a84ab3dccbfe89d149cd3b",
+      "signingId": "AW58AQVYJR:com.melodics.melodics",
+      "teamId": "AW58AQVYJR",
+      "lastUpdated": "2026-06-11T23:32:17Z"
+    },
+    {
+      "slug": "memory-cleaner/darwin",
+      "name": "Memory Cleaner",
+      "version": "5.5.2",
+      "sha256": "8ac814a40cade78693b5bbb6ac41a897f78ebb830473f0b709490603622f3c6d",
+      "cdhash": "500edae218826f3e2663da86dbc91ac9ed29f108",
+      "signingId": "8DKG4XB37M:com.nektony.Memory-Cleaner-SIII",
+      "teamId": "8DKG4XB37M",
+      "lastUpdated": "2026-06-11T23:32:38Z"
+    },
+    {
+      "slug": "memory/darwin",
+      "name": "Memory Tracker by Timely",
+      "version": "2023.11",
+      "sha256": "3d9b6f8620c65748e60574102437cc17c455feef0d4986c72a15dbea96ceadc1",
+      "cdhash": "b2a34f650b4e3c9457d5c181e0fe93a56436c484",
+      "signingId": "NGR7G7F269:com.timeapp.devlpmp.Timely-Mac-Tracker",
+      "teamId": "NGR7G7F269",
+      "lastUpdated": "2026-06-11T23:33:54Z"
+    },
+    {
+      "slug": "memoryanalyzer/darwin",
+      "name": "Eclipse Memory Analyzer",
+      "version": "1.16.1.20250109",
+      "sha256": "20f449181901ae5a1b86a35db0f07f52e9d61d92e1723098ee8fde5e171b9e6b",
+      "cdhash": "8b6607a2d9676e993da7b86bda82c20a065a1bba",
+      "signingId": "JCDTMS22B4:org.eclipse.mat.ui.rcp.MemoryAnalyzer",
+      "teamId": "JCDTMS22B4",
+      "lastUpdated": "2026-06-11T23:34:19Z"
+    },
+    {
+      "slug": "mendeley-reference-manager/darwin",
+      "name": "Mendeley Reference Manager",
+      "version": "2.145.0",
+      "sha256": "bc952367bd3f5fa9642b78c5cf5b886c4ed82cd62fb38df686b5e0c62e54272d",
+      "cdhash": "95dc7257e853d9bc8be911e2b79aaca5e80c7959",
+      "signingId": "45K89Y5X9B:com.elsevier.mendeley",
+      "teamId": "45K89Y5X9B",
+      "lastUpdated": "2026-06-11T23:36:08Z"
     },
     {
       "slug": "microsoft-365-copilot/darwin",
