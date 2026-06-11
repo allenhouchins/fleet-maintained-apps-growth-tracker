@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T15:21:27Z",
+  "lastUpdated": "2026-06-11T15:29:48Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -6071,6 +6071,46 @@
       "lastUpdated": "2026-06-11T15:21:25Z"
     },
     {
+      "slug": "retcon/darwin",
+      "name": "Retcon",
+      "version": "1.6.1",
+      "sha256": "a61c5ef58adb9e8154a03893a6639507df6b0ce90be3b5afffc5ea3969ddc3d9",
+      "cdhash": "5f3434185eeba4f344e8cea0b8cfd3a53157eabf",
+      "signingId": "6XWJB5YJ6J:garden.lemon.Retcon",
+      "teamId": "6XWJB5YJ6J",
+      "lastUpdated": "2026-06-11T15:21:47Z"
+    },
+    {
+      "slug": "retroarch/darwin",
+      "name": "RetroArch",
+      "version": "1.22.2",
+      "sha256": "9042502cf554a3386824ac841ea93cc1f4ebacabab598aee12d94daf776aebb1",
+      "cdhash": "9333e658ec464a0fe9c0b63f70ca125ac4723874",
+      "signingId": "UK699V5ZS8:com.libretro.RetroArch",
+      "teamId": "UK699V5ZS8",
+      "lastUpdated": "2026-06-11T15:24:46Z"
+    },
+    {
+      "slug": "retrobatch/darwin",
+      "name": "Retrobatch",
+      "version": "2.3.1",
+      "sha256": "3b55cb7967eb6a2f1aafc5508dbd8dd0cfea331ac9f5162d74fa4bd00e54ca61",
+      "cdhash": "8d123e43a13a49ca968558866b1ae6c557dabfc3",
+      "signingId": "WZCN9HJ4VP:com.flyingmeat.Retrobatch",
+      "teamId": "WZCN9HJ4VP",
+      "lastUpdated": "2026-06-11T15:25:08Z"
+    },
+    {
+      "slug": "rewritebar/darwin",
+      "name": "RewriteBar",
+      "version": "2.29.0",
+      "sha256": "3507a55c523cd62b3b7e9b74a1656ceb61063dadc91ede0cdafe8734217bd673",
+      "cdhash": "58f430fa57dac53694b4d43a9e4e95c703e66531",
+      "signingId": "82PCRZSDML:com.m91michel.rewritebar",
+      "teamId": "82PCRZSDML",
+      "lastUpdated": "2026-06-11T15:25:30Z"
+    },
+    {
       "slug": "rider/darwin",
       "name": "Rider",
       "version": "2026.1.2",
@@ -6091,6 +6131,66 @@
       "thumbprint": "8C1B506D0BD10A911D09FB7EDBCAB383F1CDAF20",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-05-28T17:31:54Z"
+    },
+    {
+      "slug": "rightfont/darwin",
+      "name": "RightFont",
+      "version": "10.0",
+      "sha256": "69c5ef316b992f0edc1a511d0a62fbcc780140967d82ab1db8ba3ea7560bf76c",
+      "cdhash": "ec6ae9f5df0fbddcf7960840a9d11f72d582660f",
+      "signingId": "VABUY2Z595:com.rightfontapp.RightFont5",
+      "teamId": "VABUY2Z595",
+      "lastUpdated": "2026-06-11T15:25:52Z"
+    },
+    {
+      "slug": "rive/darwin",
+      "name": "Rive",
+      "version": "0.8.5006",
+      "sha256": "5e773286af3496cff1f9408ae55988b7ab53858dc3d3c00c5c242a84e421a75f",
+      "cdhash": "a12a8f46b1aa48ebb985793efcea9ab61517349f",
+      "signingId": "NJ3JMFUNS9:app.rive.editor",
+      "teamId": "NJ3JMFUNS9",
+      "lastUpdated": "2026-06-11T15:26:16Z"
+    },
+    {
+      "slug": "rize/darwin",
+      "name": "Rize",
+      "version": "3.0.7",
+      "sha256": "158f0a407a43c1a08f12ed63d6e21f52ded263684df9d86eff614e6e213dd589",
+      "cdhash": "0ce2fd9bad44a0b73b317fdfcf0ca5826bc71374",
+      "signingId": "3Y3295MGQ6:io.rize",
+      "teamId": "3Y3295MGQ6",
+      "lastUpdated": "2026-06-11T15:26:58Z"
+    },
+    {
+      "slug": "robofont/darwin",
+      "name": "RoboFont",
+      "version": "4.6",
+      "sha256": "e63814fcd7973837df4a0cd345c814b2d604f4f78c416fbd6fd44a245e75dc34",
+      "cdhash": "9a668d9741089bf05576074a72ced41c6e19ebff",
+      "signingId": "NNVFASZ82V:com.typemytype.robofont4",
+      "teamId": "NNVFASZ82V",
+      "lastUpdated": "2026-06-11T15:27:50Z"
+    },
+    {
+      "slug": "roboform/darwin",
+      "name": "RoboForm",
+      "version": "9.9.4",
+      "sha256": "c0ab3290e4d0c165f14b71e92eb6d724630a0465a6f5035f51515d40419e9fc9",
+      "cdhash": "38af2751c55c2836355c73f02e9ab9ad13408dc5",
+      "signingId": "924KXEUXP3:com.SiberSystems.RoboFormUninstaller",
+      "teamId": "924KXEUXP3",
+      "lastUpdated": "2026-06-11T15:28:12Z"
+    },
+    {
+      "slug": "rocket-chat/darwin",
+      "name": "Rocket.Chat",
+      "version": "4.14.1",
+      "sha256": "445ec07084117daadf780d02c3bb47a4da5b2a8c3b9a0ce852785d3373d85a76",
+      "cdhash": "7d6588951f90058f12c887535479bbc9c9de0680",
+      "signingId": "S6UPZG7ZR3:chat.rocket",
+      "teamId": "S6UPZG7ZR3",
+      "lastUpdated": "2026-06-11T15:29:46Z"
     },
     {
       "slug": "royal-tsx/darwin",
