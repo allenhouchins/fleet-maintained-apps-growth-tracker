@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T19:20:58Z",
+  "lastUpdated": "2026-06-11T19:27:33Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -2547,6 +2547,16 @@
       "lastUpdated": "2026-06-11T19:20:56Z"
     },
     {
+      "slug": "devutils/darwin",
+      "name": "DevUtils",
+      "version": "1.17.0",
+      "sha256": "0cd93e970da57dfa3102d1cc209e433a83d9f9842a9db1b1a696d6d7d63589ef",
+      "cdhash": "5e3b62603562abdecf7c1d98c6e38b2cd4c9eae0",
+      "signingId": "432TM87K7L:tonyapp.devutils",
+      "teamId": "432TM87K7L",
+      "lastUpdated": "2026-06-11T19:21:20Z"
+    },
+    {
       "slug": "dfu-blaster-pro/darwin",
       "name": "DFU Blaster Pro",
       "version": "4.2",
@@ -2579,6 +2589,34 @@
       "lastUpdated": "2026-05-29T03:23:39Z"
     },
     {
+      "slug": "dictionaries/darwin",
+      "name": "Dictionaries",
+      "version": "2.9",
+      "sha256": "709d4b9ac64d94e44a0a09dd7deebbb96922ff5d6e3b681dc718aa00922b4f17",
+      "cdhash": "88b2cc39b514cffb3a2cf1da4bab32273a4c1599",
+      "signingId": "9CD9R98CLE:io.dictionaries.Dictionaries",
+      "teamId": "9CD9R98CLE",
+      "lastUpdated": "2026-06-11T19:21:41Z"
+    },
+    {
+      "slug": "diffusionbee/darwin",
+      "name": "Diffusion Bee",
+      "version": "2.5.3",
+      "sha256": "29b699985ff05ea9770990a4d594d6bd6334225b4fa0149336682284e1b4cc76",
+      "cdhash": "f4605ae31c789dd1754093b7e820c4bcb0a7ed66",
+      "signingId": "6QF6Z7X8UW:com.diffusionbee.diffusionbee",
+      "teamId": "6QF6Z7X8UW",
+      "lastUpdated": "2026-06-11T19:22:14Z"
+    },
+    {
+      "slug": "digikam/darwin",
+      "name": "digiKam",
+      "version": "9.0.0",
+      "sha256": "b09239c579f668668f05bfdd9b43563fe1f4e542a3476e82915d48e1cba2b2c8",
+      "cdhash": "8006f9b39f035cf90cf472fef1a14b99db8c83ed",
+      "lastUpdated": "2026-06-11T19:24:31Z"
+    },
+    {
       "slug": "discord/darwin",
       "name": "Discord",
       "version": "0.0.394",
@@ -2601,6 +2639,16 @@
       "lastUpdated": "2026-06-09T20:12:31Z"
     },
     {
+      "slug": "disk-drill/darwin",
+      "name": "Disk Drill",
+      "version": "6.2.2219",
+      "sha256": "92f433d008e8fb1184e5355d0bc7ab9f566aa0a270ae8c51b5eaa5d161e7f5df",
+      "cdhash": "6fd69d5af03cfde5bfef687d7d881a16276f79ad",
+      "signingId": "A3W62KZY8Z:com.cleverfiles.DiskDrill",
+      "teamId": "A3W62KZY8Z",
+      "lastUpdated": "2026-06-11T19:25:40Z"
+    },
+    {
       "slug": "displaylink/darwin",
       "name": "DisplayLink USB Graphics Software",
       "version": "16.1",
@@ -2609,6 +2657,16 @@
       "signingId": "73YQY62QM3:com.displaylink.DisplayLinkUserAgent",
       "teamId": "73YQY62QM3",
       "lastUpdated": "2026-05-26T13:12:03Z"
+    },
+    {
+      "slug": "dockdoor/darwin",
+      "name": "DockDoor",
+      "version": "1.39.3",
+      "sha256": "db54342daebc673b9497d739be349afaa0253d505559c1458c84718bbd3770cf",
+      "cdhash": "b9c35b2e0e27593ca71a6f82fd945826b505dbbb",
+      "signingId": "2Q775S63Q3:com.ethanbills.DockDoor",
+      "teamId": "2Q775S63Q3",
+      "lastUpdated": "2026-06-11T19:26:04Z"
     },
     {
       "slug": "docker-desktop/darwin",
@@ -2641,6 +2699,46 @@
       "thumbprint": "CACB4F507942C182C47EF14E7B9050CBDE780EB9",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-06-09T20:12:45Z"
+    },
+    {
+      "slug": "dockfix/darwin",
+      "name": "DockFix",
+      "version": "4.2.1",
+      "sha256": "693b6dbd4dbbf39fe75687512e9ed94bd57e61c204bd477b7819cb1075d55a14",
+      "cdhash": "495cf1895a9f23a02bc6faab363fcfb9bcbef89c",
+      "signingId": "TL3MYG2528:dk.FIrstForm.DockFix",
+      "teamId": "TL3MYG2528",
+      "lastUpdated": "2026-06-11T19:26:25Z"
+    },
+    {
+      "slug": "dockside/darwin",
+      "name": "Dockside",
+      "version": "2.9.6",
+      "sha256": "360eb5ed1408f6d7e7f0053911d6be38db931c55afc985b11fbba69d8579999f",
+      "cdhash": "d15f95d7bcc1162b1a3f456fbed28cf782709a1e",
+      "signingId": "8T2DC9NRXS:com.hachipoo.Dockside",
+      "teamId": "8T2DC9NRXS",
+      "lastUpdated": "2026-06-11T19:26:48Z"
+    },
+    {
+      "slug": "dockview/darwin",
+      "name": "DockView",
+      "version": "1.7.5",
+      "sha256": "a7912201894b378be133f2a30fa95aeba9718af21a26611327f495758749f146",
+      "cdhash": "7e7c693fa566e19b80496c1584d3709d66dfd83d",
+      "signingId": "ZCQ7H77CA9:com.sergey-gerasimenko.DockView",
+      "teamId": "ZCQ7H77CA9",
+      "lastUpdated": "2026-06-11T19:27:09Z"
+    },
+    {
+      "slug": "dot/darwin",
+      "name": "Dot",
+      "version": "2.2.0",
+      "sha256": "827fda6d73fa248e3af8a428ddf569c05657f98fe19ae125b6f8542f8aec60e6",
+      "cdhash": "44ea13f6014d2697a2c155e21070377a9ed9255f",
+      "signingId": "C8PNKQ5GVQ:com.dot.app",
+      "teamId": "C8PNKQ5GVQ",
+      "lastUpdated": "2026-06-11T19:27:31Z"
     },
     {
       "slug": "drawio/darwin",
