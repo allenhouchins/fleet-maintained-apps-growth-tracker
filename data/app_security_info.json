@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T15:29:48Z",
+  "lastUpdated": "2026-06-11T15:41:48Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -6193,6 +6193,36 @@
       "lastUpdated": "2026-06-11T15:29:46Z"
     },
     {
+      "slug": "rocket-typist/darwin",
+      "name": "Rocket Typist",
+      "version": "3.3.1",
+      "sha256": "18af8e967bd00e9fcf4c65b15ad2e3e9167da48950ae52d798cee57ba55dd51f",
+      "cdhash": "e6fd1d6f5b2e511a5680f8c83a1598f816cce918",
+      "signingId": "GH2Y99U35Z:com.witt-software.Rocket-Typist-2",
+      "teamId": "GH2Y99U35Z",
+      "lastUpdated": "2026-06-11T15:30:13Z"
+    },
+    {
+      "slug": "rocket/darwin",
+      "name": "Rocket",
+      "version": "1.9.5",
+      "sha256": "9a3544b1851ee53f4d6ea14dd9a88cf0fece17197359d08331af04b2f911b25e",
+      "cdhash": "7bec8047926f0c046ec150cc2cfbe51bf66262b4",
+      "signingId": "Z4JV2M65MH:net.matthewpalmer.Rocket",
+      "teamId": "Z4JV2M65MH",
+      "lastUpdated": "2026-06-11T15:30:40Z"
+    },
+    {
+      "slug": "rocketman-choices-packager/darwin",
+      "name": "Rocketman Choices Packager",
+      "version": "1.0.0",
+      "sha256": "5e40b5d697b32969be173d954a458b0bfe4bd9e3005ac799ad03fc7520ee9380",
+      "cdhash": "ec4c943a511f71135c58ae657aca8002cdbe1888",
+      "signingId": "538U58ZTWN:tech.rocketman.ChoicesPackager",
+      "teamId": "538U58ZTWN",
+      "lastUpdated": "2026-06-11T15:31:09Z"
+    },
+    {
       "slug": "royal-tsx/darwin",
       "name": "Royal TSX",
       "version": "6.4.3",
@@ -6215,6 +6245,16 @@
       "lastUpdated": "2026-06-04T15:24:28Z"
     },
     {
+      "slug": "rsyncui/darwin",
+      "name": "RsyncUI",
+      "version": "3.0.0",
+      "sha256": "010075602f5f339f49da21bf9d9ef30d5daa287a938ceadacc5ac3dc5583ba80",
+      "cdhash": "f7cd366f86cb7552d648d6cf2141ebd6b492819e",
+      "signingId": "93M47F4H9T:no.blogspot.RsyncUI",
+      "teamId": "93M47F4H9T",
+      "lastUpdated": "2026-06-11T15:31:30Z"
+    },
+    {
       "slug": "rubymine/darwin",
       "name": "RubyMine",
       "version": "2026.1.3",
@@ -6235,6 +6275,16 @@
       "thumbprint": "8C1B506D0BD10A911D09FB7EDBCAB383F1CDAF20",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-06-05T05:55:10Z"
+    },
+    {
+      "slug": "runjs/darwin",
+      "name": "RunJS",
+      "version": "4.0.6",
+      "sha256": "483676cd5a0d56124bbb34dbc3b42c4190889c4fa6c0a8a93955420b2bfd311f",
+      "cdhash": "4f70cb52b4ada4faaf0af219c91f7af31d761436",
+      "signingId": "8X99KL9DLV:me.lukehaas.runjs",
+      "teamId": "8X99KL9DLV",
+      "lastUpdated": "2026-06-11T15:31:59Z"
     },
     {
       "slug": "rustdesk/darwin",
@@ -6271,12 +6321,12 @@
     {
       "slug": "sabnzbd/darwin",
       "name": "SABnzbd",
-      "version": "5.0.3",
-      "sha256": "0de44a4036ffdd7f2d66b77e108871878222599edede07774ab200b3efd98643",
-      "cdhash": "9f8686a0bf79221560ebcf8509ab65a5c7133cd5",
+      "version": "5.0.4",
+      "sha256": "04e7b986b40bf9a46d70ae8d52fec964386531a035accbe9b9abfa58c62b2561",
+      "cdhash": "24827403b36fc0f985f29c2353f62fc9926e1521",
       "signingId": "Z8BV2PA7WX:org.sabnzbd.sabnzbd",
       "teamId": "Z8BV2PA7WX",
-      "lastUpdated": "2026-06-10T15:17:30Z"
+      "lastUpdated": "2026-06-11T15:32:28Z"
     },
     {
       "slug": "safe-exam-browser/darwin",
@@ -6461,10 +6511,10 @@
     {
       "slug": "sf-symbols/darwin",
       "name": "SF Symbols",
-      "version": "7.2",
-      "sha256": "5e90a820d9b0b894da9b64ef113f98790318bff59dad31e4e23f0a79834a11da",
-      "cdhash": "6461d34a6b8ba565e80019989ed9f14310d97e29",
-      "lastUpdated": "2026-06-03T17:50:34Z"
+      "version": "8.0",
+      "sha256": "b7e3b0d8d381c74c64ae27f3ae0c6b6898789398cf40e2694a3726ede17887d6",
+      "cdhash": "80e6c2157038551dacae0833810f32618ea823c4",
+      "lastUpdated": "2026-06-11T15:34:00Z"
     },
     {
       "slug": "shapr3d/darwin",
@@ -6559,12 +6609,12 @@
     {
       "slug": "signal/darwin",
       "name": "Signal",
-      "version": "8.13.0",
-      "sha256": "a8547309ad220259d074432c4461ca7c7336f65e44df9fd56a5be3851f7c0162",
-      "cdhash": "7c371cc3a055585d98c0d76ac5b5ac1e71139c18",
+      "version": "8.14.0",
+      "sha256": "e05f587e9fb5a4a91b09068f7b819cbf987341115093a316865fef9008d4ad88",
+      "cdhash": "58950615468136c565290e7be52dbe0fc768d13c",
       "signingId": "U68MSDN6DR:org.whispersystems.signal-desktop",
       "teamId": "U68MSDN6DR",
-      "lastUpdated": "2026-06-04T15:12:41Z"
+      "lastUpdated": "2026-06-11T15:35:13Z"
     },
     {
       "slug": "signal/windows",
@@ -7344,22 +7394,22 @@
     {
       "slug": "tableau/darwin",
       "name": "Tableau Desktop",
-      "version": "2026.1.2",
-      "sha256": "e266b9eb5156e0ada0c4fb137c83b51dab2d48b6af414be3ca21e3465f0902cc",
-      "cdhash": "cc4fabdffffc3fdfcf4d52f40509f39d1d32db06",
+      "version": "2026.2.0",
+      "sha256": "672bc3b6d6a3d352f5f547928ed01c19442b44e9b6d67cfa533b97dcaf8e1395",
+      "cdhash": "8c773d592c47c667eb6f75e5c7103554d312b3c8",
       "signingId": "QJ4XPRK37C:com.tableausoftware.tableaudesktop",
       "teamId": "QJ4XPRK37C",
-      "lastUpdated": "2026-05-27T03:27:04Z"
+      "lastUpdated": "2026-06-11T15:40:28Z"
     },
     {
       "slug": "tableplus/darwin",
       "name": "TablePlus",
-      "version": "7.1.6",
-      "sha256": "8743bc97150642420bce32f935b66acfd459b0a54ed9de139853cfeb69da2783",
-      "cdhash": "bcdae3f3616abcc7cd13706273ef96714d9eefa2",
+      "version": "7.1.8",
+      "sha256": "d559cc7a7be08d6dc5fb6ed9fad072cc818eafdadd5c3593b85f662f88b7d20a",
+      "cdhash": "46e2199ef2e440ac4d62949f9fbb56e545792c51",
       "signingId": "3X57WP8E8V:com.tinyapp.TablePlus",
       "teamId": "3X57WP8E8V",
-      "lastUpdated": "2026-06-10T17:48:43Z"
+      "lastUpdated": "2026-06-11T15:41:46Z"
     },
     {
       "slug": "tableplus/windows",
