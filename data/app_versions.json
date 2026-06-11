@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T22:42:25Z",
+  "lastUpdated": "2026-06-11T23:10:22Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -3558,6 +3558,13 @@
       "installerUrl": "https://github.com/objective-see/LuLu/releases/download/v4.3.2/LuLu_4.3.2.dmg"
     },
     {
+      "slug": "mac-mouse-fix/darwin",
+      "name": "Mac Mouse Fix",
+      "platform": "darwin",
+      "version": "3.0.8",
+      "installerUrl": "https://github.com/noah-nuebling/mac-mouse-fix/releases/download/3.0.8/MacMouseFixApp.zip"
+    },
+    {
       "slug": "maccy/darwin",
       "name": "Maccy",
       "platform": "darwin",
@@ -3565,11 +3572,158 @@
       "installerUrl": "https://github.com/p0deje/Maccy/releases/download/2.6.1/Maccy.app.zip"
     },
     {
+      "slug": "macdown/darwin",
+      "name": "MacDown",
+      "platform": "darwin",
+      "version": "0.7.2",
+      "installerUrl": "https://github.com/MacDownApp/macdown/releases/download/v0.7.2/MacDown.app.zip"
+    },
+    {
+      "slug": "mace/darwin",
+      "name": "MACE",
+      "platform": "darwin",
+      "version": "0.2.1-beta",
+      "installerUrl": "https://github.com/MACE-App/MACE/releases/download/v0.2.1-beta/M.A.C.E.V0.2.1-beta.dmg"
+    },
+    {
+      "slug": "macjournal/darwin",
+      "name": "MacJournal",
+      "platform": "darwin",
+      "version": "7.4",
+      "installerUrl": "https://danschimpf.com/macjournal/MacJournal_7.4.zip"
+    },
+    {
+      "slug": "macpacker/darwin",
+      "name": "MacPacker",
+      "platform": "darwin",
+      "version": "0.15.1",
+      "installerUrl": "https://macpacker-releases.s3.amazonaws.com/MacPacker_v0.15.1.zip"
+    },
+    {
+      "slug": "macpass/darwin",
+      "name": "MacPass",
+      "platform": "darwin",
+      "version": "0.8.1",
+      "installerUrl": "https://github.com/MacPass/MacPass/releases/download/0.8.1/MacPass-0.8.1.zip"
+    },
+    {
+      "slug": "macpilot/darwin",
+      "name": "MacPilot",
+      "platform": "darwin",
+      "version": "17.5",
+      "installerUrl": "https://www.koingosw.com/products/macpilot/download/macpilot.dmg"
+    },
+    {
+      "slug": "macs-fan-control/darwin",
+      "name": "Macs Fan Control",
+      "platform": "darwin",
+      "version": "1.5.21",
+      "installerUrl": "https://github.com/crystalidea/macs-fan-control/releases/download/v1.5.21/macsfancontrol.zip"
+    },
+    {
+      "slug": "macsyzones/darwin",
+      "name": "MacsyZones",
+      "platform": "darwin",
+      "version": "3.0.4",
+      "installerUrl": "https://github.com/rohanrhu/MacsyZones/releases/download/v3.0.4/MacsyZones.zip"
+    },
+    {
+      "slug": "mactracker/darwin",
+      "name": "Mactracker",
+      "platform": "darwin",
+      "version": "8.2.3",
+      "installerUrl": "https://mactracker.ca/downloads/Mactracker_8.2.3.zip"
+    },
+    {
+      "slug": "macvim-app/darwin",
+      "name": "MacVim",
+      "platform": "darwin",
+      "version": "183",
+      "installerUrl": "https://github.com/macvim-dev/macvim/releases/download/release-183/MacVim.dmg"
+    },
+    {
+      "slug": "macwhisper/darwin",
+      "name": "MacWhisper",
+      "platform": "darwin",
+      "version": "13.21.4",
+      "installerUrl": "https://cdn.macwhisper.com/macwhisper/MacWhisper-1427.zip"
+    },
+    {
+      "slug": "maestral/darwin",
+      "name": "Maestral",
+      "platform": "darwin",
+      "version": "1.9.5",
+      "installerUrl": "https://github.com/SamSchott/maestral/releases/download/v1.9.5/Maestral-1.9.5.dmg"
+    },
+    {
+      "slug": "magicquit/darwin",
+      "name": "MagicQuit",
+      "platform": "darwin",
+      "version": "1.4",
+      "installerUrl": "https://magicquit.com/apps/MagicQuit_1.4.dmg"
+    },
+    {
+      "slug": "mailspring/darwin",
+      "name": "Mailspring",
+      "platform": "darwin",
+      "version": "1.21.1",
+      "installerUrl": "https://github.com/Foundry376/Mailspring/releases/download/1.21.1/Mailspring-AppleSilicon.zip"
+    },
+    {
+      "slug": "malwarebytes/darwin",
+      "name": "Malwarebytes for Mac",
+      "platform": "darwin",
+      "version": "5.23.1.3862",
+      "installerUrl": "https://data-cdn.mbamupdates.com/web/mb5_mac/Malwarebytes-Mac-5.23.1.3862.pkg"
+    },
+    {
+      "slug": "mark-text/darwin",
+      "name": "MarkText",
+      "platform": "darwin",
+      "version": "0.19.1",
+      "installerUrl": "https://github.com/marktext/marktext/releases/download/v0.19.1/marktext-mac-arm64-0.19.1.dmg"
+    },
+    {
+      "slug": "marked-app/darwin",
+      "name": "Marked",
+      "platform": "darwin",
+      "version": "3.0.29",
+      "installerUrl": "https://updates.markedapp.com/updates/Marked%203.0.29.zip"
+    },
+    {
+      "slug": "markedit/darwin",
+      "name": "MarkEdit",
+      "platform": "darwin",
+      "version": "1.33.0",
+      "installerUrl": "https://github.com/MarkEdit-app/MarkEdit/releases/download/v1.33.0/MarkEdit-1.33.0.dmg"
+    },
+    {
+      "slug": "marsedit/darwin",
+      "name": "MarsEdit",
+      "platform": "darwin",
+      "version": "5.4.3",
+      "installerUrl": "https://redsweater.com/marsedit/MarsEdit5.4.3.zip"
+    },
+    {
+      "slug": "marta/darwin",
+      "name": "Marta File Manager",
+      "platform": "darwin",
+      "version": "0.8.2",
+      "installerUrl": "https://updates.marta.sh/release/Marta-0.8.2.dmg"
+    },
+    {
       "slug": "marvel/darwin",
       "name": "Marvel",
       "platform": "darwin",
       "version": "11.5",
       "installerUrl": "https://storage.googleapis.com/sketch-plugin/11.5/Marvel.zip"
+    },
+    {
+      "slug": "masscode/darwin",
+      "name": "massCode",
+      "platform": "darwin",
+      "version": "5.5.0",
+      "installerUrl": "https://github.com/massCodeIO/massCode/releases/download/v5.5.0/massCode-5.5.0-arm64.dmg"
     },
     {
       "slug": "mattermost/darwin",
@@ -3586,6 +3740,83 @@
       "installerUrl": "https://releases.mattermost.com/desktop/6.0.4/mattermost-desktop-6.0.4-win-x64.msi"
     },
     {
+      "slug": "meetingbar/darwin",
+      "name": "MeetingBar",
+      "platform": "darwin",
+      "version": "4.11.6",
+      "installerUrl": "https://github.com/leits/MeetingBar/releases/download/v4.11.6/MeetingBar.dmg"
+    },
+    {
+      "slug": "megasync/darwin",
+      "name": "MEGAsync",
+      "platform": "darwin",
+      "version": "6.4.0.2",
+      "installerUrl": "https://mega.nz/MEGAsyncSetupArm64.dmg"
+    },
+    {
+      "slug": "mellel/darwin",
+      "name": "Mellel",
+      "platform": "darwin",
+      "version": "6.6.7",
+      "installerUrl": "https://d1riogbqt3a9uw.cloudfront.net/mellel_66703.dmg"
+    },
+    {
+      "slug": "melodics/darwin",
+      "name": "Melodics",
+      "platform": "darwin",
+      "version": "5.0.571",
+      "installerUrl": "https://web-cdn.melodics.com/download/8E9C750C-530F-4FF7-83AA-C1812C161F8B.zip"
+    },
+    {
+      "slug": "memory-cleaner/darwin",
+      "name": "Memory Cleaner",
+      "platform": "darwin",
+      "version": "5.5.2",
+      "installerUrl": "https://download.nektony.com/download/memory-cleaner/dmg/memory-cleaner.dmg?build=269"
+    },
+    {
+      "slug": "memory/darwin",
+      "name": "Memory Tracker by Timely",
+      "platform": "darwin",
+      "version": "2023.11",
+      "installerUrl": "https://memorymacapp.s3.amazonaws.com/Memory.zip"
+    },
+    {
+      "slug": "memoryanalyzer/darwin",
+      "name": "Eclipse Memory Analyzer",
+      "platform": "darwin",
+      "version": "1.16.1.20250109",
+      "installerUrl": "https://download.eclipse.org/mat/1.16.1/rcp/MemoryAnalyzer-1.16.1.20250109-macosx.cocoa.aarch64.dmg"
+    },
+    {
+      "slug": "mendeley-reference-manager/darwin",
+      "name": "Mendeley Reference Manager",
+      "platform": "darwin",
+      "version": "2.145.0",
+      "installerUrl": "https://static.mendeley.com/bin/desktop/mendeley-reference-manager-2.145.0-universal.dmg"
+    },
+    {
+      "slug": "menubar-stats/darwin",
+      "name": "MenuBar Stats",
+      "platform": "darwin",
+      "version": "3.9",
+      "installerUrl": "https://seense.com/menubarstats/updateapp/mbs.zip"
+    },
+    {
+      "slug": "menubarx/darwin",
+      "name": "MenubarX",
+      "platform": "darwin",
+      "version": "1.7.6",
+      "installerUrl": "https://menubarx-1251679148.file.myqcloud.com/download/MenubarX-1.7.6.dmg"
+    },
+    {
+      "slug": "merlin-project/darwin",
+      "name": "Merlin Project",
+      "platform": "darwin",
+      "version": "9.1.2",
+      "installerUrl": "https://www.projectwizards.net/downloads/MerlinProject.zip"
+    },
+    {
       "slug": "microsoft-365-copilot/darwin",
       "name": "Microsoft 365 Copilot",
       "platform": "darwin",
@@ -3598,6 +3829,13 @@
       "platform": "darwin",
       "version": "4.83",
       "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_AutoUpdate_4.83.26040910_Updater.pkg"
+    },
+    {
+      "slug": "microsoft-azure-storage-explorer/darwin",
+      "name": "Microsoft Azure Storage Explorer",
+      "platform": "darwin",
+      "version": "1.43.0",
+      "installerUrl": "https://github.com/microsoft/AzureStorageExplorer/releases/download/v1.43.0/StorageExplorer-darwin-arm64.zip"
     },
     {
       "slug": "microsoft-dotnet-runtime-10/windows",
@@ -3698,6 +3936,48 @@
       "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.109.26053122_Installer.pkg"
     },
     {
+      "slug": "middle/darwin",
+      "name": "Middle",
+      "platform": "darwin",
+      "version": "1.14",
+      "installerUrl": "https://middleclick.app/downloads/Middle1.14.dmg"
+    },
+    {
+      "slug": "middleclick/darwin",
+      "name": "MiddleClick",
+      "platform": "darwin",
+      "version": "3.2.0",
+      "installerUrl": "https://github.com/artginzburg/MiddleClick/releases/download/3.2.0/MiddleClick.zip"
+    },
+    {
+      "slug": "milanote/darwin",
+      "name": "Milanote",
+      "platform": "darwin",
+      "version": "3.18.107",
+      "installerUrl": "https://milanote-app-releases.s3.amazonaws.com/Milanote-3.18.107.dmg"
+    },
+    {
+      "slug": "mimecast/darwin",
+      "name": "Mimecast for Mac",
+      "platform": "darwin",
+      "version": "2.11",
+      "installerUrl": "https://us-api.mimecast.com/update/bin/msm/eNptjMtuwjAURP_F6xb5mdjsoBWL8lBVhKqyiRzfa7CKkxYnoaTqv9fsWY00c-b8koSuP2MAMiVvzUn4xerA5gv_8RKfr5fd97haDj-7i9ovj-YwcjsPfP36rrd-vTzqbR2LYTOmzQJmcF2RB-JOAZuu_wLb4cSHE04aGzG71yGis6mbQDzc5SKojIG3SjrNlRGqMKIUvHRgwDHuCi50cbv2qWsjnl0LN_HTbjtjM2nuSlMYbwyjrDSS6swMeE6hbciU3eO79hPzRuqqT5RVSlUDKPUoKk45pSpXkjOBhlFEB-C8LrUsTAFSuZLpmqI33tKS5dRWc5_7GmovbQ1WGecY-fsHKkl1eg"
+    },
+    {
+      "slug": "mimestream/darwin",
+      "name": "Mimestream",
+      "platform": "darwin",
+      "version": "1.10.1",
+      "installerUrl": "https://download.mimestream.com/Mimestream_1.10.1.dmg"
+    },
+    {
+      "slug": "mindmac/darwin",
+      "name": "MindMac",
+      "platform": "darwin",
+      "version": "1.9.28",
+      "installerUrl": "https://github.com/MindMacApp/MindMac/releases/download/1.9.28/MindMac_1.9.28.dmg"
+    },
+    {
       "slug": "mindmanager/darwin",
       "name": "MindManager",
       "platform": "darwin",
@@ -3710,6 +3990,20 @@
       "platform": "windows",
       "version": "25.0.208.0",
       "installerUrl": "https://download.mindjet.com/MindManager_64bit_25.0.208_redist.exe"
+    },
+    {
+      "slug": "minisim/darwin",
+      "name": "MiniSim",
+      "platform": "darwin",
+      "version": "0.10.0",
+      "installerUrl": "https://github.com/okwasniewski/MiniSim/releases/download/v0.10.0/MiniSim.app.zip"
+    },
+    {
+      "slug": "minstaller/darwin",
+      "name": "mInstaller",
+      "platform": "darwin",
+      "version": "3.2.5",
+      "installerUrl": "https://s3.motionvfx.com/mvfxpublic/mInstaller/sparkle/mInstaller-3.2.5.zip"
     },
     {
       "slug": "miro/darwin",
@@ -3726,6 +4020,48 @@
       "installerUrl": "https://desktop.miro.com/platforms/win32-nsis-pu/Miro-setup.exe"
     },
     {
+      "slug": "missive/darwin",
+      "name": "Missive",
+      "platform": "darwin",
+      "version": "11.29.0",
+      "installerUrl": "https://downloads.missiveapp.com/11.29.0/Missive-11.29.0.dmg"
+    },
+    {
+      "slug": "mist/darwin",
+      "name": "Mist",
+      "platform": "darwin",
+      "version": "0.30",
+      "installerUrl": "https://github.com/ninxsoft/Mist/releases/download/v0.30/Mist.0.30.pkg"
+    },
+    {
+      "slug": "mixxx/darwin",
+      "name": "Mixxx",
+      "platform": "darwin",
+      "version": "2.5.6",
+      "installerUrl": "https://downloads.mixxx.org/releases/2.5.6/mixxx-2.5.6-macosarm.dmg"
+    },
+    {
+      "slug": "mobirise/darwin",
+      "name": "Mobirise",
+      "platform": "darwin",
+      "version": "6.1.12",
+      "installerUrl": "https://download.mobirise.com/MobiriseSetup-m.dmg"
+    },
+    {
+      "slug": "mockoon/darwin",
+      "name": "Mockoon",
+      "platform": "darwin",
+      "version": "9.6.1",
+      "installerUrl": "https://github.com/mockoon/mockoon/releases/download/v9.6.1/mockoon.setup.9.6.1.arm64.dmg"
+    },
+    {
+      "slug": "modern-csv/darwin",
+      "name": "Modern CSV",
+      "platform": "darwin",
+      "version": "2.4.2",
+      "installerUrl": "https://www.moderncsv.com/release/ModernCSV-Mac-v2.4.2.dmg"
+    },
+    {
       "slug": "mongodb-compass/darwin",
       "name": "MongoDB Compass",
       "platform": "darwin",
@@ -3738,6 +4074,104 @@
       "platform": "windows",
       "version": "1.49.8.0",
       "installerUrl": "https://github.com/mongodb-js/compass/releases/download/v1.49.8/mongodb-compass-1.49.8-win32-x64.msi"
+    },
+    {
+      "slug": "monitorcontrol/darwin",
+      "name": "MonitorControl",
+      "platform": "darwin",
+      "version": "4.3.3",
+      "installerUrl": "https://github.com/MonitorControl/MonitorControl/releases/download/v4.3.3/MonitorControl.4.3.3.dmg"
+    },
+    {
+      "slug": "moom/darwin",
+      "name": "Moom",
+      "platform": "darwin",
+      "version": "4.5.0",
+      "installerUrl": "https://manytricks.com/download/_do_not_hotlink_/moom450.dmg"
+    },
+    {
+      "slug": "moonlight/darwin",
+      "name": "Moonlight",
+      "platform": "darwin",
+      "version": "6.1.0",
+      "installerUrl": "https://github.com/moonlight-stream/moonlight-qt/releases/download/v6.1.0/Moonlight-6.1.0.dmg"
+    },
+    {
+      "slug": "morgen/darwin",
+      "name": "Morgen",
+      "platform": "darwin",
+      "version": "4.0.6",
+      "installerUrl": "https://download.todesktop.com/210203cqcj00tw1/Morgen%204.0.6%20-%20Build%20260519by9gmr661-arm64.dmg"
+    },
+    {
+      "slug": "mos/darwin",
+      "name": "Mos",
+      "platform": "darwin",
+      "version": "4.2.1",
+      "installerUrl": "https://github.com/Caldis/Mos/releases/download/4.2.1/Mos.Versions.4.2.1-20260531.1.zip"
+    },
+    {
+      "slug": "mountain-duck/darwin",
+      "name": "Mountain Duck",
+      "platform": "darwin",
+      "version": "5.2.1",
+      "installerUrl": "https://dist.mountainduck.io/Mountain%20Duck-5.2.1.28671.zip"
+    },
+    {
+      "slug": "mqttx/darwin",
+      "name": "MQTTX",
+      "platform": "darwin",
+      "version": "1.13.0",
+      "installerUrl": "https://github.com/emqx/MQTTX/releases/download/v1.13.0/MQTTX-1.13.0-arm64.dmg"
+    },
+    {
+      "slug": "mullvad-browser/darwin",
+      "name": "Mullvad Browser",
+      "platform": "darwin",
+      "version": "15.0.14",
+      "installerUrl": "https://cdn.mullvad.net/browser/15.0.14/mullvad-browser-macos-15.0.14.dmg"
+    },
+    {
+      "slug": "mullvad-vpn/darwin",
+      "name": "Mullvad VPN",
+      "platform": "darwin",
+      "version": "2026.2",
+      "installerUrl": "https://cdn.mullvad.net/app/desktop/releases/2026.2/MullvadVPN-2026.2.pkg"
+    },
+    {
+      "slug": "multitouch/darwin",
+      "name": "Multitouch",
+      "platform": "darwin",
+      "version": "1.48",
+      "installerUrl": "https://multitouch.app/downloads/multitouch1.48.dmg"
+    },
+    {
+      "slug": "mural/darwin",
+      "name": "MURAL",
+      "platform": "darwin",
+      "version": "3.0.4",
+      "installerUrl": "https://download.mural.co/mac-app/Mural-3.0.4.dmg"
+    },
+    {
+      "slug": "museeks/darwin",
+      "name": "Museeks",
+      "platform": "darwin",
+      "version": "0.23.4",
+      "installerUrl": "https://github.com/martpie/museeks/releases/download/0.23.4/Museeks_0.23.4_universal.dmg"
+    },
+    {
+      "slug": "musescore/darwin",
+      "name": "MuseScore",
+      "platform": "darwin",
+      "version": "4.7.2.260525085",
+      "installerUrl": "https://github.com/musescore/MuseScore/releases/download/v4.7.2/MuseScore-Studio-4.7.2.260525085.dmg"
+    },
+    {
+      "slug": "mx-power-gadget/darwin",
+      "name": "Mx Power Gadget",
+      "platform": "darwin",
+      "version": "1.6.4",
+      "installerUrl": "https://www.seense.com/menubarstats/mxpg/updateapp/mxpg.zip"
     },
     {
       "slug": "mysqlworkbench/darwin",
