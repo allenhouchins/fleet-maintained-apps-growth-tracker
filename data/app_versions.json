@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T15:16:24Z",
+  "lastUpdated": "2026-06-11T16:20:10Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -2280,15 +2280,15 @@
       "slug": "granola/darwin",
       "name": "Granola",
       "platform": "darwin",
-      "version": "7.309.0",
-      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.309.0/Granola-7.309.0-mac-universal.dmg"
+      "version": "7.319.1",
+      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.319.1/Granola-7.319.1-mac-universal.dmg"
     },
     {
       "slug": "granola/windows",
       "name": "Granola",
       "platform": "windows",
-      "version": "7.309.0",
-      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.309.0/Granola-7.309.0-win-x64.exe"
+      "version": "7.319.1",
+      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.319.1/Granola-7.319.1-win-x64.exe"
     },
     {
       "slug": "grids/darwin",
@@ -2392,8 +2392,8 @@
       "slug": "hive-app/darwin",
       "name": "Hive",
       "platform": "darwin",
-      "version": "1.1.25",
-      "installerUrl": "https://github.com/morapelker/hive/releases/download/v1.1.25/Hive-1.1.25-arm64.dmg"
+      "version": "1.1.27",
+      "installerUrl": "https://github.com/morapelker/hive/releases/download/v1.1.27/Hive-1.1.27-arm64.dmg"
     },
     {
       "slug": "home-assistant/darwin",
@@ -3012,6 +3012,13 @@
       "installerUrl": "https://download01.logi.com/web/ftp/pub/techsupport/optionsplus/logioptionsplus_installer.exe"
     },
     {
+      "slug": "logitune/darwin",
+      "name": "Logi Tune",
+      "platform": "darwin",
+      "version": "3.11.89",
+      "installerUrl": "https://software.vc.logitech.com/downloads/tune/LogiTuneInstaller.pkg"
+    },
+    {
       "slug": "loom/darwin",
       "name": "Loom",
       "platform": "darwin",
@@ -3628,6 +3635,27 @@
       "installerUrl": "https://filehost.perforce.com/perforce/r26.1/bin.ntx64/p4vinst64.msi"
     },
     {
+      "slug": "pacifist/darwin",
+      "name": "Pacifist",
+      "platform": "darwin",
+      "version": "4.1.4",
+      "installerUrl": "https://www.charlessoft.com/pacifist_download/Pacifist_4.1.4.dmg"
+    },
+    {
+      "slug": "pale-moon/darwin",
+      "name": "Pale Moon",
+      "platform": "darwin",
+      "version": "34.3.0",
+      "installerUrl": "https://rm-us.palemoon.org/release/palemoon-34.3.0.arm64.dmg"
+    },
+    {
+      "slug": "paletro/darwin",
+      "name": "Paletro",
+      "platform": "darwin",
+      "version": "1.11.0",
+      "installerUrl": "https://appmakes.io/paletro/download/Paletro-1.11.0.dmg"
+    },
+    {
       "slug": "parallels/darwin",
       "name": "Parallels Desktop",
       "platform": "darwin",
@@ -3635,11 +3663,53 @@
       "installerUrl": "https://download.parallels.com/desktop/v26/26.3.3-57507/ParallelsDesktop-26.3.3-57507.dmg"
     },
     {
+      "slug": "pastebot/darwin",
+      "name": "Pastebot",
+      "platform": "darwin",
+      "version": "2.4.6",
+      "installerUrl": "https://tapbots.net/pastebot2/Pastebot.dmg"
+    },
+    {
+      "slug": "pcoipclient/darwin",
+      "name": "Teradici PCoIP Software Client for macOS",
+      "platform": "darwin",
+      "version": "26.01.2",
+      "installerUrl": "https://dl.anyware.hp.com/DeAdBCiUYInHcSTy/pcoip-client/raw/names/pcoip-client-dmg/versions/26.01.2/pcoip-client_26.01.2.dmg"
+    },
+    {
       "slug": "pd/darwin",
       "name": "Pd",
       "platform": "darwin",
       "version": "0.56.3",
       "installerUrl": "https://msp.ucsd.edu/Software/pd-0.56-3.macos.zip"
+    },
+    {
+      "slug": "pdf-expert/darwin",
+      "name": "PDF Expert",
+      "platform": "darwin",
+      "version": "3.11.3",
+      "installerUrl": "https://downloads.pdfexpert.com/pem3/versions/1159/PDFExpert.zip"
+    },
+    {
+      "slug": "pdf-pals/darwin",
+      "name": "PDF Pals",
+      "platform": "darwin",
+      "version": "1.9.0",
+      "installerUrl": "https://download.pdfpals.com/releases/PDFPals-1.9.0.dmg"
+    },
+    {
+      "slug": "pdfsam-basic/darwin",
+      "name": "PDFsam Basic",
+      "platform": "darwin",
+      "version": "6.0.1",
+      "installerUrl": "https://github.com/torakiki/pdfsam/releases/download/v6.0.1/pdfsam-basic-6.0.1-macos-arm64.dmg"
+    },
+    {
+      "slug": "pearcleaner/darwin",
+      "name": "Pearcleaner",
+      "platform": "darwin",
+      "version": "5.4.3",
+      "installerUrl": "https://github.com/alienator88/Pearcleaner/releases/download/5.4.3/Pearcleaner-arm.zip"
     },
     {
       "slug": "pgadmin4/darwin",
@@ -3656,6 +3726,27 @@
       "installerUrl": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.15/windows/pgadmin4-9.15-x64.exe"
     },
     {
+      "slug": "phoenix-slides/darwin",
+      "name": "Phoenix Slides",
+      "platform": "darwin",
+      "version": "1.6.1",
+      "installerUrl": "https://github.com/gobbledegook/creevey/releases/download/v1.6.1/phoenix-slides-161.dmg"
+    },
+    {
+      "slug": "photosrevive/darwin",
+      "name": "PhotosRevive",
+      "platform": "darwin",
+      "version": "2.2.0",
+      "installerUrl": "https://neededapps.com/appcasts/photosrevive/versions/2.2.0"
+    },
+    {
+      "slug": "photostickies/darwin",
+      "name": "PhotoStickies",
+      "platform": "darwin",
+      "version": "6.0.1",
+      "installerUrl": "https://download.devontechnologies.com/download/freeware/photostickies/6.0.1/PhotoStickies.app.zip"
+    },
+    {
       "slug": "phpstorm/darwin",
       "name": "PhpStorm",
       "platform": "darwin",
@@ -3670,11 +3761,88 @@
       "installerUrl": "https://download.jetbrains.com/webide/PhpStorm-2026.1.3.exe"
     },
     {
+      "slug": "pibar/darwin",
+      "name": "PiBar",
+      "platform": "darwin",
+      "version": "1.2.1",
+      "installerUrl": "https://amiantos.s3.amazonaws.com/PiBar-1.2.1.zip"
+    },
+    {
+      "slug": "picview/darwin",
+      "name": "PicView",
+      "platform": "darwin",
+      "version": "4.2.0",
+      "installerUrl": "https://github.com/Ruben2776/PicView/releases/download/4.2.0/PicView-4.2.0-macOS-arm64.dmg"
+    },
+    {
+      "slug": "piezo/darwin",
+      "name": "Piezo",
+      "platform": "darwin",
+      "version": "1.9.9",
+      "installerUrl": "https://cdn.rogueamoeba.com/piezo/download/Piezo.zip"
+    },
+    {
+      "slug": "pika/darwin",
+      "name": "Pika",
+      "platform": "darwin",
+      "version": "1.7.0",
+      "installerUrl": "https://github.com/superhighfives/pika/releases/download/1.7.0/Pika-1.7.0.dmg"
+    },
+    {
+      "slug": "piphero/darwin",
+      "name": "PiPHero",
+      "platform": "darwin",
+      "version": "1.2.0",
+      "installerUrl": "https://github.com/pipheroapp/downloads/releases/download/v1.2.0/PiPHero-1.2.0-mac-arm64.dmg"
+    },
+    {
+      "slug": "pixelsnap/darwin",
+      "name": "PixelSnap",
+      "platform": "darwin",
+      "version": "2.6.3",
+      "installerUrl": "https://updates.getpixelsnap.com/v2/PixelSnap-2-2.6.3.dmg"
+    },
+    {
       "slug": "plantronics-hub/windows",
       "name": "Plantronics Hub",
       "platform": "windows",
       "version": "3.25.54307.37251",
       "installerUrl": "https://downloads.poly.com/headsets/PlantronicsHubInstaller.exe"
+    },
+    {
+      "slug": "platypus/darwin",
+      "name": "Platypus",
+      "platform": "darwin",
+      "version": "5.5.0",
+      "installerUrl": "https://sveinbjorn.org/files/software/platypus/platypus5.5.0.zip"
+    },
+    {
+      "slug": "plex-htpc/darwin",
+      "name": "Plex HTPC",
+      "platform": "darwin",
+      "version": "1.71.1.346",
+      "installerUrl": "https://downloads.plex.tv/htpc/1.71.1.346-f62ce923/macos/PlexHTPC-1.71.1.346-f62ce923-universal.zip"
+    },
+    {
+      "slug": "plex-media-server/darwin",
+      "name": "Plex Media Server",
+      "platform": "darwin",
+      "version": "1.43.2.10687",
+      "installerUrl": "https://downloads.plex.tv/plex-media-server-new/1.43.2.10687-563d026ea/macos/PlexMediaServer-1.43.2.10687-563d026ea-universal.zip"
+    },
+    {
+      "slug": "plex/darwin",
+      "name": "Plex",
+      "platform": "darwin",
+      "version": "1.112.0.359",
+      "installerUrl": "https://downloads.plex.tv/plex-desktop/1.112.0.359-0d79a49f/macos/Plex-1.112.0.359-0d79a49f-universal.zip"
+    },
+    {
+      "slug": "plistedit-pro/darwin",
+      "name": "PlistEdit Pro",
+      "platform": "darwin",
+      "version": "1.10.0",
+      "installerUrl": "https://www.fatcatsoftware.com/plisteditpro/downloads/PlistEditPro_1100.zip"
     },
     {
       "slug": "plugdata/darwin",
@@ -3689,6 +3857,41 @@
       "platform": "darwin",
       "version": "1.27.2",
       "installerUrl": "https://github.com/containers/podman-desktop/releases/download/v1.27.2/podman-desktop-1.27.2-arm64.dmg"
+    },
+    {
+      "slug": "popchar/darwin",
+      "name": "PopChar X",
+      "platform": "darwin",
+      "version": "10.5",
+      "installerUrl": "https://www.ergonis.com/downloads/products/popcharx/PopCharX105-Install.dmg"
+    },
+    {
+      "slug": "popclip/darwin",
+      "name": "PopClip",
+      "platform": "darwin",
+      "version": "2025.9.2",
+      "installerUrl": "https://pilotmoon.com/downloads/PopClip-2025.9.2.zip"
+    },
+    {
+      "slug": "popsql/darwin",
+      "name": "PopSQL",
+      "platform": "darwin",
+      "version": "1.0.135",
+      "installerUrl": "https://popsql-releases.s3.amazonaws.com/mac/PopSQL-1.0.135-arm64.dmg"
+    },
+    {
+      "slug": "portfolioperformance/darwin",
+      "name": "Portfolio Performance",
+      "platform": "darwin",
+      "version": "0.84.0",
+      "installerUrl": "https://github.com/buchen/portfolio/releases/download/0.84.0/PortfolioPerformance-0.84.0-aarch64.dmg"
+    },
+    {
+      "slug": "postgres-app/darwin",
+      "name": "Postgres",
+      "platform": "darwin",
+      "version": "2.9.5",
+      "installerUrl": "https://github.com/PostgresApp/PostgresApp/releases/download/v2.9.5/Postgres-2.9.5-14-15-16-17-18.dmg"
     },
     {
       "slug": "postgresql-15/windows",
@@ -3717,6 +3920,13 @@
       "platform": "windows",
       "version": "18.4-1",
       "installerUrl": "https://get.enterprisedb.com/postgresql/postgresql-18.4-1-windows-x64.exe"
+    },
+    {
+      "slug": "postico/darwin",
+      "name": "Postico",
+      "platform": "darwin",
+      "version": "2.3.3",
+      "installerUrl": "https://downloads.eggerapps.at/postico/postico-9804.dmg"
     },
     {
       "slug": "postman/darwin",
@@ -3754,6 +3964,13 @@
       "installerUrl": "https://github.com/SAP/power-monitoring-tool-for-macos/releases/download/1.3.3/PowerMonitor_1.3.3.pkg"
     },
     {
+      "slug": "powerphotos/darwin",
+      "name": "PowerPhotos",
+      "platform": "darwin",
+      "version": "3.3.5",
+      "installerUrl": "https://www.fatcatsoftware.com/powerphotos/PowerPhotos.zip"
+    },
+    {
       "slug": "powershell/windows",
       "name": "PowerShell",
       "platform": "windows",
@@ -3773,6 +3990,27 @@
       "platform": "darwin",
       "version": "2.0.0",
       "installerUrl": "https://github.com/jamf/PPPC-Utility/releases/download/2.0.0/PPPC-Utility.zip"
+    },
+    {
+      "slug": "preform/darwin",
+      "name": "PreForm",
+      "platform": "darwin",
+      "version": "3.48.0",
+      "installerUrl": "https://downloads.formlabs.com/PreForm/Release/3.48.0/PreForm_mac_3.48.0_release_releaser_523_98058.dmg"
+    },
+    {
+      "slug": "principle/darwin",
+      "name": "Principle",
+      "platform": "darwin",
+      "version": "6.42",
+      "installerUrl": "https://principleformac.com/download/Principle_6_42.zip"
+    },
+    {
+      "slug": "prism/darwin",
+      "name": "GraphPad Prism",
+      "platform": "darwin",
+      "version": "11.0.2",
+      "installerUrl": "https://cdn.graphpad.com/downloads/prism/11/11.0.2/InstallPrism11.dmg"
     },
     {
       "slug": "prisma-browser/windows",
@@ -3803,11 +4041,67 @@
       "installerUrl": "https://github.com/SAP/macOS-enterprise-privileges/releases/download/2.5.3/Privileges_2.5.3.pkg"
     },
     {
+      "slug": "prizmo/darwin",
+      "name": "Prizmo",
+      "platform": "darwin",
+      "version": "4.7.1",
+      "installerUrl": "https://creaceed.s3.amazonaws.com/downloads/prizmo4_4.7.1.zip"
+    },
+    {
+      "slug": "processing/darwin",
+      "name": "Processing",
+      "platform": "darwin",
+      "version": "4.5.2",
+      "installerUrl": "https://github.com/processing/processing4/releases/download/processing-1313-4.5.2/processing-4.5.2-macos-aarch64.dmg"
+    },
+    {
+      "slug": "processspy/darwin",
+      "name": "ProcessSpy",
+      "platform": "darwin",
+      "version": "1.13.4",
+      "installerUrl": "https://process-spy.app/archive/ProcessSpy_1.13.4.dmg"
+    },
+    {
+      "slug": "pronotes/darwin",
+      "name": "ProNotes",
+      "platform": "darwin",
+      "version": "0.7.8.2",
+      "installerUrl": "https://assets.pronotes.app/downloads/ProNotes-0.7.8.2.zip"
+    },
+    {
+      "slug": "proton-drive/darwin",
+      "name": "Proton Drive",
+      "platform": "darwin",
+      "version": "3.0.0",
+      "installerUrl": "https://proton.me/download/drive/macos/3.0.0/ProtonDrive-3.0.0.dmg"
+    },
+    {
+      "slug": "proton-mail-bridge/darwin",
+      "name": "Proton Mail Bridge",
+      "platform": "darwin",
+      "version": "3.24.2",
+      "installerUrl": "https://github.com/ProtonMail/proton-bridge/releases/download/v3.24.2/Bridge-Installer.dmg"
+    },
+    {
       "slug": "proton-mail/darwin",
       "name": "Proton Mail",
       "platform": "darwin",
       "version": "1.12.1",
       "installerUrl": "https://proton.me/download/mail/macos/1.12.1/ProtonMail-desktop.dmg"
+    },
+    {
+      "slug": "proton-meet/darwin",
+      "name": "Proton Meet",
+      "platform": "darwin",
+      "version": "1.0.9",
+      "installerUrl": "https://proton.me/download/meet/macos/1.0.9/ProtonMeet-desktop.dmg"
+    },
+    {
+      "slug": "proton-pass/darwin",
+      "name": "Proton Pass",
+      "platform": "darwin",
+      "version": "1.37.0",
+      "installerUrl": "https://proton.me/download/pass/macos/ProtonPass_1.37.0.dmg"
     },
     {
       "slug": "protonvpn/darwin",
@@ -3822,6 +4116,13 @@
       "platform": "windows",
       "version": "4.4.1",
       "installerUrl": "https://vpn.protondownload.com/download/ProtonVPN_v4.4.1_x64.exe"
+    },
+    {
+      "slug": "protopie/darwin",
+      "name": "ProtoPie",
+      "platform": "darwin",
+      "version": "9.0.0",
+      "installerUrl": "https://release.protopie.io/ProtoPie-9.0.0-universal.dmg"
     },
     {
       "slug": "proxifier/darwin",
@@ -3843,6 +4144,20 @@
       "platform": "darwin",
       "version": "6.11.0",
       "installerUrl": "https://download.proxyman.com/61100/Proxyman_6.11.0.dmg"
+    },
+    {
+      "slug": "pulsar/darwin",
+      "name": "Pulsar",
+      "platform": "darwin",
+      "version": "1.132.1",
+      "installerUrl": "https://github.com/pulsar-edit/pulsar/releases/download/v1.132.1/Silicon.Mac.Pulsar-1.132.1-arm64.dmg"
+    },
+    {
+      "slug": "purevpn/darwin",
+      "name": "PureVPN",
+      "platform": "darwin",
+      "version": "9.43.0",
+      "installerUrl": "https://dzglif4kkvz04.cloudfront.net/mac-2.0/packages/Production/PureVPN.pkg"
     },
     {
       "slug": "putty/windows",
@@ -4013,18 +4328,18 @@
       "installerUrl": "https://recentsapp.com/releases/Recents_2.5.0.dmg"
     },
     {
-      "slug": "rectangle/darwin",
-      "name": "Rectangle",
-      "platform": "darwin",
-      "version": "0.96",
-      "installerUrl": "https://github.com/rxhanson/Rectangle/releases/download/v0.96/Rectangle0.96.dmg"
-    },
-    {
       "slug": "rectangle-pro/darwin",
       "name": "Rectangle Pro",
       "platform": "darwin",
       "version": "3.80",
       "installerUrl": "https://rectangleapp.com/pro/downloads/Rectangle%20Pro%203.80.dmg"
+    },
+    {
+      "slug": "rectangle/darwin",
+      "name": "Rectangle",
+      "platform": "darwin",
+      "version": "0.96",
+      "installerUrl": "https://github.com/rxhanson/Rectangle/releases/download/v0.96/Rectangle0.96.dmg"
     },
     {
       "slug": "recut/darwin",
@@ -4135,7 +4450,7 @@
       "slug": "rightfont/darwin",
       "name": "RightFont",
       "platform": "darwin",
-      "version": "10.0",
+      "version": "10.0.1",
       "installerUrl": "https://rightfontapp.com/update/rightfont.zip"
     },
     {
