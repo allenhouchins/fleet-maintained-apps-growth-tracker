@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T17:20:55Z",
+  "lastUpdated": "2026-06-11T19:07:56Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1465,11 +1465,46 @@
       "installerUrl": "https://downloads.cdn.cycling74.com/max9/Max914_260407.dmg"
     },
     {
+      "slug": "daisydisk/darwin",
+      "name": "DaisyDisk",
+      "platform": "darwin",
+      "version": "4.33.3",
+      "installerUrl": "https://daisydiskapp.com/download/DaisyDisk.zip"
+    },
+    {
+      "slug": "dangerzone/darwin",
+      "name": "Dangerzone",
+      "platform": "darwin",
+      "version": "0.10.0",
+      "installerUrl": "https://github.com/freedomofpress/dangerzone/releases/download/v0.10.0/Dangerzone-0.10.0-arm64.dmg"
+    },
+    {
+      "slug": "darkmodebuddy/darwin",
+      "name": "DarkModeBuddy",
+      "platform": "darwin",
+      "version": "1.2",
+      "installerUrl": "https://su.darkmodebuddy.app/DarkModeBuddy_v1.2-13.dmg"
+    },
+    {
+      "slug": "darktable/darwin",
+      "name": "darktable",
+      "platform": "darwin",
+      "version": "5.4.1",
+      "installerUrl": "https://github.com/darktable-org/darktable/releases/download/release-5.4.1/darktable-5.4.1-arm64.dmg"
+    },
+    {
       "slug": "dash/darwin",
       "name": "Dash",
       "platform": "darwin",
       "version": "8.1.1",
       "installerUrl": "https://kapeli.com/downloads/v8/Dash.zip"
+    },
+    {
+      "slug": "dataflare/darwin",
+      "name": "Dataflare",
+      "platform": "darwin",
+      "version": "3.1.1",
+      "installerUrl": "https://assets.dataflare.app/release/darwin/aarch64/Dataflare-3.1.1.dmg"
     },
     {
       "slug": "datagrip/darwin",
@@ -1484,6 +1519,20 @@
       "platform": "windows",
       "version": "2026.1.3",
       "installerUrl": "https://download.jetbrains.com/datagrip/datagrip-2026.1.3.exe"
+    },
+    {
+      "slug": "dataspell/darwin",
+      "name": "DataSpell",
+      "platform": "darwin",
+      "version": "2026.1.2",
+      "installerUrl": "https://download.jetbrains.com/python/dataspell-2026.1.2-aarch64.dmg"
+    },
+    {
+      "slug": "dayflow/darwin",
+      "name": "Dayflow",
+      "platform": "darwin",
+      "version": "1.14.0",
+      "installerUrl": "https://github.com/JerryZLiu/Dayflow/releases/download/v1.14.0/Dayflow.dmg"
     },
     {
       "slug": "db-browser-for-sqlite/darwin",
@@ -1556,11 +1605,39 @@
       "installerUrl": "https://downloads.dbeaver.net/ultimate/26.1.0/dbeaver-ue-26.1.0-windows-x86_64.exe"
     },
     {
+      "slug": "dbgate/darwin",
+      "name": "DbGate",
+      "platform": "darwin",
+      "version": "7.2.0",
+      "installerUrl": "https://github.com/dbgate/dbgate/releases/download/v7.2.0/dbgate-7.2.0-mac_universal.dmg"
+    },
+    {
+      "slug": "dbvisualizer/darwin",
+      "name": "DbVisualizer",
+      "platform": "darwin",
+      "version": "26.1.2",
+      "installerUrl": "https://www.dbvis.com/product_download/dbvis-26.1.2/media/dbvis_macos-aarch64_26_1_2.dmg"
+    },
+    {
       "slug": "dcv-viewer/darwin",
       "name": "Amazon DCV",
       "platform": "darwin",
       "version": "2025.0.8846",
       "installerUrl": "https://d1uj6qtbmh3dt5.cloudfront.net/2025.0/Clients/nice-dcv-viewer-2025.0.8846.arm64.dmg"
+    },
+    {
+      "slug": "debookee/darwin",
+      "name": "Debookee",
+      "platform": "darwin",
+      "version": "8.2.0",
+      "installerUrl": "https://www.iwaxx.com/debookee/debookee.zip"
+    },
+    {
+      "slug": "deckset/darwin",
+      "name": "Deckset",
+      "platform": "darwin",
+      "version": "2.0.51",
+      "installerUrl": "https://dl.decksetapp.com/Deckset+2.0.51+(2807).dmg"
     },
     {
       "slug": "deepl/darwin",
@@ -1570,6 +1647,20 @@
       "installerUrl": "https://www.deepl.com/macos/download/26.4/24484530/DeepL.dmg"
     },
     {
+      "slug": "deezer/darwin",
+      "name": "Deezer",
+      "platform": "darwin",
+      "version": "7.1.230",
+      "installerUrl": "https://www.deezer.com/desktop/download/artifact-darwin-x64-7.1.230"
+    },
+    {
+      "slug": "default-folder-x/darwin",
+      "name": "Default Folder X",
+      "platform": "darwin",
+      "version": "6.2.8",
+      "installerUrl": "https://www.stclairsoft.com/download/DefaultFolderX-6.2.8.dmg"
+    },
+    {
       "slug": "dell-command-update/windows",
       "name": "Dell Command Update",
       "platform": "windows",
@@ -1577,11 +1668,67 @@
       "installerUrl": "https://dl.dell.com/FOLDER14424243M/1/Dell-Command-Update-Application_RXT5N_WIN64_5.7.0_A00.EXE"
     },
     {
+      "slug": "descript/darwin",
+      "name": "Descript",
+      "platform": "darwin",
+      "version": "114.0.4-release.20250509.32955",
+      "installerUrl": "https://electron.descript.com/Descript-114.0.4-release.20250509.32955-arm64.dmg"
+    },
+    {
+      "slug": "deskpad/darwin",
+      "name": "DeskPad",
+      "platform": "darwin",
+      "version": "1.3.2",
+      "installerUrl": "https://github.com/Stengo/DeskPad/releases/download/v1.3.2/DeskPad.app.zip"
+    },
+    {
+      "slug": "desktime/darwin",
+      "name": "DeskTime",
+      "platform": "darwin",
+      "version": "6.2.1",
+      "installerUrl": "https://desktime.com/storage/updates/electro-builder-auto-updater/stable/DeskTime-6.2.1-arm64.dmg"
+    },
+    {
       "slug": "devin-desktop/darwin",
       "name": "Devin Desktop",
       "platform": "darwin",
       "version": "3.1.7",
       "installerUrl": "https://windsurf-stable.codeiumdata.com/darwin-arm64-dmg/stable/c8b0b9cf70fb84d1dd37796a52d8229a7eaf9c06/Devin-darwin-arm64-3.1.7.dmg"
+    },
+    {
+      "slug": "devknife/darwin",
+      "name": "DevKnife",
+      "platform": "darwin",
+      "version": "1.15.1",
+      "installerUrl": "https://files.solotuna.com/devknife/DevKnife-1.15.1.dmg"
+    },
+    {
+      "slug": "devonsphere-express/darwin",
+      "name": "DEVONsphere Express",
+      "platform": "darwin",
+      "version": "1.9.9",
+      "installerUrl": "https://download.devontechnologies.com/download/devonsphere/1.9.9/DEVONsphere_Express.app.zip"
+    },
+    {
+      "slug": "devonthink/darwin",
+      "name": "DEVONthink",
+      "platform": "darwin",
+      "version": "4.3.1",
+      "installerUrl": "https://download.devontechnologies.com/download/devonthink/4.3.1/DEVONthink.app.zip"
+    },
+    {
+      "slug": "devtoys/darwin",
+      "name": "DevToys",
+      "platform": "darwin",
+      "version": "2.0.9.0",
+      "installerUrl": "https://github.com/DevToys-app/DevToys/releases/download/v2.0.9.0/devtoys_osx_arm64.zip"
+    },
+    {
+      "slug": "devutils/darwin",
+      "name": "DevUtils",
+      "platform": "darwin",
+      "version": "1.17.0",
+      "installerUrl": "https://devutils.com/archives/DevUtils-1.17.0.dmg"
     },
     {
       "slug": "dfu-blaster-pro/darwin",
@@ -1605,6 +1752,27 @@
       "installerUrl": "https://storage.googleapis.com/dialpad_native/stable/win32/x64/DialpadSetup-2605.1.0_x64.exe"
     },
     {
+      "slug": "dictionaries/darwin",
+      "name": "Dictionaries",
+      "platform": "darwin",
+      "version": "2.9",
+      "installerUrl": "https://download.dictionaries.io/mac/Dictionaries-2.9.zip"
+    },
+    {
+      "slug": "diffusionbee/darwin",
+      "name": "Diffusion Bee",
+      "platform": "darwin",
+      "version": "2.5.3",
+      "installerUrl": "https://github.com/divamgupta/diffusionbee-stable-diffusion-ui/releases/download/2.5.3/DiffusionBee_MPS_arm64-2.5.3.dmg"
+    },
+    {
+      "slug": "digikam/darwin",
+      "name": "digiKam",
+      "platform": "darwin",
+      "version": "9.0.0",
+      "installerUrl": "https://download.kde.org/stable/digikam/9.0.0/digiKam-9.0.0-Qt6-MacOS-arm64.pkg"
+    },
+    {
       "slug": "discord/darwin",
       "name": "Discord",
       "platform": "darwin",
@@ -1619,11 +1787,25 @@
       "installerUrl": "https://stable.dl2.discordapp.net/distro/app/stable/win/x64/1.0.9241/DiscordSetup.exe"
     },
     {
+      "slug": "disk-drill/darwin",
+      "name": "Disk Drill",
+      "platform": "darwin",
+      "version": "6.2.2219",
+      "installerUrl": "https://dl.cleverfiles.com/diskdrill.dmg"
+    },
+    {
       "slug": "displaylink/darwin",
       "name": "DisplayLink USB Graphics Software",
       "platform": "darwin",
       "version": "16.1",
       "installerUrl": "https://www.synaptics.com/sites/default/files/exe_files/2026-05/DisplayLink%20Manager%20Graphics%20Connectivity16.1-EXE.pkg"
+    },
+    {
+      "slug": "dockdoor/darwin",
+      "name": "DockDoor",
+      "platform": "darwin",
+      "version": "1.39.3",
+      "installerUrl": "https://github.com/ejbills/DockDoor/releases/download/1.39.3/DockDoor.dmg"
     },
     {
       "slug": "docker-desktop/darwin",
@@ -1638,6 +1820,62 @@
       "platform": "windows",
       "version": "4.77.0",
       "installerUrl": "https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe"
+    },
+    {
+      "slug": "dockfix/darwin",
+      "name": "DockFix",
+      "platform": "darwin",
+      "version": "4.2.1",
+      "installerUrl": "https://www.dockfix.app/downloads/DockFix.dmg"
+    },
+    {
+      "slug": "dockside/darwin",
+      "name": "Dockside",
+      "platform": "darwin",
+      "version": "2.9.6",
+      "installerUrl": "https://github.com/PrajwalSD/Dockside/releases/download/v2.9.6/Dockside.dmg"
+    },
+    {
+      "slug": "dockview/darwin",
+      "name": "DockView",
+      "platform": "darwin",
+      "version": "1.7.5",
+      "installerUrl": "https://macplus-software.com/downloads/DockViewStandard.zip"
+    },
+    {
+      "slug": "dot/darwin",
+      "name": "Dot",
+      "platform": "darwin",
+      "version": "2.2.0",
+      "installerUrl": "https://github.com/prateekkeshari/dot-releases/releases/download/v2.2.0/Dot-2.2.0.dmg"
+    },
+    {
+      "slug": "doughnut/darwin",
+      "name": "Doughnut",
+      "platform": "darwin",
+      "version": "2.0.1",
+      "installerUrl": "https://github.com/dyerc/Doughnut/releases/download/v2.0.1/Doughnut-2.0.1.dmg"
+    },
+    {
+      "slug": "downie/darwin",
+      "name": "Downie",
+      "platform": "darwin",
+      "version": "4.12.6",
+      "installerUrl": "https://software.charliemonroe.net/trial/downie/v4/Downie_4_5187.dmg"
+    },
+    {
+      "slug": "drata-agent/darwin",
+      "name": "Drata Agent",
+      "platform": "darwin",
+      "version": "3.9.0",
+      "installerUrl": "https://github.com/drata/agent-releases/releases/download/3.9.0/Drata-Agent-mac.dmg"
+    },
+    {
+      "slug": "drawbot/darwin",
+      "name": "DrawBot",
+      "platform": "darwin",
+      "version": "3.132",
+      "installerUrl": "https://github.com/typemytype/drawbot/releases/download/3.132/DrawBot.dmg"
     },
     {
       "slug": "drawio/darwin",
@@ -1668,6 +1906,34 @@
       "installerUrl": "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20258.3.3629%20Enterprise%20Installer.x64.msi"
     },
     {
+      "slug": "dropdmg/darwin",
+      "name": "DropDMG",
+      "platform": "darwin",
+      "version": "3.7.1",
+      "installerUrl": "https://c-command.com/downloads/DropDMG-3.7.1.dmg"
+    },
+    {
+      "slug": "droplr/darwin",
+      "name": "Droplr",
+      "platform": "darwin",
+      "version": "5.9.19",
+      "installerUrl": "https://files.droplr.com/apps/mac/Droplr5919-478.zip"
+    },
+    {
+      "slug": "dropshare/darwin",
+      "name": "Dropshare",
+      "platform": "darwin",
+      "version": "6.12",
+      "installerUrl": "https://d2wvuuix8c9e48.cloudfront.net/Dropshare6-6227.app.zip"
+    },
+    {
+      "slug": "dropzone/darwin",
+      "name": "Dropzone",
+      "platform": "darwin",
+      "version": "4.80.75",
+      "installerUrl": "https://aptonic.com/releases/Dropzone-4.80.75.zip"
+    },
+    {
       "slug": "druva-insync/darwin",
       "name": "Druva inSync",
       "platform": "darwin",
@@ -1682,6 +1948,20 @@
       "installerUrl": "https://downloads.druva.com/downloads/inSync/Windows/7.5.7/inSync7.5.7r110923.msi"
     },
     {
+      "slug": "duckduckgo/darwin",
+      "name": "DuckDuckGo",
+      "platform": "darwin",
+      "version": "1.193.0",
+      "installerUrl": "https://staticcdn.duckduckgo.com/macos-desktop-browser/duckduckgo-1.193.0.728.dmg"
+    },
+    {
+      "slug": "duet/darwin",
+      "name": "Duet",
+      "platform": "darwin",
+      "version": "3.20.3.0",
+      "installerUrl": "https://duetdownload.com/Mac/3_x/duet-dd-3-20-3-0.dmg"
+    },
+    {
       "slug": "duo-desktop/darwin",
       "name": "Duo Desktop",
       "platform": "darwin",
@@ -1694,6 +1974,27 @@
       "platform": "windows",
       "version": "7.18.0",
       "installerUrl": "https://dl.duosecurity.com/DuoDesktop-7.18.0.msi"
+    },
+    {
+      "slug": "dupeguru/darwin",
+      "name": "dupeGuru",
+      "platform": "darwin",
+      "version": "4.3.1",
+      "installerUrl": "https://github.com/arsenetar/dupeguru/releases/download/4.3.1/dupeguru_macOS_Qt_4.3.1.zip"
+    },
+    {
+      "slug": "dymo-connect/darwin",
+      "name": "Dymo Connect",
+      "platform": "darwin",
+      "version": "1.6.0.41",
+      "installerUrl": "https://dymoreleasecontent.blob.core.windows.net/dymo-release/DCDMAC/DCDMac1.6.0.41-Arm64.pkg"
+    },
+    {
+      "slug": "dynalist/darwin",
+      "name": "Dynalist",
+      "platform": "darwin",
+      "version": "1.0.6",
+      "installerUrl": "https://dynalist.io/standalone/download?file=Dynalist.dmg"
     },
     {
       "slug": "eaglefiler/darwin",
