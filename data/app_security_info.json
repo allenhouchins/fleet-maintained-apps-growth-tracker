@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T23:23:47Z",
+  "lastUpdated": "2026-06-11T23:28:10Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -5333,6 +5333,104 @@
       "signingId": "63TP32R3AB:com.mactrackerapp.Mactracker",
       "teamId": "63TP32R3AB",
       "lastUpdated": "2026-06-11T23:23:45Z"
+    },
+    {
+      "slug": "macvim-app/darwin",
+      "name": "MacVim",
+      "version": "183",
+      "sha256": "71f08c9cef8d6f7537de7515ba43fc567882855d4629441c2fbc99db7c88b3d3",
+      "cdhash": "2b3042b2820202cb609de519e8304ac89844a912",
+      "signingId": "WG3S88DD2E:org.vim.MacVim",
+      "teamId": "WG3S88DD2E",
+      "lastUpdated": "2026-06-11T23:24:07Z"
+    },
+    {
+      "slug": "macwhisper/darwin",
+      "name": "MacWhisper",
+      "version": "13.21.4",
+      "sha256": "7b08b677a803d6bc39d788c556249734ccd193fdc3f067fe5f98adda1f397076",
+      "cdhash": "344640fc6dafd1cff51254cbfb1f17f2b8890571",
+      "signingId": "8Q7TMPA46J:com.goodsnooze.MacWhisper",
+      "teamId": "8Q7TMPA46J",
+      "lastUpdated": "2026-06-11T23:24:29Z"
+    },
+    {
+      "slug": "maestral/darwin",
+      "name": "Maestral",
+      "version": "1.9.5",
+      "sha256": "0f6763f180a715a965c2b9fd363671dae6ffa779a95abb29427b3851fcd1e06f",
+      "cdhash": "84cb6b6c695bcfb4f1d3b7509cf9a3c09d7e0f1e",
+      "signingId": "G34LNR8C4Y:com.samschott.maestral",
+      "teamId": "G34LNR8C4Y",
+      "lastUpdated": "2026-06-11T23:25:08Z"
+    },
+    {
+      "slug": "magicquit/darwin",
+      "name": "MagicQuit",
+      "version": "1.4",
+      "sha256": "9f150669ff65cc0cd4caa2aacf76d8187defacfbf137a2c42bae14d21d50819d",
+      "cdhash": "3bea1a0f17f5d0e0da59fa649e0b1edbf61057de",
+      "signingId": "4HMNGH59W8:com.MagicQuit",
+      "teamId": "4HMNGH59W8",
+      "lastUpdated": "2026-06-11T23:25:31Z"
+    },
+    {
+      "slug": "mailspring/darwin",
+      "name": "Mailspring",
+      "version": "1.21.1",
+      "sha256": "78d30584f03b17d582f6b7ede3ee3dc7836d9dc32b66a5695f1d31b3cca39b0b",
+      "cdhash": "2b7b0fd3a8daba8cf5d895b31781cb0793ac95dc",
+      "signingId": "X9RJ36K9D4:com.mailspring.mailspring",
+      "teamId": "X9RJ36K9D4",
+      "lastUpdated": "2026-06-11T23:25:57Z"
+    },
+    {
+      "slug": "malwarebytes/darwin",
+      "name": "Malwarebytes for Mac",
+      "version": "5.23.1.3862",
+      "sha256": "ed94262b98f6ca5dbf93332d75f28a9ef78542263fd0c1ba056f980eaaf21aef",
+      "cdhash": "08667de8de7d65eef0d45aa5d8f021f796f813f5",
+      "signingId": "GVZRY6KDKR:com.malwarebytes.mbam.frontend.application",
+      "teamId": "GVZRY6KDKR",
+      "lastUpdated": "2026-06-11T23:26:33Z"
+    },
+    {
+      "slug": "mark-text/darwin",
+      "name": "MarkText",
+      "version": "0.19.1",
+      "sha256": "6101a2a1db3a81f241cb6664dd1a3ea12b423d7cf411e68adb2373f59ff329e0",
+      "cdhash": "f4b0bfb467408dc07e8a50237a84e25a8a8b14e8",
+      "lastUpdated": "2026-06-11T23:26:58Z"
+    },
+    {
+      "slug": "marked-app/darwin",
+      "name": "Marked",
+      "version": "3.0.29",
+      "sha256": "7e4bde803aa5bb17bc761f36224e740d326fc9c6f43e8e20a46e9e45ebaf5fb0",
+      "cdhash": "059794e8e4d648dae2ea4bc2377f6a6b45e4f8d2",
+      "signingId": "47TRS7H4BH:com.brettterpstra.marked",
+      "teamId": "47TRS7H4BH",
+      "lastUpdated": "2026-06-11T23:27:24Z"
+    },
+    {
+      "slug": "markedit/darwin",
+      "name": "MarkEdit",
+      "version": "1.33.0",
+      "sha256": "81a4f06da38d04d2cf1b0d7690b8b3ebc6f255bc4fae6f05c99ab4bb109bf8da",
+      "cdhash": "72d8d0c487e68dd78b5358f608885609c44aaffd",
+      "signingId": "TCKG8FBVG6:app.cyan.markedit",
+      "teamId": "TCKG8FBVG6",
+      "lastUpdated": "2026-06-11T23:27:45Z"
+    },
+    {
+      "slug": "marsedit/darwin",
+      "name": "MarsEdit",
+      "version": "5.4.3",
+      "sha256": "a638eba593c2af6b0acd698666cfa28f810087bc8491f1e76a28a1d51c8fadc7",
+      "cdhash": "3073e3f4b7c01a357d952e6446a5ca8b4ae5a3ce",
+      "signingId": "493CVA9A35:com.red-sweater.marsedit5",
+      "teamId": "493CVA9A35",
+      "lastUpdated": "2026-06-11T23:28:07Z"
     },
     {
       "slug": "marvel/darwin",
