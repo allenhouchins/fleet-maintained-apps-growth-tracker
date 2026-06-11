@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T21:51:07Z",
+  "lastUpdated": "2026-06-11T21:58:15Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -3390,6 +3390,56 @@
       "lastUpdated": "2026-04-03T19:26:30Z"
     },
     {
+      "slug": "filen/darwin",
+      "name": "Filen",
+      "version": "3.0.47",
+      "sha256": "1ddcbba028922b5891132f03e608a83abf5d07f5b10549fc89b0f70aa46622c1",
+      "cdhash": "91256c7e099d363f7448ec58d7c0931e6504cb92",
+      "signingId": "7YTW5D2K7P:io.filen.desktop",
+      "teamId": "7YTW5D2K7P",
+      "lastUpdated": "2026-06-11T21:51:40Z"
+    },
+    {
+      "slug": "fing/darwin",
+      "name": "Fing Desktop",
+      "version": "3.10.1",
+      "sha256": "9cfea34553b65dda26bc8a944567ec5bf72b468a71f7a85b85491f2ec2b175d9",
+      "cdhash": "2d7dcbf50f28f8d619ad07a15c15e71370e21fa3",
+      "signingId": "747FK9M934:com.fing.app",
+      "teamId": "747FK9M934",
+      "lastUpdated": "2026-06-11T21:52:11Z"
+    },
+    {
+      "slug": "firealpaca/darwin",
+      "name": "Fire Alpaca",
+      "version": "2.15.2",
+      "sha256": "7c01256446fb4622eed63fa725c0fd58ac17fda1053a1b3084febad878278a5d",
+      "cdhash": "d2289865eeba809bbf7546160c58be7495333a86",
+      "signingId": "5F5NPY53CE:com.firealpaca.FireAlpaca",
+      "teamId": "5F5NPY53CE",
+      "lastUpdated": "2026-06-11T21:53:00Z"
+    },
+    {
+      "slug": "firefly-iota-desktop/darwin",
+      "name": "Firefly",
+      "version": "2.1.2",
+      "sha256": "d2dde727eaa997585cda0fcb328e87d6e61964782f9f9c4eebd163bf8f711f82",
+      "cdhash": "d85c960525f3454ec9659aef248abf6edae73b9d",
+      "signingId": "UG77RJKZHH:org.iota.firefly",
+      "teamId": "UG77RJKZHH",
+      "lastUpdated": "2026-06-11T21:53:24Z"
+    },
+    {
+      "slug": "firefly-shimmer/darwin",
+      "name": "Firefly Shimmer",
+      "version": "2.2.2",
+      "sha256": "4962d7493785d8f35dd1d4f71959170de3d46a19c9ed1906e62c38af4990dad7",
+      "cdhash": "27427ba62a20418a8f8286fda1c8961a0bf0a036",
+      "signingId": "UG77RJKZHH:org.iota.firefly-shimmer",
+      "teamId": "UG77RJKZHH",
+      "lastUpdated": "2026-06-11T21:53:48Z"
+    },
+    {
       "slug": "firefox/darwin",
       "name": "Mozilla Firefox",
       "version": "151.0.4",
@@ -3432,6 +3482,56 @@
       "thumbprint": "6663D5C4FDAF9EFD5F823A26C9C410DC9928C44A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-05-20T02:04:34Z"
+    },
+    {
+      "slug": "fission/darwin",
+      "name": "Fission",
+      "version": "2.9.4",
+      "sha256": "0f95d37a991bf5b98695bcbb8acbc9fbcf5358b57648f08b8c01609133c9f96f",
+      "cdhash": "c6b3ee4cf2a5bc9c4e185cc5f3b3af2a994f9079",
+      "signingId": "7266XEXAPM:com.rogueamoeba.Fission",
+      "teamId": "7266XEXAPM",
+      "lastUpdated": "2026-06-11T21:54:10Z"
+    },
+    {
+      "slug": "flexoptix/darwin",
+      "name": "FLEXOPTIX App",
+      "version": "5.64.0-latest",
+      "sha256": "2a51ea1a8cdc87f78a47ef61372d447a38de55a4b5e4424bf73646a325a137c9",
+      "cdhash": "c0f58a8b2a9d8d7aebf6766a234ce116d5cdd8f2",
+      "signingId": "C5JETSFPHL:net.flexoptix.flexoptix.app",
+      "teamId": "C5JETSFPHL",
+      "lastUpdated": "2026-06-11T21:54:46Z"
+    },
+    {
+      "slug": "fluid/darwin",
+      "name": "Fluid",
+      "version": "2.1.2",
+      "sha256": "ef8f857e3e33a731922e965cd5cadc394d6fd58f637a42aee813360877f05109",
+      "cdhash": "fe6547a9a6839be35b281c1dbb59d154bd58c353",
+      "signingId": "9867TNT66D:com.fluidapp.Fluid2",
+      "teamId": "9867TNT66D",
+      "lastUpdated": "2026-06-11T21:55:07Z"
+    },
+    {
+      "slug": "flux-app/darwin",
+      "name": "f.lux",
+      "version": "42.2",
+      "sha256": "d47cae11f747a2d63a6d09712259d5618a19837393a79594c3182bcef1dac4be",
+      "cdhash": "4bac1857a09c60fe465a623ced09ece61d51bf45",
+      "signingId": "VZKSA7H9J9:org.herf.Flux",
+      "teamId": "VZKSA7H9J9",
+      "lastUpdated": "2026-06-11T21:55:28Z"
+    },
+    {
+      "slug": "focusrite-control-2/darwin",
+      "name": "Focusrite Control 2",
+      "version": "1.1014.0.0",
+      "sha256": "fd20e8e2d299a751bd605be779b887960e8c890831c08ef42eac214db5b5c802",
+      "cdhash": "0571629bce9b82051b0bcd8ea4880a08ac0c9e0e",
+      "signingId": "7VYBQV3T2Q:com.focusrite.control",
+      "teamId": "7VYBQV3T2Q",
+      "lastUpdated": "2026-06-11T21:58:13Z"
     },
     {
       "slug": "fork/darwin",
