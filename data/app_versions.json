@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T01:02:11Z",
+  "lastUpdated": "2026-06-11T03:14:08Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -2291,6 +2291,13 @@
       "installerUrl": "https://github.com/vercel/hyper/releases/download/v3.4.1/Hyper-3.4.1-mac-arm64.zip"
     },
     {
+      "slug": "i1profiler/darwin",
+      "name": "i1Profiler",
+      "platform": "darwin",
+      "version": "3.8.6.18647",
+      "installerUrl": "https://downloads.xrite.com/downloads/software/i1Profiler/3.8.6/Mac/i1Profiler.zip"
+    },
+    {
       "slug": "ibm-notifier/darwin",
       "name": "IBM Notifier",
       "platform": "darwin",
@@ -2305,11 +2312,39 @@
       "installerUrl": "https://devimages-cdn.apple.com/design/resources/download/Icon-Composer-1.2.dmg"
     },
     {
+      "slug": "iconjar/darwin",
+      "name": "IconJar",
+      "platform": "darwin",
+      "version": "2.11.4",
+      "installerUrl": "https://geticonjar.com/releases/IconJar.app.50604.zip"
+    },
+    {
+      "slug": "idagio/darwin",
+      "name": "IDAGIO",
+      "platform": "darwin",
+      "version": "1.15.0",
+      "installerUrl": "https://dl.idagio.com/IDAGIO-1.15.0.dmg"
+    },
+    {
+      "slug": "iexplorer/darwin",
+      "name": "iExplorer",
+      "platform": "darwin",
+      "version": "4.6.0",
+      "installerUrl": "https://assets.macroplant.com/download/180/iExplorer-4.6.0.dmg"
+    },
+    {
       "slug": "iina/darwin",
       "name": "IINA",
       "platform": "darwin",
       "version": "1.4.3",
       "installerUrl": "https://dl.iina.io/IINA.v1.4.3.dmg"
+    },
+    {
+      "slug": "imazing-converter/darwin",
+      "name": "iMazing Converter",
+      "platform": "darwin",
+      "version": "2.0.13",
+      "installerUrl": "https://downloads.imazing.com/mac/iMazing-Converter/2.0.13.579/iMazing_Converter_2.0.13.579.dmg"
     },
     {
       "slug": "imazing-profile-editor/darwin",
@@ -2340,6 +2375,13 @@
       "installerUrl": "https://downloads.imazing.com/windows/iMazing/iMazing3forWindows.exe"
     },
     {
+      "slug": "imhex/darwin",
+      "name": "ImHex",
+      "platform": "darwin",
+      "version": "1.38.1",
+      "installerUrl": "https://github.com/WerWolv/ImHex/releases/download/v1.38.1/imhex-1.38.1-macOS-arm64.dmg"
+    },
+    {
       "slug": "inkscape/darwin",
       "name": "Inkscape",
       "platform": "darwin",
@@ -2354,6 +2396,13 @@
       "installerUrl": "https://media.inkscape.org/dl/resources/file/inkscape-1.4.4_2026-05-05_dcaf3e7-x64.signed_xMx7DJV.msi"
     },
     {
+      "slug": "input-source-pro/darwin",
+      "name": "Input Source Pro",
+      "platform": "darwin",
+      "version": "2.10.0",
+      "installerUrl": "https://inputsource.pro/stable/Input%20Source%20Pro%202.10.0.dmg"
+    },
+    {
       "slug": "insomnia/darwin",
       "name": "Insomnia",
       "platform": "darwin",
@@ -2366,6 +2415,13 @@
       "platform": "windows",
       "version": "12.6.0",
       "installerUrl": "https://github.com/Kong/insomnia/releases/download/core@12.6.0/Insomnia.Core-12.6.0.exe"
+    },
+    {
+      "slug": "intellidock/darwin",
+      "name": "IntelliDock",
+      "platform": "darwin",
+      "version": "1.0",
+      "installerUrl": "https://mightymac.app/intellidock/download/IntelliDock-1.0.dmg"
     },
     {
       "slug": "intellij-idea-ce/darwin",
@@ -2403,11 +2459,32 @@
       "installerUrl": "https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/CompanyPortal_5.2604.1-Upgrade.pkg"
     },
     {
+      "slug": "invesalius/darwin",
+      "name": "InVesalius",
+      "platform": "darwin",
+      "version": "3.1.99998",
+      "installerUrl": "https://github.com/invesalius/invesalius3/releases/download/v3.1.99998/InVesalius.3.1.99998.arm64.dmg"
+    },
+    {
+      "slug": "istherenet/darwin",
+      "name": "IsThereNet",
+      "platform": "darwin",
+      "version": "1.7.1",
+      "installerUrl": "https://files.lowtechguys.com/releases/IsThereNet-1.7.1.dmg"
+    },
+    {
       "slug": "iterm2/darwin",
       "name": "iTerm2",
       "platform": "darwin",
       "version": "3.6.11",
       "installerUrl": "https://iterm2.com/downloads/stable/iTerm2-3_6_11.zip"
+    },
+    {
+      "slug": "itsycal/darwin",
+      "name": "Itsycal",
+      "platform": "darwin",
+      "version": "0.15.12",
+      "installerUrl": "https://itsycal.s3.amazonaws.com/Itsycal-0.15.12.zip"
     },
     {
       "slug": "jabra-direct/darwin",
