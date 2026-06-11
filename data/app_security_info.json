@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T19:27:33Z",
+  "lastUpdated": "2026-06-11T19:34:51Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -2741,6 +2741,46 @@
       "lastUpdated": "2026-06-11T19:27:31Z"
     },
     {
+      "slug": "doughnut/darwin",
+      "name": "Doughnut",
+      "version": "2.0.1",
+      "sha256": "a46c75e7f40344380749eda7e4ad946ef32ed60a8f71ab0400deb87db76a2ffc",
+      "cdhash": "a69e33d812ef1d72f3cce5a203240fcd36ae64b5",
+      "signingId": "Y8C2QHZQ3Q:com.cdyer.doughnut",
+      "teamId": "Y8C2QHZQ3Q",
+      "lastUpdated": "2026-06-11T19:27:53Z"
+    },
+    {
+      "slug": "downie/darwin",
+      "name": "Downie",
+      "version": "4.12.6",
+      "sha256": "edcf1fcd24b9f131c6e6fccbe308ac13d2eea48a5c0c74eba763d0b0dce6b625",
+      "cdhash": "575e8d3ef34221e119124c534d1c7f4193a95e15",
+      "signingId": "D43XN356JM:com.charliemonroe.Downie-4",
+      "teamId": "D43XN356JM",
+      "lastUpdated": "2026-06-11T19:28:18Z"
+    },
+    {
+      "slug": "drata-agent/darwin",
+      "name": "Drata Agent",
+      "version": "3.9.0",
+      "sha256": "506a9ca84f0ae6b62fca7fe7e7fdd363679cacc547493cc730cb594b50fc5839",
+      "cdhash": "ba02267fc148f4a605da6fe867bcabec6af187bd",
+      "signingId": "DRRUF49NQ2:com.drata.agent",
+      "teamId": "DRRUF49NQ2",
+      "lastUpdated": "2026-06-11T19:30:01Z"
+    },
+    {
+      "slug": "drawbot/darwin",
+      "name": "DrawBot",
+      "version": "3.132",
+      "sha256": "edd1484e8d9d0ea3753374f1d654dc24bd016ec5e9076c922c7cad55fe3250e2",
+      "cdhash": "8e7b0e9e4fb83cdbc75cff4b99de4a92e04e3249",
+      "signingId": "NNVFASZ82V:com.drawbot",
+      "teamId": "NNVFASZ82V",
+      "lastUpdated": "2026-06-11T19:30:28Z"
+    },
+    {
       "slug": "drawio/darwin",
       "name": "draw.io",
       "version": "30.0.4",
@@ -2785,6 +2825,46 @@
       "lastUpdated": "2026-06-11T15:48:22Z"
     },
     {
+      "slug": "dropdmg/darwin",
+      "name": "DropDMG",
+      "version": "3.7.1",
+      "sha256": "f769e790ec2da61197d2dbd605ab1c87b54fa7b59e8849f51ebc49f69e0ded16",
+      "cdhash": "20527a79f247eb5de79fb8697a3c6388a107b613",
+      "signingId": "2XNHYXYT45:com.c-command.DropDMG",
+      "teamId": "2XNHYXYT45",
+      "lastUpdated": "2026-06-11T19:30:57Z"
+    },
+    {
+      "slug": "droplr/darwin",
+      "name": "Droplr",
+      "version": "5.9.19",
+      "sha256": "e935455d336bc72f58919a205b3ca407209713582f0abbcd857a50466de1d289",
+      "cdhash": "7a7cee7f445caaf212ea626be534a161eb44e239",
+      "signingId": "MZ25PHMY7Y:com.droplr.droplr-mac",
+      "teamId": "MZ25PHMY7Y",
+      "lastUpdated": "2026-06-11T19:31:34Z"
+    },
+    {
+      "slug": "dropshare/darwin",
+      "name": "Dropshare",
+      "version": "6.12",
+      "sha256": "5f784f88d40e79ff8cbdcb14e8890b3570902e35c31dfb3869317de3693c5864",
+      "cdhash": "3cb93b8fb2d2a7405e254d6a0e15103ebf7e900f",
+      "signingId": "JM595RRAB5:net.mkswap.Dropshare5",
+      "teamId": "JM595RRAB5",
+      "lastUpdated": "2026-06-11T19:31:56Z"
+    },
+    {
+      "slug": "dropzone/darwin",
+      "name": "Dropzone",
+      "version": "4.80.75",
+      "sha256": "748489b86efc0371e8ca033038afa258d8a52a245e4b01349883ecff2c18aaf0",
+      "cdhash": "df6446bdc06aabc66ad7314ba85ef6fd790d0d64",
+      "signingId": "WHS8PU6735:com.aptonic.Dropzone4",
+      "teamId": "WHS8PU6735",
+      "lastUpdated": "2026-06-11T19:33:17Z"
+    },
+    {
       "slug": "druva-insync/darwin",
       "name": "Druva inSync",
       "version": "7.6.1",
@@ -2805,6 +2885,26 @@
       "thumbprint": "69D87180D72B8E218BDBC28D21879BC136184929",
       "timestamp": "CN=Sectigo Public Time Stamping Signer R36, O=Sectigo Limited, S=West Yorkshire, C=GB",
       "lastUpdated": "2026-04-20T21:26:33Z"
+    },
+    {
+      "slug": "duckduckgo/darwin",
+      "name": "DuckDuckGo",
+      "version": "1.193.0",
+      "sha256": "8e1d00264bee0adac490ac9fb1fdc9afa3ff478aad08eea0230a9da863cbe0d0",
+      "cdhash": "7c43e6a024295059e61f5e0894388fe3f4f61f76",
+      "signingId": "HKE973VLUW:com.duckduckgo.macos.browser",
+      "teamId": "HKE973VLUW",
+      "lastUpdated": "2026-06-11T19:34:27Z"
+    },
+    {
+      "slug": "duet/darwin",
+      "name": "Duet",
+      "version": "3.20.3.0",
+      "sha256": "542899f92815904682789cf632725cc4fc79ad1bb2973c2bd81f4aada2663e4c",
+      "cdhash": "e5aaf18ded5a77463e10a81f3ca32d3500af9f29",
+      "signingId": "J6L96W8A86:com.kairos.duetMac",
+      "teamId": "J6L96W8A86",
+      "lastUpdated": "2026-06-11T19:34:49Z"
     },
     {
       "slug": "duo-desktop/darwin",
