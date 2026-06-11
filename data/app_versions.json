@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T03:14:08Z",
+  "lastUpdated": "2026-06-11T05:41:35Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -28,6 +28,41 @@
       "platform": "windows",
       "version": "8.12.21",
       "installerUrl": "https://c.1password.com/dist/1P/win8/1PasswordSetup-8.12.21.msi"
+    },
+    {
+      "slug": "4k-slideshow-maker/darwin",
+      "name": "4K Slideshow Maker",
+      "platform": "darwin",
+      "version": "2.0.1",
+      "installerUrl": "https://dl.4kdownload.com/app/4kslideshowmaker_2.0.1.dmg"
+    },
+    {
+      "slug": "4k-stogram/darwin",
+      "name": "4K Stogram",
+      "platform": "darwin",
+      "version": "4.9.0",
+      "installerUrl": "https://dl.4kdownload.com/app/4kstogram_4.9.0_arm64.dmg"
+    },
+    {
+      "slug": "4k-video-downloader/darwin",
+      "name": "4K Video Downloader",
+      "platform": "darwin",
+      "version": "4.33.5",
+      "installerUrl": "https://dl.4kdownload.com/app/4kvideodownloader_4.33.5_x64.dmg"
+    },
+    {
+      "slug": "4k-video-to-mp3/darwin",
+      "name": "4K Video to MP3",
+      "platform": "darwin",
+      "version": "3.0.1",
+      "installerUrl": "https://dl.4kdownload.com/app/4kvideotomp3_3.0.1.dmg"
+    },
+    {
+      "slug": "4k-youtube-to-mp3/darwin",
+      "name": "4K YouTube to MP3",
+      "platform": "darwin",
+      "version": "26.1.4",
+      "installerUrl": "https://dl.4kdownload.com/app/4kyoutubetomp3_26.1.4_arm64.dmg"
     },
     {
       "slug": "7-zip/windows",
@@ -2284,11 +2319,151 @@
       "installerUrl": "https://files.gyazo.com/setup/Gyazo-10.10.0.pkg"
     },
     {
+      "slug": "hammerspoon/darwin",
+      "name": "Hammerspoon",
+      "platform": "darwin",
+      "version": "1.1.1",
+      "installerUrl": "https://github.com/Hammerspoon/hammerspoon/releases/download/1.1.1/Hammerspoon-1.1.1.zip"
+    },
+    {
+      "slug": "handbrake-app/darwin",
+      "name": "HandBrake",
+      "platform": "darwin",
+      "version": "1.11.2",
+      "installerUrl": "https://handbrake.fr/rotation.php?file=HandBrake-1.11.2.dmg\u0026update=true"
+    },
+    {
+      "slug": "hazel/darwin",
+      "name": "Hazel",
+      "platform": "darwin",
+      "version": "6.1.2",
+      "installerUrl": "https://s3.amazonaws.com/Noodlesoft/Hazel-6.1.2.dmg"
+    },
+    {
+      "slug": "hazeover/darwin",
+      "name": "HazeOver",
+      "platform": "darwin",
+      "version": "1.9.7",
+      "installerUrl": "https://hazeover.com/HazeOver.dmg"
+    },
+    {
+      "slug": "helium/darwin",
+      "name": "Helium",
+      "platform": "darwin",
+      "version": "1.0.0",
+      "installerUrl": "https://github.com/koush/CarbonResources/releases/download/v1.0.0/carbon-mac.zip"
+    },
+    {
+      "slug": "hex-fiend/darwin",
+      "name": "Hex Fiend",
+      "platform": "darwin",
+      "version": "2.18.1",
+      "installerUrl": "https://github.com/ridiculousfish/HexFiend/releases/download/v2.18.1/Hex_Fiend_2.18.1.dmg"
+    },
+    {
+      "slug": "hey-desktop/darwin",
+      "name": "HEY",
+      "platform": "darwin",
+      "version": "1.3.3",
+      "installerUrl": "https://hey.com/desktop/HEY-1.3.3-arm64-mac.zip"
+    },
+    {
+      "slug": "hiddenbar/darwin",
+      "name": "Hidden Bar",
+      "platform": "darwin",
+      "version": "1.10",
+      "installerUrl": "https://github.com/dwarvesf/hidden/releases/download/v1.10/Hidden-Bar-v1.10-macos.zip"
+    },
+    {
+      "slug": "hides/darwin",
+      "name": "Hides",
+      "platform": "darwin",
+      "version": "7.3",
+      "installerUrl": "https://sweetpproductions.com/products/hides/Hides.dmg"
+    },
+    {
+      "slug": "hidock/darwin",
+      "name": "HiDock",
+      "platform": "darwin",
+      "version": "1.4",
+      "installerUrl": "https://hidock.app/HiDock_1.4.zip"
+    },
+    {
+      "slug": "highlight-ai/darwin",
+      "name": "Highlight",
+      "platform": "darwin",
+      "version": "1.3.280",
+      "installerUrl": "https://cdn.highlightai.com/releases/darwin/arm64/Highlight-1.3.280-arm64.dmg"
+    },
+    {
+      "slug": "hive-app/darwin",
+      "name": "Hive",
+      "platform": "darwin",
+      "version": "1.1.18",
+      "installerUrl": "https://github.com/morapelker/hive/releases/download/v1.1.18/Hive-1.1.18-arm64.dmg"
+    },
+    {
+      "slug": "home-assistant/darwin",
+      "name": "Home Assistant",
+      "platform": "darwin",
+      "version": "2026.4.1",
+      "installerUrl": "https://github.com/home-assistant/iOS/releases/download/release%2F2026.4.1%2F2026.1904/home-assistant-mac.zip"
+    },
+    {
+      "slug": "homerow/darwin",
+      "name": "Homerow",
+      "platform": "darwin",
+      "version": "1.5.3",
+      "installerUrl": "https://builds.homerow.app/v1.5.3/Homerow.zip"
+    },
+    {
+      "slug": "hot/darwin",
+      "name": "Hot",
+      "platform": "darwin",
+      "version": "1.9.4",
+      "installerUrl": "https://github.com/macmade/Hot/releases/download/1.9.4/Hot.zip"
+    },
+    {
+      "slug": "houdahspot/darwin",
+      "name": "HoudahSpot",
+      "platform": "darwin",
+      "version": "6.8.1",
+      "installerUrl": "https://dl.houdah.com/houdahSpot/updates/cast_assets/906c763d-9739-48da-a68a-d43b144c0a92/HoudahSpot_6.8.1.dmg"
+    },
+    {
+      "slug": "hp-easy-admin/darwin",
+      "name": "HP Easy Admin",
+      "platform": "darwin",
+      "version": "2.16.0",
+      "installerUrl": "https://ftp.hp.com/pub/softlib/software12/HP_Quick_Start/osx/Applications/HP_Easy_Admin.app.zip"
+    },
+    {
+      "slug": "hubstaff/darwin",
+      "name": "Hubstaff",
+      "platform": "darwin",
+      "version": "1.9.2",
+      "installerUrl": "https://app.hubstaff.com/download/12156-standard-mac-os-x-1-9-2-release/dmg?architecture=arm64"
+    },
+    {
+      "slug": "huly/darwin",
+      "name": "Huly",
+      "platform": "darwin",
+      "version": "0.7.423",
+      "installerUrl": "https://dist.huly.io/Huly-macos-0.7.423-arm64.zip"
+    },
+    {
       "slug": "hyper/darwin",
       "name": "Hyper",
       "platform": "darwin",
       "version": "3.4.1",
       "installerUrl": "https://github.com/vercel/hyper/releases/download/v3.4.1/Hyper-3.4.1-mac-arm64.zip"
+    },
+    {
+      "slug": "hyperkey/darwin",
+      "name": "Hyperkey",
+      "platform": "darwin",
+      "version": "1.56",
+      "installerUrl": "https://hyperkey.app/downloads/Hyperkey1.56.dmg"
     },
     {
       "slug": "i1profiler/darwin",
@@ -3598,6 +3773,13 @@
       "platform": "windows",
       "version": "0.99.1",
       "installerUrl": "https://github.com/microsoft/PowerToys/releases/download/v0.99.1/PowerToysSetup-0.99.1-x64.exe"
+    },
+    {
+      "slug": "pppc-utility/darwin",
+      "name": "PPPC Utility",
+      "platform": "darwin",
+      "version": "2.0.0",
+      "installerUrl": "https://github.com/jamf/PPPC-Utility/releases/download/2.0.0/PPPC-Utility.zip"
     },
     {
       "slug": "prisma-browser/windows",
