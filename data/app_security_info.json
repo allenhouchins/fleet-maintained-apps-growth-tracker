@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T21:28:18Z",
+  "lastUpdated": "2026-06-12T21:31:47Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1021,6 +1021,16 @@
       "lastUpdated": "2026-01-30T05:57:48Z"
     },
     {
+      "slug": "aviatrix-vpn-client/darwin",
+      "name": "Aviatrix VPN Client",
+      "version": "2.17.7",
+      "sha256": "9ac9af6970b7665b14e8189f9d77aaf8f684085f556755fde0062e91ff1c5a6c",
+      "cdhash": "17d9eacb5d614614cc511ff93289c2bc3bc37cf3",
+      "signingId": "32953Z7NBN:org.pythonmac.unspecified.AviatrixVPNClient",
+      "teamId": "32953Z7NBN",
+      "lastUpdated": "2026-06-12T21:29:28Z"
+    },
+    {
       "slug": "aws-cli/windows",
       "name": "AWS Command Line Interface v2",
       "version": "2.35.3",
@@ -1053,6 +1063,16 @@
       "thumbprint": "D17DD32F677D5AF0141F25A398A9F1DC59681A56",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-05-29T15:20:32Z"
+    },
+    {
+      "slug": "axure-rp/darwin",
+      "name": "Axure RP",
+      "version": "11.0.0.4137",
+      "sha256": "a65ea6758c88b8cd8788ca8f731b7e3c8467a96e724323878cd62a2ea2b14763",
+      "cdhash": "fd0c3077f64916b33536cb145d9e6ba2699327da",
+      "signingId": "HUMW6UU796:com.axure.AxureRP11",
+      "teamId": "HUMW6UU796",
+      "lastUpdated": "2026-06-12T21:29:52Z"
     },
     {
       "slug": "azul-zulu-25-jdk/windows",
