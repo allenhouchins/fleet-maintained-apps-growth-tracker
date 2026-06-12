@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T15:10:05Z",
+  "lastUpdated": "2026-06-12T15:29:47Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -6281,11 +6281,25 @@
       "installerUrl": "https://github.com/sbarex/SourceCodeSyntaxHighlight/releases/download/2.1.30/Syntax.Highlight.zip"
     },
     {
+      "slug": "tabby/darwin",
+      "name": "Tabby",
+      "platform": "darwin",
+      "version": "1.0.234",
+      "installerUrl": "https://github.com/Eugeny/tabby/releases/download/v1.0.234/tabby-1.0.234-macos-arm64.zip"
+    },
+    {
       "slug": "tableau-desktop/windows",
       "name": "Tableau Desktop",
       "platform": "windows",
       "version": "24.3.965",
       "installerUrl": "https://downloads.tableau.com/esdalt/2024.3.4/TableauDesktop-64bit-2024-3-4.exe"
+    },
+    {
+      "slug": "tableau-prep/darwin",
+      "name": "Tableau Prep",
+      "platform": "darwin",
+      "version": "2026.1.2",
+      "installerUrl": "https://downloads.tableau.com/esdalt/tableau_prep/2026.1.2/TableauPrep-2026-1-2-arm64.dmg"
     },
     {
       "slug": "tableau/darwin",
@@ -6309,6 +6323,13 @@
       "installerUrl": "https://files.tableplus.com/windows/7.1.4/TablePlusSetup.exe"
     },
     {
+      "slug": "tabtab/darwin",
+      "name": "TabTab",
+      "platform": "darwin",
+      "version": "2.1.1",
+      "installerUrl": "https://github.com/riccqi/TabTabApp/releases/download/prod/tabtab.dmg"
+    },
+    {
       "slug": "tailscale-app/darwin",
       "name": "Tailscale",
       "platform": "darwin",
@@ -6321,6 +6342,27 @@
       "platform": "windows",
       "version": "1.98.4",
       "installerUrl": "https://pkgs.tailscale.com/stable/tailscale-setup-1.98.4-amd64.msi"
+    },
+    {
+      "slug": "taskade/darwin",
+      "name": "Taskade",
+      "platform": "darwin",
+      "version": "4.6.14",
+      "installerUrl": "https://apps.taskade.com/updates/Taskade-4.6.14-universal.dmg"
+    },
+    {
+      "slug": "taskbar/darwin",
+      "name": "Taskbar",
+      "platform": "darwin",
+      "version": "1.6.1",
+      "installerUrl": "https://lawand.io/wp-content/uploads/2026/05/taskbar-1.6.1.zip"
+    },
+    {
+      "slug": "teacode/darwin",
+      "name": "TeaCode",
+      "platform": "darwin",
+      "version": "1.1.3",
+      "installerUrl": "https://www.apptorium.com/public/products/teacode/releases/TeaCode-1.1.3.zip"
     },
     {
       "slug": "teamviewer/darwin",
@@ -6372,6 +6414,27 @@
       "installerUrl": "https://cdn.teleport.dev/teleport-18.8.3.pkg"
     },
     {
+      "slug": "termius/darwin",
+      "name": "Termius",
+      "platform": "darwin",
+      "version": "9.39.0",
+      "installerUrl": "https://autoupdate.termius.com/mac-arm64/Termius.dmg"
+    },
+    {
+      "slug": "tex-live-utility/darwin",
+      "name": "TeX Live Utility",
+      "platform": "darwin",
+      "version": "1.57",
+      "installerUrl": "https://github.com/amaxwell/tlutility/releases/download/1.57/TeX.Live.Utility.app-1.57.zip"
+    },
+    {
+      "slug": "texshop/darwin",
+      "name": "TeXShop",
+      "platform": "darwin",
+      "version": "5.57",
+      "installerUrl": "https://pages.uoregon.edu/koch/texshop/texshop-64/texshop557.zip"
+    },
+    {
       "slug": "textexpander/darwin",
       "name": "TextExpander",
       "platform": "darwin",
@@ -6386,11 +6449,39 @@
       "installerUrl": "https://cdn.textexpander.com/windows/844.2.0/TextExpander_x64.msi"
     },
     {
+      "slug": "thaw/darwin",
+      "name": "Thaw",
+      "platform": "darwin",
+      "version": "1.2.0",
+      "installerUrl": "https://github.com/stonerl/Thaw/releases/download/1.2.0/Thaw_1.2.0.zip"
+    },
+    {
       "slug": "the-unarchiver/darwin",
       "name": "The Unarchiver",
       "platform": "darwin",
       "version": "4.3.9",
       "installerUrl": "https://dl.devmate.com/com.macpaw.site.theunarchiver/147/1742287964/TheUnarchiver-147.zip"
+    },
+    {
+      "slug": "thorium/darwin",
+      "name": "Thorium Reader",
+      "platform": "darwin",
+      "version": "3.4.0",
+      "installerUrl": "https://github.com/edrlab/thorium-reader/releases/download/v3.4.0/Thorium-3.4.0-arm64.dmg"
+    },
+    {
+      "slug": "threema/darwin",
+      "name": "Threema",
+      "platform": "darwin",
+      "version": "1.2.50",
+      "installerUrl": "https://releases.threema.ch/web-electron/v1/release/Threema-Latest.dmg"
+    },
+    {
+      "slug": "thumbsup/darwin",
+      "name": "ThumbsUp",
+      "platform": "darwin",
+      "version": "4.5.3",
+      "installerUrl": "https://download.devontechnologies.com/download/freeware/thumbsup/4.5.3/ThumbsUp.app.zip"
     },
     {
       "slug": "thunderbird/darwin",
@@ -6407,6 +6498,41 @@
       "installerUrl": "https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/151.0.1/win64/en-US/Thunderbird%20Setup%20151.0.1.exe"
     },
     {
+      "slug": "ticktick/darwin",
+      "name": "TickTick",
+      "platform": "darwin",
+      "version": "8.0.70",
+      "installerUrl": "https://download.ticktick.app/download/mac/TickTick_8.0.70_471.dmg"
+    },
+    {
+      "slug": "tidal/darwin",
+      "name": "TIDAL",
+      "platform": "darwin",
+      "version": "2.41.3",
+      "installerUrl": "https://download.tidal.com/desktop/mac/TIDAL.arm64.2.41.3.zip"
+    },
+    {
+      "slug": "tiles/darwin",
+      "name": "Sempliva Tiles",
+      "platform": "darwin",
+      "version": "1.3.2",
+      "installerUrl": "https://updates.sempliva.com/tiles/Tiles-03b500a8.dmg"
+    },
+    {
+      "slug": "timescribe/darwin",
+      "name": "TimeScribe",
+      "platform": "darwin",
+      "version": "1.15.0",
+      "installerUrl": "https://github.com/WINBIGFOX/TimeScribe/releases/download/v1.15.0/TimeScribe-1.15.0-arm64.zip"
+    },
+    {
+      "slug": "timing/darwin",
+      "name": "Timing",
+      "platform": "darwin",
+      "version": "2026.3.1",
+      "installerUrl": "https://updates.timingapp.com/download/Timing-2026.3.1.dmg"
+    },
+    {
       "slug": "todoist-app/darwin",
       "name": "Todoist",
       "platform": "darwin",
@@ -6419,6 +6545,34 @@
       "platform": "windows",
       "version": "9.28.0",
       "installerUrl": "https://electron-dl.todoist.net/windows/Todoist-win32-9.28.0-x64-latest.exe"
+    },
+    {
+      "slug": "topaz-gigapixel-ai/darwin",
+      "name": "Topaz Gigapixel AI",
+      "platform": "darwin",
+      "version": "8.4.4",
+      "installerUrl": "https://downloads.topazlabs.com/deploy/TopazGigapixelAI/8.4.4/TopazGigapixelAI-8.4.4.pkg"
+    },
+    {
+      "slug": "topaz-photo-ai/darwin",
+      "name": "Topaz Photo AI",
+      "platform": "darwin",
+      "version": "4.0.4",
+      "installerUrl": "https://downloads.topazlabs.com/deploy/TopazPhotoAI/4.0.4/TopazPhotoAI-4.0.4.pkg"
+    },
+    {
+      "slug": "topaz-video-ai/darwin",
+      "name": "Topaz Video AI",
+      "platform": "darwin",
+      "version": "7.1.5",
+      "installerUrl": "https://downloads.topazlabs.com/deploy/TopazVideoAI/7.1.5/TopazVideoAI-7.1.5.pkg"
+    },
+    {
+      "slug": "topnotch/darwin",
+      "name": "TopNotch",
+      "platform": "darwin",
+      "version": "1.3.2",
+      "installerUrl": "https://updates.topnotch.app/TopNotch-1.3.2.dmg"
     },
     {
       "slug": "tor-browser/darwin",
@@ -6449,6 +6603,27 @@
       "installerUrl": "https://www.git-tower.com/apps/tower3-win/562-2f47fd7a/Tower-12.2.562.msi"
     },
     {
+      "slug": "tradingview/darwin",
+      "name": "TradingView Desktop",
+      "platform": "darwin",
+      "version": "3.2.0",
+      "installerUrl": "https://tvd-packages.tradingview.com/stable/3.2.0/darwin/TradingView.dmg"
+    },
+    {
+      "slug": "transfer/darwin",
+      "name": "Transfer",
+      "platform": "darwin",
+      "version": "2.4.3",
+      "installerUrl": "https://www.intuitibits.com/downloads/Transfer_2.4.3.dmg"
+    },
+    {
+      "slug": "transmission/darwin",
+      "name": "Transmission",
+      "platform": "darwin",
+      "version": "4.1.2",
+      "installerUrl": "https://github.com/transmission/transmission/releases/download/4.1.2/Transmission-4.1.2.dmg"
+    },
+    {
       "slug": "transmit/darwin",
       "name": "Transmit",
       "platform": "darwin",
@@ -6456,11 +6631,46 @@
       "installerUrl": "https://download-cdn.panic.com/transmit/Transmit%205.11.6.zip"
     },
     {
+      "slug": "trex/darwin",
+      "name": "TRex",
+      "platform": "darwin",
+      "version": "2.0.0",
+      "installerUrl": "https://github.com/amebalabs/TRex/releases/download/v2.0.0/TRex-2.0.0.zip"
+    },
+    {
+      "slug": "trezor-suite/darwin",
+      "name": "TREZOR Suite",
+      "platform": "darwin",
+      "version": "26.5.2",
+      "installerUrl": "https://data.trezor.io/suite/releases/desktop/latest/Trezor-Suite-26.5.2-mac-arm64.dmg"
+    },
+    {
+      "slug": "tripmode/darwin",
+      "name": "TripMode",
+      "platform": "darwin",
+      "version": "3.2.4",
+      "installerUrl": "https://tripmode-updates.ch/app/TripMode-3.2.4-1385.zip"
+    },
+    {
       "slug": "tunnelblick/darwin",
       "name": "Tunnelblick",
       "platform": "darwin",
       "version": "8.0.2",
       "installerUrl": "https://tunnelblick.net/iprelease/Tunnelblick_8.0.2_build_6302.dmg"
+    },
+    {
+      "slug": "tuple/darwin",
+      "name": "Tuple",
+      "platform": "darwin",
+      "version": "3.0.5",
+      "installerUrl": "https://d32ifkf9k9ezcg.cloudfront.net/production/sparkle/tuple-3.0.5-2026-06-05-9277d388e.zip"
+    },
+    {
+      "slug": "twine-app/darwin",
+      "name": "Twine",
+      "platform": "darwin",
+      "version": "2.12.0",
+      "installerUrl": "https://github.com/klembot/twinejs/releases/download/2.12.0/Twine-2.12.0-macOS.dmg"
     },
     {
       "slug": "twingate/darwin",
@@ -6475,6 +6685,34 @@
       "platform": "windows",
       "version": "20.26.140.168",
       "installerUrl": "https://binaries.twingate.com/client/windows/versions/2026.140.168/TwingateWindowsInstaller.msi"
+    },
+    {
+      "slug": "twobird/darwin",
+      "name": "Twobird",
+      "platform": "darwin",
+      "version": "1.0.52",
+      "installerUrl": "https://www.twobird.com/download/mac-arm64"
+    },
+    {
+      "slug": "typeface/darwin",
+      "name": "Typeface",
+      "platform": "darwin",
+      "version": "4.3.1",
+      "installerUrl": "https://dcdn.typefaceapp.com/Typeface-4.3.1-5064/Typeface-4.3.1-5064.dmg"
+    },
+    {
+      "slug": "typinator/darwin",
+      "name": "Typinator",
+      "platform": "darwin",
+      "version": "10.1",
+      "installerUrl": "https://storage.ergonis.com/apps/production/typinator/archive/Typinator_101.dmg"
+    },
+    {
+      "slug": "typora/darwin",
+      "name": "Typora",
+      "platform": "darwin",
+      "version": "1.13.6",
+      "installerUrl": "https://download.typora.io/mac/Typora-1.13.6.dmg"
     },
     {
       "slug": "ua-connect/darwin",

@@ -1,312 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-06-01T15:09:38Z",
-      "appName": "Gemini",
-      "slug": "google-gemini/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.60.2.323",
-      "newVersion": "1.63.12.361",
-      "installerUrl": "https://dl.google.com/release2/j33ro/release/Gemini.dmg"
-    },
-    {
-      "date": "2026-06-01T15:09:38Z",
-      "appName": "Cursor",
-      "slug": "cursor/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.6.21",
-      "newVersion": "3.6.31",
-      "installerUrl": "https://downloads.cursor.com/production/81fcf2931d7687b4ff3f3017858d0c6dee7e2a68/darwin/arm64/Cursor-darwin-arm64.zip"
-    },
-    {
-      "date": "2026-06-01T15:09:38Z",
-      "appName": "Amazon WorkSpaces",
-      "slug": "amazon-workspaces/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "5.32.2.5905",
-      "installerUrl": "https://d2td7dqidlhjx7.cloudfront.net/prod/global/windows/Amazon+WorkSpaces.msi"
-    },
-    {
-      "date": "2026-06-01T15:09:38Z",
-      "appName": "Adobe Acrobat Pro",
-      "slug": "adobe-acrobat-pro/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "26.001.21529",
-      "installerUrl": "https://trials.adobe.com/AdobeProducts/APRO/Acrobat_HelpX/win32/Acrobat_DC_Web_x64_WWMUI.zip"
-    },
-    {
-      "date": "2026-06-01T20:31:30Z",
-      "appName": "Sourcetree",
-      "slug": "sourcetree/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.2.17",
-      "newVersion": "4.2.18",
-      "installerUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.2.18_313.zip"
-    },
-    {
-      "date": "2026-06-01T20:31:30Z",
-      "appName": "Grammarly Desktop",
-      "slug": "grammarly-desktop/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.167.1",
-      "newVersion": "1.167.2",
-      "installerUrl": "https://download-mac.grammarly.com/versions/1.167.2.0/Grammarly.dmg"
-    },
-    {
-      "date": "2026-06-01T20:31:30Z",
-      "appName": "NordVPN",
-      "slug": "nordvpn/darwin",
-      "platform": "darwin",
-      "oldVersion": "10.3.0",
-      "newVersion": "10.3.1",
-      "installerUrl": "https://downloads.nordcdn.com/apps/macos/generic/NordVPN-OpenVPN/10.3.1/NordVPN.pkg"
-    },
-    {
-      "date": "2026-06-01T23:35:19Z",
-      "appName": "Docker Desktop",
-      "slug": "docker-desktop/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.75.0",
-      "newVersion": "4.76.0",
-      "installerUrl": "https://desktop.docker.com/mac/main/arm64/228118/Docker.dmg"
-    },
-    {
-      "date": "2026-06-01T23:35:19Z",
-      "appName": "Notepad++",
-      "slug": "notepad++/windows",
-      "platform": "windows",
-      "oldVersion": "8.9.6",
-      "newVersion": "8.9.6.1",
-      "installerUrl": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9.6.1/npp.8.9.6.1.Installer.x64.exe"
-    },
-    {
-      "date": "2026-06-01T23:35:19Z",
-      "appName": "Discord",
-      "slug": "discord/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.0.392",
-      "newVersion": "0.0.393",
-      "installerUrl": "https://dl.discordapp.net/apps/osx/0.0.393/Discord.dmg"
-    },
-    {
-      "date": "2026-06-01T23:35:19Z",
-      "appName": "Loom",
-      "slug": "loom/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.351.1",
-      "newVersion": "0.351.2",
-      "installerUrl": "https://packages.loom.com/desktop-packages/Loom-0.351.2-arm64.dmg"
-    },
-    {
-      "date": "2026-06-02T03:18:21Z",
-      "appName": "Tailscale",
-      "slug": "tailscale-app/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.98.2",
-      "newVersion": "1.98.5",
-      "installerUrl": "https://pkgs.tailscale.com/stable/Tailscale-1.98.5-macos.pkg"
-    },
-    {
-      "date": "2026-06-02T03:18:21Z",
-      "appName": "ChatGPT Desktop",
-      "slug": "chatgpt/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.2026.118",
-      "newVersion": "1.2026.119",
-      "installerUrl": "https://persistent.oaistatic.com/sidekick/public/ChatGPT_Desktop_public_1.2026.119_1780053722.dmg"
-    },
-    {
-      "date": "2026-06-02T03:18:21Z",
-      "appName": "GitHub Desktop",
-      "slug": "github/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.5.11",
-      "newVersion": "3.5.12",
-      "installerUrl": "https://desktop.githubusercontent.com/releases/3.5.12-c6aad713/GitHubDesktop-arm64.zip"
-    },
-    {
-      "date": "2026-06-02T03:18:21Z",
-      "appName": "Notion",
-      "slug": "notion/darwin",
-      "platform": "darwin",
-      "oldVersion": "7.19.0",
-      "newVersion": "7.20.0",
-      "installerUrl": "https://desktop-release.notion-static.com/Notion-7.20.0-arm64.dmg"
-    },
-    {
-      "date": "2026-06-02T03:18:21Z",
-      "appName": "Genesys Cloud",
-      "slug": "genesys-cloud/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.49.25",
-      "newVersion": "2.50.28",
-      "installerUrl": "https://app.mypurecloud.com/directory-mac/build-assets/2.50.28-181/genesys-cloud-mac-2.50.28.dmg"
-    },
-    {
-      "date": "2026-06-02T13:26:33Z",
-      "appName": "Cisco Jabber",
-      "slug": "cisco-jabber/windows",
-      "platform": "windows",
-      "oldVersion": "15.2.2.60904",
-      "newVersion": "15.2.3.61008",
-      "installerUrl": "https://binaries.webex.com/jabberclientwindows/20260527035625/CiscoJabberSetup.msi"
-    },
-    {
-      "date": "2026-06-02T13:26:33Z",
-      "appName": "Claude",
-      "slug": "claude/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.9659.2",
-      "newVersion": "1.9659.4",
-      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.9659.4/Claude-8cc65547f75f6ddd5b8ff0e04d3a2c450a970ccc.zip"
-    },
-    {
-      "date": "2026-06-02T13:26:33Z",
-      "appName": "Postman",
-      "slug": "postman/windows",
-      "platform": "windows",
-      "oldVersion": "12.12.6",
-      "newVersion": "12.13.2",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.13.2/windows_64"
-    },
-    {
-      "date": "2026-06-02T13:26:33Z",
-      "appName": "Ollama",
-      "slug": "ollama/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.24.0",
-      "newVersion": "0.30.0",
-      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.30.0/Ollama-darwin.zip"
-    },
-    {
-      "date": "2026-06-02T13:26:33Z",
-      "appName": "Notepad++",
-      "slug": "notepad++/windows",
-      "platform": "windows",
-      "oldVersion": "8.9.6.1",
-      "newVersion": "8.9.6.2",
-      "installerUrl": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9.6.2/npp.8.9.6.2.Installer.x64.exe"
-    },
-    {
-      "date": "2026-06-02T13:26:33Z",
-      "appName": "Postman",
-      "slug": "postman/darwin",
-      "platform": "darwin",
-      "oldVersion": "12.12.6",
-      "newVersion": "12.13.2",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.13.2/osx_arm64"
-    },
-    {
-      "date": "2026-06-02T17:39:08Z",
-      "appName": "Krita",
-      "slug": "krita/windows",
-      "platform": "windows",
-      "oldVersion": "5.3.2.0",
-      "newVersion": "5.3.2.1",
-      "installerUrl": "https://download.kde.org/stable/krita/5.3.2.1/krita-x64-5.3.2.1-setup.exe"
-    },
-    {
-      "date": "2026-06-02T17:39:08Z",
-      "appName": "Grammarly Desktop",
-      "slug": "grammarly-desktop/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.167.2",
-      "newVersion": "1.168.0",
-      "installerUrl": "https://download-mac.grammarly.com/versions/1.168.0.0/Grammarly.dmg"
-    },
-    {
-      "date": "2026-06-02T17:39:08Z",
-      "appName": "Miro",
-      "slug": "miro/windows",
-      "platform": "windows",
-      "oldVersion": "0.11.140",
-      "newVersion": "0.11.144",
-      "installerUrl": "https://desktop.miro.com/platforms/win32-nsis-pu/Miro-setup.exe"
-    },
-    {
-      "date": "2026-06-02T17:39:08Z",
-      "appName": "Granola",
-      "slug": "granola/darwin",
-      "platform": "darwin",
-      "oldVersion": "7.277.1",
-      "newVersion": "7.290.0",
-      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.290.0/Granola-7.290.0-mac-universal.dmg"
-    },
-    {
-      "date": "2026-06-03T03:17:50Z",
-      "appName": "WhatsApp",
-      "slug": "whatsapp/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.21.19",
-      "newVersion": "26.22.20",
-      "installerUrl": "https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release\u0026src=whatsapp_downloads_page"
-    },
-    {
-      "date": "2026-06-03T03:17:50Z",
-      "appName": "Mozilla Firefox",
-      "slug": "firefox/darwin",
-      "platform": "darwin",
-      "oldVersion": "151.0.2",
-      "newVersion": "151.0.3",
-      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/151.0.3/mac/en-US/Firefox%20151.0.3.dmg"
-    },
-    {
-      "date": "2026-06-03T03:17:50Z",
-      "appName": "Google Chrome",
-      "slug": "google-chrome/darwin",
-      "platform": "darwin",
-      "oldVersion": "148.0.7778.216",
-      "newVersion": "149.0.7827.54",
-      "installerUrl": "https://dl.google.com/dl/chrome/mac/universal/stable/gcem/GoogleChrome.pkg"
-    },
-    {
-      "date": "2026-06-03T03:17:50Z",
-      "appName": "Miro",
-      "slug": "miro/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.11.140",
-      "newVersion": "0.11.144",
-      "installerUrl": "https://desktop.miro.com/platforms/darwin-arm64/Install-Miro.dmg"
-    },
-    {
-      "date": "2026-06-03T03:17:50Z",
-      "appName": "Loom",
-      "slug": "loom/windows",
-      "platform": "windows",
-      "oldVersion": "0.350.1",
-      "newVersion": "0.351.2",
-      "installerUrl": "https://cdn.loom.com/desktop-packages/Loom%20Setup%200.351.2.exe"
-    },
-    {
-      "date": "2026-06-03T03:17:50Z",
-      "appName": "Gemini",
-      "slug": "google-gemini/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.63.12.361",
-      "newVersion": "1.64.1.362",
-      "installerUrl": "https://dl.google.com/release2/j33ro/release/Gemini.dmg"
-    },
-    {
-      "date": "2026-06-03T03:17:50Z",
-      "appName": "Notion",
-      "slug": "notion/windows",
-      "platform": "windows",
-      "oldVersion": "7.19.0",
-      "newVersion": "7.20.0",
-      "installerUrl": "https://desktop-release.notion-static.com/Notion%20Setup%207.20.0.exe"
-    },
-    {
-      "date": "2026-06-03T03:17:50Z",
-      "appName": "Microsoft Outlook",
-      "slug": "microsoft-outlook/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.109.2",
-      "newVersion": "16.109.3",
-      "installerUrl": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.109.26053122_Installer.pkg"
-    },
-    {
       "date": "2026-06-03T03:17:50Z",
       "appName": "Microsoft OneNote",
       "slug": "microsoft-onenote/darwin",
@@ -8999,6 +8693,312 @@
       "oldVersion": "0.15.1",
       "newVersion": "0.15.2",
       "installerUrl": "https://macpacker-releases.s3.amazonaws.com/MacPacker_v0.15.2.zip"
+    },
+    {
+      "date": "2026-06-12T15:29:47Z",
+      "appName": "TeaCode",
+      "slug": "teacode/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "1.1.3",
+      "installerUrl": "https://www.apptorium.com/public/products/teacode/releases/TeaCode-1.1.3.zip"
+    },
+    {
+      "date": "2026-06-12T15:29:47Z",
+      "appName": "Thorium Reader",
+      "slug": "thorium/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "3.4.0",
+      "installerUrl": "https://github.com/edrlab/thorium-reader/releases/download/v3.4.0/Thorium-3.4.0-arm64.dmg"
+    },
+    {
+      "date": "2026-06-12T15:29:47Z",
+      "appName": "Timing",
+      "slug": "timing/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "2026.3.1",
+      "installerUrl": "https://updates.timingapp.com/download/Timing-2026.3.1.dmg"
+    },
+    {
+      "date": "2026-06-12T15:29:47Z",
+      "appName": "TradingView Desktop",
+      "slug": "tradingview/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "3.2.0",
+      "installerUrl": "https://tvd-packages.tradingview.com/stable/3.2.0/darwin/TradingView.dmg"
+    },
+    {
+      "date": "2026-06-12T15:29:47Z",
+      "appName": "Twobird",
+      "slug": "twobird/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "1.0.52",
+      "installerUrl": "https://www.twobird.com/download/mac-arm64"
+    },
+    {
+      "date": "2026-06-12T15:29:47Z",
+      "appName": "TRex",
+      "slug": "trex/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "2.0.0",
+      "installerUrl": "https://github.com/amebalabs/TRex/releases/download/v2.0.0/TRex-2.0.0.zip"
+    },
+    {
+      "date": "2026-06-12T15:29:47Z",
+      "appName": "Tabby",
+      "slug": "tabby/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "1.0.234",
+      "installerUrl": "https://github.com/Eugeny/tabby/releases/download/v1.0.234/tabby-1.0.234-macos-arm64.zip"
+    },
+    {
+      "date": "2026-06-12T15:29:47Z",
+      "appName": "Sempliva Tiles",
+      "slug": "tiles/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "1.3.2",
+      "installerUrl": "https://updates.sempliva.com/tiles/Tiles-03b500a8.dmg"
+    },
+    {
+      "date": "2026-06-12T15:29:47Z",
+      "appName": "Topaz Photo AI",
+      "slug": "topaz-photo-ai/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "4.0.4",
+      "installerUrl": "https://downloads.topazlabs.com/deploy/TopazPhotoAI/4.0.4/TopazPhotoAI-4.0.4.pkg"
+    },
+    {
+      "date": "2026-06-12T15:29:47Z",
+      "appName": "Typora",
+      "slug": "typora/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "1.13.6",
+      "installerUrl": "https://download.typora.io/mac/Typora-1.13.6.dmg"
+    },
+    {
+      "date": "2026-06-12T15:29:47Z",
+      "appName": "TripMode",
+      "slug": "tripmode/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "3.2.4",
+      "installerUrl": "https://tripmode-updates.ch/app/TripMode-3.2.4-1385.zip"
+    },
+    {
+      "date": "2026-06-12T15:29:47Z",
+      "appName": "Transfer",
+      "slug": "transfer/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "2.4.3",
+      "installerUrl": "https://www.intuitibits.com/downloads/Transfer_2.4.3.dmg"
+    },
+    {
+      "date": "2026-06-12T15:29:47Z",
+      "appName": "Tuple",
+      "slug": "tuple/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "3.0.5",
+      "installerUrl": "https://d32ifkf9k9ezcg.cloudfront.net/production/sparkle/tuple-3.0.5-2026-06-05-9277d388e.zip"
+    },
+    {
+      "date": "2026-06-12T15:29:47Z",
+      "appName": "TimeScribe",
+      "slug": "timescribe/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "1.15.0",
+      "installerUrl": "https://github.com/WINBIGFOX/TimeScribe/releases/download/v1.15.0/TimeScribe-1.15.0-arm64.zip"
+    },
+    {
+      "date": "2026-06-12T15:29:47Z",
+      "appName": "Threema",
+      "slug": "threema/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "1.2.50",
+      "installerUrl": "https://releases.threema.ch/web-electron/v1/release/Threema-Latest.dmg"
+    },
+    {
+      "date": "2026-06-12T15:29:47Z",
+      "appName": "Typeface",
+      "slug": "typeface/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "4.3.1",
+      "installerUrl": "https://dcdn.typefaceapp.com/Typeface-4.3.1-5064/Typeface-4.3.1-5064.dmg"
+    },
+    {
+      "date": "2026-06-12T15:29:47Z",
+      "appName": "Transmission",
+      "slug": "transmission/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "4.1.2",
+      "installerUrl": "https://github.com/transmission/transmission/releases/download/4.1.2/Transmission-4.1.2.dmg"
+    },
+    {
+      "date": "2026-06-12T15:29:47Z",
+      "appName": "TeX Live Utility",
+      "slug": "tex-live-utility/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "1.57",
+      "installerUrl": "https://github.com/amaxwell/tlutility/releases/download/1.57/TeX.Live.Utility.app-1.57.zip"
+    },
+    {
+      "date": "2026-06-12T15:29:47Z",
+      "appName": "Typinator",
+      "slug": "typinator/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "10.1",
+      "installerUrl": "https://storage.ergonis.com/apps/production/typinator/archive/Typinator_101.dmg"
+    },
+    {
+      "date": "2026-06-12T15:29:47Z",
+      "appName": "Topaz Video AI",
+      "slug": "topaz-video-ai/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "7.1.5",
+      "installerUrl": "https://downloads.topazlabs.com/deploy/TopazVideoAI/7.1.5/TopazVideoAI-7.1.5.pkg"
+    },
+    {
+      "date": "2026-06-12T15:29:47Z",
+      "appName": "ThumbsUp",
+      "slug": "thumbsup/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "4.5.3",
+      "installerUrl": "https://download.devontechnologies.com/download/freeware/thumbsup/4.5.3/ThumbsUp.app.zip"
+    },
+    {
+      "date": "2026-06-12T15:29:47Z",
+      "appName": "Taskade",
+      "slug": "taskade/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "4.6.14",
+      "installerUrl": "https://apps.taskade.com/updates/Taskade-4.6.14-universal.dmg"
+    },
+    {
+      "date": "2026-06-12T15:29:47Z",
+      "appName": "TIDAL",
+      "slug": "tidal/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "2.41.3",
+      "installerUrl": "https://download.tidal.com/desktop/mac/TIDAL.arm64.2.41.3.zip"
+    },
+    {
+      "date": "2026-06-12T15:29:47Z",
+      "appName": "TopNotch",
+      "slug": "topnotch/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "1.3.2",
+      "installerUrl": "https://updates.topnotch.app/TopNotch-1.3.2.dmg"
+    },
+    {
+      "date": "2026-06-12T15:29:47Z",
+      "appName": "Termius",
+      "slug": "termius/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "9.39.0",
+      "installerUrl": "https://autoupdate.termius.com/mac-arm64/Termius.dmg"
+    },
+    {
+      "date": "2026-06-12T15:29:47Z",
+      "appName": "Tableau Prep",
+      "slug": "tableau-prep/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "2026.1.2",
+      "installerUrl": "https://downloads.tableau.com/esdalt/tableau_prep/2026.1.2/TableauPrep-2026-1-2-arm64.dmg"
+    },
+    {
+      "date": "2026-06-12T15:29:47Z",
+      "appName": "Thaw",
+      "slug": "thaw/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "1.2.0",
+      "installerUrl": "https://github.com/stonerl/Thaw/releases/download/1.2.0/Thaw_1.2.0.zip"
+    },
+    {
+      "date": "2026-06-12T15:29:47Z",
+      "appName": "TickTick",
+      "slug": "ticktick/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "8.0.70",
+      "installerUrl": "https://download.ticktick.app/download/mac/TickTick_8.0.70_471.dmg"
+    },
+    {
+      "date": "2026-06-12T15:29:47Z",
+      "appName": "TeXShop",
+      "slug": "texshop/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "5.57",
+      "installerUrl": "https://pages.uoregon.edu/koch/texshop/texshop-64/texshop557.zip"
+    },
+    {
+      "date": "2026-06-12T15:29:47Z",
+      "appName": "TREZOR Suite",
+      "slug": "trezor-suite/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "26.5.2",
+      "installerUrl": "https://data.trezor.io/suite/releases/desktop/latest/Trezor-Suite-26.5.2-mac-arm64.dmg"
+    },
+    {
+      "date": "2026-06-12T15:29:47Z",
+      "appName": "TabTab",
+      "slug": "tabtab/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "2.1.1",
+      "installerUrl": "https://github.com/riccqi/TabTabApp/releases/download/prod/tabtab.dmg"
+    },
+    {
+      "date": "2026-06-12T15:29:47Z",
+      "appName": "Taskbar",
+      "slug": "taskbar/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "1.6.1",
+      "installerUrl": "https://lawand.io/wp-content/uploads/2026/05/taskbar-1.6.1.zip"
+    },
+    {
+      "date": "2026-06-12T15:29:47Z",
+      "appName": "Topaz Gigapixel AI",
+      "slug": "topaz-gigapixel-ai/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "8.4.4",
+      "installerUrl": "https://downloads.topazlabs.com/deploy/TopazGigapixelAI/8.4.4/TopazGigapixelAI-8.4.4.pkg"
+    },
+    {
+      "date": "2026-06-12T15:29:47Z",
+      "appName": "Twine",
+      "slug": "twine-app/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "2.12.0",
+      "installerUrl": "https://github.com/klembot/twinejs/releases/download/2.12.0/Twine-2.12.0-macOS.dmg"
     }
   ]
 }
