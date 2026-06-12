@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T15:33:21Z",
+  "lastUpdated": "2026-06-12T15:41:01Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -9229,6 +9229,16 @@
       "lastUpdated": "2026-05-29T04:37:52Z"
     },
     {
+      "slug": "tableau-prep/darwin",
+      "name": "Tableau Prep",
+      "version": "2026.1.2",
+      "sha256": "0822865a00db60dd18cdb40dc0e346104c371904d512d1ea2434ee14242ec325",
+      "cdhash": "e60c3768479ff937d067f15a6523576c49ad675d",
+      "signingId": "QJ4XPRK37C:com.tableausoftware.tableauprep",
+      "teamId": "QJ4XPRK37C",
+      "lastUpdated": "2026-06-12T15:35:47Z"
+    },
+    {
       "slug": "tableau/darwin",
       "name": "Tableau Desktop",
       "version": "2026.2.0",
@@ -9261,6 +9271,16 @@
       "lastUpdated": "2026-06-10T17:59:48Z"
     },
     {
+      "slug": "tabtab/darwin",
+      "name": "TabTab",
+      "version": "2.1.1",
+      "sha256": "1f13051c942a090674a0beb935d7ce1e03c2abb8f4cd1b86b1873a561e8c58a6",
+      "cdhash": "04bf154da11f32c6c51cf67b2a8004d4008641c1",
+      "signingId": "G6E5589J7L:riccqi.TabTab",
+      "teamId": "G6E5589J7L",
+      "lastUpdated": "2026-06-12T15:37:05Z"
+    },
+    {
       "slug": "tailscale-app/darwin",
       "name": "Tailscale",
       "version": "1.98.5",
@@ -9281,6 +9301,36 @@
       "thumbprint": "D4B253E96CC88206259CA892FE299CCB6DBBE777",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-05-29T03:24:16Z"
+    },
+    {
+      "slug": "taskade/darwin",
+      "name": "Taskade",
+      "version": "4.6.14",
+      "sha256": "3757d589149afff1fe6c1c6a3aaabacd4494283960ad722688cc250c6d1ee266",
+      "cdhash": "664f5e2973030d7329b5c3c51820cdad385c0278",
+      "signingId": "MJ5G3T7YTV:com.taskade",
+      "teamId": "MJ5G3T7YTV",
+      "lastUpdated": "2026-06-12T15:37:33Z"
+    },
+    {
+      "slug": "taskbar/darwin",
+      "name": "Taskbar",
+      "version": "1.6.1",
+      "sha256": "4fe38bc6a77a434912a371c2bddd6c84ee389aa6d087f05a0b37fb4d9698ee7f",
+      "cdhash": "a49dce0e676cf5af1a065f7b5c9a68c420f4b5ad",
+      "signingId": "XTRB75C6PG:com.fpfxtknjju.wbgcdolfev",
+      "teamId": "XTRB75C6PG",
+      "lastUpdated": "2026-06-12T15:37:54Z"
+    },
+    {
+      "slug": "teacode/darwin",
+      "name": "TeaCode",
+      "version": "1.1.3",
+      "sha256": "dfceac01447a4c26f885b63675182eda85b3590dc7a6821bd46c6dfd5434084e",
+      "cdhash": "73ffa42800039b9a2996254acf358ee51ce51dad",
+      "signingId": "MLZTD8K9AU:com.apptorium.TeaCode-dm",
+      "teamId": "MLZTD8K9AU",
+      "lastUpdated": "2026-06-12T15:38:16Z"
     },
     {
       "slug": "teamviewer/darwin",
@@ -9372,6 +9422,36 @@
       ]
     },
     {
+      "slug": "termius/darwin",
+      "name": "Termius",
+      "version": "9.39.0",
+      "sha256": "1d0a495b7a374fdf141dec056e7161561a937f88dd125d416d158141a480dc2c",
+      "cdhash": "36f5368f77b59cfc9536dbec8b803822227ae29c",
+      "signingId": "6KN952WR85:com.termius-dmg.mac",
+      "teamId": "6KN952WR85",
+      "lastUpdated": "2026-06-12T15:38:41Z"
+    },
+    {
+      "slug": "tex-live-utility/darwin",
+      "name": "TeX Live Utility",
+      "version": "1.57",
+      "sha256": "3dfeba062b4b02d0a89635300deee8a423e612df8ed64bbf35bffd828a345930",
+      "cdhash": "4395aee9559f8b6a3123b8e03c772985c346a7b1",
+      "signingId": "966Z24PX4J:com.googlecode.mactlmgr.tlu",
+      "teamId": "966Z24PX4J",
+      "lastUpdated": "2026-06-12T15:39:05Z"
+    },
+    {
+      "slug": "texshop/darwin",
+      "name": "TeXShop",
+      "version": "5.57",
+      "sha256": "3895524f0d653ff5a120c9efca64fe9dd1064151d5b11e4314345259a658cc5d",
+      "cdhash": "7c4771ef596e0877f35272d24f24f78f17e6969b",
+      "signingId": "RBGCY5RJWM:TeXShop",
+      "teamId": "RBGCY5RJWM",
+      "lastUpdated": "2026-06-12T15:40:38Z"
+    },
+    {
       "slug": "textexpander/darwin",
       "name": "TextExpander",
       "version": "8.4.4",
@@ -9392,6 +9472,16 @@
       "thumbprint": "8364983FE40A3BD2BA9443106EAC2CE9EB9489B1",
       "timestamp": "CN=Sectigo Public Time Stamping Signer R36, O=Sectigo Limited, S=West Yorkshire, C=GB",
       "lastUpdated": "2026-06-07T05:52:27Z"
+    },
+    {
+      "slug": "thaw/darwin",
+      "name": "Thaw",
+      "version": "1.2.0",
+      "sha256": "0e0d8f6eabd962256d53b0aecd0fe85f07ad719732466a4e0174202f1d21ec69",
+      "cdhash": "cbc1628a602efb9fe4a72996c935c80b10a29aef",
+      "signingId": "456BPWQ6U5:com.stonerl.Thaw",
+      "teamId": "456BPWQ6U5",
+      "lastUpdated": "2026-06-12T15:40:59Z"
     },
     {
       "slug": "the-unarchiver/darwin",
