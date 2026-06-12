@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T21:15:32Z",
+  "lastUpdated": "2026-06-12T21:19:14Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -496,6 +496,74 @@
       "lastUpdated": "2026-06-12T21:15:30Z"
     },
     {
+      "slug": "alcove/darwin",
+      "name": "Alcove",
+      "version": "1.7.2",
+      "sha256": "d2d530143291970bd92ba40113ba2216568b8f2ae3cd63e4fb270099f39691f8",
+      "cdhash": "920f37dfb354a6021d8302178cdbdb8fd456e87c",
+      "signingId": "287NUTSP69:com.henrikruscon.Alcove",
+      "teamId": "287NUTSP69",
+      "lastUpdated": "2026-06-12T21:15:51Z"
+    },
+    {
+      "slug": "aldente/darwin",
+      "name": "AlDente",
+      "version": "1.37.3",
+      "sha256": "81e2cb33a70e452c2294a4bbeb48eb04afcc6341936405f5c024a95641afd73d",
+      "cdhash": "810ca22f289cb8e3d510e285103903c857c66b35",
+      "signingId": "3WVC84GB99:com.apphousekitchen.aldente-pro",
+      "teamId": "3WVC84GB99",
+      "lastUpdated": "2026-06-12T21:16:14Z"
+    },
+    {
+      "slug": "alloy/darwin",
+      "name": "Alloy",
+      "version": "6.2.0",
+      "sha256": "9cabd261bbdaedfd150cfab9a765f8192f633a0f304768aac3bac3ee166121fb",
+      "cdhash": "afcb2f364de1794606dba21509f50aeb3ec1e268",
+      "lastUpdated": "2026-06-12T21:16:35Z"
+    },
+    {
+      "slug": "alt-tab/darwin",
+      "name": "AltTab",
+      "version": "11.3.0",
+      "sha256": "d9d8db26a9a52e4e35924110c1c27ec60c08284493cd317e7c9451eb1d01e287",
+      "cdhash": "a0e201b22a31a648c4b09035be49d65ef7bf19ae",
+      "signingId": "QXD7GW8FHY:com.lwouis.alt-tab-macos",
+      "teamId": "QXD7GW8FHY",
+      "lastUpdated": "2026-06-12T21:16:56Z"
+    },
+    {
+      "slug": "altair-graphql-client/darwin",
+      "name": "Altair GraphQL Client",
+      "version": "8.5.7",
+      "sha256": "2e0027140033d0f351bb006579c595b9c0152794c4e5921e6324c28626b30f89",
+      "cdhash": "6cf1094ad2351b22544b54a6c453c61394355627",
+      "signingId": "VAK3Y4DX24:com.xkoji.altair",
+      "teamId": "VAK3Y4DX24",
+      "lastUpdated": "2026-06-12T21:17:19Z"
+    },
+    {
+      "slug": "amadeus-pro/darwin",
+      "name": "Amadeus Pro",
+      "version": "2.8.14",
+      "sha256": "cd5abbc645d84f79423da0339bb555e40c2c065d8d796819372c1baf3f207bdc",
+      "cdhash": "7a5b59cb962f5fa0964b7cff6df714125cb454d8",
+      "signingId": "FWDH9W45C2:com.HairerSoft.AmadeusPro",
+      "teamId": "FWDH9W45C2",
+      "lastUpdated": "2026-06-12T21:17:41Z"
+    },
+    {
+      "slug": "amadine/darwin",
+      "name": "Amadine",
+      "version": "1.8.2",
+      "sha256": "3d5cf62a2fee6558be669b868355ebe801e0a3b25e9bb02afe266b67c07d8361",
+      "cdhash": "a9c3c6d2ea45a9fd508ef961f6fccf7e31c4308a",
+      "signingId": "7TJZ7EZWM6:com.belightsoft.Amadine",
+      "teamId": "7TJZ7EZWM6",
+      "lastUpdated": "2026-06-12T21:18:08Z"
+    },
+    {
       "slug": "amazon-chime/darwin",
       "name": "Amazon Chime",
       "version": "5.23.22533",
@@ -607,6 +675,26 @@
       "lastUpdated": "2026-06-09T20:10:59Z"
     },
     {
+      "slug": "amethyst/darwin",
+      "name": "Amethyst",
+      "version": "0.24.3",
+      "sha256": "15daf86843d7e560a8c2720bc5fe1918a06f659796929204a8551925d33c98af",
+      "cdhash": "e4dccbcb57c15518b91aefdf5b56b2aa54a59315",
+      "signingId": "82P2XLB4UH:com.amethyst.Amethyst",
+      "teamId": "82P2XLB4UH",
+      "lastUpdated": "2026-06-12T21:18:29Z"
+    },
+    {
+      "slug": "amie/darwin",
+      "name": "Amie",
+      "version": "260216.1.0",
+      "sha256": "c4bf03a1cbce604b93e178eab957a60f5ded6e2f3b71058080bd45af01f29213",
+      "cdhash": "e4df7c03212b214a3eb61a1a5428fcab8541c37c",
+      "signingId": "64VV6PCRWU:so.amie.electron-app",
+      "teamId": "64VV6PCRWU",
+      "lastUpdated": "2026-06-12T21:18:52Z"
+    },
+    {
       "slug": "android-studio/darwin",
       "name": "Android Studio",
       "version": "2026.1",
@@ -627,6 +715,13 @@
       "thumbprint": "607A3EDAA64933E94422FC8F0C80388E0590986C",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-06-03T03:41:30Z"
+    },
+    {
+      "slug": "angry-ip-scanner/darwin",
+      "name": "Angry IP Scanner",
+      "version": "3.9.3",
+      "sha256": "a6a519741d88f62d48d077d85caddf57be6028aa77515e3f2d6ccb17ce141972",
+      "lastUpdated": "2026-06-12T21:19:12Z"
     },
     {
       "slug": "anka-virtualization/darwin",
