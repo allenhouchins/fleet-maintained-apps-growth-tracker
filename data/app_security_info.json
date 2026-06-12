@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T18:52:43Z",
+  "lastUpdated": "2026-06-12T18:59:25Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -3215,12 +3215,12 @@
     {
       "slug": "evernote/darwin",
       "name": "Evernote",
-      "version": "11.17.3",
-      "sha256": "0281c663094b41e2336711357eb65b557959dbb9c4ab1468455aa7cedd3185cc",
-      "cdhash": "00911c156bcf11f58307c68cfcdcb714bf28adb2",
+      "version": "11.20.2",
+      "sha256": "34864ac7bee1f498f0d8e8ff9c70160b69cab2697df4e84c0020402b9ec74297",
+      "cdhash": "9866d2ad21181f343d1235beafddf495a9d3f736",
       "signingId": "Q79WDW8YH9:com.evernote.Evernote",
       "teamId": "Q79WDW8YH9",
-      "lastUpdated": "2026-05-26T18:57:24Z"
+      "lastUpdated": "2026-06-12T18:54:00Z"
     },
     {
       "slug": "exifcleaner/darwin",
@@ -3382,12 +3382,12 @@
     {
       "slug": "filemaker-pro/darwin",
       "name": "FileMaker Pro",
-      "version": "22.0.5",
-      "sha256": "2442fe1a14ed355d896749161e05ce1732e73cf76fb50b7eab1a959e9e2a1809",
-      "cdhash": "4d9bc54ee574883af89c4b1414a4a42c97a2e5ff",
+      "version": "26.0.1",
+      "sha256": "f1549cf1860f0f03987cf0874ec7ad058279960106ca2f4d0644012c8b9e97a2",
+      "cdhash": "fd0e05b08abafacdc3948fe4a39b8f384a059c8a",
       "signingId": "J6K4T76U7W:com.filemaker.client.pro12",
       "teamId": "J6K4T76U7W",
-      "lastUpdated": "2026-04-03T19:26:30Z"
+      "lastUpdated": "2026-06-12T18:56:28Z"
     },
     {
       "slug": "filen/darwin",
@@ -4865,11 +4865,12 @@
     {
       "slug": "keeper-password-manager/darwin",
       "name": "Keeper Password Manager",
-      "version": "17.5.0",
-      "sha256": "3ae84bb527fb6850ba6b52d228fa2d3ab40a7a08e360a2584086b9a98e7eec69",
+      "version": "18.2.1",
+      "sha256": "9deff912b7ff15a0889e52181403d5587888b56ff4a6806a3cc05f0c25bbbb8e",
+      "cdhash": "38502130620337004509be82c1a733c78a326cc2",
       "signingId": "234QNB7GCA:com.keepersecurity.passwordmanager",
       "teamId": "234QNB7GCA",
-      "lastUpdated": "2026-01-09T19:10:31Z"
+      "lastUpdated": "2026-06-12T18:57:02Z"
     },
     {
       "slug": "keepingyouawake/darwin",
@@ -5054,6 +5055,36 @@
       "lastUpdated": "2026-06-02T17:40:51Z"
     },
     {
+      "slug": "lapce/darwin",
+      "name": "Lapce",
+      "version": "0.4.6",
+      "sha256": "229fcb243b0e54e46d70db5a3c85adc9c2d0fd85a2fc36e46bdd3ae7402d6289",
+      "cdhash": "a9c3ec5e081376ffcf56dbda888d75fd6c5ddbb8",
+      "signingId": "CYSGAZFR8D:io.lapce",
+      "teamId": "CYSGAZFR8D",
+      "lastUpdated": "2026-06-12T18:57:25Z"
+    },
+    {
+      "slug": "lasso-app/darwin",
+      "name": "Lasso",
+      "version": "1.8.2",
+      "sha256": "c94219e6c1cc53454de45799140771f16bc2d07834fd4ba1a452be11e0f044b7",
+      "cdhash": "d1252a0ac3cf697e3b6380f9cd595038fd83a633",
+      "signingId": "54HW5825ZV:com.heavylightapps.lasso",
+      "teamId": "54HW5825ZV",
+      "lastUpdated": "2026-06-12T18:57:47Z"
+    },
+    {
+      "slug": "last-window-quits/darwin",
+      "name": "Last Window Quits",
+      "version": "1.1.4",
+      "sha256": "c1a8a79291ad48137ebb6ba43138b5bb84237eebc9604bce8e612490812bc2c5",
+      "cdhash": "b2669cdac915a69ba5db737b4cb064fe3da18622",
+      "signingId": "XTRB75C6PG:io.lawand.last-window-quits",
+      "teamId": "XTRB75C6PG",
+      "lastUpdated": "2026-06-12T18:58:08Z"
+    },
+    {
       "slug": "lastpass/darwin",
       "name": "LastPass",
       "version": "4.116.0",
@@ -5074,6 +5105,26 @@
       "thumbprint": "9C20368399D45AAFD9DDEB9F1E55F31FB90892BB",
       "timestamp": "CN=Globalsign R45 TSA for CodeSign 202510, O=GlobalSign nv-sa, C=BE",
       "lastUpdated": "2026-05-29T03:23:59Z"
+    },
+    {
+      "slug": "latest/darwin",
+      "name": "Latest",
+      "version": "0.11",
+      "sha256": "cfe90804b6508b27f9db6a5e5e926ec38472bd21d6efa7a524840a450881fd70",
+      "cdhash": "09fabbe3c1c8b54499e4be61fc620e53707398a7",
+      "signingId": "VFABJ5RE5Q:com.max-langer.Latest",
+      "teamId": "VFABJ5RE5Q",
+      "lastUpdated": "2026-06-12T18:58:29Z"
+    },
+    {
+      "slug": "launchbar/darwin",
+      "name": "LaunchBar",
+      "version": "6.24",
+      "sha256": "859aac368ca1f6fde63a54ef89e073a72c37da55368001993e88a1f4e3b3594f",
+      "cdhash": "2ea48a1c0a1d1879cdbcff182ec0ff4b870eaa7f",
+      "signingId": "MLZF7K7B5R:at.obdev.LaunchBar",
+      "teamId": "MLZF7K7B5R",
+      "lastUpdated": "2026-06-12T18:58:54Z"
     },
     {
       "slug": "lenovo-dock-manager/windows",
@@ -5130,6 +5181,16 @@
       "thumbprint": "6480532A562B36D1BFFFC5B5EACF7C31E74E9B28",
       "timestamp": "CN=Certum Timestamp 2026, O=Asseco Data Systems S.A., C=PL",
       "lastUpdated": "2026-06-10T17:58:15Z"
+    },
+    {
+      "slug": "lightburn/darwin",
+      "name": "LightBurn",
+      "version": "2.1.02",
+      "sha256": "5c69fb1d2bd9a4d0745673ab09bd15fecf96eab7f3d0b355475d8f86fa4b1c6c",
+      "cdhash": "c720f64f0cef64d597781175ff34ead176334379",
+      "signingId": "UWZQ3LL82C:com.LightBurnSoftware.LightBurn",
+      "teamId": "UWZQ3LL82C",
+      "lastUpdated": "2026-06-12T18:59:23Z"
     },
     {
       "slug": "linear/darwin",
