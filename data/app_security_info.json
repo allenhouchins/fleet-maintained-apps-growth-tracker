@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T20:59:33Z",
+  "lastUpdated": "2026-06-12T21:07:51Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -155,6 +155,56 @@
       "lastUpdated": "2026-06-12T20:59:31Z"
     },
     {
+      "slug": "activedock/darwin",
+      "name": "ActiveDock",
+      "version": "2.860",
+      "sha256": "1d93251cc7c773ae988c234a25777d736fcd9bdab8ea607772ba71614aef001e",
+      "cdhash": "d019ab9ef444624cc41029561b5bb134dafa9a8d",
+      "signingId": "ZCQ7H77CA9:com.sergey-gerasimenko.ActiveDock-2",
+      "teamId": "ZCQ7H77CA9",
+      "lastUpdated": "2026-06-12T20:59:53Z"
+    },
+    {
+      "slug": "activitywatch/darwin",
+      "name": "ActivityWatch",
+      "version": "0.13.2",
+      "sha256": "7b8559c0c6f7d14158f7e6ea1634d22d643063db2c2f600736b425d77381870e",
+      "cdhash": "ca73d7df422a4ae9f05891f7cd052addd9c0d94a",
+      "signingId": "XM9GC3SUL2:net.activitywatch.ActivityWatch",
+      "teamId": "XM9GC3SUL2",
+      "lastUpdated": "2026-06-12T21:01:40Z"
+    },
+    {
+      "slug": "actual/darwin",
+      "name": "Actual",
+      "version": "26.6.0",
+      "sha256": "4aa0051cbc19db1aa1089ac751d6033a910323c9f4c6122bbc8650b7acae51fe",
+      "cdhash": "0d79c8d2357f6e4e7df98b1f5dcf83b59ba89ab0",
+      "signingId": "79ANZ983YF:com.actualbudget.actual",
+      "teamId": "79ANZ983YF",
+      "lastUpdated": "2026-06-12T21:02:03Z"
+    },
+    {
+      "slug": "adguard/darwin",
+      "name": "AdGuard",
+      "version": "2.18.0.2089",
+      "sha256": "d1c247dc8a87adf6e2a2fde98900bed24c76ca8aa08e7f5be1bacf9bf331a39d",
+      "cdhash": "75779abf29ad5bf83fa736af9c6416142bb4690c",
+      "signingId": "TC3Q7MAJXF:com.adguard.mac.adguard",
+      "teamId": "TC3Q7MAJXF",
+      "lastUpdated": "2026-06-12T21:02:41Z"
+    },
+    {
+      "slug": "adlock/darwin",
+      "name": "AdLock",
+      "version": "2.1.7.3",
+      "sha256": "5ff228cb3bce90d2447c32eba9c202fbd06561d08c2c1368d7e415ff33e5edef",
+      "cdhash": "7ded5ea2e5f71b28277e41b65955e6988133b163",
+      "signingId": "27RWUKWF7R:com.hankuper.adlock.desktop",
+      "teamId": "27RWUKWF7R",
+      "lastUpdated": "2026-06-12T21:04:12Z"
+    },
+    {
       "slug": "adobe-acrobat-pro/darwin",
       "name": "Adobe Acrobat Pro DC",
       "version": "26.001.21662",
@@ -239,6 +289,46 @@
       "signingId": "JQ525L2MZD:com.adobe.DNGConverter",
       "teamId": "JQ525L2MZD",
       "lastUpdated": "2026-06-01T03:22:43Z"
+    },
+    {
+      "slug": "advanced-renamer/darwin",
+      "name": "Advanced Renamer",
+      "version": "4.23",
+      "sha256": "ff2bd4cc693221ec8bf885a2096d40d3f2f928b82a6fcf2b619778ac7115f182",
+      "cdhash": "00cbe18e6e588eca74ea028dab5e8f080555c37d",
+      "signingId": "H25R69HUTU:com.HulubuluSoftware.AdvancedRenamer",
+      "teamId": "H25R69HUTU",
+      "lastUpdated": "2026-06-12T21:04:34Z"
+    },
+    {
+      "slug": "affinity-designer/darwin",
+      "name": "Affinity Designer 2",
+      "version": "2.6.5",
+      "sha256": "fee905e96a7906a75522f6b960dd2ca28410ae42aa3fe5aefa73acb0dc77a50c",
+      "cdhash": "482e6c77c8986b8960a29fe4337e5dc9c4520da3",
+      "signingId": "6LVTQB9699:com.seriflabs.affinitydesigner2",
+      "teamId": "6LVTQB9699",
+      "lastUpdated": "2026-06-12T21:05:35Z"
+    },
+    {
+      "slug": "affinity-designer@1/darwin",
+      "name": "Affinity Designer",
+      "version": "1.10.8",
+      "sha256": "87d056b92400f78fb20dfffb24635fb9a3d20b49ff347bb24b01590951c8b3da",
+      "cdhash": "5031c4cbf20aca04542fab632144bc725a986024",
+      "signingId": "6LVTQB9699:com.seriflabs.affinitydesigner",
+      "teamId": "6LVTQB9699",
+      "lastUpdated": "2026-06-12T21:06:46Z"
+    },
+    {
+      "slug": "affinity-photo/darwin",
+      "name": "Affinity Photo 2",
+      "version": "2.6.5",
+      "sha256": "5b2ea93852fc3d45ea79f5ae5efb19e2a3f0032a8beb37631070ca23dd1dd5c3",
+      "cdhash": "e6395f06ade846d7e34531088a244bdf7b252ec1",
+      "signingId": "6LVTQB9699:com.seriflabs.affinityphoto2",
+      "teamId": "6LVTQB9699",
+      "lastUpdated": "2026-06-12T21:07:48Z"
     },
     {
       "slug": "affinity/darwin",
