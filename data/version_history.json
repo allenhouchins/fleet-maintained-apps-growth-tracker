@@ -1,204 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-05-29T22:36:28Z",
-      "appName": "Mattermost",
-      "slug": "mattermost/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "6.0.4",
-      "installerUrl": "https://releases.mattermost.com/desktop/6.0.4/mattermost-desktop-6.0.4-win-x64.msi"
-    },
-    {
-      "date": "2026-05-29T22:36:28Z",
-      "appName": "Todoist",
-      "slug": "todoist-app/windows",
-      "platform": "windows",
-      "oldVersion": "9.27.1",
-      "newVersion": "9.28.0",
-      "installerUrl": "https://electron-dl.todoist.net/windows/Todoist-win32-9.28.0-x64-latest.exe"
-    },
-    {
-      "date": "2026-05-30T01:42:56Z",
-      "appName": "Cryptomator",
-      "slug": "cryptomator/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "1.19.2",
-      "installerUrl": "https://github.com/cryptomator/cryptomator/releases/download/1.19.2/Cryptomator-1.19.2-arm64.dmg"
-    },
-    {
-      "date": "2026-05-30T01:42:56Z",
-      "appName": "Android Studio",
-      "slug": "android-studio/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "2025.3.4.7",
-      "installerUrl": "https://edgedl.me.gvt1.com/android/studio/install/2025.3.4.7/android-studio-panda4-patch1-windows.exe"
-    },
-    {
-      "date": "2026-05-30T01:42:56Z",
-      "appName": "ChatGPT Atlas",
-      "slug": "chatgpt-atlas/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.2026.119.1",
-      "newVersion": "1.2026.126.0",
-      "installerUrl": "https://persistent.oaistatic.com/atlas/public/ChatGPT_Atlas_Desktop_public_1.2026.126.0_20260529183006000.dmg"
-    },
-    {
-      "date": "2026-05-30T01:42:56Z",
-      "appName": "AWS Command Line Interface v2",
-      "slug": "aws-cli/windows",
-      "platform": "windows",
-      "oldVersion": "2.34.56",
-      "newVersion": "2.34.57",
-      "installerUrl": "https://awscli.amazonaws.com/AWSCLIV2-2.34.57.msi"
-    },
-    {
-      "date": "2026-05-30T01:42:56Z",
-      "appName": "Cryptomator",
-      "slug": "cryptomator/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "1.19.2",
-      "installerUrl": "https://github.com/cryptomator/cryptomator/releases/download/1.19.2/Cryptomator-1.19.2-x64.msi"
-    },
-    {
-      "date": "2026-05-30T01:42:56Z",
-      "appName": "Keka",
-      "slug": "keka/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.6.4",
-      "newVersion": "1.6.5",
-      "installerUrl": "https://github.com/aonez/Keka/releases/download/v1.6.5/Keka-1.6.5.dmg"
-    },
-    {
-      "date": "2026-05-30T01:42:56Z",
-      "appName": "Microsoft Teams",
-      "slug": "microsoft-teams/darwin",
-      "platform": "darwin",
-      "oldVersion": "26106.2113.4690.1073",
-      "newVersion": "26120.3106.4725.800",
-      "installerUrl": "https://statics.teams.cdn.office.net/production-osx/26120.3106.4725.800/MicrosoftTeams.pkg"
-    },
-    {
-      "date": "2026-05-30T01:42:56Z",
-      "appName": "Cursor",
-      "slug": "cursor/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.5.38",
-      "newVersion": "3.6.21",
-      "installerUrl": "https://downloads.cursor.com/production/e7a7e93f4d75f8272503ecf33cedbaae10114a15/darwin/arm64/Cursor-darwin-arm64.zip"
-    },
-    {
-      "date": "2026-05-30T03:13:04Z",
-      "appName": "Another Redis Desktop Manager",
-      "slug": "another-redis-desktop-manager/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "1.7.1",
-      "installerUrl": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v1.7.1/Another-Redis-Desktop-Manager-mac-1.7.1-arm64.dmg"
-    },
-    {
-      "date": "2026-05-30T03:13:04Z",
-      "appName": "Another Redis Desktop Manager",
-      "slug": "another-redis-desktop-manager/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "1.7.1",
-      "installerUrl": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v1.7.1/Another-Redis-Desktop-Manager-win-1.7.1-x64.exe"
-    },
-    {
-      "date": "2026-05-30T03:13:04Z",
-      "appName": "Max",
-      "slug": "cycling74-max/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "9.1.4",
-      "installerUrl": "https://downloads.cdn.cycling74.com/max9/Max914_260407.dmg"
-    },
-    {
-      "date": "2026-05-30T03:13:04Z",
-      "appName": "Bitwarden",
-      "slug": "bitwarden/windows",
-      "platform": "windows",
-      "oldVersion": "2026.4.0",
-      "newVersion": "2026.5.0",
-      "installerUrl": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.5.0/Bitwarden-Installer-2026.5.0.exe"
-    },
-    {
-      "date": "2026-05-30T05:22:18Z",
-      "appName": "RustDesk",
-      "slug": "rustdesk/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "1.4.6",
-      "installerUrl": "https://github.com/rustdesk/rustdesk/releases/download/1.4.6/rustdesk-1.4.6-aarch64.dmg"
-    },
-    {
-      "date": "2026-06-01T03:19:04Z",
-      "appName": "Bitwarden",
-      "slug": "bitwarden/darwin",
-      "platform": "darwin",
-      "oldVersion": "2026.4.0",
-      "newVersion": "2026.5.0",
-      "installerUrl": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.5.0/Bitwarden-2026.5.0-universal.dmg"
-    },
-    {
-      "date": "2026-06-01T03:19:04Z",
-      "appName": "Power BI",
-      "slug": "power-bi/windows",
-      "platform": "windows",
-      "oldVersion": "2.154.956.0",
-      "newVersion": "2.154.1260.0",
-      "installerUrl": "https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2026-05_x64.exe"
-    },
-    {
-      "date": "2026-06-01T03:19:04Z",
-      "appName": "DBeaver",
-      "slug": "dbeaver-community/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.0.5",
-      "newVersion": "26.1.0",
-      "installerUrl": "https://dbeaver.io/files/26.1.0/dbeaver-ce-26.1.0-macos-aarch64.dmg"
-    },
-    {
-      "date": "2026-06-01T03:19:04Z",
-      "appName": "Adobe DNG Converter",
-      "slug": "adobe-dng-converter/darwin",
-      "platform": "darwin",
-      "oldVersion": "18.3.1",
-      "newVersion": "18.3.2",
-      "installerUrl": "https://download.adobe.com/pub/adobe/dng/mac/DNGConverter_18_3_2.dmg"
-    },
-    {
-      "date": "2026-06-01T03:19:04Z",
-      "appName": "Rectangle",
-      "slug": "rectangle/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.95",
-      "newVersion": "0.96",
-      "installerUrl": "https://github.com/rxhanson/Rectangle/releases/download/v0.96/Rectangle0.96.dmg"
-    },
-    {
-      "date": "2026-06-01T07:56:12Z",
-      "appName": "Zed",
-      "slug": "zed/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "1.4.4",
-      "installerUrl": "https://github.com/zed-industries/zed/releases/download/v1.4.4/Zed-x86_64.exe"
-    },
-    {
-      "date": "2026-06-01T15:09:38Z",
-      "appName": "Amazon WorkSpaces",
-      "slug": "amazon-workspaces/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "5.32.0.6080",
-      "installerUrl": "https://d2td7dqidlhjx7.cloudfront.net/prod/global/osx/WorkSpaces_AllProducts_6080.zip"
-    },
-    {
       "date": "2026-06-01T15:09:38Z",
       "appName": "Gemini",
       "slug": "google-gemini/darwin",
@@ -8999,6 +8801,204 @@
       "oldVersion": "",
       "newVersion": "26.609.30741",
       "installerUrl": "https://persistent.oaistatic.com/codex-app-prod/Codex-darwin-arm64-26.609.30741.zip"
+    },
+    {
+      "date": "2026-06-12T05:41:39Z",
+      "appName": "Tunnelblick",
+      "slug": "tunnelblick/darwin",
+      "platform": "darwin",
+      "oldVersion": "8.0.1",
+      "newVersion": "8.0.2",
+      "installerUrl": "https://tunnelblick.net/iprelease/Tunnelblick_8.0.2_build_6302.dmg"
+    },
+    {
+      "date": "2026-06-12T05:41:39Z",
+      "appName": "BetterTouchTool",
+      "slug": "bettertouchtool/darwin",
+      "platform": "darwin",
+      "oldVersion": "6.570",
+      "newVersion": "6.573",
+      "installerUrl": "https://folivora.ai/releases/btt6.573-2026061010.zip"
+    },
+    {
+      "date": "2026-06-12T05:41:39Z",
+      "appName": "Rive",
+      "slug": "rive/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.8.5006",
+      "newVersion": "0.8.5037",
+      "installerUrl": "https://releases.rive.app/macos/0.8.5037/Rive.dmg"
+    },
+    {
+      "date": "2026-06-12T05:41:39Z",
+      "appName": "Pritunl",
+      "slug": "pritunl/windows",
+      "platform": "windows",
+      "oldVersion": "1.3.4566.62",
+      "newVersion": "1.3.4655.98",
+      "installerUrl": "https://github.com/pritunl/pritunl-client/releases/download/1.3.4655.98/Pritunl.exe"
+    },
+    {
+      "date": "2026-06-12T05:41:39Z",
+      "appName": "Marked",
+      "slug": "marked-app/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.0.29",
+      "newVersion": "3.0.33",
+      "installerUrl": "https://updates.markedapp.com/updates/Marked%203.0.33.zip"
+    },
+    {
+      "date": "2026-06-12T05:41:39Z",
+      "appName": "Notion Calendar",
+      "slug": "notion-calendar/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.134.2",
+      "newVersion": "1.135.1",
+      "installerUrl": "https://calendar-desktop-release.notion-static.com/Notion%20Calendar-darwin-arm64-1.135.1.zip"
+    },
+    {
+      "date": "2026-06-12T05:41:39Z",
+      "appName": "Fantastical",
+      "slug": "fantastical/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.1.13",
+      "newVersion": "4.1.14",
+      "installerUrl": "https://cdn.flexibits.com/Fantastical_4.1.14.zip"
+    },
+    {
+      "date": "2026-06-12T05:41:39Z",
+      "appName": "PostgreSQL 16",
+      "slug": "postgresql-16/windows",
+      "platform": "windows",
+      "oldVersion": "16.14-1",
+      "newVersion": "16.14-2",
+      "installerUrl": "https://get.enterprisedb.com/postgresql/postgresql-16.14-2-windows-x64.exe"
+    },
+    {
+      "date": "2026-06-12T05:41:39Z",
+      "appName": "iMazing",
+      "slug": "imazing/windows",
+      "platform": "windows",
+      "oldVersion": "3.5.4.0",
+      "newVersion": "3.5.5.0",
+      "installerUrl": "https://downloads.imazing.com/windows/iMazing/iMazing3forWindows.exe"
+    },
+    {
+      "date": "2026-06-12T05:41:39Z",
+      "appName": "MuseScore",
+      "slug": "musescore/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.7.2.260525085",
+      "newVersion": "4.7.3.260608135",
+      "installerUrl": "https://github.com/musescore/MuseScore/releases/download/v4.7.3/MuseScore-Studio-4.7.3.260608135.dmg"
+    },
+    {
+      "date": "2026-06-12T05:41:39Z",
+      "appName": "Twingate",
+      "slug": "twingate/darwin",
+      "platform": "darwin",
+      "oldVersion": "2026.120",
+      "newVersion": "2026.155",
+      "installerUrl": "https://binaries.twingate.com/client/macos/2026.155.25395/Twingate.pkg"
+    },
+    {
+      "date": "2026-06-12T05:41:39Z",
+      "appName": "Google Chrome",
+      "slug": "google-chrome/windows",
+      "platform": "windows",
+      "oldVersion": "149.0.7827.103",
+      "newVersion": "149.0.7827.115",
+      "installerUrl": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi"
+    },
+    {
+      "date": "2026-06-12T05:41:39Z",
+      "appName": "Melodics",
+      "slug": "melodics/darwin",
+      "platform": "darwin",
+      "oldVersion": "5.0.571",
+      "newVersion": "5.0.627",
+      "installerUrl": "https://web-cdn.melodics.com/download/AED19966-0D0E-4A4E-A29B-1C2D1688B662.zip"
+    },
+    {
+      "date": "2026-06-12T05:41:39Z",
+      "appName": "Camunda Modeler",
+      "slug": "camunda-modeler/darwin",
+      "platform": "darwin",
+      "oldVersion": "5.47.0",
+      "newVersion": "5.48.0",
+      "installerUrl": "https://downloads.camunda.cloud/release/camunda-modeler/5.48.0/camunda-modeler-5.48.0-mac-arm64.zip"
+    },
+    {
+      "date": "2026-06-12T05:41:39Z",
+      "appName": "Figma",
+      "slug": "figma/darwin",
+      "platform": "darwin",
+      "oldVersion": "126.4.13",
+      "newVersion": "126.5.6",
+      "installerUrl": "https://desktop.figma.com/mac-arm/Figma-126.5.6.zip"
+    },
+    {
+      "date": "2026-06-12T05:41:39Z",
+      "appName": "ElectronMail",
+      "slug": "electronmail/darwin",
+      "platform": "darwin",
+      "oldVersion": "5.3.6",
+      "newVersion": "5.3.7",
+      "installerUrl": "https://github.com/vladimiry/ElectronMail/releases/download/v5.3.7/electron-mail-5.3.7-mac-arm64.dmg"
+    },
+    {
+      "date": "2026-06-12T05:41:39Z",
+      "appName": "Mimestream",
+      "slug": "mimestream/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.10.1",
+      "newVersion": "1.10.2",
+      "installerUrl": "https://download.mimestream.com/Mimestream_1.10.2.dmg"
+    },
+    {
+      "date": "2026-06-12T05:41:39Z",
+      "appName": "Framer",
+      "slug": "framer/darwin",
+      "platform": "darwin",
+      "oldVersion": "2026.12.6",
+      "newVersion": "2026.23.3",
+      "installerUrl": "https://updates.framer.com/electron/darwin/arm64/Framer-2026.23.3.zip"
+    },
+    {
+      "date": "2026-06-12T05:41:39Z",
+      "appName": "AWS Command Line Interface v2",
+      "slug": "aws-cli/windows",
+      "platform": "windows",
+      "oldVersion": "2.35.2",
+      "newVersion": "2.35.3",
+      "installerUrl": "https://awscli.amazonaws.com/AWSCLIV2-2.35.3.msi"
+    },
+    {
+      "date": "2026-06-12T05:41:39Z",
+      "appName": "OmniPlan",
+      "slug": "omniplan/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.10.2",
+      "newVersion": "4.10.3",
+      "installerUrl": "https://downloads.omnigroup.com/software/macOS/12/OmniPlan-4.10.3.dmg"
+    },
+    {
+      "date": "2026-06-12T05:41:39Z",
+      "appName": "Eclipse Memory Analyzer",
+      "slug": "memoryanalyzer/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.16.1.20250109",
+      "newVersion": "1.17.0.20260601",
+      "installerUrl": "https://download.eclipse.org/mat/1.17.0/rcp/MemoryAnalyzer-1.17.0.20260601-macosx.cocoa.aarch64.dmg"
+    },
+    {
+      "date": "2026-06-12T05:41:39Z",
+      "appName": "MacPacker",
+      "slug": "macpacker/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.15.1",
+      "newVersion": "0.15.2",
+      "installerUrl": "https://macpacker-releases.s3.amazonaws.com/MacPacker_v0.15.2.zip"
     }
   ]
 }
