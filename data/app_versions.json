@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T17:10:15Z",
+  "lastUpdated": "2026-06-12T18:47:39Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -103,7 +103,7 @@
       "slug": "adobe-acrobat-pro/darwin",
       "name": "Adobe Acrobat Pro",
       "platform": "darwin",
-      "version": "25.001.20937",
+      "version": "26.001.21662",
       "installerUrl": "https://trials.adobe.com/AdobeProducts/APRO/Acrobat_HelpX/osx10/Acrobat_DC_Web_WWMUI.dmg"
     },
     {
@@ -448,13 +448,6 @@
       "platform": "windows",
       "version": "25.34.17",
       "installerUrl": "https://cdn.azul.com/zulu/bin/zulu25.34.17-ca-jre25.0.3-win_x64.msi"
-    },
-    {
-      "slug": "backblaze/darwin",
-      "name": "Backblaze",
-      "platform": "darwin",
-      "version": "10.0.0.1030",
-      "installerUrl": "https://secure.backblaze.com/api/install_backblaze?file=bzinstall-mac-10.0.0.1030.dmg"
     },
     {
       "slug": "background-music/darwin",
@@ -1223,8 +1216,8 @@
       "slug": "cloudflare-warp/windows",
       "name": "Cloudflare WARP",
       "platform": "windows",
-      "version": "26.1.150.0",
-      "installerUrl": "https://downloads.cloudflareclient.com/v1/download/windows/version/2026.1.150.0"
+      "version": "26.4.1390.0",
+      "installerUrl": "https://downloads.cloudflareclient.com/v1/download/windows/version/2026.4.1390.0"
     },
     {
       "slug": "cloudmounter/darwin",
@@ -2182,7 +2175,7 @@
       "slug": "evernote/darwin",
       "name": "Evernote",
       "platform": "darwin",
-      "version": "11.17.3",
+      "version": "11.20.2",
       "installerUrl": "https://mac.desktop.evernote.com/builds/Evernote-10.105.4-mac-ddl-stage-20240910164757-a2e60a8d876a07eded5d212fa56ba45214114ad0.dmg"
     },
     {
@@ -2301,8 +2294,8 @@
       "slug": "filemaker-pro/darwin",
       "name": "FileMaker Pro",
       "platform": "darwin",
-      "version": "22.0.5",
-      "installerUrl": "https://downloads.claris.com/esd/fmp_22.0.5.500.dmg"
+      "version": "26.0.1",
+      "installerUrl": "https://downloads.claris.com/esd/fmp_26.0.1.51.dmg"
     },
     {
       "slug": "filen/darwin",
@@ -3323,7 +3316,7 @@
       "slug": "keeper-password-manager/darwin",
       "name": "Keeper Password Manager",
       "platform": "darwin",
-      "version": "17.5.0",
+      "version": "18.2.1",
       "installerUrl": "https://keepersecurity.com/desktop_electron/Darwin/KeeperSetup.dmg"
     },
     {
@@ -3453,6 +3446,27 @@
       "installerUrl": "https://download.kde.org/stable/krita/5.3.2.1/krita-x64-5.3.2.1-setup.exe"
     },
     {
+      "slug": "lapce/darwin",
+      "name": "Lapce",
+      "platform": "darwin",
+      "version": "0.4.6",
+      "installerUrl": "https://github.com/lapce/lapce/releases/download/v0.4.6/Lapce-macos.dmg"
+    },
+    {
+      "slug": "lasso-app/darwin",
+      "name": "Lasso",
+      "platform": "darwin",
+      "version": "1.8.2",
+      "installerUrl": "https://f003.backblazeb2.com/file/lasso-app/Lasso.dmg"
+    },
+    {
+      "slug": "last-window-quits/darwin",
+      "name": "Last Window Quits",
+      "platform": "darwin",
+      "version": "1.1.4",
+      "installerUrl": "https://lawand.io/wp-content/uploads/2024/12/last-window-quits-1.1.4.zip"
+    },
+    {
       "slug": "lastpass/darwin",
       "name": "LastPass",
       "platform": "darwin",
@@ -3465,6 +3479,20 @@
       "platform": "windows",
       "version": "5.4.3.1481",
       "installerUrl": "https://download.cloud.lastpass.com/windows_installer/LastPassInstaller.msi"
+    },
+    {
+      "slug": "latest/darwin",
+      "name": "Latest",
+      "platform": "darwin",
+      "version": "0.11",
+      "installerUrl": "https://max.codes/latest/0.11.zip"
+    },
+    {
+      "slug": "launchbar/darwin",
+      "name": "LaunchBar",
+      "platform": "darwin",
+      "version": "6.24",
+      "installerUrl": "https://www.obdev.at/downloads/launchbar/LaunchBar-6.24.dmg"
     },
     {
       "slug": "lenovo-dock-manager/windows",
@@ -3502,6 +3530,13 @@
       "installerUrl": "https://download.documentfoundation.org/libreoffice/stable/26.2.4/win/x86_64/LibreOffice_26.2.4_Win_x86-64.msi"
     },
     {
+      "slug": "lightburn/darwin",
+      "name": "LightBurn",
+      "platform": "darwin",
+      "version": "2.1.02",
+      "installerUrl": "https://release.lightburnsoftware.com/LightBurn/Release/LightBurn-v2.1.02/LightBurn.V2.1.02.dmg"
+    },
+    {
       "slug": "linear/darwin",
       "name": "Linear",
       "platform": "darwin",
@@ -3516,6 +3551,20 @@
       "installerUrl": "https://download.todesktop.com/200315glz2793v6/Linear%20Setup%201.28.13%20-%20Build%20260318pho1bttxr-x64.exe"
     },
     {
+      "slug": "linearmouse/darwin",
+      "name": "LinearMouse",
+      "platform": "darwin",
+      "version": "0.11.2",
+      "installerUrl": "https://dl.linearmouse.org/v0.11.2/LinearMouse.dmg"
+    },
+    {
+      "slug": "lingon-x/darwin",
+      "name": "Lingon X",
+      "platform": "darwin",
+      "version": "9.6.6",
+      "installerUrl": "https://www.peterborgapps.com/downloads/LingonX9.zip"
+    },
+    {
       "slug": "little-snitch/darwin",
       "name": "Little Snitch",
       "platform": "darwin",
@@ -3523,10 +3572,38 @@
       "installerUrl": "https://www.obdev.at/downloads/littlesnitch/LittleSnitch-6.3.3.dmg"
     },
     {
+      "slug": "lo-rain/darwin",
+      "name": "lo-rain",
+      "platform": "darwin",
+      "version": "1.5.2",
+      "installerUrl": "https://lo.cafe/lo-rain-files/lo-rain-1.5.2.dmg"
+    },
+    {
+      "slug": "local/darwin",
+      "name": "Local",
+      "platform": "darwin",
+      "version": "10.1.0",
+      "installerUrl": "https://cdn.localwp.com/releases-stable/10.1.0+6912/local-10.1.0-mac-arm64.dmg"
+    },
+    {
+      "slug": "localsend/darwin",
+      "name": "LocalSend",
+      "platform": "darwin",
+      "version": "1.17.0",
+      "installerUrl": "https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0.dmg"
+    },
+    {
+      "slug": "locationsimulator/darwin",
+      "name": "LocationSimulator",
+      "platform": "darwin",
+      "version": "0.2.2",
+      "installerUrl": "https://github.com/Schlaubischlump/LocationSimulator/releases/download/v0.2.2/LocationSimulator.app.zip"
+    },
+    {
       "slug": "logi-options+/darwin",
       "name": "Logi Options+",
       "platform": "darwin",
-      "version": "2.1.854976",
+      "version": "2.4.903778",
       "installerUrl": "https://download01.logi.com/web/ftp/pub/techsupport/optionsplus/logioptionsplus_installer.zip"
     },
     {
@@ -3544,6 +3621,20 @@
       "installerUrl": "https://software.vc.logitech.com/downloads/tune/LogiTuneInstaller.pkg"
     },
     {
+      "slug": "logseq/darwin",
+      "name": "Logseq",
+      "platform": "darwin",
+      "version": "0.10.15",
+      "installerUrl": "https://github.com/logseq/logseq/releases/download/0.10.15/logseq-darwin-arm64-0.10.15.dmg"
+    },
+    {
+      "slug": "lookaway/darwin",
+      "name": "LookAway",
+      "platform": "darwin",
+      "version": "2.1.2",
+      "installerUrl": "https://github.com/mysticalbits/lookaway-releases/releases/download/2.1.2/LookAway.dmg"
+    },
+    {
       "slug": "loom/darwin",
       "name": "Loom",
       "platform": "darwin",
@@ -3558,11 +3649,74 @@
       "installerUrl": "https://cdn.loom.com/desktop-packages/Loom%20Setup%200.353.3.exe"
     },
     {
+      "slug": "loop/darwin",
+      "name": "Loop",
+      "platform": "darwin",
+      "version": "1.4.2",
+      "installerUrl": "https://github.com/MrKai77/Loop/releases/download/1.4.2/Loop.zip"
+    },
+    {
+      "slug": "loopback/darwin",
+      "name": "Loopback",
+      "platform": "darwin",
+      "version": "2.4.10",
+      "installerUrl": "https://cdn.rogueamoeba.com/loopback/download/Loopback.zip"
+    },
+    {
+      "slug": "losslesscut/darwin",
+      "name": "LosslessCut",
+      "platform": "darwin",
+      "version": "3.69.0",
+      "installerUrl": "https://github.com/mifi/lossless-cut/releases/download/v3.69.0/LosslessCut-mac-arm64.dmg"
+    },
+    {
+      "slug": "low-profile/darwin",
+      "name": "Low Profile",
+      "platform": "darwin",
+      "version": "5.0.0",
+      "installerUrl": "https://github.com/ninxsoft/LowProfile/releases/download/v5.0.0/Low.Profile.5.0.0.pkg"
+    },
+    {
       "slug": "lulu/darwin",
       "name": "LuLu",
       "platform": "darwin",
       "version": "4.3.2",
       "installerUrl": "https://github.com/objective-see/LuLu/releases/download/v4.3.2/LuLu_4.3.2.dmg"
+    },
+    {
+      "slug": "lunacy/darwin",
+      "name": "Lunacy",
+      "platform": "darwin",
+      "version": "14.1",
+      "installerUrl": "https://lcdn.icons8.com/setup/Lunacy_14.1.dmg"
+    },
+    {
+      "slug": "lunar/darwin",
+      "name": "Lunar",
+      "platform": "darwin",
+      "version": "6.10.4",
+      "installerUrl": "https://files.lunar.fyi/releases/Lunar-6.10.4.dmg"
+    },
+    {
+      "slug": "lunasea/darwin",
+      "name": "LunaSea",
+      "platform": "darwin",
+      "version": "11.0.0",
+      "installerUrl": "https://github.com/JagandeepBrar/LunaSea/releases/download/v11.0.0/lunasea-macos-amd64.zip"
+    },
+    {
+      "slug": "lunatask/darwin",
+      "name": "Lunatask",
+      "platform": "darwin",
+      "version": "2.1.28",
+      "installerUrl": "https://github.com/lunatask/lunatask/releases/download/v2.1.28/Lunatask-2.1.28-universal.dmg"
+    },
+    {
+      "slug": "lycheeslicer/darwin",
+      "name": "Lychee Slicer",
+      "platform": "darwin",
+      "version": "7.6.5",
+      "installerUrl": "https://mango-lychee.nyc3.cdn.digitaloceanspaces.com/LycheeSlicer-7.6.5.dmg"
     },
     {
       "slug": "mac-mouse-fix/darwin",
