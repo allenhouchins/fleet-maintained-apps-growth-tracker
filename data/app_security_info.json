@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T15:41:01Z",
+  "lastUpdated": "2026-06-12T15:47:29Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -9494,6 +9494,36 @@
       "lastUpdated": "2026-03-11T20:14:45Z"
     },
     {
+      "slug": "thorium/darwin",
+      "name": "Thorium Reader",
+      "version": "3.4.0",
+      "sha256": "501455df0fd28f5ad9ea2ba2da5a803320a241081bcc02d7e345c9b48238bcde",
+      "cdhash": "c54088c2bfe4af5e62c16b7e662a9ec3953df9d1",
+      "signingId": "327YA3JNGT:io.github.edrlab.thorium",
+      "teamId": "327YA3JNGT",
+      "lastUpdated": "2026-06-12T15:41:22Z"
+    },
+    {
+      "slug": "threema/darwin",
+      "name": "Threema",
+      "version": "1.2.50",
+      "sha256": "33b5b81ea6b4bf292acfd763e7b2a1f52fe85c85164fbc688d86207073e179b2",
+      "cdhash": "89e406e6ad09268affd08f5b548b80b120923402",
+      "signingId": "DL5SR3PBJC:threema-consumer-web",
+      "teamId": "DL5SR3PBJC",
+      "lastUpdated": "2026-06-12T15:42:11Z"
+    },
+    {
+      "slug": "thumbsup/darwin",
+      "name": "ThumbsUp",
+      "version": "4.5.3",
+      "sha256": "bfe3fd466310d2d2287af5fed6c15f45e2ad205b497a4ef772b1c660ae6b7ad2",
+      "cdhash": "30d4977b860886cfdac557b822af559d740798c9",
+      "signingId": "679S2QUWR8:com.devon-technologies.ThumbsUp",
+      "teamId": "679S2QUWR8",
+      "lastUpdated": "2026-06-12T15:42:32Z"
+    },
+    {
       "slug": "thunderbird/darwin",
       "name": "Thunderbird",
       "version": "151.0.1",
@@ -9516,6 +9546,56 @@
       "lastUpdated": "2026-05-27T03:31:55Z"
     },
     {
+      "slug": "ticktick/darwin",
+      "name": "TickTick",
+      "version": "8.0.70",
+      "sha256": "197892d0597a0df7858b2fa5dd9bbf4fd4c83c5a6a58b31ead2b3ee545e3f55a",
+      "cdhash": "587ce25182c9b7ba34e4e4c54d52d9501a7f6066",
+      "signingId": "75TY9UT8AY:com.TickTick.task.mac",
+      "teamId": "75TY9UT8AY",
+      "lastUpdated": "2026-06-12T15:43:13Z"
+    },
+    {
+      "slug": "tidal/darwin",
+      "name": "TIDAL",
+      "version": "2.41.3",
+      "sha256": "e22a7e2309ee20a22c93c4abbf74dd61298e23fb8b92f4c2c215c58fa5e9ae6a",
+      "cdhash": "66d4c5656bead115cef210f1dea3e1370860b8bc",
+      "signingId": "GK2243L7KB:com.tidal.desktop",
+      "teamId": "GK2243L7KB",
+      "lastUpdated": "2026-06-12T15:43:41Z"
+    },
+    {
+      "slug": "tiles/darwin",
+      "name": "Sempliva Tiles",
+      "version": "1.3.2",
+      "sha256": "3b2b1ecd1237af142601d023a7ae4151220b97147836e93369542fdc04931a10",
+      "cdhash": "3ffa050c7dde7f569bd76c52fa6a9437282de535",
+      "signingId": "2CLM6AE45H:com.sempliva.Tiles",
+      "teamId": "2CLM6AE45H",
+      "lastUpdated": "2026-06-12T15:44:03Z"
+    },
+    {
+      "slug": "timescribe/darwin",
+      "name": "TimeScribe",
+      "version": "1.15.0",
+      "sha256": "fdf7479a8d6ced5cf241b9640e860558954b1c15399c5797c5dc21b7cdc3fff4",
+      "cdhash": "81c6f2441fd5da82a4771894aa410678be6320b0",
+      "signingId": "69A277BV6W:de.amplussoftware.timescribe",
+      "teamId": "69A277BV6W",
+      "lastUpdated": "2026-06-12T15:45:19Z"
+    },
+    {
+      "slug": "timing/darwin",
+      "name": "Timing",
+      "version": "2026.3.1",
+      "sha256": "5bb970fc0ebd680796afb09e3b67bd58749e5d9ed1e0fa990956062b749ecb9e",
+      "cdhash": "f99c09d042e63f89d40f95b0dd229d7f6e461682",
+      "signingId": "NDB5JK3DZG:info.eurocomp.Timing2",
+      "teamId": "NDB5JK3DZG",
+      "lastUpdated": "2026-06-12T15:45:45Z"
+    },
+    {
       "slug": "todoist-app/darwin",
       "name": "Todoist",
       "version": "9.28.0",
@@ -9536,6 +9616,26 @@
       "thumbprint": "B605D9FE09043ECBB29F1D07E28EF4C4576AF25E",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-05-29T22:47:53Z"
+    },
+    {
+      "slug": "topaz-gigapixel-ai/darwin",
+      "name": "Topaz Gigapixel AI",
+      "version": "8.4.4",
+      "sha256": "d542ea8d0c79b86d9da15cdbe7f442853948b02aac438bca938251d79deea30c",
+      "cdhash": "705e5fd04d69786586ad9b6197879c36ef902925",
+      "signingId": "3G3JE37ZHF:com.topazlabs.TopazGigapixelAI",
+      "teamId": "3G3JE37ZHF",
+      "lastUpdated": "2026-06-12T15:46:27Z"
+    },
+    {
+      "slug": "topaz-photo-ai/darwin",
+      "name": "Topaz Photo AI",
+      "version": "4.0.4",
+      "sha256": "0b6aa761ce0d3f1204d5919afc18f8b71004f77eddf91778b0ba8e9aab5a2bc2",
+      "cdhash": "c48b6733a87633c48c8143f629243bb6b536728d",
+      "signingId": "3G3JE37ZHF:com.topazlabs.TopazPhotoAI",
+      "teamId": "3G3JE37ZHF",
+      "lastUpdated": "2026-06-12T15:47:26Z"
     },
     {
       "slug": "tor-browser/darwin",
