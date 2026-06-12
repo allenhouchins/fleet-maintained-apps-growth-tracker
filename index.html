@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: June 11, 2026 at 10:17 PM CDT</p>
+            Last updated: June 11, 2026 at 10:22 PM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: June 11, 2026 at 10:17 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: June 11, 2026 at 10:22 PM CDT</p>
             </div>
         </div>
     </div>
@@ -6027,7 +6027,14 @@
                 "platform": "darwin",
                 "description": "Codex is OpenAI's desktop app for managing coding agents.",
                 "version": "26.609.30741",
-                "installerUrl": "https://persistent.oaistatic.com/codex-app-prod/Codex-darwin-arm64-26.609.30741.zip"
+                "installerUrl": "https://persistent.oaistatic.com/codex-app-prod/Codex-darwin-arm64-26.609.30741.zip",
+                "securityInfo": {
+                  "sha256": "591ef37ba8c53994f77cd7fe1a139c8e91063d9afa47a48d9a76ff04654ae1c1",
+                  "cdhash": "7a9ffe7283f80ff6f82d8063c8cdcb7fbbbcf031",
+                  "signingId": "2DC432GLL2:com.openai.codex",
+                  "teamId": "2DC432GLL2",
+                  "lastUpdated": "2026-06-12T03:18:59Z"
+                }
               },
               {
                 "name": "CodexBar",
@@ -19600,7 +19607,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `June 11, 2026 at 10:17 PM CDT`;
+                let timestampText = 'Last updated: ' + `June 11, 2026 at 10:22 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
