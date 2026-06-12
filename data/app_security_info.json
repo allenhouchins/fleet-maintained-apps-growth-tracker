@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T21:07:51Z",
+  "lastUpdated": "2026-06-12T21:15:32Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -331,6 +331,36 @@
       "lastUpdated": "2026-06-12T21:07:48Z"
     },
     {
+      "slug": "affinity-photo@1/darwin",
+      "name": "Affinity Photo",
+      "version": "1.10.8",
+      "sha256": "901d533d06110321b36163353c628ef53d1f5ed16f957733f47e6b6bffba86b8",
+      "cdhash": "ac49006a34adf2eac79d15867fc6bab95dfe6b78",
+      "signingId": "6LVTQB9699:com.seriflabs.affinityphoto",
+      "teamId": "6LVTQB9699",
+      "lastUpdated": "2026-06-12T21:08:58Z"
+    },
+    {
+      "slug": "affinity-publisher/darwin",
+      "name": "Affinity Publisher 2",
+      "version": "2.6.5",
+      "sha256": "f7d1ca22eea3837a29d4bd43e44a7e321f820f5bfd4e25c30268b0c147b97b08",
+      "cdhash": "db9d3132d2d917f9ffe97392312d0a254aec947e",
+      "signingId": "6LVTQB9699:com.seriflabs.affinitypublisher2",
+      "teamId": "6LVTQB9699",
+      "lastUpdated": "2026-06-12T21:09:58Z"
+    },
+    {
+      "slug": "affinity-publisher@1/darwin",
+      "name": "Affinity Publisher",
+      "version": "1.10.8",
+      "sha256": "0a780b5a69be603518ea17997a9d6efb6ad8b375a4c5eeaf91b5de8ee655a482",
+      "cdhash": "b1ac351468cc8313496aca7780d9de172f7e90e7",
+      "signingId": "6LVTQB9699:com.seriflabs.affinitypublisher",
+      "teamId": "6LVTQB9699",
+      "lastUpdated": "2026-06-12T21:11:07Z"
+    },
+    {
       "slug": "affinity/darwin",
       "name": "Affinity",
       "version": "3.2.1",
@@ -351,6 +381,16 @@
       "thumbprint": "FA26744C32808EBA1C18FDD204B80DB4C4BB297A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-06-07T17:40:53Z"
+    },
+    {
+      "slug": "airbuddy/darwin",
+      "name": "AirBuddy",
+      "version": "2.8.1",
+      "sha256": "6817334c219d68e83f6089f9c344bcc025dc6dc63274e40c8895b548769820de",
+      "cdhash": "3461a96d5988d70248ef57fef369aa358889d30a",
+      "signingId": "8C7439RJLG:codes.rambo.AirBuddy",
+      "teamId": "8C7439RJLG",
+      "lastUpdated": "2026-06-12T21:11:37Z"
     },
     {
       "slug": "aircall/darwin",
@@ -375,6 +415,46 @@
       "lastUpdated": "2025-12-25T01:42:32Z"
     },
     {
+      "slug": "airdroid/darwin",
+      "name": "AirDroid",
+      "version": "3.7.3.1",
+      "sha256": "c132bf11a851e5d0fc7f4d5fed94d8c8300b0bee1cdd80794cc23df55c257a77",
+      "cdhash": "76c13dcd78dd2e95545d2a5aa2d2bee73129a742",
+      "signingId": "S7VFHSY63S:com.sandstudio.airdroid",
+      "teamId": "S7VFHSY63S",
+      "lastUpdated": "2026-06-12T21:12:34Z"
+    },
+    {
+      "slug": "airparrot/darwin",
+      "name": "AirParrot",
+      "version": "3.1.7",
+      "sha256": "d4156b2cf88ce4bbcf90ef340bc60a8345b3b13b9cb43ca58ebe4edd6c65e335",
+      "cdhash": "ef31c60df987620aef2c9513d326c37a3c630732",
+      "signingId": "67X2M9MT5G:com.squirrels.AirParrot-3",
+      "teamId": "67X2M9MT5G",
+      "lastUpdated": "2026-06-12T21:12:57Z"
+    },
+    {
+      "slug": "airserver/darwin",
+      "name": "AirServer",
+      "version": "7.3.3",
+      "sha256": "94e1745999f0a4ea7464d2ba5286d2180ff377921ff08f6bfe1065d4dbee38eb",
+      "cdhash": "401b5a71fec9bee19cbbac10b34a3aa8c51b5cd7",
+      "signingId": "6C755KS5W3:com.pratikkumar.airserver-mac",
+      "teamId": "6C755KS5W3",
+      "lastUpdated": "2026-06-12T21:14:15Z"
+    },
+    {
+      "slug": "airtable/darwin",
+      "name": "Airtable",
+      "version": "1.6.6",
+      "sha256": "76f1884bde50b6b2ccf695cf168d58ca80a66ade52dbcd044e0e3be7d6772052",
+      "cdhash": "5e5bd44cb59fbdd3db963c0508467eb7b6f4fb27",
+      "signingId": "E22RZMX62E:com.FormaGrid.Airtable",
+      "teamId": "E22RZMX62E",
+      "lastUpdated": "2026-06-12T21:14:39Z"
+    },
+    {
       "slug": "airtame/darwin",
       "name": "Airtame",
       "version": "4.15.0",
@@ -394,6 +474,26 @@
       "serialNumber": "0B3DE4D80C01902E3F7F7A4F7E45CFBE",
       "thumbprint": "AE5FFBA749513003CCBB0E6A4E7A30F8E26170C1",
       "lastUpdated": "2025-12-25T01:42:37Z"
+    },
+    {
+      "slug": "airy/darwin",
+      "name": "Airy",
+      "version": "3.29.2",
+      "sha256": "2b745f8935a33932f03f7ee7e1265c0e067737538df988e3c39fc513e89ce046",
+      "cdhash": "070ed8e73b4e5f9dee37266190caeb5cdcf57a3c",
+      "signingId": "N7U4HGP254:com.eltima.Airy",
+      "teamId": "N7U4HGP254",
+      "lastUpdated": "2026-06-12T21:15:00Z"
+    },
+    {
+      "slug": "akiflow/darwin",
+      "name": "Akiflow",
+      "version": "2.74.21",
+      "sha256": "7ed7e3cc6a5257635fad1793f523991c15099ac54f697f12802c83ae7da30cc6",
+      "cdhash": "17ee30b84250f3cad243dc01147d9cc3b08364f0",
+      "signingId": "TA7CHTLZGM:com.akiflow.akiflow",
+      "teamId": "TA7CHTLZGM",
+      "lastUpdated": "2026-06-12T21:15:30Z"
     },
     {
       "slug": "amazon-chime/darwin",
