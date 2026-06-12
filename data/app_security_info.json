@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T17:18:03Z",
+  "lastUpdated": "2026-06-12T18:52:43Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -146,13 +146,13 @@
     },
     {
       "slug": "adobe-acrobat-pro/darwin",
-      "name": "Adobe Acrobat Pro DC",
-      "version": "25.001.20937",
-      "sha256": "5f395eccc27d92028807365e217eb1b56f56af4eda6532c3ceb9e4406924b687",
-      "cdhash": "071b1896d7d05e43357ed6c2d60a52358f1533c3",
-      "signingId": "JQ525L2MZD:com.adobe.Acrobat.Pro",
+      "name": "Adobe Acrobat Pro",
+      "version": "26.001.21662",
+      "sha256": "5edcc4eecd0d8beb917f19dd6149dc35a714c85af6005b241596001e4daf4318",
+      "cdhash": "0757804ab246ddbbb96e01cf4109065db72c6903",
+      "signingId": "JQ525L2MZD:com.adobe.AdobeCRDaemon",
       "teamId": "JQ525L2MZD",
-      "lastUpdated": "2026-01-30T05:45:11Z"
+      "lastUpdated": "2026-06-12T18:51:50Z"
     },
     {
       "slug": "adobe-acrobat-pro/windows",
@@ -682,16 +682,6 @@
       "thumbprint": "2C02F523C3748B1D850420B27AAD3CB65671F8B9",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-05-29T04:37:00Z"
-    },
-    {
-      "slug": "backblaze/darwin",
-      "name": "Backblaze",
-      "version": "10.0.0.1030",
-      "sha256": "c756f5c715da3da068974fbede1fa7064bfb9e2aea250b453b593afe93b2dd22",
-      "cdhash": "f548175c939421f8b968f61d37f12f3ce434c3cb",
-      "signingId": "G4K4BQ7S8J:com.backblaze.bzuninstallerswift",
-      "teamId": "G4K4BQ7S8J",
-      "lastUpdated": "2026-03-11T22:11:12Z"
     },
     {
       "slug": "background-music/darwin",
