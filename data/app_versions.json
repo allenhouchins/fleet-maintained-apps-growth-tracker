@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T03:15:28Z",
+  "lastUpdated": "2026-06-13T05:39:38Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -954,6 +954,13 @@
       "installerUrl": "https://www.bitwig.com/dl/Bitwig%20Studio/6.0.6/installer_mac"
     },
     {
+      "slug": "bitwig-studio/windows",
+      "name": "Bitwig Studio",
+      "platform": "windows",
+      "version": "6.0.6",
+      "installerUrl": "https://www.bitwig.com/dl/Bitwig%20Studio/6.0.6/installer_windows/"
+    },
+    {
       "slug": "blender/darwin",
       "name": "Blender",
       "platform": "darwin",
@@ -1500,6 +1507,13 @@
       "installerUrl": "https://clockify.me/downloads/ClockifyDesktop.zip"
     },
     {
+      "slug": "clockify/windows",
+      "name": "Clockify Desktop",
+      "platform": "windows",
+      "version": "2.2.0",
+      "installerUrl": "https://clockify.me/downloads/clockify-setup.msi"
+    },
+    {
       "slug": "clop/darwin",
       "name": "Clop",
       "platform": "darwin",
@@ -1533,6 +1547,13 @@
       "platform": "darwin",
       "version": "4.3.3",
       "installerUrl": "https://cmake.org/files/v4.3/cmake-4.3.3-macos-universal.dmg"
+    },
+    {
+      "slug": "cmake-app/windows",
+      "name": "CMake",
+      "platform": "windows",
+      "version": "4.3.3",
+      "installerUrl": "https://github.com/Kitware/CMake/releases/download/v4.3.3/cmake-4.3.3-windows-x86_64.msi"
     },
     {
       "slug": "cmux/darwin",
@@ -2438,6 +2459,13 @@
       "installerUrl": "https://cdn-dist.emclient.com/dist/v10.4.5326_Mac/setup.pkg"
     },
     {
+      "slug": "emclient/windows",
+      "name": "eM Client",
+      "platform": "windows",
+      "version": "10.4.5326.0",
+      "installerUrl": "https://cdn-dist.emclient.com/dist/v10.4.5326/setup.msi"
+    },
+    {
       "slug": "enpass/darwin",
       "name": "Enpass",
       "platform": "darwin",
@@ -2457,6 +2485,13 @@
       "platform": "darwin",
       "version": "19.2.3",
       "installerUrl": "https://epicgames-download1.akamaized.net/Builds/UnrealEngineLauncher/Installers/Mac/EpicInstaller-19.2.3.dmg"
+    },
+    {
+      "slug": "epic-games/windows",
+      "name": "Epic Games Launcher",
+      "platform": "windows",
+      "version": "1.3.176.0",
+      "installerUrl": "https://epicgames-download1.akamaized.net/Builds/UnrealEngineLauncher/Installers/Windows/EpicInstaller-19.2.3.msi?launcherfilename=EpicInstaller-19.2.3.msi"
     },
     {
       "slug": "equinox/darwin",
@@ -4503,6 +4538,13 @@
       "installerUrl": "https://downloads.mixxx.org/releases/2.5.6/mixxx-2.5.6-macosarm.dmg"
     },
     {
+      "slug": "mixxx/windows",
+      "name": "Mixxx",
+      "platform": "windows",
+      "version": "2.5.6",
+      "installerUrl": "https://downloads.mixxx.org/releases/2.5.6/mixxx-2.5.6-win64.msi"
+    },
+    {
       "slug": "mobirise/darwin",
       "name": "Mobirise",
       "platform": "darwin",
@@ -4669,6 +4711,13 @@
       "platform": "darwin",
       "version": "8.2.1",
       "installerUrl": "https://github.com/cyanfish/naps2/releases/download/v8.2.1/naps2-8.2.1-mac-arm64.pkg"
+    },
+    {
+      "slug": "naps2/windows",
+      "name": "NAPS2",
+      "platform": "windows",
+      "version": "8.2.1",
+      "installerUrl": "https://github.com/cyanfish/naps2/releases/download/v8.2.1/naps2-8.2.1-win-x64.msi"
     },
     {
       "slug": "ndi-tools/darwin",
@@ -5285,6 +5334,13 @@
       "platform": "darwin",
       "version": "6.0.1",
       "installerUrl": "https://github.com/torakiki/pdfsam/releases/download/v6.0.1/pdfsam-basic-6.0.1-macos-arm64.dmg"
+    },
+    {
+      "slug": "pdfsam-basic/windows",
+      "name": "PDFsam Basic",
+      "platform": "windows",
+      "version": "6.0.1.0",
+      "installerUrl": "https://github.com/torakiki/pdfsam/releases/download/v6.0.1/pdfsam-basic-6.0.1-windows-x64.msi"
     },
     {
       "slug": "pearcleaner/darwin",
@@ -7177,11 +7233,25 @@
       "installerUrl": "https://downloads.topazlabs.com/deploy/TopazGigapixelAI/8.4.4/TopazGigapixelAI-8.4.4.pkg"
     },
     {
+      "slug": "topaz-gigapixel-ai/windows",
+      "name": "Topaz Gigapixel AI",
+      "platform": "windows",
+      "version": "8.4.4",
+      "installerUrl": "https://downloads.topazlabs.com/deploy/TopazGigapixelAI/8.4.4/TopazGigapixelAI-8.4.4.msi"
+    },
+    {
       "slug": "topaz-photo-ai/darwin",
       "name": "Topaz Photo AI",
       "platform": "darwin",
       "version": "4.0.4",
       "installerUrl": "https://downloads.topazlabs.com/deploy/TopazPhotoAI/4.0.4/TopazPhotoAI-4.0.4.pkg"
+    },
+    {
+      "slug": "topaz-photo-ai/windows",
+      "name": "Topaz Photo AI",
+      "platform": "windows",
+      "version": "4.0.4",
+      "installerUrl": "https://downloads.topazlabs.com/deploy/TopazPhotoAI/4.0.4/TopazPhotoAI-4.0.4.msi"
     },
     {
       "slug": "topaz-video-ai/darwin",
@@ -7245,6 +7315,13 @@
       "platform": "darwin",
       "version": "4.1.2",
       "installerUrl": "https://github.com/transmission/transmission/releases/download/4.1.2/Transmission-4.1.2.dmg"
+    },
+    {
+      "slug": "transmission/windows",
+      "name": "Transmission",
+      "platform": "windows",
+      "version": "4.1.2",
+      "installerUrl": "https://github.com/transmission/transmission/releases/download/4.1.2/transmission-4.1.2-x64.msi"
     },
     {
       "slug": "transmit/darwin",
@@ -8106,6 +8183,13 @@
       "platform": "darwin",
       "version": "5.12.3",
       "installerUrl": "https://github.com/zulip/zulip-desktop/releases/download/v5.12.3/Zulip-5.12.3-arm64.dmg"
+    },
+    {
+      "slug": "zulip/windows",
+      "name": "Zulip",
+      "platform": "windows",
+      "version": "5.12.3",
+      "installerUrl": "https://github.com/zulip/zulip-desktop/releases/download/v5.12.3/Zulip-5.12.3-x64.msi"
     },
     {
       "slug": "zwift/darwin",
