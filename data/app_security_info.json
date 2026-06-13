@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T03:34:09Z",
+  "lastUpdated": "2026-06-13T03:38:31Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -6891,6 +6891,16 @@
       "lastUpdated": "2026-06-13T03:34:07Z"
     },
     {
+      "slug": "nextcloud-talk/darwin",
+      "name": "Nextcloud Talk Desktop",
+      "version": "2.1.2",
+      "sha256": "b89a11950f0e67129b0a546bc9d735f70086e6f303d9daa399e9e8168dec6e42",
+      "cdhash": "67e5d8c7fd23f8b3a9735024beac4b6b1cb03f5b",
+      "signingId": "NKUJUXUJ3B:com.nextcloud.talk.mac",
+      "teamId": "NKUJUXUJ3B",
+      "lastUpdated": "2026-06-13T03:34:33Z"
+    },
+    {
       "slug": "nextcloud/darwin",
       "name": "Nextcloud",
       "version": "33.0.5",
@@ -6913,6 +6923,36 @@
       "lastUpdated": "2026-06-07T13:46:37Z"
     },
     {
+      "slug": "nightfall/darwin",
+      "name": "Nightfall",
+      "version": "3.1.0",
+      "sha256": "a9f3068906902536bd08fef6fed0cd8ac0f8ed7b3e991595f3d467c090888c83",
+      "cdhash": "319d9f166071d9ed6fb8cdba622a1c9180f70f11",
+      "signingId": "48NA7APC3F:net.ryanthomson.Nightfall",
+      "teamId": "48NA7APC3F",
+      "lastUpdated": "2026-06-13T03:34:54Z"
+    },
+    {
+      "slug": "nitro-pdf-pro/darwin",
+      "name": "Nitro PDF Pro",
+      "version": "26.0",
+      "sha256": "ac7c5190ff457585d3be0b51c7924aa34aede546c52e12303c3c98c28ea3f860",
+      "cdhash": "edafa1f7bb2be6a9845f2a0d981cf29b6ae13679",
+      "signingId": "37C4TX3D45:com.gonitro.NitroPDFPro",
+      "teamId": "37C4TX3D45",
+      "lastUpdated": "2026-06-13T03:35:20Z"
+    },
+    {
+      "slug": "nocturnal/darwin",
+      "name": "Nocturnal",
+      "version": "0.3",
+      "sha256": "bdb0fa373b5fb3305cc9f81a44abe8628b66917ab8298bc53473241942ad860f",
+      "cdhash": "b7ca4fd27ff453991c4e4d90fe36a525139dd6ff",
+      "signingId": "BM5Y87HJ2F:com.harshilshah.nocturnal",
+      "teamId": "BM5Y87HJ2F",
+      "lastUpdated": "2026-06-13T03:35:42Z"
+    },
+    {
       "slug": "nodejs/windows",
       "name": "Node.js",
       "version": "26.3.0",
@@ -6923,6 +6963,16 @@
       "thumbprint": "57B58C9C4B7C0C40C5A9340ED8463E12D097ADA7",
       "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7A00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
       "lastUpdated": "2026-06-05T17:45:10Z"
+    },
+    {
+      "slug": "nordlayer/darwin",
+      "name": "NordLayer",
+      "version": "3.10.0",
+      "sha256": "480bfaaa4164f4e461be18fd81549a1f3b51d5b8cf0b2afa5f8cfb365d334e8e",
+      "cdhash": "66154dbbc8c34869b0ce963ac1c283db328de75a",
+      "signingId": "W5W395V82Y:com.nordvpn.macos.teams",
+      "teamId": "W5W395V82Y",
+      "lastUpdated": "2026-06-13T03:36:14Z"
     },
     {
       "slug": "nordpass/darwin",
@@ -6949,12 +6999,12 @@
     {
       "slug": "nordvpn/darwin",
       "name": "NordVPN",
-      "version": "10.3.1",
-      "sha256": "4b0485e92edd83dbdc2715511a07879449e5db34a005f027b46ff44ade190cfc",
-      "cdhash": "8e68e5123417c03a147ee2b0c455f08ebed8043b",
+      "version": "10.4.0",
+      "sha256": "4f760538d203670092f313676748eae11ca2163333429c7d66dd9962b15cd3cd",
+      "cdhash": "744e9ac57d79ac96b2079d1852a7540a83faebe3",
       "signingId": "W5W395V82Y:com.nordvpn.macos",
       "teamId": "W5W395V82Y",
-      "lastUpdated": "2026-06-01T20:36:52Z"
+      "lastUpdated": "2026-06-13T03:36:51Z"
     },
     {
       "slug": "nordvpn/windows",
@@ -6969,6 +7019,26 @@
       "lastUpdated": "2026-06-05T05:54:18Z"
     },
     {
+      "slug": "nosql-workbench/darwin",
+      "name": "NoSQL Workbench",
+      "version": "3.20.2",
+      "sha256": "bb96b9add10e64b2aa051352259db743df4bd134c3cc02510b12d9cf4540d39c",
+      "cdhash": "f7ae6957af286d6bef15b7a1d68b00d5fd80b1ef",
+      "signingId": "94KV3E626L:com.dynamodb.workbench",
+      "teamId": "94KV3E626L",
+      "lastUpdated": "2026-06-13T03:37:20Z"
+    },
+    {
+      "slug": "notchnook/darwin",
+      "name": "NotchNook",
+      "version": "1.5.5",
+      "sha256": "af82be7d77e7032ae809932e26f162ff00f814410448db4061ec5a4070a33031",
+      "cdhash": "d7ec845b2df74bb4e8815a6d98e3df88f93a9179",
+      "signingId": "Z2NNLU4F7U:lo.cafe.NotchNook",
+      "teamId": "Z2NNLU4F7U",
+      "lastUpdated": "2026-06-13T03:37:42Z"
+    },
+    {
       "slug": "notepad++/windows",
       "name": "Notepad++",
       "version": "8.9.6.4",
@@ -6979,6 +7049,26 @@
       "thumbprint": "1E8E0D13B608BA908572C1A129FAEC5D228DF8A2",
       "timestamp": "CN=Globalsign R45 TSA for CodeSign 202510, O=GlobalSign nv-sa, C=BE",
       "lastUpdated": "2026-06-04T15:23:19Z"
+    },
+    {
+      "slug": "notepadexe/darwin",
+      "name": "Notepad.exe",
+      "version": "1.4.1803",
+      "sha256": "343b64c136fc3dafb0d9d9d19f02b270857e8cb0c26deb6bcd207a9e69754f59",
+      "cdhash": "6537f2e82167dd29c9ba3d2e9b0e2eabe56d11b0",
+      "signingId": "67RAULRX93:best.swift.Notepad",
+      "teamId": "67RAULRX93",
+      "lastUpdated": "2026-06-13T03:38:06Z"
+    },
+    {
+      "slug": "notesnook/darwin",
+      "name": "Notesnook",
+      "version": "3.3.22",
+      "sha256": "afe6df7b5b7cf394881c1491df448491f0edcc47d38fe46a4246c9b24be06d72",
+      "cdhash": "4eab3fcc0958ab88cc93419dd4dcdeed04ce879e",
+      "signingId": "53CWBG3QUC:org.streetwriters.notesnook",
+      "teamId": "53CWBG3QUC",
+      "lastUpdated": "2026-06-13T03:38:28Z"
     },
     {
       "slug": "notion-calendar/darwin",
