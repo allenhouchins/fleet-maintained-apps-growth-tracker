@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T03:28:07Z",
+  "lastUpdated": "2026-06-13T03:34:09Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -6297,12 +6297,12 @@
     {
       "slug": "microsoft-edge/darwin",
       "name": "Microsoft Edge",
-      "version": "149.0.4022.62",
-      "sha256": "12c098fa11a1e04858309d90fc60f97e59d438f1a60451ce7a87f43f6afe426a",
-      "cdhash": "eb7e6d65751f8cb18cd48a8dbfdd0248aa0942bf",
+      "version": "149.0.4022.69",
+      "sha256": "762b8d33a4ed9e67f5eddbd3ed33d57c649c66d6545c6b937a34b713e3651c89",
+      "cdhash": "4f3aeafa160b32a5b9a4e244c7140858b2cf0def",
       "signingId": "UBF8T346G9:com.microsoft.edgemac",
       "teamId": "UBF8T346G9",
-      "lastUpdated": "2026-06-10T17:39:05Z"
+      "lastUpdated": "2026-06-13T03:29:06Z"
     },
     {
       "slug": "microsoft-edge/windows",
@@ -6791,6 +6791,54 @@
       "lastUpdated": "2026-05-28T17:29:10Z"
     },
     {
+      "slug": "nagstamon/darwin",
+      "name": "Nagstamon",
+      "version": "3.18.2",
+      "sha256": "fd7357a013532899f80754b586b575f4aa7c423daff3eb35703d4aad84acb292",
+      "cdhash": "3309841e298a7c214205c010fe39bab6a8eaafca",
+      "lastUpdated": "2026-06-13T03:29:29Z"
+    },
+    {
+      "slug": "name-mangler/darwin",
+      "name": "Name Mangler",
+      "version": "3.9.3",
+      "sha256": "dfaa203328f7f07dd3e7eec8694282ea331f4aa5627395ecaaded65e31669746",
+      "cdhash": "6b6648f22d21d343d797394f151581a2b4773a02",
+      "signingId": "METK467GW2:com.manytricks.NameMangler",
+      "teamId": "METK467GW2",
+      "lastUpdated": "2026-06-13T03:29:51Z"
+    },
+    {
+      "slug": "naps2/darwin",
+      "name": "NAPS2",
+      "version": "8.2.1",
+      "sha256": "6b329f1f8c7a367c60e8a55cf8574c7793b4082bd5469f5cbf2484b172ab114c",
+      "cdhash": "d295632e5352add1ba0026d930882cff2fed40c5",
+      "signingId": "2P9Q2K3XM9:com.naps2.desktop",
+      "teamId": "2P9Q2K3XM9",
+      "lastUpdated": "2026-06-13T03:30:21Z"
+    },
+    {
+      "slug": "ndi-tools/darwin",
+      "name": "NDI Tools",
+      "version": "6.3.2.0",
+      "sha256": "5ae7eece8a86c88a3b69027320dcea0c2f7b2e30bb205282a518e3db84e3eb69",
+      "cdhash": "e9531e5db8b52cf842483f86d375756947f69f88",
+      "signingId": "W8U66ET244:com.newtek.Application-Mac-NDI-AccessManager",
+      "teamId": "W8U66ET244",
+      "lastUpdated": "2026-06-13T03:31:39Z"
+    },
+    {
+      "slug": "neofinder/darwin",
+      "name": "NeoFinder",
+      "version": "9.2.1",
+      "sha256": "c3ec386c055e352227bbf1962acde61aa6215b7c124187e86a128f129ce9a53e",
+      "cdhash": "16f24189c42d51aa5d6d82157ad074135e97d0f4",
+      "signingId": "HBM3S22B4A:de.wfs-apps.neofinder",
+      "teamId": "HBM3S22B4A",
+      "lastUpdated": "2026-06-13T03:32:38Z"
+    },
+    {
       "slug": "nessus-agent/windows",
       "name": "Nessus Agent",
       "version": "11.2.0.20301",
@@ -6801,6 +6849,46 @@
       "thumbprint": "93968F4AE482CF391F10E639CEE8A0B784E58DFD",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-06-04T15:23:17Z"
+    },
+    {
+      "slug": "netiquette/darwin",
+      "name": "Netiquette",
+      "version": "2.3.0",
+      "sha256": "8b564a087bd621ecd357b881d6df1074472f1c38684707c32cb1254b89259be6",
+      "cdhash": "bb29d65721456076e4114dab5ade336235dc530a",
+      "signingId": "VBG97UB4TA:com.objective-see.Netiquette",
+      "teamId": "VBG97UB4TA",
+      "lastUpdated": "2026-06-13T03:32:59Z"
+    },
+    {
+      "slug": "netnewswire/darwin",
+      "name": "NetNewsWire",
+      "version": "7.0.6",
+      "sha256": "ecfda453757d70b965b8d1b17f6fbb758a4af4a4aa28cbf34a56a64a536556d9",
+      "cdhash": "766ce4c0e4a0d5cef131ba4b6644860c1a9a464d",
+      "signingId": "M8L2WTLA8W:com.ranchero.NetNewsWire-Evergreen",
+      "teamId": "M8L2WTLA8W",
+      "lastUpdated": "2026-06-13T03:33:20Z"
+    },
+    {
+      "slug": "netron/darwin",
+      "name": "Netron",
+      "version": "9.1.1",
+      "sha256": "a266c141acfb6bb316e4eb54a53c4d487f493b1b54883caa12f2bcfc80fecfda",
+      "cdhash": "c249b38506b36c2973c91096ac2eae1113c3f4a4",
+      "signingId": "W72HKFW6P5:com.lutzroeder.netron",
+      "teamId": "W72HKFW6P5",
+      "lastUpdated": "2026-06-13T03:33:45Z"
+    },
+    {
+      "slug": "netspot/darwin",
+      "name": "NetSpot",
+      "version": "5.1.4971",
+      "sha256": "8673897c4134853a291912b1d80ac72359ded289b0acaaef6fa9088e5f18ff85",
+      "cdhash": "a509888434c0220786944e9b3429dfed753d6ac7",
+      "signingId": "5QLDY8TU83:com.etwok.netspotwifi",
+      "teamId": "5QLDY8TU83",
+      "lastUpdated": "2026-06-13T03:34:07Z"
     },
     {
       "slug": "nextcloud/darwin",
