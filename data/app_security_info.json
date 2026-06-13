@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T03:38:31Z",
+  "lastUpdated": "2026-06-13T03:43:14Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -7071,6 +7071,16 @@
       "lastUpdated": "2026-06-13T03:38:28Z"
     },
     {
+      "slug": "notesollama/darwin",
+      "name": "NotesOllama",
+      "version": "0.2.6",
+      "sha256": "e9019978b84ada8ecab5324457eee524339af05bdb5414ab0dc84cc50f312d5c",
+      "cdhash": "91ee4043e7f1a009d59da0843c0d500671c809a4",
+      "signingId": "UL38YXE4DL:app.smallest.NotesOllama",
+      "teamId": "UL38YXE4DL",
+      "lastUpdated": "2026-06-13T03:38:50Z"
+    },
+    {
       "slug": "notion-calendar/darwin",
       "name": "Notion Calendar",
       "version": "1.135.1",
@@ -7115,6 +7125,16 @@
       "lastUpdated": "2026-06-10T17:58:44Z"
     },
     {
+      "slug": "noun-project/darwin",
+      "name": "Noun Project",
+      "version": "2.3",
+      "sha256": "55398e35d1a9dd212ea195565d6f698937cc5d22d4f0a69fddd2e1d48165af5f",
+      "cdhash": "27795e6b6998017a27a390a448a06d8d4cf40bc1",
+      "signingId": "LR7ZLCPTEG:com.thenounproject.Noun-Project",
+      "teamId": "LR7ZLCPTEG",
+      "lastUpdated": "2026-06-13T03:39:11Z"
+    },
+    {
       "slug": "nova/darwin",
       "name": "Nova",
       "version": "13.4",
@@ -7122,6 +7142,26 @@
       "signingId": "VE8FC488U5:com.panic.Nova",
       "teamId": "VE8FC488U5",
       "lastUpdated": "2026-02-18T14:48:14Z"
+    },
+    {
+      "slug": "novabench/darwin",
+      "name": "Novabench",
+      "version": "6.0.3",
+      "sha256": "6e44b046725f1a50f42bd2ff84cf85118cb27ac452a3ef94a0c6d81bfee9090b",
+      "cdhash": "17dc560e4e94a75e46974f80dedade6df8d36722",
+      "signingId": "T68B595LL8:com.novabench.client",
+      "teamId": "T68B595LL8",
+      "lastUpdated": "2026-06-13T03:39:38Z"
+    },
+    {
+      "slug": "nucleo/darwin",
+      "name": "Nucleo",
+      "version": "4.2.0",
+      "sha256": "394634c18f6418c380315ffe2411b74c13ccd40345dcd884a536964c9a9660a7",
+      "cdhash": "e77f6ea8fd199adbf4bf5e7d4fd1bdd2cbf9a403",
+      "signingId": "62YXLY7NMM:co.ambercreative.nucleo",
+      "teamId": "62YXLY7NMM",
+      "lastUpdated": "2026-06-13T03:40:00Z"
     },
     {
       "slug": "nudge/darwin",
@@ -7132,6 +7172,26 @@
       "signingId": "T4SK8ZXCXG:com.github.macadmins.Nudge",
       "teamId": "T4SK8ZXCXG",
       "lastUpdated": "2026-03-31T14:41:35Z"
+    },
+    {
+      "slug": "numi/darwin",
+      "name": "Numi",
+      "version": "3.32.721",
+      "sha256": "8c4e7fde6ef14d4476add92dbff625236a19e1b99a71385fbf08a5ea66e09624",
+      "cdhash": "8682b3556cbc540a689104316cc50c8926d12a36",
+      "signingId": "4BT8G3UCSZ:com.dmitrynikolaev.numi",
+      "teamId": "4BT8G3UCSZ",
+      "lastUpdated": "2026-06-13T03:40:21Z"
+    },
+    {
+      "slug": "nvidia-geforce-now/darwin",
+      "name": "NVIDIA GeForce NOW",
+      "version": "2.0.85.133",
+      "sha256": "5961aef97125942e85c048ab9722ebf2999db32a98abadfbaebdddd16bc6eb60",
+      "cdhash": "4ce4db1a578c6a05a553344e53acd046d0a3989d",
+      "signingId": "6KR3T733EC:com.nvidia.gfnpc.mall",
+      "teamId": "6KR3T733EC",
+      "lastUpdated": "2026-06-13T03:40:52Z"
     },
     {
       "slug": "obs/darwin",
@@ -7180,12 +7240,12 @@
     {
       "slug": "ocenaudio/darwin",
       "name": "ocenaudio",
-      "version": "3.19.2",
-      "sha256": "58c2cbd438c96c0e6e9a88b656b65e49cc2446d313adc2753ae8c1581b5456a8",
-      "cdhash": "4350a792b3a97696ed559ac230c5468f5e6ce782",
+      "version": "3.19.3",
+      "sha256": "7ca4cf1cb050cbfc96614b926a657a623222a59486351f34ebb459e656db29f6",
+      "cdhash": "1edd084488f3eff4a0d3d7779e9ea17a25d2b325",
       "signingId": "ZMUMSKSPM6:com.ocenaudio",
       "teamId": "ZMUMSKSPM6",
-      "lastUpdated": "2026-06-10T03:17:03Z"
+      "lastUpdated": "2026-06-13T03:42:02Z"
     },
     {
       "slug": "ok-json/darwin",
@@ -7232,12 +7292,12 @@
     {
       "slug": "ollama/darwin",
       "name": "Ollama",
-      "version": "0.30.7",
-      "sha256": "c701ded2f7f074fa4f59538ee48c11aa1a7bee899ecfcc85c6b22f8baed40de1",
-      "cdhash": "6152528789b745adb842631f2d2e3fa2730cf78f",
+      "version": "0.30.8",
+      "sha256": "838a3eafcf3e57b659b031b580c92ba6235317a9b27dfdabfd49a9c1f6975620",
+      "cdhash": "e5bacdcd4559f70f1a6dc33626212ce86b37c870",
       "signingId": "3MU9H2V9Y9:com.electron.ollama",
       "teamId": "3MU9H2V9Y9",
-      "lastUpdated": "2026-06-09T19:56:44Z"
+      "lastUpdated": "2026-06-13T03:42:26Z"
     },
     {
       "slug": "ollama/windows",
@@ -7398,12 +7458,12 @@
     {
       "slug": "openaudible/darwin",
       "name": "OpenAudible",
-      "version": "4.8.2",
-      "sha256": "179e17b395ae2c79a11ec7c9a53e0f1f787fce564822d1495161bd862f1f2cef",
-      "cdhash": "97b870befc6d43833f55c181e69b2ac26563e884",
+      "version": "4.8.3",
+      "sha256": "76adf3c728da8ac21d1127ce41957e483da499cfb5696b465a45be5e9eeab425",
+      "cdhash": "fe72bb55abc11d86665e19f780f6918f9f7fc2eb",
       "signingId": "XQ3TNHB55H:org.openaudible.openaudible",
       "teamId": "XQ3TNHB55H",
-      "lastUpdated": "2026-06-10T03:26:17Z"
+      "lastUpdated": "2026-06-13T03:42:48Z"
     },
     {
       "slug": "openboard/darwin",
@@ -7428,12 +7488,12 @@
     {
       "slug": "opencode-desktop/darwin",
       "name": "OpenCode",
-      "version": "1.17.3",
-      "sha256": "6b5e3c9a24d7881e5f74e32b925d287b49ed3568d544df0986d56b5f648b349b",
-      "cdhash": "ae345ace77275af85cb2183e3b88a3d1989e7afd",
+      "version": "1.17.4",
+      "sha256": "d5907e4d4ca7de87c9aeea55bf2a45c9c77e596e1384953e5678335b3d43de55",
+      "cdhash": "6dc9fe59e2e52ea24bf2afae34ad2c156f0cd2ef",
       "signingId": "5NZ4Q7NXJ4:ai.opencode.desktop",
       "teamId": "5NZ4Q7NXJ4",
-      "lastUpdated": "2026-06-11T15:09:10Z"
+      "lastUpdated": "2026-06-13T03:43:12Z"
     },
     {
       "slug": "openinterminal/darwin",
