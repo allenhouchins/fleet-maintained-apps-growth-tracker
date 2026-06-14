@@ -1,186 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-06-07T13:37:23Z",
-      "appName": "iMazing",
-      "slug": "imazing/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "3.5.3.0",
-      "installerUrl": "https://downloads.imazing.com/windows/iMazing/iMazing3forWindows.exe"
-    },
-    {
-      "date": "2026-06-07T13:37:23Z",
-      "appName": "Google Antigravity",
-      "slug": "antigravity/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "2.0.11",
-      "installerUrl": "https://storage.googleapis.com/antigravity-public/antigravity-hub/2.0.11-6560309696135168/darwin-arm/Antigravity.dmg"
-    },
-    {
-      "date": "2026-06-07T13:37:23Z",
-      "appName": "Arc",
-      "slug": "arc/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "1.108.0.248",
-      "installerUrl": "https://releases.arc.net/windows/prod/1.108.0.248/Arc.x64.msix"
-    },
-    {
-      "date": "2026-06-07T17:33:51Z",
-      "appName": "Microsoft Teams",
-      "slug": "microsoft-teams/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "26120.3106.4722.3411",
-      "installerUrl": "https://teamsinstaller.public.onecdn.static.microsoft/production-windows-x64/26120.3106.4722.3411/MSTeams-x64.msix"
-    },
-    {
-      "date": "2026-06-07T17:33:51Z",
-      "appName": "Affinity",
-      "slug": "affinity/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "3.2.1.4425",
-      "installerUrl": "https://affinity-update.serif.com/windows/3/studio/retail/Affinity-Affinity-Store-x64-4425-adf53bda2ec2cfe17697bea84177df9f43c74624.msix"
-    },
-    {
-      "date": "2026-06-07T17:33:51Z",
-      "appName": "OneDrive",
-      "slug": "onedrive/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "26.088.0510.0004",
-      "installerUrl": "https://oneclient.sfx.ms/Win/Installers/26.088.0510.0004/amd64/OneDriveSetup.exe"
-    },
-    {
-      "date": "2026-06-07T17:33:51Z",
-      "appName": "Wrike",
-      "slug": "wrike/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "4.6.1",
-      "installerUrl": "https://dl.wrike.com/download/WrikeDesktopApp_64.v4.6.1.msi"
-    },
-    {
-      "date": "2026-06-07T17:33:51Z",
-      "appName": "Windows App",
-      "slug": "windows-app/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "2.0.1129.0",
-      "installerUrl": "https://res.cdn.office.net/remote-desktop-windows-client/0a11b53f-95d7-4ea7-a283-00f8162fabdf/WindowsApp_x64_Release_2.0.1129.0.msix"
-    },
-    {
-      "date": "2026-06-07T17:33:51Z",
-      "appName": "VNC Viewer",
-      "slug": "vnc-viewer/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "7.15.1.18",
-      "installerUrl": "https://downloads.realvnc.com/download/file/viewer.files/VNC-Viewer-7.15.1-Windows-msi.zip"
-    },
-    {
-      "date": "2026-06-07T17:33:51Z",
-      "appName": "REAPER",
-      "slug": "reaper/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "7.73",
-      "installerUrl": "https://www.reaper.fm/files/7.x/reaper773_x64-install.exe"
-    },
-    {
-      "date": "2026-06-07T17:33:51Z",
-      "appName": "Viscosity",
-      "slug": "viscosity/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "1.12.1.1857",
-      "installerUrl": "https://swupdate.sparklabs.com/download/win/release/viscosity/Viscosity%20Installer%201.12.1.exe"
-    },
-    {
-      "date": "2026-06-07T17:33:51Z",
-      "appName": "VNC Server",
-      "slug": "vnc-server/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "7.17.0.5",
-      "installerUrl": "https://downloads.realvnc.com/download/file/vnc.files/VNC-Server-7.17.0-Windows-msi.zip"
-    },
-    {
-      "date": "2026-06-07T17:33:51Z",
-      "appName": "Jabra Direct",
-      "slug": "jabra-direct/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "8.1.14601",
-      "installerUrl": "https://jabraxpressonlineprdstor.blob.core.windows.net/jdo/JabraDirectSetup.exe"
-    },
-    {
-      "date": "2026-06-07T17:33:51Z",
-      "appName": "Affinity",
-      "slug": "affinity/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "3.2.1",
-      "installerUrl": "https://affinity-update.s3.amazonaws.com/mac2/retail/Affinity%20Affinity%20Store%204425.zip"
-    },
-    {
-      "date": "2026-06-07T18:33:58Z",
-      "appName": "Claude DevTools",
-      "slug": "claude-devtools/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "0.5.0",
-      "installerUrl": "https://github.com/matt1398/claude-devtools/releases/download/v0.5.0/claude-devtools-0.5.0-arm64.dmg"
-    },
-    {
-      "date": "2026-06-07T23:28:40Z",
-      "appName": "PostgreSQL 18",
-      "slug": "postgresql-18/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "18.4-1",
-      "installerUrl": "https://get.enterprisedb.com/postgresql/postgresql-18.4-1-windows-x64.exe"
-    },
-    {
-      "date": "2026-06-08T03:17:18Z",
-      "appName": "IBM Notifier",
-      "slug": "ibm-notifier/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "3.2.3",
-      "installerUrl": "https://github.com/IBM/mac-ibm-notifications/releases/download/v-3.2.3-b-135/IBM.Notifier.zip"
-    },
-    {
-      "date": "2026-06-08T03:17:18Z",
-      "appName": "Beekeeper Studio",
-      "slug": "beekeeper-studio/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "5.8.1",
-      "installerUrl": "https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v5.8.1/Beekeeper-Studio-5.8.1-arm64.dmg"
-    },
-    {
-      "date": "2026-06-08T03:17:18Z",
-      "appName": "DFU Blaster Pro",
-      "slug": "dfu-blaster-pro/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "4.2",
-      "installerUrl": "https://twocanoes-software-updates.s3.amazonaws.com/DFU_Blaster_Pro_Build-3282_Version-4.2.dmg"
-    },
-    {
-      "date": "2026-06-08T03:17:18Z",
-      "appName": "PostgreSQL 15",
-      "slug": "postgresql-15/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "15.18-1",
-      "installerUrl": "https://get.enterprisedb.com/postgresql/postgresql-15.18-1-windows-x64.exe"
-    },
-    {
       "date": "2026-06-08T03:17:18Z",
       "appName": "Google Antigravity IDE",
       "slug": "antigravity-ide/windows",
@@ -8999,6 +8819,186 @@
       "oldVersion": "",
       "newVersion": "8.2.1",
       "installerUrl": "https://github.com/cyanfish/naps2/releases/download/v8.2.1/naps2-8.2.1-win-x64.msi"
+    },
+    {
+      "date": "2026-06-14T12:47:58Z",
+      "appName": "AWS Command Line Interface v2",
+      "slug": "aws-cli/windows",
+      "platform": "windows",
+      "oldVersion": "2.35.3",
+      "newVersion": "2.35.4",
+      "installerUrl": "https://awscli.amazonaws.com/AWSCLIV2-2.35.4.msi"
+    },
+    {
+      "date": "2026-06-14T12:47:58Z",
+      "appName": "VueScan",
+      "slug": "vuescan/darwin",
+      "platform": "darwin",
+      "oldVersion": "9.8.54",
+      "newVersion": "9.8.55",
+      "installerUrl": "https://www.hamrick.com/files/vuea6498.dmg"
+    },
+    {
+      "date": "2026-06-14T12:47:58Z",
+      "appName": "Android Studio",
+      "slug": "android-studio/windows",
+      "platform": "windows",
+      "oldVersion": "2026.1.1.8",
+      "newVersion": "2026.1.1.9",
+      "installerUrl": "https://edgedl.me.gvt1.com/android/studio/install/2026.1.1.9/android-studio-quail1-patch1-windows.exe"
+    },
+    {
+      "date": "2026-06-14T12:47:58Z",
+      "appName": "Audacity",
+      "slug": "audacity/windows",
+      "platform": "windows",
+      "oldVersion": "3.7.7",
+      "newVersion": "3.7.8",
+      "installerUrl": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.8/audacity-win-3.7.8-64bit.exe"
+    },
+    {
+      "date": "2026-06-14T12:47:58Z",
+      "appName": "Telegram",
+      "slug": "telegram/windows",
+      "platform": "windows",
+      "oldVersion": "6.9.2",
+      "newVersion": "6.9.3",
+      "installerUrl": "https://github.com/telegramdesktop/tdesktop/releases/download/v6.9.3/tsetup-x64.6.9.3.exe"
+    },
+    {
+      "date": "2026-06-14T12:47:58Z",
+      "appName": "SoundAnchor",
+      "slug": "soundanchor/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.7.0",
+      "newVersion": "1.8.1",
+      "installerUrl": "https://cdn.kopiro.me/soundanchor/soundanchor-1.8.1.dmg"
+    },
+    {
+      "date": "2026-06-14T12:47:58Z",
+      "appName": "OpenCode",
+      "slug": "opencode-desktop/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.17.4",
+      "newVersion": "1.17.5",
+      "installerUrl": "https://github.com/anomalyco/opencode/releases/download/v1.17.5/opencode-desktop-mac-arm64.dmg"
+    },
+    {
+      "date": "2026-06-14T12:47:58Z",
+      "appName": "Nextcloud Talk Desktop",
+      "slug": "nextcloud-talk/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.1.2",
+      "newVersion": "2.2.0",
+      "installerUrl": "https://github.com/nextcloud-releases/talk-desktop/releases/download/v2.2.0/Nextcloud.Talk-macos-universal.dmg"
+    },
+    {
+      "date": "2026-06-14T12:47:58Z",
+      "appName": "Marked",
+      "slug": "marked-app/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.0.33",
+      "newVersion": "3.0.35",
+      "installerUrl": "https://updates.markedapp.com/updates/Marked%203.0.35.zip"
+    },
+    {
+      "date": "2026-06-14T12:47:58Z",
+      "appName": "Zen Browser",
+      "slug": "zen/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.21b",
+      "newVersion": "1.21.1b",
+      "installerUrl": "https://github.com/zen-browser/desktop/releases/download/1.21.1b/zen.macos-universal.dmg"
+    },
+    {
+      "date": "2026-06-14T12:47:58Z",
+      "appName": "coconutBattery",
+      "slug": "coconutbattery/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.3.2",
+      "newVersion": "4.3.3",
+      "installerUrl": "https://www.coconut-flavour.com/downloads/coconutBattery_433_218.zip"
+    },
+    {
+      "date": "2026-06-14T12:47:58Z",
+      "appName": "Cursor",
+      "slug": "cursor/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.7.27",
+      "newVersion": "3.7.36",
+      "installerUrl": "https://downloads.cursor.com/production/776d1f9d76df50a4e0aeca61819a88e7c1b861e2/darwin/arm64/Cursor-darwin-arm64.zip"
+    },
+    {
+      "date": "2026-06-14T12:47:58Z",
+      "appName": "Codex",
+      "slug": "codex-app/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.609.30741",
+      "newVersion": "26.609.41114",
+      "installerUrl": "https://persistent.oaistatic.com/codex-app-prod/Codex-darwin-arm64-26.609.41114.zip"
+    },
+    {
+      "date": "2026-06-14T12:47:58Z",
+      "appName": "Microsoft Edge",
+      "slug": "microsoft-edge/windows",
+      "platform": "windows",
+      "oldVersion": "149.0.4022.62",
+      "newVersion": "149.0.4022.69",
+      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/1620c248-1a72-4421-966f-1404bb5ccc34/MicrosoftEdgeEnterpriseX64.msi"
+    },
+    {
+      "date": "2026-06-14T12:47:58Z",
+      "appName": "Notesnook",
+      "slug": "notesnook/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.3.22",
+      "newVersion": "3.3.23",
+      "installerUrl": "https://github.com/streetwriters/notesnook/releases/download/v3.3.23/notesnook_mac_arm64.dmg"
+    },
+    {
+      "date": "2026-06-14T12:47:58Z",
+      "appName": "Spotify",
+      "slug": "spotify/windows",
+      "platform": "windows",
+      "oldVersion": "1.2.90.451.gb094aab0",
+      "newVersion": "1.2.92.147.g5b8f9367",
+      "installerUrl": "https://download.scdn.co/SpotifyFullSetupX64.exe"
+    },
+    {
+      "date": "2026-06-14T12:47:58Z",
+      "appName": "Syncovery",
+      "slug": "syncovery/darwin",
+      "platform": "darwin",
+      "oldVersion": "11.15.8",
+      "newVersion": "11.15.14",
+      "installerUrl": "https://www.syncovery.com/release/SyncoveryMac11.15.14-Apple.dmg"
+    },
+    {
+      "date": "2026-06-14T12:47:58Z",
+      "appName": "Bezel",
+      "slug": "bezel/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.3.0",
+      "newVersion": "4.4.0",
+      "installerUrl": "https://download.nonstrict.eu/bezel/Bezel-4.4.0.zip"
+    },
+    {
+      "date": "2026-06-14T12:47:58Z",
+      "appName": "Mailspring",
+      "slug": "mailspring/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.21.1",
+      "newVersion": "1.22.0",
+      "installerUrl": "https://github.com/Foundry376/Mailspring/releases/download/1.22.0/Mailspring-AppleSilicon.zip"
+    },
+    {
+      "date": "2026-06-14T12:47:58Z",
+      "appName": "Dropbox",
+      "slug": "dropbox/windows",
+      "platform": "windows",
+      "oldVersion": "258.3.3629",
+      "newVersion": "258.3.3645",
+      "installerUrl": "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20258.3.3645%20Enterprise%20Installer.x64.msi"
     }
   ]
 }
