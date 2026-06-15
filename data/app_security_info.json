@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T17:23:23Z",
+  "lastUpdated": "2026-06-15T17:24:42Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -4033,6 +4033,18 @@
       "lastUpdated": "2026-06-11T03:20:37Z"
     },
     {
+      "slug": "imhex/windows",
+      "name": "ImHex",
+      "version": "1.38.1",
+      "sha256": "5f52abeed3c5220a64e736749cd2d7869edfb8ff4af732702972515118e249a6",
+      "publisher": "CN=SignPath Foundation, O=SignPath Foundation, L=Lewes, S=Delaware, C=US",
+      "issuer": "CN=GlobalSign GCC R45 CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
+      "serialNumber": "4102A375BAF6A87F01658622",
+      "thumbprint": "799AA1381AFC8CD0029B79592F62EAEBD1DC9054",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-15T17:23:35Z"
+    },
+    {
       "slug": "inkscape/darwin",
       "name": "Inkscape",
       "version": "1.4.4",
@@ -4179,6 +4191,18 @@
       "lastUpdated": "2026-06-10T17:20:21Z"
     },
     {
+      "slug": "jami/windows",
+      "name": "Jami",
+      "version": "1.0.9197.28092",
+      "sha256": "28ddf893a5d20800ba90083d39a02b781f70bfec2a002f2d8b9709f31ecba211",
+      "publisher": "CN=SAVOIR-FAIRE LINUX INC., O=SAVOIR-FAIRE LINUX INC., S=Quebec, C=CA, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Quebec, OID.1.3.6.1.4.1.311.60.2.1.3=CA, SERIALNUMBER=1148918635",
+      "issuer": "CN=Sectigo Public Code Signing CA EV R36, O=Sectigo Limited, C=GB",
+      "serialNumber": "7C6A969D78E147C62B22899B59A899A3",
+      "thumbprint": "7C7BAF68EECDA593CB207427C85320382EF0112D",
+      "timestamp": "CN=Sectigo Public Time Stamping Signer R35, O=Sectigo Limited, S=Manchester, C=GB",
+      "lastUpdated": "2026-06-15T17:23:53Z"
+    },
+    {
       "slug": "jamovi/darwin",
       "name": "jamovi",
       "version": "2.7.31.0",
@@ -4264,6 +4288,18 @@
       "version": "1.12.6",
       "sha256": "969027646c7b35288eab9b6eda940599831f67c2e945e73ffc64a1f158a4f496",
       "lastUpdated": "2026-06-10T17:25:29Z"
+    },
+    {
+      "slug": "julia-app/windows",
+      "name": "Julia",
+      "version": "1.12.6",
+      "sha256": "de2d50f23995d71c224423a4872673a4e9be2c9676fc975cd90b25fc3a5e6cb6",
+      "publisher": "CN=\"JuliaHub, Inc.\", O=\"JuliaHub, Inc.\", L=CAMBRIDGE, S=Massachusetts, C=US",
+      "issuer": "CN=Microsoft ID Verified CS EOC CA 03, O=Microsoft Corporation, C=US",
+      "serialNumber": "3300001860C2A989FF2F711893000000001860",
+      "thumbprint": "719A8CF7DE162533E4F3E84A28B41FCFB707479F",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7800-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-06-15T17:23:58Z"
     },
     {
       "slug": "jump-desktop/darwin",
@@ -4397,6 +4433,18 @@
       "lastUpdated": "2026-06-11T15:07:20Z"
     },
     {
+      "slug": "kiro/windows",
+      "name": "Kiro",
+      "version": "0.12.333",
+      "sha256": "73265e891ba3973d14023d48e955299b834e1f54c66d3ed92f6c6b98bf3c32c9",
+      "publisher": "CN=\"Amazon.com, Inc.\", OU=AWS Kiro, O=\"Amazon.com, Inc.\", L=Seattle, S=Washington, C=US, SERIALNUMBER=2620453, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0F8100DEE6FFA9754DE27501008ED1C7",
+      "thumbprint": "936E025D82E8C1A04C1AFF51FBA6D5F72455C512",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-15T17:24:04Z"
+    },
+    {
       "slug": "kitty/darwin",
       "name": "kitty",
       "version": "0.47.4",
@@ -4416,6 +4464,18 @@
       "version": "5.8.3",
       "sha256": "3929ddb222451901735d7b5893a8e3e8083d8fd146727fd3c509f90446fba73f",
       "lastUpdated": "2026-06-10T17:34:57Z"
+    },
+    {
+      "slug": "knime/windows",
+      "name": "KNIME Analytics Platform",
+      "version": "5.8.3",
+      "sha256": "40efce357ee16382cd230f0f7d2135e6112ba288f78b931390f4c4194c92b9a6",
+      "publisher": "CN=KNIME AG, SERIALNUMBER=CHE-114.324.774, OID.2.5.4.15=Private Organization, O=KNIME AG, OID.1.3.6.1.4.1.311.60.2.1.3=CH, L=Zürich, S=Zürich, C=CH",
+      "issuer": "CN=Entrust Extended Validation Code Signing CA - EVCS2, O=\"Entrust, Inc.\", C=US",
+      "serialNumber": "00BA5AF59706B4CB42300F9971F9DF5DF2",
+      "thumbprint": "567E9636E7696B3815FA035B20AB544324DF1C12",
+      "timestamp": "CN=Sectigo Public Time Stamping Signer R36, O=Sectigo Limited, S=West Yorkshire, C=GB",
+      "lastUpdated": "2026-06-15T17:24:19Z"
     },
     {
       "slug": "knockknock/darwin",
@@ -4456,6 +4516,13 @@
       "version": "0.4.6",
       "sha256": "229fcb243b0e54e46d70db5a3c85adc9c2d0fd85a2fc36e46bdd3ae7402d6289",
       "lastUpdated": "2026-06-12T18:57:25Z"
+    },
+    {
+      "slug": "lapce/windows",
+      "name": "Lapce",
+      "version": "0.4.6",
+      "sha256": "bb76997e0715a99c608aa838252e6b9087b6475243e6fe4a38fc48e0ba5b4322",
+      "lastUpdated": "2026-06-15T17:24:25Z"
     },
     {
       "slug": "lasso-app/darwin",
@@ -4621,6 +4688,17 @@
       "version": "1.17.0",
       "sha256": "a4baa8e0d41fcd6e8f12033da74c14314f8a3dd73fb95fac0a018fcf5665faa6",
       "lastUpdated": "2026-06-12T19:01:24Z"
+    },
+    {
+      "slug": "localsend/windows",
+      "name": "LocalSend",
+      "version": "1.17.0",
+      "sha256": "e554dcf9dc94dd842b54d464b559ac1d3631427bb02480c9a74785ec47ce639c",
+      "publisher": "CN=Tien Do Nam, O=Tien Do Nam, S=Sachsen, C=DE",
+      "issuer": "CN=Sectigo Public Code Signing CA R36, O=Sectigo Limited, C=GB",
+      "serialNumber": "00A05494C070DCB0F5F047D61EEBBD7899",
+      "thumbprint": "1DA345C683985852C0C15B956F1E4EBB84F2C37C",
+      "lastUpdated": "2026-06-15T17:24:27Z"
     },
     {
       "slug": "locationsimulator/darwin",
@@ -4958,6 +5036,18 @@
       "version": "6.4.0.2",
       "sha256": "a1b0587e307bfe471f774aa0667b5020271d7f887e6ea3c4627a729cf19bb46c",
       "lastUpdated": "2026-06-11T23:29:42Z"
+    },
+    {
+      "slug": "megasync/windows",
+      "name": "MEGAsync",
+      "version": "6.4.0.2",
+      "sha256": "064f34fc2dc285b07e6dc04d397792d6b673aff8e170b682c89276248396d039",
+      "publisher": "CN=Mega Limited, OU=IT, O=Mega Limited, STREET=\"Level 21, Huawei Centre 120 Albert Street\", L=Auckland, S=Auckland, C=NZ, OID.1.3.6.1.4.1.311.60.2.1.3=NZ, SERIALNUMBER=9429048146128, OID.2.5.4.15=Private Organization",
+      "issuer": "CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
+      "serialNumber": "3B3EF103691D1523F748F8F8",
+      "thumbprint": "E65A1FC65C29578B54AA826AFF6E2310C5255EF9",
+      "timestamp": "CN=Globalsign R45 TSA for CodeSign 202510, O=GlobalSign nv-sa, C=BE",
+      "lastUpdated": "2026-06-15T17:24:33Z"
     },
     {
       "slug": "mellel/darwin",
@@ -5367,6 +5457,18 @@
       "lastUpdated": "2026-06-11T23:44:58Z"
     },
     {
+      "slug": "morgen/windows",
+      "name": "Morgen",
+      "version": "4.0.6",
+      "sha256": "e176f999ba9461967a7749884dd547c889f8209876f888fa75e65e5e544b1c03",
+      "publisher": "E=team@todesktop.com, CN=Todesktop Limited, O=Todesktop Limited, STREET=56 Carrigcourt, L=Carrigaline, S=Cork, C=IE, OID.1.3.6.1.4.1.311.60.2.1.3=IE, SERIALNUMBER=671862, OID.2.5.4.15=Private Organization",
+      "issuer": "CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
+      "serialNumber": "3D79DB69038879D52B638595",
+      "thumbprint": "516D3A3858D0322D8AA6A65CD45ADAE6899C5916",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-15T17:24:38Z"
+    },
+    {
       "slug": "mos/darwin",
       "name": "Mos",
       "version": "4.2.1",
@@ -5393,6 +5495,18 @@
       "version": "15.0.14",
       "sha256": "8851e45be2f011383919f2877f64b204ab9eab52ba009729d64fd8a98144f8a0",
       "lastUpdated": "2026-06-11T23:46:44Z"
+    },
+    {
+      "slug": "mullvad-browser/windows",
+      "name": "Mullvad Browser",
+      "version": "15.0.14",
+      "sha256": "56d5e332b1e780c6413c1a88e7b0a855ec1df5a400a26d92f08585637bc75c02",
+      "publisher": "CN=\"THE TOR PROJECT, INC.\", O=\"THE TOR PROJECT, INC.\", L=Winchester, S=New Hampshire, C=US, SERIALNUMBER=208096820, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Massachusetts, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0B1115C9BCC1B7C8DC39A438D3996023",
+      "thumbprint": "4DEB8C027FFF4DD8DE3AE9BEFAA7898618ADCF15",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-15T17:24:42Z"
     },
     {
       "slug": "mullvad-vpn/darwin",
