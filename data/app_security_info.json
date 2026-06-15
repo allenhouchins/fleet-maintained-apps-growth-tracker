@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T17:22:32Z",
+  "lastUpdated": "2026-06-15T17:23:23Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -2721,6 +2721,13 @@
       "lastUpdated": "2026-06-11T19:35:14Z"
     },
     {
+      "slug": "dupeguru/windows",
+      "name": "dupeGuru",
+      "version": "4.3.1",
+      "sha256": "28293dada3c88336b2b53aca00adf59f85cabf1362f8386a8ffc6be5e1742836",
+      "lastUpdated": "2026-06-15T17:22:35Z"
+    },
+    {
       "slug": "dymo-connect/darwin",
       "name": "Dymo Connect",
       "version": "1.6.0.41",
@@ -2733,6 +2740,18 @@
       "version": "1.0.6",
       "sha256": "2251549bf4382cfe21cb1b1a84ab094403f9357f9d806819b7ef505637847073",
       "lastUpdated": "2026-06-11T19:36:41Z"
+    },
+    {
+      "slug": "dynalist/windows",
+      "name": "Dynalist",
+      "version": "1.0.6",
+      "sha256": "86855cd198c488d6c020f4852dc0447f7aac098ec173ff2b403067d1c08c109a",
+      "publisher": "CN=Dynalist Inc, O=Dynalist Inc, STREET=2443 New Wood Dr, L=Oakville, S=Ontario, PostalCode=L6H 5Y3, C=CA",
+      "issuer": "CN=COMODO RSA Code Signing CA, O=COMODO CA Limited, L=Salford, S=Greater Manchester, C=GB",
+      "serialNumber": "54951FEEC73B68BC564A08A7586F1C81",
+      "thumbprint": "37963F243674548EF852369F40016047CE4F228E",
+      "timestamp": "CN=DigiCert Timestamp 2021, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-15T17:22:41Z"
     },
     {
       "slug": "eaglefiler/darwin",
@@ -2794,6 +2813,18 @@
       "version": "4.7.2",
       "sha256": "cf3281e3a2ceb656b5aa0151d3a6f9ae4976d4b3d7b13ffd26c54ffa18faed24",
       "lastUpdated": "2026-06-10T22:51:41Z"
+    },
+    {
+      "slug": "electrum/windows",
+      "name": "Electrum",
+      "version": "4.7.2",
+      "sha256": "89a2e2934ce2b87f91787db867c280e29372e7c435e57b8cb98a5b5b594e230e",
+      "publisher": "CN=Electrum Technologies GmbH, O=Electrum Technologies GmbH, L=Berlin, S=Berlin, C=DE, SERIALNUMBER=HRB 164636, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.1=Charlottenburg, OID.1.3.6.1.4.1.311.60.2.1.2=Berlin, OID.1.3.6.1.4.1.311.60.2.1.3=DE",
+      "issuer": "CN=GoGetSSL G4 CS RSA4096 SHA256 2022 CA-1, O=EnVers Group SIA, C=LV",
+      "serialNumber": "08EF7A3087096561BF9D25EF21B81544",
+      "thumbprint": "7E68DEBE601919866BA9E463BDEC5969B0F25AE6",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-15T17:22:44Z"
     },
     {
       "slug": "element/darwin",
@@ -3026,6 +3057,18 @@
       "lastUpdated": "2026-06-11T21:49:29Z"
     },
     {
+      "slug": "fellow/windows",
+      "name": "Fellow",
+      "version": "5.3.3",
+      "sha256": "7343b18d092e0e32340c5987149179748193346881d510f40aaaa6eb8c4926a3",
+      "publisher": "CN=Fellow.ai, O=Fellow.ai, L=Ottawa, S=Ontario, C=CA",
+      "issuer": "CN=Microsoft ID Verified CS EOC CA 03, O=Microsoft Corporation, C=US",
+      "serialNumber": "3300006CA3330341B14844E4A5000000006CA3",
+      "thumbprint": "03272C47792D91FED2E09589FB61C7D9B505FABA",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7D00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-06-15T17:22:50Z"
+    },
+    {
       "slug": "ferdium/darwin",
       "name": "Ferdium",
       "version": "7.1.2",
@@ -3256,6 +3299,18 @@
       "lastUpdated": "2026-06-11T22:02:40Z"
     },
     {
+      "slug": "franz/windows",
+      "name": "Franz",
+      "version": "5.11.0",
+      "sha256": "9dda43521f1950d0976d74910d7e1513faa006196e8505b3a2cb2da3f6120826",
+      "publisher": "CN=Stefan Malzner, O=Stefan Malzner, L=Wien, C=AT",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "02B8A3A69F1C10BBDF0618A419B20AC4",
+      "thumbprint": "63948C85472AD87E4EB5680C34A6C83774586B6B",
+      "timestamp": "CN=DigiCert Timestamp 2024, O=DigiCert, C=US",
+      "lastUpdated": "2026-06-15T17:22:58Z"
+    },
+    {
       "slug": "free-download-manager/darwin",
       "name": "Free Download Manager",
       "version": "6.34.1",
@@ -3312,11 +3367,35 @@
       "lastUpdated": "2026-06-09T22:39:36Z"
     },
     {
+      "slug": "gdevelop/windows",
+      "name": "GDevelop",
+      "version": "5.6.271",
+      "sha256": "bc3ebac11a999246a6eab5e1b5121f901a19a925238f6cd62472c072299bc09c",
+      "publisher": "CN=GDevelop Ltd, O=GDevelop Ltd, L=London, C=GB",
+      "issuer": "CN=SSL.com Code Signing Intermediate CA RSA R1, O=SSL Corp, L=Houston, S=Texas, C=US",
+      "serialNumber": "46532C113DB31647FEBC6C4C1B9F9B8E",
+      "thumbprint": "7651143AFF4CE5882ECB4165B0BF7F7BEF4E141F",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-15T17:23:03Z"
+    },
+    {
       "slug": "geany/darwin",
       "name": "Geany",
       "version": "2.1",
       "sha256": "76e664417c6809cbc4024e4f08fcab55b0c23b7bc36a3681ef9975c9d9846d98",
       "lastUpdated": "2026-06-09T22:41:55Z"
+    },
+    {
+      "slug": "geany/windows",
+      "name": "Geany",
+      "version": "2.1.0",
+      "sha256": "50c7835b31bc736d0b5e5f894aa8ec08a95185873fb64d29a95727d2859107d8",
+      "publisher": "CN=SignPath Foundation, O=SignPath Foundation, L=Lewes, S=Delaware, C=US",
+      "issuer": "CN=GlobalSign GCC R45 CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
+      "serialNumber": "7B4D238B354DEDC2A2FD5C96",
+      "thumbprint": "F2793045AB1A6F8624B4C5BADE4EFE6A7B494EA6",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-15T17:23:06Z"
     },
     {
       "slug": "geekbench/darwin",
@@ -3357,6 +3436,18 @@
       "version": "0.11.2",
       "sha256": "94472ef567112e88fa8cad9c25552cb1a0dea82c9db31fd41fefb2f815a18d27",
       "lastUpdated": "2026-06-09T22:46:43Z"
+    },
+    {
+      "slug": "gephi/windows",
+      "name": "Gephi",
+      "version": "0.11.2",
+      "sha256": "d6fb32d8304f8a5c37e584fab2cb02699809904d621c5bb8f887ce09839d864a",
+      "publisher": "CN=Mathieu Bastian, O=Mathieu Bastian, L=Prague, S=\"Praha, Hlavní město\", C=CZ",
+      "issuer": "CN=SSL.com Code Signing Intermediate CA RSA R1, O=SSL Corp, L=Houston, S=Texas, C=US",
+      "serialNumber": "77431FBB79BDE228FA730B6991F16F7B",
+      "thumbprint": "5A2AFF3918CDE720D55D6EE2717161F37F731A10",
+      "timestamp": "CN=SSL.com Timestamping Unit 2025 E1, O=SSL Corp, L=Houston, S=Texas, C=US",
+      "lastUpdated": "2026-06-15T17:23:11Z"
     },
     {
       "slug": "ghostty/darwin",
@@ -3498,6 +3589,18 @@
       "lastUpdated": "2026-06-09T22:53:43Z"
     },
     {
+      "slug": "gog-galaxy/windows",
+      "name": "GOG Galaxy",
+      "version": "2.0.100.1",
+      "sha256": "d04645ef5e4ada875f48d74828edd62222b2787eff09cb6e1c48e591949fd8f6",
+      "publisher": "CN=GOG  sp. z o.o, O=GOG  sp. z o.o, L=WARSZAWA, C=PL",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0157F412364061E42365C330C3E777CA",
+      "thumbprint": "3BB0E4A0B8370BF703050CB4719D5BB2CACAC60E",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-15T17:23:19Z"
+    },
+    {
       "slug": "goland/darwin",
       "name": "GoLand",
       "version": "2026.1.3",
@@ -3619,6 +3722,13 @@
       "version": "3.11.5",
       "sha256": "32d6ec6ea0c0499b7aa9dbcc79571c9513a36c1abbcc1933a77ba793ca54a313",
       "lastUpdated": "2026-06-09T22:57:04Z"
+    },
+    {
+      "slug": "gpodder/windows",
+      "name": "gPodder",
+      "version": "3.11.5",
+      "sha256": "212a88b68469e9b83e920d950b260ce6a9eea3fae913e6a3bff9833ab31bf6a1",
+      "lastUpdated": "2026-06-15T17:23:23Z"
     },
     {
       "slug": "grammarly-desktop/darwin",
