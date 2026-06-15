@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T17:20:51Z",
+  "lastUpdated": "2026-06-15T17:22:32Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -341,6 +341,18 @@
       "version": "3.1.7",
       "sha256": "d4156b2cf88ce4bbcf90ef340bc60a8345b3b13b9cb43ca58ebe4edd6c65e335",
       "lastUpdated": "2026-06-12T21:12:57Z"
+    },
+    {
+      "slug": "airparrot/windows",
+      "name": "AirParrot",
+      "version": "3.1.8.0",
+      "sha256": "be1b13f6b491826f8aac659535a4afcc486394c44fd379597d905d82da012469",
+      "publisher": "CN=Squirrels LLC, O=Squirrels LLC, L=North Canton, S=Ohio, C=US, SERIALNUMBER=2096335, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Ohio, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "03DBC1229429B1BEC852772021F78873",
+      "thumbprint": "6C7593B708A797C868257A7144A5AFB64B62736D",
+      "timestamp": "CN=DigiCert Timestamp 2024, O=DigiCert, C=US",
+      "lastUpdated": "2026-06-15T17:21:00Z"
     },
     {
       "slug": "airserver/darwin",
@@ -955,6 +967,13 @@
       "lastUpdated": "2026-06-10T21:42:27Z"
     },
     {
+      "slug": "bdash/windows",
+      "name": "Bdash",
+      "version": "1.34.0",
+      "sha256": "ed64630f822a3f6c040bb998078ecd75e655fcc212e2864f885d8927e1d7b097",
+      "lastUpdated": "2026-06-15T17:21:05Z"
+    },
+    {
       "slug": "beaver-notes/darwin",
       "name": "Beaver Notes",
       "version": "4.4.0",
@@ -1056,11 +1075,34 @@
       "lastUpdated": "2026-06-10T21:47:34Z"
     },
     {
+      "slug": "binance/windows",
+      "name": "Binance",
+      "version": "2.1.0",
+      "sha256": "3ef5c9ffab18bedb82edd2a7c41c2277d9b74213ee2b466947743b05098c7958",
+      "publisher": "E=domain.admin@binance.com, CN=Binance Holdings Limited, O=Binance Holdings Limited, STREET=71 Fort Street, L=George Town, S=Grand Cayman, C=KY, OID.1.3.6.1.4.1.311.60.2.1.3=KY, SERIALNUMBER=326889, OID.2.5.4.15=Private Organization",
+      "issuer": "CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
+      "serialNumber": "6267066A5B0F92E2A79914D5",
+      "thumbprint": "70871E32765F492DD704E4FB8CE175545C7D4F93",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-15T17:21:12Z"
+    },
+    {
       "slug": "biscuit/darwin",
       "name": "Biscuit",
       "version": "2.1.1",
       "sha256": "4b005ff98ffed33d93927b11a61c7604157e14bffaa1589ab5d51c38b69b7044",
       "lastUpdated": "2026-06-10T21:48:08Z"
+    },
+    {
+      "slug": "biscuit/windows",
+      "name": "Biscuit",
+      "version": "2.1.1",
+      "sha256": "c12a1f5200bfe7f595a409496c06d63fa9fc7febd94bb1b5dfe85994674063a7",
+      "publisher": "CN=俊貴 縣, O=俊貴 縣, L=福岡市南区, S=Fukuoka-ken, C=JP",
+      "issuer": "CN=Microsoft ID Verified CS EOC CA 03, O=Microsoft Corporation, C=US",
+      "serialNumber": "3300008CB59BB63E006806A34F000000008CB5",
+      "thumbprint": "79ABBAA49A9D68555F74433A3F01DF5A9E3E757D",
+      "lastUpdated": "2026-06-15T17:21:19Z"
     },
     {
       "slug": "bitbox/darwin",
@@ -2067,6 +2109,13 @@
       "lastUpdated": "2026-06-11T19:13:33Z"
     },
     {
+      "slug": "darktable/windows",
+      "name": "darktable",
+      "version": "5.4.1",
+      "sha256": "df3b9f2f9f1375b9166c2fb2f1503455c3ceaa44c702b8a9144419e65e0cfdf9",
+      "lastUpdated": "2026-06-15T17:22:02Z"
+    },
+    {
       "slug": "dash/darwin",
       "name": "Dash",
       "version": "8.1.1",
@@ -2079,6 +2128,13 @@
       "version": "3.1.2",
       "sha256": "8552365cb61990a53de26da939ee344c2294bb179df8288b03ec07328370f22a",
       "lastUpdated": "2026-06-15T16:50:59Z"
+    },
+    {
+      "slug": "dataflare/windows",
+      "name": "Dataflare",
+      "version": "3.1.1",
+      "sha256": "42706d5b98f77d046353489be8bdc8b6abcbac17e237444af210a34f3838f5d3",
+      "lastUpdated": "2026-06-15T17:22:05Z"
     },
     {
       "slug": "datagrip/darwin",
@@ -2223,6 +2279,18 @@
       "lastUpdated": "2026-06-11T19:16:01Z"
     },
     {
+      "slug": "dbvisualizer/windows",
+      "name": "DbVisualizer",
+      "version": "26.1.2",
+      "sha256": "347b6ad57564ecc7d071a58e6c3e951da2d51e4e60c9582769e5b65bc7bc3839",
+      "publisher": "CN=DbVis Software AB, O=DbVis Software AB, L=Nacka, C=SE",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0438D4D3217D65B055925D3EF4382068",
+      "thumbprint": "DA540D2ECC876A77282E2A1A5CDB1C0551BC0C0B",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-15T17:22:23Z"
+    },
+    {
       "slug": "dcv-viewer/darwin",
       "name": "Amazon DCV",
       "version": "2025.0.8846",
@@ -2284,6 +2352,18 @@
       "lastUpdated": "2026-06-11T19:18:42Z"
     },
     {
+      "slug": "descript/windows",
+      "name": "Descript",
+      "version": "2.15.0",
+      "sha256": "16a97179b161f3ec6fb96965c644b9ed4feae9d64940f5bcdf7fb798eb02bf0b",
+      "publisher": "CN=\"Descript, Inc.\", O=\"Descript, Inc.\", L=San Francisco, S=California, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0D53640FBEF1DEBB93419BF9E1786BC6",
+      "thumbprint": "8C603EBEE2676DDF8683EDE5F5921C1741BE7416",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-15T17:22:28Z"
+    },
+    {
       "slug": "deskpad/darwin",
       "name": "DeskPad",
       "version": "1.3.2",
@@ -2331,6 +2411,13 @@
       "version": "2.0.9.0",
       "sha256": "5fa81e063809cdf18a6cfa724be000a043acb97d709f2855d21438615e46d478",
       "lastUpdated": "2026-06-11T19:20:56Z"
+    },
+    {
+      "slug": "devtoys/windows",
+      "name": "DevToys",
+      "version": "2.0-preview.9",
+      "sha256": "e099d9fc6771110c3371bb8adc778312d34ec0963a2f86dee4f7c1661b7e7c0f",
+      "lastUpdated": "2026-06-15T17:22:32Z"
     },
     {
       "slug": "devutils/darwin",
