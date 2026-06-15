@@ -1,276 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-06-08T19:47:30Z",
-      "appName": "Loom",
-      "slug": "loom/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.352.4",
-      "newVersion": "0.352.5",
-      "installerUrl": "https://packages.loom.com/desktop-packages/Loom-0.352.5-arm64.dmg"
-    },
-    {
-      "date": "2026-06-08T19:47:30Z",
-      "appName": "Postman",
-      "slug": "postman/windows",
-      "platform": "windows",
-      "oldVersion": "12.13.6",
-      "newVersion": "12.14.0",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.14.0/windows_64"
-    },
-    {
-      "date": "2026-06-08T19:47:30Z",
-      "appName": "Microsoft Teams",
-      "slug": "microsoft-teams/windows",
-      "platform": "windows",
-      "oldVersion": "26120.3106.4722.3411",
-      "newVersion": "26134.1702.4747.7366",
-      "installerUrl": "https://teamsinstaller.public.onecdn.static.microsoft/production-windows-x64/26134.1702.4747.7366/MSTeams-x64.msix"
-    },
-    {
-      "date": "2026-06-08T19:47:30Z",
-      "appName": "Santa",
-      "slug": "santa/darwin",
-      "platform": "darwin",
-      "oldVersion": "2026.4",
-      "newVersion": "2026.5",
-      "installerUrl": "https://github.com/northpolesec/santa/releases/download/2026.5/santa-2026.5.dmg"
-    },
-    {
-      "date": "2026-06-08T19:47:30Z",
-      "appName": "iMazing",
-      "slug": "imazing/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.5.3",
-      "newVersion": "3.5.4",
-      "installerUrl": "https://downloads.imazing.com/mac/iMazing/3.5.4.24052/iMazing_3.5.4.24052.dmg"
-    },
-    {
-      "date": "2026-06-08T19:47:30Z",
-      "appName": "Arc",
-      "slug": "arc/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.149.0",
-      "newVersion": "1.150.0",
-      "installerUrl": "https://releases.arc.net/release/Arc-1.150.0-81693.zip"
-    },
-    {
-      "date": "2026-06-08T19:47:30Z",
-      "appName": "Arc",
-      "slug": "arc/windows",
-      "platform": "windows",
-      "oldVersion": "1.108.0.248",
-      "newVersion": "1.109.0.242",
-      "installerUrl": "https://releases.arc.net/windows/prod/1.109.0.242/Arc.x64.msix"
-    },
-    {
-      "date": "2026-06-08T19:47:30Z",
-      "appName": "Cursor",
-      "slug": "cursor/windows",
-      "platform": "windows",
-      "oldVersion": "3.7.12",
-      "newVersion": "3.7.19",
-      "installerUrl": "https://downloads.cursor.com/production/80c653c2c3528e65016a0d304b54486084b470bb/win32/x64/system-setup/CursorSetup-x64-3.7.19.exe"
-    },
-    {
-      "date": "2026-06-08T19:47:30Z",
-      "appName": "Fork",
-      "slug": "fork/windows",
-      "platform": "windows",
-      "oldVersion": "2.20.0",
-      "newVersion": "2.20.1",
-      "installerUrl": "https://cdn.fork.dev/win/Fork-2.20.1.exe"
-    },
-    {
-      "date": "2026-06-08T19:47:30Z",
-      "appName": "Loom",
-      "slug": "loom/windows",
-      "platform": "windows",
-      "oldVersion": "0.352.4",
-      "newVersion": "0.352.5",
-      "installerUrl": "https://cdn.loom.com/desktop-packages/Loom%20Setup%200.352.5.exe"
-    },
-    {
-      "date": "2026-06-08T19:47:30Z",
-      "appName": "Microsoft Office",
-      "slug": "microsoft-office/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "16.0.19929.20090",
-      "installerUrl": "https://officecdn.microsoft.com/pr/wsus/setup.exe"
-    },
-    {
-      "date": "2026-06-09T15:18:42Z",
-      "appName": "Yippy",
-      "slug": "yippy/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "2.8.1",
-      "installerUrl": "https://github.com/mattDavo/Yippy/releases/download/2.8.1/Yippy.zip"
-    },
-    {
-      "date": "2026-06-09T15:18:42Z",
-      "appName": "Yaak",
-      "slug": "yaak/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "2026.4.0",
-      "installerUrl": "https://github.com/mountain-loop/yaak/releases/download/v2026.4.0/Yaak_2026.4.0_aarch64.dmg"
-    },
-    {
-      "date": "2026-06-09T15:18:42Z",
-      "appName": "YouTube Music",
-      "slug": "yt-music/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "1.3.3",
-      "installerUrl": "https://github.com/steve228uk/YouTube-Music/releases/download/1.3.3/YT-Music-1.3.3.zip"
-    },
-    {
-      "date": "2026-06-09T15:18:42Z",
-      "appName": "YACReader",
-      "slug": "yacreader/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "10.0.0.260501214",
-      "installerUrl": "https://github.com/YACReader/yacreader/releases/download/10.0.0/YACReader-10.0.0.260501214.MacOSX-U.Qt6.dmg"
-    },
-    {
-      "date": "2026-06-09T15:18:42Z",
-      "appName": "Zwift",
-      "slug": "zwift/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "1.1.16",
-      "installerUrl": "https://cdn.zwift.com/app/ZwiftOSX.dmg"
-    },
-    {
-      "date": "2026-06-09T15:18:42Z",
-      "appName": "Zight",
-      "slug": "zight/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "8.7.2",
-      "installerUrl": "https://downloads.zight.com/mac/Zight-8.7.2.3615.zip"
-    },
-    {
-      "date": "2026-06-09T15:18:42Z",
-      "appName": "Zulip",
-      "slug": "zulip/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "5.12.3",
-      "installerUrl": "https://github.com/zulip/zulip-desktop/releases/download/v5.12.3/Zulip-5.12.3-arm64.dmg"
-    },
-    {
-      "date": "2026-06-09T15:18:42Z",
-      "appName": "Yattee",
-      "slug": "yattee/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "1.5.1",
-      "installerUrl": "https://github.com/yattee/yattee/releases/download/v1.5.1/Yattee-1.5.1-macOS.zip"
-    },
-    {
-      "date": "2026-06-09T15:18:42Z",
-      "appName": "Zappy",
-      "slug": "zappy/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "4.9.8",
-      "installerUrl": "https://zappy.zapier.com/releases/zappy-4.9.8.dmg"
-    },
-    {
-      "date": "2026-06-09T15:18:42Z",
-      "appName": "Zettlr",
-      "slug": "zettlr/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "4.5.0",
-      "installerUrl": "https://github.com/Zettlr/Zettlr/releases/download/v4.5.0/Zettlr-4.5.0-arm64.dmg"
-    },
-    {
-      "date": "2026-06-09T17:00:20Z",
-      "appName": "Worksheet Crafter",
-      "slug": "worksheet-crafter/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "2026.1.3",
-      "installerUrl": "https://website.cdn.getschoolcraft.com/downloads/worksheet-crafter_2026.1.3.pkg"
-    },
-    {
-      "date": "2026-06-09T17:00:20Z",
-      "appName": "WordService",
-      "slug": "wordservice/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "2.8.3",
-      "installerUrl": "https://download.devontechnologies.com/download/freeware/wordservice/2.8.3/WordService.app.zip"
-    },
-    {
-      "date": "2026-06-09T17:00:20Z",
-      "appName": "Workspaces",
-      "slug": "workspaces/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "2.1.5",
-      "installerUrl": "https://www.apptorium.com/public/products/workspaces/releases/Workspaces-2.1.5.zip"
-    },
-    {
-      "date": "2026-06-09T17:00:20Z",
-      "appName": "WindowKeys",
-      "slug": "windowkeys/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "3.0.1",
-      "installerUrl": "https://www.apptorium.com/public/products/windowkeys/releases/WindowKeys-3.0.1.zip"
-    },
-    {
-      "date": "2026-06-09T17:00:20Z",
-      "appName": "Wealthfolio",
-      "slug": "wealthfolio/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "3.4.0",
-      "installerUrl": "https://github.com/afadil/wealthfolio/releases/download/v3.4.0/Wealthfolio_3.4.0_aarch64.dmg"
-    },
-    {
-      "date": "2026-06-09T17:00:20Z",
-      "appName": "Wave Terminal",
-      "slug": "wave/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "0.14.5",
-      "installerUrl": "https://dl.waveterm.dev/releases-w2/Wave-darwin-arm64-0.14.5.dmg"
-    },
-    {
-      "date": "2026-06-09T17:00:20Z",
-      "appName": "WhatRoute",
-      "slug": "whatroute/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "2.7.2",
-      "installerUrl": "https://www.whatroute.net/software/whatroute-2.7.2.zip"
-    },
-    {
-      "date": "2026-06-09T17:00:20Z",
-      "appName": "WiFiman Desktop",
-      "slug": "wifiman/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "1.2.8",
-      "installerUrl": "https://desktop.wifiman.com/wifiman-desktop-1.2.8-arm64.pkg"
-    },
-    {
-      "date": "2026-06-09T17:00:20Z",
-      "appName": "Wins",
-      "slug": "wins/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "3.3",
-      "installerUrl": "https://winswebsite.s3.us-east-005.backblazeb2.com/Wins.zip"
-    },
-    {
       "date": "2026-06-09T17:00:20Z",
       "appName": "Wavebox",
       "slug": "wavebox/darwin",
@@ -8999,6 +8729,276 @@
       "oldVersion": "6.12",
       "newVersion": "6.13",
       "installerUrl": "https://d2wvuuix8c9e48.cloudfront.net/Dropshare6-6249.app.zip"
+    },
+    {
+      "date": "2026-06-15T17:15:47Z",
+      "appName": "Kiro",
+      "slug": "kiro/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "0.12.333",
+      "installerUrl": "https://prod.download.desktop.kiro.dev/releases/stable/win32-x64/signed/0.12.333/kiro-ide-0.12.333-stable-win32-x64.exe"
+    },
+    {
+      "date": "2026-06-15T17:15:47Z",
+      "appName": "KNIME Analytics Platform",
+      "slug": "knime/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "5.8.3",
+      "installerUrl": "https://download.knime.com/analytics-platform/win/KNIME%205.8.3%20Installer%20(64bit).exe"
+    },
+    {
+      "date": "2026-06-15T17:15:47Z",
+      "appName": "Dynalist",
+      "slug": "dynalist/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "1.0.6",
+      "installerUrl": "https://dynalist.io/standalone/download?file=Dynalist%20Setup.exe"
+    },
+    {
+      "date": "2026-06-15T17:15:47Z",
+      "appName": "ImHex",
+      "slug": "imhex/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "1.38.1",
+      "installerUrl": "https://github.com/WerWolv/ImHex/releases/download/v1.38.1/imhex-1.38.1-Windows-x86_64.msi"
+    },
+    {
+      "date": "2026-06-15T17:15:47Z",
+      "appName": "GOG Galaxy",
+      "slug": "gog-galaxy/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "2.0.100.1",
+      "installerUrl": "https://content-system.gog.com/open_link/download?path=/open/galaxy/client/setup_galaxy_2.0.100.1.exe"
+    },
+    {
+      "date": "2026-06-15T17:15:47Z",
+      "appName": "Mullvad Browser",
+      "slug": "mullvad-browser/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "15.0.14",
+      "installerUrl": "https://github.com/mullvad/mullvad-browser/releases/download/15.0.14/mullvad-browser-windows-x86_64-15.0.14.exe"
+    },
+    {
+      "date": "2026-06-15T17:15:47Z",
+      "appName": "Biscuit",
+      "slug": "biscuit/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "2.1.1",
+      "installerUrl": "https://github.com/agata/dl.biscuit/releases/download/2.1.1/Biscuit-2.1.1-setup.exe"
+    },
+    {
+      "date": "2026-06-15T17:15:47Z",
+      "appName": "Electrum",
+      "slug": "electrum/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "4.7.2",
+      "installerUrl": "https://download.electrum.org/4.7.2/electrum-4.7.2-setup.exe"
+    },
+    {
+      "date": "2026-06-15T17:15:47Z",
+      "appName": "Geany",
+      "slug": "geany/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "2.1.0",
+      "installerUrl": "https://github.com/geany/geany/releases/download/2.1.0/geany-2.1_setup.exe"
+    },
+    {
+      "date": "2026-06-15T17:15:47Z",
+      "appName": "Bdash",
+      "slug": "bdash/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "1.34.0",
+      "installerUrl": "https://github.com/bdash-app/bdash/releases/download/v1.34.0/Bdash-Setup-1.34.0.exe"
+    },
+    {
+      "date": "2026-06-15T17:15:47Z",
+      "appName": "Lapce",
+      "slug": "lapce/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "0.4.6",
+      "installerUrl": "https://github.com/lapce/lapce/releases/download/v0.4.6/Lapce-windows.msi"
+    },
+    {
+      "date": "2026-06-15T17:15:47Z",
+      "appName": "gPodder",
+      "slug": "gpodder/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "3.11.5",
+      "installerUrl": "https://github.com/gpodder/gpodder/releases/download/3.11.5/windows-gpodder-3.11.5-installer.exe"
+    },
+    {
+      "date": "2026-06-15T17:15:47Z",
+      "appName": "Fellow",
+      "slug": "fellow/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "5.3.3",
+      "installerUrl": "https://cdn.fellow.app/desktop/5.3.3/win32/stable/x64/Fellow-5.3.3.exe"
+    },
+    {
+      "date": "2026-06-15T17:15:47Z",
+      "appName": "Gephi",
+      "slug": "gephi/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "0.11.2",
+      "installerUrl": "https://github.com/gephi/gephi/releases/download/v0.11.2/gephi-0.11.2-windows-x64.exe"
+    },
+    {
+      "date": "2026-06-15T17:15:47Z",
+      "appName": "Dataflare",
+      "slug": "dataflare/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "3.1.1",
+      "installerUrl": "https://assets.dataflare.app/release/windows/x86_64/Dataflare-Setup-3.1.1.exe"
+    },
+    {
+      "date": "2026-06-15T17:15:47Z",
+      "appName": "Morgen",
+      "slug": "morgen/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "4.0.6",
+      "installerUrl": "https://download.todesktop.com/210203cqcj00tw1/Morgen%20Setup%204.0.6%20-%20Build%20260519by9gmr661-x64.exe"
+    },
+    {
+      "date": "2026-06-15T17:15:47Z",
+      "appName": "MEGAsync",
+      "slug": "megasync/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "6.4.0.2",
+      "installerUrl": "https://mega.nz/MEGAsyncSetup64.exe"
+    },
+    {
+      "date": "2026-06-15T17:15:47Z",
+      "appName": "DevToys",
+      "slug": "devtoys/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "2.0-preview.9",
+      "installerUrl": "https://github.com/DevToys-app/DevToys/releases/download/v2.0.9.0/devtoys_win_x64.exe"
+    },
+    {
+      "date": "2026-06-15T17:15:47Z",
+      "appName": "ActivityWatch",
+      "slug": "activitywatch/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "0.13.2",
+      "installerUrl": "https://github.com/ActivityWatch/activitywatch/releases/download/v0.13.2/activitywatch-v0.13.2-windows-x86_64-setup.exe"
+    },
+    {
+      "date": "2026-06-15T17:15:47Z",
+      "appName": "darktable",
+      "slug": "darktable/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "5.4.1",
+      "installerUrl": "https://github.com/darktable-org/darktable/releases/download/release-5.4.1/darktable-5.4.1-win64.exe"
+    },
+    {
+      "date": "2026-06-15T17:15:47Z",
+      "appName": "Descript",
+      "slug": "descript/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "2.15.0",
+      "installerUrl": "https://static-cdn.descript.com/desktop/win32/x64/Descript%20Setup%202.15.0.exe"
+    },
+    {
+      "date": "2026-06-15T17:15:47Z",
+      "appName": "dupeGuru",
+      "slug": "dupeguru/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "4.3.1",
+      "installerUrl": "https://github.com/arsenetar/dupeguru/releases/download/4.3.1/dupeGuru_win64_4.3.1.exe"
+    },
+    {
+      "date": "2026-06-15T17:15:47Z",
+      "appName": "GDevelop",
+      "slug": "gdevelop/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "5.6.271",
+      "installerUrl": "https://github.com/4ian/GDevelop/releases/download/v5.6.271/GDevelop-5-Setup-5.6.271.exe"
+    },
+    {
+      "date": "2026-06-15T17:15:47Z",
+      "appName": "DbVisualizer",
+      "slug": "dbvisualizer/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "26.1.2",
+      "installerUrl": "https://www.dbvis.com/product_download/dbvis-26.1.2/media/dbvis_windows-x64_26_1_2_jre.exe"
+    },
+    {
+      "date": "2026-06-15T17:15:47Z",
+      "appName": "AirParrot",
+      "slug": "airparrot/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "3.1.8.0",
+      "installerUrl": "https://download.airsquirrels.com/AirParrot3/Windows/AirParrot-3.1.8-64.msi?hsLang=de"
+    },
+    {
+      "date": "2026-06-15T17:15:47Z",
+      "appName": "Binance",
+      "slug": "binance/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "2.1.0",
+      "installerUrl": "https://github.com/binance/desktop/releases/download/v2.1.0/binance-setup-2.1.0.exe"
+    },
+    {
+      "date": "2026-06-15T17:15:47Z",
+      "appName": "Jami",
+      "slug": "jami/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "1.0.9197.28092",
+      "installerUrl": "https://dl.jami.net/windows/archive/jami_x86_64-202503061740.msi"
+    },
+    {
+      "date": "2026-06-15T17:15:47Z",
+      "appName": "Franz",
+      "slug": "franz/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "5.11.0",
+      "installerUrl": "https://github.com/meetfranz/franz/releases/download/v5.11.0/Franz-Setup-5.11.0.exe"
+    },
+    {
+      "date": "2026-06-15T17:15:47Z",
+      "appName": "Julia",
+      "slug": "julia-app/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "1.12.6",
+      "installerUrl": "https://julialang-s3.julialang.org/bin/winnt/x64/1.12/julia-1.12.6-win64.exe"
+    },
+    {
+      "date": "2026-06-15T17:15:47Z",
+      "appName": "LocalSend",
+      "slug": "localsend/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "1.17.0",
+      "installerUrl": "https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0-windows-x86-64.exe"
     }
   ]
 }
