@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T15:15:13Z",
+  "lastUpdated": "2026-06-16T15:19:01Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -8657,6 +8657,18 @@
       "lastUpdated": "2026-06-12T15:38:41Z"
     },
     {
+      "slug": "termius/windows",
+      "name": "Termius",
+      "version": "9.39.0",
+      "sha256": "e236ab6010b3f4ac5c588dafb8aff4d62fd0be84fc41ae94c9803a69db290417",
+      "publisher": "CN=Termius Corporation, O=Termius Corporation, L=San Francisco, S=California, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0BBB076DA3751EEA9997AA82CB7A6196",
+      "thumbprint": "612953477986B46D0CB558CCD6656AC047C2F118",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-16T15:15:19Z"
+    },
+    {
       "slug": "tex-live-utility/darwin",
       "name": "TeX Live Utility",
       "version": "1.57",
@@ -8709,6 +8721,18 @@
       "version": "3.4.0",
       "sha256": "501455df0fd28f5ad9ea2ba2da5a803320a241081bcc02d7e345c9b48238bcde",
       "lastUpdated": "2026-06-12T15:41:22Z"
+    },
+    {
+      "slug": "thorium/windows",
+      "name": "Thorium Reader",
+      "version": "3.4.0",
+      "sha256": "4f8eb97e3572602f27372125e300246db2cf9281f670b0f844b853c9c1340b67",
+      "publisher": "OID.1.3.6.1.4.1.311.60.2.1.3=FR, OID.2.5.4.15=Private Organization, CN=European Digital Reading Lab, SERIALNUMBER=813 445 475, O=EDRLAB (European Digital Reading Lab), L=Paris, C=FR",
+      "issuer": "CN=SSL.com EV Code Signing Intermediate CA RSA R3, O=SSL Corp, L=Houston, S=Texas, C=US",
+      "serialNumber": "624E537F1BDCA558350AA783B35D8E38",
+      "thumbprint": "869E25C92A5266DBB97F9C1CD10A06850F19473A",
+      "timestamp": "CN=SSL.com Timestamping Unit 2025 E1, O=SSL Corp, L=Houston, S=Texas, C=US",
+      "lastUpdated": "2026-06-16T15:15:24Z"
     },
     {
       "slug": "threema/darwin",
@@ -8970,6 +8994,13 @@
       "lastUpdated": "2026-06-12T15:51:57Z"
     },
     {
+      "slug": "twine-app/windows",
+      "name": "Twine",
+      "version": "2.12.0",
+      "sha256": "1292d6dddc64b89583cca6e17123215e5d7cd35c32cdea1c14edfff7599e6ebc",
+      "lastUpdated": "2026-06-16T15:15:30Z"
+    },
+    {
       "slug": "twingate/darwin",
       "name": "Twingate",
       "version": "2026.155",
@@ -9017,6 +9048,18 @@
       "lastUpdated": "2026-06-15T16:58:55Z"
     },
     {
+      "slug": "typora/windows",
+      "name": "Typora",
+      "version": "1.13.7",
+      "sha256": "04dc5d0ec1ddae9ab1d405be578c2d486e48cca9295029f79d532db80032ab40",
+      "publisher": "CN=\"Qiyun (Shanghai) Technology Co., Ltd.\", O=\"Qiyun (Shanghai) Technology Co., Ltd.\", L=Shanghai, S=Shanghai, C=CN",
+      "issuer": "CN=GlobalSign GCC R45 CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
+      "serialNumber": "409797B893D0248DB7F5D38F",
+      "thumbprint": "46684BB8FCA7EBEF64F74708C5685ACA070177E0",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-16T15:15:34Z"
+    },
+    {
       "slug": "ua-connect/darwin",
       "name": "UA Connect",
       "version": "1.9.4",
@@ -9036,6 +9079,18 @@
       "version": "5.13.0",
       "sha256": "86ccea71e1dbc19d89ec942bc419700b83b4fdd7c14657087897dba32b6654a5",
       "lastUpdated": "2026-06-09T22:03:38Z"
+    },
+    {
+      "slug": "ultimaker-cura/windows",
+      "name": "UltiMaker Cura",
+      "version": "5.13.0",
+      "sha256": "36e36d4618cd09a0cd8802a565c2cdbe54804eb750ac84303a0c6d6f784afde2",
+      "publisher": "CN=UltiMaker BV, O=UltiMaker BV, S=Gelderland, C=NL",
+      "issuer": "CN=Sectigo Public Code Signing CA R36, O=Sectigo Limited, C=GB",
+      "serialNumber": "7AF5102EA108220DBBCB4533A9F70039",
+      "thumbprint": "FB6565EE84F4C97197C45EE861D67A9A4BA313AC",
+      "timestamp": "CN=Sectigo Public Time Stamping Signer R36, O=Sectigo Limited, S=West Yorkshire, C=GB",
+      "lastUpdated": "2026-06-16T15:16:24Z"
     },
     {
       "slug": "unclutter/darwin",
@@ -9130,6 +9185,18 @@
       "version": "5.1.0-2993",
       "sha256": "87d00b20160b912db1473ffd41d272b07a15090b792c03444d97bdf7aa14be86",
       "lastUpdated": "2026-06-09T17:53:27Z"
+    },
+    {
+      "slug": "vernier-spectral-analysis/windows",
+      "name": "Vernier Spectral Analysis",
+      "version": "5.1.0-2993",
+      "sha256": "565a2d2a5a0f1315203414ad7e904db79fd4235a93e3c51f846613fd5852ea92",
+      "publisher": "CN=Vernier Science Education (Vernier Software \u0026 Technology LLC), O=Vernier Science Education (Vernier Software \u0026 Technology LLC), L=Beaverton, S=Oregon, C=US, SERIALNUMBER=434688-83, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Oregon, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "08787434B11932E78542AD7EE8FCEBB0",
+      "thumbprint": "BB516CABA94907BC94B59AEEC7257246361DA2DD",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-16T15:16:42Z"
     },
     {
       "slug": "versions/darwin",
@@ -9353,6 +9420,18 @@
       "lastUpdated": "2026-06-09T17:04:46Z"
     },
     {
+      "slug": "wave/windows",
+      "name": "Wave Terminal",
+      "version": "0.13.1",
+      "sha256": "a615b36aa0c6dad7a5163679bc6ab7e9267fda8d731e8596f0bf3659311b261c",
+      "publisher": "CN=Command Line Inc, O=Command Line Inc, L=San Francisco, S=California, C=US, SERIALNUMBER=4975091, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "03DBB33F8ACB8307E0601B31A11B06F1",
+      "thumbprint": "563ECF6D8DD1EDD19DD9C2ADA45CDB38E16BBA8E",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-16T15:17:04Z"
+    },
+    {
       "slug": "wavebox/darwin",
       "name": "Wavebox",
       "version": "149.2.92.2",
@@ -9372,6 +9451,13 @@
       "version": "4.7.0",
       "sha256": "7d10919e77ac435f46d44d0e3d8f60ee938e8e09a5c4e5632d8c12fcba0af473",
       "lastUpdated": "2026-06-09T17:06:20Z"
+    },
+    {
+      "slug": "weasis/windows",
+      "name": "Weasis",
+      "version": "4.7.0",
+      "sha256": "81ae7c9f4ced804eaa7297bde0fee4fa57834121696638cea6c47382a5f7ad52",
+      "lastUpdated": "2026-06-16T15:17:12Z"
     },
     {
       "slug": "webcatalog/darwin",
@@ -9424,6 +9510,18 @@
       "version": "4.1.10.53",
       "sha256": "3c47b0ababd9f935210c538b96e7be3ad3c51bb23e717c4ec740054d00be86d5",
       "lastUpdated": "2026-06-13T03:56:04Z"
+    },
+    {
+      "slug": "wechat/windows",
+      "name": "WeChat for Mac",
+      "version": "3.9.12.57",
+      "sha256": "c29fc05630cfc95ef6483f6b5b52aabfe74265bb260e210e78ae437d305d8990",
+      "publisher": "CN=Tencent Technology (Shenzhen) Company Limited, O=Tencent Technology (Shenzhen) Company Limited, L=Shenzhen, S=Guangdong Province, C=CN",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0DDAF2FE51F3B2E94CBB695A4A5174FC",
+      "thumbprint": "617C4EDB4F205FCA0E5C07B9C52AA8D695FD122C",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-16T15:18:51Z"
     },
     {
       "slug": "weektodo/darwin",
@@ -9511,6 +9609,18 @@
       "thumbprint": "B8612EF7E0B7BC4121F3832298C6DB2FAA12F6CA",
       "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7D00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
       "lastUpdated": "2026-05-29T04:38:09Z"
+    },
+    {
+      "slug": "winlogbeat/windows",
+      "name": "Winlogbeat",
+      "version": "9.4.2",
+      "sha256": "ebd0c40adf4ca1f9be27baca3c8b241df183435bd20cf289049625607bb6b3c5",
+      "publisher": "CN=\"Elasticsearch, Inc.\", O=\"Elasticsearch, Inc.\", L=Mountain View, S=California, C=US, SERIALNUMBER=5195380, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0ED3D34F2AADC84A5D3D65F14A1E05F5",
+      "thumbprint": "B54BACBD648D094FD923F91C7738B2EDA75EBDCB",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-16T15:19:01Z"
     },
     {
       "slug": "winrar/windows",
