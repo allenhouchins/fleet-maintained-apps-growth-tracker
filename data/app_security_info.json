@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T15:11:11Z",
+  "lastUpdated": "2026-06-16T15:12:25Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -4821,14 +4821,14 @@
     {
       "slug": "loom/windows",
       "name": "Loom",
-      "version": "0.353.3",
-      "sha256": "db4b68d78b06fae97442c9ca36a00581632ed6945f4ea867b83ba8ccc63996fa",
+      "version": "0.354.0",
+      "sha256": "65df0c885a41eda53d694440c36392ce31b40520531cf4b4b0d189df66b8c81d",
       "publisher": "CN=\"Loom, Inc.\", O=\"Loom, Inc.\", L=San Francisco, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "075FEF2A2AF6925B9641D6C7FFA4C705",
       "thumbprint": "0E4E993EBB874473561A37B5FFCD9E36986BE9B5",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-06-11T15:48:44Z"
+      "lastUpdated": "2026-06-16T15:11:17Z"
     },
     {
       "slug": "loop/darwin",
@@ -5641,6 +5641,18 @@
       "lastUpdated": "2026-06-13T03:29:29Z"
     },
     {
+      "slug": "nagstamon/windows",
+      "name": "Nagstamon",
+      "version": "3.18.2",
+      "sha256": "a37a5b9a7b0844b378f91eafe30bdf4a856edb845dfb77e789ef11faf6d4ef86",
+      "publisher": "CN=Henri Wahl, O=Henri Wahl, S=Sachsen, C=DE",
+      "issuer": "CN=Sectigo Public Code Signing CA R36, O=Sectigo Limited, C=GB",
+      "serialNumber": "179531DD628686891252E6AC3C655BB9",
+      "thumbprint": "E7FC5F1AA2029D3019DD2A818D7136E5689A1733",
+      "timestamp": "CN=Sectigo Public Time Stamping Signer R36, O=Sectigo Limited, S=West Yorkshire, C=GB",
+      "lastUpdated": "2026-06-16T15:11:26Z"
+    },
+    {
       "slug": "name-mangler/darwin",
       "name": "Name Mangler",
       "version": "3.9.3",
@@ -5832,6 +5844,18 @@
       "lastUpdated": "2026-06-13T03:37:20Z"
     },
     {
+      "slug": "nosql-workbench/windows",
+      "name": "NoSQL Workbench",
+      "version": "3.20.2",
+      "sha256": "3c62a9e4f54ba47397eb7de8da7e0aa08a66b42f9113491d6b58a8148fa2a1c1",
+      "publisher": "CN=\"Amazon Web Services, Inc.\", OU=NoSQL Workbench, O=\"Amazon Web Services, Inc.\", L=Seattle, S=Washington, C=US, SERIALNUMBER=4152954, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "06C24F7B8CABB5C057FE9971C73E7007",
+      "thumbprint": "2BCB9F01C85A26B13CD0C724D87F8198900AEE2F",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-16T15:11:32Z"
+    },
+    {
       "slug": "notchnook/darwin",
       "name": "NotchNook",
       "version": "1.5.5",
@@ -5863,6 +5887,18 @@
       "version": "3.3.23",
       "sha256": "48acd044c4ec4d0cb319ec05ca62d783873ea55d3d1372692cfae899c7979fc6",
       "lastUpdated": "2026-06-14T12:52:51Z"
+    },
+    {
+      "slug": "notesnook/windows",
+      "name": "Notesnook",
+      "version": "3.3.23",
+      "sha256": "4840d274a46a9e8be9aa7942f7f47cae7398591744a60cc9a212fae4449bb875",
+      "publisher": "CN=Streetwriters Private Limited, O=Streetwriters Private Limited, L=Khushab, S=Punjab, C=PK",
+      "issuer": "CN=Microsoft ID Verified CS AOC CA 04, O=Microsoft Corporation, C=US",
+      "serialNumber": "330001C4CE98E523286C6FE99100000001C4CE",
+      "thumbprint": "BE13C9E79D2EB2D9B8944604ED3520BAA6D9B676",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7D00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-06-16T15:11:37Z"
     },
     {
       "slug": "notesollama/darwin",
@@ -6002,6 +6038,18 @@
       "version": "3.19.3",
       "sha256": "7ca4cf1cb050cbfc96614b926a657a623222a59486351f34ebb459e656db29f6",
       "lastUpdated": "2026-06-13T03:42:02Z"
+    },
+    {
+      "slug": "ocenaudio/windows",
+      "name": "ocenaudio",
+      "version": "3.19.3",
+      "sha256": "5b993be58b5200e6e5769606076253688843433d039819c575b790126f1ddb3e",
+      "publisher": "CN=Rui Seara Junior, O=Rui Seara Junior, S=Santa Catarina, C=BR",
+      "issuer": "CN=Sectigo Public Code Signing CA R36, O=Sectigo Limited, C=GB",
+      "serialNumber": "0086857E0F5C4F400C6660F0855B062ADF",
+      "thumbprint": "3C106B30200122F2401BAF61EECB33D6E9592D59",
+      "timestamp": "CN=Sectigo Public Time Stamping Signer R36, O=Sectigo Limited, S=West Yorkshire, C=GB",
+      "lastUpdated": "2026-06-16T15:11:42Z"
     },
     {
       "slug": "ok-json/darwin",
@@ -6227,6 +6275,13 @@
       "lastUpdated": "2026-06-10T03:30:36Z"
     },
     {
+      "slug": "openrefine/windows",
+      "name": "OpenRefine",
+      "version": "3.10.1",
+      "sha256": "c987734b79f6b5d22e6cef7e03cebfe9d2d938d7d3812e890b6974232bafa080",
+      "lastUpdated": "2026-06-16T15:11:52Z"
+    },
+    {
       "slug": "opentoonz/darwin",
       "name": "OpenToonz",
       "version": "1.7.1",
@@ -6312,6 +6367,18 @@
       "version": "34.3.0.1",
       "sha256": "6c44af9ed7a875b1c0dc6eb8a2e8edcc2ba2a831c9e712eea0c793d1c8fcf9a4",
       "lastUpdated": "2026-06-11T23:51:45Z"
+    },
+    {
+      "slug": "pale-moon/windows",
+      "name": "Pale Moon",
+      "version": "34.3.0.1",
+      "sha256": "22c39b90bb71121f19ad6df54f84f66ff847b1a936db2379e9b24c6c8ff3ba71",
+      "publisher": "CN=Moonchild Productions, O=Moonchild Productions, L=Bastuträsk, S=Västerbotten, C=SE",
+      "issuer": "CN=Microsoft ID Verified CS AOC CA 03, O=Microsoft Corporation, C=US",
+      "serialNumber": "330001E046E4B4D0325630869300000001E046",
+      "thumbprint": "E0B629D44AEBCFEEB5951101F1651C372D653CF1",
+      "timestamp": "CN=Sectigo Public Time Stamping Signer R36, O=Sectigo Limited, S=West Yorkshire, C=GB",
+      "lastUpdated": "2026-06-16T15:11:58Z"
     },
     {
       "slug": "paletro/darwin",
@@ -6572,6 +6639,18 @@
       "lastUpdated": "2026-06-11T16:37:26Z"
     },
     {
+      "slug": "portfolioperformance/windows",
+      "name": "Portfolio Performance",
+      "version": "0.84.1",
+      "sha256": "302ccff9f6a93b3aee713cf42387f569cc0e931b1e1bd7f27658e02a31f60c00",
+      "publisher": "CN=Andreas Buchen, O=MSM Mannheimer Software-Manufaktur UG (haftungsbeschränkt), L=Mannheim, S=Baden-Württemberg, C=DE",
+      "issuer": "CN=Certum Code Signing 2021 CA, O=Asseco Data Systems S.A., C=PL",
+      "serialNumber": "29949CF55DB2EF2B0D39036623000C85",
+      "thumbprint": "42D94F5392E33DF23BF28A15DB42FC6A85AEB9EA",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-16T15:12:05Z"
+    },
+    {
       "slug": "postgres-app/darwin",
       "name": "Postgres",
       "version": "2.9.5",
@@ -6729,6 +6808,18 @@
       "lastUpdated": "2026-06-11T16:41:01Z"
     },
     {
+      "slug": "preform/windows",
+      "name": "PreForm",
+      "version": "3.60.1.637",
+      "sha256": "4d5f9752c4b875bd69ad7b7e4319ed63f30bc0527122903b3f52b4ed1c47143d",
+      "publisher": "CN=Formlabs Inc., O=Formlabs Inc., L=Somerville, S=Massachusetts, C=US",
+      "issuer": "CN=Microsoft ID Verified CS AOC CA 03, O=Microsoft Corporation, C=US",
+      "serialNumber": "330001DB5E2DF8EDA8331739E600000001DB5E",
+      "thumbprint": "5216CC4B281B36092C2A8CC76DC8BBEE86635D30",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:A500-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-06-16T15:12:13Z"
+    },
+    {
       "slug": "principle/darwin",
       "name": "Principle",
       "version": "6.42",
@@ -6814,6 +6905,18 @@
       "version": "3.0.0",
       "sha256": "d174ccededd2a3d63999ac1117d5630ba2a8ef10f622a5316e8b32be3b1e1a16",
       "lastUpdated": "2026-06-11T16:45:18Z"
+    },
+    {
+      "slug": "proton-drive/windows",
+      "name": "Proton Drive",
+      "version": "3.0.1",
+      "sha256": "2277df8023f69d3454d605e6980367145885544d3d94f7b1d4370c6a466b9b13",
+      "publisher": "CN=Proton AG, O=Proton AG, S=Genève, C=CH, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CH, SERIALNUMBER=CHE-354.686.492",
+      "issuer": "CN=Sectigo Public Code Signing CA EV R36, O=Sectigo Limited, C=GB",
+      "serialNumber": "00868BC066D2D89F7DFF7582304D022823",
+      "thumbprint": "D23BBAD34FBC0121CA646405A97BCCC81C925981",
+      "timestamp": "CN=Sectigo Public Time Stamping Signer R36, O=Sectigo Limited, S=West Yorkshire, C=GB",
+      "lastUpdated": "2026-06-16T15:12:25Z"
     },
     {
       "slug": "proton-mail-bridge/darwin",
