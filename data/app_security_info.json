@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T15:06:18Z",
+  "lastUpdated": "2026-06-16T15:11:11Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -524,6 +524,18 @@
       "lastUpdated": "2026-06-05T05:53:08Z"
     },
     {
+      "slug": "amazon-corretto-jre-8/windows",
+      "name": "Amazon Corretto JRE 8",
+      "version": "1.8.0.492",
+      "sha256": "6b15bf3c563f0f8db82235727f120b99dbe438309a58bbb5767563f45380fb49",
+      "publisher": "CN=Amazon.com Services LLC, OU=Amazon Corretto, O=Amazon.com Services LLC, L=Seattle, S=Washington, C=US, SERIALNUMBER=3482342, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "048E6204BD9D0E01D283E50B66E87646",
+      "thumbprint": "7B9F0B7BFB6A8E346C518D3970B37BC76C24A43A",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-16T15:06:24Z"
+    },
+    {
       "slug": "amazon-dcv-client/windows",
       "name": "Amazon DCV Client",
       "version": "25.0.9800.0",
@@ -719,6 +731,18 @@
       "lastUpdated": "2026-06-12T21:24:41Z"
     },
     {
+      "slug": "aptakube/windows",
+      "name": "Aptakube",
+      "version": "1.17.2",
+      "sha256": "1b03c1cf3c7cb3e61aa48fe909d7d38765e7a50c84e57c170227a164bf023ae2",
+      "publisher": "CN=Zandar Labs SL, O=Zandar Labs SL, S=Alicante, C=ES, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=ES, SERIALNUMBER=B22969513",
+      "issuer": "CN=Sectigo Public Code Signing CA EV R36, O=Sectigo Limited, C=GB",
+      "serialNumber": "1DF4D4810494636285589CE5243A4A87",
+      "thumbprint": "5A5C1C713A4AA79DDED47BE4C92087AEE2E43C46",
+      "timestamp": "CN=Sectigo Public Time Stamping Signer R36, O=Sectigo Limited, S=West Yorkshire, C=GB",
+      "lastUpdated": "2026-06-16T15:06:31Z"
+    },
+    {
       "slug": "arc/darwin",
       "name": "Arc",
       "version": "1.151.1",
@@ -823,6 +847,20 @@
       "lastUpdated": "2026-06-12T21:28:16Z"
     },
     {
+      "slug": "audiveris/windows",
+      "name": "Audiveris",
+      "version": "5.10.2",
+      "sha256": "c949ae37fa9975d2a2f643b32955a22f1da76de5e6ba32d4fc5c3af869596a42",
+      "lastUpdated": "2026-06-16T15:06:47Z"
+    },
+    {
+      "slug": "autopsy/windows",
+      "name": "Autopsy",
+      "version": "4.22.1",
+      "sha256": "ee790adfcf8436d7b128ddb43d6f6df1a8404df7612972b2bef7022b4f27bf69",
+      "lastUpdated": "2026-06-16T15:07:54Z"
+    },
+    {
       "slug": "avast-secure-browser/darwin",
       "name": "Avast Secure Browser",
       "version": "139.0.6697.68",
@@ -839,14 +877,21 @@
     {
       "slug": "aws-cli/windows",
       "name": "AWS Command Line Interface v2",
-      "version": "2.35.4",
-      "sha256": "6a102ec8118c61345c7ffb3ba291a0714e3b1b52920c757d096a464a763bb325",
+      "version": "2.35.5",
+      "sha256": "358f958b88c6e0e25704d9dc144e00095b06fe39cd95e81e56eafaed7440d714",
       "publisher": "CN=\"Amazon Web Services, Inc.\", OU=AWS, O=\"Amazon Web Services, Inc.\", L=Seattle, S=Washington, C=US, SERIALNUMBER=4152954, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0590C4CF0DB014199953A68CFCE9B0E7",
       "thumbprint": "81A9EFB93199F2C7441EE14050360EDAB7E8242A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-06-14T12:59:31Z"
+      "lastUpdated": "2026-06-16T15:08:25Z"
+    },
+    {
+      "slug": "aws-sam-cli/windows",
+      "name": "AWS SAM Command Line Interface",
+      "version": "1.162.1",
+      "sha256": "ae81357350c5f74c323b6831d45d0c70fcdfbf8ed70cfe4ec96101225b64167e",
+      "lastUpdated": "2026-06-16T15:09:52Z"
     },
     {
       "slug": "aws-vpn-client/darwin",
@@ -2490,14 +2535,14 @@
     {
       "slug": "discord/windows",
       "name": "Discord",
-      "version": "1.0.9241",
-      "sha256": "99909799082c39500bd6abe13ec7752fbe13ee659a75ddab585ff727d1d8b2bb",
+      "version": "1.0.9242",
+      "sha256": "3ee7967fc974f0f0d3c829d196f6c9846331815d3ab1c3b61b972306b60e1e71",
       "publisher": "CN=Discord Inc., O=Discord Inc., L=San Francisco, S=California, C=US, SERIALNUMBER=5128862, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0DE9CF2E718364A0062E0D83093E34D7",
       "thumbprint": "6C7552617E892DFCA5CEB96FA2870F4F1904820E",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-06-09T20:12:31Z"
+      "lastUpdated": "2026-06-16T15:10:39Z"
     },
     {
       "slug": "disk-drill/darwin",
@@ -3121,6 +3166,18 @@
       "version": "4.115",
       "sha256": "95dd12f346c83f1b62629f121d6e4ef6330bfb0a88343b708f9ca1df41d890e2",
       "lastUpdated": "2026-06-11T21:51:05Z"
+    },
+    {
+      "slug": "filebeat/windows",
+      "name": "Filebeat",
+      "version": "9.4.2",
+      "sha256": "b7756d5f15b3bf6c59f966f1e65032e25e9046135dd22c03e6bd55c9cf87eda3",
+      "publisher": "CN=\"Elasticsearch, Inc.\", O=\"Elasticsearch, Inc.\", L=Mountain View, S=California, C=US, SERIALNUMBER=5195380, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0ED3D34F2AADC84A5D3D65F14A1E05F5",
+      "thumbprint": "B54BACBD648D094FD923F91C7738B2EDA75EBDCB",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-16T15:10:56Z"
     },
     {
       "slug": "filemaker-pro/darwin",
@@ -4082,14 +4139,14 @@
     {
       "slug": "insomnia/windows",
       "name": "Insomnia",
-      "version": "12.6.0",
-      "sha256": "bec143adc50fcc78a838641af6593f585874856629fb5f1b8a6b62be058be714",
+      "version": "13.0.0",
+      "sha256": "2b1ef8612fefcf4002585da919e6b56943ffd1336109f53a778f822afd752be4",
       "publisher": "CN=Kong Inc., O=Kong Inc., L=San Francisco, S=California, C=US, SERIALNUMBER=4711251, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "087D7BCEF17D95840EBD65CDD7A345C5",
       "thumbprint": "B22B8E938DAE7E9B202EE4ABB3ED5659F97A0633",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-05-28T17:27:21Z"
+      "lastUpdated": "2026-06-16T15:11:11Z"
     },
     {
       "slug": "intellidock/darwin",
