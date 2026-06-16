@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T15:19:01Z",
+  "lastUpdated": "2026-06-16T15:19:33Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -9783,11 +9783,35 @@
       "lastUpdated": "2026-06-09T18:59:00Z"
     },
     {
+      "slug": "xnconvert/windows",
+      "name": "XnSoft XnConvert",
+      "version": "1.111.0.0",
+      "sha256": "0b2d085de2d791577a6c19dea54fd10d7573c24684aee1f5c329909e48386eaf",
+      "publisher": "CN=GOUGELET PIERRE-EMMANUEL, O=GOUGELET PIERRE-EMMANUEL, L=Betheny, C=FR",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "03AFBA458745FB22D2E32E6CF44AED10",
+      "thumbprint": "3637CE6DE8DB533D81294C1614C0E952CD505418",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-16T15:19:07Z"
+    },
+    {
       "slug": "xnviewmp/darwin",
       "name": "XnViewMP",
       "version": "1.11.2",
       "sha256": "6918993e820cfaf3f628fc6092dccb702939f86085551808e3bdae6c3d4d5417",
       "lastUpdated": "2026-06-09T19:00:46Z"
+    },
+    {
+      "slug": "xnviewmp/windows",
+      "name": "XnViewMP",
+      "version": "1.11.2.0",
+      "sha256": "b98de5ad8b3d02e9d92496420cc290196540970b8a8fefa1b0394b129a31e594",
+      "publisher": "CN=GOUGELET PIERRE-EMMANUEL, O=GOUGELET PIERRE-EMMANUEL, L=Betheny, C=FR",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "03AFBA458745FB22D2E32E6CF44AED10",
+      "thumbprint": "3637CE6DE8DB533D81294C1614C0E952CD505418",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-16T15:19:13Z"
     },
     {
       "slug": "xquartz/darwin",
@@ -9804,11 +9828,35 @@
       "lastUpdated": "2026-06-09T15:25:07Z"
     },
     {
+      "slug": "yaak/windows",
+      "name": "Yaak",
+      "version": "2026.4.0",
+      "sha256": "026dc0753f4880313b93bbff848a9cd09a114f87111aaaef5e4e698c52c8b561",
+      "publisher": "CN=Mountain Loop Labs Inc, O=Mountain Loop Labs Inc, L=100 Mile House, S=British Columbia, C=CA",
+      "issuer": "CN=Microsoft ID Verified CS EOC CA 03, O=Microsoft Corporation, C=US",
+      "serialNumber": "3300012E26487A3A7D4D9CEA29000000012E26",
+      "thumbprint": "E6081576570BA086DD202524D7023051FB34AF12",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7800-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-06-16T15:19:16Z"
+    },
+    {
       "slug": "yacreader/darwin",
       "name": "YACReader",
       "version": "10.0.0.260501214",
       "sha256": "9f1626f2be240f3114149cf01f19b9c7c355b075cee78625795aab30f9dc9c2a",
       "lastUpdated": "2026-06-09T15:25:31Z"
+    },
+    {
+      "slug": "yacreader/windows",
+      "name": "YACReader",
+      "version": "10.0.0",
+      "sha256": "945b57496bb436c27b0ae017aa72c4aab006c0af94931f029603f9d3798df4da",
+      "publisher": "CN=SignPath Foundation, O=SignPath Foundation, L=Lewes, S=Delaware, C=US",
+      "issuer": "CN=GlobalSign GCC R45 CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
+      "serialNumber": "672BC6CE479E507429A6104F",
+      "thumbprint": "C628A3CFE553FEF9AEC1DAB655DF3D7A6BAAADE5",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-16T15:19:20Z"
     },
     {
       "slug": "yattee/darwin",
@@ -9856,6 +9904,18 @@
       "version": "1.2.5",
       "sha256": "308355934c2f7e6a560222556408b841825cced4256c2f9187f631958c2155c0",
       "lastUpdated": "2025-12-20T09:32:47Z"
+    },
+    {
+      "slug": "yubico-yubikey-manager/windows",
+      "name": "Yubikey Manager",
+      "version": "1.2.6",
+      "sha256": "fc8f1c992c5b9f5d542549072cf58178a45af31851561b22a768e35dbfd648b7",
+      "publisher": "CN=Yubico AB, OU=Yubico Engineering, O=Yubico AB, L=STOCKHOLM, S=Stockholms län, C=SE",
+      "issuer": "CN=DigiCert Global G3 Code Signing ECC SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "05B123D73511467E1112E5D3C988B3BB",
+      "thumbprint": "CB7CADE8F51D0985D806BCD28E1FEC57D3034187",
+      "timestamp": "CN=DigiCert Timestamp 2023, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-16T15:19:25Z"
     },
     {
       "slug": "zappy/darwin",
@@ -9915,6 +9975,18 @@
       "version": "4.6.0",
       "sha256": "805e8e913a926013b96b3dccd816f341f8d739a5b48cc7c66ee6c2776efa4d91",
       "lastUpdated": "2026-06-15T16:59:52Z"
+    },
+    {
+      "slug": "zettlr/windows",
+      "name": "Zettlr",
+      "version": "4.5.0",
+      "sha256": "93db764f669494ea805540d035d0579672480753aad60bcdde56a1ccf079829e",
+      "publisher": "CN=Benjamin Milburn-Town, O=Benjamin Milburn-Town, L=Richmond, S=Virginia, C=US",
+      "issuer": "CN=Microsoft ID Verified CS EOC CA 04, O=Microsoft Corporation, C=US",
+      "serialNumber": "330000E06385EF5D3F8DE1F07900000000E063",
+      "thumbprint": "FCA94C80E07AB7FC9E42A6100FA484C775B148CA",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7800-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-06-16T15:19:33Z"
     },
     {
       "slug": "zight/darwin",
