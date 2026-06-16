@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T15:13:52Z",
+  "lastUpdated": "2026-06-16T15:15:13Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -7680,6 +7680,18 @@
       "lastUpdated": "2026-06-10T15:24:05Z"
     },
     {
+      "slug": "scrivener/windows",
+      "name": "Scrivener",
+      "version": "3.1.6.0",
+      "sha256": "b87bc507be913c712276fc736824a7f3f15ade4735f8d64b8681813d0aaf8a77",
+      "publisher": "CN=Literature and Latte Ltd, O=Literature and Latte Ltd, S=Cornwall, C=GB",
+      "issuer": "CN=Sectigo Public Code Signing CA R36, O=Sectigo Limited, C=GB",
+      "serialNumber": "3549842D34F2B46FD29C5484FCA8F1D0",
+      "thumbprint": "B1DDE00AEFA546A1030CB67344C1228D7E371CFF",
+      "timestamp": "CN=Sectigo Public Time Stamping Signer R36, O=Sectigo Limited, S=West Yorkshire, C=GB",
+      "lastUpdated": "2026-06-16T15:14:04Z"
+    },
+    {
       "slug": "secretive/darwin",
       "name": "Secretive",
       "version": "3.0.4",
@@ -7750,11 +7762,35 @@
       "lastUpdated": "2026-06-10T15:28:19Z"
     },
     {
+      "slug": "sharefile/windows",
+      "name": "ShareFile",
+      "version": "25.9.2.0",
+      "sha256": "0f4f2048bee6213924c03083d45a866cbefe7c3fbc84c2452e43a8c71bd77c75",
+      "publisher": "CN=PROGRESS SOFTWARE CORPORATION, O=PROGRESS SOFTWARE CORPORATION, STREET=15 Wayside Rd Ste 400, L=Burlington, S=Massachusetts, C=US, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=5743582, OID.2.5.4.15=Private Organization",
+      "issuer": "CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
+      "serialNumber": "726C006FE81F27D383F0B658",
+      "thumbprint": "D8E824ED3F57FA85406C91C1AF1D3C4810BE1775",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-16T15:14:23Z"
+    },
+    {
       "slug": "shift/darwin",
       "name": "Shift",
       "version": "9.6.4.1231",
       "sha256": "408d2bbf214f8b2ec8ee7f2750392b86346e860c0a6f72047c0baea573e80ae4",
       "lastUpdated": "2026-06-10T15:28:43Z"
+    },
+    {
+      "slug": "shift/windows",
+      "name": "Shift",
+      "version": "9.6.4.1231",
+      "sha256": "cd6320b8d0c0ae2cb2f8587eeed2e12abcf5820c3faa4ee0e1f99dd06a265c25",
+      "publisher": "OID.1.3.6.1.4.1.311.60.2.1.3=CA, OID.1.3.6.1.4.1.311.60.2.1.2=British Columbia, OID.2.5.4.15=Private Organization, CN=Shift Technologies Inc., SERIALNUMBER=BC1191266, O=Shift (Shift Technologies Inc.), L=Victoria, S=British Columbia, C=CA",
+      "issuer": "CN=SSL.com EV Code Signing Intermediate CA RSA R3, O=SSL Corp, L=Houston, S=Texas, C=US",
+      "serialNumber": "3A9AEC951A144C96B362584F2535C97A",
+      "thumbprint": "355FEF4F77C8B4CEEABABACF91834240A8D76435",
+      "timestamp": "CN=SSL.com Timestamping Unit 2024 E1, O=SSL Corp, L=Houston, S=Texas, C=US",
+      "lastUpdated": "2026-06-16T15:14:28Z"
     },
     {
       "slug": "shifty/darwin",
@@ -7776,6 +7812,18 @@
       "version": "26.4.30",
       "sha256": "3b18115f5c120458f8e8ceee719e44c06b77d59cad612f51829d9a91bf57bb8f",
       "lastUpdated": "2026-06-10T15:31:59Z"
+    },
+    {
+      "slug": "shotcut/windows",
+      "name": "Shotcut",
+      "version": "26.4.30",
+      "sha256": "7a710c3e7ac14bbab91bc2c96c54b5f906e2183f5264f4cbd65411a1a7943b22",
+      "publisher": "CN=\"Meltytech, LLC\", O=\"Meltytech, LLC\", L=Oceanside, S=California, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "02C2FFB62A14079F085068EF5CA4B44B",
+      "thumbprint": "796DC3140F9A322B07BCA512A86EA4E37B79AB25",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-16T15:14:35Z"
     },
     {
       "slug": "shottr/darwin",
@@ -7855,14 +7903,14 @@
     {
       "slug": "slack/windows",
       "name": "Slack",
-      "version": "4.50.136",
-      "sha256": "da15dc60c979b4c278278ac0b00e754716fc2163d2b1144a1a570dd82bb7b13d",
+      "version": "4.50.140",
+      "sha256": "c2a04477eeb19dced44462b605ef87a929af75425d0dac3ee8c179a31b75c0b7",
       "publisher": "CN=\"Slack Technologies, LLC\", O=\"Slack Technologies, LLC\", L=San Francisco, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "093EBC16F38319EC4E03B33422D94F1B",
       "thumbprint": "0E2CE64CE623A6F1049BA69353D66BF60158C43D",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-06-09T20:13:43Z"
+      "lastUpdated": "2026-06-16T15:14:40Z"
     },
     {
       "slug": "slicer/darwin",
@@ -7891,6 +7939,18 @@
       "version": "1.0.54",
       "sha256": "819e8dff420c2ec2bb44ef1c6864e0059f76269808d3d043a9dd238d407333fb",
       "lastUpdated": "2026-06-10T15:37:34Z"
+    },
+    {
+      "slug": "smartsheet/windows",
+      "name": "Smartsheet",
+      "version": "1.0.54",
+      "sha256": "b947fa0d4685999a39572ac8e417f118240a246116be0c9593dc073f0083f0f0",
+      "publisher": "CN=Smartsheet Inc, O=Smartsheet Inc, L=Bellevue, S=Washington, C=US, SERIALNUMBER=602 508 207, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Washington, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "04A8B6B248DA249DE0014B26FD2DFB13",
+      "thumbprint": "FB9563801F57F28F1AD822DAF0E9816FDC93AB87",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-16T15:14:44Z"
     },
     {
       "slug": "smartsvn/darwin",
@@ -8111,6 +8171,13 @@
       "lastUpdated": "2026-06-10T15:55:50Z"
     },
     {
+      "slug": "sqlectron/windows",
+      "name": "Sqlectron",
+      "version": "1.38.0",
+      "sha256": "86ded7390722d36825feddad43dd34129ceeeccabb5c9a0165c5f9fc1e6a58e2",
+      "lastUpdated": "2026-06-16T15:14:53Z"
+    },
+    {
       "slug": "sqlpro-for-mssql/darwin",
       "name": "SQLPro for MSSQL",
       "version": "2026.85",
@@ -8165,6 +8232,18 @@
       "version": "3.201.21",
       "sha256": "79c0b82625c331e0ea1a7b91ef0c568450d9055c5bceb75c28fd3b8e990f5bc8",
       "lastUpdated": "2026-06-10T15:58:53Z"
+    },
+    {
+      "slug": "standard-notes/windows",
+      "name": "Standard Notes",
+      "version": "3.201.21",
+      "sha256": "da034509c6fbfdd05f0ad7c4106ba7d8e562cca680486af7edcbcc1ab81f148e",
+      "publisher": "CN=Proton AG, O=Proton AG, S=Genève, C=CH, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CH, SERIALNUMBER=CHE-354.686.492",
+      "issuer": "CN=Sectigo Public Code Signing CA EV R36, O=Sectigo Limited, C=GB",
+      "serialNumber": "00868BC066D2D89F7DFF7582304D022823",
+      "thumbprint": "D23BBAD34FBC0121CA646405A97BCCC81C925981",
+      "timestamp": "CN=Sectigo Public Time Stamping Signer R36, O=Sectigo Limited, S=West Yorkshire, C=GB",
+      "lastUpdated": "2026-06-16T15:14:58Z"
     },
     {
       "slug": "staruml/darwin",
@@ -8228,6 +8307,13 @@
       "lastUpdated": "2026-06-10T16:01:11Z"
     },
     {
+      "slug": "stretchly/windows",
+      "name": "Stretchly",
+      "version": "1.21.0",
+      "sha256": "fdd4d6d9b48aea7e83d3315f02a640792968ff6b84d04c61a1b0dc061b257c65",
+      "lastUpdated": "2026-06-16T15:15:05Z"
+    },
+    {
       "slug": "sublime-merge/darwin",
       "name": "Sublime Merge",
       "version": "Build 2125",
@@ -8266,6 +8352,13 @@
       "version": "3.14.1",
       "sha256": "845757666a75fd2eaac40d26471fb8b3475b975fb49dff790d3d24d76db44e17",
       "lastUpdated": "2026-06-10T16:02:07Z"
+    },
+    {
+      "slug": "supercollider/windows",
+      "name": "SuperCollider",
+      "version": "3.14.1",
+      "sha256": "ebb27352978539ad5d0e8bb6707cee10c3c59abcd9acb0c2b2d6221081396f30",
+      "lastUpdated": "2026-06-16T15:15:13Z"
     },
     {
       "slug": "superhuman/darwin",
