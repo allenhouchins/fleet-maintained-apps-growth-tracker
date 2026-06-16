@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: June 16, 2026 at 11:00 AM CDT</p>
+            Last updated: June 16, 2026 at 11:05 AM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: June 16, 2026 at 11:00 AM CDT</p>
+                <p id="modalLastUpdated">Last updated: June 16, 2026 at 11:05 AM CDT</p>
             </div>
         </div>
     </div>
@@ -10511,8 +10511,8 @@
                 "slug": "granola/windows",
                 "platform": "windows",
                 "description": "Granola is an AI-powered notepad for meetings.",
-                "version": "7.319.1",
-                "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.319.1/Granola-7.319.1-win-x64.exe",
+                "version": "7.324.2",
+                "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.324.2/Granola-7.324.2-win-x64.exe",
                 "securityInfo": {
                   "sha256": "4cdeabf87e9b72d23ef7e59896087a4d67481f50e74b58eac9c25ec1b4a61942",
                   "publisher": "CN=Granola Labs Ltd, O=Granola Labs Ltd, L=St. Albans, C=GB",
@@ -18531,7 +18531,14 @@
                 "platform": "darwin",
                 "description": "Sonos is an app to set up and control Sonos wireless speakers and home audio systems.",
                 "version": "90.0.77070",
-                "installerUrl": "https://update-software.sonos.com/software/rT0797IawE/Sonos_90.0-77070.dmg"
+                "installerUrl": "https://update-software.sonos.com/software/rT0797IawE/Sonos_90.0-77070.dmg",
+                "securityInfo": {
+                  "sha256": "38877f88f35561728076448a99bfc5c73c19efcc979012e20457eaac3a9bbf23",
+                  "cdhash": "d83e5811557a84c9339666ddf0880fe8b900f968",
+                  "signingId": "2G4LW83Q3E:com.sonos.macController",
+                  "teamId": "2G4LW83Q3E",
+                  "lastUpdated": "2026-06-16T16:01:27Z"
+                }
               },
               {
                 "name": "Sonos",
@@ -21431,11 +21438,11 @@
                 "version": "26.24.15",
                 "installerUrl": "https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release\u0026src=whatsapp_downloads_page",
                 "securityInfo": {
-                  "sha256": "ed91b6262c070bade719eac270bf38e28b5757475179df4ac21a6f1e7e7b111d",
-                  "cdhash": "9db73a74d3695885aa3c959170c4ee7eb6757850",
+                  "sha256": "d8dc443b71eccf81d381ec43111f6d8d4117861d612a187929e41712a2e7a0dd",
+                  "cdhash": "ca1200f4172fe3f39e1a9cd89e3ba9188b3415e5",
                   "signingId": "57T9237FN3:net.whatsapp.WhatsApp",
                   "teamId": "57T9237FN3",
-                  "lastUpdated": "2026-06-15T16:59:22Z"
+                  "lastUpdated": "2026-06-16T16:02:02Z"
                 }
               },
               {
@@ -22965,7 +22972,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `June 16, 2026 at 11:00 AM CDT`;
+                let timestampText = 'Last updated: ' + `June 16, 2026 at 11:05 AM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
