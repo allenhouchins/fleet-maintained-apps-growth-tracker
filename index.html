@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: June 17, 2026 at 2:56 PM CDT</p>
+            Last updated: June 17, 2026 at 3:50 PM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: June 17, 2026 at 2:56 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: June 17, 2026 at 3:50 PM CDT</p>
             </div>
         </div>
     </div>
@@ -1602,7 +1602,7 @@
             1171,
             1201,
             1254,
-            1254
+            1255
           ],
           "additions": [
             20,
@@ -2075,7 +2075,7 @@
             0,
             30,
             53,
-            0
+            1
           ],
           "macCounts": [
             20,
@@ -2548,7 +2548,7 @@
             957,
             957,
             958,
-            958
+            959
           ],
           "windowsCounts": [
             0,
@@ -3103,7 +3103,8 @@
             "2026-06-12",
             "2026-06-13",
             "2026-06-15",
-            "2026-06-16"
+            "2026-06-16",
+            "2026-06-17"
           ],
           "growthCounts": [
             20,
@@ -3185,7 +3186,8 @@
             1135,
             1171,
             1201,
-            1254
+            1254,
+            1255
           ],
           "growthAdditions": [
             20,
@@ -3267,7 +3269,8 @@
             100,
             36,
             30,
-            53
+            53,
+            1
           ]
         };
         
@@ -15495,8 +15498,8 @@
                 "slug": "pd/darwin",
                 "platform": "darwin",
                 "description": "Pd (Pure Data) is a visual programming language for creating interactive computer music and multimedia works.",
-                "version": "0.56.4",
-                "installerUrl": "https://msp.ucsd.edu/Software/pd-0.56-4.macos.zip"
+                "version": "0.56.5",
+                "installerUrl": "https://msp.ucsd.edu/Software/pd-0.56-5.macos.zip"
               },
               {
                 "name": "PDF Expert",
@@ -16076,8 +16079,8 @@
                 "slug": "postman/darwin",
                 "platform": "darwin",
                 "description": "Postman is a collaboration platform for API development that simplifies building, testing, and sharing APIs.",
-                "version": "12.15.5",
-                "installerUrl": "https://dl.pstmn.io/download/version/12.15.5/osx_arm64",
+                "version": "12.15.6",
+                "installerUrl": "https://dl.pstmn.io/download/version/12.15.6/osx_arm64",
                 "securityInfo": {
                   "sha256": "0b2ef17b90515efcaaebd62b9b86f59d5ea13f14dc1107862515060cc1dc1b79",
                   "cdhash": "490cbc2b4918a7ddd1979d835964585691e09a9d",
@@ -18155,8 +18158,8 @@
                 "slug": "sidenotes/darwin",
                 "platform": "darwin",
                 "description": "SideNotes is an app for note-taking application.",
-                "version": "1.6.1",
-                "installerUrl": "https://www.apptorium.com/public/products/sidenotes/releases/SideNotes-1.6.1.zip",
+                "version": "1.6.2",
+                "installerUrl": "https://www.apptorium.com/public/products/sidenotes/releases/SideNotes-1.6.2.zip",
                 "securityInfo": {
                   "sha256": "b039c4f051172d53d4350c2ce462a508e3ea914b610c69a4ce2dde99a602614a",
                   "cdhash": "dda637847a6b4dfb1ab6186fb82622aed954c86f",
@@ -18768,6 +18771,14 @@
                   "teamId": "9962T6AKMH",
                   "lastUpdated": "2026-06-16T03:27:21Z"
                 }
+              },
+              {
+                "name": "Spokenly",
+                "slug": "spokenly/darwin",
+                "platform": "darwin",
+                "description": "Spokenly is a dictation and transcription app with AI-powered editing.",
+                "version": "2.22.1",
+                "installerUrl": "https://cdn.spokenly.app/releases/macos/Spokenly-2.22.1.dmg"
               },
               {
                 "name": "Spotify",
@@ -22156,8 +22167,8 @@
                 "slug": "zed/darwin",
                 "platform": "darwin",
                 "description": "Zed is a multiplayer code editor.",
-                "version": "1.6.3",
-                "installerUrl": "https://zed.dev/api/releases/stable/1.6.3/Zed-aarch64.dmg",
+                "version": "1.7.2",
+                "installerUrl": "https://zed.dev/api/releases/stable/1.7.2/Zed-aarch64.dmg",
                 "securityInfo": {
                   "sha256": "6d31be22cb1c69db2c19ce392b8a759f83c6b9dfa2fb944bd2ce42cfd540f10c",
                   "cdhash": "2b8517c94a5af2c836c579ae1043a3b5599cb281",
@@ -22986,7 +22997,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `June 17, 2026 at 2:56 PM CDT`;
+                let timestampText = 'Last updated: ' + `June 17, 2026 at 3:50 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
