@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: June 18, 2026 at 3:58 PM CDT</p>
+            Last updated: June 18, 2026 at 4:02 PM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: June 18, 2026 at 3:58 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: June 18, 2026 at 4:02 PM CDT</p>
             </div>
         </div>
     </div>
@@ -20993,7 +20993,14 @@
                 "platform": "darwin",
                 "description": "Vivaldi is a customizable, privacy-focused web browser built on Chromium.",
                 "version": "8.0.4033.46",
-                "installerUrl": "https://downloads.vivaldi.com/stable/Vivaldi.8.0.4033.46.universal.dmg"
+                "installerUrl": "https://downloads.vivaldi.com/stable/Vivaldi.8.0.4033.46.universal.dmg",
+                "securityInfo": {
+                  "sha256": "403fdbb855acb802963b00af5fd2c8ba14aa4800182986f63b64d5d4c0091b2c",
+                  "cdhash": "7d3153d0b77e9e4497ed949ad2a22236c1428061",
+                  "signingId": "4XF3XNRN6Y:com.vivaldi.Vivaldi",
+                  "teamId": "4XF3XNRN6Y",
+                  "lastUpdated": "2026-06-18T21:00:28Z"
+                }
               },
               {
                 "name": "Vivaldi",
@@ -23028,7 +23035,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `June 18, 2026 at 3:58 PM CDT`;
+                let timestampText = 'Last updated: ' + `June 18, 2026 at 4:02 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
