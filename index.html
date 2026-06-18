@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: June 18, 2026 at 3:01 PM CDT</p>
+            Last updated: June 18, 2026 at 3:58 PM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: June 18, 2026 at 3:01 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: June 18, 2026 at 3:58 PM CDT</p>
             </div>
         </div>
     </div>
@@ -1604,7 +1604,7 @@
             1201,
             1254,
             1255,
-            1255
+            1257
           ],
           "additions": [
             20,
@@ -2078,7 +2078,7 @@
             30,
             53,
             1,
-            0
+            2
           ],
           "macCounts": [
             20,
@@ -2552,7 +2552,7 @@
             957,
             958,
             959,
-            959
+            960
           ],
           "windowsCounts": [
             0,
@@ -3026,7 +3026,7 @@
             244,
             296,
             296,
-            296
+            297
           ],
           "growthDates": [
             "2025-03-04",
@@ -3109,7 +3109,8 @@
             "2026-06-13",
             "2026-06-15",
             "2026-06-16",
-            "2026-06-17"
+            "2026-06-17",
+            "2026-06-18"
           ],
           "growthCounts": [
             20,
@@ -3192,7 +3193,8 @@
             1171,
             1201,
             1254,
-            1255
+            1255,
+            1257
           ],
           "growthAdditions": [
             20,
@@ -3275,7 +3277,8 @@
             36,
             30,
             53,
-            1
+            1,
+            2
           ]
         };
         
@@ -20985,6 +20988,22 @@
                 }
               },
               {
+                "name": "Vivaldi",
+                "slug": "vivaldi/darwin",
+                "platform": "darwin",
+                "description": "Vivaldi is a customizable, privacy-focused web browser built on Chromium.",
+                "version": "8.0.4033.46",
+                "installerUrl": "https://downloads.vivaldi.com/stable/Vivaldi.8.0.4033.46.universal.dmg"
+              },
+              {
+                "name": "Vivaldi",
+                "slug": "vivaldi/windows",
+                "platform": "windows",
+                "description": "Vivaldi is a customizable, privacy-focused web browser built on Chromium.",
+                "version": "8.0.4033.46",
+                "installerUrl": "https://downloads.vivaldi.com/stable/Vivaldi.8.0.4033.46.x64.exe"
+              },
+              {
                 "name": "Vivid",
                 "slug": "vivid-app/darwin",
                 "platform": "darwin",
@@ -23009,7 +23028,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `June 18, 2026 at 3:01 PM CDT`;
+                let timestampText = 'Last updated: ' + `June 18, 2026 at 3:58 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
