@@ -2,177 +2,6 @@
   "changes": [
     {
       "date": "2026-06-10T17:12:37Z",
-      "appName": "Dropbox",
-      "slug": "dropbox/darwin",
-      "platform": "darwin",
-      "oldVersion": "254.4.2518",
-      "newVersion": "256.4.3790",
-      "installerUrl": "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20256.4.3790.arm64.dmg"
-    },
-    {
-      "date": "2026-06-10T17:12:37Z",
-      "appName": "Zed",
-      "slug": "zed/windows",
-      "platform": "windows",
-      "oldVersion": "1.5.4",
-      "newVersion": "1.5.5",
-      "installerUrl": "https://github.com/zed-industries/zed/releases/download/v1.5.5/Zed-x86_64.exe"
-    },
-    {
-      "date": "2026-06-10T17:12:37Z",
-      "appName": "OnionShare",
-      "slug": "onionshare/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.6.3",
-      "newVersion": "2.6.4",
-      "installerUrl": "https://onionshare.org/dist/2.6.4/OnionShare-2.6.4.dmg"
-    },
-    {
-      "date": "2026-06-10T17:12:37Z",
-      "appName": "kiro",
-      "slug": "kiro/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "0.12.301",
-      "installerUrl": "https://prod.download.desktop.kiro.dev/releases/stable/darwin-arm64/signed/0.12.301/kiro-ide-0.12.301-stable-darwin-arm64.dmg"
-    },
-    {
-      "date": "2026-06-10T17:12:37Z",
-      "appName": "Microsoft Visual Studio Code",
-      "slug": "visual-studio-code/windows",
-      "platform": "windows",
-      "oldVersion": "1.123.0",
-      "newVersion": "1.123.1",
-      "installerUrl": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/ffa3c3f656c8df32d894e5f4d3673284d424205e/VSCodeSetup-x64-1.123.1.exe"
-    },
-    {
-      "date": "2026-06-10T17:12:37Z",
-      "appName": "Krisp",
-      "slug": "krisp/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "3.12.5",
-      "installerUrl": "https://cdn.krisp.ai/mp/mn/3.12/mac/Krisp_3.12.5_arm64.pkg"
-    },
-    {
-      "date": "2026-06-10T17:12:37Z",
-      "appName": "Microsoft Edge",
-      "slug": "microsoft-edge/windows",
-      "platform": "windows",
-      "oldVersion": "149.0.4022.52",
-      "newVersion": "149.0.4022.62",
-      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/be446108-f4a5-446d-9738-a3eb4fc475f6/MicrosoftEdgeEnterpriseX64.msi"
-    },
-    {
-      "date": "2026-06-10T17:12:37Z",
-      "appName": "Setapp",
-      "slug": "setapp/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.53.2",
-      "newVersion": "3.53.4",
-      "installerUrl": "https://dl.devmate.com/com.setapp.DesktopClient/150/1781008402/Setapp-150.zip"
-    },
-    {
-      "date": "2026-06-10T17:12:37Z",
-      "appName": "CLion",
-      "slug": "clion/windows",
-      "platform": "windows",
-      "oldVersion": "2026.1.2",
-      "newVersion": "2026.1.3",
-      "installerUrl": "https://download.jetbrains.com/cpp/CLion-2026.1.3.exe"
-    },
-    {
-      "date": "2026-06-10T17:12:37Z",
-      "appName": "Shapr3D",
-      "slug": "shapr3d/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.91.0.11012",
-      "newVersion": "26.100.0.11031",
-      "installerUrl": "https://download.shapr3d.com/mac/Shapr3D-26.100.0.11031.dmg"
-    },
-    {
-      "date": "2026-06-10T17:12:37Z",
-      "appName": "Microsoft Edge",
-      "slug": "microsoft-edge/darwin",
-      "platform": "darwin",
-      "oldVersion": "149.0.4022.52",
-      "newVersion": "149.0.4022.62",
-      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/aebb5d3f-6026-4857-939c-c4019c60c7c0/MicrosoftEdge-149.0.4022.62.dmg"
-    },
-    {
-      "date": "2026-06-10T17:12:37Z",
-      "appName": "Julia",
-      "slug": "julia-app/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "1.12.6",
-      "installerUrl": "https://julialang-s3.julialang.org/bin/mac/aarch64/1.12/julia-1.12.6-macaarch64.dmg"
-    },
-    {
-      "date": "2026-06-10T17:12:37Z",
-      "appName": "Notion",
-      "slug": "notion/windows",
-      "platform": "windows",
-      "oldVersion": "7.20.0",
-      "newVersion": "7.21.0",
-      "installerUrl": "https://desktop-release.notion-static.com/Notion%20Setup%207.21.0.exe"
-    },
-    {
-      "date": "2026-06-10T17:12:37Z",
-      "appName": "Dropbox",
-      "slug": "dropbox/windows",
-      "platform": "windows",
-      "oldVersion": "254.4.2518",
-      "newVersion": "256.4.3790",
-      "installerUrl": "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20256.4.3790%20Enterprise%20Installer.x64.msi"
-    },
-    {
-      "date": "2026-06-10T17:12:37Z",
-      "appName": "Kaleidoscope",
-      "slug": "kaleidoscope/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "6.7",
-      "installerUrl": "https://updates.kaleidoscope.app/v6/prod/Kaleidoscope-6.7-10249.app.zip"
-    },
-    {
-      "date": "2026-06-10T17:12:37Z",
-      "appName": "GoLand",
-      "slug": "goland/darwin",
-      "platform": "darwin",
-      "oldVersion": "2026.1.2",
-      "newVersion": "2026.1.3",
-      "installerUrl": "https://download.jetbrains.com/go/goland-2026.1.3-aarch64.dmg"
-    },
-    {
-      "date": "2026-06-10T17:12:37Z",
-      "appName": "TablePlus",
-      "slug": "tableplus/windows",
-      "platform": "windows",
-      "oldVersion": "7.1.2",
-      "newVersion": "7.1.4",
-      "installerUrl": "https://files.tableplus.com/windows/7.1.4/TablePlusSetup.exe"
-    },
-    {
-      "date": "2026-06-10T17:12:37Z",
-      "appName": "Brave",
-      "slug": "brave-browser/windows",
-      "platform": "windows",
-      "oldVersion": "149.1.91.168",
-      "newVersion": "149.1.91.171",
-      "installerUrl": "https://github.com/brave/brave-browser/releases/download/v1.91.171/BraveBrowserStandaloneSilentSetup.exe"
-    },
-    {
-      "date": "2026-06-10T17:12:37Z",
-      "appName": "Arduino IDE",
-      "slug": "arduino-ide/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.3.9",
-      "newVersion": "2.3.10",
-      "installerUrl": "https://github.com/arduino/arduino-ide/releases/download/2.3.10/arduino-ide_2.3.10_macOS_ARM64.dmg"
-    },
-    {
-      "date": "2026-06-10T17:12:37Z",
       "appName": "KeyCastr",
       "slug": "keycastr/darwin",
       "platform": "darwin",
@@ -8999,6 +8828,177 @@
       "oldVersion": "3.2.19",
       "newVersion": "3.2.23",
       "installerUrl": "https://windsurf-stable.codeiumdata.com/darwin-arm64-dmg/stable/3bd47f77998b2e526fed61a11015b78d6205f295/Devin-darwin-arm64-3.2.23.dmg"
+    },
+    {
+      "date": "2026-06-19T15:10:05Z",
+      "appName": "TIDAL",
+      "slug": "tidal/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.42.1",
+      "newVersion": "2.43.0",
+      "installerUrl": "https://download.tidal.com/desktop/mac/TIDAL.arm64.2.43.0.zip"
+    },
+    {
+      "date": "2026-06-19T15:10:05Z",
+      "appName": "Colour Contrast Analyser",
+      "slug": "colour-contrast-analyser/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "3.5.5",
+      "installerUrl": "https://github.com/ThePacielloGroup/CCAe/releases/download/v3.5.5/CCA-Setup-3.5.5.msi"
+    },
+    {
+      "date": "2026-06-19T15:10:05Z",
+      "appName": "Screen Studio",
+      "slug": "screen-studio/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.7.1-4399",
+      "newVersion": "3.7.2-4445",
+      "installerUrl": "https://screenstudioassets.com/releases/3.7.2-4445/Screen%20Studio-3.7.2-4445-arm64-mac.zip"
+    },
+    {
+      "date": "2026-06-19T15:10:05Z",
+      "appName": "Hive",
+      "slug": "hive-app/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.2.2",
+      "newVersion": "1.2.3",
+      "installerUrl": "https://github.com/morapelker/hive/releases/download/v1.2.3/Hive-1.2.3-arm64.dmg"
+    },
+    {
+      "date": "2026-06-19T15:10:05Z",
+      "appName": "Burp Suite Community Edition",
+      "slug": "burp-suite/darwin",
+      "platform": "darwin",
+      "oldVersion": "2026.3.3",
+      "newVersion": "2026.4.3",
+      "installerUrl": "https://portswigger-cdn.net/burp/releases/download?product=desktop\u0026version=2026.4.3\u0026type=MacOsArm64"
+    },
+    {
+      "date": "2026-06-19T15:10:05Z",
+      "appName": "pgAdmin 4",
+      "slug": "pgadmin4/windows",
+      "platform": "windows",
+      "oldVersion": "9.15",
+      "newVersion": "9.16",
+      "installerUrl": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.16/windows/pgadmin4-9.16-x64.exe"
+    },
+    {
+      "date": "2026-06-19T15:10:05Z",
+      "appName": "Spokenly",
+      "slug": "spokenly/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.23.0",
+      "newVersion": "2.23.2",
+      "installerUrl": "https://cdn.spokenly.app/releases/macos/Spokenly-2.23.2.dmg"
+    },
+    {
+      "date": "2026-06-19T15:10:05Z",
+      "appName": "Super Productivity",
+      "slug": "super-productivity/darwin",
+      "platform": "darwin",
+      "oldVersion": "18.10.0",
+      "newVersion": "18.11.0",
+      "installerUrl": "https://github.com/johannesjo/super-productivity/releases/download/v18.11.0/superProductivity-arm64.dmg"
+    },
+    {
+      "date": "2026-06-19T15:10:05Z",
+      "appName": "Beeper",
+      "slug": "beeper/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.2.936",
+      "newVersion": "4.2.945",
+      "installerUrl": "https://beeper-desktop.download.beeper.com/builds/Beeper-4.2.945-arm64-mac.zip"
+    },
+    {
+      "date": "2026-06-19T15:10:05Z",
+      "appName": "Chef Workstation",
+      "slug": "chef-workstation/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "25.13.7.1",
+      "installerUrl": "https://packages.chef.io/files/stable/chef-workstation/25.13.7/windows/10/chef-workstation-25.13.7-1-x64.msi"
+    },
+    {
+      "date": "2026-06-19T15:10:05Z",
+      "appName": "DbGate",
+      "slug": "dbgate/darwin",
+      "platform": "darwin",
+      "oldVersion": "7.2.0",
+      "newVersion": "7.2.1",
+      "installerUrl": "https://github.com/dbgate/dbgate/releases/download/v7.2.1/dbgate-7.2.1-mac_universal.dmg"
+    },
+    {
+      "date": "2026-06-19T15:10:05Z",
+      "appName": "Cribl Edge",
+      "slug": "cribl-edge/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "4.18.1",
+      "installerUrl": "https://cdn.cribl.io/dl/4.18.1/cribl-4.18.1-37206a7f-win32-x64.msi"
+    },
+    {
+      "date": "2026-06-19T15:10:05Z",
+      "appName": "Codex",
+      "slug": "codex-app/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.616.31447",
+      "newVersion": "26.616.32156",
+      "installerUrl": "https://persistent.oaistatic.com/codex-app-prod/Codex-darwin-arm64-26.616.32156.zip"
+    },
+    {
+      "date": "2026-06-19T15:10:05Z",
+      "appName": "Ollama",
+      "slug": "ollama/windows",
+      "platform": "windows",
+      "oldVersion": "0.30.6",
+      "newVersion": "0.30.7",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.30.7/OllamaSetup.exe"
+    },
+    {
+      "date": "2026-06-19T15:10:05Z",
+      "appName": "Docker Desktop",
+      "slug": "docker/windows",
+      "platform": "windows",
+      "oldVersion": "4.78.0.229452",
+      "newVersion": "4.78.0",
+      "installerUrl": "https://desktop.docker.com/win/main/amd64/229452/Docker%20Desktop%20Installer.exe"
+    },
+    {
+      "date": "2026-06-19T15:10:05Z",
+      "appName": "Mockoon",
+      "slug": "mockoon/darwin",
+      "platform": "darwin",
+      "oldVersion": "9.6.1",
+      "newVersion": "9.7.0",
+      "installerUrl": "https://github.com/mockoon/mockoon/releases/download/v9.7.0/mockoon.setup.9.7.0.arm64.dmg"
+    },
+    {
+      "date": "2026-06-19T15:10:05Z",
+      "appName": "BetterTouchTool",
+      "slug": "bettertouchtool/darwin",
+      "platform": "darwin",
+      "oldVersion": "6.591",
+      "newVersion": "6.594",
+      "installerUrl": "https://folivora.ai/releases/btt6.594-2026061903.zip"
+    },
+    {
+      "date": "2026-06-19T15:10:05Z",
+      "appName": "Cherry Keys",
+      "slug": "cherry-keys/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "1.0.7",
+      "installerUrl": "https://www.cherry.de/fileadmin/media/Corporate/Software/CherryKeys_x64_1_0_7__1_.msi"
+    },
+    {
+      "date": "2026-06-19T15:10:05Z",
+      "appName": "OpenToonz",
+      "slug": "opentoonz/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.7.1",
+      "newVersion": "1.8.0",
+      "installerUrl": "https://github.com/opentoonz/opentoonz/releases/download/v1.8.0/OpenToonz.pkg"
     }
   ]
 }
