@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T16:56:57Z",
+  "lastUpdated": "2026-06-19T17:42:12Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -3376,6 +3376,13 @@
       "installerUrl": "https://groove-dialer.s3-us-west-2.amazonaws.com/electron/Groove%20OmniDialer-26.603.1017-universal.dmg"
     },
     {
+      "slug": "groove-omnidialer/windows",
+      "name": "Groove OmniDialer",
+      "platform": "windows",
+      "version": "26.603.1020",
+      "installerUrl": "https://groove-dialer.s3-us-west-2.amazonaws.com/electron/Groove%20OmniDialer%20Setup%2026.603.1020.exe"
+    },
+    {
       "slug": "gyazo/darwin",
       "name": "Nota Gyazo GIF",
       "platform": "darwin",
@@ -5353,8 +5360,8 @@
       "slug": "ollama/windows",
       "name": "Ollama",
       "platform": "windows",
-      "version": "0.30.7",
-      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.30.7/OllamaSetup.exe"
+      "version": "0.30.8",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.30.8/OllamaSetup.exe"
     },
     {
       "slug": "omnidisksweeper/darwin",
@@ -7355,8 +7362,8 @@
       "slug": "superhuman/darwin",
       "name": "Superhuman",
       "platform": "darwin",
-      "version": "1041.0.12",
-      "installerUrl": "https://storage.googleapis.com/download.superhuman.com/supertron-update/Superhuman-1041.0.12-arm64-latest-mac.zip"
+      "version": "1041.0.13",
+      "installerUrl": "https://storage.googleapis.com/download.superhuman.com/supertron-update/Superhuman-1041.0.13-arm64-latest-mac.zip"
     },
     {
       "slug": "superkey/darwin",
@@ -8132,8 +8139,8 @@
       "slug": "visual-studio-code/darwin",
       "name": "Microsoft Visual Studio Code",
       "platform": "darwin",
-      "version": "1.125.0",
-      "installerUrl": "https://update.code.visualstudio.com/1.125.0/darwin/stable"
+      "version": "1.125.1",
+      "installerUrl": "https://update.code.visualstudio.com/1.125.1/darwin/stable"
     },
     {
       "slug": "visual-studio-code/windows",
@@ -8391,7 +8398,7 @@
       "slug": "whatsapp/darwin",
       "name": "WhatsApp",
       "platform": "darwin",
-      "version": "26.24.19",
+      "version": "26.24.21",
       "installerUrl": "https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release\u0026src=whatsapp_downloads_page"
     },
     {
