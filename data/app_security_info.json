@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T15:26:28Z",
+  "lastUpdated": "2026-06-19T15:28:15Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1632,6 +1632,18 @@
       "lastUpdated": "2026-06-19T15:26:28Z"
     },
     {
+      "slug": "cherry-keys/windows",
+      "name": "Cherry Keys",
+      "version": "1.0.7",
+      "sha256": "21ffd8de28ce6e2fa82463e6763a43d1ccf5a7e1f55095475c5fe54e403aab2e",
+      "publisher": "CN=Cherry GmbH, O=Cherry GmbH, L=\"Auerbach, Opf.\", S=Bayern, C=DE, SERIALNUMBER=HRB 5729, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.1=Amberg, OID.1.3.6.1.4.1.311.60.2.1.2=Bavaria, OID.1.3.6.1.4.1.311.60.2.1.3=DE",
+      "issuer": "CN=DigiCert EV Code Signing CA (SHA2), OU=www.digicert.com, O=DigiCert Inc, C=US",
+      "serialNumber": "04EDFA4281B8423889A4DC9E12E72980",
+      "thumbprint": "0035336AFBC2E78A8921AE3EE49A4196541B91B7",
+      "timestamp": "CN=TIMESTAMP-SHA256-2019-10-15, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-19T15:26:38Z"
+    },
+    {
       "slug": "cherry-studio/darwin",
       "name": "Cherry Studio",
       "version": "1.9.11",
@@ -1952,6 +1964,18 @@
       "lastUpdated": "2026-06-09T21:50:13Z"
     },
     {
+      "slug": "colour-contrast-analyser/windows",
+      "name": "Colour Contrast Analyser",
+      "version": "3.5.5",
+      "sha256": "daa36951af9e85ffd5a2e1996b5325c58965ffcebf33c0cef0ab8c40267ed863",
+      "publisher": "CN=\"TPG Interactive, LLC\", O=\"TPG Interactive, LLC\", L=Clearwater, S=Florida, C=US, SERIALNUMBER=407980, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=New Hampshire, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "051F74B75807BE214CE79E6CBA3CE871",
+      "thumbprint": "E4E8D09D01FB02B4F480205C6BEA40E9219E6DB0",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-06-19T15:27:05Z"
+    },
+    {
       "slug": "comet/darwin",
       "name": "Comet",
       "version": "148.0.7778.1016",
@@ -2044,6 +2068,17 @@
       "thumbprint": "330A4484DEEA95A7ACCB8E01635AC63F7908E5CC",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-04-03T17:52:23Z"
+    },
+    {
+      "slug": "cribl-edge/windows",
+      "name": "Cribl Edge",
+      "version": "4.18.1",
+      "sha256": "f232e32a050b93b76dc9053ddd272a59ea63c283d648ffc673f0bb60a9324b57",
+      "publisher": "CN=Entrust Root Certification Authority, OU=\"(c) 2006 Entrust, Inc.\", OU=www.entrust.net/CPS is incorporated by reference, O=\"Entrust, Inc.\", C=US",
+      "issuer": "CN=Entrust Root Certification Authority, OU=\"(c) 2006 Entrust, Inc.\", OU=www.entrust.net/CPS is incorporated by reference, O=\"Entrust, Inc.\", C=US",
+      "serialNumber": "456b5054",
+      "timestamp": "Cert is a CA certificate",
+      "lastUpdated": "2026-06-19T15:27:23Z"
     },
     {
       "slug": "crossover/darwin",
@@ -2594,14 +2629,14 @@
     {
       "slug": "docker/windows",
       "name": "Docker Desktop",
-      "version": "4.78.0.229452",
+      "version": "4.78.0",
       "sha256": "99e275b54ed50ad758b5c9f5d243d0d715b40f909a4e4249fa4c37c0f1735a5e",
       "publisher": "CN=Docker Inc, O=Docker Inc, L=Palo Alto, S=California, C=US, SERIALNUMBER=4817464, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0E0BB520661A510F1392903FA3862C9D",
       "thumbprint": "CACB4F507942C182C47EF14E7B9050CBDE780EB9",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-06-16T03:33:58Z"
+      "lastUpdated": "2026-06-19T15:27:37Z"
     },
     {
       "slug": "dockfix/darwin",
@@ -6106,14 +6141,14 @@
     {
       "slug": "ollama/windows",
       "name": "Ollama",
-      "version": "0.30.6",
-      "sha256": "76e3620247cf01dbad32ec0ef6d4ed740f55a6687e87f5e2724c746932fc347e",
+      "version": "0.30.7",
+      "sha256": "fc1d11a76d3626986a5d338651d312d7cf19849b1b71c2cb49fd81b86bbc000c",
       "publisher": "CN=Ollama Inc., O=Ollama Inc., L=Toronto, S=Ontario, C=CA, SERIALNUMBER=2713355, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Ontario, OID.1.3.6.1.4.1.311.60.2.1.3=CA",
       "issuer": "CN=DigiCert G5 CS ECC SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "09EC0C6B3ACF2FCBBD0BB7489E389999",
       "thumbprint": "716CD3BC8C02361431A18F56F98C72DE88066103",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-06-06T03:19:23Z"
+      "lastUpdated": "2026-06-19T15:28:05Z"
     },
     {
       "slug": "omnidisksweeper/darwin",
@@ -6470,14 +6505,14 @@
     {
       "slug": "pgadmin4/windows",
       "name": "pgAdmin 4",
-      "version": "9.15",
-      "sha256": "bbefd88e62ce9d8c51588e24bf7234c3002116925519cbb94de16c287657a0ca",
+      "version": "9.16",
+      "sha256": "06a0e2f2586099e038d7dc34da20f94f86465696c0238e9c86032bc933d00067",
       "publisher": "CN=\"Open Source Developer, David John Page\", O=Open Source Developer, L=Faringdon, S=Oxfordshire, C=GB",
       "issuer": "CN=Certum Code Signing 2021 CA, O=Asseco Data Systems S.A., C=PL",
       "serialNumber": "42D77F9AF2FB01322FA9E3C16AE1D8A8",
       "thumbprint": "B3F1E372C0C51897404A297EBC8EE7E6E5C3A052",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-05-28T17:29:53Z"
+      "lastUpdated": "2026-06-19T15:28:12Z"
     },
     {
       "slug": "phoenix-slides/darwin",
