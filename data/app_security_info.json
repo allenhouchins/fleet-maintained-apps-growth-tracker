@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T03:23:40Z",
+  "lastUpdated": "2026-06-23T03:32:17Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -5831,9 +5831,12 @@
     {
       "slug": "nextcloud/darwin",
       "name": "Nextcloud",
-      "version": "33.0.5",
-      "sha256": "d849a5abb7c808fa55b57e71ca40217b35869b07f4038d18dd9f2763e0bcb4eb",
-      "lastUpdated": "2026-05-20T01:57:01Z"
+      "version": "33.0.6",
+      "sha256": "e7cb261069e239511babbcd65d6835017abe0f69aa6cee0425f92cbae4b64f89",
+      "cdhash": "7a57e9226600a2cf68f6d70e4c93e6738bb0f89d",
+      "signingId": "NKUJUXUJ3B:com.nextcloud.desktopclient",
+      "teamId": "NKUJUXUJ3B",
+      "lastUpdated": "2026-06-23T03:24:32Z"
     },
     {
       "slug": "nextcloud/windows",
@@ -6157,9 +6160,12 @@
     {
       "slug": "okta-verify/darwin",
       "name": "Okta Verify",
-      "version": "9.63.0",
-      "sha256": "0de0caac3aabeba4d74f5bb483ba9b8a037fd1782b49dd1c3015052c9334beef",
-      "lastUpdated": "2026-05-15T03:20:13Z"
+      "version": "9.65.2",
+      "sha256": "71d00de6a064ff670eb948fa03dcf29dcc84d46b8e6beeb107b4b38214f00ba8",
+      "cdhash": "c0b57a2c27fa0120b517c5afb5ce38b5a03b6382",
+      "signingId": "B7F62B65BN:com.okta.mobile",
+      "teamId": "B7F62B65BN",
+      "lastUpdated": "2026-06-23T03:25:06Z"
     },
     {
       "slug": "okta-verify/windows",
@@ -6695,9 +6701,12 @@
     {
       "slug": "podman-desktop/darwin",
       "name": "Podman Desktop",
-      "version": "1.27.2",
-      "sha256": "582de5c7832d4fcf03873948949fde3c1c14a1c414252ba5b03ec3b3c1d823fe",
-      "lastUpdated": "2026-05-22T03:21:27Z"
+      "version": "1.28.2",
+      "sha256": "3b5b1fe0ee25adbb2c1b18ba327775ba928d374efaca56ebd8312f6848acf06c",
+      "cdhash": "f1db360888f8400aebfa71da510abbf1f36dfdca",
+      "signingId": "HYSCB8KRL2:io.podmandesktop.PodmanDesktop",
+      "teamId": "HYSCB8KRL2",
+      "lastUpdated": "2026-06-23T03:25:33Z"
     },
     {
       "slug": "popchar/darwin",
@@ -6723,9 +6732,12 @@
     {
       "slug": "portfolioperformance/darwin",
       "name": "Portfolio Performance",
-      "version": "0.84.0",
-      "sha256": "1d09e158183d50c8a047dd2979f18964632183f2faa52647dec4a47f522e7f4c",
-      "lastUpdated": "2026-06-11T16:37:26Z"
+      "version": "0.84.2",
+      "sha256": "a2f35ed96c93b04362adf4ee484997ee0cb10330c640ddbf36e3030075dc6653",
+      "cdhash": "964aed3f90f4af34cd2416a8f66fe8f6c467cfc8",
+      "signingId": "P3N6NZSUQK:name.abuchen.portfolio.distro.product",
+      "teamId": "P3N6NZSUQK",
+      "lastUpdated": "2026-06-23T03:25:58Z"
     },
     {
       "slug": "portfolioperformance/windows",
@@ -7529,9 +7541,12 @@
     {
       "slug": "rive/darwin",
       "name": "Rive",
-      "version": "0.8.5086",
-      "sha256": "8b791216491a4be5d9c05b1d937ed1de6716cd17cf88929c2203a8cd0b7fdcd9",
-      "lastUpdated": "2026-06-21T05:54:37Z"
+      "version": "0.8.5094",
+      "sha256": "fad20cb4d08deb4a1269a9e805da9114fc5fd1a5fd0d52994f663b0c0797afe8",
+      "cdhash": "e5827c2d0a76e0cc7c2e0f65ff775fde69d8a7ac",
+      "signingId": "NJ3JMFUNS9:app.rive.editor",
+      "teamId": "NJ3JMFUNS9",
+      "lastUpdated": "2026-06-23T03:26:20Z"
     },
     {
       "slug": "rize/darwin",
@@ -8478,9 +8493,12 @@
     {
       "slug": "superhuman/darwin",
       "name": "Superhuman",
-      "version": "1041.0.13",
-      "sha256": "61c3e2c8cc55ea5d4313c7507b94856c63078e04e561e6e1f5862fcac6610250",
-      "lastUpdated": "2026-06-19T17:45:15Z"
+      "version": "1041.0.14",
+      "sha256": "ec1b211790912f63b24e093d490b6fd48da6e456c719cdd1e8b385d70bd71eac",
+      "cdhash": "95a1c1e488655bbb80782a9ca653648154293beb",
+      "signingId": "6XHFYUTQGX:com.superhuman.electron",
+      "teamId": "6XHFYUTQGX",
+      "lastUpdated": "2026-06-23T03:26:44Z"
     },
     {
       "slug": "superkey/darwin",
@@ -8555,9 +8573,12 @@
     {
       "slug": "sync/darwin",
       "name": "Sync",
-      "version": "2.2.58",
-      "sha256": "e4caafca6e83717995378088319fb2aa3afd1cf5675e90f392069a8ba91dcd0d",
-      "lastUpdated": "2026-06-10T16:11:19Z"
+      "version": "2.2.60",
+      "sha256": "13d77e4e6067fa007ef27c8ead89b1e3304a7032ca79dac03c6554335679cee6",
+      "cdhash": "ab8e09cc6af6f8e038c0cfe2441e64d15db91c77",
+      "signingId": "7QR39CMJ3W:com.sync.desktop",
+      "teamId": "7QR39CMJ3W",
+      "lastUpdated": "2026-06-23T03:27:07Z"
     },
     {
       "slug": "syncmate/darwin",
@@ -8727,9 +8748,12 @@
     {
       "slug": "teleport-connect/darwin",
       "name": "Teleport Connect",
-      "version": "18.9.0",
-      "sha256": "c7a090ed765eed3d4dd5040015bc3a9d9cbbf4f73f4b5cb44a4d8493e7285381",
-      "lastUpdated": "2026-06-18T13:33:30Z"
+      "version": "18.9.1",
+      "sha256": "1b28d1b2c782d984bf8c6e487fd6a462d3f2d776798fef134f06d59f113f6ac7",
+      "cdhash": "0be102d01fbab3ea23a82ce9ed1f8ba0c14ce983",
+      "signingId": "QH8AA5B8UP:gravitational.teleport.connect",
+      "teamId": "QH8AA5B8UP",
+      "lastUpdated": "2026-06-23T03:27:37Z"
     },
     {
       "slug": "teleport-connect/windows",
@@ -8745,22 +8769,28 @@
     {
       "slug": "teleport-suite/darwin",
       "name": "Teleport Suite",
-      "version": "18.9.0",
-      "lastUpdated": "2026-06-18T13:35:22Z",
+      "version": "18.9.1",
+      "lastUpdated": "2026-06-23T03:31:19Z",
       "apps": [
         {
           "slug": "teleport-suite/darwin/tsh",
           "name": "tsh",
-          "version": "18.9.0",
-          "sha256": "ab9c272486a160197f822c0da530d3ea9907ff119f0140dcfb37655799e40cac",
-          "lastUpdated": "2026-06-18T13:35:41Z"
+          "version": "18.9.1",
+          "sha256": "81dd4261b4ef1891205e704f87b8e4f257a092b00e8143187f80d3ccf093b4e2",
+          "cdhash": "0caa40fe297fbc7ac3e3a3933d7eafa240e160aa",
+          "signingId": "QH8AA5B8UP:QH8AA5B8UP.com.gravitational.teleport.tsh",
+          "teamId": "QH8AA5B8UP",
+          "lastUpdated": "2026-06-23T03:31:39Z"
         },
         {
           "slug": "teleport-suite/darwin/tctl",
           "name": "tctl",
-          "version": "18.9.0",
-          "sha256": "cf08a45c9a40334bd5498d972e4bc70dd094d07b030668cc161340f3856a83fe",
-          "lastUpdated": "2026-06-18T13:35:57Z"
+          "version": "18.9.1",
+          "sha256": "d1108662df3758c0be3a559a57b3343726b25663177a2229079cb02b2b61efc6",
+          "cdhash": "f4a4baf6937466ac2d2bd56428ccc04bb863f13a",
+          "signingId": "QH8AA5B8UP:QH8AA5B8UP.com.gravitational.teleport.tctl",
+          "teamId": "QH8AA5B8UP",
+          "lastUpdated": "2026-06-23T03:31:55Z"
         }
       ]
     },
@@ -9097,9 +9127,12 @@
     {
       "slug": "tuple/darwin",
       "name": "Tuple",
-      "version": "3.0.7",
-      "sha256": "8ddb4f51b5b3aef3f4cee17e443096356965960888d4d34731e597ea3d81a687",
-      "lastUpdated": "2026-06-19T03:24:24Z"
+      "version": "3.0.8",
+      "sha256": "d6d58ca4c8db861fe140cc6aa191818ef5cfa8633d0afedd7a90fa684bc6271d",
+      "cdhash": "fe4c1c21d5373b74416cc8d1c80cb51e03ca0aa3",
+      "signingId": "DQYU7DR9Q7:app.tuple.app",
+      "teamId": "DQYU7DR9Q7",
+      "lastUpdated": "2026-06-23T03:32:15Z"
     },
     {
       "slug": "twine-app/darwin",
