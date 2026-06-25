@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: June 24, 2026 at 6:46 PM CDT</p>
+            Last updated: June 24, 2026 at 7:59 PM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: June 24, 2026 at 6:46 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: June 24, 2026 at 7:59 PM CDT</p>
             </div>
         </div>
     </div>
@@ -1136,7 +1136,8 @@
             "2026-06-21",
             "2026-06-22",
             "2026-06-23",
-            "2026-06-24"
+            "2026-06-24",
+            "2026-06-25"
           ],
           "counts": [
             20,
@@ -1611,6 +1612,7 @@
             1254,
             1255,
             1257,
+            1262,
             1262,
             1262,
             1262,
@@ -2096,6 +2098,7 @@
             0,
             0,
             0,
+            0,
             0
           ],
           "macCounts": [
@@ -2570,6 +2573,7 @@
             957,
             958,
             959,
+            960,
             960,
             960,
             960,
@@ -3051,6 +3055,7 @@
             296,
             296,
             297,
+            302,
             302,
             302,
             302,
@@ -3939,8 +3944,8 @@
                 "slug": "airtame/windows",
                 "platform": "windows",
                 "description": "Airtame is an app that makes shared screens easy to use - for screen sharing, conferencing, digital signage, and alerts.",
-                "version": "4.15.0",
-                "installerUrl": "https://downloads.airtame.com/app/latest/win/Airtame-4.15.0-setup.exe",
+                "version": "",
+                "installerUrl": "",
                 "securityInfo": {
                   "sha256": "1c627548a1cea11e1998c6814b5d731ee6a955db3253d244cc0ccfb95d52edd7",
                   "publisher": "CN=AIRTAME ApS, O=AIRTAME ApS, L=København K, C=DK, SERIALNUMBER=35478973, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=DK",
@@ -10160,8 +10165,8 @@
                 "slug": "insomnia/windows",
                 "platform": "windows",
                 "description": "Insomnia is an open-source, cross-platform API client primarily used for designing, testing, and debugging REST APIs",
-                "version": "13.0.1",
-                "installerUrl": "https://github.com/Kong/insomnia/releases/download/core@13.0.1/Insomnia.Core-13.0.1.exe",
+                "version": "13.0.2",
+                "installerUrl": "https://github.com/Kong/insomnia/releases/download/core@13.0.2/Insomnia.Core-13.0.2.exe",
                 "securityInfo": {
                   "sha256": "78c8fbd4cbe6d7d1d4f43bfe23bfa477ce01291c83d9316d6b55c62200368a48",
                   "publisher": "CN=Kong Inc., O=Kong Inc., L=San Francisco, S=California, C=US, SERIALNUMBER=4711251, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
@@ -16175,8 +16180,8 @@
                 "slug": "signal/windows",
                 "platform": "windows",
                 "description": "Signal is an instant messaging application focusing on security.",
-                "version": "8.15.0",
-                "installerUrl": "https://updates.signal.org/desktop/signal-desktop-win-8.15.0.exe",
+                "version": "8.16.0",
+                "installerUrl": "https://updates.signal.org/desktop/signal-desktop-win-8.16.0.exe",
                 "securityInfo": {
                   "sha256": "098665dc1416bbdea722ac8b78827f4c8121c0d84c2d04a5d9e0e403a2ddc71a",
                   "publisher": "CN=\"Signal Messenger, LLC\", O=\"Signal Messenger, LLC\", L=Mountain View, S=California, C=US, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=6703101, OID.2.5.4.15=Private Organization",
@@ -20431,7 +20436,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `June 24, 2026 at 6:46 PM CDT`;
+                let timestampText = 'Last updated: ' + `June 24, 2026 at 7:59 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
