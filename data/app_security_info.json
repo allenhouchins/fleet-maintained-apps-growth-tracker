@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T15:56:52Z",
+  "lastUpdated": "2026-06-26T16:03:19Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1442,9 +1442,12 @@
     {
       "slug": "calibre/darwin",
       "name": "calibre",
-      "version": "9.9.0",
-      "sha256": "fa6f97822f72ada653c83f5392ebe476cef7a1172b9b3d1787190a9183168352",
-      "lastUpdated": "2026-05-28T17:38:14Z"
+      "version": "9.10.0",
+      "sha256": "6cea6a360728806e603172b75e9bd347200737a68b928c4f77e73fb902c9eebd",
+      "cdhash": "7c81e358e4d9efffb9063ba5a0df42b014852929",
+      "signingId": "NTY7FVCEKP:net.kovidgoyal.calibre",
+      "teamId": "NTY7FVCEKP",
+      "lastUpdated": "2026-06-26T15:57:54Z"
     },
     {
       "slug": "calibre/windows",
@@ -1934,9 +1937,12 @@
     {
       "slug": "codex-app/darwin",
       "name": "Codex",
-      "version": "26.623.30605",
-      "sha256": "c5998a7aa7840a53f98d2fae4e0c6222ecf51b9b992509c385de876dd0b06a1b",
-      "lastUpdated": "2026-06-25T22:41:01Z"
+      "version": "26.623.31921",
+      "sha256": "49a2ca7eeff73a627f6f5b8762e3fb3178086c9b69c15c886b15299ac0c15cde",
+      "cdhash": "d5bc5a93e9e008f780a90282906a8f4d1b4d12f8",
+      "signingId": "2DC432GLL2:com.openai.codex",
+      "teamId": "2DC432GLL2",
+      "lastUpdated": "2026-06-26T15:58:33Z"
     },
     {
       "slug": "codexbar/darwin",
@@ -2119,9 +2125,12 @@
     {
       "slug": "cursor/darwin",
       "name": "Cursor",
-      "version": "3.8.24",
-      "sha256": "22020b702a1c3a2e7cba11edb9823df198347b39c659c3eb956f433582093fd4",
-      "lastUpdated": "2026-06-25T22:42:06Z"
+      "version": "3.9.8",
+      "sha256": "ee2d895546985758f1b7d1e98396adc67e732b28c8ffde2e75c811badff19b6e",
+      "cdhash": "8c6f394bfdce57a859c536bb2b92fc2fb6abb2a8",
+      "signingId": "VDXQ22DGB9:com.todesktop.230313mzl4w4u92",
+      "teamId": "VDXQ22DGB9",
+      "lastUpdated": "2026-06-26T15:59:18Z"
     },
     {
       "slug": "cursor/windows",
@@ -2651,9 +2660,12 @@
     {
       "slug": "dockside/darwin",
       "name": "Dockside",
-      "version": "2.9.15",
-      "sha256": "623cd77009acaf6c5e6f1bd64d878af609b83f3b4a44dac8f0f27f46690597e5",
-      "lastUpdated": "2026-06-24T03:19:05Z"
+      "version": "2.9.16",
+      "sha256": "b42ece73d36b59bd62ef8509ab2141e0dc6260ac644682cdf8161f452f415e29",
+      "cdhash": "cd0f8fe88beb3e70ab661961b9b02a7bc884fa90",
+      "signingId": "8T2DC9NRXS:com.hachipoo.Dockside",
+      "teamId": "8T2DC9NRXS",
+      "lastUpdated": "2026-06-26T15:59:43Z"
     },
     {
       "slug": "dockview/darwin",
@@ -3743,9 +3755,12 @@
     {
       "slug": "google-chrome/darwin",
       "name": "Google Chrome",
-      "version": "149.0.7827.197",
-      "sha256": "1f648ae31e85ad911cc6afddea2cea9e017234cccecff6777551a9c854e3c182",
-      "lastUpdated": "2026-06-24T11:08:18Z"
+      "version": "149.0.7827.201",
+      "sha256": "a38e971400d9915e7c9cc79a2d03cfa2294e847ac466c6ff931712b801c6a84d",
+      "cdhash": "5dc8d9b4a0f02dc00016f164973962b58fa1529e",
+      "signingId": "EQHXZ8M8AV:com.google.Chrome",
+      "teamId": "EQHXZ8M8AV",
+      "lastUpdated": "2026-06-26T16:00:28Z"
     },
     {
       "slug": "google-chrome/windows",
@@ -4547,9 +4562,12 @@
     {
       "slug": "kiro-cli/darwin",
       "name": "Kiro CLI",
-      "version": "2.9.0",
-      "sha256": "5da4f408f9e0b264b2d31b004282b645112bb2c8e1a83f9be3292a46b77cb44b",
-      "lastUpdated": "2026-06-24T03:20:10Z"
+      "version": "2.10.0",
+      "sha256": "29800a5bbc52e2f66f8b30bb4cf80c21823290cf2f13ec1572900c99a404624b",
+      "cdhash": "cb393ce15a5a9c2e4883f890f949dd9d68ee629c",
+      "signingId": "94KV3E626L:com.amazon.codewhisperer",
+      "teamId": "94KV3E626L",
+      "lastUpdated": "2026-06-26T16:01:06Z"
     },
     {
       "slug": "kiro/darwin",
@@ -5286,9 +5304,12 @@
     {
       "slug": "microsoft-edge/darwin",
       "name": "Microsoft Edge",
-      "version": "149.0.4022.80",
-      "sha256": "6162eff9ff5aa79915bfe683bca753334a60660460234a001168ff0531ce4771",
-      "lastUpdated": "2026-06-19T03:22:12Z"
+      "version": "149.0.4022.96",
+      "sha256": "2a81ba8a70006e9f11648d4122359b71435cded51fe09e7ff05b75771a22fa42",
+      "cdhash": "097dd06dd31ab49558a5c33f71d2a080568a123c",
+      "signingId": "UBF8T346G9:com.microsoft.edgemac",
+      "teamId": "UBF8T346G9",
+      "lastUpdated": "2026-06-26T16:02:16Z"
     },
     {
       "slug": "microsoft-edge/windows",
@@ -6400,9 +6421,12 @@
     {
       "slug": "p4v/darwin",
       "name": "P4V",
-      "version": "2026.1",
-      "sha256": "2aa79b81bfd376973836f9c25a6b2f07482e6d7c821a64f29ff777fb6b51a623",
-      "lastUpdated": "2026-03-26T15:59:29Z"
+      "version": "2026.2",
+      "sha256": "2a319425eaccf098df7a42888f6cdc7fd27e11c1f7a9b77b836d570318de1e5b",
+      "cdhash": "d57316c7ecc49e4303f9c1d3df3ced8590dcf618",
+      "signingId": "PYYFSY54S7:com.perforce.p4v",
+      "teamId": "PYYFSY54S7",
+      "lastUpdated": "2026-06-26T16:02:48Z"
     },
     {
       "slug": "p4v/windows",
@@ -6777,9 +6801,12 @@
     {
       "slug": "postman/darwin",
       "name": "Postman",
-      "version": "12.16.3",
-      "sha256": "50e8a47494d30b2a48ccf7c839c4beb82206344892af72963397afeb01ae783a",
-      "lastUpdated": "2026-06-25T22:48:07Z"
+      "version": "12.16.4",
+      "sha256": "59249f69b0ebe1f2f45b59e11c4f9cc9d98d1391f28da387a57e6e2ced6a5b60",
+      "cdhash": "a8401f7ace659fb7132e8ac497740808ccb1fe23",
+      "signingId": "H7H8Q7M5CK:com.postmanlabs.mac",
+      "teamId": "H7H8Q7M5CK",
+      "lastUpdated": "2026-06-26T16:03:17Z"
     },
     {
       "slug": "postman/windows",
