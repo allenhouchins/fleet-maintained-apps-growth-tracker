@@ -2,96 +2,6 @@
   "changes": [
     {
       "date": "2026-06-11T22:42:25Z",
-      "appName": "digiKam",
-      "slug": "digikam/darwin",
-      "platform": "darwin",
-      "oldVersion": "9.0.0",
-      "newVersion": "9.1.0",
-      "installerUrl": "https://download.kde.org/stable/digikam/9.1.0/digiKam-9.1.0-Qt6-MacOS-arm64.pkg"
-    },
-    {
-      "date": "2026-06-11T22:42:25Z",
-      "appName": "WhatsApp",
-      "slug": "whatsapp/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.23.17",
-      "newVersion": "26.23.19",
-      "installerUrl": "https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release\u0026src=whatsapp_downloads_page"
-    },
-    {
-      "date": "2026-06-11T22:42:25Z",
-      "appName": "Google Antigravity",
-      "slug": "antigravity/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.0.11",
-      "newVersion": "2.1.4",
-      "installerUrl": "https://storage.googleapis.com/antigravity-public/antigravity-hub/2.1.4-6481382726303744/darwin-arm/Antigravity.dmg"
-    },
-    {
-      "date": "2026-06-11T22:42:25Z",
-      "appName": "Proton Mail Bridge",
-      "slug": "proton-mail-bridge/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.24.2",
-      "newVersion": "3.25.0",
-      "installerUrl": "https://github.com/ProtonMail/proton-bridge/releases/download/v3.25.0/Bridge-Installer.dmg"
-    },
-    {
-      "date": "2026-06-11T22:42:25Z",
-      "appName": "Camtasia",
-      "slug": "camtasia/windows",
-      "platform": "windows",
-      "oldVersion": "26.1.2.16723",
-      "newVersion": "26.1.3.17772",
-      "installerUrl": "https://download.techsmith.com/camtasiastudio/releases/2613/camtasia.msi"
-    },
-    {
-      "date": "2026-06-11T22:42:25Z",
-      "appName": "DuckDuckGo",
-      "slug": "duckduckgo/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.193.0",
-      "newVersion": "1.193.1",
-      "installerUrl": "https://staticcdn.duckduckgo.com/macos-desktop-browser/duckduckgo-1.193.1.736.dmg"
-    },
-    {
-      "date": "2026-06-11T22:42:25Z",
-      "appName": "Zen Browser",
-      "slug": "zen-browser/windows",
-      "platform": "windows",
-      "oldVersion": "1.20b",
-      "newVersion": "1.21b",
-      "installerUrl": "https://github.com/zen-browser/desktop/releases/download/1.21b/zen.installer.exe"
-    },
-    {
-      "date": "2026-06-11T22:42:25Z",
-      "appName": "Pale Moon",
-      "slug": "pale-moon/darwin",
-      "platform": "darwin",
-      "oldVersion": "34.3.0",
-      "newVersion": "34.3.0.1",
-      "installerUrl": "https://rm-us.palemoon.org/release/palemoon-34.3.0.1.arm64.dmg"
-    },
-    {
-      "date": "2026-06-11T22:42:25Z",
-      "appName": "Arc",
-      "slug": "arc/windows",
-      "platform": "windows",
-      "oldVersion": "1.109.1.2",
-      "newVersion": "1.110.0.173",
-      "installerUrl": "https://releases.arc.net/windows/prod/1.110.0.173/Arc.x64.msix"
-    },
-    {
-      "date": "2026-06-11T22:42:25Z",
-      "appName": "Warp",
-      "slug": "warp/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.2026.06.03.09.49.03",
-      "newVersion": "0.2026.06.03.09.49.04",
-      "installerUrl": "https://releases.warp.dev/stable/v0.2026.06.03.09.49.stable_04/Warp.dmg"
-    },
-    {
-      "date": "2026-06-11T22:42:25Z",
       "appName": "Claude",
       "slug": "claude/darwin",
       "platform": "darwin",
@@ -8999,6 +8909,96 @@
       "oldVersion": "126.6.9",
       "newVersion": "126.6.11",
       "installerUrl": "https://desktop.figma.com/mac-arm/Figma-126.6.11.zip"
+    },
+    {
+      "date": "2026-06-27T12:35:38Z",
+      "appName": "Teleport Connect",
+      "slug": "teleport-connect/windows",
+      "platform": "windows",
+      "oldVersion": "18.9.1",
+      "newVersion": "18.9.2",
+      "installerUrl": "https://cdn.teleport.dev/Teleport%20Connect%20Setup-18.9.2.exe"
+    },
+    {
+      "date": "2026-06-27T12:35:38Z",
+      "appName": "Ollama",
+      "slug": "ollama/windows",
+      "platform": "windows",
+      "oldVersion": "0.30.9",
+      "newVersion": "0.30.11",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.30.11/OllamaSetup.exe"
+    },
+    {
+      "date": "2026-06-27T12:35:38Z",
+      "appName": "LookAway",
+      "slug": "lookaway/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.2.0",
+      "newVersion": "2.2.1",
+      "installerUrl": "https://github.com/mysticalbits/lookaway-releases/releases/download/2.2.1/LookAway.dmg"
+    },
+    {
+      "date": "2026-06-27T12:35:38Z",
+      "appName": "Zen Browser",
+      "slug": "zen/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.21.3b",
+      "newVersion": "1.21.4b",
+      "installerUrl": "https://github.com/zen-browser/desktop/releases/download/1.21.4b/zen.macos-universal.dmg"
+    },
+    {
+      "date": "2026-06-27T12:35:38Z",
+      "appName": "Shotcut",
+      "slug": "shotcut/windows",
+      "platform": "windows",
+      "oldVersion": "26.4.30",
+      "newVersion": "26.6.25",
+      "installerUrl": "https://github.com/mltframework/shotcut/releases/download/v26.6.25/shotcut-win64-26.6.25.exe"
+    },
+    {
+      "date": "2026-06-27T12:35:38Z",
+      "appName": "Spyder",
+      "slug": "spyder/darwin",
+      "platform": "darwin",
+      "oldVersion": "6.1.4",
+      "newVersion": "6.1.5",
+      "installerUrl": "https://github.com/spyder-ide/spyder/releases/download/v6.1.5/Spyder-macOS-arm64.pkg"
+    },
+    {
+      "date": "2026-06-27T12:35:38Z",
+      "appName": "Shotcut",
+      "slug": "shotcut/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.4.30",
+      "newVersion": "26.6.25",
+      "installerUrl": "https://github.com/mltframework/shotcut/releases/download/v26.6.25/shotcut-macos-26.6.25.dmg"
+    },
+    {
+      "date": "2026-06-27T12:35:38Z",
+      "appName": "Teleport Suite",
+      "slug": "teleport-suite/darwin",
+      "platform": "darwin",
+      "oldVersion": "18.9.1",
+      "newVersion": "18.9.2",
+      "installerUrl": "https://cdn.teleport.dev/teleport-18.9.2.pkg"
+    },
+    {
+      "date": "2026-06-27T12:35:38Z",
+      "appName": "ocenaudio",
+      "slug": "ocenaudio/windows",
+      "platform": "windows",
+      "oldVersion": "3.19.4",
+      "newVersion": "3.19.5",
+      "installerUrl": "https://www.ocenaudio.com/downloads/index.php/ocenaudio_windows64.exe"
+    },
+    {
+      "date": "2026-06-27T12:35:38Z",
+      "appName": "Teleport Connect",
+      "slug": "teleport-connect/darwin",
+      "platform": "darwin",
+      "oldVersion": "18.9.1",
+      "newVersion": "18.9.2",
+      "installerUrl": "https://cdn.teleport.dev/Teleport%20Connect-18.9.2.dmg"
     }
   ]
 }
