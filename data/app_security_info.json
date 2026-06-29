@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T18:52:59Z",
+  "lastUpdated": "2026-06-29T18:53:37Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -5469,14 +5469,14 @@
     {
       "slug": "miro/windows",
       "name": "Miro",
-      "version": "0.11.144",
-      "sha256": "24da9d6b31fd5429a773f1e30d7fb2b16ba789330201289f45920babf8fb0704",
-      "publisher": "CN=\"Realtimeboard, Inc.\", O=\"Realtimeboard, Inc.\", L=San Francisco, S=California, C=US, SERIALNUMBER=6438916, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
-      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
-      "serialNumber": "09CA0E2C12D5255775548951D4CE0D17",
-      "thumbprint": "BF66C77661A608ADE292BD869DDA274CD74C23A9",
-      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-06-02T17:40:59Z"
+      "version": "0.11.154",
+      "sha256": "0191332d9a1ed8e470552adbc752d71c7da0d21172223369ac18cb37ff9c89a1",
+      "publisher": "CN=\"RealtimeBoard, Inc. dba Miro\", O=\"RealtimeBoard, Inc. dba Miro\", L=San Francisco, S=California, C=US",
+      "issuer": "CN=Microsoft ID Verified CS AOC CA 04, O=Microsoft Corporation, C=US",
+      "serialNumber": "3300028AFF881340D0E8AF43E4000000028AFF",
+      "thumbprint": "646B762526860F9F82049B28536DEEB5B9683084",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7A1A-05E0-D947, OU=Microsoft Ireland Operations Limited, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-06-29T18:53:05Z"
     },
     {
       "slug": "missive/darwin",
@@ -5808,14 +5808,14 @@
     {
       "slug": "nextcloud/windows",
       "name": "Nextcloud",
-      "version": "33.0.6",
-      "sha256": "3c29277795ccfe7810bf223b90df599ea5f7b50d0e304e5fb6316e11113d8898",
+      "version": "33.0.7",
+      "sha256": "e769eb953e4ad3f8e6f40298d8c398b72307a44c93830210e84a24b517324444",
       "publisher": "CN=Nextcloud GmbH, O=Nextcloud GmbH, S=Baden-Württemberg, C=DE",
       "issuer": "CN=Sectigo Public Code Signing CA R36, O=Sectigo Limited, C=GB",
       "serialNumber": "00BF5A991AFB9ACA79C3329007B9AA620A",
       "thumbprint": "9C81A764910FFF3D0B8BC1613EFD72CCF4828EC3",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-06-22T19:38:24Z"
+      "lastUpdated": "2026-06-29T18:53:20Z"
     },
     {
       "slug": "nightfall/darwin",
@@ -6968,14 +6968,14 @@
     {
       "slug": "proton-drive/windows",
       "name": "Proton Drive",
-      "version": "3.0.1",
-      "sha256": "2277df8023f69d3454d605e6980367145885544d3d94f7b1d4370c6a466b9b13",
+      "version": "3.0.2",
+      "sha256": "5d12341e356eb32ff0675eb73caed3e128aeb16fb780aeb53c677fc9d6bcae14",
       "publisher": "CN=Proton AG, O=Proton AG, S=Genève, C=CH, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CH, SERIALNUMBER=CHE-354.686.492",
       "issuer": "CN=Sectigo Public Code Signing CA EV R36, O=Sectigo Limited, C=GB",
       "serialNumber": "00868BC066D2D89F7DFF7582304D022823",
       "thumbprint": "D23BBAD34FBC0121CA646405A97BCCC81C925981",
-      "timestamp": "CN=Sectigo Public Time Stamping Signer R36, O=Sectigo Limited, S=West Yorkshire, C=GB",
-      "lastUpdated": "2026-06-16T15:12:25Z"
+      "timestamp": "CN=Sectigo Public Time Stamping Signer R37, O=Sectigo Limited, S=Greater London, C=GB",
+      "lastUpdated": "2026-06-29T18:53:29Z"
     },
     {
       "slug": "proton-mail-bridge/darwin",
@@ -7407,14 +7407,14 @@
     {
       "slug": "reqable/windows",
       "name": "Reqable",
-      "version": "3.2.0",
-      "sha256": "8c3a7193ac5eb0ecb3ea6686c999f78be61ce72943757fe85d5b0332c6ee183f",
+      "version": "3.2.1",
+      "sha256": "c6ce26f99e70dba18179fee91323942469462a61c52f0d782980c1f2c032f75b",
       "publisher": "CN=\"Shanghai Reqable Information Technology Co., Ltd.\", O=\"Shanghai Reqable Information Technology Co., Ltd.\", S=Shanghai Shi, C=CN, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CN, SERIALNUMBER=91310120MACD284U47",
       "issuer": "CN=Sectigo Public Code Signing CA EV R36, O=Sectigo Limited, C=GB",
       "serialNumber": "00DE6D202F7D5FE6F9F4D9E51EFD2C2979",
       "thumbprint": "910E5D9DBA8B92FD7FD2C67AF1E172E9072AE7CF",
       "timestamp": "CN=Sectigo Public Time Stamping Signer R37, O=Sectigo Limited, S=Greater London, C=GB",
-      "lastUpdated": "2026-06-29T15:22:13Z"
+      "lastUpdated": "2026-06-29T18:53:32Z"
     },
     {
       "slug": "requestly/darwin",
