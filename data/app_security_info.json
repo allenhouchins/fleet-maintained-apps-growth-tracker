@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T19:48:28Z",
+  "lastUpdated": "2026-06-30T19:53:15Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -5118,16 +5118,22 @@
     {
       "slug": "marked-app/darwin",
       "name": "Marked",
-      "version": "3.1.4",
-      "sha256": "d0111f64df6e8cc90bf3f24beec52c762c3cf568b9923f254662e9a1aeb3038a",
-      "lastUpdated": "2026-06-28T18:33:10Z"
+      "version": "3.1.5",
+      "sha256": "c10b223bf6e099049658cdfc8422dc7a3d9791f063424b82e9b9b698d723bfda",
+      "cdhash": "16d7a2d254f26027fc49146bc7caaf26c0dd41ca",
+      "signingId": "47TRS7H4BH:com.brettterpstra.marked",
+      "teamId": "47TRS7H4BH",
+      "lastUpdated": "2026-06-30T19:48:51Z"
     },
     {
       "slug": "markedit/darwin",
       "name": "MarkEdit",
-      "version": "1.33.0",
-      "sha256": "81a4f06da38d04d2cf1b0d7690b8b3ebc6f255bc4fae6f05c99ab4bb109bf8da",
-      "lastUpdated": "2026-06-11T23:27:45Z"
+      "version": "1.33.1",
+      "sha256": "4e8a90d6f9819056b5caf35e37f973b6d7fbaf2374e633cf84858ee1e9eea1a5",
+      "cdhash": "da826c99be4c042dd3b742bd049bbe0ff9c346da",
+      "signingId": "TCKG8FBVG6:app.cyan.markedit",
+      "teamId": "TCKG8FBVG6",
+      "lastUpdated": "2026-06-30T19:49:13Z"
     },
     {
       "slug": "marsedit/darwin",
@@ -5282,9 +5288,12 @@
     {
       "slug": "microsoft-azure-storage-explorer/darwin",
       "name": "Microsoft Azure Storage Explorer",
-      "version": "1.43.0",
-      "sha256": "3001db47d2ba7e9be785917bb1e2a99c94ce7cfa4d78aeaaf4c98140ca931046",
-      "lastUpdated": "2026-06-11T23:37:52Z"
+      "version": "1.44.0",
+      "sha256": "e44cdcef76105fea47dbe896266d8b91ebeec1b6a93a00573efbe03c821f7f10",
+      "cdhash": "65a20d9aa9c64ed68b0211c03f37b1690ecdbb14",
+      "signingId": "UBF8T346G9:com.microsoft.StorageExplorer",
+      "teamId": "UBF8T346G9",
+      "lastUpdated": "2026-06-30T19:49:44Z"
     },
     {
       "slug": "microsoft-dotnet-runtime-10/windows",
@@ -5431,9 +5440,12 @@
     {
       "slug": "milanote/darwin",
       "name": "Milanote",
-      "version": "3.18.111",
-      "sha256": "2044d158aeb430613b49ee94b8f54cbee9a4b7ac833b8b6bc5f8ee2f7ff35722",
-      "lastUpdated": "2026-06-24T13:11:18Z"
+      "version": "3.18.113",
+      "sha256": "6c385ac755813ba3f8c6eae4157f364a5cd9874832893b226215737f04813d79",
+      "cdhash": "d6c557837d1d1b0f5678a4832c8f7ffa31c0101d",
+      "signingId": "9T9DP69Z4A:com.milanote.app",
+      "teamId": "9T9DP69Z4A",
+      "lastUpdated": "2026-06-30T19:50:21Z"
     },
     {
       "slug": "mimecast/darwin",
@@ -5445,9 +5457,12 @@
     {
       "slug": "mimestream/darwin",
       "name": "Mimestream",
-      "version": "1.10.2",
-      "sha256": "dfbab5c3ec585c84aef589ef5ca61047b0a4be602ac8d7dccbc728769bc1e944",
-      "lastUpdated": "2026-06-12T05:49:56Z"
+      "version": "1.10.3",
+      "sha256": "0ed352d515ff025ecd7f83bd1b8726d9e3b2c7afdc19ded1eef1ae9de5465442",
+      "cdhash": "f2e35cda2610dc6918408c910edfffba0e30bb9f",
+      "signingId": "P2759L65T8:com.mimestream.Mimestream",
+      "teamId": "P2759L65T8",
+      "lastUpdated": "2026-06-30T19:50:43Z"
     },
     {
       "slug": "mindmac/darwin",
@@ -5492,9 +5507,12 @@
     {
       "slug": "miro/darwin",
       "name": "Miro",
-      "version": "0.11.144",
-      "sha256": "e64e2e1b6b1cb9dcb111784795ad75187eb591a3018657386e46d29ed7432e4c",
-      "lastUpdated": "2026-06-03T03:33:32Z"
+      "version": "0.11.154",
+      "sha256": "9c8176f49ae8ccfc1c649e3620d52275a0be66df3146125abc8e1f11612a75fd",
+      "cdhash": "e05432cec6ede8f4872107f485564a60ab09ab9d",
+      "signingId": "M3GM7MFY7U:com.electron.realtimeboard",
+      "teamId": "M3GM7MFY7U",
+      "lastUpdated": "2026-06-30T19:51:09Z"
     },
     {
       "slug": "miro/windows",
@@ -5591,9 +5609,12 @@
     {
       "slug": "moom/darwin",
       "name": "Moom",
-      "version": "4.5.0",
-      "sha256": "c1255c99ef879cf190c47ce0e0264775703faf7df254a4a07c85ee6999ca3ab1",
-      "lastUpdated": "2026-06-11T23:44:11Z"
+      "version": "4.5.1",
+      "sha256": "7e6a80013165226087be905d06fab90d8b1b7550d519a852d66a83693f565f7c",
+      "cdhash": "bf6201ed389b16df9c35d6cf0aee809cec06f6c3",
+      "signingId": "METK467GW2:com.manytricks.Moom",
+      "teamId": "METK467GW2",
+      "lastUpdated": "2026-06-30T19:51:31Z"
     },
     {
       "slug": "moonlight/darwin",
@@ -5831,9 +5852,12 @@
     {
       "slug": "nextcloud/darwin",
       "name": "Nextcloud",
-      "version": "33.0.6",
-      "sha256": "e7cb261069e239511babbcd65d6835017abe0f69aa6cee0425f92cbae4b64f89",
-      "lastUpdated": "2026-06-23T03:24:32Z"
+      "version": "33.0.7",
+      "sha256": "d4edc0c409ec7d5d362b67cef2e9b35afec9f7df8ec555a6933f7a245cca59d1",
+      "cdhash": "4d277973a26619e9e6321eb35c5359569e6e3052",
+      "signingId": "NKUJUXUJ3B:com.nextcloud.desktopclient",
+      "teamId": "NKUJUXUJ3B",
+      "lastUpdated": "2026-06-30T19:52:23Z"
     },
     {
       "slug": "nextcloud/windows",
@@ -5966,16 +5990,22 @@
     {
       "slug": "notepadexe/darwin",
       "name": "Notepad.exe",
-      "version": "1.4.1901",
-      "sha256": "99e2098f26e98a28b2d79022412fa8b293f0980191e9518a538cbab9c5378dc9",
-      "lastUpdated": "2026-06-29T19:46:28Z"
+      "version": "1.4.1903",
+      "sha256": "58675dacefd884ab205d79fb946d6da9374209c76864b0c2218e1f16eff2e398",
+      "cdhash": "113c66e2c7deeededdd8b76511201ed91464ba25",
+      "signingId": "67RAULRX93:best.swift.Notepad",
+      "teamId": "67RAULRX93",
+      "lastUpdated": "2026-06-30T19:52:49Z"
     },
     {
       "slug": "notesnook/darwin",
       "name": "Notesnook",
-      "version": "3.3.23",
-      "sha256": "48acd044c4ec4d0cb319ec05ca62d783873ea55d3d1372692cfae899c7979fc6",
-      "lastUpdated": "2026-06-14T12:52:51Z"
+      "version": "3.4.0",
+      "sha256": "b6a3dd395aa0783c3ba4bc41ac3e1f4505bacd2090bfc4cc248774465c5f7e01",
+      "cdhash": "154dbd46a29f864b7bf75555f824d3215657371d",
+      "signingId": "53CWBG3QUC:org.streetwriters.notesnook",
+      "teamId": "53CWBG3QUC",
+      "lastUpdated": "2026-06-30T19:53:13Z"
     },
     {
       "slug": "notesnook/windows",
