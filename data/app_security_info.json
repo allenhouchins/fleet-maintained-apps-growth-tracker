@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T19:41:09Z",
+  "lastUpdated": "2026-06-30T19:48:28Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1722,9 +1722,12 @@
     {
       "slug": "claude/darwin",
       "name": "Claude",
-      "version": "1.15962.1",
-      "sha256": "51d9e75cff11d6e2db0c9152b8833a1a611611fde89ca453d6e12f592f08157d",
-      "lastUpdated": "2026-06-27T09:06:33Z"
+      "version": "1.17282.0",
+      "sha256": "7db2bf0563f03fae12289e3ab836e7dfa9e74a25b9a7c7b310283dff173875a4",
+      "cdhash": "fbf01e02069b14fb0df0f95d22cdde5e7fc6727d",
+      "signingId": "Q6L2SF6YDW:com.anthropic.claudefordesktop",
+      "teamId": "Q6L2SF6YDW",
+      "lastUpdated": "2026-06-30T19:41:35Z"
     },
     {
       "slug": "claude/windows",
@@ -1860,10 +1863,13 @@
     },
     {
       "slug": "cloudflare-warp/darwin",
-      "name": "Cloudflare WARP",
-      "version": "2026.4.1390.0",
-      "sha256": "ebced15e149b7464bd5afcb61fbf164f09a9e36ca032e4947da69a098f76e41a",
-      "lastUpdated": "2026-05-27T15:13:01Z"
+      "name": "Cloudflare One",
+      "version": "2026.6.822.0",
+      "sha256": "99ec951ec64853208bca1c8178639f7d32b81cd0bfe749fa6b34b4907ff12168",
+      "cdhash": "ebb7b8cff56b3e0427df8ffb90ec01a5a846310b",
+      "signingId": "68WVV388M8:com.cloudflare.1dot1dot1dot1.macos",
+      "teamId": "68WVV388M8",
+      "lastUpdated": "2026-06-30T19:43:10Z"
     },
     {
       "slug": "cloudflare-warp/windows",
@@ -1934,9 +1940,12 @@
     {
       "slug": "codex-app/darwin",
       "name": "Codex",
-      "version": "26.623.61825",
-      "sha256": "ea292a5267a0cc000b09a60177d92211bb088a8ffb9c110566fc249faa43b8bc",
-      "lastUpdated": "2026-06-29T19:42:43Z"
+      "version": "26.623.70822",
+      "sha256": "b0a1f663bfc36ac8d5846ede6564acae01fbe23c332e1ccde241cbf0b8d0d31f",
+      "cdhash": "4782098fff702e749718e56f87d11860ed1d8c26",
+      "signingId": "2DC432GLL2:com.openai.codex",
+      "teamId": "2DC432GLL2",
+      "lastUpdated": "2026-06-30T19:44:28Z"
     },
     {
       "slug": "codexbar/darwin",
@@ -2578,9 +2587,12 @@
     {
       "slug": "discord/darwin",
       "name": "Discord",
-      "version": "0.0.396",
-      "sha256": "fd8271fbd2bd40f3be2068b9aef6fc0d8c45a2580d2235ae322044999d945c19",
-      "lastUpdated": "2026-06-23T03:20:57Z"
+      "version": "0.0.397",
+      "sha256": "1107a6d1d2bf6f64ab3b3c51c856df768dc75adeda6a43770f5bbf178a59eec5",
+      "cdhash": "606ccfacbbbccbcea4c9a4d56ba26444f999a5c2",
+      "signingId": "53Q6R32WPB:com.hnc.Discord",
+      "teamId": "53Q6R32WPB",
+      "lastUpdated": "2026-06-30T19:44:54Z"
     },
     {
       "slug": "discord/windows",
@@ -2618,9 +2630,12 @@
     {
       "slug": "docker-desktop/darwin",
       "name": "Docker Desktop",
-      "version": "4.79.0",
-      "sha256": "3b26f75caf564ce103ac5068f870efe444fd796c3b8c4749f378ee4745b32609",
-      "lastUpdated": "2026-06-23T03:21:57Z"
+      "version": "4.80.0",
+      "sha256": "83a330089c190364b19f28d69a897332c502cf125db61858e95bec49523d5974",
+      "cdhash": "892bd6201fce844ef218ed2a284fae3878a1fa36",
+      "signingId": "9BNSXJN65R:com.docker.docker",
+      "teamId": "9BNSXJN65R",
+      "lastUpdated": "2026-06-30T19:46:07Z"
     },
     {
       "slug": "docker/darwin",
@@ -3154,9 +3169,12 @@
     {
       "slug": "fellow/darwin",
       "name": "Fellow",
-      "version": "5.3.3",
-      "sha256": "df129b084d5fe4d7da70f4223cb5dc34702cd45229979068fd45ef239450b0ad",
-      "lastUpdated": "2026-06-11T21:49:29Z"
+      "version": "5.4.4",
+      "sha256": "67a3e31e3ba088600700410e212c130d74cca8306aabe72b364bf1402467d28d",
+      "cdhash": "4bc8c870d3a837f32755781331bb7f239b4eb068",
+      "signingId": "2NF46HY8D8:com.electron.fellow",
+      "teamId": "2NF46HY8D8",
+      "lastUpdated": "2026-06-30T19:46:42Z"
     },
     {
       "slug": "fellow/windows",
@@ -3906,9 +3924,9 @@
     {
       "slug": "gyazo/darwin",
       "name": "Nota Gyazo GIF",
-      "version": "10.10.2",
+      "version": "10.11.0",
       "sha256": "95689b33727f2abfa7ae4b9fdbf1dc6fe7c14ea48378daef4f332e595a8de883",
-      "lastUpdated": "2026-06-24T22:40:51Z"
+      "lastUpdated": "2026-06-30T19:46:54Z"
     },
     {
       "slug": "hammerspoon/darwin",
@@ -4498,9 +4516,12 @@
     {
       "slug": "keka/darwin",
       "name": "Keka",
-      "version": "1.6.5",
-      "sha256": "275e3a6e08bf9784bad6dbd86d089f896cc525097890d0494fd7cf4b52bdaa85",
-      "lastUpdated": "2026-05-30T01:45:33Z"
+      "version": "1.6.6",
+      "sha256": "33c2661932f84982cb282b9b445a600cecb04e7404e0a74c49a7bcf9ef4f3d50",
+      "cdhash": "d2635398eebfd6205fa2d798b187a4e976ccdb7c",
+      "signingId": "4FG648TM2A:com.aone.keka",
+      "teamId": "4FG648TM2A",
+      "lastUpdated": "2026-06-30T19:47:14Z"
     },
     {
       "slug": "keyboard-cowboy/darwin",
@@ -4613,9 +4634,12 @@
     {
       "slug": "krisp/darwin",
       "name": "Krisp",
-      "version": "3.12.5",
-      "sha256": "289e90eb5a1648454f06bcc6c3e5547a1e622280bc9dbbd8edbf343a6c041b8c",
-      "lastUpdated": "2026-06-10T17:37:50Z"
+      "version": "3.13.8",
+      "sha256": "137d2806623edaffe5071ee99afdb50673c7def5746ad0bae9eb52550ece9c15",
+      "cdhash": "ba9b5c1c2ecd238b7547afdf9857468f03af1e00",
+      "signingId": "U5R26XM5Z2:ai.krisp.krispMac",
+      "teamId": "U5R26XM5Z2",
+      "lastUpdated": "2026-06-30T19:47:57Z"
     },
     {
       "slug": "krita/darwin",
@@ -4876,9 +4900,12 @@
     {
       "slug": "loom/darwin",
       "name": "Loom",
-      "version": "0.356.1",
-      "sha256": "37453c0d2246830375704aa74ec6af133b663c33fbae5c98d9fed15ee99413e3",
-      "lastUpdated": "2026-06-24T22:42:23Z"
+      "version": "0.357.1",
+      "sha256": "78adbf52b85fd285d32e09edeb92a442cdfb6cb05b6b37e9c5572fabc52e157f",
+      "cdhash": "8bc14de1a21315043a6e06c78797ff588355c4f1",
+      "signingId": "QGD2ZPXZZG:com.loom.desktop",
+      "teamId": "QGD2ZPXZZG",
+      "lastUpdated": "2026-06-30T19:48:26Z"
     },
     {
       "slug": "loom/windows",
