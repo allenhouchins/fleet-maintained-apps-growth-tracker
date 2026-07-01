@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T05:59:29Z",
+  "lastUpdated": "2026-07-01T06:09:57Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -5362,9 +5362,12 @@
     {
       "slug": "microsoft-excel/darwin",
       "name": "Microsoft Excel",
-      "version": "16.110.1",
-      "sha256": "ecc85b38f4e72b5ebad93965f6c4cc8900ec433262d67acd89f0b1071aea48b5",
-      "lastUpdated": "2026-06-24T13:06:33Z"
+      "version": "16.110.2",
+      "sha256": "6eda76f7bfbec071b25f51fc81906ed6055f507d06180692eda5659f2f75dcf3",
+      "cdhash": "2eef6591eec2afc77ccac5838c66da6be062b94a",
+      "signingId": "UBF8T346G9:com.microsoft.Excel",
+      "teamId": "UBF8T346G9",
+      "lastUpdated": "2026-07-01T06:01:10Z"
     },
     {
       "slug": "microsoft-office/windows",
@@ -5381,9 +5384,12 @@
     {
       "slug": "microsoft-onenote/darwin",
       "name": "Microsoft OneNote",
-      "version": "16.110.1",
-      "sha256": "65bc83eedd07e6f3e10fb983cc1917eafbda8bde970fcaf8c576c74aaed3b68f",
-      "lastUpdated": "2026-06-24T13:07:35Z"
+      "version": "16.110.2",
+      "sha256": "733d3ebb324794afd7da8d1ee2839c31ed2f2c75bdcc92b2de359f04510842e7",
+      "cdhash": "fa93fed80132f02eb0c1b2f3382e4403bdac6a06",
+      "signingId": "UBF8T346G9:com.microsoft.onenote.mac",
+      "teamId": "UBF8T346G9",
+      "lastUpdated": "2026-07-01T06:02:24Z"
     },
     {
       "slug": "microsoft-outlook/darwin",
@@ -5395,9 +5401,12 @@
     {
       "slug": "microsoft-powerpoint/darwin",
       "name": "Microsoft PowerPoint",
-      "version": "16.110.1",
-      "sha256": "e13929bc4b4ec2cd052fb2659298c11c86ac7a218c2ffa8ba391c5baf66ee679",
-      "lastUpdated": "2026-06-24T13:08:56Z"
+      "version": "16.110.2",
+      "sha256": "cfa5a0cd23417d21a1a0d55c2a0c5385401db382d2ecc93ac0e411adf663557f",
+      "cdhash": "d2ce13a536bb13fd31154af741703d2512716c95",
+      "signingId": "UBF8T346G9:com.microsoft.Powerpoint",
+      "teamId": "UBF8T346G9",
+      "lastUpdated": "2026-07-01T06:04:06Z"
     },
     {
       "slug": "microsoft-remote-help/darwin",
@@ -5440,9 +5449,12 @@
     {
       "slug": "microsoft-word/darwin",
       "name": "Microsoft Word",
-      "version": "16.110.1",
-      "sha256": "e63697bc84a3d050b8375b6f1ff558a2d69cd5823604de7c7e2f0e5a18b60f19",
-      "lastUpdated": "2026-06-24T13:10:38Z"
+      "version": "16.110.2",
+      "sha256": "0b11b16adacec3fa62a32c8dd97c0a88145b999fa41e36773275bec074bc73fb",
+      "cdhash": "c33e668cb95d893395c70a8b1b28ac191b4b72d4",
+      "signingId": "UBF8T346G9:com.microsoft.Word",
+      "teamId": "UBF8T346G9",
+      "lastUpdated": "2026-07-01T06:06:03Z"
     },
     {
       "slug": "middle/darwin",
@@ -5833,9 +5845,12 @@
     {
       "slug": "netnewswire/darwin",
       "name": "NetNewsWire",
-      "version": "7.1",
-      "sha256": "633d96fe6f5f6b1c4bb45555479ecff646635a730f48855eae50e278e048093b",
-      "lastUpdated": "2026-06-26T20:51:01Z"
+      "version": "7.1.1",
+      "sha256": "6bedce40fe4f22194fb0c281d041ae1f8c959c284fe31bf871137d582e4a2fe2",
+      "cdhash": "d8b1cb76a3a33cd3bc661068bd62b3f98bd1536c",
+      "signingId": "M8L2WTLA8W:com.ranchero.NetNewsWire-Evergreen",
+      "teamId": "M8L2WTLA8W",
+      "lastUpdated": "2026-07-01T06:06:32Z"
     },
     {
       "slug": "netron/darwin",
@@ -6003,9 +6018,12 @@
     {
       "slug": "notesnook/darwin",
       "name": "Notesnook",
-      "version": "3.4.0",
-      "sha256": "b6a3dd395aa0783c3ba4bc41ac3e1f4505bacd2090bfc4cc248774465c5f7e01",
-      "lastUpdated": "2026-06-30T19:53:13Z"
+      "version": "3.4.1",
+      "sha256": "0aaccda6a79b60be62e131c18d3f3d275570db5e11ac3a7946f82f4263bbbccc",
+      "cdhash": "f4124c5deee9880a1cf8f2bb2f7e901263453389",
+      "signingId": "53CWBG3QUC:org.streetwriters.notesnook",
+      "teamId": "53CWBG3QUC",
+      "lastUpdated": "2026-07-01T06:06:55Z"
     },
     {
       "slug": "notesnook/windows",
@@ -6206,9 +6224,12 @@
     {
       "slug": "ollama/darwin",
       "name": "Ollama",
-      "version": "0.30.11",
-      "sha256": "576455a91c0b38189c5f64a70ee83fe5c7c45e9928d78c17b55c43dafed1299e",
-      "lastUpdated": "2026-06-27T09:11:22Z"
+      "version": "0.31.1",
+      "sha256": "9dc74a064405e3f43f78834981cbddff74de9cb611adab41b5b396384d3319b2",
+      "cdhash": "db027b88f83e406b146c5ccb7836caaa63e4bc0b",
+      "signingId": "3MU9H2V9Y9:com.electron.ollama",
+      "teamId": "3MU9H2V9Y9",
+      "lastUpdated": "2026-07-01T06:07:19Z"
     },
     {
       "slug": "ollama/windows",
@@ -6354,9 +6375,12 @@
     {
       "slug": "opencode-desktop/darwin",
       "name": "OpenCode",
-      "version": "1.17.11",
-      "sha256": "e030c0c4f03103bbcdfc8f6e8f25449cc167aa89d79a751f18a8c91126060824",
-      "lastUpdated": "2026-06-25T22:47:42Z"
+      "version": "1.17.12",
+      "sha256": "644f16edd97d1a1863b6fdb015e5e64b2eae020f3f7bfcf86d37ded16ee48186",
+      "cdhash": "5d18050c08c2ebee5924ce91cfd3dda0a6aafe93",
+      "signingId": "5NZ4Q7NXJ4:ai.opencode.desktop",
+      "teamId": "5NZ4Q7NXJ4",
+      "lastUpdated": "2026-07-01T06:07:42Z"
     },
     {
       "slug": "openinterminal/darwin",
@@ -7239,9 +7263,12 @@
     {
       "slug": "qlmarkdown/darwin",
       "name": "sbarex QLMarkdown",
-      "version": "1.5.1",
-      "sha256": "5070b4f6d7596753de59acf5177f873fba8ffdb544758774305ccf00062811ee",
-      "lastUpdated": "2026-06-10T17:41:29Z"
+      "version": "1.5.2",
+      "sha256": "5827cd56cfa35752a79e4aedbd5065f40aa124ee875d60fdd646653101498ba9",
+      "cdhash": "dc3265e331391b7532c197c016a6fba84ef067ce",
+      "signingId": "D5VMCLD3ZK:org.sbarex.QLMarkdown",
+      "teamId": "D5VMCLD3ZK",
+      "lastUpdated": "2026-07-01T06:08:06Z"
     },
     {
       "slug": "qspace-pro/darwin",
@@ -7460,9 +7487,12 @@
     {
       "slug": "reqable/darwin",
       "name": "Reqable",
-      "version": "3.2.2",
-      "sha256": "7b3f97f529b37c72c8e553411b10b7698891964a6cb237ed7606fb3bd663cecb",
-      "lastUpdated": "2026-06-30T19:56:28Z"
+      "version": "3.2.3",
+      "sha256": "65b8f9104a042e6f7a0a1892dfd06c4c4ca3138aaf57dbf458ac4349101cdf26",
+      "cdhash": "52ff70181e2847a3f6d1dab93fda257f6f29cf82",
+      "signingId": "DXY5A5J7C4:com.reqable.macosx",
+      "teamId": "DXY5A5J7C4",
+      "lastUpdated": "2026-07-01T06:09:55Z"
     },
     {
       "slug": "reqable/windows",
