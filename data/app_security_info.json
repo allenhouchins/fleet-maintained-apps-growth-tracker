@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T05:41:12Z",
+  "lastUpdated": "2026-07-01T05:48:52Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1176,9 +1176,12 @@
     {
       "slug": "bitwarden/darwin",
       "name": "Bitwarden",
-      "version": "2026.6.0",
-      "sha256": "85bf79a67c621aacfbcf5e868fdc420193c9c9fa8e0cee352e7dbadf43cef543",
-      "lastUpdated": "2026-06-25T22:38:33Z"
+      "version": "2026.6.1",
+      "sha256": "80873a1de8ab8163d207f215591a6a5d23e45713f65ecc23bd73e3651466c3e6",
+      "cdhash": "ae42f8730f4f5c5a0a486d17eb1b0d4a7e47e68b",
+      "signingId": "LTZ2PFU5D6:com.bitwarden.desktop",
+      "teamId": "LTZ2PFU5D6",
+      "lastUpdated": "2026-07-01T05:41:40Z"
     },
     {
       "slug": "bitwarden/windows",
@@ -1355,9 +1358,12 @@
     {
       "slug": "bricklink-studio/darwin",
       "name": "BrickLink Studio",
-      "version": "2.26.5_1",
-      "sha256": "3cdf5e7b7baabad2f1f17828725cbfb3216d8ce8e8afefd78c07e593c29e335d",
-      "lastUpdated": "2026-06-10T21:57:57Z"
+      "version": "2.26.6_1",
+      "sha256": "8d5df715a1f3839324e54f8ef541b5559ff4ff7747cd0a8d088a3f688121c482",
+      "cdhash": "bf5f807460004e68a9dbc5e5003b941021ceb8f5",
+      "signingId": "CVZBUKH82L:com.BrickLink.Studio",
+      "teamId": "CVZBUKH82L",
+      "lastUpdated": "2026-07-01T05:44:00Z"
     },
     {
       "slug": "bruno/darwin",
@@ -1555,9 +1561,12 @@
     {
       "slug": "cardhop/darwin",
       "name": "Cardhop",
-      "version": "2.4.7",
-      "sha256": "1e11793edbfd76fbf0039996638ca6da80cf7356aa98c6406a9d2a25eb4d77ea",
-      "lastUpdated": "2026-06-09T21:34:49Z"
+      "version": "2.4.8",
+      "sha256": "82683505b92d4fbb091d72eed3b2e86006a32e2dc2147047fe6d982adcfeebbe",
+      "cdhash": "c46d134d999e90e987a01ff818c3fc4e41396eca",
+      "signingId": "85C27NK92C:com.flexibits.cardhop.mac",
+      "teamId": "85C27NK92C",
+      "lastUpdated": "2026-07-01T05:45:01Z"
     },
     {
       "slug": "cavalry/darwin",
@@ -1722,9 +1731,12 @@
     {
       "slug": "claude/darwin",
       "name": "Claude",
-      "version": "1.17282.0",
-      "sha256": "7db2bf0563f03fae12289e3ab836e7dfa9e74a25b9a7c7b310283dff173875a4",
-      "lastUpdated": "2026-06-30T19:41:35Z"
+      "version": "1.17377.0",
+      "sha256": "532733bec8c2487c09dfdfad63ba34d56f5df0d5e721851950af496175ba7b86",
+      "cdhash": "d9544575848200d864a3e074bc2e84cb3c3c0c1d",
+      "signingId": "Q6L2SF6YDW:com.anthropic.claudefordesktop",
+      "teamId": "Q6L2SF6YDW",
+      "lastUpdated": "2026-07-01T05:45:30Z"
     },
     {
       "slug": "claude/windows",
@@ -2651,9 +2663,12 @@
     {
       "slug": "dockside/darwin",
       "name": "Dockside",
-      "version": "2.9.18",
-      "sha256": "1bb2bda88deed98e966ae6ad4d6f56536a86c66c8b7c82810d162defc8c2ea19",
-      "lastUpdated": "2026-06-29T19:43:34Z"
+      "version": "2.9.19",
+      "sha256": "56601435efefd83409e484f67a26d25aaae25065c864eb92fdb671218cfe59b1",
+      "cdhash": "9254487fc66d0c42696134522f04869b669477e5",
+      "signingId": "8T2DC9NRXS:com.hachipoo.Dockside",
+      "teamId": "8T2DC9NRXS",
+      "lastUpdated": "2026-07-01T05:45:52Z"
     },
     {
       "slug": "dockview/darwin",
@@ -2985,9 +3000,12 @@
     {
       "slug": "elgato-stream-deck/darwin",
       "name": "Elgato Stream Deck",
-      "version": "7.4.2",
-      "sha256": "ceccd0920b2364c7d94b3bd38cca2151f1982d13d994b7f75627549bdda21918",
-      "lastUpdated": "2026-05-19T01:52:38Z"
+      "version": "7.5.0",
+      "sha256": "488a7302c01b85ebd23353d06016205e5ae45ba795d4479f167827d95afd01cd",
+      "cdhash": "d4b6639c17131e6e79ee3a850717b9ab9db24105",
+      "signingId": "Y93VXCB8Q5:com.elgato.StreamDeck",
+      "teamId": "Y93VXCB8Q5",
+      "lastUpdated": "2026-07-01T05:46:39Z"
     },
     {
       "slug": "elgato-stream-deck/windows",
@@ -3194,9 +3212,12 @@
     {
       "slug": "figma/darwin",
       "name": "Figma",
-      "version": "126.6.11",
-      "sha256": "e2fda8551b85fc887b9d984bb3722d827fef030da9c971483ec332d8e04e708f",
-      "lastUpdated": "2026-06-27T09:07:40Z"
+      "version": "126.6.12",
+      "sha256": "6b26f9d9b98b9d241131254b02aebfc3b590068b160d3fb0766ba4824301cd6d",
+      "cdhash": "b9074ffb45d666b84ed44a4f34394edd6245a26e",
+      "signingId": "T8RA8NE3B7:com.figma.Desktop",
+      "teamId": "T8RA8NE3B7",
+      "lastUpdated": "2026-07-01T05:47:04Z"
     },
     {
       "slug": "figma/windows",
@@ -3274,9 +3295,12 @@
     {
       "slug": "firefox/darwin",
       "name": "Mozilla Firefox",
-      "version": "152.0.3",
-      "sha256": "d6b4751b056c9506496cece9ab0f15b4179573395e605d8a3f4a9dccc4c27e89",
-      "lastUpdated": "2026-06-25T22:42:37Z"
+      "version": "152.0.4",
+      "sha256": "45cd8b39694766854970d560647daf58bd4b19d69a0bcdc7eda9477c17b6c288",
+      "cdhash": "bcb7fe4b274f4a594e4fc75af9376e2297a15f9f",
+      "signingId": "43AQ936H96:org.mozilla.firefox",
+      "teamId": "43AQ936H96",
+      "lastUpdated": "2026-07-01T05:47:35Z"
     },
     {
       "slug": "firefox/windows",
@@ -3394,9 +3418,12 @@
     {
       "slug": "forklift/darwin",
       "name": "ForkLift",
-      "version": "4.6.4",
-      "sha256": "28ac2cf23628c9942ea0decb0f0e9d482a40de1904facc34b840b89dab4b49a9",
-      "lastUpdated": "2026-06-17T19:13:29Z"
+      "version": "4.7.1",
+      "sha256": "cbec1023d39e0d6ef706ced6e9db9205b61903b3fb42746c74e1f325698ecda7",
+      "cdhash": "c487b11a98e5b3584b9d00c85958fe184a3d6cf1",
+      "signingId": "J3CP9BBBN6:com.binarynights.ForkLift",
+      "teamId": "J3CP9BBBN6",
+      "lastUpdated": "2026-07-01T05:48:50Z"
     },
     {
       "slug": "framer/darwin",
