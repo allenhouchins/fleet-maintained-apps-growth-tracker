@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T12:58:24Z",
+  "lastUpdated": "2026-07-03T15:19:32Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -69,7 +69,7 @@
       "name": "7-zip",
       "platform": "windows",
       "version": "26.02",
-      "installerUrl": "https://7-zip.org/a/7z2602-x64.msi"
+      "installerUrl": "https://github.com/ip7z/7zip/releases/download/26.02/7z2602-x64.msi"
     },
     {
       "slug": "8x8-work/darwin",
@@ -138,8 +138,8 @@
       "slug": "actual/darwin",
       "name": "Actual",
       "platform": "darwin",
-      "version": "26.6.0",
-      "installerUrl": "https://github.com/actualbudget/actual/releases/download/v26.6.0/Actual-mac-arm64.dmg"
+      "version": "26.7.0",
+      "installerUrl": "https://github.com/actualbudget/actual/releases/download/v26.7.0/Actual-mac-arm64.dmg"
     },
     {
       "slug": "adguard/darwin",
@@ -390,8 +390,8 @@
       "slug": "alt-tab/darwin",
       "name": "AltTab",
       "platform": "darwin",
-      "version": "11.3.1",
-      "installerUrl": "https://github.com/lwouis/alt-tab-macos/releases/download/v11.3.1/AltTab-11.3.1.zip"
+      "version": "11.4.0",
+      "installerUrl": "https://github.com/lwouis/alt-tab-macos/releases/download/v11.4.0/AltTab-11.4.0.zip"
     },
     {
       "slug": "altair-graphql-client/darwin",
@@ -656,8 +656,8 @@
       "slug": "arc/windows",
       "name": "Arc",
       "platform": "windows",
-      "version": "1.112.1.2",
-      "installerUrl": "https://releases.arc.net/windows/prod/1.112.1.2/Arc.x64.msix"
+      "version": "1.113.0.288",
+      "installerUrl": "https://releases.arc.net/windows/prod/1.113.0.288/Arc.x64.msix"
     },
     {
       "slug": "archaeology/darwin",
@@ -761,8 +761,8 @@
       "slug": "aws-cli/windows",
       "name": "AWS Command Line Interface v2",
       "platform": "windows",
-      "version": "2.35.14",
-      "installerUrl": "https://awscli.amazonaws.com/AWSCLIV2-2.35.14.msi"
+      "version": "2.35.15",
+      "installerUrl": "https://awscli.amazonaws.com/AWSCLIV2-2.35.15.msi"
     },
     {
       "slug": "aws-sam-cli/windows",
@@ -908,8 +908,8 @@
       "slug": "beeper/darwin",
       "name": "Beeper",
       "platform": "darwin",
-      "version": "4.2.948",
-      "installerUrl": "https://beeper-desktop.download.beeper.com/builds/Beeper-4.2.948-arm64-mac.zip"
+      "version": "4.2.957",
+      "installerUrl": "https://beeper-desktop.download.beeper.com/builds/Beeper-4.2.957-arm64-mac.zip"
     },
     {
       "slug": "betterdisplay/darwin",
@@ -1146,15 +1146,15 @@
       "slug": "brave-browser/darwin",
       "name": "Brave",
       "platform": "darwin",
-      "version": "149.1.91.180",
-      "installerUrl": "https://updates-cdn.bravesoftware.com/sparkle/Brave-Browser/stable-arm64/191.180/Brave-Browser-arm64.dmg"
+      "version": "150.1.92.134",
+      "installerUrl": "https://updates-cdn.bravesoftware.com/sparkle/Brave-Browser/stable-arm64/192.134/Brave-Browser-arm64.dmg"
     },
     {
       "slug": "brave-browser/windows",
       "name": "Brave",
       "platform": "windows",
-      "version": "149.1.91.180",
-      "installerUrl": "https://github.com/brave/brave-browser/releases/download/v1.91.180/BraveBrowserStandaloneSilentSetup.exe"
+      "version": "150.1.92.134",
+      "installerUrl": "https://github.com/brave/brave-browser/releases/download/v1.92.134/BraveBrowserStandaloneSilentSetup.exe"
     },
     {
       "slug": "breaktimer/darwin",
@@ -1244,15 +1244,15 @@
       "slug": "calibre/darwin",
       "name": "calibre",
       "platform": "darwin",
-      "version": "9.10.0",
-      "installerUrl": "https://download.calibre-ebook.com/9.10.0/calibre-9.10.0.dmg"
+      "version": "9.11.0",
+      "installerUrl": "https://download.calibre-ebook.com/9.11.0/calibre-9.11.0.dmg"
     },
     {
       "slug": "calibre/windows",
       "name": "calibre",
       "platform": "windows",
-      "version": "9.10.0",
-      "installerUrl": "https://download.calibre-ebook.com/9.10.0/calibre-64bit-9.10.0.msi"
+      "version": "9.11.0",
+      "installerUrl": "https://download.calibre-ebook.com/9.11.0/calibre-64bit-9.11.0.msi"
     },
     {
       "slug": "calibrite-profiler/darwin",
@@ -1496,15 +1496,15 @@
       "slug": "claude/darwin",
       "name": "Claude",
       "platform": "darwin",
-      "version": "1.17377.2",
-      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.17377.2/Claude-e0ea9e9df1d5a7e3848ea088cc6b1863adc020b9.zip"
+      "version": "1.18286.0",
+      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.18286.0/Claude-259c3fc2a647e4222ca15e99bba9b2649f31f051.zip"
     },
     {
       "slug": "claude/windows",
       "name": "Claude",
       "platform": "windows",
-      "version": "1.17377.2",
-      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.17377.2/Claude-e0ea9e9df1d5a7e3848ea088cc6b1863adc020b9.msix"
+      "version": "1.18286.0",
+      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.18286.0/Claude-259c3fc2a647e4222ca15e99bba9b2649f31f051.msix"
     },
     {
       "slug": "cleanclip/darwin",
@@ -1559,8 +1559,8 @@
       "slug": "clion/windows",
       "name": "CLion",
       "platform": "windows",
-      "version": "2026.1.3",
-      "installerUrl": "https://download.jetbrains.com/cpp/CLion-2026.1.3.exe"
+      "version": "2026.1.4",
+      "installerUrl": "https://download.jetbrains.com/cpp/CLion-2026.1.4.exe"
     },
     {
       "slug": "clipbook/darwin",
@@ -1678,8 +1678,8 @@
       "slug": "codex-app/darwin",
       "name": "Codex",
       "platform": "darwin",
-      "version": "26.623.81905",
-      "installerUrl": "https://persistent.oaistatic.com/codex-app-prod/Codex-darwin-arm64-26.623.81905.zip"
+      "version": "26.623.101652",
+      "installerUrl": "https://persistent.oaistatic.com/codex-app-prod/Codex-darwin-arm64-26.623.101652.zip"
     },
     {
       "slug": "codexbar/darwin",
@@ -2203,7 +2203,7 @@
       "slug": "dialpad/darwin",
       "name": "Dialpad",
       "platform": "darwin",
-      "version": "2605.1.0",
+      "version": "2606.1.1",
       "installerUrl": "https://download.dialpad.com/osx/arm64/dialpad.pkg"
     },
     {
@@ -3232,8 +3232,8 @@
       "slug": "goland/darwin",
       "name": "GoLand",
       "platform": "darwin",
-      "version": "2026.1.3",
-      "installerUrl": "https://download.jetbrains.com/go/goland-2026.1.3-aarch64.dmg"
+      "version": "2026.1.4",
+      "installerUrl": "https://download.jetbrains.com/go/goland-2026.1.4-aarch64.dmg"
     },
     {
       "slug": "goland/windows",
@@ -3351,15 +3351,15 @@
       "slug": "granola/darwin",
       "name": "Granola",
       "platform": "darwin",
-      "version": "7.373.2",
-      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.373.2/Granola-7.373.2-mac-universal.dmg"
+      "version": "7.386.3",
+      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.386.3/Granola-7.386.3-mac-universal.dmg"
     },
     {
       "slug": "granola/windows",
       "name": "Granola",
       "platform": "windows",
-      "version": "7.373.2",
-      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.373.2/Granola-7.373.2-win-x64.exe"
+      "version": "7.386.3",
+      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.386.3/Granola-7.386.3-win-x64.exe"
     },
     {
       "slug": "grids/darwin",
@@ -3519,8 +3519,8 @@
       "slug": "huly/darwin",
       "name": "Huly",
       "platform": "darwin",
-      "version": "0.7.423",
-      "installerUrl": "https://dist.huly.io/Huly-macos-0.7.423-arm64.zip"
+      "version": "0.7.426",
+      "installerUrl": "https://dist.huly.io/Huly-macos-0.7.426-arm64.zip"
     },
     {
       "slug": "hyper/darwin",
@@ -3792,15 +3792,15 @@
       "slug": "jetbrains-toolbox/darwin",
       "name": "JetBrains Toolbox",
       "platform": "darwin",
-      "version": "3.5",
-      "installerUrl": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-3.5.0.84344-arm64.dmg"
+      "version": "3.6",
+      "installerUrl": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-3.6.0.85549-arm64.dmg"
     },
     {
       "slug": "jetbrains-toolbox/windows",
       "name": "JetBrains Toolbox",
       "platform": "windows",
-      "version": "3.5.0.0",
-      "installerUrl": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-3.5.0.84344.exe"
+      "version": "3.6.0.0",
+      "installerUrl": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-3.6.0.85549.exe"
     },
     {
       "slug": "jiggler/darwin",
@@ -3967,8 +3967,8 @@
       "slug": "kiro-cli/darwin",
       "name": "Kiro CLI",
       "platform": "darwin",
-      "version": "2.10.0",
-      "installerUrl": "https://desktop-release.q.us-east-1.amazonaws.com/2.10.0/Kiro%20CLI.dmg"
+      "version": "2.11.0",
+      "installerUrl": "https://desktop-release.q.us-east-1.amazonaws.com/2.11.0/Kiro%20CLI.dmg"
     },
     {
       "slug": "kiro/darwin",
@@ -4240,8 +4240,8 @@
       "slug": "lookaway/darwin",
       "name": "LookAway",
       "platform": "darwin",
-      "version": "2.2.2",
-      "installerUrl": "https://github.com/mysticalbits/lookaway-releases/releases/download/2.2.2/LookAway.dmg"
+      "version": "2.2.3",
+      "installerUrl": "https://github.com/mysticalbits/lookaway-releases/releases/download/2.2.3/LookAway.dmg"
     },
     {
       "slug": "loom/darwin",
@@ -4457,8 +4457,8 @@
       "slug": "marked-app/darwin",
       "name": "Marked",
       "platform": "darwin",
-      "version": "3.1.6",
-      "installerUrl": "https://updates.markedapp.com/updates/Marked%203.1.6.zip"
+      "version": "3.1.7",
+      "installerUrl": "https://updates.markedapp.com/updates/Marked%203.1.7.zip"
     },
     {
       "slug": "markedit/darwin",
@@ -4632,15 +4632,15 @@
       "slug": "microsoft-edge/darwin",
       "name": "Microsoft Edge",
       "platform": "darwin",
-      "version": "149.0.4022.98",
-      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/739ebe4c-478b-4726-9c65-8dc694d4b5ed/MicrosoftEdge-149.0.4022.98.dmg"
+      "version": "150.0.4078.50",
+      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/d269d021-b72c-4afd-9486-41bec03d66fb/MicrosoftEdge-150.0.4078.50.dmg"
     },
     {
       "slug": "microsoft-edge/windows",
       "name": "Microsoft Edge",
       "platform": "windows",
-      "version": "149.0.4022.98",
-      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/82374039-b772-4d0a-a9a9-ee311dabec12/MicrosoftEdgeEnterpriseX64.msi"
+      "version": "150.0.4078.48",
+      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/6476e2cb-803c-4ed9-b91f-60caaa21dbfd/MicrosoftEdgeEnterpriseX64.msi"
     },
     {
       "slug": "microsoft-excel/darwin",
@@ -5724,8 +5724,8 @@
       "slug": "phpstorm/darwin",
       "name": "PhpStorm",
       "platform": "darwin",
-      "version": "2026.1.3",
-      "installerUrl": "https://download.jetbrains.com/webide/PhpStorm-2026.1.3-aarch64.dmg"
+      "version": "2026.1.4",
+      "installerUrl": "https://download.jetbrains.com/webide/PhpStorm-2026.1.4-aarch64.dmg"
     },
     {
       "slug": "phpstorm/windows",
@@ -5920,8 +5920,8 @@
       "slug": "postman/windows",
       "name": "Postman",
       "platform": "windows",
-      "version": "12.17.3",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.17.3/windows_64"
+      "version": "12.17.5",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.17.5/windows_64"
     },
     {
       "slug": "power-automate/windows",
@@ -6284,8 +6284,8 @@
       "slug": "rancher/windows",
       "name": "Rancher Desktop",
       "platform": "windows",
-      "version": "1.22.3",
-      "installerUrl": "https://github.com/rancher-sandbox/rancher-desktop/releases/download/v1.22.3/Rancher.Desktop.Setup.1.22.3.msi"
+      "version": "1.23.1",
+      "installerUrl": "https://github.com/rancher-sandbox/rancher-desktop/releases/download/v1.23.1/Rancher.Desktop.Setup.1.23.1.msi"
     },
     {
       "slug": "rapidapi/darwin",
@@ -6494,8 +6494,8 @@
       "slug": "rider/windows",
       "name": "Rider",
       "platform": "windows",
-      "version": "2026.1.3",
-      "installerUrl": "https://download.jetbrains.com/rider/JetBrains.Rider-2026.1.3.exe"
+      "version": "2026.1.4",
+      "installerUrl": "https://download.jetbrains.com/rider/JetBrains.Rider-2026.1.4.exe"
     },
     {
       "slug": "rightfont/darwin",
@@ -6536,8 +6536,8 @@
       "slug": "rocket-chat/darwin",
       "name": "Rocket.Chat",
       "platform": "darwin",
-      "version": "4.15.1",
-      "installerUrl": "https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/4.15.1/rocketchat-4.15.1-mac.dmg"
+      "version": "4.15.2",
+      "installerUrl": "https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/4.15.2/rocketchat-4.15.2-mac.dmg"
     },
     {
       "slug": "rocket-typist/darwin",
@@ -6585,8 +6585,8 @@
       "slug": "rsyncui/darwin",
       "name": "RsyncUI",
       "platform": "darwin",
-      "version": "3.0.0",
-      "installerUrl": "https://github.com/rsyncOSX/RsyncUI/releases/download/v3.0.0/RsyncUI.3.0.0.dmg"
+      "version": "3.0.2",
+      "installerUrl": "https://github.com/rsyncOSX/RsyncUI/releases/download/v3.0.2/RsyncUI.3.0.2.dmg"
     },
     {
       "slug": "rubymine/darwin",
@@ -7341,8 +7341,8 @@
       "slug": "super-productivity/darwin",
       "name": "Super Productivity",
       "platform": "darwin",
-      "version": "18.12.0",
-      "installerUrl": "https://github.com/super-productivity/super-productivity/releases/download/v18.12.0/superProductivity-arm64.dmg"
+      "version": "18.13.1",
+      "installerUrl": "https://github.com/super-productivity/super-productivity/releases/download/v18.13.1/superProductivity-arm64.dmg"
     },
     {
       "slug": "supercollider/darwin",
@@ -7817,8 +7817,8 @@
       "slug": "tower/windows",
       "name": "Tower",
       "platform": "windows",
-      "version": "12.2.562",
-      "installerUrl": "https://www.git-tower.com/apps/tower3-win/562-2f47fd7a/Tower-12.2.562.msi"
+      "version": "12.3.563",
+      "installerUrl": "https://www.git-tower.com/apps/tower3-win/563-51cf3efc/Tower-12.3.563.msi"
     },
     {
       "slug": "tradingview/darwin",
@@ -8160,8 +8160,8 @@
       "slug": "vivaldi/windows",
       "name": "Vivaldi",
       "platform": "windows",
-      "version": "8.0.4033.54",
-      "installerUrl": "https://downloads.vivaldi.com/stable/Vivaldi.8.0.4033.54.x64.exe"
+      "version": "8.0.4033.57",
+      "installerUrl": "https://downloads.vivaldi.com/stable/Vivaldi.8.0.4033.57.x64.exe"
     },
     {
       "slug": "vivid-app/darwin",
@@ -8356,8 +8356,8 @@
       "slug": "webstorm/darwin",
       "name": "WebStorm",
       "platform": "darwin",
-      "version": "2026.1.3",
-      "installerUrl": "https://download.jetbrains.com/webstorm/WebStorm-2026.1.3-aarch64.dmg"
+      "version": "2026.1.4",
+      "installerUrl": "https://download.jetbrains.com/webstorm/WebStorm-2026.1.4-aarch64.dmg"
     },
     {
       "slug": "webstorm/windows",
@@ -8496,8 +8496,8 @@
       "slug": "wispr-flow/darwin",
       "name": "Wispr Flow",
       "platform": "darwin",
-      "version": "1.5.980",
-      "installerUrl": "https://dl.wisprflow.com/wispr-flow/darwin/arm64/dmgs/Flow-v1.5.980.dmg"
+      "version": "1.5.1095",
+      "installerUrl": "https://dl.wisprflow.com/wispr-flow/darwin/arm64/dmgs/Flow-v1.5.1095.dmg"
     },
     {
       "slug": "wondershare-edrawmax/darwin",
@@ -8657,8 +8657,8 @@
       "slug": "yacreader/windows",
       "name": "YACReader",
       "platform": "windows",
-      "version": "10.0.0",
-      "installerUrl": "https://github.com/YACReader/yacreader/releases/download/10.0.0/YACReader-v10.0.0.260501214-winx64-7z-qt6.exe"
+      "version": "10.1.0",
+      "installerUrl": "https://github.com/YACReader/yacreader/releases/download/10.1.0/YACReader-v10.1.0.260703260-winx64-7z-qt6.exe"
     },
     {
       "slug": "yattee/darwin",
@@ -8741,8 +8741,8 @@
       "slug": "zen/darwin",
       "name": "Zen Browser",
       "platform": "darwin",
-      "version": "1.21.4b",
-      "installerUrl": "https://github.com/zen-browser/desktop/releases/download/1.21.4b/zen.macos-universal.dmg"
+      "version": "1.21.5b",
+      "installerUrl": "https://github.com/zen-browser/desktop/releases/download/1.21.5b/zen.macos-universal.dmg"
     },
     {
       "slug": "zeplin/darwin",
