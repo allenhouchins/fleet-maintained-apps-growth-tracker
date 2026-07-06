@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T12:54:06Z",
+  "lastUpdated": "2026-07-06T16:25:43Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1741,15 +1741,15 @@
       "slug": "commander-one/darwin",
       "name": "Commander One",
       "platform": "darwin",
-      "version": "",
-      "installerUrl": ""
+      "version": "3.17.1",
+      "installerUrl": "https://cdn.electronic.us/products/commander/mac/download/commander.dmg"
     },
     {
       "slug": "commander/darwin",
       "name": "Commander",
       "platform": "darwin",
-      "version": "",
-      "installerUrl": ""
+      "version": "0.7.998",
+      "installerUrl": "https://download.thecommander.app/release/Commander-0.7.998.zip"
     },
     {
       "slug": "companion/darwin",
@@ -1769,8 +1769,8 @@
       "slug": "copilot-money/darwin",
       "name": "Copilot",
       "platform": "darwin",
-      "version": "",
-      "installerUrl": ""
+      "version": "6.4.3",
+      "installerUrl": "https://storage.googleapis.com/copilot-mac-releases/images/Copilot-6.4.3-330-ce1410d6.dmg"
     },
     {
       "slug": "cork/darwin",
@@ -1846,8 +1846,8 @@
       "slug": "cursor/windows",
       "name": "Cursor",
       "platform": "windows",
-      "version": "3.9.16",
-      "installerUrl": "https://downloads.cursor.com/production/042b3c1a4c53f2c3808067f519fbfc67b72cad8b/win32/x64/system-setup/CursorSetup-x64-3.9.16.exe"
+      "version": "3.10.11",
+      "installerUrl": "https://downloads.cursor.com/production/4ef9fe3d055f8c4523179a090f14eb835bc3c94e/win32/x64/system-setup/CursorSetup-x64-3.10.11.exe"
     },
     {
       "slug": "cursorsense/darwin",
@@ -2000,8 +2000,8 @@
       "slug": "dbeaver-community/windows",
       "name": "DBeaver",
       "platform": "windows",
-      "version": "26.1.1",
-      "installerUrl": "https://github.com/dbeaver/dbeaver/releases/download/26.1.1/dbeaver-ce-26.1.1-windows-x86_64.exe"
+      "version": "26.1.2",
+      "installerUrl": "https://github.com/dbeaver/dbeaver/releases/download/26.1.2/dbeaver-ce-26.1.2-windows-x86_64.exe"
     },
     {
       "slug": "dbeaver-enterprise/darwin",
@@ -2371,8 +2371,8 @@
       "slug": "dropdmg/darwin",
       "name": "DropDMG",
       "platform": "darwin",
-      "version": "",
-      "installerUrl": ""
+      "version": "3.7.1",
+      "installerUrl": "https://c-command.com/downloads/DropDMG-3.7.1.dmg"
     },
     {
       "slug": "droplr/darwin",
@@ -2525,8 +2525,8 @@
       "slug": "electrum/darwin",
       "name": "Electrum",
       "platform": "darwin",
-      "version": "",
-      "installerUrl": ""
+      "version": "4.7.2",
+      "installerUrl": "https://download.electrum.org/4.7.2/electrum-4.7.2.dmg"
     },
     {
       "slug": "electrum/windows",
@@ -3008,8 +3008,8 @@
       "slug": "fsmonitor/darwin",
       "name": "FSMonitor",
       "platform": "darwin",
-      "version": "",
-      "installerUrl": ""
+      "version": "2.0",
+      "installerUrl": "https://tristan-software.ch/FSMonitor/Archives/FSMonitor_2.0(158).zip"
     },
     {
       "slug": "funter/darwin",
@@ -4415,8 +4415,8 @@
       "slug": "macwhisper/darwin",
       "name": "MacWhisper",
       "platform": "darwin",
-      "version": "",
-      "installerUrl": ""
+      "version": "13.23.1",
+      "installerUrl": "https://cdn.macwhisper.com/macwhisper/MacWhisper-1437.zip"
     },
     {
       "slug": "maestral/darwin",
@@ -4996,8 +4996,8 @@
       "slug": "nagstamon/windows",
       "name": "Nagstamon",
       "platform": "windows",
-      "version": "",
-      "installerUrl": ""
+      "version": "3.18.2",
+      "installerUrl": "https://github.com/HenriWahl/Nagstamon/releases/download/v3.18.2/Nagstamon-3.18.2-win64_setup.exe"
     },
     {
       "slug": "name-mangler/darwin",
@@ -5010,8 +5010,8 @@
       "slug": "naps2/darwin",
       "name": "NAPS2",
       "platform": "darwin",
-      "version": "",
-      "installerUrl": ""
+      "version": "8.2.1",
+      "installerUrl": "https://github.com/cyanfish/naps2/releases/download/v8.2.1/naps2-8.2.1-mac-arm64.pkg"
     },
     {
       "slug": "naps2/windows",
@@ -8421,6 +8421,13 @@
       "platform": "darwin",
       "version": "1.2.8",
       "installerUrl": "https://desktop.wifiman.com/wifiman-desktop-1.2.8-arm64.pkg"
+    },
+    {
+      "slug": "windirstat/windows",
+      "name": "WinDirStat",
+      "platform": "windows",
+      "version": "2.7.0",
+      "installerUrl": "https://github.com/windirstat/windirstat/releases/download/release/v2.7.0/WinDirStat-x64.msi"
     },
     {
       "slug": "windowkeys/darwin",
