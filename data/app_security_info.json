@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T20:34:27Z",
+  "lastUpdated": "2026-07-07T20:38:21Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1031,6 +1031,18 @@
       "lastUpdated": "2026-07-02T15:30:59Z"
     },
     {
+      "slug": "aws-session-manager-plugin/windows",
+      "name": "AWS Session Manager Plugin",
+      "version": "1.2.835.0",
+      "sha256": "3412f55e21632977e5a28c37938e706388f76fc769a016eaeec0cace0926c4e1",
+      "publisher": "CN=\"Amazon Web Services, Inc.\", OU=AWS Systems Manager, O=\"Amazon Web Services, Inc.\", L=Seattle, S=Washington, C=US, SERIALNUMBER=4152954, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0F751B3DBFC45E0BB4AD21D4BD79BDDE",
+      "thumbprint": "6513F5C48CBC058C7136E719F302941861388A3B",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-07-07T20:34:29Z"
+    },
+    {
       "slug": "aws-vpn-client/darwin",
       "name": "AWS Client VPN",
       "version": "5.4.1",
@@ -1079,6 +1091,13 @@
       "thumbprint": "2C02F523C3748B1D850420B27AAD3CB65671F8B9",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-05-29T04:37:00Z"
+    },
+    {
+      "slug": "azure-functions-core-tools/windows",
+      "name": "Azure Functions Core Tools",
+      "version": "4.12.1",
+      "sha256": "e8a931f5a719515d9df2ffe8296d4a0e79f386e828c03cc809f7114fb88d1c2a",
+      "lastUpdated": "2026-07-07T20:35:17Z"
     },
     {
       "slug": "background-music/darwin",
@@ -4425,6 +4444,18 @@
       "lastUpdated": "2026-06-11T03:22:45Z"
     },
     {
+      "slug": "itunes/windows",
+      "name": "iTunes",
+      "version": "12.13.10.3",
+      "sha256": "cea2a74cae3f061eadc11358eeaae9b40cfdea9ec1ee037b47da54a64219e182",
+      "publisher": "CN=Apple Inc., O=Apple Inc., L=Cupertino, S=California, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0DA9CD96BE78F6C1CCCBF0D3156CE4D3",
+      "thumbprint": "5ABF5D5265D74C9EAD19246DFAB611AA5DCFE791",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-07-07T20:38:13Z"
+    },
+    {
       "slug": "jabra-direct/darwin",
       "name": "Jabra Direct",
       "version": "8.1.14601",
@@ -6271,14 +6302,14 @@
     {
       "slug": "okta-verify/windows",
       "name": "Okta Verify",
-      "version": "6.6.2.0",
-      "sha256": "4e21d4c33a7684f77c75acd4d81f7495ea961bfab1bc77c4d27c503419407a42",
+      "version": "6.10.2.0",
+      "sha256": "065c6ad3ffc8551a29459d6cae4d06cd95a083ef716c18eb2e1215720a6b400a",
       "publisher": "CN=\"Okta, Inc.\", O=\"Okta, Inc.\", L=San Francisco, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "023F5726B59B65443587DDE8937ED2C1",
       "thumbprint": "02EA08B564116C1547354F2B1F909CABB6AE9F9F",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-02-23T16:24:38Z"
+      "lastUpdated": "2026-07-07T20:38:15Z"
     },
     {
       "slug": "ollama/darwin",
