@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T19:56:53Z",
+  "lastUpdated": "2026-07-07T20:21:26Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -289,6 +289,20 @@
       "installerUrl": "https://affinity-update.serif.com/windows/3/studio/retail/Affinity-Affinity-Store-x64-4557-edef263cf88fb866afb3d227aef39230812deabc.msix"
     },
     {
+      "slug": "agent-ransack/windows",
+      "name": "Agent Ransack",
+      "platform": "windows",
+      "version": "9.3.3562.1",
+      "installerUrl": "https://download.mythicsoft.com/flp/3562/X4aef2vyu.bzx/agentransack_x64_msi_3562.zip"
+    },
+    {
+      "slug": "air-explorer/windows",
+      "name": "Air Explorer",
+      "platform": "windows",
+      "version": "5.10.0",
+      "installerUrl": "https://www.airexplorer.net/downloads/AirExplorer-OnlineInstaller.exe"
+    },
+    {
       "slug": "airbuddy/darwin",
       "name": "AirBuddy",
       "platform": "darwin",
@@ -394,11 +408,25 @@
       "installerUrl": "https://apphousekitchen.com/aldente/AlDente1.38.dmg"
     },
     {
+      "slug": "alfaview/windows",
+      "name": "alfaview",
+      "platform": "windows",
+      "version": "9.27.1",
+      "installerUrl": "https://assets.alfaview.com/stable/win/alfaview-setup-win-production-9.27.1.msi"
+    },
+    {
       "slug": "alloy/darwin",
       "name": "Alloy",
       "platform": "darwin",
       "version": "6.2.0",
       "installerUrl": "https://github.com/AlloyTools/org.alloytools.alloy/releases/download/v6.2.0/alloy-6.2.0-mac-aarch64.zip"
+    },
+    {
+      "slug": "allway-sync/windows",
+      "name": "Allway Sync",
+      "platform": "windows",
+      "version": "22.0.1",
+      "installerUrl": "https://allwaysync.com/content/download/allwaysync-x64-22-0-1.msi"
     },
     {
       "slug": "alt-tab/darwin",
@@ -443,6 +471,20 @@
       "installerUrl": "https://clients.chime.aws/win-nme/Chime-5.23.32138.exe"
     },
     {
+      "slug": "amazon-corretto-11/windows",
+      "name": "Amazon Corretto 11",
+      "platform": "windows",
+      "version": "11.0.31.11",
+      "installerUrl": "https://corretto.aws/downloads/resources/11.0.31.11.1/amazon-corretto-11.0.31.11.1-windows-x64.msi"
+    },
+    {
+      "slug": "amazon-corretto-17/windows",
+      "name": "Amazon Corretto 17",
+      "platform": "windows",
+      "version": "17.0.19.10",
+      "installerUrl": "https://corretto.aws/downloads/resources/17.0.19.10.1/amazon-corretto-17.0.19.10.1-windows-x64.msi"
+    },
+    {
       "slug": "amazon-corretto-21/windows",
       "name": "Amazon Corretto 21",
       "platform": "windows",
@@ -471,6 +513,13 @@
       "installerUrl": "https://corretto.aws/downloads/resources/26.0.1.8.1/amazon-corretto-26.0.1.8.1-windows-x64.msi"
     },
     {
+      "slug": "amazon-corretto-8/windows",
+      "name": "Amazon Corretto 8",
+      "platform": "windows",
+      "version": "1.8.0.492",
+      "installerUrl": "https://corretto.aws/downloads/resources/8.492.09.2/amazon-corretto-8.492.09.2-windows-x64-jdk.msi"
+    },
+    {
       "slug": "amazon-corretto-jre-8/windows",
       "name": "Amazon Corretto JRE 8",
       "platform": "windows",
@@ -490,6 +539,13 @@
       "platform": "windows",
       "version": "25.0.20103.0",
       "installerUrl": "https://d1uj6qtbmh3dt5.cloudfront.net/2025.0/Servers/nice-dcv-server-x64-Release-2025.0-20103.msi"
+    },
+    {
+      "slug": "amazon-redshift-odbc-driver/windows",
+      "name": "Amazon Redshift ODBC Driver",
+      "platform": "windows",
+      "version": "2.1.9.0",
+      "installerUrl": "https://s3.amazonaws.com/redshift-downloads/drivers/odbc/2.1.9.0/AmazonRedshiftODBC64-2.1.9.0.msi"
     },
     {
       "slug": "amazon-workspaces/darwin",
@@ -588,6 +644,13 @@
       "platform": "darwin",
       "version": "1.1.7",
       "installerUrl": "https://antinote.io/updates/Antinote_1.1.7.dmg"
+    },
+    {
+      "slug": "anyburn/windows",
+      "name": "AnyBurn",
+      "platform": "windows",
+      "version": "6.8.0.0",
+      "installerUrl": "https://anyburn.com/anyburn_setup.exe"
     },
     {
       "slug": "anydesk/darwin",
@@ -772,6 +835,20 @@
       "installerUrl": "https://aviatrix-download.s3.amazonaws.com/AviatrixVPNClient/AVPNC_mac.pkg"
     },
     {
+      "slug": "avs-image-converter/windows",
+      "name": "AVS Image Converter",
+      "platform": "windows",
+      "version": "26.0.2.17",
+      "installerUrl": "https://downloads.avs4you.com/distributives/AVSImageConverter.exe"
+    },
+    {
+      "slug": "avs-media-player/windows",
+      "name": "AVS Media Player",
+      "platform": "windows",
+      "version": "26.0.2.17",
+      "installerUrl": "https://downloads.avs4you.com/distributives/AVSMediaPlayer.exe"
+    },
+    {
       "slug": "aws-cli/windows",
       "name": "AWS Command Line Interface v2",
       "platform": "windows",
@@ -784,6 +861,13 @@
       "platform": "windows",
       "version": "1.163.0",
       "installerUrl": "https://github.com/aws/aws-sam-cli/releases/download/v1.163.0/AWS_SAM_CLI_64_PY3.msi"
+    },
+    {
+      "slug": "aws-session-manager-plugin/windows",
+      "name": "AWS Session Manager Plugin",
+      "platform": "windows",
+      "version": "1.2.835.0",
+      "installerUrl": "https://s3.amazonaws.com/session-manager-downloads/plugin/1.2.835.0/windows/SessionManagerPluginSetup.exe"
     },
     {
       "slug": "aws-vpn-client/darwin",
@@ -819,6 +903,13 @@
       "platform": "windows",
       "version": "25.34.17",
       "installerUrl": "https://cdn.azul.com/zulu/bin/zulu25.34.17-ca-jre25.0.3-win_x64.msi"
+    },
+    {
+      "slug": "azure-functions-core-tools/windows",
+      "name": "Azure Functions Core Tools",
+      "platform": "windows",
+      "version": "4.12.1",
+      "installerUrl": "https://github.com/Azure/azure-functions-core-tools/releases/download/4.12.1/func-cli-4.12.1-x64.msi"
     },
     {
       "slug": "background-music/darwin",
@@ -1811,8 +1902,8 @@
       "slug": "crashplan/windows",
       "name": "CrashPlan",
       "platform": "windows",
-      "version": "11.9.1.19",
-      "installerUrl": "https://download.crashplan.com/installs/agent/cloud/11.9.1/19/install/CrashPlan_11.9.1_19_Win64.msi"
+      "version": "",
+      "installerUrl": ""
     },
     {
       "slug": "cribl-edge/windows",
@@ -3754,6 +3845,13 @@
       "installerUrl": "https://itsycal.s3.amazonaws.com/Itsycal-0.15.12.zip"
     },
     {
+      "slug": "itunes/windows",
+      "name": "iTunes",
+      "platform": "windows",
+      "version": "12.13.10.3",
+      "installerUrl": "https://secure-appldnld.apple.com/itunes12/047-76416-20260302-fefe4356-211d-4da1-8bc4-058eb36ea803/iTunes64Setup.exe"
+    },
+    {
       "slug": "jabra-direct/darwin",
       "name": "Jabra Direct",
       "platform": "darwin",
@@ -5364,6 +5462,13 @@
       "installerUrl": "https://okta.okta.com/artifacts/OKTA_VERIFY_MACOS/9.65.2/OktaVerify-9.65.2-6267-e16ccd4.pkg"
     },
     {
+      "slug": "okta-verify/windows",
+      "name": "Okta Verify",
+      "platform": "windows",
+      "version": "6.10.2.0",
+      "installerUrl": "https://okta.okta.com/artifacts/WINDOWS_OKTA_VERIFY/6.10.2.0/OktaVerifySetup-6.10.2.0-de20e9b.exe"
+    },
+    {
       "slug": "ollama/darwin",
       "name": "Ollama",
       "platform": "darwin",
@@ -5458,8 +5563,8 @@
       "slug": "only-switch/darwin",
       "name": "OnlySwitch",
       "platform": "darwin",
-      "version": "",
-      "installerUrl": ""
+      "version": "2.6.9",
+      "installerUrl": "https://github.com/jacklandrin/OnlySwitch/releases/download/release_2.6.9/OnlySwitch.dmg"
     },
     {
       "slug": "onlyoffice/darwin",
