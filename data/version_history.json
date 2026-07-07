@@ -1,114 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-06-16T03:17:45Z",
-      "appName": "Slack",
-      "slug": "slack/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.50.128",
-      "newVersion": "4.50.140",
-      "installerUrl": "https://slack.com/api/desktop.latestRelease?redirect=1\u0026variant=pkg\u0026arch=universal"
-    },
-    {
-      "date": "2026-06-16T03:17:45Z",
-      "appName": "Loom",
-      "slug": "loom/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.353.3",
-      "newVersion": "0.354.0",
-      "installerUrl": "https://packages.loom.com/desktop-packages/Loom-0.354.0-arm64.dmg"
-    },
-    {
-      "date": "2026-06-16T03:17:45Z",
-      "appName": "Box Drive",
-      "slug": "box-drive/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.52.306",
-      "newVersion": "2.52.312",
-      "installerUrl": "https://e3.boxcdn.net/desktop/releases/mac/BoxDrive-2.52.312.pkg"
-    },
-    {
-      "date": "2026-06-16T03:17:45Z",
-      "appName": "Recut",
-      "slug": "recut/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.4.5",
-      "newVersion": "4.4.6",
-      "installerUrl": "https://updates.getrecut.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTE0LCJwdXIiOiJibG9iX2lkIn19--909fa77e5d7a107f6e834d8acb331b0fb3c6177e/Recut_4.4.6_universal.dmg"
-    },
-    {
-      "date": "2026-06-16T03:17:45Z",
-      "appName": "Dataflare",
-      "slug": "dataflare/windows",
-      "platform": "windows",
-      "oldVersion": "3.1.1",
-      "newVersion": "3.1.2",
-      "installerUrl": "https://assets.dataflare.app/release/windows/x86_64/Dataflare-Setup-3.1.2.exe"
-    },
-    {
-      "date": "2026-06-16T03:17:45Z",
-      "appName": "DuckDuckGo",
-      "slug": "duckduckgo/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.193.1",
-      "newVersion": "1.194.0",
-      "installerUrl": "https://staticcdn.duckduckgo.com/macos-desktop-browser/duckduckgo-1.194.0.737.dmg"
-    },
-    {
-      "date": "2026-06-16T03:17:45Z",
-      "appName": "TablePlus",
-      "slug": "tableplus/darwin",
-      "platform": "darwin",
-      "oldVersion": "7.2.0",
-      "newVersion": "7.2.2",
-      "installerUrl": "https://files.tableplus.com/macos/722/TablePlus.dmg"
-    },
-    {
-      "date": "2026-06-16T03:17:45Z",
-      "appName": "Discord",
-      "slug": "discord/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.0.394",
-      "newVersion": "0.0.395",
-      "installerUrl": "https://dl.discordapp.net/apps/osx/0.0.395/Discord.dmg"
-    },
-    {
-      "date": "2026-06-16T14:47:19Z",
-      "appName": "Loom",
-      "slug": "loom/windows",
-      "platform": "windows",
-      "oldVersion": "0.353.3",
-      "newVersion": "0.354.0",
-      "installerUrl": "https://cdn.loom.com/desktop-packages/Loom%20Setup%200.354.0.exe"
-    },
-    {
-      "date": "2026-06-16T14:47:19Z",
-      "appName": "ShareFile",
-      "slug": "sharefile/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "25.9.2.0",
-      "installerUrl": "https://dl.sharefile.com/sfwin-msi/ShareFileForWindows_x64_v25.9.2.0.msi"
-    },
-    {
-      "date": "2026-06-16T14:47:19Z",
-      "appName": "WeChat for Mac",
-      "slug": "wechat/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "3.9.12.57",
-      "installerUrl": "https://dldir1v6.qq.com/weixin/Windows/WeChatSetup.exe"
-    },
-    {
-      "date": "2026-06-16T14:47:19Z",
-      "appName": "Shift",
-      "slug": "shift/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "9.6.4.1231",
-      "installerUrl": "https://updates.tryshift.com/v9.6.4/stable/shift-v9.6.4.1231-stable-x64.exe"
-    },
-    {
       "date": "2026-06-16T14:47:19Z",
       "appName": "Winlogbeat",
       "slug": "winlogbeat/windows",
@@ -8999,6 +8891,114 @@
       "oldVersion": "5.4.0",
       "newVersion": "5.4.1",
       "installerUrl": "https://d20adtppz83p9s.cloudfront.net/OSX_ARM64/5.4.1/AWS_VPN_Client_ARM64.pkg"
+    },
+    {
+      "date": "2026-07-07T14:39:17Z",
+      "appName": "Beekeeper Studio",
+      "slug": "beekeeper-studio/windows",
+      "platform": "windows",
+      "oldVersion": "5.9.0",
+      "newVersion": "5.9.1",
+      "installerUrl": "https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v5.9.1/Beekeeper-Studio-Setup-5.9.1.exe"
+    },
+    {
+      "date": "2026-07-07T14:39:17Z",
+      "appName": "Google Drive",
+      "slug": "google-drive/darwin",
+      "platform": "darwin",
+      "oldVersion": "127.0",
+      "newVersion": "128.0",
+      "installerUrl": "https://dl.google.com/drive-file-stream/5-percent/GoogleDrive.dmg"
+    },
+    {
+      "date": "2026-07-07T14:39:17Z",
+      "appName": "Devin Desktop",
+      "slug": "devin-desktop/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.4.22",
+      "newVersion": "3.4.27",
+      "installerUrl": "https://windsurf-stable.codeiumdata.com/darwin-arm64-dmg/stable/0d4bf12ed4a7597cb8ae9016fe8474468aad98a2/Devin-darwin-arm64-3.4.27.dmg"
+    },
+    {
+      "date": "2026-07-07T14:39:17Z",
+      "appName": "Postman",
+      "slug": "postman/darwin",
+      "platform": "darwin",
+      "oldVersion": "12.18.0",
+      "newVersion": "12.18.1",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.18.1/osx_arm64"
+    },
+    {
+      "date": "2026-07-07T14:39:17Z",
+      "appName": "Wealthfolio",
+      "slug": "wealthfolio/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.6.0",
+      "newVersion": "3.6.1",
+      "installerUrl": "https://github.com/afadil/wealthfolio/releases/download/v3.6.1/Wealthfolio_3.6.1_aarch64.dmg"
+    },
+    {
+      "date": "2026-07-07T14:39:17Z",
+      "appName": "Kiro CLI",
+      "slug": "kiro-cli/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.11.0",
+      "newVersion": "2.11.1",
+      "installerUrl": "https://desktop-release.q.us-east-1.amazonaws.com/2.11.1/Kiro%20CLI.dmg"
+    },
+    {
+      "date": "2026-07-07T14:39:17Z",
+      "appName": "Codex",
+      "slug": "codex-app/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.623.101652",
+      "newVersion": "26.623.141536",
+      "installerUrl": "https://persistent.oaistatic.com/codex-app-prod/Codex-darwin-arm64-26.623.141536.zip"
+    },
+    {
+      "date": "2026-07-07T14:39:17Z",
+      "appName": "CodexBar",
+      "slug": "codexbar/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.40.0",
+      "newVersion": "0.41.0",
+      "installerUrl": "https://github.com/steipete/CodexBar/releases/download/v0.41.0/CodexBar-macos-universal-0.41.0.zip"
+    },
+    {
+      "date": "2026-07-07T14:39:17Z",
+      "appName": "Milanote",
+      "slug": "milanote/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.18.113",
+      "newVersion": "3.18.114",
+      "installerUrl": "https://milanote-app-releases.s3.amazonaws.com/Milanote-3.18.114.dmg"
+    },
+    {
+      "date": "2026-07-07T14:39:17Z",
+      "appName": "Beekeeper Studio",
+      "slug": "beekeeper-studio/darwin",
+      "platform": "darwin",
+      "oldVersion": "5.9.0",
+      "newVersion": "5.9.1",
+      "installerUrl": "https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v5.9.1/Beekeeper-Studio-5.9.1-arm64.dmg"
+    },
+    {
+      "date": "2026-07-07T14:39:17Z",
+      "appName": "Claude",
+      "slug": "claude/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.18286.0",
+      "newVersion": "1.18286.2",
+      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.18286.2/Claude-b682d9f76a56cebb3327f0de7eda65a8399d4835.zip"
+    },
+    {
+      "date": "2026-07-07T14:39:17Z",
+      "appName": "Discord",
+      "slug": "discord/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.0.397",
+      "newVersion": "0.0.398",
+      "installerUrl": "https://dl.discordapp.net/apps/osx/0.0.398/Discord.dmg"
     }
   ]
 }
