@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T17:22:27Z",
+  "lastUpdated": "2026-07-07T19:56:53Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -30,6 +30,13 @@
       "installerUrl": "https://c.1password.com/dist/1P/win8/1PasswordSetup-8.12.24.msi"
     },
     {
+      "slug": "3df-zephyr-free/windows",
+      "name": "3DF Zephyr Free",
+      "platform": "windows",
+      "version": "8.038",
+      "installerUrl": "https://3df-eu.fra1.digitaloceanspaces.com/8.038/3DF%20Zephyr%20Free%20v8.038%20(x64).exe"
+    },
+    {
       "slug": "4k-slideshow-maker/darwin",
       "name": "4K Slideshow Maker",
       "platform": "darwin",
@@ -42,6 +49,13 @@
       "platform": "darwin",
       "version": "4.9.0",
       "installerUrl": "https://dl.4kdownload.com/app/4kstogram_4.9.0_arm64.dmg"
+    },
+    {
+      "slug": "4k-video-downloader-plus/windows",
+      "name": "4K Video Downloader+",
+      "platform": "windows",
+      "version": "26.1.1.355",
+      "installerUrl": "https://dl.4kdownload.com/app/4kvideodownloaderplus_26.1.1_x64_offline.exe?source=website"
     },
     {
       "slug": "4k-video-downloader/darwin",
@@ -3036,8 +3050,8 @@
       "slug": "gdevelop/darwin",
       "name": "GDevelop",
       "platform": "darwin",
-      "version": "",
-      "installerUrl": ""
+      "version": "5.6.273",
+      "installerUrl": "https://github.com/4ian/GDevelop/releases/download/v5.6.273/GDevelop-5-5.6.273-universal.dmg"
     },
     {
       "slug": "gdevelop/windows",
@@ -3589,8 +3603,8 @@
       "slug": "imazing-converter/darwin",
       "name": "iMazing Converter",
       "platform": "darwin",
-      "version": "",
-      "installerUrl": ""
+      "version": "2.0.13",
+      "installerUrl": "https://downloads.imazing.com/mac/iMazing-Converter/2.0.13.579/iMazing_Converter_2.0.13.579.dmg"
     },
     {
       "slug": "imazing-profile-editor/darwin",
@@ -4086,8 +4100,8 @@
       "slug": "latest/darwin",
       "name": "Latest",
       "platform": "darwin",
-      "version": "",
-      "installerUrl": ""
+      "version": "0.11",
+      "installerUrl": "https://max.codes/latest/0.11.zip"
     },
     {
       "slug": "launchbar/darwin",
@@ -5444,8 +5458,8 @@
       "slug": "only-switch/darwin",
       "name": "OnlySwitch",
       "platform": "darwin",
-      "version": "2.6.9",
-      "installerUrl": "https://github.com/jacklandrin/OnlySwitch/releases/download/release_2.6.9/OnlySwitch.dmg"
+      "version": "",
+      "installerUrl": ""
     },
     {
       "slug": "onlyoffice/darwin",

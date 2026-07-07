@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: July 7, 2026 at 12:32 PM CDT</p>
+            Last updated: July 7, 2026 at 2:56 PM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: July 7, 2026 at 12:32 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: July 7, 2026 at 2:56 PM CDT</p>
             </div>
         </div>
     </div>
@@ -1642,7 +1642,7 @@
             1262,
             1262,
             1263,
-            1263
+            1265
           ],
           "additions": [
             20,
@@ -2135,7 +2135,7 @@
             0,
             0,
             1,
-            0
+            2
           ],
           "macCounts": [
             20,
@@ -3121,7 +3121,7 @@
             302,
             302,
             303,
-            303
+            305
           ],
           "growthDates": [
             "2025-03-04",
@@ -3207,7 +3207,8 @@
             "2026-06-17",
             "2026-06-18",
             "2026-06-19",
-            "2026-07-06"
+            "2026-07-06",
+            "2026-07-07"
           ],
           "growthCounts": [
             20,
@@ -3293,7 +3294,8 @@
             1255,
             1257,
             1262,
-            1263
+            1263,
+            1265
           ],
           "growthAdditions": [
             20,
@@ -3379,7 +3381,8 @@
             1,
             2,
             5,
-            1
+            1,
+            2
           ]
         };
         
@@ -3444,6 +3447,14 @@
                 }
               },
               {
+                "name": "3DF Zephyr Free",
+                "slug": "3df-zephyr-free/windows",
+                "platform": "windows",
+                "description": "3DF Zephyr Free is the free edition of 3Dflow's photogrammetry software for reconstructing 3D models from photos.",
+                "version": "8.038",
+                "installerUrl": "https://3df-eu.fra1.digitaloceanspaces.com/8.038/3DF%20Zephyr%20Free%20v8.038%20(x64).exe"
+              },
+              {
                 "name": "4K Slideshow Maker",
                 "slug": "4k-slideshow-maker/darwin",
                 "platform": "darwin",
@@ -3466,6 +3477,14 @@
                   "sha256": "dc51d9120b9980b8b71f9ecd19e7fe344fc7720559a6fb0e8d8fad5e0535f5d6",
                   "lastUpdated": "2026-06-11T05:43:29Z"
                 }
+              },
+              {
+                "name": "4K Video Downloader+",
+                "slug": "4k-video-downloader-plus/windows",
+                "platform": "windows",
+                "description": "4K Video Downloader+ is an app for downloading videos and playlists from popular sites in high quality.",
+                "version": "26.1.1.355",
+                "installerUrl": "https://dl.4kdownload.com/app/4kvideodownloaderplus_26.1.1_x64_offline.exe?source=website"
               },
               {
                 "name": "4K Video Downloader",
@@ -20450,7 +20469,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `July 7, 2026 at 12:32 PM CDT`;
+                let timestampText = 'Last updated: ' + `July 7, 2026 at 2:56 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
