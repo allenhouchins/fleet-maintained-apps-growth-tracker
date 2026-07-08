@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T18:21:52Z",
+  "lastUpdated": "2026-07-08T20:24:51Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -224,6 +224,13 @@
       "platform": "darwin",
       "version": "18.4.1",
       "installerUrl": "https://download.adobe.com/pub/adobe/dng/mac/DNGConverter_18_4_1.dmg"
+    },
+    {
+      "slug": "advanced-installer/windows",
+      "name": "Advanced Installer",
+      "platform": "windows",
+      "version": "23.8",
+      "installerUrl": "https://storage.advancedupdater.cloud/downloads/23.8/advinst.msi"
     },
     {
       "slug": "advanced-renamer/darwin",
@@ -1500,6 +1507,13 @@
       "installerUrl": "https://github.com/CellProfiler/CellProfiler/releases/download/v4.2.8/CellProfiler-macOS-4.2.8.zip"
     },
     {
+      "slug": "certify-the-web/windows",
+      "name": "Certify The Web",
+      "platform": "windows",
+      "version": "7.1.0",
+      "installerUrl": "https://downloads.certifytheweb.com/release/7.1.0.0/certify-ccm-windows-x64-7.1.0.0.exe"
+    },
+    {
       "slug": "chalk/darwin",
       "name": "Chalk",
       "platform": "darwin",
@@ -1519,6 +1533,13 @@
       "platform": "darwin",
       "version": "1.44",
       "installerUrl": "https://charmstone.app/downloads/Charmstone1.44.dmg"
+    },
+    {
+      "slug": "chatbox/windows",
+      "name": "Chatbox",
+      "platform": "windows",
+      "version": "1.21.1",
+      "installerUrl": "https://download.chatboxai.app/releases/Chatbox-1.21.1-Setup.exe"
     },
     {
       "slug": "chatgpt-atlas/darwin",
@@ -1619,6 +1640,13 @@
       "installerUrl": "https://binaries.webex.com/jabberclientwindows/20260527035625/CiscoJabberSetup.msi"
     },
     {
+      "slug": "cisco-webex-recorder-and-player/windows",
+      "name": "Cisco Webex Recorder and Player",
+      "platform": "windows",
+      "version": "45.6.4.8",
+      "installerUrl": "https://welcome.webex.com/client/T33L/atrecply.msi"
+    },
+    {
       "slug": "citrix-workspace/darwin",
       "name": "Citrix Workspace",
       "platform": "darwin",
@@ -1703,6 +1731,13 @@
       "installerUrl": "https://download.jetbrains.com/cpp/CLion-2026.1.4.exe"
     },
     {
+      "slug": "clipboardfusion/windows",
+      "name": "ClipboardFusion",
+      "platform": "windows",
+      "version": "6.3.0.0",
+      "installerUrl": "https://binaryfortressdownloads.com/Download/BFSFiles/104/ClipboardFusionSetup-6.3c.exe"
+    },
+    {
       "slug": "clipbook/darwin",
       "name": "ClipBook",
       "platform": "darwin",
@@ -1722,6 +1757,13 @@
       "platform": "darwin",
       "version": "1.3.0",
       "installerUrl": "https://github.com/Clipy/Clipy/releases/download/1.3.0/Clipy_1.3.0.dmg"
+    },
+    {
+      "slug": "clockassist/windows",
+      "name": "ClockAssist",
+      "platform": "windows",
+      "version": "1.1.9666.14975",
+      "installerUrl": "https://clockassist-downloads.s3.eu-central-1.amazonaws.com/partners/clockassist/installer/Setup.msi"
     },
     {
       "slug": "clocker/darwin",
@@ -1806,6 +1848,13 @@
       "platform": "darwin",
       "version": "0.3.6",
       "installerUrl": "https://github.com/CodeEditApp/CodeEdit/releases/download/v0.3.6/CodeEdit.dmg"
+    },
+    {
+      "slug": "codemeter-runtime-kit/windows",
+      "name": "CodeMeter Runtime Kit",
+      "platform": "windows",
+      "version": "9.00.8031.500",
+      "installerUrl": "https://www.wibu.com/support/user/user-software/file/download/17494.html?tx_wibudownloads_downloadlist[directDownload]=directDownload\u0026cHash=8dba7ab094dec6267346f04fce2a2bcd"
     },
     {
       "slug": "coderunner/darwin",
@@ -1927,6 +1976,13 @@
       "installerUrl": "https://github.com/coteditor/CotEditor/releases/download/7.0.6/CotEditor_7.0.6.dmg"
     },
     {
+      "slug": "cpu-z/windows",
+      "name": "CPU-Z",
+      "platform": "windows",
+      "version": "2.20",
+      "installerUrl": "https://download.cpuid.com/cpu-z/cpu-z_2.20-en.exe"
+    },
+    {
       "slug": "crashplan/darwin",
       "name": "CrashPlan",
       "platform": "darwin",
@@ -1941,11 +1997,32 @@
       "installerUrl": "https://download.crashplan.com/installs/agent/cloud/11.9.1/19/install/CrashPlan_11.9.1_19_Win64.msi"
     },
     {
+      "slug": "creative-force-kelvin/windows",
+      "name": "Creative Force Kelvin",
+      "platform": "windows",
+      "version": "6.5.0",
+      "installerUrl": "https://download.creativeforce.io/released-files.042024/prod/kelvin/win/Kelvin-6.5.0-win.msi"
+    },
+    {
+      "slug": "creative-force-triad/windows",
+      "name": "Creative Force Triad",
+      "platform": "windows",
+      "version": "4.4.0",
+      "installerUrl": "https://download.creativeforce.io/released-files.042024/prod/triad/win/Triad-4.4.0-win.exe"
+    },
+    {
       "slug": "cribl-edge/windows",
       "name": "Cribl Edge",
       "platform": "windows",
       "version": "4.18.2",
       "installerUrl": "https://cdn.cribl.io/dl/4.18.2/cribl-4.18.2-fd1f0d2f-win32-x64.msi"
+    },
+    {
+      "slug": "crisisgo/windows",
+      "name": "CrisisGo",
+      "platform": "windows",
+      "version": "6.34.2.12397",
+      "installerUrl": "https://crisisgoapp.s3.amazonaws.com/Windows/CrisisGo_6.34.2.msi"
     },
     {
       "slug": "crossover/darwin",
@@ -1974,6 +2051,13 @@
       "platform": "darwin",
       "version": "2.2.0",
       "installerUrl": "https://github.com/TuringSoftware/CrystalFetch/releases/download/v2.2.0/CrystalFetch.dmg"
+    },
+    {
+      "slug": "cube-browser/windows",
+      "name": "Cube Browser",
+      "platform": "windows",
+      "version": "2.6.62",
+      "installerUrl": "https://www.datocms-assets.com/75979/1782812533-cubebrowsersetup_x64_2_6_62.exe"
     },
     {
       "slug": "cursor/darwin",
@@ -2009,6 +2093,13 @@
       "platform": "darwin",
       "version": "1.3",
       "installerUrl": "https://dl.houdah.com/customShortcuts/updates/cast_assets/CustomShortcuts1.3.zip"
+    },
+    {
+      "slug": "cyberduck-cli/windows",
+      "name": "Cyberduck CLI",
+      "platform": "windows",
+      "version": "9.2.0.43571",
+      "installerUrl": "https://dist.duck.sh/duck-9.2.0.43571.msi"
     },
     {
       "slug": "cyberduck/darwin",
@@ -2077,8 +2168,8 @@
       "slug": "dataflare/darwin",
       "name": "Dataflare",
       "platform": "darwin",
-      "version": "",
-      "installerUrl": ""
+      "version": "3.1.3",
+      "installerUrl": "https://assets.dataflare.app/release/darwin/aarch64/Dataflare-3.1.3.dmg"
     },
     {
       "slug": "dataflare/windows",
