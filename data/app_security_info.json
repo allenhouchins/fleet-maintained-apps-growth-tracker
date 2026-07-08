@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T16:38:44Z",
+  "lastUpdated": "2026-07-08T16:47:05Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -257,9 +257,12 @@
     {
       "slug": "adobe-dng-converter/darwin",
       "name": "Adobe DNG Converter",
-      "version": "18.4",
-      "sha256": "6145174fefe523bb9f4ab6444a6edc898206ac5502b76c7de2748f2290745862",
-      "lastUpdated": "2026-06-18T17:18:15Z"
+      "version": "18.4.1",
+      "sha256": "f1ba47718e653f996c42681b7bf38158f949f0efb4649398423164677908230d",
+      "cdhash": "a1993395ac8a4dfd43f935bdf72e3e659324f368",
+      "signingId": "JQ525L2MZD:com.adobe.DNGConverter",
+      "teamId": "JQ525L2MZD",
+      "lastUpdated": "2026-07-08T16:39:42Z"
     },
     {
       "slug": "advanced-renamer/darwin",
@@ -668,9 +671,12 @@
     {
       "slug": "amazon-workspaces/darwin",
       "name": "Amazon WorkSpaces",
-      "version": "5.32.0.6080",
-      "sha256": "6dceb571e377e76139579716ce102d1dfaa27438bd5c43d8e609492e11b66553",
-      "lastUpdated": "2026-06-01T15:15:21Z"
+      "version": "5.33.0.6168",
+      "sha256": "247d4af66e54e0395a35decf77ffcbc00e1066484d72eb1faf188aa50c4239a9",
+      "cdhash": "1caf6982e26fa3a21078ad9f47ce92b7217029bf",
+      "signingId": "94KV3E626L:com.amazon.workspaces",
+      "teamId": "94KV3E626L",
+      "lastUpdated": "2026-07-08T16:41:51Z"
     },
     {
       "slug": "amazon-workspaces/windows",
@@ -1267,9 +1273,12 @@
     {
       "slug": "bezel/darwin",
       "name": "Bezel",
-      "version": "4.6.0",
-      "sha256": "b957fab261e828165cf9e73abf2e74f2dfb957a8ec3c2c73eaaaa33373834ca0",
-      "lastUpdated": "2026-06-29T19:41:39Z"
+      "version": "4.7.0",
+      "sha256": "3bb032c6f2eb0690b8a05471c99ef5cbffda4362d730a6f9bf8c6f5e277168d0",
+      "cdhash": "4bf53d3f8792cf29cf9702f8f41718b9ededf9a0",
+      "signingId": "WT5N9FK54M:com.nonstrict.Bezel-direct",
+      "teamId": "WT5N9FK54M",
+      "lastUpdated": "2026-07-08T16:43:39Z"
     },
     {
       "slug": "bibdesk/darwin",
@@ -1318,16 +1327,22 @@
     {
       "slug": "bitbox/darwin",
       "name": "BitBox",
-      "version": "4.51.0",
-      "sha256": "dd86ae7f64d835c00f668051cb9c6e81387a28fa7f32f7ff6f8a81bad76ccc82",
-      "lastUpdated": "2026-06-10T21:48:37Z"
+      "version": "4.51.2",
+      "sha256": "dd7eadbc672c2cbc8e57ad5b45378f2faf00bec37e87123d0fe01d8a97858c4e",
+      "cdhash": "3ad2caed773ce3bcde41e8fa2dd46bec4df4e29a",
+      "signingId": "XK248TQN88:ch.shiftcrypto.wallet",
+      "teamId": "XK248TQN88",
+      "lastUpdated": "2026-07-08T16:44:17Z"
     },
     {
       "slug": "bitrix24/darwin",
       "name": "Bitrix24",
-      "version": "22.0.28.91",
-      "sha256": "99d1b4cc09af42612a613c93cf94bab0a80e2320d158e02cd3e0686d721c9ea4",
-      "lastUpdated": "2026-06-10T21:49:25Z"
+      "version": "23.0.32.91",
+      "sha256": "0c2439fbc7b51fafa917ea105d082a9dd44bdd6d4c75b0d22e1ea0a8ca556603",
+      "cdhash": "9357f5a60f4b89cd386feff6e2f2aefcfa46ea3a",
+      "signingId": "5B3T3A994N:com.bitrixsoft.bitrix24desktop",
+      "teamId": "5B3T3A994N",
+      "lastUpdated": "2026-07-08T16:45:04Z"
     },
     {
       "slug": "bitwarden/darwin",
@@ -1351,9 +1366,12 @@
     {
       "slug": "bitwig-studio/darwin",
       "name": "Bitwig Studio",
-      "version": "6.0.6",
-      "sha256": "ae5044db7786cd29cad544410b7eec5b2a08659be9c341d5f040cfaeb15c36c1",
-      "lastUpdated": "2026-06-10T21:50:04Z"
+      "version": "6.0.11",
+      "sha256": "9e0f4c6ba6e5ad9b6d2a129d466dc8d4f75114dcd80b1745866057686d00d601",
+      "cdhash": "2aec09f6824b2baa358330e8c914392672d205da",
+      "signingId": "2B6K987585:com.bitwig.studio",
+      "teamId": "2B6K987585",
+      "lastUpdated": "2026-07-08T16:45:44Z"
     },
     {
       "slug": "bitwig-studio/windows",
@@ -1697,9 +1715,12 @@
     {
       "slug": "capto/darwin",
       "name": "Capto",
-      "version": "2.1.5",
-      "sha256": "f129f682afa8e3d60159414754e6ad452ffa5ada2388d7b54ab2fb663d1b2fcf",
-      "lastUpdated": "2026-06-09T21:34:03Z"
+      "version": "2.1.6",
+      "sha256": "e95e366dd91dbd6d58b18eae376f154d17245d56209dad1cb686c647297d580c",
+      "cdhash": "6bfa32ae9d8209308623a2e828fe7c71c3f0574d",
+      "signingId": "U4MRT5KL8R:com.globaldelight.Capto",
+      "teamId": "U4MRT5KL8R",
+      "lastUpdated": "2026-07-08T16:46:09Z"
     },
     {
       "slug": "carbon-copy-cloner/darwin",
@@ -1878,9 +1899,12 @@
     {
       "slug": "claude/darwin",
       "name": "Claude",
-      "version": "1.18286.2",
-      "sha256": "168d60b538f93264e6d85ba7f0ea2085e76f1c86eb426940fca239ebab03ec67",
-      "lastUpdated": "2026-07-07T20:23:30Z"
+      "version": "1.19367.0",
+      "sha256": "2086f434b70b12760818540bf87651326fdb2261c0b5c8108edf67ba9879ebce",
+      "cdhash": "9e5aaf8bde3748a936a70bc6452fd08c4ac174d7",
+      "signingId": "Q6L2SF6YDW:com.anthropic.claudefordesktop",
+      "teamId": "Q6L2SF6YDW",
+      "lastUpdated": "2026-07-08T16:46:40Z"
     },
     {
       "slug": "claude/windows",
@@ -2010,9 +2034,12 @@
     {
       "slug": "clop/darwin",
       "name": "Clop",
-      "version": "3.2.4b2",
-      "sha256": "74a9c3acfcf8462ea1810fa43b584e48f01580796094cbf4085feb7725c1b2e8",
-      "lastUpdated": "2026-07-07T08:32:08Z"
+      "version": "3.2.4b3",
+      "sha256": "77b0d4af0ed27300c29202f6cc5fdbf5959fcce730421476cfc0452efcd8b38b",
+      "cdhash": "9e366d0dcc9a3493a96eeb5346d15ce95ce1a395",
+      "signingId": "RDDXV84A73:com.lowtechguys.Clop",
+      "teamId": "RDDXV84A73",
+      "lastUpdated": "2026-07-08T16:47:03Z"
     },
     {
       "slug": "cloudflare-warp/darwin",
