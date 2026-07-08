@@ -2,141 +2,6 @@
   "changes": [
     {
       "date": "2026-06-17T19:00:04Z",
-      "appName": "Beeper",
-      "slug": "beeper/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.2.923",
-      "newVersion": "4.2.936",
-      "installerUrl": "https://beeper-desktop.download.beeper.com/builds/Beeper-4.2.936-arm64-mac.zip"
-    },
-    {
-      "date": "2026-06-17T19:00:04Z",
-      "appName": "Tor Browser",
-      "slug": "tor-browser/darwin",
-      "platform": "darwin",
-      "oldVersion": "15.0.15",
-      "newVersion": "15.0.16",
-      "installerUrl": "https://www.torproject.org/dist/torbrowser/15.0.16/tor-browser-macos-15.0.16.dmg"
-    },
-    {
-      "date": "2026-06-17T19:00:04Z",
-      "appName": "Bambu Studio",
-      "slug": "bambu-studio/darwin",
-      "platform": "darwin",
-      "oldVersion": "02.07.01.57",
-      "newVersion": "02.07.01.62",
-      "installerUrl": "https://github.com/bambulab/BambuStudio/releases/download/v02.07.01.62/Bambu_Studio_mac-v02.07.01.62-20260616174358.dmg"
-    },
-    {
-      "date": "2026-06-17T19:00:04Z",
-      "appName": "Cursor",
-      "slug": "cursor/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.7.36",
-      "newVersion": "3.7.42",
-      "installerUrl": "https://downloads.cursor.com/production/5702c9cfca656d8710fad58402fe37f14345e3ac/darwin/arm64/Cursor-darwin-arm64.zip"
-    },
-    {
-      "date": "2026-06-17T19:00:04Z",
-      "appName": "superwhisper",
-      "slug": "superwhisper/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.16.0",
-      "newVersion": "2.16.1",
-      "installerUrl": "https://builds.superwhisper.com/v2.16.1/superwhisper.zip"
-    },
-    {
-      "date": "2026-06-17T19:00:04Z",
-      "appName": "AWS Command Line Interface v2",
-      "slug": "aws-cli/windows",
-      "platform": "windows",
-      "oldVersion": "2.35.5",
-      "newVersion": "2.35.6",
-      "installerUrl": "https://awscli.amazonaws.com/AWSCLIV2-2.35.6.msi"
-    },
-    {
-      "date": "2026-06-17T19:00:04Z",
-      "appName": "Devin Desktop",
-      "slug": "devin-desktop/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.1.7",
-      "newVersion": "3.2.16",
-      "installerUrl": "https://windsurf-stable.codeiumdata.com/darwin-arm64-dmg/stable/4723f912b3f65de66cc2030b5a6e4f843b00875c/Devin-darwin-arm64-3.2.16.dmg"
-    },
-    {
-      "date": "2026-06-17T19:00:04Z",
-      "appName": "Lychee Slicer",
-      "slug": "lycheeslicer/darwin",
-      "platform": "darwin",
-      "oldVersion": "7.6.5",
-      "newVersion": "7.6.6",
-      "installerUrl": "https://mango-lychee.nyc3.cdn.digitaloceanspaces.com/LycheeSlicer-7.6.6.dmg"
-    },
-    {
-      "date": "2026-06-17T19:00:04Z",
-      "appName": "VirtualBox",
-      "slug": "virtualbox/windows",
-      "platform": "windows",
-      "oldVersion": "7.2.8",
-      "newVersion": "7.2.10",
-      "installerUrl": "https://download.virtualbox.org/virtualbox/7.2.10/VirtualBox-7.2.10-174163-Win.exe"
-    },
-    {
-      "date": "2026-06-17T19:00:04Z",
-      "appName": "QLab",
-      "slug": "qlab/darwin",
-      "platform": "darwin",
-      "oldVersion": "5.5.10",
-      "newVersion": "5.6",
-      "installerUrl": "https://qlab.app/downloads/archive/QLab-5.6.zip"
-    },
-    {
-      "date": "2026-06-17T19:00:04Z",
-      "appName": "Webex",
-      "slug": "webex/windows",
-      "platform": "windows",
-      "oldVersion": "46.5.0.35006",
-      "newVersion": "46.6.0.35178",
-      "installerUrl": "https://binaries.webex.com/WebexDesktop-Win-64-Gold/20260616154350/Webex.msi"
-    },
-    {
-      "date": "2026-06-17T19:00:04Z",
-      "appName": "Notion",
-      "slug": "notion/darwin",
-      "platform": "darwin",
-      "oldVersion": "7.21.0",
-      "newVersion": "7.22.0",
-      "installerUrl": "https://desktop-release.notion-static.com/Notion-7.22.0-arm64.dmg"
-    },
-    {
-      "date": "2026-06-17T19:00:04Z",
-      "appName": "Thunderbird",
-      "slug": "thunderbird/darwin",
-      "platform": "darwin",
-      "oldVersion": "151.0.1",
-      "newVersion": "152.0",
-      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/152.0/mac/en-US/Thunderbird%20152.0.dmg"
-    },
-    {
-      "date": "2026-06-17T19:00:04Z",
-      "appName": "TREZOR Suite",
-      "slug": "trezor-suite/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.5.2",
-      "newVersion": "26.6.1",
-      "installerUrl": "https://data.trezor.io/suite/releases/desktop/latest/Trezor-Suite-26.6.1-mac-arm64.dmg"
-    },
-    {
-      "date": "2026-06-17T19:00:04Z",
-      "appName": "Webex",
-      "slug": "webex/darwin",
-      "platform": "darwin",
-      "oldVersion": "46.5.0.35006",
-      "newVersion": "46.6.0.35178",
-      "installerUrl": "https://binaries.webex.com/webex-macos-apple-silicon/Webex.dmg"
-    },
-    {
-      "date": "2026-06-17T19:00:04Z",
       "appName": "Surfshark",
       "slug": "surfshark/darwin",
       "platform": "darwin",
@@ -8999,6 +8864,141 @@
       "oldVersion": "7.76",
       "newVersion": "7.77",
       "installerUrl": "https://www.reaper.fm/files/7.x/reaper777_x64-install.exe"
+    },
+    {
+      "date": "2026-07-08T14:18:23Z",
+      "appName": "Microsoft Visual Studio Code",
+      "slug": "visual-studio-code/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.127.0",
+      "newVersion": "1.128.0",
+      "installerUrl": "https://update.code.visualstudio.com/1.128.0/darwin-universal/stable"
+    },
+    {
+      "date": "2026-07-08T14:18:23Z",
+      "appName": "Sequel Ace",
+      "slug": "sequel-ace/darwin",
+      "platform": "darwin",
+      "oldVersion": "5.2.1",
+      "newVersion": "5.3.0",
+      "installerUrl": "https://github.com/Sequel-Ace/Sequel-Ace/releases/download/production/5.3.0-20102/Sequel-Ace-5.3.0.zip"
+    },
+    {
+      "date": "2026-07-08T14:18:23Z",
+      "appName": "WebStorm",
+      "slug": "webstorm/windows",
+      "platform": "windows",
+      "oldVersion": "2026.1.3",
+      "newVersion": "2026.1.4",
+      "installerUrl": "https://download.jetbrains.com/webstorm/WebStorm-2026.1.4.exe"
+    },
+    {
+      "date": "2026-07-08T14:18:23Z",
+      "appName": "Rive",
+      "slug": "rive/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.8.5134",
+      "newVersion": "0.8.5165",
+      "installerUrl": "https://releases.rive.app/macos/0.8.5165/Rive.dmg"
+    },
+    {
+      "date": "2026-07-08T14:18:23Z",
+      "appName": "Postman",
+      "slug": "postman/darwin",
+      "platform": "darwin",
+      "oldVersion": "12.18.2",
+      "newVersion": "12.18.3",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.18.3/osx_arm64"
+    },
+    {
+      "date": "2026-07-08T14:18:23Z",
+      "appName": "Viscosity",
+      "slug": "viscosity/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.12.1",
+      "newVersion": "1.13",
+      "installerUrl": "https://swupdate.sparklabs.com/download/mac/release/viscosity/Viscosity%201.13.dmg"
+    },
+    {
+      "date": "2026-07-08T14:18:23Z",
+      "appName": "Unity Hub",
+      "slug": "unity-hub/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.19.3",
+      "newVersion": "3.19.4",
+      "installerUrl": "https://public-cdn.cloud.unity3d.com/hub/prod/UnityHubSetup-arm64.dmg"
+    },
+    {
+      "date": "2026-07-08T14:18:23Z",
+      "appName": "Windows App",
+      "slug": "windows-app/windows",
+      "platform": "windows",
+      "oldVersion": "2.0.1186.0",
+      "newVersion": "2.0.1193.0",
+      "installerUrl": "https://res.cdn.office.net/remote-desktop-windows-client/c809cb8e-ad7a-4226-af29-fbfe26cdbce0/WindowsApp_x64_Release_2.0.1193.0.msix"
+    },
+    {
+      "date": "2026-07-08T14:18:23Z",
+      "appName": "RubyMine",
+      "slug": "rubymine/windows",
+      "platform": "windows",
+      "oldVersion": "2026.1.3",
+      "newVersion": "2026.1.4",
+      "installerUrl": "https://download.jetbrains.com/ruby/RubyMine-2026.1.4.exe"
+    },
+    {
+      "date": "2026-07-08T14:18:23Z",
+      "appName": "RightFont",
+      "slug": "rightfont/darwin",
+      "platform": "darwin",
+      "oldVersion": "10.0.1",
+      "newVersion": "10.1",
+      "installerUrl": "https://rightfontapp.com/update/rightfont.zip"
+    },
+    {
+      "date": "2026-07-08T14:18:23Z",
+      "appName": "TablePlus",
+      "slug": "tableplus/windows",
+      "platform": "windows",
+      "oldVersion": "7.1.4",
+      "newVersion": "26.6.0",
+      "installerUrl": "https://files.tableplus.com/windows/26.6.0/TablePlusSetup.exe"
+    },
+    {
+      "date": "2026-07-08T14:18:23Z",
+      "appName": "Postman",
+      "slug": "postman/windows",
+      "platform": "windows",
+      "oldVersion": "12.18.1",
+      "newVersion": "12.18.3",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.18.3/windows_64"
+    },
+    {
+      "date": "2026-07-08T14:18:23Z",
+      "appName": "PhpStorm",
+      "slug": "phpstorm/windows",
+      "platform": "windows",
+      "oldVersion": "2026.1.3",
+      "newVersion": "2026.1.4",
+      "installerUrl": "https://download.jetbrains.com/webide/PhpStorm-2026.1.4.exe"
+    },
+    {
+      "date": "2026-07-08T14:18:23Z",
+      "appName": "Viscosity",
+      "slug": "viscosity/windows",
+      "platform": "windows",
+      "oldVersion": "1.12.1.1857",
+      "newVersion": "1.13.0.1877",
+      "installerUrl": "https://swupdate.sparklabs.com/download/win/release/viscosity/Viscosity%20Installer%201.13.exe"
+    },
+    {
+      "date": "2026-07-08T14:18:23Z",
+      "appName": "Readest",
+      "slug": "readest/windows",
+      "platform": "windows",
+      "oldVersion": "0.11.17",
+      "newVersion": "0.11.18",
+      "installerUrl": "https://github.com/readest/readest/releases/download/v0.11.18/Readest_0.11.18_x64-setup.exe"
     }
   ]
 }
