@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T20:31:45Z",
+  "lastUpdated": "2026-07-08T20:33:19Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1794,6 +1794,18 @@
       "lastUpdated": "2026-06-09T21:35:32Z"
     },
     {
+      "slug": "certify-the-web/windows",
+      "name": "Certify The Web",
+      "version": "7.1.0",
+      "sha256": "0b1b90cde6308f3446af04f55398c56a7fc55b82a22aeb64f3543e0cb2013bce",
+      "publisher": "CN=Webprofusion Pty Ltd, O=Webprofusion Pty Ltd, S=Western Australia, C=AU",
+      "issuer": "CN=Sectigo Public Code Signing CA R36, O=Sectigo Limited, C=GB",
+      "serialNumber": "00E880BC895ED938CF535BB4E88DD41C6C",
+      "thumbprint": "D060FBB58AD364EAF77FF3B269DB35B03CACF6B5",
+      "timestamp": "CN=Sectigo Public Time Stamping Signer R37, O=Sectigo Limited, S=Greater London, C=GB",
+      "lastUpdated": "2026-07-08T20:31:58Z"
+    },
+    {
       "slug": "chalk/darwin",
       "name": "Chalk",
       "version": "1.7.5",
@@ -1813,6 +1825,18 @@
       "version": "1.44",
       "sha256": "88416354fe2f0e6419223fc9360e32fe0f8aeef1468fb53834388d6c2a686716",
       "lastUpdated": "2026-06-09T21:36:19Z"
+    },
+    {
+      "slug": "chatbox/windows",
+      "name": "Chatbox",
+      "version": "1.21.1",
+      "sha256": "6eee2f536ba32336042fc7bdc6f2f90bb1d2c68ad24b3117d6f4689280c5e55c",
+      "publisher": "CN=\"Mediocre, LLC\", O=\"Mediocre, LLC\", L=NEWARK, S=DELAWARE, C=US, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=10053229, OID.2.5.4.15=Private Organization",
+      "issuer": "CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
+      "serialNumber": "44700F2E934C58424E9B6606",
+      "thumbprint": "5DEDBB1C58FED1BB8FDE1DD6A807C931394AEF7D",
+      "timestamp": "CN=Globalsign R45 TSA for CodeSign 202510, O=GlobalSign nv-sa, C=BE",
+      "lastUpdated": "2026-07-08T20:32:04Z"
     },
     {
       "slug": "chatgpt-atlas/darwin",
@@ -1926,6 +1950,18 @@
       "lastUpdated": "2026-06-02T13:35:38Z"
     },
     {
+      "slug": "cisco-webex-recorder-and-player/windows",
+      "name": "Cisco Webex Recorder and Player",
+      "version": "45.6.4.8",
+      "sha256": "b6cd26c4050d79721d21f69033a0f683ce9c1f46e0208e7c74bc939e9469e26f",
+      "publisher": "CN=Cisco WebEx LLC, OU=Cisco WebEx LLC, O=Cisco WebEx LLC, L=San Jose, S=California, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0BF9C53F4940A1007ECD82CFF2400D70",
+      "thumbprint": "80F11B6F7D4261CF04E8E6F276479C5A36CD04F7",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-07-08T20:32:32Z"
+    },
+    {
       "slug": "citrix-workspace/darwin",
       "name": "Citrix Workspace",
       "version": "26.03.11",
@@ -2025,6 +2061,18 @@
       "lastUpdated": "2026-07-03T15:26:06Z"
     },
     {
+      "slug": "clipboardfusion/windows",
+      "name": "ClipboardFusion",
+      "version": "6.3.0.0",
+      "sha256": "a3e96f2e2fdb6136c43a775843b24acb8ba16e6acbc2c3c9a03c0e29bea08304",
+      "publisher": "CN=Binary Fortress Software Ltd., O=Binary Fortress Software Ltd., L=Kanata, S=Ontario, C=CA",
+      "issuer": "CN=Microsoft ID Verified CS AOC CA 02, O=Microsoft Corporation, C=US",
+      "serialNumber": "330006941423587C4E3B07F3C7000000069414",
+      "thumbprint": "A1F8169E717F2D086EB3D2B002A4BD580F4E7C2B",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7800-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-07-08T20:32:35Z"
+    },
+    {
       "slug": "clipbook/darwin",
       "name": "ClipBook",
       "version": "1.36.0",
@@ -2044,6 +2092,13 @@
       "version": "1.3.0",
       "sha256": "fcd8fe0100fe51315c3752527e5959df72cb52c1c260fcb0d9be125e86ce9eb7",
       "lastUpdated": "2026-06-22T19:18:44Z"
+    },
+    {
+      "slug": "clockassist/windows",
+      "name": "ClockAssist",
+      "version": "1.1.9666.14975",
+      "sha256": "015ce3fee455c922e05b0e813b7cb140a9ba04f7f768e8cbea878c2d28105d03",
+      "lastUpdated": "2026-07-08T20:32:41Z"
     },
     {
       "slug": "clocker/darwin",
@@ -2143,6 +2198,18 @@
       "version": "0.3.6",
       "sha256": "cb2dd7f72026652d098b654c0e98463d2c7c28077caeff0d595bcb683c9bf632",
       "lastUpdated": "2026-06-09T21:48:00Z"
+    },
+    {
+      "slug": "codemeter-runtime-kit/windows",
+      "name": "CodeMeter Runtime Kit",
+      "version": "9.00.8031.500",
+      "sha256": "7c917247a0de81bbfa5b4c155467a884d3b7a6c672315a0f33f5d4f8a93a3030",
+      "publisher": "CN=WIBU-SYSTEMS AG, O=WIBU-SYSTEMS AG, L=Karlsruhe, S=Baden-Württemberg, C=DE, SERIALNUMBER=HRB 107315, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.1=Mannheim, OID.1.3.6.1.4.1.311.60.2.1.2=Baden-Württemberg, OID.1.3.6.1.4.1.311.60.2.1.3=DE",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0F3C7CBDA52DD902E9B6CE1D18146087",
+      "thumbprint": "00CAE2111EA42190E10C95BCAAFF360B9E734D7C",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-07-08T20:32:48Z"
     },
     {
       "slug": "coderunner/darwin",
@@ -2274,6 +2341,18 @@
       "lastUpdated": "2026-07-05T19:26:22Z"
     },
     {
+      "slug": "cpu-z/windows",
+      "name": "CPU-Z",
+      "version": "2.20",
+      "sha256": "fb1e0ce5c019bad7f1343103e514858e19fce05abcb18bc6bc870f243a3c2b24",
+      "publisher": "CN=CPUID, O=CPUID, S=Nord, C=FR, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=FR, SERIALNUMBER=493 590 202 00047",
+      "issuer": "CN=Sectigo Public Code Signing CA EV R36, O=Sectigo Limited, C=GB",
+      "serialNumber": "00A65D6F191C7D2D225C59DA6D93137A70",
+      "thumbprint": "E97BB2A8E06B8E255755B8DE94158A663F94729F",
+      "timestamp": "CN=Sectigo Public Time Stamping Signer R36, O=Sectigo Limited, S=West Yorkshire, C=GB",
+      "lastUpdated": "2026-07-08T20:32:51Z"
+    },
+    {
       "slug": "crashplan/darwin",
       "name": "CrashPlan",
       "version": "12.0.0",
@@ -2291,6 +2370,30 @@
       "thumbprint": "330A4484DEEA95A7ACCB8E01635AC63F7908E5CC",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-04-03T17:52:23Z"
+    },
+    {
+      "slug": "creative-force-kelvin/windows",
+      "name": "Creative Force Kelvin",
+      "version": "6.5.0",
+      "sha256": "6215175101a3e71b71861d17a878f6884ea8a30c59e87e1f85f911b9902a229c",
+      "publisher": "CN=\"Creativeforce.io, Inc.\", O=\"Creativeforce.io, Inc.\", L=Boston, S=Massachusetts, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0A011956BE734C80A90663B4F31296CF",
+      "thumbprint": "16E9B29019D627675CDFC53CD4A9FFF36F4B17D2",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-07-08T20:33:14Z"
+    },
+    {
+      "slug": "creative-force-triad/windows",
+      "name": "Creative Force Triad",
+      "version": "4.4.0",
+      "sha256": "cfbcfe1b83273679dcb14e4d452c2ad44efde1c34b1c6661151565b34cb3378b",
+      "publisher": "CN=\"Creativeforce.io, Inc.\", O=\"Creativeforce.io, Inc.\", L=Boston, S=Massachusetts, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0A011956BE734C80A90663B4F31296CF",
+      "thumbprint": "16E9B29019D627675CDFC53CD4A9FFF36F4B17D2",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-07-08T20:33:19Z"
     },
     {
       "slug": "cribl-edge/windows",
