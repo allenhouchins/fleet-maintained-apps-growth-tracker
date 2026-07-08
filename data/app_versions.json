@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T14:18:23Z",
+  "lastUpdated": "2026-07-08T16:37:17Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -222,8 +222,8 @@
       "slug": "adobe-dng-converter/darwin",
       "name": "Adobe DNG Converter",
       "platform": "darwin",
-      "version": "18.4",
-      "installerUrl": "https://download.adobe.com/pub/adobe/dng/mac/DNGConverter_18_4.dmg"
+      "version": "18.4.1",
+      "installerUrl": "https://download.adobe.com/pub/adobe/dng/mac/DNGConverter_18_4_1.dmg"
     },
     {
       "slug": "advanced-renamer/darwin",
@@ -954,6 +954,13 @@
       "installerUrl": "https://github.com/bambulab/BambuStudio/releases/download/v02.07.01.62/Bambu_Studio_mac-v02.07.01.62-20260616174358.dmg"
     },
     {
+      "slug": "bandiview/windows",
+      "name": "BandiView",
+      "platform": "windows",
+      "version": "7.27",
+      "installerUrl": "https://bandisoft.app/bandiview/BANDIVIEW-SETUP-X64.EXE"
+    },
+    {
       "slug": "bartender/darwin",
       "name": "Bartender",
       "platform": "darwin",
@@ -1104,8 +1111,8 @@
       "slug": "bitbox/darwin",
       "name": "BitBox",
       "platform": "darwin",
-      "version": "4.51.0",
-      "installerUrl": "https://github.com/BitBoxSwiss/bitbox-wallet-app/releases/download/v4.51.0/BitBox-4.51.0-macOS.dmg"
+      "version": "4.51.2",
+      "installerUrl": "https://github.com/BitBoxSwiss/bitbox-wallet-app/releases/download/v4.51.2/BitBox-4.51.2-macOS.dmg"
     },
     {
       "slug": "bitrix24/darwin",
@@ -1141,6 +1148,13 @@
       "platform": "windows",
       "version": "6.0.6",
       "installerUrl": "https://www.bitwig.com/dl/Bitwig%20Studio/6.0.6/installer_windows/"
+    },
+    {
+      "slug": "bleachbit/windows",
+      "name": "BleachBit",
+      "platform": "windows",
+      "version": "6.0.2.3702",
+      "installerUrl": "https://download.bleachbit.org/BleachBit-6.0.2-setup.exe"
     },
     {
       "slug": "blender/darwin",
@@ -1276,6 +1290,13 @@
       "installerUrl": "https://studio.download.bricklink.info/Studio2.0/Archive/2.26.6_1/Studio+2.0.pkg"
     },
     {
+      "slug": "browserstacklocal/windows",
+      "name": "BrowserStackLocal",
+      "platform": "windows",
+      "version": "3.7.6",
+      "installerUrl": "https://www.browserstack.com/local-testing/downloads/native-app/BrowserStackLocal.msi"
+    },
+    {
       "slug": "bruno/darwin",
       "name": "Bruno",
       "platform": "darwin",
@@ -1290,6 +1311,13 @@
       "installerUrl": "https://github.com/usebruno/bruno/releases/download/v3.5.1/bruno_3.5.1_x64_win.msi"
     },
     {
+      "slug": "bulk-crap-uninstaller/windows",
+      "name": "Bulk Crap Uninstaller",
+      "platform": "windows",
+      "version": "6.2",
+      "installerUrl": "https://github.com/BCUninstaller/Bulk-Crap-Uninstaller/releases/download/v6.2/BCUninstaller_6.2.0_setup.exe"
+    },
+    {
       "slug": "bunch/darwin",
       "name": "Bunch",
       "platform": "darwin",
@@ -1302,6 +1330,13 @@
       "platform": "windows",
       "version": "2026.3.3",
       "installerUrl": "https://portswigger-cdn.net/burp/releases/download?product=community\u0026version=2026.3.3\u0026type=WindowsX64"
+    },
+    {
+      "slug": "burp-suite-professional/windows",
+      "name": "Burp Suite Professional",
+      "platform": "windows",
+      "version": "2026.3.3",
+      "installerUrl": "https://portswigger-cdn.net/burp/releases/download?product=pro\u0026version=2026.3.3\u0026type=WindowsX64"
     },
     {
       "slug": "burp-suite/darwin",
@@ -1433,7 +1468,7 @@
       "slug": "capto/darwin",
       "name": "Capto",
       "platform": "darwin",
-      "version": "2.1.5",
+      "version": "2.1.6",
       "installerUrl": "https://d3l6g06uqih57x.cloudfront.net/Captomac/webstore/Capto.dmg"
     },
     {
@@ -1944,8 +1979,8 @@
       "slug": "cursor/darwin",
       "name": "Cursor",
       "platform": "darwin",
-      "version": "3.10.17",
-      "installerUrl": "https://downloads.cursor.com/production/c89f45b831621cdc5e951694db44fecd8fab1150/darwin/arm64/Cursor-darwin-arm64.zip"
+      "version": "3.10.20",
+      "installerUrl": "https://downloads.cursor.com/production/23b9fb205fe595ea2be29da7214e19762d037fc3/darwin/arm64/Cursor-darwin-arm64.zip"
     },
     {
       "slug": "cursor/windows",
@@ -2490,8 +2525,8 @@
       "slug": "dropshare/darwin",
       "name": "Dropshare",
       "platform": "darwin",
-      "version": "6.13",
-      "installerUrl": "https://d2wvuuix8c9e48.cloudfront.net/Dropshare6-6249.app.zip"
+      "version": "6.14",
+      "installerUrl": "https://d2wvuuix8c9e48.cloudfront.net/Dropshare6-6257.app.zip"
     },
     {
       "slug": "dropzone/darwin",
@@ -2833,8 +2868,8 @@
       "slug": "fastmail/darwin",
       "name": "Fastmail",
       "platform": "darwin",
-      "version": "1.3.0",
-      "installerUrl": "https://dl.fastmailcdn.com/desktop/production/mac/arm64/Fastmail-1.3.0-arm64-mac.zip"
+      "version": "1.4.0",
+      "installerUrl": "https://dl.fastmailcdn.com/desktop/production/mac/arm64/Fastmail-1.4.0-arm64-mac.zip"
     },
     {
       "slug": "fastscripts/darwin",
@@ -3281,8 +3316,8 @@
       "slug": "gitkraken/windows",
       "name": "GitKraken",
       "platform": "windows",
-      "version": "12.2.1",
-      "installerUrl": "https://api.gitkraken.dev/releases/production/windows/x64/12.2.1/GitKrakenSetup.exe"
+      "version": "12.3.0",
+      "installerUrl": "https://api.gitkraken.dev/releases/production/windows/x64/12.3.0/GitKrakenSetup.exe"
     },
     {
       "slug": "gitup-app/darwin",
@@ -3344,8 +3379,8 @@
       "slug": "goland/windows",
       "name": "GoLand",
       "platform": "windows",
-      "version": "2026.1.3",
-      "installerUrl": "https://download.jetbrains.com/go/goland-2026.1.3.exe"
+      "version": "2026.1.4",
+      "installerUrl": "https://download.jetbrains.com/go/goland-2026.1.4.exe"
     },
     {
       "slug": "goodsync/darwin",
@@ -3358,14 +3393,14 @@
       "slug": "google-chrome/darwin",
       "name": "Google Chrome",
       "platform": "darwin",
-      "version": "150.0.7871.47",
+      "version": "150.0.7871.101",
       "installerUrl": "https://dl.google.com/dl/chrome/mac/universal/stable/gcem/GoogleChrome.pkg"
     },
     {
       "slug": "google-chrome/windows",
       "name": "Google Chrome",
       "platform": "windows",
-      "version": "150.0.7871.47",
+      "version": "150.0.7871.101",
       "installerUrl": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi"
     },
     {
@@ -3400,7 +3435,7 @@
       "slug": "google-gemini/darwin",
       "name": "Google Gemini",
       "platform": "darwin",
-      "version": "1.80.18.522",
+      "version": "1.82.2.534",
       "installerUrl": "https://dl.google.com/release2/j33ro/release/Gemini.dmg"
     },
     {
@@ -4135,8 +4170,8 @@
       "slug": "krisp/darwin",
       "name": "Krisp",
       "platform": "darwin",
-      "version": "3.13.8",
-      "installerUrl": "https://cdn.krisp.ai/mp/mn/3.13/mac/Krisp_3.13.8_arm64.pkg"
+      "version": "3.13.12",
+      "installerUrl": "https://cdn.krisp.ai/mp/mn/3.13/mac/Krisp_3.13.12_arm64.pkg"
     },
     {
       "slug": "krita/darwin",
@@ -4653,8 +4688,8 @@
       "slug": "melodics/darwin",
       "name": "Melodics",
       "platform": "darwin",
-      "version": "5.0.681",
-      "installerUrl": "https://web-cdn.melodics.com/download/365F364B-A158-4B21-980F-A34DF5D9B357.zip"
+      "version": "5.0.809",
+      "installerUrl": "https://web-cdn.melodics.com/download/8925A84C-A78A-4855-B452-6E7665A1B34D.zip"
     },
     {
       "slug": "memory-cleaner/darwin",
@@ -5346,8 +5381,8 @@
       "slug": "notion/windows",
       "name": "Notion",
       "platform": "windows",
-      "version": "7.24.0",
-      "installerUrl": "https://desktop-release.notion-static.com/Notion%20Setup%207.24.0.exe"
+      "version": "7.25.0",
+      "installerUrl": "https://desktop-release.notion-static.com/Notion%20Setup%207.25.0.exe"
     },
     {
       "slug": "noun-project/darwin",
