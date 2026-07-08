@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T16:54:24Z",
+  "lastUpdated": "2026-07-08T17:04:46Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -3857,9 +3857,12 @@
     {
       "slug": "gitkraken/darwin",
       "name": "GitKraken",
-      "version": "12.2.1",
-      "sha256": "22a9043d6ae7b3757f67dce53bc04786cab6c69c287182b0e0e680aa6a32924e",
-      "lastUpdated": "2026-06-17T19:15:46Z"
+      "version": "12.3.0",
+      "sha256": "ee6e8365fcb7d9afa72c2c61eab0c028968efeeaba37ed226ba2ccdc4d98f56a",
+      "cdhash": "c79f15aa3d9c4a569e2d67de5cb6b169d87afa6c",
+      "signingId": "T7QVVUTZQ8:com.axosoft.gitkraken",
+      "teamId": "T7QVVUTZQ8",
+      "lastUpdated": "2026-07-08T16:54:51Z"
     },
     {
       "slug": "gitkraken/windows",
@@ -3956,9 +3959,12 @@
     {
       "slug": "google-chrome/darwin",
       "name": "Google Chrome",
-      "version": "150.0.7871.47",
-      "sha256": "798fb730c879ad5a38f7615b5af1df1fabee87c27ffe5f71aa571d27bf45ca50",
-      "lastUpdated": "2026-07-02T21:17:50Z"
+      "version": "150.0.7871.101",
+      "sha256": "0825d068004ee5cd8fd992a33988b06089797c788791f016d39f443cbb0cfbae",
+      "cdhash": "055498a3f536a943f5318686402a9a26ca8b47f1",
+      "signingId": "EQHXZ8M8AV:com.google.Chrome",
+      "teamId": "EQHXZ8M8AV",
+      "lastUpdated": "2026-07-08T16:55:36Z"
     },
     {
       "slug": "google-chrome/windows",
@@ -4012,10 +4018,13 @@
     },
     {
       "slug": "google-gemini/darwin",
-      "name": "Gemini",
-      "version": "1.80.18.522",
-      "sha256": "45a062b9d0b2fc141f74f00a10ffd82c4b0ed9692ef572210370c973db1562d8",
-      "lastUpdated": "2026-07-01T23:41:51Z"
+      "name": "Google Gemini",
+      "version": "1.82.2.534",
+      "sha256": "0fd90e2f29d0185bedd04a84078287096f7791f4181fd46a5969f1604e164cdc",
+      "cdhash": "1ecaec03666af3b7d53639e3546aa392bc17e643",
+      "signingId": "EQHXZ8M8AV:com.google.GeminiMacOS",
+      "teamId": "EQHXZ8M8AV",
+      "lastUpdated": "2026-07-08T16:56:02Z"
     },
     {
       "slug": "gotomeeting/darwin",
@@ -4060,9 +4069,12 @@
     {
       "slug": "grammarly-desktop/darwin",
       "name": "Grammarly Desktop",
-      "version": "1.172.1",
-      "sha256": "dc956ecc65573f208508cc5ad4147b6468b91b5902d7802045316ee217a71836",
-      "lastUpdated": "2026-07-01T05:51:54Z"
+      "version": "1.173.1",
+      "sha256": "4fde44f78b9fdfaafd441f44d330d106fcc535ffe5430cc1ffb94a4b54969b56",
+      "cdhash": "8e88d2e9c2fb91f618ef9f3cc9cedf68aeafacac",
+      "signingId": "W8F64X92K3:com.grammarly.ProjectLlama",
+      "teamId": "W8F64X92K3",
+      "lastUpdated": "2026-07-08T16:57:32Z"
     },
     {
       "slug": "grandperspective/darwin",
@@ -4203,9 +4215,12 @@
     {
       "slug": "hive-app/darwin",
       "name": "Hive",
-      "version": "1.2.9",
-      "sha256": "6ec4478d258597182258dea6c8e27b9801166ece94bc80be7f7e8a293242dc64",
-      "lastUpdated": "2026-07-07T08:37:43Z"
+      "version": "1.2.10",
+      "sha256": "0c8625b7cf278c0656b90b9c87e9e131308b7facfc62aac31840b4dc92c3da52",
+      "cdhash": "7b71ef30a9306dfe8d81c94cb3a97bb0fdcda820",
+      "signingId": "SQ65AQ9V2J:com.hive.app",
+      "teamId": "SQ65AQ9V2J",
+      "lastUpdated": "2026-07-08T16:58:45Z"
     },
     {
       "slug": "home-assistant/darwin",
@@ -4812,9 +4827,12 @@
     {
       "slug": "knime/darwin",
       "name": "KNIME Analytics Platform",
-      "version": "5.8.3",
-      "sha256": "3929ddb222451901735d7b5893a8e3e8083d8fd146727fd3c509f90446fba73f",
-      "lastUpdated": "2026-06-10T17:34:57Z"
+      "version": "5.12.0",
+      "sha256": "c9efb56893574d747c01080b3b41c6d6f69383a00bde7ca8c252ee055f49957b",
+      "cdhash": "ac06909bb6c7025e93fa2b005c46fcc75cad8b28",
+      "signingId": "V7WZJX2HS9:org.knime.desktop.product",
+      "teamId": "V7WZJX2HS9",
+      "lastUpdated": "2026-07-08T17:01:49Z"
     },
     {
       "slug": "knime/windows",
@@ -4838,9 +4856,12 @@
     {
       "slug": "krisp/darwin",
       "name": "Krisp",
-      "version": "3.13.8",
-      "sha256": "137d2806623edaffe5071ee99afdb50673c7def5746ad0bae9eb52550ece9c15",
-      "lastUpdated": "2026-06-30T19:47:57Z"
+      "version": "3.13.12",
+      "sha256": "281f9bc2ca35b015e9ef92f81a6ee973565307a773e86cd5b86d577333d54765",
+      "cdhash": "3b5983aa34de17990c028de02a47cce9e294ecbf",
+      "signingId": "U5R26XM5Z2:ai.krisp.krispMac",
+      "teamId": "U5R26XM5Z2",
+      "lastUpdated": "2026-07-08T17:03:35Z"
     },
     {
       "slug": "krita/darwin",
@@ -5225,9 +5246,12 @@
     {
       "slug": "macpacker/darwin",
       "name": "MacPacker",
-      "version": "0.15.4",
-      "sha256": "b71f31b0381585e0c30711326dfa2f11f2e0ba10489de0bfdfbe60adc40784bb",
-      "lastUpdated": "2026-06-24T11:08:41Z"
+      "version": "0.16.0",
+      "sha256": "f0389e17a79cc940252ff004e87ae3936bcc707badb912310402a730f9868091",
+      "cdhash": "0f5f239f0391d627a2b97a69e5fe0892bf945412",
+      "signingId": "ZJ2TSMMJWF:com.sarensx.MacPacker",
+      "teamId": "ZJ2TSMMJWF",
+      "lastUpdated": "2026-07-08T17:03:57Z"
     },
     {
       "slug": "macpass/darwin",
@@ -5316,9 +5340,12 @@
     {
       "slug": "marked-app/darwin",
       "name": "Marked",
-      "version": "3.1.9",
-      "sha256": "b63ee4d8268b5f8bf64180088a80016e75cd44aeecde6c4c327cd334b404f8fc",
-      "lastUpdated": "2026-07-06T12:56:25Z"
+      "version": "3.1.10",
+      "sha256": "299c069559bbff3806523c83c852e0ccecae7f53a77bf093691ba76579a6198f",
+      "cdhash": "5443947268bb32861a0c6a65f72551d22912efef",
+      "signingId": "47TRS7H4BH:com.brettterpstra.marked",
+      "teamId": "47TRS7H4BH",
+      "lastUpdated": "2026-07-08T17:04:21Z"
     },
     {
       "slug": "markedit/darwin",
@@ -5410,9 +5437,12 @@
     {
       "slug": "melodics/darwin",
       "name": "Melodics",
-      "version": "5.0.681",
-      "sha256": "bf229237048d8b2917efcb5f8e50205afe1040c5c6e387dcc4a4021b48946830",
-      "lastUpdated": "2026-06-24T13:04:55Z"
+      "version": "5.0.809",
+      "sha256": "dee2b9e3b445833c4c079e8d4f3dbb00a9df03aee2522d95c544983e9189d987",
+      "cdhash": "7cc233008772ee77891e5065fd122b35ef079133",
+      "signingId": "AW58AQVYJR:com.melodics.melodics",
+      "teamId": "AW58AQVYJR",
+      "lastUpdated": "2026-07-08T17:04:44Z"
     },
     {
       "slug": "memory-cleaner/darwin",
