@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T20:22:26Z",
+  "lastUpdated": "2026-07-09T20:29:48Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -9156,9 +9156,12 @@
     {
       "slug": "teleport-connect/darwin",
       "name": "Teleport Connect",
-      "version": "18.9.2",
-      "sha256": "f9fbbf206841b6c06c0c41532481d2bbab54a914b4990aa1cad1e139429f8092",
-      "lastUpdated": "2026-06-27T15:42:17Z"
+      "version": "18.10.0",
+      "sha256": "bfcd965c1f3b522b19f41f63907905921d58dae826c5e850bf9fcb6f7406a594",
+      "cdhash": "45c9872389fcb9a62a5dd79d2b321caee85db45e",
+      "signingId": "QH8AA5B8UP:gravitational.teleport.connect",
+      "teamId": "QH8AA5B8UP",
+      "lastUpdated": "2026-07-09T20:22:53Z"
     },
     {
       "slug": "teleport-connect/windows",
@@ -9174,22 +9177,28 @@
     {
       "slug": "teleport-suite/darwin",
       "name": "Teleport Suite",
-      "version": "18.9.2",
-      "lastUpdated": "2026-06-27T15:46:19Z",
+      "version": "18.10.0",
+      "lastUpdated": "2026-07-09T20:25:01Z",
       "apps": [
         {
           "slug": "teleport-suite/darwin/tsh",
           "name": "tsh",
-          "version": "18.9.2",
-          "sha256": "43a0ae5c70b8726455db5908c445876166c2898e79059f975443fff7ca6d918f",
-          "lastUpdated": "2026-06-27T15:46:39Z"
+          "version": "18.10.0",
+          "sha256": "15c697692a6ace68f5e90ebab04489dc919708860e7c6bb4b82b97ff5a0af7f8",
+          "cdhash": "c211028e851d4ea854f43fd32e9368d9aaceb890",
+          "signingId": "QH8AA5B8UP:QH8AA5B8UP.com.gravitational.teleport.tsh",
+          "teamId": "QH8AA5B8UP",
+          "lastUpdated": "2026-07-09T20:25:20Z"
         },
         {
           "slug": "teleport-suite/darwin/tctl",
           "name": "tctl",
-          "version": "18.9.2",
-          "sha256": "ab85687ccae235c3a9e99fb5a62684a33ba7c7d8b6e659b5d0a699acb0abb72c",
-          "lastUpdated": "2026-06-27T15:46:56Z"
+          "version": "18.10.0",
+          "sha256": "eaa3362db3ca4a4c36235309020479696a9060873b5dff56d8e30e531434dcc9",
+          "cdhash": "287275b6d96e3e5f27d6a965a39f0f1b21721479",
+          "signingId": "QH8AA5B8UP:QH8AA5B8UP.com.gravitational.teleport.tctl",
+          "teamId": "QH8AA5B8UP",
+          "lastUpdated": "2026-07-09T20:25:36Z"
         }
       ]
     },
@@ -9547,9 +9556,12 @@
     {
       "slug": "twingate/darwin",
       "name": "Twingate",
-      "version": "2026.155",
-      "sha256": "2a070d33bd016bae20eb91806fbabfea66d65bc0b28c49408e3ab43995804a14",
-      "lastUpdated": "2026-06-12T05:54:17Z"
+      "version": "2026.182",
+      "sha256": "d3ce62b142fbb19195c1bead1b1c8f163184641769ec017dced4e55f19f4caff",
+      "cdhash": "e022dbf4c3027942c53d91b3614de86bc83c843e",
+      "signingId": "6GX8KVTR9H:com.twingate.macos",
+      "teamId": "6GX8KVTR9H",
+      "lastUpdated": "2026-07-09T20:26:17Z"
     },
     {
       "slug": "twingate/windows",
@@ -9837,9 +9849,12 @@
     {
       "slug": "vivaldi/darwin",
       "name": "Vivaldi",
-      "version": "8.0.4033.57",
-      "sha256": "057873ff3f655363fd08513aefdf011fabaf46490385e9e273bbf2824a6add49",
-      "lastUpdated": "2026-07-04T03:28:49Z"
+      "version": "8.1.4087.46",
+      "sha256": "9234ff7249002721d588adaa6ecbafab85999b0de46b44fe3f77acbf481e3d21",
+      "cdhash": "340c9525d6176ac84eb1d23c16733c93ecb8f39d",
+      "signingId": "4XF3XNRN6Y:com.vivaldi.Vivaldi",
+      "teamId": "4XF3XNRN6Y",
+      "lastUpdated": "2026-07-09T20:26:57Z"
     },
     {
       "slug": "vivaldi/windows",
@@ -9905,9 +9920,12 @@
     {
       "slug": "vpn-tracker-365/darwin",
       "name": "VPN Tracker 365",
-      "version": "26.4",
-      "sha256": "4b99bf71073404746ce7edcda6dd492edbab00f5bcee0950c5961d6af8967046",
-      "lastUpdated": "2026-06-09T20:04:23Z"
+      "version": "26.5",
+      "sha256": "6a6a6813db3bc629df0ea160203331b17ce026e8ef0d2f458a476a00210fb5de",
+      "cdhash": "4540e94cd1eae5499fc39b812fe2258c8e26e320",
+      "signingId": "MJMRT6WJ8S:com.vpntracker.365mac",
+      "teamId": "MJMRT6WJ8S",
+      "lastUpdated": "2026-07-09T20:27:25Z"
     },
     {
       "slug": "vscodium/darwin",
@@ -9997,9 +10015,12 @@
     {
       "slug": "wavebox/darwin",
       "name": "Wavebox",
-      "version": "150.2.118.2",
-      "sha256": "eef5dda7343a5366efb05a6780394e7e3000e883e07655541348a1e5081c8bca",
-      "lastUpdated": "2026-07-07T08:44:16Z"
+      "version": "150.2.121.2",
+      "sha256": "2a1eba3050c12a8c5a3dd155edfbc613e4c7a6a4d425a78ff7094e71c45381d7",
+      "cdhash": "a0e7ba60702a5de50ecf8b0438fdabdcf0f297eb",
+      "signingId": "4259LE8SU5:com.bookry.wavebox",
+      "teamId": "4259LE8SU5",
+      "lastUpdated": "2026-07-09T20:27:59Z"
     },
     {
       "slug": "wealthfolio/darwin",
@@ -10011,9 +10032,12 @@
     {
       "slug": "weasis/darwin",
       "name": "Weasis",
-      "version": "4.7.0",
-      "sha256": "7d10919e77ac435f46d44d0e3d8f60ee938e8e09a5c4e5632d8c12fcba0af473",
-      "lastUpdated": "2026-06-09T17:06:20Z"
+      "version": "4.7.1",
+      "sha256": "87a5231e7fca91672e2dff2ea59a814872c962c5f2dbe426957b3718f5368730",
+      "cdhash": "14438ca8d82ea7f0e743323e32f7f0507e96ad0f",
+      "signingId": "T52M998N47:org.weasis.launcher",
+      "teamId": "T52M998N47",
+      "lastUpdated": "2026-07-09T20:28:30Z"
     },
     {
       "slug": "weasis/windows",
@@ -10025,9 +10049,12 @@
     {
       "slug": "webcatalog/darwin",
       "name": "WebCatalog",
-      "version": "77.0.7",
-      "sha256": "213c2ee9030c88a179c333d5109029746d45e4ce780eb3aeccf6d369b35fbb52",
-      "lastUpdated": "2026-07-08T17:21:38Z"
+      "version": "77.1.0",
+      "sha256": "461ab5aa146bbb72e49cd1f95bb38c22943b20b58f9b5dd725a01c18a8df8e50",
+      "cdhash": "bae1c729f5a762aa6a52b0561a103cffb6d504e8",
+      "signingId": "36UJGA8U65:com.webcatalog.jordan",
+      "teamId": "36UJGA8U65",
+      "lastUpdated": "2026-07-09T20:28:53Z"
     },
     {
       "slug": "webex/darwin",
@@ -10103,9 +10130,12 @@
     {
       "slug": "whatsapp/darwin",
       "name": "WhatsApp",
-      "version": "26.27.15",
-      "sha256": "ab03bae81189f46b40e39e30a2dd4351944ddb96183d178be24a6431f33ae959",
-      "lastUpdated": "2026-07-08T17:22:05Z"
+      "version": "26.27.17",
+      "sha256": "98868de719589676750943c1ff146c0da7c4d72157f7cdf4b7eb8ac0b1aca467",
+      "cdhash": "adc9df130a075ecf5418608368c72a621bc07838",
+      "signingId": "57T9237FN3:net.whatsapp.WhatsApp",
+      "teamId": "57T9237FN3",
+      "lastUpdated": "2026-07-09T20:29:23Z"
     },
     {
       "slug": "whisky/darwin",
@@ -10231,9 +10261,12 @@
     {
       "slug": "wireshark-app/darwin",
       "name": "Wireshark",
-      "version": "4.6.6",
-      "sha256": "5f2feb6fe3bd32be9d8a602be547f11e1779bfeacf08d9aed314133f1fad4176",
-      "lastUpdated": "2026-05-20T02:02:38Z"
+      "version": "4.6.7",
+      "sha256": "7186d12809a1bb93486f0740f37b84971f61a533d8e700e5da6a868fd4384de5",
+      "cdhash": "3142a3b33508606f4f85cc2d4da74b85ffa0f31a",
+      "signingId": "7Z6EMTD2C6:org.wireshark.Wireshark",
+      "teamId": "7Z6EMTD2C6",
+      "lastUpdated": "2026-07-09T20:29:46Z"
     },
     {
       "slug": "wireshark/windows",
