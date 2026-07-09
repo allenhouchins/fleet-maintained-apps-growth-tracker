@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T20:17:48Z",
+  "lastUpdated": "2026-07-09T20:22:26Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -6417,9 +6417,12 @@
     {
       "slug": "notion/darwin",
       "name": "Notion",
-      "version": "7.25.0",
-      "sha256": "1bdfb3ce93238ef3e4d7206be45c61cb845fe08ed40cfb89d346bf28757e21cb",
-      "lastUpdated": "2026-07-08T17:12:36Z"
+      "version": "7.25.1",
+      "sha256": "25e1203e3d7b091d499abe288a2e32407a0178ef7f936aef0feb4318bb80b972",
+      "cdhash": "430eec6daf90a76d8ddbee62adb3b653e7e0f6ed",
+      "signingId": "LBQJ96FQ8D:notion.id",
+      "teamId": "LBQJ96FQ8D",
+      "lastUpdated": "2026-07-09T20:18:08Z"
     },
     {
       "slug": "notion/windows",
@@ -6575,9 +6578,12 @@
     {
       "slug": "ollama/darwin",
       "name": "Ollama",
-      "version": "0.31.1",
-      "sha256": "9dc74a064405e3f43f78834981cbddff74de9cb611adab41b5b396384d3319b2",
-      "lastUpdated": "2026-07-01T06:07:19Z"
+      "version": "0.31.2",
+      "sha256": "2f86c6613fd5c985d0970066d73ca7cf8f2780e1a70f1ef69ba7b739907e0f1a",
+      "cdhash": "f49ff3f7a8b39cf926e2ac810ec8ee59042ef954",
+      "signingId": "3MU9H2V9Y9:com.electron.ollama",
+      "teamId": "3MU9H2V9Y9",
+      "lastUpdated": "2026-07-09T20:18:31Z"
     },
     {
       "slug": "ollama/windows",
@@ -6723,9 +6729,12 @@
     {
       "slug": "opencode-desktop/darwin",
       "name": "OpenCode",
-      "version": "1.17.15",
-      "sha256": "308988173fe16322a46945a8668bcd8d2e1bfd80b001484c6fd95630f3f195ca",
-      "lastUpdated": "2026-07-08T17:12:59Z"
+      "version": "1.17.16",
+      "sha256": "c90de5ff225a6e9ed9d67d546ac605a69d88eff1d147e1a70a3786c49a697edc",
+      "cdhash": "034a5c5d4dba6d1e95af5eeb2543a590ea9eff6e",
+      "signingId": "5NZ4Q7NXJ4:ai.opencode.desktop",
+      "teamId": "5NZ4Q7NXJ4",
+      "lastUpdated": "2026-07-09T20:18:55Z"
     },
     {
       "slug": "openinterminal/darwin",
@@ -7203,9 +7212,12 @@
     {
       "slug": "postman/darwin",
       "name": "Postman",
-      "version": "12.18.3",
-      "sha256": "5ab0550e5a23653c874ae4d8c81e6980e5881910a4fe68f1bdc8eeddefb1f0b3",
-      "lastUpdated": "2026-07-08T17:14:17Z"
+      "version": "12.18.4",
+      "sha256": "af523a8f45b6a2c0a951309a703edbdb67793e9c030f02eb664a9c90ca8f0bfd",
+      "cdhash": "9eee25b6c987ee86cfc5247216591843794098f2",
+      "signingId": "H7H8Q7M5CK:com.postmanlabs.mac",
+      "teamId": "H7H8Q7M5CK",
+      "lastUpdated": "2026-07-09T20:19:19Z"
     },
     {
       "slug": "postman/windows",
@@ -7430,9 +7442,12 @@
     {
       "slug": "proton-pass/darwin",
       "name": "Proton Pass",
-      "version": "1.38.0",
-      "sha256": "f2bd2da552a1fb09d9f5a87f6f47af15563c9fd63b573b5d0986b1082307c7f2",
-      "lastUpdated": "2026-07-08T17:14:50Z"
+      "version": "1.38.1",
+      "sha256": "885fc4fd3f44823dc39c87bb9d171d917f4d9be5957bc62320e96b62dc0f7938",
+      "cdhash": "9fd5eaf89e2a94a789b4a57ac9b75253d6838b9b",
+      "signingId": "2SB5Z68H26:me.proton.pass.electron",
+      "teamId": "2SB5Z68H26",
+      "lastUpdated": "2026-07-09T20:19:53Z"
     },
     {
       "slug": "protonvpn/darwin",
@@ -7695,9 +7710,12 @@
     {
       "slug": "raycast/darwin",
       "name": "Raycast",
-      "version": "1.104.21",
-      "sha256": "987df18172ff00b53c6c28483fb95b73d6bdd50fb4a07ecadd9db08485fd8ad5",
-      "lastUpdated": "2026-07-02T21:19:57Z"
+      "version": "1.104.22",
+      "sha256": "671c4960e9040e997a1da1d0e152b66619ed09ab252901203b1e4d77149b228a",
+      "cdhash": "5b3a867eba849e0dad0ca154ebc1a6c379bab61f",
+      "signingId": "SY64MV22J9:com.raycast.macos",
+      "teamId": "SY64MV22J9",
+      "lastUpdated": "2026-07-09T20:20:15Z"
     },
     {
       "slug": "readest/darwin",
@@ -7829,9 +7847,12 @@
     {
       "slug": "reqable/darwin",
       "name": "Reqable",
-      "version": "3.2.4",
-      "sha256": "df8e359901173bdcb565055d06f5f986c2c8fab4998a1207affcaf5cb2c85bb2",
-      "lastUpdated": "2026-07-02T21:20:21Z"
+      "version": "3.2.5",
+      "sha256": "72f876a3a7a14c34774d6ed535e4991ea979eceabfc912648f9ff0710ba6c269",
+      "cdhash": "4ec0ba5f8c18c0ac30e0b88c123ba57c1eb14b37",
+      "signingId": "DXY5A5J7C4:com.reqable.macosx",
+      "teamId": "DXY5A5J7C4",
+      "lastUpdated": "2026-07-09T20:20:36Z"
     },
     {
       "slug": "reqable/windows",
@@ -7867,9 +7888,12 @@
     {
       "slug": "retcon/darwin",
       "name": "Retcon",
-      "version": "1.6.1",
-      "sha256": "a61c5ef58adb9e8154a03893a6639507df6b0ce90be3b5afffc5ea3969ddc3d9",
-      "lastUpdated": "2026-06-11T15:21:47Z"
+      "version": "1.6.2",
+      "sha256": "901a73195182c607a5e3e00662463dc2fe906468e20aaad0fa34f5fbbe05934e",
+      "cdhash": "047f8c687509278e445135957204738ea10b8265",
+      "signingId": "6XWJB5YJ6J:garden.lemon.Retcon",
+      "teamId": "6XWJB5YJ6J",
+      "lastUpdated": "2026-07-09T20:20:58Z"
     },
     {
       "slug": "retroarch/darwin",
@@ -8621,9 +8645,12 @@
     {
       "slug": "splashtop-streamer/darwin",
       "name": "Splashtop Streamer",
-      "version": "3.8.4.1",
-      "sha256": "249efa0ac91e496d9916d1ffead6d5056598a2d9c2aa4e75dbb00b68df529768",
-      "lastUpdated": "2026-07-02T21:23:22Z"
+      "version": "3.8.4.2",
+      "sha256": "599cfc0fff98ba32c15e614a7c7cf14d1a479aa615eeace95e92fbcc8ad6caf7",
+      "cdhash": "1cdd06988b6198a6e6a090203425f4948d62ab91",
+      "signingId": "CPQQ3AW49Y:com.splashtop.ScriptEditor.Uninstall-Splashtop-Streamer",
+      "teamId": "CPQQ3AW49Y",
+      "lastUpdated": "2026-07-09T20:21:19Z"
     },
     {
       "slug": "splice/darwin",
@@ -9022,9 +9049,12 @@
     {
       "slug": "tableplus/darwin",
       "name": "TablePlus",
-      "version": "26.6.0",
-      "sha256": "8888a0700b54df578a46c00c892d56a0dc7331fab7e5d29acfe318d359d2e287",
-      "lastUpdated": "2026-06-25T13:50:21Z"
+      "version": "26.7.2",
+      "sha256": "864bcafd6dff87101e73b08ac4cf9c8077421a94dc8973815383d43004c2d8b7",
+      "cdhash": "504034bd39da4e16d9575963204cc147de08733d",
+      "signingId": "3X57WP8E8V:com.tinyapp.TablePlus",
+      "teamId": "3X57WP8E8V",
+      "lastUpdated": "2026-07-09T20:22:24Z"
     },
     {
       "slug": "tableplus/windows",
