@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T20:10:49Z",
+  "lastUpdated": "2026-07-09T20:17:48Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -4245,9 +4245,12 @@
     {
       "slug": "granola/darwin",
       "name": "Granola",
-      "version": "7.386.3",
-      "sha256": "64a90f5a02a9fdd31d6e9e5759ba06db58292ea1df258b42aaaef222bd5ca2a6",
-      "lastUpdated": "2026-07-03T19:39:32Z"
+      "version": "7.394.2",
+      "sha256": "24a74b790f1fba3c8f4b8caf9d6ce38a52ac36d29489a0acc741ab511fcee0a9",
+      "cdhash": "2b7c9b259af6e36909cd74574bf092f8be51d9e3",
+      "signingId": "QZ7DHHLN25:com.granola.app",
+      "teamId": "QZ7DHHLN25",
+      "lastUpdated": "2026-07-09T20:11:41Z"
     },
     {
       "slug": "granola/windows",
@@ -4374,9 +4377,12 @@
     {
       "slug": "hive-app/darwin",
       "name": "Hive",
-      "version": "1.2.10",
-      "sha256": "0c8625b7cf278c0656b90b9c87e9e131308b7facfc62aac31840b4dc92c3da52",
-      "lastUpdated": "2026-07-08T16:58:45Z"
+      "version": "1.2.12",
+      "sha256": "563593e763fe4d4185874abf283f96668719fb9fcf9f7a19db026ba3938b95b9",
+      "cdhash": "c2b11d1132b7331a0fc93359a4331f2e50bfd4ae",
+      "signingId": "SQ65AQ9V2J:com.hive.app",
+      "teamId": "SQ65AQ9V2J",
+      "lastUpdated": "2026-07-09T20:12:09Z"
     },
     {
       "slug": "home-assistant/darwin",
@@ -4734,9 +4740,12 @@
     {
       "slug": "jasp/darwin",
       "name": "JASP",
-      "version": "0.98.0.0",
-      "sha256": "f0ae8268ce99d6707c4ae480e04232b3aa35ce2756b26ecf26564af63d463d14",
-      "lastUpdated": "2026-07-01T23:44:15Z"
+      "version": "0.98.1.0",
+      "sha256": "daed2245a56f937be2029db8a393cc2ad88d85ca229cdf207aad7a45d0c64f03",
+      "cdhash": "348cf655241b4bf6c09e5f9a1cf59c5b216344f5",
+      "signingId": "AWJJ3YVK9B:org.jaspstats.jasp",
+      "teamId": "AWJJ3YVK9B",
+      "lastUpdated": "2026-07-09T20:14:18Z"
     },
     {
       "slug": "jellyfin/darwin",
@@ -4943,9 +4952,12 @@
     {
       "slug": "kiro-cli/darwin",
       "name": "Kiro CLI",
-      "version": "2.11.1",
-      "sha256": "0050cbf9820ecd5cd510894e45728c6efdb5d124445d0d406d092cab7dd900fb",
-      "lastUpdated": "2026-07-07T20:26:51Z"
+      "version": "2.12.0",
+      "sha256": "c0d90db06cc8d067494134ad46ce2e665752d30cb2cf69fd23533d595cfa5a7a",
+      "cdhash": "694657bd371b568a4393da5d36725c1677789f27",
+      "signingId": "94KV3E626L:com.amazon.codewhisperer",
+      "teamId": "94KV3E626L",
+      "lastUpdated": "2026-07-09T20:15:03Z"
     },
     {
       "slug": "kiro/darwin",
@@ -5265,16 +5277,22 @@
     {
       "slug": "lookaway/darwin",
       "name": "LookAway",
-      "version": "2.2.4",
-      "sha256": "da05e2a3bc8d3b47c42b06cf67f9303494183833204eb4f724eea3327c369fd1",
-      "lastUpdated": "2026-07-07T08:38:58Z"
+      "version": "2.2.5",
+      "sha256": "2f460ca19be9c53a2a6f348e2c58d3bea3807624c2d8571883b6a207ba08b345",
+      "cdhash": "784f4925bfa68a984962242bcc2624db0a7d8315",
+      "signingId": "D35B5Y6JX8:com.mysticalbits.lookaway",
+      "teamId": "D35B5Y6JX8",
+      "lastUpdated": "2026-07-09T20:15:25Z"
     },
     {
       "slug": "loom/darwin",
       "name": "Loom",
-      "version": "0.359.0",
-      "sha256": "5d95102ff384321ef41bf99353a31368e9c03c8f99f327afd0332fe696afa8ff",
-      "lastUpdated": "2026-07-07T08:39:23Z"
+      "version": "0.360.0",
+      "sha256": "b0e771b9bf964b3ec42f028566d891e54db00e5cfb2a78ab04927b901415c8b4",
+      "cdhash": "82b30c8dde626372dab7ec41b8b4ecf51c5668f1",
+      "signingId": "QGD2ZPXZZG:com.loom.desktop",
+      "teamId": "QGD2ZPXZZG",
+      "lastUpdated": "2026-07-09T20:15:51Z"
     },
     {
       "slug": "loom/windows",
@@ -5487,9 +5505,12 @@
     {
       "slug": "marked-app/darwin",
       "name": "Marked",
-      "version": "3.1.10",
-      "sha256": "299c069559bbff3806523c83c852e0ccecae7f53a77bf093691ba76579a6198f",
-      "lastUpdated": "2026-07-08T17:04:21Z"
+      "version": "3.1.11",
+      "sha256": "88ef2e8cec66a379d629dc837e9db4f358f6f0bfe61f8125030bd32891c1de1f",
+      "cdhash": "31eb5a2afe425b14e35ea541cf61319e9a3d4885",
+      "signingId": "47TRS7H4BH:com.brettterpstra.marked",
+      "teamId": "47TRS7H4BH",
+      "lastUpdated": "2026-07-09T20:16:15Z"
     },
     {
       "slug": "markedit/darwin",
@@ -5861,9 +5882,12 @@
     {
       "slug": "miro/darwin",
       "name": "Miro",
-      "version": "0.11.154",
-      "sha256": "9c8176f49ae8ccfc1c649e3620d52275a0be66df3146125abc8e1f11612a75fd",
-      "lastUpdated": "2026-06-30T19:51:09Z"
+      "version": "0.11.157",
+      "sha256": "55b3a6f427867487e83ee83313580d81188f12810253ad7a4c429206abadcb28",
+      "cdhash": "92a2b958ad1279d55341db13fe9c8e6af651cbd3",
+      "signingId": "M3GM7MFY7U:com.electron.realtimeboard",
+      "teamId": "M3GM7MFY7U",
+      "lastUpdated": "2026-07-09T20:16:42Z"
     },
     {
       "slug": "miro/windows",
@@ -6278,9 +6302,12 @@
     {
       "slug": "nordvpn/darwin",
       "name": "NordVPN",
-      "version": "10.5.1",
-      "sha256": "4678de715b2db8135937985bd9fa12ae9d5a6352701909a58132aff267a339d7",
-      "lastUpdated": "2026-06-25T22:46:57Z"
+      "version": "10.6.0",
+      "sha256": "fb491ea42a7554898c7cda34fdfe7b3ca68aa7fd82b2ff782e00a0581e76aa0f",
+      "cdhash": "c4887afe40b8c9572dbc78abaec8d72cc9c6c77f",
+      "signingId": "W5W395V82Y:com.nordvpn.macos",
+      "teamId": "W5W395V82Y",
+      "lastUpdated": "2026-07-09T20:17:19Z"
     },
     {
       "slug": "nordvpn/windows",
@@ -6335,9 +6362,12 @@
     {
       "slug": "notepadexe/darwin",
       "name": "Notepad.exe",
-      "version": "1.4.1920",
-      "sha256": "1e7d79900ab1769e6604b6fbe1d07929990fea02cd344b3f89c393f2bd020f10",
-      "lastUpdated": "2026-07-08T17:12:13Z"
+      "version": "1.4.1925",
+      "sha256": "f41b2ad05abef64d2300f591aca32a684664217e0cb941cc1d264f8836c43354",
+      "cdhash": "731ce3571e7415307efdbf92476d8cfa4af4c399",
+      "signingId": "67RAULRX93:best.swift.Notepad",
+      "teamId": "67RAULRX93",
+      "lastUpdated": "2026-07-09T20:17:46Z"
     },
     {
       "slug": "notesnook/darwin",
