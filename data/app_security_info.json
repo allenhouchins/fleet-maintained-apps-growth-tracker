@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T16:02:40Z",
+  "lastUpdated": "2026-07-09T16:04:46Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1026,14 +1026,14 @@
     {
       "slug": "aws-cli/windows",
       "name": "AWS Command Line Interface v2",
-      "version": "2.35.17",
-      "sha256": "fd1f9c8ead608acbe7be345797c1bc1a44c32efcdb31659f4e884ed662542e50",
+      "version": "2.35.19",
+      "sha256": "bb4da458f7bd73b61a8ef6a435c411fb93a3952c4ccb03144c454370b68dafc9",
       "publisher": "CN=\"Amazon Web Services, Inc.\", OU=AWS, O=\"Amazon Web Services, Inc.\", L=Seattle, S=Washington, C=US, SERIALNUMBER=4152954, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0590C4CF0DB014199953A68CFCE9B0E7",
       "thumbprint": "81A9EFB93199F2C7441EE14050360EDAB7E8242A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-07-08T03:03:30Z"
+      "lastUpdated": "2026-07-09T16:03:09Z"
     },
     {
       "slug": "aws-sam-cli/windows",
@@ -1796,14 +1796,14 @@
     {
       "slug": "certify-the-web/windows",
       "name": "Certify The Web",
-      "version": "7.1.0",
-      "sha256": "0b1b90cde6308f3446af04f55398c56a7fc55b82a22aeb64f3543e0cb2013bce",
+      "version": "7.1.1",
+      "sha256": "8df363d117b27a87582d318c13d23964ba309397e2c75bc82e14df5a9f8085d0",
       "publisher": "CN=Webprofusion Pty Ltd, O=Webprofusion Pty Ltd, S=Western Australia, C=AU",
       "issuer": "CN=Sectigo Public Code Signing CA R36, O=Sectigo Limited, C=GB",
       "serialNumber": "00E880BC895ED938CF535BB4E88DD41C6C",
       "thumbprint": "D060FBB58AD364EAF77FF3B269DB35B03CACF6B5",
       "timestamp": "CN=Sectigo Public Time Stamping Signer R37, O=Sectigo Limited, S=Greater London, C=GB",
-      "lastUpdated": "2026-07-08T20:31:58Z"
+      "lastUpdated": "2026-07-09T16:03:26Z"
     },
     {
       "slug": "chalk/darwin",
@@ -1985,14 +1985,14 @@
     {
       "slug": "claude/windows",
       "name": "Claude",
-      "version": "1.18286.0",
-      "sha256": "7927bafc45478d87d3213d9b9afb27bba58bc32b4fe9aa58a106cbfc139d0d3c",
+      "version": "1.19367.0",
+      "sha256": "dd2414e9875341d931d2e2103b6d917d762efaeb5f018422f79dcfcc879da974",
       "publisher": "CN=\"Anthropic, PBC\", O=\"Anthropic, PBC\", L=San Francisco, S=California, C=US, SERIALNUMBER=4860621, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0ED59CA47F15D09A57755E4B12D31A50",
       "thumbprint": "0D7581D2C51C59DF686C3000C70BF543F9F6C6CB",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-07-03T15:25:34Z"
+      "lastUpdated": "2026-07-09T16:04:06Z"
     },
     {
       "slug": "cleanclip/darwin",
@@ -2742,14 +2742,9 @@
     {
       "slug": "dbvisualizer/windows",
       "name": "DbVisualizer",
-      "version": "26.2",
-      "sha256": "08a703d68cbc3ffb0e93fb27879f673a9b7892cb591da7d013ac1eb4591abca7",
-      "publisher": "CN=DbVis Software AB, O=DbVis Software AB, L=Nacka, C=SE",
-      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
-      "serialNumber": "0438D4D3217D65B055925D3EF4382068",
-      "thumbprint": "DA540D2ECC876A77282E2A1A5CDB1C0551BC0C0B",
-      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-06-22T17:43:25Z"
+      "version": "26.2.1",
+      "sha256": "8310f62f3e69212755c067c0df4f9e83b8fd3e8de4e840cbc1a2204da60ed7c5",
+      "lastUpdated": "2026-07-09T16:04:09Z"
     },
     {
       "slug": "dcv-viewer/darwin",
@@ -4109,14 +4104,14 @@
     {
       "slug": "google-chrome/windows",
       "name": "Google Chrome",
-      "version": "150.0.7871.101",
-      "sha256": "3f1037d9198e2add4a4ef681484296f4de1faabfde7b2bf9e1c57a8111925495",
+      "version": "150.0.7871.115",
+      "sha256": "6155f3e31f33016ae0a62ccd15ce9b0b642008310d9ab27f88c408067a6e66d2",
       "publisher": "CN=Google LLC, O=Google LLC, L=Mountain View, S=California, C=US, SERIALNUMBER=3582691, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0B50CF246B263EFD85A729315158F3FF",
       "thumbprint": "607A3EDAA64933E94422FC8F0C80388E0590986C",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-07-08T17:28:45Z"
+      "lastUpdated": "2026-07-09T16:04:18Z"
     },
     {
       "slug": "google-credential-provider-for-windows/windows",
@@ -4227,14 +4222,14 @@
     {
       "slug": "granola/windows",
       "name": "Granola",
-      "version": "7.386.3",
-      "sha256": "81ee1e935dfb184190130ce90e2f0ab1a7843944e36598f2c91a2e23b0846051",
+      "version": "7.394.2",
+      "sha256": "e1ea74204caf6597737b73efcf4e2ef8069c6a4b7607bd05bae41ba35c91f08a",
       "publisher": "CN=Granola Labs Ltd, O=Granola Labs Ltd, L=St. Albans, C=GB",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "09EC2851FE9C25200C0EBA306A0F3B4E",
       "thumbprint": "AECA9FD75FB1BA419EE81D17F667154095817355",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-07-03T15:26:11Z"
+      "lastUpdated": "2026-07-09T16:04:22Z"
     },
     {
       "slug": "grids/darwin",
@@ -5254,14 +5249,14 @@
     {
       "slug": "loom/windows",
       "name": "Loom",
-      "version": "0.359.2",
-      "sha256": "95b09541c0c5f922a15af0aa777ce773d6129ba274b6fe8ce2d9a1a814e34f04",
+      "version": "0.360.0",
+      "sha256": "45010484b835f4b78785581cc4629ce2a4cc99adfba81fe022afeb4c646d5324",
       "publisher": "CN=\"Loom, Inc.\", O=\"Loom, Inc.\", L=San Francisco, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "075FEF2A2AF6925B9641D6C7FFA4C705",
       "thumbprint": "0E4E993EBB874473561A37B5FFCD9E36986BE9B5",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-07-07T04:59:08Z"
+      "lastUpdated": "2026-07-09T16:04:26Z"
     },
     {
       "slug": "loop/darwin",
@@ -5843,14 +5838,14 @@
     {
       "slug": "miro/windows",
       "name": "Miro",
-      "version": "0.11.154",
-      "sha256": "0191332d9a1ed8e470552adbc752d71c7da0d21172223369ac18cb37ff9c89a1",
+      "version": "0.11.157",
+      "sha256": "0af023a374ba1cf1cbdb55130a448e74e2e64d96f36782bad298c40f7c0b648a",
       "publisher": "CN=\"RealtimeBoard, Inc. dba Miro\", O=\"RealtimeBoard, Inc. dba Miro\", L=San Francisco, S=California, C=US",
-      "issuer": "CN=Microsoft ID Verified CS AOC CA 04, O=Microsoft Corporation, C=US",
-      "serialNumber": "3300028AFF881340D0E8AF43E4000000028AFF",
-      "thumbprint": "646B762526860F9F82049B28536DEEB5B9683084",
-      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7A1A-05E0-D947, OU=Microsoft Ireland Operations Limited, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-06-29T18:53:05Z"
+      "issuer": "CN=Microsoft ID Verified CS AOC CA 03, O=Microsoft Corporation, C=US",
+      "serialNumber": "330002C2F16FC61FAFC3FE74CC00000002C2F1",
+      "thumbprint": "7E85E3D869394B5EE8974ACC66C61F53E8EDEE3A",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7B1A-05E0-D947, OU=Microsoft Ireland Operations Limited, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-07-09T16:04:33Z"
     },
     {
       "slug": "missive/darwin",
@@ -5916,14 +5911,14 @@
     {
       "slug": "mongodb-compass/windows",
       "name": "MongoDB Compass",
-      "version": "1.49.10.0",
-      "sha256": "442a5fc69a786703fec8607c09f9adaa02acb35058942cc84e578ab0a1175dd3",
+      "version": "1.49.11.0",
+      "sha256": "a5a1ce165f9076f307dc9781e33efe95269abad6767f93f677b3e0206df4eac1",
       "publisher": "CN=\"MongoDB, Inc.\", O=\"MongoDB, Inc.\", L=New York, S=New York, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0AA53660E79501275B3225A90063E43C",
       "thumbprint": "A5BBE2A6DA1D2A6E057EF870267E6A91E4D56BAA",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-07-01T15:29:36Z"
+      "lastUpdated": "2026-07-09T16:04:46Z"
     },
     {
       "slug": "monitorcontrol/darwin",
