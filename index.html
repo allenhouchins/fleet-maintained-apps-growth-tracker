@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: July 10, 2026 at 9:17 AM CDT</p>
+            Last updated: July 10, 2026 at 11:28 AM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: July 10, 2026 at 9:17 AM CDT</p>
+                <p id="modalLastUpdated">Last updated: July 10, 2026 at 11:28 AM CDT</p>
             </div>
         </div>
     </div>
@@ -1648,7 +1648,7 @@
             1280,
             1298,
             1298,
-            1310
+            1312
           ],
           "additions": [
             20,
@@ -2144,7 +2144,7 @@
             17,
             18,
             0,
-            12
+            14
           ],
           "macCounts": [
             20,
@@ -3136,7 +3136,7 @@
             320,
             338,
             338,
-            350
+            352
           ],
           "growthDates": [
             "2025-03-04",
@@ -3314,7 +3314,7 @@
             1263,
             1280,
             1298,
-            1310
+            1312
           ],
           "growthAdditions": [
             20,
@@ -3403,7 +3403,7 @@
             1,
             17,
             18,
-            12
+            14
           ]
         };
         
@@ -7246,6 +7246,22 @@
                   "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
                   "lastUpdated": "2026-07-08T20:33:19Z"
                 }
+              },
+              {
+                "name": "Crestron AirMedia Peripherals",
+                "slug": "crestron-airmedia-peripherals/windows",
+                "platform": "windows",
+                "description": "Crestron AirMedia Peripherals enables wireless conferencing with Crestron AirMedia Series 3 receivers.",
+                "version": "1.11.1.164",
+                "installerUrl": "https://www.crestron.com/software_files_public/am-100/airmediaperipherals64_1.11.1.164.msi"
+              },
+              {
+                "name": "Crestron AirMedia",
+                "slug": "crestron-airmedia/windows",
+                "platform": "windows",
+                "description": "Crestron AirMedia enables wireless presentation and conferencing with AirMedia receivers.",
+                "version": "5.11.1.164",
+                "installerUrl": "https://www.crestron.com/software_files_public/am-100/airmedia_windows_5.11.1.164.msi"
               },
               {
                 "name": "Cribl Edge",
@@ -21237,7 +21253,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `July 10, 2026 at 9:17 AM CDT`;
+                let timestampText = 'Last updated: ' + `July 10, 2026 at 11:28 AM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {

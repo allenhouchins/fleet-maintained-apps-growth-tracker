@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T14:05:40Z",
+  "lastUpdated": "2026-07-10T16:28:43Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -2011,6 +2011,20 @@
       "installerUrl": "https://download.creativeforce.io/released-files.042024/prod/triad/win/Triad-4.4.0-win.exe"
     },
     {
+      "slug": "crestron-airmedia-peripherals/windows",
+      "name": "Crestron AirMedia Peripherals",
+      "platform": "windows",
+      "version": "1.11.1.164",
+      "installerUrl": "https://www.crestron.com/software_files_public/am-100/airmediaperipherals64_1.11.1.164.msi"
+    },
+    {
+      "slug": "crestron-airmedia/windows",
+      "name": "Crestron AirMedia",
+      "platform": "windows",
+      "version": "5.11.1.164",
+      "installerUrl": "https://www.crestron.com/software_files_public/am-100/airmedia_windows_5.11.1.164.msi"
+    },
+    {
       "slug": "cribl-edge/windows",
       "name": "Cribl Edge",
       "platform": "windows",
@@ -2658,8 +2672,8 @@
       "slug": "drofus/windows",
       "name": "dRofus",
       "platform": "windows",
-      "version": "2.18.10.0",
-      "installerUrl": "https://deploy.drofus.com/stable/drofus-setup-2.18.10.msi"
+      "version": "2.18.11.0",
+      "installerUrl": "https://deploy.drofus.com/stable/drofus-setup-2.18.11.msi"
     },
     {
       "slug": "dropbox/darwin",
