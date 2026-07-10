@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T13:17:26Z",
+  "lastUpdated": "2026-07-10T14:05:40Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -887,8 +887,8 @@
       "slug": "aws-vpn-client/windows",
       "name": "AWS Client VPN",
       "platform": "windows",
-      "version": "5.4.0",
-      "installerUrl": "https://d20adtppz83p9s.cloudfront.net/WPF/5.4.0/AWS_VPN_Client.msi"
+      "version": "5.4.1",
+      "installerUrl": "https://d20adtppz83p9s.cloudfront.net/WPF/5.4.1/AWS_VPN_Client.msi"
     },
     {
       "slug": "axure-rp/darwin",
@@ -1279,8 +1279,8 @@
       "slug": "brave-browser/windows",
       "name": "Brave",
       "platform": "windows",
-      "version": "150.1.92.134",
-      "installerUrl": "https://github.com/brave/brave-browser/releases/download/v1.92.134/BraveBrowserStandaloneSilentSetup.exe"
+      "version": "150.1.92.139",
+      "installerUrl": "https://github.com/brave/brave-browser/releases/download/v1.92.139/BraveBrowserStandaloneSilentSetup.exe"
     },
     {
       "slug": "breaktimer/darwin",
@@ -2063,8 +2063,8 @@
       "slug": "cursor/darwin",
       "name": "Cursor",
       "platform": "darwin",
-      "version": "3.10.20",
-      "installerUrl": "https://downloads.cursor.com/production/23b9fb205fe595ea2be29da7214e19762d037fc3/darwin/arm64/Cursor-darwin-arm64.zip"
+      "version": "3.11.13",
+      "installerUrl": "https://downloads.cursor.com/production/3f21b08f0b436a07be29fbfe00b304fa15553353/darwin/arm64/Cursor-darwin-arm64.zip"
     },
     {
       "slug": "cursor/windows",
@@ -2126,7 +2126,7 @@
       "slug": "daisydisk/darwin",
       "name": "DaisyDisk",
       "platform": "darwin",
-      "version": "4.34.1",
+      "version": "4.34.2",
       "installerUrl": "https://daisydiskapp.com/download/DaisyDisk.zip"
     },
     {
@@ -2198,6 +2198,20 @@
       "platform": "darwin",
       "version": "2026.1.2",
       "installerUrl": "https://download.jetbrains.com/python/dataspell-2026.1.2-aarch64.dmg"
+    },
+    {
+      "slug": "dataspell/windows",
+      "name": "DataSpell",
+      "platform": "windows",
+      "version": "2026.1.2",
+      "installerUrl": "https://download.jetbrains.com/python/dataspell-2026.1.2.exe"
+    },
+    {
+      "slug": "dax-studio/windows",
+      "name": "DAX Studio",
+      "platform": "windows",
+      "version": "3.5.2",
+      "installerUrl": "https://github.com/DaxStudio/DaxStudio/releases/download/v3.5.2/DaxStudio_3_5_2_setup.exe"
     },
     {
       "slug": "dayflow/darwin",
@@ -2340,6 +2354,13 @@
       "installerUrl": "https://www.stclairsoft.com/download/DefaultFolderX-6.2.8.dmg"
     },
     {
+      "slug": "delinea-connection-manager/windows",
+      "name": "Delinea Connection Manager",
+      "platform": "windows",
+      "version": "2.8.3.7",
+      "installerUrl": "https://downloads.cm.thycotic.com/Delinea.ConnectionManager.WindowsInstaller.msi"
+    },
+    {
       "slug": "dell-command-update/windows",
       "name": "Dell Command Update",
       "platform": "windows",
@@ -2389,6 +2410,20 @@
       "installerUrl": "https://files.solotuna.com/devknife/DevKnife-1.15.4.dmg"
     },
     {
+      "slug": "devolutions-launcher/windows",
+      "name": "Devolutions Launcher",
+      "platform": "windows",
+      "version": "2026.2.13.0",
+      "installerUrl": "https://cdn.devolutions.net/download/Setup.Devolutions.Launcher.2026.2.13.0.msi"
+    },
+    {
+      "slug": "devolutions-workspace/windows",
+      "name": "Devolutions Workspace",
+      "platform": "windows",
+      "version": "2026.2.1.0",
+      "installerUrl": "https://cdn.devolutions.net/download/Devolutions-2026.2.1.0-x64.msi"
+    },
+    {
       "slug": "devonsphere-express/darwin",
       "name": "DEVONsphere Express",
       "platform": "darwin",
@@ -2401,6 +2436,13 @@
       "platform": "darwin",
       "version": "4.3.2",
       "installerUrl": "https://download.devontechnologies.com/download/devonthink/4.3.2/DEVONthink.app.zip"
+    },
+    {
+      "slug": "devpod/windows",
+      "name": "DevPod",
+      "platform": "windows",
+      "version": "0.6.15",
+      "installerUrl": "https://github.com/loft-sh/devpod/releases/download/v0.6.15/DevPod_windows_x64_en-US.msi"
     },
     {
       "slug": "devtoys/darwin",
@@ -2466,6 +2508,20 @@
       "installerUrl": "https://download.kde.org/stable/digikam/9.1.0/digiKam-9.1.0-Qt6-MacOS-arm64.pkg"
     },
     {
+      "slug": "digiseal-reader/windows",
+      "name": "digiSeal Reader",
+      "platform": "windows",
+      "version": "8.0.0.3",
+      "installerUrl": "https://www.secrypt.de/downloads/setup_digiSeal_reader.exe"
+    },
+    {
+      "slug": "directory-opus/windows",
+      "name": "Directory Opus",
+      "platform": "windows",
+      "version": "13.24",
+      "installerUrl": "https://cdn2.gpsoft.com.au/files/Opus13/DOpusInstall-13.24.exe"
+    },
+    {
       "slug": "discord/darwin",
       "name": "Discord",
       "platform": "darwin",
@@ -2492,6 +2548,13 @@
       "platform": "darwin",
       "version": "16.1",
       "installerUrl": "https://www.synaptics.com/sites/default/files/exe_files/2026-05/DisplayLink%20Manager%20Graphics%20Connectivity16.1-EXE.pkg"
+    },
+    {
+      "slug": "dngrep/windows",
+      "name": "dnGrep",
+      "platform": "windows",
+      "version": "5.0.9.0",
+      "installerUrl": "https://github.com/dnGrep/dnGrep/releases/download/v5.0.9.0/dnGREP.5.0.9.x64.msi"
     },
     {
       "slug": "dockdoor/darwin",
@@ -2557,6 +2620,13 @@
       "installerUrl": "https://software.charliemonroe.net/trial/downie/v4/Downie_4_5205.dmg"
     },
     {
+      "slug": "draftable-desktop/windows",
+      "name": "Draftable Desktop",
+      "platform": "windows",
+      "version": "26.6.200",
+      "installerUrl": "https://dl.draftable.com/desktop/DraftableDesktopSystem-26.6.200.msi"
+    },
+    {
       "slug": "drata-agent/darwin",
       "name": "Drata Agent",
       "platform": "darwin",
@@ -2583,6 +2653,13 @@
       "platform": "windows",
       "version": "30.2.6",
       "installerUrl": "https://github.com/jgraph/drawio-desktop/releases/download/v30.2.6/draw.io-30.2.6-windows-installer.exe"
+    },
+    {
+      "slug": "drofus/windows",
+      "name": "dRofus",
+      "platform": "windows",
+      "version": "2.18.10.0",
+      "installerUrl": "https://deploy.drofus.com/stable/drofus-setup-2.18.10.msi"
     },
     {
       "slug": "dropbox/darwin",
@@ -2688,6 +2765,13 @@
       "platform": "darwin",
       "version": "1.6.0.41",
       "installerUrl": "https://dymoreleasecontent.blob.core.windows.net/dymo-release/DCDMAC/DCDMac1.6.0.41-Arm64.pkg"
+    },
+    {
+      "slug": "dymo-id/windows",
+      "name": "DYMO ID",
+      "platform": "windows",
+      "version": "1.5.1.71",
+      "installerUrl": "https://download.dymo.com/dymo/Software/DYMOID_1.5.1/DYMOIDSetup.1.5.1.exe"
     },
     {
       "slug": "dynalist/darwin",
@@ -3015,8 +3099,8 @@
       "slug": "figma/windows",
       "name": "Figma",
       "platform": "windows",
-      "version": "126.6.12",
-      "installerUrl": "https://desktop.figma.com/win/build/Figma-126.6.12.exe"
+      "version": "126.6.14",
+      "installerUrl": "https://desktop.figma.com/win/build/Figma-126.6.14.exe"
     },
     {
       "slug": "file-juicer/darwin",
@@ -3568,8 +3652,8 @@
       "slug": "grammarly-desktop/darwin",
       "name": "Grammarly Desktop",
       "platform": "darwin",
-      "version": "1.173.1",
-      "installerUrl": "https://download-mac.grammarly.com/versions/1.173.1.0/Grammarly.dmg"
+      "version": "1.173.2",
+      "installerUrl": "https://download-mac.grammarly.com/versions/1.173.2.0/Grammarly.dmg"
     },
     {
       "slug": "grandperspective/darwin",
@@ -4219,8 +4303,8 @@
       "slug": "kiro/windows",
       "name": "Kiro",
       "platform": "windows",
-      "version": "1.0.89",
-      "installerUrl": "https://prod.download.desktop.kiro.dev/releases/stable/win32-x64/signed/1.0.89/kiro-ide-1.0.89-stable-win32-x64.exe"
+      "version": "1.0.116",
+      "installerUrl": "https://prod.download.desktop.kiro.dev/releases/stable/win32-x64/signed/1.0.116/kiro-ide-1.0.116-stable-win32-x64.exe"
     },
     {
       "slug": "kitty/darwin",
@@ -4877,8 +4961,8 @@
       "slug": "microsoft-edge/windows",
       "name": "Microsoft Edge",
       "platform": "windows",
-      "version": "150.0.4078.48",
-      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/6476e2cb-803c-4ed9-b91f-60caaa21dbfd/MicrosoftEdgeEnterpriseX64.msi"
+      "version": "150.0.4078.65",
+      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/0870b5f5-cf08-4f24-8383-f362a669fcd8/MicrosoftEdgeEnterpriseX64.msi"
     },
     {
       "slug": "microsoft-excel/darwin",
@@ -5388,8 +5472,8 @@
       "slug": "nordvpn/windows",
       "name": "NordVPN",
       "platform": "windows",
-      "version": "8.4.3.0",
-      "installerUrl": "https://downloads.nordcdn.com/apps/windows/NordVPN/8.4.3.0/NordVPNInstall.exe"
+      "version": "8.5.1.0",
+      "installerUrl": "https://downloads.nordcdn.com/apps/windows/NordVPN/8.5.1.0/NordVPNInstall.exe"
     },
     {
       "slug": "nosql-workbench/darwin",
@@ -5423,8 +5507,8 @@
       "slug": "notepadexe/darwin",
       "name": "Notepad.exe",
       "platform": "darwin",
-      "version": "1.4.1925",
-      "installerUrl": "https://github.com/notepadhq/notepadexe-public/releases/download/1.4.1925/Notepad.zip"
+      "version": "1.4.1929",
+      "installerUrl": "https://github.com/notepadhq/notepadexe-public/releases/download/1.4.1929/Notepad.zip"
     },
     {
       "slug": "notesnook/darwin",
@@ -5556,7 +5640,7 @@
       "slug": "ocenaudio/darwin",
       "name": "ocenaudio",
       "platform": "darwin",
-      "version": "3.19.5",
+      "version": "3.20.0",
       "installerUrl": "https://www.ocenaudio.com/downloads/index.php/ocenaudio_universal.dmg"
     },
     {
@@ -5913,15 +5997,15 @@
       "slug": "pdfsam-basic/darwin",
       "name": "PDFsam Basic",
       "platform": "darwin",
-      "version": "6.0.1",
-      "installerUrl": "https://github.com/torakiki/pdfsam/releases/download/v6.0.1/pdfsam-basic-6.0.1-macos-arm64.dmg"
+      "version": "6.0.3",
+      "installerUrl": "https://github.com/torakiki/pdfsam/releases/download/v6.0.3/pdfsam-basic-6.0.3-macos-arm64.dmg"
     },
     {
       "slug": "pdfsam-basic/windows",
       "name": "PDFsam Basic",
       "platform": "windows",
-      "version": "6.0.1.0",
-      "installerUrl": "https://github.com/torakiki/pdfsam/releases/download/v6.0.1/pdfsam-basic-6.0.1-windows-x64.msi"
+      "version": "6.0.3.0",
+      "installerUrl": "https://github.com/torakiki/pdfsam/releases/download/v6.0.3/pdfsam-basic-6.0.3-windows-x64.msi"
     },
     {
       "slug": "pearcleaner/darwin",
@@ -6165,8 +6249,8 @@
       "slug": "postman/windows",
       "name": "Postman",
       "platform": "windows",
-      "version": "12.18.4",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.18.4/windows_64"
+      "version": "12.18.5",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.18.5/windows_64"
     },
     {
       "slug": "power-automate/windows",
@@ -6669,15 +6753,15 @@
       "slug": "reqable/darwin",
       "name": "Reqable",
       "platform": "darwin",
-      "version": "3.2.6",
-      "installerUrl": "https://github.com/reqable/reqable-app/releases/download/3.2.6/reqable-app-macos-arm64.dmg"
+      "version": "3.2.7",
+      "installerUrl": "https://github.com/reqable/reqable-app/releases/download/3.2.7/reqable-app-macos-arm64.dmg"
     },
     {
       "slug": "reqable/windows",
       "name": "Reqable",
       "platform": "windows",
-      "version": "3.2.6",
-      "installerUrl": "https://github.com/reqable/reqable-app/releases/download/3.2.6/reqable-app-windows-x86_64.exe"
+      "version": "3.2.7",
+      "installerUrl": "https://github.com/reqable/reqable-app/releases/download/3.2.7/reqable-app-windows-x86_64.exe"
     },
     {
       "slug": "requestly/darwin",
@@ -6781,8 +6865,8 @@
       "slug": "rocket-chat/darwin",
       "name": "Rocket.Chat",
       "platform": "darwin",
-      "version": "4.15.2",
-      "installerUrl": "https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/4.15.2/rocketchat-4.15.2-mac.dmg"
+      "version": "4.15.3",
+      "installerUrl": "https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/4.15.3/rocketchat-4.15.3-mac.dmg"
     },
     {
       "slug": "rocket-typist/darwin",
@@ -7012,8 +7096,8 @@
       "slug": "session/darwin",
       "name": "Session",
       "platform": "darwin",
-      "version": "1.18.0",
-      "installerUrl": "https://github.com/session-foundation/session-desktop/releases/download/v1.18.0/session-desktop-mac-arm64-1.18.0.dmg"
+      "version": "1.18.1",
+      "installerUrl": "https://github.com/session-foundation/session-desktop/releases/download/v1.18.1/session-desktop-mac-arm64-1.18.1.dmg"
     },
     {
       "slug": "setapp/darwin",
@@ -8405,8 +8489,8 @@
       "slug": "vivaldi/windows",
       "name": "Vivaldi",
       "platform": "windows",
-      "version": "8.0.4033.57",
-      "installerUrl": "https://downloads.vivaldi.com/stable/Vivaldi.8.0.4033.57.x64.exe"
+      "version": "8.1.4087.48",
+      "installerUrl": "https://downloads.vivaldi.com/stable/Vivaldi.8.1.4087.48.x64.exe"
     },
     {
       "slug": "vivid-app/darwin",
@@ -8531,8 +8615,8 @@
       "slug": "warp/darwin",
       "name": "Warp",
       "platform": "darwin",
-      "version": "0.2026.07.01.09.21.01",
-      "installerUrl": "https://releases.warp.dev/stable/v0.2026.07.01.09.21.stable_01/Warp.dmg"
+      "version": "0.2026.07.08.17.54.01",
+      "installerUrl": "https://releases.warp.dev/stable/v0.2026.07.08.17.54.stable_01/Warp.dmg"
     },
     {
       "slug": "wave/darwin",
@@ -8587,7 +8671,7 @@
       "slug": "webex/darwin",
       "name": "Webex",
       "platform": "darwin",
-      "version": "46.6.1.35236",
+      "version": "46.7.0.35381",
       "installerUrl": "https://binaries.webex.com/webex-macos-apple-silicon/Webex.dmg"
     },
     {
@@ -8615,8 +8699,8 @@
       "slug": "wechat/darwin",
       "name": "WeChat for Mac",
       "platform": "darwin",
-      "version": "4.1.11.53",
-      "installerUrl": "https://dldir1.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.11.53_41748.dmg"
+      "version": "4.1.11.54",
+      "installerUrl": "https://dldir1.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.11.54_41754.dmg"
     },
     {
       "slug": "wechat/windows",
@@ -8643,7 +8727,7 @@
       "slug": "whatsapp/darwin",
       "name": "WhatsApp",
       "platform": "darwin",
-      "version": "26.27.19",
+      "version": "26.27.21",
       "installerUrl": "https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release\u0026src=whatsapp_downloads_page"
     },
     {
@@ -8972,8 +9056,8 @@
       "slug": "zed/darwin",
       "name": "Zed",
       "platform": "darwin",
-      "version": "1.10.1",
-      "installerUrl": "https://zed.dev/api/releases/stable/1.10.1/Zed-aarch64.dmg"
+      "version": "1.10.2",
+      "installerUrl": "https://zed.dev/api/releases/stable/1.10.2/Zed-aarch64.dmg"
     },
     {
       "slug": "zed/windows",
