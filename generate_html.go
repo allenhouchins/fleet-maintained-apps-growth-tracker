@@ -595,6 +595,76 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
         .apps-grid.hidden {
             display: none;
         }
+        /* Default: wrapper is layout-invisible; version + platform stack
+           as siblings inside the flex-column card, matching the original
+           layout. Compact mode below opts into a real flex row. */
+        .app-meta {
+            display: contents;
+        }
+        /* --- Compact grid + card variant --- */
+        .apps-grid--compact {
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            gap: 12px;
+        }
+        .apps-grid--compact .app-card {
+            display: grid;
+            grid-template-columns: 24px 1fr;
+            gap: 4px 12px;
+            align-items: center;
+            text-align: left;
+            padding: 12px;
+        }
+        .apps-grid--compact .app-icon {
+            width: 24px;
+            height: 24px;
+            border-radius: 4px;
+            box-shadow: none;
+            grid-row: span 2;
+        }
+        .apps-grid--compact .app-name {
+            font-size: 12px;
+            line-height: 1.3;
+            margin-bottom: 0;
+        }
+        .apps-grid--compact .app-meta {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .apps-grid--compact .app-version {
+            font-size: 12px;
+            margin-top: 0;
+        }
+        .apps-grid--compact .app-platform {
+            font-size: 12px;
+            padding: 2px 6px;
+            margin-top: 0;
+        }
+        /* --- Card-size toggle (sits in .apps-count-row) --- */
+        .card-size-toggle {
+            display: inline-flex;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            overflow: hidden;
+            background: #f8fafc;
+            flex-shrink: 0;
+        }
+        .card-size-toggle button {
+            border: 0;
+            background: transparent;
+            padding: 8px 14px;
+            font-size: 13px;
+            color: #64748b;
+            cursor: pointer;
+            transition: background 0.15s ease, color 0.15s ease;
+        }
+        .card-size-toggle button:hover {
+            color: #1e293b;
+        }
+        .card-size-toggle button.active {
+            background: #2563eb;
+            color: white;
+        }
         /* Modal Styles */
         .modal {
             display: none !important;
@@ -915,6 +985,10 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
                 <h2>Fleet-maintained apps</h2>
                 <div class="apps-count-row">
                     <p class="apps-count"><span id="appsCount">0</span> and counting...</p>
+                    <div class="card-size-toggle" role="group" aria-label="Card size">
+                        <button type="button" id="cardSizeDefaultBtn" class="active" onclick="setCardSize('default')" aria-pressed="true">Default</button>
+                        <button type="button" id="cardSizeCompactBtn" onclick="setCardSize('compact')" aria-pressed="false">Compact</button>
+                    </div>
                     <div class="apps-search">
                         <svg class="apps-search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
                         <input type="text" id="appSearchInput" placeholder="Search apps..." oninput="handleSearch(this.value)">
@@ -1101,20 +1175,58 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
                 const platformLabel = getPlatformLabel(app.platform);
                 const version = app.version || 'N/A';
                 const versionHtml = '<div class="app-version">' + escapeHtml(version) + '</div>';
-                
-                // Make cards clickable divs that open modal
-                // Store app slug to find app data when clicked
+
+                // Make cards clickable divs that open modal. Store app slug
+                // to find app data when clicked. The app-meta wrapper lets
+                // compact mode pull version + platform onto one line via flex;
+                // default mode uses display: contents on the wrapper so it
+                // stays layout-invisible.
                 return '<div class="app-card" data-platform="' + escapeHtml(app.platform) + '" data-app-slug="' + escapeHtml(app.slug) + '" onclick="openModalFromCard(this)" style="cursor: pointer;">' +
                     '<div class="app-icon" data-fallback="' + escapeHtml(fallbackText) + '">' +
                     '<img src="' + escapeHtml(iconUrl) + '" alt="' + escapeHtml(app.name) + '" onerror="handleIconError(this);">' +
                     '</div>' +
                     '<div class="app-name">' + escapeHtml(app.name) + '</div>' +
+                    '<div class="app-meta">' +
                     versionHtml +
                     '<span class="app-platform ' + escapeHtml(app.platform) + '">' + escapeHtml(platformLabel) + '</span>' +
+                    '</div>' +
                     '</div>';
             }).join('');
         }
-        
+
+        // --- Card-size toggle ---
+        // Persist between visits so a user's preferred density sticks.
+        const CARD_SIZE_STORAGE_KEY = 'fma-library:cardSize';
+        function setCardSize(mode) {
+            const grid = document.getElementById('appsGrid');
+            const defaultBtn = document.getElementById('cardSizeDefaultBtn');
+            const compactBtn = document.getElementById('cardSizeCompactBtn');
+            const isCompact = mode === 'compact';
+            if (grid) {
+                grid.classList.toggle('apps-grid--compact', isCompact);
+            }
+            if (defaultBtn && compactBtn) {
+                defaultBtn.classList.toggle('active', !isCompact);
+                compactBtn.classList.toggle('active', isCompact);
+                defaultBtn.setAttribute('aria-pressed', String(!isCompact));
+                compactBtn.setAttribute('aria-pressed', String(isCompact));
+            }
+            try {
+                localStorage.setItem(CARD_SIZE_STORAGE_KEY, mode);
+            } catch (e) {
+                // localStorage can be disabled in private browsing; failing
+                // silently keeps the current-session toggle working.
+            }
+        }
+        function restoreCardSize() {
+            try {
+                const saved = localStorage.getItem(CARD_SIZE_STORAGE_KEY);
+                if (saved === 'compact') setCardSize('compact');
+            } catch (e) {
+                /* no-op — default (Default mode) already applied */
+            }
+        }
+
         function updateChart(viewType) {
             if (!chartInstance || !chartData) return;
             
@@ -1213,6 +1325,8 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
             
             // Initialize apps display
             filterApps('total');
+            // Restore the user's last card-size preference (default vs compact).
+            restoreCardSize();
             
             // Cumulative Growth Chart
             const ctx1 = document.getElementById('cumulativeChart').getContext('2d');
