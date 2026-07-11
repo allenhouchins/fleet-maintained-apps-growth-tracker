@@ -1,159 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-06-19T16:56:57Z",
-      "appName": "HoudahSpot",
-      "slug": "houdahspot/darwin",
-      "platform": "darwin",
-      "oldVersion": "6.8.1",
-      "newVersion": "6.8.2",
-      "installerUrl": "https://dl.houdah.com/houdahSpot/updates/cast_assets/156b5d02-8e40-4b77-bcda-d1c6e91c16ad/HoudahSpot_6.8.2.dmg"
-    },
-    {
-      "date": "2026-06-19T17:42:12Z",
-      "appName": "Ollama",
-      "slug": "ollama/windows",
-      "platform": "windows",
-      "oldVersion": "0.30.7",
-      "newVersion": "0.30.8",
-      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.30.8/OllamaSetup.exe"
-    },
-    {
-      "date": "2026-06-19T17:42:12Z",
-      "appName": "Groove OmniDialer",
-      "slug": "groove-omnidialer/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "26.603.1020",
-      "installerUrl": "https://groove-dialer.s3-us-west-2.amazonaws.com/electron/Groove%20OmniDialer%20Setup%2026.603.1020.exe"
-    },
-    {
-      "date": "2026-06-19T17:42:12Z",
-      "appName": "Superhuman",
-      "slug": "superhuman/darwin",
-      "platform": "darwin",
-      "oldVersion": "1041.0.12",
-      "newVersion": "1041.0.13",
-      "installerUrl": "https://storage.googleapis.com/download.superhuman.com/supertron-update/Superhuman-1041.0.13-arm64-latest-mac.zip"
-    },
-    {
-      "date": "2026-06-19T17:42:12Z",
-      "appName": "Microsoft Visual Studio Code",
-      "slug": "visual-studio-code/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.125.0",
-      "newVersion": "1.125.1",
-      "installerUrl": "https://update.code.visualstudio.com/1.125.1/darwin/stable"
-    },
-    {
-      "date": "2026-06-19T17:42:12Z",
-      "appName": "WhatsApp",
-      "slug": "whatsapp/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.24.19",
-      "newVersion": "26.24.21",
-      "installerUrl": "https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release\u0026src=whatsapp_downloads_page"
-    },
-    {
-      "date": "2026-06-19T21:31:52Z",
-      "appName": "Arc",
-      "slug": "arc/windows",
-      "platform": "windows",
-      "oldVersion": "1.110.1.2",
-      "newVersion": "1.111.0.274",
-      "installerUrl": "https://releases.arc.net/windows/prod/1.111.0.274/Arc.x64.msix"
-    },
-    {
-      "date": "2026-06-19T21:31:52Z",
-      "appName": "Granola",
-      "slug": "granola/darwin",
-      "platform": "darwin",
-      "oldVersion": "7.345.3",
-      "newVersion": "7.345.5",
-      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.345.5/Granola-7.345.5-mac-universal.dmg"
-    },
-    {
-      "date": "2026-06-19T21:31:52Z",
-      "appName": "BatFi",
-      "slug": "batfi/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.0.5",
-      "newVersion": "3.1.0",
-      "installerUrl": "https://files.micropixels.software/batfi/BatFi-latest.zip"
-    },
-    {
-      "date": "2026-06-19T21:31:52Z",
-      "appName": "GoodSync",
-      "slug": "goodsync/darwin",
-      "platform": "darwin",
-      "oldVersion": "12.11.3",
-      "newVersion": "12.11.4",
-      "installerUrl": "https://www.goodsync.com/download/goodsync-vsub-mac.dmg"
-    },
-    {
-      "date": "2026-06-19T21:31:52Z",
-      "appName": "Readest",
-      "slug": "readest/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.11.4",
-      "newVersion": "0.11.10",
-      "installerUrl": "https://github.com/readest/readest/releases/download/v0.11.10/Readest_0.11.10_universal.dmg"
-    },
-    {
-      "date": "2026-06-21T03:17:48Z",
-      "appName": "OpenAudible",
-      "slug": "openaudible/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.8.3",
-      "newVersion": "4.8.5",
-      "installerUrl": "https://github.com/openaudible/openaudible/releases/download/v4.8.5/OpenAudible_4.8.5.dmg"
-    },
-    {
-      "date": "2026-06-21T03:17:48Z",
-      "appName": "Microsoft Remote Help",
-      "slug": "microsoft-remote-help/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.0.2601221",
-      "newVersion": "1.0.2606021",
-      "installerUrl": "https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Remote_Help_1.0.2606021_installer.pkg"
-    },
-    {
-      "date": "2026-06-21T03:17:48Z",
-      "appName": "Joplin",
-      "slug": "joplin/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.6.14",
-      "newVersion": "3.6.15",
-      "installerUrl": "https://github.com/laurent22/joplin/releases/download/v3.6.15/Joplin-3.6.15-arm64.DMG"
-    },
-    {
-      "date": "2026-06-21T03:17:48Z",
-      "appName": "PostgreSQL 17",
-      "slug": "postgresql-17/windows",
-      "platform": "windows",
-      "oldVersion": "17.10-1",
-      "newVersion": "17.10-2",
-      "installerUrl": "https://get.enterprisedb.com/postgresql/postgresql-17.10-2-windows-x64.exe"
-    },
-    {
-      "date": "2026-06-21T03:17:48Z",
-      "appName": "Readest",
-      "slug": "readest/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.11.10",
-      "newVersion": "0.11.12",
-      "installerUrl": "https://github.com/readest/readest/releases/download/v0.11.12/Readest_0.11.12_universal.dmg"
-    },
-    {
-      "date": "2026-06-21T03:17:48Z",
-      "appName": "Node.js",
-      "slug": "nodejs/windows",
-      "platform": "windows",
-      "oldVersion": "26.3.0",
-      "newVersion": "26.3.1",
-      "installerUrl": "https://nodejs.org/dist/v26.3.1/node-v26.3.1-x64.msi"
-    },
-    {
       "date": "2026-06-21T03:17:48Z",
       "appName": "GitKraken",
       "slug": "gitkraken/windows",
@@ -8999,6 +8846,159 @@
       "oldVersion": "2.18.10.0",
       "newVersion": "2.18.11.0",
       "installerUrl": "https://deploy.drofus.com/stable/drofus-setup-2.18.11.msi"
+    },
+    {
+      "date": "2026-07-11T03:33:31Z",
+      "appName": "Beekeeper Studio",
+      "slug": "beekeeper-studio/darwin",
+      "platform": "darwin",
+      "oldVersion": "5.9.1",
+      "newVersion": "5.9.2",
+      "installerUrl": "https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v5.9.2/Beekeeper-Studio-5.9.2-arm64.dmg"
+    },
+    {
+      "date": "2026-07-11T03:33:31Z",
+      "appName": "superwhisper",
+      "slug": "superwhisper/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.16.2",
+      "newVersion": "2.16.3",
+      "installerUrl": "https://builds.superwhisper.com/v2.16.3/superwhisper.zip"
+    },
+    {
+      "date": "2026-07-11T03:33:31Z",
+      "appName": "CleanMyMac",
+      "slug": "cleanmymac/darwin",
+      "platform": "darwin",
+      "oldVersion": "5.5.5",
+      "newVersion": "5.5.6",
+      "installerUrl": "https://updates.cleanmymac.com/com.macpaw.cleanmymac5/releases/CleanMyMac5_50506.0.2607101255.zip"
+    },
+    {
+      "date": "2026-07-11T03:33:31Z",
+      "appName": "Clop",
+      "slug": "clop/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.2.3",
+      "newVersion": "3.3.0",
+      "installerUrl": "https://files.lowtechguys.com/releases/Clop-3.3.0.dmg"
+    },
+    {
+      "date": "2026-07-11T03:33:31Z",
+      "appName": "Kiro CLI",
+      "slug": "kiro-cli/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.12.0",
+      "newVersion": "2.12.1",
+      "installerUrl": "https://desktop-release.q.us-east-1.amazonaws.com/2.12.1/Kiro%20CLI.dmg"
+    },
+    {
+      "date": "2026-07-11T03:33:31Z",
+      "appName": "Super Productivity",
+      "slug": "super-productivity/darwin",
+      "platform": "darwin",
+      "oldVersion": "18.13.1",
+      "newVersion": "18.14.0",
+      "installerUrl": "https://github.com/super-productivity/super-productivity/releases/download/v18.14.0/superProductivity-arm64.dmg"
+    },
+    {
+      "date": "2026-07-11T03:33:31Z",
+      "appName": "RewriteBar",
+      "slug": "rewritebar/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.29.0",
+      "newVersion": "2.30.0",
+      "installerUrl": "https://rewritebar.com/download/v2.30.0.zip"
+    },
+    {
+      "date": "2026-07-11T03:33:31Z",
+      "appName": "Dropbox",
+      "slug": "dropbox/windows",
+      "platform": "windows",
+      "oldVersion": "260.3.2813",
+      "newVersion": "260.4.2926",
+      "installerUrl": "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20260.4.2926%20Enterprise%20Installer.x64.msi"
+    },
+    {
+      "date": "2026-07-11T03:33:31Z",
+      "appName": "PDFsam Basic",
+      "slug": "pdfsam-basic/darwin",
+      "platform": "darwin",
+      "oldVersion": "6.0.3",
+      "newVersion": "6.0.4",
+      "installerUrl": "https://github.com/torakiki/pdfsam/releases/download/v6.0.4/pdfsam-basic-6.0.4-macos-arm64.dmg"
+    },
+    {
+      "date": "2026-07-11T03:33:31Z",
+      "appName": "Arc",
+      "slug": "arc/windows",
+      "platform": "windows",
+      "oldVersion": "1.113.0.288",
+      "newVersion": "1.114.0.269",
+      "installerUrl": "https://releases.arc.net/windows/prod/1.114.0.269/Arc.x64.msix"
+    },
+    {
+      "date": "2026-07-11T03:33:31Z",
+      "appName": "Google Credential Provider for Windows",
+      "slug": "google-credential-provider-for-windows/windows",
+      "platform": "windows",
+      "oldVersion": "138.0.7204.26",
+      "newVersion": "148.0.7778.160",
+      "installerUrl": "https://dl.google.com/credentialprovider/gcpwstandaloneenterprise64.msi"
+    },
+    {
+      "date": "2026-07-11T03:33:31Z",
+      "appName": "Santa",
+      "slug": "santa/darwin",
+      "platform": "darwin",
+      "oldVersion": "2026.5",
+      "newVersion": "2026.6",
+      "installerUrl": "https://github.com/northpolesec/santa/releases/download/2026.6/santa-2026.6.dmg"
+    },
+    {
+      "date": "2026-07-11T03:33:31Z",
+      "appName": "PDFsam Basic",
+      "slug": "pdfsam-basic/windows",
+      "platform": "windows",
+      "oldVersion": "6.0.3.0",
+      "newVersion": "6.0.4.0",
+      "installerUrl": "https://github.com/torakiki/pdfsam/releases/download/v6.0.4/pdfsam-basic-6.0.4-windows-x64.msi"
+    },
+    {
+      "date": "2026-07-11T03:33:31Z",
+      "appName": "Arc",
+      "slug": "arc/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.153.1",
+      "newVersion": "1.155.1",
+      "installerUrl": "https://releases.arc.net/release/Arc-1.155.1-83244.zip"
+    },
+    {
+      "date": "2026-07-11T03:33:31Z",
+      "appName": "Claude",
+      "slug": "claude/windows",
+      "platform": "windows",
+      "oldVersion": "1.19367.0",
+      "newVersion": "1.20186.0",
+      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.20186.0/Claude-d7731e7f42fb72db87a6488ad8c1357b1cf971f7.msix"
+    },
+    {
+      "date": "2026-07-11T03:33:31Z",
+      "appName": "Warp",
+      "slug": "warp/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.2026.07.08.17.54.01",
+      "newVersion": "0.2026.07.08.17.54.02",
+      "installerUrl": "https://releases.warp.dev/stable/v0.2026.07.08.17.54.stable_02/Warp.dmg"
+    },
+    {
+      "date": "2026-07-11T03:33:31Z",
+      "appName": "Hive",
+      "slug": "hive-app/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.2.13",
+      "newVersion": "1.2.15",
+      "installerUrl": "https://github.com/morapelker/hive/releases/download/v1.2.15/Hive-1.2.15-arm64.dmg"
     }
   ]
 }
