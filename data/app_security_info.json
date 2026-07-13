@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-13T15:08:54Z",
+  "lastUpdated": "2026-07-13T15:10:00Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -3473,6 +3473,42 @@
       "lastUpdated": "2026-07-13T15:08:54Z"
     },
     {
+      "slug": "eclipse-temurin-jre-21/windows",
+      "name": "Eclipse Temurin JRE 21",
+      "version": "21.0.11.10",
+      "sha256": "550e6f79b57a238b67a09e40a247c44b39cfa1c637cbfbe2cc444dd3a8d85f81",
+      "publisher": "CN=\"Eclipse.org Foundation, Inc.\", O=\"Eclipse.org Foundation, Inc.\", L=Ottawa, S=Ontario, C=CA",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "09DA3AD5A321EAB5D7D1435339C70C69",
+      "thumbprint": "C56B94C0AFC77271D6D5A295DA212F5D093FA00B",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-07-13T15:09:01Z"
+    },
+    {
+      "slug": "eclipse-temurin-jre-8/windows",
+      "name": "Eclipse Temurin JRE 8",
+      "version": "8.0.492.9",
+      "sha256": "55a1a960ddbaf3d910939b23a2c0d2fe037ae8ee4d8f2540db85a6c932daa244",
+      "publisher": "CN=\"Eclipse.org Foundation, Inc.\", O=\"Eclipse.org Foundation, Inc.\", L=Ottawa, S=Ontario, C=CA",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "09DA3AD5A321EAB5D7D1435339C70C69",
+      "thumbprint": "C56B94C0AFC77271D6D5A295DA212F5D093FA00B",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-07-13T15:09:08Z"
+    },
+    {
+      "slug": "egnyte-webedit/windows",
+      "name": "Egnyte WebEdit",
+      "version": "2.4.1400.90",
+      "sha256": "a5cf03cf1a9f9233d4c8c60a942fb360c72017ab73229be1267c484d6f8aff11",
+      "publisher": "CN=\"Egnyte, Inc.\", OU=Egnyte, O=\"Egnyte, Inc.\", L=Mountain View, S=California, C=US, SERIALNUMBER=4571788, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "06C2FF11B06E3118360173790A42EC7D",
+      "thumbprint": "9272CAFD79BD0D84DEF40D0003B17C2A41C4387D",
+      "timestamp": "CN=Sectigo Public Time Stamping Signer R36, O=Sectigo Limited, S=West Yorkshire, C=GB",
+      "lastUpdated": "2026-07-13T15:09:14Z"
+    },
+    {
       "slug": "egnyte/darwin",
       "name": "Egnyte",
       "version": "1.18.1",
@@ -3508,14 +3544,14 @@
     {
       "slug": "electrum/windows",
       "name": "Electrum",
-      "version": "4.7.2",
-      "sha256": "89a2e2934ce2b87f91787db867c280e29372e7c435e57b8cb98a5b5b594e230e",
+      "version": "4.8.0",
+      "sha256": "79ab0c198d753938af052f3ecf5c16835ad36100337f6c298088e09620a337f8",
       "publisher": "CN=Electrum Technologies GmbH, O=Electrum Technologies GmbH, L=Berlin, S=Berlin, C=DE, SERIALNUMBER=HRB 164636, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.1=Charlottenburg, OID.1.3.6.1.4.1.311.60.2.1.2=Berlin, OID.1.3.6.1.4.1.311.60.2.1.3=DE",
       "issuer": "CN=GoGetSSL G4 CS RSA4096 SHA256 2022 CA-1, O=EnVers Group SIA, C=LV",
       "serialNumber": "08EF7A3087096561BF9D25EF21B81544",
       "thumbprint": "7E68DEBE601919866BA9E463BDEC5969B0F25AE6",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-06-15T17:22:44Z"
+      "lastUpdated": "2026-07-13T15:09:18Z"
     },
     {
       "slug": "element/darwin",
@@ -3530,6 +3566,18 @@
       "version": "11.7008",
       "sha256": "760b1da6796d7354cde7b5100344e2d9fa2ba7c036368421812b8105ec9f3314",
       "lastUpdated": "2026-06-10T22:52:37Z"
+    },
+    {
+      "slug": "elevate-uc/windows",
+      "name": "Elevate UC",
+      "version": "2.31.37",
+      "sha256": "8b5b96095463d6d51808ebd2edcf38727d791c53d4d11e689a5990147dbf3756",
+      "publisher": "CN=SystemServer, O=SystemServer, L=Sunnyvale, S=California, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "01EF3B06B33C832BC94314E3C059A303",
+      "thumbprint": "2FB764DCB7E62B54F18B71D845FF589CFFCB328F",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-07-13T15:09:33Z"
     },
     {
       "slug": "elgato-camera-hub/darwin",
@@ -3624,11 +3672,35 @@
       "lastUpdated": "2026-07-01T15:29:00Z"
     },
     {
+      "slug": "endnote/windows",
+      "name": "EndNote",
+      "version": "22.3.1.19926",
+      "sha256": "98f0903db7247c63f7eaeb74a49659c0833c2e8e5d6c398a0bef58df23fce23a",
+      "publisher": "CN=Clarivate Analytics (US) LLC, OU=Scientific and Academic Research, O=Clarivate Analytics (US) LLC, L=Philadelphia, S=Pennsylvania, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0A7ADB05277A2A54439A28D1AF66EB76",
+      "thumbprint": "0E46B54D10D4C0590471FD5CC16D0FCDC4BFF1FB",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-07-13T15:09:41Z"
+    },
+    {
       "slug": "enpass/darwin",
       "name": "Enpass",
       "version": "6.12.4.2629",
       "sha256": "15febd8e0f6b3e84516d07dcd8e072e397764792cf4a67a121813f9456003b07",
       "lastUpdated": "2026-07-07T08:36:52Z"
+    },
+    {
+      "slug": "enpass/windows",
+      "name": "Enpass",
+      "version": "6.12.2.2551",
+      "sha256": "a5a6355adf8be80ef2fe43ae10527e9354b7f6c18a3485dc30013444ac06fbda",
+      "publisher": "CN=Enpass Technologies Inc., O=Enpass Technologies Inc., L=Wilmington, S=Delaware, C=US, SERIALNUMBER=7506274, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0D2FC336A456EE3C14F60012CD3EF572",
+      "thumbprint": "1C58D4F8F991F3DB3B0AB270CD26096BEDE8285D",
+      "timestamp": "CN=Globalsign R45 TSA for CodeSign 202510, O=GlobalSign nv-sa, C=BE",
+      "lastUpdated": "2026-07-13T15:09:45Z"
     },
     {
       "slug": "ente-auth/darwin",
@@ -3676,6 +3748,17 @@
       "version": "11.20.2",
       "sha256": "34864ac7bee1f498f0d8e8ff9c70160b69cab2697df4e84c0020402b9ec74297",
       "lastUpdated": "2026-06-12T18:54:00Z"
+    },
+    {
+      "slug": "evernote/windows",
+      "name": "Evernote",
+      "version": "11.24.3",
+      "sha256": "6d6307deec55f8bbf1d7cbc7228dc556295008a3d13b59a2a90e4981abe0567d",
+      "publisher": "CN=Evernote Corporation, SERIALNUMBER=3882795, OID.2.5.4.15=Private Organization, O=Evernote Corporation, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, L=San Diego, S=California, C=US",
+      "issuer": "CN=Entrust Extended Validation Code Signing CA - EVCS2, O=\"Entrust, Inc.\", C=US",
+      "serialNumber": "2AEC553C8491731254AE3E619246B2AF",
+      "thumbprint": "980E273B2DBC256396E334532EB8416E1F9B3151",
+      "lastUpdated": "2026-07-13T15:09:53Z"
     },
     {
       "slug": "exifcleaner/darwin",
@@ -6490,14 +6573,14 @@
     {
       "slug": "nordvpn/windows",
       "name": "NordVPN",
-      "version": "8.5.1.0",
-      "sha256": "b000fe1ccd6ac286b25fc4d0023f0f43938c6c81ddfcb64762bc4705a1b0fdd6",
+      "version": "8.6.1.0",
+      "sha256": "947e1dc58cd4e2accec640731a38c6e6c10e0bfdda328e94cb74e4a410fc6058",
       "publisher": "E=admin@nordvpn.com, CN=nordvpn s.a., O=nordvpn s.a., L=Panama City, S=Panama, C=PA, OID.1.3.6.1.4.1.311.60.2.1.3=PA, SERIALNUMBER=155694934, OID.2.5.4.15=Private Organization",
       "issuer": "CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
       "serialNumber": "62CDF8188D36A4CF37A334FD",
       "thumbprint": "6C8460C71705A019F5F78AF957A57E55D564FB3A",
       "timestamp": "CN=Globalsign R45 TSA for CodeSign 202510, O=GlobalSign nv-sa, C=BE",
-      "lastUpdated": "2026-07-10T14:11:10Z"
+      "lastUpdated": "2026-07-13T15:09:57Z"
     },
     {
       "slug": "nosql-workbench/darwin",
@@ -6705,14 +6788,14 @@
     {
       "slug": "ocenaudio/windows",
       "name": "ocenaudio",
-      "version": "3.19.5",
-      "sha256": "0ddb35b5275d8091fb03a9c21f3a0f5b4b2fea624478896fd90bd948db3ccfc3",
+      "version": "3.20.0",
+      "sha256": "ada197609bb284de1362c0e09628b2b22a2a07d4f22e6d358163d2ff43857870",
       "publisher": "CN=Rui Seara Junior, O=Rui Seara Junior, S=Santa Catarina, C=BR",
       "issuer": "CN=Sectigo Public Code Signing CA R36, O=Sectigo Limited, C=GB",
       "serialNumber": "0086857E0F5C4F400C6660F0855B062ADF",
       "thumbprint": "3C106B30200122F2401BAF61EECB33D6E9592D59",
       "timestamp": "CN=Sectigo Public Time Stamping Signer R37, O=Sectigo Limited, S=Greater London, C=GB",
-      "lastUpdated": "2026-06-27T12:38:02Z"
+      "lastUpdated": "2026-07-13T15:10:00Z"
     },
     {
       "slug": "ok-json/darwin",
