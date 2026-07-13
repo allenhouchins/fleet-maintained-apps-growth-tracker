@@ -1193,10 +1193,12 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
                 return a.platform.localeCompare(b.platform);
             });
             
-            if (!currentSearchQuery) {
-                countEl.textContent = filteredApps.length;
-            }
-            
+            // Always reflect what's actually rendered — the previous
+            // no-search guard froze the count as soon as any text was typed
+            // in the search box, so toggling Total / Mac / Windows left the
+            // count stuck until the search cleared.
+            countEl.textContent = filteredApps.length;
+
             grid.innerHTML = filteredApps.map(app => {
                 const iconUrl = getAppIconUrl(app.slug);
                 const fallbackText = getAppIconFallback(app.name);
