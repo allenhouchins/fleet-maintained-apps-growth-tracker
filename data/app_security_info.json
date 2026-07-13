@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-13T20:21:56Z",
+  "lastUpdated": "2026-07-13T20:23:43Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -4083,6 +4083,37 @@
       "lastUpdated": "2026-07-08T16:54:22Z"
     },
     {
+      "slug": "fortify/windows",
+      "name": "Fortify",
+      "version": "2.1.0",
+      "sha256": "95f5f3217e3da4531c8750b82d54825431c2456f5a5a4a349f21a39f4689c66e",
+      "lastUpdated": "2026-07-13T20:22:02Z"
+    },
+    {
+      "slug": "foxit-pdf-editor/windows",
+      "name": "Foxit PDF Editor",
+      "version": "14.0.5.33580",
+      "sha256": "764aa7ca2679c568539ada4dfa4b1f7de91f9c006fdb8fb98489dea0bce354f7",
+      "publisher": "CN=FOXIT SOFTWARE INC., O=FOXIT SOFTWARE INC., L=Fremont, S=California, C=US, SERIALNUMBER=3105953, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=California, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0D85A9E3525E6400161B9B9FA2C4D26C",
+      "thumbprint": "4F6D31EC5842C7028B7B3B381C62079F7F915AFF",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-07-13T20:23:01Z"
+    },
+    {
+      "slug": "foxit-pdf-reader/windows",
+      "name": "Foxit PDF Reader",
+      "version": "2026.1.2.36540",
+      "sha256": "74bb18acd4970f2596d63a05a83421e256d272c37c12216de69984e3244c6485",
+      "publisher": "CN=FOXIT SOFTWARE INC., O=FOXIT SOFTWARE INC., L=Fremont, S=California, C=US, SERIALNUMBER=3105953, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=California, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0D85A9E3525E6400161B9B9FA2C4D26C",
+      "thumbprint": "4F6D31EC5842C7028B7B3B381C62079F7F915AFF",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-07-13T20:23:24Z"
+    },
+    {
       "slug": "framer/darwin",
       "name": "Framer",
       "version": "2026.24.3",
@@ -4114,6 +4145,18 @@
       "version": "6.34.2",
       "sha256": "2d65028e5c9229a7e8a0d89746ec8510cca601b08f97b85b78210092df00cae0",
       "lastUpdated": "2026-07-04T03:23:11Z"
+    },
+    {
+      "slug": "freecad/windows",
+      "name": "FreeCAD",
+      "version": "1.1.1",
+      "sha256": "3e4caf58cc1d82e4e8d726572f741ae664b6e91a77c4d3cb59102d9b8bd51feb",
+      "publisher": "CN=The FreeCAD project association AISBL, O=The FreeCAD project association AISBL, L=Brussels, C=BE",
+      "issuer": "CN=Microsoft ID Verified CS EOC CA 03, O=Microsoft Corporation, C=US",
+      "serialNumber": "330000524A6006A09D8F8429DB00000000524A",
+      "thumbprint": "0317595AB81128FA81C8854850E626FF769A99CF",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7800-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-07-13T20:23:37Z"
     },
     {
       "slug": "freefilesync/darwin",
