@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-13T15:07:03Z",
+  "lastUpdated": "2026-07-13T15:08:54Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -2169,14 +2169,14 @@
     {
       "slug": "cmake-app/windows",
       "name": "CMake",
-      "version": "4.3.4",
-      "sha256": "b0df8d52a610b60e7b25ccb6bdfb70fb957573adbdac7485ace2f16a0f0510dd",
+      "version": "4.4.0",
+      "sha256": "bda9a4284fe219f6585b75d4152481f2b6391ec78fe7c791b10fa41274d02f57",
       "publisher": "CN=\"Kitware, Inc.\", O=\"Kitware, Inc.\", L=Clifton Park, S=New York, C=US, SERIALNUMBER=2235734, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=New York, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "026F295C7F2421F49A87D93369D05F3F",
       "thumbprint": "7129BADA9E7F98C172FD81133C2D1C2A5012B994",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-07-02T15:32:43Z"
+      "lastUpdated": "2026-07-13T15:07:37Z"
     },
     {
       "slug": "cmux/darwin",
@@ -2492,14 +2492,14 @@
     {
       "slug": "cursor/windows",
       "name": "Cursor",
-      "version": "3.10.11",
-      "sha256": "b9bffc722d2c944ef76d6bb51f9a13d45c4b9fed498c2e0c568b35ef2d789ed1",
+      "version": "3.10.20",
+      "sha256": "67c0b38c006f25964b9b7a8ab749f1334d48a3fe3aaa5b44585bd481a7cdb4fc",
       "publisher": "CN=\"Anysphere, Inc.\", O=\"Anysphere, Inc.\", L=San Francisco, S=California, C=US",
-      "issuer": "CN=Microsoft ID Verified CS EOC CA 04, O=Microsoft Corporation, C=US",
-      "serialNumber": "3300029BA5CDF6540BD33567AD000000029BA5",
-      "thumbprint": "009185A30171D54405B7260A0B65FA9F303ED086",
-      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7D00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-07-06T16:35:44Z"
+      "issuer": "CN=Microsoft ID Verified CS EOC CA 03, O=Microsoft Corporation, C=US",
+      "serialNumber": "330002D27F4465D8200CDECB8D00000002D27F",
+      "thumbprint": "D9BBC5986ADB9C6B900DA4C5CD7CFAECECAB7440",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:A500-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-07-13T15:07:46Z"
     },
     {
       "slug": "cursorsense/darwin",
@@ -2626,14 +2626,14 @@
     {
       "slug": "datagrip/windows",
       "name": "DataGrip",
-      "version": "2026.1.3",
-      "sha256": "661bccdea8cb29aa482a23365395c086acfbd1ac55d8220d660a522a6fd43287",
+      "version": "2026.1.4",
+      "sha256": "81ff4e511b492c5652734022ac2444003fcc1bb66a1b17d0e4a440611fefe1fb",
       "publisher": "CN=JetBrains s.r.o., O=JetBrains s.r.o., L=Prague, C=CZ, SERIALNUMBER=26502275, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CZ",
       "issuer": "CN=DigiCert Trusted G4 Code Signing Europe RSA4096 SHA384 2023 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "083EA13884BDFFCE8E5D9D5CAD2EFBDE",
       "thumbprint": "8C1B506D0BD10A911D09FB7EDBCAB383F1CDAF20",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-05-28T17:26:13Z"
+      "lastUpdated": "2026-07-13T15:08:04Z"
     },
     {
       "slug": "dataspell/darwin",
@@ -3399,6 +3399,78 @@
       "version": "4.40",
       "sha256": "96cd31c8e0c99126be7ec20a02cf58f4f425b16eeacde83c2b22d5fd59ac900e",
       "lastUpdated": "2026-06-11T15:03:18Z"
+    },
+    {
+      "slug": "eclipse-temurin-jdk-11/windows",
+      "name": "Eclipse Temurin JDK 11",
+      "version": "11.0.31.11",
+      "sha256": "4ae08e54c644e08d35584acaf33449dcc8f0fd03ea435668ccef467958851f14",
+      "publisher": "CN=\"Eclipse.org Foundation, Inc.\", O=\"Eclipse.org Foundation, Inc.\", L=Ottawa, S=Ontario, C=CA",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "09DA3AD5A321EAB5D7D1435339C70C69",
+      "thumbprint": "C56B94C0AFC77271D6D5A295DA212F5D093FA00B",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-07-13T15:08:14Z"
+    },
+    {
+      "slug": "eclipse-temurin-jdk-17/windows",
+      "name": "Eclipse Temurin JDK 17",
+      "version": "17.0.19.10",
+      "sha256": "6a6f7bb81c17b9826cdd763a2e3f1b671880024b778e68e3e0b84823aefa045b",
+      "publisher": "CN=\"Eclipse.org Foundation, Inc.\", O=\"Eclipse.org Foundation, Inc.\", L=Ottawa, S=Ontario, C=CA",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "09DA3AD5A321EAB5D7D1435339C70C69",
+      "thumbprint": "C56B94C0AFC77271D6D5A295DA212F5D093FA00B",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-07-13T15:08:23Z"
+    },
+    {
+      "slug": "eclipse-temurin-jdk-21/windows",
+      "name": "Eclipse Temurin JDK 21",
+      "version": "21.0.11.10",
+      "sha256": "550e6f79b57a238b67a09e40a247c44b39cfa1c637cbfbe2cc444dd3a8d85f81",
+      "publisher": "CN=\"Eclipse.org Foundation, Inc.\", O=\"Eclipse.org Foundation, Inc.\", L=Ottawa, S=Ontario, C=CA",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "09DA3AD5A321EAB5D7D1435339C70C69",
+      "thumbprint": "C56B94C0AFC77271D6D5A295DA212F5D093FA00B",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-07-13T15:08:33Z"
+    },
+    {
+      "slug": "eclipse-temurin-jdk-8/windows",
+      "name": "Eclipse Temurin JDK 8",
+      "version": "8.0.492.9",
+      "sha256": "454ff5ebf3f943d55286491caa1e6c5b9a714cbdd73362273ec3968fe3f1df37",
+      "publisher": "CN=\"Eclipse.org Foundation, Inc.\", O=\"Eclipse.org Foundation, Inc.\", L=Ottawa, S=Ontario, C=CA",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "09DA3AD5A321EAB5D7D1435339C70C69",
+      "thumbprint": "C56B94C0AFC77271D6D5A295DA212F5D093FA00B",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-07-13T15:08:41Z"
+    },
+    {
+      "slug": "eclipse-temurin-jre-11/windows",
+      "name": "Eclipse Temurin JRE 11",
+      "version": "11.0.31.11",
+      "sha256": "4ae08e54c644e08d35584acaf33449dcc8f0fd03ea435668ccef467958851f14",
+      "publisher": "CN=\"Eclipse.org Foundation, Inc.\", O=\"Eclipse.org Foundation, Inc.\", L=Ottawa, S=Ontario, C=CA",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "09DA3AD5A321EAB5D7D1435339C70C69",
+      "thumbprint": "C56B94C0AFC77271D6D5A295DA212F5D093FA00B",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-07-13T15:08:48Z"
+    },
+    {
+      "slug": "eclipse-temurin-jre-17/windows",
+      "name": "Eclipse Temurin JRE 17",
+      "version": "17.0.19.10",
+      "sha256": "6a6f7bb81c17b9826cdd763a2e3f1b671880024b778e68e3e0b84823aefa045b",
+      "publisher": "CN=\"Eclipse.org Foundation, Inc.\", O=\"Eclipse.org Foundation, Inc.\", L=Ottawa, S=Ontario, C=CA",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "09DA3AD5A321EAB5D7D1435339C70C69",
+      "thumbprint": "C56B94C0AFC77271D6D5A295DA212F5D093FA00B",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-07-13T15:08:54Z"
     },
     {
       "slug": "egnyte/darwin",
