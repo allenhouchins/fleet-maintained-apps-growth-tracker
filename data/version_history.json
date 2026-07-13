@@ -2,87 +2,6 @@
   "changes": [
     {
       "date": "2026-06-22T17:40:02Z",
-      "appName": "Dockside",
-      "slug": "dockside/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.9.13",
-      "newVersion": "2.9.14",
-      "installerUrl": "https://github.com/PrajwalSD/Dockside/releases/download/v2.9.14/Dockside.dmg"
-    },
-    {
-      "date": "2026-06-22T17:40:02Z",
-      "appName": "Parallels Desktop",
-      "slug": "parallels/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.3.3",
-      "newVersion": "26.4.0",
-      "installerUrl": "https://download.parallels.com/desktop/v26/26.4.0-57513/ParallelsDesktop-26.4.0-57513.dmg"
-    },
-    {
-      "date": "2026-06-22T17:40:02Z",
-      "appName": "WebCatalog",
-      "slug": "webcatalog/darwin",
-      "platform": "darwin",
-      "oldVersion": "76.0.1",
-      "newVersion": "76.1.1",
-      "installerUrl": "https://cdn-2.webcatalog.io/webcatalog/WebCatalog-76.1.1-universal.dmg"
-    },
-    {
-      "date": "2026-06-22T17:40:02Z",
-      "appName": "darktable",
-      "slug": "darktable/windows",
-      "platform": "windows",
-      "oldVersion": "5.4.1",
-      "newVersion": "5.6.0",
-      "installerUrl": "https://github.com/darktable-org/darktable/releases/download/release-5.6.0/darktable-5.6.0-win64.exe"
-    },
-    {
-      "date": "2026-06-22T17:40:02Z",
-      "appName": "Zoom",
-      "slug": "zoom/darwin",
-      "platform": "darwin",
-      "oldVersion": "7.0.5.81138",
-      "newVersion": "7.1.0.83064",
-      "installerUrl": "https://zoom.us/client/latest/ZoomInstallerIT.pkg"
-    },
-    {
-      "date": "2026-06-22T17:40:02Z",
-      "appName": "VNC Viewer",
-      "slug": "vnc-viewer/windows",
-      "platform": "windows",
-      "oldVersion": "7.15.1.18",
-      "newVersion": "8.4.1.10",
-      "installerUrl": "https://downloads.realvnc.com/download/file/realvnc-connect-viewer/RealVNC-Connect-Viewer-8.4.1-Windows.msi.zip"
-    },
-    {
-      "date": "2026-06-22T17:40:02Z",
-      "appName": "Proton Mail",
-      "slug": "proton-mail/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.12.1",
-      "newVersion": "1.13.3",
-      "installerUrl": "https://proton.me/download/mail/macos/1.13.3/ProtonMail-desktop.dmg"
-    },
-    {
-      "date": "2026-06-22T17:40:02Z",
-      "appName": "Fantastical",
-      "slug": "fantastical/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.1.14",
-      "newVersion": "4.1.15",
-      "installerUrl": "https://cdn.flexibits.com/Fantastical_4.1.15.zip"
-    },
-    {
-      "date": "2026-06-22T17:40:02Z",
-      "appName": "Postman",
-      "slug": "postman/windows",
-      "platform": "windows",
-      "oldVersion": "12.15.6",
-      "newVersion": "12.16.0",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.16.0/windows_64"
-    },
-    {
-      "date": "2026-06-22T17:40:02Z",
       "appName": "Stats",
       "slug": "stats/darwin",
       "platform": "darwin",
@@ -8999,6 +8918,87 @@
       "oldVersion": "9.1.4",
       "newVersion": "9.1.5",
       "installerUrl": "https://github.com/lutzroeder/netron/releases/download/v9.1.5/Netron-9.1.5-mac.zip"
+    },
+    {
+      "date": "2026-07-13T20:19:12Z",
+      "appName": "Remote Desktop Manager",
+      "slug": "remote-desktop-manager/darwin",
+      "platform": "darwin",
+      "oldVersion": "2026.2.2.1",
+      "newVersion": "2026.2.3.1",
+      "installerUrl": "https://cdn.devolutions.net/download/Mac/Devolutions.RemoteDesktopManager.Mac.2026.2.3.1.dmg"
+    },
+    {
+      "date": "2026-07-13T20:19:12Z",
+      "appName": "DuckDuckGo",
+      "slug": "duckduckgo/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.197.0",
+      "newVersion": "1.198.0",
+      "installerUrl": "https://staticcdn.duckduckgo.com/macos-desktop-browser/duckduckgo-1.198.0.759.dmg"
+    },
+    {
+      "date": "2026-07-13T20:19:12Z",
+      "appName": "FreeCAD",
+      "slug": "freecad/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "1.1.1",
+      "installerUrl": "https://github.com/FreeCAD/FreeCAD/releases/download/1.1.1/FreeCAD_1.1.1-Windows-x86_64-py311-installer.exe"
+    },
+    {
+      "date": "2026-07-13T20:19:12Z",
+      "appName": "Fortify",
+      "slug": "fortify/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "2.1.0",
+      "installerUrl": "https://github.com/PeculiarVentures/fortify-releases/releases/download/v2.1.0/Fortify_2.1.0_x64_en-US.msi"
+    },
+    {
+      "date": "2026-07-13T20:19:12Z",
+      "appName": "FlexWhere for Desktop",
+      "slug": "flexwhere/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "3.5",
+      "installerUrl": "https://s3.eu-central-1.amazonaws.com/releases.flexwhere.net/Flexwhere+for+Desktop+3.5.msi"
+    },
+    {
+      "date": "2026-07-13T20:19:12Z",
+      "appName": "Electrum",
+      "slug": "electrum/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.7.2",
+      "newVersion": "4.8.0",
+      "installerUrl": "https://download.electrum.org/4.8.0/electrum-4.8.0.dmg"
+    },
+    {
+      "date": "2026-07-13T20:19:12Z",
+      "appName": "Foxit PDF Reader",
+      "slug": "foxit-pdf-reader/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "2026.1.2.36540",
+      "installerUrl": "https://cdn01.foxitsoftware.com/product/reader/desktop/win/2026.1.2/FoxitPDFReader202612_L10N_Setup_x64.exe"
+    },
+    {
+      "date": "2026-07-13T20:19:12Z",
+      "appName": "Notepad.exe",
+      "slug": "notepadexe/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.5.0",
+      "newVersion": "1.5.1",
+      "installerUrl": "https://github.com/notepadhq/notepadexe-public/releases/download/1.5.1/Notepad.zip"
+    },
+    {
+      "date": "2026-07-13T20:19:12Z",
+      "appName": "Foxit PDF Editor",
+      "slug": "foxit-pdf-editor/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "14.0.5.33580",
+      "installerUrl": "https://cdn01.foxitsoftware.com/product/phantomPDF/desktop/win/14.0.5/FoxitPDFEditor1405_L10N_Setup_x64.exe"
     }
   ]
 }
