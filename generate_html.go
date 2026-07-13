@@ -391,6 +391,12 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
             position: relative;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .container > * {
+            margin: 0;
         }
         .header-section {
             display: flex;
@@ -400,6 +406,12 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
         }
         .header-content {
             flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .header-content > * {
+            margin: 0;
         }
         h1 {
             color: #1e293b;
@@ -417,29 +429,43 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
         }
         .stats {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-columns: 3fr 1fr;
             gap: 20px;
-            margin-top: 30px;
-            padding-top: 30px;
-            border-top: 2px solid #e2e8f0;
+        }
+        /* Segmented toggle: three clickable filter cards share edges. */
+        .stats-toggle {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            overflow: hidden;
+            background: #f8fafc;
+        }
+        .stats-toggle .stat-card {
+            border-radius: 0;
+            border-left: 1px solid #e2e8f0;
+        }
+        .stats-toggle .stat-card:first-child {
+            border-left: 0;
         }
         .stat-card {
             background: #f8fafc;
             padding: 20px;
             border-radius: 6px;
-            border-left: 4px solid #2563eb;
             cursor: pointer;
             transition: all 0.2s ease;
         }
-        .stat-card:hover {
+        .stat-card.clickable:hover {
             background: #f1f5f9;
-            transform: translateY(-2px);
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .stat-card.clickable:hover .stat-value,
+        .stat-card.clickable:hover .stat-label,
+        .stat-card.active .stat-value,
+        .stat-card.active .stat-label {
+            color: #192147;
         }
         .stat-card.active {
             background: #eff6ff;
-            border-left-color: #1d4ed8;
-            box-shadow: 0 2px 4px rgba(37, 99, 235, 0.2);
         }
         .stat-card.clickable {
             cursor: pointer;
@@ -466,23 +492,23 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
             font-size: 14px;
         }
         .apps-section {
-            margin-top: 50px;
-            padding-top: 40px;
-            border-top: 2px solid #e2e8f0;
-        }
-        .apps-header {
-            margin-bottom: 30px;
-        }
-        .apps-header h2 {
-            color: #1e293b;
-            margin-bottom: 10px;
-            font-size: 24px;
+            margin-top: 0;
+            padding-top: 0;
+            border-top: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
         }
         .apps-count-row {
             display: flex;
             align-items: center;
             justify-content: space-between;
             gap: 16px;
+        }
+        .apps-controls {
+            display: flex;
+            align-items: center;
+            gap: 8px;
         }
         .apps-search {
             position: relative;
@@ -509,10 +535,12 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
             transition: all 0.2s ease;
             box-sizing: border-box;
         }
-        .apps-search input:focus {
-            border-color: #2563eb;
+        .apps-search input:focus,
+        .apps-search input:focus-visible {
+            outline: none;
+            box-shadow: none;
+            border-color: #192147;
             background: white;
-            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
         }
         .apps-search input::placeholder {
             color: #94a3b8;
@@ -520,12 +548,12 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
         .apps-count {
             color: #64748b;
             font-size: 16px;
+            margin: 0;
         }
         .apps-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
             gap: 20px;
-            margin-top: 20px;
         }
         .app-card {
             background: #f8fafc;
@@ -541,9 +569,7 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
             color: inherit;
         }
         .app-card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
-            border-color: #2563eb;
+            border-color: #192147;
         }
         .app-icon {
             width: 64px;
@@ -604,21 +630,22 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
         /* --- Compact grid + card variant --- */
         .apps-grid--compact {
             grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-            gap: 12px;
+            gap: 8px;
         }
         .apps-grid--compact .app-card {
             display: grid;
-            grid-template-columns: 24px 1fr;
-            gap: 4px 12px;
+            grid-template-columns: 36px 1fr;
+            gap: 0px 8px;
             align-items: center;
             text-align: left;
-            padding: 12px;
+            padding: 4px;
         }
         .apps-grid--compact .app-icon {
-            width: 24px;
-            height: 24px;
+            width: 36px;
+            height: 36px;
             border-radius: 4px;
             box-shadow: none;
+            margin-bottom: 0;
             grid-row: span 2;
         }
         .apps-grid--compact .app-name {
@@ -662,8 +689,8 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
             color: #1e293b;
         }
         .card-size-toggle button.active {
-            background: #2563eb;
-            color: white;
+            background: #eff6ff;
+            color: #1e293b;
         }
         /* Modal Styles */
         .modal {
@@ -982,16 +1009,17 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
         
         <div class="apps-section">
             <div class="apps-header">
-                <h2>Fleet-maintained apps</h2>
                 <div class="apps-count-row">
-                    <p class="apps-count"><span id="appsCount">0</span> and counting...</p>
-                    <div class="card-size-toggle" role="group" aria-label="Card size">
-                        <button type="button" id="cardSizeDefaultBtn" class="active" onclick="setCardSize('default')" aria-pressed="true">Default</button>
-                        <button type="button" id="cardSizeCompactBtn" onclick="setCardSize('compact')" aria-pressed="false">Compact</button>
-                    </div>
-                    <div class="apps-search">
-                        <svg class="apps-search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-                        <input type="text" id="appSearchInput" placeholder="Search apps..." oninput="handleSearch(this.value)">
+                    <p class="apps-count"><span id="appsCount">0</span> total apps</p>
+                    <div class="apps-controls">
+                        <div class="card-size-toggle" role="group" aria-label="Card size">
+                            <button type="button" id="cardSizeDefaultBtn" class="active" onclick="setCardSize('default')" aria-pressed="true">Default</button>
+                            <button type="button" id="cardSizeCompactBtn" onclick="setCardSize('compact')" aria-pressed="false">Compact</button>
+                        </div>
+                        <div class="apps-search">
+                            <svg class="apps-search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                            <input type="text" id="appSearchInput" placeholder="Search apps..." oninput="handleSearch(this.value)">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1296,23 +1324,28 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
             const macApps = data.macCounts.length > 0 ? data.macCounts[data.macCounts.length - 1] : 0;
             const windowsApps = data.windowsCounts.length > 0 ? data.windowsCounts[data.windowsCounts.length - 1] : 0;
             
-            // Update stats cards
-            document.getElementById('stats').innerHTML = 
-                '<div class="stat-card clickable active" data-view="total">' +
-                    '<div class="stat-value">' + totalApps + '</div>' +
-                    '<div class="stat-label">Total Apps</div>' +
-                '</div>' +
-                '<div class="stat-card clickable" data-view="mac">' +
-                    '<div class="stat-value">' + macApps + '</div>' +
-                    '<div class="stat-label">Mac Apps</div>' +
-                '</div>' +
-                '<div class="stat-card clickable" data-view="windows">' +
-                    '<div class="stat-value">' + windowsApps + '</div>' +
-                    '<div class="stat-label">Windows Apps</div>' +
+            // Update stats cards. First three (Total / Mac / Windows) are
+            // clickable filters and get grouped in .stats-toggle so their
+            // shared edges collapse into a segmented-toggle look. The
+            // fourth (Days tracked) is display-only and sits separately.
+            document.getElementById('stats').innerHTML =
+                '<div class="stats-toggle" role="group" aria-label="Filter by platform">' +
+                    '<div class="stat-card clickable active" data-view="total">' +
+                        '<div class="stat-value">' + totalApps + '</div>' +
+                        '<div class="stat-label">Total apps</div>' +
+                    '</div>' +
+                    '<div class="stat-card clickable" data-view="mac">' +
+                        '<div class="stat-value">' + macApps + '</div>' +
+                        '<div class="stat-label">Mac apps</div>' +
+                    '</div>' +
+                    '<div class="stat-card clickable" data-view="windows">' +
+                        '<div class="stat-value">' + windowsApps + '</div>' +
+                        '<div class="stat-label">Windows apps</div>' +
+                    '</div>' +
                 '</div>' +
                 '<div class="stat-card">' +
                     '<div class="stat-value">' + daysSpan + '</div>' +
-                    '<div class="stat-label">Days Tracked</div>' +
+                    '<div class="stat-label">Days tracked</div>' +
                 '</div>';
             
             // Add click event listeners to stat cards
