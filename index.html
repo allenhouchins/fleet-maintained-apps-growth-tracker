@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: July 14, 2026 at 1:13 PM CDT</p>
+            Last updated: July 14, 2026 at 3:17 PM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: July 14, 2026 at 1:13 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: July 14, 2026 at 3:17 PM CDT</p>
             </div>
         </div>
     </div>
@@ -1656,7 +1656,7 @@
             1312,
             1312,
             1330,
-            1330
+            1332
           ],
           "additions": [
             20,
@@ -2156,7 +2156,7 @@
             0,
             0,
             18,
-            0
+            2
           ],
           "macCounts": [
             20,
@@ -2656,7 +2656,7 @@
             960,
             960,
             960,
-            960
+            961
           ],
           "windowsCounts": [
             0,
@@ -3156,7 +3156,7 @@
             352,
             352,
             370,
-            370
+            371
           ],
           "growthDates": [
             "2025-03-04",
@@ -3246,7 +3246,8 @@
             "2026-07-07",
             "2026-07-08",
             "2026-07-10",
-            "2026-07-13"
+            "2026-07-13",
+            "2026-07-14"
           ],
           "growthCounts": [
             20,
@@ -3336,7 +3337,8 @@
             1280,
             1298,
             1312,
-            1330
+            1330,
+            1332
           ],
           "growthAdditions": [
             20,
@@ -3426,7 +3428,8 @@
             17,
             18,
             14,
-            18
+            18,
+            2
           ]
         };
         
@@ -13619,6 +13622,22 @@
                 }
               },
               {
+                "name": "Mozilla VPN",
+                "slug": "mozilla-vpn/darwin",
+                "platform": "darwin",
+                "description": "Mozilla VPN is a virtual private network service from the makers of Firefox that encrypts your device's internet connection and hides your location.",
+                "version": "2.38.0",
+                "installerUrl": "https://archive.mozilla.org/pub/vpn/releases/2.38.0/mac/MozillaVPN.pkg"
+              },
+              {
+                "name": "Mozilla VPN",
+                "slug": "mozilla-vpn/windows",
+                "platform": "windows",
+                "description": "Mozilla VPN is a virtual private network service from the makers of Firefox that encrypts your device's internet connection and hides your location.",
+                "version": "2.38.0",
+                "installerUrl": "https://archive.mozilla.org/pub/vpn/releases/2.38.0/windows/MozillaVPN.msi"
+              },
+              {
                 "name": "MQTTX",
                 "slug": "mqttx/darwin",
                 "platform": "darwin",
@@ -21589,7 +21608,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `July 14, 2026 at 1:13 PM CDT`;
+                let timestampText = 'Last updated: ' + `July 14, 2026 at 3:17 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
