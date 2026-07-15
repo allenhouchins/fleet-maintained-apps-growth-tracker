@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T02:45:43Z",
+  "lastUpdated": "2026-07-15T02:47:42Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -4223,6 +4223,30 @@
       "lastUpdated": "2026-07-15T02:45:43Z"
     },
     {
+      "slug": "galaxy-modeler/windows",
+      "name": "Galaxy Modeler",
+      "version": "12.6.2",
+      "sha256": "c82fc58b557d629c46206f898f23aa103aac5cb08831d8aa17e4a3728bb917a6",
+      "publisher": "CN=Ideamerit s.r.o., O=Ideamerit s.r.o., L=Havířov, C=CZ, SERIALNUMBER=175 96 041, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CZ",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "022A9DF3AB3081B904C36B32758DFD19",
+      "thumbprint": "63C9AB466A448C22DBA8ED8C14D4EF886191CCE7",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-07-15T02:45:50Z"
+    },
+    {
+      "slug": "garmin-basecamp/windows",
+      "name": "Garmin BaseCamp",
+      "version": "4.7.5.0",
+      "sha256": "12c753fc067acb51b4a28cb01946edfb6a2545e8865fa2a346689526aeba30ca",
+      "publisher": "CN=\"Garmin International, Inc.\", OU=Engineering, O=\"Garmin International, Inc.\", L=Olathe, S=Kansas, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0AE73D0EF303BBCE1973FD9CE60418FE",
+      "thumbprint": "4E32DAE481D93014B570868B00F95A8B1AD933EE",
+      "timestamp": "CN=DigiCert Timestamp 2022 - 2, O=DigiCert, C=US",
+      "lastUpdated": "2026-07-15T02:45:54Z"
+    },
+    {
       "slug": "garmin-express/darwin",
       "name": "Garmin Express",
       "version": "7.29.1",
@@ -4308,6 +4332,17 @@
       "lastUpdated": "2026-06-29T18:52:59Z"
     },
     {
+      "slug": "geogebra-classic/windows",
+      "name": "GeoGebra Classic",
+      "version": "6.0.920",
+      "sha256": "52839b98c7a9bb1f23424ad19e677f98f8ffcf571a38467557bcccdb87269dad",
+      "publisher": "CN=GlobalSign Root CA, OU=Root CA, O=GlobalSign nv-sa, C=BE",
+      "issuer": "CN=GlobalSign Root CA, OU=Root CA, O=GlobalSign nv-sa, C=BE",
+      "serialNumber": "040000000001154b5ac394",
+      "timestamp": "Cert is a CA certificate",
+      "lastUpdated": "2026-07-15T02:46:11Z"
+    },
+    {
       "slug": "gephi/darwin",
       "name": "Gephi",
       "version": "0.11.2",
@@ -4381,14 +4416,14 @@
     {
       "slug": "github-desktop/windows",
       "name": "GitHub Desktop",
-      "version": "3.6.2",
-      "sha256": "deac92b3ad54074d02bf8d9b94681b00d52b981605d448068f21d8a8be962880",
+      "version": "3.6.3",
+      "sha256": "71e939b98b8bdd77b8178362399d5a6a49bc24d8cf7882f4ab1030be3e14d435",
       "publisher": "CN=\"GitHub, Inc.\", O=\"GitHub, Inc.\", L=San Francisco, S=California, C=US",
-      "issuer": "CN=Microsoft ID Verified CS AOC CA 04, O=Microsoft Corporation, C=US",
-      "serialNumber": "330002A76C7D9BE5036CA1D16200000002A76C",
-      "thumbprint": "8E099F38CB350662FF68987503B91C87B739EB3B",
-      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:A500-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-07-02T15:33:10Z"
+      "issuer": "CN=Microsoft ID Verified CS AOC CA 03, O=Microsoft Corporation, C=US",
+      "serialNumber": "33000319415780B0DE9EDA6DE0000000031941",
+      "thumbprint": "2DB2396D6546A1D043BC9BDA8308832CE8D09F63",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7D00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-07-15T02:46:23Z"
     },
     {
       "slug": "github/darwin",
@@ -4438,11 +4473,30 @@
       "lastUpdated": "2026-06-09T22:49:02Z"
     },
     {
+      "slug": "go/windows",
+      "name": "Go",
+      "version": "1.26.5",
+      "sha256": "d6a71e6dc9806cb3f1fcb817d562175c5a7b1505fc3f6638299648e0b9f0f74f",
+      "lastUpdated": "2026-07-15T02:47:02Z"
+    },
+    {
       "slug": "go2shell/darwin",
       "name": "Go2Shell",
       "version": "2.5",
       "sha256": "c930101ff4b3aa98488c3ab2c9fcb1c031ab33dd4270d1996613648ae0de3502",
       "lastUpdated": "2026-06-09T22:51:14Z"
+    },
+    {
+      "slug": "goanywhere-openpgp-studio/windows",
+      "name": "GoAnywhere OpenPGP Studio",
+      "version": "1.2.3",
+      "sha256": "8c50532e3ba8f8fcf2333787741c132be6dc36ab97f50f04d35764a197bf0d5d",
+      "publisher": "CN=\"Fortra, LLC\", O=\"Fortra, LLC\", L=Eden Prairie, S=Minnesota, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "04C3D0A2FD7E883484C3B8AAB9D95C61",
+      "thumbprint": "2194BEAB2AD01DD8C669C5219C2A27193FF99B31",
+      "timestamp": "CN=DigiCert Timestamp 2023, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-07-15T02:47:11Z"
     },
     {
       "slug": "godot/darwin",
@@ -4468,14 +4522,14 @@
     {
       "slug": "gog-galaxy/windows",
       "name": "GOG Galaxy",
-      "version": "2.0.100.1",
-      "sha256": "d04645ef5e4ada875f48d74828edd62222b2787eff09cb6e1c48e591949fd8f6",
+      "version": "2.1.6.29",
+      "sha256": "c2888e0a1425823e47ed04c26e2d3c81cb14564a8e92d9c9628c3ed77a9d87bc",
       "publisher": "CN=GOG  sp. z o.o, O=GOG  sp. z o.o, L=WARSZAWA, C=PL",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0157F412364061E42365C330C3E777CA",
       "thumbprint": "3BB0E4A0B8370BF703050CB4719D5BB2CACAC60E",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-06-15T17:23:19Z"
+      "lastUpdated": "2026-07-15T02:47:21Z"
     },
     {
       "slug": "goland/darwin",
@@ -4497,11 +4551,30 @@
       "lastUpdated": "2026-07-08T17:28:34Z"
     },
     {
+      "slug": "goldendict-ng/windows",
+      "name": "GoldenDict-ng",
+      "version": "26.6.2",
+      "sha256": "8225752610bc6f3669c5a07df6f14ce05a538ed3a97ee789c06efd4ff17f09e2",
+      "lastUpdated": "2026-07-15T02:47:26Z"
+    },
+    {
       "slug": "goodsync/darwin",
       "name": "GoodSync",
       "version": "12.11.4",
       "sha256": "ca788773091ae6e078eb15f7ce534f120e2126846c9a3415689c8b5307ed97b2",
       "lastUpdated": "2026-06-19T21:35:19Z"
+    },
+    {
+      "slug": "google-ads-editor/windows",
+      "name": "Google Ads Editor",
+      "version": "14.12.6.0",
+      "sha256": "ede1e92729a61f70621b56c92a9546ab3c4865b57ee4cfa6af7f34d32e0c5de9",
+      "publisher": "CN=Google LLC, O=Google LLC, L=Mountain View, S=California, C=US, SERIALNUMBER=3582691, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0B50CF246B263EFD85A729315158F3FF",
+      "thumbprint": "607A3EDAA64933E94422FC8F0C80388E0590986C",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-07-15T02:47:38Z"
     },
     {
       "slug": "google-chrome/darwin",
@@ -4566,6 +4639,18 @@
       "version": "1.82.2.534",
       "sha256": "0fd90e2f29d0185bedd04a84078287096f7791f4181fd46a5969f1604e164cdc",
       "lastUpdated": "2026-07-08T16:56:02Z"
+    },
+    {
+      "slug": "google-web-designer/windows",
+      "name": "Google Web Designer",
+      "version": "14.3.0.0",
+      "sha256": "0bd982d5af4ba0cf4178dfbf25730ae27bd79b597a6096498b66563eae338faf",
+      "publisher": "CN=Google LLC, O=Google LLC, L=Mountain View, S=California, C=US, SERIALNUMBER=3582691, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0B50CF246B263EFD85A729315158F3FF",
+      "thumbprint": "607A3EDAA64933E94422FC8F0C80388E0590986C",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-07-15T02:47:42Z"
     },
     {
       "slug": "gotomeeting/darwin",
