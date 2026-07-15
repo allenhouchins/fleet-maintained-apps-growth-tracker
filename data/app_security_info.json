@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T02:47:42Z",
+  "lastUpdated": "2026-07-15T02:48:20Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -4716,14 +4716,33 @@
     {
       "slug": "granola/windows",
       "name": "Granola",
-      "version": "7.394.2",
-      "sha256": "e1ea74204caf6597737b73efcf4e2ef8069c6a4b7607bd05bae41ba35c91f08a",
+      "version": "7.394.3",
+      "sha256": "56b685bb20c47f1b0ee1a1ff70277ed0516e53f0060affcc7e4410f6d0d2ea2c",
       "publisher": "CN=Granola Labs Ltd, O=Granola Labs Ltd, L=St. Albans, C=GB",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "09EC2851FE9C25200C0EBA306A0F3B4E",
       "thumbprint": "AECA9FD75FB1BA419EE81D17F667154095817355",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-07-09T16:04:22Z"
+      "lastUpdated": "2026-07-15T02:47:46Z"
+    },
+    {
+      "slug": "graphviz/windows",
+      "name": "Graphviz",
+      "version": "15.1.0",
+      "sha256": "45f20128e6b86e54eb3c2f0ac94d4232d33b9c8a7a81ac171c3d393b8d19bcdc",
+      "lastUpdated": "2026-07-15T02:47:49Z"
+    },
+    {
+      "slug": "grepwin/windows",
+      "name": "grepWin",
+      "version": "2.1.1434",
+      "sha256": "bb8644e3d218d0d164362516f3ee2f5d4324e820245d9b852b0a81717a361099",
+      "publisher": "CN=\"Open Source Developer, Küng Stefan\", O=Open Source Developer, L=Altstätten, S=Sankt Gallen, C=CH",
+      "issuer": "CN=Certum Code Signing 2021 CA, O=Asseco Data Systems S.A., C=PL",
+      "serialNumber": "059D2379A85F857A7F9C1688B8389C64",
+      "thumbprint": "EDC1A2B9CDF927F5267BC436B9019DAB185CA7A7",
+      "timestamp": "CN=Certum Timestamp 2025, O=Asseco Data Systems S.A., C=PL",
+      "lastUpdated": "2026-07-15T02:47:55Z"
     },
     {
       "slug": "grids/darwin",
@@ -4971,14 +4990,14 @@
     {
       "slug": "imazing-profile-editor/windows",
       "name": "iMazing Profile Editor",
-      "version": "2.0.3.0",
-      "sha256": "cd9826185edd11980a0302b830092368d31aa9e890fe91699a0ae8a32ecd7141",
+      "version": "2.0.4.0",
+      "sha256": "1bd94ad14d40321761a2c6415c6bc716fe975117c845dd24e1a81787fe1bb6a9",
       "publisher": "CN=DigiDNA Sàrl, O=DigiDNA Sàrl, L=Genève, C=CH",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "09DC34C135F9FB72F5985E1D63ADC539",
       "thumbprint": "052E0ED28CCBC7E77844C666D8CC27A254CC8F88",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-06-07T13:44:54Z"
+      "lastUpdated": "2026-07-15T02:47:57Z"
     },
     {
       "slug": "imazing/darwin",
@@ -5743,14 +5762,14 @@
     {
       "slug": "loom/windows",
       "name": "Loom",
-      "version": "0.360.0",
-      "sha256": "45010484b835f4b78785581cc4629ce2a4cc99adfba81fe022afeb4c646d5324",
+      "version": "0.361.0",
+      "sha256": "4d69fc928243eda9291a833ed886877a4941e98d3ef387eca7126e97cf601d36",
       "publisher": "CN=\"Loom, Inc.\", O=\"Loom, Inc.\", L=San Francisco, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "075FEF2A2AF6925B9641D6C7FFA4C705",
       "thumbprint": "0E4E993EBB874473561A37B5FFCD9E36986BE9B5",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-07-09T16:04:26Z"
+      "lastUpdated": "2026-07-15T02:48:02Z"
     },
     {
       "slug": "loop/darwin",
@@ -6134,14 +6153,14 @@
     {
       "slug": "microsoft-dotnet-runtime-8/windows",
       "name": "Microsoft .NET Runtime 8",
-      "version": "8.0.28",
-      "sha256": "e844a7edacb32435f1f70ffa1becbd88e4bfd96ae4bc75a91334b2002a2b9ac1",
+      "version": "8.0.29",
+      "sha256": "58da46d4d560d67b7bb00e5c9c5c41049de29a9958a879eea1e7fd5f891eb0de",
       "publisher": "CN=.NET, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
       "issuer": "CN=Microsoft Code Signing PCA 2024, O=Microsoft Corporation, C=US",
-      "serialNumber": "33000001C79AA1EEDC27E2F8B70000000001C7",
-      "thumbprint": "43A50DB15AC95D0C1D187616AE187467975846D0",
-      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:6F1A-05E0-D947, OU=Microsoft Ireland Operations Limited, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-06-10T17:58:30Z"
+      "serialNumber": "33000001C8243AC81E4D9388BB0000000001C8",
+      "thumbprint": "BB793DB742624269BB5F4515BBE9A3DF418F588D",
+      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:3303-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-07-15T02:48:05Z"
     },
     {
       "slug": "microsoft-edge/darwin",
@@ -6799,14 +6818,14 @@
     {
       "slug": "notepad++/windows",
       "name": "Notepad++",
-      "version": "8.9.6.4",
-      "sha256": "cb902f8a9628324dbe5233b5202e716ea469720c9a1ac968007df2288e4ed2ea",
+      "version": "8.9.7",
+      "sha256": "1884e093bae261c4942210334e1f2eae71354913e4ded3cc1a4a18c5320741ec",
       "publisher": "E=don.h@free.fr, CN=\"NOTEPAD++\", O=\"NOTEPAD++\", L=Paris, S=Île-de-France, C=FR",
       "issuer": "CN=GlobalSign GCC R45 CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
       "serialNumber": "05F0D813D6A6F004575A2099",
       "thumbprint": "1E8E0D13B608BA908572C1A129FAEC5D228DF8A2",
       "timestamp": "CN=Globalsign R45 TSA for CodeSign 202510, O=GlobalSign nv-sa, C=BE",
-      "lastUpdated": "2026-06-04T15:23:19Z"
+      "lastUpdated": "2026-07-15T02:48:07Z"
     },
     {
       "slug": "notepadexe/darwin",
@@ -6825,14 +6844,14 @@
     {
       "slug": "notesnook/windows",
       "name": "Notesnook",
-      "version": "3.4.3",
-      "sha256": "28a97af1e2df6db7a97767d5717752098a668a28033d3bcb8d3fe3c4ab0d5b90",
+      "version": "3.4.4",
+      "sha256": "1fcb981f246181b682756dee4c3e72ced207f22f158b039fefc5bd6a5ecb48c6",
       "publisher": "CN=Streetwriters Private Limited, O=Streetwriters Private Limited, L=Khushab, S=Punjab, C=PK",
       "issuer": "CN=Microsoft ID Verified CS EOC CA 04, O=Microsoft Corporation, C=US",
-      "serialNumber": "330002C9AEEDF130FE172F5AD100000002C9AE",
-      "thumbprint": "77F0DCAE5DB9A4E6554618347C7503DC0CF15E59",
-      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7A00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-07-06T21:06:36Z"
+      "serialNumber": "330003137B8248A40142A34A1F00000003137B",
+      "thumbprint": "4A09438D0126364685DE20FCA16307819126F7B0",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7D00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-07-15T02:48:11Z"
     },
     {
       "slug": "notesollama/darwin",
@@ -6870,14 +6889,14 @@
     {
       "slug": "notion/windows",
       "name": "Notion",
-      "version": "7.25.1",
-      "sha256": "1da03f754a274faac7d90cdb3ed20aadcccc59660c1f851fa119dce5ac1fc794",
+      "version": "7.26.0",
+      "sha256": "91ab6dc764fa71ba9cb1cfdf6206f8ff0a28b4acba0ccedb3e934dbf7ec240ad",
       "publisher": "CN=\"Notion Labs, Inc.\", O=\"Notion Labs, Inc.\", L=San Francisco, S=California, C=US",
-      "issuer": "CN=Microsoft ID Verified CS AOC CA 04, O=Microsoft Corporation, C=US",
-      "serialNumber": "330002CA663C536E53BD96DF7600000002CA66",
-      "thumbprint": "C9F5F346DBDD1DD8420AEFC3722CC405290A6661",
-      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:A500-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-07-09T16:04:50Z"
+      "issuer": "CN=Microsoft ID Verified CS AOC CA 03, O=Microsoft Corporation, C=US",
+      "serialNumber": "33000304EDAECEB2CF80F1BE870000000304ED",
+      "thumbprint": "1C01B278D678726479FE1D6B9F43826075602239",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7D00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-07-15T02:48:14Z"
     },
     {
       "slug": "noun-project/darwin",
@@ -7656,14 +7675,14 @@
     {
       "slug": "postman/windows",
       "name": "Postman",
-      "version": "12.19.0",
-      "sha256": "f5d7b887603ee817fe0098ba95cf65f63ebbe8bc07fff625ffea236f8e88f859",
+      "version": "12.19.3",
+      "sha256": "e2abd26839034bac8d771c442b20050111b3db68b39b4f4876c75a2e32f54675",
       "publisher": "CN=\"Postman, Inc.\", O=\"Postman, Inc.\", L=San Francisco, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "06BF9F29E018BD749B536C714E98D6A5",
       "thumbprint": "8F1DDDA5C241B2F3424D4211991BBE1CD22226CC",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-07-13T15:10:11Z"
+      "lastUpdated": "2026-07-15T02:48:20Z"
     },
     {
       "slug": "power-automate/windows",
