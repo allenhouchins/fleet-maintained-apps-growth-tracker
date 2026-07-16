@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: July 16, 2026 at 2:21 PM CDT</p>
+            Last updated: July 16, 2026 at 4:09 PM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: July 16, 2026 at 2:21 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: July 16, 2026 at 4:09 PM CDT</p>
             </div>
         </div>
     </div>
@@ -1660,7 +1660,7 @@
             1330,
             1332,
             1345,
-            1345
+            1346
           ],
           "additions": [
             20,
@@ -2162,7 +2162,7 @@
             18,
             2,
             13,
-            0
+            1
           ],
           "macCounts": [
             20,
@@ -2664,7 +2664,7 @@
             960,
             961,
             961,
-            961
+            962
           ],
           "windowsCounts": [
             0,
@@ -3258,7 +3258,8 @@
             "2026-07-10",
             "2026-07-13",
             "2026-07-14",
-            "2026-07-15"
+            "2026-07-15",
+            "2026-07-16"
           ],
           "growthCounts": [
             20,
@@ -3350,7 +3351,8 @@
             1312,
             1330,
             1332,
-            1345
+            1345,
+            1346
           ],
           "growthAdditions": [
             20,
@@ -3442,7 +3444,8 @@
             14,
             18,
             2,
-            13
+            13,
+            1
           ]
         };
         
@@ -17715,6 +17718,14 @@
                 }
               },
               {
+                "name": "Smallstep Agent",
+                "slug": "smallstepagent/darwin",
+                "platform": "darwin",
+                "description": "Smallstep Agent is a device identity agent that manages certificates for secure access to Wi-Fi, VPNs, and other resources.",
+                "version": "v0.68.0",
+                "installerUrl": "https://packages.smallstep.com/stable/step-agent/darwin/0.68.0/step-agent_0.68.0.pkg"
+              },
+              {
                 "name": "Smartsheet",
                 "slug": "smartsheet/darwin",
                 "platform": "darwin",
@@ -21835,7 +21846,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `July 16, 2026 at 2:21 PM CDT`;
+                let timestampText = 'Last updated: ' + `July 16, 2026 at 4:09 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
