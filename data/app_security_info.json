@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-18T02:40:23Z",
+  "lastUpdated": "2026-07-18T02:41:26Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1026,14 +1026,14 @@
     {
       "slug": "aws-cli/windows",
       "name": "AWS Command Line Interface v2",
-      "version": "2.36.1",
-      "sha256": "1e930720c0a054f69e040b6af9ae77b067b09c71c1fc0a6b86c238d99505181f",
+      "version": "2.36.2",
+      "sha256": "cb5d6a2dd7531f1a9890f0df1f8938fa81bb4ff4d6279864691a127e19b78ca3",
       "publisher": "CN=\"Amazon Web Services, Inc.\", OU=AWS, O=\"Amazon Web Services, Inc.\", L=Seattle, S=Washington, C=US, SERIALNUMBER=4152954, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0590C4CF0DB014199953A68CFCE9B0E7",
       "thumbprint": "81A9EFB93199F2C7441EE14050360EDAB7E8242A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-07-17T06:24:02Z"
+      "lastUpdated": "2026-07-18T02:40:46Z"
     },
     {
       "slug": "aws-sam-cli/windows",
@@ -3200,14 +3200,14 @@
     {
       "slug": "drawio/windows",
       "name": "draw.io",
-      "version": "30.3.11",
-      "sha256": "6af60487c9beffc5bc4ff749d9a1922d14e8698184feccd8c0e4357414a460e9",
+      "version": "30.3.14",
+      "sha256": "96a75bb54aedee2973101df8dd08f59ea24f3b4f48df12b433c0e10e1da3a499",
       "publisher": "CN=draw.io Ltd, O=draw.io Ltd, L=Northampton, S=Northamptonshire, C=GB",
-      "issuer": "CN=Microsoft ID Verified CS AOC CA 04, O=Microsoft Corporation, C=US",
-      "serialNumber": "33000313A9C40C936D8E7A5FE40000000313A9",
-      "thumbprint": "16AFCC8A9B4080763A435C12D709576B2E2113C0",
-      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7D00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-07-16T03:40:00Z"
+      "issuer": "CN=Microsoft ID Verified CS AOC CA 03, O=Microsoft Corporation, C=US",
+      "serialNumber": "3300033AB9A017162AF2090981000000033AB9",
+      "thumbprint": "07CB712BD869CEBDE3C9567EC3A0EE422E226CDD",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7A00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-07-18T02:41:11Z"
     },
     {
       "slug": "drofus/windows",
@@ -4090,14 +4090,14 @@
     {
       "slug": "fork/windows",
       "name": "Fork",
-      "version": "2.20.1",
-      "sha256": "48af09db53b90a28600a633b43eb4bb7c3ce613c43db0b922ae0b89373f1bd93",
+      "version": "2.21.0",
+      "sha256": "52af961c93c856a92e78e75beac50a744ac5a551ac227a3a672798cbd0041596",
       "publisher": "CN=Danil Pristupov, O=Danil Pristupov, L=Prague, S=Prague, C=CZ, PostalCode=150 00",
       "issuer": "CN=Microsoft ID Verified CS EOC CA 04, O=Microsoft Corporation, C=US",
-      "serialNumber": "330001C175E516C8E8A3CEA9F900000001C175",
-      "thumbprint": "3439A9D27EEDB9CDF6C5A9C2CBB1BCF3A289ADD6",
+      "serialNumber": "3300033BAA8E28E42E64F4E517000000033BAA",
+      "thumbprint": "9C723589596A3EA5CA9C8E56195D598936F425F4",
       "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:491A-05E0-D947, OU=Microsoft Ireland Operations Limited, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-06-08T19:49:07Z"
+      "lastUpdated": "2026-07-18T02:41:14Z"
     },
     {
       "slug": "forklift/darwin",
@@ -9603,14 +9603,14 @@
     {
       "slug": "telegram/windows",
       "name": "Telegram",
-      "version": "6.9.3",
-      "sha256": "45aa94a591763118c5d3ba9481d3f97c0b95b5e56dc33c9b39311f7c46ee72c9",
+      "version": "7.0.2",
+      "sha256": "e6a36450632ed9312d77697a581f6869d98fc8e246db88ea6e15c17503ee644b",
       "publisher": "E=info@telegram.org, CN=Telegram FZ-LLC, O=Telegram FZ-LLC, L=Dubai, S=Dubai, C=AE, OID.1.3.6.1.4.1.311.60.2.1.2=Dubai, OID.1.3.6.1.4.1.311.60.2.1.3=AE, SERIALNUMBER=94349, OID.2.5.4.15=Private Organization",
       "issuer": "CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
       "serialNumber": "5D1F24A60AE1A27511D88625",
       "thumbprint": "C8CB11E5352916312801039AEDC5F9E8C78E48D8",
-      "timestamp": "CN=Sectigo Public Time Stamping Signer R36, O=Sectigo Limited, S=West Yorkshire, C=GB",
-      "lastUpdated": "2026-06-14T13:00:22Z"
+      "timestamp": "CN=Sectigo Public Time Stamping Signer R37, O=Sectigo Limited, S=Greater London, C=GB",
+      "lastUpdated": "2026-07-18T02:41:16Z"
     },
     {
       "slug": "teleport-connect/darwin",
@@ -10303,14 +10303,14 @@
     {
       "slug": "vivaldi/windows",
       "name": "Vivaldi",
-      "version": "8.1.4087.53",
-      "sha256": "77ce220e82426ad08de827e46dff3db33c8cbdac865be9edabbca7deb237b009",
+      "version": "8.1.4087.55",
+      "sha256": "feaf8b1674206d172b7d1d11116d599152fca8b501cac522185e20c820fd41cc",
       "publisher": "CN=Vivaldi Technologies AS, O=Vivaldi Technologies AS, STREET=Mølleparken 6, L=Oslo, S=Oslo, C=NO, OID.1.3.6.1.4.1.311.60.2.1.3=NO, SERIALNUMBER=912 309 975, OID.2.5.4.15=Private Organization",
       "issuer": "CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
       "serialNumber": "0E6194E2779D531F896950FF",
       "thumbprint": "F7A524AD45E585F8B71E6204B2583714151A08EF",
       "timestamp": "CN=Globalsign R45 TSA for CodeSign 202510, O=GlobalSign nv-sa, C=BE",
-      "lastUpdated": "2026-07-16T15:48:48Z"
+      "lastUpdated": "2026-07-18T02:41:20Z"
     },
     {
       "slug": "vivid-app/darwin",
