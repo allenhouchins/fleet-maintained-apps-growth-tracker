@@ -2,132 +2,6 @@
   "changes": [
     {
       "date": "2026-06-30T16:01:35Z",
-      "appName": "Miro",
-      "slug": "miro/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.11.144",
-      "newVersion": "0.11.154",
-      "installerUrl": "https://desktop.miro.com/platforms/darwin-arm64/Install-Miro.dmg"
-    },
-    {
-      "date": "2026-06-30T16:01:35Z",
-      "appName": "RStudio",
-      "slug": "rstudio/windows",
-      "platform": "windows",
-      "oldVersion": "2026.05.1+225",
-      "newVersion": "2026.06.0+242",
-      "installerUrl": "https://download1.rstudio.org/electron/windows/RStudio-2026.06.0-242.exe"
-    },
-    {
-      "date": "2026-06-30T16:01:35Z",
-      "appName": "Tailscale",
-      "slug": "tailscale-app/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.98.5",
-      "newVersion": "1.98.8",
-      "installerUrl": "https://pkgs.tailscale.com/stable/Tailscale-1.98.8-macos.pkg"
-    },
-    {
-      "date": "2026-06-30T16:01:35Z",
-      "appName": "Notepad.exe",
-      "slug": "notepadexe/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.4.1901",
-      "newVersion": "1.4.1903",
-      "installerUrl": "https://github.com/notepadhq/notepadexe-public/releases/download/1.4.1903/Notepad.zip"
-    },
-    {
-      "date": "2026-06-30T16:01:35Z",
-      "appName": "REAPER",
-      "slug": "reaper/windows",
-      "platform": "windows",
-      "oldVersion": "7.75",
-      "newVersion": "7.76",
-      "installerUrl": "https://www.reaper.fm/files/7.x/reaper776_x64-install.exe"
-    },
-    {
-      "date": "2026-06-30T16:01:35Z",
-      "appName": "Shift",
-      "slug": "shift/windows",
-      "platform": "windows",
-      "oldVersion": "9.6.4.1231",
-      "newVersion": "9.6.7.1268",
-      "installerUrl": "https://updates.tryshift.com/v9.6.7/stable/shift-v9.6.7.1268-stable-x64.exe"
-    },
-    {
-      "date": "2026-06-30T16:01:35Z",
-      "appName": "REAPER",
-      "slug": "reaper/darwin",
-      "platform": "darwin",
-      "oldVersion": "7.75",
-      "newVersion": "7.76",
-      "installerUrl": "https://dlcf.reaper.fm/7.x/reaper776_universal.dmg"
-    },
-    {
-      "date": "2026-06-30T16:01:35Z",
-      "appName": "MarkEdit",
-      "slug": "markedit/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.33.0",
-      "newVersion": "1.33.1",
-      "installerUrl": "https://github.com/MarkEdit-app/MarkEdit/releases/download/v1.33.1/MarkEdit-1.33.1.dmg"
-    },
-    {
-      "date": "2026-06-30T16:01:35Z",
-      "appName": "Docker Desktop",
-      "slug": "docker/windows",
-      "platform": "windows",
-      "oldVersion": "4.78.0",
-      "newVersion": "4.80.0",
-      "installerUrl": "https://desktop.docker.com/win/main/amd64/232116/Docker%20Desktop%20Installer.exe"
-    },
-    {
-      "date": "2026-06-30T16:01:35Z",
-      "appName": "Milanote",
-      "slug": "milanote/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.18.111",
-      "newVersion": "3.18.113",
-      "installerUrl": "https://milanote-app-releases.s3.amazonaws.com/Milanote-3.18.113.dmg"
-    },
-    {
-      "date": "2026-06-30T16:01:35Z",
-      "appName": "Cryptomator",
-      "slug": "cryptomator/windows",
-      "platform": "windows",
-      "oldVersion": "1.19.2",
-      "newVersion": "1.19.3",
-      "installerUrl": "https://github.com/cryptomator/cryptomator/releases/download/1.19.3/Cryptomator-1.19.3-x64.msi"
-    },
-    {
-      "date": "2026-06-30T16:01:35Z",
-      "appName": "Shift",
-      "slug": "shift/darwin",
-      "platform": "darwin",
-      "oldVersion": "9.6.4.1231",
-      "newVersion": "9.6.7.1268",
-      "installerUrl": "https://updates.tryshift.com/v9.6.7/stable/shift-v9.6.7.1268-stable-arm64.dmg"
-    },
-    {
-      "date": "2026-06-30T16:01:35Z",
-      "appName": "Notion",
-      "slug": "notion/windows",
-      "platform": "windows",
-      "oldVersion": "7.23.0",
-      "newVersion": "7.24.0",
-      "installerUrl": "https://desktop-release.notion-static.com/Notion%20Setup%207.24.0.exe"
-    },
-    {
-      "date": "2026-06-30T16:01:35Z",
-      "appName": "Claude",
-      "slug": "claude/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.15962.1",
-      "newVersion": "1.17282.0",
-      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.17282.0/Claude-22fd1c1312a1ddabf60cd82636bd3f35dd703406.zip"
-    },
-    {
-      "date": "2026-06-30T16:01:35Z",
       "appName": "Beyond Compare",
       "slug": "beyond-compare/darwin",
       "platform": "darwin",
@@ -8999,6 +8873,132 @@
       "oldVersion": "",
       "newVersion": "154.2607.1709.0",
       "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/07/2026-07-17-09-27-13-mozilla-central/firefox-154.0a1.multi.win64.installer.msix"
+    },
+    {
+      "date": "2026-07-18T02:38:28Z",
+      "appName": "KeyClu",
+      "slug": "keyclu/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.31",
+      "newVersion": "0.32",
+      "installerUrl": "https://github.com/Anze/KeyCluCask/releases/download/v0.32/KeyClu.zip"
+    },
+    {
+      "date": "2026-07-18T02:38:28Z",
+      "appName": "Telegram",
+      "slug": "telegram/windows",
+      "platform": "windows",
+      "oldVersion": "6.9.3",
+      "newVersion": "7.0.2",
+      "installerUrl": "https://github.com/telegramdesktop/tdesktop/releases/download/v7.0.2/tsetup-x64.7.0.2.exe"
+    },
+    {
+      "date": "2026-07-18T02:38:28Z",
+      "appName": "Microsoft Edge",
+      "slug": "microsoft-edge/darwin",
+      "platform": "darwin",
+      "oldVersion": "150.0.4078.80",
+      "newVersion": "150.0.4078.83",
+      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/2d8b87ec-b327-4176-9326-d1da309fcb0d/MicrosoftEdge-150.0.4078.83.dmg"
+    },
+    {
+      "date": "2026-07-18T02:38:28Z",
+      "appName": "Dayflow",
+      "slug": "dayflow/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.0.1",
+      "newVersion": "2.0.2",
+      "installerUrl": "https://github.com/JerryZLiu/Dayflow/releases/download/v2.0.2/Dayflow.dmg"
+    },
+    {
+      "date": "2026-07-18T02:38:28Z",
+      "appName": "Vivaldi",
+      "slug": "vivaldi/darwin",
+      "platform": "darwin",
+      "oldVersion": "8.1.4087.53",
+      "newVersion": "8.1.4087.55",
+      "installerUrl": "https://downloads.vivaldi.com/stable/Vivaldi.8.1.4087.55.universal.dmg"
+    },
+    {
+      "date": "2026-07-18T02:38:28Z",
+      "appName": "Wispr Flow",
+      "slug": "wispr-flow/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.6.30",
+      "newVersion": "1.6.122",
+      "installerUrl": "https://dl.wisprflow.com/wispr-flow/darwin/arm64/dmgs/Flow-v1.6.122.dmg"
+    },
+    {
+      "date": "2026-07-18T02:38:28Z",
+      "appName": "Microsoft Visual Studio Code",
+      "slug": "visual-studio-code/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.129.0",
+      "newVersion": "1.129.1",
+      "installerUrl": "https://update.code.visualstudio.com/1.129.1/darwin-universal/stable"
+    },
+    {
+      "date": "2026-07-18T02:38:28Z",
+      "appName": "draw.io",
+      "slug": "drawio/windows",
+      "platform": "windows",
+      "oldVersion": "30.3.11",
+      "newVersion": "30.3.14",
+      "installerUrl": "https://github.com/jgraph/drawio-desktop/releases/download/v30.3.14/draw.io-30.3.14-windows-installer.exe"
+    },
+    {
+      "date": "2026-07-18T02:38:28Z",
+      "appName": "Arc",
+      "slug": "arc/windows",
+      "platform": "windows",
+      "oldVersion": "1.115.0.249",
+      "newVersion": "1.115.1.2",
+      "installerUrl": "https://releases.arc.net/windows/prod/1.115.1.2/Arc.x64.msix"
+    },
+    {
+      "date": "2026-07-18T02:38:28Z",
+      "appName": "Vivaldi",
+      "slug": "vivaldi/windows",
+      "platform": "windows",
+      "oldVersion": "8.1.4087.53",
+      "newVersion": "8.1.4087.55",
+      "installerUrl": "https://downloads.vivaldi.com/stable/Vivaldi.8.1.4087.55.x64.exe"
+    },
+    {
+      "date": "2026-07-18T02:38:28Z",
+      "appName": "Fork",
+      "slug": "fork/windows",
+      "platform": "windows",
+      "oldVersion": "2.20.1",
+      "newVersion": "2.21.0",
+      "installerUrl": "https://cdn.fork.dev/win/Fork-2.21.0.exe"
+    },
+    {
+      "date": "2026-07-18T02:38:28Z",
+      "appName": "AWS Command Line Interface v2",
+      "slug": "aws-cli/windows",
+      "platform": "windows",
+      "oldVersion": "2.36.1",
+      "newVersion": "2.36.2",
+      "installerUrl": "https://awscli.amazonaws.com/AWSCLIV2-2.36.2.msi"
+    },
+    {
+      "date": "2026-07-18T02:38:28Z",
+      "appName": "Filen",
+      "slug": "filen/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.0.50",
+      "newVersion": "3.0.52",
+      "installerUrl": "https://cdn.filen.io/@filen/desktop/release/v3.0.52/Filen_mac_arm64.dmg"
+    },
+    {
+      "date": "2026-07-18T02:38:28Z",
+      "appName": "Dymo Connect",
+      "slug": "dymo-connect/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.6.0.41",
+      "newVersion": "1.6.1.4",
+      "installerUrl": "https://dymoreleasecontent.blob.core.windows.net/dymo-release/DCDMAC/DCDMac1.6.1.4-Arm64.pkg"
     }
   ]
 }
