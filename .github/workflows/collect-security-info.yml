@@ -32,9 +32,9 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v5
         with:
-          # Go 1.21 binaries lack LC_UUID and abort under the dyld on current
+          # Go <1.23 binaries lack LC_UUID and abort under the dyld on current
           # macos-latest runner images ("missing LC_UUID load command").
-          go-version: '1.22'
+          go-version: 'stable'
 
       - name: Install Santa (santactl)
         run: |
