@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T18:09:41Z",
+  "lastUpdated": "2026-07-20T20:24:22Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -733,8 +733,8 @@
       "slug": "arc/darwin",
       "name": "Arc",
       "platform": "darwin",
-      "version": "1.156.0",
-      "installerUrl": "https://releases.arc.net/release/Arc-1.156.0-83514.zip"
+      "version": "1.156.2",
+      "installerUrl": "https://releases.arc.net/release/Arc-1.156.2-83780.zip"
     },
     {
       "slug": "arc/windows",
@@ -1307,15 +1307,15 @@
       "slug": "bruno/darwin",
       "name": "Bruno",
       "platform": "darwin",
-      "version": "3.5.2",
-      "installerUrl": "https://github.com/usebruno/bruno/releases/download/v3.5.2/bruno_3.5.2_arm64_mac.dmg"
+      "version": "3.5.3",
+      "installerUrl": "https://github.com/usebruno/bruno/releases/download/v3.5.3/bruno_3.5.3_arm64_mac.dmg"
     },
     {
       "slug": "bruno/windows",
       "name": "Bruno",
       "platform": "windows",
-      "version": "3.5.2",
-      "installerUrl": "https://github.com/usebruno/bruno/releases/download/v3.5.2/bruno_3.5.2_x64_win.msi"
+      "version": "3.5.3",
+      "installerUrl": "https://github.com/usebruno/bruno/releases/download/v3.5.3/bruno_3.5.3_x64_win.msi"
     },
     {
       "slug": "bulk-crap-uninstaller/windows",
@@ -2581,15 +2581,15 @@
       "slug": "docker-desktop/darwin",
       "name": "Docker Desktop",
       "platform": "darwin",
-      "version": "4.82.0",
-      "installerUrl": "https://desktop.docker.com/mac/main/arm64/233772/Docker.dmg"
+      "version": "4.83.0",
+      "installerUrl": "https://desktop.docker.com/mac/main/arm64/234302/Docker.dmg"
     },
     {
       "slug": "docker/windows",
       "name": "Docker Desktop",
       "platform": "windows",
-      "version": "4.82.0",
-      "installerUrl": "https://desktop.docker.com/win/main/amd64/233772/Docker%20Desktop%20Installer.exe"
+      "version": "4.83.0",
+      "installerUrl": "https://desktop.docker.com/win/main/amd64/234302/Docker%20Desktop%20Installer.exe"
     },
     {
       "slug": "dockfix/darwin",
@@ -3310,14 +3310,14 @@
       "name": "Mozilla Firefox Nightly",
       "platform": "darwin",
       "version": "154.0a1",
-      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/07/2026-07-19-21-13-19-mozilla-central/firefox-154.0a1.en-US.mac.dmg"
+      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/07/2026-07-20-09-21-50-mozilla-central/firefox-154.0a1.en-US.mac.dmg"
     },
     {
       "slug": "firefox@nightly/windows",
       "name": "Mozilla Firefox Nightly",
       "platform": "windows",
-      "version": "154.2607.1809.0",
-      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/07/2026-07-18-09-07-21-mozilla-central/firefox-154.0a1.multi.win64.installer.msix"
+      "version": "154.2607.2009.0",
+      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/07/2026-07-20-09-21-50-mozilla-central/firefox-154.0a1.multi.win64.installer.msix"
     },
     {
       "slug": "fission/darwin",
@@ -3897,8 +3897,8 @@
       "slug": "grammarly-desktop/darwin",
       "name": "Grammarly Desktop",
       "platform": "darwin",
-      "version": "1.175.0",
-      "installerUrl": "https://download-mac.grammarly.com/versions/1.175.0.0/Grammarly.dmg"
+      "version": "1.176.0",
+      "installerUrl": "https://download-mac.grammarly.com/versions/1.176.0.0/Grammarly.dmg"
     },
     {
       "slug": "grandperspective/darwin",
@@ -3911,15 +3911,15 @@
       "slug": "granola/darwin",
       "name": "Granola",
       "platform": "darwin",
-      "version": "7.427.3",
-      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.427.3/Granola-7.427.3-mac-universal.dmg"
+      "version": "7.427.6",
+      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.427.6/Granola-7.427.6-mac-universal.dmg"
     },
     {
       "slug": "granola/windows",
       "name": "Granola",
       "platform": "windows",
-      "version": "7.427.3",
-      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.427.3/Granola-7.427.3-win-x64.exe"
+      "version": "7.427.6",
+      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.427.6/Granola-7.427.6-win-x64.exe"
     },
     {
       "slug": "graphviz/windows",
@@ -4044,8 +4044,8 @@
       "slug": "hive-app/darwin",
       "name": "Hive",
       "platform": "darwin",
-      "version": "1.2.18",
-      "installerUrl": "https://github.com/morapelker/hive/releases/download/v1.2.18/Hive-1.2.18-arm64.dmg"
+      "version": "1.2.19",
+      "installerUrl": "https://github.com/morapelker/hive/releases/download/v1.2.19/Hive-1.2.19-arm64.dmg"
     },
     {
       "slug": "home-assistant/darwin",
@@ -6431,8 +6431,8 @@
       "slug": "podman-desktop/darwin",
       "name": "Podman Desktop",
       "platform": "darwin",
-      "version": "1.28.2",
-      "installerUrl": "https://github.com/containers/podman-desktop/releases/download/v1.28.2/podman-desktop-1.28.2-arm64.dmg"
+      "version": "1.28.3",
+      "installerUrl": "https://github.com/containers/podman-desktop/releases/download/v1.28.3/podman-desktop-1.28.3-arm64.dmg"
     },
     {
       "slug": "popchar/darwin",
@@ -6837,8 +6837,8 @@
       "slug": "qspace-pro/darwin",
       "name": "QSpace Pro",
       "platform": "darwin",
-      "version": "6.2.2",
-      "installerUrl": "https://cdn.awehunt.com/qs/rel/QSpace%20Pro_V6.2.2.dmg"
+      "version": "6.3.2",
+      "installerUrl": "https://cdn.awehunt.com/qs/rel/QSpace%20Pro_V6.3.2.dmg"
     },
     {
       "slug": "quip/darwin",
@@ -6921,8 +6921,8 @@
       "slug": "readest/windows",
       "name": "Readest",
       "platform": "windows",
-      "version": "0.11.18",
-      "installerUrl": "https://github.com/readest/readest/releases/download/v0.11.18/Readest_0.11.18_x64-setup.exe"
+      "version": "0.11.20",
+      "installerUrl": "https://github.com/readest/readest/releases/download/v0.11.20/Readest_0.11.20_x64-setup.exe"
     },
     {
       "slug": "reaper/darwin",
@@ -7026,8 +7026,8 @@
       "slug": "reqable/darwin",
       "name": "Reqable",
       "platform": "darwin",
-      "version": "3.2.10",
-      "installerUrl": "https://github.com/reqable/reqable-app/releases/download/3.2.10/reqable-app-macos-arm64.dmg"
+      "version": "3.2.11",
+      "installerUrl": "https://github.com/reqable/reqable-app/releases/download/3.2.11/reqable-app-macos-arm64.dmg"
     },
     {
       "slug": "reqable/windows",
@@ -8552,8 +8552,8 @@
       "slug": "typora/darwin",
       "name": "Typora",
       "platform": "darwin",
-      "version": "1.13.8",
-      "installerUrl": "https://downloads.typora.io/mac/Typora-1.13.8.dmg"
+      "version": "1.14.6",
+      "installerUrl": "https://downloads.typora.io/mac/Typora-1.14.6.dmg"
     },
     {
       "slug": "typora/windows",
@@ -9413,8 +9413,8 @@
       "slug": "zoom/windows",
       "name": "Zoom",
       "platform": "windows",
-      "version": "7.1.41345",
-      "installerUrl": "https://zoom.us/client/7.1.0.41345/ZoomInstallerFull.msi?archType=x64"
+      "version": "7.1.43453",
+      "installerUrl": "https://zoom.us/client/7.1.5.43453/ZoomInstallerFull.msi?archType=x64"
     },
     {
       "slug": "zotero/darwin",
