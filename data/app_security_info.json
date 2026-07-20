@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T22:04:23Z",
+  "lastUpdated": "2026-07-20T22:13:04Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -5646,12 +5646,12 @@
     {
       "slug": "google-chrome/darwin",
       "name": "Google Chrome",
-      "version": "150.0.7871.115",
-      "sha256": "4bcc89af04aaa9ddb0386639816fa2aa3ce2a860be1db771542d7201b79a76dd",
-      "cdhash": "4ef1ad6a22ff1efb601d661b83b48e2311bcb90c",
+      "version": "150.0.7871.129",
+      "sha256": "cae4e80362c81da067c83c7ad6d87c87942a4d63b1b9da3d934195d9eba3c913",
+      "cdhash": "3c7156927e772afe798de348397f41ee1e11780d",
       "signingId": "EQHXZ8M8AV:com.google.Chrome",
       "teamId": "EQHXZ8M8AV",
-      "lastUpdated": "2026-07-09T20:10:47Z"
+      "lastUpdated": "2026-07-20T22:05:04Z"
     },
     {
       "slug": "google-chrome/windows",
@@ -5711,13 +5711,13 @@
     },
     {
       "slug": "google-gemini/darwin",
-      "name": "Gemini",
-      "version": "1.82.2.534",
-      "sha256": "0fd90e2f29d0185bedd04a84078287096f7791f4181fd46a5969f1604e164cdc",
-      "cdhash": "1ecaec03666af3b7d53639e3546aa392bc17e643",
+      "name": "Google Gemini",
+      "version": "1.84.4.574",
+      "sha256": "1c9a25a40e58517c9b6bcd475df985092470f4ac44df12efe41bff3da8ed1c7e",
+      "cdhash": "aede9c8d575f282ff34047465c7dfeb60f85e7f7",
       "signingId": "EQHXZ8M8AV:com.google.GeminiMacOS",
       "teamId": "EQHXZ8M8AV",
-      "lastUpdated": "2026-07-08T16:56:02Z"
+      "lastUpdated": "2026-07-20T22:05:29Z"
     },
     {
       "slug": "google-web-designer/windows",
@@ -5780,12 +5780,12 @@
     {
       "slug": "grammarly-desktop/darwin",
       "name": "Grammarly Desktop",
-      "version": "1.173.2",
-      "sha256": "12bf62d621f56e539d2a35d4611ca710fb80bfd6f3b0f9ca52b98aecaf76f42f",
-      "cdhash": "ded60fed1c0aebf815b1cde25ce0e9fba6935f26",
+      "version": "1.176.0",
+      "sha256": "b1b3160afeb8870bf0f3f6bfc38e162ad9b72c3bb660111fe3d16327075e8e8a",
+      "cdhash": "1df43c5103785b6119205311596db20135806f15",
       "signingId": "W8F64X92K3:com.grammarly.ProjectLlama",
       "teamId": "W8F64X92K3",
-      "lastUpdated": "2026-07-11T22:06:24Z"
+      "lastUpdated": "2026-07-20T22:06:56Z"
     },
     {
       "slug": "grandperspective/darwin",
@@ -5800,12 +5800,12 @@
     {
       "slug": "granola/darwin",
       "name": "Granola",
-      "version": "7.394.2",
-      "sha256": "24a74b790f1fba3c8f4b8caf9d6ce38a52ac36d29489a0acc741ab511fcee0a9",
-      "cdhash": "2b7c9b259af6e36909cd74574bf092f8be51d9e3",
+      "version": "7.427.6",
+      "sha256": "3dee327ddb8d0b9536a54602ed429f91d57ea5e82dc2b1f2adacbd7bfd83ec45",
+      "cdhash": "fb849874f01dba6f4d4850022e90634624ba3e5d",
       "signingId": "QZ7DHHLN25:com.granola.app",
       "teamId": "QZ7DHHLN25",
-      "lastUpdated": "2026-07-09T20:11:41Z"
+      "lastUpdated": "2026-07-20T22:08:20Z"
     },
     {
       "slug": "granola/windows",
@@ -5851,12 +5851,12 @@
     {
       "slug": "groove-omnidialer/darwin",
       "name": "Groove OmniDialer",
-      "version": "26.603.1017",
-      "sha256": "4bcf3f34b8c2c257ff5ee085510d1ab20167832880313f21fb18e6481a638055",
-      "cdhash": "2879e0a257f5370a748fbfc4ed293ee2c5aa716f",
+      "version": "26.717.933",
+      "sha256": "62bcc979b45785529bcc0faae8ea3df21ea4b329047f17ee17d6cc80e9935fa5",
+      "cdhash": "1cb8a21835794bcf9187b79ef6688b7e0e6c3ecf",
       "signingId": "ZDYDJ5XPF3:com.electron.dialer",
       "teamId": "ZDYDJ5XPF3",
-      "lastUpdated": "2026-06-07T03:18:16Z"
+      "lastUpdated": "2026-07-20T22:09:06Z"
     },
     {
       "slug": "groove-omnidialer/windows",
@@ -5869,6 +5869,16 @@
       "thumbprint": "D26E246978FD6B0929210113A3E319C9E6FA37EF",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-06-19T17:50:14Z"
+    },
+    {
+      "slug": "gyazo/darwin",
+      "name": "Nota Gyazo GIF",
+      "version": "10.12.0",
+      "sha256": "d92fe3d6ccdc8887caeb6eb668f856a5c1e90c11ca749c037ce08998391eb4e1",
+      "cdhash": "a0d525ccb4116f3aead39bec345cc388578180fb",
+      "signingId": "9647Y3B7A4:com.gyazo.menu",
+      "teamId": "9647Y3B7A4",
+      "lastUpdated": "2026-07-20T22:10:40Z"
     },
     {
       "slug": "hammerspoon/darwin",
@@ -5980,22 +5990,22 @@
     {
       "slug": "hive-app/darwin",
       "name": "Hive",
-      "version": "1.2.15",
-      "sha256": "f9e80b686a99f3779409750d27114753595a4e8aa21cb1a5e8b3c1aade8ea8ca",
-      "cdhash": "6c584c6cb93de9cae10d6cf8e7a4135238d7c30e",
+      "version": "1.2.19",
+      "sha256": "4e6080efbf948d8b2fea1d74805c02f0b177d0f0e722df80432b625aecb68ad4",
+      "cdhash": "caf5edaf38e9a781c1724d24415d225c195015f0",
       "signingId": "SQ65AQ9V2J:com.hive.app",
       "teamId": "SQ65AQ9V2J",
-      "lastUpdated": "2026-07-11T22:07:40Z"
+      "lastUpdated": "2026-07-20T22:11:57Z"
     },
     {
       "slug": "home-assistant/darwin",
       "name": "Home Assistant",
-      "version": "2026.7.0",
-      "sha256": "ef7ca96af53519d34a706b7e4c47fef851019bc43731ab10bfaaf85efe09450c",
-      "cdhash": "e825cc28e6367dc07abf31179c623b3e2f1d39f7",
+      "version": "2026.7.1",
+      "sha256": "0bd8976736c1be56cc2fb98bf013fe82ed7ae8a70a51ac83e3c57f97b4378deb",
+      "cdhash": "7d741f9562298e5b81b21d280fab0fe63c04f6f3",
       "signingId": "QMQYCKL255:io.robbie.HomeAssistant",
       "teamId": "QMQYCKL255",
-      "lastUpdated": "2026-07-04T03:23:34Z"
+      "lastUpdated": "2026-07-20T22:12:20Z"
     },
     {
       "slug": "homerow/darwin",
@@ -6090,12 +6100,12 @@
     {
       "slug": "ibm-notifier/darwin",
       "name": "IBM Notifier",
-      "version": "3.2.3",
-      "sha256": "b658aa12949d3b87f8d3d92e1b7c2756f9c5f56be561ebb5ce590a6b65ea2e1b",
-      "cdhash": "a9d1a3883c236d7060103002834b4b5f24eddacd",
+      "version": "3.2.4",
+      "sha256": "41e017bd93edabcd9f8a42ee2da7ccade0195409c805d405dad04e191c3529a8",
+      "cdhash": "8accc59b502e70189e59b9a2970e7ab7055f06dd",
       "signingId": "PETKK2G752:com.ibm.cio.notifier",
       "teamId": "PETKK2G752",
-      "lastUpdated": "2026-06-08T03:22:19Z"
+      "lastUpdated": "2026-07-20T22:12:40Z"
     },
     {
       "slug": "icon-composer/darwin",
@@ -6150,12 +6160,12 @@
     {
       "slug": "imazing-converter/darwin",
       "name": "iMazing Converter",
-      "version": "2.0.13",
-      "sha256": "30e6e653cd7b5f83a6b56f3fd1d54de01c43feb395cfa4312855c19f237e9736",
-      "cdhash": "35f33cb64ce61c716b1aed1c3aba741c7142da50",
+      "version": "2.0.14",
+      "sha256": "6127b024f02aa6d637269210db42e43bf409dda918f4be146a7354628ab292bc",
+      "cdhash": "88e0c0d896373e566c0f58eb8a160c7190bc0175",
       "signingId": "J5PR93692Y:com.DigiDNA.iMazingHEICConverterMac",
       "teamId": "J5PR93692Y",
-      "lastUpdated": "2026-06-11T03:20:09Z"
+      "lastUpdated": "2026-07-20T22:13:02Z"
     },
     {
       "slug": "imazing-profile-editor/darwin",
