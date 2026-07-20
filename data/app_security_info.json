@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T23:50:07Z",
+  "lastUpdated": "2026-07-20T23:56:40Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -13157,22 +13157,22 @@
     {
       "slug": "wavebox/darwin",
       "name": "Wavebox",
-      "version": "150.2.121.2",
-      "sha256": "2a1eba3050c12a8c5a3dd155edfbc613e4c7a6a4d425a78ff7094e71c45381d7",
-      "cdhash": "a0e7ba60702a5de50ecf8b0438fdabdcf0f297eb",
+      "version": "150.2.131.2",
+      "sha256": "cd511801c8c3a0799c7db4a342672e97eadc3df191aa0cee7a7a9ce4caba05c7",
+      "cdhash": "a9e5f1fd39f61a513d244d057438e206fe912eed",
       "signingId": "4259LE8SU5:com.bookry.wavebox",
       "teamId": "4259LE8SU5",
-      "lastUpdated": "2026-07-09T20:27:59Z"
+      "lastUpdated": "2026-07-20T23:50:38Z"
     },
     {
       "slug": "wealthfolio/darwin",
       "name": "Wealthfolio",
-      "version": "3.6.1",
-      "sha256": "1ca769d960c5c6081edf67b09af19b6a9199b7e04e8d6ea4c6d8b1515e5291fa",
-      "cdhash": "6743887fca9e94b8823bf273134743010be474b5",
+      "version": "3.6.2",
+      "sha256": "ae076c899dbe0b5a7381643f9e1cf279ca4dd9733a4d9343ff86cafddfe0377c",
+      "cdhash": "66bc333d52a95a64da226ab429cafadda648f432",
       "signingId": "DYDJ2RNL5H:com.teymz.wealthfolio",
       "teamId": "DYDJ2RNL5H",
-      "lastUpdated": "2026-07-07T20:28:13Z"
+      "lastUpdated": "2026-07-20T23:51:04Z"
     },
     {
       "slug": "weasis/darwin",
@@ -13194,12 +13194,22 @@
     {
       "slug": "webcatalog/darwin",
       "name": "WebCatalog",
-      "version": "77.1.0",
-      "sha256": "461ab5aa146bbb72e49cd1f95bb38c22943b20b58f9b5dd725a01c18a8df8e50",
-      "cdhash": "bae1c729f5a762aa6a52b0561a103cffb6d504e8",
+      "version": "77.4.0",
+      "sha256": "d898c10b1b7d195c3e2716993d2e59bbf840cff4bc7204c56d425020ed9bed86",
+      "cdhash": "398b2f035e3b40332ca4b7a0ba70213e87a509e2",
       "signingId": "36UJGA8U65:com.webcatalog.jordan",
       "teamId": "36UJGA8U65",
-      "lastUpdated": "2026-07-09T20:28:53Z"
+      "lastUpdated": "2026-07-20T23:51:27Z"
+    },
+    {
+      "slug": "webex/darwin",
+      "name": "Webex",
+      "version": "46.7.0.35381",
+      "sha256": "2fe47b53da703ce8e5263685ece34fc6e4aa188a0dc5d39d1a8ba2dd49de40a9",
+      "cdhash": "a3f4b74187713e33c6a599a849d4d60dd08d2371",
+      "signingId": "DE8Y96K9QP:Cisco-Systems.Spark",
+      "teamId": "DE8Y96K9QP",
+      "lastUpdated": "2026-07-20T23:51:55Z"
     },
     {
       "slug": "webex/windows",
@@ -13216,12 +13226,12 @@
     {
       "slug": "webstorm/darwin",
       "name": "WebStorm",
-      "version": "2026.1.4",
-      "sha256": "4097e21f37707ef575a39e62eb02dbba3e8974048e4b0db770aa692001ad2a7e",
-      "cdhash": "a905e5ee10bddc63694eed505eca363b7329005c",
+      "version": "2026.2",
+      "sha256": "d364d780c01b80addd0f3aef9ab2f10f30ddcbea57b41fac731bef51a086bd22",
+      "cdhash": "661946d7b363bfc76edfccd867c00b4029c59b40",
       "signingId": "2ZEFAR8TH3:com.jetbrains.WebStorm",
       "teamId": "2ZEFAR8TH3",
-      "lastUpdated": "2026-07-03T19:44:53Z"
+      "lastUpdated": "2026-07-20T23:52:36Z"
     },
     {
       "slug": "webstorm/windows",
@@ -13234,6 +13244,16 @@
       "thumbprint": "8C1B506D0BD10A911D09FB7EDBCAB383F1CDAF20",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-07-17T06:29:02Z"
+    },
+    {
+      "slug": "wechat/darwin",
+      "name": "WeChat for Mac",
+      "version": "4.1.11.55",
+      "sha256": "28d3ce8b1233e48a360e323860a784df9868a3cce1b01d1ec0b2b2863fa89bab",
+      "cdhash": "6b4d0bfe040b22d54b047b86dbaea5b7e497df2e",
+      "signingId": "5A4RE8SF68:com.tencent.xinWeChat",
+      "teamId": "5A4RE8SF68",
+      "lastUpdated": "2026-07-20T23:54:13Z"
     },
     {
       "slug": "wechat/windows",
@@ -13257,12 +13277,22 @@
     {
       "slug": "whatroute/darwin",
       "name": "WhatRoute",
-      "version": "2.7.2",
-      "sha256": "37efdaf76ef42cd6005b087508fc34b4e62f83dbbbfaf7fe680c0477d480188b",
-      "cdhash": "a51960e44134586e3397af49634fd772f022da2b",
+      "version": "2.8.0",
+      "sha256": "830da9a25ffe1d50be3423e25685457436c50ba37300d4786c06a981caa9e0b7",
+      "cdhash": "c8428b43b1238825e6cdef4c95bc9a8469600df3",
       "signingId": "H5879E8LML:net.whatroute.whatroute2",
       "teamId": "H5879E8LML",
-      "lastUpdated": "2026-06-09T17:09:27Z"
+      "lastUpdated": "2026-07-20T23:54:45Z"
+    },
+    {
+      "slug": "whatsapp/darwin",
+      "name": "WhatsApp",
+      "version": "26.28.22",
+      "sha256": "16fe576eacf5865c71b208e25846e2aea10ec89820d9373ff6211db9d29f54f4",
+      "cdhash": "9dbfda965b3fdd72162018b7c4a60c71a38233be",
+      "signingId": "57T9237FN3:net.whatsapp.WhatsApp",
+      "teamId": "57T9237FN3",
+      "lastUpdated": "2026-07-20T23:55:17Z"
     },
     {
       "slug": "whisky/darwin",
@@ -13431,12 +13461,12 @@
     {
       "slug": "wispr-flow/darwin",
       "name": "Wispr Flow",
-      "version": "1.5.1146",
-      "sha256": "1747821bd6c4c149ef7a804920a21a4685a04771e2bddd0ef41e6678c42beca6",
-      "cdhash": "e1f0e591239a108ccb56274d2b11a2561ef341e7",
+      "version": "1.6.122",
+      "sha256": "a9679156197822f027174d2309f069bee8c0cbd7de64a4466765ac991dff6d26",
+      "cdhash": "fbf14051539960546f79a3e864df391e4a53bfa1",
       "signingId": "C9VQZ78H85:com.electron.wispr-flow",
       "teamId": "C9VQZ78H85",
-      "lastUpdated": "2026-07-08T17:22:30Z"
+      "lastUpdated": "2026-07-20T23:55:49Z"
     },
     {
       "slug": "wondershare-edrawmax/darwin",
@@ -13461,12 +13491,12 @@
     {
       "slug": "workflowy/darwin",
       "name": "WorkFlowy",
-      "version": "4.3.2607080959",
-      "sha256": "00055f4043f4a1c12bcc17b204dafa9641d3cf325cf48ead1ab88c67a7418821",
-      "cdhash": "3d8d39de9bffff2781da37563689bc5b0f1841c3",
+      "version": "4.3.2607170652",
+      "sha256": "7d0db0ed66af4ffd5101450406f87bd308955cb04bcadd204b1aa52f4df8aabc",
+      "cdhash": "a2cc7931509bf48bcadc59789366cef33cd614df",
       "signingId": "SYB6NBR48V:com.workflowy.desktop",
       "teamId": "SYB6NBR48V",
-      "lastUpdated": "2026-07-09T20:30:20Z"
+      "lastUpdated": "2026-07-20T23:56:38Z"
     },
     {
       "slug": "worksheet-crafter/darwin",
