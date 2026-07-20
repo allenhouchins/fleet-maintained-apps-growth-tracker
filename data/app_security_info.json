@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T23:22:47Z",
+  "lastUpdated": "2026-07-20T23:30:09Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -10553,12 +10553,12 @@
     {
       "slug": "rocket-chat/darwin",
       "name": "Rocket.Chat",
-      "version": "4.15.3",
-      "sha256": "03fb445d367ca899bbc599876453661a10e780b9f2bc0aab73fe4b8f1360f8b7",
-      "cdhash": "256dd14ec69d91af07d1f53fd91eca154c21226a",
+      "version": "4.15.6",
+      "sha256": "16fd4f44ea2bdcc2e3e9d8bd5e699ecdc7ca24b2da23b73fb7b06face51098af",
+      "cdhash": "57a816dc255f9975cb9a62a5ee88b5546053644a",
       "signingId": "S6UPZG7ZR3:chat.rocket",
       "teamId": "S6UPZG7ZR3",
-      "lastUpdated": "2026-07-11T22:12:53Z"
+      "lastUpdated": "2026-07-20T23:23:20Z"
     },
     {
       "slug": "rocket-typist/darwin",
@@ -10893,6 +10893,26 @@
       "lastUpdated": "2026-07-08T17:17:17Z"
     },
     {
+      "slug": "session/darwin",
+      "name": "Session",
+      "version": "1.18.1",
+      "sha256": "2fd19b3cfb06ba2ac7b286cfac54233fb27617a74fdca5ac4a27a93ee4b40ce7",
+      "cdhash": "1ab214b88e116ddbdecdd2761c9d29526f877134",
+      "signingId": "SUQ8J2PCT7:com.loki-project.messenger-desktop",
+      "teamId": "SUQ8J2PCT7",
+      "lastUpdated": "2026-07-20T23:23:47Z"
+    },
+    {
+      "slug": "setapp/darwin",
+      "name": "Setapp",
+      "version": "3.53.11",
+      "sha256": "897350cbfb57085ee9c8062d8dae3489d1b18c960f0812ca3752cf8cacbf60d2",
+      "cdhash": "796b431bd95e5eb72f778f8b81beacbe465a7688",
+      "signingId": "MEHY5QF425:com.setapp.DesktopClient",
+      "teamId": "MEHY5QF425",
+      "lastUpdated": "2026-07-20T23:24:13Z"
+    },
+    {
       "slug": "sf-symbols/darwin",
       "name": "SF Symbols",
       "version": "8.0",
@@ -10903,12 +10923,12 @@
     {
       "slug": "shapr3d/darwin",
       "name": "Shapr3D",
-      "version": "26.120.0.11243",
-      "sha256": "24f2763021df24fa59ee940a66e0c9a105d08fdfa5a64761de4f10d74c9d7d2b",
-      "cdhash": "5715f36a6ecea24139984deadb802ba192d0180e",
+      "version": "26.121.0.11316",
+      "sha256": "b8c5ea8433e5717bec508594b2b2ec8c85d4a48f7d51b0fa753e264afceea7e7",
+      "cdhash": "726e0dab6faaa647c264c36ec98e3e268c322bf7",
       "signingId": "3S68S4FLA7:com.shapr3d.shapr",
       "teamId": "3S68S4FLA7",
-      "lastUpdated": "2026-07-08T17:18:04Z"
+      "lastUpdated": "2026-07-20T23:26:01Z"
     },
     {
       "slug": "sharefile/darwin",
@@ -11027,6 +11047,16 @@
       "lastUpdated": "2026-06-10T15:32:44Z"
     },
     {
+      "slug": "signal/darwin",
+      "name": "Signal",
+      "version": "8.19.0",
+      "sha256": "9928e3acb2b652b0c00df519a244b504f705567b22cd076993ed991e07450f0a",
+      "cdhash": "afd0b5667efc9a158c88418fe5ad31ae5d4c776a",
+      "signingId": "U68MSDN6DR:org.whispersystems.signal-desktop",
+      "teamId": "U68MSDN6DR",
+      "lastUpdated": "2026-07-20T23:26:25Z"
+    },
+    {
       "slug": "signal/windows",
       "name": "Signal",
       "version": "8.19.0",
@@ -11061,12 +11091,12 @@
     {
       "slug": "sketch/darwin",
       "name": "Sketch",
-      "version": "2026.2",
-      "sha256": "ee6703404da9ba928be1044dd476f3e886a9542278ca8f42373dcedca8d84ed9",
-      "cdhash": "e37d11f89c9a177aaa9665f17f5bdd6c9d6e468b",
+      "version": "2026.2.1",
+      "sha256": "bf319af00e1c570f2108303feb961e7aa5125acbea36e5826ca7d1985972d76c",
+      "cdhash": "5b40b91c6c9cdfba21479d959f0251d6c4a68a98",
       "signingId": "WUGMZZ5K46:com.bohemiancoding.sketch3",
       "teamId": "WUGMZZ5K46",
-      "lastUpdated": "2026-06-23T17:07:15Z"
+      "lastUpdated": "2026-07-20T23:26:51Z"
     },
     {
       "slug": "slab/darwin",
@@ -11101,6 +11131,16 @@
       "lastUpdated": "2026-06-24T03:28:55Z"
     },
     {
+      "slug": "slicer/darwin",
+      "name": "3D Slicer",
+      "version": "5.12.2",
+      "sha256": "a89718a6cbafdddc7a143d658d3a4dd2377ce7a103dec9a775541997e8898164",
+      "cdhash": "b787589d783125e936b6584fb7326b18f8a58a99",
+      "signingId": "W38PE5Y733:org.slicer.slicer",
+      "teamId": "W38PE5Y733",
+      "lastUpdated": "2026-07-20T23:27:37Z"
+    },
+    {
       "slug": "slidepad/darwin",
       "name": "Slidepad",
       "version": "1.6.2",
@@ -11119,6 +11159,16 @@
       "signingId": "5WX26Y89JP:org.sveinbjorn.Sloth",
       "teamId": "5WX26Y89JP",
       "lastUpdated": "2026-06-10T15:36:54Z"
+    },
+    {
+      "slug": "smallstepagent/darwin",
+      "name": "Smallstep Agent",
+      "version": "v0.68.0",
+      "sha256": "94025ab062017d50525ffef7e093656631aeaba4e3f8ed42b4c1d0cb5fd4bd31",
+      "cdhash": "12579c0869bacd0f95e1e5f4d4852de6b000115b",
+      "signingId": "83N265AHT9:com.smallstep.Agent",
+      "teamId": "83N265AHT9",
+      "lastUpdated": "2026-07-20T23:29:44Z"
     },
     {
       "slug": "smartsheet/darwin",
@@ -11309,12 +11359,12 @@
     {
       "slug": "soundanchor/darwin",
       "name": "SoundAnchor",
-      "version": "1.8.1",
-      "sha256": "2937e4ec2308c9e045e5961df511c9b288a896b3b7db0edd3434443bf855ac13",
-      "cdhash": "d6b09c2bbb3373ac49daf3fdfb4d124ea4fd000d",
+      "version": "1.8.2",
+      "sha256": "7d30bb35f8966d8a98c35e8533ba836bc04616192beede5b4a2f11efa42828ca",
+      "cdhash": "2be0ac781f5a518608064fb9713006f5c2e34ef9",
       "signingId": "B8R4H99K58:me.kopiro.soundanchor",
       "teamId": "B8R4H99K58",
-      "lastUpdated": "2026-06-14T12:53:37Z"
+      "lastUpdated": "2026-07-20T23:30:06Z"
     },
     {
       "slug": "soundsource/darwin",
