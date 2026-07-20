@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T23:38:07Z",
+  "lastUpdated": "2026-07-20T23:44:40Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -11903,12 +11903,12 @@
     {
       "slug": "syncthing-app/darwin",
       "name": "Syncthing",
-      "version": "2.0.14-1",
-      "sha256": "f5188030c01ebf9b356e769c970ceb07dad7a5f7fa0b05b1fbe2ab567b0cb599",
-      "cdhash": "1cf9b8435f0fc2270e98ed94506c2ede0fb3f2db",
+      "version": "2.1.2-1",
+      "sha256": "78c8e811501d5b871e073391821bac48bcd3e06e01493ebe1b5cf53cb35d5831",
+      "cdhash": "a80a14de46afcc28a8ade0b38025f51eb2d9d347",
       "signingId": "LQE5SYM783:com.github.xor-gate.syncthing-macosx",
       "teamId": "LQE5SYM783",
-      "lastUpdated": "2026-06-10T16:12:41Z"
+      "lastUpdated": "2026-07-20T23:38:26Z"
     },
     {
       "slug": "syntax-highlight/darwin",
@@ -11965,12 +11965,12 @@
     {
       "slug": "tableplus/darwin",
       "name": "TablePlus",
-      "version": "26.7.2",
-      "sha256": "864bcafd6dff87101e73b08ac4cf9c8077421a94dc8973815383d43004c2d8b7",
-      "cdhash": "504034bd39da4e16d9575963204cc147de08733d",
+      "version": "26.7.6",
+      "sha256": "a3823dd3f396ca031bf123a9677cfff6c1040f9dac3dc6bb2f38f9ffe603e3e9",
+      "cdhash": "95fe380eb191e6963e087b93632e2cce780b151c",
       "signingId": "3X57WP8E8V:com.tinyapp.TablePlus",
       "teamId": "3X57WP8E8V",
-      "lastUpdated": "2026-07-09T20:22:24Z"
+      "lastUpdated": "2026-07-20T23:38:49Z"
     },
     {
       "slug": "tableplus/windows",
@@ -11997,12 +11997,12 @@
     {
       "slug": "tailscale-app/darwin",
       "name": "Tailscale",
-      "version": "1.98.8",
-      "sha256": "d487d70b0b7f2b244a0ee04fc62db7561569ba2676c53502835dd286c0f31be0",
-      "cdhash": "2f1146e3524ba8fe1c525f79ebcec779a82537b4",
+      "version": "1.98.9",
+      "sha256": "e4ef18d6acacdaee5d2d4d6fc1efaea592f3e80790c0c3e04570e2c8b32d22af",
+      "cdhash": "a5c5c6403f572f608bcffd7724a66eec755424e8",
       "signingId": "W5364U7YZB:io.tailscale.ipn.macsys",
       "teamId": "W5364U7YZB",
-      "lastUpdated": "2026-06-30T19:59:22Z"
+      "lastUpdated": "2026-07-20T23:39:19Z"
     },
     {
       "slug": "tailscale/windows",
@@ -12071,12 +12071,12 @@
     {
       "slug": "telegram/darwin",
       "name": "Telegram",
-      "version": "12.8",
-      "sha256": "3749f77ef98a6303ec64925bcbe83c58549ab066bab9530b8778402d94547061",
-      "cdhash": "64ccbcdb616a62192cc0a9526be81acfca7c9509",
+      "version": "12.9",
+      "sha256": "10846c4528f1b6b8054bb3718667d549889ee3dfd16f871af2b921dcd0518937",
+      "cdhash": "b347b25f04e249aa3bb79bf82ab7dcb7ed83d032",
       "signingId": "6N38VWS5BX:ru.keepcoder.Telegram",
       "teamId": "6N38VWS5BX",
-      "lastUpdated": "2026-06-10T17:49:11Z"
+      "lastUpdated": "2026-07-20T23:39:48Z"
     },
     {
       "slug": "telegram/windows",
@@ -12112,14 +12112,42 @@
       "lastUpdated": "2026-07-09T16:05:56Z"
     },
     {
+      "slug": "teleport-suite/darwin",
+      "name": "Teleport Suite",
+      "version": "18.10.0",
+      "lastUpdated": "2026-07-20T23:41:59Z",
+      "apps": [
+        {
+          "slug": "teleport-suite/darwin/tsh",
+          "name": "tsh",
+          "version": "18.10.0",
+          "sha256": "15c697692a6ace68f5e90ebab04489dc919708860e7c6bb4b82b97ff5a0af7f8",
+          "cdhash": "c211028e851d4ea854f43fd32e9368d9aaceb890",
+          "signingId": "QH8AA5B8UP:QH8AA5B8UP.com.gravitational.teleport.tsh",
+          "teamId": "QH8AA5B8UP",
+          "lastUpdated": "2026-07-20T23:42:18Z"
+        },
+        {
+          "slug": "teleport-suite/darwin/tctl",
+          "name": "tctl",
+          "version": "18.10.0",
+          "sha256": "eaa3362db3ca4a4c36235309020479696a9060873b5dff56d8e30e531434dcc9",
+          "cdhash": "287275b6d96e3e5f27d6a965a39f0f1b21721479",
+          "signingId": "QH8AA5B8UP:QH8AA5B8UP.com.gravitational.teleport.tctl",
+          "teamId": "QH8AA5B8UP",
+          "lastUpdated": "2026-07-20T23:42:34Z"
+        }
+      ]
+    },
+    {
       "slug": "termius/darwin",
       "name": "Termius",
-      "version": "9.40.1",
-      "sha256": "0a093ccf73afd256e8d4c9f8ed2f43002d3ce19a926221474a6607392d5c5cf2",
-      "cdhash": "1015496c780934a5f5cc4e9117f1687d8cdda45d",
+      "version": "9.41.1",
+      "sha256": "f5ba1259d07f27be4b65dab418632cda986d16b2eada2be68c86cd3c0f86f811",
+      "cdhash": "10eb12d07902b8ae3aff8e411fcc26bda6e05684",
       "signingId": "6KN952WR85:com.termius-dmg.mac",
       "teamId": "6KN952WR85",
-      "lastUpdated": "2026-06-25T13:50:45Z"
+      "lastUpdated": "2026-07-20T23:43:01Z"
     },
     {
       "slug": "termius/windows",
@@ -12156,12 +12184,12 @@
     {
       "slug": "textexpander/darwin",
       "name": "TextExpander",
-      "version": "8.4.4",
-      "sha256": "3ca8459d6f4eb567c45ff7d817255d8a078352346478f94685ab7be7827511bf",
-      "cdhash": "23775a1ea6e2f6e342e4b81b42ba2016fc1350b5",
+      "version": "8.4.5",
+      "sha256": "0b09b7d73a303f92cfc2c74bb12876c48721f31d1a82a918de79e39591b2f8de",
+      "cdhash": "f71c83734bbb54f71481bf4846d7f4983d7d92b0",
       "signingId": "7PKJ6G4DXL:com.smileonmymac.textexpander",
       "teamId": "7PKJ6G4DXL",
-      "lastUpdated": "2026-05-27T15:27:06Z"
+      "lastUpdated": "2026-07-20T23:43:22Z"
     },
     {
       "slug": "textexpander/windows",
@@ -12398,12 +12426,12 @@
     {
       "slug": "tor-browser/darwin",
       "name": "Tor Browser",
-      "version": "15.0.17",
-      "sha256": "083e0c3f926ea906153c18d0815f9795592c2bec4cbf800be980a357b0e1564c",
-      "cdhash": "a969d47d46a292b2e1c3b274e7802feb064b4f96",
+      "version": "15.0.18",
+      "sha256": "0957953a3f80530b1bf5f37da51f0824086f4224502f082944b75b90a84b70da",
+      "cdhash": "1305c170e6b5433abfa34e3423121fc00417958c",
       "signingId": "MADPSAYN6T:org.torproject.torbrowser",
       "teamId": "MADPSAYN6T",
-      "lastUpdated": "2026-06-29T19:48:58Z"
+      "lastUpdated": "2026-07-20T23:43:54Z"
     },
     {
       "slug": "tortoisegit/windows",
@@ -12420,12 +12448,12 @@
     {
       "slug": "tower/darwin",
       "name": "Tower",
-      "version": "16.0.2",
-      "sha256": "7cdfbda4e8b43be946621e067b171a7a5fd5bb04febf7974989188a034e5def9",
-      "cdhash": "015981e386cb3b15c2b7150b6dd99c3c1a46419e",
+      "version": "17.0",
+      "sha256": "30ccdca50147fa8668554f469e09676e4a63553a3bd576bdf6bb24d8bd52bf39",
+      "cdhash": "32565667d2fb022185d3084f00b2a4b772961411",
       "signingId": "UN97WY764J:com.fournova.Tower3",
       "teamId": "UN97WY764J",
-      "lastUpdated": "2026-06-23T17:07:38Z"
+      "lastUpdated": "2026-07-20T23:44:16Z"
     },
     {
       "slug": "tower/windows",
@@ -12530,6 +12558,16 @@
       "signingId": "Z2SG5H3HC8:net.tunnelblick.tunnelblick",
       "teamId": "Z2SG5H3HC8",
       "lastUpdated": "2026-07-06T12:59:34Z"
+    },
+    {
+      "slug": "tuple/darwin",
+      "name": "Tuple",
+      "version": "3.1.2",
+      "sha256": "f352c9468af0c9f0ae8c648bb59fa8e920773411f8dfc029f0e7195df1eb224b",
+      "cdhash": "463c8965a077bc6848d9cd5c00ed0eb578df6dd0",
+      "signingId": "DQYU7DR9Q7:app.tuple.app",
+      "teamId": "DQYU7DR9Q7",
+      "lastUpdated": "2026-07-20T23:44:38Z"
     },
     {
       "slug": "twine-app/darwin",
