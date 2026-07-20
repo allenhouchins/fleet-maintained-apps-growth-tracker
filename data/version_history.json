@@ -1,123 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-06-30T16:01:35Z",
-      "appName": "Todoist",
-      "slug": "todoist-app/windows",
-      "platform": "windows",
-      "oldVersion": "9.28.0",
-      "newVersion": "9.29.1",
-      "installerUrl": "https://electron-dl.todoist.net/windows/Todoist-win32-9.29.1-x64-latest.exe"
-    },
-    {
-      "date": "2026-06-30T16:01:35Z",
-      "appName": "Elgato Stream Deck",
-      "slug": "elgato-stream-deck/windows",
-      "platform": "windows",
-      "oldVersion": "7.4.2.22730",
-      "newVersion": "7.5.0.22885",
-      "installerUrl": "https://edge.elgato.com/egc/windows/sd/Stream_Deck_7.5.0.22885.msi"
-    },
-    {
-      "date": "2026-06-30T16:01:35Z",
-      "appName": "Postman",
-      "slug": "postman/windows",
-      "platform": "windows",
-      "oldVersion": "12.17.0",
-      "newVersion": "12.17.1",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.17.1/windows_64"
-    },
-    {
-      "date": "2026-06-30T16:01:35Z",
-      "appName": "Keka",
-      "slug": "keka/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.6.5",
-      "newVersion": "1.6.6",
-      "installerUrl": "https://github.com/aonez/Keka/releases/download/v1.6.6/Keka-1.6.6.dmg"
-    },
-    {
-      "date": "2026-06-30T16:01:35Z",
-      "appName": "Notesnook",
-      "slug": "notesnook/windows",
-      "platform": "windows",
-      "oldVersion": "3.3.23",
-      "newVersion": "3.4.0",
-      "installerUrl": "https://github.com/streetwriters/notesnook/releases/download/v3.4.0/notesnook_win_x64.exe"
-    },
-    {
-      "date": "2026-07-01T01:55:17Z",
-      "appName": "Keka",
-      "slug": "keka/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.6.6",
-      "newVersion": "1.6.7",
-      "installerUrl": "https://github.com/aonez/Keka/releases/download/v1.6.7/Keka-1.6.7.dmg"
-    },
-    {
-      "date": "2026-07-01T01:55:17Z",
-      "appName": "Microsoft PowerPoint",
-      "slug": "microsoft-powerpoint/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.110.1",
-      "newVersion": "16.110.2",
-      "installerUrl": "https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.110.26062818_Installer.pkg"
-    },
-    {
-      "date": "2026-07-01T01:55:17Z",
-      "appName": "7-zip",
-      "slug": "7-zip/windows",
-      "platform": "windows",
-      "oldVersion": "26.01",
-      "newVersion": "26.02",
-      "installerUrl": "https://7-zip.org/a/7z2602-x64.msi"
-    },
-    {
-      "date": "2026-07-01T01:55:17Z",
-      "appName": "AWS Command Line Interface v2",
-      "slug": "aws-cli/windows",
-      "platform": "windows",
-      "oldVersion": "2.35.12",
-      "newVersion": "2.35.13",
-      "installerUrl": "https://awscli.amazonaws.com/AWSCLIV2-2.35.13.msi"
-    },
-    {
-      "date": "2026-07-01T01:55:17Z",
-      "appName": "LookAway",
-      "slug": "lookaway/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.2.1",
-      "newVersion": "2.2.2",
-      "installerUrl": "https://github.com/mysticalbits/lookaway-releases/releases/download/2.2.2/LookAway.dmg"
-    },
-    {
-      "date": "2026-07-01T01:55:17Z",
-      "appName": "Microsoft Excel",
-      "slug": "microsoft-excel/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.110.1",
-      "newVersion": "16.110.2",
-      "installerUrl": "https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.110.26062818_Installer.pkg"
-    },
-    {
-      "date": "2026-07-01T01:55:17Z",
-      "appName": "TortoiseGit",
-      "slug": "tortoisegit/windows",
-      "platform": "windows",
-      "oldVersion": "2.19.0",
-      "newVersion": "2.19.1.0",
-      "installerUrl": "https://download.tortoisegit.org/tgit/2.19.0.0/TortoiseGit-2.19.1.0-64bit.msi"
-    },
-    {
-      "date": "2026-07-01T01:55:17Z",
-      "appName": "VirtualBox",
-      "slug": "virtualbox/darwin",
-      "platform": "darwin",
-      "oldVersion": "7.2.10",
-      "newVersion": "7.2.12",
-      "installerUrl": "https://download.virtualbox.org/virtualbox/7.2.12/VirtualBox-7.2.12-174389-macOSArm64.dmg"
-    },
-    {
       "date": "2026-07-01T01:55:17Z",
       "appName": "Claude",
       "slug": "claude/darwin",
@@ -8999,6 +8882,123 @@
       "oldVersion": "0.11.18",
       "newVersion": "0.11.20",
       "installerUrl": "https://github.com/readest/readest/releases/download/v0.11.20/Readest_0.11.20_universal.dmg"
+    },
+    {
+      "date": "2026-07-20T15:56:47Z",
+      "appName": "Fleet Desktop",
+      "slug": "fleet-desktop/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.3.2",
+      "newVersion": "1.3.4",
+      "installerUrl": "https://github.com/allenhouchins/fleet-desktop/releases/download/v1.3.4/fleet_desktop-v1.3.4.pkg"
+    },
+    {
+      "date": "2026-07-20T15:56:47Z",
+      "appName": "Krisp",
+      "slug": "krisp/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.13.12",
+      "newVersion": "3.14.4",
+      "installerUrl": "https://cdn.krisp.ai/mp/mn/3.14/mac/Krisp_3.14.4_arm64.pkg"
+    },
+    {
+      "date": "2026-07-20T15:56:47Z",
+      "appName": "Postman",
+      "slug": "postman/windows",
+      "platform": "windows",
+      "oldVersion": "12.19.6",
+      "newVersion": "12.20.0",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.20.0/windows_64"
+    },
+    {
+      "date": "2026-07-20T15:56:47Z",
+      "appName": "ChatGPT Desktop",
+      "slug": "chatgpt/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.715.31925",
+      "newVersion": "26.715.52143",
+      "installerUrl": "https://persistent.oaistatic.com/codex-app-prod/ChatGPT-darwin-arm64-26.715.52143.zip"
+    },
+    {
+      "date": "2026-07-20T15:56:47Z",
+      "appName": "Shapr3D",
+      "slug": "shapr3d/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.120.0.11243",
+      "newVersion": "26.121.0.11316",
+      "installerUrl": "https://download.shapr3d.com/mac/Shapr3D-26.121.0.11316.dmg"
+    },
+    {
+      "date": "2026-07-20T15:56:47Z",
+      "appName": "Processing",
+      "slug": "processing/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.5.5",
+      "newVersion": "4.5.6",
+      "installerUrl": "https://github.com/processing/processing4/releases/download/processing-1434-4.5.6/processing-4.5.6-macos-aarch64.dmg"
+    },
+    {
+      "date": "2026-07-20T15:56:47Z",
+      "appName": "Druva inSync",
+      "slug": "druva-insync/darwin",
+      "platform": "darwin",
+      "oldVersion": "7.6.1",
+      "newVersion": "8.1.3",
+      "installerUrl": "https://downloads.druva.com/downloads/inSync/MAC/8.1.3/inSync-8.1.3-r110967.dmg"
+    },
+    {
+      "date": "2026-07-20T15:56:47Z",
+      "appName": "PicView",
+      "slug": "picview/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.2.0",
+      "newVersion": "5.0.0",
+      "installerUrl": "https://github.com/Ruben2776/PicView/releases/download/5.0.0/PicView-5.0.0-macOS-arm64.dmg"
+    },
+    {
+      "date": "2026-07-20T15:56:47Z",
+      "appName": "Zoom Rooms",
+      "slug": "zoom-rooms/darwin",
+      "platform": "darwin",
+      "oldVersion": "7.0.5.12655",
+      "newVersion": "7.1.0.13088",
+      "installerUrl": "https://cdn.zoom.us/prod/7.1.0.13088/ZoomRooms.pkg"
+    },
+    {
+      "date": "2026-07-20T15:56:47Z",
+      "appName": "Devin Desktop",
+      "slug": "devin-desktop/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.4.27",
+      "newVersion": "3.5.17",
+      "installerUrl": "https://windsurf-stable.codeiumdata.com/darwin-arm64-dmg/stable/2c489dfc762456657db8662309c0d5e76e886397/Devin-darwin-arm64-3.5.17.dmg"
+    },
+    {
+      "date": "2026-07-20T15:56:47Z",
+      "appName": "Zoom",
+      "slug": "zoom/darwin",
+      "platform": "darwin",
+      "oldVersion": "7.1.0.83064",
+      "newVersion": "7.1.5.84650",
+      "installerUrl": "https://zoom.us/client/latest/ZoomInstallerIT.pkg"
+    },
+    {
+      "date": "2026-07-20T15:56:47Z",
+      "appName": "Postman",
+      "slug": "postman/darwin",
+      "platform": "darwin",
+      "oldVersion": "12.19.6",
+      "newVersion": "12.20.0",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.20.0/osx_arm64"
+    },
+    {
+      "date": "2026-07-20T15:56:47Z",
+      "appName": "DuckDuckGo",
+      "slug": "duckduckgo/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.198.0",
+      "newVersion": "1.199.0",
+      "installerUrl": "https://staticcdn.duckduckgo.com/macos-desktop-browser/duckduckgo-1.199.0.762.dmg"
     }
   ]
 }
