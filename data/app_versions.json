@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-22T19:26:09Z",
+  "lastUpdated": "2026-07-22T21:13:20Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1267,6 +1267,20 @@
       "platform": "windows",
       "version": "2.52.315",
       "installerUrl": "https://e3.boxcdn.net/desktop/releases/win/BoxDrive-2.52.315.msi"
+    },
+    {
+      "slug": "box-tools/darwin",
+      "name": "Box Tools",
+      "platform": "darwin",
+      "version": "4.32",
+      "installerUrl": "https://e3.boxcdn.net/box-installers/boxedit/mac/currentrelease/BoxToolsInstaller.dmg"
+    },
+    {
+      "slug": "box-tools/windows",
+      "name": "Box Tools",
+      "platform": "windows",
+      "version": "4.32.0.1324",
+      "installerUrl": "https://e3.boxcdn.net/box-installers/boxedit/win/currentrelease/BoxToolsInstaller-AdminInstall.msi"
     },
     {
       "slug": "brave-browser/darwin",
@@ -3992,6 +4006,13 @@
       "installerUrl": "https://hazeover.com/HazeOver.dmg"
     },
     {
+      "slug": "heidisql/windows",
+      "name": "HeidiSQL",
+      "platform": "windows",
+      "version": "12.20.0.7320",
+      "installerUrl": "https://github.com/HeidiSQL/HeidiSQL/releases/download/v12.20/HeidiSQL_12.20.0.7320_Setup.exe"
+    },
+    {
       "slug": "helium/darwin",
       "name": "Helium",
       "platform": "darwin",
@@ -4083,6 +4104,13 @@
       "installerUrl": "https://ftp.hp.com/pub/softlib/software12/HP_Quick_Start/osx/Applications/HP_Easy_Admin.app.zip"
     },
     {
+      "slug": "hp-prime-virtual-calculator/windows",
+      "name": "HP Prime Virtual Calculator",
+      "platform": "windows",
+      "version": "2.4",
+      "installerUrl": "https://updates.moravia-consulting.com/HP_Prime_Virtual_Calculator_x64_2025_09_15.exe"
+    },
+    {
       "slug": "hubstaff/darwin",
       "name": "Hubstaff",
       "platform": "darwin",
@@ -4095,6 +4123,13 @@
       "platform": "darwin",
       "version": "0.7.426",
       "installerUrl": "https://dist.huly.io/Huly-macos-0.7.426-arm64.zip"
+    },
+    {
+      "slug": "hwmonitor/windows",
+      "name": "HWMonitor",
+      "platform": "windows",
+      "version": "1.65",
+      "installerUrl": "https://download.cpuid.com/hwmonitor/hwmonitor_1.65.exe"
     },
     {
       "slug": "hyper/darwin",

@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: July 22, 2026 at 2:37 PM CDT</p>
+            Last updated: July 22, 2026 at 4:13 PM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: July 22, 2026 at 2:37 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: July 22, 2026 at 4:13 PM CDT</p>
             </div>
         </div>
     </div>
@@ -1672,7 +1672,7 @@
             1350,
             1350,
             1351,
-            1351
+            1356
           ],
           "additions": [
             20,
@@ -2180,7 +2180,7 @@
             0,
             0,
             1,
-            0
+            5
           ],
           "macCounts": [
             20,
@@ -2688,7 +2688,7 @@
             964,
             964,
             965,
-            965
+            966
           ],
           "windowsCounts": [
             0,
@@ -3196,7 +3196,7 @@
             386,
             386,
             386,
-            386
+            390
           ],
           "growthDates": [
             "2025-03-04",
@@ -3291,7 +3291,8 @@
             "2026-07-15",
             "2026-07-16",
             "2026-07-17",
-            "2026-07-21"
+            "2026-07-21",
+            "2026-07-22"
           ],
           "growthCounts": [
             20,
@@ -3386,7 +3387,8 @@
             1345,
             1346,
             1350,
-            1351
+            1351,
+            1356
           ],
           "growthAdditions": [
             20,
@@ -3481,7 +3483,8 @@
             13,
             1,
             4,
-            1
+            1,
+            5
           ]
         };
         
@@ -6248,6 +6251,22 @@
                   "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
                   "lastUpdated": "2026-07-16T03:37:53Z"
                 }
+              },
+              {
+                "name": "Box Tools",
+                "slug": "box-tools/darwin",
+                "platform": "darwin",
+                "description": "Box Tools is a companion app for Box that lets users create and edit files stored in Box with their computer's default applications, directly from a web browser.",
+                "version": "4.32",
+                "installerUrl": "https://e3.boxcdn.net/box-installers/boxedit/mac/currentrelease/BoxToolsInstaller.dmg"
+              },
+              {
+                "name": "Box Tools",
+                "slug": "box-tools/windows",
+                "platform": "windows",
+                "description": "Box Tools is a companion app for Box that lets users create and edit files stored in Box with their computer's default applications, directly from a web browser.",
+                "version": "4.32.0.1324",
+                "installerUrl": "https://e3.boxcdn.net/box-installers/boxedit/win/currentrelease/BoxToolsInstaller-AdminInstall.msi"
               },
               {
                 "name": "Brave",
@@ -24806,7 +24825,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `July 22, 2026 at 2:37 PM CDT`;
+                let timestampText = 'Last updated: ' + `July 22, 2026 at 4:13 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
