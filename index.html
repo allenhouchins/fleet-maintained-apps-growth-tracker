@@ -589,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: July 22, 2026 at 4:13 PM CDT</p>
+            Last updated: July 22, 2026 at 4:22 PM CDT</p>
         </div>
     </div>
 
@@ -650,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: July 22, 2026 at 4:13 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: July 22, 2026 at 4:22 PM CDT</p>
             </div>
         </div>
     </div>
@@ -6258,7 +6258,14 @@
                 "platform": "darwin",
                 "description": "Box Tools is a companion app for Box that lets users create and edit files stored in Box with their computer's default applications, directly from a web browser.",
                 "version": "4.32",
-                "installerUrl": "https://e3.boxcdn.net/box-installers/boxedit/mac/currentrelease/BoxToolsInstaller.dmg"
+                "installerUrl": "https://e3.boxcdn.net/box-installers/boxedit/mac/currentrelease/BoxToolsInstaller.dmg",
+                "securityInfo": {
+                  "sha256": "acc8a6a288cf1ffd58c333797a35693d182a722f7e9ecc2381c53a115b9add16",
+                  "cdhash": "9411528e5a2f08145cab5247c6c4b189b9a20f2d",
+                  "signingId": "M683GB7CPW:com.box.Box-Edit-Installer",
+                  "teamId": "M683GB7CPW",
+                  "lastUpdated": "2026-07-22T21:14:40Z"
+                }
               },
               {
                 "name": "Box Tools",
@@ -24825,7 +24832,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `July 22, 2026 at 4:13 PM CDT`;
+                let timestampText = 'Last updated: ' + `July 22, 2026 at 4:22 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
