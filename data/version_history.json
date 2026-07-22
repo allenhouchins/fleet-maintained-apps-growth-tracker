@@ -2,24 +2,6 @@
   "changes": [
     {
       "date": "2026-07-03T15:19:32Z",
-      "appName": "Postman",
-      "slug": "postman/windows",
-      "platform": "windows",
-      "oldVersion": "12.17.3",
-      "newVersion": "12.17.5",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.17.5/windows_64"
-    },
-    {
-      "date": "2026-07-03T15:19:32Z",
-      "appName": "Actual",
-      "slug": "actual/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.6.0",
-      "newVersion": "26.7.0",
-      "installerUrl": "https://github.com/actualbudget/actual/releases/download/v26.7.0/Actual-mac-arm64.dmg"
-    },
-    {
-      "date": "2026-07-03T15:19:32Z",
       "appName": "Rocket.Chat",
       "slug": "rocket-chat/darwin",
       "platform": "darwin",
@@ -8999,6 +8981,24 @@
       "oldVersion": "",
       "newVersion": "1.65",
       "installerUrl": "https://download.cpuid.com/hwmonitor/hwmonitor_1.65.exe"
+    },
+    {
+      "date": "2026-07-22T23:09:37Z",
+      "appName": "Podman Desktop",
+      "slug": "podman-desktop/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "1.28.3",
+      "installerUrl": "https://github.com/containers/podman-desktop/releases/download/v1.28.3/podman-desktop-1.28.3-setup-x64.exe"
+    },
+    {
+      "date": "2026-07-22T23:09:37Z",
+      "appName": "Airtable",
+      "slug": "airtable/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "1.4.5",
+      "installerUrl": "https://static.airtable.com/download/win/AirtableSetup1.4.5.exe"
     }
   ]
 }

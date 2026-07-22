@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-22T21:13:20Z",
+  "lastUpdated": "2026-07-22T23:09:37Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -364,6 +364,13 @@
       "platform": "darwin",
       "version": "1.6.6",
       "installerUrl": "https://static.airtable.com/download/macos/Airtable-1.6.6.dmg"
+    },
+    {
+      "slug": "airtable/windows",
+      "name": "Airtable",
+      "platform": "windows",
+      "version": "1.4.5",
+      "installerUrl": "https://static.airtable.com/download/win/AirtableSetup1.4.5.exe"
     },
     {
       "slug": "airtame/darwin",
@@ -6468,6 +6475,13 @@
       "platform": "darwin",
       "version": "1.28.3",
       "installerUrl": "https://github.com/containers/podman-desktop/releases/download/v1.28.3/podman-desktop-1.28.3-arm64.dmg"
+    },
+    {
+      "slug": "podman-desktop/windows",
+      "name": "Podman Desktop",
+      "platform": "windows",
+      "version": "1.28.3",
+      "installerUrl": "https://github.com/containers/podman-desktop/releases/download/v1.28.3/podman-desktop-1.28.3-setup-x64.exe"
     },
     {
       "slug": "popchar/darwin",
