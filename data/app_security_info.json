@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-22T23:20:28Z",
+  "lastUpdated": "2026-07-22T23:20:59Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -9571,6 +9571,18 @@
       "signingId": "HYSCB8KRL2:io.podmandesktop.PodmanDesktop",
       "teamId": "HYSCB8KRL2",
       "lastUpdated": "2026-07-20T22:46:38Z"
+    },
+    {
+      "slug": "podman-desktop/windows",
+      "name": "Podman Desktop",
+      "version": "1.28.3",
+      "sha256": "1b405749ae21b3c84d639fd01d6f667076d439a13e5498d2c084cb158bb6bb05",
+      "publisher": "CN=\"Red Hat, Inc\", OU=Podman, O=\"Red Hat, Inc\", L=RALEIGH, S=North Carolina, C=US, SERIALNUMBER=2945436, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0A717996CCF3FFAAF1D76B14A59DC089",
+      "thumbprint": "F08C4BA9A87010AA82689532B648EF0B9E7101EE",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-07-22T23:20:54Z"
     },
     {
       "slug": "popchar/darwin",
