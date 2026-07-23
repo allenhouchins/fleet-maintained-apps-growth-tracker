@@ -118,33 +118,6 @@
             color: #64748b;
             font-size: 14px;
         }
-        .patches-section {
-            margin-top: 40px;
-            padding-top: 30px;
-            border-top: 2px solid #e2e8f0;
-        }
-        .patches-section h2 {
-            color: #1e293b;
-            margin: 0 0 6px 0;
-            font-size: 24px;
-        }
-        .patches-subtitle {
-            color: #64748b;
-            font-size: 14px;
-            margin: 0 0 20px 0;
-        }
-        .patches-chart-container {
-            position: relative;
-            height: 340px;
-        }
-        .patches-data-link {
-            margin: 12px 0 0 0;
-            font-size: 13px;
-            text-align: right;
-        }
-        .patches-data-link a {
-            color: #64748b;
-        }
         .footer {
             margin-top: 40px;
             padding-top: 20px;
@@ -597,16 +570,7 @@
         <div class="stats" id="stats">
             <!-- Stats will be populated by JavaScript -->
         </div>
-
-        <div class="patches-section" id="patchesSection">
-            <h2>Patches released per day</h2>
-            <p class="patches-subtitle">App version updates shipped to the library each day. New app additions are not counted as patches.</p>
-            <div class="patches-chart-container">
-                <canvas id="patchesChart"></canvas>
-            </div>
-            <p class="patches-data-link"><a href="data/patches_per_day.csv">View the data (CSV)</a></p>
-        </div>
-
+        
         <div class="apps-section">
             <div class="apps-header">
                 <h2>Fleet-maintained apps</h2>
@@ -625,7 +589,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: July 23, 2026 at 3:34 PM CDT</p>
+            Last updated: July 23, 2026 at 3:22 PM CDT</p>
         </div>
     </div>
 
@@ -686,7 +650,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: July 23, 2026 at 3:34 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: July 23, 2026 at 3:22 PM CDT</p>
             </div>
         </div>
     </div>
@@ -7191,8 +7155,8 @@
                 "slug": "claude-devtools/darwin",
                 "platform": "darwin",
                 "description": "Claude DevTools is an app to visualise and analyse Claude Code session executions.",
-                "version": "0.5.0",
-                "installerUrl": "https://github.com/matt1398/claude-devtools/releases/download/v0.5.0/claude-devtools-0.5.0-arm64.dmg",
+                "version": "",
+                "installerUrl": "",
                 "securityInfo": {
                   "sha256": "1574369d426fc5f58cf8e4f16803849a78b240a0d3073741e0d365ae0bebc88e",
                   "cdhash": "1ce94c8b849432e77aeffe4b7e5e93acb8c504cd",
@@ -24378,791 +24342,15 @@
                 }
               }
             ];
-
-        // Embedded patches-per-day data
-        const patchesData = {
-          "dates": [
-            "2025-11-19",
-            "2025-11-20",
-            "2025-11-21",
-            "2025-11-22",
-            "2025-11-23",
-            "2025-11-24",
-            "2025-11-25",
-            "2025-11-26",
-            "2025-11-27",
-            "2025-11-28",
-            "2025-11-29",
-            "2025-11-30",
-            "2025-12-01",
-            "2025-12-02",
-            "2025-12-03",
-            "2025-12-04",
-            "2025-12-05",
-            "2025-12-06",
-            "2025-12-07",
-            "2025-12-08",
-            "2025-12-09",
-            "2025-12-10",
-            "2025-12-11",
-            "2025-12-12",
-            "2025-12-13",
-            "2025-12-14",
-            "2025-12-15",
-            "2025-12-16",
-            "2025-12-17",
-            "2025-12-18",
-            "2025-12-19",
-            "2025-12-20",
-            "2025-12-21",
-            "2025-12-22",
-            "2025-12-23",
-            "2025-12-24",
-            "2025-12-25",
-            "2025-12-26",
-            "2025-12-27",
-            "2025-12-28",
-            "2025-12-29",
-            "2025-12-30",
-            "2025-12-31",
-            "2026-01-01",
-            "2026-01-02",
-            "2026-01-03",
-            "2026-01-04",
-            "2026-01-05",
-            "2026-01-06",
-            "2026-01-07",
-            "2026-01-08",
-            "2026-01-09",
-            "2026-01-10",
-            "2026-01-11",
-            "2026-01-12",
-            "2026-01-13",
-            "2026-01-14",
-            "2026-01-15",
-            "2026-01-16",
-            "2026-01-17",
-            "2026-01-18",
-            "2026-01-19",
-            "2026-01-20",
-            "2026-01-21",
-            "2026-01-22",
-            "2026-01-23",
-            "2026-01-24",
-            "2026-01-25",
-            "2026-01-26",
-            "2026-01-27",
-            "2026-01-28",
-            "2026-01-29",
-            "2026-01-30",
-            "2026-01-31",
-            "2026-02-01",
-            "2026-02-02",
-            "2026-02-03",
-            "2026-02-04",
-            "2026-02-05",
-            "2026-02-06",
-            "2026-02-07",
-            "2026-02-08",
-            "2026-02-09",
-            "2026-02-10",
-            "2026-02-11",
-            "2026-02-12",
-            "2026-02-13",
-            "2026-02-14",
-            "2026-02-15",
-            "2026-02-16",
-            "2026-02-17",
-            "2026-02-18",
-            "2026-02-19",
-            "2026-02-20",
-            "2026-02-21",
-            "2026-02-22",
-            "2026-02-23",
-            "2026-02-24",
-            "2026-02-25",
-            "2026-02-26",
-            "2026-02-27",
-            "2026-02-28",
-            "2026-03-01",
-            "2026-03-02",
-            "2026-03-03",
-            "2026-03-04",
-            "2026-03-05",
-            "2026-03-06",
-            "2026-03-07",
-            "2026-03-08",
-            "2026-03-09",
-            "2026-03-10",
-            "2026-03-11",
-            "2026-03-12",
-            "2026-03-13",
-            "2026-03-14",
-            "2026-03-15",
-            "2026-03-16",
-            "2026-03-17",
-            "2026-03-18",
-            "2026-03-19",
-            "2026-03-20",
-            "2026-03-21",
-            "2026-03-22",
-            "2026-03-23",
-            "2026-03-24",
-            "2026-03-25",
-            "2026-03-26",
-            "2026-03-27",
-            "2026-03-28",
-            "2026-03-29",
-            "2026-03-30",
-            "2026-03-31",
-            "2026-04-01",
-            "2026-04-02",
-            "2026-04-03",
-            "2026-04-04",
-            "2026-04-05",
-            "2026-04-06",
-            "2026-04-07",
-            "2026-04-08",
-            "2026-04-09",
-            "2026-04-10",
-            "2026-04-11",
-            "2026-04-12",
-            "2026-04-13",
-            "2026-04-14",
-            "2026-04-15",
-            "2026-04-16",
-            "2026-04-17",
-            "2026-04-18",
-            "2026-04-19",
-            "2026-04-20",
-            "2026-04-21",
-            "2026-04-22",
-            "2026-04-23",
-            "2026-04-24",
-            "2026-04-25",
-            "2026-04-26",
-            "2026-04-27",
-            "2026-04-28",
-            "2026-04-29",
-            "2026-04-30",
-            "2026-05-01",
-            "2026-05-02",
-            "2026-05-03",
-            "2026-05-04",
-            "2026-05-05",
-            "2026-05-06",
-            "2026-05-07",
-            "2026-05-08",
-            "2026-05-09",
-            "2026-05-10",
-            "2026-05-11",
-            "2026-05-12",
-            "2026-05-13",
-            "2026-05-14",
-            "2026-05-15",
-            "2026-05-16",
-            "2026-05-17",
-            "2026-05-18",
-            "2026-05-19",
-            "2026-05-20",
-            "2026-05-21",
-            "2026-05-22",
-            "2026-05-23",
-            "2026-05-24",
-            "2026-05-25",
-            "2026-05-26",
-            "2026-05-27",
-            "2026-05-28",
-            "2026-05-29",
-            "2026-05-30",
-            "2026-05-31",
-            "2026-06-01",
-            "2026-06-02",
-            "2026-06-03",
-            "2026-06-04",
-            "2026-06-05",
-            "2026-06-06",
-            "2026-06-07",
-            "2026-06-08",
-            "2026-06-09",
-            "2026-06-10",
-            "2026-06-11",
-            "2026-06-12",
-            "2026-06-13",
-            "2026-06-14",
-            "2026-06-15",
-            "2026-06-16",
-            "2026-06-17",
-            "2026-06-18",
-            "2026-06-19",
-            "2026-06-20",
-            "2026-06-21",
-            "2026-06-22",
-            "2026-06-23",
-            "2026-06-24",
-            "2026-06-25",
-            "2026-06-26",
-            "2026-06-27",
-            "2026-06-28",
-            "2026-06-29",
-            "2026-06-30",
-            "2026-07-01",
-            "2026-07-02",
-            "2026-07-03",
-            "2026-07-04",
-            "2026-07-05",
-            "2026-07-06",
-            "2026-07-07",
-            "2026-07-08",
-            "2026-07-09",
-            "2026-07-10",
-            "2026-07-11",
-            "2026-07-12",
-            "2026-07-13",
-            "2026-07-14",
-            "2026-07-15",
-            "2026-07-16",
-            "2026-07-17",
-            "2026-07-18",
-            "2026-07-19",
-            "2026-07-20",
-            "2026-07-21",
-            "2026-07-22",
-            "2026-07-23"
-          ],
-          "macCounts": [
-            3,
-            12,
-            10,
-            0,
-            0,
-            9,
-            7,
-            0,
-            0,
-            20,
-            8,
-            0,
-            6,
-            11,
-            13,
-            7,
-            18,
-            2,
-            2,
-            10,
-            3,
-            17,
-            15,
-            14,
-            6,
-            2,
-            8,
-            12,
-            16,
-            21,
-            19,
-            9,
-            1,
-            0,
-            9,
-            4,
-            3,
-            2,
-            7,
-            2,
-            0,
-            3,
-            2,
-            0,
-            0,
-            4,
-            1,
-            1,
-            9,
-            22,
-            19,
-            7,
-            0,
-            3,
-            0,
-            26,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            59,
-            15,
-            9,
-            10,
-            7,
-            0,
-            8,
-            20,
-            19,
-            4,
-            20,
-            0,
-            4,
-            5,
-            15,
-            18,
-            0,
-            26,
-            0,
-            6,
-            0,
-            24,
-            16,
-            8,
-            15,
-            0,
-            0,
-            14,
-            9,
-            28,
-            12,
-            21,
-            0,
-            16,
-            9,
-            16,
-            19,
-            0,
-            6,
-            0,
-            0,
-            0,
-            0,
-            51,
-            0,
-            0,
-            0,
-            35,
-            7,
-            7,
-            30,
-            10,
-            7,
-            0,
-            21,
-            0,
-            17,
-            29,
-            0,
-            0,
-            30,
-            0,
-            8,
-            19,
-            0,
-            37,
-            19,
-            0,
-            9,
-            11,
-            11,
-            14,
-            0,
-            45,
-            0,
-            0,
-            0,
-            24,
-            22,
-            19,
-            13,
-            5,
-            0,
-            3,
-            23,
-            13,
-            20,
-            0,
-            16,
-            6,
-            8,
-            22,
-            21,
-            12,
-            20,
-            3,
-            6,
-            5,
-            13,
-            35,
-            6,
-            14,
-            3,
-            0,
-            12,
-            8,
-            23,
-            15,
-            11,
-            6,
-            0,
-            7,
-            8,
-            29,
-            20,
-            22,
-            7,
-            1,
-            5,
-            11,
-            34,
-            13,
-            20,
-            9,
-            2,
-            1,
-            22,
-            22,
-            27,
-            11,
-            4,
-            0,
-            12,
-            10,
-            25,
-            16,
-            12,
-            4,
-            7,
-            12,
-            24,
-            25,
-            54,
-            22,
-            41,
-            13,
-            22,
-            30,
-            61,
-            45,
-            42,
-            0,
-            18,
-            35,
-            42,
-            48,
-            39,
-            30,
-            21,
-            15,
-            19,
-            38,
-            63,
-            31,
-            23,
-            31,
-            8,
-            33,
-            16,
-            59,
-            54,
-            34,
-            12,
-            0,
-            40,
-            0,
-            97,
-            38,
-            59,
-            11,
-            23,
-            23,
-            59,
-            31,
-            0
-          ],
-          "windowsCounts": [
-            2,
-            2,
-            2,
-            0,
-            0,
-            3,
-            3,
-            0,
-            0,
-            7,
-            0,
-            1,
-            2,
-            1,
-            1,
-            2,
-            2,
-            3,
-            1,
-            0,
-            1,
-            4,
-            1,
-            1,
-            2,
-            2,
-            2,
-            4,
-            7,
-            2,
-            3,
-            0,
-            0,
-            0,
-            4,
-            2,
-            0,
-            0,
-            3,
-            1,
-            0,
-            2,
-            2,
-            1,
-            0,
-            1,
-            2,
-            0,
-            1,
-            7,
-            2,
-            2,
-            0,
-            2,
-            0,
-            9,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            13,
-            5,
-            0,
-            0,
-            3,
-            0,
-            2,
-            6,
-            3,
-            1,
-            2,
-            0,
-            1,
-            2,
-            2,
-            6,
-            0,
-            7,
-            0,
-            2,
-            0,
-            7,
-            5,
-            2,
-            3,
-            0,
-            0,
-            10,
-            3,
-            5,
-            3,
-            7,
-            0,
-            5,
-            0,
-            7,
-            3,
-            0,
-            3,
-            0,
-            0,
-            0,
-            0,
-            12,
-            0,
-            0,
-            0,
-            10,
-            3,
-            4,
-            3,
-            2,
-            5,
-            0,
-            6,
-            0,
-            5,
-            5,
-            0,
-            0,
-            12,
-            0,
-            1,
-            6,
-            0,
-            14,
-            2,
-            0,
-            4,
-            5,
-            3,
-            6,
-            0,
-            12,
-            0,
-            0,
-            0,
-            7,
-            5,
-            12,
-            5,
-            3,
-            0,
-            0,
-            6,
-            6,
-            5,
-            0,
-            7,
-            1,
-            2,
-            5,
-            8,
-            3,
-            7,
-            1,
-            4,
-            3,
-            4,
-            12,
-            5,
-            3,
-            2,
-            0,
-            4,
-            3,
-            7,
-            2,
-            5,
-            11,
-            0,
-            3,
-            4,
-            7,
-            7,
-            6,
-            3,
-            0,
-            1,
-            4,
-            13,
-            3,
-            9,
-            5,
-            1,
-            0,
-            4,
-            10,
-            11,
-            12,
-            2,
-            0,
-            2,
-            5,
-            26,
-            9,
-            11,
-            3,
-            7,
-            6,
-            17,
-            23,
-            20,
-            6,
-            10,
-            7,
-            3,
-            12,
-            19,
-            9,
-            16,
-            0,
-            16,
-            16,
-            18,
-            23,
-            10,
-            20,
-            11,
-            2,
-            11,
-            21,
-            26,
-            13,
-            15,
-            9,
-            0,
-            5,
-            4,
-            25,
-            22,
-            15,
-            5,
-            0,
-            16,
-            0,
-            30,
-            43,
-            32,
-            7,
-            6,
-            8,
-            25,
-            20,
-            0
-          ]
-        };
         
-        // Shared 1-year timeline for both charts, computed from today
-        function getTimelineWindow() {
-            const now = new Date();
-            const end = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-            const start = new Date(end);
-            start.setFullYear(start.getFullYear() - 1);
-            return { start: start, end: end };
-        }
-
-        // Process data into format needed for charts, trimmed to the shared timeline
+        // Process data into format needed for charts
         function processData() {
-            const timeline = getTimelineWindow();
-            const allDates = csvData.dates.map(d => new Date(d + 'T00:00:00'));
-            const counts = csvData.counts;
-            const macCounts = csvData.macCounts || [];
-            const windowsCounts = csvData.windowsCounts || [];
-
-            let cut = 0;
-            while (cut < allDates.length && allDates[cut] < timeline.start) cut++;
-
             const data = {
-                // Counts just before the visible window, so day-over-day
-                // deltas stay correct at the left edge
-                baselines: {
-                    counts: cut > 0 ? counts[cut - 1] : 0,
-                    macCounts: cut > 0 ? (macCounts[cut - 1] || 0) : 0,
-                    windowsCounts: cut > 0 ? (windowsCounts[cut - 1] || 0) : 0
-                },
-                dates: allDates.slice(cut),
-                counts: counts.slice(cut),
-                additions: csvData.additions.slice(cut),
-                macCounts: macCounts.slice(cut),
-                windowsCounts: windowsCounts.slice(cut),
+                dates: csvData.dates.map(d => new Date(d + 'T00:00:00')),
+                counts: csvData.counts,
+                additions: csvData.additions,
+                macCounts: csvData.macCounts || [],
+                windowsCounts: csvData.windowsCounts || [],
                 growthDates: csvData.growthDates.map(d => new Date(d + 'T00:00:00')),
                 growthCounts: csvData.growthCounts,
                 growthAdditions: csvData.growthAdditions
@@ -25272,12 +24460,11 @@
         function updateChart(viewType) {
             if (!chartInstance || !chartData) return;
             
-            let dataArray, baseline, label, color, borderColor, backgroundColor;
-
+            let dataArray, label, color, borderColor, backgroundColor;
+            
             switch(viewType) {
                 case 'total':
                     dataArray = chartData.counts;
-                    baseline = chartData.baselines.counts;
                     label = 'Total Apps';
                     color = '#2563eb';
                     borderColor = '#2563eb';
@@ -25285,7 +24472,6 @@
                     break;
                 case 'mac':
                     dataArray = chartData.macCounts;
-                    baseline = chartData.baselines.macCounts;
                     label = 'Mac Apps';
                     color = '#059669';
                     borderColor = '#059669';
@@ -25293,7 +24479,6 @@
                     break;
                 case 'windows':
                     dataArray = chartData.windowsCounts;
-                    baseline = chartData.baselines.windowsCounts;
                     label = 'Windows Apps';
                     color = '#0284c7';
                     borderColor = '#0284c7';
@@ -25311,10 +24496,10 @@
             
             // Update tooltip callback
             chartInstance.options.plugins.tooltip.callbacks.label = function(context) {
-                const idx = chartData.dates.findIndex(d =>
+                const idx = chartData.dates.findIndex(d => 
                     d.getTime() === context.raw.x.getTime());
                 const current = dataArray[idx];
-                const prev = idx > 0 ? dataArray[idx - 1] : baseline;
+                const prev = idx > 0 ? dataArray[idx - 1] : 0;
                 const added = current - prev;
                 return label + ': ' + context.parsed.y + ' apps' + (added > 0 ? ' (+' + added + ' added)' : '');
             };
@@ -25332,11 +24517,11 @@
         }
         
         function createCharts() {
-            const timeline = getTimelineWindow();
             const data = processData();
             chartData = data;
             
             // Calculate stats
+            const daysSpan = Math.ceil((data.dates[data.dates.length - 1] - data.dates[0]) / (1000 * 60 * 60 * 24));
             const totalApps = data.counts[data.counts.length - 1];
             const macApps = data.macCounts.length > 0 ? data.macCounts[data.macCounts.length - 1] : 0;
             const windowsApps = data.windowsCounts.length > 0 ? data.windowsCounts[data.windowsCounts.length - 1] : 0;
@@ -25354,6 +24539,10 @@
                 '<div class="stat-card clickable" data-view="windows">' +
                     '<div class="stat-value">' + windowsApps + '</div>' +
                     '<div class="stat-label">Windows Apps</div>' +
+                '</div>' +
+                '<div class="stat-card">' +
+                    '<div class="stat-value">' + daysSpan + '</div>' +
+                    '<div class="stat-label">Days Tracked</div>' +
                 '</div>';
             
             // Add click event listeners to stat cards
@@ -25400,10 +24589,9 @@
                         tooltip: {
                             callbacks: {
                                 label: function(context) {
-                                    const idx = data.dates.findIndex(d =>
+                                    const idx = data.dates.findIndex(d => 
                                         d.getTime() === context.raw.x.getTime());
-                                    const prev = idx > 0 ? data.counts[idx - 1] : data.baselines.counts;
-                                    const added = data.counts[idx] - prev;
+                                    const added = idx > 0 ? data.counts[idx] - data.counts[idx - 1] : data.counts[idx];
                                     return 'Total Apps: ' + context.parsed.y + ' apps' + (added > 0 ? ' (+' + added + ' added)' : '');
                                 }
                             }
@@ -25412,11 +24600,8 @@
                     scales: {
                         x: {
                             type: 'time',
-                            min: timeline.start.getTime(),
-                            max: timeline.end.getTime(),
                             time: {
                                 unit: 'month',
-                                tooltipFormat: 'MMM d, yyyy',
                                 displayFormats: {
                                     month: 'MMM'
                                 }
@@ -25429,8 +24614,6 @@
                         },
                         y: {
                             beginAtZero: true,
-                            // Fixed axis width so both charts' timelines align vertically
-                            afterFit: function(scale) { scale.width = 70; },
                             title: {
                                 display: true,
                                 text: 'Number of Apps',
@@ -25445,102 +24628,8 @@
             });
         }
         
-        function createPatchesChart() {
-            const section = document.getElementById('patchesSection');
-            if (!patchesData.dates || patchesData.dates.length === 0) {
-                if (section) section.style.display = 'none';
-                return;
-            }
-
-            const timeline = getTimelineWindow();
-            const mac = [];
-            const windows = [];
-            patchesData.dates.forEach((d, i) => {
-                const date = new Date(d + 'T00:00:00');
-                if (date < timeline.start || date > timeline.end) return;
-                mac.push({x: date, y: patchesData.macCounts[i]});
-                windows.push({x: date, y: patchesData.windowsCounts[i]});
-            });
-
-            const ctx = document.getElementById('patchesChart').getContext('2d');
-            new Chart(ctx, {
-                type: 'bar',
-                data: {
-                    datasets: [{
-                        label: 'Mac',
-                        data: mac,
-                        backgroundColor: '#059669',
-                        stack: 'patches',
-                        maxBarThickness: 24
-                    }, {
-                        label: 'Windows',
-                        data: windows,
-                        backgroundColor: '#0284c7',
-                        stack: 'patches',
-                        maxBarThickness: 24,
-                        borderRadius: { topLeft: 2, topRight: 2 }
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    interaction: {
-                        mode: 'index',
-                        intersect: false
-                    },
-                    plugins: {
-                        legend: {
-                            display: true,
-                            position: 'top'
-                        },
-                        tooltip: {
-                            callbacks: {
-                                footer: function(items) {
-                                    let total = 0;
-                                    items.forEach(item => { total += item.parsed.y; });
-                                    return 'Total: ' + total + (total === 1 ? ' patch' : ' patches');
-                                }
-                            }
-                        }
-                    },
-                    scales: {
-                        x: {
-                            type: 'time',
-                            stacked: true,
-                            min: timeline.start.getTime(),
-                            max: timeline.end.getTime(),
-                            time: {
-                                unit: 'month',
-                                tooltipFormat: 'MMM d, yyyy',
-                                displayFormats: {
-                                    month: 'MMM'
-                                }
-                            },
-                            title: {
-                                display: true,
-                                text: 'Date',
-                                font: { weight: 'bold' }
-                            }
-                        },
-                        y: {
-                            stacked: true,
-                            beginAtZero: true,
-                            // Fixed axis width so both charts' timelines align vertically
-                            afterFit: function(scale) { scale.width = 70; },
-                            title: {
-                                display: true,
-                                text: 'Patches',
-                                font: { weight: 'bold' }
-                            }
-                        }
-                    }
-                }
-            });
-        }
-
         createCharts();
-        createPatchesChart();
-
+        
         // Modal functions
         function openModalFromCard(cardElement) {
             // Handle clicks on child elements - find the card element
@@ -25818,7 +24907,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `July 23, 2026 at 3:34 PM CDT`;
+                let timestampText = 'Last updated: ' + `July 23, 2026 at 3:22 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
