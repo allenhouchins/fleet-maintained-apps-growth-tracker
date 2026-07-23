@@ -10,6 +10,7 @@ on:
       - 'data/app_versions.json'
       - 'data/version_history.json'
       - 'data/app_security_info.json'
+      - 'data/patches_per_day.csv'
       - 'feed.xml'
   workflow_dispatch:
   workflow_run:
@@ -77,7 +78,7 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "workflow_run" ]; then
             # Check if relevant files changed in the last commit
-            if git diff HEAD~1 HEAD --name-only | grep -E "(index\.html|data/apps_growth\.csv|data/app_versions\.json|data/version_history\.json|data/app_security_info\.json|feed\.xml)" > /dev/null; then
+            if git diff HEAD~1 HEAD --name-only | grep -E "(index\.html|data/apps_growth\.csv|data/app_versions\.json|data/version_history\.json|data/app_security_info\.json|data/patches_per_day\.csv|feed\.xml)" > /dev/null; then
               echo "changed=true" >> $GITHUB_OUTPUT
             else
               echo "changed=false" >> $GITHUB_OUTPUT

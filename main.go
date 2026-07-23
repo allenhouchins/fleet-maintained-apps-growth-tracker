@@ -22,6 +22,7 @@ const (
 	outputCSV          = "data/apps_growth.csv"
 	versionsJSON       = "data/app_versions.json"
 	versionHistoryJSON = "data/version_history.json"
+	patchesPerDayCSV   = "data/patches_per_day.csv"
 	perPage            = 100 // GitHub API max per page
 )
 
@@ -471,6 +472,119 @@ func trackAppVersions() error {
 		fmt.Printf("✅ Versions checked: %s (no changes)\n", versionsJSON)
 	}
 
+	if err := updatePatchesPerDay(); err != nil {
+		fmt.Printf("⚠️  Warning: failed to update patches per day: %v\n", err)
+	}
+
+	return nil
+}
+
+// updatePatchesPerDay refreshes the daily patch-count aggregate from the
+// rolling version history window. The window is capped at 1000 changes, so
+// only days it fully covers are recomputed (including zero-filling quiet
+// days); earlier days keep their existing CSV values, seeded by the one-time
+// cmd/backfill-patches-per-day tool. New-app additions (empty oldVersion)
+// are not patches and are excluded.
+func updatePatchesPerDay() error {
+	history, err := loadVersionHistory()
+	if err != nil {
+		return err
+	}
+
+	type dayCounts struct{ mac, windows int }
+	windowCounts := make(map[string]dayCounts)
+	oldestDay := ""
+	for _, c := range history.Changes {
+		if len(c.Date) < 10 {
+			continue
+		}
+		day := c.Date[:10]
+		if oldestDay == "" || day < oldestDay {
+			oldestDay = day
+		}
+		if c.OldVersion == "" {
+			continue // new app additions are not patches
+		}
+		dc := windowCounts[day]
+		if c.Platform == "windows" {
+			dc.windows++
+		} else {
+			dc.mac++
+		}
+		windowCounts[day] = dc
+	}
+	if oldestDay == "" {
+		return nil
+	}
+
+	existing := make(map[string]dayCounts)
+	if file, err := os.Open(patchesPerDayCSV); err == nil {
+		records, readErr := csv.NewReader(file).ReadAll()
+		file.Close()
+		if readErr != nil {
+			return fmt.Errorf("failed to read %s: %w", patchesPerDayCSV, readErr)
+		}
+		for i := 1; i < len(records); i++ {
+			row := records[i]
+			if len(row) < 4 {
+				continue
+			}
+			var mac, windows int
+			fmt.Sscanf(row[2], "%d", &mac)
+			fmt.Sscanf(row[3], "%d", &windows)
+			existing[row[0]] = dayCounts{mac: mac, windows: windows}
+		}
+	} else if !os.IsNotExist(err) {
+		return err
+	}
+
+	start, err := time.Parse("2006-01-02", oldestDay)
+	if err != nil {
+		return fmt.Errorf("bad date %q in version history: %w", oldestDay, err)
+	}
+	today, _ := time.Parse("2006-01-02", time.Now().UTC().Format("2006-01-02"))
+	for d := start; !d.After(today); d = d.AddDate(0, 0, 1) {
+		day := d.Format("2006-01-02")
+		// The oldest day in the window may be truncated by the 1000-change
+		// cap, so keep its existing value if one is already recorded.
+		if day == oldestDay {
+			if _, ok := existing[day]; ok {
+				continue
+			}
+		}
+		existing[day] = windowCounts[day]
+	}
+
+	days := make([]string, 0, len(existing))
+	for day := range existing {
+		days = append(days, day)
+	}
+	sort.Strings(days)
+
+	file, err := os.Create(patchesPerDayCSV)
+	if err != nil {
+		return err
+	}
+	defer file.Close()
+
+	writer := csv.NewWriter(file)
+	defer writer.Flush()
+	if err := writer.Write([]string{"date", "patch_count", "mac_count", "windows_count"}); err != nil {
+		return err
+	}
+	for _, day := range days {
+		dc := existing[day]
+		if err := writer.Write([]string{
+			day,
+			fmt.Sprintf("%d", dc.mac+dc.windows),
+			fmt.Sprintf("%d", dc.mac),
+			fmt.Sprintf("%d", dc.windows),
+		}); err != nil {
+			return err
+		}
+	}
+
+	fmt.Printf("✅ Updated %s (%d days)\n", patchesPerDayCSV, len(days))
 	return nil
 }
 

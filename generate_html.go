@@ -12,6 +12,7 @@ import (
 
 const (
 	csvFile          = "data/apps_growth.csv"
+	patchesCSVFile   = "data/patches_per_day.csv"
 	outputHTML       = "index.html"
 	appsJSONURL      = "https://raw.githubusercontent.com/fleetdm/fleet/main/ee/maintained-apps/outputs/apps.json"
 	appBaseURL       = "https://raw.githubusercontent.com/fleetdm/fleet/main/ee/maintained-apps/outputs"
@@ -28,6 +29,12 @@ type csvData struct {
 	GrowthDates     []string `json:"growthDates"`
 	GrowthCounts    []int    `json:"growthCounts"`
 	GrowthAdditions []int    `json:"growthAdditions"`
+}
+
+type patchesCSVData struct {
+	Dates         []string `json:"dates"`
+	MacCounts     []int    `json:"macCounts"`
+	WindowsCounts []int    `json:"windowsCounts"`
 }
 
 type appData struct {
@@ -87,6 +94,12 @@ func generateHTML() error {
 		return fmt.Errorf("failed to load CSV data: %w", err)
 	}
 
+	patches, err := loadPatchesData()
+	if err != nil {
+		fmt.Printf("⚠️  Warning: failed to load patches data: %v\n", err)
+		patches = &patchesCSVData{Dates: []string{}, MacCounts: []int{}, WindowsCounts: []int{}}
+	}
+
 	apps, err := fetchAppsData()
 	if err != nil {
 		fmt.Printf("⚠️  Warning: failed to fetch apps data: %v\n", err)
@@ -99,7 +112,7 @@ func generateHTML() error {
 	securityInfo, _ := loadSecurityInfo()
 	mergeSecurityInfo(apps, securityInfo)
 
-	htmlContent := generateHTMLContent(data, apps)
+	htmlContent := generateHTMLContent(data, patches, apps)
 
 	if err := os.WriteFile(outputHTML, []byte(htmlContent), 0644); err != nil {
 		return fmt.Errorf("failed to write HTML file: %w", err)
@@ -108,6 +121,7 @@ func generateHTML() error {
 	fmt.Printf("✅ Generated %s\n", outputHTML)
 	fmt.Printf("   Total days: %d\n", len(data.Dates))
 	fmt.Printf("   Growth events: %d\n", len(data.GrowthDates))
+	fmt.Printf("   Patch days: %d\n", len(patches.Dates))
 
 	return nil
 }
@@ -168,6 +182,39 @@ func loadCSVData() (*csvData, error) {
 			data.GrowthCounts = append(data.GrowthCounts, count)
 			data.GrowthAdditions = append(data.GrowthAdditions, added)
 		}
+	}
+
+	return data, nil
+}
+
+func loadPatchesData() (*patchesCSVData, error) {
+	data := &patchesCSVData{Dates: []string{}, MacCounts: []int{}, WindowsCounts: []int{}}
+
+	file, err := os.Open(patchesCSVFile)
+	if err != nil {
+		if os.IsNotExist(err) {
+			return data, nil
+		}
+		return nil, err
+	}
+	defer file.Close()
+
+	records, err := csv.NewReader(file).ReadAll()
+	if err != nil {
+		return nil, err
+	}
+
+	for i := 1; i < len(records); i++ {
+		row := records[i]
+		if len(row) < 4 {
+			continue
+		}
+		var mac, windows int
+		fmt.Sscanf(row[2], "%d", &mac)
+		fmt.Sscanf(row[3], "%d", &windows)
+		data.Dates = append(data.Dates, row[0])
+		data.MacCounts = append(data.MacCounts, mac)
+		data.WindowsCounts = append(data.WindowsCounts, windows)
 	}
 
 	return data, nil
@@ -322,9 +369,12 @@ func main() {
 	}
 }
 
-func generateHTMLContent(data *csvData, apps *appsJSON) string {
+func generateHTMLContent(data *csvData, patches *patchesCSVData, apps *appsJSON) string {
 	dataJSON, _ := json.MarshalIndent(data, "        ", "  ")
 	dataJSONStr := string(dataJSON)
+
+	patchesJSON, _ := json.MarshalIndent(patches, "        ", "  ")
+	patchesJSONStr := string(patchesJSON)
 
 	appsJSONBytes, _ := json.MarshalIndent(apps.Apps, "            ", "  ")
 	appsJSONStr := string(appsJSONBytes)
@@ -456,6 +506,33 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
         .stat-label {
             color: #64748b;
             font-size: 14px;
+        }
+        .patches-section {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 2px solid #e2e8f0;
+        }
+        .patches-section h2 {
+            color: #1e293b;
+            margin: 0 0 6px 0;
+            font-size: 24px;
+        }
+        .patches-subtitle {
+            color: #64748b;
+            font-size: 14px;
+            margin: 0 0 20px 0;
+        }
+        .patches-chart-container {
+            position: relative;
+            height: 340px;
+        }
+        .patches-data-link {
+            margin: 12px 0 0 0;
+            font-size: 13px;
+            text-align: right;
+        }
+        .patches-data-link a {
+            color: #64748b;
         }
         .footer {
             margin-top: 40px;
@@ -909,7 +986,16 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
         <div class="stats" id="stats">
             <!-- Stats will be populated by JavaScript -->
         </div>
-        
+
+        <div class="patches-section" id="patchesSection">
+            <h2>Patches released per day</h2>
+            <p class="patches-subtitle">App version updates shipped to the library each day. New app additions are not counted as patches.</p>
+            <div class="patches-chart-container">
+                <canvas id="patchesChart"></canvas>
+            </div>
+            <p class="patches-data-link"><a href="data/patches_per_day.csv">View the data (CSV)</a></p>
+        </div>
+
         <div class="apps-section">
             <div class="apps-header">
                 <h2>Fleet-maintained apps</h2>
@@ -1000,15 +1086,43 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
         
         // Embedded apps data
         const appsData = ` + appsJSONStr + `;
+
+        // Embedded patches-per-day data
+        const patchesData = ` + patchesJSONStr + `;
         
-        // Process data into format needed for charts
+        // Shared 1-year timeline for both charts, computed from today
+        function getTimelineWindow() {
+            const now = new Date();
+            const end = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+            const start = new Date(end);
+            start.setFullYear(start.getFullYear() - 1);
+            return { start: start, end: end };
+        }
+
+        // Process data into format needed for charts, trimmed to the shared timeline
         function processData() {
+            const timeline = getTimelineWindow();
+            const allDates = csvData.dates.map(d => new Date(d + 'T00:00:00'));
+            const counts = csvData.counts;
+            const macCounts = csvData.macCounts || [];
+            const windowsCounts = csvData.windowsCounts || [];
+
+            let cut = 0;
+            while (cut < allDates.length && allDates[cut] < timeline.start) cut++;
+
             const data = {
-                dates: csvData.dates.map(d => new Date(d + 'T00:00:00')),
-                counts: csvData.counts,
-                additions: csvData.additions,
-                macCounts: csvData.macCounts || [],
-                windowsCounts: csvData.windowsCounts || [],
+                // Counts just before the visible window, so day-over-day
+                // deltas stay correct at the left edge
+                baselines: {
+                    counts: cut > 0 ? counts[cut - 1] : 0,
+                    macCounts: cut > 0 ? (macCounts[cut - 1] || 0) : 0,
+                    windowsCounts: cut > 0 ? (windowsCounts[cut - 1] || 0) : 0
+                },
+                dates: allDates.slice(cut),
+                counts: counts.slice(cut),
+                additions: csvData.additions.slice(cut),
+                macCounts: macCounts.slice(cut),
+                windowsCounts: windowsCounts.slice(cut),
                 growthDates: csvData.growthDates.map(d => new Date(d + 'T00:00:00')),
                 growthCounts: csvData.growthCounts,
                 growthAdditions: csvData.growthAdditions
@@ -1118,11 +1232,12 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
         function updateChart(viewType) {
             if (!chartInstance || !chartData) return;
             
-            let dataArray, label, color, borderColor, backgroundColor;
-            
+            let dataArray, baseline, label, color, borderColor, backgroundColor;
+
             switch(viewType) {
                 case 'total':
                     dataArray = chartData.counts;
+                    baseline = chartData.baselines.counts;
                     label = 'Total Apps';
                     color = '#2563eb';
                     borderColor = '#2563eb';
@@ -1130,6 +1245,7 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
                     break;
                 case 'mac':
                     dataArray = chartData.macCounts;
+                    baseline = chartData.baselines.macCounts;
                     label = 'Mac Apps';
                     color = '#059669';
                     borderColor = '#059669';
@@ -1137,6 +1253,7 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
                     break;
                 case 'windows':
                     dataArray = chartData.windowsCounts;
+                    baseline = chartData.baselines.windowsCounts;
                     label = 'Windows Apps';
                     color = '#0284c7';
                     borderColor = '#0284c7';
@@ -1154,10 +1271,10 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
             
             // Update tooltip callback
             chartInstance.options.plugins.tooltip.callbacks.label = function(context) {
-                const idx = chartData.dates.findIndex(d => 
+                const idx = chartData.dates.findIndex(d =>
                     d.getTime() === context.raw.x.getTime());
                 const current = dataArray[idx];
-                const prev = idx > 0 ? dataArray[idx - 1] : 0;
+                const prev = idx > 0 ? dataArray[idx - 1] : baseline;
                 const added = current - prev;
                 return label + ': ' + context.parsed.y + ' apps' + (added > 0 ? ' (+' + added + ' added)' : '');
             };
@@ -1175,11 +1292,11 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
         }
         
         function createCharts() {
+            const timeline = getTimelineWindow();
             const data = processData();
             chartData = data;
             
             // Calculate stats
-            const daysSpan = Math.ceil((data.dates[data.dates.length - 1] - data.dates[0]) / (1000 * 60 * 60 * 24));
             const totalApps = data.counts[data.counts.length - 1];
             const macApps = data.macCounts.length > 0 ? data.macCounts[data.macCounts.length - 1] : 0;
             const windowsApps = data.windowsCounts.length > 0 ? data.windowsCounts[data.windowsCounts.length - 1] : 0;
@@ -1197,10 +1314,6 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
                 '<div class="stat-card clickable" data-view="windows">' +
                     '<div class="stat-value">' + windowsApps + '</div>' +
                     '<div class="stat-label">Windows Apps</div>' +
-                '</div>' +
-                '<div class="stat-card">' +
-                    '<div class="stat-value">' + daysSpan + '</div>' +
-                    '<div class="stat-label">Days Tracked</div>' +
                 '</div>';
             
             // Add click event listeners to stat cards
@@ -1247,9 +1360,10 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
                         tooltip: {
                             callbacks: {
                                 label: function(context) {
-                                    const idx = data.dates.findIndex(d => 
+                                    const idx = data.dates.findIndex(d =>
                                         d.getTime() === context.raw.x.getTime());
-                                    const added = idx > 0 ? data.counts[idx] - data.counts[idx - 1] : data.counts[idx];
+                                    const prev = idx > 0 ? data.counts[idx - 1] : data.baselines.counts;
+                                    const added = data.counts[idx] - prev;
                                     return 'Total Apps: ' + context.parsed.y + ' apps' + (added > 0 ? ' (+' + added + ' added)' : '');
                                 }
                             }
@@ -1258,8 +1372,11 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
                     scales: {
                         x: {
                             type: 'time',
+                            min: timeline.start.getTime(),
+                            max: timeline.end.getTime(),
                             time: {
                                 unit: 'month',
+                                tooltipFormat: 'MMM d, yyyy',
                                 displayFormats: {
                                     month: 'MMM'
                                 }
@@ -1272,6 +1389,8 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
                         },
                         y: {
                             beginAtZero: true,
+                            // Fixed axis width so both charts' timelines align vertically
+                            afterFit: function(scale) { scale.width = 70; },
                             title: {
                                 display: true,
                                 text: 'Number of Apps',
@@ -1286,8 +1405,102 @@ func generateHTMLContent(data *csvData, apps *appsJSON) string {
             });
         }
         
+        function createPatchesChart() {
+            const section = document.getElementById('patchesSection');
+            if (!patchesData.dates || patchesData.dates.length === 0) {
+                if (section) section.style.display = 'none';
+                return;
+            }
+
+            const timeline = getTimelineWindow();
+            const mac = [];
+            const windows = [];
+            patchesData.dates.forEach((d, i) => {
+                const date = new Date(d + 'T00:00:00');
+                if (date < timeline.start || date > timeline.end) return;
+                mac.push({x: date, y: patchesData.macCounts[i]});
+                windows.push({x: date, y: patchesData.windowsCounts[i]});
+            });
+
+            const ctx = document.getElementById('patchesChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    datasets: [{
+                        label: 'Mac',
+                        data: mac,
+                        backgroundColor: '#059669',
+                        stack: 'patches',
+                        maxBarThickness: 24
+                    }, {
+                        label: 'Windows',
+                        data: windows,
+                        backgroundColor: '#0284c7',
+                        stack: 'patches',
+                        maxBarThickness: 24,
+                        borderRadius: { topLeft: 2, topRight: 2 }
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    interaction: {
+                        mode: 'index',
+                        intersect: false
+                    },
+                    plugins: {
+                        legend: {
+                            display: true,
+                            position: 'top'
+                        },
+                        tooltip: {
+                            callbacks: {
+                                footer: function(items) {
+                                    let total = 0;
+                                    items.forEach(item => { total += item.parsed.y; });
+                                    return 'Total: ' + total + (total === 1 ? ' patch' : ' patches');
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            type: 'time',
+                            stacked: true,
+                            min: timeline.start.getTime(),
+                            max: timeline.end.getTime(),
+                            time: {
+                                unit: 'month',
+                                tooltipFormat: 'MMM d, yyyy',
+                                displayFormats: {
+                                    month: 'MMM'
+                                }
+                            },
+                            title: {
+                                display: true,
+                                text: 'Date',
+                                font: { weight: 'bold' }
+                            }
+                        },
+                        y: {
+                            stacked: true,
+                            beginAtZero: true,
+                            // Fixed axis width so both charts' timelines align vertically
+                            afterFit: function(scale) { scale.width = 70; },
+                            title: {
+                                display: true,
+                                text: 'Patches',
+                                font: { weight: 'bold' }
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
         createCharts();
-        
+        createPatchesChart();
+
         // Modal functions
         function openModalFromCard(cardElement) {
             // Handle clicks on child elements - find the card element
