@@ -2,141 +2,6 @@
   "changes": [
     {
       "date": "2026-07-08T02:54:28Z",
-      "appName": "Zotero",
-      "slug": "zotero/windows",
-      "platform": "windows",
-      "oldVersion": "9.0.5",
-      "newVersion": "9.0.6",
-      "installerUrl": "https://download.zotero.org/client/release/9.0.6/Zotero-9.0.6_x64_setup.exe"
-    },
-    {
-      "date": "2026-07-08T02:54:28Z",
-      "appName": "Bezel",
-      "slug": "bezel/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.6.0",
-      "newVersion": "4.7.0",
-      "installerUrl": "https://download.nonstrict.eu/bezel/Bezel-4.7.0.zip"
-    },
-    {
-      "date": "2026-07-08T02:54:28Z",
-      "appName": "Claude",
-      "slug": "claude/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.18286.2",
-      "newVersion": "1.19367.0",
-      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.19367.0/Claude-1a5be1fbf83d1832486e03a667557c18f0a0ec7a.zip"
-    },
-    {
-      "date": "2026-07-08T02:54:28Z",
-      "appName": "DbVisualizer",
-      "slug": "dbvisualizer/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.2",
-      "newVersion": "26.2.1",
-      "installerUrl": "https://www.dbvis.com/product_download/dbvis-26.2.1/media/dbvis_macos-aarch64_26_2_1.dmg"
-    },
-    {
-      "date": "2026-07-08T02:54:28Z",
-      "appName": "Mozilla Firefox",
-      "slug": "firefox/windows",
-      "platform": "windows",
-      "oldVersion": "152.0.4",
-      "newVersion": "152.0.5",
-      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/152.0.5/win64/en-US/Firefox%20Setup%20152.0.5.exe"
-    },
-    {
-      "date": "2026-07-08T02:54:28Z",
-      "appName": "Mozilla Firefox",
-      "slug": "firefox/darwin",
-      "platform": "darwin",
-      "oldVersion": "152.0.4",
-      "newVersion": "152.0.5",
-      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/152.0.5/mac/en-US/Firefox%20152.0.5.dmg"
-    },
-    {
-      "date": "2026-07-08T02:54:28Z",
-      "appName": "Elgato Wave Link",
-      "slug": "elgato-wave-link/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.2.0",
-      "newVersion": "3.2.1",
-      "installerUrl": "https://edge.elgato.com/egc/macos/ewlm/release/ElgatoWaveLink-3.2.1.2886.dmg"
-    },
-    {
-      "date": "2026-07-08T02:54:28Z",
-      "appName": "OpenCode",
-      "slug": "opencode-desktop/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.17.14",
-      "newVersion": "1.17.15",
-      "installerUrl": "https://github.com/anomalyco/opencode/releases/download/v1.17.15/opencode-desktop-mac-arm64.dmg"
-    },
-    {
-      "date": "2026-07-08T02:54:28Z",
-      "appName": "Aptakube",
-      "slug": "aptakube/windows",
-      "platform": "windows",
-      "oldVersion": "1.18.3",
-      "newVersion": "1.18.4",
-      "installerUrl": "https://releases.aptakube.com/Aptakube_1.18.4_x64_en-US.msi"
-    },
-    {
-      "date": "2026-07-08T02:54:28Z",
-      "appName": "Docker Desktop",
-      "slug": "docker/windows",
-      "platform": "windows",
-      "oldVersion": "4.80.0",
-      "newVersion": "4.81.0",
-      "installerUrl": "https://desktop.docker.com/win/main/amd64/232925/Docker%20Desktop%20Installer.exe"
-    },
-    {
-      "date": "2026-07-08T02:54:28Z",
-      "appName": "Hive",
-      "slug": "hive-app/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.2.9",
-      "newVersion": "1.2.10",
-      "installerUrl": "https://github.com/morapelker/hive/releases/download/v1.2.10/Hive-1.2.10-arm64.dmg"
-    },
-    {
-      "date": "2026-07-08T02:54:28Z",
-      "appName": "Portfolio Performance",
-      "slug": "portfolioperformance/windows",
-      "platform": "windows",
-      "oldVersion": "0.84.2",
-      "newVersion": "0.85.0",
-      "installerUrl": "https://github.com/portfolio-performance/portfolio/releases/download/0.85.0/PortfolioPerformance-0.85.0-setup.exe"
-    },
-    {
-      "date": "2026-07-08T02:54:28Z",
-      "appName": "Mist",
-      "slug": "mist/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.30",
-      "newVersion": "0.40",
-      "installerUrl": "https://github.com/ninxsoft/Mist/releases/download/v0.40/Mist.0.40.pkg"
-    },
-    {
-      "date": "2026-07-08T02:54:28Z",
-      "appName": "RunJS",
-      "slug": "runjs/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.0.6",
-      "newVersion": "4.1.0",
-      "installerUrl": "https://github.com/lukehaas/RunJS/releases/download/v4.1.0/RunJS-4.1.0-universal.dmg"
-    },
-    {
-      "date": "2026-07-08T02:54:28Z",
-      "appName": "Wispr Flow",
-      "slug": "wispr-flow/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.5.1095",
-      "newVersion": "1.5.1146",
-      "installerUrl": "https://dl.wisprflow.com/wispr-flow/darwin/arm64/dmgs/Flow-v1.5.1146.dmg"
-    },
-    {
-      "date": "2026-07-08T02:54:28Z",
       "appName": "Notion",
       "slug": "notion/darwin",
       "platform": "darwin",
@@ -8999,6 +8864,141 @@
       "oldVersion": "6.655",
       "newVersion": "6.663",
       "installerUrl": "https://folivora.ai/releases/btt6.663-2026072309.zip"
+    },
+    {
+      "date": "2026-07-24T15:02:15Z",
+      "appName": "draw.io",
+      "slug": "drawio/darwin",
+      "platform": "darwin",
+      "oldVersion": "30.4.1",
+      "newVersion": "31.0.2",
+      "installerUrl": "https://github.com/jgraph/drawio-desktop/releases/download/v31.0.2/draw.io-arm64-31.0.2.dmg"
+    },
+    {
+      "date": "2026-07-24T15:02:15Z",
+      "appName": "kitty",
+      "slug": "kitty/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.48.0",
+      "newVersion": "0.48.1",
+      "installerUrl": "https://github.com/kovidgoyal/kitty/releases/download/v0.48.1/kitty-0.48.1.dmg"
+    },
+    {
+      "date": "2026-07-24T15:02:15Z",
+      "appName": "Canva",
+      "slug": "canva/windows",
+      "platform": "windows",
+      "oldVersion": "1.122.0",
+      "newVersion": "1.123.0",
+      "installerUrl": "https://desktop-release.canva.com/Canva%20Setup%201.123.0.exe"
+    },
+    {
+      "date": "2026-07-24T15:02:15Z",
+      "appName": "Splice",
+      "slug": "splice/darwin",
+      "platform": "darwin",
+      "oldVersion": "5.4.11",
+      "newVersion": "5.4.12",
+      "installerUrl": "https://desktop.splice.com/conveyor/stable/splice-5.4.12-mac-aarch64.zip"
+    },
+    {
+      "date": "2026-07-24T15:02:15Z",
+      "appName": "Canva",
+      "slug": "canva/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.122.0",
+      "newVersion": "1.123.0",
+      "installerUrl": "https://desktop-release.canva.com/Canva-1.123.0-universal.dmg"
+    },
+    {
+      "date": "2026-07-24T15:02:15Z",
+      "appName": "Bruno",
+      "slug": "bruno/windows",
+      "platform": "windows",
+      "oldVersion": "3.5.3",
+      "newVersion": "4.0.0",
+      "installerUrl": "https://github.com/usebruno/bruno/releases/download/v4.0.0/bruno_4.0.0_x64_win.msi"
+    },
+    {
+      "date": "2026-07-24T15:02:15Z",
+      "appName": "GoLand",
+      "slug": "goland/darwin",
+      "platform": "darwin",
+      "oldVersion": "2026.2",
+      "newVersion": "2026.2.0.1",
+      "installerUrl": "https://download.jetbrains.com/go/goland-2026.2.0.1-aarch64.dmg"
+    },
+    {
+      "date": "2026-07-24T15:02:15Z",
+      "appName": "Google Chrome",
+      "slug": "google-chrome/darwin",
+      "platform": "darwin",
+      "oldVersion": "150.0.7871.182",
+      "newVersion": "150.0.7871.187",
+      "installerUrl": "https://dl.google.com/dl/chrome/mac/universal/stable/gcem/GoogleChrome.pkg"
+    },
+    {
+      "date": "2026-07-24T15:02:15Z",
+      "appName": "Claude",
+      "slug": "claude/windows",
+      "platform": "windows",
+      "oldVersion": "1.24012.0",
+      "newVersion": "1.24012.1",
+      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.24012.1/Claude-0adcaed55041a881be363f2c4a4729f67a8b27d7.msix"
+    },
+    {
+      "date": "2026-07-24T15:02:15Z",
+      "appName": "GOG Galaxy",
+      "slug": "gog-galaxy/windows",
+      "platform": "windows",
+      "oldVersion": "2.1.6.29",
+      "newVersion": "2.1.7.22",
+      "installerUrl": "https://content-system.gog.com/open_link/download?path=/open/galaxy/client/setup_galaxy_2.1.7.22.exe"
+    },
+    {
+      "date": "2026-07-24T15:02:15Z",
+      "appName": "Cursor",
+      "slug": "cursor/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.12.30",
+      "newVersion": "3.13.10",
+      "installerUrl": "https://downloads.cursor.com/production/4f02290ccd9304f0e6bf8ee85f6e9106f02ac1f7/darwin/arm64/Cursor-darwin-arm64.zip"
+    },
+    {
+      "date": "2026-07-24T15:02:15Z",
+      "appName": "BrowserStackLocal",
+      "slug": "browserstacklocal/windows",
+      "platform": "windows",
+      "oldVersion": "3.7.7",
+      "newVersion": "3.7.8",
+      "installerUrl": "https://www.browserstack.com/local-testing/downloads/native-app/BrowserStackLocal.msi"
+    },
+    {
+      "date": "2026-07-24T15:02:15Z",
+      "appName": "CLion",
+      "slug": "clion/windows",
+      "platform": "windows",
+      "oldVersion": "2026.2",
+      "newVersion": "2026.2.0.1",
+      "installerUrl": "https://download.jetbrains.com/cpp/CLion-2026.2.0.1.exe"
+    },
+    {
+      "date": "2026-07-24T15:02:15Z",
+      "appName": "Dropbox",
+      "slug": "dropbox/windows",
+      "platform": "windows",
+      "oldVersion": "262.3.3075",
+      "newVersion": "262.4.3183",
+      "installerUrl": "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20262.4.3183%20Enterprise%20Installer.x64.msi"
+    },
+    {
+      "date": "2026-07-24T15:02:15Z",
+      "appName": "ChatGPT Desktop",
+      "slug": "chatgpt/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.721.30844",
+      "newVersion": "26.721.31836",
+      "installerUrl": "https://persistent.oaistatic.com/codex-app-prod/ChatGPT-darwin-arm64-26.721.31836.zip"
     }
   ]
 }
