@@ -5,13 +5,20 @@
     <link>https://fmalibrary.com</link>
     <description>Track version updates and new app additions for Fleet-maintained apps. Get notified when apps are updated with new versions or when new apps are added to the library.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Jul 2026 15:02:15 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 16:47:03 +0000</lastBuildDate>
     <atom:link href="https://fmalibrary.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://fmalibrary.com/cloud-city.png</url>
       <title>Fleet-maintained apps</title>
       <link>https://fmalibrary.com</link>
     </image>
+    <item>
+      <title>LibreOffice 26.2.4 → 26.2.5 (Mac)</title>
+      <link>https://fmalibrary.com</link>
+      <description>LibreOffice has been updated from version 26.2.4 to 26.2.5 on July 24, 2026. &lt;a href=&quot;https://download.documentfoundation.org/libreoffice/stable/26.2.5/mac/aarch64/LibreOffice_26.2.5_MacOS_aarch64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Fri, 24 Jul 2026 16:47:03 +0000</pubDate>
+      <guid isPermaLink="false">libreoffice/darwin-26.2.4-26.2.5</guid>
+    </item>
     <item>
       <title>ChatGPT Desktop 26.721.30844 → 26.721.31836 (Mac)</title>
       <link>https://fmalibrary.com</link>
@@ -3373,18 +3380,18 @@
       <guid isPermaLink="false">cursor/windows-3.11.13-3.11.19</guid>
     </item>
     <item>
-      <title>Zen Browser 1.21.6b → 1.21.7b (Mac)</title>
+      <title>Evernote 11.24.3 → 11.25.6 (Windows)</title>
       <link>https://fmalibrary.com</link>
-      <description>Zen Browser has been updated from version 1.21.6b to 1.21.7b on July 16, 2026. &lt;a href=&quot;https://github.com/zen-browser/desktop/releases/download/1.21.7b/zen.macos-universal.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Evernote has been updated from version 11.24.3 to 11.25.6 on July 16, 2026. &lt;a href=&quot;https://win.desktop.evernote.com/builds/Evernote-11.25.6-win-ddl-stage-20260713124857-1aef7b231b1a9c80360692cc2595cae071f6c658-setup.exe&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Thu, 16 Jul 2026 15:42:07 +0000</pubDate>
-      <guid isPermaLink="false">zen/darwin-1.21.6b-1.21.7b</guid>
+      <guid isPermaLink="false">evernote/windows-11.24.3-11.25.6</guid>
     </item>
     <item>
-      <title>Fastmail 1.5.0 → 1.5.1 (Mac)</title>
+      <title>Tailscale 1.98.8 → 1.98.9 (Windows)</title>
       <link>https://fmalibrary.com</link>
-      <description>Fastmail has been updated from version 1.5.0 to 1.5.1 on July 16, 2026. &lt;a href=&quot;https://dl.fastmailcdn.com/desktop/production/mac/arm64/Fastmail-1.5.1-arm64-mac.zip&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Tailscale has been updated from version 1.98.8 to 1.98.9 on July 16, 2026. &lt;a href=&quot;https://pkgs.tailscale.com/stable/tailscale-setup-1.98.9-amd64.msi&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Thu, 16 Jul 2026 15:42:07 +0000</pubDate>
-      <guid isPermaLink="false">fastmail/darwin-1.5.0-1.5.1</guid>
+      <guid isPermaLink="false">tailscale/windows-1.98.8-1.98.9</guid>
     </item>
     <item>
       <title>Signal 8.18.0 → 8.19.0 (Mac)</title>
@@ -3464,11 +3471,11 @@
       <guid isPermaLink="false">notepadexe/darwin-1.5.2-1.5.3</guid>
     </item>
     <item>
-      <title>Evernote 11.24.3 → 11.25.6 (Windows)</title>
+      <title>Zen Browser 1.21.6b → 1.21.7b (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>Evernote has been updated from version 11.24.3 to 11.25.6 on July 16, 2026. &lt;a href=&quot;https://win.desktop.evernote.com/builds/Evernote-11.25.6-win-ddl-stage-20260713124857-1aef7b231b1a9c80360692cc2595cae071f6c658-setup.exe&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Zen Browser has been updated from version 1.21.6b to 1.21.7b on July 16, 2026. &lt;a href=&quot;https://github.com/zen-browser/desktop/releases/download/1.21.7b/zen.macos-universal.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Thu, 16 Jul 2026 15:42:07 +0000</pubDate>
-      <guid isPermaLink="false">evernote/windows-11.24.3-11.25.6</guid>
+      <guid isPermaLink="false">zen/darwin-1.21.6b-1.21.7b</guid>
     </item>
     <item>
       <title>Miro 0.11.157 → 0.11.160 (Windows)</title>
@@ -3485,32 +3492,25 @@
       <guid isPermaLink="false">power-automate/windows-2.69.00217.26166-2.70.00187.26189</guid>
     </item>
     <item>
-      <title>Tailscale 1.98.8 → 1.98.9 (Windows)</title>
+      <title>Tower 16.0.2 → 17.0 (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>Tailscale has been updated from version 1.98.8 to 1.98.9 on July 16, 2026. &lt;a href=&quot;https://pkgs.tailscale.com/stable/tailscale-setup-1.98.9-amd64.msi&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Tower has been updated from version 16.0.2 to 17.0 on July 16, 2026. &lt;a href=&quot;https://www.git-tower.com/apps/tower3-mac/545-da8d35ec/Tower-17.0-545.zip&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Thu, 16 Jul 2026 15:42:07 +0000</pubDate>
-      <guid isPermaLink="false">tailscale/windows-1.98.8-1.98.9</guid>
+      <guid isPermaLink="false">tower/darwin-16.0.2-17.0</guid>
     </item>
     <item>
-      <title>3DF Zephyr Free 9.000 → 9.001 (Windows)</title>
+      <title>Vivaldi 8.1.4087.48 → 8.1.4087.53 (Windows)</title>
       <link>https://fmalibrary.com</link>
-      <description>3DF Zephyr Free has been updated from version 9.000 to 9.001 on July 16, 2026. &lt;a href=&quot;https://3df-eu.fra1.digitaloceanspaces.com/9.001/3DF%20Zephyr%20Free%20v9.001%20(x64).exe&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Vivaldi has been updated from version 8.1.4087.48 to 8.1.4087.53 on July 16, 2026. &lt;a href=&quot;https://downloads.vivaldi.com/stable/Vivaldi.8.1.4087.53.x64.exe&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Thu, 16 Jul 2026 15:42:07 +0000</pubDate>
-      <guid isPermaLink="false">3df-zephyr-free/windows-9.000-9.001</guid>
+      <guid isPermaLink="false">vivaldi/windows-8.1.4087.48-8.1.4087.53</guid>
     </item>
     <item>
-      <title>Spokenly 2.25.0 → 2.25.1 (Mac)</title>
+      <title>Kiro CLI 2.12.2 → 2.12.3 (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>Spokenly has been updated from version 2.25.0 to 2.25.1 on July 16, 2026. &lt;a href=&quot;https://cdn.spokenly.app/releases/macos/Spokenly-2.25.1.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Kiro CLI has been updated from version 2.12.2 to 2.12.3 on July 16, 2026. &lt;a href=&quot;https://desktop-release.q.us-east-1.amazonaws.com/2.12.3/Kiro%20CLI.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Thu, 16 Jul 2026 15:42:07 +0000</pubDate>
-      <guid isPermaLink="false">spokenly/darwin-2.25.0-2.25.1</guid>
-    </item>
-    <item>
-      <title>Burp Suite Community Edition 2026.4.3 → 2026.6 (Mac)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Burp Suite Community Edition has been updated from version 2026.4.3 to 2026.6 on July 16, 2026. &lt;a href=&quot;https://portswigger-cdn.net/burp/releases/download?product=desktop&amp;amp;version=2026.6&amp;amp;type=MacOsArm64&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Thu, 16 Jul 2026 15:42:07 +0000</pubDate>
-      <guid isPermaLink="false">burp-suite/darwin-2026.4.3-2026.6</guid>
+      <guid isPermaLink="false">kiro-cli/darwin-2.12.2-2.12.3</guid>
     </item>
   </channel>
 </rss>
