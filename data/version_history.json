@@ -1,177 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-07-08T02:54:28Z",
-      "appName": "PostgreSQL 15",
-      "slug": "postgresql-15/windows",
-      "platform": "windows",
-      "oldVersion": "15.18-1",
-      "newVersion": "15.18-2",
-      "installerUrl": "https://get.enterprisedb.com/postgresql/postgresql-15.18-2-windows-x64.exe"
-    },
-    {
-      "date": "2026-07-08T02:54:28Z",
-      "appName": "Postman",
-      "slug": "postman/windows",
-      "platform": "windows",
-      "oldVersion": "12.18.0",
-      "newVersion": "12.18.1",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.18.1/windows_64"
-    },
-    {
-      "date": "2026-07-08T02:54:28Z",
-      "appName": "Grammarly Desktop",
-      "slug": "grammarly-desktop/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.172.1",
-      "newVersion": "1.173.1",
-      "installerUrl": "https://download-mac.grammarly.com/versions/1.173.1.0/Grammarly.dmg"
-    },
-    {
-      "date": "2026-07-08T02:54:28Z",
-      "appName": "AWS Command Line Interface v2",
-      "slug": "aws-cli/windows",
-      "platform": "windows",
-      "oldVersion": "2.35.15",
-      "newVersion": "2.35.17",
-      "installerUrl": "https://awscli.amazonaws.com/AWSCLIV2-2.35.17.msi"
-    },
-    {
-      "date": "2026-07-08T02:54:28Z",
-      "appName": "Connect Fonts",
-      "slug": "connect-fonts/darwin",
-      "platform": "darwin",
-      "oldVersion": "28.1.5",
-      "newVersion": "28.1.6",
-      "installerUrl": "https://bin.extensis.com/ConnectFonts-M-28-1-6.dmg"
-    },
-    {
-      "date": "2026-07-08T02:54:28Z",
-      "appName": "Dockside",
-      "slug": "dockside/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.9.19",
-      "newVersion": "2.9.21",
-      "installerUrl": "https://github.com/PrajwalSD/Dockside/releases/download/v2.9.21/Dockside.dmg"
-    },
-    {
-      "date": "2026-07-08T02:54:28Z",
-      "appName": "Tower",
-      "slug": "tower/windows",
-      "platform": "windows",
-      "oldVersion": "12.3.563",
-      "newVersion": "12.4.565",
-      "installerUrl": "https://www.git-tower.com/apps/tower3-win/565-c26aeb25/Tower-12.4.565.msi"
-    },
-    {
-      "date": "2026-07-08T02:54:28Z",
-      "appName": "GitKraken",
-      "slug": "gitkraken/darwin",
-      "platform": "darwin",
-      "oldVersion": "12.2.1",
-      "newVersion": "12.3.0",
-      "installerUrl": "https://api.gitkraken.dev/releases/production/darwin/arm64/12.3.0/GitKraken-v12.3.0.zip"
-    },
-    {
-      "date": "2026-07-08T02:54:28Z",
-      "appName": "Amazon WorkSpaces",
-      "slug": "amazon-workspaces/darwin",
-      "platform": "darwin",
-      "oldVersion": "5.32.0.6080",
-      "newVersion": "5.33.0.6168",
-      "installerUrl": "https://d2td7dqidlhjx7.cloudfront.net/prod/global/osx/WorkSpaces_AllProducts_6168.zip"
-    },
-    {
-      "date": "2026-07-08T02:54:28Z",
-      "appName": "Cloudflare One",
-      "slug": "cloudflare-warp/windows",
-      "platform": "windows",
-      "oldVersion": "26.6.822.0",
-      "newVersion": "26.6.850.0",
-      "installerUrl": "https://downloads.cloudflareclient.com/v1/download/windows/version/2026.6.850.0"
-    },
-    {
-      "date": "2026-07-08T02:54:28Z",
-      "appName": "Readest",
-      "slug": "readest/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.11.17",
-      "newVersion": "0.11.18",
-      "installerUrl": "https://github.com/readest/readest/releases/download/v0.11.18/Readest_0.11.18_universal.dmg"
-    },
-    {
-      "date": "2026-07-08T02:54:28Z",
-      "appName": "Proton Pass",
-      "slug": "proton-pass/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.37.0",
-      "newVersion": "1.38.0",
-      "installerUrl": "https://proton.me/download/pass/macos/ProtonPass_1.38.0.dmg"
-    },
-    {
-      "date": "2026-07-08T02:54:28Z",
-      "appName": "REAPER",
-      "slug": "reaper/windows",
-      "platform": "windows",
-      "oldVersion": "7.76",
-      "newVersion": "7.77",
-      "installerUrl": "https://www.reaper.fm/files/7.x/reaper777_x64-install.exe"
-    },
-    {
-      "date": "2026-07-08T14:18:23Z",
-      "appName": "Microsoft Visual Studio Code",
-      "slug": "visual-studio-code/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.127.0",
-      "newVersion": "1.128.0",
-      "installerUrl": "https://update.code.visualstudio.com/1.128.0/darwin-universal/stable"
-    },
-    {
-      "date": "2026-07-08T14:18:23Z",
-      "appName": "Sequel Ace",
-      "slug": "sequel-ace/darwin",
-      "platform": "darwin",
-      "oldVersion": "5.2.1",
-      "newVersion": "5.3.0",
-      "installerUrl": "https://github.com/Sequel-Ace/Sequel-Ace/releases/download/production/5.3.0-20102/Sequel-Ace-5.3.0.zip"
-    },
-    {
-      "date": "2026-07-08T14:18:23Z",
-      "appName": "WebStorm",
-      "slug": "webstorm/windows",
-      "platform": "windows",
-      "oldVersion": "2026.1.3",
-      "newVersion": "2026.1.4",
-      "installerUrl": "https://download.jetbrains.com/webstorm/WebStorm-2026.1.4.exe"
-    },
-    {
-      "date": "2026-07-08T14:18:23Z",
-      "appName": "Rive",
-      "slug": "rive/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.8.5134",
-      "newVersion": "0.8.5165",
-      "installerUrl": "https://releases.rive.app/macos/0.8.5165/Rive.dmg"
-    },
-    {
-      "date": "2026-07-08T14:18:23Z",
-      "appName": "Postman",
-      "slug": "postman/darwin",
-      "platform": "darwin",
-      "oldVersion": "12.18.2",
-      "newVersion": "12.18.3",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.18.3/osx_arm64"
-    },
-    {
-      "date": "2026-07-08T14:18:23Z",
-      "appName": "Viscosity",
-      "slug": "viscosity/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.12.1",
-      "newVersion": "1.13",
-      "installerUrl": "https://swupdate.sparklabs.com/download/mac/release/viscosity/Viscosity%201.13.dmg"
-    },
-    {
       "date": "2026-07-08T14:18:23Z",
       "appName": "Unity Hub",
       "slug": "unity-hub/darwin",
@@ -8999,6 +8828,177 @@
       "oldVersion": "150.49.7.182",
       "newVersion": "150.49.8.187",
       "installerUrl": "https://updates.talon-sec.com/releases/Prisma%20Access%20Browser/win/packaged/x64/crx_signed_o4_stable_prisma_access_browser_installer_150_49_8_187-150.49.8.187-0b42f71b.msi"
+    },
+    {
+      "date": "2026-07-25T00:06:58Z",
+      "appName": "Versions",
+      "slug": "versions/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.4.4",
+      "newVersion": "2.4.5",
+      "installerUrl": "https://updates.versionsapp.com/v2/prod/Versions-2.4.5-2042.zip"
+    },
+    {
+      "date": "2026-07-25T00:06:58Z",
+      "appName": "Vivaldi",
+      "slug": "vivaldi/darwin",
+      "platform": "darwin",
+      "oldVersion": "8.1.4087.56",
+      "newVersion": "8.1.4087.58",
+      "installerUrl": "https://downloads.vivaldi.com/stable/Vivaldi.8.1.4087.58.universal.dmg"
+    },
+    {
+      "date": "2026-07-25T00:06:58Z",
+      "appName": "Reqable",
+      "slug": "reqable/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.2.13",
+      "newVersion": "3.2.14",
+      "installerUrl": "https://github.com/reqable/reqable-app/releases/download/3.2.14/reqable-app-macos-arm64.dmg"
+    },
+    {
+      "date": "2026-07-25T00:06:58Z",
+      "appName": "WhatsApp",
+      "slug": "whatsapp/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.29.20",
+      "newVersion": "26.29.22",
+      "installerUrl": "https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release\u0026src=whatsapp_downloads_page"
+    },
+    {
+      "date": "2026-07-25T00:06:58Z",
+      "appName": "WeChat for Mac",
+      "slug": "wechat/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.1.12.25",
+      "newVersion": "4.1.12.27",
+      "installerUrl": "https://dldir1.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.12.27_269339.dmg"
+    },
+    {
+      "date": "2026-07-25T00:06:58Z",
+      "appName": "Claude",
+      "slug": "claude/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.24012.1",
+      "newVersion": "1.24012.9",
+      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.24012.9/Claude-03c61d06f8e01a4db2273b9514e225f21d2ba62e.zip"
+    },
+    {
+      "date": "2026-07-25T00:06:58Z",
+      "appName": "Mozilla Firefox Developer Edition",
+      "slug": "firefox@developer-edition/darwin",
+      "platform": "darwin",
+      "oldVersion": "154.0b1",
+      "newVersion": "154.0b2",
+      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/154.0b2/mac/en-US/Firefox%20154.0b2.dmg"
+    },
+    {
+      "date": "2026-07-25T00:06:58Z",
+      "appName": "Notepad.exe",
+      "slug": "notepadexe/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.5.6",
+      "newVersion": "1.5.7",
+      "installerUrl": "https://github.com/notepadhq/notepadexe-public/releases/download/1.5.7/Notepad.zip"
+    },
+    {
+      "date": "2026-07-25T00:06:58Z",
+      "appName": "ChatWise",
+      "slug": "chatwise/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.7.3",
+      "newVersion": "26.7.4",
+      "installerUrl": "https://releases.chatwise.app/26.7.4/ChatWise-26.7.4-arm64.dmg"
+    },
+    {
+      "date": "2026-07-25T00:06:58Z",
+      "appName": "WebCatalog",
+      "slug": "webcatalog/darwin",
+      "platform": "darwin",
+      "oldVersion": "77.6.0",
+      "newVersion": "77.7.0",
+      "installerUrl": "https://cdn-2.webcatalog.io/webcatalog/WebCatalog-77.7.0-universal.dmg"
+    },
+    {
+      "date": "2026-07-25T00:06:58Z",
+      "appName": "Netron",
+      "slug": "netron/darwin",
+      "platform": "darwin",
+      "oldVersion": "9.1.8",
+      "newVersion": "9.1.9",
+      "installerUrl": "https://github.com/lutzroeder/netron/releases/download/v9.1.9/Netron-9.1.9-mac.zip"
+    },
+    {
+      "date": "2026-07-25T00:06:58Z",
+      "appName": "WorkFlowy",
+      "slug": "workflowy/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.3.2607221820",
+      "newVersion": "4.3.2607240847",
+      "installerUrl": "https://github.com/workflowy/desktop/releases/download/v4.3.2607240847/WorkFlowy.zip"
+    },
+    {
+      "date": "2026-07-25T00:06:58Z",
+      "appName": "Brave",
+      "slug": "brave-browser/darwin",
+      "platform": "darwin",
+      "oldVersion": "150.1.92.143",
+      "newVersion": "150.1.92.144",
+      "installerUrl": "https://updates-cdn.bravesoftware.com/sparkle/Brave-Browser/stable-arm64/192.144/Brave-Browser-arm64.dmg"
+    },
+    {
+      "date": "2026-07-25T00:06:58Z",
+      "appName": "Spokenly",
+      "slug": "spokenly/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.25.4",
+      "newVersion": "2.26.0",
+      "installerUrl": "https://cdn.spokenly.app/releases/macos/Spokenly-2.26.0.dmg"
+    },
+    {
+      "date": "2026-07-25T00:06:58Z",
+      "appName": "Dialpad",
+      "slug": "dialpad/darwin",
+      "platform": "darwin",
+      "oldVersion": "2606.1.2",
+      "newVersion": "2607.1.1",
+      "installerUrl": "https://download.dialpad.com/osx/arm64/dialpad.pkg"
+    },
+    {
+      "date": "2026-07-25T00:06:58Z",
+      "appName": "OneDrive",
+      "slug": "onedrive/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.113.0614.0004",
+      "newVersion": "26.119.0622.0003",
+      "installerUrl": "https://oneclient.sfx.ms/Mac/Installers/26.119.0622.0003/universal/OneDrive.pkg"
+    },
+    {
+      "date": "2026-07-25T00:06:58Z",
+      "appName": "Prisma Browser",
+      "slug": "prisma-browser/darwin",
+      "platform": "darwin",
+      "oldVersion": "150.49.7.182",
+      "newVersion": "150.49.8.187",
+      "installerUrl": "https://updates.talon-sec.com/releases/Prisma%20Access%20Browser/mac/packaged/universal/Prisma%20Access%20Browser-150.49.8.187-2f81552d.pkg"
+    },
+    {
+      "date": "2026-07-25T00:06:58Z",
+      "appName": "Sequel Ace",
+      "slug": "sequel-ace/darwin",
+      "platform": "darwin",
+      "oldVersion": "5.3.0",
+      "newVersion": "5.3.1",
+      "installerUrl": "https://github.com/Sequel-Ace/Sequel-Ace/releases/download/production/5.3.1-20104/Sequel-Ace-5.3.1.zip"
+    },
+    {
+      "date": "2026-07-25T00:06:58Z",
+      "appName": "Warp",
+      "slug": "warp/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.2026.07.15.08.55.01",
+      "newVersion": "0.2026.07.22.09.01.01",
+      "installerUrl": "https://releases.warp.dev/stable/v0.2026.07.22.09.01.stable_01/Warp.dmg"
     }
   ]
 }
