@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-25T04:27:58Z",
+  "lastUpdated": "2026-07-25T04:30:04Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -6251,6 +6251,25 @@
       "lastUpdated": "2026-07-25T04:27:58Z"
     },
     {
+      "slug": "ibm-semeru-jre-21/windows",
+      "name": "IBM Semeru Runtime Open Edition JRE 21",
+      "version": "21.0.11.10",
+      "sha256": "a72d2c3c8527879c2a6f72a5690ff61bd29f2413e73c8fbe3f852be31c8f7f05",
+      "publisher": "CN=International Business Machines Corporation, O=International Business Machines Corporation, L=Armonk, S=New York, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0BE79CDDEB7AE43B694A9EB8C6ADBB91",
+      "thumbprint": "C4C20249C44DAA983DBF33ED65C01454B42B7742",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-07-25T04:28:06Z"
+    },
+    {
+      "slug": "ibm-semeru-jre-8/windows",
+      "name": "IBM Semeru Runtime Open Edition JRE 8",
+      "version": "8.0.492.9",
+      "sha256": "096fbd8e0843899e231f5fad57b0189d18c53eee1c775d1713f99f9bbd2e6ab2",
+      "lastUpdated": "2026-07-25T04:28:15Z"
+    },
+    {
       "slug": "icon-composer/darwin",
       "name": "Icon Composer",
       "version": "1.2",
@@ -6301,6 +6320,18 @@
       "lastUpdated": "2026-06-25T22:45:13Z"
     },
     {
+      "slug": "imageglass/windows",
+      "name": "ImageGlass",
+      "version": "9.5.0.515",
+      "sha256": "a38a5ed957c9aeb5150adbc370760624bac81a29c05620e7af386c80044d9d0d",
+      "publisher": "CN=Duong Dieu Phap, O=Duong Dieu Phap, S=Tây Ninh, C=VN",
+      "issuer": "CN=Sectigo Public Code Signing CA R36, O=Sectigo Limited, C=GB",
+      "serialNumber": "00E9762083BA6615F7AFBB72E474C6AA7B",
+      "thumbprint": "02E94EAAA87220870F7EC75073BF7B7FC6CA545E",
+      "timestamp": "CN=SSL.com Timestamping Unit 2025 E1, O=SSL Corp, L=Houston, S=Texas, C=US",
+      "lastUpdated": "2026-07-25T04:28:23Z"
+    },
+    {
       "slug": "imazing-converter/darwin",
       "name": "iMazing Converter",
       "version": "2.0.14",
@@ -6309,6 +6340,18 @@
       "signingId": "J5PR93692Y:com.DigiDNA.iMazingHEICConverterMac",
       "teamId": "J5PR93692Y",
       "lastUpdated": "2026-07-20T22:13:02Z"
+    },
+    {
+      "slug": "imazing-heic-converter/windows",
+      "name": "iMazing HEIC Converter",
+      "version": "1.0.14.0",
+      "sha256": "d57b3a4edba2e626a1ad893e76cc1b094fa022405cdf8320a9daaaab31c2cad9",
+      "publisher": "CN=DigiDNA SARL, O=DigiDNA SARL, L=Genève, S=Genève, C=CH",
+      "issuer": "CN=DigiCert SHA2 Assured ID Code Signing CA, OU=www.digicert.com, O=DigiCert Inc, C=US",
+      "serialNumber": "081E570606ACD17B5E16BF7D01330F85",
+      "thumbprint": "92A74DA4134F21DF1C83961C000262D1C55AC2A4",
+      "timestamp": "CN=DigiCert Timestamp 2022 - 2, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-07-25T04:28:26Z"
     },
     {
       "slug": "imazing-profile-editor/darwin",
@@ -6375,6 +6418,18 @@
       "lastUpdated": "2026-06-15T17:23:35Z"
     },
     {
+      "slug": "infix-pdf-editor/windows",
+      "name": "Infix PDF Editor",
+      "version": "7.7.0.0",
+      "sha256": "48dfab99d433585ac44755db38d118458d9e981bb359862593273c8ef6d4c72b",
+      "publisher": "CN=Iceni Technology Ltd., O=Iceni Technology Ltd., STREET=36 St. Faiths Lane, L=Norwich, PostalCode=NR1 1NN, C=GB",
+      "issuer": "CN=Sectigo RSA Code Signing CA, O=Sectigo Limited, L=Salford, S=Greater Manchester, C=GB",
+      "serialNumber": "2509F8EB8B4E0AE22E39631CA4657F7E",
+      "thumbprint": "EFFD18D21526238E3A4BC4FA521CFB72F8300DF4",
+      "timestamp": "CN=\"Sectigo RSA Time Stamping Signer #3\", O=Sectigo Limited, S=Manchester, C=GB",
+      "lastUpdated": "2026-07-25T04:28:32Z"
+    },
+    {
       "slug": "inkscape/darwin",
       "name": "Inkscape",
       "version": "1.4.4",
@@ -6422,6 +6477,18 @@
       "thumbprint": "B22B8E938DAE7E9B202EE4ABB3ED5659F97A0633",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-07-24T04:39:16Z"
+    },
+    {
+      "slug": "install4j/windows",
+      "name": "install4j",
+      "version": "11.0.5",
+      "sha256": "ce78720703ae04b13a555c79ea0deea0c6d390757466bd4a1d35f6e36d5c7733",
+      "publisher": "E=info@ej-technologies.com, CN=ej-technologies GmbH, O=ej-technologies GmbH, STREET=Claude-Lorrain-Str. 7, L=München, S=Bayern, C=DE, OID.1.3.6.1.4.1.311.60.2.1.1=Muenchen, OID.1.3.6.1.4.1.311.60.2.1.2=Bayern, OID.1.3.6.1.4.1.311.60.2.1.3=DE, SERIALNUMBER=HRB 141246, OID.2.5.4.15=Private Organization",
+      "issuer": "CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
+      "serialNumber": "0149F6720B148E57E814E65C",
+      "thumbprint": "F33B941409BFAA569C326DA62E40DE6A147D59C9",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-07-25T04:28:39Z"
     },
     {
       "slug": "intellidock/darwin",
@@ -6494,6 +6561,37 @@
       "sha256": "87bc8777f52cf75f0b8a76edcd6b3e03fec095e90cea7d358af83928acbce309",
       "cdhash": "e41db963665a23602cb76d78885c34d291ef8e16",
       "lastUpdated": "2026-06-11T03:22:01Z"
+    },
+    {
+      "slug": "irfanview/windows",
+      "name": "IrfanView",
+      "version": "4.75",
+      "sha256": "6b7e36c089194347be1bea5fea08dc97316f2181e40427e7e2867ad7ba3906a0",
+      "publisher": "CN=Irfan Skiljan, O=Irfan Skiljan, S=Lower Austria, C=AT",
+      "issuer": "CN=Certum Code Signing 2021 CA, O=Asseco Data Systems S.A., C=PL",
+      "serialNumber": "3F542092BE518236462DC1ACE2E07FAE",
+      "thumbprint": "70C582D451B704BA93BEECC296CCA481CF5F0706",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-07-25T04:28:42Z"
+    },
+    {
+      "slug": "ironpython/windows",
+      "name": "IronPython 3",
+      "version": "3.4.2.1000",
+      "sha256": "b2e32b3fa44b3a9a8fdfa906627355f6f48b4821929f9bce5ded2d07894361d4",
+      "lastUpdated": "2026-07-25T04:28:48Z"
+    },
+    {
+      "slug": "isobuster/windows",
+      "name": "IsoBuster",
+      "version": "5.8",
+      "sha256": "91b248718f5a81ee0a4f8153904da96130f38236db2e759a5d18c9906c431bec",
+      "publisher": "CN=Smart Projects, O=Smart Projects, L=Bilzen, C=BE",
+      "issuer": "CN=SSL.com Code Signing Intermediate CA ECC R2, O=SSL Corp, L=Houston, S=Texas, C=US",
+      "serialNumber": "73C2D745547C3967B9C390323C5F3C34",
+      "thumbprint": "862C63EBF7AD882260E02E8FFAA35EB306E9E390",
+      "timestamp": "CN=SSL.com Timestamping Unit 2025 R1, O=SSL Corp, L=Houston, S=Texas, C=US",
+      "lastUpdated": "2026-07-25T04:28:53Z"
     },
     {
       "slug": "istherenet/darwin",
@@ -13107,14 +13205,14 @@
     {
       "slug": "visual-studio-code/windows",
       "name": "Microsoft Visual Studio Code",
-      "version": "1.126.0",
-      "sha256": "28eab4540effebb773266f231fd13e0d1b8a26bb296f44ae97054a98602b17d8",
+      "version": "1.129.0",
+      "sha256": "92928c03031740352816c0c7feeeafa0b065a59d70ba07a7793b5e9c28beffcf",
       "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
       "issuer": "CN=Microsoft Code Signing PCA 2024, O=Microsoft Corporation, C=US",
-      "serialNumber": "330000021D4D19C84ED70F574800000000021D",
-      "thumbprint": "AB172913A2960A224809EE8A0C371CD47A079B72",
-      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:3703-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-06-24T22:58:04Z"
+      "serialNumber": "330000021CFACDC59BE82F7EC400000000021C",
+      "thumbprint": "1D77A9B9E8FE2075D9AD15123257FB90DB0DA4A1",
+      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:551A-05E0-D947, OU=Microsoft Ireland Operations Limited, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-07-25T04:30:04Z"
     },
     {
       "slug": "vivaldi/darwin",
