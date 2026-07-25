@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-25T00:06:58Z",
+  "lastUpdated": "2026-07-25T04:13:39Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -866,8 +866,8 @@
       "slug": "aws-cli/windows",
       "name": "AWS Command Line Interface v2",
       "platform": "windows",
-      "version": "2.36.7",
-      "installerUrl": "https://awscli.amazonaws.com/AWSCLIV2-2.36.7.msi"
+      "version": "2.36.8",
+      "installerUrl": "https://awscli.amazonaws.com/AWSCLIV2-2.36.8.msi"
     },
     {
       "slug": "aws-sam-cli/windows",
@@ -1300,8 +1300,8 @@
       "slug": "brave-browser/windows",
       "name": "Brave",
       "platform": "windows",
-      "version": "150.1.92.143",
-      "installerUrl": "https://github.com/brave/brave-browser/releases/download/v1.92.143/BraveBrowserStandaloneSilentSetup.exe"
+      "version": "150.1.92.144",
+      "installerUrl": "https://github.com/brave/brave-browser/releases/download/v1.92.144/BraveBrowserStandaloneSilentSetup.exe"
     },
     {
       "slug": "breaktimer/darwin",
@@ -1573,8 +1573,8 @@
       "slug": "chatgpt/darwin",
       "name": "ChatGPT Desktop",
       "platform": "darwin",
-      "version": "26.721.31836",
-      "installerUrl": "https://persistent.oaistatic.com/codex-app-prod/ChatGPT-darwin-arm64-26.721.31836.zip"
+      "version": "26.721.41059",
+      "installerUrl": "https://persistent.oaistatic.com/codex-app-prod/ChatGPT-darwin-arm64-26.721.41059.zip"
     },
     {
       "slug": "chatwise/darwin",
@@ -3183,15 +3183,15 @@
       "slug": "fellow/darwin",
       "name": "Fellow",
       "platform": "darwin",
-      "version": "5.5.0",
-      "installerUrl": "https://cdn.fellow.app/desktop/5.5.0/darwin/stable/universal/Fellow-5.5.0-universal.dmg"
+      "version": "5.7.0",
+      "installerUrl": "https://cdn.fellow.app/desktop/5.7.0/darwin/stable/universal/Fellow-5.7.0-universal.dmg"
     },
     {
       "slug": "fellow/windows",
       "name": "Fellow",
       "platform": "windows",
-      "version": "5.5.0",
-      "installerUrl": "https://cdn.fellow.app/desktop/5.5.0/win32/stable/x64/Fellow-5.5.0.exe"
+      "version": "5.7.0",
+      "installerUrl": "https://cdn.fellow.app/desktop/5.7.0/win32/stable/x64/Fellow-5.7.0.exe"
     },
     {
       "slug": "ferdium/darwin",
@@ -3939,8 +3939,8 @@
       "slug": "granola/windows",
       "name": "Granola",
       "platform": "windows",
-      "version": "7.441.4",
-      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.441.4/Granola-7.441.4-win-x64.exe"
+      "version": "7.441.6",
+      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.441.6/Granola-7.441.6-win-x64.exe"
     },
     {
       "slug": "graphviz/windows",
@@ -4167,6 +4167,62 @@
       "installerUrl": "https://github.com/IBM/mac-ibm-notifications/releases/download/v-3.2.4-b-136/IBM.Notifier.zip"
     },
     {
+      "slug": "ibm-semeru-jdk-11/windows",
+      "name": "IBM Semeru Runtime Open Edition JDK 11",
+      "platform": "windows",
+      "version": "11.0.31.11",
+      "installerUrl": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.31.0/ibm-semeru-open-jdk_x64_windows_11.0.31.0.msi"
+    },
+    {
+      "slug": "ibm-semeru-jdk-17/windows",
+      "name": "IBM Semeru Runtime Open Edition JDK 17",
+      "platform": "windows",
+      "version": "17.0.19.10",
+      "installerUrl": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.19.0/ibm-semeru-open-jdk_x64_windows_17.0.19.0.msi"
+    },
+    {
+      "slug": "ibm-semeru-jdk-21/windows",
+      "name": "IBM Semeru Runtime Open Edition JDK 21",
+      "platform": "windows",
+      "version": "21.0.11.10",
+      "installerUrl": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.11.0/ibm-semeru-open-jdk_x64_windows_21.0.11.0.msi"
+    },
+    {
+      "slug": "ibm-semeru-jdk-8/windows",
+      "name": "IBM Semeru Runtime Open Edition JDK 8",
+      "platform": "windows",
+      "version": "8.0.492.9",
+      "installerUrl": "https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk-8.0.492.0/ibm-semeru-open-jdk_x64_windows_8.0.492.0.msi"
+    },
+    {
+      "slug": "ibm-semeru-jre-11/windows",
+      "name": "IBM Semeru Runtime Open Edition JRE 11",
+      "platform": "windows",
+      "version": "11.0.31.11",
+      "installerUrl": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.31.0/ibm-semeru-open-jre_x64_windows_11.0.31.0.msi"
+    },
+    {
+      "slug": "ibm-semeru-jre-17/windows",
+      "name": "IBM Semeru Runtime Open Edition JRE 17",
+      "platform": "windows",
+      "version": "17.0.19.10",
+      "installerUrl": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.19.0/ibm-semeru-open-jre_x64_windows_17.0.19.0.msi"
+    },
+    {
+      "slug": "ibm-semeru-jre-21/windows",
+      "name": "IBM Semeru Runtime Open Edition JRE 21",
+      "platform": "windows",
+      "version": "21.0.11.10",
+      "installerUrl": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.11.0/ibm-semeru-open-jre_x64_windows_21.0.11.0.msi"
+    },
+    {
+      "slug": "ibm-semeru-jre-8/windows",
+      "name": "IBM Semeru Runtime Open Edition JRE 8",
+      "platform": "windows",
+      "version": "8.0.492.9",
+      "installerUrl": "https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk-8.0.492.0/ibm-semeru-open-jre_x64_windows_8.0.492.0.msi"
+    },
+    {
       "slug": "icon-composer/darwin",
       "name": "Icon Composer",
       "platform": "darwin",
@@ -4202,11 +4258,25 @@
       "installerUrl": "https://dl.iina.io/IINA.v1.4.4.dmg"
     },
     {
+      "slug": "imageglass/windows",
+      "name": "ImageGlass",
+      "platform": "windows",
+      "version": "9.5.0.515",
+      "installerUrl": "https://github.com/d2phap/ImageGlass/releases/download/9.5.0.515/ImageGlass_9.5.0.515_x64.msi"
+    },
+    {
       "slug": "imazing-converter/darwin",
       "name": "iMazing Converter",
       "platform": "darwin",
       "version": "2.0.14",
       "installerUrl": "https://downloads.imazing.com/mac/iMazing-Converter/2.0.14.586/iMazing_Converter_2.0.14.586.dmg"
+    },
+    {
+      "slug": "imazing-heic-converter/windows",
+      "name": "iMazing HEIC Converter",
+      "platform": "windows",
+      "version": "1.0.14.0",
+      "installerUrl": "https://downloads.imazing.com/windows/iMazing-HEIC-Converter/1.0.14/iMazing_HEIC_Converter_1.0.14.exe"
     },
     {
       "slug": "imazing-profile-editor/darwin",
@@ -4251,6 +4321,13 @@
       "installerUrl": "https://github.com/WerWolv/ImHex/releases/download/v1.38.1/imhex-1.38.1-Windows-x86_64.msi"
     },
     {
+      "slug": "infix-pdf-editor/windows",
+      "name": "Infix PDF Editor",
+      "platform": "windows",
+      "version": "7.7.0.0",
+      "installerUrl": "https://www.pdfeditor.biz/Infix7/v7.7.0/InfixSetup.exe"
+    },
+    {
       "slug": "inkscape/darwin",
       "name": "Inkscape",
       "platform": "darwin",
@@ -4284,6 +4361,13 @@
       "platform": "windows",
       "version": "13.1.0",
       "installerUrl": "https://github.com/Kong/insomnia/releases/download/core@13.1.0/Insomnia.Core-13.1.0.exe"
+    },
+    {
+      "slug": "install4j/windows",
+      "name": "install4j",
+      "platform": "windows",
+      "version": "11.0.5",
+      "installerUrl": "https://download.ej-technologies.com/install4j/install4j_windows-x64_11_0_5.exe"
     },
     {
       "slug": "intellidock/darwin",
@@ -4333,6 +4417,27 @@
       "platform": "darwin",
       "version": "3.1.99998",
       "installerUrl": "https://github.com/invesalius/invesalius3/releases/download/v3.1.99998/InVesalius.3.1.99998.arm64.dmg"
+    },
+    {
+      "slug": "irfanview/windows",
+      "name": "IrfanView",
+      "platform": "windows",
+      "version": "4.75",
+      "installerUrl": "https://download.fileforum.com/download/967963863-1/iview475_x64_setup.exe"
+    },
+    {
+      "slug": "ironpython/windows",
+      "name": "IronPython 3",
+      "platform": "windows",
+      "version": "3.4.2.1000",
+      "installerUrl": "https://github.com/IronLanguages/ironpython3/releases/download/v3.4.2/IronPython-3.4.2.msi"
+    },
+    {
+      "slug": "isobuster/windows",
+      "name": "IsoBuster",
+      "platform": "windows",
+      "version": "5.8",
+      "installerUrl": "https://www.isobuster.com/downloads/isobuster/isobuster_install_64bit.exe"
     },
     {
       "slug": "istherenet/darwin",
@@ -5255,8 +5360,8 @@
       "slug": "microsoft-edge/darwin",
       "name": "Microsoft Edge",
       "platform": "darwin",
-      "version": "150.0.4078.96",
-      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/a6112a17-69dd-45ca-a673-405c7a4c245e/MicrosoftEdge-150.0.4078.96.dmg"
+      "version": "150.0.4078.99",
+      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/3a7264d2-f713-4e56-908d-7f80db98f37f/MicrosoftEdge-150.0.4078.99.dmg"
     },
     {
       "slug": "microsoft-edge/windows",
@@ -6130,8 +6235,8 @@
       "slug": "opencode-desktop/darwin",
       "name": "OpenCode",
       "platform": "darwin",
-      "version": "1.18.4",
-      "installerUrl": "https://github.com/anomalyco/opencode/releases/download/v1.18.4/opencode-desktop-mac-arm64.dmg"
+      "version": "1.18.5",
+      "installerUrl": "https://github.com/anomalyco/opencode/releases/download/v1.18.5/opencode-desktop-mac-arm64.dmg"
     },
     {
       "slug": "openinterminal/darwin",
@@ -8811,8 +8916,8 @@
       "slug": "visual-studio-code/windows",
       "name": "Microsoft Visual Studio Code",
       "platform": "windows",
-      "version": "1.126.0",
-      "installerUrl": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/7e7950df89d055b5a378379db9ee14290772148a/VSCodeSetup-x64-1.126.0.exe"
+      "version": "1.129.0",
+      "installerUrl": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/125df4672b8a6a34975303c6b0baa124e560a4f7/VSCodeSetup-x64-1.129.0.exe"
     },
     {
       "slug": "vivaldi/darwin",

@@ -1,222 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-07-08T14:18:23Z",
-      "appName": "Unity Hub",
-      "slug": "unity-hub/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.19.3",
-      "newVersion": "3.19.4",
-      "installerUrl": "https://public-cdn.cloud.unity3d.com/hub/prod/UnityHubSetup-arm64.dmg"
-    },
-    {
-      "date": "2026-07-08T14:18:23Z",
-      "appName": "Windows App",
-      "slug": "windows-app/windows",
-      "platform": "windows",
-      "oldVersion": "2.0.1186.0",
-      "newVersion": "2.0.1193.0",
-      "installerUrl": "https://res.cdn.office.net/remote-desktop-windows-client/c809cb8e-ad7a-4226-af29-fbfe26cdbce0/WindowsApp_x64_Release_2.0.1193.0.msix"
-    },
-    {
-      "date": "2026-07-08T14:18:23Z",
-      "appName": "RubyMine",
-      "slug": "rubymine/windows",
-      "platform": "windows",
-      "oldVersion": "2026.1.3",
-      "newVersion": "2026.1.4",
-      "installerUrl": "https://download.jetbrains.com/ruby/RubyMine-2026.1.4.exe"
-    },
-    {
-      "date": "2026-07-08T14:18:23Z",
-      "appName": "RightFont",
-      "slug": "rightfont/darwin",
-      "platform": "darwin",
-      "oldVersion": "10.0.1",
-      "newVersion": "10.1",
-      "installerUrl": "https://rightfontapp.com/update/rightfont.zip"
-    },
-    {
-      "date": "2026-07-08T14:18:23Z",
-      "appName": "TablePlus",
-      "slug": "tableplus/windows",
-      "platform": "windows",
-      "oldVersion": "7.1.4",
-      "newVersion": "26.6.0",
-      "installerUrl": "https://files.tableplus.com/windows/26.6.0/TablePlusSetup.exe"
-    },
-    {
-      "date": "2026-07-08T14:18:23Z",
-      "appName": "Postman",
-      "slug": "postman/windows",
-      "platform": "windows",
-      "oldVersion": "12.18.1",
-      "newVersion": "12.18.3",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.18.3/windows_64"
-    },
-    {
-      "date": "2026-07-08T14:18:23Z",
-      "appName": "PhpStorm",
-      "slug": "phpstorm/windows",
-      "platform": "windows",
-      "oldVersion": "2026.1.3",
-      "newVersion": "2026.1.4",
-      "installerUrl": "https://download.jetbrains.com/webide/PhpStorm-2026.1.4.exe"
-    },
-    {
-      "date": "2026-07-08T14:18:23Z",
-      "appName": "Viscosity",
-      "slug": "viscosity/windows",
-      "platform": "windows",
-      "oldVersion": "1.12.1.1857",
-      "newVersion": "1.13.0.1877",
-      "installerUrl": "https://swupdate.sparklabs.com/download/win/release/viscosity/Viscosity%20Installer%201.13.exe"
-    },
-    {
-      "date": "2026-07-08T14:18:23Z",
-      "appName": "Readest",
-      "slug": "readest/windows",
-      "platform": "windows",
-      "oldVersion": "0.11.17",
-      "newVersion": "0.11.18",
-      "installerUrl": "https://github.com/readest/readest/releases/download/v0.11.18/Readest_0.11.18_x64-setup.exe"
-    },
-    {
-      "date": "2026-07-08T16:37:17Z",
-      "appName": "Cursor",
-      "slug": "cursor/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.10.17",
-      "newVersion": "3.10.20",
-      "installerUrl": "https://downloads.cursor.com/production/23b9fb205fe595ea2be29da7214e19762d037fc3/darwin/arm64/Cursor-darwin-arm64.zip"
-    },
-    {
-      "date": "2026-07-08T16:37:17Z",
-      "appName": "Melodics",
-      "slug": "melodics/darwin",
-      "platform": "darwin",
-      "oldVersion": "5.0.681",
-      "newVersion": "5.0.809",
-      "installerUrl": "https://web-cdn.melodics.com/download/8925A84C-A78A-4855-B452-6E7665A1B34D.zip"
-    },
-    {
-      "date": "2026-07-08T16:37:17Z",
-      "appName": "GoLand",
-      "slug": "goland/windows",
-      "platform": "windows",
-      "oldVersion": "2026.1.3",
-      "newVersion": "2026.1.4",
-      "installerUrl": "https://download.jetbrains.com/go/goland-2026.1.4.exe"
-    },
-    {
-      "date": "2026-07-08T16:37:17Z",
-      "appName": "Notion",
-      "slug": "notion/windows",
-      "platform": "windows",
-      "oldVersion": "7.24.0",
-      "newVersion": "7.25.0",
-      "installerUrl": "https://desktop-release.notion-static.com/Notion%20Setup%207.25.0.exe"
-    },
-    {
-      "date": "2026-07-08T16:37:17Z",
-      "appName": "Google Chrome",
-      "slug": "google-chrome/windows",
-      "platform": "windows",
-      "oldVersion": "150.0.7871.47",
-      "newVersion": "150.0.7871.101",
-      "installerUrl": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi"
-    },
-    {
-      "date": "2026-07-08T16:37:17Z",
-      "appName": "Bulk Crap Uninstaller",
-      "slug": "bulk-crap-uninstaller/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "6.2",
-      "installerUrl": "https://github.com/BCUninstaller/Bulk-Crap-Uninstaller/releases/download/v6.2/BCUninstaller_6.2.0_setup.exe"
-    },
-    {
-      "date": "2026-07-08T16:37:17Z",
-      "appName": "Krisp",
-      "slug": "krisp/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.13.8",
-      "newVersion": "3.13.12",
-      "installerUrl": "https://cdn.krisp.ai/mp/mn/3.13/mac/Krisp_3.13.12_arm64.pkg"
-    },
-    {
-      "date": "2026-07-08T16:37:17Z",
-      "appName": "Google Gemini",
-      "slug": "google-gemini/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.80.18.522",
-      "newVersion": "1.82.2.534",
-      "installerUrl": "https://dl.google.com/release2/j33ro/release/Gemini.dmg"
-    },
-    {
-      "date": "2026-07-08T16:37:17Z",
-      "appName": "GitKraken",
-      "slug": "gitkraken/windows",
-      "platform": "windows",
-      "oldVersion": "12.2.1",
-      "newVersion": "12.3.0",
-      "installerUrl": "https://api.gitkraken.dev/releases/production/windows/x64/12.3.0/GitKrakenSetup.exe"
-    },
-    {
-      "date": "2026-07-08T16:37:17Z",
-      "appName": "Burp Suite Professional",
-      "slug": "burp-suite-professional/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "2026.3.3",
-      "installerUrl": "https://portswigger-cdn.net/burp/releases/download?product=pro\u0026version=2026.3.3\u0026type=WindowsX64"
-    },
-    {
-      "date": "2026-07-08T16:37:17Z",
-      "appName": "BitBox",
-      "slug": "bitbox/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.51.0",
-      "newVersion": "4.51.2",
-      "installerUrl": "https://github.com/BitBoxSwiss/bitbox-wallet-app/releases/download/v4.51.2/BitBox-4.51.2-macOS.dmg"
-    },
-    {
-      "date": "2026-07-08T16:37:17Z",
-      "appName": "Dropshare",
-      "slug": "dropshare/darwin",
-      "platform": "darwin",
-      "oldVersion": "6.13",
-      "newVersion": "6.14",
-      "installerUrl": "https://d2wvuuix8c9e48.cloudfront.net/Dropshare6-6257.app.zip"
-    },
-    {
-      "date": "2026-07-08T16:37:17Z",
-      "appName": "Capto",
-      "slug": "capto/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.1.5",
-      "newVersion": "2.1.6",
-      "installerUrl": "https://d3l6g06uqih57x.cloudfront.net/Captomac/webstore/Capto.dmg"
-    },
-    {
-      "date": "2026-07-08T16:37:17Z",
-      "appName": "BleachBit",
-      "slug": "bleachbit/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "6.0.2.3702",
-      "installerUrl": "https://download.bleachbit.org/BleachBit-6.0.2-setup.exe"
-    },
-    {
-      "date": "2026-07-08T16:37:17Z",
-      "appName": "BandiView",
-      "slug": "bandiview/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "7.27",
-      "installerUrl": "https://bandisoft.app/bandiview/BANDIVIEW-SETUP-X64.EXE"
-    },
-    {
       "date": "2026-07-08T16:37:17Z",
       "appName": "Google Chrome",
       "slug": "google-chrome/darwin",
@@ -8999,6 +8783,222 @@
       "oldVersion": "0.2026.07.15.08.55.01",
       "newVersion": "0.2026.07.22.09.01.01",
       "installerUrl": "https://releases.warp.dev/stable/v0.2026.07.22.09.01.stable_01/Warp.dmg"
+    },
+    {
+      "date": "2026-07-25T04:13:39Z",
+      "appName": "Fellow",
+      "slug": "fellow/darwin",
+      "platform": "darwin",
+      "oldVersion": "5.5.0",
+      "newVersion": "5.7.0",
+      "installerUrl": "https://cdn.fellow.app/desktop/5.7.0/darwin/stable/universal/Fellow-5.7.0-universal.dmg"
+    },
+    {
+      "date": "2026-07-25T04:13:39Z",
+      "appName": "OpenCode",
+      "slug": "opencode-desktop/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.18.4",
+      "newVersion": "1.18.5",
+      "installerUrl": "https://github.com/anomalyco/opencode/releases/download/v1.18.5/opencode-desktop-mac-arm64.dmg"
+    },
+    {
+      "date": "2026-07-25T04:13:39Z",
+      "appName": "IBM Semeru Runtime Open Edition JRE 17",
+      "slug": "ibm-semeru-jre-17/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "17.0.19.10",
+      "installerUrl": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.19.0/ibm-semeru-open-jre_x64_windows_17.0.19.0.msi"
+    },
+    {
+      "date": "2026-07-25T04:13:39Z",
+      "appName": "iMazing HEIC Converter",
+      "slug": "imazing-heic-converter/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "1.0.14.0",
+      "installerUrl": "https://downloads.imazing.com/windows/iMazing-HEIC-Converter/1.0.14/iMazing_HEIC_Converter_1.0.14.exe"
+    },
+    {
+      "date": "2026-07-25T04:13:39Z",
+      "appName": "Fellow",
+      "slug": "fellow/windows",
+      "platform": "windows",
+      "oldVersion": "5.5.0",
+      "newVersion": "5.7.0",
+      "installerUrl": "https://cdn.fellow.app/desktop/5.7.0/win32/stable/x64/Fellow-5.7.0.exe"
+    },
+    {
+      "date": "2026-07-25T04:13:39Z",
+      "appName": "Infix PDF Editor",
+      "slug": "infix-pdf-editor/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "7.7.0.0",
+      "installerUrl": "https://www.pdfeditor.biz/Infix7/v7.7.0/InfixSetup.exe"
+    },
+    {
+      "date": "2026-07-25T04:13:39Z",
+      "appName": "IBM Semeru Runtime Open Edition JRE 8",
+      "slug": "ibm-semeru-jre-8/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "8.0.492.9",
+      "installerUrl": "https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk-8.0.492.0/ibm-semeru-open-jre_x64_windows_8.0.492.0.msi"
+    },
+    {
+      "date": "2026-07-25T04:13:39Z",
+      "appName": "Microsoft Edge",
+      "slug": "microsoft-edge/darwin",
+      "platform": "darwin",
+      "oldVersion": "150.0.4078.96",
+      "newVersion": "150.0.4078.99",
+      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/3a7264d2-f713-4e56-908d-7f80db98f37f/MicrosoftEdge-150.0.4078.99.dmg"
+    },
+    {
+      "date": "2026-07-25T04:13:39Z",
+      "appName": "IBM Semeru Runtime Open Edition JDK 21",
+      "slug": "ibm-semeru-jdk-21/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "21.0.11.10",
+      "installerUrl": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.11.0/ibm-semeru-open-jdk_x64_windows_21.0.11.0.msi"
+    },
+    {
+      "date": "2026-07-25T04:13:39Z",
+      "appName": "IsoBuster",
+      "slug": "isobuster/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "5.8",
+      "installerUrl": "https://www.isobuster.com/downloads/isobuster/isobuster_install_64bit.exe"
+    },
+    {
+      "date": "2026-07-25T04:13:39Z",
+      "appName": "IBM Semeru Runtime Open Edition JRE 21",
+      "slug": "ibm-semeru-jre-21/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "21.0.11.10",
+      "installerUrl": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.11.0/ibm-semeru-open-jre_x64_windows_21.0.11.0.msi"
+    },
+    {
+      "date": "2026-07-25T04:13:39Z",
+      "appName": "ChatGPT Desktop",
+      "slug": "chatgpt/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.721.31836",
+      "newVersion": "26.721.41059",
+      "installerUrl": "https://persistent.oaistatic.com/codex-app-prod/ChatGPT-darwin-arm64-26.721.41059.zip"
+    },
+    {
+      "date": "2026-07-25T04:13:39Z",
+      "appName": "IBM Semeru Runtime Open Edition JDK 17",
+      "slug": "ibm-semeru-jdk-17/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "17.0.19.10",
+      "installerUrl": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.19.0/ibm-semeru-open-jdk_x64_windows_17.0.19.0.msi"
+    },
+    {
+      "date": "2026-07-25T04:13:39Z",
+      "appName": "Granola",
+      "slug": "granola/windows",
+      "platform": "windows",
+      "oldVersion": "7.441.4",
+      "newVersion": "7.441.6",
+      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.441.6/Granola-7.441.6-win-x64.exe"
+    },
+    {
+      "date": "2026-07-25T04:13:39Z",
+      "appName": "install4j",
+      "slug": "install4j/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "11.0.5",
+      "installerUrl": "https://download.ej-technologies.com/install4j/install4j_windows-x64_11_0_5.exe"
+    },
+    {
+      "date": "2026-07-25T04:13:39Z",
+      "appName": "AWS Command Line Interface v2",
+      "slug": "aws-cli/windows",
+      "platform": "windows",
+      "oldVersion": "2.36.7",
+      "newVersion": "2.36.8",
+      "installerUrl": "https://awscli.amazonaws.com/AWSCLIV2-2.36.8.msi"
+    },
+    {
+      "date": "2026-07-25T04:13:39Z",
+      "appName": "IBM Semeru Runtime Open Edition JRE 11",
+      "slug": "ibm-semeru-jre-11/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "11.0.31.11",
+      "installerUrl": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.31.0/ibm-semeru-open-jre_x64_windows_11.0.31.0.msi"
+    },
+    {
+      "date": "2026-07-25T04:13:39Z",
+      "appName": "Microsoft Visual Studio Code",
+      "slug": "visual-studio-code/windows",
+      "platform": "windows",
+      "oldVersion": "1.126.0",
+      "newVersion": "1.129.0",
+      "installerUrl": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/125df4672b8a6a34975303c6b0baa124e560a4f7/VSCodeSetup-x64-1.129.0.exe"
+    },
+    {
+      "date": "2026-07-25T04:13:39Z",
+      "appName": "IrfanView",
+      "slug": "irfanview/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "4.75",
+      "installerUrl": "https://download.fileforum.com/download/967963863-1/iview475_x64_setup.exe"
+    },
+    {
+      "date": "2026-07-25T04:13:39Z",
+      "appName": "IBM Semeru Runtime Open Edition JDK 8",
+      "slug": "ibm-semeru-jdk-8/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "8.0.492.9",
+      "installerUrl": "https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk-8.0.492.0/ibm-semeru-open-jdk_x64_windows_8.0.492.0.msi"
+    },
+    {
+      "date": "2026-07-25T04:13:39Z",
+      "appName": "IBM Semeru Runtime Open Edition JDK 11",
+      "slug": "ibm-semeru-jdk-11/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "11.0.31.11",
+      "installerUrl": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.31.0/ibm-semeru-open-jdk_x64_windows_11.0.31.0.msi"
+    },
+    {
+      "date": "2026-07-25T04:13:39Z",
+      "appName": "IronPython 3",
+      "slug": "ironpython/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "3.4.2.1000",
+      "installerUrl": "https://github.com/IronLanguages/ironpython3/releases/download/v3.4.2/IronPython-3.4.2.msi"
+    },
+    {
+      "date": "2026-07-25T04:13:39Z",
+      "appName": "Brave",
+      "slug": "brave-browser/windows",
+      "platform": "windows",
+      "oldVersion": "150.1.92.143",
+      "newVersion": "150.1.92.144",
+      "installerUrl": "https://github.com/brave/brave-browser/releases/download/v1.92.144/BraveBrowserStandaloneSilentSetup.exe"
+    },
+    {
+      "date": "2026-07-25T04:13:39Z",
+      "appName": "ImageGlass",
+      "slug": "imageglass/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "9.5.0.515",
+      "installerUrl": "https://github.com/d2phap/ImageGlass/releases/download/9.5.0.515/ImageGlass_9.5.0.515_x64.msi"
     }
   ]
 }
