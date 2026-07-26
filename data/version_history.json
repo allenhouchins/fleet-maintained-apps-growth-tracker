@@ -2,33 +2,6 @@
   "changes": [
     {
       "date": "2026-07-09T15:59:33Z",
-      "appName": "JASP",
-      "slug": "jasp/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.98.0.0",
-      "newVersion": "0.98.1.0",
-      "installerUrl": "https://github.com/jasp-stats/jasp-desktop/releases/download/v0.98.1/JASP-0.98.1.0-macOS-arm64.dmg"
-    },
-    {
-      "date": "2026-07-09T15:59:33Z",
-      "appName": "Reqable",
-      "slug": "reqable/windows",
-      "platform": "windows",
-      "oldVersion": "3.2.4",
-      "newVersion": "3.2.5",
-      "installerUrl": "https://github.com/reqable/reqable-app/releases/download/3.2.5/reqable-app-windows-x86_64.exe"
-    },
-    {
-      "date": "2026-07-09T15:59:33Z",
-      "appName": "Teleport Connect",
-      "slug": "teleport-connect/darwin",
-      "platform": "darwin",
-      "oldVersion": "18.9.2",
-      "newVersion": "18.10.0",
-      "installerUrl": "https://cdn.teleport.dev/Teleport%20Connect-18.10.0.dmg"
-    },
-    {
-      "date": "2026-07-09T15:59:33Z",
       "appName": "Twingate",
       "slug": "twingate/darwin",
       "platform": "darwin",
@@ -8999,6 +8972,33 @@
       "oldVersion": "6.5.1",
       "newVersion": "6.5.2",
       "installerUrl": "https://github.com/meetfranz/franz-6/releases/download/v6.5.2/Franz-arm64.dmg"
+    },
+    {
+      "date": "2026-07-26T14:39:22Z",
+      "appName": "Notepad.exe",
+      "slug": "notepadexe/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.5.7",
+      "newVersion": "1.5.8",
+      "installerUrl": "https://github.com/notepadhq/notepadexe-public/releases/download/1.5.8/Notepad.zip"
+    },
+    {
+      "date": "2026-07-26T14:39:22Z",
+      "appName": "Kiro",
+      "slug": "kiro/windows",
+      "platform": "windows",
+      "oldVersion": "1.0.212",
+      "newVersion": "1.0.228",
+      "installerUrl": "https://prod.download.desktop.kiro.dev/releases/stable/win32-x64/signed/1.0.228/kiro-ide-1.0.228-stable-win32-x64.exe"
+    },
+    {
+      "date": "2026-07-26T14:39:22Z",
+      "appName": "Kiro",
+      "slug": "kiro/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.0.212",
+      "newVersion": "1.0.228",
+      "installerUrl": "https://prod.download.desktop.kiro.dev/releases/stable/darwin-arm64/signed/1.0.228/kiro-ide-1.0.228-stable-darwin-arm64.dmg"
     }
   ]
 }
