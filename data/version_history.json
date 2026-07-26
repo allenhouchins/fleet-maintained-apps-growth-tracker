@@ -2,24 +2,6 @@
   "changes": [
     {
       "date": "2026-07-09T15:59:33Z",
-      "appName": "Claude",
-      "slug": "claude/windows",
-      "platform": "windows",
-      "oldVersion": "1.18286.0",
-      "newVersion": "1.19367.0",
-      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.19367.0/Claude-1a5be1fbf83d1832486e03a667557c18f0a0ec7a.msix"
-    },
-    {
-      "date": "2026-07-09T15:59:33Z",
-      "appName": "LookAway",
-      "slug": "lookaway/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.2.4",
-      "newVersion": "2.2.5",
-      "installerUrl": "https://github.com/mysticalbits/lookaway-releases/releases/download/2.2.5/LookAway.dmg"
-    },
-    {
-      "date": "2026-07-09T15:59:33Z",
       "appName": "JASP",
       "slug": "jasp/darwin",
       "platform": "darwin",
@@ -8999,6 +8981,24 @@
       "oldVersion": "3.3.0.1159",
       "newVersion": "9.1.0.4369",
       "installerUrl": "https://sf16-web-tos-buz.capcutstatic.com/obj/capcut-web-buz-sg/packages/CapCut_9_1_0_4369_capcutpc_0_creatortool.dmg"
+    },
+    {
+      "date": "2026-07-26T04:30:02Z",
+      "appName": "Ollama",
+      "slug": "ollama/windows",
+      "platform": "windows",
+      "oldVersion": "0.32.3",
+      "newVersion": "0.32.4",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.32.4/OllamaSetup.exe"
+    },
+    {
+      "date": "2026-07-26T04:30:02Z",
+      "appName": "Franz",
+      "slug": "franz/darwin",
+      "platform": "darwin",
+      "oldVersion": "6.5.1",
+      "newVersion": "6.5.2",
+      "installerUrl": "https://github.com/meetfranz/franz-6/releases/download/v6.5.2/Franz-arm64.dmg"
     }
   ]
 }
