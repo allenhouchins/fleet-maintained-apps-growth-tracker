@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-28T12:58:14Z",
+  "lastUpdated": "2026-07-28T15:24:42Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -2567,8 +2567,8 @@
       "slug": "discord/windows",
       "name": "Discord",
       "platform": "windows",
-      "version": "1.0.9249",
-      "installerUrl": "https://stable.dl2.discordapp.net/distro/app/stable/win/x64/1.0.9249/DiscordSetup.exe"
+      "version": "1.0.9250",
+      "installerUrl": "https://stable.dl2.discordapp.net/distro/app/stable/win/x64/1.0.9250/DiscordSetup.exe"
     },
     {
       "slug": "disk-drill/darwin",
@@ -3668,6 +3668,13 @@
       "platform": "windows",
       "version": "3.2.4.0",
       "installerUrl": "https://download.gimp.org/gimp/v3.2/windows/gimp-3.2.4-setup.exe"
+    },
+    {
+      "slug": "git-extensions/windows",
+      "name": "Git Extensions",
+      "platform": "windows",
+      "version": "7.2.0.92",
+      "installerUrl": "https://github.com/gitextensions/gitextensions/releases/download/v7.2.0/GitExtensions-x64-7.2.0.92-501f831.msi"
     },
     {
       "slug": "git/windows",
@@ -5847,13 +5854,6 @@
       "installerUrl": "https://downloads.gonitro.com/macos/Nitro%20PDF%20Pro_26.0.dmg"
     },
     {
-      "slug": "nocturnal/darwin",
-      "name": "Nocturnal",
-      "platform": "darwin",
-      "version": "0.3",
-      "installerUrl": "https://github.com/HarshilShah/Nocturnal/releases/download/0.3/Nocturnal.zip"
-    },
-    {
       "slug": "nodejs/windows",
       "name": "Node.js",
       "platform": "windows",
@@ -7793,6 +7793,13 @@
       "installerUrl": "https://github.com/sonic-visualiser/sonic-visualiser/releases/download/sv_v5.2.1/Sonic.Visualiser.5.2.1.dmg"
     },
     {
+      "slug": "sonicwall-netextender/windows",
+      "name": "SonicWall NetExtender",
+      "platform": "windows",
+      "version": "10.3.5",
+      "installerUrl": "https://software.sonicwall.com/NetExtender/NetExtender-x64-10.3.5.msi"
+    },
+    {
       "slug": "sonobus/darwin",
       "name": "SonoBus",
       "platform": "darwin",
@@ -7938,6 +7945,13 @@
       "platform": "darwin",
       "version": "6.1.5",
       "installerUrl": "https://github.com/spyder-ide/spyder/releases/download/v6.1.5/Spyder-macOS-arm64.pkg"
+    },
+    {
+      "slug": "spyder/windows",
+      "name": "Spyder",
+      "platform": "windows",
+      "version": "6.1.5",
+      "installerUrl": "https://github.com/spyder-ide/spyder/releases/download/v6.1.5/Spyder-Windows-x86_64.exe"
     },
     {
       "slug": "sql-server-management-studio/windows",
@@ -8484,6 +8498,13 @@
       "platform": "darwin",
       "version": "2.43.0",
       "installerUrl": "https://download.tidal.com/desktop/mac/TIDAL.arm64.2.43.0.zip"
+    },
+    {
+      "slug": "tightvnc/windows",
+      "name": "TightVNC",
+      "platform": "windows",
+      "version": "2.8.88",
+      "installerUrl": "https://www.tightvnc.com/download/2.8.88/tightvnc-2.8.88-gpl-setup-64bit.msi"
     },
     {
       "slug": "tiles/darwin",
@@ -9438,6 +9459,13 @@
       "installerUrl": "https://github.com/YACReader/yacreader/releases/download/10.1.0/YACReader-v10.1.0.260703260-winx64-7z-qt6.exe"
     },
     {
+      "slug": "yarn/windows",
+      "name": "Yarn",
+      "platform": "windows",
+      "version": "1.22.22",
+      "installerUrl": "https://github.com/yarnpkg/yarn/releases/download/v1.22.22/yarn-1.22.22.msi"
+    },
+    {
       "slug": "yattee/darwin",
       "name": "Yattee",
       "platform": "darwin",
@@ -9548,6 +9576,13 @@
       "platform": "darwin",
       "version": "8.7.2",
       "installerUrl": "https://downloads.zight.com/mac/Zight-8.7.2.3615.zip"
+    },
+    {
+      "slug": "zoom-outlook-plugin/windows",
+      "name": "Zoom Outlook Plugin",
+      "platform": "windows",
+      "version": "7.1.0",
+      "installerUrl": "https://zoom.us/client/7.1.0.1261/ZoomOutlookPluginSetup.msi"
     },
     {
       "slug": "zoom-rooms/darwin",

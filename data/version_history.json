@@ -1,69 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-07-09T21:39:51Z",
-      "appName": "WeChat for Mac",
-      "slug": "wechat/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.1.11.51",
-      "newVersion": "4.1.11.53",
-      "installerUrl": "https://dldir1.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.11.53_41748.dmg"
-    },
-    {
-      "date": "2026-07-09T21:39:51Z",
-      "appName": "AltTab",
-      "slug": "alt-tab/darwin",
-      "platform": "darwin",
-      "oldVersion": "11.4.2",
-      "newVersion": "11.4.3",
-      "installerUrl": "https://github.com/lwouis/alt-tab-macos/releases/download/v11.4.3/AltTab-11.4.3.zip"
-    },
-    {
-      "date": "2026-07-09T21:39:51Z",
-      "appName": "BetterTouchTool",
-      "slug": "bettertouchtool/darwin",
-      "platform": "darwin",
-      "oldVersion": "6.626",
-      "newVersion": "6.629",
-      "installerUrl": "https://folivora.ai/releases/btt6.629-2026070902.zip"
-    },
-    {
-      "date": "2026-07-09T21:39:51Z",
-      "appName": "Signal",
-      "slug": "signal/windows",
-      "platform": "windows",
-      "oldVersion": "8.17.0",
-      "newVersion": "8.18.0",
-      "installerUrl": "https://updates.signal.org/desktop/signal-desktop-win-8.18.0.exe"
-    },
-    {
-      "date": "2026-07-09T21:39:51Z",
-      "appName": "Mendeley Reference Manager",
-      "slug": "mendeley-reference-manager/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.145.0",
-      "newVersion": "2.146.1",
-      "installerUrl": "https://static.mendeley.com/bin/desktop/mendeley-reference-manager-2.146.1-universal.dmg"
-    },
-    {
-      "date": "2026-07-10T03:29:38Z",
-      "appName": "Nextcloud Talk Desktop",
-      "slug": "nextcloud-talk/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.2.0",
-      "newVersion": "2.2.1",
-      "installerUrl": "https://github.com/nextcloud-releases/talk-desktop/releases/download/v2.2.1/Nextcloud.Talk-macos-universal.dmg"
-    },
-    {
-      "date": "2026-07-10T03:29:38Z",
-      "appName": "Dropbox",
-      "slug": "dropbox/darwin",
-      "platform": "darwin",
-      "oldVersion": "258.4.3749",
-      "newVersion": "260.4.2926",
-      "installerUrl": "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20260.4.2926.arm64.dmg"
-    },
-    {
       "date": "2026-07-10T03:29:38Z",
       "appName": "CMake",
       "slug": "cmake-app/darwin",
@@ -8999,6 +8936,69 @@
       "oldVersion": "0.32.4",
       "newVersion": "0.32.5",
       "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.32.5/Ollama-darwin.zip"
+    },
+    {
+      "date": "2026-07-28T15:24:42Z",
+      "appName": "TightVNC",
+      "slug": "tightvnc/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "2.8.88",
+      "installerUrl": "https://www.tightvnc.com/download/2.8.88/tightvnc-2.8.88-gpl-setup-64bit.msi"
+    },
+    {
+      "date": "2026-07-28T15:24:42Z",
+      "appName": "Yarn",
+      "slug": "yarn/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "1.22.22",
+      "installerUrl": "https://github.com/yarnpkg/yarn/releases/download/v1.22.22/yarn-1.22.22.msi"
+    },
+    {
+      "date": "2026-07-28T15:24:42Z",
+      "appName": "Git Extensions",
+      "slug": "git-extensions/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "7.2.0.92",
+      "installerUrl": "https://github.com/gitextensions/gitextensions/releases/download/v7.2.0/GitExtensions-x64-7.2.0.92-501f831.msi"
+    },
+    {
+      "date": "2026-07-28T15:24:42Z",
+      "appName": "Spyder",
+      "slug": "spyder/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "6.1.5",
+      "installerUrl": "https://github.com/spyder-ide/spyder/releases/download/v6.1.5/Spyder-Windows-x86_64.exe"
+    },
+    {
+      "date": "2026-07-28T15:24:42Z",
+      "appName": "SonicWall NetExtender",
+      "slug": "sonicwall-netextender/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "10.3.5",
+      "installerUrl": "https://software.sonicwall.com/NetExtender/NetExtender-x64-10.3.5.msi"
+    },
+    {
+      "date": "2026-07-28T15:24:42Z",
+      "appName": "Discord",
+      "slug": "discord/windows",
+      "platform": "windows",
+      "oldVersion": "1.0.9249",
+      "newVersion": "1.0.9250",
+      "installerUrl": "https://stable.dl2.discordapp.net/distro/app/stable/win/x64/1.0.9250/DiscordSetup.exe"
+    },
+    {
+      "date": "2026-07-28T15:24:42Z",
+      "appName": "Zoom Outlook Plugin",
+      "slug": "zoom-outlook-plugin/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "7.1.0",
+      "installerUrl": "https://zoom.us/client/7.1.0.1261/ZoomOutlookPluginSetup.msi"
     }
   ]
 }
