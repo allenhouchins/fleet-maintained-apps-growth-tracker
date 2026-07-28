@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-28T15:26:09Z",
+  "lastUpdated": "2026-07-28T15:27:01Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -5449,6 +5449,13 @@
       "thumbprint": "9DCC14D7BB6BDE953624601AF7541456040666BB",
       "timestamp": "CN=Certum Timestamp 2026, O=Asseco Data Systems S.A., C=PL",
       "lastUpdated": "2026-04-20T13:49:02Z"
+    },
+    {
+      "slug": "git-extensions/windows",
+      "name": "Git Extensions",
+      "version": "7.2.0.92",
+      "sha256": "852833f138f403a36508be7ef2c23d35ea495a1af538431a325e7e70c8559924",
+      "lastUpdated": "2026-07-28T15:26:15Z"
     },
     {
       "slug": "git/windows",
@@ -11539,6 +11546,18 @@
       "lastUpdated": "2026-06-10T15:40:21Z"
     },
     {
+      "slug": "sonicwall-netextender/windows",
+      "name": "SonicWall NetExtender",
+      "version": "10.3.5",
+      "sha256": "c4c37bb4d91c083657b2112a0c6f4b97533c5e7873d512a1535354132c0a4040",
+      "publisher": "CN=SonicWall Inc., O=SonicWall Inc., S=California, C=US, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=6161077",
+      "issuer": "CN=Sectigo Public Code Signing CA EV R36, O=Sectigo Limited, C=GB",
+      "serialNumber": "00D3902B1F90C06954D3CDD09211F3D52A",
+      "thumbprint": "AFC3A6BC40C679913BE7CC4C6D76B1774C2626BF",
+      "timestamp": "CN=Sectigo Public Time Stamping Signer R36, O=Sectigo Limited, S=West Yorkshire, C=GB",
+      "lastUpdated": "2026-07-28T15:26:23Z"
+    },
+    {
       "slug": "sonobus/darwin",
       "name": "SonoBus",
       "version": "1.7.2",
@@ -11746,6 +11765,13 @@
       "sha256": "273fd5b4be95087820b8f2656ff03e9848ef63d673d3d90770a1897e0174b899",
       "cdhash": "36f2dc503f6db43808cf7197d91022023a052d51",
       "lastUpdated": "2026-06-27T15:40:47Z"
+    },
+    {
+      "slug": "spyder/windows",
+      "name": "Spyder",
+      "version": "6.1.5",
+      "sha256": "92005331137502c199fb9926501d5aeaec0e940cc54a69f1e3d0908473176472",
+      "lastUpdated": "2026-07-28T15:26:38Z"
     },
     {
       "slug": "sql-server-management-studio/windows",
@@ -12560,6 +12586,18 @@
       "signingId": "GK2243L7KB:com.tidal.desktop",
       "teamId": "GK2243L7KB",
       "lastUpdated": "2026-06-19T15:21:40Z"
+    },
+    {
+      "slug": "tightvnc/windows",
+      "name": "TightVNC",
+      "version": "2.8.88",
+      "sha256": "cc8c189370f631ff0679e807985b54f1d6aa98462c0ca7daeacf8cdcca2c15bd",
+      "publisher": "E=info@glavsoft.com, CN=OOO GlavSoft, O=OOO GlavSoft, L=Tomsk, S=Tomsk Oblast, C=RU",
+      "issuer": "CN=GlobalSign GCC R45 CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
+      "serialNumber": "644D6CF93040C977B3E7947C",
+      "thumbprint": "90513AC184484A36A6461CB7B834B68761761006",
+      "timestamp": "CN=Globalsign R45 TSA for CodeSign 202510, O=GlobalSign nv-sa, C=BE",
+      "lastUpdated": "2026-07-28T15:26:45Z"
     },
     {
       "slug": "tiles/darwin",
@@ -14119,6 +14157,18 @@
       "signingId": "DCMDDJEW9X:com.linebreak.CloudAppMacOSX",
       "teamId": "DCMDDJEW9X",
       "lastUpdated": "2026-06-09T15:29:46Z"
+    },
+    {
+      "slug": "zoom-outlook-plugin/windows",
+      "name": "Zoom Outlook Plugin",
+      "version": "7.1.0",
+      "sha256": "998de3182d54f6f98c818f9ca0ee61a02e49379bad30f226e1aa71c1a114239b",
+      "publisher": "CN=\"Zoom Communications, Inc.\", O=\"Zoom Communications, Inc.\", L=San Jose, S=California, C=US, SERIALNUMBER=4969967, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA256 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "05CE164D622A58E47A01A23DFDEC64C7",
+      "thumbprint": "005ABA560D9779E7490F8111CB036139910F48F9",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-07-28T15:27:00Z"
     },
     {
       "slug": "zoom-rooms/darwin",
