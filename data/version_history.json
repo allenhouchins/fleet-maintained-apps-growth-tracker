@@ -2,105 +2,6 @@
   "changes": [
     {
       "date": "2026-07-13T15:03:59Z",
-      "appName": "Cursor",
-      "slug": "cursor/windows",
-      "platform": "windows",
-      "oldVersion": "3.10.11",
-      "newVersion": "3.10.20",
-      "installerUrl": "https://downloads.cursor.com/production/23b9fb205fe595ea2be29da7214e19762d037fc3/win32/x64/system-setup/CursorSetup-x64-3.10.20.exe"
-    },
-    {
-      "date": "2026-07-13T15:03:59Z",
-      "appName": "IBM Notifier",
-      "slug": "ibm-notifier/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.2.3",
-      "newVersion": "3.2.4",
-      "installerUrl": "https://github.com/IBM/mac-ibm-notifications/releases/download/v-3.2.4-b-136/IBM.Notifier.zip"
-    },
-    {
-      "date": "2026-07-13T15:03:59Z",
-      "appName": "Unity Hub",
-      "slug": "unity-hub/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.19.4",
-      "newVersion": "3.19.5",
-      "installerUrl": "https://public-cdn.cloud.unity3d.com/hub/prod/3.19.5/UnityHubSetup-3.19.5-arm64.dmg"
-    },
-    {
-      "date": "2026-07-13T15:03:59Z",
-      "appName": "Wireshark",
-      "slug": "wireshark/windows",
-      "platform": "windows",
-      "oldVersion": "4.6.6",
-      "newVersion": "4.6.7",
-      "installerUrl": "https://2.na.dl.wireshark.org/win64/all-versions/Wireshark-4.6.7-x64.msi"
-    },
-    {
-      "date": "2026-07-13T15:03:59Z",
-      "appName": "Electrum",
-      "slug": "electrum/windows",
-      "platform": "windows",
-      "oldVersion": "4.7.2",
-      "newVersion": "4.8.0",
-      "installerUrl": "https://download.electrum.org/4.8.0/electrum-4.8.0-setup.exe"
-    },
-    {
-      "date": "2026-07-13T15:03:59Z",
-      "appName": "CMake",
-      "slug": "cmake-app/windows",
-      "platform": "windows",
-      "oldVersion": "4.3.4",
-      "newVersion": "4.4.0",
-      "installerUrl": "https://github.com/Kitware/CMake/releases/download/v4.4.0/cmake-4.4.0-windows-x86_64.msi"
-    },
-    {
-      "date": "2026-07-13T15:03:59Z",
-      "appName": "LinearMouse",
-      "slug": "linearmouse/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.11.2",
-      "newVersion": "0.11.3",
-      "installerUrl": "https://dl.linearmouse.org/v0.11.3/LinearMouse.dmg"
-    },
-    {
-      "date": "2026-07-13T15:03:59Z",
-      "appName": "EndNote",
-      "slug": "endnote/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "22.3.1.19926",
-      "installerUrl": "https://download.endnote.com/downloads/2025/EN2025Inst.msi"
-    },
-    {
-      "date": "2026-07-13T15:03:59Z",
-      "appName": "Wispr Flow",
-      "slug": "wispr-flow/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.5.1146",
-      "newVersion": "1.6.7",
-      "installerUrl": "https://dl.wisprflow.com/wispr-flow/darwin/arm64/dmgs/Flow-v1.6.7.dmg"
-    },
-    {
-      "date": "2026-07-13T15:03:59Z",
-      "appName": "Notepad.exe",
-      "slug": "notepadexe/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.4.1929",
-      "newVersion": "1.5.0",
-      "installerUrl": "https://github.com/notepadhq/notepadexe-public/releases/download/1.5.0/Notepad.zip"
-    },
-    {
-      "date": "2026-07-13T15:03:59Z",
-      "appName": "NordVPN",
-      "slug": "nordvpn/windows",
-      "platform": "windows",
-      "oldVersion": "8.5.1.0",
-      "newVersion": "8.6.1.0",
-      "installerUrl": "https://downloads.nordcdn.com/apps/windows/NordVPN/8.6.1.0/NordVPNInstall.exe"
-    },
-    {
-      "date": "2026-07-13T15:03:59Z",
       "appName": "GOG Galaxy",
       "slug": "gog-galaxy/darwin",
       "platform": "darwin",
@@ -8999,6 +8900,105 @@
       "oldVersion": "1.98.9",
       "newVersion": "1.98.10",
       "installerUrl": "https://pkgs.tailscale.com/stable/Tailscale-1.98.10-macos.pkg"
+    },
+    {
+      "date": "2026-07-29T17:19:04Z",
+      "appName": "Elgato Camera Hub",
+      "slug": "elgato-camera-hub/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.3.0.7229",
+      "newVersion": "2.3.0.7275",
+      "installerUrl": "https://edge.elgato.com/egc/macos/echm/2.3.0/CameraHub_2.3.0.7275.pkg"
+    },
+    {
+      "date": "2026-07-29T17:19:04Z",
+      "appName": "Wispr Flow",
+      "slug": "wispr-flow/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.6.224",
+      "newVersion": "1.6.288",
+      "installerUrl": "https://dl.wisprflow.com/wispr-flow/darwin/arm64/dmgs/Flow-v1.6.288.dmg"
+    },
+    {
+      "date": "2026-07-29T17:19:04Z",
+      "appName": "AnyBurn",
+      "slug": "anyburn/windows",
+      "platform": "windows",
+      "oldVersion": "6.8.0.0",
+      "newVersion": "6.9.0.0",
+      "installerUrl": "https://anyburn.com/anyburn_setup.exe"
+    },
+    {
+      "date": "2026-07-29T17:19:04Z",
+      "appName": "ProtonVPN",
+      "slug": "protonvpn/windows",
+      "platform": "windows",
+      "oldVersion": "5.1.5",
+      "newVersion": "5.1.6",
+      "installerUrl": "https://vpn.protondownload.com/download/ProtonVPN_v5.1.6_x64.exe"
+    },
+    {
+      "date": "2026-07-29T17:19:04Z",
+      "appName": "MacPacker",
+      "slug": "macpacker/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.18.0",
+      "newVersion": "0.18.1",
+      "installerUrl": "https://macpacker-releases.s3.amazonaws.com/MacPacker_v0.18.1.zip"
+    },
+    {
+      "date": "2026-07-29T17:19:04Z",
+      "appName": "Microsoft Visual Studio Code",
+      "slug": "visual-studio-code/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.130.0",
+      "newVersion": "1.131.0",
+      "installerUrl": "https://update.code.visualstudio.com/1.131.0/darwin-universal/stable"
+    },
+    {
+      "date": "2026-07-29T17:19:04Z",
+      "appName": "Spyder",
+      "slug": "spyder/darwin",
+      "platform": "darwin",
+      "oldVersion": "6.1.5",
+      "newVersion": "6.1.6",
+      "installerUrl": "https://github.com/spyder-ide/spyder/releases/download/v6.1.6/Spyder-macOS-arm64.pkg"
+    },
+    {
+      "date": "2026-07-29T17:19:04Z",
+      "appName": "DataSpell",
+      "slug": "dataspell/darwin",
+      "platform": "darwin",
+      "oldVersion": "2026.1.2",
+      "newVersion": "2026.1.3",
+      "installerUrl": "https://download.jetbrains.com/python/dataspell-2026.1.3-aarch64.dmg"
+    },
+    {
+      "date": "2026-07-29T17:19:04Z",
+      "appName": "Typinator",
+      "slug": "typinator/darwin",
+      "platform": "darwin",
+      "oldVersion": "10.1",
+      "newVersion": "10.2",
+      "installerUrl": "https://storage.ergonis.com/apps/production/typinator/archive/Typinator_102.dmg"
+    },
+    {
+      "date": "2026-07-29T17:19:04Z",
+      "appName": "ChatGPT Desktop",
+      "slug": "chatgpt/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.721.41059",
+      "newVersion": "26.721.81911",
+      "installerUrl": "https://persistent.oaistatic.com/codex-app-prod/ChatGPT-darwin-arm64-26.721.81911.zip"
+    },
+    {
+      "date": "2026-07-29T17:19:04Z",
+      "appName": "ChatWise",
+      "slug": "chatwise/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.7.4",
+      "newVersion": "26.7.5",
+      "installerUrl": "https://releases.chatwise.app/26.7.5/ChatWise-26.7.5-arm64.dmg"
     }
   ]
 }
