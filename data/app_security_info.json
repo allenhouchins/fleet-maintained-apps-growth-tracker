@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-29T05:00:09Z",
+  "lastUpdated": "2026-07-29T05:02:36Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1258,14 +1258,14 @@
     {
       "slug": "aws-cli/windows",
       "name": "AWS Command Line Interface v2",
-      "version": "2.36.9",
-      "sha256": "4758b5eae8a6d1d8739292fcd464bd832712048c859865121111bb7155f2f148",
+      "version": "2.36.10",
+      "sha256": "402e40c451acec71e3f65980fc63f006b0fde53f2647d4c153ee13545efe1f29",
       "publisher": "CN=\"Amazon Web Services, Inc.\", OU=AWS, O=\"Amazon Web Services, Inc.\", L=Seattle, S=Washington, C=US, SERIALNUMBER=4152954, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0590C4CF0DB014199953A68CFCE9B0E7",
       "thumbprint": "81A9EFB93199F2C7441EE14050360EDAB7E8242A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-07-28T04:35:34Z"
+      "lastUpdated": "2026-07-29T05:00:42Z"
     },
     {
       "slug": "aws-sam-cli/windows",
@@ -1333,14 +1333,26 @@
     {
       "slug": "azul-zulu-25-jre/windows",
       "name": "Azul Zulu JRE 25",
-      "version": "25.34.17",
-      "sha256": "f20f539ab07d4f1f27fed040d2e43f358b3b269b980abcdf91b22a70bd11b17d",
-      "publisher": "CN=\"Azul Systems, Inc.\", O=\"Azul Systems, Inc.\", L=Sunnyvale, S=California, C=US",
+      "version": "25.36.15",
+      "sha256": "e752eb97490b45719f636e8669af7ed634665f3ba829e8b4317a3b7f9571a389",
+      "publisher": "CN=\"Azul Systems, Inc.\", O=\"Azul Systems, Inc.\", L=Sunnyvale, S=California, C=US, SERIALNUMBER=3500498, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
-      "serialNumber": "0372BC44F559F6946440B58D0A1921A0",
-      "thumbprint": "2C02F523C3748B1D850420B27AAD3CB65671F8B9",
+      "serialNumber": "0E272304652AABBC44DA810B574035B2",
+      "thumbprint": "D4605D9421BA7A7AE70F4C82499E2C6B3F5C9BA9",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-05-29T04:37:00Z"
+      "lastUpdated": "2026-07-29T05:00:52Z"
+    },
+    {
+      "slug": "azure-data-studio/windows",
+      "name": "Azure Data Studio",
+      "version": "1.52.0",
+      "sha256": "47fe18009866cdff62db64a4a3e2f8f072826a45b23e24006ceb6bde7eec907e",
+      "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "issuer": "CN=Microsoft Code Signing PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "serialNumber": "3300000403BDD5955D0F3B18AD000000000403",
+      "thumbprint": "245D262748012A4FE6CE8BA6C951A4C4AFBC3E5D",
+      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:6B05-05E0-D947, OU=Microsoft Ireland Operations Limited, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-07-29T05:00:57Z"
     },
     {
       "slug": "azure-functions-core-tools/windows",
@@ -2284,14 +2296,14 @@
     {
       "slug": "chatbox/windows",
       "name": "Chatbox",
-      "version": "1.21.1",
-      "sha256": "6eee2f536ba32336042fc7bdc6f2f90bb1d2c68ad24b3117d6f4689280c5e55c",
+      "version": "1.22.1",
+      "sha256": "476666ea51fb725b7453dace0934a0f186672545115dfa931e015d28e05ffb3f",
       "publisher": "CN=\"Mediocre, LLC\", O=\"Mediocre, LLC\", L=NEWARK, S=DELAWARE, C=US, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=10053229, OID.2.5.4.15=Private Organization",
       "issuer": "CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
       "serialNumber": "44700F2E934C58424E9B6606",
       "thumbprint": "5DEDBB1C58FED1BB8FDE1DD6A807C931394AEF7D",
       "timestamp": "CN=Globalsign R45 TSA for CodeSign 202510, O=GlobalSign nv-sa, C=BE",
-      "lastUpdated": "2026-07-08T20:32:04Z"
+      "lastUpdated": "2026-07-29T05:01:03Z"
     },
     {
       "slug": "chatgpt-atlas/darwin",
@@ -2954,14 +2966,14 @@
     {
       "slug": "crashplan/windows",
       "name": "CrashPlan",
-      "version": "11.9.1.19",
-      "sha256": "0cdbf330df6d819dc76ef1c734f0a229198fa033da005622ddf72b95f70482e3",
+      "version": "12.0.0.735",
+      "sha256": "d4c0fa5ad33c97d69850fdd3b4efa1664b3e74440c61a1a8aa25f32334de6c32",
       "publisher": "CN=CrashPlan Group LLC, O=CrashPlan Group LLC, L=Minneapolis, S=Minnesota, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0F73BA2A71FA7B959B05B8D97E5C50A0",
       "thumbprint": "330A4484DEEA95A7ACCB8E01635AC63F7908E5CC",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-04-03T17:52:23Z"
+      "lastUpdated": "2026-07-29T05:02:11Z"
     },
     {
       "slug": "creative-force-kelvin/windows",
@@ -3247,9 +3259,9 @@
     {
       "slug": "dataflare/windows",
       "name": "Dataflare",
-      "version": "3.1.5",
-      "sha256": "99f7cdc5697ff8f488b011e4bcf7c2131df5bcf328509d74e927b45069016496",
-      "lastUpdated": "2026-07-23T21:07:33Z"
+      "version": "3.1.6",
+      "sha256": "a57017433f3e277cd9ef8f9a9765b8612a510088aab0fa58e32e1de6d6d7e10d",
+      "lastUpdated": "2026-07-29T05:02:13Z"
     },
     {
       "slug": "datagrip/darwin",
@@ -3517,14 +3529,14 @@
     {
       "slug": "delinea-connection-manager/windows",
       "name": "Delinea Connection Manager",
-      "version": "2.8.3.7",
-      "sha256": "033784500117bee8f62462416d841e957eabe3e3c80e8a4e0df19e36487ba0bd",
+      "version": "2.9.0.33",
+      "sha256": "269ea3076057bf9b37ad71fbffbf178526fd55a710fe5b9c737b90ef47e25198",
       "publisher": "CN=Delinea Inc., O=Delinea Inc., L=San Francisco, S=California, C=US, SERIALNUMBER=3777797, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "04AEF8945A92E1B1E372DC0847F8DCD6",
       "thumbprint": "9F5166C1C3416D58C6A976F5BB7C2D4BA818B879",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-07-10T14:09:13Z"
+      "lastUpdated": "2026-07-29T05:02:18Z"
     },
     {
       "slug": "dell-command-update/windows",
@@ -3854,14 +3866,14 @@
     {
       "slug": "docker/windows",
       "name": "Docker Desktop",
-      "version": "4.83.0",
-      "sha256": "d812d89da0cda66c97cdf9decb60debf17d71c358900db33c48eb9ee9604f40c",
+      "version": "4.84.0",
+      "sha256": "fe54164c1ceb9e2004137e22e4013826baccf2352c1cedb27e8daa8e56230dd7",
       "publisher": "CN=Docker Inc, O=Docker Inc, L=Palo Alto, S=California, C=US, SERIALNUMBER=4817464, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0DCE683683AE70C7C647ADDB7E609A9A",
       "thumbprint": "B6BD29272B07AD4D0F1322A739499D67CA3BAC3F",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-07-20T20:27:28Z"
+      "lastUpdated": "2026-07-29T05:02:32Z"
     },
     {
       "slug": "dockfix/darwin",
@@ -3968,14 +3980,14 @@
     {
       "slug": "drawio/windows",
       "name": "draw.io",
-      "version": "30.4.1",
-      "sha256": "dd1e7ba4ffb277318a21908472ee47d84dfd2e800d23d8616256c6ded81873fb",
+      "version": "31.0.2",
+      "sha256": "889b3b83f5927771ff3b0e7f80fee7d95eebbc31a6a64edd46dffe42a7e3f5c9",
       "publisher": "CN=draw.io Ltd, O=draw.io Ltd, L=Northampton, S=Northamptonshire, C=GB",
-      "issuer": "CN=Microsoft ID Verified CS AOC CA 04, O=Microsoft Corporation, C=US",
-      "serialNumber": "330003687642C6A0189E1991DD000000036876",
-      "thumbprint": "687BF6F230B84DD98859914C1A2165BCAB2B7A1C",
+      "issuer": "CN=Microsoft ID Verified CS AOC CA 03, O=Microsoft Corporation, C=US",
+      "serialNumber": "3300038FE3E2C51BEE85858F33000000038FE3",
+      "thumbprint": "3664F907763A57CD845367BF76D10094A097F593",
       "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7800-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-07-23T21:07:55Z"
+      "lastUpdated": "2026-07-29T05:02:36Z"
     },
     {
       "slug": "drofus/windows",
