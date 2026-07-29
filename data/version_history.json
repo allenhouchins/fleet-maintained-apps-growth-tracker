@@ -2,24 +2,6 @@
   "changes": [
     {
       "date": "2026-07-13T15:03:59Z",
-      "appName": "Eclipse Temurin JDK 17",
-      "slug": "eclipse-temurin-jdk-17/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "17.0.19.10",
-      "installerUrl": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19+10/OpenJDK17U-jdk_x64_windows_hotspot_17.0.19_10.msi"
-    },
-    {
-      "date": "2026-07-13T15:03:59Z",
-      "appName": "Tuple",
-      "slug": "tuple/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.1.1",
-      "newVersion": "3.1.2",
-      "installerUrl": "https://d32ifkf9k9ezcg.cloudfront.net/production/sparkle/tuple-3.1.2-2026-07-13-b931d41cb7.zip"
-    },
-    {
-      "date": "2026-07-13T15:03:59Z",
       "appName": "CotEditor",
       "slug": "coteditor/darwin",
       "platform": "darwin",
@@ -8999,6 +8981,24 @@
       "oldVersion": "7.1.0",
       "newVersion": "7.1.1",
       "installerUrl": "https://github.com/gitify-app/gitify/releases/download/v7.1.1/Gitify-7.1.1-universal-mac.zip"
+    },
+    {
+      "date": "2026-07-29T21:04:21Z",
+      "appName": "Zed",
+      "slug": "zed/windows",
+      "platform": "windows",
+      "oldVersion": "1.12.1",
+      "newVersion": "1.13.1",
+      "installerUrl": "https://github.com/zed-industries/zed/releases/download/v1.13.1/Zed-x86_64.exe"
+    },
+    {
+      "date": "2026-07-29T21:04:21Z",
+      "appName": "Zed",
+      "slug": "zed/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.12.1",
+      "newVersion": "1.13.1",
+      "installerUrl": "https://zed.dev/api/releases/stable/1.13.1/Zed-aarch64.dmg"
     }
   ]
 }
