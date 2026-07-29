@@ -2,159 +2,6 @@
   "changes": [
     {
       "date": "2026-07-13T15:03:59Z",
-      "appName": "GOG Galaxy",
-      "slug": "gog-galaxy/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.0.100.1",
-      "newVersion": "2.1.6.26",
-      "installerUrl": "https://gog-cdn-fastly.gog.com/open/galaxy/client/galaxy_client_2.1.6.26.pkg"
-    },
-    {
-      "date": "2026-07-13T15:03:59Z",
-      "appName": "Dot",
-      "slug": "dot/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.3.0",
-      "newVersion": "2.3.1",
-      "installerUrl": "https://github.com/prateekkeshari/dot-releases/releases/download/v2.3.1/Dot-2.3.1.dmg"
-    },
-    {
-      "date": "2026-07-13T15:03:59Z",
-      "appName": "OneDrive",
-      "slug": "onedrive/windows",
-      "platform": "windows",
-      "oldVersion": "26.108.0607.0002",
-      "newVersion": "26.113.0614.0004",
-      "installerUrl": "https://oneclient.sfx.ms/Win/Installers/26.113.0614.0004/amd64/OneDriveSetup.exe"
-    },
-    {
-      "date": "2026-07-13T15:03:59Z",
-      "appName": "OnlySwitch",
-      "slug": "only-switch/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.6.9",
-      "newVersion": "2.6.10",
-      "installerUrl": "https://github.com/jacklandrin/OnlySwitch/releases/download/release_2.6.10/OnlySwitch.dmg"
-    },
-    {
-      "date": "2026-07-13T15:03:59Z",
-      "appName": "Stats",
-      "slug": "stats/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.0.7",
-      "newVersion": "3.0.8",
-      "installerUrl": "https://github.com/exelban/stats/releases/download/v3.0.8/Stats.dmg"
-    },
-    {
-      "date": "2026-07-13T15:03:59Z",
-      "appName": "CodexBar",
-      "slug": "codexbar/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.41.0",
-      "newVersion": "0.42.1",
-      "installerUrl": "https://github.com/steipete/CodexBar/releases/download/v0.42.1/CodexBar-macos-universal-0.42.1.zip"
-    },
-    {
-      "date": "2026-07-13T15:03:59Z",
-      "appName": "DataGrip",
-      "slug": "datagrip/windows",
-      "platform": "windows",
-      "oldVersion": "2026.1.3",
-      "newVersion": "2026.1.4",
-      "installerUrl": "https://download.jetbrains.com/datagrip/datagrip-2026.1.4.exe"
-    },
-    {
-      "date": "2026-07-13T15:03:59Z",
-      "appName": "RewriteBar",
-      "slug": "rewritebar/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.30.0",
-      "newVersion": "2.30.1",
-      "installerUrl": "https://rewritebar.com/download/v2.30.1.zip"
-    },
-    {
-      "date": "2026-07-13T15:03:59Z",
-      "appName": "Eclipse Temurin JRE 11",
-      "slug": "eclipse-temurin-jre-11/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "11.0.31.11",
-      "installerUrl": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.31+11/OpenJDK11U-jre_x64_windows_hotspot_11.0.31_11.msi"
-    },
-    {
-      "date": "2026-07-13T15:03:59Z",
-      "appName": "Enpass",
-      "slug": "enpass/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "6.12.2.2551",
-      "installerUrl": "https://dl.enpass.io/stable/windows/setup/x64/6.12.2.2551/Enpass-setup.exe"
-    },
-    {
-      "date": "2026-07-13T15:03:59Z",
-      "appName": "WebCatalog",
-      "slug": "webcatalog/darwin",
-      "platform": "darwin",
-      "oldVersion": "77.1.0",
-      "newVersion": "77.2.0",
-      "installerUrl": "https://cdn-2.webcatalog.io/webcatalog/WebCatalog-77.2.0-universal.dmg"
-    },
-    {
-      "date": "2026-07-13T15:03:59Z",
-      "appName": "Apidog",
-      "slug": "apidog/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.8.37",
-      "newVersion": "2.8.38",
-      "installerUrl": "https://file-assets.apidog.com/download/2.8.38/legacy-Apidog-macOS-arm64-2.8.38.dmg"
-    },
-    {
-      "date": "2026-07-13T15:03:59Z",
-      "appName": "Termius",
-      "slug": "termius/windows",
-      "platform": "windows",
-      "oldVersion": "9.40.1",
-      "newVersion": "9.41.1",
-      "installerUrl": "https://autoupdate.termius.com/windows/Install%20Termius.exe"
-    },
-    {
-      "date": "2026-07-13T15:03:59Z",
-      "appName": "LookAway",
-      "slug": "lookaway/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.2.5",
-      "newVersion": "2.2.6",
-      "installerUrl": "https://github.com/mysticalbits/lookaway-releases/releases/download/2.2.6/LookAway.dmg"
-    },
-    {
-      "date": "2026-07-13T15:03:59Z",
-      "appName": "Eclipse Temurin JRE 8",
-      "slug": "eclipse-temurin-jre-8/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "8.0.492.9",
-      "installerUrl": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u492-b09/OpenJDK8U-jre_x64_windows_hotspot_8u492b09.msi"
-    },
-    {
-      "date": "2026-07-13T15:03:59Z",
-      "appName": "Zed",
-      "slug": "zed/windows",
-      "platform": "windows",
-      "oldVersion": "1.10.1",
-      "newVersion": "1.10.3",
-      "installerUrl": "https://github.com/zed-industries/zed/releases/download/v1.10.3/Zed-x86_64.exe"
-    },
-    {
-      "date": "2026-07-13T15:03:59Z",
-      "appName": "ocenaudio",
-      "slug": "ocenaudio/windows",
-      "platform": "windows",
-      "oldVersion": "3.19.5",
-      "newVersion": "3.20.0",
-      "installerUrl": "https://www.ocenaudio.com/downloads/index.php/ocenaudio_windows64.exe"
-    },
-    {
-      "date": "2026-07-13T15:03:59Z",
       "appName": "Eclipse Temurin JDK 17",
       "slug": "eclipse-temurin-jdk-17/windows",
       "platform": "windows",
@@ -8999,6 +8846,159 @@
       "oldVersion": "26.7.4",
       "newVersion": "26.7.5",
       "installerUrl": "https://releases.chatwise.app/26.7.5/ChatWise-26.7.5-arm64.dmg"
+    },
+    {
+      "date": "2026-07-29T19:21:48Z",
+      "appName": "AdLock",
+      "slug": "adlock/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.1.8.9",
+      "newVersion": "2.1.9.1",
+      "installerUrl": "https://downloads.adlock.com/mac/AdLock_Installer.dmg"
+    },
+    {
+      "date": "2026-07-29T19:21:48Z",
+      "appName": "TeamViewer",
+      "slug": "teamviewer/windows",
+      "platform": "windows",
+      "oldVersion": "15.79.4",
+      "newVersion": "15.80.4",
+      "installerUrl": "https://download.teamviewer.com/download/version_15x/TeamViewer_Setup_x64_15.80.4.exe"
+    },
+    {
+      "date": "2026-07-29T19:21:48Z",
+      "appName": "JetBrains Toolbox",
+      "slug": "jetbrains-toolbox/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.6.2",
+      "newVersion": "3.6.3",
+      "installerUrl": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-3.6.3.86383-arm64.dmg"
+    },
+    {
+      "date": "2026-07-29T19:21:48Z",
+      "appName": "Vivaldi",
+      "slug": "vivaldi/darwin",
+      "platform": "darwin",
+      "oldVersion": "8.1.4087.58",
+      "newVersion": "8.1.4087.61",
+      "installerUrl": "https://downloads.vivaldi.com/stable/Vivaldi.8.1.4087.61.universal.dmg"
+    },
+    {
+      "date": "2026-07-29T19:21:48Z",
+      "appName": "superwhisper",
+      "slug": "superwhisper/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.16.6",
+      "newVersion": "2.17.0",
+      "installerUrl": "https://builds.superwhisper.com/v2.17.0/superwhisper.zip"
+    },
+    {
+      "date": "2026-07-29T19:21:48Z",
+      "appName": "Mimestream",
+      "slug": "mimestream/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.10.5",
+      "newVersion": "1.10.6",
+      "installerUrl": "https://download.mimestream.com/Mimestream_1.10.6.dmg"
+    },
+    {
+      "date": "2026-07-29T19:21:48Z",
+      "appName": "Microsoft 365 Copilot",
+      "slug": "microsoft-365-copilot/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.2607.1302",
+      "newVersion": "1.2607.2001",
+      "installerUrl": "https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_365_Copilot_universal_1.2607.2001_Installer.pkg"
+    },
+    {
+      "date": "2026-07-29T19:21:48Z",
+      "appName": "CodexBar",
+      "slug": "codexbar/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.45.2",
+      "newVersion": "0.46.0",
+      "installerUrl": "https://github.com/steipete/CodexBar/releases/download/v0.46.0/CodexBar-macos-universal-0.46.0.zip"
+    },
+    {
+      "date": "2026-07-29T19:21:48Z",
+      "appName": "Egnyte",
+      "slug": "egnyte/windows",
+      "platform": "windows",
+      "oldVersion": "4.4.1.198",
+      "newVersion": "4.5.1.201",
+      "installerUrl": "https://egnyte-cdn.egnyte.com/egnytedrive/win/en-us/4.5.1/EgnyteDesktopApp_4.5.1_201.msi"
+    },
+    {
+      "date": "2026-07-29T19:21:48Z",
+      "appName": "BoltAI 2",
+      "slug": "boltai/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.14.0",
+      "newVersion": "2.14.1",
+      "installerUrl": "https://updates.boltai.com/dmg/BoltAI-2.14.1.dmg"
+    },
+    {
+      "date": "2026-07-29T19:21:48Z",
+      "appName": "Mozilla Firefox Developer Edition",
+      "slug": "firefox@developer-edition/darwin",
+      "platform": "darwin",
+      "oldVersion": "154.0b3",
+      "newVersion": "154.0b4",
+      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/154.0b4/mac/en-US/Firefox%20154.0b4.dmg"
+    },
+    {
+      "date": "2026-07-29T19:21:48Z",
+      "appName": "Spokenly",
+      "slug": "spokenly/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.27.1",
+      "newVersion": "2.27.2",
+      "installerUrl": "https://cdn.spokenly.app/releases/macos/Spokenly-2.27.2.dmg"
+    },
+    {
+      "date": "2026-07-29T19:21:48Z",
+      "appName": "JetBrains Toolbox",
+      "slug": "jetbrains-toolbox/windows",
+      "platform": "windows",
+      "oldVersion": "3.6.2.0",
+      "newVersion": "3.6.3.0",
+      "installerUrl": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-3.6.3.86383.exe"
+    },
+    {
+      "date": "2026-07-29T19:21:48Z",
+      "appName": "BetterTouchTool",
+      "slug": "bettertouchtool/darwin",
+      "platform": "darwin",
+      "oldVersion": "6.663",
+      "newVersion": "6.681",
+      "installerUrl": "https://folivora.ai/releases/btt6.681-2026072903.zip"
+    },
+    {
+      "date": "2026-07-29T19:21:48Z",
+      "appName": "Another Redis Desktop Manager",
+      "slug": "another-redis-desktop-manager/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.7.1",
+      "newVersion": "1.7.2",
+      "installerUrl": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v1.7.2/Another-Redis-Desktop-Manager-mac-1.7.2-arm64.dmg"
+    },
+    {
+      "date": "2026-07-29T19:21:48Z",
+      "appName": "Tower",
+      "slug": "tower/darwin",
+      "platform": "darwin",
+      "oldVersion": "17.0",
+      "newVersion": "17.1",
+      "installerUrl": "https://www.git-tower.com/apps/tower3-mac/551-751159f7/Tower-17.1-551.zip"
+    },
+    {
+      "date": "2026-07-29T19:21:48Z",
+      "appName": "Gitify",
+      "slug": "gitify/darwin",
+      "platform": "darwin",
+      "oldVersion": "7.1.0",
+      "newVersion": "7.1.1",
+      "installerUrl": "https://github.com/gitify-app/gitify/releases/download/v7.1.1/Gitify-7.1.1-universal-mac.zip"
     }
   ]
 }
