@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-29T05:03:31Z",
+  "lastUpdated": "2026-07-29T05:04:15Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -8694,14 +8694,14 @@
     {
       "slug": "nextcloud/windows",
       "name": "Nextcloud",
-      "version": "33.0.7",
-      "sha256": "e769eb953e4ad3f8e6f40298d8c398b72307a44c93830210e84a24b517324444",
+      "version": "34.0.0",
+      "sha256": "505c3d235d10a13a14b254bbad3d81ffab1b8414958015a658ee79118f58d04b",
       "publisher": "CN=Nextcloud GmbH, O=Nextcloud GmbH, S=Baden-Württemberg, C=DE",
       "issuer": "CN=Sectigo Public Code Signing CA R36, O=Sectigo Limited, C=GB",
       "serialNumber": "00BF5A991AFB9ACA79C3329007B9AA620A",
       "thumbprint": "9C81A764910FFF3D0B8BC1613EFD72CCF4828EC3",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-06-29T18:53:20Z"
+      "lastUpdated": "2026-07-29T05:03:42Z"
     },
     {
       "slug": "nightfall/darwin",
@@ -10944,6 +10944,18 @@
       "lastUpdated": "2026-07-03T19:43:55Z"
     },
     {
+      "slug": "rtools/windows",
+      "name": "Rtools",
+      "version": "4.5.6768",
+      "sha256": "614c7378150a012e70b16edcfe5236dcead47f491f1f54203ea8d451c7743a75",
+      "publisher": "CN=Martyn Plummer, O=Martyn Plummer, S=West Midlands, C=GB",
+      "issuer": "CN=Sectigo Public Code Signing CA R36, O=Sectigo Limited, C=GB",
+      "serialNumber": "7BF495B1189AB58AE409EEEED121F2D4",
+      "thumbprint": "8CDAF7DB3864177958C5CCBC02F5CB3C74614979",
+      "timestamp": "CN=Sectigo Public Time Stamping Signer R36, O=Sectigo Limited, S=West Yorkshire, C=GB",
+      "lastUpdated": "2026-07-29T05:03:53Z"
+    },
+    {
       "slug": "rubymine/darwin",
       "name": "RubyMine",
       "version": "2026.2",
@@ -11824,14 +11836,14 @@
     {
       "slug": "sql-server-management-studio/windows",
       "name": "SQL Server Management Studio",
-      "version": "22.8.1",
-      "sha256": "9146a054df61eb63593dd557359b4397eade954c07d1c56ff874884b46563a97",
+      "version": "22.8.2",
+      "sha256": "48e041e0c0733e22d9035a085cfea82370c9ca1dc0dcc8f8d2717453f8b5e35f",
       "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
       "issuer": "CN=Microsoft Code Signing PCA 2024, O=Microsoft Corporation, C=US",
       "serialNumber": "330000021D4D19C84ED70F574800000000021D",
       "thumbprint": "AB172913A2960A224809EE8A0C371CD47A079B72",
-      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:E002-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-07-28T04:37:11Z"
+      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:3303-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-07-29T05:03:55Z"
     },
     {
       "slug": "sqlectron/darwin",
@@ -12335,14 +12347,14 @@
     {
       "slug": "tailscale/windows",
       "name": "Tailscale",
-      "version": "1.98.9",
-      "sha256": "5b0b900a6b5863efd8051ddfc11847cc3b51dd36c0b447de1f0ebdf4671ea787",
+      "version": "1.98.10",
+      "sha256": "02a9c1c2ef502fbd1708232dbb14661001c59408b5606537069e421272e900c2",
       "publisher": "CN=Tailscale Inc., O=Tailscale Inc., L=Toronto, S=Ontario, C=CA, SERIALNUMBER=1131559-5, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CA",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0E072778983CE8A4E170BF6E51E3D225",
       "thumbprint": "108F172FDE945B21A5C0696731D6220D67D1C39E",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-07-16T15:48:44Z"
+      "lastUpdated": "2026-07-29T05:04:01Z"
     },
     {
       "slug": "taskade/darwin",
@@ -12606,14 +12618,14 @@
     {
       "slug": "thunderbird/windows",
       "name": "Thunderbird",
-      "version": "153.0",
-      "sha256": "a20b2c70dcdd4b6e4b419eac0dc11c97fa688202182587ccbe79792d78607a73",
+      "version": "153.0.1",
+      "sha256": "744a51965ae6fe36a7ec660d8c080fd108cca732e9aec3f9a31324321c6be1ca",
       "publisher": "CN=Mozilla Corporation, OU=Firefox Engineering Operations, O=Mozilla Corporation, L=San Francisco, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0F0EF7C2D819273E8C13F016D2E09B25",
       "thumbprint": "6663D5C4FDAF9EFD5F823A26C9C410DC9928C44A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-07-24T04:39:26Z"
+      "lastUpdated": "2026-07-29T05:04:04Z"
     },
     {
       "slug": "ticktick/darwin",
