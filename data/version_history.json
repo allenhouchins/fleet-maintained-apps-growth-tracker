@@ -2,60 +2,6 @@
   "changes": [
     {
       "date": "2026-07-13T15:03:59Z",
-      "appName": "Eclipse Temurin JRE 17",
-      "slug": "eclipse-temurin-jre-17/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "17.0.19.10",
-      "installerUrl": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19+10/OpenJDK17U-jre_x64_windows_hotspot_17.0.19_10.msi"
-    },
-    {
-      "date": "2026-07-13T15:03:59Z",
-      "appName": "Pritunl",
-      "slug": "pritunl/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.3.4655.98",
-      "newVersion": "1.3.4686.95",
-      "installerUrl": "https://github.com/pritunl/pritunl-client-electron/releases/download/1.3.4686.95/Pritunl.pkg.zip"
-    },
-    {
-      "date": "2026-07-13T15:03:59Z",
-      "appName": "Eclipse Temurin JRE 21",
-      "slug": "eclipse-temurin-jre-21/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "21.0.11.10",
-      "installerUrl": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11+10/OpenJDK21U-jre_x64_windows_hotspot_21.0.11_10.msi"
-    },
-    {
-      "date": "2026-07-13T15:03:59Z",
-      "appName": "Postman",
-      "slug": "postman/windows",
-      "platform": "windows",
-      "oldVersion": "12.18.5",
-      "newVersion": "12.19.0",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.19.0/windows_64"
-    },
-    {
-      "date": "2026-07-13T15:03:59Z",
-      "appName": "Postman",
-      "slug": "postman/darwin",
-      "platform": "darwin",
-      "oldVersion": "12.18.4",
-      "newVersion": "12.19.0",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.19.0/osx_arm64"
-    },
-    {
-      "date": "2026-07-13T15:03:59Z",
-      "appName": "Transmission",
-      "slug": "transmission/windows",
-      "platform": "windows",
-      "oldVersion": "4.1.2",
-      "newVersion": "4.1.3",
-      "installerUrl": "https://github.com/transmission/transmission/releases/download/4.1.3/transmission-4.1.3-x64.msi"
-    },
-    {
-      "date": "2026-07-13T15:03:59Z",
       "appName": "MacWhisper",
       "slug": "macwhisper/darwin",
       "platform": "darwin",
@@ -8999,6 +8945,60 @@
       "oldVersion": "5.3.2.1",
       "newVersion": "5.3.3.0",
       "installerUrl": "https://download.kde.org/stable/krita/5.3.3/krita-x64-5.3.3-setup.exe"
+    },
+    {
+      "date": "2026-07-30T06:34:07Z",
+      "appName": "Devin Desktop",
+      "slug": "devin-desktop/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.5.17",
+      "newVersion": "3.6.22",
+      "installerUrl": "https://windsurf-stable.codeiumdata.com/darwin-arm64-dmg/stable/d5152ff5891d78b46644988943b78f408d06b861/Devin-darwin-arm64-3.6.22.dmg"
+    },
+    {
+      "date": "2026-07-30T06:34:07Z",
+      "appName": "Linear",
+      "slug": "linear/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.31.1",
+      "newVersion": "1.32.0",
+      "installerUrl": "https://releases.linear.app/Linear-1.32.0-universal.dmg"
+    },
+    {
+      "date": "2026-07-30T06:34:07Z",
+      "appName": "AWS Command Line Interface v2",
+      "slug": "aws-cli/windows",
+      "platform": "windows",
+      "oldVersion": "2.36.10",
+      "newVersion": "2.36.11",
+      "installerUrl": "https://awscli.amazonaws.com/AWSCLIV2-2.36.11.msi"
+    },
+    {
+      "date": "2026-07-30T06:34:07Z",
+      "appName": "Gitify",
+      "slug": "gitify/darwin",
+      "platform": "darwin",
+      "oldVersion": "7.1.1",
+      "newVersion": "7.2.0",
+      "installerUrl": "https://github.com/gitify-app/gitify/releases/download/v7.2.0/Gitify-7.2.0-universal-mac.zip"
+    },
+    {
+      "date": "2026-07-30T06:34:07Z",
+      "appName": "Rancher Desktop",
+      "slug": "rancher/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.23.1",
+      "newVersion": "1.24.0",
+      "installerUrl": "https://github.com/rancher-sandbox/rancher-desktop/releases/download/v1.24.0/Rancher.Desktop-1.24.0.aarch64.dmg"
+    },
+    {
+      "date": "2026-07-30T06:34:07Z",
+      "appName": "GoLand",
+      "slug": "goland/windows",
+      "platform": "windows",
+      "oldVersion": "2026.2.0.1",
+      "newVersion": "2026.2",
+      "installerUrl": "https://download.jetbrains.com/go/goland-2026.2.exe"
     }
   ]
 }
