@@ -5,13 +5,20 @@
     <link>https://fmalibrary.com</link>
     <description>Track version updates and new app additions for Fleet-maintained apps. Get notified when apps are updated with new versions or when new apps are added to the library.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Jul 2026 18:22:09 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 20:20:13 +0000</lastBuildDate>
     <atom:link href="https://fmalibrary.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://fmalibrary.com/cloud-city.png</url>
       <title>Fleet-maintained apps</title>
       <link>https://fmalibrary.com</link>
     </image>
+    <item>
+      <title>Proton Drive 3.0.3 → 3.0.4 (Windows)</title>
+      <link>https://fmalibrary.com</link>
+      <description>Proton Drive has been updated from version 3.0.3 to 3.0.4 on July 30, 2026. &lt;a href=&quot;https://proton.me/download/drive/windows/3.0.4/x64/Proton%20Drive%20Setup%203.0.4.exe&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Thu, 30 Jul 2026 20:20:13 +0000</pubDate>
+      <guid isPermaLink="false">proton-drive/windows-3.0.3-3.0.4</guid>
+    </item>
     <item>
       <title>TREZOR Suite 26.7.2 → 26.7.3 (Mac)</title>
       <link>https://fmalibrary.com</link>
@@ -3450,25 +3457,11 @@
       <guid isPermaLink="false">heidisql/windows--12.20.0.7320</guid>
     </item>
     <item>
-      <title>Mozilla Firefox Nightly 154.2607.2009.0 → 155.2607.2120.0 (Windows)</title>
+      <title>Milanote 3.18.115 → 3.18.116 (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>Mozilla Firefox Nightly has been updated from version 154.2607.2009.0 to 155.2607.2120.0 on July 22, 2026. &lt;a href=&quot;https://ftp.mozilla.org/pub/firefox/nightly/2026/07/2026-07-21-20-23-27-mozilla-central/firefox-155.0a1.multi.win64.installer.msix&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Milanote has been updated from version 3.18.115 to 3.18.116 on July 22, 2026. &lt;a href=&quot;https://milanote-app-releases.s3.amazonaws.com/Milanote-3.18.116.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Wed, 22 Jul 2026 15:48:48 +0000</pubDate>
-      <guid isPermaLink="false">firefox@nightly/windows-154.2607.2009.0-155.2607.2120.0</guid>
-    </item>
-    <item>
-      <title>Amazon Corretto 21 21.0.11.10 → 21.0.12.8 (Windows)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Amazon Corretto 21 has been updated from version 21.0.11.10 to 21.0.12.8 on July 22, 2026. &lt;a href=&quot;https://corretto.aws/downloads/resources/21.0.12.8.1/amazon-corretto-21.0.12.8.1-windows-x64.msi&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Wed, 22 Jul 2026 15:48:48 +0000</pubDate>
-      <guid isPermaLink="false">amazon-corretto-21/windows-21.0.11.10-21.0.12.8</guid>
-    </item>
-    <item>
-      <title>Kiro 1.0.182 → 1.0.198 (Windows)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Kiro has been updated from version 1.0.182 to 1.0.198 on July 22, 2026. &lt;a href=&quot;https://prod.download.desktop.kiro.dev/releases/stable/win32-x64/signed/1.0.198/kiro-ide-1.0.198-stable-win32-x64.exe&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Wed, 22 Jul 2026 15:48:48 +0000</pubDate>
-      <guid isPermaLink="false">kiro/windows-1.0.182-1.0.198</guid>
+      <guid isPermaLink="false">milanote/darwin-3.18.115-3.18.116</guid>
     </item>
     <item>
       <title>Hive 1.2.19 → 1.2.20 (Mac)</title>
@@ -3506,11 +3499,18 @@
       <guid isPermaLink="false">chatgpt/darwin-26.715.70719-26.715.72359</guid>
     </item>
     <item>
-      <title>Badgeify 1.14.0 → 1.14.1 (Mac)</title>
+      <title>Mozilla Firefox Nightly 154.2607.2009.0 → 155.2607.2120.0 (Windows)</title>
       <link>https://fmalibrary.com</link>
-      <description>Badgeify has been updated from version 1.14.0 to 1.14.1 on July 22, 2026. &lt;a href=&quot;https://api.badgeify.app/release/download/darwin/universal/1.14.1&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Mozilla Firefox Nightly has been updated from version 154.2607.2009.0 to 155.2607.2120.0 on July 22, 2026. &lt;a href=&quot;https://ftp.mozilla.org/pub/firefox/nightly/2026/07/2026-07-21-20-23-27-mozilla-central/firefox-155.0a1.multi.win64.installer.msix&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Wed, 22 Jul 2026 15:48:48 +0000</pubDate>
-      <guid isPermaLink="false">badgeify/darwin-1.14.0-1.14.1</guid>
+      <guid isPermaLink="false">firefox@nightly/windows-154.2607.2009.0-155.2607.2120.0</guid>
+    </item>
+    <item>
+      <title>Kiro 1.0.182 → 1.0.198 (Windows)</title>
+      <link>https://fmalibrary.com</link>
+      <description>Kiro has been updated from version 1.0.182 to 1.0.198 on July 22, 2026. &lt;a href=&quot;https://prod.download.desktop.kiro.dev/releases/stable/win32-x64/signed/1.0.198/kiro-ide-1.0.198-stable-win32-x64.exe&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Wed, 22 Jul 2026 15:48:48 +0000</pubDate>
+      <guid isPermaLink="false">kiro/windows-1.0.182-1.0.198</guid>
     </item>
   </channel>
 </rss>
