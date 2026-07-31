@@ -1,249 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-07-15T02:36:34Z",
-      "appName": "OpenCode",
-      "slug": "opencode-desktop/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.17.18",
-      "newVersion": "1.18.1",
-      "installerUrl": "https://github.com/anomalyco/opencode/releases/download/v1.18.1/opencode-desktop-mac-arm64.dmg"
-    },
-    {
-      "date": "2026-07-15T02:36:34Z",
-      "appName": "Nota Gyazo GIF",
-      "slug": "gyazo/darwin",
-      "platform": "darwin",
-      "oldVersion": "10.11.0",
-      "newVersion": "10.12.0",
-      "installerUrl": "https://files.gyazo.com/setup/Gyazo-10.12.0.pkg"
-    },
-    {
-      "date": "2026-07-15T02:36:34Z",
-      "appName": "PDF Expert",
-      "slug": "pdf-expert/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.11.3",
-      "newVersion": "3.11.4",
-      "installerUrl": "https://downloads.pdfexpert.com/pem3/versions/1166/PDFExpert.zip"
-    },
-    {
-      "date": "2026-07-15T02:36:34Z",
-      "appName": "Reqable",
-      "slug": "reqable/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.2.7",
-      "newVersion": "3.2.8",
-      "installerUrl": "https://github.com/reqable/reqable-app/releases/download/3.2.8/reqable-app-macos-arm64.dmg"
-    },
-    {
-      "date": "2026-07-15T02:36:34Z",
-      "appName": "GoldenDict-ng",
-      "slug": "goldendict-ng/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "26.6.2",
-      "installerUrl": "https://github.com/xiaoyifang/goldendict-ng/releases/download/v26.6.2/GoldenDict-ng-26.6.2-Qt6.8.3-Windows-installer.exe"
-    },
-    {
-      "date": "2026-07-15T02:36:34Z",
-      "appName": "CodexBar",
-      "slug": "codexbar/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.42.1",
-      "newVersion": "0.43.0",
-      "installerUrl": "https://github.com/steipete/CodexBar/releases/download/v0.43.0/CodexBar-macos-universal-0.43.0.zip"
-    },
-    {
-      "date": "2026-07-15T02:36:34Z",
-      "appName": "Ollama",
-      "slug": "ollama/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.31.2",
-      "newVersion": "0.32.0",
-      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.32.0/Ollama-darwin.zip"
-    },
-    {
-      "date": "2026-07-15T02:36:34Z",
-      "appName": "Bitfocus Companion",
-      "slug": "companion/darwin",
-      "platform": "darwin",
-      "oldVersion": "5.0.0",
-      "newVersion": "5.0.1",
-      "installerUrl": "https://cf-pub.bitfocus.io/companion/companion/companion-mac-arm64-5.0.1-9649-stable-6acd549dd5.dmg"
-    },
-    {
-      "date": "2026-07-15T02:36:34Z",
-      "appName": "Rectangle",
-      "slug": "rectangle/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.96",
-      "newVersion": "0.97",
-      "installerUrl": "https://github.com/rxhanson/Rectangle/releases/download/v0.97/Rectangle0.97.dmg"
-    },
-    {
-      "date": "2026-07-15T02:36:34Z",
-      "appName": "Camo Studio",
-      "slug": "camo-studio/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.7.2",
-      "newVersion": "2.8.0",
-      "installerUrl": "https://releases.reincubate.com/camo/camo-macos-2.8.0.23824.zip"
-    },
-    {
-      "date": "2026-07-15T02:36:34Z",
-      "appName": "Google Ads Editor",
-      "slug": "google-ads-editor/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "14.12.6.0",
-      "installerUrl": "https://dl.google.com/release2/misc/ccmy7b6t6gzbw2miz232rfkch4_14.12.6.0/google_ads_editor.msi"
-    },
-    {
-      "date": "2026-07-15T02:36:34Z",
-      "appName": "Asana",
-      "slug": "asana/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.7.1",
-      "newVersion": "2.7.2",
-      "installerUrl": "https://desktop-downloads.asana.com/darwin_arm64/prod/v2.7.2/Asana-darwin-arm64-2.7.2.zip"
-    },
-    {
-      "date": "2026-07-15T02:36:34Z",
-      "appName": "Notepad.exe",
-      "slug": "notepadexe/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.5.1",
-      "newVersion": "1.5.2",
-      "installerUrl": "https://github.com/notepadhq/notepadexe-public/releases/download/1.5.2/Notepad.zip"
-    },
-    {
-      "date": "2026-07-15T02:36:34Z",
-      "appName": "RStudio",
-      "slug": "rstudio/windows",
-      "platform": "windows",
-      "oldVersion": "2026.06.0+242",
-      "newVersion": "2026.07.0+139",
-      "installerUrl": "https://download1.rstudio.org/electron/windows/RStudio-2026.07.0-139.exe"
-    },
-    {
-      "date": "2026-07-15T02:36:34Z",
-      "appName": "Rocket.Chat",
-      "slug": "rocket-chat/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.15.3",
-      "newVersion": "4.15.4",
-      "installerUrl": "https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/4.15.4/rocketchat-4.15.4-mac.dmg"
-    },
-    {
-      "date": "2026-07-15T02:36:34Z",
-      "appName": "Gadwin ScreenRecorder",
-      "slug": "gadwin-screenrecorder/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "4.5.0.0",
-      "installerUrl": "https://www.gadwin.com/download/ScreenRecorder450_Win64.msi"
-    },
-    {
-      "date": "2026-07-15T02:36:34Z",
-      "appName": "Microsoft .NET Runtime 8",
-      "slug": "microsoft-dotnet-runtime-8/windows",
-      "platform": "windows",
-      "oldVersion": "8.0.28",
-      "newVersion": "8.0.29",
-      "installerUrl": "https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.29/dotnet-runtime-8.0.29-win-x64.exe"
-    },
-    {
-      "date": "2026-07-15T20:12:21Z",
-      "appName": "Microsoft Word",
-      "slug": "microsoft-word/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.110.3",
-      "newVersion": "16.111",
-      "installerUrl": "https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.111.26071325_Installer.pkg"
-    },
-    {
-      "date": "2026-07-15T20:12:21Z",
-      "appName": "Reqable",
-      "slug": "reqable/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.2.8",
-      "newVersion": "3.2.9",
-      "installerUrl": "https://github.com/reqable/reqable-app/releases/download/3.2.9/reqable-app-macos-arm64.dmg"
-    },
-    {
-      "date": "2026-07-15T20:12:21Z",
-      "appName": "Marked",
-      "slug": "marked-app/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.1.11",
-      "newVersion": "3.1.12",
-      "installerUrl": "https://updates.markedapp.com/updates/Marked%203.1.12.zip"
-    },
-    {
-      "date": "2026-07-15T20:12:21Z",
-      "appName": "Reqable",
-      "slug": "reqable/windows",
-      "platform": "windows",
-      "oldVersion": "3.2.8",
-      "newVersion": "3.2.9",
-      "installerUrl": "https://github.com/reqable/reqable-app/releases/download/3.2.9/reqable-app-windows-x86_64.exe"
-    },
-    {
-      "date": "2026-07-15T20:12:21Z",
-      "appName": "Microsoft Excel",
-      "slug": "microsoft-excel/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.110.3",
-      "newVersion": "16.111",
-      "installerUrl": "https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.111.26071325_Installer.pkg"
-    },
-    {
-      "date": "2026-07-15T20:12:21Z",
-      "appName": "Google Chrome",
-      "slug": "google-chrome/darwin",
-      "platform": "darwin",
-      "oldVersion": "150.0.7871.115",
-      "newVersion": "150.0.7871.125",
-      "installerUrl": "https://dl.google.com/dl/chrome/mac/universal/stable/gcem/GoogleChrome.pkg"
-    },
-    {
-      "date": "2026-07-15T20:12:21Z",
-      "appName": "SoundAnchor",
-      "slug": "soundanchor/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.8.1",
-      "newVersion": "1.8.2",
-      "installerUrl": "https://cdn.kopiro.me/soundanchor/soundanchor-1.8.2.dmg"
-    },
-    {
-      "date": "2026-07-15T20:12:21Z",
-      "appName": "Filen",
-      "slug": "filen/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.0.47",
-      "newVersion": "3.0.50",
-      "installerUrl": "https://cdn.filen.io/@filen/desktop/release/v3.0.50/Filen_mac_arm64.dmg"
-    },
-    {
-      "date": "2026-07-15T20:12:21Z",
-      "appName": "Bdash",
-      "slug": "bdash/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.35.0",
-      "newVersion": "1.35.1",
-      "installerUrl": "https://github.com/bdash-app/bdash/releases/download/v1.35.1/Bdash-1.35.1-universal-mac.zip"
-    },
-    {
-      "date": "2026-07-15T20:12:21Z",
-      "appName": "UPDF",
-      "slug": "updf/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.5.4",
-      "newVersion": "2.5.5",
-      "installerUrl": "https://download.updf.com/updf/basic/mac/apple/updf-mac-full.dmg"
-    },
-    {
       "date": "2026-07-15T20:12:21Z",
       "appName": "Kiro CLI",
       "slug": "kiro-cli/darwin",
@@ -8999,6 +8756,249 @@
       "oldVersion": "32.2.0",
       "newVersion": "32.2.1",
       "installerUrl": "https://github.com/obsproject/obs-studio/releases/download/32.2.1/OBS-Studio-32.2.1-Windows-x64-Installer.exe"
+    },
+    {
+      "date": "2026-07-31T23:04:57Z",
+      "appName": "Spokenly",
+      "slug": "spokenly/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.27.5",
+      "newVersion": "2.27.6",
+      "installerUrl": "https://cdn.spokenly.app/releases/macos/Spokenly-2.27.6.dmg"
+    },
+    {
+      "date": "2026-07-31T23:04:57Z",
+      "appName": "Raycast",
+      "slug": "raycast/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.104.23",
+      "newVersion": "1.104.24",
+      "installerUrl": "https://releases.raycast.com/releases/1.104.24/download?build=arm"
+    },
+    {
+      "date": "2026-07-31T23:04:57Z",
+      "appName": "CMake",
+      "slug": "cmake-app/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.4.1",
+      "newVersion": "4.4.2",
+      "installerUrl": "https://cmake.org/files/v4.4/cmake-4.4.2-macos-universal.dmg"
+    },
+    {
+      "date": "2026-07-31T23:04:57Z",
+      "appName": "Dataflare",
+      "slug": "dataflare/windows",
+      "platform": "windows",
+      "oldVersion": "3.1.6",
+      "newVersion": "3.1.7",
+      "installerUrl": "https://assets.dataflare.app/release/windows/x86_64/Dataflare-Setup-3.1.7.exe"
+    },
+    {
+      "date": "2026-07-31T23:04:57Z",
+      "appName": "Cursor",
+      "slug": "cursor/windows",
+      "platform": "windows",
+      "oldVersion": "3.13.25",
+      "newVersion": "3.14.7",
+      "installerUrl": "https://downloads.cursor.com/production/a758f2241ca99fecf380180b6cbdbbce0f1f42cf/win32/x64/system-setup/CursorSetup-x64-3.14.7.exe"
+    },
+    {
+      "date": "2026-07-31T23:04:57Z",
+      "appName": "Notesnook",
+      "slug": "notesnook/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.4.3",
+      "newVersion": "3.4.5",
+      "installerUrl": "https://github.com/streetwriters/notesnook/releases/download/v3.4.5/notesnook_mac_arm64.dmg"
+    },
+    {
+      "date": "2026-07-31T23:04:57Z",
+      "appName": "Netron",
+      "slug": "netron/darwin",
+      "platform": "darwin",
+      "oldVersion": "9.1.9",
+      "newVersion": "9.2.0",
+      "installerUrl": "https://github.com/lutzroeder/netron/releases/download/v9.2.0/Netron-9.2.0-mac.zip"
+    },
+    {
+      "date": "2026-07-31T23:04:57Z",
+      "appName": "Shotcut",
+      "slug": "shotcut/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.6.25",
+      "newVersion": "26.7.30",
+      "installerUrl": "https://github.com/mltframework/shotcut/releases/download/v26.7.30/shotcut-macos-26.7.30.dmg"
+    },
+    {
+      "date": "2026-07-31T23:04:57Z",
+      "appName": "Beekeeper Studio",
+      "slug": "beekeeper-studio/darwin",
+      "platform": "darwin",
+      "oldVersion": "5.9.2",
+      "newVersion": "5.9.3",
+      "installerUrl": "https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v5.9.3/Beekeeper-Studio-5.9.3-arm64.dmg"
+    },
+    {
+      "date": "2026-07-31T23:04:57Z",
+      "appName": "Superhuman",
+      "slug": "superhuman/darwin",
+      "platform": "darwin",
+      "oldVersion": "1041.0.25",
+      "newVersion": "1041.0.26",
+      "installerUrl": "https://storage.googleapis.com/download.superhuman.com/supertron-update/Superhuman-1041.0.26-arm64-latest-mac.zip"
+    },
+    {
+      "date": "2026-07-31T23:04:57Z",
+      "appName": "Podman Desktop",
+      "slug": "podman-desktop/windows",
+      "platform": "windows",
+      "oldVersion": "1.29.0",
+      "newVersion": "1.29.1",
+      "installerUrl": "https://github.com/containers/podman-desktop/releases/download/v1.29.1/podman-desktop-1.29.1-setup-x64.exe"
+    },
+    {
+      "date": "2026-07-31T23:04:57Z",
+      "appName": "Setapp",
+      "slug": "setapp/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.54.0",
+      "newVersion": "3.54.1",
+      "installerUrl": "https://dl.devmate.com/com.setapp.DesktopClient/154/1785484295/Setapp-154.zip"
+    },
+    {
+      "date": "2026-07-31T23:04:57Z",
+      "appName": "Postman",
+      "slug": "postman/darwin",
+      "platform": "darwin",
+      "oldVersion": "12.21.8",
+      "newVersion": "12.21.9",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.21.9/osx_arm64"
+    },
+    {
+      "date": "2026-07-31T23:04:57Z",
+      "appName": "BoltAI 2",
+      "slug": "boltai/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.14.1",
+      "newVersion": "2.14.2",
+      "installerUrl": "https://updates.boltai.com/dmg/BoltAI-2.14.2.dmg"
+    },
+    {
+      "date": "2026-07-31T23:04:57Z",
+      "appName": "ChatWise",
+      "slug": "chatwise/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.7.6",
+      "newVersion": "26.7.8",
+      "installerUrl": "https://releases.chatwise.app/26.7.8/ChatWise-26.7.8-arm64.dmg"
+    },
+    {
+      "date": "2026-07-31T23:04:57Z",
+      "appName": "Eclipse Temurin JDK 8",
+      "slug": "eclipse-temurin-jdk-8/windows",
+      "platform": "windows",
+      "oldVersion": "8.0.492.9",
+      "newVersion": "8.0.502.7",
+      "installerUrl": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u502-b07/OpenJDK8U-jdk_x64_windows_hotspot_8u502b07.msi"
+    },
+    {
+      "date": "2026-07-31T23:04:57Z",
+      "appName": "Eclipse Temurin JRE 8",
+      "slug": "eclipse-temurin-jre-8/windows",
+      "platform": "windows",
+      "oldVersion": "8.0.492.9",
+      "newVersion": "8.0.502.7",
+      "installerUrl": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u502-b07/OpenJDK8U-jre_x64_windows_hotspot_8u502b07.msi"
+    },
+    {
+      "date": "2026-07-31T23:04:57Z",
+      "appName": "pgAdmin 4",
+      "slug": "pgadmin4/darwin",
+      "platform": "darwin",
+      "oldVersion": "9.16",
+      "newVersion": "9.17",
+      "installerUrl": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.17/macos/pgadmin4-9.17-arm64.dmg"
+    },
+    {
+      "date": "2026-07-31T23:04:57Z",
+      "appName": "pgAdmin 4",
+      "slug": "pgadmin4/windows",
+      "platform": "windows",
+      "oldVersion": "9.16",
+      "newVersion": "9.17",
+      "installerUrl": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.17/windows/pgadmin4-9.17-x64.exe"
+    },
+    {
+      "date": "2026-07-31T23:04:57Z",
+      "appName": "Cursor",
+      "slug": "cursor/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.13.25",
+      "newVersion": "3.14.7",
+      "installerUrl": "https://downloads.cursor.com/production/a758f2241ca99fecf380180b6cbdbbce0f1f42cf/darwin/arm64/Cursor-darwin-arm64.zip"
+    },
+    {
+      "date": "2026-07-31T23:04:57Z",
+      "appName": "Adobe Acrobat Reader",
+      "slug": "adobe-acrobat-reader/windows",
+      "platform": "windows",
+      "oldVersion": "26.001.21745",
+      "newVersion": "26.001.21771",
+      "installerUrl": "https://ardownload2.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2600121771/AcroRdrDCx642600121771_MUI.exe"
+    },
+    {
+      "date": "2026-07-31T23:04:57Z",
+      "appName": "Podman Desktop",
+      "slug": "podman-desktop/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.29.0",
+      "newVersion": "1.29.1",
+      "installerUrl": "https://github.com/containers/podman-desktop/releases/download/v1.29.1/podman-desktop-1.29.1-arm64.dmg"
+    },
+    {
+      "date": "2026-07-31T23:04:57Z",
+      "appName": "Dataflare",
+      "slug": "dataflare/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.1.6",
+      "newVersion": "3.1.7",
+      "installerUrl": "https://assets.dataflare.app/release/darwin/aarch64/Dataflare-3.1.7.dmg"
+    },
+    {
+      "date": "2026-07-31T23:04:57Z",
+      "appName": "Mockoon",
+      "slug": "mockoon/darwin",
+      "platform": "darwin",
+      "oldVersion": "9.7.0",
+      "newVersion": "9.8.0",
+      "installerUrl": "https://github.com/mockoon/mockoon/releases/download/v9.8.0/mockoon.setup.9.8.0.arm64.dmg"
+    },
+    {
+      "date": "2026-07-31T23:04:57Z",
+      "appName": "Krita",
+      "slug": "krita/darwin",
+      "platform": "darwin",
+      "oldVersion": "5.3.2.1",
+      "newVersion": "5.3.3",
+      "installerUrl": "https://download.kde.org/stable/krita/5.3.3/krita-5.3.3-signed.dmg"
+    },
+    {
+      "date": "2026-07-31T23:04:57Z",
+      "appName": "iMazing",
+      "slug": "imazing/windows",
+      "platform": "windows",
+      "oldVersion": "3.5.5.0",
+      "newVersion": "3.3.1.0",
+      "installerUrl": "https://downloads.imazing.com/windows/iMazing/3.3.1/iMazing_3.3.1.exe"
+    },
+    {
+      "date": "2026-07-31T23:04:57Z",
+      "appName": "Mozilla Firefox Developer Edition",
+      "slug": "firefox@developer-edition/darwin",
+      "platform": "darwin",
+      "oldVersion": "154.0b4",
+      "newVersion": "154.0b5",
+      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/154.0b5/mac/en-US/Firefox%20154.0b5.dmg"
     }
   ]
 }
