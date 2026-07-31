@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-31T15:36:32Z",
+  "lastUpdated": "2026-07-31T15:41:21Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -872,14 +872,14 @@
     {
       "slug": "android-studio/windows",
       "name": "Android Studio",
-      "version": "2026.1.2.10",
-      "sha256": "938fd37c6029c2bdff8b62bed4fb8c87a260bebe2dc7da12d3f79b3af432829e",
+      "version": "2026.1.3.7",
+      "sha256": "33c0da36175dbab84b16257e9709fce0ca9bdc533af92ed08d6634116f78bcdd",
       "publisher": "CN=Google LLC, O=Google LLC, L=Mountain View, S=California, C=US, SERIALNUMBER=3582691, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0B50CF246B263EFD85A729315158F3FF",
       "thumbprint": "607A3EDAA64933E94422FC8F0C80388E0590986C",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-07-15T20:15:54Z"
+      "lastUpdated": "2026-07-31T15:39:15Z"
     },
     {
       "slug": "angry-ip-scanner/darwin",
@@ -998,6 +998,18 @@
       "signingId": "J3NXTX3T5S:com.anytype.anytype",
       "teamId": "J3NXTX3T5S",
       "lastUpdated": "2026-07-29T04:18:55Z"
+    },
+    {
+      "slug": "aomei-backupper-standard/windows",
+      "name": "AOMEI Backupper Standard",
+      "version": "8.4.0.0",
+      "sha256": "a9b347b8e43a5ef626adad9eda2e5713df7ca86da11438ada7c0a90453a724d2",
+      "publisher": "CN=AOMEI International Network Limited, O=AOMEI International Network Limited, L=Kwun Tong, S=Kowloon, C=HK, OID.1.3.6.1.4.1.311.60.2.1.3=HK, SERIALNUMBER=67838642, OID.2.5.4.15=Private Organization",
+      "issuer": "CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
+      "serialNumber": "06898306563AFB395905812E",
+      "thumbprint": "0349F62EB2E6DEC8B00A6E0E3CD49E5622E297FB",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-07-31T15:39:22Z"
     },
     {
       "slug": "apidog/darwin",
@@ -1258,14 +1270,14 @@
     {
       "slug": "aws-cli/windows",
       "name": "AWS Command Line Interface v2",
-      "version": "2.36.11",
-      "sha256": "108d72a7563081985cb187bd8330352b7e536b3c202276ab62f14028ddcf6b1d",
+      "version": "2.36.13",
+      "sha256": "8dfbe87daefba48d3c07f8cd8531386f800bb48b4141adb011a4393a6926defc",
       "publisher": "CN=\"Amazon Web Services, Inc.\", OU=AWS, O=\"Amazon Web Services, Inc.\", L=Seattle, S=Washington, C=US, SERIALNUMBER=4152954, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0590C4CF0DB014199953A68CFCE9B0E7",
       "thumbprint": "81A9EFB93199F2C7441EE14050360EDAB7E8242A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-07-30T06:43:03Z"
+      "lastUpdated": "2026-07-31T15:39:56Z"
     },
     {
       "slug": "aws-sam-cli/windows",
@@ -2088,14 +2100,14 @@
     {
       "slug": "calibre/windows",
       "name": "calibre",
-      "version": "9.11.0",
+      "version": "9.12.0",
       "sha256": "4bf33245a2944d905530b18ef857e36c28c9db2ca63319db78e66aa0e1999779",
       "publisher": "CN=Kovid Goyal, O=Kovid Goyal, L=Mumbai, S=Maharashtra, C=IN",
       "issuer": "CN=GoGetSSL G4 CS RSA4096 SHA256 2022 CA-1, O=EnVers Group SIA, C=LV",
       "serialNumber": "0728894ACD1FDC7B3424851CBAC7299E",
       "thumbprint": "980637D5ACC6319BEAE773CAC5291EDC3E84DC8E",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-07-03T15:24:54Z"
+      "lastUpdated": "2026-07-31T15:40:24Z"
     },
     {
       "slug": "calibrite-profiler/darwin",
@@ -5833,6 +5845,18 @@
       "lastUpdated": "2025-12-20T06:59:55Z"
     },
     {
+      "slug": "gpg4win/windows",
+      "name": "Gpg4win",
+      "version": "5.0.2",
+      "sha256": "11864cdc6dedd58c5448ab1c0868886e56bdad96972bc06dcd44b80f9e527051",
+      "publisher": "E=code@g10code.com, CN=g10 Code GmbH, O=g10 Code GmbH, L=Erkrath, S=Nordrhein-Westfalen, C=DE",
+      "issuer": "CN=GlobalSign GCC R45 CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
+      "serialNumber": "271DF934504F8E383B33BCE5",
+      "thumbprint": "83CC4E382E5E4AF554C66E429E8F66FFE499910D",
+      "timestamp": "CN=Globalsign TSA for Advanced - G4, O=GlobalSign nv-sa, C=BE",
+      "lastUpdated": "2026-07-31T15:40:56Z"
+    },
+    {
       "slug": "gpodder/darwin",
       "name": "gPodder",
       "version": "3.11.5",
@@ -6356,14 +6380,14 @@
     {
       "slug": "imageglass/windows",
       "name": "ImageGlass",
-      "version": "9.5.0.515",
-      "sha256": "a38a5ed957c9aeb5150adbc370760624bac81a29c05620e7af386c80044d9d0d",
+      "version": "9.6.0.801",
+      "sha256": "0142617003c6eb3cd1be1a7aec0311e388aeef79e91cea1377dd97c829539a41",
       "publisher": "CN=Duong Dieu Phap, O=Duong Dieu Phap, S=Tây Ninh, C=VN",
       "issuer": "CN=Sectigo Public Code Signing CA R36, O=Sectigo Limited, C=GB",
       "serialNumber": "00E9762083BA6615F7AFBB72E474C6AA7B",
       "thumbprint": "02E94EAAA87220870F7EC75073BF7B7FC6CA545E",
       "timestamp": "CN=SSL.com Timestamping Unit 2025 E1, O=SSL Corp, L=Houston, S=Texas, C=US",
-      "lastUpdated": "2026-07-25T04:28:23Z"
+      "lastUpdated": "2026-07-31T15:41:06Z"
     },
     {
       "slug": "imazing-converter/darwin",
@@ -8771,14 +8795,14 @@
     {
       "slug": "nordvpn/windows",
       "name": "NordVPN",
-      "version": "8.8.2.0",
-      "sha256": "4e49493d6be7804956121f9500d40300a45cb53d072f3495aea959aca1c68036",
+      "version": "8.8.3.0",
+      "sha256": "32e4a4dcd5264a6580af4768beabac08eb00d17886b5e0c870a7a850dfde200d",
       "publisher": "E=admin@nordvpn.com, CN=nordvpn s.a., O=nordvpn s.a., L=Panama City, S=Panama, C=PA, OID.1.3.6.1.4.1.311.60.2.1.3=PA, SERIALNUMBER=155694934, OID.2.5.4.15=Private Organization",
       "issuer": "CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
       "serialNumber": "62CDF8188D36A4CF37A334FD",
       "thumbprint": "6C8460C71705A019F5F78AF957A57E55D564FB3A",
       "timestamp": "CN=Globalsign R45 TSA for CodeSign 202510, O=GlobalSign nv-sa, C=BE",
-      "lastUpdated": "2026-07-29T16:10:43Z"
+      "lastUpdated": "2026-07-31T15:41:12Z"
     },
     {
       "slug": "nosql-workbench/darwin",
@@ -8993,14 +9017,14 @@
     {
       "slug": "obs/windows",
       "name": "OBS",
-      "version": "32.2.0",
-      "sha256": "e85f7cc39129c4c1999d84765fde8dade4c9a9800972f78d752ad218e7c50302",
+      "version": "32.2.1",
+      "sha256": "bbb95e52b96ad9b7ccd5abd13121379d29774d6cc5fdbef82ffa249e8a24a289",
       "publisher": "CN=\"OBS Project, LLC\", O=\"OBS Project, LLC\", L=Sheridan, S=Wyoming, C=US, SERIALNUMBER=2023-001272252, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Wyoming, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert G5 CS ECC SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "03FD473B8C7F439D691978FFB12B7F67",
       "thumbprint": "178EB178111547B52B3821A278653EEDC3E5B1F7",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-07-31T08:11:28Z"
+      "lastUpdated": "2026-07-31T15:41:17Z"
     },
     {
       "slug": "obsidian/darwin",
@@ -9205,14 +9229,14 @@
     {
       "slug": "onedrive/windows",
       "name": "OneDrive",
-      "version": "26.113.0614.0004",
-      "sha256": "b1c63da9ee9a34ccdb35d8c8c26cfca970048091f1f138a48ab3318dacdae990",
+      "version": "26.123.0628.0001",
+      "sha256": "43b9414209461265a61fd576daddf94cdffabc1f62a7ac3675aa754d655b337c",
       "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
       "issuer": "CN=Microsoft Windows Code Signing PCA 2024, O=Microsoft Corporation, C=US",
-      "serialNumber": "33000001013F0B9273A8C53199000000000101",
-      "thumbprint": "7202C36C6CCE362143388EB5FCCB2C5630A1F3F5",
-      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:521A-05E0-D947, OU=Microsoft Ireland Operations Limited, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-07-13T15:10:05Z"
+      "serialNumber": "3300000102027DBC9D2A9D3307000000000102",
+      "thumbprint": "84B71332947747A3826D84017DFD36960E99B370",
+      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:A000-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-07-31T15:41:21Z"
     },
     {
       "slug": "onionshare/darwin",
