@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-31T23:04:57Z",
+  "lastUpdated": "2026-08-01T02:57:28Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -173,7 +173,7 @@
       "slug": "adobe-acrobat-pro/darwin",
       "name": "Adobe Acrobat Pro",
       "platform": "darwin",
-      "version": "26.001.21662",
+      "version": "26.001.21691",
       "installerUrl": "https://trials.adobe.com/AdobeProducts/APRO/Acrobat_HelpX/osx10/Acrobat_DC_Web_WWMUI.dmg"
     },
     {
@@ -873,15 +873,15 @@
       "slug": "aws-cli/windows",
       "name": "AWS Command Line Interface v2",
       "platform": "windows",
-      "version": "2.36.13",
-      "installerUrl": "https://awscli.amazonaws.com/AWSCLIV2-2.36.13.msi"
+      "version": "2.36.14",
+      "installerUrl": "https://awscli.amazonaws.com/AWSCLIV2-2.36.14.msi"
     },
     {
       "slug": "aws-sam-cli/windows",
       "name": "AWS SAM Command Line Interface",
       "platform": "windows",
-      "version": "1.164.0",
-      "installerUrl": "https://github.com/aws/aws-sam-cli/releases/download/v1.164.0/AWS_SAM_CLI_64_PY3.msi"
+      "version": "1.165.0",
+      "installerUrl": "https://github.com/aws/aws-sam-cli/releases/download/v1.165.0/AWS_SAM_CLI_64_PY3.msi"
     },
     {
       "slug": "aws-session-manager-plugin/windows",
@@ -1314,8 +1314,8 @@
       "slug": "brave-browser/windows",
       "name": "Brave",
       "platform": "windows",
-      "version": "150.1.92.144",
-      "installerUrl": "https://github.com/brave/brave-browser/releases/download/v1.92.144/BraveBrowserStandaloneSilentSetup.exe"
+      "version": "151.1.93.129",
+      "installerUrl": "https://github.com/brave/brave-browser/releases/download/v1.93.129/BraveBrowserStandaloneSilentSetup.exe"
     },
     {
       "slug": "breaktimer/darwin",
@@ -2231,8 +2231,8 @@
       "slug": "datagrip/windows",
       "name": "DataGrip",
       "platform": "windows",
-      "version": "2026.2.1",
-      "installerUrl": "https://download.jetbrains.com/datagrip/datagrip-2026.2.1.exe"
+      "version": "2026.2.2",
+      "installerUrl": "https://download.jetbrains.com/datagrip/datagrip-2026.2.2.exe"
     },
     {
       "slug": "dataspell/darwin",
@@ -3183,8 +3183,8 @@
       "slug": "fellow/darwin",
       "name": "Fellow",
       "platform": "darwin",
-      "version": "5.7.0",
-      "installerUrl": "https://cdn.fellow.app/desktop/5.7.0/darwin/stable/universal/Fellow-5.7.0-universal.dmg"
+      "version": "5.7.2",
+      "installerUrl": "https://cdn.fellow.app/desktop/5.7.2/darwin/stable/universal/Fellow-5.7.2-universal.dmg"
     },
     {
       "slug": "fellow/windows",
@@ -4653,7 +4653,7 @@
       "slug": "keeper-password-manager/darwin",
       "name": "Keeper Password Manager",
       "platform": "darwin",
-      "version": "18.2.1",
+      "version": "18.5.0",
       "installerUrl": "https://keepersecurity.com/desktop_electron/Darwin/KeeperSetup.dmg"
     },
     {
@@ -4860,6 +4860,13 @@
       "installerUrl": "https://download.lenovo.com/consumer/options/dockmanagersetup_1.6.5.3.exe"
     },
     {
+      "slug": "lenovo-system-update/windows",
+      "name": "Lenovo System Update",
+      "platform": "windows",
+      "version": "5.08.03.59",
+      "installerUrl": "https://download.lenovo.com/pccbbs/thinkvantage_en/system_update_5.08.03.59.exe"
+    },
+    {
       "slug": "lens/darwin",
       "name": "Lens",
       "platform": "darwin",
@@ -4968,7 +4975,7 @@
       "slug": "logi-options+/darwin",
       "name": "Logi Options+",
       "platform": "darwin",
-      "version": "2.4.903778",
+      "version": "2.5.926888",
       "installerUrl": "https://download01.logi.com/web/ftp/pub/techsupport/optionsplus/logioptionsplus_installer.zip"
     },
     {
@@ -5395,8 +5402,8 @@
       "slug": "microsoft-edge/darwin",
       "name": "Microsoft Edge",
       "platform": "darwin",
-      "version": "150.0.4078.105",
-      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/91f7c352-7e04-44c0-bafe-101ee6d44bba/MicrosoftEdge-150.0.4078.105.dmg"
+      "version": "151.0.4129.59",
+      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/01a6b458-9d0d-4c98-88f7-1d3e21d14464/MicrosoftEdge-151.0.4129.59.dmg"
     },
     {
       "slug": "microsoft-edge/windows",
@@ -6697,15 +6704,15 @@
       "slug": "postman/darwin",
       "name": "Postman",
       "platform": "darwin",
-      "version": "12.21.9",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.21.9/osx_arm64"
+      "version": "12.21.10",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.21.10/osx_arm64"
     },
     {
       "slug": "postman/windows",
       "name": "Postman",
       "platform": "windows",
-      "version": "12.21.9",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.21.9/windows_64"
+      "version": "12.21.10",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.21.10/windows_64"
     },
     {
       "slug": "power-automate/windows",
