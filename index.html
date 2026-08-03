@@ -625,7 +625,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: August 3, 2026 at 3:34 AM CDT</p>
+            Last updated: August 3, 2026 at 3:39 AM CDT</p>
         </div>
     </div>
 
@@ -686,7 +686,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: August 3, 2026 at 3:34 AM CDT</p>
+                <p id="modalLastUpdated">Last updated: August 3, 2026 at 3:39 AM CDT</p>
             </div>
         </div>
     </div>
@@ -15586,7 +15586,16 @@
                 "platform": "windows",
                 "description": "Microsoft ODBC Driver 17 for SQL Server lets applications connect to SQL Server and Azure SQL Database through the ODBC interface.",
                 "version": "17.11.1.1",
-                "installerUrl": "https://download.microsoft.com/download/d99fcd4f-548f-46e6-83d5-b9eb62b373d5/amd64/1033/msodbcsql.msi"
+                "installerUrl": "https://download.microsoft.com/download/d99fcd4f-548f-46e6-83d5-b9eb62b373d5/amd64/1033/msodbcsql.msi",
+                "securityInfo": {
+                  "sha256": "0f6428706ac1fa4863d10e515135b587de88011813131c0a43f70cd70dc0bd4e",
+                  "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+                  "issuer": "CN=Microsoft Code Signing PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+                  "serialNumber": "33000004855E99EC0E592FCDD7000000000485",
+                  "thumbprint": "3F56A45111684D454E231CFDC4DA5C8D370F9816",
+                  "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:9600-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+                  "lastUpdated": "2026-08-03T08:39:38Z"
+                }
               },
               {
                 "name": "Microsoft Office",
@@ -26435,7 +26444,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `August 3, 2026 at 3:34 AM CDT`;
+                let timestampText = 'Last updated: ' + `August 3, 2026 at 3:39 AM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
