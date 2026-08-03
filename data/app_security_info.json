@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-03T04:52:09Z",
+  "lastUpdated": "2026-08-03T04:52:50Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -5994,6 +5994,18 @@
       "lastUpdated": "2026-06-11T05:45:42Z"
     },
     {
+      "slug": "handbrake/windows",
+      "name": "HandBrake",
+      "version": "1.11.2",
+      "sha256": "6becb8e5a041941d5f2fd6fe83c66fc15b2b16190e2e79f5ad47eb4cd18df8cd",
+      "publisher": "CN=\"Open Source Developer, Scott Rae\", O=Open Source Developer, L=Livingston, S=West Lothian, C=GB",
+      "issuer": "CN=Certum Code Signing 2021 CA, O=Asseco Data Systems S.A., C=PL",
+      "serialNumber": "360F3936AAA78A382C216B942F4EB7DD",
+      "thumbprint": "9528F963AD448D599543E77F4FE3462B12F995DD",
+      "timestamp": "CN=Certum Timestamp 2026, O=Asseco Data Systems S.A., C=PL",
+      "lastUpdated": "2026-08-03T04:52:11Z"
+    },
+    {
       "slug": "hazel/darwin",
       "name": "Hazel",
       "version": "6.1.2",
@@ -7977,6 +7989,18 @@
       "lastUpdated": "2026-07-29T19:30:16Z"
     },
     {
+      "slug": "microsoft-access-database-engine-2016/windows",
+      "name": "Microsoft Access Database Engine 2016 Redistributable",
+      "version": "16.0.5044.1000",
+      "sha256": "04e96c9f1a1f7d251a88aececf1dc10ff65950392787427c00814a43308003de",
+      "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "issuer": "CN=Microsoft Code Signing PCA 2010, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "serialNumber": "330000032548B29D0E7FC5F41F000000000325",
+      "thumbprint": "644004FCA8E36FA9198CF061CC085B0A2E61CFC4",
+      "timestamp": "CN=Microsoft Time-Stamp Service, OU=Thales TSS ESN:F77F-E356-5BAE, OU=Microsoft Operations Puerto Rico, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-08-03T04:52:16Z"
+    },
+    {
       "slug": "microsoft-auto-update/darwin",
       "name": "Microsoft Auto Update",
       "version": "4.84",
@@ -7995,6 +8019,18 @@
       "signingId": "UBF8T346G9:com.microsoft.StorageExplorer",
       "teamId": "UBF8T346G9",
       "lastUpdated": "2026-07-31T08:03:44Z"
+    },
+    {
+      "slug": "microsoft-dotnet-desktop-runtime-10/windows",
+      "name": "Microsoft .NET Desktop Runtime 10",
+      "version": "10.0.10",
+      "sha256": "e82fc901c8f52d716293b2bc0830ce0dd254a06268c457a19e8fc503560a84d1",
+      "publisher": "CN=.NET, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "issuer": "CN=Microsoft Code Signing PCA 2024, O=Microsoft Corporation, C=US",
+      "serialNumber": "33000001C8243AC81E4D9388BB0000000001C8",
+      "thumbprint": "BB793DB742624269BB5F4515BBE9A3DF418F588D",
+      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:A000-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-08-03T04:52:19Z"
     },
     {
       "slug": "microsoft-dotnet-runtime-10/windows",
@@ -9484,6 +9520,18 @@
       "signingId": "HRLUCP7QP4:com.charlessoft.pacifist",
       "teamId": "HRLUCP7QP4",
       "lastUpdated": "2026-06-11T16:24:09Z"
+    },
+    {
+      "slug": "paint-dot-net/windows",
+      "name": "Paint.NET",
+      "version": "5.1.12",
+      "sha256": "9c34b285eabcc4658335ad91f9c76ccf8f96d939b9640fac08e4942e394e1e8d",
+      "publisher": "CN=DOTPDN LLC, O=DOTPDN LLC, S=Washington, C=US",
+      "issuer": "CN=Sectigo Public Code Signing CA R36, O=Sectigo Limited, C=GB",
+      "serialNumber": "00939BD47A76EEC834AD15574B8565E89D",
+      "thumbprint": "289E2A7D269BAC65754AC274712084385639303C",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-08-03T04:52:23Z"
     },
     {
       "slug": "pale-moon/darwin",
@@ -11157,6 +11205,18 @@
       "signingId": "MLZTD8K9AU:com.apptorium.ScreenFocus-dm",
       "teamId": "MLZTD8K9AU",
       "lastUpdated": "2026-06-10T15:23:01Z"
+    },
+    {
+      "slug": "scribe/windows",
+      "name": "Scribe",
+      "version": "6.7.23.0",
+      "sha256": "fb4200b12f0fa7d5860025f5531ab9d2b25bd3cf7694c9228aa7a38336cbf7fb",
+      "publisher": "E=support@scribehow.com, CN=\"COLONY LABS, INC.\", O=\"COLONY LABS, INC.\", L=San Francisco, S=California, C=US, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=7498102, OID.2.5.4.15=Private Organization",
+      "issuer": "CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
+      "serialNumber": "2E92E65BEAA2FF982505EB78",
+      "thumbprint": "046E520174BEE15E97EEF02589694AEDF2CF00BC",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-08-03T04:52:32Z"
     },
     {
       "slug": "scribus/darwin",
@@ -13706,14 +13766,14 @@
     {
       "slug": "windirstat/windows",
       "name": "WinDirStat",
-      "version": "2.7.0",
-      "sha256": "6a5621fee99af3e763e0a41642d38f32c7627d29bf263673acef095e29651a29",
+      "version": "2.8.0",
+      "sha256": "6d17bee74a51b0ee1f46b01862871bc45338728dfeec7d3bac926c89a20e88a7",
       "publisher": "CN=Open Source Developer Bryan Berns, O=Open Source Developer, L=Clifton Park, S=New York, C=US",
       "issuer": "CN=Certum Code Signing 2021 CA, O=Asseco Data Systems S.A., C=PL",
       "serialNumber": "59CB508D89BEA84C775370FD25C59942",
       "thumbprint": "82802376D2DD840614CC00C6EC8AD763CEA6D33C",
       "timestamp": "CN=Certum Timestamp 2026, O=Asseco Data Systems S.A., C=PL",
-      "lastUpdated": "2026-07-06T16:35:59Z"
+      "lastUpdated": "2026-08-03T04:52:42Z"
     },
     {
       "slug": "windowkeys/darwin",
@@ -14172,14 +14232,14 @@
     {
       "slug": "zed/windows",
       "name": "Zed",
-      "version": "1.13.1",
-      "sha256": "5699c1651fff0e3bfe7dac1480e45bc8e405f40ea288b19071f0186209809f53",
+      "version": "1.13.2",
+      "sha256": "f9e73b28ed1d202832dc2ff1e5df1be46297d16ac7aa1762f230f7c9995fd5b3",
       "publisher": "CN=Zed Industries Inc, O=Zed Industries Inc, L=Denver, S=Colorado, C=US",
-      "issuer": "CN=Microsoft ID Verified CS AOC CA 03, O=Microsoft Corporation, C=US",
-      "serialNumber": "330003E6F1F970720181EB040D00000003E6F1",
-      "thumbprint": "10E632851E3665872C6821689B031BB4209B702C",
-      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7B1A-05E0-D947, OU=Microsoft Ireland Operations Limited, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-07-29T21:15:08Z"
+      "issuer": "CN=Microsoft ID Verified CS EOC CA 04, O=Microsoft Corporation, C=US",
+      "serialNumber": "330003BC1EEBFAE50381547B8B00000003BC1E",
+      "thumbprint": "8D45165759342EC348022D7BAFB2C88A100889EC",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7A1A-05E0-D947, OU=Microsoft Ireland Operations Limited, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-08-03T04:52:50Z"
     },
     {
       "slug": "zen-browser/windows",
