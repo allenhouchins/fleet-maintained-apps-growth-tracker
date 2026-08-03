@@ -5,13 +5,20 @@
     <link>https://fmalibrary.com</link>
     <description>Track version updates and new app additions for Fleet-maintained apps. Get notified when apps are updated with new versions or when new apps are added to the library.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Aug 2026 04:35:33 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 08:34:26 +0000</lastBuildDate>
     <atom:link href="https://fmalibrary.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://fmalibrary.com/cloud-city.png</url>
       <title>Fleet-maintained apps</title>
       <link>https://fmalibrary.com</link>
     </image>
+    <item>
+      <title>New App: Microsoft ODBC Driver 17 for SQL Server 17.11.1.1 (Windows)</title>
+      <link>https://fmalibrary.com</link>
+      <description>Microsoft ODBC Driver 17 for SQL Server has been added to the Fleet-maintained apps library with version 17.11.1.1 on August 3, 2026. &lt;a href=&quot;https://download.microsoft.com/download/d99fcd4f-548f-46e6-83d5-b9eb62b373d5/amd64/1033/msodbcsql.msi&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Mon, 03 Aug 2026 08:34:26 +0000</pubDate>
+      <guid isPermaLink="false">microsoft-odbc-driver-17/windows--17.11.1.1</guid>
+    </item>
     <item>
       <title>OpenRCT2 0.5.3 → 0.5.4 (Mac)</title>
       <link>https://fmalibrary.com</link>
@@ -3443,25 +3450,11 @@
       <guid isPermaLink="false">kitty/darwin-0.48.0-0.48.1</guid>
     </item>
     <item>
-      <title>Microsoft Edge 150.0.4078.83 → 150.0.4078.96 (Mac)</title>
+      <title>Remote Desktop Manager 2026.2.3.2 → 2026.2.4.1 (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>Microsoft Edge has been updated from version 150.0.4078.83 to 150.0.4078.96 on July 24, 2026. &lt;a href=&quot;https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/a6112a17-69dd-45ca-a673-405c7a4c245e/MicrosoftEdge-150.0.4078.96.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Remote Desktop Manager has been updated from version 2026.2.3.2 to 2026.2.4.1 on July 24, 2026. &lt;a href=&quot;https://cdn.devolutions.net/download/Mac/Devolutions.RemoteDesktopManager.Mac.2026.2.4.1.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Fri, 24 Jul 2026 04:20:54 +0000</pubDate>
-      <guid isPermaLink="false">microsoft-edge/darwin-150.0.4078.83-150.0.4078.96</guid>
-    </item>
-    <item>
-      <title>Kiro CLI 2.14.0 → 2.14.1 (Mac)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Kiro CLI has been updated from version 2.14.0 to 2.14.1 on July 24, 2026. &lt;a href=&quot;https://desktop-release.q.us-east-1.amazonaws.com/2.14.1/Kiro%20CLI.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Fri, 24 Jul 2026 04:20:54 +0000</pubDate>
-      <guid isPermaLink="false">kiro-cli/darwin-2.14.0-2.14.1</guid>
-    </item>
-    <item>
-      <title>Kiro 1.0.203 → 1.0.212 (Mac)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Kiro has been updated from version 1.0.203 to 1.0.212 on July 24, 2026. &lt;a href=&quot;https://prod.download.desktop.kiro.dev/releases/stable/darwin-arm64/signed/1.0.212/kiro-ide-1.0.212-stable-darwin-arm64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Fri, 24 Jul 2026 04:20:54 +0000</pubDate>
-      <guid isPermaLink="false">kiro/darwin-1.0.203-1.0.212</guid>
+      <guid isPermaLink="false">remote-desktop-manager/darwin-2026.2.3.2-2026.2.4.1</guid>
     </item>
     <item>
       <title>Pastebot 2.4.6 → 2.4.8 (Mac)</title>
@@ -3506,11 +3499,18 @@
       <guid isPermaLink="false">google-chrome/windows-150.0.7871.182-150.0.7871.187</guid>
     </item>
     <item>
-      <title>Melodics 5.0.865 → 5.0.871 (Mac)</title>
+      <title>Microsoft Edge 150.0.4078.83 → 150.0.4078.96 (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>Melodics has been updated from version 5.0.865 to 5.0.871 on July 24, 2026. &lt;a href=&quot;https://web-cdn.melodics.com/download/0F733618-1183-44AD-A29F-70EC22EFBBC8.zip&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Microsoft Edge has been updated from version 150.0.4078.83 to 150.0.4078.96 on July 24, 2026. &lt;a href=&quot;https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/a6112a17-69dd-45ca-a673-405c7a4c245e/MicrosoftEdge-150.0.4078.96.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Fri, 24 Jul 2026 04:20:54 +0000</pubDate>
-      <guid isPermaLink="false">melodics/darwin-5.0.865-5.0.871</guid>
+      <guid isPermaLink="false">microsoft-edge/darwin-150.0.4078.83-150.0.4078.96</guid>
+    </item>
+    <item>
+      <title>Kiro 1.0.203 → 1.0.212 (Mac)</title>
+      <link>https://fmalibrary.com</link>
+      <description>Kiro has been updated from version 1.0.203 to 1.0.212 on July 24, 2026. &lt;a href=&quot;https://prod.download.desktop.kiro.dev/releases/stable/darwin-arm64/signed/1.0.212/kiro-ide-1.0.212-stable-darwin-arm64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Fri, 24 Jul 2026 04:20:54 +0000</pubDate>
+      <guid isPermaLink="false">kiro/darwin-1.0.203-1.0.212</guid>
     </item>
   </channel>
 </rss>
