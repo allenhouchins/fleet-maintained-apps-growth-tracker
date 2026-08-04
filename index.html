@@ -625,7 +625,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: August 3, 2026 at 9:41 PM CDT</p>
+            Last updated: August 3, 2026 at 9:46 PM CDT</p>
         </div>
     </div>
 
@@ -686,7 +686,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: August 3, 2026 at 9:41 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: August 3, 2026 at 9:46 PM CDT</p>
             </div>
         </div>
     </div>
@@ -19149,7 +19149,16 @@
                 "platform": "windows",
                 "description": "QEMU is an open-source machine emulator and virtualizer.",
                 "version": "11.0.50",
-                "installerUrl": "https://qemu.weilnetz.de/w64/2026/qemu-w64-setup-20260501.exe"
+                "installerUrl": "https://qemu.weilnetz.de/w64/2026/qemu-w64-setup-20260501.exe",
+                "securityInfo": {
+                  "sha256": "a8b29572afb4c6ad024b7de129c81033e9fd191b9e054e3a52ea0bed24ac19ef",
+                  "publisher": "CN=Universität Mannheim, O=Universität Mannheim, S=Baden-Württemberg, C=DE",
+                  "issuer": "CN=GEANT Code Signing CA 4, O=GEANT Vereniging, C=NL",
+                  "serialNumber": "0095EB7D257BB35708CB8F7809AF8B8BEE",
+                  "thumbprint": "2F92CB990D57719BDCCA2D72134378614A040D9B",
+                  "timestamp": "CN=Sectigo Public Time Stamping Signer R36, O=Sectigo Limited, S=West Yorkshire, C=GB",
+                  "lastUpdated": "2026-08-04T02:44:48Z"
+                }
               },
               {
                 "name": "QLab",
@@ -26463,7 +26472,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `August 3, 2026 at 9:41 PM CDT`;
+                let timestampText = 'Last updated: ' + `August 3, 2026 at 9:46 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
