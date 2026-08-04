@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-03T23:06:59Z",
+  "lastUpdated": "2026-08-04T02:40:51Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -3537,27 +3537,6 @@
       "installerUrl": "https://download.nektony.com/download/funter/Funter.dmg?build=377"
     },
     {
-      "slug": "gadwin-printscreen-pro/windows",
-      "name": "Gadwin PrintScreen Pro",
-      "platform": "windows",
-      "version": "6.5.0.0",
-      "installerUrl": "https://www.gadwin.com/download/PrintScreenPro650_Win64.msi"
-    },
-    {
-      "slug": "gadwin-printscreen/windows",
-      "name": "Gadwin PrintScreen",
-      "platform": "windows",
-      "version": "6.5.0.0",
-      "installerUrl": "https://www.gadwin.com/download/PrintScreen650_Win64.msi"
-    },
-    {
-      "slug": "gadwin-screenrecorder/windows",
-      "name": "Gadwin ScreenRecorder",
-      "platform": "windows",
-      "version": "4.5.0.0",
-      "installerUrl": "https://www.gadwin.com/download/ScreenRecorder450_Win64.msi"
-    },
-    {
       "slug": "galaxy-modeler/windows",
       "name": "Galaxy Modeler",
       "platform": "windows",
@@ -7077,6 +7056,13 @@
       "platform": "windows",
       "version": "3.14.6",
       "installerUrl": "https://www.python.org/ftp/python/3.14.6/python-3.14.6-amd64.exe"
+    },
+    {
+      "slug": "qemu/windows",
+      "name": "QEMU",
+      "platform": "windows",
+      "version": "11.0.50",
+      "installerUrl": "https://qemu.weilnetz.de/w64/2026/qemu-w64-setup-20260501.exe"
     },
     {
       "slug": "qlab/darwin",
