@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-05T15:18:34Z",
+  "lastUpdated": "2026-08-05T17:41:23Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -397,8 +397,8 @@
       "slug": "akiflow/darwin",
       "name": "Akiflow",
       "platform": "darwin",
-      "version": "2.78.16",
-      "installerUrl": "https://download.akiflow.com/builds/Akiflow-2.78.16-d29d46e9-universal.dmg"
+      "version": "2.80.3",
+      "installerUrl": "https://download.akiflow.com/builds/Akiflow-2.80.3-d68751d9-universal.dmg"
     },
     {
       "slug": "alacritty/windows",
@@ -1699,8 +1699,8 @@
       "slug": "claude/windows",
       "name": "Claude",
       "platform": "windows",
-      "version": "1.24012.9",
-      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.24012.9/Claude-03c61d06f8e01a4db2273b9514e225f21d2ba62e.msix"
+      "version": "1.25927.0",
+      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.25927.0/Claude-003700efafbc2ccb4b1177a5e637b14da381799e.msix"
     },
     {
       "slug": "cleanclip/darwin",
@@ -2424,6 +2424,13 @@
       "installerUrl": "https://dl.dell.com/FOLDER14424243M/1/Dell-Command-Update-Application_RXT5N_WIN64_5.7.0_A00.EXE"
     },
     {
+      "slug": "dell-display-and-peripheral-manager/windows",
+      "name": "Dell Display and Peripheral Manager",
+      "platform": "windows",
+      "version": "2.2.2.8",
+      "installerUrl": "https://dl.dell.com/FOLDER14474164M/1/DDPM-Setup_2.2.2.8.exe"
+    },
+    {
       "slug": "descript/darwin",
       "name": "Descript",
       "platform": "darwin",
@@ -3120,7 +3127,7 @@
       "slug": "evernote/darwin",
       "name": "Evernote",
       "platform": "darwin",
-      "version": "11.27.5",
+      "version": "11.28.2",
       "installerUrl": "https://mac.desktop.evernote.com/builds/Evernote-10.105.4-mac-ddl-stage-20240910164757-a2e60a8d876a07eded5d212fa56ba45214114ad0.dmg"
     },
     {
@@ -3338,7 +3345,7 @@
       "name": "Mozilla Firefox Nightly",
       "platform": "darwin",
       "version": "155.0a1",
-      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/08/2026-08-04-21-29-19-mozilla-central/firefox-155.0a1.en-US.mac.dmg"
+      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/08/2026-08-05-09-21-15-mozilla-central/firefox-155.0a1.en-US.mac.dmg"
     },
     {
       "slug": "firefox@nightly/windows",
@@ -3960,8 +3967,8 @@
       "slug": "graphviz/windows",
       "name": "Graphviz",
       "platform": "windows",
-      "version": "15.1.0",
-      "installerUrl": "https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/15.1.0/windows_10_cmake_Release_graphviz-install-15.1.0-win64.exe"
+      "version": "15.1.1",
+      "installerUrl": "https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/15.1.1/windows_10_cmake_Release_graphviz-install-15.1.1-win64.exe"
     },
     {
       "slug": "grepwin/windows",
@@ -5052,8 +5059,8 @@
       "slug": "lulu/darwin",
       "name": "LuLu",
       "platform": "darwin",
-      "version": "4.5.0",
-      "installerUrl": "https://github.com/objective-see/LuLu/releases/download/v4.5.0/LuLu_4.5.0.dmg"
+      "version": "4.5.1",
+      "installerUrl": "https://github.com/objective-see/LuLu/releases/download/v4.5.1/LuLu_4.5.1.dmg"
     },
     {
       "slug": "lunacy/darwin",
@@ -6487,15 +6494,15 @@
       "slug": "pdfsam-basic/darwin",
       "name": "PDFsam Basic",
       "platform": "darwin",
-      "version": "6.0.4",
-      "installerUrl": "https://github.com/torakiki/pdfsam/releases/download/v6.0.4/pdfsam-basic-6.0.4-macos-arm64.dmg"
+      "version": "6.0.5",
+      "installerUrl": "https://github.com/torakiki/pdfsam/releases/download/v6.0.5/pdfsam-basic-6.0.5-macos-arm64.dmg"
     },
     {
       "slug": "pdfsam-basic/windows",
       "name": "PDFsam Basic",
       "platform": "windows",
-      "version": "6.0.4.0",
-      "installerUrl": "https://github.com/torakiki/pdfsam/releases/download/v6.0.4/pdfsam-basic-6.0.4-windows-x64.msi"
+      "version": "6.0.5.0",
+      "installerUrl": "https://github.com/torakiki/pdfsam/releases/download/v6.0.5/pdfsam-basic-6.0.5-windows-x64.msi"
     },
     {
       "slug": "pearcleaner/darwin",
@@ -7124,8 +7131,8 @@
       "slug": "rancher/windows",
       "name": "Rancher Desktop",
       "platform": "windows",
-      "version": "1.23.1",
-      "installerUrl": "https://github.com/rancher-sandbox/rancher-desktop/releases/download/v1.23.1/Rancher.Desktop.Setup.1.23.1.msi"
+      "version": "1.24.0",
+      "installerUrl": "https://github.com/rancher-sandbox/rancher-desktop/releases/download/v1.24.0/Rancher.Desktop.Setup.1.24.0.msi"
     },
     {
       "slug": "rapidapi/darwin",
@@ -8510,8 +8517,8 @@
       "slug": "textexpander/darwin",
       "name": "TextExpander",
       "platform": "darwin",
-      "version": "8.4.5",
-      "installerUrl": "https://cdn.textexpander.com/mac/845.4/TextExpander_8.4.5.dmg"
+      "version": "8.4.6",
+      "installerUrl": "https://cdn.textexpander.com/mac/846.3/TextExpander_8.4.6.dmg"
     },
     {
       "slug": "textexpander/windows",
@@ -9021,8 +9028,8 @@
       "slug": "visual-studio-code/darwin",
       "name": "Microsoft Visual Studio Code",
       "platform": "darwin",
-      "version": "1.131.0",
-      "installerUrl": "https://update.code.visualstudio.com/1.131.0/darwin-universal/stable"
+      "version": "1.132.0",
+      "installerUrl": "https://update.code.visualstudio.com/1.132.0/darwin-universal/stable"
     },
     {
       "slug": "visual-studio-code/windows",
@@ -9189,8 +9196,8 @@
       "slug": "wavebox/darwin",
       "name": "Wavebox",
       "platform": "darwin",
-      "version": "151.2.141.2",
-      "installerUrl": "https://download.wavebox.app/stable/macarm64/Wavebox_151.2.141.2.zip"
+      "version": "151.2.148.2",
+      "installerUrl": "https://download.wavebox.app/stable/macarm64/Wavebox_151.2.148.2.zip"
     },
     {
       "slug": "wealthfolio/darwin",
@@ -9280,7 +9287,7 @@
       "slug": "whatsapp/darwin",
       "name": "WhatsApp",
       "platform": "darwin",
-      "version": "26.31.16",
+      "version": "26.31.19",
       "installerUrl": "https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release\u0026src=whatsapp_downloads_page"
     },
     {

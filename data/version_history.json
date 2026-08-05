@@ -1,123 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-07-18T05:30:15Z",
-      "appName": "ChatGPT Desktop",
-      "slug": "chatgpt/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.715.21425",
-      "newVersion": "26.715.31251",
-      "installerUrl": "https://persistent.oaistatic.com/codex-app-prod/ChatGPT-darwin-arm64-26.715.31251.zip"
-    },
-    {
-      "date": "2026-07-18T05:30:15Z",
-      "appName": "Dayflow",
-      "slug": "dayflow/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.0.2",
-      "newVersion": "2.0.3",
-      "installerUrl": "https://github.com/JerryZLiu/Dayflow/releases/download/v2.0.3/Dayflow.dmg"
-    },
-    {
-      "date": "2026-07-18T05:30:15Z",
-      "appName": "Cursor",
-      "slug": "cursor/windows",
-      "platform": "windows",
-      "oldVersion": "3.12.10",
-      "newVersion": "3.12.17",
-      "installerUrl": "https://downloads.cursor.com/production/0fb762053c34788bb7760d5673f8a6d4c8589d52/win32/x64/system-setup/CursorSetup-x64-3.12.17.exe"
-    },
-    {
-      "date": "2026-07-19T02:52:17Z",
-      "appName": "ChatWise",
-      "slug": "chatwise/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.7.2",
-      "newVersion": "26.7.3",
-      "installerUrl": "https://releases.chatwise.app/26.7.3/ChatWise-26.7.3-arm64.dmg"
-    },
-    {
-      "date": "2026-07-19T02:52:17Z",
-      "appName": "Dataflare",
-      "slug": "dataflare/windows",
-      "platform": "windows",
-      "oldVersion": "3.1.3",
-      "newVersion": "3.1.4",
-      "installerUrl": "https://assets.dataflare.app/release/windows/x86_64/Dataflare-Setup-3.1.4.exe"
-    },
-    {
-      "date": "2026-07-19T02:52:17Z",
-      "appName": "REAPER",
-      "slug": "reaper/darwin",
-      "platform": "darwin",
-      "oldVersion": "7.77",
-      "newVersion": "7.78",
-      "installerUrl": "https://dlcf.reaper.fm/7.x/reaper778_universal.dmg"
-    },
-    {
-      "date": "2026-07-19T02:52:17Z",
-      "appName": "Microsoft Outlook",
-      "slug": "microsoft-outlook/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.109.3",
-      "newVersion": "16.111",
-      "installerUrl": "https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.111.26071325_Installer.pkg"
-    },
-    {
-      "date": "2026-07-19T02:52:17Z",
-      "appName": "Dataflare",
-      "slug": "dataflare/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.1.3",
-      "newVersion": "3.1.4",
-      "installerUrl": "https://assets.dataflare.app/release/darwin/aarch64/Dataflare-3.1.4.dmg"
-    },
-    {
-      "date": "2026-07-19T02:52:17Z",
-      "appName": "kitty",
-      "slug": "kitty/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.47.4",
-      "newVersion": "0.48.0",
-      "installerUrl": "https://github.com/kovidgoyal/kitty/releases/download/v0.48.0/kitty-0.48.0.dmg"
-    },
-    {
-      "date": "2026-07-19T02:52:17Z",
-      "appName": "Portfolio Performance",
-      "slug": "portfolioperformance/windows",
-      "platform": "windows",
-      "oldVersion": "0.85.0",
-      "newVersion": "0.86.0",
-      "installerUrl": "https://github.com/portfolio-performance/portfolio/releases/download/0.86.0/PortfolioPerformance-0.86.0-setup.exe"
-    },
-    {
-      "date": "2026-07-19T02:52:17Z",
-      "appName": "Clop",
-      "slug": "clop/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.3.0",
-      "newVersion": "3.3.1",
-      "installerUrl": "https://files.lowtechguys.com/releases/Clop-3.3.1.dmg"
-    },
-    {
-      "date": "2026-07-19T02:52:17Z",
-      "appName": "Super Productivity",
-      "slug": "super-productivity/darwin",
-      "platform": "darwin",
-      "oldVersion": "18.14.0",
-      "newVersion": "18.15.1",
-      "installerUrl": "https://github.com/super-productivity/super-productivity/releases/download/v18.15.1/superProductivity-arm64.dmg"
-    },
-    {
-      "date": "2026-07-19T02:52:17Z",
-      "appName": "CLion",
-      "slug": "clion/windows",
-      "platform": "windows",
-      "oldVersion": "2026.1.4",
-      "newVersion": "2026.2",
-      "installerUrl": "https://download.jetbrains.com/cpp/CLion-2026.2.exe"
-    },
-    {
       "date": "2026-07-19T02:52:17Z",
       "appName": "Microsoft Edge",
       "slug": "microsoft-edge/windows",
@@ -8999,6 +8882,123 @@
       "oldVersion": "0.11.164",
       "newVersion": "0.11.168",
       "installerUrl": "https://desktop.miro.com/platforms/darwin-arm64/Install-Miro.dmg"
+    },
+    {
+      "date": "2026-08-05T17:41:23Z",
+      "appName": "TextExpander",
+      "slug": "textexpander/darwin",
+      "platform": "darwin",
+      "oldVersion": "8.4.5",
+      "newVersion": "8.4.6",
+      "installerUrl": "https://cdn.textexpander.com/mac/846.3/TextExpander_8.4.6.dmg"
+    },
+    {
+      "date": "2026-08-05T17:41:23Z",
+      "appName": "Wavebox",
+      "slug": "wavebox/darwin",
+      "platform": "darwin",
+      "oldVersion": "151.2.141.2",
+      "newVersion": "151.2.148.2",
+      "installerUrl": "https://download.wavebox.app/stable/macarm64/Wavebox_151.2.148.2.zip"
+    },
+    {
+      "date": "2026-08-05T17:41:23Z",
+      "appName": "Akiflow",
+      "slug": "akiflow/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.78.16",
+      "newVersion": "2.80.3",
+      "installerUrl": "https://download.akiflow.com/builds/Akiflow-2.80.3-d68751d9-universal.dmg"
+    },
+    {
+      "date": "2026-08-05T17:41:23Z",
+      "appName": "Claude",
+      "slug": "claude/windows",
+      "platform": "windows",
+      "oldVersion": "1.24012.9",
+      "newVersion": "1.25927.0",
+      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.25927.0/Claude-003700efafbc2ccb4b1177a5e637b14da381799e.msix"
+    },
+    {
+      "date": "2026-08-05T17:41:23Z",
+      "appName": "Microsoft Visual Studio Code",
+      "slug": "visual-studio-code/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.131.0",
+      "newVersion": "1.132.0",
+      "installerUrl": "https://update.code.visualstudio.com/1.132.0/darwin-universal/stable"
+    },
+    {
+      "date": "2026-08-05T17:41:23Z",
+      "appName": "WhatsApp",
+      "slug": "whatsapp/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.31.16",
+      "newVersion": "26.31.19",
+      "installerUrl": "https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release\u0026src=whatsapp_downloads_page"
+    },
+    {
+      "date": "2026-08-05T17:41:23Z",
+      "appName": "Graphviz",
+      "slug": "graphviz/windows",
+      "platform": "windows",
+      "oldVersion": "15.1.0",
+      "newVersion": "15.1.1",
+      "installerUrl": "https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/15.1.1/windows_10_cmake_Release_graphviz-install-15.1.1-win64.exe"
+    },
+    {
+      "date": "2026-08-05T17:41:23Z",
+      "appName": "Dell Display and Peripheral Manager",
+      "slug": "dell-display-and-peripheral-manager/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "2.2.2.8",
+      "installerUrl": "https://dl.dell.com/FOLDER14474164M/1/DDPM-Setup_2.2.2.8.exe"
+    },
+    {
+      "date": "2026-08-05T17:41:23Z",
+      "appName": "PDFsam Basic",
+      "slug": "pdfsam-basic/windows",
+      "platform": "windows",
+      "oldVersion": "6.0.4.0",
+      "newVersion": "6.0.5.0",
+      "installerUrl": "https://github.com/torakiki/pdfsam/releases/download/v6.0.5/pdfsam-basic-6.0.5-windows-x64.msi"
+    },
+    {
+      "date": "2026-08-05T17:41:23Z",
+      "appName": "Evernote",
+      "slug": "evernote/darwin",
+      "platform": "darwin",
+      "oldVersion": "11.27.5",
+      "newVersion": "11.28.2",
+      "installerUrl": "https://mac.desktop.evernote.com/builds/Evernote-10.105.4-mac-ddl-stage-20240910164757-a2e60a8d876a07eded5d212fa56ba45214114ad0.dmg"
+    },
+    {
+      "date": "2026-08-05T17:41:23Z",
+      "appName": "LuLu",
+      "slug": "lulu/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.5.0",
+      "newVersion": "4.5.1",
+      "installerUrl": "https://github.com/objective-see/LuLu/releases/download/v4.5.1/LuLu_4.5.1.dmg"
+    },
+    {
+      "date": "2026-08-05T17:41:23Z",
+      "appName": "PDFsam Basic",
+      "slug": "pdfsam-basic/darwin",
+      "platform": "darwin",
+      "oldVersion": "6.0.4",
+      "newVersion": "6.0.5",
+      "installerUrl": "https://github.com/torakiki/pdfsam/releases/download/v6.0.5/pdfsam-basic-6.0.5-macos-arm64.dmg"
+    },
+    {
+      "date": "2026-08-05T17:41:23Z",
+      "appName": "Rancher Desktop",
+      "slug": "rancher/windows",
+      "platform": "windows",
+      "oldVersion": "1.23.1",
+      "newVersion": "1.24.0",
+      "installerUrl": "https://github.com/rancher-sandbox/rancher-desktop/releases/download/v1.24.0/Rancher.Desktop.Setup.1.24.0.msi"
     }
   ]
 }
