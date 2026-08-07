@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07T15:59:05Z",
+  "lastUpdated": "2026-08-07T17:01:12Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -9032,6 +9032,27 @@
       "installerUrl": "https://usa15-dl.visual-paradigm.com/visual-paradigm/vp18.1/20260628/Visual_Paradigm_18_1_20260628_OSX_AArch64.dmg"
     },
     {
+      "slug": "visual-studio-2022-community/windows",
+      "name": "Visual Studio Community 2022",
+      "platform": "windows",
+      "version": "17.14.37",
+      "installerUrl": "https://download.visualstudio.microsoft.com/download/pr/f7f5ecbc-83ca-4cf0-bdb2-aaf70efb6d97/065e93abcaf6a7ea97fa9a43561fc55bd57845d97b0cbf58c9be8cb72ddc1934/vs_Community.exe"
+    },
+    {
+      "slug": "visual-studio-2022-enterprise/windows",
+      "name": "Visual Studio Enterprise 2022",
+      "platform": "windows",
+      "version": "17.14.37",
+      "installerUrl": "https://download.visualstudio.microsoft.com/download/pr/f7f5ecbc-83ca-4cf0-bdb2-aaf70efb6d97/2229b67966b6ae32a74599b68acc1d7d88bc21e93fcceb2f8c1c8253b6e92b29/vs_Enterprise.exe"
+    },
+    {
+      "slug": "visual-studio-2022-professional/windows",
+      "name": "Visual Studio Professional 2022",
+      "platform": "windows",
+      "version": "17.14.37",
+      "installerUrl": "https://download.visualstudio.microsoft.com/download/pr/f7f5ecbc-83ca-4cf0-bdb2-aaf70efb6d97/119dd0785334e307d2df472373f0cdfeb6174c8cc895ae12e9157cfb65527ad0/vs_Professional.exe"
+    },
+    {
       "slug": "visual-studio-code/darwin",
       "name": "Microsoft Visual Studio Code",
       "platform": "darwin",
@@ -9504,8 +9525,8 @@
       "slug": "xnconvert/darwin",
       "name": "XnSoft XnConvert",
       "platform": "darwin",
-      "version": "1.112.0",
-      "installerUrl": "https://download.xnview.com/old_versions/XnConvert/XnConvert-1.112.0-mac.dmg"
+      "version": "1.115.0",
+      "installerUrl": "https://download.xnview.com/old_versions/XnConvert/XnConvert-1.115.0-mac.dmg"
     },
     {
       "slug": "xnconvert/windows",
