@@ -1,87 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-07-22T15:48:48Z",
-      "appName": "Milanote",
-      "slug": "milanote/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.18.115",
-      "newVersion": "3.18.116",
-      "installerUrl": "https://milanote-app-releases.s3.amazonaws.com/Milanote-3.18.116.dmg"
-    },
-    {
-      "date": "2026-07-22T15:48:48Z",
-      "appName": "Prisma Browser",
-      "slug": "prisma-browser/darwin",
-      "platform": "darwin",
-      "oldVersion": "150.49.5.129",
-      "newVersion": "150.49.7.182",
-      "installerUrl": "https://updates.talon-sec.com/releases/Prisma%20Access%20Browser/mac/packaged/universal/Prisma%20Access%20Browser-150.49.7.182-c674b580.pkg"
-    },
-    {
-      "date": "2026-07-22T15:48:48Z",
-      "appName": "Thunderbird",
-      "slug": "thunderbird/darwin",
-      "platform": "darwin",
-      "oldVersion": "152.0.1",
-      "newVersion": "153.0",
-      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/153.0/mac/en-US/Thunderbird%20153.0.dmg"
-    },
-    {
-      "date": "2026-07-22T15:48:48Z",
-      "appName": "AdLock",
-      "slug": "adlock/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.1.8.8",
-      "newVersion": "2.1.8.9",
-      "installerUrl": "https://downloads.adlock.com/mac/AdLock_Installer.dmg"
-    },
-    {
-      "date": "2026-07-22T15:48:48Z",
-      "appName": "Rive",
-      "slug": "rive/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.8.5165",
-      "newVersion": "0.8.5252",
-      "installerUrl": "https://releases.rive.app/macos/0.8.5252/Rive.dmg"
-    },
-    {
-      "date": "2026-07-22T15:48:48Z",
-      "appName": "Wispr Flow",
-      "slug": "wispr-flow/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.6.168",
-      "newVersion": "1.6.182",
-      "installerUrl": "https://dl.wisprflow.com/wispr-flow/darwin/arm64/dmgs/Flow-v1.6.182.dmg"
-    },
-    {
-      "date": "2026-07-22T15:48:48Z",
-      "appName": "Amazon Corretto 11",
-      "slug": "amazon-corretto-11/windows",
-      "platform": "windows",
-      "oldVersion": "11.0.31.11",
-      "newVersion": "11.0.32.9",
-      "installerUrl": "https://corretto.aws/downloads/resources/11.0.32.9.1/amazon-corretto-11.0.32.9.1-windows-x64.msi"
-    },
-    {
-      "date": "2026-07-22T15:48:48Z",
-      "appName": "Mailspring",
-      "slug": "mailspring/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.22.0",
-      "newVersion": "1.23.0",
-      "installerUrl": "https://github.com/Foundry376/Mailspring/releases/download/1.23.0/Mailspring-AppleSilicon.zip"
-    },
-    {
-      "date": "2026-07-22T21:13:20Z",
-      "appName": "Box Tools",
-      "slug": "box-tools/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "4.32.0.1324",
-      "installerUrl": "https://e3.boxcdn.net/box-installers/boxedit/win/currentrelease/BoxToolsInstaller-AdminInstall.msi"
-    },
-    {
       "date": "2026-07-22T21:13:20Z",
       "appName": "HeidiSQL",
       "slug": "heidisql/windows",
@@ -8999,6 +8918,87 @@
       "oldVersion": "3.13.14",
       "newVersion": "3.13.15",
       "installerUrl": "https://www.python.org/ftp/python/3.13.15/python-3.13.15-amd64.exe"
+    },
+    {
+      "date": "2026-08-09T21:37:06Z",
+      "appName": "Krisp",
+      "slug": "krisp/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.14.6",
+      "newVersion": "3.15.4",
+      "installerUrl": "https://cdn.krisp.ai/mp/mn/3.15/mac/Krisp_3.15.4_arm64.pkg"
+    },
+    {
+      "date": "2026-08-09T21:37:06Z",
+      "appName": "Marked",
+      "slug": "marked-app/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.1.18",
+      "newVersion": "3.1.19",
+      "installerUrl": "https://updates.markedapp.com/updates/Marked%203.1.19-1202.zip"
+    },
+    {
+      "date": "2026-08-09T21:37:06Z",
+      "appName": "Reqable",
+      "slug": "reqable/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.2.17",
+      "newVersion": "3.2.19",
+      "installerUrl": "https://github.com/reqable/reqable-app/releases/download/3.2.19/reqable-app-macos-arm64.dmg"
+    },
+    {
+      "date": "2026-08-09T21:37:06Z",
+      "appName": "Chatbox",
+      "slug": "chatbox/windows",
+      "platform": "windows",
+      "oldVersion": "1.22.2",
+      "newVersion": "1.22.3",
+      "installerUrl": "https://download.chatboxai.app/releases/Chatbox-1.22.3-Setup.exe"
+    },
+    {
+      "date": "2026-08-09T21:37:06Z",
+      "appName": "Stats",
+      "slug": "stats/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.0.10",
+      "newVersion": "3.0.11",
+      "installerUrl": "https://github.com/exelban/stats/releases/download/v3.0.11/Stats.dmg"
+    },
+    {
+      "date": "2026-08-09T21:37:06Z",
+      "appName": "Python 3.14",
+      "slug": "python-3.14/windows",
+      "platform": "windows",
+      "oldVersion": "3.14.6",
+      "newVersion": "3.14.7",
+      "installerUrl": "https://www.python.org/ftp/python/3.14.7/python-3.14.7-amd64.exe"
+    },
+    {
+      "date": "2026-08-09T21:37:06Z",
+      "appName": "OK JSON",
+      "slug": "ok-json/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.10.2",
+      "newVersion": "3.0",
+      "installerUrl": "https://okjson.app/download/okjson-latest.dmg"
+    },
+    {
+      "date": "2026-08-09T21:37:06Z",
+      "appName": "DevKnife",
+      "slug": "devknife/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.16.0",
+      "newVersion": "1.17.0",
+      "installerUrl": "https://files.solotuna.com/devknife/DevKnife-1.17.0.dmg"
+    },
+    {
+      "date": "2026-08-09T21:37:06Z",
+      "appName": "MarkEdit",
+      "slug": "markedit/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.33.1",
+      "newVersion": "1.34.0",
+      "installerUrl": "https://github.com/MarkEdit-app/MarkEdit/releases/download/v1.34.0/MarkEdit-1.34.0.dmg"
     }
   ]
 }
