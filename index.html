@@ -625,7 +625,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: August 9, 2026 at 9:02 AM CDT</p>
+            Last updated: August 9, 2026 at 9:04 AM CDT</p>
         </div>
     </div>
 
@@ -686,7 +686,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: August 9, 2026 at 9:02 AM CDT</p>
+                <p id="modalLastUpdated">Last updated: August 9, 2026 at 9:04 AM CDT</p>
             </div>
         </div>
     </div>
@@ -5675,8 +5675,8 @@
                 "slug": "azure-functions-core-tools/windows",
                 "platform": "windows",
                 "description": "Azure Functions Core Tools is a command-line toolset for developing and testing Azure Functions locally.",
-                "version": "",
-                "installerUrl": "",
+                "version": "4.12.1",
+                "installerUrl": "https://github.com/Azure/azure-functions-core-tools/releases/download/4.12.1/func-cli-4.12.1-x64.msi",
                 "securityInfo": {
                   "sha256": "e8a931f5a719515d9df2ffe8296d4a0e79f386e828c03cc809f7114fb88d1c2a",
                   "lastUpdated": "2026-07-07T20:35:17Z"
@@ -26599,7 +26599,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `August 9, 2026 at 9:02 AM CDT`;
+                let timestampText = 'Last updated: ' + `August 9, 2026 at 9:04 AM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
