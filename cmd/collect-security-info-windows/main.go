@@ -44,6 +44,9 @@ type appSecurityInfo struct {
 	Name         string            `json:"name"`
 	Version      string            `json:"version"`
 	Sha256       string            `json:"sha256,omitempty"`
+	Cdhash       string            `json:"cdhash,omitempty"`    // macOS: preserved on round-trip, never set here
+	SigningID    string            `json:"signingId,omitempty"` // macOS: preserved on round-trip, never set here
+	TeamID       string            `json:"teamId,omitempty"`    // macOS: preserved on round-trip, never set here
 	Publisher    string            `json:"publisher,omitempty"`
 	Issuer       string            `json:"issuer,omitempty"`
 	SerialNumber string            `json:"serialNumber,omitempty"`
