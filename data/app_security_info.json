@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-11T15:29:09Z",
+  "lastUpdated": "2026-08-11T15:32:32Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1221,9 +1221,13 @@
     {
       "slug": "autopsy/windows",
       "name": "Autopsy",
-      "version": "4.22.1",
-      "sha256": "ee790adfcf8436d7b128ddb43d6f6df1a8404df7612972b2bef7022b4f27bf69",
-      "lastUpdated": "2026-06-16T15:07:54Z"
+      "version": "4.23.1",
+      "sha256": "54eb7f94983b806667d99c3d3f9710025c8c81abdce76886be299bb9828d910d",
+      "publisher": "CN=GlobalSign Root CA, OU=Root CA, O=GlobalSign nv-sa, C=BE",
+      "issuer": "CN=GlobalSign Root CA, OU=Root CA, O=GlobalSign nv-sa, C=BE",
+      "serialNumber": "040000000001154b5ac394",
+      "timestamp": "Cert is a CA certificate",
+      "lastUpdated": "2026-08-11T15:30:33Z"
     },
     {
       "slug": "avast-secure-browser/darwin",
@@ -2686,14 +2690,14 @@
     {
       "slug": "cloudflare-warp/windows",
       "name": "Cloudflare One",
-      "version": "26.6.880.0",
-      "sha256": "ffcd1d803d774409ae54e565e85b7e03cd96450fd1654eee44f8a9e463078030",
+      "version": "26.6.905.0",
+      "sha256": "d6c58ac9c18e2459d7173cf071812ebfdb1014ac6b9f041f4e1c37c7859c20f1",
       "publisher": "CN=\"Cloudflare, Inc.\", O=\"Cloudflare, Inc.\", L=San Francisco, S=California, C=US, SERIALNUMBER=4710875, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0D411782E71F6DA2A48DA0A19DBAC771",
       "thumbprint": "0B6C68C4BAD79F9AC39E07FE84223FB796D4D0BC",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-07-21T23:24:51Z"
+      "lastUpdated": "2026-08-11T15:31:12Z"
     },
     {
       "slug": "cloudmounter/darwin",
@@ -2980,14 +2984,14 @@
     {
       "slug": "creative-force-kelvin/windows",
       "name": "Creative Force Kelvin",
-      "version": "6.7.0",
-      "sha256": "e824c471f5e90af170d05e7ebb611055195b31bbbbc7acad242bce38323a4dea",
+      "version": "6.8.0",
+      "sha256": "0f1f9be3af8e676dec76afd5376ef2f8322d36b600d8062874c7311f05777445",
       "publisher": "CN=\"Creativeforce.io, Inc.\", O=\"Creativeforce.io, Inc.\", L=Boston, S=Massachusetts, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0A011956BE734C80A90663B4F31296CF",
       "thumbprint": "16E9B29019D627675CDFC53CD4A9FFF36F4B17D2",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-08-03T16:13:31Z"
+      "lastUpdated": "2026-08-11T15:31:32Z"
     },
     {
       "slug": "creative-force-triad/windows",
@@ -3902,14 +3906,14 @@
     {
       "slug": "docker/windows",
       "name": "Docker Desktop",
-      "version": "4.85.0",
-      "sha256": "5417cedc1aeb16b488b8084025246b64a5e9da4d71388f324b107140dfe00699",
+      "version": "4.86.0",
+      "sha256": "820438e75c16e44b393079154bea7d27958a15845c23a635b1a1f6f586b2ed44",
       "publisher": "CN=Docker Inc, O=Docker Inc, L=Palo Alto, S=California, C=US, SERIALNUMBER=4817464, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0DCE683683AE70C7C647ADDB7E609A9A",
       "thumbprint": "B6BD29272B07AD4D0F1322A739499D67CA3BAC3F",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-08-05T04:50:36Z"
+      "lastUpdated": "2026-08-11T15:31:43Z"
     },
     {
       "slug": "dockfix/darwin",
@@ -4016,26 +4020,26 @@
     {
       "slug": "drawio/windows",
       "name": "draw.io",
-      "version": "31.1.5",
-      "sha256": "dbb7efd2c06f9102fc7e80e38ed9a99e5b8d23257bfbdf81994c7686f830c971",
+      "version": "31.1.8",
+      "sha256": "5e62b50085714032c75b2dd35fcc61b6d01294916b2d49f74ea9bf684aec9bb6",
       "publisher": "CN=draw.io Ltd, O=draw.io Ltd, L=Northampton, S=Northamptonshire, C=GB",
-      "issuer": "CN=Microsoft ID Verified CS AOC CA 03, O=Microsoft Corporation, C=US",
-      "serialNumber": "330003EDBF574F70E450182EE600000003EDBF",
-      "thumbprint": "C77D5838A687391ECC3BB7B3F9A3F64D97DD1712",
-      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7800-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-08-05T04:50:42Z"
+      "issuer": "CN=Microsoft ID Verified CS EOC CA 04, O=Microsoft Corporation, C=US",
+      "serialNumber": "330003F6D42C933731686D8C1400000003F6D4",
+      "thumbprint": "4C2138ECAEC6E72F1BC22C25052DB57F4B52B4B3",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7D00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-08-11T15:31:47Z"
     },
     {
       "slug": "drofus/windows",
       "name": "dRofus",
-      "version": "2.18.12.0",
-      "sha256": "67ebe3845621024d3e28be5c57642860b9eb8d436d8ea01033de7bdd252deddc",
+      "version": "2.18.13.0",
+      "sha256": "8246ad0f0516b8b2e8b2de2b846195843e570a65ce5fa97b7e763e8a18878072",
       "publisher": "CN=DROFUS AS, O=DROFUS AS, L=OSLO, S=OSLO, C=NO, OID.1.3.6.1.4.1.311.60.2.1.3=NO, SERIALNUMBER=997 466 586, OID.2.5.4.15=Private Organization",
       "issuer": "CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
       "serialNumber": "46D0DBE5EFDD6C2F2DA7B241",
       "thumbprint": "965EA0C71C0985C71848484A218B259373D44844",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-08-07T18:30:31Z"
+      "lastUpdated": "2026-08-11T15:32:01Z"
     },
     {
       "slug": "dropbox/darwin",
@@ -5662,14 +5666,14 @@
     {
       "slug": "goland/windows",
       "name": "GoLand",
-      "version": "2026.2",
-      "sha256": "22ab9a1594c26894c0e470d0ac6f21177c7174b486cbd81130260e907895ee96",
+      "version": "2026.2.1",
+      "sha256": "9cea23f70179edc0c573c158828fe0721c63ba70a813fcc8e89283a085fedd0a",
       "publisher": "CN=JetBrains s.r.o., O=JetBrains s.r.o., L=Prague, C=CZ, SERIALNUMBER=26502275, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CZ",
       "issuer": "CN=DigiCert Trusted G4 Code Signing Europe RSA4096 SHA384 2023 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "083EA13884BDFFCE8E5D9D5CAD2EFBDE",
       "thumbprint": "8C1B506D0BD10A911D09FB7EDBCAB383F1CDAF20",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-07-30T06:44:11Z"
+      "lastUpdated": "2026-08-11T15:32:18Z"
     },
     {
       "slug": "goldendict-ng/windows",
@@ -7235,14 +7239,14 @@
     {
       "slug": "lenovo-system-update/windows",
       "name": "Lenovo System Update",
-      "version": "5.08.03.59",
-      "sha256": "e66794dc561a3e58e3dc68556eb053ee32b674ac9d99638e473ef7322f353e0d",
-      "publisher": "CN=Lenovo, O=Lenovo, L=Morrisville, S=North Carolina, C=US",
+      "version": "5.08.04.85",
+      "sha256": "4f044c4a1cece3fe4be22408da7e1d8e8338eeaae4491ce18fdaa5b655dc9585",
+      "publisher": "CN=Lenovo, OU=G17, O=Lenovo, L=Morrisville, S=North Carolina, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
-      "serialNumber": "0C3A095717D61722120BAAF86500E9F1",
-      "thumbprint": "1C5B0A8D9DA9BB6A5FCE9A548BA9278339E00507",
-      "timestamp": "CN=DigiCert Timestamp 2023, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-08-01T03:14:57Z"
+      "serialNumber": "07B4D0CA4CB17723AC108D171D042005",
+      "thumbprint": "3466ABFD27B3B918A69BCEEA4C022809E021235E",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-08-11T15:32:20Z"
     },
     {
       "slug": "lens/darwin",
@@ -8057,14 +8061,14 @@
     {
       "slug": "microsoft-edge/windows",
       "name": "Microsoft Edge",
-      "version": "151.0.4129.72",
-      "sha256": "edf3e24eb291b26bbd09c0a7477e30ce32897e4692743b47961cc40c0cfa8685",
+      "version": "151.0.4129.78",
+      "sha256": "716b2549eedf4305b92d149186f878394c8d8b7b743db0eaaec773349ed3c273",
       "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
       "issuer": "CN=Microsoft Code Signing PCA 2024, O=Microsoft Corporation, C=US",
       "serialNumber": "33000002334EC248564C2B5C6F000000000233",
       "thumbprint": "4028CAD637509D4744B17EC5B42AED8D7A31E6AF",
-      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:7F00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-08-08T06:12:22Z"
+      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:E002-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-08-11T15:32:32Z"
     },
     {
       "slug": "microsoft-excel/darwin",
