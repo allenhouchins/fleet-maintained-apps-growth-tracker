@@ -52,6 +52,12 @@
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
             position: relative;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .container > * {
+            margin: 0;
         }
         .header-section {
             display: flex;
@@ -61,6 +67,12 @@
         }
         .header-content {
             flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .header-content > * {
+            margin: 0;
         }
         h1 {
             color: #1e293b;
@@ -78,29 +90,43 @@
         }
         .stats {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-columns: 1fr;
             gap: 20px;
-            margin-top: 30px;
-            padding-top: 30px;
-            border-top: 2px solid #e2e8f0;
+        }
+        /* Segmented toggle: three clickable filter cards share edges. */
+        .stats-toggle {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            overflow: hidden;
+            background: #f8fafc;
+        }
+        .stats-toggle .stat-card {
+            border-radius: 0;
+            border-left: 1px solid #e2e8f0;
+        }
+        .stats-toggle .stat-card:first-child {
+            border-left: 0;
         }
         .stat-card {
             background: #f8fafc;
             padding: 20px;
             border-radius: 6px;
-            border-left: 4px solid #2563eb;
             cursor: pointer;
             transition: all 0.2s ease;
         }
-        .stat-card:hover {
+        .stat-card.clickable:hover {
             background: #f1f5f9;
-            transform: translateY(-2px);
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .stat-card.clickable:hover .stat-value,
+        .stat-card.clickable:hover .stat-label,
+        .stat-card.active .stat-value,
+        .stat-card.active .stat-label {
+            color: #192147;
         }
         .stat-card.active {
             background: #eff6ff;
-            border-left-color: #1d4ed8;
-            box-shadow: 0 2px 4px rgba(37, 99, 235, 0.2);
         }
         .stat-card.clickable {
             cursor: pointer;
@@ -154,23 +180,23 @@
             font-size: 14px;
         }
         .apps-section {
-            margin-top: 50px;
-            padding-top: 40px;
-            border-top: 2px solid #e2e8f0;
-        }
-        .apps-header {
-            margin-bottom: 30px;
-        }
-        .apps-header h2 {
-            color: #1e293b;
-            margin-bottom: 10px;
-            font-size: 24px;
+            margin-top: 0;
+            padding-top: 0;
+            border-top: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
         }
         .apps-count-row {
             display: flex;
             align-items: center;
             justify-content: space-between;
             gap: 16px;
+        }
+        .apps-controls {
+            display: flex;
+            align-items: center;
+            gap: 8px;
         }
         .apps-search {
             position: relative;
@@ -197,10 +223,12 @@
             transition: all 0.2s ease;
             box-sizing: border-box;
         }
-        .apps-search input:focus {
-            border-color: #2563eb;
+        .apps-search input:focus,
+        .apps-search input:focus-visible {
+            outline: none;
+            box-shadow: none;
+            border-color: #192147;
             background: white;
-            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
         }
         .apps-search input::placeholder {
             color: #94a3b8;
@@ -208,12 +236,12 @@
         .apps-count {
             color: #64748b;
             font-size: 16px;
+            margin: 0;
         }
         .apps-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
             gap: 20px;
-            margin-top: 20px;
         }
         .app-card {
             background: #f8fafc;
@@ -229,9 +257,7 @@
             color: inherit;
         }
         .app-card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
-            border-color: #2563eb;
+            border-color: #192147;
         }
         .app-icon {
             width: 64px;
@@ -282,6 +308,77 @@
         }
         .apps-grid.hidden {
             display: none;
+        }
+        /* Default: wrapper is layout-invisible; version + platform stack
+           as siblings inside the flex-column card, matching the original
+           layout. Compact mode below opts into a real flex row. */
+        .app-meta {
+            display: contents;
+        }
+        /* --- Compact grid + card variant --- */
+        .apps-grid--compact {
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            gap: 8px;
+        }
+        .apps-grid--compact .app-card {
+            display: grid;
+            grid-template-columns: 36px 1fr;
+            gap: 0px 8px;
+            align-items: center;
+            text-align: left;
+            padding: 4px;
+        }
+        .apps-grid--compact .app-icon {
+            width: 36px;
+            height: 36px;
+            border-radius: 4px;
+            box-shadow: none;
+            margin-bottom: 0;
+            grid-row: span 2;
+        }
+        .apps-grid--compact .app-name {
+            font-size: 12px;
+            line-height: 1.3;
+            margin-bottom: 0;
+        }
+        .apps-grid--compact .app-meta {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .apps-grid--compact .app-version {
+            font-size: 12px;
+            margin-top: 0;
+        }
+        .apps-grid--compact .app-platform {
+            font-size: 12px;
+            padding: 2px 6px;
+            margin-top: 0;
+        }
+        /* --- Card-size toggle (sits in .apps-count-row) --- */
+        .card-size-toggle {
+            display: inline-flex;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            overflow: hidden;
+            background: #f8fafc;
+            flex-shrink: 0;
+        }
+        .card-size-toggle button {
+            border: 0;
+            background: transparent;
+            padding: 8px 14px;
+            font-size: 13px;
+            color: #64748b;
+            cursor: pointer;
+            transition: background 0.15s ease, color 0.15s ease;
+        }
+        .card-size-toggle button:hover {
+            color: #1e293b;
+        }
+        .card-size-toggle button.active {
+            background: #eff6ff;
+            color: #1e293b;
         }
         /* Modal Styles */
         .modal {
@@ -609,12 +706,17 @@
 
         <div class="apps-section">
             <div class="apps-header">
-                <h2>Fleet-maintained apps</h2>
                 <div class="apps-count-row">
-                    <p class="apps-count"><span id="appsCount">0</span> and counting...</p>
-                    <div class="apps-search">
-                        <svg class="apps-search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-                        <input type="text" id="appSearchInput" placeholder="Search apps..." oninput="handleSearch(this.value)">
+                    <p class="apps-count"><span id="appsCount">0</span> total apps</p>
+                    <div class="apps-controls">
+                        <div class="card-size-toggle" role="group" aria-label="Card size">
+                            <button type="button" id="cardSizeDefaultBtn" class="active" onclick="setCardSize('default')" aria-pressed="true">Default</button>
+                            <button type="button" id="cardSizeCompactBtn" onclick="setCardSize('compact')" aria-pressed="false">Compact</button>
+                        </div>
+                        <div class="apps-search">
+                            <svg class="apps-search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                            <input type="text" id="appSearchInput" placeholder="Search apps..." oninput="handleSearch(this.value)">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -625,7 +727,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: August 10, 2026 at 10:55 PM CDT</p>
+            Last updated: August 10, 2026 at 11:08 PM CDT</p>
         </div>
     </div>
 
@@ -686,7 +788,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: August 10, 2026 at 10:55 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: August 10, 2026 at 11:08 PM CDT</p>
             </div>
         </div>
     </div>
@@ -26042,30 +26144,70 @@
                 return a.platform.localeCompare(b.platform);
             });
             
-            if (!currentSearchQuery) {
-                countEl.textContent = filteredApps.length;
-            }
-            
+            // Always reflect what's actually rendered — the previous
+            // no-search guard froze the count as soon as any text was typed
+            // in the search box, so toggling Total / Mac / Windows left the
+            // count stuck until the search cleared.
+            countEl.textContent = filteredApps.length;
+
             grid.innerHTML = filteredApps.map(app => {
                 const iconUrl = getAppIconUrl(app.slug);
                 const fallbackText = getAppIconFallback(app.name);
                 const platformLabel = getPlatformLabel(app.platform);
                 const version = app.version || 'N/A';
                 const versionHtml = '<div class="app-version">' + escapeHtml(version) + '</div>';
-                
-                // Make cards clickable divs that open modal
-                // Store app slug to find app data when clicked
+
+                // Make cards clickable divs that open modal. Store app slug
+                // to find app data when clicked. The app-meta wrapper lets
+                // compact mode pull version + platform onto one line via flex;
+                // default mode uses display: contents on the wrapper so it
+                // stays layout-invisible.
                 return '<div class="app-card" data-platform="' + escapeHtml(app.platform) + '" data-app-slug="' + escapeHtml(app.slug) + '" onclick="openModalFromCard(this)" style="cursor: pointer;">' +
                     '<div class="app-icon" data-fallback="' + escapeHtml(fallbackText) + '">' +
                     '<img src="' + escapeHtml(iconUrl) + '" alt="' + escapeHtml(app.name) + '" onerror="handleIconError(this);">' +
                     '</div>' +
                     '<div class="app-name">' + escapeHtml(app.name) + '</div>' +
+                    '<div class="app-meta">' +
                     versionHtml +
                     '<span class="app-platform ' + escapeHtml(app.platform) + '">' + escapeHtml(platformLabel) + '</span>' +
+                    '</div>' +
                     '</div>';
             }).join('');
         }
-        
+
+        // --- Card-size toggle ---
+        // Persist between visits so a user's preferred density sticks.
+        const CARD_SIZE_STORAGE_KEY = 'fma-library:cardSize';
+        function setCardSize(mode) {
+            const grid = document.getElementById('appsGrid');
+            const defaultBtn = document.getElementById('cardSizeDefaultBtn');
+            const compactBtn = document.getElementById('cardSizeCompactBtn');
+            const isCompact = mode === 'compact';
+            if (grid) {
+                grid.classList.toggle('apps-grid--compact', isCompact);
+            }
+            if (defaultBtn && compactBtn) {
+                defaultBtn.classList.toggle('active', !isCompact);
+                compactBtn.classList.toggle('active', isCompact);
+                defaultBtn.setAttribute('aria-pressed', String(!isCompact));
+                compactBtn.setAttribute('aria-pressed', String(isCompact));
+            }
+            try {
+                localStorage.setItem(CARD_SIZE_STORAGE_KEY, mode);
+            } catch (e) {
+                // localStorage can be disabled in private browsing; failing
+                // silently keeps the current-session toggle working.
+            }
+        }
+        function restoreCardSize() {
+            try {
+                const saved = localStorage.getItem(CARD_SIZE_STORAGE_KEY);
+                if (saved === 'compact') setCardSize('compact');
+            } catch (e) {
+                /* no-op — default (Default mode) already applied */
+            }
+        }
+
         function updateChart(viewType) {
             if (!chartInstance || !chartData) return;
             
@@ -26138,19 +26280,23 @@
             const macApps = data.macCounts.length > 0 ? data.macCounts[data.macCounts.length - 1] : 0;
             const windowsApps = data.windowsCounts.length > 0 ? data.windowsCounts[data.windowsCounts.length - 1] : 0;
             
-            // Update stats cards
-            document.getElementById('stats').innerHTML = 
-                '<div class="stat-card clickable active" data-view="total">' +
-                    '<div class="stat-value">' + totalApps + '</div>' +
-                    '<div class="stat-label">Total Apps</div>' +
-                '</div>' +
-                '<div class="stat-card clickable" data-view="mac">' +
-                    '<div class="stat-value">' + macApps + '</div>' +
-                    '<div class="stat-label">Mac Apps</div>' +
-                '</div>' +
-                '<div class="stat-card clickable" data-view="windows">' +
-                    '<div class="stat-value">' + windowsApps + '</div>' +
-                    '<div class="stat-label">Windows Apps</div>' +
+            // Update stats cards. Total / Mac / Windows are clickable
+            // filters grouped in .stats-toggle so their shared edges
+            // collapse into a segmented-toggle look.
+            document.getElementById('stats').innerHTML =
+                '<div class="stats-toggle" role="group" aria-label="Filter by platform">' +
+                    '<div class="stat-card clickable active" data-view="total">' +
+                        '<div class="stat-value">' + totalApps + '</div>' +
+                        '<div class="stat-label">Total apps</div>' +
+                    '</div>' +
+                    '<div class="stat-card clickable" data-view="mac">' +
+                        '<div class="stat-value">' + macApps + '</div>' +
+                        '<div class="stat-label">Mac apps</div>' +
+                    '</div>' +
+                    '<div class="stat-card clickable" data-view="windows">' +
+                        '<div class="stat-value">' + windowsApps + '</div>' +
+                        '<div class="stat-label">Windows apps</div>' +
+                    '</div>' +
                 '</div>';
             
             // Add click event listeners to stat cards
@@ -26163,6 +26309,8 @@
             
             // Initialize apps display
             filterApps('total');
+            // Restore the user's last card-size preference (default vs compact).
+            restoreCardSize();
             
             // Cumulative Growth Chart
             const ctx1 = document.getElementById('cumulativeChart').getContext('2d');
@@ -26615,7 +26763,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `August 10, 2026 at 10:55 PM CDT`;
+                let timestampText = 'Last updated: ' + `August 10, 2026 at 11:08 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
