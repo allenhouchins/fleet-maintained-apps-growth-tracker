@@ -1,321 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-07-24T15:02:15Z",
-      "appName": "Google Chrome",
-      "slug": "google-chrome/darwin",
-      "platform": "darwin",
-      "oldVersion": "150.0.7871.182",
-      "newVersion": "150.0.7871.187",
-      "installerUrl": "https://dl.google.com/dl/chrome/mac/universal/stable/gcem/GoogleChrome.pkg"
-    },
-    {
-      "date": "2026-07-24T15:02:15Z",
-      "appName": "Claude",
-      "slug": "claude/windows",
-      "platform": "windows",
-      "oldVersion": "1.24012.0",
-      "newVersion": "1.24012.1",
-      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/1.24012.1/Claude-0adcaed55041a881be363f2c4a4729f67a8b27d7.msix"
-    },
-    {
-      "date": "2026-07-24T15:02:15Z",
-      "appName": "GOG Galaxy",
-      "slug": "gog-galaxy/windows",
-      "platform": "windows",
-      "oldVersion": "2.1.6.29",
-      "newVersion": "2.1.7.22",
-      "installerUrl": "https://content-system.gog.com/open_link/download?path=/open/galaxy/client/setup_galaxy_2.1.7.22.exe"
-    },
-    {
-      "date": "2026-07-24T15:02:15Z",
-      "appName": "Cursor",
-      "slug": "cursor/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.12.30",
-      "newVersion": "3.13.10",
-      "installerUrl": "https://downloads.cursor.com/production/4f02290ccd9304f0e6bf8ee85f6e9106f02ac1f7/darwin/arm64/Cursor-darwin-arm64.zip"
-    },
-    {
-      "date": "2026-07-24T15:02:15Z",
-      "appName": "BrowserStackLocal",
-      "slug": "browserstacklocal/windows",
-      "platform": "windows",
-      "oldVersion": "3.7.7",
-      "newVersion": "3.7.8",
-      "installerUrl": "https://www.browserstack.com/local-testing/downloads/native-app/BrowserStackLocal.msi"
-    },
-    {
-      "date": "2026-07-24T15:02:15Z",
-      "appName": "CLion",
-      "slug": "clion/windows",
-      "platform": "windows",
-      "oldVersion": "2026.2",
-      "newVersion": "2026.2.0.1",
-      "installerUrl": "https://download.jetbrains.com/cpp/CLion-2026.2.0.1.exe"
-    },
-    {
-      "date": "2026-07-24T15:02:15Z",
-      "appName": "Dropbox",
-      "slug": "dropbox/windows",
-      "platform": "windows",
-      "oldVersion": "262.3.3075",
-      "newVersion": "262.4.3183",
-      "installerUrl": "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20262.4.3183%20Enterprise%20Installer.x64.msi"
-    },
-    {
-      "date": "2026-07-24T15:02:15Z",
-      "appName": "ChatGPT Desktop",
-      "slug": "chatgpt/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.721.30844",
-      "newVersion": "26.721.31836",
-      "installerUrl": "https://persistent.oaistatic.com/codex-app-prod/ChatGPT-darwin-arm64-26.721.31836.zip"
-    },
-    {
-      "date": "2026-07-24T16:47:03Z",
-      "appName": "LibreOffice",
-      "slug": "libreoffice/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.2.4",
-      "newVersion": "26.2.5",
-      "installerUrl": "https://download.documentfoundation.org/libreoffice/stable/26.2.5/mac/aarch64/LibreOffice_26.2.5_MacOS_aarch64.dmg"
-    },
-    {
-      "date": "2026-07-24T18:23:21Z",
-      "appName": "Miro",
-      "slug": "miro/windows",
-      "platform": "windows",
-      "oldVersion": "0.11.162",
-      "newVersion": "0.11.164",
-      "installerUrl": "https://desktop.miro.com/platforms/win32-nsis-pu/Miro-setup.exe"
-    },
-    {
-      "date": "2026-07-24T18:23:21Z",
-      "appName": "Mullvad Browser",
-      "slug": "mullvad-browser/windows",
-      "platform": "windows",
-      "oldVersion": "15.0.18",
-      "newVersion": "15.0.19",
-      "installerUrl": "https://github.com/mullvad/mullvad-browser/releases/download/15.0.19/mullvad-browser-windows-x86_64-15.0.19.exe"
-    },
-    {
-      "date": "2026-07-24T18:23:21Z",
-      "appName": "Reqable",
-      "slug": "reqable/windows",
-      "platform": "windows",
-      "oldVersion": "3.2.13",
-      "newVersion": "3.2.14",
-      "installerUrl": "https://github.com/reqable/reqable-app/releases/download/3.2.14/reqable-app-windows-x86_64.exe"
-    },
-    {
-      "date": "2026-07-24T18:23:21Z",
-      "appName": "Proxyman",
-      "slug": "proxyman/darwin",
-      "platform": "darwin",
-      "oldVersion": "6.12.0",
-      "newVersion": "6.14.0",
-      "installerUrl": "https://download.proxyman.com/61400/Proxyman_6.14.0.dmg"
-    },
-    {
-      "date": "2026-07-24T18:23:21Z",
-      "appName": "Vivaldi",
-      "slug": "vivaldi/windows",
-      "platform": "windows",
-      "oldVersion": "8.1.4087.55",
-      "newVersion": "8.1.4087.58",
-      "installerUrl": "https://downloads.vivaldi.com/stable/Vivaldi.8.1.4087.58.x64.exe"
-    },
-    {
-      "date": "2026-07-24T20:23:32Z",
-      "appName": "Mozilla Firefox Nightly",
-      "slug": "firefox@nightly/windows",
-      "platform": "windows",
-      "oldVersion": "155.2607.2210.0",
-      "newVersion": "155.2607.2409.0",
-      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/07/2026-07-24-09-01-43-mozilla-central/firefox-155.0a1.multi.win64.installer.msix"
-    },
-    {
-      "date": "2026-07-24T20:23:32Z",
-      "appName": "Chef Workstation",
-      "slug": "chef-workstation/windows",
-      "platform": "windows",
-      "oldVersion": "25.13.7.1",
-      "newVersion": "25.14.2.1",
-      "installerUrl": "https://packages.chef.io/files/stable/chef-workstation/25.14.2/windows/10/chef-workstation-25.14.2-1-x64.msi"
-    },
-    {
-      "date": "2026-07-24T20:23:32Z",
-      "appName": "Prisma Browser",
-      "slug": "prisma-browser/windows",
-      "platform": "windows",
-      "oldVersion": "150.49.7.182",
-      "newVersion": "150.49.8.187",
-      "installerUrl": "https://updates.talon-sec.com/releases/Prisma%20Access%20Browser/win/packaged/x64/crx_signed_o4_stable_prisma_access_browser_installer_150_49_8_187-150.49.8.187-0b42f71b.msi"
-    },
-    {
-      "date": "2026-07-25T00:06:58Z",
-      "appName": "Versions",
-      "slug": "versions/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.4.4",
-      "newVersion": "2.4.5",
-      "installerUrl": "https://updates.versionsapp.com/v2/prod/Versions-2.4.5-2042.zip"
-    },
-    {
-      "date": "2026-07-25T00:06:58Z",
-      "appName": "Vivaldi",
-      "slug": "vivaldi/darwin",
-      "platform": "darwin",
-      "oldVersion": "8.1.4087.56",
-      "newVersion": "8.1.4087.58",
-      "installerUrl": "https://downloads.vivaldi.com/stable/Vivaldi.8.1.4087.58.universal.dmg"
-    },
-    {
-      "date": "2026-07-25T00:06:58Z",
-      "appName": "Reqable",
-      "slug": "reqable/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.2.13",
-      "newVersion": "3.2.14",
-      "installerUrl": "https://github.com/reqable/reqable-app/releases/download/3.2.14/reqable-app-macos-arm64.dmg"
-    },
-    {
-      "date": "2026-07-25T00:06:58Z",
-      "appName": "WhatsApp",
-      "slug": "whatsapp/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.29.20",
-      "newVersion": "26.29.22",
-      "installerUrl": "https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release\u0026src=whatsapp_downloads_page"
-    },
-    {
-      "date": "2026-07-25T00:06:58Z",
-      "appName": "WeChat for Mac",
-      "slug": "wechat/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.1.12.25",
-      "newVersion": "4.1.12.27",
-      "installerUrl": "https://dldir1.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.12.27_269339.dmg"
-    },
-    {
-      "date": "2026-07-25T00:06:58Z",
-      "appName": "Claude",
-      "slug": "claude/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.24012.1",
-      "newVersion": "1.24012.9",
-      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.24012.9/Claude-03c61d06f8e01a4db2273b9514e225f21d2ba62e.zip"
-    },
-    {
-      "date": "2026-07-25T00:06:58Z",
-      "appName": "Mozilla Firefox Developer Edition",
-      "slug": "firefox@developer-edition/darwin",
-      "platform": "darwin",
-      "oldVersion": "154.0b1",
-      "newVersion": "154.0b2",
-      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/154.0b2/mac/en-US/Firefox%20154.0b2.dmg"
-    },
-    {
-      "date": "2026-07-25T00:06:58Z",
-      "appName": "Notepad.exe",
-      "slug": "notepadexe/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.5.6",
-      "newVersion": "1.5.7",
-      "installerUrl": "https://github.com/notepadhq/notepadexe-public/releases/download/1.5.7/Notepad.zip"
-    },
-    {
-      "date": "2026-07-25T00:06:58Z",
-      "appName": "ChatWise",
-      "slug": "chatwise/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.7.3",
-      "newVersion": "26.7.4",
-      "installerUrl": "https://releases.chatwise.app/26.7.4/ChatWise-26.7.4-arm64.dmg"
-    },
-    {
-      "date": "2026-07-25T00:06:58Z",
-      "appName": "WebCatalog",
-      "slug": "webcatalog/darwin",
-      "platform": "darwin",
-      "oldVersion": "77.6.0",
-      "newVersion": "77.7.0",
-      "installerUrl": "https://cdn-2.webcatalog.io/webcatalog/WebCatalog-77.7.0-universal.dmg"
-    },
-    {
-      "date": "2026-07-25T00:06:58Z",
-      "appName": "Netron",
-      "slug": "netron/darwin",
-      "platform": "darwin",
-      "oldVersion": "9.1.8",
-      "newVersion": "9.1.9",
-      "installerUrl": "https://github.com/lutzroeder/netron/releases/download/v9.1.9/Netron-9.1.9-mac.zip"
-    },
-    {
-      "date": "2026-07-25T00:06:58Z",
-      "appName": "WorkFlowy",
-      "slug": "workflowy/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.3.2607221820",
-      "newVersion": "4.3.2607240847",
-      "installerUrl": "https://github.com/workflowy/desktop/releases/download/v4.3.2607240847/WorkFlowy.zip"
-    },
-    {
-      "date": "2026-07-25T00:06:58Z",
-      "appName": "Brave",
-      "slug": "brave-browser/darwin",
-      "platform": "darwin",
-      "oldVersion": "150.1.92.143",
-      "newVersion": "150.1.92.144",
-      "installerUrl": "https://updates-cdn.bravesoftware.com/sparkle/Brave-Browser/stable-arm64/192.144/Brave-Browser-arm64.dmg"
-    },
-    {
-      "date": "2026-07-25T00:06:58Z",
-      "appName": "Spokenly",
-      "slug": "spokenly/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.25.4",
-      "newVersion": "2.26.0",
-      "installerUrl": "https://cdn.spokenly.app/releases/macos/Spokenly-2.26.0.dmg"
-    },
-    {
-      "date": "2026-07-25T00:06:58Z",
-      "appName": "Dialpad",
-      "slug": "dialpad/darwin",
-      "platform": "darwin",
-      "oldVersion": "2606.1.2",
-      "newVersion": "2607.1.1",
-      "installerUrl": "https://download.dialpad.com/osx/arm64/dialpad.pkg"
-    },
-    {
-      "date": "2026-07-25T00:06:58Z",
-      "appName": "OneDrive",
-      "slug": "onedrive/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.113.0614.0004",
-      "newVersion": "26.119.0622.0003",
-      "installerUrl": "https://oneclient.sfx.ms/Mac/Installers/26.119.0622.0003/universal/OneDrive.pkg"
-    },
-    {
-      "date": "2026-07-25T00:06:58Z",
-      "appName": "Prisma Browser",
-      "slug": "prisma-browser/darwin",
-      "platform": "darwin",
-      "oldVersion": "150.49.7.182",
-      "newVersion": "150.49.8.187",
-      "installerUrl": "https://updates.talon-sec.com/releases/Prisma%20Access%20Browser/mac/packaged/universal/Prisma%20Access%20Browser-150.49.8.187-2f81552d.pkg"
-    },
-    {
-      "date": "2026-07-25T00:06:58Z",
-      "appName": "Sequel Ace",
-      "slug": "sequel-ace/darwin",
-      "platform": "darwin",
-      "oldVersion": "5.3.0",
-      "newVersion": "5.3.1",
-      "installerUrl": "https://github.com/Sequel-Ace/Sequel-Ace/releases/download/production/5.3.1-20104/Sequel-Ace-5.3.1.zip"
-    },
-    {
       "date": "2026-07-25T00:06:58Z",
       "appName": "Warp",
       "slug": "warp/darwin",
@@ -8999,6 +8684,321 @@
       "oldVersion": "1.132.0",
       "newVersion": "1.133.0",
       "installerUrl": "https://update.code.visualstudio.com/1.133.0/darwin-universal/stable"
+    },
+    {
+      "date": "2026-08-13T02:06:56Z",
+      "appName": "Mozilla Firefox Developer Edition",
+      "slug": "firefox@developer-edition/darwin",
+      "platform": "darwin",
+      "oldVersion": "154.0b9",
+      "newVersion": "154.0b10",
+      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/154.0b10/mac/en-US/Firefox%20154.0b10.dmg"
+    },
+    {
+      "date": "2026-08-13T02:06:56Z",
+      "appName": "TeamViewer Host",
+      "slug": "teamviewer-host/windows",
+      "platform": "windows",
+      "oldVersion": "15.80.4",
+      "newVersion": "15.80.6",
+      "installerUrl": "https://download.teamviewer.com/download/version_15x/TeamViewer_Host_Setup_x64.exe"
+    },
+    {
+      "date": "2026-08-13T02:06:56Z",
+      "appName": "Elgato Camera Hub",
+      "slug": "elgato-camera-hub/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.3.0.7286",
+      "newVersion": "2.3.0.7295",
+      "installerUrl": "https://edge.elgato.com/egc/macos/echm/2.3.0/CameraHub_2.3.0.7295.pkg"
+    },
+    {
+      "date": "2026-08-13T02:06:56Z",
+      "appName": "Chrome Remote Desktop",
+      "slug": "chrome-remote-desktop/windows",
+      "platform": "windows",
+      "oldVersion": "151.0.7922.13",
+      "newVersion": "152.0.7977.9",
+      "installerUrl": "https://dl.google.com/release2/misc/ad5lzs2evnmi5ef5gnvnjk3nca_152.0.7977.9/remoting-host.msi"
+    },
+    {
+      "date": "2026-08-13T02:06:56Z",
+      "appName": "Camtasia",
+      "slug": "camtasia/darwin",
+      "platform": "darwin",
+      "oldVersion": "2026.1.4",
+      "newVersion": "2026.2.0",
+      "installerUrl": "https://download.techsmith.com/camtasiamac/releases/2026.2.0/Camtasia.dmg"
+    },
+    {
+      "date": "2026-08-13T02:06:56Z",
+      "appName": "Grammarly Desktop",
+      "slug": "grammarly-desktop/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.182.0",
+      "newVersion": "1.183.1",
+      "installerUrl": "https://download-mac.grammarly.com/versions/1.183.1.0/Grammarly.dmg"
+    },
+    {
+      "date": "2026-08-13T02:06:56Z",
+      "appName": "Postman",
+      "slug": "postman/windows",
+      "platform": "windows",
+      "oldVersion": "12.23.1",
+      "newVersion": "12.23.2",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.23.2/windows_64"
+    },
+    {
+      "date": "2026-08-13T02:06:56Z",
+      "appName": "UA Connect",
+      "slug": "ua-connect/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.9.5",
+      "newVersion": "1.9.6",
+      "installerUrl": "https://builds.uaudio.com/apps/UA_Connect/UA_Connect_1_9_6_3797_Mac.dmg"
+    },
+    {
+      "date": "2026-08-13T02:06:56Z",
+      "appName": "Granola",
+      "slug": "granola/windows",
+      "platform": "windows",
+      "oldVersion": "7.469.2",
+      "newVersion": "7.478.0",
+      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.478.0/Granola-7.478.0-win-x64.exe"
+    },
+    {
+      "date": "2026-08-13T02:06:56Z",
+      "appName": "Airtable",
+      "slug": "airtable/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.6.6",
+      "newVersion": "1.7.0",
+      "installerUrl": "https://static.airtable.com/download/macos/Airtable-1.7.0.dmg"
+    },
+    {
+      "date": "2026-08-13T02:06:56Z",
+      "appName": "Google Antigravity",
+      "slug": "antigravity/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.7.1",
+      "newVersion": "2.8.0",
+      "installerUrl": "https://storage.googleapis.com/antigravity-public/antigravity-hub/2.8.0-5810824271495168/darwin-arm/Antigravity.dmg"
+    },
+    {
+      "date": "2026-08-13T02:06:56Z",
+      "appName": "Wireshark",
+      "slug": "wireshark/windows",
+      "platform": "windows",
+      "oldVersion": "4.6.7",
+      "newVersion": "4.6.8",
+      "installerUrl": "https://2.na.dl.wireshark.org/win64/all-versions/Wireshark-4.6.8-x64.msi"
+    },
+    {
+      "date": "2026-08-13T02:06:56Z",
+      "appName": "1Password",
+      "slug": "1password/darwin",
+      "platform": "darwin",
+      "oldVersion": "8.12.32",
+      "newVersion": "8.12.33",
+      "installerUrl": "https://downloads.1password.com/mac/1Password.pkg"
+    },
+    {
+      "date": "2026-08-13T02:06:56Z",
+      "appName": "Wavebox",
+      "slug": "wavebox/darwin",
+      "platform": "darwin",
+      "oldVersion": "151.2.148.2",
+      "newVersion": "151.2.154.2",
+      "installerUrl": "https://download.wavebox.app/stable/macarm64/Wavebox_151.2.154.2.zip"
+    },
+    {
+      "date": "2026-08-13T02:06:56Z",
+      "appName": "Superhuman",
+      "slug": "superhuman/darwin",
+      "platform": "darwin",
+      "oldVersion": "1041.0.30",
+      "newVersion": "1041.0.31",
+      "installerUrl": "https://storage.googleapis.com/download.superhuman.com/supertron-update/Superhuman-1041.0.31-arm64-latest-mac.zip"
+    },
+    {
+      "date": "2026-08-13T02:06:56Z",
+      "appName": "Wispr Flow",
+      "slug": "wispr-flow/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.6.447",
+      "newVersion": "1.6.492",
+      "installerUrl": "https://dl.wisprflow.com/wispr-flow/darwin/arm64/dmgs/Flow-v1.6.492.dmg"
+    },
+    {
+      "date": "2026-08-13T02:06:56Z",
+      "appName": "Granola",
+      "slug": "granola/darwin",
+      "platform": "darwin",
+      "oldVersion": "7.469.2",
+      "newVersion": "7.478.0",
+      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.478.0/Granola-7.478.0-mac-universal.dmg"
+    },
+    {
+      "date": "2026-08-13T02:06:56Z",
+      "appName": "Zed",
+      "slug": "zed/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.14.2",
+      "newVersion": "1.15.0",
+      "installerUrl": "https://zed.dev/api/releases/stable/1.15.0/Zed-aarch64.dmg"
+    },
+    {
+      "date": "2026-08-13T02:06:56Z",
+      "appName": "OpenCode",
+      "slug": "opencode-desktop/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.18.16",
+      "newVersion": "1.18.17",
+      "installerUrl": "https://github.com/anomalyco/opencode/releases/download/v1.18.17/opencode-desktop-mac-arm64.dmg"
+    },
+    {
+      "date": "2026-08-13T02:06:56Z",
+      "appName": "QEMU",
+      "slug": "qemu/windows",
+      "platform": "windows",
+      "oldVersion": "11.0.50",
+      "newVersion": "11.1.0",
+      "installerUrl": "https://qemu.weilnetz.de/w64/2026/qemu-w64-setup-20260811.exe"
+    },
+    {
+      "date": "2026-08-13T02:06:56Z",
+      "appName": "Box Drive",
+      "slug": "box-drive/windows",
+      "platform": "windows",
+      "oldVersion": "2.52.315",
+      "newVersion": "2.53.223",
+      "installerUrl": "https://e3.boxcdn.net/desktop/releases/win/BoxDrive-2.53.223.msi"
+    },
+    {
+      "date": "2026-08-13T02:06:56Z",
+      "appName": "Marked",
+      "slug": "marked-app/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.1.21",
+      "newVersion": "3.1.22",
+      "installerUrl": "https://updates.markedapp.com/updates/Marked%203.1.22-1206.zip"
+    },
+    {
+      "date": "2026-08-13T02:06:56Z",
+      "appName": "CodexBar",
+      "slug": "codexbar/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.49.2",
+      "newVersion": "0.49.3",
+      "installerUrl": "https://github.com/steipete/CodexBar/releases/download/v0.49.3/CodexBar-macos-universal-0.49.3.zip"
+    },
+    {
+      "date": "2026-08-13T02:06:56Z",
+      "appName": "Wireshark",
+      "slug": "wireshark-app/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.6.7",
+      "newVersion": "4.6.8",
+      "installerUrl": "https://www.wireshark.org/download/osx/all-versions/Wireshark%204.6.8.dmg"
+    },
+    {
+      "date": "2026-08-13T02:06:56Z",
+      "appName": "Tuple",
+      "slug": "tuple/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.1.3",
+      "newVersion": "3.2.0",
+      "installerUrl": "https://d32ifkf9k9ezcg.cloudfront.net/production/sparkle/tuple-3.2.0-2026-08-12-9d2e82a561.zip"
+    },
+    {
+      "date": "2026-08-13T02:06:56Z",
+      "appName": "Brave",
+      "slug": "brave-browser/darwin",
+      "platform": "darwin",
+      "oldVersion": "151.1.93.134",
+      "newVersion": "151.1.93.136",
+      "installerUrl": "https://updates-cdn.bravesoftware.com/sparkle/Brave-Browser/stable-arm64/193.136/Brave-Browser-arm64.dmg"
+    },
+    {
+      "date": "2026-08-13T02:06:56Z",
+      "appName": "WorkFlowy",
+      "slug": "workflowy/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.3.2608101547",
+      "newVersion": "4.3.2608112347",
+      "installerUrl": "https://github.com/workflowy/desktop/releases/download/v4.3.2608112347/WorkFlowy.zip"
+    },
+    {
+      "date": "2026-08-13T02:06:56Z",
+      "appName": "Electrum",
+      "slug": "electrum/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.8.0",
+      "newVersion": "4.8.1",
+      "installerUrl": "https://download.electrum.org/4.8.1/electrum-4.8.1.dmg"
+    },
+    {
+      "date": "2026-08-13T02:06:56Z",
+      "appName": "Zed",
+      "slug": "zed/windows",
+      "platform": "windows",
+      "oldVersion": "1.14.2",
+      "newVersion": "1.15.0",
+      "installerUrl": "https://github.com/zed-industries/zed/releases/download/v1.15.0/Zed-x86_64.exe"
+    },
+    {
+      "date": "2026-08-13T02:06:56Z",
+      "appName": "Obsidian",
+      "slug": "obsidian/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.13.6",
+      "newVersion": "1.13.7",
+      "installerUrl": "https://github.com/obsidianmd/obsidian-releases/releases/download/v1.13.7/Obsidian-1.13.7.dmg"
+    },
+    {
+      "date": "2026-08-13T02:06:56Z",
+      "appName": "WhatsApp",
+      "slug": "whatsapp/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.32.15",
+      "newVersion": "26.32.17",
+      "installerUrl": "https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release\u0026src=whatsapp_downloads_page"
+    },
+    {
+      "date": "2026-08-13T02:06:56Z",
+      "appName": "Prisma Browser",
+      "slug": "prisma-browser/darwin",
+      "platform": "darwin",
+      "oldVersion": "151.19.4.109",
+      "newVersion": "151.26.4.138",
+      "installerUrl": "https://updates.talon-sec.com/releases/Prisma%20Access%20Browser/mac/packaged/universal/Prisma%20Access%20Browser-151.26.4.138-2f0fcec2.pkg"
+    },
+    {
+      "date": "2026-08-13T02:06:56Z",
+      "appName": "MarsEdit",
+      "slug": "marsedit/darwin",
+      "platform": "darwin",
+      "oldVersion": "5.4.4",
+      "newVersion": "5.4.5",
+      "installerUrl": "https://redsweater.com/marsedit/MarsEdit5.4.5.zip"
+    },
+    {
+      "date": "2026-08-13T02:06:56Z",
+      "appName": "Electrum",
+      "slug": "electrum/windows",
+      "platform": "windows",
+      "oldVersion": "4.8.0",
+      "newVersion": "4.8.1",
+      "installerUrl": "https://download.electrum.org/4.8.1/electrum-4.8.1-setup.exe"
+    },
+    {
+      "date": "2026-08-13T02:06:56Z",
+      "appName": "Cursor",
+      "slug": "cursor/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.15.6",
+      "newVersion": "3.15.19",
+      "installerUrl": "https://downloads.cursor.com/production/de07bee81cefe43461ebf4f40c3d2d78d15052aa/darwin/arm64/Cursor-darwin-arm64.zip"
     }
   ]
 }
