@@ -5,13 +5,20 @@
     <link>https://fmalibrary.com</link>
     <description>Track version updates and new app additions for Fleet-maintained apps. Get notified when apps are updated with new versions or when new apps are added to the library.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Aug 2026 03:08:17 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 04:41:19 +0000</lastBuildDate>
     <atom:link href="https://fmalibrary.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://fmalibrary.com/cloud-city.png</url>
       <title>Fleet-maintained apps</title>
       <link>https://fmalibrary.com</link>
     </image>
+    <item>
+      <title>Franz 6.6.0 → 6.7.0 (Mac)</title>
+      <link>https://fmalibrary.com</link>
+      <description>Franz has been updated from version 6.6.0 to 6.7.0 on August 16, 2026. &lt;a href=&quot;https://github.com/meetfranz/franz-6/releases/download/v6.7.0/Franz-arm64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Sun, 16 Aug 2026 04:41:19 +0000</pubDate>
+      <guid isPermaLink="false">franz/darwin-6.6.0-6.7.0</guid>
+    </item>
     <item>
       <title>ExtraDock 4.3.4 → 4.3.5 (Mac)</title>
       <link>https://fmalibrary.com</link>
@@ -3275,18 +3282,32 @@
       <guid isPermaLink="false">fleet-desktop/darwin-1.3.4-1.4.0</guid>
     </item>
     <item>
-      <title>AWS Command Line Interface v2 2.36.16 → 2.36.17 (Windows)</title>
+      <title>Mozilla Firefox Developer Edition 154.0b6 → 154.0b7 (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>AWS Command Line Interface v2 has been updated from version 2.36.16 to 2.36.17 on August 6, 2026. &lt;a href=&quot;https://awscli.amazonaws.com/AWSCLIV2-2.36.17.msi&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Mozilla Firefox Developer Edition has been updated from version 154.0b6 to 154.0b7 on August 6, 2026. &lt;a href=&quot;https://download-installer.cdn.mozilla.net/pub/devedition/releases/154.0b7/mac/en-US/Firefox%20154.0b7.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Thu, 06 Aug 2026 04:16:34 +0000</pubDate>
-      <guid isPermaLink="false">aws-cli/windows-2.36.16-2.36.17</guid>
+      <guid isPermaLink="false">firefox@developer-edition/darwin-154.0b6-154.0b7</guid>
     </item>
     <item>
-      <title>Bitfocus Companion 5.0.2 → 5.0.3 (Mac)</title>
+      <title>Brave 151.1.93.129 → 151.1.93.132 (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>Bitfocus Companion has been updated from version 5.0.2 to 5.0.3 on August 6, 2026. &lt;a href=&quot;https://cf-pub.bitfocus.io/companion/companion/companion-mac-arm64-5.0.3-9703-stable-2daa0d7670.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Brave has been updated from version 151.1.93.129 to 151.1.93.132 on August 6, 2026. &lt;a href=&quot;https://updates-cdn.bravesoftware.com/sparkle/Brave-Browser/stable-arm64/193.132/Brave-Browser-arm64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Thu, 06 Aug 2026 04:16:34 +0000</pubDate>
-      <guid isPermaLink="false">companion/darwin-5.0.2-5.0.3</guid>
+      <guid isPermaLink="false">brave-browser/darwin-151.1.93.129-151.1.93.132</guid>
+    </item>
+    <item>
+      <title>TextExpander 254.8.4.504 → 254.8.4.603 (Windows)</title>
+      <link>https://fmalibrary.com</link>
+      <description>TextExpander has been updated from version 254.8.4.504 to 254.8.4.603 on August 6, 2026. &lt;a href=&quot;https://cdn.textexpander.com/windows/846.3.0/TextExpander_x64.msi&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Thu, 06 Aug 2026 04:16:34 +0000</pubDate>
+      <guid isPermaLink="false">textexpander/windows-254.8.4.504-254.8.4.603</guid>
+    </item>
+    <item>
+      <title>PyCharm Professional 2024.3.5 → 2024.3.6.1 (Windows)</title>
+      <link>https://fmalibrary.com</link>
+      <description>PyCharm Professional has been updated from version 2024.3.5 to 2024.3.6.1 on August 6, 2026. &lt;a href=&quot;https://download.jetbrains.com/python/pycharm-professional-2024.3.6.1.exe&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Thu, 06 Aug 2026 04:16:34 +0000</pubDate>
+      <guid isPermaLink="false">pycharm/windows-2024.3.5-2024.3.6.1</guid>
     </item>
     <item>
       <title>Loom 0.366.0 → 0.366.3 (Windows)</title>
@@ -3308,20 +3329,6 @@
       <description>HeidiSQL has been updated from version 12.20.0.7320 to 12.21.0.7344 on August 6, 2026. &lt;a href=&quot;https://github.com/HeidiSQL/HeidiSQL/releases/download/v12.21/HeidiSQL_12.21.0.7344_Setup.exe&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Thu, 06 Aug 2026 04:16:34 +0000</pubDate>
       <guid isPermaLink="false">heidisql/windows-12.20.0.7320-12.21.0.7344</guid>
-    </item>
-    <item>
-      <title>Scribe 6.7.23.0 → 6.8.4.0 (Windows)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Scribe has been updated from version 6.7.23.0 to 6.8.4.0 on August 6, 2026. &lt;a href=&quot;https://colony-labs-public.s3.us-east-2.amazonaws.com/Scribe_6.8.4.msi&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Thu, 06 Aug 2026 04:16:34 +0000</pubDate>
-      <guid isPermaLink="false">scribe/windows-6.7.23.0-6.8.4.0</guid>
-    </item>
-    <item>
-      <title>Brave 151.1.93.129 → 151.1.93.132 (Mac)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Brave has been updated from version 151.1.93.129 to 151.1.93.132 on August 6, 2026. &lt;a href=&quot;https://updates-cdn.bravesoftware.com/sparkle/Brave-Browser/stable-arm64/193.132/Brave-Browser-arm64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Thu, 06 Aug 2026 04:16:34 +0000</pubDate>
-      <guid isPermaLink="false">brave-browser/darwin-151.1.93.129-151.1.93.132</guid>
     </item>
     <item>
       <title>Proton Mail 1.13.3 → 1.13.4 (Mac)</title>
@@ -3378,20 +3385,6 @@
       <description>AWS Client VPN has been updated from version 5.4.3 to 6.0.0 on August 6, 2026. &lt;a href=&quot;https://d20adtppz83p9s.cloudfront.net/OSX_ARM64/6.0.0/AWS_VPN_Client_ARM64.pkg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Thu, 06 Aug 2026 04:16:34 +0000</pubDate>
       <guid isPermaLink="false">aws-vpn-client/darwin-5.4.3-6.0.0</guid>
-    </item>
-    <item>
-      <title>Archaeology 1.5 → 1.6 (Mac)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Archaeology has been updated from version 1.5 to 1.6 on August 6, 2026. &lt;a href=&quot;https://www.mothersruin.com/software/downloads/Archaeology.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Thu, 06 Aug 2026 04:16:34 +0000</pubDate>
-      <guid isPermaLink="false">archaeology/darwin-1.5-1.6</guid>
-    </item>
-    <item>
-      <title>Zed 1.13.2 → 1.14.2 (Mac)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Zed has been updated from version 1.13.2 to 1.14.2 on August 6, 2026. &lt;a href=&quot;https://zed.dev/api/releases/stable/1.14.2/Zed-aarch64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Thu, 06 Aug 2026 04:16:34 +0000</pubDate>
-      <guid isPermaLink="false">zed/darwin-1.13.2-1.14.2</guid>
     </item>
     <item>
       <title>Egnyte 1.19.0 → 1.19.1 (Mac)</title>
@@ -3478,25 +3471,18 @@
       <guid isPermaLink="false">postman/windows-12.22.2-12.22.3</guid>
     </item>
     <item>
-      <title>Signal 8.21.0 → 8.22.0 (Windows)</title>
+      <title>AWS Command Line Interface v2 2.36.16 → 2.36.17 (Windows)</title>
       <link>https://fmalibrary.com</link>
-      <description>Signal has been updated from version 8.21.0 to 8.22.0 on August 6, 2026. &lt;a href=&quot;https://updates.signal.org/desktop/signal-desktop-win-8.22.0.exe&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>AWS Command Line Interface v2 has been updated from version 2.36.16 to 2.36.17 on August 6, 2026. &lt;a href=&quot;https://awscli.amazonaws.com/AWSCLIV2-2.36.17.msi&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Thu, 06 Aug 2026 04:16:34 +0000</pubDate>
-      <guid isPermaLink="false">signal/windows-8.21.0-8.22.0</guid>
+      <guid isPermaLink="false">aws-cli/windows-2.36.16-2.36.17</guid>
     </item>
     <item>
-      <title>Telegram 7.0.7 → 7.0.8 (Windows)</title>
+      <title>Scribe 6.7.23.0 → 6.8.4.0 (Windows)</title>
       <link>https://fmalibrary.com</link>
-      <description>Telegram has been updated from version 7.0.7 to 7.0.8 on August 6, 2026. &lt;a href=&quot;https://github.com/telegramdesktop/tdesktop/releases/download/v7.0.8/tsetup-x64.7.0.8.exe&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Scribe has been updated from version 6.7.23.0 to 6.8.4.0 on August 6, 2026. &lt;a href=&quot;https://colony-labs-public.s3.us-east-2.amazonaws.com/Scribe_6.8.4.msi&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Thu, 06 Aug 2026 04:16:34 +0000</pubDate>
-      <guid isPermaLink="false">telegram/windows-7.0.7-7.0.8</guid>
-    </item>
-    <item>
-      <title>Loom 0.366.0 → 0.366.3 (Mac)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Loom has been updated from version 0.366.0 to 0.366.3 on August 6, 2026. &lt;a href=&quot;https://packages.loom.com/desktop-packages/Loom-0.366.3-arm64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Thu, 06 Aug 2026 04:16:34 +0000</pubDate>
-      <guid isPermaLink="false">loom/darwin-0.366.0-0.366.3</guid>
+      <guid isPermaLink="false">scribe/windows-6.7.23.0-6.8.4.0</guid>
     </item>
     <item>
       <title>Zed 1.13.2 → 1.14.2 (Windows)</title>
@@ -3506,11 +3492,25 @@
       <guid isPermaLink="false">zed/windows-1.13.2-1.14.2</guid>
     </item>
     <item>
-      <title>TextExpander 254.8.4.504 → 254.8.4.603 (Windows)</title>
+      <title>Archaeology 1.5 → 1.6 (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>TextExpander has been updated from version 254.8.4.504 to 254.8.4.603 on August 6, 2026. &lt;a href=&quot;https://cdn.textexpander.com/windows/846.3.0/TextExpander_x64.msi&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Archaeology has been updated from version 1.5 to 1.6 on August 6, 2026. &lt;a href=&quot;https://www.mothersruin.com/software/downloads/Archaeology.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Thu, 06 Aug 2026 04:16:34 +0000</pubDate>
-      <guid isPermaLink="false">textexpander/windows-254.8.4.504-254.8.4.603</guid>
+      <guid isPermaLink="false">archaeology/darwin-1.5-1.6</guid>
+    </item>
+    <item>
+      <title>Signal 8.21.0 → 8.22.0 (Windows)</title>
+      <link>https://fmalibrary.com</link>
+      <description>Signal has been updated from version 8.21.0 to 8.22.0 on August 6, 2026. &lt;a href=&quot;https://updates.signal.org/desktop/signal-desktop-win-8.22.0.exe&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Thu, 06 Aug 2026 04:16:34 +0000</pubDate>
+      <guid isPermaLink="false">signal/windows-8.21.0-8.22.0</guid>
+    </item>
+    <item>
+      <title>Loom 0.366.0 → 0.366.3 (Mac)</title>
+      <link>https://fmalibrary.com</link>
+      <description>Loom has been updated from version 0.366.0 to 0.366.3 on August 6, 2026. &lt;a href=&quot;https://packages.loom.com/desktop-packages/Loom-0.366.3-arm64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Thu, 06 Aug 2026 04:16:34 +0000</pubDate>
+      <guid isPermaLink="false">loom/darwin-0.366.0-0.366.3</guid>
     </item>
   </channel>
 </rss>
