@@ -1,96 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-07-29T15:55:08Z",
-      "appName": "Google Gemini",
-      "slug": "google-gemini/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.86.7.600",
-      "newVersion": "1.88.5.636",
-      "installerUrl": "https://dl.google.com/release2/j33ro/release/Gemini.dmg"
-    },
-    {
-      "date": "2026-07-29T15:55:08Z",
-      "appName": "Eclipse Temurin JDK 11",
-      "slug": "eclipse-temurin-jdk-11/windows",
-      "platform": "windows",
-      "oldVersion": "11.0.31.11",
-      "newVersion": "11.0.32.9",
-      "installerUrl": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32+9/OpenJDK11U-jdk_x64_windows_hotspot_11.0.32_9.msi"
-    },
-    {
-      "date": "2026-07-29T15:55:08Z",
-      "appName": "Postman",
-      "slug": "postman/darwin",
-      "platform": "darwin",
-      "oldVersion": "12.21.1",
-      "newVersion": "12.21.2",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.21.2/osx_arm64"
-    },
-    {
-      "date": "2026-07-29T15:55:08Z",
-      "appName": "Eclipse Temurin JRE 11",
-      "slug": "eclipse-temurin-jre-11/windows",
-      "platform": "windows",
-      "oldVersion": "11.0.31.11",
-      "newVersion": "11.0.32.9",
-      "installerUrl": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32+9/OpenJDK11U-jre_x64_windows_hotspot_11.0.32_9.msi"
-    },
-    {
-      "date": "2026-07-29T15:55:08Z",
-      "appName": "Canva",
-      "slug": "canva/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.123.0",
-      "newVersion": "1.123.1",
-      "installerUrl": "https://desktop-release.canva.com/Canva-1.123.1-universal.dmg"
-    },
-    {
-      "date": "2026-07-29T15:55:08Z",
-      "appName": "NordVPN",
-      "slug": "nordvpn/windows",
-      "platform": "windows",
-      "oldVersion": "8.7.2.0",
-      "newVersion": "8.8.2.0",
-      "installerUrl": "https://downloads.nordcdn.com/apps/windows/NordVPN/8.8.2.0/NordVPNInstall.exe"
-    },
-    {
-      "date": "2026-07-29T15:55:08Z",
-      "appName": "ExifCleaner",
-      "slug": "exifcleaner/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.6.0",
-      "newVersion": "4.0.0",
-      "installerUrl": "https://github.com/szTheory/exifcleaner/releases/download/v4.0.0/ExifCleaner-4.0.0-arm64.dmg"
-    },
-    {
-      "date": "2026-07-29T15:55:08Z",
-      "appName": "Tailscale",
-      "slug": "tailscale-app/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.98.9",
-      "newVersion": "1.98.10",
-      "installerUrl": "https://pkgs.tailscale.com/stable/Tailscale-1.98.10-macos.pkg"
-    },
-    {
-      "date": "2026-07-29T17:19:04Z",
-      "appName": "Elgato Camera Hub",
-      "slug": "elgato-camera-hub/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.3.0.7229",
-      "newVersion": "2.3.0.7275",
-      "installerUrl": "https://edge.elgato.com/egc/macos/echm/2.3.0/CameraHub_2.3.0.7275.pkg"
-    },
-    {
-      "date": "2026-07-29T17:19:04Z",
-      "appName": "Wispr Flow",
-      "slug": "wispr-flow/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.6.224",
-      "newVersion": "1.6.288",
-      "installerUrl": "https://dl.wisprflow.com/wispr-flow/darwin/arm64/dmgs/Flow-v1.6.288.dmg"
-    },
-    {
       "date": "2026-07-29T17:19:04Z",
       "appName": "AnyBurn",
       "slug": "anyburn/windows",
@@ -8999,6 +8909,96 @@
       "oldVersion": "15.0.19",
       "newVersion": "15.0.20",
       "installerUrl": "https://cdn.mullvad.net/browser/15.0.20/mullvad-browser-macos-15.0.20.dmg"
+    },
+    {
+      "date": "2026-08-18T18:43:02Z",
+      "appName": "LastPass",
+      "slug": "lastpass/windows",
+      "platform": "windows",
+      "oldVersion": "5.4.4.1499",
+      "newVersion": "5.4.5.1509",
+      "installerUrl": "https://download.cloud.lastpass.com/windows_installer/LastPassInstaller.msi"
+    },
+    {
+      "date": "2026-08-18T18:43:02Z",
+      "appName": "Creative Force Triad",
+      "slug": "creative-force-triad/windows",
+      "platform": "windows",
+      "oldVersion": "4.4.0",
+      "newVersion": "4.5.0",
+      "installerUrl": "https://download.creativeforce.io/released-files.042024/prod/triad/win/Triad-4.5.0-win.exe"
+    },
+    {
+      "date": "2026-08-18T18:43:02Z",
+      "appName": "ForkLift",
+      "slug": "forklift/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.7.3",
+      "newVersion": "4.7.4",
+      "installerUrl": "https://download.binarynights.com/ForkLift/ForkLift4.7.4.zip"
+    },
+    {
+      "date": "2026-08-18T18:43:02Z",
+      "appName": "WorkFlowy",
+      "slug": "workflowy/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.3.2608150307",
+      "newVersion": "4.3.2608181120",
+      "installerUrl": "https://github.com/workflowy/desktop/releases/download/v4.3.2608181120/WorkFlowy.zip"
+    },
+    {
+      "date": "2026-08-18T18:43:02Z",
+      "appName": "Wave Terminal",
+      "slug": "wave/windows",
+      "platform": "windows",
+      "oldVersion": "0.13.1",
+      "newVersion": "0.14.5",
+      "installerUrl": "https://dl.waveterm.dev/releases-w2/Wave-win32-x64-0.14.5.msi"
+    },
+    {
+      "date": "2026-08-18T18:43:02Z",
+      "appName": "WeChat for Mac",
+      "slug": "wechat/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.1.12.53",
+      "newVersion": "4.1.13.7",
+      "installerUrl": "https://dldir1.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.13.7_269575.dmg"
+    },
+    {
+      "date": "2026-08-18T18:43:02Z",
+      "appName": "CodexBar",
+      "slug": "codexbar/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.52.0",
+      "newVersion": "0.53.0",
+      "installerUrl": "https://github.com/steipete/CodexBar/releases/download/v0.53.0/CodexBar-macos-universal-0.53.0.zip"
+    },
+    {
+      "date": "2026-08-18T18:43:02Z",
+      "appName": "Downie",
+      "slug": "downie/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.12.12",
+      "newVersion": "4.12.13",
+      "installerUrl": "https://software.charliemonroe.net/trial/downie/v4/Downie_4_5235.dmg"
+    },
+    {
+      "date": "2026-08-18T18:43:02Z",
+      "appName": "Mozilla Firefox",
+      "slug": "firefox/darwin",
+      "platform": "darwin",
+      "oldVersion": "153.0.4",
+      "newVersion": "154.0",
+      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/154.0/mac/en-US/Firefox%20154.0.dmg"
+    },
+    {
+      "date": "2026-08-18T18:43:02Z",
+      "appName": "Mozilla Firefox ESR",
+      "slug": "firefox@esr/darwin",
+      "platform": "darwin",
+      "oldVersion": "140.13.0",
+      "newVersion": "140.14.0",
+      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/140.14.0esr/mac/en-US/Firefox%20140.14.0esr.dmg"
     }
   ]
 }
