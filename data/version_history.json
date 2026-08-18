@@ -1,141 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-07-29T04:15:26Z",
-      "appName": "Azure Data Studio",
-      "slug": "azure-data-studio/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "1.52.0",
-      "installerUrl": "https://download.microsoft.com/download/6b2bfeac-9c1b-4182-9a2f-ce86ff8cc371/azuredatastudio-windows-setup-1.52.0.exe"
-    },
-    {
-      "date": "2026-07-29T04:15:26Z",
-      "appName": "CrashPlan",
-      "slug": "crashplan/windows",
-      "platform": "windows",
-      "oldVersion": "11.9.1.19",
-      "newVersion": "12.0.0.735",
-      "installerUrl": "https://download.crashplan.com/installs/agent/cloud/12.0.0/735/install/CrashPlan_12.0.0_735_Win64.msi"
-    },
-    {
-      "date": "2026-07-29T04:15:26Z",
-      "appName": "Chatbox",
-      "slug": "chatbox/windows",
-      "platform": "windows",
-      "oldVersion": "1.21.1",
-      "newVersion": "1.22.1",
-      "installerUrl": "https://download.chatboxai.app/releases/Chatbox-1.22.1-Setup.exe"
-    },
-    {
-      "date": "2026-07-29T04:15:26Z",
-      "appName": "GNU Privacy Guard",
-      "slug": "gnupg/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "2.5.21",
-      "installerUrl": "https://gnupg.org/ftp/gcrypt/binary/gnupg-w32-2.5.21_20260702.exe"
-    },
-    {
-      "date": "2026-07-29T04:15:26Z",
-      "appName": "Elgato Stream Deck",
-      "slug": "elgato-stream-deck/darwin",
-      "platform": "darwin",
-      "oldVersion": "7.5.0",
-      "newVersion": "7.5.1",
-      "installerUrl": "https://edge.elgato.com/egc/macos/sd/Stream_Deck_7.5.1.22901.pkg"
-    },
-    {
-      "date": "2026-07-29T04:15:26Z",
-      "appName": "Mozilla Firefox Nightly",
-      "slug": "firefox@nightly/windows",
-      "platform": "windows",
-      "oldVersion": "155.2607.2609.0",
-      "newVersion": "155.2607.2809.0",
-      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/07/2026-07-28-09-52-22-mozilla-central/firefox-155.0a1.multi.win64.installer.msix"
-    },
-    {
-      "date": "2026-07-29T04:15:26Z",
-      "appName": "Microsoft PowerPoint",
-      "slug": "microsoft-powerpoint/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.111.1",
-      "newVersion": "16.111.2",
-      "installerUrl": "https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.111.26072617_Installer.pkg"
-    },
-    {
-      "date": "2026-07-29T04:15:26Z",
-      "appName": "Spokenly",
-      "slug": "spokenly/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.27.0",
-      "newVersion": "2.27.1",
-      "installerUrl": "https://cdn.spokenly.app/releases/macos/Spokenly-2.27.1.dmg"
-    },
-    {
-      "date": "2026-07-29T04:15:26Z",
-      "appName": "Dataflare",
-      "slug": "dataflare/windows",
-      "platform": "windows",
-      "oldVersion": "3.1.5",
-      "newVersion": "3.1.6",
-      "installerUrl": "https://assets.dataflare.app/release/windows/x86_64/Dataflare-Setup-3.1.6.exe"
-    },
-    {
-      "date": "2026-07-29T15:55:08Z",
-      "appName": "Canva",
-      "slug": "canva/windows",
-      "platform": "windows",
-      "oldVersion": "1.123.0",
-      "newVersion": "1.123.1",
-      "installerUrl": "https://desktop-release.canva.com/Canva%20Setup%201.123.1.exe"
-    },
-    {
-      "date": "2026-07-29T15:55:08Z",
-      "appName": "Eclipse Temurin JRE 21",
-      "slug": "eclipse-temurin-jre-21/windows",
-      "platform": "windows",
-      "oldVersion": "21.0.11.10",
-      "newVersion": "21.0.12.8",
-      "installerUrl": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12+8/OpenJDK21U-jre_x64_windows_hotspot_21.0.12_8.msi"
-    },
-    {
-      "date": "2026-07-29T15:55:08Z",
-      "appName": "TablePlus",
-      "slug": "tableplus/windows",
-      "platform": "windows",
-      "oldVersion": "26.7.0",
-      "newVersion": "26.8.0",
-      "installerUrl": "https://files.tableplus.com/windows/26.8.0/TablePlusSetup.exe"
-    },
-    {
-      "date": "2026-07-29T15:55:08Z",
-      "appName": "Eclipse Temurin JDK 17",
-      "slug": "eclipse-temurin-jdk-17/windows",
-      "platform": "windows",
-      "oldVersion": "17.0.19.10",
-      "newVersion": "17.0.20.8",
-      "installerUrl": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20+8/OpenJDK17U-jdk_x64_windows_hotspot_17.0.20_8.msi"
-    },
-    {
-      "date": "2026-07-29T15:55:08Z",
-      "appName": "BetterZip",
-      "slug": "betterzip/darwin",
-      "platform": "darwin",
-      "oldVersion": "6.0.2",
-      "newVersion": "6.0.3",
-      "installerUrl": "https://macitbetter.com/dl/BetterZip-6.0.3.zip"
-    },
-    {
-      "date": "2026-07-29T15:55:08Z",
-      "appName": "LibreOffice",
-      "slug": "libreoffice/windows",
-      "platform": "windows",
-      "oldVersion": "26.2.4.2",
-      "newVersion": "26.2.5.2",
-      "installerUrl": "https://download.documentfoundation.org/libreoffice/stable/26.2.5/win/x86_64/LibreOffice_26.2.5_Win_x86-64.msi"
-    },
-    {
       "date": "2026-07-29T15:55:08Z",
       "appName": "Google Gemini",
       "slug": "google-gemini/darwin",
@@ -8999,6 +8864,141 @@
       "oldVersion": "1.202.0",
       "newVersion": "1.203.0",
       "installerUrl": "https://staticcdn.duckduckgo.com/macos-desktop-browser/duckduckgo-1.203.0.786.dmg"
+    },
+    {
+      "date": "2026-08-18T15:37:00Z",
+      "appName": "Camunda Modeler",
+      "slug": "camunda-modeler/darwin",
+      "platform": "darwin",
+      "oldVersion": "5.49.0",
+      "newVersion": "5.50.1",
+      "installerUrl": "https://downloads.camunda.cloud/release/camunda-modeler/5.50.1/camunda-modeler-5.50.1-mac-arm64.dmg"
+    },
+    {
+      "date": "2026-08-18T15:37:00Z",
+      "appName": "Postman",
+      "slug": "postman/windows",
+      "platform": "windows",
+      "oldVersion": "12.23.8",
+      "newVersion": "12.24.1",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.24.1/windows_64"
+    },
+    {
+      "date": "2026-08-18T15:37:00Z",
+      "appName": "Claude",
+      "slug": "claude/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.32352.0",
+      "newVersion": "1.32352.1",
+      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.32352.1/Claude-6c6aa595ae38b202d9e00c026dc94d3a6a42c332.zip"
+    },
+    {
+      "date": "2026-08-18T15:37:00Z",
+      "appName": "Mullvad Browser",
+      "slug": "mullvad-browser/windows",
+      "platform": "windows",
+      "oldVersion": "15.0.19",
+      "newVersion": "15.0.20",
+      "installerUrl": "https://github.com/mullvad/mullvad-browser/releases/download/15.0.20/mullvad-browser-windows-x86_64-15.0.20.exe"
+    },
+    {
+      "date": "2026-08-18T15:37:00Z",
+      "appName": "WhatsApp",
+      "slug": "whatsapp/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.33.12",
+      "newVersion": "26.33.15",
+      "installerUrl": "https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release\u0026src=whatsapp_downloads_page"
+    },
+    {
+      "date": "2026-08-18T15:37:00Z",
+      "appName": "alfaview",
+      "slug": "alfaview/windows",
+      "platform": "windows",
+      "oldVersion": "9.28.1",
+      "newVersion": "9.29.0",
+      "installerUrl": "https://assets.alfaview.com/stable/win/alfaview-setup-win-production-9.29.0.msi"
+    },
+    {
+      "date": "2026-08-18T15:37:00Z",
+      "appName": "PicView",
+      "slug": "picview/darwin",
+      "platform": "darwin",
+      "oldVersion": "5.0.3",
+      "newVersion": "5.0.4",
+      "installerUrl": "https://github.com/Ruben2776/PicView/releases/download/5.0.4/PicView-5.0.4-macOS-arm64.dmg"
+    },
+    {
+      "date": "2026-08-18T15:37:00Z",
+      "appName": "Marked",
+      "slug": "marked-app/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.1.23",
+      "newVersion": "3.1.24",
+      "installerUrl": "https://updates.markedapp.com/updates/Marked%203.1.24-1209.zip"
+    },
+    {
+      "date": "2026-08-18T15:37:00Z",
+      "appName": "NordVPN",
+      "slug": "nordvpn/darwin",
+      "platform": "darwin",
+      "oldVersion": "10.8.1",
+      "newVersion": "10.9.0",
+      "installerUrl": "https://downloads.nordcdn.com/apps/macos/generic/NordVPN-OpenVPN/10.9.0/NordVPN.pkg"
+    },
+    {
+      "date": "2026-08-18T15:37:00Z",
+      "appName": "Microsoft Edge",
+      "slug": "microsoft-edge/windows",
+      "platform": "windows",
+      "oldVersion": "151.0.4129.78",
+      "newVersion": "151.0.4129.93",
+      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/672dd164-4c25-42a8-b3d3-d7274d6c3d5c/MicrosoftEdgeEnterpriseX64.msi"
+    },
+    {
+      "date": "2026-08-18T15:37:00Z",
+      "appName": "Slack",
+      "slug": "slack/windows",
+      "platform": "windows",
+      "oldVersion": "4.51.185",
+      "newVersion": "4.51.191",
+      "installerUrl": "https://downloads.slack-edge.com/desktop-releases/windows/x64/4.51.191/Slack.msix"
+    },
+    {
+      "date": "2026-08-18T15:37:00Z",
+      "appName": "Raycast",
+      "slug": "raycast/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.104.24",
+      "newVersion": "1.104.25",
+      "installerUrl": "https://releases.raycast.com/releases/1.104.25/download?build=arm"
+    },
+    {
+      "date": "2026-08-18T15:37:00Z",
+      "appName": "Tor Browser",
+      "slug": "tor-browser/darwin",
+      "platform": "darwin",
+      "oldVersion": "15.0.19",
+      "newVersion": "15.0.20",
+      "installerUrl": "https://www.torproject.org/dist/torbrowser/15.0.20/tor-browser-macos-15.0.20.dmg"
+    },
+    {
+      "date": "2026-08-18T15:37:00Z",
+      "appName": "Evernote",
+      "slug": "evernote/darwin",
+      "platform": "darwin",
+      "oldVersion": "11.29.2",
+      "newVersion": "11.30.6",
+      "installerUrl": "https://mac.desktop.evernote.com/builds/Evernote-10.105.4-mac-ddl-stage-20240910164757-a2e60a8d876a07eded5d212fa56ba45214114ad0.dmg"
+    },
+    {
+      "date": "2026-08-18T15:37:00Z",
+      "appName": "Mullvad Browser",
+      "slug": "mullvad-browser/darwin",
+      "platform": "darwin",
+      "oldVersion": "15.0.19",
+      "newVersion": "15.0.20",
+      "installerUrl": "https://cdn.mullvad.net/browser/15.0.20/mullvad-browser-macos-15.0.20.dmg"
     }
   ]
 }
