@@ -1,240 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-07-29T17:19:04Z",
-      "appName": "AnyBurn",
-      "slug": "anyburn/windows",
-      "platform": "windows",
-      "oldVersion": "6.8.0.0",
-      "newVersion": "6.9.0.0",
-      "installerUrl": "https://anyburn.com/anyburn_setup.exe"
-    },
-    {
-      "date": "2026-07-29T17:19:04Z",
-      "appName": "ProtonVPN",
-      "slug": "protonvpn/windows",
-      "platform": "windows",
-      "oldVersion": "5.1.5",
-      "newVersion": "5.1.6",
-      "installerUrl": "https://vpn.protondownload.com/download/ProtonVPN_v5.1.6_x64.exe"
-    },
-    {
-      "date": "2026-07-29T17:19:04Z",
-      "appName": "MacPacker",
-      "slug": "macpacker/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.18.0",
-      "newVersion": "0.18.1",
-      "installerUrl": "https://macpacker-releases.s3.amazonaws.com/MacPacker_v0.18.1.zip"
-    },
-    {
-      "date": "2026-07-29T17:19:04Z",
-      "appName": "Microsoft Visual Studio Code",
-      "slug": "visual-studio-code/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.130.0",
-      "newVersion": "1.131.0",
-      "installerUrl": "https://update.code.visualstudio.com/1.131.0/darwin-universal/stable"
-    },
-    {
-      "date": "2026-07-29T17:19:04Z",
-      "appName": "Spyder",
-      "slug": "spyder/darwin",
-      "platform": "darwin",
-      "oldVersion": "6.1.5",
-      "newVersion": "6.1.6",
-      "installerUrl": "https://github.com/spyder-ide/spyder/releases/download/v6.1.6/Spyder-macOS-arm64.pkg"
-    },
-    {
-      "date": "2026-07-29T17:19:04Z",
-      "appName": "DataSpell",
-      "slug": "dataspell/darwin",
-      "platform": "darwin",
-      "oldVersion": "2026.1.2",
-      "newVersion": "2026.1.3",
-      "installerUrl": "https://download.jetbrains.com/python/dataspell-2026.1.3-aarch64.dmg"
-    },
-    {
-      "date": "2026-07-29T17:19:04Z",
-      "appName": "Typinator",
-      "slug": "typinator/darwin",
-      "platform": "darwin",
-      "oldVersion": "10.1",
-      "newVersion": "10.2",
-      "installerUrl": "https://storage.ergonis.com/apps/production/typinator/archive/Typinator_102.dmg"
-    },
-    {
-      "date": "2026-07-29T17:19:04Z",
-      "appName": "ChatGPT Desktop",
-      "slug": "chatgpt/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.721.41059",
-      "newVersion": "26.721.81911",
-      "installerUrl": "https://persistent.oaistatic.com/codex-app-prod/ChatGPT-darwin-arm64-26.721.81911.zip"
-    },
-    {
-      "date": "2026-07-29T17:19:04Z",
-      "appName": "ChatWise",
-      "slug": "chatwise/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.7.4",
-      "newVersion": "26.7.5",
-      "installerUrl": "https://releases.chatwise.app/26.7.5/ChatWise-26.7.5-arm64.dmg"
-    },
-    {
-      "date": "2026-07-29T19:21:48Z",
-      "appName": "AdLock",
-      "slug": "adlock/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.1.8.9",
-      "newVersion": "2.1.9.1",
-      "installerUrl": "https://downloads.adlock.com/mac/AdLock_Installer.dmg"
-    },
-    {
-      "date": "2026-07-29T19:21:48Z",
-      "appName": "TeamViewer",
-      "slug": "teamviewer/windows",
-      "platform": "windows",
-      "oldVersion": "15.79.4",
-      "newVersion": "15.80.4",
-      "installerUrl": "https://download.teamviewer.com/download/version_15x/TeamViewer_Setup_x64_15.80.4.exe"
-    },
-    {
-      "date": "2026-07-29T19:21:48Z",
-      "appName": "JetBrains Toolbox",
-      "slug": "jetbrains-toolbox/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.6.2",
-      "newVersion": "3.6.3",
-      "installerUrl": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-3.6.3.86383-arm64.dmg"
-    },
-    {
-      "date": "2026-07-29T19:21:48Z",
-      "appName": "Vivaldi",
-      "slug": "vivaldi/darwin",
-      "platform": "darwin",
-      "oldVersion": "8.1.4087.58",
-      "newVersion": "8.1.4087.61",
-      "installerUrl": "https://downloads.vivaldi.com/stable/Vivaldi.8.1.4087.61.universal.dmg"
-    },
-    {
-      "date": "2026-07-29T19:21:48Z",
-      "appName": "superwhisper",
-      "slug": "superwhisper/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.16.6",
-      "newVersion": "2.17.0",
-      "installerUrl": "https://builds.superwhisper.com/v2.17.0/superwhisper.zip"
-    },
-    {
-      "date": "2026-07-29T19:21:48Z",
-      "appName": "Mimestream",
-      "slug": "mimestream/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.10.5",
-      "newVersion": "1.10.6",
-      "installerUrl": "https://download.mimestream.com/Mimestream_1.10.6.dmg"
-    },
-    {
-      "date": "2026-07-29T19:21:48Z",
-      "appName": "Microsoft 365 Copilot",
-      "slug": "microsoft-365-copilot/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.2607.1302",
-      "newVersion": "1.2607.2001",
-      "installerUrl": "https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_365_Copilot_universal_1.2607.2001_Installer.pkg"
-    },
-    {
-      "date": "2026-07-29T19:21:48Z",
-      "appName": "CodexBar",
-      "slug": "codexbar/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.45.2",
-      "newVersion": "0.46.0",
-      "installerUrl": "https://github.com/steipete/CodexBar/releases/download/v0.46.0/CodexBar-macos-universal-0.46.0.zip"
-    },
-    {
-      "date": "2026-07-29T19:21:48Z",
-      "appName": "Egnyte",
-      "slug": "egnyte/windows",
-      "platform": "windows",
-      "oldVersion": "4.4.1.198",
-      "newVersion": "4.5.1.201",
-      "installerUrl": "https://egnyte-cdn.egnyte.com/egnytedrive/win/en-us/4.5.1/EgnyteDesktopApp_4.5.1_201.msi"
-    },
-    {
-      "date": "2026-07-29T19:21:48Z",
-      "appName": "BoltAI 2",
-      "slug": "boltai/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.14.0",
-      "newVersion": "2.14.1",
-      "installerUrl": "https://updates.boltai.com/dmg/BoltAI-2.14.1.dmg"
-    },
-    {
-      "date": "2026-07-29T19:21:48Z",
-      "appName": "Mozilla Firefox Developer Edition",
-      "slug": "firefox@developer-edition/darwin",
-      "platform": "darwin",
-      "oldVersion": "154.0b3",
-      "newVersion": "154.0b4",
-      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/154.0b4/mac/en-US/Firefox%20154.0b4.dmg"
-    },
-    {
-      "date": "2026-07-29T19:21:48Z",
-      "appName": "Spokenly",
-      "slug": "spokenly/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.27.1",
-      "newVersion": "2.27.2",
-      "installerUrl": "https://cdn.spokenly.app/releases/macos/Spokenly-2.27.2.dmg"
-    },
-    {
-      "date": "2026-07-29T19:21:48Z",
-      "appName": "JetBrains Toolbox",
-      "slug": "jetbrains-toolbox/windows",
-      "platform": "windows",
-      "oldVersion": "3.6.2.0",
-      "newVersion": "3.6.3.0",
-      "installerUrl": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-3.6.3.86383.exe"
-    },
-    {
-      "date": "2026-07-29T19:21:48Z",
-      "appName": "BetterTouchTool",
-      "slug": "bettertouchtool/darwin",
-      "platform": "darwin",
-      "oldVersion": "6.663",
-      "newVersion": "6.681",
-      "installerUrl": "https://folivora.ai/releases/btt6.681-2026072903.zip"
-    },
-    {
-      "date": "2026-07-29T19:21:48Z",
-      "appName": "Another Redis Desktop Manager",
-      "slug": "another-redis-desktop-manager/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.7.1",
-      "newVersion": "1.7.2",
-      "installerUrl": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v1.7.2/Another-Redis-Desktop-Manager-mac-1.7.2-arm64.dmg"
-    },
-    {
-      "date": "2026-07-29T19:21:48Z",
-      "appName": "Tower",
-      "slug": "tower/darwin",
-      "platform": "darwin",
-      "oldVersion": "17.0",
-      "newVersion": "17.1",
-      "installerUrl": "https://www.git-tower.com/apps/tower3-mac/551-751159f7/Tower-17.1-551.zip"
-    },
-    {
-      "date": "2026-07-29T19:21:48Z",
-      "appName": "Gitify",
-      "slug": "gitify/darwin",
-      "platform": "darwin",
-      "oldVersion": "7.1.0",
-      "newVersion": "7.1.1",
-      "installerUrl": "https://github.com/gitify-app/gitify/releases/download/v7.1.1/Gitify-7.1.1-universal-mac.zip"
-    },
-    {
       "date": "2026-07-29T21:04:21Z",
       "appName": "Zed",
       "slug": "zed/windows",
@@ -8999,6 +8765,240 @@
       "oldVersion": "140.13.0",
       "newVersion": "140.14.0",
       "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/140.14.0esr/mac/en-US/Firefox%20140.14.0esr.dmg"
+    },
+    {
+      "date": "2026-08-18T21:30:12Z",
+      "appName": "Visual Studio Professional 2022",
+      "slug": "visual-studio-2022-professional/windows",
+      "platform": "windows",
+      "oldVersion": "17.14.38",
+      "newVersion": "17.14.39",
+      "installerUrl": "https://download.visualstudio.microsoft.com/download/pr/fa619120-9c0e-47e6-bfe0-3ee96fb671b2/770fbbb969a97bb6cd9917c10117eee0f78bb166e28caf47f33bc8948165f1cd/vs_Professional.exe"
+    },
+    {
+      "date": "2026-08-18T21:30:12Z",
+      "appName": "JetBrains Toolbox",
+      "slug": "jetbrains-toolbox/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.6.4",
+      "newVersion": "3.7",
+      "installerUrl": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-3.7.0.87111-arm64.dmg"
+    },
+    {
+      "date": "2026-08-18T21:30:12Z",
+      "appName": "Zotero",
+      "slug": "zotero/windows",
+      "platform": "windows",
+      "oldVersion": "9.0.6",
+      "newVersion": "10.0",
+      "installerUrl": "https://download.zotero.org/client/release/10.0/Zotero-10.0_x64_setup.exe"
+    },
+    {
+      "date": "2026-08-18T21:30:12Z",
+      "appName": "Visual Studio Community 2022",
+      "slug": "visual-studio-2022-community/windows",
+      "platform": "windows",
+      "oldVersion": "17.14.38",
+      "newVersion": "17.14.39",
+      "installerUrl": "https://download.visualstudio.microsoft.com/download/pr/fa619120-9c0e-47e6-bfe0-3ee96fb671b2/c2b025e3f2a6a8291bd18a23766b82c929023fc36855c6b09c026d424676588d/vs_Community.exe"
+    },
+    {
+      "date": "2026-08-18T21:30:12Z",
+      "appName": "ChatGPT Desktop",
+      "slug": "chatgpt/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.814.41407",
+      "newVersion": "26.814.41957",
+      "installerUrl": "https://persistent.oaistatic.com/codex-app-prod/ChatGPT-darwin-arm64-26.814.41957.zip"
+    },
+    {
+      "date": "2026-08-18T21:30:12Z",
+      "appName": "Granola",
+      "slug": "granola/windows",
+      "platform": "windows",
+      "oldVersion": "7.478.0",
+      "newVersion": "7.488.3",
+      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.488.3/Granola-7.488.3-win-x64.exe"
+    },
+    {
+      "date": "2026-08-18T21:30:12Z",
+      "appName": "Element",
+      "slug": "element/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.12.25",
+      "newVersion": "1.12.26",
+      "installerUrl": "https://packages.element.io/desktop/update/macos/Element-1.12.26-universal-mac.zip"
+    },
+    {
+      "date": "2026-08-18T21:30:12Z",
+      "appName": "Cardhop",
+      "slug": "cardhop/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.4.8",
+      "newVersion": "2.4.9",
+      "installerUrl": "https://cdn.flexibits.com/Cardhop_2.4.9.zip"
+    },
+    {
+      "date": "2026-08-18T21:30:12Z",
+      "appName": "SABnzbd",
+      "slug": "sabnzbd/darwin",
+      "platform": "darwin",
+      "oldVersion": "5.1.0",
+      "newVersion": "5.1.1",
+      "installerUrl": "https://github.com/sabnzbd/sabnzbd/releases/download/5.1.1/SABnzbd-5.1.1-macos.dmg"
+    },
+    {
+      "date": "2026-08-18T21:30:12Z",
+      "appName": "JetBrains Toolbox",
+      "slug": "jetbrains-toolbox/windows",
+      "platform": "windows",
+      "oldVersion": "3.6.4.0",
+      "newVersion": "3.7.0.0",
+      "installerUrl": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-3.7.0.87111.exe"
+    },
+    {
+      "date": "2026-08-18T21:30:12Z",
+      "appName": "Beekeeper Studio",
+      "slug": "beekeeper-studio/darwin",
+      "platform": "darwin",
+      "oldVersion": "6.0.1",
+      "newVersion": "6.0.4",
+      "installerUrl": "https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v6.0.4/Beekeeper-Studio-6.0.4-arm64.dmg"
+    },
+    {
+      "date": "2026-08-18T21:30:12Z",
+      "appName": "TeamViewer",
+      "slug": "teamviewer/windows",
+      "platform": "windows",
+      "oldVersion": "15.80.4",
+      "newVersion": "15.80.6",
+      "installerUrl": "https://download.teamviewer.com/download/version_15x/TeamViewer_Setup_x64_15.80.6.exe"
+    },
+    {
+      "date": "2026-08-18T21:30:12Z",
+      "appName": "Go",
+      "slug": "go/windows",
+      "platform": "windows",
+      "oldVersion": "1.26.5",
+      "newVersion": "1.26.6",
+      "installerUrl": "https://go.dev/dl/go1.26.6.windows-amd64.msi"
+    },
+    {
+      "date": "2026-08-18T21:30:12Z",
+      "appName": "Anytype",
+      "slug": "anytype/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.56.1",
+      "newVersion": "0.56.4",
+      "installerUrl": "https://anytype-release.fra1.cdn.digitaloceanspaces.com/Anytype-0.56.4-mac-arm64.dmg"
+    },
+    {
+      "date": "2026-08-18T21:30:12Z",
+      "appName": "Arduino IDE",
+      "slug": "arduino-ide/windows",
+      "platform": "windows",
+      "oldVersion": "2.3.8",
+      "newVersion": "2.3.10",
+      "installerUrl": "https://github.com/arduino/arduino-ide/releases/download/2.3.10/arduino-ide_2.3.10_Windows_64bit.msi"
+    },
+    {
+      "date": "2026-08-18T21:30:12Z",
+      "appName": "Zed",
+      "slug": "zed/windows",
+      "platform": "windows",
+      "oldVersion": "1.15.0",
+      "newVersion": "1.15.1",
+      "installerUrl": "https://github.com/zed-industries/zed/releases/download/v1.15.1/Zed-x86_64.exe"
+    },
+    {
+      "date": "2026-08-18T21:30:12Z",
+      "appName": "Plex Media Server",
+      "slug": "plex-media-server/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.43.3.10861",
+      "newVersion": "1.43.3.10896",
+      "installerUrl": "https://downloads.plex.tv/plex-media-server-new/1.43.3.10896-cb3ebc72d/macos/PlexMediaServer-1.43.3.10896-cb3ebc72d-universal.zip"
+    },
+    {
+      "date": "2026-08-18T21:30:12Z",
+      "appName": "SQL Server Management Studio",
+      "slug": "sql-server-management-studio/windows",
+      "platform": "windows",
+      "oldVersion": "22.9.0",
+      "newVersion": "22.9.1",
+      "installerUrl": "https://download.visualstudio.microsoft.com/download/pr/7834fc97-5a8c-4392-a2a9-ed4b98f77180/afe9a072e7c230f87e639cfd10868b37804152ee91997f0e72c49282686b70fe/vs_SSMS.exe"
+    },
+    {
+      "date": "2026-08-18T21:30:12Z",
+      "appName": "VirtualBox",
+      "slug": "virtualbox/windows",
+      "platform": "windows",
+      "oldVersion": "7.2.14",
+      "newVersion": "7.2.16",
+      "installerUrl": "https://download.virtualbox.org/virtualbox/7.2.16/VirtualBox-7.2.16-174877-Win.exe"
+    },
+    {
+      "date": "2026-08-18T21:30:12Z",
+      "appName": "Chatbox",
+      "slug": "chatbox/windows",
+      "platform": "windows",
+      "oldVersion": "1.22.3",
+      "newVersion": "1.22.4",
+      "installerUrl": "https://download.chatboxai.app/releases/Chatbox-1.22.4-Setup.exe"
+    },
+    {
+      "date": "2026-08-18T21:30:12Z",
+      "appName": "Beekeeper Studio",
+      "slug": "beekeeper-studio/windows",
+      "platform": "windows",
+      "oldVersion": "6.0.1",
+      "newVersion": "6.0.4",
+      "installerUrl": "https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v6.0.4/Beekeeper-Studio-Setup-6.0.4.exe"
+    },
+    {
+      "date": "2026-08-18T21:30:12Z",
+      "appName": "Zed",
+      "slug": "zed/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.15.0",
+      "newVersion": "1.15.1",
+      "installerUrl": "https://zed.dev/api/releases/stable/1.15.1/Zed-aarch64.dmg"
+    },
+    {
+      "date": "2026-08-18T21:30:12Z",
+      "appName": "Visual Studio Enterprise 2022",
+      "slug": "visual-studio-2022-enterprise/windows",
+      "platform": "windows",
+      "oldVersion": "17.14.38",
+      "newVersion": "17.14.39",
+      "installerUrl": "https://download.visualstudio.microsoft.com/download/pr/fa619120-9c0e-47e6-bfe0-3ee96fb671b2/63756cd71ae67cfbc371ca0798931d41ea30ccc5065be1b3b0bc84b43cd3b50e/vs_Enterprise.exe"
+    },
+    {
+      "date": "2026-08-18T21:30:12Z",
+      "appName": "VirtualBox",
+      "slug": "virtualbox/darwin",
+      "platform": "darwin",
+      "oldVersion": "7.2.14",
+      "newVersion": "7.2.16",
+      "installerUrl": "https://download.virtualbox.org/virtualbox/7.2.16/VirtualBox-7.2.16-174877-macOSArm64.dmg"
+    },
+    {
+      "date": "2026-08-18T21:30:12Z",
+      "appName": "Claude",
+      "slug": "claude/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.32352.1",
+      "newVersion": "1.32885.0",
+      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.32885.0/Claude-2e913c9cf1e7508241365046a92ae1050b7bcbb2.zip"
+    },
+    {
+      "date": "2026-08-18T21:30:12Z",
+      "appName": "Godot Engine",
+      "slug": "godot/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.7.1",
+      "newVersion": "4.7.2",
+      "installerUrl": "https://github.com/godotengine/godot/releases/download/4.7.2-stable/Godot_v4.7.2-stable_macos.universal.zip"
     }
   ]
 }
