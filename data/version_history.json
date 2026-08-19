@@ -2,24 +2,6 @@
   "changes": [
     {
       "date": "2026-07-30T16:32:20Z",
-      "appName": "CMake",
-      "slug": "cmake-app/windows",
-      "platform": "windows",
-      "oldVersion": "4.4.0",
-      "newVersion": "4.4.1",
-      "installerUrl": "https://github.com/Kitware/CMake/releases/download/v4.4.1/cmake-4.4.1-windows-x86_64.msi"
-    },
-    {
-      "date": "2026-07-30T16:32:20Z",
-      "appName": "kitty",
-      "slug": "kitty/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.48.1",
-      "newVersion": "0.48.2",
-      "installerUrl": "https://github.com/kovidgoyal/kitty/releases/download/v0.48.2/kitty-0.48.2.dmg"
-    },
-    {
-      "date": "2026-07-30T16:32:20Z",
       "appName": "Rive",
       "slug": "rive/darwin",
       "platform": "darwin",
@@ -8999,6 +8981,24 @@
       "oldVersion": "16.112",
       "newVersion": "16.112.1",
       "installerUrl": "https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.112.26081720_Updater.pkg"
+    },
+    {
+      "date": "2026-08-19T03:56:12Z",
+      "appName": "Teleport Connect",
+      "slug": "teleport-connect/darwin",
+      "platform": "darwin",
+      "oldVersion": "18.10.4",
+      "newVersion": "18.10.6",
+      "installerUrl": "https://cdn.teleport.dev/Teleport%20Connect-18.10.6.dmg"
+    },
+    {
+      "date": "2026-08-19T03:56:12Z",
+      "appName": "Teleport Suite",
+      "slug": "teleport-suite/darwin",
+      "platform": "darwin",
+      "oldVersion": "18.10.4",
+      "newVersion": "18.10.6",
+      "installerUrl": "https://cdn.teleport.dev/teleport-18.10.6.pkg"
     }
   ]
 }
