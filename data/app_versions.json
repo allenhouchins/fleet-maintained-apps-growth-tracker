@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T01:21:14Z",
+  "lastUpdated": "2026-08-19T03:03:31Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -488,22 +488,22 @@
       "slug": "amazon-corretto-11/windows",
       "name": "Amazon Corretto 11",
       "platform": "windows",
-      "version": "11.0.32.9",
-      "installerUrl": "https://corretto.aws/downloads/resources/11.0.32.9.1/amazon-corretto-11.0.32.9.1-windows-x64.msi"
+      "version": "11.0.32.10",
+      "installerUrl": "https://corretto.aws/downloads/resources/11.0.32.10.1/amazon-corretto-11.0.32.10.1-windows-x64.msi"
     },
     {
       "slug": "amazon-corretto-17/windows",
       "name": "Amazon Corretto 17",
       "platform": "windows",
-      "version": "17.0.20.8",
-      "installerUrl": "https://corretto.aws/downloads/resources/17.0.20.8.1/amazon-corretto-17.0.20.8.1-windows-x64.msi"
+      "version": "17.0.20.10",
+      "installerUrl": "https://corretto.aws/downloads/resources/17.0.20.10.1/amazon-corretto-17.0.20.10.1-windows-x64.msi"
     },
     {
       "slug": "amazon-corretto-21/windows",
       "name": "Amazon Corretto 21",
       "platform": "windows",
-      "version": "21.0.12.8",
-      "installerUrl": "https://corretto.aws/downloads/resources/21.0.12.8.1/amazon-corretto-21.0.12.8.1-windows-x64.msi"
+      "version": "21.0.12.9",
+      "installerUrl": "https://corretto.aws/downloads/resources/21.0.12.9.1/amazon-corretto-21.0.12.9.1-windows-x64.msi"
     },
     {
       "slug": "amazon-corretto-24/windows",
@@ -516,29 +516,29 @@
       "slug": "amazon-corretto-25/windows",
       "name": "Amazon Corretto 25",
       "platform": "windows",
-      "version": "25.0.4.7",
-      "installerUrl": "https://corretto.aws/downloads/resources/25.0.4.7.1/amazon-corretto-25.0.4.7.1-windows-x64.msi"
+      "version": "25.0.4.8",
+      "installerUrl": "https://corretto.aws/downloads/resources/25.0.4.8.1/amazon-corretto-25.0.4.8.1-windows-x64.msi"
     },
     {
       "slug": "amazon-corretto-26/windows",
       "name": "Amazon Corretto 26",
       "platform": "windows",
-      "version": "26.0.2.10",
-      "installerUrl": "https://corretto.aws/downloads/resources/26.0.2.10.1/amazon-corretto-26.0.2.10.1-windows-x64.msi"
+      "version": "26.0.2.11",
+      "installerUrl": "https://corretto.aws/downloads/resources/26.0.2.11.1/amazon-corretto-26.0.2.11.1-windows-x64.msi"
     },
     {
       "slug": "amazon-corretto-8/windows",
       "name": "Amazon Corretto 8",
       "platform": "windows",
-      "version": "1.8.0.502",
-      "installerUrl": "https://corretto.aws/downloads/resources/8.502.07.1/amazon-corretto-8.502.07.1-windows-x64-jdk.msi"
+      "version": "1.8.0.504",
+      "installerUrl": "https://corretto.aws/downloads/resources/8.504.01.1/amazon-corretto-8.504.01.1-windows-x64-jdk.msi"
     },
     {
       "slug": "amazon-corretto-jre-8/windows",
       "name": "Amazon Corretto JRE 8",
       "platform": "windows",
-      "version": "1.8.0.502",
-      "installerUrl": "https://corretto.aws/downloads/resources/8.502.07.1/amazon-corretto-8.502.07.1-windows-x64-jre.msi"
+      "version": "1.8.0.504",
+      "installerUrl": "https://corretto.aws/downloads/resources/8.504.01.1/amazon-corretto-8.504.01.1-windows-x64-jre.msi"
     },
     {
       "slug": "amazon-dcv-client/windows",
@@ -894,8 +894,8 @@
       "slug": "aws-vpn-client/darwin",
       "name": "AWS Client VPN",
       "platform": "darwin",
-      "version": "6.0.1",
-      "installerUrl": "https://d20adtppz83p9s.cloudfront.net/OSX_ARM64/6.0.1/AWS_VPN_Client_ARM64.pkg"
+      "version": "6.0.2",
+      "installerUrl": "https://d20adtppz83p9s.cloudfront.net/OSX_ARM64/6.0.2/AWS_VPN_Client_ARM64.pkg"
     },
     {
       "slug": "aws-vpn-client/windows",
@@ -915,15 +915,15 @@
       "slug": "azul-zulu-25-jdk/windows",
       "name": "Azul Zulu JDK 25",
       "platform": "windows",
-      "version": "25.36.15",
-      "installerUrl": "https://cdn.azul.com/zulu/bin/zulu25.36.15-ca-jdk25.0.4-win_x64.msi"
+      "version": "25.36.205",
+      "installerUrl": "https://cdn.azul.com/zulu/bin/zulu25.36.205-ca-jdk25.0.4.1-win_x64.msi"
     },
     {
       "slug": "azul-zulu-25-jre/windows",
       "name": "Azul Zulu JRE 25",
       "platform": "windows",
-      "version": "25.36.15",
-      "installerUrl": "https://cdn.azul.com/zulu/bin/zulu25.36.15-ca-jre25.0.4-win_x64.msi"
+      "version": "25.36.205",
+      "installerUrl": "https://cdn.azul.com/zulu/bin/zulu25.36.205-ca-jre25.0.4.1-win_x64.msi"
     },
     {
       "slug": "azure-data-studio/windows",
@@ -1692,8 +1692,8 @@
       "slug": "claude/darwin",
       "name": "Claude",
       "platform": "darwin",
-      "version": "1.32885.0",
-      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.32885.0/Claude-2e913c9cf1e7508241365046a92ae1050b7bcbb2.zip"
+      "version": "1.32885.1",
+      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.32885.1/Claude-a757f53392ab406812eac6d069efb087b541c07c.zip"
     },
     {
       "slug": "claude/windows",
@@ -1979,8 +1979,8 @@
       "slug": "connect-fonts/darwin",
       "name": "Connect Fonts",
       "platform": "darwin",
-      "version": "28.1.6",
-      "installerUrl": "https://bin.extensis.com/ConnectFonts-M-28-1-6.dmg"
+      "version": "28.1.7",
+      "installerUrl": "https://bin.extensis.com/ConnectFonts-M-28-1-7.dmg"
     },
     {
       "slug": "copilot-money/darwin",
@@ -2728,8 +2728,8 @@
       "slug": "dropbox/darwin",
       "name": "Dropbox",
       "platform": "darwin",
-      "version": "264.4.3421",
-      "installerUrl": "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20264.4.3421.arm64.dmg"
+      "version": "266.4.3911",
+      "installerUrl": "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20266.4.3911.arm64.dmg"
     },
     {
       "slug": "dropbox/windows",
@@ -3309,8 +3309,8 @@
       "slug": "firefox/windows",
       "name": "Mozilla Firefox",
       "platform": "windows",
-      "version": "153.0.3",
-      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/153.0.3/win64/en-US/Firefox%20Setup%20153.0.3.exe"
+      "version": "153.0.4",
+      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/153.0.4/win64/en-US/Firefox%20Setup%20153.0.4.exe"
     },
     {
       "slug": "firefox@developer-edition/darwin",
@@ -3351,8 +3351,8 @@
       "slug": "firefox@nightly/windows",
       "name": "Mozilla Firefox Nightly",
       "platform": "windows",
-      "version": "156.2608.1508.0",
-      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/08/2026-08-15-08-56-31-mozilla-central/firefox-156.0a1.multi.win64.installer.msix"
+      "version": "156.2608.1809.0",
+      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/08/2026-08-18-09-20-26-mozilla-central/firefox-156.0a1.multi.win64.installer.msix"
     },
     {
       "slug": "fission/darwin",
@@ -3841,7 +3841,7 @@
       "slug": "google-chrome/windows",
       "name": "Google Chrome",
       "platform": "windows",
-      "version": "151.0.7922.138",
+      "version": "151.0.7922.170",
       "installerUrl": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi"
     },
     {
@@ -3953,8 +3953,8 @@
       "slug": "granola/darwin",
       "name": "Granola",
       "platform": "darwin",
-      "version": "7.478.0",
-      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.478.0/Granola-7.478.0-mac-universal.dmg"
+      "version": "7.488.3",
+      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.488.3/Granola-7.488.3-mac-universal.dmg"
     },
     {
       "slug": "granola/windows",
@@ -4730,15 +4730,15 @@
       "slug": "kiro/darwin",
       "name": "Kiro",
       "platform": "darwin",
-      "version": "1.0.309",
-      "installerUrl": "https://prod.download.desktop.kiro.dev/releases/stable/darwin-arm64/signed/1.0.309/kiro-ide-1.0.309-stable-darwin-arm64.dmg"
+      "version": "1.0.337",
+      "installerUrl": "https://prod.download.desktop.kiro.dev/releases/stable/darwin-arm64/signed/1.0.337/kiro-ide-1.0.337-stable-darwin-arm64.dmg"
     },
     {
       "slug": "kiro/windows",
       "name": "Kiro",
       "platform": "windows",
-      "version": "1.0.309",
-      "installerUrl": "https://prod.download.desktop.kiro.dev/releases/stable/win32-x64/signed/1.0.309/kiro-ide-1.0.309-stable-win32-x64.exe"
+      "version": "1.0.337",
+      "installerUrl": "https://prod.download.desktop.kiro.dev/releases/stable/win32-x64/signed/1.0.337/kiro-ide-1.0.337-stable-win32-x64.exe"
     },
     {
       "slug": "kitty/darwin",
@@ -5430,8 +5430,8 @@
       "slug": "microsoft-excel/darwin",
       "name": "Microsoft Excel",
       "platform": "darwin",
-      "version": "16.112",
-      "installerUrl": "https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.112.26081010_Installer.pkg"
+      "version": "16.112.1",
+      "installerUrl": "https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.112.26081720_Installer.pkg"
     },
     {
       "slug": "microsoft-odbc-driver-17/windows",
@@ -5458,22 +5458,22 @@
       "slug": "microsoft-onenote/darwin",
       "name": "Microsoft OneNote",
       "platform": "darwin",
-      "version": "16.112",
-      "installerUrl": "https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.112.26081010_Updater.pkg"
+      "version": "16.112.1",
+      "installerUrl": "https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.112.26081720_Updater.pkg"
     },
     {
       "slug": "microsoft-outlook/darwin",
       "name": "Microsoft Outlook",
       "platform": "darwin",
-      "version": "16.112",
-      "installerUrl": "https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.112.26081010_Installer.pkg"
+      "version": "16.112.1",
+      "installerUrl": "https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.112.26081720_Installer.pkg"
     },
     {
       "slug": "microsoft-powerpoint/darwin",
       "name": "Microsoft PowerPoint",
       "platform": "darwin",
-      "version": "16.112",
-      "installerUrl": "https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.112.26081010_Installer.pkg"
+      "version": "16.112.1",
+      "installerUrl": "https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.112.26081720_Installer.pkg"
     },
     {
       "slug": "microsoft-remote-help/darwin",
@@ -8587,15 +8587,15 @@
       "slug": "thunderbird/darwin",
       "name": "Thunderbird",
       "platform": "darwin",
-      "version": "153.0.3",
-      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/153.0.3/mac/en-US/Thunderbird%20153.0.3.dmg"
+      "version": "154.0",
+      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/154.0/mac/en-US/Thunderbird%20154.0.dmg"
     },
     {
       "slug": "thunderbird/windows",
       "name": "Thunderbird",
       "platform": "windows",
-      "version": "153.0.3",
-      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/153.0.3/win64/en-US/Thunderbird%20Setup%20153.0.3.exe"
+      "version": "154.0",
+      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/154.0/win64/en-US/Thunderbird%20Setup%20154.0.exe"
     },
     {
       "slug": "ticktick/darwin",
@@ -8902,8 +8902,8 @@
       "slug": "unity-hub/darwin",
       "name": "Unity Hub",
       "platform": "darwin",
-      "version": "3.20.1",
-      "installerUrl": "https://public-cdn.cloud.unity3d.com/hub/prod/3.20.1/UnityHubSetup-3.20.1-arm64.dmg"
+      "version": "3.21.0",
+      "installerUrl": "https://public-cdn.cloud.unity3d.com/hub/prod/3.21.0/UnityHubSetup-3.21.0-arm64.dmg"
     },
     {
       "slug": "updf/darwin",
@@ -9210,8 +9210,8 @@
       "slug": "warp/darwin",
       "name": "Warp",
       "platform": "darwin",
-      "version": "0.2026.08.12.21.54.00",
-      "installerUrl": "https://releases.warp.dev/stable/v0.2026.08.12.21.54.stable_00/Warp.dmg"
+      "version": "0.2026.08.18.02.52.00",
+      "installerUrl": "https://releases.warp.dev/stable/v0.2026.08.18.02.52.stable_00/Warp.dmg"
     },
     {
       "slug": "wave/darwin",
@@ -9315,8 +9315,8 @@
       "slug": "whatroute/darwin",
       "name": "WhatRoute",
       "platform": "darwin",
-      "version": "2.8.0",
-      "installerUrl": "https://www.whatroute.net/software/whatroute-2.8.0.zip"
+      "version": "2.8.1",
+      "installerUrl": "https://www.whatroute.net/software/whatroute-2.8.1.zip"
     },
     {
       "slug": "whatsapp/darwin",
