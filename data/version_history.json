@@ -2,96 +2,6 @@
   "changes": [
     {
       "date": "2026-07-31T23:04:57Z",
-      "appName": "Podman Desktop",
-      "slug": "podman-desktop/windows",
-      "platform": "windows",
-      "oldVersion": "1.29.0",
-      "newVersion": "1.29.1",
-      "installerUrl": "https://github.com/containers/podman-desktop/releases/download/v1.29.1/podman-desktop-1.29.1-setup-x64.exe"
-    },
-    {
-      "date": "2026-07-31T23:04:57Z",
-      "appName": "Setapp",
-      "slug": "setapp/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.54.0",
-      "newVersion": "3.54.1",
-      "installerUrl": "https://dl.devmate.com/com.setapp.DesktopClient/154/1785484295/Setapp-154.zip"
-    },
-    {
-      "date": "2026-07-31T23:04:57Z",
-      "appName": "Postman",
-      "slug": "postman/darwin",
-      "platform": "darwin",
-      "oldVersion": "12.21.8",
-      "newVersion": "12.21.9",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.21.9/osx_arm64"
-    },
-    {
-      "date": "2026-07-31T23:04:57Z",
-      "appName": "BoltAI 2",
-      "slug": "boltai/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.14.1",
-      "newVersion": "2.14.2",
-      "installerUrl": "https://updates.boltai.com/dmg/BoltAI-2.14.2.dmg"
-    },
-    {
-      "date": "2026-07-31T23:04:57Z",
-      "appName": "ChatWise",
-      "slug": "chatwise/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.7.6",
-      "newVersion": "26.7.8",
-      "installerUrl": "https://releases.chatwise.app/26.7.8/ChatWise-26.7.8-arm64.dmg"
-    },
-    {
-      "date": "2026-07-31T23:04:57Z",
-      "appName": "Eclipse Temurin JDK 8",
-      "slug": "eclipse-temurin-jdk-8/windows",
-      "platform": "windows",
-      "oldVersion": "8.0.492.9",
-      "newVersion": "8.0.502.7",
-      "installerUrl": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u502-b07/OpenJDK8U-jdk_x64_windows_hotspot_8u502b07.msi"
-    },
-    {
-      "date": "2026-07-31T23:04:57Z",
-      "appName": "Eclipse Temurin JRE 8",
-      "slug": "eclipse-temurin-jre-8/windows",
-      "platform": "windows",
-      "oldVersion": "8.0.492.9",
-      "newVersion": "8.0.502.7",
-      "installerUrl": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u502-b07/OpenJDK8U-jre_x64_windows_hotspot_8u502b07.msi"
-    },
-    {
-      "date": "2026-07-31T23:04:57Z",
-      "appName": "pgAdmin 4",
-      "slug": "pgadmin4/darwin",
-      "platform": "darwin",
-      "oldVersion": "9.16",
-      "newVersion": "9.17",
-      "installerUrl": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.17/macos/pgadmin4-9.17-arm64.dmg"
-    },
-    {
-      "date": "2026-07-31T23:04:57Z",
-      "appName": "pgAdmin 4",
-      "slug": "pgadmin4/windows",
-      "platform": "windows",
-      "oldVersion": "9.16",
-      "newVersion": "9.17",
-      "installerUrl": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.17/windows/pgadmin4-9.17-x64.exe"
-    },
-    {
-      "date": "2026-07-31T23:04:57Z",
-      "appName": "Cursor",
-      "slug": "cursor/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.13.25",
-      "newVersion": "3.14.7",
-      "installerUrl": "https://downloads.cursor.com/production/a758f2241ca99fecf380180b6cbdbbce0f1f42cf/darwin/arm64/Cursor-darwin-arm64.zip"
-    },
-    {
-      "date": "2026-07-31T23:04:57Z",
       "appName": "Adobe Acrobat Reader",
       "slug": "adobe-acrobat-reader/windows",
       "platform": "windows",
@@ -8999,6 +8909,96 @@
       "oldVersion": "3.7.0.0",
       "newVersion": "3.7.1.0",
       "installerUrl": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-3.7.1.87197.exe"
+    },
+    {
+      "date": "2026-08-20T20:32:13Z",
+      "appName": "Beeper",
+      "slug": "beeper/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.3.34",
+      "newVersion": "4.3.54",
+      "installerUrl": "https://beeper-desktop.download.beeper.com/builds/Beeper-4.3.54-arm64-mac.zip"
+    },
+    {
+      "date": "2026-08-20T20:32:13Z",
+      "appName": "TREZOR Suite",
+      "slug": "trezor-suite/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.7.4",
+      "newVersion": "26.8.2",
+      "installerUrl": "https://data.trezor.io/suite/releases/desktop/latest/Trezor-Suite-26.8.2-mac-arm64.dmg"
+    },
+    {
+      "date": "2026-08-20T20:32:13Z",
+      "appName": "Bruno",
+      "slug": "bruno/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.0.0",
+      "newVersion": "4.1.0",
+      "installerUrl": "https://github.com/usebruno/bruno/releases/download/v4.1.0/bruno_4.1.0_arm64_mac.dmg"
+    },
+    {
+      "date": "2026-08-20T20:32:13Z",
+      "appName": "Hive",
+      "slug": "hive-app/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.2.36",
+      "newVersion": "1.2.37",
+      "installerUrl": "https://github.com/morapelker/hive/releases/download/v1.2.37/Hive-1.2.37-arm64.dmg"
+    },
+    {
+      "date": "2026-08-20T20:32:13Z",
+      "appName": "Arc",
+      "slug": "arc/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.160.0",
+      "newVersion": "1.161.0",
+      "installerUrl": "https://releases.arc.net/release/Arc-1.161.0-85574.zip"
+    },
+    {
+      "date": "2026-08-20T20:32:13Z",
+      "appName": "Jami",
+      "slug": "jami/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.41",
+      "newVersion": "2.42",
+      "installerUrl": "https://dl.jami.net/mac_osx/jami2026082009.dmg"
+    },
+    {
+      "date": "2026-08-20T20:32:13Z",
+      "appName": "Granola",
+      "slug": "granola/darwin",
+      "platform": "darwin",
+      "oldVersion": "7.488.3",
+      "newVersion": "7.498.1",
+      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.498.1/Granola-7.498.1-mac-universal.dmg"
+    },
+    {
+      "date": "2026-08-20T20:32:13Z",
+      "appName": "AdLock",
+      "slug": "adlock/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.1.9.2",
+      "newVersion": "2.1.9.3",
+      "installerUrl": "https://downloads.adlock.com/mac/AdLock_Installer.dmg"
+    },
+    {
+      "date": "2026-08-20T20:32:13Z",
+      "appName": "CodexBar",
+      "slug": "codexbar/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.53.0",
+      "newVersion": "0.54.0",
+      "installerUrl": "https://github.com/steipete/CodexBar/releases/download/v0.54.0/CodexBar-macos-universal-0.54.0.zip"
+    },
+    {
+      "date": "2026-08-20T20:32:13Z",
+      "appName": "ChatGPT Desktop",
+      "slug": "chatgpt/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.818.21641",
+      "newVersion": "26.818.22352",
+      "installerUrl": "https://persistent.oaistatic.com/codex-app-prod/ChatGPT-darwin-arm64-26.818.22352.zip"
     }
   ]
 }
