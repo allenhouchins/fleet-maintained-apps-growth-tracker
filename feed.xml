@@ -5,13 +5,20 @@
     <link>https://fmalibrary.com</link>
     <description>Track version updates and new app additions for Fleet-maintained apps. Get notified when apps are updated with new versions or when new apps are added to the library.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Aug 2026 14:49:01 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 15:47:01 +0000</lastBuildDate>
     <atom:link href="https://fmalibrary.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://fmalibrary.com/cloud-city.png</url>
       <title>Fleet-maintained apps</title>
       <link>https://fmalibrary.com</link>
     </image>
+    <item>
+      <title>Evernote 11.30.6 → 11.31.5 (Mac)</title>
+      <link>https://fmalibrary.com</link>
+      <description>Evernote has been updated from version 11.30.6 to 11.31.5 on August 25, 2026. &lt;a href=&quot;https://mac.desktop.evernote.com/builds/Evernote-10.105.4-mac-ddl-stage-20240910164757-a2e60a8d876a07eded5d212fa56ba45214114ad0.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Tue, 25 Aug 2026 15:47:01 +0000</pubDate>
+      <guid isPermaLink="false">evernote/darwin-11.30.6-11.31.5</guid>
+    </item>
     <item>
       <title>Royal TSX 6.4.3 → 6.4.4 (Mac)</title>
       <link>https://fmalibrary.com</link>
@@ -3366,25 +3373,11 @@
       <guid isPermaLink="false">tableplus/windows-26.9.4-26.9.5</guid>
     </item>
     <item>
-      <title>Beekeeper Studio 6.0.0 → 6.0.1 (Mac)</title>
+      <title>Royal TSX 7.4.50721.0 → 7.4.50814.0 (Windows)</title>
       <link>https://fmalibrary.com</link>
-      <description>Beekeeper Studio has been updated from version 6.0.0 to 6.0.1 on August 15, 2026. &lt;a href=&quot;https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v6.0.1/Beekeeper-Studio-6.0.1-arm64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Royal TSX has been updated from version 7.4.50721.0 to 7.4.50814.0 on August 15, 2026. &lt;a href=&quot;https://download.royalapps.com/royalts/royaltsinstaller_7.04.50814.0_x64.msi&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Sat, 15 Aug 2026 05:28:19 +0000</pubDate>
-      <guid isPermaLink="false">beekeeper-studio/darwin-6.0.0-6.0.1</guid>
-    </item>
-    <item>
-      <title>BetterTouchTool 6.723 → 6.726 (Mac)</title>
-      <link>https://fmalibrary.com</link>
-      <description>BetterTouchTool has been updated from version 6.723 to 6.726 on August 15, 2026. &lt;a href=&quot;https://folivora.ai/releases/btt6.726-2026081403.zip&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Sat, 15 Aug 2026 05:28:19 +0000</pubDate>
-      <guid isPermaLink="false">bettertouchtool/darwin-6.723-6.726</guid>
-    </item>
-    <item>
-      <title>Postman 12.23.5 → 12.23.8 (Mac)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Postman has been updated from version 12.23.5 to 12.23.8 on August 15, 2026. &lt;a href=&quot;https://dl.pstmn.io/download/version/12.23.8/osx_arm64&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Sat, 15 Aug 2026 05:28:19 +0000</pubDate>
-      <guid isPermaLink="false">postman/darwin-12.23.5-12.23.8</guid>
+      <guid isPermaLink="false">royal-tsx/windows-7.4.50721.0-7.4.50814.0</guid>
     </item>
     <item>
       <title>Ollama 0.32.9 → 0.32.13 (Windows)</title>
@@ -3506,11 +3499,18 @@
       <guid isPermaLink="false">bambu-studio/darwin-02.07.01.62-02.08.02.60</guid>
     </item>
     <item>
-      <title>Postman 12.23.5 → 12.23.8 (Windows)</title>
+      <title>Beekeeper Studio 6.0.0 → 6.0.1 (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>Postman has been updated from version 12.23.5 to 12.23.8 on August 15, 2026. &lt;a href=&quot;https://dl.pstmn.io/download/version/12.23.8/windows_64&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Beekeeper Studio has been updated from version 6.0.0 to 6.0.1 on August 15, 2026. &lt;a href=&quot;https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v6.0.1/Beekeeper-Studio-6.0.1-arm64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Sat, 15 Aug 2026 05:28:19 +0000</pubDate>
-      <guid isPermaLink="false">postman/windows-12.23.5-12.23.8</guid>
+      <guid isPermaLink="false">beekeeper-studio/darwin-6.0.0-6.0.1</guid>
+    </item>
+    <item>
+      <title>Postman 12.23.5 → 12.23.8 (Mac)</title>
+      <link>https://fmalibrary.com</link>
+      <description>Postman has been updated from version 12.23.5 to 12.23.8 on August 15, 2026. &lt;a href=&quot;https://dl.pstmn.io/download/version/12.23.8/osx_arm64&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Sat, 15 Aug 2026 05:28:19 +0000</pubDate>
+      <guid isPermaLink="false">postman/darwin-12.23.5-12.23.8</guid>
     </item>
   </channel>
 </rss>
