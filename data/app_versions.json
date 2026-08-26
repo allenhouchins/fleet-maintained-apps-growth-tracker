@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T14:49:46Z",
+  "lastUpdated": "2026-08-26T16:22:07Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -26,8 +26,8 @@
       "slug": "1password/windows",
       "name": "1Password",
       "platform": "windows",
-      "version": "8.12.32",
-      "installerUrl": "https://c.1password.com/dist/1P/win8/1PasswordSetup-8.12.32.msi"
+      "version": "8.12.34",
+      "installerUrl": "https://c.1password.com/dist/1P/win8/1PasswordSetup-8.12.34.msi"
     },
     {
       "slug": "3df-zephyr-free/windows",
@@ -1167,8 +1167,8 @@
       "slug": "bitwig-studio/darwin",
       "name": "Bitwig Studio",
       "platform": "darwin",
-      "version": "6.0.11",
-      "installerUrl": "https://www.bitwig.com/dl/Bitwig%20Studio/6.0.11/installer_mac"
+      "version": "6.1",
+      "installerUrl": "https://www.bitwig.com/dl/Bitwig%20Studio/6.1/installer_mac"
     },
     {
       "slug": "bitwig-studio/windows",
@@ -2161,8 +2161,8 @@
       "slug": "cyberduck/windows",
       "name": "Cyberduck",
       "platform": "windows",
-      "version": "9.5.3.45464",
-      "installerUrl": "https://update.cyberduck.io//Cyberduck-Installer-9.5.3.45464.msi"
+      "version": "9.5.4.45528",
+      "installerUrl": "https://update.cyberduck.io//Cyberduck-Installer-9.5.4.45528.msi"
     },
     {
       "slug": "cycling74-max/darwin",
@@ -2896,15 +2896,15 @@
       "slug": "eclipse-temurin-jdk-8/windows",
       "name": "Eclipse Temurin JDK 8",
       "platform": "windows",
-      "version": "8.0.502.7",
-      "installerUrl": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u502-b07/OpenJDK8U-jdk_x64_windows_hotspot_8u502b07.msi"
+      "version": "8.0.504.1",
+      "installerUrl": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u504-b01/OpenJDK8U-jdk_x64_windows_hotspot_8u504b01.msi"
     },
     {
       "slug": "eclipse-temurin-jre-11/windows",
       "name": "Eclipse Temurin JRE 11",
       "platform": "windows",
-      "version": "11.0.32.9",
-      "installerUrl": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32+9/OpenJDK11U-jre_x64_windows_hotspot_11.0.32_9.msi"
+      "version": "11.0.32.101",
+      "installerUrl": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1+1/OpenJDK11U-jre_x64_windows_hotspot_11.0.32.1_1.msi"
     },
     {
       "slug": "eclipse-temurin-jre-17/windows",
@@ -2924,8 +2924,8 @@
       "slug": "eclipse-temurin-jre-8/windows",
       "name": "Eclipse Temurin JRE 8",
       "platform": "windows",
-      "version": "8.0.502.7",
-      "installerUrl": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u502-b07/OpenJDK8U-jre_x64_windows_hotspot_8u502b07.msi"
+      "version": "8.0.504.1",
+      "installerUrl": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u504-b01/OpenJDK8U-jre_x64_windows_hotspot_8u504b01.msi"
     },
     {
       "slug": "egnyte-webedit/windows",
@@ -2987,7 +2987,7 @@
       "slug": "elevate-uc/windows",
       "name": "Elevate UC",
       "platform": "windows",
-      "version": "2.32.60",
+      "version": "2.32.143",
       "installerUrl": "https://cp.serverdata.net/voice/pbx/softphonereleases/default/latest-win/elevate-uc-x64.msi"
     },
     {
@@ -3345,7 +3345,7 @@
       "name": "Mozilla Firefox Nightly",
       "platform": "darwin",
       "version": "156.0a1",
-      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/08/2026-08-25-21-38-24-mozilla-central/firefox-156.0a1.en-US.mac.dmg"
+      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/08/2026-08-26-09-12-05-mozilla-central/firefox-156.0a1.en-US.mac.dmg"
     },
     {
       "slug": "firefox@nightly/windows",
@@ -3939,8 +3939,8 @@
       "slug": "grammarly-desktop/darwin",
       "name": "Grammarly Desktop",
       "platform": "darwin",
-      "version": "1.186.0",
-      "installerUrl": "https://download-mac.grammarly.com/versions/1.186.0.0/Grammarly.dmg"
+      "version": "1.187.0",
+      "installerUrl": "https://download-mac.grammarly.com/versions/1.187.0.0/Grammarly.dmg"
     },
     {
       "slug": "grandperspective/darwin",
@@ -4025,6 +4025,13 @@
       "platform": "windows",
       "version": "1.11.2",
       "installerUrl": "https://github.com/HandBrake/HandBrake/releases/download/1.11.2/HandBrake-1.11.2-x86_64-Win_GUI.exe"
+    },
+    {
+      "slug": "harmony-sase/darwin",
+      "name": "Harmony SASE",
+      "platform": "darwin",
+      "version": "12.11.0",
+      "installerUrl": "https://static.perimeter81.com/agents/mac/Harmony_SASE_12.11.0.12314.pkg"
     },
     {
       "slug": "hazel/darwin",
@@ -5920,7 +5927,7 @@
       "slug": "nordpass/darwin",
       "name": "NordPass",
       "platform": "darwin",
-      "version": "7.9.5",
+      "version": "7.10.9",
       "installerUrl": "https://downloads.npass.app/mac/arm/NordPass.dmg"
     },
     {
@@ -8405,8 +8412,8 @@
       "slug": "tailscale/windows",
       "name": "Tailscale",
       "platform": "windows",
-      "version": "1.102.2",
-      "installerUrl": "https://pkgs.tailscale.com/stable/tailscale-setup-1.102.2-amd64.msi"
+      "version": "1.102.3",
+      "installerUrl": "https://pkgs.tailscale.com/stable/tailscale-setup-1.102.3-amd64.msi"
     },
     {
       "slug": "taskade/darwin",
@@ -9238,8 +9245,8 @@
       "slug": "weasis/windows",
       "name": "Weasis",
       "platform": "windows",
-      "version": "4.7.2",
-      "installerUrl": "https://github.com/nroduit/Weasis/releases/download/v4.7.2/Weasis-4.7.2-x86-64.msi"
+      "version": "4.7.3",
+      "installerUrl": "https://github.com/nroduit/Weasis/releases/download/v4.7.3/Weasis-4.7.3-x86-64.msi"
     },
     {
       "slug": "webcatalog/darwin",

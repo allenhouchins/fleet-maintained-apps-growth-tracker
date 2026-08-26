@@ -1,114 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-08-07T17:01:12Z",
-      "appName": "Visual Studio Community 2022",
-      "slug": "visual-studio-2022-community/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "17.14.37",
-      "installerUrl": "https://download.visualstudio.microsoft.com/download/pr/f7f5ecbc-83ca-4cf0-bdb2-aaf70efb6d97/065e93abcaf6a7ea97fa9a43561fc55bd57845d97b0cbf58c9be8cb72ddc1934/vs_Community.exe"
-    },
-    {
-      "date": "2026-08-07T17:01:12Z",
-      "appName": "Visual Studio Professional 2022",
-      "slug": "visual-studio-2022-professional/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "17.14.37",
-      "installerUrl": "https://download.visualstudio.microsoft.com/download/pr/f7f5ecbc-83ca-4cf0-bdb2-aaf70efb6d97/119dd0785334e307d2df472373f0cdfeb6174c8cc895ae12e9157cfb65527ad0/vs_Professional.exe"
-    },
-    {
-      "date": "2026-08-07T17:01:12Z",
-      "appName": "Visual Studio Enterprise 2022",
-      "slug": "visual-studio-2022-enterprise/windows",
-      "platform": "windows",
-      "oldVersion": "",
-      "newVersion": "17.14.37",
-      "installerUrl": "https://download.visualstudio.microsoft.com/download/pr/f7f5ecbc-83ca-4cf0-bdb2-aaf70efb6d97/2229b67966b6ae32a74599b68acc1d7d88bc21e93fcceb2f8c1c8253b6e92b29/vs_Enterprise.exe"
-    },
-    {
-      "date": "2026-08-07T17:01:12Z",
-      "appName": "XnSoft XnConvert",
-      "slug": "xnconvert/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.112.0",
-      "newVersion": "1.115.0",
-      "installerUrl": "https://download.xnview.com/old_versions/XnConvert/XnConvert-1.115.0-mac.dmg"
-    },
-    {
-      "date": "2026-08-07T17:53:35Z",
-      "appName": "calibre",
-      "slug": "calibre/windows",
-      "platform": "windows",
-      "oldVersion": "9.12.0",
-      "newVersion": "9.13.0",
-      "installerUrl": "https://download.calibre-ebook.com/9.13.0/calibre-64bit-9.13.0.msi"
-    },
-    {
-      "date": "2026-08-07T17:53:35Z",
-      "appName": "OrbStack",
-      "slug": "orbstack/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.2.2",
-      "newVersion": "2.2.3",
-      "installerUrl": "https://cdn-updates.orbstack.dev/arm64/OrbStack_v2.2.3_20963_arm64.dmg"
-    },
-    {
-      "date": "2026-08-07T17:53:35Z",
-      "appName": "RustRover",
-      "slug": "rustrover/darwin",
-      "platform": "darwin",
-      "oldVersion": "2026.2",
-      "newVersion": "2026.2.1",
-      "installerUrl": "https://download.jetbrains.com/rustrover/RustRover-2026.2.1-aarch64.dmg"
-    },
-    {
-      "date": "2026-08-07T17:53:35Z",
-      "appName": "CMake",
-      "slug": "cmake-app/windows",
-      "platform": "windows",
-      "oldVersion": "4.4.1",
-      "newVersion": "4.4.2",
-      "installerUrl": "https://github.com/Kitware/CMake/releases/download/v4.4.2/cmake-4.4.2-windows-x86_64.msi"
-    },
-    {
-      "date": "2026-08-07T17:53:35Z",
-      "appName": "P4V",
-      "slug": "p4v/windows",
-      "platform": "windows",
-      "oldVersion": "242.62.2",
-      "newVersion": "242.62.3",
-      "installerUrl": "https://filehost.perforce.com/perforce/r26.2/bin.ntx64/p4vinst64.msi"
-    },
-    {
-      "date": "2026-08-07T17:53:35Z",
-      "appName": "Telegram",
-      "slug": "telegram/windows",
-      "platform": "windows",
-      "oldVersion": "7.0.8",
-      "newVersion": "7.0.9",
-      "installerUrl": "https://github.com/telegramdesktop/tdesktop/releases/download/v7.0.9/tsetup-x64.7.0.9.exe"
-    },
-    {
-      "date": "2026-08-07T17:53:35Z",
-      "appName": "massCode",
-      "slug": "masscode/darwin",
-      "platform": "darwin",
-      "oldVersion": "5.9.1",
-      "newVersion": "5.10.0",
-      "installerUrl": "https://github.com/massCodeIO/massCode/releases/download/v5.10.0/massCode-5.10.0-arm64.dmg"
-    },
-    {
-      "date": "2026-08-07T17:53:35Z",
-      "appName": "Brave",
-      "slug": "brave-browser/windows",
-      "platform": "windows",
-      "oldVersion": "151.1.93.129",
-      "newVersion": "151.1.93.132",
-      "installerUrl": "https://github.com/brave/brave-browser/releases/download/v1.93.132/BraveBrowserStandaloneSilentSetup.exe"
-    },
-    {
       "date": "2026-08-07T17:53:35Z",
       "appName": "GitKraken",
       "slug": "gitkraken/windows",
@@ -8999,6 +8891,114 @@
       "oldVersion": "26.2.0.19099",
       "newVersion": "26.2.1.19299",
       "installerUrl": "https://download.techsmith.com/camtasiastudio/releases/2621/camtasia.msi"
+    },
+    {
+      "date": "2026-08-26T16:22:07Z",
+      "appName": "Bitwig Studio",
+      "slug": "bitwig-studio/darwin",
+      "platform": "darwin",
+      "oldVersion": "6.0.11",
+      "newVersion": "6.1",
+      "installerUrl": "https://www.bitwig.com/dl/Bitwig%20Studio/6.1/installer_mac"
+    },
+    {
+      "date": "2026-08-26T16:22:07Z",
+      "appName": "Eclipse Temurin JRE 11",
+      "slug": "eclipse-temurin-jre-11/windows",
+      "platform": "windows",
+      "oldVersion": "11.0.32.9",
+      "newVersion": "11.0.32.101",
+      "installerUrl": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1+1/OpenJDK11U-jre_x64_windows_hotspot_11.0.32.1_1.msi"
+    },
+    {
+      "date": "2026-08-26T16:22:07Z",
+      "appName": "1Password",
+      "slug": "1password/windows",
+      "platform": "windows",
+      "oldVersion": "8.12.32",
+      "newVersion": "8.12.34",
+      "installerUrl": "https://c.1password.com/dist/1P/win8/1PasswordSetup-8.12.34.msi"
+    },
+    {
+      "date": "2026-08-26T16:22:07Z",
+      "appName": "Grammarly Desktop",
+      "slug": "grammarly-desktop/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.186.0",
+      "newVersion": "1.187.0",
+      "installerUrl": "https://download-mac.grammarly.com/versions/1.187.0.0/Grammarly.dmg"
+    },
+    {
+      "date": "2026-08-26T16:22:07Z",
+      "appName": "Harmony SASE",
+      "slug": "harmony-sase/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "12.11.0",
+      "installerUrl": "https://static.perimeter81.com/agents/mac/Harmony_SASE_12.11.0.12314.pkg"
+    },
+    {
+      "date": "2026-08-26T16:22:07Z",
+      "appName": "Eclipse Temurin JRE 8",
+      "slug": "eclipse-temurin-jre-8/windows",
+      "platform": "windows",
+      "oldVersion": "8.0.502.7",
+      "newVersion": "8.0.504.1",
+      "installerUrl": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u504-b01/OpenJDK8U-jre_x64_windows_hotspot_8u504b01.msi"
+    },
+    {
+      "date": "2026-08-26T16:22:07Z",
+      "appName": "Eclipse Temurin JDK 8",
+      "slug": "eclipse-temurin-jdk-8/windows",
+      "platform": "windows",
+      "oldVersion": "8.0.502.7",
+      "newVersion": "8.0.504.1",
+      "installerUrl": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u504-b01/OpenJDK8U-jdk_x64_windows_hotspot_8u504b01.msi"
+    },
+    {
+      "date": "2026-08-26T16:22:07Z",
+      "appName": "Weasis",
+      "slug": "weasis/windows",
+      "platform": "windows",
+      "oldVersion": "4.7.2",
+      "newVersion": "4.7.3",
+      "installerUrl": "https://github.com/nroduit/Weasis/releases/download/v4.7.3/Weasis-4.7.3-x86-64.msi"
+    },
+    {
+      "date": "2026-08-26T16:22:07Z",
+      "appName": "Elevate UC",
+      "slug": "elevate-uc/windows",
+      "platform": "windows",
+      "oldVersion": "2.32.60",
+      "newVersion": "2.32.143",
+      "installerUrl": "https://cp.serverdata.net/voice/pbx/softphonereleases/default/latest-win/elevate-uc-x64.msi"
+    },
+    {
+      "date": "2026-08-26T16:22:07Z",
+      "appName": "Cyberduck",
+      "slug": "cyberduck/windows",
+      "platform": "windows",
+      "oldVersion": "9.5.3.45464",
+      "newVersion": "9.5.4.45528",
+      "installerUrl": "https://update.cyberduck.io//Cyberduck-Installer-9.5.4.45528.msi"
+    },
+    {
+      "date": "2026-08-26T16:22:07Z",
+      "appName": "Tailscale",
+      "slug": "tailscale/windows",
+      "platform": "windows",
+      "oldVersion": "1.102.2",
+      "newVersion": "1.102.3",
+      "installerUrl": "https://pkgs.tailscale.com/stable/tailscale-setup-1.102.3-amd64.msi"
+    },
+    {
+      "date": "2026-08-26T16:22:07Z",
+      "appName": "NordPass",
+      "slug": "nordpass/darwin",
+      "platform": "darwin",
+      "oldVersion": "7.9.5",
+      "newVersion": "7.10.9",
+      "installerUrl": "https://downloads.npass.app/mac/arm/NordPass.dmg"
     }
   ]
 }
