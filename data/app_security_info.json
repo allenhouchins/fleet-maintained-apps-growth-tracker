@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T16:28:31Z",
+  "lastUpdated": "2026-08-27T16:30:52Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1371,6 +1371,13 @@
       "lastUpdated": "2026-08-19T03:28:24Z"
     },
     {
+      "slug": "azure-cli/windows",
+      "name": "Microsoft Azure CLI",
+      "version": "2.89.1",
+      "sha256": "32acc1bc543116cbe2cff10cb867772df2f254ff2634c870aef0b46c4b696fdb",
+      "lastUpdated": "2026-08-27T16:29:21Z"
+    },
+    {
       "slug": "azure-data-studio/windows",
       "name": "Azure Data Studio",
       "version": "1.52.0",
@@ -1940,14 +1947,14 @@
     {
       "slug": "brave-browser/windows",
       "name": "Brave",
-      "version": "151.1.93.136",
-      "sha256": "8256a29857d1b2ab6698c46fed68aa32ea46d260b806e9a6040923fc1c9f9ee7",
+      "version": "151.1.93.137",
+      "sha256": "387c89e13884f25135d78139a2201c32bb1f05b1faec6700abac08a2fd880543",
       "publisher": "CN=\"Brave Software, Inc.\", O=\"Brave Software, Inc.\", L=San Francisco, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0E982FDDF06E93E911065D037D4DD482",
       "thumbprint": "F8AC5F11DE7E26383B7A389FC19A2613835799D7",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-08-14T05:23:18Z"
+      "lastUpdated": "2026-08-27T16:29:32Z"
     },
     {
       "slug": "breaktimer/darwin",
@@ -2273,14 +2280,14 @@
     {
       "slug": "certify-the-web/windows",
       "name": "Certify The Web",
-      "version": "7.1.1",
-      "sha256": "8df363d117b27a87582d318c13d23964ba309397e2c75bc82e14df5a9f8085d0",
+      "version": "7.2.0",
+      "sha256": "c2566a368338fb0b28bcbb5d76ad99f7d715218e7e5670ddff63e0c8f03c642e",
       "publisher": "CN=Webprofusion Pty Ltd, O=Webprofusion Pty Ltd, S=Western Australia, C=AU",
       "issuer": "CN=Sectigo Public Code Signing CA R36, O=Sectigo Limited, C=GB",
       "serialNumber": "00E880BC895ED938CF535BB4E88DD41C6C",
       "thumbprint": "D060FBB58AD364EAF77FF3B269DB35B03CACF6B5",
       "timestamp": "CN=Sectigo Public Time Stamping Signer R37, O=Sectigo Limited, S=Greater London, C=GB",
-      "lastUpdated": "2026-07-09T16:03:26Z"
+      "lastUpdated": "2026-08-27T16:29:38Z"
     },
     {
       "slug": "chalk/darwin",
@@ -2997,14 +3004,14 @@
     {
       "slug": "creative-force-kelvin/windows",
       "name": "Creative Force Kelvin",
-      "version": "6.8.1",
-      "sha256": "ee14a5d16f573c9d44d08e090f944c4e5313e547b48961f3a56afd2b2538f778",
-      "publisher": "CN=\"Creativeforce.io, Inc.\", O=\"Creativeforce.io, Inc.\", L=Boston, S=Massachusetts, C=US",
-      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
-      "serialNumber": "0A011956BE734C80A90663B4F31296CF",
-      "thumbprint": "16E9B29019D627675CDFC53CD4A9FFF36F4B17D2",
-      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-08-18T05:10:08Z"
+      "version": "6.9.0",
+      "sha256": "f2b703b31e90e32e35b9b113ea22d686008adfc84a64ddfc612c13cdf172dac0",
+      "publisher": "CN=\"Creativeforce.io, Inc.\", O=\"Creativeforce.io, Inc.\", L=San Francisco, S=California, C=US",
+      "issuer": "CN=Microsoft ID Verified CS EOC CA 04, O=Microsoft Corporation, C=US",
+      "serialNumber": "330004D8F8EB708C2EFC8F969000000004D8F8",
+      "thumbprint": "90CE4BA70BF5E40488BD4149AB3862B643C7ECDD",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7800-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-08-27T16:30:18Z"
     },
     {
       "slug": "creative-force-triad/windows",
@@ -3317,14 +3324,14 @@
     {
       "slug": "datagrip/windows",
       "name": "DataGrip",
-      "version": "2026.2.3",
-      "sha256": "6c9f8722a98be09df1610256f699af7d1a70628f2e5d58d35fa83e20f8f6e505",
+      "version": "2026.2.4",
+      "sha256": "d08d92cebec9081f95e5bf8c5b9153dacf86915e113327d395f11a8f9ad28eac",
       "publisher": "CN=JetBrains s.r.o., O=JetBrains s.r.o., L=Prague, C=CZ, SERIALNUMBER=26502275, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CZ",
       "issuer": "CN=DigiCert Trusted G4 Code Signing Europe RSA4096 SHA384 2023 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "083EA13884BDFFCE8E5D9D5CAD2EFBDE",
       "thumbprint": "8C1B506D0BD10A911D09FB7EDBCAB383F1CDAF20",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-08-08T07:01:26Z"
+      "lastUpdated": "2026-08-27T16:30:35Z"
     },
     {
       "slug": "dataspell/darwin",
@@ -4033,14 +4040,14 @@
     {
       "slug": "drawio/windows",
       "name": "draw.io",
-      "version": "31.1.8",
-      "sha256": "5e62b50085714032c75b2dd35fcc61b6d01294916b2d49f74ea9bf684aec9bb6",
+      "version": "31.3.2",
+      "sha256": "4ce9f1d4b6cc058caecd1423b3f7a94c7520e2c743fc203841b738e002ac75d6",
       "publisher": "CN=draw.io Ltd, O=draw.io Ltd, L=Northampton, S=Northamptonshire, C=GB",
       "issuer": "CN=Microsoft ID Verified CS EOC CA 04, O=Microsoft Corporation, C=US",
-      "serialNumber": "330003F6D42C933731686D8C1400000003F6D4",
-      "thumbprint": "4C2138ECAEC6E72F1BC22C25052DB57F4B52B4B3",
-      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7D00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-08-11T15:31:47Z"
+      "serialNumber": "330004A8DEAF55F7686C0B877300000004A8DE",
+      "thumbprint": "4D3C353B67FE5DE1D14F9C6B75F43BAE428F4E26",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7A00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-08-27T16:30:43Z"
     },
     {
       "slug": "drofus/windows",
@@ -4985,14 +4992,14 @@
     {
       "slug": "firefox@esr/windows",
       "name": "Mozilla Firefox ESR",
-      "version": "153.0.0",
-      "sha256": "d3bcf6b8b8bdf769b9279980402812799642c27ba2fb2b7dcfe04a0ac972f5a0",
+      "version": "153.1.0",
+      "sha256": "874cc845c7020b46f0a64a8422129322b19360a46b1e4a72cd22169e9cadd022",
       "publisher": "CN=Mozilla Corporation, OU=Firefox Engineering Operations, O=Mozilla Corporation, L=San Francisco, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0F0EF7C2D819273E8C13F016D2E09B25",
       "thumbprint": "6663D5C4FDAF9EFD5F823A26C9C410DC9928C44A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-07-23T22:34:26Z"
+      "lastUpdated": "2026-08-27T16:30:47Z"
     },
     {
       "slug": "firefox@nightly/darwin",
@@ -5884,6 +5891,18 @@
       "signingId": "W8F64X92K3:com.grammarly.ProjectLlama",
       "teamId": "W8F64X92K3",
       "lastUpdated": "2026-08-26T16:24:49Z"
+    },
+    {
+      "slug": "grammarly-desktop/windows",
+      "name": "Grammarly Desktop",
+      "version": "1.2.289.1946",
+      "sha256": "1dfc0635b807a546ecf20057cd2b355c495a2f39d8bd5588cfdfe48752b9d31a",
+      "publisher": "CN=\"Grammarly, Inc.\", O=\"Grammarly, Inc.\", L=San Francisco, S=California, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0D8E68920B412DC717299499D7F3E22C",
+      "thumbprint": "5F26C960EE0F5416EEEC88FB873AE0F43E661AAF",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-08-27T16:30:49Z"
     },
     {
       "slug": "grandperspective/darwin",
@@ -6907,6 +6926,18 @@
       "signingId": "5433B4KXM8:org.kde.Kdenlive",
       "teamId": "5433B4KXM8",
       "lastUpdated": "2026-07-07T08:38:35Z"
+    },
+    {
+      "slug": "keepass/windows",
+      "name": "KeePass",
+      "version": "2.61.1",
+      "sha256": "9923a8b228fe3d8fbe46979991f45d7e0d63f649766596da191eb879b293d38d",
+      "publisher": "CN=\"Open Source Developer, Dominik Reichl\", O=Open Source Developer, L=Metzingen, S=Baden-Württemberg, C=DE",
+      "issuer": "CN=Certum Code Signing 2021 CA, O=Asseco Data Systems S.A., C=PL",
+      "serialNumber": "48CB7FB951DC8E29A2502C1BFB491D54",
+      "thumbprint": "7D31591AF4F25C5C1869BA51A9BA22286D422870",
+      "timestamp": "CN=Certum Timestamp 2026, O=Asseco Data Systems S.A., C=PL",
+      "lastUpdated": "2026-08-27T16:30:52Z"
     },
     {
       "slug": "keepassxc/darwin",
