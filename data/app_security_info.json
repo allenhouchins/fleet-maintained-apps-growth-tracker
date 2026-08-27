@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T04:45:02Z",
+  "lastUpdated": "2026-08-27T04:48:05Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1274,14 +1274,14 @@
     {
       "slug": "aws-cli/windows",
       "name": "AWS Command Line Interface v2",
-      "version": "2.36.29",
-      "sha256": "fcc2d1f4ffaa3b477f057627ef53596d066603a8ad8c7b8371059e865e308659",
+      "version": "2.36.30",
+      "sha256": "e014b600dcbf892fad6bcf7a994d8a8863a19ebc0f92208c43c284dd3d816db7",
       "publisher": "CN=\"Amazon Web Services, Inc.\", OU=AWS, O=\"Amazon Web Services, Inc.\", L=Seattle, S=Washington, C=US, SERIALNUMBER=4152954, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0590C4CF0DB014199953A68CFCE9B0E7",
       "thumbprint": "81A9EFB93199F2C7441EE14050360EDAB7E8242A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-08-22T13:56:54Z"
+      "lastUpdated": "2026-08-27T04:45:31Z"
     },
     {
       "slug": "aws-sam-cli/windows",
@@ -7376,13 +7376,9 @@
     {
       "slug": "localsend/windows",
       "name": "LocalSend",
-      "version": "1.17.0",
-      "sha256": "e554dcf9dc94dd842b54d464b559ac1d3631427bb02480c9a74785ec47ce639c",
-      "publisher": "CN=Tien Do Nam, O=Tien Do Nam, S=Sachsen, C=DE",
-      "issuer": "CN=Sectigo Public Code Signing CA R36, O=Sectigo Limited, C=GB",
-      "serialNumber": "00A05494C070DCB0F5F047D61EEBBD7899",
-      "thumbprint": "1DA345C683985852C0C15B956F1E4EBB84F2C37C",
-      "lastUpdated": "2026-06-15T17:24:27Z"
+      "version": "1.18.2",
+      "sha256": "f53856750ad087a17b996309171262fa7d89071c350e0dc5df6530f34dd8a2ae",
+      "lastUpdated": "2026-08-27T04:47:00Z"
     },
     {
       "slug": "locationsimulator/darwin",
@@ -9190,14 +9186,14 @@
     {
       "slug": "ollama/windows",
       "name": "Ollama",
-      "version": "0.32.15",
-      "sha256": "bb49a9366dacf07e3fc94e87869d1a0ad5df3a8cbd9ee54503d4b6b1c0843cb0",
+      "version": "0.33.0",
+      "sha256": "913230e6c251e60577dd4ef236b5a916202cb1b87481ed817e375fee4841372b",
       "publisher": "CN=Ollama Inc., O=Ollama Inc., L=Toronto, S=Ontario, C=CA, SERIALNUMBER=2713355, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Ontario, OID.1.3.6.1.4.1.311.60.2.1.3=CA",
       "issuer": "CN=DigiCert G5 CS ECC SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "09EC0C6B3ACF2FCBBD0BB7489E389999",
       "thumbprint": "716CD3BC8C02361431A18F56F98C72DE88066103",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-08-21T03:40:12Z"
+      "lastUpdated": "2026-08-27T04:47:34Z"
     },
     {
       "slug": "omnidisksweeper/darwin",
@@ -10025,14 +10021,14 @@
     {
       "slug": "postman/windows",
       "name": "Postman",
-      "version": "12.25.3",
-      "sha256": "18f8f1180126a4e2c4bad48bd841dac6ce33be861abdafe24fcecf932c07d466",
+      "version": "12.25.5",
+      "sha256": "733da50933f0a10a41a1ef8bef53d1c1767e25cfc67b21984b05ba57df8166ca",
       "publisher": "CN=\"Postman, Inc.\", O=\"Postman, Inc.\", L=San Francisco, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "06BF9F29E018BD749B536C714E98D6A5",
       "thumbprint": "8F1DDDA5C241B2F3424D4211991BBE1CD22226CC",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-08-26T15:44:06Z"
+      "lastUpdated": "2026-08-27T04:47:40Z"
     },
     {
       "slug": "power-automate/windows",
@@ -11508,14 +11504,14 @@
     {
       "slug": "signal/windows",
       "name": "Signal",
-      "version": "8.24.1",
-      "sha256": "c129a1648e63a46854f79afe0d0ea7bfaabb2da1198426f871c84fd3790701d7",
+      "version": "8.25.0",
+      "sha256": "312c12c41461be3a6da003f75ae6d1c4c688d7f2a9ecbe85843f252f0cafc022",
       "publisher": "CN=\"Signal Messenger, LLC\", O=\"Signal Messenger, LLC\", L=Mountain View, S=California, C=US, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=6703101, OID.2.5.4.15=Private Organization",
       "issuer": "CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
       "serialNumber": "4EF1C2D67B37517957F42E8D",
       "thumbprint": "8A5A56EFFDC462AE8A6CF732BB21E2541995BF36",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-08-21T03:40:19Z"
+      "lastUpdated": "2026-08-27T04:47:47Z"
     },
     {
       "slug": "simple-comic/darwin",
@@ -12517,14 +12513,14 @@
     {
       "slug": "teamviewer-host/windows",
       "name": "TeamViewer Host",
-      "version": "15.80.6",
-      "sha256": "d96e580769d01c7cfadff330626536b2845500615709dae9f4fa5b6201e78430",
+      "version": "15.81.5",
+      "sha256": "b47c896d78a61fb5bd0f0d2b1b9db6ed2c63a30a78565d234deda49e3f23826a",
       "publisher": "CN=TeamViewer Germany GmbH, O=TeamViewer Germany GmbH, L=Göppingen, C=DE",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "047DF4694FCC5004B5CFF6BE10BFC8E8",
       "thumbprint": "DA9105E8E66F11E8030B05B20EE9E1164ADCF893",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-08-13T02:33:28Z"
+      "lastUpdated": "2026-08-27T04:47:50Z"
     },
     {
       "slug": "teamviewer/darwin",
@@ -12539,14 +12535,14 @@
     {
       "slug": "teamviewer/windows",
       "name": "TeamViewer",
-      "version": "15.80.6",
-      "sha256": "a94f28bd309f37898721ce179665c2bf20adfaff8971bc8a24a813af3564c418",
+      "version": "15.81.5",
+      "sha256": "fe44fb7995678be156af5f58fa95ecbb8e59ec0db8d16c6b4a2a1c0c99a8835d",
       "publisher": "CN=TeamViewer Germany GmbH, O=TeamViewer Germany GmbH, L=Göppingen, C=DE",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "047DF4694FCC5004B5CFF6BE10BFC8E8",
       "thumbprint": "DA9105E8E66F11E8030B05B20EE9E1164ADCF893",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-08-18T21:44:20Z"
+      "lastUpdated": "2026-08-27T04:47:54Z"
     },
     {
       "slug": "telegram/darwin",
@@ -12583,13 +12579,13 @@
     {
       "slug": "teleport-connect/windows",
       "name": "Teleport Connect",
-      "version": "18.10.6",
-      "sha256": "cb9ef4005f9a9ed4157a5580f0c6ea6e63db24c5ec547dc74cf093b0490d4ab0",
+      "version": "18.10.7",
+      "sha256": "c17d6e2b0ab6d1386dff7fb3c62d1acf7e57b873361c5beb3cba21e7b034df11",
       "publisher": "CN=\"Gravitational, Inc.\", O=\"Gravitational, Inc.\", L=Oakland, S=California, C=US, SERIALNUMBER=5720258, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0A013D24022E356BB5C86E36BAE5595A",
       "thumbprint": "C644BAB07912F5BD09BDB3C2D9AE6A724F9B2391",
-      "lastUpdated": "2026-08-19T13:11:20Z"
+      "lastUpdated": "2026-08-27T04:47:58Z"
     },
     {
       "slug": "teleport-suite/darwin",
@@ -13469,14 +13465,14 @@
     {
       "slug": "visual-studio-code/windows",
       "name": "Microsoft Visual Studio Code",
-      "version": "1.134.0",
-      "sha256": "e4123871377e90bacc0fb49f22a8f8a91635244974c3025f2f21fb8b1fb7716a",
+      "version": "1.135.0",
+      "sha256": "91cc59509d5d0e2f0829525fb39197f26289e9a3c1079ea0ee5ca848de083e5f",
       "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
       "issuer": "CN=Microsoft Code Signing PCA 2024, O=Microsoft Corporation, C=US",
       "serialNumber": "330000021CFACDC59BE82F7EC400000000021C",
       "thumbprint": "1D77A9B9E8FE2075D9AD15123257FB90DB0DA4A1",
-      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:4C1A-05E0-D947, OU=Microsoft Ireland Operations Limited, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-08-22T13:57:49Z"
+      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:431A-05E0-D947, OU=Microsoft Ireland Operations Limited, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-08-27T04:48:05Z"
     },
     {
       "slug": "vivaldi/darwin",
