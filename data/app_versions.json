@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T04:25:36Z",
+  "lastUpdated": "2026-08-27T16:13:50Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -649,8 +649,8 @@
       "slug": "antigravity/darwin",
       "name": "Google Antigravity",
       "platform": "darwin",
-      "version": "2.10.0",
-      "installerUrl": "https://storage.googleapis.com/antigravity-public/antigravity-hub/2.10.0-4996573600546816/darwin-arm/Antigravity.dmg"
+      "version": "2.11.0",
+      "installerUrl": "https://storage.googleapis.com/antigravity-public/antigravity-hub/2.11.0-6376446768316416/darwin-arm/Antigravity.dmg"
     },
     {
       "slug": "antinote/darwin",
@@ -672,6 +672,13 @@
       "platform": "darwin",
       "version": "9.7.3",
       "installerUrl": "https://download.anydesk.com/anydesk.dmg"
+    },
+    {
+      "slug": "anydesk/windows",
+      "name": "AnyDesk",
+      "platform": "windows",
+      "version": "9.7.15",
+      "installerUrl": "https://download.anydesk.com/AnyDesk.exe"
     },
     {
       "slug": "anydo/darwin",
@@ -924,6 +931,13 @@
       "platform": "windows",
       "version": "25.36.205",
       "installerUrl": "https://cdn.azul.com/zulu/bin/zulu25.36.205-ca-jre25.0.4.1-win_x64.msi"
+    },
+    {
+      "slug": "azure-cli/windows",
+      "name": "Microsoft Azure CLI",
+      "platform": "windows",
+      "version": "2.89.1",
+      "installerUrl": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.89.1-x64.msi"
     },
     {
       "slug": "azure-data-studio/windows",
@@ -1314,8 +1328,8 @@
       "slug": "brave-browser/windows",
       "name": "Brave",
       "platform": "windows",
-      "version": "151.1.93.136",
-      "installerUrl": "https://github.com/brave/brave-browser/releases/download/v1.93.136/BraveBrowserStandaloneSilentSetup.exe"
+      "version": "151.1.93.137",
+      "installerUrl": "https://github.com/brave/brave-browser/releases/download/v1.93.137/BraveBrowserStandaloneSilentSetup.exe"
     },
     {
       "slug": "breaktimer/darwin",
@@ -1538,8 +1552,8 @@
       "slug": "certify-the-web/windows",
       "name": "Certify The Web",
       "platform": "windows",
-      "version": "7.1.1",
-      "installerUrl": "https://downloads.certifytheweb.com/release/7.1.1.0/certify-ccm-windows-x64-7.1.1.0.exe"
+      "version": "7.2.0",
+      "installerUrl": "https://downloads.certifytheweb.com/release/7.2.0.0/certify-ccm-windows-x64-7.2.0.0.exe"
     },
     {
       "slug": "chalk/darwin",
@@ -1580,8 +1594,8 @@
       "slug": "chatgpt/darwin",
       "name": "ChatGPT Desktop",
       "platform": "darwin",
-      "version": "26.820.60940",
-      "installerUrl": "https://persistent.oaistatic.com/codex-app-prod/ChatGPT-darwin-arm64-26.820.60940.zip"
+      "version": "26.820.71523",
+      "installerUrl": "https://persistent.oaistatic.com/codex-app-prod/ChatGPT-darwin-arm64-26.820.71523.zip"
     },
     {
       "slug": "chatwise/darwin",
@@ -2028,8 +2042,8 @@
       "slug": "creative-force-kelvin/windows",
       "name": "Creative Force Kelvin",
       "platform": "windows",
-      "version": "6.8.1",
-      "installerUrl": "https://download.creativeforce.io/released-files.042024/prod/kelvin/win/Kelvin-6.8.1-win.msi"
+      "version": "6.9.0",
+      "installerUrl": "https://download.creativeforce.io/released-files.042024/prod/kelvin/win/Kelvin-6.9.0-win.msi"
     },
     {
       "slug": "creative-force-triad/windows",
@@ -2245,8 +2259,8 @@
       "slug": "datagrip/windows",
       "name": "DataGrip",
       "platform": "windows",
-      "version": "2026.2.3",
-      "installerUrl": "https://download.jetbrains.com/datagrip/datagrip-2026.2.3.exe"
+      "version": "2026.2.4",
+      "installerUrl": "https://download.jetbrains.com/datagrip/datagrip-2026.2.4.exe"
     },
     {
       "slug": "dataspell/darwin",
@@ -2497,8 +2511,8 @@
       "slug": "devonthink/darwin",
       "name": "DEVONthink",
       "platform": "darwin",
-      "version": "4.3.2",
-      "installerUrl": "https://download.devontechnologies.com/download/devonthink/4.3.2/DEVONthink.app.zip"
+      "version": "4.4",
+      "installerUrl": "https://download.devontechnologies.com/download/devonthink/4.4/DEVONthink.app.zip"
     },
     {
       "slug": "devpod/windows",
@@ -2539,7 +2553,7 @@
       "slug": "dialpad/darwin",
       "name": "Dialpad",
       "platform": "darwin",
-      "version": "2607.1.3",
+      "version": "2608.1.0",
       "installerUrl": "https://download.dialpad.com/osx/arm64/dialpad.pkg"
     },
     {
@@ -2611,6 +2625,13 @@
       "platform": "darwin",
       "version": "16.2",
       "installerUrl": "https://www.synaptics.com/sites/default/files/exe_files/2026-07/DisplayLink%20Manager%20Graphics%20Connectivity16.2-EXE.pkg"
+    },
+    {
+      "slug": "displaylink/windows",
+      "name": "DisplayLink USB Graphics Software",
+      "platform": "windows",
+      "version": "12.2.2412.0",
+      "installerUrl": "https://www.synaptics.com/sites/default/files/msi_files/2026-07/DisplayLink%20USB%20Graphics%20Software%20for%20Windows12.2%20M2-MSI.zip"
     },
     {
       "slug": "dngrep/windows",
@@ -2714,8 +2735,8 @@
       "slug": "drawio/windows",
       "name": "draw.io",
       "platform": "windows",
-      "version": "31.1.8",
-      "installerUrl": "https://github.com/jgraph/drawio-desktop/releases/download/v31.1.8/draw.io-31.1.8-windows-installer.exe"
+      "version": "31.3.2",
+      "installerUrl": "https://github.com/jgraph/drawio-desktop/releases/download/v31.3.2/draw.io-31.3.2-windows-installer.exe"
     },
     {
       "slug": "drofus/windows",
@@ -3337,15 +3358,15 @@
       "slug": "firefox@esr/windows",
       "name": "Mozilla Firefox ESR",
       "platform": "windows",
-      "version": "153.0.0",
-      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/153.0esr/win64/en-US/Firefox%20Setup%20153.0esr.exe"
+      "version": "153.1.0",
+      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/153.1.0esr/win64/en-US/Firefox%20Setup%20153.1.0esr.exe"
     },
     {
       "slug": "firefox@nightly/darwin",
       "name": "Mozilla Firefox Nightly",
       "platform": "darwin",
       "version": "156.0a1",
-      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/08/2026-08-26-09-12-05-mozilla-central/firefox-156.0a1.en-US.mac.dmg"
+      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/08/2026-08-26-20-55-48-mozilla-central/firefox-156.0a1.en-US.mac.dmg"
     },
     {
       "slug": "firefox@nightly/windows",
@@ -3883,7 +3904,7 @@
       "slug": "google-gemini/darwin",
       "name": "Google Gemini",
       "platform": "darwin",
-      "version": "1.96.4.775",
+      "version": "1.99.2.791",
       "installerUrl": "https://dl.google.com/release2/j33ro/release/Gemini.dmg"
     },
     {
@@ -3941,6 +3962,13 @@
       "platform": "darwin",
       "version": "1.187.0",
       "installerUrl": "https://download-mac.grammarly.com/versions/1.187.0.0/Grammarly.dmg"
+    },
+    {
+      "slug": "grammarly-desktop/windows",
+      "name": "Grammarly Desktop",
+      "platform": "windows",
+      "version": "1.2.289.1946",
+      "installerUrl": "https://download-windows.grammarly.com/versions/1.2.289.1946/GrammarlyInstaller.exe"
     },
     {
       "slug": "grandperspective/darwin",
@@ -4629,6 +4657,13 @@
       "installerUrl": "https://cdn.download.kde.org/stable/kdenlive/26.04/macOS/kdenlive-26.04.3-arm64.dmg"
     },
     {
+      "slug": "keepass/windows",
+      "name": "KeePass",
+      "platform": "windows",
+      "version": "2.61.1",
+      "installerUrl": "https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.61.1/KeePass-2.61.1-Setup.exe/download"
+    },
+    {
       "slug": "keepassxc/darwin",
       "name": "KeePassXC",
       "platform": "darwin",
@@ -4695,8 +4730,8 @@
       "slug": "keycastr/darwin",
       "name": "KeyCastr",
       "platform": "darwin",
-      "version": "0.10.5",
-      "installerUrl": "https://github.com/keycastr/keycastr/releases/download/v0.10.5/KeyCastr.app.zip"
+      "version": "0.11.0",
+      "installerUrl": "https://github.com/keycastr/keycastr/releases/download/v0.11.0/KeyCastr.app.zip"
     },
     {
       "slug": "keyclu/darwin",
@@ -4711,6 +4746,13 @@
       "platform": "darwin",
       "version": "5.7.0",
       "installerUrl": "https://github.com/kaikramer/keystore-explorer/releases/download/v5.7.0/kse-570-arm64.dmg"
+    },
+    {
+      "slug": "keystore-explorer/windows",
+      "name": "KeyStore Explorer",
+      "platform": "windows",
+      "version": "5.6.1",
+      "installerUrl": "https://github.com/kaikramer/keystore-explorer/releases/download/v5.6.1/kse-561-setup.exe"
     },
     {
       "slug": "kiro-cli/darwin",
@@ -5017,8 +5059,8 @@
       "slug": "loom/windows",
       "name": "Loom",
       "platform": "windows",
-      "version": "0.370.1",
-      "installerUrl": "https://cdn.loom.com/desktop-packages/Loom%20Setup%200.370.1.exe"
+      "version": "0.371.1",
+      "installerUrl": "https://cdn.loom.com/desktop-packages/Loom%20Setup%200.371.1.exe"
     },
     {
       "slug": "loop/darwin",
@@ -5721,6 +5763,13 @@
       "installerUrl": "https://github.com/emqx/MQTTX/releases/download/v1.13.0/MQTTX-1.13.0-arm64.dmg"
     },
     {
+      "slug": "mremoteng/windows",
+      "name": "mRemoteNG",
+      "platform": "windows",
+      "version": "1.76.20.24615",
+      "installerUrl": "https://github.com/mRemoteNG/mRemoteNG/releases/download/v1.76.20/mRemoteNG-Installer-1.76.20.24615.msi"
+    },
+    {
       "slug": "mullvad-browser/darwin",
       "name": "Mullvad Browser",
       "platform": "darwin",
@@ -6025,8 +6074,8 @@
       "slug": "notion/darwin",
       "name": "Notion",
       "platform": "darwin",
-      "version": "7.31.2",
-      "installerUrl": "https://desktop-release.notion-static.com/Notion-7.31.2-arm64.dmg"
+      "version": "7.31.3",
+      "installerUrl": "https://desktop-release.notion-static.com/Notion-7.31.3-arm64.dmg"
     },
     {
       "slug": "notion/windows",
@@ -6165,15 +6214,15 @@
       "slug": "ollama/darwin",
       "name": "Ollama",
       "platform": "darwin",
-      "version": "0.33.0",
-      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.33.0/Ollama-darwin.zip"
+      "version": "0.33.1",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.33.1/Ollama-darwin.zip"
     },
     {
       "slug": "ollama/windows",
       "name": "Ollama",
       "platform": "windows",
-      "version": "0.33.0",
-      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.33.0/OllamaSetup.exe"
+      "version": "0.33.1",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.33.1/OllamaSetup.exe"
     },
     {
       "slug": "omnidisksweeper/darwin",
@@ -6739,8 +6788,8 @@
       "slug": "postman/darwin",
       "name": "Postman",
       "platform": "darwin",
-      "version": "12.25.5",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.25.5/osx_arm64"
+      "version": "12.25.6",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.25.6/osx_arm64"
     },
     {
       "slug": "postman/windows",
@@ -7145,8 +7194,8 @@
       "slug": "raycast/darwin",
       "name": "Raycast",
       "platform": "darwin",
-      "version": "2.0.6.0",
-      "installerUrl": "https://x.raycast-releases.com/download?platform=macos\u0026architecture=arm64\u0026version=2.0.6.0"
+      "version": "2.1.0.0",
+      "installerUrl": "https://x.raycast-releases.com/download?platform=macos\u0026architecture=arm64\u0026version=2.1.0.0"
     },
     {
       "slug": "readest/darwin",
@@ -7350,6 +7399,13 @@
       "platform": "darwin",
       "version": "10.1.1",
       "installerUrl": "https://rightfontapp.com/update/rightfont.zip"
+    },
+    {
+      "slug": "ringcentral/windows",
+      "name": "RingCentral",
+      "platform": "windows",
+      "version": "26.3.1012",
+      "installerUrl": "https://app.ringcentral.com/download/RingCentral-x64.msi"
     },
     {
       "slug": "rive/darwin",
@@ -9763,7 +9819,7 @@
       "slug": "zwift/darwin",
       "name": "Zwift",
       "platform": "darwin",
-      "version": "1.1.17",
+      "version": "1.1.18",
       "installerUrl": "https://cdn.zwift.com/app/ZwiftOSX.dmg"
     }
   ]
