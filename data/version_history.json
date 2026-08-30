@@ -1,258 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-08-10T20:01:55Z",
-      "appName": "Microsoft Edge",
-      "slug": "microsoft-edge/darwin",
-      "platform": "darwin",
-      "oldVersion": "151.0.4129.72",
-      "newVersion": "151.0.4129.78",
-      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/22fc461b-2c80-45d5-bbb6-613d00dbc8fb/MicrosoftEdge-151.0.4129.78.dmg"
-    },
-    {
-      "date": "2026-08-10T20:01:55Z",
-      "appName": "Ollama",
-      "slug": "ollama/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.32.6",
-      "newVersion": "0.32.7",
-      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.32.7/Ollama-darwin.zip"
-    },
-    {
-      "date": "2026-08-10T20:01:55Z",
-      "appName": "Maccy",
-      "slug": "maccy/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.7.0",
-      "newVersion": "2.7.1",
-      "installerUrl": "https://github.com/p0deje/Maccy/releases/download/2.7.1/Maccy.app.zip"
-    },
-    {
-      "date": "2026-08-10T20:01:55Z",
-      "appName": "GoLand",
-      "slug": "goland/darwin",
-      "platform": "darwin",
-      "oldVersion": "2026.2.0.1",
-      "newVersion": "2026.2.1",
-      "installerUrl": "https://download.jetbrains.com/go/goland-2026.2.1-aarch64.dmg"
-    },
-    {
-      "date": "2026-08-10T20:01:55Z",
-      "appName": "Portfolio Performance",
-      "slug": "portfolioperformance/windows",
-      "platform": "windows",
-      "oldVersion": "0.86.0",
-      "newVersion": "0.86.1",
-      "installerUrl": "https://github.com/portfolio-performance/portfolio/releases/download/0.86.1/PortfolioPerformance-0.86.1-setup.exe"
-    },
-    {
-      "date": "2026-08-10T20:01:55Z",
-      "appName": "SABnzbd",
-      "slug": "sabnzbd/darwin",
-      "platform": "darwin",
-      "oldVersion": "5.0.4",
-      "newVersion": "5.1.0",
-      "installerUrl": "https://github.com/sabnzbd/sabnzbd/releases/download/5.1.0/SABnzbd-5.1.0-macos.dmg"
-    },
-    {
-      "date": "2026-08-10T20:01:55Z",
-      "appName": "NordPass",
-      "slug": "nordpass/darwin",
-      "platform": "darwin",
-      "oldVersion": "7.9.4",
-      "newVersion": "7.9.5",
-      "installerUrl": "https://downloads.npass.app/mac/arm/NordPass.dmg"
-    },
-    {
-      "date": "2026-08-10T20:01:55Z",
-      "appName": "IntelliJ IDEA Ultimate",
-      "slug": "intellij-idea/darwin",
-      "platform": "darwin",
-      "oldVersion": "2026.2.0.1",
-      "newVersion": "2026.2.1",
-      "installerUrl": "https://download.jetbrains.com/idea/ideaIU-2026.2.1-aarch64.dmg"
-    },
-    {
-      "date": "2026-08-10T20:01:55Z",
-      "appName": "Surge",
-      "slug": "surge/darwin",
-      "platform": "darwin",
-      "oldVersion": "6.8.0",
-      "newVersion": "6.8.1",
-      "installerUrl": "https://dl.nssurge.com/mac/v6/Surge-6.8.1-12010-eb73e613f5ff5c87c5422ca691ce136d.zip"
-    },
-    {
-      "date": "2026-08-11T15:01:26Z",
-      "appName": "Shift",
-      "slug": "shift/windows",
-      "platform": "windows",
-      "oldVersion": "9.6.7.1268",
-      "newVersion": "9.6.8.1270",
-      "installerUrl": "https://updates.tryshift.com/v9.6.8/stable/shift-v9.6.8.1270-stable-x64.exe"
-    },
-    {
-      "date": "2026-08-11T15:01:26Z",
-      "appName": "Milanote",
-      "slug": "milanote/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.18.119",
-      "newVersion": "3.18.120",
-      "installerUrl": "https://milanote-app-releases.s3.amazonaws.com/Milanote-3.18.120.dmg"
-    },
-    {
-      "date": "2026-08-11T15:01:26Z",
-      "appName": "Box Drive",
-      "slug": "box-drive/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.53.219",
-      "newVersion": "2.53.223",
-      "installerUrl": "https://e3.boxcdn.net/desktop/releases/mac/BoxDrive-2.53.223.pkg"
-    },
-    {
-      "date": "2026-08-11T15:01:26Z",
-      "appName": "Postman",
-      "slug": "postman/windows",
-      "platform": "windows",
-      "oldVersion": "12.22.8",
-      "newVersion": "12.23.1",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.23.1/windows_64"
-    },
-    {
-      "date": "2026-08-11T15:01:26Z",
-      "appName": "Mozilla Firefox Developer Edition",
-      "slug": "firefox@developer-edition/darwin",
-      "platform": "darwin",
-      "oldVersion": "154.0b8",
-      "newVersion": "154.0b9",
-      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/154.0b9/mac/en-US/Firefox%20154.0b9.dmg"
-    },
-    {
-      "date": "2026-08-11T15:01:26Z",
-      "appName": "OneDrive",
-      "slug": "onedrive/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.119.0622.0003",
-      "newVersion": "26.134.0713.0007",
-      "installerUrl": "https://oneclient.sfx.ms/Mac/Installers/26.134.0713.0007/universal/OneDrive.pkg"
-    },
-    {
-      "date": "2026-08-11T15:01:26Z",
-      "appName": "Framer",
-      "slug": "framer/darwin",
-      "platform": "darwin",
-      "oldVersion": "2026.31.2",
-      "newVersion": "2026.32.0",
-      "installerUrl": "https://updates.framer.com/electron/darwin/arm64/Framer-2026.32.0.zip"
-    },
-    {
-      "date": "2026-08-11T15:01:26Z",
-      "appName": "dRofus",
-      "slug": "drofus/windows",
-      "platform": "windows",
-      "oldVersion": "2.18.12.0",
-      "newVersion": "2.18.13.0",
-      "installerUrl": "https://deploy.drofus.com/stable/drofus-setup-2.18.13.msi"
-    },
-    {
-      "date": "2026-08-11T15:01:26Z",
-      "appName": "Teleport Suite",
-      "slug": "teleport-suite/darwin",
-      "platform": "darwin",
-      "oldVersion": "18.10.3",
-      "newVersion": "18.10.4",
-      "installerUrl": "https://cdn.teleport.dev/teleport-18.10.4.pkg"
-    },
-    {
-      "date": "2026-08-11T15:01:26Z",
-      "appName": "Dropbox",
-      "slug": "dropbox/darwin",
-      "platform": "darwin",
-      "oldVersion": "264.4.3385",
-      "newVersion": "264.4.3421",
-      "installerUrl": "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20264.4.3421.arm64.dmg"
-    },
-    {
-      "date": "2026-08-11T15:01:26Z",
-      "appName": "Unity Hub",
-      "slug": "unity-hub/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.20.0",
-      "newVersion": "3.20.1",
-      "installerUrl": "https://public-cdn.cloud.unity3d.com/hub/prod/3.20.1/UnityHubSetup-3.20.1-arm64.dmg"
-    },
-    {
-      "date": "2026-08-11T15:01:26Z",
-      "appName": "LocalSend",
-      "slug": "localsend/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.17.0",
-      "newVersion": "1.18.0",
-      "installerUrl": "https://github.com/localsend/localsend/releases/download/v1.18.0/LocalSend-1.18.0.dmg"
-    },
-    {
-      "date": "2026-08-11T15:01:26Z",
-      "appName": "Ollama",
-      "slug": "ollama/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.32.7",
-      "newVersion": "0.32.8",
-      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.32.8/Ollama-darwin.zip"
-    },
-    {
-      "date": "2026-08-11T15:01:26Z",
-      "appName": "Lenovo System Update",
-      "slug": "lenovo-system-update/windows",
-      "platform": "windows",
-      "oldVersion": "5.08.03.59",
-      "newVersion": "5.08.04.85",
-      "installerUrl": "https://download.lenovo.com/pccbbs/thinkvantage_en/system_update_5.08.04.85.exe"
-    },
-    {
-      "date": "2026-08-11T15:01:26Z",
-      "appName": "Notion",
-      "slug": "notion/windows",
-      "platform": "windows",
-      "oldVersion": "7.29.0",
-      "newVersion": "7.30.0",
-      "installerUrl": "https://desktop-release.notion-static.com/Notion%20Setup%207.30.0.exe"
-    },
-    {
-      "date": "2026-08-11T15:01:26Z",
-      "appName": "Notion",
-      "slug": "notion/darwin",
-      "platform": "darwin",
-      "oldVersion": "7.29.0",
-      "newVersion": "7.30.0",
-      "installerUrl": "https://desktop-release.notion-static.com/Notion-7.30.0-arm64.dmg"
-    },
-    {
-      "date": "2026-08-11T15:01:26Z",
-      "appName": "CodexBar",
-      "slug": "codexbar/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.49.1",
-      "newVersion": "0.49.2",
-      "installerUrl": "https://github.com/steipete/CodexBar/releases/download/v0.49.2/CodexBar-macos-universal-0.49.2.zip"
-    },
-    {
-      "date": "2026-08-11T15:01:26Z",
-      "appName": "Shapr3D",
-      "slug": "shapr3d/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.142.0.11496",
-      "newVersion": "26.143.0.11521",
-      "installerUrl": "https://download.shapr3d.com/mac/Shapr3D-26.143.0.11521.dmg"
-    },
-    {
-      "date": "2026-08-11T15:01:26Z",
-      "appName": "OK JSON",
-      "slug": "ok-json/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.0",
-      "newVersion": "3.0.1",
-      "installerUrl": "https://okjson.app/download/okjson-latest.dmg"
-    },
-    {
       "date": "2026-08-11T15:01:26Z",
       "appName": "Postman",
       "slug": "postman/darwin",
@@ -8999,6 +8747,258 @@
       "oldVersion": "2026.7.3",
       "newVersion": "2026.8.0",
       "installerUrl": "https://github.com/home-assistant/iOS/releases/download/release%2F2026.8.0%2F2026.2805/home-assistant-mac.zip"
+    },
+    {
+      "date": "2026-08-30T04:11:03Z",
+      "appName": "IBM Semeru Runtime Open Edition JDK 8",
+      "slug": "ibm-semeru-jdk-8/windows",
+      "platform": "windows",
+      "oldVersion": "8.0.502.0",
+      "newVersion": "8.0.504.0",
+      "installerUrl": "https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk-8.0.504.0/ibm-semeru-open-jdk_x64_windows_8.0.504.0.msi"
+    },
+    {
+      "date": "2026-08-30T04:11:03Z",
+      "appName": "IBM Semeru Runtime Open Edition JDK 21",
+      "slug": "ibm-semeru-jdk-21/windows",
+      "platform": "windows",
+      "oldVersion": "21.0.12.0",
+      "newVersion": "21.0.12.10",
+      "installerUrl": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.12.10/ibm-semeru-open-jdk_x64_windows_21.0.12.10.msi"
+    },
+    {
+      "date": "2026-08-30T04:11:03Z",
+      "appName": "Amadeus Pro",
+      "slug": "amadeus-pro/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.8.14",
+      "newVersion": "3.0.2",
+      "installerUrl": "https://s3.amazonaws.com/HairerSoftPublic/AmadeusPro3/AmadeusPro.zip"
+    },
+    {
+      "date": "2026-08-30T04:11:03Z",
+      "appName": "Readest",
+      "slug": "readest/windows",
+      "platform": "windows",
+      "oldVersion": "0.12.1",
+      "newVersion": "0.12.6",
+      "installerUrl": "https://github.com/readest/readest/releases/download/v0.12.6/Readest_0.12.6_x64-setup.exe"
+    },
+    {
+      "date": "2026-08-30T04:11:03Z",
+      "appName": "Proton Drive",
+      "slug": "proton-drive/windows",
+      "platform": "windows",
+      "oldVersion": "3.0.5",
+      "newVersion": "3.0.6",
+      "installerUrl": "https://proton.me/download/drive/windows/3.0.6/x64/Proton%20Drive%20Setup%203.0.6.exe"
+    },
+    {
+      "date": "2026-08-30T04:11:03Z",
+      "appName": "Cherry Studio",
+      "slug": "cherry-studio/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.0.9",
+      "newVersion": "2.0.10",
+      "installerUrl": "https://github.com/CherryHQ/cherry-studio/releases/download/v2.0.10/Cherry-Studio-2.0.10-mac-arm64.dmg"
+    },
+    {
+      "date": "2026-08-30T04:11:03Z",
+      "appName": "Adobe Acrobat Reader",
+      "slug": "adobe-acrobat-reader/windows",
+      "platform": "windows",
+      "oldVersion": "26.001.21789",
+      "newVersion": "26.002.21869",
+      "installerUrl": "https://ardownload2.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2600221869/AcroRdrDCx642600221869_MUI.exe"
+    },
+    {
+      "date": "2026-08-30T04:11:03Z",
+      "appName": "Ollama",
+      "slug": "ollama/windows",
+      "platform": "windows",
+      "oldVersion": "0.33.1",
+      "newVersion": "0.33.2",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.33.2/OllamaSetup.exe"
+    },
+    {
+      "date": "2026-08-30T04:11:03Z",
+      "appName": "IBM Semeru Runtime Open Edition JRE 8",
+      "slug": "ibm-semeru-jre-8/windows",
+      "platform": "windows",
+      "oldVersion": "8.0.502.0",
+      "newVersion": "8.0.504.0",
+      "installerUrl": "https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk-8.0.504.0/ibm-semeru-open-jre_x64_windows_8.0.504.0.msi"
+    },
+    {
+      "date": "2026-08-30T04:11:03Z",
+      "appName": "MEGAsync",
+      "slug": "megasync/windows",
+      "platform": "windows",
+      "oldVersion": "6.5.1.0",
+      "newVersion": "6.6.0.2",
+      "installerUrl": "https://mega.nz/MEGAsyncSetup64.exe"
+    },
+    {
+      "date": "2026-08-30T04:11:03Z",
+      "appName": "Zen Browser",
+      "slug": "zen/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.21.15b",
+      "newVersion": "1.21.16b",
+      "installerUrl": "https://github.com/zen-browser/desktop/releases/download/1.21.16b/zen.macos-universal.dmg"
+    },
+    {
+      "date": "2026-08-30T04:11:03Z",
+      "appName": "Notepad.exe",
+      "slug": "notepadexe/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.5.18",
+      "newVersion": "1.5.19",
+      "installerUrl": "https://github.com/notepadhq/notepadexe-public/releases/download/1.5.19/Notepad.zip"
+    },
+    {
+      "date": "2026-08-30T04:11:03Z",
+      "appName": "Prisma Browser",
+      "slug": "prisma-browser/windows",
+      "platform": "windows",
+      "oldVersion": "151.26.6.174",
+      "newVersion": "152.8.3.65",
+      "installerUrl": "https://updates.talon-sec.com/releases/Prisma%20Access%20Browser/win/packaged/x64/crx_signed_o4_stable_prisma_access_browser_installer_152_8_3_65-152.8.3.65-bb6cee7e.msi"
+    },
+    {
+      "date": "2026-08-30T04:11:03Z",
+      "appName": "Bitwig Studio",
+      "slug": "bitwig-studio/windows",
+      "platform": "windows",
+      "oldVersion": "6.0.11",
+      "newVersion": "6.1",
+      "installerUrl": "https://www.bitwig.com/dl/Bitwig%20Studio/6.1/installer_windows/"
+    },
+    {
+      "date": "2026-08-30T04:11:03Z",
+      "appName": "Prisma Browser",
+      "slug": "prisma-browser/darwin",
+      "platform": "darwin",
+      "oldVersion": "151.26.6.174",
+      "newVersion": "152.8.3.65",
+      "installerUrl": "https://updates.talon-sec.com/releases/Prisma%20Access%20Browser/mac/packaged/universal/Prisma%20Access%20Browser-152.8.3.65-dab55724.pkg"
+    },
+    {
+      "date": "2026-08-30T04:11:03Z",
+      "appName": "IBM Semeru Runtime Open Edition JRE 17",
+      "slug": "ibm-semeru-jre-17/windows",
+      "platform": "windows",
+      "oldVersion": "17.0.20.0",
+      "newVersion": "17.0.20.10",
+      "installerUrl": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.20.10/ibm-semeru-open-jre_x64_windows_17.0.20.10.msi"
+    },
+    {
+      "date": "2026-08-30T04:11:03Z",
+      "appName": "IBM Semeru Runtime Open Edition JRE 11",
+      "slug": "ibm-semeru-jre-11/windows",
+      "platform": "windows",
+      "oldVersion": "11.0.32.0",
+      "newVersion": "11.0.32.10",
+      "installerUrl": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.32.10/ibm-semeru-open-jre_x64_windows_11.0.32.10.msi"
+    },
+    {
+      "date": "2026-08-30T04:11:03Z",
+      "appName": "Rectangle Pro",
+      "slug": "rectangle-pro/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.87",
+      "newVersion": "3.89",
+      "installerUrl": "https://rectangleapp.com/pro/downloads/Rectangle%20Pro%203.89.dmg"
+    },
+    {
+      "date": "2026-08-30T04:11:03Z",
+      "appName": "IBM Semeru Runtime Open Edition JDK 17",
+      "slug": "ibm-semeru-jdk-17/windows",
+      "platform": "windows",
+      "oldVersion": "17.0.20.0",
+      "newVersion": "17.0.20.10",
+      "installerUrl": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.20.10/ibm-semeru-open-jdk_x64_windows_17.0.20.10.msi"
+    },
+    {
+      "date": "2026-08-30T04:11:03Z",
+      "appName": "Wins",
+      "slug": "wins/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.5",
+      "newVersion": "3.5.1",
+      "installerUrl": "https://winswebsite.s3.us-east-005.backblazeb2.com/Wins.zip"
+    },
+    {
+      "date": "2026-08-30T04:11:03Z",
+      "appName": "Super Productivity",
+      "slug": "super-productivity/darwin",
+      "platform": "darwin",
+      "oldVersion": "18.21.0",
+      "newVersion": "18.21.1",
+      "installerUrl": "https://github.com/super-productivity/super-productivity/releases/download/v18.21.1/superProductivity-arm64.dmg"
+    },
+    {
+      "date": "2026-08-30T04:11:03Z",
+      "appName": "Cursor",
+      "slug": "cursor/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.17.21",
+      "newVersion": "3.18.9",
+      "installerUrl": "https://downloads.cursor.com/production/2ba48ff3f7514cc4643c52ca9f7b3173d9b66137/darwin/arm64/Cursor-darwin-arm64.zip"
+    },
+    {
+      "date": "2026-08-30T04:11:03Z",
+      "appName": "Marked",
+      "slug": "marked-app/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.1.27",
+      "newVersion": "3.2.0",
+      "installerUrl": "https://updates.markedapp.com/updates/Marked%203.2.0-1214.zip"
+    },
+    {
+      "date": "2026-08-30T04:11:03Z",
+      "appName": "IBM Semeru Runtime Open Edition JRE 21",
+      "slug": "ibm-semeru-jre-21/windows",
+      "platform": "windows",
+      "oldVersion": "21.0.12.0",
+      "newVersion": "21.0.12.10",
+      "installerUrl": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.12.10/ibm-semeru-open-jre_x64_windows_21.0.12.10.msi"
+    },
+    {
+      "date": "2026-08-30T04:11:03Z",
+      "appName": "LookAway",
+      "slug": "lookaway/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.4.3",
+      "newVersion": "2.4.4",
+      "installerUrl": "https://github.com/mysticalbits/lookaway-releases/releases/download/2.4.4/LookAway.dmg"
+    },
+    {
+      "date": "2026-08-30T04:11:03Z",
+      "appName": "IBM Semeru Runtime Open Edition JDK 11",
+      "slug": "ibm-semeru-jdk-11/windows",
+      "platform": "windows",
+      "oldVersion": "11.0.32.0",
+      "newVersion": "11.0.32.10",
+      "installerUrl": "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.32.10/ibm-semeru-open-jdk_x64_windows_11.0.32.10.msi"
+    },
+    {
+      "date": "2026-08-30T04:11:03Z",
+      "appName": "ChatGPT Desktop",
+      "slug": "chatgpt/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.825.32147",
+      "newVersion": "26.825.41651",
+      "installerUrl": "https://persistent.oaistatic.com/codex-app-prod/ChatGPT-darwin-arm64-26.825.41651.zip"
+    },
+    {
+      "date": "2026-08-30T04:11:03Z",
+      "appName": "Godspeed",
+      "slug": "godspeed/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.9.19",
+      "newVersion": "1.9.22",
+      "installerUrl": "https://app-updates.godspeedapp.com/1.9.22%2FGodspeed.zip"
     }
   ]
 }
