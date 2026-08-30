@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T04:27:11Z",
+  "lastUpdated": "2026-08-30T04:29:46Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1740,14 +1740,14 @@
     {
       "slug": "bitwig-studio/windows",
       "name": "Bitwig Studio",
-      "version": "6.0.11",
-      "sha256": "89b4d796e0441f312781e613bf2ca45b58cef2196d6c8e034e16f370ef9bd303",
+      "version": "6.1",
+      "sha256": "5c332aa970271f047410c4df93d7203923ddab389b9b32021903d1cebce131b1",
       "publisher": "CN=Bitwig GmbH, O=Bitwig GmbH, L=Berlin, C=DE",
-      "issuer": "CN=Microsoft ID Verified CS EOC CA 03, O=Microsoft Corporation, C=US",
-      "serialNumber": "33000290A242D59646950DCB2D0000000290A2",
-      "thumbprint": "1035745E14CA23F47EFD9ACFEBDEF536B6C43275",
-      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:491A-05E0-D947, OU=Microsoft Ireland Operations Limited, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-08-06T04:37:02Z"
+      "issuer": "CN=Microsoft ID Verified CS EOC CA 04, O=Microsoft Corporation, C=US",
+      "serialNumber": "330004D8D56A2318FF7F49A92600000004D8D5",
+      "thumbprint": "7707CB7435E9835EA87AE6A2C8EB968FB2489211",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7A1A-05E0-D947, OU=Microsoft Ireland Operations Limited, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-08-30T04:28:18Z"
     },
     {
       "slug": "bleachbit/windows",
@@ -6285,93 +6285,93 @@
     {
       "slug": "ibm-semeru-jdk-11/windows",
       "name": "IBM Semeru Runtime Open Edition JDK 11",
-      "version": "11.0.32.0",
-      "sha256": "30990b7d8f6d349dbb6dcda170949b29865d8fc389dab0b77d71819036709af4",
+      "version": "11.0.32.10",
+      "sha256": "ad0a2663311ba317a90bb1e6c7191f6e894897ecc0a602af26a2c8fc88e06ce4",
       "publisher": "CN=International Business Machines Corporation, O=International Business Machines Corporation, L=Armonk, S=New York, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "010FE0A6713E95B6CA1E44B89989CF7E",
       "thumbprint": "0B8B0578C92A7EDADF8D9A77DBA09C5DB0FFC7A6",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-07-31T08:10:23Z"
+      "lastUpdated": "2026-08-30T04:28:52Z"
     },
     {
       "slug": "ibm-semeru-jdk-17/windows",
       "name": "IBM Semeru Runtime Open Edition JDK 17",
-      "version": "17.0.20.0",
-      "sha256": "29b5d36a2c5fcc58e16bd21437df0f6d78964334f61ea208891a88c5666ebc63",
+      "version": "17.0.20.10",
+      "sha256": "f2b3361f67318f8992702fdbf11d5d0a6c884872ab07f8b5c9afb1c13bfa8d03",
       "publisher": "CN=International Business Machines Corporation, O=International Business Machines Corporation, L=Armonk, S=New York, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "010FE0A6713E95B6CA1E44B89989CF7E",
       "thumbprint": "0B8B0578C92A7EDADF8D9A77DBA09C5DB0FFC7A6",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-07-31T08:10:32Z"
+      "lastUpdated": "2026-08-30T04:29:02Z"
     },
     {
       "slug": "ibm-semeru-jdk-21/windows",
       "name": "IBM Semeru Runtime Open Edition JDK 21",
-      "version": "21.0.12.0",
-      "sha256": "051c37fc5cb1ff1047b4ab6d290c63bb5fb0e5edc3405e0607f4d79da6dc0c38",
+      "version": "21.0.12.10",
+      "sha256": "696a1d837faf2c69b607c6ec4371191ae9b277bd5e9ccd5370f63dd3bd4c8971",
       "publisher": "CN=International Business Machines Corporation, O=International Business Machines Corporation, L=Armonk, S=New York, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "010FE0A6713E95B6CA1E44B89989CF7E",
       "thumbprint": "0B8B0578C92A7EDADF8D9A77DBA09C5DB0FFC7A6",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-07-31T08:10:41Z"
+      "lastUpdated": "2026-08-30T04:29:11Z"
     },
     {
       "slug": "ibm-semeru-jdk-8/windows",
       "name": "IBM Semeru Runtime Open Edition JDK 8",
-      "version": "8.0.502.0",
-      "sha256": "2cfa5d199c3d3bc4881f381c76a27b7a28ea56ed957e467e899e2c6ad76eb1d9",
+      "version": "8.0.504.0",
+      "sha256": "25b8c2b7217e03c362e68d38031e9feb5c25ecf72e0e9caf41072d4c0e0e3220",
       "publisher": "CN=International Business Machines Corporation, O=International Business Machines Corporation, L=Armonk, S=New York, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "010FE0A6713E95B6CA1E44B89989CF7E",
       "thumbprint": "0B8B0578C92A7EDADF8D9A77DBA09C5DB0FFC7A6",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-07-31T08:10:49Z"
+      "lastUpdated": "2026-08-30T04:29:19Z"
     },
     {
       "slug": "ibm-semeru-jre-11/windows",
       "name": "IBM Semeru Runtime Open Edition JRE 11",
-      "version": "11.0.32.0",
-      "sha256": "ae94e944cc3c3492aecddeb803640203c486e8aa32e047627d7375791839278c",
+      "version": "11.0.32.10",
+      "sha256": "c5fcbd6527eedc2afea36509fbcc2fceb8a1f64dd6d6ac34227b22f1eb124c15",
       "publisher": "CN=International Business Machines Corporation, O=International Business Machines Corporation, L=Armonk, S=New York, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "010FE0A6713E95B6CA1E44B89989CF7E",
       "thumbprint": "0B8B0578C92A7EDADF8D9A77DBA09C5DB0FFC7A6",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-08-07T18:31:13Z"
+      "lastUpdated": "2026-08-30T04:29:26Z"
     },
     {
       "slug": "ibm-semeru-jre-17/windows",
       "name": "IBM Semeru Runtime Open Edition JRE 17",
-      "version": "17.0.20.0",
-      "sha256": "8da6d756ee5b717c76e713f6bffb6585d4a3ebd81de9d3930146e87bea847baf",
+      "version": "17.0.20.10",
+      "sha256": "f9a7253676233432ab6d1a6f447b2eec3d59f96d8985975fe2f503b17b8c0178",
       "publisher": "CN=International Business Machines Corporation, O=International Business Machines Corporation, L=Armonk, S=New York, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "010FE0A6713E95B6CA1E44B89989CF7E",
       "thumbprint": "0B8B0578C92A7EDADF8D9A77DBA09C5DB0FFC7A6",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-07-31T08:10:56Z"
+      "lastUpdated": "2026-08-30T04:29:32Z"
     },
     {
       "slug": "ibm-semeru-jre-21/windows",
       "name": "IBM Semeru Runtime Open Edition JRE 21",
-      "version": "21.0.12.0",
-      "sha256": "0f48d0d13bb66474d451a55fb781c1ae134a96719a2568ee0535f65421077ac6",
+      "version": "21.0.12.10",
+      "sha256": "41e29aa624e8cb264ee3056f840dfc4fa80b6e5200ee32415564dd878839010c",
       "publisher": "CN=International Business Machines Corporation, O=International Business Machines Corporation, L=Armonk, S=New York, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "010FE0A6713E95B6CA1E44B89989CF7E",
       "thumbprint": "0B8B0578C92A7EDADF8D9A77DBA09C5DB0FFC7A6",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-07-31T08:11:03Z"
+      "lastUpdated": "2026-08-30T04:29:39Z"
     },
     {
       "slug": "ibm-semeru-jre-8/windows",
       "name": "IBM Semeru Runtime Open Edition JRE 8",
-      "version": "8.0.502.0",
+      "version": "8.0.504.0",
       "sha256": "096fbd8e0843899e231f5fad57b0189d18c53eee1c775d1713f99f9bbd2e6ab2",
-      "lastUpdated": "2026-07-31T08:11:09Z"
+      "lastUpdated": "2026-08-30T04:29:46Z"
     },
     {
       "slug": "icon-composer/darwin",
