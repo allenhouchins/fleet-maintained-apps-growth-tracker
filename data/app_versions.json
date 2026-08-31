@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T16:49:50Z",
+  "lastUpdated": "2026-08-31T21:48:24Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -376,8 +376,8 @@
       "slug": "airtame/darwin",
       "name": "Airtame",
       "platform": "darwin",
-      "version": "4.15.0",
-      "installerUrl": "https://downloads-cdn.airtame.com/app/latest/mac/Airtame-4.15.0.dmg"
+      "version": "4.16.0",
+      "installerUrl": "https://downloads-cdn.airtame.com/app/latest/mac/Airtame-4.16.0.dmg"
     },
     {
       "slug": "airtame/windows",
@@ -2602,8 +2602,8 @@
       "slug": "discord/darwin",
       "name": "Discord",
       "platform": "darwin",
-      "version": "0.0.409",
-      "installerUrl": "https://dl.discordapp.net/apps/osx/0.0.409/Discord.dmg"
+      "version": "0.0.410",
+      "installerUrl": "https://dl.discordapp.net/apps/osx/0.0.410/Discord.dmg"
     },
     {
       "slug": "discord/windows",
@@ -3967,8 +3967,8 @@
       "slug": "grammarly-desktop/windows",
       "name": "Grammarly Desktop",
       "platform": "windows",
-      "version": "1.2.290.1948",
-      "installerUrl": "https://download-windows.grammarly.com/versions/1.2.290.1948/GrammarlyInstaller.exe"
+      "version": "1.2.291.1949",
+      "installerUrl": "https://download-windows.grammarly.com/versions/1.2.291.1949/GrammarlyInstaller.exe"
     },
     {
       "slug": "grandperspective/darwin",
@@ -4135,8 +4135,8 @@
       "slug": "hive-app/darwin",
       "name": "Hive",
       "platform": "darwin",
-      "version": "1.2.40",
-      "installerUrl": "https://github.com/morapelker/hive/releases/download/v1.2.40/Hive-1.2.40-arm64.dmg"
+      "version": "1.2.41",
+      "installerUrl": "https://github.com/morapelker/hive/releases/download/v1.2.41/Hive-1.2.41-arm64.dmg"
     },
     {
       "slug": "home-assistant/darwin",
@@ -4653,8 +4653,8 @@
       "slug": "kdenlive/darwin",
       "name": "Kdenlive",
       "platform": "darwin",
-      "version": "26.04.3",
-      "installerUrl": "https://cdn.download.kde.org/stable/kdenlive/26.04/macOS/kdenlive-26.04.3-arm64.dmg"
+      "version": "26.08.0",
+      "installerUrl": "https://cdn.download.kde.org/stable/kdenlive/26.08/macOS/kdenlive-26.08.0-arm64.dmg"
     },
     {
       "slug": "keepass/windows",
@@ -4765,8 +4765,8 @@
       "slug": "kiro/darwin",
       "name": "Kiro",
       "platform": "darwin",
-      "version": "1.0.395",
-      "installerUrl": "https://prod.download.desktop.kiro.dev/releases/stable/darwin-arm64/signed/1.0.395/kiro-ide-1.0.395-stable-darwin-arm64.dmg"
+      "version": "1.0.411",
+      "installerUrl": "https://prod.download.desktop.kiro.dev/releases/stable/darwin-arm64/signed/1.0.411/kiro-ide-1.0.411-stable-darwin-arm64.dmg"
     },
     {
       "slug": "kiro/windows",
@@ -5073,7 +5073,7 @@
       "slug": "loopback/darwin",
       "name": "Loopback",
       "platform": "darwin",
-      "version": "2.4.10",
+      "version": "2.5.0",
       "installerUrl": "https://cdn.rogueamoeba.com/loopback/download/Loopback.zip"
     },
     {
@@ -5425,6 +5425,13 @@
       "platform": "darwin",
       "version": "1.45.0",
       "installerUrl": "https://github.com/microsoft/AzureStorageExplorer/releases/download/v1.45.0/StorageExplorer-darwin-arm64.zip"
+    },
+    {
+      "slug": "microsoft-defender/darwin",
+      "name": "Microsoft Defender",
+      "platform": "darwin",
+      "version": "101.26062.0012",
+      "installerUrl": "https://go.microsoft.com/fwlink/?linkid=2097502"
     },
     {
       "slug": "microsoft-dotnet-desktop-runtime-10/windows",
@@ -6438,7 +6445,7 @@
       "slug": "origami-studio/darwin",
       "name": "Origami Studio",
       "platform": "darwin",
-      "version": "226.0.0.0.0",
+      "version": "227.0.0.0.0",
       "installerUrl": "https://facebook.com/designtools/origami/"
     },
     {
@@ -6753,22 +6760,22 @@
       "slug": "postgresql-15/windows",
       "name": "PostgreSQL 15",
       "platform": "windows",
-      "version": "15.19-1",
-      "installerUrl": "https://get.enterprisedb.com/postgresql/postgresql-15.19-1-windows-x64.exe"
+      "version": "15.19-2",
+      "installerUrl": "https://get.enterprisedb.com/postgresql/postgresql-15.19-2-windows-x64.exe"
     },
     {
       "slug": "postgresql-16/windows",
       "name": "PostgreSQL 16",
       "platform": "windows",
-      "version": "16.15-1",
-      "installerUrl": "https://get.enterprisedb.com/postgresql/postgresql-16.15-1-windows-x64.exe"
+      "version": "16.15-2",
+      "installerUrl": "https://get.enterprisedb.com/postgresql/postgresql-16.15-2-windows-x64.exe"
     },
     {
       "slug": "postgresql-17/windows",
       "name": "PostgreSQL 17",
       "platform": "windows",
-      "version": "17.11-1",
-      "installerUrl": "https://get.enterprisedb.com/postgresql/postgresql-17.11-1-windows-x64.exe"
+      "version": "17.11-2",
+      "installerUrl": "https://get.enterprisedb.com/postgresql/postgresql-17.11-2-windows-x64.exe"
     },
     {
       "slug": "postgresql-18/windows",
@@ -6795,8 +6802,8 @@
       "slug": "postman/windows",
       "name": "Postman",
       "platform": "windows",
-      "version": "12.25.7",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.25.7/windows_64"
+      "version": "12.26.0",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.26.0/windows_64"
     },
     {
       "slug": "power-automate/windows",
@@ -6823,7 +6830,7 @@
       "slug": "powerphotos/darwin",
       "name": "PowerPhotos",
       "platform": "darwin",
-      "version": "3.4.4",
+      "version": "3.4.5",
       "installerUrl": "https://www.fatcatsoftware.com/powerphotos/PowerPhotos.zip"
     },
     {
@@ -7348,8 +7355,8 @@
       "slug": "retcon/darwin",
       "name": "Retcon",
       "platform": "darwin",
-      "version": "1.6.2",
-      "installerUrl": "https://downloads.lemon.garden/retcon/retcon-1.6.2.dmg"
+      "version": "1.6.3",
+      "installerUrl": "https://downloads.lemon.garden/retcon/retcon-1.6.3.dmg"
     },
     {
       "slug": "retroarch/darwin",
@@ -8377,8 +8384,8 @@
       "slug": "sync/darwin",
       "name": "Sync",
       "platform": "darwin",
-      "version": "2.2.61",
-      "installerUrl": "https://www10.sync.com/download/apple/Sync-2.2.61.dmg"
+      "version": "2.2.62",
+      "installerUrl": "https://www10.sync.com/download/apple/Sync-2.2.62.dmg"
     },
     {
       "slug": "syncmate/darwin",
@@ -8983,6 +8990,13 @@
       "installerUrl": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM.dmg"
     },
     {
+      "slug": "vagrant/windows",
+      "name": "Vagrant",
+      "platform": "windows",
+      "version": "2.4.9",
+      "installerUrl": "https://releases.hashicorp.com/vagrant/2.4.9/vagrant_2.4.9_windows_amd64.msi"
+    },
+    {
       "slug": "vanilla/darwin",
       "name": "Vanilla",
       "platform": "darwin",
@@ -9308,8 +9322,8 @@
       "slug": "webcatalog/darwin",
       "name": "WebCatalog",
       "platform": "darwin",
-      "version": "78.0.0",
-      "installerUrl": "https://cdn-2.webcatalog.io/webcatalog/WebCatalog-78.0.0-universal.dmg"
+      "version": "78.1.0",
+      "installerUrl": "https://cdn-2.webcatalog.io/webcatalog/WebCatalog-78.1.0-universal.dmg"
     },
     {
       "slug": "webex/darwin",
@@ -9623,8 +9637,8 @@
       "slug": "yaak/windows",
       "name": "Yaak",
       "platform": "windows",
-      "version": "2026.6.0",
-      "installerUrl": "https://github.com/mountain-loop/yaak/releases/download/v2026.6.0/Yaak_2026.6.0_x64-setup.exe"
+      "version": "2026.7.0",
+      "installerUrl": "https://github.com/mountain-loop/yaak/releases/download/v2026.7.0/Yaak_2026.7.0_x64-setup.exe"
     },
     {
       "slug": "yacreader/darwin",
@@ -9784,8 +9798,8 @@
       "slug": "zoom/windows",
       "name": "Zoom",
       "platform": "windows",
-      "version": "7.1.43453",
-      "installerUrl": "https://zoom.us/client/7.1.5.43453/ZoomInstallerFull.msi?archType=x64"
+      "version": "7.1.46825",
+      "installerUrl": "https://zoom.us/client/7.1.8.46825/ZoomInstallerFull.msi?archType=x64"
     },
     {
       "slug": "zotero/darwin",
