@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T22:00:51Z",
+  "lastUpdated": "2026-08-31T22:04:38Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -10019,38 +10019,38 @@
     {
       "slug": "postgresql-15/windows",
       "name": "PostgreSQL 15",
-      "version": "15.19-1",
-      "sha256": "09dc76dc45332e031074df8e5d19d9eac64b2b98b51e279099b7461a5c12a92a",
+      "version": "15.19-2",
+      "sha256": "e4e3ca22e20280cc8d27cc8786d436779c82c83aede52d629bb91213f6db669b",
       "publisher": "CN=EnterpriseDB Corporation, O=EnterpriseDB Corporation, L=Wilmington, S=Delaware, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0DE96C819D6A32A561DFCE5FBDD486AC",
       "thumbprint": "7BEDD1269FCCF7A5D95F18274750B79893C06C70",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-08-14T05:26:19Z"
+      "lastUpdated": "2026-08-31T22:01:00Z"
     },
     {
       "slug": "postgresql-16/windows",
       "name": "PostgreSQL 16",
-      "version": "16.15-1",
-      "sha256": "de926fefad00e313e212cd438c0f04bf033e200099ad56c012724efcebed79f2",
+      "version": "16.15-2",
+      "sha256": "378b35a317ae6c96aaf37af2f81652ccc15dd6fdae31e17ef5ef20b6adf442d8",
       "publisher": "CN=EnterpriseDB Corporation, O=EnterpriseDB Corporation, L=Wilmington, S=Delaware, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0DE96C819D6A32A561DFCE5FBDD486AC",
       "thumbprint": "7BEDD1269FCCF7A5D95F18274750B79893C06C70",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-08-14T05:26:29Z"
+      "lastUpdated": "2026-08-31T22:01:08Z"
     },
     {
       "slug": "postgresql-17/windows",
       "name": "PostgreSQL 17",
-      "version": "17.11-1",
-      "sha256": "f104c552d8495a6f20738c2a03f643164bc64b9985363329e314dec24559f0b7",
+      "version": "17.11-2",
+      "sha256": "31f336dfc6d61cb4421e9c665749f6d30c25cb5f68b1c05657eebac9b223f0fe",
       "publisher": "CN=EnterpriseDB Corporation, O=EnterpriseDB Corporation, L=Wilmington, S=Delaware, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0DE96C819D6A32A561DFCE5FBDD486AC",
       "thumbprint": "7BEDD1269FCCF7A5D95F18274750B79893C06C70",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-08-14T05:26:37Z"
+      "lastUpdated": "2026-08-31T22:01:16Z"
     },
     {
       "slug": "postgresql-18/windows",
@@ -10087,14 +10087,14 @@
     {
       "slug": "postman/windows",
       "name": "Postman",
-      "version": "12.25.7",
-      "sha256": "ebc1f9eaebd88bebfbc2ce94ac218c2d6480f591784c0faf2ca5b28ffef47b90",
+      "version": "12.26.0",
+      "sha256": "7d2c896a376bc1b06a6d71b212acff82340b21c1f2262df06d0724e0e40aa2e9",
       "publisher": "CN=\"Postman, Inc.\", O=\"Postman, Inc.\", L=San Francisco, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "06BF9F29E018BD749B536C714E98D6A5",
       "thumbprint": "8F1DDDA5C241B2F3424D4211991BBE1CD22226CC",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-08-29T06:27:34Z"
+      "lastUpdated": "2026-08-31T22:01:22Z"
     },
     {
       "slug": "power-automate/windows",
@@ -13338,6 +13338,18 @@
       "lastUpdated": "2026-01-04T00:33:38Z"
     },
     {
+      "slug": "vagrant/windows",
+      "name": "Vagrant",
+      "version": "2.4.9",
+      "sha256": "c3729f4a7d2087368f8c650bfdb72c953a35337f55474334848de952317e4628",
+      "publisher": "CN=\"HashiCorp, Inc.\", OU=HashiCorp Security, O=\"HashiCorp, Inc.\", L=San Francisco, S=California, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0B26FB4E1C1A6BC3264602189258449D",
+      "thumbprint": "7868E4F55FD7B047CD8BF93FEA8C38509CFB5939",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-08-31T22:03:42Z"
+    },
+    {
       "slug": "vanilla/darwin",
       "name": "Vanilla",
       "version": "2.2",
@@ -14267,14 +14279,14 @@
     {
       "slug": "yaak/windows",
       "name": "Yaak",
-      "version": "2026.6.0",
-      "sha256": "8ae03db3915f8da8b1030812f4d2b5233b0b4deb3c28482dcd7a8fe73a3b0bd7",
+      "version": "2026.7.0",
+      "sha256": "8cd4c0c5c170bb42ceebfd33966607dd7ac1e1d79a8725e9647518c63aea64fb",
       "publisher": "CN=Mountain Loop Labs Inc, O=Mountain Loop Labs Inc, L=100 Mile House, S=British Columbia, C=CA",
-      "issuer": "CN=Microsoft ID Verified CS AOC CA 03, O=Microsoft Corporation, C=US",
-      "serialNumber": "330004B544B0A6B10EDD8DB8DE00000004B544",
-      "thumbprint": "2A8C90902FC918F42C3486B0BBEA7A6106A9E69E",
-      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7D00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-08-15T05:31:56Z"
+      "issuer": "CN=Microsoft ID Verified CS EOC CA 04, O=Microsoft Corporation, C=US",
+      "serialNumber": "3300052616895FED378E7C876D000000052616",
+      "thumbprint": "2F2E6222499617BA15592B35445222BC6303FD2C",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:A500-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-08-31T22:04:23Z"
     },
     {
       "slug": "yacreader/darwin",
@@ -14515,14 +14527,14 @@
     {
       "slug": "zoom/windows",
       "name": "Zoom",
-      "version": "7.1.43453",
-      "sha256": "de87cb879fbf398250bbf212b999bff93574d42fae65ef99c4d2fa420f274f61",
+      "version": "7.1.46825",
+      "sha256": "79e4f2ffd9295c99325a19301f9f78800e30ab3e77eb8c1bf17df334ddaf457d",
       "publisher": "CN=\"Zoom Communications, Inc.\", O=\"Zoom Communications, Inc.\", L=San Jose, S=California, C=US, SERIALNUMBER=4969967, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA256 2021 CA1, O=\"DigiCert, Inc.\", C=US",
-      "serialNumber": "05CE164D622A58E47A01A23DFDEC64C7",
-      "thumbprint": "005ABA560D9779E7490F8111CB036139910F48F9",
+      "serialNumber": "0DD5B91ECDF366D1F882490A0D7F92AA",
+      "thumbprint": "59A26A3FD8E7DCC7A9A6227E7F883512ADE97816",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-07-20T20:27:59Z"
+      "lastUpdated": "2026-08-31T22:04:37Z"
     },
     {
       "slug": "zotero/darwin",
