@@ -727,7 +727,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: September 3, 2026 at 6:06 PM CDT</p>
+            Last updated: September 3, 2026 at 6:12 PM CDT</p>
         </div>
     </div>
 
@@ -788,7 +788,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: September 3, 2026 at 6:06 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: September 3, 2026 at 6:12 PM CDT</p>
             </div>
         </div>
     </div>
@@ -19722,7 +19722,14 @@
                 "platform": "darwin",
                 "description": "Raspberry Pi Imager is an imaging utility to install operating systems to a microSD card.",
                 "version": "2.0.11.1",
-                "installerUrl": "https://github.com/raspberrypi/rpi-imager/releases/download/v2.0.11.1/rpi-imager-v2.0.11.1.dmg"
+                "installerUrl": "https://github.com/raspberrypi/rpi-imager/releases/download/v2.0.11.1/rpi-imager-v2.0.11.1.dmg",
+                "securityInfo": {
+                  "sha256": "8fdc92418f2d4debcd379446bd7f786e5cac07538dba75abe1c5b1b5dae992df",
+                  "cdhash": "29aaea6661f1855a1677477fd75846d42a8fc99a",
+                  "signingId": "8RDZTRXE62:com.raspberrypi.rpi-imager",
+                  "teamId": "8RDZTRXE62",
+                  "lastUpdated": "2026-09-03T23:07:58Z"
+                }
               },
               {
                 "name": "Raspberry Pi Imager",
@@ -27125,7 +27132,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `September 3, 2026 at 6:06 PM CDT`;
+                let timestampText = 'Last updated: ' + `September 3, 2026 at 6:12 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
