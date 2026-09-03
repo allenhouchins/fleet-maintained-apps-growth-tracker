@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T20:42:02Z",
+  "lastUpdated": "2026-09-03T23:05:58Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -5497,6 +5497,13 @@
       "installerUrl": "https://officecdn.microsoft.com/pr/wsus/setup.exe"
     },
     {
+      "slug": "microsoft-ole-db-driver-19/windows",
+      "name": "Microsoft OLE DB Driver 19 for SQL Server",
+      "platform": "windows",
+      "version": "19.4.1.0",
+      "installerUrl": "https://download.microsoft.com/download/b5865bb8-7bc6-4068-9c1d-fb77c256a865/amd64/1033/msoledbsql.msi"
+    },
+    {
       "slug": "microsoft-onenote/darwin",
       "name": "Microsoft OneNote",
       "platform": "darwin",
@@ -7196,6 +7203,20 @@
       "platform": "darwin",
       "version": "9.6.8",
       "installerUrl": "https://dl.devant.io/v1/3c53887f-427a-4af7-9144-ee16178c62f4/21159/RapidWeaver.zip"
+    },
+    {
+      "slug": "raspberry-pi-imager/darwin",
+      "name": "Raspberry Pi Imager",
+      "platform": "darwin",
+      "version": "2.0.11.1",
+      "installerUrl": "https://github.com/raspberrypi/rpi-imager/releases/download/v2.0.11.1/rpi-imager-v2.0.11.1.dmg"
+    },
+    {
+      "slug": "raspberry-pi-imager/windows",
+      "name": "Raspberry Pi Imager",
+      "platform": "windows",
+      "version": "2.0.8",
+      "installerUrl": "https://github.com/raspberrypi/rpi-imager/releases/download/v2.0.8/imager-v2.0.8.exe"
     },
     {
       "slug": "raycast/darwin",
@@ -9051,6 +9072,13 @@
       "platform": "darwin",
       "version": "3.0.0",
       "installerUrl": "https://github.com/the-via/releases/releases/download/v3.0.0/via-3.0.0-mac.dmg"
+    },
+    {
+      "slug": "vim/windows",
+      "name": "Vim",
+      "platform": "windows",
+      "version": "9.2.1015",
+      "installerUrl": "https://github.com/vim/vim-win32-installer/releases/download/v9.2.1015/gvim_9.2.1015_x64.exe"
     },
     {
       "slug": "vimcal/darwin",

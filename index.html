@@ -727,7 +727,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: September 3, 2026 at 3:58 PM CDT</p>
+            Last updated: September 3, 2026 at 6:06 PM CDT</p>
         </div>
     </div>
 
@@ -788,7 +788,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: September 3, 2026 at 3:58 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: September 3, 2026 at 6:06 PM CDT</p>
             </div>
         </div>
     </div>
@@ -1896,7 +1896,7 @@
             1405,
             1405,
             1405,
-            1405
+            1409
           ],
           "additions": [
             20,
@@ -2447,7 +2447,7 @@
             2,
             0,
             0,
-            0
+            4
           ],
           "macCounts": [
             20,
@@ -2998,7 +2998,7 @@
             963,
             963,
             963,
-            963
+            964
           ],
           "windowsCounts": [
             0,
@@ -3549,7 +3549,7 @@
             442,
             442,
             442,
-            442
+            445
           ],
           "growthDates": [
             "2025-03-04",
@@ -3653,7 +3653,8 @@
             "2026-08-03",
             "2026-08-07",
             "2026-08-27",
-            "2026-08-31"
+            "2026-08-31",
+            "2026-09-03"
           ],
           "growthCounts": [
             20,
@@ -3757,7 +3758,8 @@
             1393,
             1396,
             1403,
-            1405
+            1405,
+            1409
           ],
           "growthAdditions": [
             20,
@@ -3861,7 +3863,8 @@
             10,
             3,
             7,
-            2
+            2,
+            4
           ]
         };
         
@@ -15952,6 +15955,14 @@
                 }
               },
               {
+                "name": "Microsoft OLE DB Driver 19 for SQL Server",
+                "slug": "microsoft-ole-db-driver-19/windows",
+                "platform": "windows",
+                "description": "Microsoft OLE DB Driver 19 for SQL Server lets applications connect to SQL Server and Azure SQL Database through the OLE DB interface.",
+                "version": "19.4.1.0",
+                "installerUrl": "https://download.microsoft.com/download/b5865bb8-7bc6-4068-9c1d-fb77c256a865/amd64/1033/msoledbsql.msi"
+              },
+              {
                 "name": "Microsoft OneNote",
                 "slug": "microsoft-onenote/darwin",
                 "platform": "darwin",
@@ -19704,6 +19715,22 @@
                   "teamId": "P97H7FTHWN",
                   "lastUpdated": "2026-06-11T15:11:15Z"
                 }
+              },
+              {
+                "name": "Raspberry Pi Imager",
+                "slug": "raspberry-pi-imager/darwin",
+                "platform": "darwin",
+                "description": "Raspberry Pi Imager is an imaging utility to install operating systems to a microSD card.",
+                "version": "2.0.11.1",
+                "installerUrl": "https://github.com/raspberrypi/rpi-imager/releases/download/v2.0.11.1/rpi-imager-v2.0.11.1.dmg"
+              },
+              {
+                "name": "Raspberry Pi Imager",
+                "slug": "raspberry-pi-imager/windows",
+                "platform": "windows",
+                "description": "Raspberry Pi Imager is an imaging utility to install operating systems to a microSD card.",
+                "version": "2.0.8",
+                "installerUrl": "https://github.com/raspberrypi/rpi-imager/releases/download/v2.0.8/imager-v2.0.8.exe"
               },
               {
                 "name": "Raycast",
@@ -23768,6 +23795,14 @@
                 }
               },
               {
+                "name": "Vim",
+                "slug": "vim/windows",
+                "platform": "windows",
+                "description": "Vim is a text editor.",
+                "version": "9.2.1015",
+                "installerUrl": "https://github.com/vim/vim-win32-installer/releases/download/v9.2.1015/gvim_9.2.1015_x64.exe"
+              },
+              {
                 "name": "Vimcal",
                 "slug": "vimcal/darwin",
                 "platform": "darwin",
@@ -27090,7 +27125,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `September 3, 2026 at 3:58 PM CDT`;
+                let timestampText = 'Last updated: ' + `September 3, 2026 at 6:06 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
