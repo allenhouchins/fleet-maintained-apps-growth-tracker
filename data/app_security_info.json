@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T06:17:39Z",
+  "lastUpdated": "2026-09-06T06:20:52Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1286,21 +1286,21 @@
     {
       "slug": "aws-cli/windows",
       "name": "AWS Command Line Interface v2",
-      "version": "2.36.39",
-      "sha256": "fa5f43ba2c384aa75dc1593f5ae3b77cea271fc88a6d58e79bd1c4c4f8d74862",
+      "version": "2.36.40",
+      "sha256": "4156b608f7cc58a2445b18a9bf03014a374513a6325246a276db74801c821be6",
       "publisher": "CN=\"Amazon Web Services, Inc.\", OU=AWS, O=\"Amazon Web Services, Inc.\", L=Seattle, S=Washington, C=US, SERIALNUMBER=4152954, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0590C4CF0DB014199953A68CFCE9B0E7",
       "thumbprint": "81A9EFB93199F2C7441EE14050360EDAB7E8242A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-09-04T03:51:17Z"
+      "lastUpdated": "2026-09-06T06:18:13Z"
     },
     {
       "slug": "aws-sam-cli/windows",
       "name": "AWS SAM Command Line Interface",
-      "version": "1.166.0",
-      "sha256": "f1a0611e6f1b4341da9d66434b1ef83c95d56333304f973eaf30927bb0024d65",
-      "lastUpdated": "2026-09-04T03:52:40Z"
+      "version": "1.166.1",
+      "sha256": "8b9c632430d66f0b16906e5447ee77a637a130bce9fe1c2bf7e96c3bd36bcb66",
+      "lastUpdated": "2026-09-06T06:19:25Z"
     },
     {
       "slug": "aws-session-manager-plugin/windows",
@@ -1816,9 +1816,9 @@
     {
       "slug": "bluej/windows",
       "name": "BlueJ",
-      "version": "6.0.0",
-      "sha256": "cc137b18127df6961393a8a4370e6886df817c9fcf6aa9f608dd1d6f4c522728",
-      "lastUpdated": "2026-07-02T15:31:20Z"
+      "version": "6.0.1",
+      "sha256": "4cb5907563c169fed7f585ccf8f124cfe18696ec23cd361a1646bf2b541221c7",
+      "lastUpdated": "2026-09-06T06:19:46Z"
     },
     {
       "slug": "bluewallet/darwin",
@@ -1947,14 +1947,14 @@
     {
       "slug": "brave-browser/windows",
       "name": "Brave",
-      "version": "151.1.93.138",
-      "sha256": "f43ecfc3820bbefd7628bcbe4f755b96a2f7fb61f3c71badcf71ae82dc7b067c",
+      "version": "152.1.94.121",
+      "sha256": "c5a01876562758af69424d545852bd6699f44f50389d61a3d2ec8c835231e2e9",
       "publisher": "CN=\"Brave Software, Inc.\", O=\"Brave Software, Inc.\", L=San Francisco, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0E982FDDF06E93E911065D037D4DD482",
       "thumbprint": "F8AC5F11DE7E26383B7A389FC19A2613835799D7",
-      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-08-29T06:25:50Z"
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-09-06T06:19:52Z"
     },
     {
       "slug": "breaktimer/darwin",
@@ -3147,14 +3147,14 @@
     {
       "slug": "cursor/windows",
       "name": "Cursor",
-      "version": "3.18.25",
-      "sha256": "f0c21149d50a0ac399c12e8a9a924738eccf688d841cb83ee30e17b29cd4146f",
+      "version": "3.19.7",
+      "sha256": "3eccb6cef48c4e123679deca2f48ee609a28d35da0d545e4aac8276cbb664594",
       "publisher": "CN=\"Anysphere, Inc.\", O=\"Anysphere, Inc.\", L=San Francisco, S=California, C=US",
-      "issuer": "CN=Microsoft ID Verified CS AOC CA 03, O=Microsoft Corporation, C=US",
-      "serialNumber": "3300059D975DFC507115F0C59E000000059D97",
-      "thumbprint": "D2D40185864F644CC9F730BCBB8AC70FCA6FE9ED",
-      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7A00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-09-03T18:02:29Z"
+      "issuer": "CN=Microsoft ID Verified CS EOC CA 03, O=Microsoft Corporation, C=US",
+      "serialNumber": "3300054F18D324D0B484C7F356000000054F18",
+      "thumbprint": "E85E2139DB56C954A913644C97FE77742BE72A1A",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:A500-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-09-06T06:20:15Z"
     },
     {
       "slug": "cursorsense/darwin",
@@ -3358,14 +3358,14 @@
     {
       "slug": "dax-studio/windows",
       "name": "DAX Studio",
-      "version": "3.6.0",
-      "sha256": "61b8cef9743eccdfb3486aca5bdd6ef339e20bdd63c552d2eafb5f19a108944f",
+      "version": "3.6.1",
+      "sha256": "c3eb48bb6ff331a57d06fd61f31e48e12985e5836d36ac4ef237564e68c0b189",
       "publisher": "E=marco@sqlbi.com, CN=SQLBI CORP., O=SQLBI CORP., L=Las Vegas, S=Nevada, C=US, OID.1.3.6.1.4.1.311.60.2.1.2=Nevada, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=E0003712014-8, OID.2.5.4.15=Private Organization",
       "issuer": "CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
       "serialNumber": "2EB83F9222E4707B2E0CECFF",
       "thumbprint": "C62263DC3BD0B01291FE852F3D4D04994B845286",
       "timestamp": "CN=Globalsign R45 TSA for CodeSign 202510, O=GlobalSign nv-sa, C=BE",
-      "lastUpdated": "2026-08-24T03:17:20Z"
+      "lastUpdated": "2026-09-06T06:20:17Z"
     },
     {
       "slug": "dayflow/darwin",
@@ -5014,14 +5014,14 @@
     {
       "slug": "firefox@nightly/windows",
       "name": "Mozilla Firefox Nightly",
-      "version": "157.2609.309.0",
-      "sha256": "474d8255fbd6bb78b63e036a3941d9258dbdd1dc97c31c7bc0874bf283c2a507",
+      "version": "157.2609.409.0",
+      "sha256": "0d06cf089dbc1d0baf2988c19047709244668336cdfd83ef230352781f94c707",
       "publisher": "CN=Mozilla Corporation, OU=Firefox Engineering Operations, O=Mozilla Corporation, L=San Francisco, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0F0EF7C2D819273E8C13F016D2E09B25",
       "thumbprint": "6663D5C4FDAF9EFD5F823A26C9C410DC9928C44A",
-      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-09-03T20:56:00Z"
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-09-06T06:20:27Z"
     },
     {
       "slug": "fission/darwin",
@@ -5480,9 +5480,9 @@
     {
       "slug": "git-extensions/windows",
       "name": "Git Extensions",
-      "version": "7.2.0.92",
-      "sha256": "852833f138f403a36508be7ef2c23d35ea495a1af538431a325e7e70c8559924",
-      "lastUpdated": "2026-07-28T15:26:15Z"
+      "version": "7.2.1.7",
+      "sha256": "93f67a768a03b7fec3aca85cf93c2b831b094c4504bef8b15643f662678e3f5c",
+      "lastUpdated": "2026-09-06T06:20:33Z"
     },
     {
       "slug": "git/windows",
@@ -5686,14 +5686,14 @@
     {
       "slug": "goland/windows",
       "name": "GoLand",
-      "version": "2026.2.2",
-      "sha256": "487fd0d447608e47d65b2dfacc078b259d2f8192395187d44c40049585cae858",
+      "version": "2026.2.2.1",
+      "sha256": "2760e4c6ebbdc16123d4d4f9bbafd780b4d99624be8813171526618b935cc1d2",
       "publisher": "CN=JetBrains s.r.o., O=JetBrains s.r.o., L=Prague, C=CZ, SERIALNUMBER=26502275, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CZ",
       "issuer": "CN=DigiCert Trusted G4 Code Signing Europe RSA4096 SHA384 2023 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "083EA13884BDFFCE8E5D9D5CAD2EFBDE",
       "thumbprint": "8C1B506D0BD10A911D09FB7EDBCAB383F1CDAF20",
-      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-09-03T18:03:33Z"
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-09-06T06:20:52Z"
     },
     {
       "slug": "goldendict-ng/windows",
