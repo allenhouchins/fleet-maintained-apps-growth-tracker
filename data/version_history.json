@@ -1,141 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-08-18T21:30:12Z",
-      "appName": "Zed",
-      "slug": "zed/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.15.0",
-      "newVersion": "1.15.1",
-      "installerUrl": "https://zed.dev/api/releases/stable/1.15.1/Zed-aarch64.dmg"
-    },
-    {
-      "date": "2026-08-18T21:30:12Z",
-      "appName": "Visual Studio Enterprise 2022",
-      "slug": "visual-studio-2022-enterprise/windows",
-      "platform": "windows",
-      "oldVersion": "17.14.38",
-      "newVersion": "17.14.39",
-      "installerUrl": "https://download.visualstudio.microsoft.com/download/pr/fa619120-9c0e-47e6-bfe0-3ee96fb671b2/63756cd71ae67cfbc371ca0798931d41ea30ccc5065be1b3b0bc84b43cd3b50e/vs_Enterprise.exe"
-    },
-    {
-      "date": "2026-08-18T21:30:12Z",
-      "appName": "VirtualBox",
-      "slug": "virtualbox/darwin",
-      "platform": "darwin",
-      "oldVersion": "7.2.14",
-      "newVersion": "7.2.16",
-      "installerUrl": "https://download.virtualbox.org/virtualbox/7.2.16/VirtualBox-7.2.16-174877-macOSArm64.dmg"
-    },
-    {
-      "date": "2026-08-18T21:30:12Z",
-      "appName": "Claude",
-      "slug": "claude/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.32352.1",
-      "newVersion": "1.32885.0",
-      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.32885.0/Claude-2e913c9cf1e7508241365046a92ae1050b7bcbb2.zip"
-    },
-    {
-      "date": "2026-08-18T21:30:12Z",
-      "appName": "Godot Engine",
-      "slug": "godot/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.7.1",
-      "newVersion": "4.7.2",
-      "installerUrl": "https://github.com/godotengine/godot/releases/download/4.7.2-stable/Godot_v4.7.2-stable_macos.universal.zip"
-    },
-    {
-      "date": "2026-08-19T03:03:31Z",
-      "appName": "WhatRoute",
-      "slug": "whatroute/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.8.0",
-      "newVersion": "2.8.1",
-      "installerUrl": "https://www.whatroute.net/software/whatroute-2.8.1.zip"
-    },
-    {
-      "date": "2026-08-19T03:03:31Z",
-      "appName": "Dropbox",
-      "slug": "dropbox/darwin",
-      "platform": "darwin",
-      "oldVersion": "264.4.3421",
-      "newVersion": "266.4.3911",
-      "installerUrl": "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20266.4.3911.arm64.dmg"
-    },
-    {
-      "date": "2026-08-19T03:03:31Z",
-      "appName": "Amazon Corretto 8",
-      "slug": "amazon-corretto-8/windows",
-      "platform": "windows",
-      "oldVersion": "1.8.0.502",
-      "newVersion": "1.8.0.504",
-      "installerUrl": "https://corretto.aws/downloads/resources/8.504.01.1/amazon-corretto-8.504.01.1-windows-x64-jdk.msi"
-    },
-    {
-      "date": "2026-08-19T03:03:31Z",
-      "appName": "Amazon Corretto 25",
-      "slug": "amazon-corretto-25/windows",
-      "platform": "windows",
-      "oldVersion": "25.0.4.7",
-      "newVersion": "25.0.4.8",
-      "installerUrl": "https://corretto.aws/downloads/resources/25.0.4.8.1/amazon-corretto-25.0.4.8.1-windows-x64.msi"
-    },
-    {
-      "date": "2026-08-19T03:03:31Z",
-      "appName": "Thunderbird",
-      "slug": "thunderbird/darwin",
-      "platform": "darwin",
-      "oldVersion": "153.0.3",
-      "newVersion": "154.0",
-      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/154.0/mac/en-US/Thunderbird%20154.0.dmg"
-    },
-    {
-      "date": "2026-08-19T03:03:31Z",
-      "appName": "Amazon Corretto 11",
-      "slug": "amazon-corretto-11/windows",
-      "platform": "windows",
-      "oldVersion": "11.0.32.9",
-      "newVersion": "11.0.32.10",
-      "installerUrl": "https://corretto.aws/downloads/resources/11.0.32.10.1/amazon-corretto-11.0.32.10.1-windows-x64.msi"
-    },
-    {
-      "date": "2026-08-19T03:03:31Z",
-      "appName": "Amazon Corretto 21",
-      "slug": "amazon-corretto-21/windows",
-      "platform": "windows",
-      "oldVersion": "21.0.12.8",
-      "newVersion": "21.0.12.9",
-      "installerUrl": "https://corretto.aws/downloads/resources/21.0.12.9.1/amazon-corretto-21.0.12.9.1-windows-x64.msi"
-    },
-    {
-      "date": "2026-08-19T03:03:31Z",
-      "appName": "Microsoft Excel",
-      "slug": "microsoft-excel/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.112",
-      "newVersion": "16.112.1",
-      "installerUrl": "https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.112.26081720_Installer.pkg"
-    },
-    {
-      "date": "2026-08-19T03:03:31Z",
-      "appName": "Azul Zulu JRE 25",
-      "slug": "azul-zulu-25-jre/windows",
-      "platform": "windows",
-      "oldVersion": "25.36.15",
-      "newVersion": "25.36.205",
-      "installerUrl": "https://cdn.azul.com/zulu/bin/zulu25.36.205-ca-jre25.0.4.1-win_x64.msi"
-    },
-    {
-      "date": "2026-08-19T03:03:31Z",
-      "appName": "Mozilla Firefox Nightly",
-      "slug": "firefox@nightly/windows",
-      "platform": "windows",
-      "oldVersion": "156.2608.1508.0",
-      "newVersion": "156.2608.1809.0",
-      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/08/2026-08-18-09-20-26-mozilla-central/firefox-156.0a1.multi.win64.installer.msix"
-    },
-    {
       "date": "2026-08-19T03:03:31Z",
       "appName": "AWS Client VPN",
       "slug": "aws-vpn-client/darwin",
@@ -8999,6 +8864,141 @@
       "oldVersion": "2.15.2",
       "newVersion": "2.16.2",
       "installerUrl": "https://firealpaca.com/download/mac"
+    },
+    {
+      "date": "2026-09-08T05:50:54Z",
+      "appName": "Joplin",
+      "slug": "joplin/windows",
+      "platform": "windows",
+      "oldVersion": "3.6.16",
+      "newVersion": "3.7.16",
+      "installerUrl": "https://github.com/laurent22/joplin/releases/download/v3.7.16/Joplin-Setup-3.7.16.exe"
+    },
+    {
+      "date": "2026-09-08T05:50:54Z",
+      "appName": "Gephi",
+      "slug": "gephi/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.11.2",
+      "newVersion": "0.11.3",
+      "installerUrl": "https://github.com/gephi/gephi/releases/download/v0.11.3/gephi-0.11.3-macos-aarch64.dmg"
+    },
+    {
+      "date": "2026-09-08T05:50:54Z",
+      "appName": "Proxyman",
+      "slug": "proxyman/windows",
+      "platform": "windows",
+      "oldVersion": "3.18.0",
+      "newVersion": "3.19.0",
+      "installerUrl": "https://assets.proxyman.com/windows/3.19.0/build/Proxyman%20Setup%203.19.0.exe"
+    },
+    {
+      "date": "2026-09-08T05:50:54Z",
+      "appName": "TickTick",
+      "slug": "ticktick/darwin",
+      "platform": "darwin",
+      "oldVersion": "8.2.00",
+      "newVersion": "8.2.01",
+      "installerUrl": "https://download.ticktick.app/download/mac/TickTick_8.2.01_918.dmg"
+    },
+    {
+      "date": "2026-09-08T05:50:54Z",
+      "appName": "Gephi",
+      "slug": "gephi/windows",
+      "platform": "windows",
+      "oldVersion": "0.11.2",
+      "newVersion": "0.11.3",
+      "installerUrl": "https://github.com/gephi/gephi/releases/download/v0.11.3/gephi-0.11.3-windows-x64.exe"
+    },
+    {
+      "date": "2026-09-08T05:50:54Z",
+      "appName": "Hive",
+      "slug": "hive-app/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.2.42",
+      "newVersion": "1.2.43",
+      "installerUrl": "https://github.com/morapelker/hive/releases/download/v1.2.43/Hive-1.2.43-arm64.dmg"
+    },
+    {
+      "date": "2026-09-08T05:50:54Z",
+      "appName": "Zen Browser",
+      "slug": "zen-browser/windows",
+      "platform": "windows",
+      "oldVersion": "1.21b",
+      "newVersion": "1.22b",
+      "installerUrl": "https://github.com/zen-browser/desktop/releases/download/1.22b/zen.installer.exe"
+    },
+    {
+      "date": "2026-09-08T05:50:54Z",
+      "appName": "CodexBar",
+      "slug": "codexbar/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.56.6",
+      "newVersion": "0.56.7",
+      "installerUrl": "https://github.com/steipete/CodexBar/releases/download/v0.56.7/CodexBar-macos-universal-0.56.7.zip"
+    },
+    {
+      "date": "2026-09-08T05:50:54Z",
+      "appName": "Stats",
+      "slug": "stats/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.0.14",
+      "newVersion": "3.0.15",
+      "installerUrl": "https://github.com/exelban/stats/releases/download/v3.0.15/Stats.dmg"
+    },
+    {
+      "date": "2026-09-08T05:50:54Z",
+      "appName": "draw.io",
+      "slug": "drawio/darwin",
+      "platform": "darwin",
+      "oldVersion": "31.4.2",
+      "newVersion": "31.4.4",
+      "installerUrl": "https://github.com/jgraph/drawio-desktop/releases/download/v31.4.4/draw.io-arm64-31.4.4.dmg"
+    },
+    {
+      "date": "2026-09-08T05:50:54Z",
+      "appName": "Audacity",
+      "slug": "audacity/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.7.9",
+      "newVersion": "4.0.0",
+      "installerUrl": "https://github.com/audacity/audacity/releases/download/Audacity-4.0.0/audacity-macOS-4.0.0-arm64.dmg"
+    },
+    {
+      "date": "2026-09-08T05:50:54Z",
+      "appName": "Taskbar",
+      "slug": "taskbar/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.6.1",
+      "newVersion": "1.6.3",
+      "installerUrl": "https://lawand.io/wp-content/uploads/2026/09/taskbar-1.6.3.zip"
+    },
+    {
+      "date": "2026-09-08T05:50:54Z",
+      "appName": "DBeaverEE",
+      "slug": "dbeaver-enterprise/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.1.0",
+      "newVersion": "26.2.0",
+      "installerUrl": "https://downloads.dbeaver.net/enterprise/26.2.0/dbeaver-ee-26.2.0-macos-aarch64.dmg"
+    },
+    {
+      "date": "2026-09-08T05:50:54Z",
+      "appName": "Joplin",
+      "slug": "joplin/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.6.16",
+      "newVersion": "3.7.16",
+      "installerUrl": "https://github.com/laurent22/joplin/releases/download/v3.7.16/Joplin-3.7.16-arm64.DMG"
+    },
+    {
+      "date": "2026-09-08T05:50:54Z",
+      "appName": "Spokenly",
+      "slug": "spokenly/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.29.0",
+      "newVersion": "2.29.1",
+      "installerUrl": "https://cdn.spokenly.app/releases/macos/Spokenly-2.29.1.dmg"
     }
   ]
 }
