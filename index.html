@@ -727,7 +727,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: September 8, 2026 at 10:45 PM CDT</p>
+            Last updated: September 8, 2026 at 10:55 PM CDT</p>
         </div>
     </div>
 
@@ -788,7 +788,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: September 8, 2026 at 10:45 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: September 8, 2026 at 10:55 PM CDT</p>
             </div>
         </div>
     </div>
@@ -22524,7 +22524,16 @@
                 "platform": "windows",
                 "description": "Tableau Prep is a data preparation tool for combining, shaping, and cleaning data for analysis in Tableau.",
                 "version": "24.3.41107",
-                "installerUrl": "https://downloads.tableau.com/esdalt/tableau_prep/2024.3.4/TableauPrep-2024-3-4.exe"
+                "installerUrl": "https://downloads.tableau.com/esdalt/tableau_prep/2024.3.4/TableauPrep-2024-3-4.exe",
+                "securityInfo": {
+                  "sha256": "701d117ead4ed4d01c9777730ce097eb2922793d6298c0a38e48c62a1eb7a060",
+                  "publisher": "CN=\"Salesforce, Inc.\", O=\"Salesforce, Inc.\", L=San Francisco, S=California, C=US",
+                  "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+                  "serialNumber": "019D7E129F300D748DCB92BC8C112A08",
+                  "thumbprint": "CD990CC450D0AE93D91277DFBB8941FB299B6A13",
+                  "timestamp": "CN=DigiCert Timestamp 2024, O=DigiCert, C=US",
+                  "lastUpdated": "2026-09-09T03:52:16Z"
+                }
               },
               {
                 "name": "Tableau Desktop",
@@ -27253,7 +27262,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `September 8, 2026 at 10:45 PM CDT`;
+                let timestampText = 'Last updated: ' + `September 8, 2026 at 10:55 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
