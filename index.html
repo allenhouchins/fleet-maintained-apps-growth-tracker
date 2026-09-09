@@ -727,7 +727,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: September 8, 2026 at 7:19 PM CDT</p>
+            Last updated: September 8, 2026 at 10:45 PM CDT</p>
         </div>
     </div>
 
@@ -788,7 +788,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: September 8, 2026 at 7:19 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: September 8, 2026 at 10:45 PM CDT</p>
             </div>
         </div>
     </div>
@@ -1350,7 +1350,8 @@
             "2026-09-05",
             "2026-09-06",
             "2026-09-07",
-            "2026-09-08"
+            "2026-09-08",
+            "2026-09-09"
           ],
           "counts": [
             20,
@@ -1906,7 +1907,8 @@
             1409,
             1409,
             1409,
-            1411
+            1411,
+            1412
           ],
           "additions": [
             20,
@@ -2462,7 +2464,8 @@
             0,
             0,
             0,
-            2
+            2,
+            1
           ],
           "macCounts": [
             20,
@@ -3018,6 +3021,7 @@
             964,
             964,
             964,
+            965,
             965
           ],
           "windowsCounts": [
@@ -3574,7 +3578,8 @@
             445,
             445,
             445,
-            446
+            446,
+            447
           ],
           "growthDates": [
             "2025-03-04",
@@ -3680,7 +3685,8 @@
             "2026-08-27",
             "2026-08-31",
             "2026-09-03",
-            "2026-09-08"
+            "2026-09-08",
+            "2026-09-09"
           ],
           "growthCounts": [
             20,
@@ -3786,7 +3792,8 @@
             1403,
             1405,
             1409,
-            1411
+            1411,
+            1412
           ],
           "growthAdditions": [
             20,
@@ -3892,7 +3899,8 @@
             7,
             2,
             4,
-            2
+            2,
+            1
           ]
         };
         
@@ -22499,7 +22507,7 @@
                 "name": "Tableau Prep",
                 "slug": "tableau-prep/darwin",
                 "platform": "darwin",
-                "description": "Tableau Prep is a combine, shape, and clean your data for analysis.",
+                "description": "Tableau Prep is a data preparation tool for combining, shaping, and cleaning data for analysis in Tableau.",
                 "version": "2026.2.2",
                 "installerUrl": "https://downloads.tableau.com/esdalt/tableau_prep/2026.2.2/TableauPrep-2026-2-2-arm64.dmg",
                 "securityInfo": {
@@ -22509,6 +22517,14 @@
                   "teamId": "QJ4XPRK37C",
                   "lastUpdated": "2026-08-29T00:00:28Z"
                 }
+              },
+              {
+                "name": "Tableau Prep",
+                "slug": "tableau-prep/windows",
+                "platform": "windows",
+                "description": "Tableau Prep is a data preparation tool for combining, shaping, and cleaning data for analysis in Tableau.",
+                "version": "24.3.41107",
+                "installerUrl": "https://downloads.tableau.com/esdalt/tableau_prep/2024.3.4/TableauPrep-2024-3-4.exe"
               },
               {
                 "name": "Tableau Desktop",
@@ -25904,7 +25920,8 @@
             "2026-09-05",
             "2026-09-06",
             "2026-09-07",
-            "2026-09-08"
+            "2026-09-08",
+            "2026-09-09"
           ],
           "macCounts": [
             3,
@@ -26200,7 +26217,8 @@
             0,
             53,
             1,
-            79
+            79,
+            0
           ],
           "windowsCounts": [
             2,
@@ -26496,7 +26514,8 @@
             0,
             24,
             0,
-            28
+            28,
+            0
           ]
         };
         
@@ -27234,7 +27253,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `September 8, 2026 at 7:19 PM CDT`;
+                let timestampText = 'Last updated: ' + `September 8, 2026 at 10:45 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
