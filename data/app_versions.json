@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-10T10:54:18Z",
+  "lastUpdated": "2026-09-10T15:00:24Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -880,8 +880,8 @@
       "slug": "aws-cli/windows",
       "name": "AWS Command Line Interface v2",
       "platform": "windows",
-      "version": "2.36.41",
-      "installerUrl": "https://awscli.amazonaws.com/AWSCLIV2-2.36.41.msi"
+      "version": "2.36.42",
+      "installerUrl": "https://awscli.amazonaws.com/AWSCLIV2-2.36.42.msi"
     },
     {
       "slug": "aws-sam-cli/windows",
@@ -1398,8 +1398,8 @@
       "slug": "burp-suite/darwin",
       "name": "Burp Suite Community Edition",
       "platform": "darwin",
-      "version": "2026.7.3",
-      "installerUrl": "https://portswigger-cdn.net/burp/releases/download?product=desktop\u0026version=2026.7.3\u0026type=MacOsArm64"
+      "version": "2026.8",
+      "installerUrl": "https://portswigger-cdn.net/burp/releases/download?product=desktop\u0026version=2026.8\u0026type=MacOsArm64"
     },
     {
       "slug": "busycontacts/darwin",
@@ -2690,6 +2690,13 @@
       "installerUrl": "https://github.com/prateekkeshari/dot-releases/releases/download/v2.4.1/Dot-2.4.1.dmg"
     },
     {
+      "slug": "dotpeek/windows",
+      "name": "dotPeek",
+      "platform": "windows",
+      "version": "2026.2.1",
+      "installerUrl": "https://download.jetbrains.com/resharper/dotUltimate.2026.2.1/JetBrains.dotPeek.2026.2.1.web.exe"
+    },
+    {
       "slug": "dottrace/windows",
       "name": "dotTrace",
       "platform": "windows",
@@ -3380,14 +3387,14 @@
       "name": "Mozilla Firefox Nightly",
       "platform": "darwin",
       "version": "157.0a1",
-      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/09/2026-09-09-08-38-22-mozilla-central/firefox-157.0a1.en-US.mac.dmg"
+      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/09/2026-09-09-21-10-52-mozilla-central/firefox-157.0a1.en-US.mac.dmg"
     },
     {
       "slug": "firefox@nightly/windows",
       "name": "Mozilla Firefox Nightly",
       "platform": "windows",
-      "version": "157.2609.821.0",
-      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/09/2026-09-08-21-54-17-mozilla-central/firefox-157.0a1.multi.win64.installer.msix"
+      "version": "157.2609.908.0",
+      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/09/2026-09-09-08-38-22-mozilla-central/firefox-157.0a1.multi.win64.installer.msix"
     },
     {
       "slug": "fission/darwin",
@@ -3918,7 +3925,7 @@
       "slug": "google-gemini/darwin",
       "name": "Google Gemini",
       "platform": "darwin",
-      "version": "1.107.3.828",
+      "version": "1.111.1.839",
       "installerUrl": "https://dl.google.com/release2/j33ro/release/Gemini.dmg"
     },
     {
@@ -3981,8 +3988,8 @@
       "slug": "grammarly-desktop/windows",
       "name": "Grammarly Desktop",
       "platform": "windows",
-      "version": "1.2.293.1952",
-      "installerUrl": "https://download-windows.grammarly.com/versions/1.2.293.1952/GrammarlyInstaller.exe"
+      "version": "1.2.294.1953",
+      "installerUrl": "https://download-windows.grammarly.com/versions/1.2.294.1953/GrammarlyInstaller.exe"
     },
     {
       "slug": "grandperspective/darwin",
@@ -4002,8 +4009,8 @@
       "slug": "granola/windows",
       "name": "Granola",
       "platform": "windows",
-      "version": "7.543.2",
-      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.543.2/Granola-7.543.2-win-x64.exe"
+      "version": "7.543.3",
+      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.543.3/Granola-7.543.3-win-x64.exe"
     },
     {
       "slug": "graphviz/windows",
@@ -4527,8 +4534,8 @@
       "slug": "itunes/windows",
       "name": "iTunes",
       "platform": "windows",
-      "version": "12.13.10.3",
-      "installerUrl": "https://secure-appldnld.apple.com/itunes12/047-76416-20260302-fefe4356-211d-4da1-8bc4-058eb36ea803/iTunes64Setup.exe"
+      "version": "12.13.11.1",
+      "installerUrl": "https://secure-appldnld.apple.com/itunes12/140-75773-20260908-6e5e0165-99cb-4b30-b541-1b615fccfc1a/iTunes64Setup.exe"
     },
     {
       "slug": "jabra-direct/darwin",
@@ -5059,15 +5066,15 @@
       "slug": "lookaway/darwin",
       "name": "LookAway",
       "platform": "darwin",
-      "version": "2.4.5",
-      "installerUrl": "https://github.com/mysticalbits/lookaway-releases/releases/download/2.4.5/LookAway.dmg"
+      "version": "2.4.6",
+      "installerUrl": "https://github.com/mysticalbits/lookaway-releases/releases/download/2.4.6/LookAway.dmg"
     },
     {
       "slug": "loom/darwin",
       "name": "Loom",
       "platform": "darwin",
-      "version": "0.373.3",
-      "installerUrl": "https://packages.loom.com/desktop-packages/Loom-0.373.3-arm64.dmg"
+      "version": "0.374.2",
+      "installerUrl": "https://packages.loom.com/desktop-packages/Loom-0.374.2-arm64.dmg"
     },
     {
       "slug": "loom/windows",
@@ -5416,7 +5423,7 @@
       "slug": "microsoft-365-copilot/darwin",
       "name": "Microsoft 365 Copilot",
       "platform": "darwin",
-      "version": "1.2608.0301",
+      "version": "1.2608",
       "installerUrl": "https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_365_Copilot_universal_1.2608.0301_Installer.pkg"
     },
     {
@@ -5726,6 +5733,13 @@
       "platform": "darwin",
       "version": "4.3.3",
       "installerUrl": "https://github.com/MonitorControl/MonitorControl/releases/download/v4.3.3/MonitorControl.4.3.3.dmg"
+    },
+    {
+      "slug": "monotype/darwin",
+      "name": "Monotype Fonts",
+      "platform": "darwin",
+      "version": "7.7.0",
+      "installerUrl": "https://monotypeapp.monotype.com/release/770/mac/arm/MTFInstallerMacOsArm.zip"
     },
     {
       "slug": "moom/darwin",
@@ -7593,8 +7607,8 @@
       "slug": "safe-exam-browser/darwin",
       "name": "Safe Exam Browser",
       "platform": "darwin",
-      "version": "3.7",
-      "installerUrl": "https://github.com/SafeExamBrowser/seb-mac/releases/download/3.7/SafeExamBrowser-3.7.dmg"
+      "version": "3.7.1",
+      "installerUrl": "https://github.com/SafeExamBrowser/seb-mac/releases/download/3.7.1/SafeExamBrowser-3.7.1.dmg"
     },
     {
       "slug": "safe-exam-browser/windows",
@@ -8685,15 +8699,15 @@
       "slug": "thunderbird/darwin",
       "name": "Thunderbird",
       "platform": "darwin",
-      "version": "155.0",
-      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/155.0/mac/en-US/Thunderbird%20155.0.dmg"
+      "version": "155.0.1",
+      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/155.0.1/mac/en-US/Thunderbird%20155.0.1.dmg"
     },
     {
       "slug": "thunderbird/windows",
       "name": "Thunderbird",
       "platform": "windows",
-      "version": "155.0",
-      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/155.0/win64/en-US/Thunderbird%20Setup%20155.0.exe"
+      "version": "155.0.1",
+      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/155.0.1/win64/en-US/Thunderbird%20Setup%20155.0.1.exe"
     },
     {
       "slug": "ticktick/darwin",
@@ -9182,8 +9196,8 @@
       "slug": "visual-studio-code/windows",
       "name": "Microsoft Visual Studio Code",
       "platform": "windows",
-      "version": "1.136.2",
-      "installerUrl": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/VSCodeSetup-x64-1.136.2.exe"
+      "version": "1.137.0",
+      "installerUrl": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/VSCodeSetup-x64-1.137.0.exe"
     },
     {
       "slug": "vivaldi/darwin",
@@ -9770,8 +9784,8 @@
       "slug": "zed/windows",
       "name": "Zed",
       "platform": "windows",
-      "version": "1.18.1",
-      "installerUrl": "https://github.com/zed-industries/zed/releases/download/v1.18.1/Zed-x86_64.exe"
+      "version": "1.19.2",
+      "installerUrl": "https://github.com/zed-industries/zed/releases/download/v1.19.2/Zed-x86_64.exe"
     },
     {
       "slug": "zen-browser/windows",
@@ -9861,8 +9875,8 @@
       "slug": "zotero/windows",
       "name": "Zotero",
       "platform": "windows",
-      "version": "10.0.1",
-      "installerUrl": "https://download.zotero.org/client/release/10.0.1/Zotero-10.0.1_x64_setup.exe"
+      "version": "10.0.2",
+      "installerUrl": "https://download.zotero.org/client/release/10.0.2/Zotero-10.0.2_x64_setup.exe"
     },
     {
       "slug": "zulip/darwin",
