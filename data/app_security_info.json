@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T18:13:52Z",
+  "lastUpdated": "2026-09-11T18:15:16Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -292,14 +292,14 @@
     {
       "slug": "adobe-creative-cloud/windows",
       "name": "Adobe Creative Cloud",
-      "version": "6.10.0.252.3",
-      "sha256": "fdaffc59a98ff32f50b5991719310cd846742976fe1331a581b8addb41408f04",
+      "version": "6.10.0.252.41",
+      "sha256": "d93547039f2838a39e1a3440eca4c486026a8a8892c35887345cd918695136bf",
       "publisher": "CN=Adobe Inc., OU=AAM 256, O=Adobe Inc., L=San Jose, S=ca, C=US, SERIALNUMBER=2748129, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "074FBF17050933A41C8D93C87BAA2AB1",
       "thumbprint": "D782F88F1BB6E0ADC3E9E98A0BADA643FD7F1E5D",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-06-19T13:34:57Z"
+      "lastUpdated": "2026-09-11T18:13:54Z"
     },
     {
       "slug": "adobe-digital-editions/darwin",
@@ -5048,14 +5048,14 @@
     {
       "slug": "firefox@nightly/windows",
       "name": "Mozilla Firefox Nightly",
-      "version": "157.2609.908.0",
-      "sha256": "b2d0c03404ed4319bb750352ac943b8dbdbe5ce835ca3bfc1292687bafef85d0",
+      "version": "158.2609.1014.0",
+      "sha256": "924e53c570ab12b25ad42bce137c6775ce54d250f2063edc79329a45b85eb99f",
       "publisher": "CN=Mozilla Corporation, OU=Firefox Engineering Operations, O=Mozilla Corporation, L=San Francisco, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0F0EF7C2D819273E8C13F016D2E09B25",
       "thumbprint": "6663D5C4FDAF9EFD5F823A26C9C410DC9928C44A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-09-10T15:15:13Z"
+      "lastUpdated": "2026-09-11T18:14:31Z"
     },
     {
       "slug": "fission/darwin",
@@ -8149,14 +8149,14 @@
     {
       "slug": "microsoft-edge/windows",
       "name": "Microsoft Edge",
-      "version": "152.0.4191.66",
-      "sha256": "5bcf8cd57351ddaa94419f800f8d90b8cbaf2b485b49d9ddb07d055b76a518df",
+      "version": "153.0.4234.32",
+      "sha256": "4388dc0c46b5ec98aebdf9b78a07f2c70076164f322e20228dc7de366d60a385",
       "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
       "issuer": "CN=Microsoft Code Signing PCA 2024, O=Microsoft Corporation, C=US",
       "serialNumber": "33000002334EC248564C2B5C6F000000000233",
       "thumbprint": "4028CAD637509D4744B17EC5B42AED8D7A31E6AF",
-      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:8603-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-09-09T00:14:44Z"
+      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:3303-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-09-11T18:14:44Z"
     },
     {
       "slug": "microsoft-excel/darwin",
@@ -10541,14 +10541,14 @@
     {
       "slug": "putty/windows",
       "name": "PuTTY",
-      "version": "0.84.0.0",
-      "sha256": "4119bec97bcf2a736f7769d22dc745d8a398a278bd403e53ec2dd2dd0217a6ae",
+      "version": "0.85.0.0",
+      "sha256": "caec7c2d1faca08285febb680f98d4920bea97efe857f95c5d2a4a3b6794a9e4",
       "publisher": "CN=Simon Tatham, O=Simon Tatham, S=Cambridgeshire, C=GB",
       "issuer": "CN=Sectigo Public Code Signing CA R36, O=Sectigo Limited, C=GB",
       "serialNumber": "00BE8E1D85C5D2521B6D33379E3B8501A9",
       "thumbprint": "66C298D018034F29B8EA1D6E90F5497FE305D2E8",
-      "timestamp": "CN=Sectigo Public Time Stamping Signer R36, O=Sectigo Limited, S=West Yorkshire, C=GB",
-      "lastUpdated": "2026-05-22T15:19:04Z"
+      "timestamp": "CN=Sectigo Public Time Stamping Signer R37, O=Sectigo Limited, S=Greater London, C=GB",
+      "lastUpdated": "2026-09-11T18:14:50Z"
     },
     {
       "slug": "pycharm-ce/darwin",
@@ -11197,14 +11197,14 @@
     {
       "slug": "rstudio/windows",
       "name": "RStudio",
-      "version": "2026.08.2+200",
-      "sha256": "b246a1cc3c61b7c56555d99393dd19fa377be9a6c6b874fc54836671cebf5f0c",
+      "version": "2026.09.0+174",
+      "sha256": "e6b5a3b1028b7cc8d2abe7375aae4813a791898899d81d64468185349e41491c",
       "publisher": "CN=\"Posit Software, PBC\", O=\"Posit Software, PBC\", L=Boston, S=Massachusetts, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "06BCB82B1B8423E335025DEC8C820234",
       "thumbprint": "9BE4A6DCE51771582CA2F2D954DD3E079D08F3CF",
-      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-08-29T00:14:04Z"
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-09-11T18:15:00Z"
     },
     {
       "slug": "rsyncui/darwin",
@@ -13679,14 +13679,14 @@
     {
       "slug": "vivaldi/windows",
       "name": "Vivaldi",
-      "version": "8.2.4133.47",
-      "sha256": "65590b549db6d3300319a2fdb18cab3d774fed5ccb67e0442ab3b2ca55d06854",
+      "version": "8.2.4133.52",
+      "sha256": "68124557ae03a28e5669ad4c62eb2c8a1771740d8a7866385d2cf3a33b379614",
       "publisher": "CN=Vivaldi Technologies AS, O=Vivaldi Technologies AS, STREET=Mølleparken 6, L=Oslo, S=Oslo, C=NO, OID.1.3.6.1.4.1.311.60.2.1.3=NO, SERIALNUMBER=912 309 975, OID.2.5.4.15=Private Organization",
       "issuer": "CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
       "serialNumber": "0E6194E2779D531F896950FF",
       "thumbprint": "F7A524AD45E585F8B71E6204B2583714151A08EF",
       "timestamp": "CN=Globalsign R45 TSA for CodeSign 202510, O=GlobalSign nv-sa, C=BE",
-      "lastUpdated": "2026-09-06T06:22:00Z"
+      "lastUpdated": "2026-09-11T18:15:04Z"
     },
     {
       "slug": "vivid-app/darwin",
