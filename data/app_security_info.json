@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T03:55:01Z",
+  "lastUpdated": "2026-09-11T03:56:49Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1162,14 +1162,14 @@
     {
       "slug": "asana/windows",
       "name": "Asana",
-      "version": "2.8.1",
-      "sha256": "b3915397251d6fa991d6019737a143bff2b0ef29adfdb6a4626288d6660df802",
+      "version": "2.9.0",
+      "sha256": "1dc13d86bc18498ebb5886f3a0792be45d6754e587be6b4a373db1afefaba936",
       "publisher": "CN=Asana, O=Asana, L=San Francisco, S=California, C=US",
-      "issuer": "CN=Microsoft ID Verified CS AOC CA 04, O=Microsoft Corporation, C=US",
-      "serialNumber": "3300049E7248F1682D00E652BA000000049E72",
-      "thumbprint": "53A88D08F59FDED3FC840613EB24CC413DA8251D",
+      "issuer": "CN=Microsoft ID Verified CS AOC CA 03, O=Microsoft Corporation, C=US",
+      "serialNumber": "3300062EF79F8D2CBCAE40FA54000000062EF7",
+      "thumbprint": "3C6098C656B5B615DECEB70614B39D8A6D1A585A",
       "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7800-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-08-14T05:23:13Z"
+      "lastUpdated": "2026-09-11T03:55:07Z"
     },
     {
       "slug": "asset-catalog-tinkerer/darwin",
@@ -1204,14 +1204,14 @@
     {
       "slug": "audacity/windows",
       "name": "Audacity",
-      "version": "4.0.0",
+      "version": "4.0.0.262451524",
       "sha256": "d723bb88d8ac542ebc44bef515504c38586c9efa27cfbd23ba879e6787c2c0ea",
       "publisher": "CN=MUSECY SM LTD, O=MUSECY SM LTD, S=Lemesos, C=CY, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CY, SERIALNUMBER=HE 411908",
       "issuer": "CN=Sectigo Public Code Signing CA EV R36, O=Sectigo Limited, C=GB",
       "serialNumber": "3C65609C0941550141AB69AEA82958B1",
       "thumbprint": "48FD05A8FAF854569077D537B82DAE2D9CEB91A7",
       "timestamp": "CN=Sectigo Public Time Stamping Signer R37, O=Sectigo Limited, S=Greater London, C=GB",
-      "lastUpdated": "2026-09-08T19:16:08Z"
+      "lastUpdated": "2026-09-11T03:55:16Z"
     },
     {
       "slug": "audio-hijack/darwin",
@@ -1286,14 +1286,14 @@
     {
       "slug": "aws-cli/windows",
       "name": "AWS Command Line Interface v2",
-      "version": "2.36.42",
-      "sha256": "21022fe73cc177e9ca1687ae024e297a70c0cbc0baead6b2546f821b7beda74a",
+      "version": "2.36.43",
+      "sha256": "ca187bf7f63743907c4c0899f12d1b9e50a6f1d2c4c7d414fa3714d7f0cd2dbf",
       "publisher": "CN=\"Amazon Web Services, Inc.\", OU=AWS, O=\"Amazon Web Services, Inc.\", L=Seattle, S=Washington, C=US, SERIALNUMBER=4152954, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0590C4CF0DB014199953A68CFCE9B0E7",
       "thumbprint": "81A9EFB93199F2C7441EE14050360EDAB7E8242A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-09-10T15:12:46Z"
+      "lastUpdated": "2026-09-11T03:55:47Z"
     },
     {
       "slug": "aws-sam-cli/windows",
@@ -1513,9 +1513,9 @@
     {
       "slug": "bdash/windows",
       "name": "Bdash",
-      "version": "1.35.1",
-      "sha256": "25d117cb4658efed68387b7d8928ddd63982c8807eb2fe363ebbc38227a33fae",
-      "lastUpdated": "2026-08-18T05:09:26Z"
+      "version": "1.35.2",
+      "sha256": "230c07c7f1938f0cea9ec6803df3878e417700db8c97ee8c3418f6c6480ee5fe",
+      "lastUpdated": "2026-09-11T03:56:02Z"
     },
     {
       "slug": "beaver-notes/darwin",
@@ -3307,9 +3307,9 @@
     {
       "slug": "dataflare/windows",
       "name": "Dataflare",
-      "version": "3.2.0",
-      "sha256": "037d099ec2c83a5fea41cd33c9f7db8883ec93489bb37bd8226630bd21596d4d",
-      "lastUpdated": "2026-08-25T14:11:59Z"
+      "version": "3.2.1",
+      "sha256": "e945664ab65691972267f99ba1caa1d07abc822680439d45c79db72a925f65fd",
+      "lastUpdated": "2026-09-11T03:56:25Z"
     },
     {
       "slug": "datagrip/darwin",
@@ -4064,14 +4064,14 @@
     {
       "slug": "drawio/windows",
       "name": "draw.io",
-      "version": "31.4.4",
-      "sha256": "48dc9dd739dbddc0ce892dd34be3bfc6e13dbe1a454529178fe1197e7acddbb3",
+      "version": "31.4.5",
+      "sha256": "4140daba878a6e8c5561cc8fa9b4169cf0dbdbfd64c11484baa08ca3dd37fc27",
       "publisher": "CN=draw.io Ltd, O=draw.io Ltd, L=Northampton, S=Northamptonshire, C=GB",
-      "issuer": "CN=Microsoft ID Verified CS AOC CA 03, O=Microsoft Corporation, C=US",
-      "serialNumber": "330005EA53061ACB1FFAD5227C00000005EA53",
-      "thumbprint": "A7399524BBF9CBFC726989AA435D29CF901C5EE3",
-      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7D00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-09-09T18:23:47Z"
+      "issuer": "CN=Microsoft ID Verified CS AOC CA 04, O=Microsoft Corporation, C=US",
+      "serialNumber": "3300061844D897261FA05D3D4F000000061844",
+      "thumbprint": "8B531A9FB47C9416D4FC9159F01BF3D814F918CE",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7A00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-09-11T03:56:34Z"
     },
     {
       "slug": "drofus/windows",
@@ -4878,14 +4878,14 @@
     {
       "slug": "figma/windows",
       "name": "Figma",
-      "version": "126.8.18",
-      "sha256": "3522da7b9666b20c08698043ff306c5b89b634cf7ef8acc7337ae3e7e9b3d538",
+      "version": "126.9.7",
+      "sha256": "05b1369b0a8895bc0b412309fdd41a1a36f57e1c23e1f6e4d0299cebb1d952ce",
       "publisher": "CN=\"Figma, Inc.\", O=\"Figma, Inc.\", L=San Francisco, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "07C538441BD037E808C8A411EE923BA2",
       "thumbprint": "B9F6F7CB9C6CE2437C45D86BCC25A788422CADD4",
-      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-09-09T18:23:52Z"
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-09-11T03:56:39Z"
     },
     {
       "slug": "file-juicer/darwin",
@@ -5961,14 +5961,14 @@
     {
       "slug": "granola/windows",
       "name": "Granola",
-      "version": "7.543.3",
-      "sha256": "ab063703ae137c00550f333e2a1142cfbba359297e35a36c5f941c243f567356",
+      "version": "7.559.2",
+      "sha256": "571a15cf0f9939a120f217dd855649a2bfc92edf8e430db2f1e8d79f7a874029",
       "publisher": "CN=Granola Labs Ltd, O=Granola Labs Ltd, L=St. Albans, C=GB",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "09EC2851FE9C25200C0EBA306A0F3B4E",
       "thumbprint": "AECA9FD75FB1BA419EE81D17F667154095817355",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-09-10T15:15:20Z"
+      "lastUpdated": "2026-09-11T03:56:44Z"
     },
     {
       "slug": "graphviz/windows",
@@ -9047,14 +9047,14 @@
     {
       "slug": "notesnook/windows",
       "name": "Notesnook",
-      "version": "3.4.5",
-      "sha256": "1c487eab412c101d6f82d3e1718bb3d9cf13508a664abddd8ca7247a594dc6fa",
+      "version": "3.4.6",
+      "sha256": "75d194ec0cc30cab6cf46edadf80559e889e42efd1614dbf068f75f219e63e96",
       "publisher": "CN=Streetwriters Private Limited, O=Streetwriters Private Limited, L=Khushab, S=Punjab, C=PK",
-      "issuer": "CN=Microsoft ID Verified CS AOC CA 04, O=Microsoft Corporation, C=US",
-      "serialNumber": "330003D21C14FE86174076599700000003D21C",
-      "thumbprint": "4FFAE51EBEED6B1FB0CF0C385E21097A5563988B",
-      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7D00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-08-07T18:31:50Z"
+      "issuer": "CN=Microsoft ID Verified CS EOC CA 03, O=Microsoft Corporation, C=US",
+      "serialNumber": "3300046BBCD8AABF7BE186B690000000046BBC",
+      "thumbprint": "7FE89A82DB1D824EAAA6E6B932D11E0A89B69917",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7A00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-09-11T03:56:49Z"
     },
     {
       "slug": "notesollama/darwin",
