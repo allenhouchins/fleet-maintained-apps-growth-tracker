@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T04:21:13Z",
+  "lastUpdated": "2026-09-13T04:25:00Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1286,21 +1286,21 @@
     {
       "slug": "aws-cli/windows",
       "name": "AWS Command Line Interface v2",
-      "version": "2.36.43",
-      "sha256": "ca187bf7f63743907c4c0899f12d1b9e50a6f1d2c4c7d414fa3714d7f0cd2dbf",
+      "version": "2.36.44",
+      "sha256": "c120cab31c611ddb4bc583a5642778de4c52dce42850d3e160958a5b1c39bdbe",
       "publisher": "CN=\"Amazon Web Services, Inc.\", OU=AWS, O=\"Amazon Web Services, Inc.\", L=Seattle, S=Washington, C=US, SERIALNUMBER=4152954, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0590C4CF0DB014199953A68CFCE9B0E7",
       "thumbprint": "81A9EFB93199F2C7441EE14050360EDAB7E8242A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-09-11T03:55:47Z"
+      "lastUpdated": "2026-09-13T04:21:37Z"
     },
     {
       "slug": "aws-sam-cli/windows",
       "name": "AWS SAM Command Line Interface",
-      "version": "1.166.1",
-      "sha256": "8b9c632430d66f0b16906e5447ee77a637a130bce9fe1c2bf7e96c3bd36bcb66",
-      "lastUpdated": "2026-09-06T06:19:25Z"
+      "version": "1.166.2",
+      "sha256": "f7d5b6162b486d2eb9e2a82a674bef77c1201cbdab7c2ab357c97d6732875b85",
+      "lastUpdated": "2026-09-13T04:22:31Z"
     },
     {
       "slug": "aws-session-manager-plugin/windows",
@@ -1392,9 +1392,9 @@
     {
       "slug": "azure-functions-core-tools/windows",
       "name": "Azure Functions Core Tools",
-      "version": "4.13.0",
+      "version": "4.14.0",
       "sha256": "e8a931f5a719515d9df2ffe8296d4a0e79f386e828c03cc809f7114fb88d1c2a",
-      "lastUpdated": "2026-08-25T14:10:40Z"
+      "lastUpdated": "2026-09-13T04:23:17Z"
     },
     {
       "slug": "background-music/darwin",
@@ -3004,14 +3004,14 @@
     {
       "slug": "creative-force-kelvin/windows",
       "name": "Creative Force Kelvin",
-      "version": "6.9.0",
-      "sha256": "f2b703b31e90e32e35b9b113ea22d686008adfc84a64ddfc612c13cdf172dac0",
+      "version": "6.10.0",
+      "sha256": "885ce70e610e9d0718a39d39e2a7a4ba61ddd7fccab0af8347bac8254e0fe2ee",
       "publisher": "CN=\"Creativeforce.io, Inc.\", O=\"Creativeforce.io, Inc.\", L=San Francisco, S=California, C=US",
       "issuer": "CN=Microsoft ID Verified CS EOC CA 04, O=Microsoft Corporation, C=US",
-      "serialNumber": "330004D8F8EB708C2EFC8F969000000004D8F8",
-      "thumbprint": "90CE4BA70BF5E40488BD4149AB3862B643C7ECDD",
-      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7800-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-08-27T16:30:18Z"
+      "serialNumber": "330005A14C29AD41215D858EB300000005A14C",
+      "thumbprint": "A04AABCA8EA810726918E3243B41831C54503EE3",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:A500-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-09-13T04:24:27Z"
     },
     {
       "slug": "creative-force-triad/windows",
@@ -4473,14 +4473,14 @@
     {
       "slug": "electrum/windows",
       "name": "Electrum",
-      "version": "4.8.1",
-      "sha256": "aad7bb1193a395fa34e7191d6b1dd30d695515d016054e0cbd9511583a4615b8",
+      "version": "4.8.2",
+      "sha256": "4f88d1444d6ef50b17bf382c495af73e14a94a3173debaa0ea8583c9fffb0572",
       "publisher": "CN=Electrum Technologies GmbH, O=Electrum Technologies GmbH, L=Berlin, S=Berlin, C=DE, SERIALNUMBER=HRB 164636, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.1=Charlottenburg, OID.1.3.6.1.4.1.311.60.2.1.2=Berlin, OID.1.3.6.1.4.1.311.60.2.1.3=DE",
       "issuer": "CN=GoGetSSL G4 CS RSA4096 SHA256 2022 CA-1, O=EnVers Group SIA, C=LV",
       "serialNumber": "08EF7A3087096561BF9D25EF21B81544",
       "thumbprint": "7E68DEBE601919866BA9E463BDEC5969B0F25AE6",
-      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-08-13T02:32:51Z"
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-09-13T04:24:36Z"
     },
     {
       "slug": "element/darwin",
@@ -5048,14 +5048,14 @@
     {
       "slug": "firefox@nightly/windows",
       "name": "Mozilla Firefox Nightly",
-      "version": "158.2609.1014.0",
-      "sha256": "924e53c570ab12b25ad42bce137c6775ce54d250f2063edc79329a45b85eb99f",
+      "version": "158.2609.1120.0",
+      "sha256": "85b1e4849c9047d426c659404a1d32ab11235958d452678a8526b7b91356205f",
       "publisher": "CN=Mozilla Corporation, OU=Firefox Engineering Operations, O=Mozilla Corporation, L=San Francisco, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0F0EF7C2D819273E8C13F016D2E09B25",
       "thumbprint": "6663D5C4FDAF9EFD5F823A26C9C410DC9928C44A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-09-11T18:14:31Z"
+      "lastUpdated": "2026-09-13T04:24:41Z"
     },
     {
       "slug": "fission/darwin",
@@ -5373,14 +5373,14 @@
     {
       "slug": "gdevelop/windows",
       "name": "GDevelop",
-      "version": "5.6.281",
-      "sha256": "5430c52eb074882db406f829689ccb28424e70e51c63026000cecfb8dcb591f2",
+      "version": "5.6.282",
+      "sha256": "2e43682c9782fd8d598e2d4d0ffdb69dcaab5685e2f49330082a22105b475d5a",
       "publisher": "CN=GDevelop Ltd, O=GDevelop Ltd, L=London, C=GB",
       "issuer": "CN=SSL.com Code Signing Intermediate CA RSA R1, O=SSL Corp, L=Houston, S=Texas, C=US",
       "serialNumber": "46532C113DB31647FEBC6C4C1B9F9B8E",
       "thumbprint": "7651143AFF4CE5882ECB4165B0BF7F7BEF4E141F",
-      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-08-29T06:27:30Z"
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-09-13T04:24:46Z"
     },
     {
       "slug": "geany/darwin",
@@ -5502,14 +5502,14 @@
     {
       "slug": "gimp/windows",
       "name": "GIMP",
-      "version": "3.2.4.0",
-      "sha256": "ec31d757dd82831d201ffcf47ffeac4175df739e0c02d5122e89aeeadfb988cc",
+      "version": "3.2.6.0",
+      "sha256": "9337cccbc01d4098ee7a3dab215b3afbe6ece99c5287c92441d6f12cf541ebca",
       "publisher": "CN=Jernej Simončič, O=Jernej Simončič, L=Ljubljana, C=SI",
       "issuer": "CN=Certum Code Signing 2021 CA, O=Asseco Data Systems S.A., C=PL",
       "serialNumber": "04C7F0B4A058C867A8174952557CFA2F",
       "thumbprint": "9DCC14D7BB6BDE953624601AF7541456040666BB",
       "timestamp": "CN=Certum Timestamp 2026, O=Asseco Data Systems S.A., C=PL",
-      "lastUpdated": "2026-04-20T13:49:02Z"
+      "lastUpdated": "2026-09-13T04:24:52Z"
     },
     {
       "slug": "git-extensions/windows",
@@ -6880,14 +6880,14 @@
     {
       "slug": "joplin/windows",
       "name": "Joplin",
-      "version": "3.7.16",
-      "sha256": "fe1bbd9a0540ba961945e7fb74e795fb495d62421aba0c7323875376221bc253",
+      "version": "3.7.18",
+      "sha256": "88631fa78e352245bc5770573a0905d83876e530d97f222817177d7c9a6cae7f",
       "publisher": "CN=Joplin, O=Joplin, L=Nancy, C=FR",
       "issuer": "CN=SSL.com Code Signing Intermediate CA RSA R1, O=SSL Corp, L=Houston, S=Texas, C=US",
       "serialNumber": "73CFC43AF68F0F279BDD4C285494F440",
       "thumbprint": "AF0C1B9451567F9AF077DD0646D2927153B05DAF",
       "timestamp": "CN=SSL.com Timestamping Unit 2025 E1, O=SSL Corp, L=Houston, S=Texas, C=US",
-      "lastUpdated": "2026-09-08T06:00:41Z"
+      "lastUpdated": "2026-09-13T04:25:00Z"
     },
     {
       "slug": "jordanbaird-ice/darwin",
