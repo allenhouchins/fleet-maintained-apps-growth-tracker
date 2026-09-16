@@ -1,195 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-08-29T06:04:04Z",
-      "appName": "Gitify",
-      "slug": "gitify/darwin",
-      "platform": "darwin",
-      "oldVersion": "7.6.0",
-      "newVersion": "7.7.0",
-      "installerUrl": "https://github.com/gitify-app/gitify/releases/download/v7.7.0/Gitify-7.7.0-universal-mac.zip"
-    },
-    {
-      "date": "2026-08-29T06:04:04Z",
-      "appName": "GDevelop",
-      "slug": "gdevelop/darwin",
-      "platform": "darwin",
-      "oldVersion": "5.6.280",
-      "newVersion": "5.6.281",
-      "installerUrl": "https://github.com/4ian/GDevelop/releases/download/v5.6.281/GDevelop-5-5.6.281-universal.dmg"
-    },
-    {
-      "date": "2026-08-29T06:04:04Z",
-      "appName": "Super Productivity",
-      "slug": "super-productivity/darwin",
-      "platform": "darwin",
-      "oldVersion": "18.19.0",
-      "newVersion": "18.21.0",
-      "installerUrl": "https://github.com/super-productivity/super-productivity/releases/download/v18.21.0/superProductivity-arm64.dmg"
-    },
-    {
-      "date": "2026-08-29T06:04:04Z",
-      "appName": "SQLPro for MySQL",
-      "slug": "sqlpro-for-mysql/darwin",
-      "platform": "darwin",
-      "oldVersion": "2026.173",
-      "newVersion": "2026.238",
-      "installerUrl": "https://d3fwkemdw8spx3.cloudfront.net/mysql/SQLProMySQL.2026.238.app.zip"
-    },
-    {
-      "date": "2026-08-29T06:04:04Z",
-      "appName": "CodexBar",
-      "slug": "codexbar/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.55.1",
-      "newVersion": "0.56.0",
-      "installerUrl": "https://github.com/steipete/CodexBar/releases/download/v0.56.0/CodexBar-macos-universal-0.56.0.zip"
-    },
-    {
-      "date": "2026-08-29T06:04:04Z",
-      "appName": "AWS Client VPN",
-      "slug": "aws-vpn-client/darwin",
-      "platform": "darwin",
-      "oldVersion": "6.0.2",
-      "newVersion": "6.0.3",
-      "installerUrl": "https://d3c4iklh14o4hj.cloudfront.net/OSX_ARM64/6.0.3/AWS_VPN_Client_ARM64.pkg"
-    },
-    {
-      "date": "2026-08-29T06:04:04Z",
-      "appName": "Postman",
-      "slug": "postman/windows",
-      "platform": "windows",
-      "oldVersion": "12.25.6",
-      "newVersion": "12.25.7",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.25.7/windows_64"
-    },
-    {
-      "date": "2026-08-29T06:04:04Z",
-      "appName": "GDevelop",
-      "slug": "gdevelop/windows",
-      "platform": "windows",
-      "oldVersion": "5.6.280",
-      "newVersion": "5.6.281",
-      "installerUrl": "https://github.com/4ian/GDevelop/releases/download/v5.6.281/GDevelop-5-Setup-5.6.281.exe"
-    },
-    {
-      "date": "2026-08-29T06:04:04Z",
-      "appName": "AWS Command Line Interface v2",
-      "slug": "aws-cli/windows",
-      "platform": "windows",
-      "oldVersion": "2.36.32",
-      "newVersion": "2.36.33",
-      "installerUrl": "https://awscli.amazonaws.com/AWSCLIV2-2.36.33.msi"
-    },
-    {
-      "date": "2026-08-29T06:04:04Z",
-      "appName": "SQLPro Studio",
-      "slug": "sqlpro-studio/darwin",
-      "platform": "darwin",
-      "oldVersion": "2026.87",
-      "newVersion": "2026.238",
-      "installerUrl": "https://d3fwkemdw8spx3.cloudfront.net/studio/SQLProStudio.2026.238.app.zip"
-    },
-    {
-      "date": "2026-08-29T06:04:04Z",
-      "appName": "Cloudflare One",
-      "slug": "cloudflare-warp/darwin",
-      "platform": "darwin",
-      "oldVersion": "2026.7.1343.0",
-      "newVersion": "2026.7.1376.0",
-      "installerUrl": "https://downloads.cloudflareclient.com/v1/download/macos/version/2026.7.1376.0"
-    },
-    {
-      "date": "2026-08-29T06:04:04Z",
-      "appName": "Home Assistant",
-      "slug": "home-assistant/darwin",
-      "platform": "darwin",
-      "oldVersion": "2026.7.3",
-      "newVersion": "2026.8.0",
-      "installerUrl": "https://github.com/home-assistant/iOS/releases/download/release%2F2026.8.0%2F2026.2805/home-assistant-mac.zip"
-    },
-    {
-      "date": "2026-08-30T04:11:03Z",
-      "appName": "IBM Semeru Runtime Open Edition JDK 8",
-      "slug": "ibm-semeru-jdk-8/windows",
-      "platform": "windows",
-      "oldVersion": "8.0.502.0",
-      "newVersion": "8.0.504.0",
-      "installerUrl": "https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk-8.0.504.0/ibm-semeru-open-jdk_x64_windows_8.0.504.0.msi"
-    },
-    {
-      "date": "2026-08-30T04:11:03Z",
-      "appName": "IBM Semeru Runtime Open Edition JDK 21",
-      "slug": "ibm-semeru-jdk-21/windows",
-      "platform": "windows",
-      "oldVersion": "21.0.12.0",
-      "newVersion": "21.0.12.10",
-      "installerUrl": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.12.10/ibm-semeru-open-jdk_x64_windows_21.0.12.10.msi"
-    },
-    {
-      "date": "2026-08-30T04:11:03Z",
-      "appName": "Amadeus Pro",
-      "slug": "amadeus-pro/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.8.14",
-      "newVersion": "3.0.2",
-      "installerUrl": "https://s3.amazonaws.com/HairerSoftPublic/AmadeusPro3/AmadeusPro.zip"
-    },
-    {
-      "date": "2026-08-30T04:11:03Z",
-      "appName": "Readest",
-      "slug": "readest/windows",
-      "platform": "windows",
-      "oldVersion": "0.12.1",
-      "newVersion": "0.12.6",
-      "installerUrl": "https://github.com/readest/readest/releases/download/v0.12.6/Readest_0.12.6_x64-setup.exe"
-    },
-    {
-      "date": "2026-08-30T04:11:03Z",
-      "appName": "Proton Drive",
-      "slug": "proton-drive/windows",
-      "platform": "windows",
-      "oldVersion": "3.0.5",
-      "newVersion": "3.0.6",
-      "installerUrl": "https://proton.me/download/drive/windows/3.0.6/x64/Proton%20Drive%20Setup%203.0.6.exe"
-    },
-    {
-      "date": "2026-08-30T04:11:03Z",
-      "appName": "Cherry Studio",
-      "slug": "cherry-studio/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.0.9",
-      "newVersion": "2.0.10",
-      "installerUrl": "https://github.com/CherryHQ/cherry-studio/releases/download/v2.0.10/Cherry-Studio-2.0.10-mac-arm64.dmg"
-    },
-    {
-      "date": "2026-08-30T04:11:03Z",
-      "appName": "Adobe Acrobat Reader",
-      "slug": "adobe-acrobat-reader/windows",
-      "platform": "windows",
-      "oldVersion": "26.001.21789",
-      "newVersion": "26.002.21869",
-      "installerUrl": "https://ardownload2.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2600221869/AcroRdrDCx642600221869_MUI.exe"
-    },
-    {
-      "date": "2026-08-30T04:11:03Z",
-      "appName": "Ollama",
-      "slug": "ollama/windows",
-      "platform": "windows",
-      "oldVersion": "0.33.1",
-      "newVersion": "0.33.2",
-      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.33.2/OllamaSetup.exe"
-    },
-    {
-      "date": "2026-08-30T04:11:03Z",
-      "appName": "IBM Semeru Runtime Open Edition JRE 8",
-      "slug": "ibm-semeru-jre-8/windows",
-      "platform": "windows",
-      "oldVersion": "8.0.502.0",
-      "newVersion": "8.0.504.0",
-      "installerUrl": "https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk-8.0.504.0/ibm-semeru-open-jre_x64_windows_8.0.504.0.msi"
-    },
-    {
       "date": "2026-08-30T04:11:03Z",
       "appName": "MEGAsync",
       "slug": "megasync/windows",
@@ -8999,6 +8810,195 @@
       "oldVersion": "6.1.0",
       "newVersion": "6.1.1",
       "installerUrl": "https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v6.1.1/Beekeeper-Studio-Setup-6.1.1.exe"
+    },
+    {
+      "date": "2026-09-16T22:01:25Z",
+      "appName": "Zed",
+      "slug": "zed/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.19.2",
+      "newVersion": "1.20.1",
+      "installerUrl": "https://zed.dev/api/releases/stable/1.20.1/Zed-aarch64.dmg"
+    },
+    {
+      "date": "2026-09-16T22:01:25Z",
+      "appName": "Prisma Browser",
+      "slug": "prisma-browser/windows",
+      "platform": "windows",
+      "oldVersion": "153.3.3.37",
+      "newVersion": "153.3.4.48",
+      "installerUrl": "https://updates.talon-sec.com/releases/Prisma%20Access%20Browser/win/packaged/x64/crx_signed_o4_stable_prisma_access_browser_installer_153_3_4_48-153.3.4.48-1e753543.msi"
+    },
+    {
+      "date": "2026-09-16T22:01:25Z",
+      "appName": "Teleport Suite",
+      "slug": "teleport-suite/darwin",
+      "platform": "darwin",
+      "oldVersion": "18.11.0",
+      "newVersion": "18.11.1",
+      "installerUrl": "https://cdn.teleport.dev/teleport-18.11.1.pkg"
+    },
+    {
+      "date": "2026-09-16T22:01:25Z",
+      "appName": "Microsoft Visual Studio Code",
+      "slug": "visual-studio-code/windows",
+      "platform": "windows",
+      "oldVersion": "1.137.0",
+      "newVersion": "1.138.0",
+      "installerUrl": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/7debcd0e2acdea1c52de81bf9ee1620444407dda/VSCodeSetup-x64-1.138.0.exe"
+    },
+    {
+      "date": "2026-09-16T22:01:25Z",
+      "appName": "Brave",
+      "slug": "brave-browser/darwin",
+      "platform": "darwin",
+      "oldVersion": "153.1.95.101",
+      "newVersion": "153.1.95.102",
+      "installerUrl": "https://updates-cdn.bravesoftware.com/sparkle/Brave-Browser/stable-arm64/195.102/Brave-Browser-arm64.dmg"
+    },
+    {
+      "date": "2026-09-16T22:01:25Z",
+      "appName": "Spokenly",
+      "slug": "spokenly/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.29.4",
+      "newVersion": "2.29.5",
+      "installerUrl": "https://cdn.spokenly.app/releases/macos/Spokenly-2.29.5.dmg"
+    },
+    {
+      "date": "2026-09-16T22:01:25Z",
+      "appName": "ReSharper",
+      "slug": "resharper/windows",
+      "platform": "windows",
+      "oldVersion": "2026.2.1",
+      "newVersion": "2026.2.2",
+      "installerUrl": "https://download.jetbrains.com/resharper/dotUltimate.2026.2.2/JetBrains.ReSharper.2026.2.2.web.exe"
+    },
+    {
+      "date": "2026-09-16T22:01:25Z",
+      "appName": "PreForm",
+      "slug": "preform/windows",
+      "platform": "windows",
+      "oldVersion": "3.62.1.648",
+      "newVersion": "3.63.0.651",
+      "installerUrl": "https://downloads.formlabs.com/PreForm/Release/3.63.0/PreForm_win_3.63.0_release_releaser_651_133718.exe"
+    },
+    {
+      "date": "2026-09-16T22:01:25Z",
+      "appName": "Zed",
+      "slug": "zed/windows",
+      "platform": "windows",
+      "oldVersion": "1.19.2",
+      "newVersion": "1.20.1",
+      "installerUrl": "https://github.com/zed-industries/zed/releases/download/v1.20.1/Zed-x86_64.exe"
+    },
+    {
+      "date": "2026-09-16T22:01:25Z",
+      "appName": "Syntax Highlight",
+      "slug": "syntax-highlight/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.1.31",
+      "newVersion": "2.1.32",
+      "installerUrl": "https://github.com/sbarex/SourceCodeSyntaxHighlight/releases/download/2.1.32/Syntax.Highlight.zip"
+    },
+    {
+      "date": "2026-09-16T22:01:25Z",
+      "appName": "WeChat for Mac",
+      "slug": "wechat/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.1.15.17",
+      "newVersion": "4.1.15.18",
+      "installerUrl": "https://dldir1.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.15.18_270098.dmg"
+    },
+    {
+      "date": "2026-09-16T22:01:25Z",
+      "appName": "GeoGebra Classic",
+      "slug": "geogebra-classic/windows",
+      "platform": "windows",
+      "oldVersion": "6.0.929",
+      "newVersion": "6.0.930",
+      "installerUrl": "https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Installer-6-0-930-2.msi"
+    },
+    {
+      "date": "2026-09-16T22:01:25Z",
+      "appName": "Marked",
+      "slug": "marked-app/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.2.4",
+      "newVersion": "3.2.5",
+      "installerUrl": "https://updates.markedapp.com/updates/Marked%203.2.5-1220.zip"
+    },
+    {
+      "date": "2026-09-16T22:01:25Z",
+      "appName": "Nextcloud",
+      "slug": "nextcloud/windows",
+      "platform": "windows",
+      "oldVersion": "34.0.3",
+      "newVersion": "34.0.4",
+      "installerUrl": "https://github.com/nextcloud-releases/desktop/releases/download/v34.0.4/Nextcloud-34.0.4-x64.msi"
+    },
+    {
+      "date": "2026-09-16T22:01:25Z",
+      "appName": "BetterTouchTool",
+      "slug": "bettertouchtool/darwin",
+      "platform": "darwin",
+      "oldVersion": "6.824",
+      "newVersion": "6.825",
+      "installerUrl": "https://folivora.ai/releases/btt6.825-2026091505.zip"
+    },
+    {
+      "date": "2026-09-16T22:01:25Z",
+      "appName": "Teleport Connect",
+      "slug": "teleport-connect/darwin",
+      "platform": "darwin",
+      "oldVersion": "18.11.0",
+      "newVersion": "18.11.1",
+      "installerUrl": "https://cdn.teleport.dev/Teleport%20Connect-18.11.1.dmg"
+    },
+    {
+      "date": "2026-09-16T22:01:25Z",
+      "appName": "Connect Fonts",
+      "slug": "connect-fonts/darwin",
+      "platform": "darwin",
+      "oldVersion": "28.1.7",
+      "newVersion": "28.1.8",
+      "installerUrl": "https://bin.extensis.com/ConnectFonts-M-28-1-8.dmg"
+    },
+    {
+      "date": "2026-09-16T22:01:25Z",
+      "appName": "TREZOR Suite",
+      "slug": "trezor-suite/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.8.2",
+      "newVersion": "26.9.2",
+      "installerUrl": "https://data.trezor.io/suite/releases/desktop/latest/Trezor-Suite-26.9.2-mac-arm64.dmg"
+    },
+    {
+      "date": "2026-09-16T22:01:25Z",
+      "appName": "Zen Browser",
+      "slug": "zen/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.22.1b",
+      "newVersion": "1.22.2b",
+      "installerUrl": "https://github.com/zen-browser/desktop/releases/download/1.22.2b/zen.macos-universal.dmg"
+    },
+    {
+      "date": "2026-09-16T22:01:25Z",
+      "appName": "4K YouTube to MP3",
+      "slug": "4k-youtube-to-mp3/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.3.2",
+      "newVersion": "26.3.3",
+      "installerUrl": "https://dl.4kdownload.com/app/4kyoutubetomp3_26.3.3_arm64.dmg"
+    },
+    {
+      "date": "2026-09-16T22:01:25Z",
+      "appName": "Teleport Connect",
+      "slug": "teleport-connect/windows",
+      "platform": "windows",
+      "oldVersion": "18.11.0",
+      "newVersion": "18.11.1",
+      "installerUrl": "https://cdn.teleport.dev/Teleport%20Connect%20Setup-18.11.1.exe"
     }
   ]
 }
