@@ -727,7 +727,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: September 15, 2026 at 11:49 PM CDT</p>
+            Last updated: September 15, 2026 at 11:57 PM CDT</p>
         </div>
     </div>
 
@@ -788,7 +788,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: September 15, 2026 at 11:49 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: September 15, 2026 at 11:57 PM CDT</p>
             </div>
         </div>
     </div>
@@ -11333,7 +11333,16 @@
                 "platform": "windows",
                 "description": "Mozilla Firefox Developer Edition (ARM64) is the native ARM64 build of the Firefox web browser made for web developers, with cutting-edge features and built-in developer tools.",
                 "version": "156.0",
-                "installerUrl": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/156.0b2/win64-aarch64/en-US/Firefox%20Setup%20156.0b2.exe"
+                "installerUrl": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/156.0b2/win64-aarch64/en-US/Firefox%20Setup%20156.0b2.exe",
+                "securityInfo": {
+                  "sha256": "8a54f365080466fe0e3072588ff1b047c2350ea8b937d195b500b184c2655c2e",
+                  "publisher": "CN=Mozilla Corporation, OU=Firefox Engineering Operations, O=Mozilla Corporation, L=San Francisco, S=California, C=US",
+                  "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+                  "serialNumber": "0F0EF7C2D819273E8C13F016D2E09B25",
+                  "thumbprint": "6663D5C4FDAF9EFD5F823A26C9C410DC9928C44A",
+                  "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+                  "lastUpdated": "2026-09-16T04:56:02Z"
+                }
               },
               {
                 "name": "Mozilla Firefox Developer Edition",
@@ -11405,7 +11414,16 @@
                 "platform": "windows",
                 "description": "Mozilla Firefox Nightly (ARM64) is the native ARM64 build of Firefox Nightly, the daily development build of the Firefox web browser with the newest features before they reach beta and release.",
                 "version": "158.2609.1014.0",
-                "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/09/2026-09-10-14-32-52-mozilla-central/firefox-158.0a1.multi.win64-aarch64.installer.msix"
+                "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/09/2026-09-10-14-32-52-mozilla-central/firefox-158.0a1.multi.win64-aarch64.installer.msix",
+                "securityInfo": {
+                  "sha256": "313aef54dd56048200e8f463728cb6f406ad9fc921304adc58ac3aadb6ac5e17",
+                  "publisher": "CN=Mozilla Corporation, OU=Firefox Engineering Operations, O=Mozilla Corporation, L=San Francisco, S=California, C=US",
+                  "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+                  "serialNumber": "0F0EF7C2D819273E8C13F016D2E09B25",
+                  "thumbprint": "6663D5C4FDAF9EFD5F823A26C9C410DC9928C44A",
+                  "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
+                  "lastUpdated": "2026-09-16T04:56:10Z"
+                }
               },
               {
                 "name": "Mozilla Firefox Nightly",
@@ -27398,7 +27416,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `September 15, 2026 at 11:49 PM CDT`;
+                let timestampText = 'Last updated: ' + `September 15, 2026 at 11:57 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
