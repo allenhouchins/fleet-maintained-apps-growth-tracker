@@ -727,7 +727,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: September 17, 2026 at 10:41 PM CDT</p>
+            Last updated: September 17, 2026 at 10:47 PM CDT</p>
         </div>
     </div>
 
@@ -788,7 +788,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: September 17, 2026 at 10:41 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: September 17, 2026 at 10:47 PM CDT</p>
             </div>
         </div>
     </div>
@@ -17607,7 +17607,14 @@
                 "platform": "darwin",
                 "description": "NVIDIA Sync is a utility for launching applications and containers on remote Linux systems.",
                 "version": "0.117.3-12",
-                "installerUrl": "https://workbench.download.nvidia.com/stable/nvidia-sync/0.117.3-12/nvidia-sync.dmg"
+                "installerUrl": "https://workbench.download.nvidia.com/stable/nvidia-sync/0.117.3-12/nvidia-sync.dmg",
+                "securityInfo": {
+                  "sha256": "3a9a9caaaca8d6b6f64d92c71164cf310cb834d44eed6164b781bea28508d135",
+                  "cdhash": "ae63dd9c44eacf70f225176dd143da058e4c8c15",
+                  "signingId": "6KR3T733EC:com.nvidia.nvidia-sync",
+                  "teamId": "6KR3T733EC",
+                  "lastUpdated": "2026-09-18T03:43:02Z"
+                }
               },
               {
                 "name": "OBS",
@@ -27443,7 +27450,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `September 17, 2026 at 10:41 PM CDT`;
+                let timestampText = 'Last updated: ' + `September 17, 2026 at 10:47 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
