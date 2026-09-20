@@ -2,123 +2,6 @@
   "changes": [
     {
       "date": "2026-09-02T23:05:48Z",
-      "appName": "Grammarly Desktop",
-      "slug": "grammarly-desktop/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.187.0",
-      "newVersion": "1.189.2",
-      "installerUrl": "https://download-mac.grammarly.com/versions/1.189.2.0/Grammarly.dmg"
-    },
-    {
-      "date": "2026-09-02T23:05:48Z",
-      "appName": "dRofus",
-      "slug": "drofus/windows",
-      "platform": "windows",
-      "oldVersion": "2.18.15.0",
-      "newVersion": "2.18.16.0",
-      "installerUrl": "https://deploy.drofus.com/stable/drofus-setup-2.18.16.msi"
-    },
-    {
-      "date": "2026-09-02T23:05:48Z",
-      "appName": "Snagit",
-      "slug": "snagit/darwin",
-      "platform": "darwin",
-      "oldVersion": "2026.3.1",
-      "newVersion": "2026.3.2",
-      "installerUrl": "https://download.techsmith.com/snagitmac/releases/2026.3.2/snagit.dmg"
-    },
-    {
-      "date": "2026-09-02T23:05:48Z",
-      "appName": "Wrike",
-      "slug": "wrike/windows",
-      "platform": "windows",
-      "oldVersion": "4.6.1",
-      "newVersion": "4.6.2",
-      "installerUrl": "https://dl.wrike.com/download/WrikeDesktopApp_64.v4.6.2.msi"
-    },
-    {
-      "date": "2026-09-02T23:05:48Z",
-      "appName": "Podman Desktop",
-      "slug": "podman-desktop/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.29.1",
-      "newVersion": "1.29.3",
-      "installerUrl": "https://github.com/containers/podman-desktop/releases/download/v1.29.3/podman-desktop-1.29.3-arm64.dmg"
-    },
-    {
-      "date": "2026-09-02T23:05:48Z",
-      "appName": "Aptakube",
-      "slug": "aptakube/windows",
-      "platform": "windows",
-      "oldVersion": "1.19.5",
-      "newVersion": "1.19.6",
-      "installerUrl": "https://releases.aptakube.com/Aptakube_1.19.6_x64_en-US.msi"
-    },
-    {
-      "date": "2026-09-02T23:05:48Z",
-      "appName": "ExtraDock",
-      "slug": "extradock/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.3.11",
-      "newVersion": "4.3.12",
-      "installerUrl": "https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.3.12/extraDock.dmg"
-    },
-    {
-      "date": "2026-09-02T23:05:48Z",
-      "appName": "Wrike",
-      "slug": "wrike/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.6.1",
-      "newVersion": "4.6.2",
-      "installerUrl": "https://dl.wrike.com/download/WrikeDesktopApp_ARM.v4.6.2.dmg"
-    },
-    {
-      "date": "2026-09-02T23:05:48Z",
-      "appName": "Brave",
-      "slug": "brave-browser/darwin",
-      "platform": "darwin",
-      "oldVersion": "152.1.94.117",
-      "newVersion": "152.1.94.119",
-      "installerUrl": "https://updates-cdn.bravesoftware.com/sparkle/Brave-Browser/stable-arm64/194.119/Brave-Browser-arm64.dmg"
-    },
-    {
-      "date": "2026-09-02T23:05:48Z",
-      "appName": "Microsoft Visual Studio Code",
-      "slug": "visual-studio-code/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.135.0",
-      "newVersion": "1.136.0",
-      "installerUrl": "https://update.code.visualstudio.com/1.136.0/darwin-universal/stable"
-    },
-    {
-      "date": "2026-09-02T23:05:48Z",
-      "appName": "GitKraken",
-      "slug": "gitkraken/darwin",
-      "platform": "darwin",
-      "oldVersion": "12.4.0",
-      "newVersion": "12.4.1",
-      "installerUrl": "https://api.gitkraken.dev/releases/production/darwin/arm64/12.4.1/GitKraken-v12.4.1.zip"
-    },
-    {
-      "date": "2026-09-02T23:05:48Z",
-      "appName": "Unity Hub",
-      "slug": "unity-hub/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.21.0",
-      "newVersion": "3.21.1",
-      "installerUrl": "https://public-cdn.cloud.unity3d.com/hub/prod/3.21.1/UnityHubSetup-3.21.1-arm64.dmg"
-    },
-    {
-      "date": "2026-09-02T23:05:48Z",
-      "appName": "OneDrive",
-      "slug": "onedrive/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.145.0728",
-      "newVersion": "26.150.0804",
-      "installerUrl": "https://oneclient.sfx.ms/Mac/Installers/26.150.0804.0011/universal/OneDrive.pkg"
-    },
-    {
-      "date": "2026-09-02T23:05:48Z",
       "appName": "ocenaudio",
       "slug": "ocenaudio/darwin",
       "platform": "darwin",
@@ -8999,6 +8882,123 @@
       "oldVersion": "16.113",
       "newVersion": "16.113.1",
       "installerUrl": "https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.113.26091740_Installer.pkg"
+    },
+    {
+      "date": "2026-09-20T14:38:43Z",
+      "appName": "Mailspring",
+      "slug": "mailspring/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.24.1",
+      "newVersion": "1.25.0",
+      "installerUrl": "https://github.com/Foundry376/Mailspring/releases/download/1.25.0/Mailspring-AppleSilicon.zip"
+    },
+    {
+      "date": "2026-09-20T14:38:43Z",
+      "appName": "TickTick",
+      "slug": "ticktick/darwin",
+      "platform": "darwin",
+      "oldVersion": "8.2.10",
+      "newVersion": "8.2.20",
+      "installerUrl": "https://download.ticktick.app/download/mac/TickTick_8.2.20_922.dmg"
+    },
+    {
+      "date": "2026-09-20T14:38:43Z",
+      "appName": "BetterTouchTool",
+      "slug": "bettertouchtool/darwin",
+      "platform": "darwin",
+      "oldVersion": "6.831",
+      "newVersion": "6.836",
+      "installerUrl": "https://folivora.ai/releases/btt6.836-2026091904.zip"
+    },
+    {
+      "date": "2026-09-20T14:38:43Z",
+      "appName": "RewriteBar",
+      "slug": "rewritebar/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.33.0",
+      "newVersion": "2.34.0",
+      "installerUrl": "https://rewritebar.com/download/v2.34.0.zip"
+    },
+    {
+      "date": "2026-09-20T14:38:43Z",
+      "appName": "OnlySwitch",
+      "slug": "only-switch/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.7.5",
+      "newVersion": "2.7.6",
+      "installerUrl": "https://github.com/jacklandrin/OnlySwitch/releases/download/release_2.7.6/OnlySwitch.dmg"
+    },
+    {
+      "date": "2026-09-20T14:38:43Z",
+      "appName": "CodexBar",
+      "slug": "codexbar/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.61.0",
+      "newVersion": "0.62.0",
+      "installerUrl": "https://github.com/steipete/CodexBar/releases/download/v0.62.0/CodexBar-macos-universal-0.62.0.zip"
+    },
+    {
+      "date": "2026-09-20T14:38:43Z",
+      "appName": "Apidog",
+      "slug": "apidog/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.8.47",
+      "newVersion": "2.8.48",
+      "installerUrl": "https://file-assets.apidog.com/download/2.8.48/legacy-Apidog-macOS-arm64-2.8.48.dmg"
+    },
+    {
+      "date": "2026-09-20T14:38:43Z",
+      "appName": "Easydict",
+      "slug": "easydict/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.21.0",
+      "newVersion": "2.22.0",
+      "installerUrl": "https://github.com/tisfeng/Easydict/releases/download/2.22.0/Easydict.dmg"
+    },
+    {
+      "date": "2026-09-20T14:38:43Z",
+      "appName": "MQTTX",
+      "slug": "mqttx/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.13.0",
+      "newVersion": "1.13.1",
+      "installerUrl": "https://github.com/emqx/MQTTX/releases/download/v1.13.1/MQTTX-1.13.1-arm64.dmg"
+    },
+    {
+      "date": "2026-09-20T14:38:43Z",
+      "appName": "Franz",
+      "slug": "franz/darwin",
+      "platform": "darwin",
+      "oldVersion": "6.8.0",
+      "newVersion": "6.8.2",
+      "installerUrl": "https://github.com/meetfranz/franz-6/releases/download/v6.8.2/Franz-arm64.dmg"
+    },
+    {
+      "date": "2026-09-20T14:38:43Z",
+      "appName": "Super Productivity",
+      "slug": "super-productivity/darwin",
+      "platform": "darwin",
+      "oldVersion": "19.0.1",
+      "newVersion": "19.1.0",
+      "installerUrl": "https://github.com/super-productivity/super-productivity/releases/download/v19.1.0/superProductivity-arm64.dmg"
+    },
+    {
+      "date": "2026-09-20T14:38:43Z",
+      "appName": "ExtraDock",
+      "slug": "extradock/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.3.18",
+      "newVersion": "4.3.21",
+      "installerUrl": "https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.3.21/extraDock.dmg"
+    },
+    {
+      "date": "2026-09-20T14:38:43Z",
+      "appName": "Cursor",
+      "slug": "cursor/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.21.13",
+      "newVersion": "3.21.16",
+      "installerUrl": "https://downloads.cursor.com/production/8ae78e8eee1e63479c7e0504b664bc0a80c6800f/darwin/arm64/Cursor-darwin-arm64.zip"
     }
   ]
 }
