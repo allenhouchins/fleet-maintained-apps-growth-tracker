@@ -727,7 +727,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: September 20, 2026 at 7:07 PM CDT</p>
+            Last updated: September 20, 2026 at 10:50 PM CDT</p>
         </div>
     </div>
 
@@ -788,7 +788,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: September 20, 2026 at 7:07 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: September 20, 2026 at 10:50 PM CDT</p>
             </div>
         </div>
     </div>
@@ -1362,7 +1362,8 @@
             "2026-09-17",
             "2026-09-18",
             "2026-09-19",
-            "2026-09-20"
+            "2026-09-20",
+            "2026-09-21"
           ],
           "counts": [
             20,
@@ -1928,6 +1929,7 @@
             1416,
             1418,
             1418,
+            1419,
             1419,
             1419,
             1419
@@ -2498,6 +2500,7 @@
             0,
             1,
             0,
+            0,
             0
           ],
           "macCounts": [
@@ -3066,6 +3069,7 @@
             968,
             969,
             969,
+            969,
             969
           ],
           "windowsCounts": [
@@ -3630,6 +3634,7 @@
             448,
             448,
             448,
+            450,
             450,
             450,
             450,
@@ -26112,7 +26117,8 @@
             "2026-09-17",
             "2026-09-18",
             "2026-09-19",
-            "2026-09-20"
+            "2026-09-20",
+            "2026-09-21"
           ],
           "macCounts": [
             3,
@@ -26420,7 +26426,8 @@
             75,
             36,
             34,
-            13
+            13,
+            0
           ],
           "windowsCounts": [
             2,
@@ -26728,6 +26735,7 @@
             23,
             15,
             16,
+            0,
             0
           ]
         };
@@ -27466,7 +27474,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `September 20, 2026 at 7:07 PM CDT`;
+                let timestampText = 'Last updated: ' + `September 20, 2026 at 10:50 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
