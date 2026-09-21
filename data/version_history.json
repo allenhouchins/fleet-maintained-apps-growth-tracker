@@ -2,195 +2,6 @@
   "changes": [
     {
       "date": "2026-09-03T17:37:52Z",
-      "appName": "Raycast",
-      "slug": "raycast/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.1.3.0",
-      "newVersion": "2.2.0.0",
-      "installerUrl": "https://x.raycast-releases.com/download?platform=macos\u0026architecture=arm64\u0026version=2.2.0.0"
-    },
-    {
-      "date": "2026-09-03T17:37:52Z",
-      "appName": "Microsoft Visual Studio Code",
-      "slug": "visual-studio-code/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.136.0",
-      "newVersion": "1.136.1",
-      "installerUrl": "https://update.code.visualstudio.com/1.136.1/darwin-universal/stable"
-    },
-    {
-      "date": "2026-09-03T17:37:52Z",
-      "appName": "PhpStorm",
-      "slug": "phpstorm/darwin",
-      "platform": "darwin",
-      "oldVersion": "2026.2.1",
-      "newVersion": "2026.2.2",
-      "installerUrl": "https://download.jetbrains.com/webide/PhpStorm-2026.2.2-aarch64.dmg"
-    },
-    {
-      "date": "2026-09-03T17:37:52Z",
-      "appName": "IntelliJ IDEA",
-      "slug": "intellij-idea/darwin",
-      "platform": "darwin",
-      "oldVersion": "2026.2.1",
-      "newVersion": "2026.2.2",
-      "installerUrl": "https://download.jetbrains.com/idea/ideaIU-2026.2.2-aarch64.dmg"
-    },
-    {
-      "date": "2026-09-03T17:37:52Z",
-      "appName": "RubyMine",
-      "slug": "rubymine/darwin",
-      "platform": "darwin",
-      "oldVersion": "2026.2.1",
-      "newVersion": "2026.2.2",
-      "installerUrl": "https://download.jetbrains.com/ruby/RubyMine-2026.2.2-aarch64.dmg"
-    },
-    {
-      "date": "2026-09-03T17:37:52Z",
-      "appName": "TeamViewer Host",
-      "slug": "teamviewer-host/windows",
-      "platform": "windows",
-      "oldVersion": "15.81.5",
-      "newVersion": "15.81.6",
-      "installerUrl": "https://download.teamviewer.com/download/version_15x/TeamViewer_Host_Setup_x64.exe"
-    },
-    {
-      "date": "2026-09-03T17:37:52Z",
-      "appName": "GoLand",
-      "slug": "goland/windows",
-      "platform": "windows",
-      "oldVersion": "2026.2.1.1",
-      "newVersion": "2026.2.2",
-      "installerUrl": "https://download.jetbrains.com/go/goland-2026.2.2.exe"
-    },
-    {
-      "date": "2026-09-03T17:37:52Z",
-      "appName": "Cherry Studio",
-      "slug": "cherry-studio/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.0.10",
-      "newVersion": "2.0.11",
-      "installerUrl": "https://github.com/CherryHQ/cherry-studio/releases/download/v2.0.11/Cherry-Studio-2.0.11-mac-arm64.dmg"
-    },
-    {
-      "date": "2026-09-03T17:37:52Z",
-      "appName": "Yaak",
-      "slug": "yaak/windows",
-      "platform": "windows",
-      "oldVersion": "2026.7.0",
-      "newVersion": "2026.7.1",
-      "installerUrl": "https://github.com/mountain-loop/yaak/releases/download/v2026.7.1/Yaak_2026.7.1_x64-setup.exe"
-    },
-    {
-      "date": "2026-09-03T17:37:52Z",
-      "appName": "Podman Desktop",
-      "slug": "podman-desktop/windows",
-      "platform": "windows",
-      "oldVersion": "1.29.1",
-      "newVersion": "1.29.3",
-      "installerUrl": "https://github.com/containers/podman-desktop/releases/download/v1.29.3/podman-desktop-1.29.3-setup-x64.exe"
-    },
-    {
-      "date": "2026-09-03T17:37:52Z",
-      "appName": "Vivaldi",
-      "slug": "vivaldi/darwin",
-      "platform": "darwin",
-      "oldVersion": "8.1.4087.75",
-      "newVersion": "8.2.4133.45",
-      "installerUrl": "https://downloads.vivaldi.com/stable/Vivaldi.8.2.4133.45.universal.dmg"
-    },
-    {
-      "date": "2026-09-03T17:37:52Z",
-      "appName": "ImageGlass",
-      "slug": "imageglass/windows",
-      "platform": "windows",
-      "oldVersion": "10.0.819.0",
-      "newVersion": "10.0.825.0",
-      "installerUrl": "https://github.com/d2phap/ImageGlass/releases/download/10.0.5.825/ImageGlass_10.0.5.825_win-x64.msix"
-    },
-    {
-      "date": "2026-09-03T17:37:52Z",
-      "appName": "Winlogbeat",
-      "slug": "winlogbeat/windows",
-      "platform": "windows",
-      "oldVersion": "9.5.2",
-      "newVersion": "9.5.3",
-      "installerUrl": "https://artifacts.elastic.co/downloads/beats/winlogbeat/winlogbeat-9.5.3-windows-x86_64.msi"
-    },
-    {
-      "date": "2026-09-03T17:37:52Z",
-      "appName": "Postman",
-      "slug": "postman/windows",
-      "platform": "windows",
-      "oldVersion": "12.26.0",
-      "newVersion": "12.26.4",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.26.4/windows_64"
-    },
-    {
-      "date": "2026-09-03T17:37:52Z",
-      "appName": "Vivaldi",
-      "slug": "vivaldi/windows",
-      "platform": "windows",
-      "oldVersion": "8.1.4087.75",
-      "newVersion": "8.2.4133.45",
-      "installerUrl": "https://downloads.vivaldi.com/stable/Vivaldi.8.2.4133.45.x64.exe"
-    },
-    {
-      "date": "2026-09-03T17:37:52Z",
-      "appName": "WeChat for Mac",
-      "slug": "wechat/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.1.13.11",
-      "newVersion": "4.1.13.59",
-      "installerUrl": "https://dldir1.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.13.59_269627.dmg"
-    },
-    {
-      "date": "2026-09-03T17:37:52Z",
-      "appName": "Thorium Reader",
-      "slug": "thorium/windows",
-      "platform": "windows",
-      "oldVersion": "3.4.0",
-      "newVersion": "3.5.1",
-      "installerUrl": "https://github.com/edrlab/thorium-reader/releases/download/v3.5.1/Thorium-3.5.1-x64.exe"
-    },
-    {
-      "date": "2026-09-03T17:37:52Z",
-      "appName": "DataGrip",
-      "slug": "datagrip/darwin",
-      "platform": "darwin",
-      "oldVersion": "2026.2.4",
-      "newVersion": "2026.2.5",
-      "installerUrl": "https://download.jetbrains.com/datagrip/datagrip-2026.2.5-aarch64.dmg"
-    },
-    {
-      "date": "2026-09-03T17:37:52Z",
-      "appName": "Google Chrome",
-      "slug": "google-chrome/windows",
-      "platform": "windows",
-      "oldVersion": "152.0.7977.65",
-      "newVersion": "152.0.7977.76",
-      "installerUrl": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi"
-    },
-    {
-      "date": "2026-09-03T17:37:52Z",
-      "appName": "Fellow",
-      "slug": "fellow/windows",
-      "platform": "windows",
-      "oldVersion": "5.7.2",
-      "newVersion": "5.7.7",
-      "installerUrl": "https://cdn.fellow.app/desktop/5.7.7/win32/stable/x64/Fellow-5.7.7.exe"
-    },
-    {
-      "date": "2026-09-03T17:37:52Z",
-      "appName": "GoLand",
-      "slug": "goland/darwin",
-      "platform": "darwin",
-      "oldVersion": "2026.2.1.1",
-      "newVersion": "2026.2.2",
-      "installerUrl": "https://download.jetbrains.com/go/goland-2026.2.2-aarch64.dmg"
-    },
-    {
-      "date": "2026-09-03T17:37:52Z",
       "appName": "Lens",
       "slug": "lens/windows",
       "platform": "windows",
@@ -8999,6 +8810,195 @@
       "oldVersion": "11.7.0",
       "newVersion": "11.7.1",
       "installerUrl": "https://github.com/lwouis/alt-tab-macos/releases/download/v11.7.1/AltTab-11.7.1.zip"
+    },
+    {
+      "date": "2026-09-21T20:58:37Z",
+      "appName": "Sqlectron",
+      "slug": "sqlectron/windows",
+      "platform": "windows",
+      "oldVersion": "1.38.0",
+      "newVersion": "1.39.0",
+      "installerUrl": "https://github.com/sqlectron/sqlectron/releases/download/v1.39.0/sqlectron-Setup-1.39.0.exe"
+    },
+    {
+      "date": "2026-09-21T20:58:37Z",
+      "appName": "Vim",
+      "slug": "vim/windows",
+      "platform": "windows",
+      "oldVersion": "9.2.1119",
+      "newVersion": "9.2.1122",
+      "installerUrl": "https://github.com/vim/vim-win32-installer/releases/download/v9.2.1122/gvim_9.2.1122_x64.exe"
+    },
+    {
+      "date": "2026-09-21T20:58:37Z",
+      "appName": "Mozilla Firefox Nightly",
+      "slug": "firefox@nightly/windows",
+      "platform": "windows",
+      "oldVersion": "158.2609.1809.0",
+      "newVersion": "158.2609.1909.0",
+      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/09/2026-09-19-09-06-01-mozilla-central/firefox-158.0a1.multi.win64.installer.msix"
+    },
+    {
+      "date": "2026-09-21T20:58:37Z",
+      "appName": "Genesys Cloud",
+      "slug": "genesys-cloud/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.54.48",
+      "newVersion": "2.55.50",
+      "installerUrl": "https://app.mypurecloud.com/directory-mac/build-assets/2.55.50-208/genesys-cloud-mac-2.55.50.dmg"
+    },
+    {
+      "date": "2026-09-21T20:58:37Z",
+      "appName": "Mozilla Firefox Nightly (ARM64)",
+      "slug": "firefox@nightly-arm64/windows",
+      "platform": "windows",
+      "oldVersion": "158.2609.1809.0",
+      "newVersion": "158.2609.1909.0",
+      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/09/2026-09-19-09-06-01-mozilla-central/firefox-158.0a1.multi.win64-aarch64.installer.msix"
+    },
+    {
+      "date": "2026-09-21T20:58:37Z",
+      "appName": "Zoom",
+      "slug": "zoom/windows",
+      "platform": "windows",
+      "oldVersion": "7.2.48358",
+      "newVersion": "7.2.48556",
+      "installerUrl": "https://zoom.us/client/7.2.1.48556/ZoomInstallerFull.msi?archType=x64"
+    },
+    {
+      "date": "2026-09-21T20:58:37Z",
+      "appName": "Lens",
+      "slug": "lens/windows",
+      "platform": "windows",
+      "oldVersion": "2026.9.20601-latest",
+      "newVersion": "2026.9.181013-latest",
+      "installerUrl": "https://downloads.k8slens.dev/ide/Lens%20Setup%202026.9.181013-latest.exe"
+    },
+    {
+      "date": "2026-09-21T20:58:37Z",
+      "appName": "Mullvad Browser",
+      "slug": "mullvad-browser/windows",
+      "platform": "windows",
+      "oldVersion": "15.0.21",
+      "newVersion": "15.0.23",
+      "installerUrl": "https://github.com/mullvad/mullvad-browser/releases/download/15.0.23/mullvad-browser-windows-x86_64-15.0.23.exe"
+    },
+    {
+      "date": "2026-09-21T20:58:37Z",
+      "appName": "Notepad.exe",
+      "slug": "notepadexe/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.6.7",
+      "newVersion": "1.6.8",
+      "installerUrl": "https://github.com/notepadhq/notepadexe-public/releases/download/1.6.8/Notepad.zip"
+    },
+    {
+      "date": "2026-09-21T20:58:37Z",
+      "appName": "Loom",
+      "slug": "loom/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.375.0",
+      "newVersion": "0.377.0",
+      "installerUrl": "https://packages.loom.com/desktop-packages/Loom-0.377.0-arm64.dmg"
+    },
+    {
+      "date": "2026-09-21T20:58:37Z",
+      "appName": "TimeScribe",
+      "slug": "timescribe/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.16.0",
+      "newVersion": "1.17.0",
+      "installerUrl": "https://github.com/WINBIGFOX/TimeScribe/releases/download/v1.17.0/TimeScribe-1.17.0-arm64.zip"
+    },
+    {
+      "date": "2026-09-21T20:58:37Z",
+      "appName": "TextExpander",
+      "slug": "textexpander/windows",
+      "platform": "windows",
+      "oldVersion": "254.8.4.704",
+      "newVersion": "254.8.4.804",
+      "installerUrl": "https://cdn.textexpander.com/windows/848.4.0/TextExpander_x64.msi"
+    },
+    {
+      "date": "2026-09-21T20:58:37Z",
+      "appName": "Zoom Outlook Plugin",
+      "slug": "zoom-outlook-plugin/windows",
+      "platform": "windows",
+      "oldVersion": "7.1.0",
+      "newVersion": "7.2.0",
+      "installerUrl": "https://zoom.us/client/7.2.0.1283/ZoomOutlookPluginSetup.msi"
+    },
+    {
+      "date": "2026-09-21T20:58:37Z",
+      "appName": "Requestly",
+      "slug": "requestly/windows",
+      "platform": "windows",
+      "oldVersion": "26.3.3",
+      "newVersion": "26.6.29",
+      "installerUrl": "https://github.com/requestly/http-interceptor-desktop-app/releases/download/v26.6.29/Requestly-Setup-26.6.29.exe"
+    },
+    {
+      "date": "2026-09-21T20:58:37Z",
+      "appName": "Sublime Text",
+      "slug": "sublime-text/windows",
+      "platform": "windows",
+      "oldVersion": "4.0.0.420000",
+      "newVersion": "4.0.0.421300",
+      "installerUrl": "https://download.sublimetext.com/sublime_text_build_4213_x64_setup.exe"
+    },
+    {
+      "date": "2026-09-21T20:58:37Z",
+      "appName": "Shift",
+      "slug": "shift/darwin",
+      "platform": "darwin",
+      "oldVersion": "9.6.8.1270",
+      "newVersion": "9.6.9.1283",
+      "installerUrl": "https://updates.tryshift.com/v9.6.9/stable/shift-v9.6.9.1283-stable-arm64.dmg"
+    },
+    {
+      "date": "2026-09-21T20:58:37Z",
+      "appName": "Sync",
+      "slug": "sync/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.2.62",
+      "newVersion": "2.2.64",
+      "installerUrl": "https://www10.sync.com/download/apple/Sync-2.2.64.dmg"
+    },
+    {
+      "date": "2026-09-21T20:58:37Z",
+      "appName": "XnViewMP",
+      "slug": "xnviewmp/windows",
+      "platform": "windows",
+      "oldVersion": "1.11.6.0",
+      "newVersion": "1.11.7.0",
+      "installerUrl": "https://download.xnview.com/old_versions/XnView_MP/XnView_MP-1.11.7-win-x64.exe"
+    },
+    {
+      "date": "2026-09-21T20:58:37Z",
+      "appName": "Google Drive",
+      "slug": "google-drive/windows",
+      "platform": "windows",
+      "oldVersion": "130.0.2.0",
+      "newVersion": "131.0.2.0",
+      "installerUrl": "https://dl.google.com/release2/drive-file-stream/mgy7ybphxg24jq4k2vq47wnkqi_131.0.2.0/setup.exe"
+    },
+    {
+      "date": "2026-09-21T20:58:37Z",
+      "appName": "Splice",
+      "slug": "splice/darwin",
+      "platform": "darwin",
+      "oldVersion": "5.4.12",
+      "newVersion": "5.4.13",
+      "installerUrl": "https://desktop.splice.com/conveyor/stable/splice-5.4.13-mac-aarch64.zip"
+    },
+    {
+      "date": "2026-09-21T20:58:37Z",
+      "appName": "Mozilla Firefox Developer Edition",
+      "slug": "firefox@developer-edition/darwin",
+      "platform": "darwin",
+      "oldVersion": "157.0b3",
+      "newVersion": "157.0b4",
+      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/157.0b4/mac/en-US/Firefox%20157.0b4.dmg"
     }
   ]
 }
