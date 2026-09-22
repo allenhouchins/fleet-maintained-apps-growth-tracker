@@ -1,132 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-09-04T03:25:15Z",
-      "appName": "RewriteBar",
-      "slug": "rewritebar/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.32.0",
-      "newVersion": "2.33.0",
-      "installerUrl": "https://rewritebar.com/download/v2.33.0.zip"
-    },
-    {
-      "date": "2026-09-04T03:25:15Z",
-      "appName": "Wispr Flow",
-      "slug": "wispr-flow/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.6.765",
-      "newVersion": "1.6.774",
-      "installerUrl": "https://dl.wisprflow.com/wispr-flow/darwin/arm64/dmgs/Flow-v1.6.774.dmg"
-    },
-    {
-      "date": "2026-09-04T03:25:15Z",
-      "appName": "Signal",
-      "slug": "signal/windows",
-      "platform": "windows",
-      "oldVersion": "8.25.0",
-      "newVersion": "8.26.0",
-      "installerUrl": "https://updates.signal.org/desktop/signal-desktop-win-8.26.0.exe"
-    },
-    {
-      "date": "2026-09-04T03:25:15Z",
-      "appName": "Claude",
-      "slug": "claude/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.44121.4",
-      "newVersion": "1.46388.0",
-      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/1.46388.0/Claude-88d4ea2fdadb149723ebab39764c160d03d9ee82.zip"
-    },
-    {
-      "date": "2026-09-04T03:25:15Z",
-      "appName": "Power BI",
-      "slug": "power-bi/windows",
-      "platform": "windows",
-      "oldVersion": "2.157.879.0",
-      "newVersion": "2.157.1354.0",
-      "installerUrl": "https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2026-08_x64.exe"
-    },
-    {
-      "date": "2026-09-04T03:25:15Z",
-      "appName": "Google Gemini",
-      "slug": "google-gemini/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.99.2.791",
-      "newVersion": "1.107.3.828",
-      "installerUrl": "https://dl.google.com/release2/j33ro/release/Gemini.dmg"
-    },
-    {
-      "date": "2026-09-04T03:25:15Z",
-      "appName": "Signal",
-      "slug": "signal/darwin",
-      "platform": "darwin",
-      "oldVersion": "8.25.0",
-      "newVersion": "8.26.0",
-      "installerUrl": "https://updates.signal.org/desktop/signal-desktop-mac-arm64-8.26.0.zip"
-    },
-    {
-      "date": "2026-09-04T03:25:15Z",
-      "appName": "Dayflow",
-      "slug": "dayflow/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.1.1",
-      "newVersion": "2.2.0",
-      "installerUrl": "https://github.com/JerryZLiu/Dayflow/releases/download/v2.2.0/Dayflow.dmg"
-    },
-    {
-      "date": "2026-09-04T03:25:15Z",
-      "appName": "Ollama",
-      "slug": "ollama/windows",
-      "platform": "windows",
-      "oldVersion": "0.33.2",
-      "newVersion": "0.33.3",
-      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.33.3/OllamaSetup.exe"
-    },
-    {
-      "date": "2026-09-04T03:25:15Z",
-      "appName": "Figma",
-      "slug": "figma/darwin",
-      "platform": "darwin",
-      "oldVersion": "126.8.16",
-      "newVersion": "126.8.18",
-      "installerUrl": "https://desktop.figma.com/mac-arm/Figma-126.8.18.zip"
-    },
-    {
-      "date": "2026-09-06T05:39:41Z",
-      "appName": "Postman",
-      "slug": "postman/darwin",
-      "platform": "darwin",
-      "oldVersion": "12.26.4",
-      "newVersion": "12.26.5",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.26.5/osx_arm64"
-    },
-    {
-      "date": "2026-09-06T05:39:41Z",
-      "appName": "Graphviz",
-      "slug": "graphviz/windows",
-      "platform": "windows",
-      "oldVersion": "16.0.0",
-      "newVersion": "16.1.0",
-      "installerUrl": "https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/16.1.0/windows_10_cmake_Release_graphviz-install-16.1.0-win64.exe"
-    },
-    {
-      "date": "2026-09-06T05:39:41Z",
-      "appName": "LibreOffice",
-      "slug": "libreoffice/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.2.5",
-      "newVersion": "26.2.6",
-      "installerUrl": "https://download.documentfoundation.org/libreoffice/stable/26.2.6/mac/aarch64/LibreOffice_26.2.6_MacOS_aarch64.dmg"
-    },
-    {
-      "date": "2026-09-06T05:39:41Z",
-      "appName": "Granola",
-      "slug": "granola/windows",
-      "platform": "windows",
-      "oldVersion": "7.529.2",
-      "newVersion": "7.529.3",
-      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.529.3/Granola-7.529.3-win-x64.exe"
-    },
-    {
       "date": "2026-09-06T05:39:41Z",
       "appName": "AWS Command Line Interface v2",
       "slug": "aws-cli/windows",
@@ -8999,6 +8873,132 @@
       "oldVersion": "",
       "newVersion": "28.1.7",
       "installerUrl": "https://bin.extensis.com/ExtensisConnect-W-28-1-7.zip"
+    },
+    {
+      "date": "2026-09-22T21:54:30Z",
+      "appName": "Creative Force Kelvin",
+      "slug": "creative-force-kelvin/windows",
+      "platform": "windows",
+      "oldVersion": "6.10.0",
+      "newVersion": "6.11.0",
+      "installerUrl": "https://download.creativeforce.io/released-files.042024/prod/kelvin/win/Kelvin-6.11.0-win.msi"
+    },
+    {
+      "date": "2026-09-22T21:54:30Z",
+      "appName": "Mozilla Firefox",
+      "slug": "firefox/darwin",
+      "platform": "darwin",
+      "oldVersion": "156.0",
+      "newVersion": "156.0.1",
+      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/156.0.1/mac/en-US/Firefox%20156.0.1.dmg"
+    },
+    {
+      "date": "2026-09-22T21:54:30Z",
+      "appName": "Copilot",
+      "slug": "copilot-money/darwin",
+      "platform": "darwin",
+      "oldVersion": "6.4.4",
+      "newVersion": "6.5.0",
+      "installerUrl": "https://storage.googleapis.com/copilot-mac-releases/images/Copilot-6.5.0-334-b39f409a.dmg"
+    },
+    {
+      "date": "2026-09-22T21:54:30Z",
+      "appName": "Postman",
+      "slug": "postman/windows",
+      "platform": "windows",
+      "oldVersion": "12.28.6",
+      "newVersion": "12.29.1",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.29.1/windows_64"
+    },
+    {
+      "date": "2026-09-22T21:54:30Z",
+      "appName": "Granola",
+      "slug": "granola/darwin",
+      "platform": "darwin",
+      "oldVersion": "7.576.0",
+      "newVersion": "7.580.0",
+      "installerUrl": "https://dr2v7l5emb758.cloudfront.net/7.580.0/Granola-7.580.0-mac-universal.dmg"
+    },
+    {
+      "date": "2026-09-22T21:54:30Z",
+      "appName": "Connect Fonts",
+      "slug": "connect-fonts/windows",
+      "platform": "windows",
+      "oldVersion": "28.1.7",
+      "newVersion": "28.1.8",
+      "installerUrl": "https://bin.extensis.com/ExtensisConnect-W-28-1-8.zip"
+    },
+    {
+      "date": "2026-09-22T21:54:30Z",
+      "appName": "WorkFlowy",
+      "slug": "workflowy/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.3.2609172106",
+      "newVersion": "4.3.2609220646",
+      "installerUrl": "https://github.com/workflowy/desktop/releases/download/v4.3.2609220646/WorkFlowy.zip"
+    },
+    {
+      "date": "2026-09-22T21:54:30Z",
+      "appName": "VLC media player",
+      "slug": "vlc/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.0.23",
+      "newVersion": "3.0.24",
+      "installerUrl": "https://get.videolan.org/vlc/3.0.24/macosx/vlc-3.0.24-arm64.dmg"
+    },
+    {
+      "date": "2026-09-22T21:54:30Z",
+      "appName": "Camtasia",
+      "slug": "camtasia/darwin",
+      "platform": "darwin",
+      "oldVersion": "2026.2.2",
+      "newVersion": "2026.2.3",
+      "installerUrl": "https://download.techsmith.com/camtasiamac/releases/2026.2.3/Camtasia.dmg"
+    },
+    {
+      "date": "2026-09-22T21:54:30Z",
+      "appName": "YACReader",
+      "slug": "yacreader/darwin",
+      "platform": "darwin",
+      "oldVersion": "10.3.0.260901368",
+      "newVersion": "10.3.1.260922387",
+      "installerUrl": "https://github.com/YACReader/yacreader/releases/download/10.3.1/YACReader-10.3.1.260922387.MacOSX-U.Qt6.dmg"
+    },
+    {
+      "date": "2026-09-22T21:54:30Z",
+      "appName": "Setapp",
+      "slug": "setapp/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.56.0",
+      "newVersion": "3.56.1",
+      "installerUrl": "https://dl.devmate.com/com.setapp.DesktopClient/159/1789997229/Setapp-159.zip"
+    },
+    {
+      "date": "2026-09-22T21:54:30Z",
+      "appName": "Bezel",
+      "slug": "bezel/darwin",
+      "platform": "darwin",
+      "oldVersion": "5.0.0",
+      "newVersion": "5.1.0",
+      "installerUrl": "https://download.nonstrict.eu/bezel/Bezel-5.1.0.zip"
+    },
+    {
+      "date": "2026-09-22T21:54:30Z",
+      "appName": "Slack",
+      "slug": "slack/windows",
+      "platform": "windows",
+      "oldVersion": "4.52.155",
+      "newVersion": "4.52.162",
+      "installerUrl": "https://downloads.slack-edge.com/desktop-releases/windows/x64/4.52.162/Slack.msix"
+    },
+    {
+      "date": "2026-09-22T21:54:30Z",
+      "appName": "Elgato Stream Deck",
+      "slug": "elgato-stream-deck/darwin",
+      "platform": "darwin",
+      "oldVersion": "7.5.1",
+      "newVersion": "7.6.0",
+      "installerUrl": "https://edge.elgato.com/egc/macos/sd/Stream_Deck_7.6.0.23012.pkg"
     }
   ]
 }
