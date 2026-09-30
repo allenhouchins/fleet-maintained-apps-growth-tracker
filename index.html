@@ -727,7 +727,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: September 30, 2026 at 4:21 PM CDT</p>
+            Last updated: September 30, 2026 at 4:29 PM CDT</p>
         </div>
     </div>
 
@@ -788,7 +788,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: September 30, 2026 at 4:21 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: September 30, 2026 at 4:29 PM CDT</p>
             </div>
         </div>
     </div>
@@ -25861,7 +25861,14 @@
                 "platform": "darwin",
                 "description": "Zoom for Government is the ZoomGov release of the Zoom video communication platform for meetings, webinars, and collaboration.",
                 "version": "7.2.2.88465",
-                "installerUrl": "https://www.zoomgov.com/client/7.2.2.88465/ZoomInstallerIT.pkg"
+                "installerUrl": "https://www.zoomgov.com/client/7.2.2.88465/ZoomInstallerIT.pkg",
+                "securityInfo": {
+                  "sha256": "88cf8099c6714bf33a1b430222017b90a4843a77806f4e91ed5ab8e5ddcde610",
+                  "cdhash": "59cb1fd94cb084a0f6d951e6bc3d11b954fa0f67",
+                  "signingId": "BJ4HAAB9B3:us.zoom.xos",
+                  "teamId": "BJ4HAAB9B3",
+                  "lastUpdated": "2026-09-30T21:26:01Z"
+                }
               },
               {
                 "name": "Zotero",
@@ -27636,7 +27643,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `September 30, 2026 at 4:21 PM CDT`;
+                let timestampText = 'Last updated: ' + `September 30, 2026 at 4:29 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
