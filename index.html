@@ -727,7 +727,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: September 29, 2026 at 6:42 PM CDT</p>
+            Last updated: September 29, 2026 at 11:31 PM CDT</p>
         </div>
     </div>
 
@@ -788,7 +788,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: September 29, 2026 at 6:42 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: September 29, 2026 at 11:31 PM CDT</p>
             </div>
         </div>
     </div>
@@ -1371,7 +1371,8 @@
             "2026-09-26",
             "2026-09-27",
             "2026-09-28",
-            "2026-09-29"
+            "2026-09-29",
+            "2026-09-30"
           ],
           "counts": [
             20,
@@ -1948,7 +1949,8 @@
             1422,
             1422,
             1422,
-            1422
+            1422,
+            1423
           ],
           "additions": [
             20,
@@ -2525,7 +2527,8 @@
             0,
             0,
             0,
-            0
+            0,
+            1
           ],
           "macCounts": [
             20,
@@ -3097,6 +3100,7 @@
             969,
             969,
             970,
+            971,
             971,
             971,
             971,
@@ -3679,7 +3683,8 @@
             451,
             451,
             451,
-            451
+            451,
+            452
           ],
           "growthDates": [
             "2025-03-04",
@@ -3793,7 +3798,8 @@
             "2026-09-18",
             "2026-09-22",
             "2026-09-23",
-            "2026-09-24"
+            "2026-09-24",
+            "2026-09-30"
           ],
           "growthCounts": [
             20,
@@ -3907,7 +3913,8 @@
             1419,
             1420,
             1421,
-            1422
+            1422,
+            1423
           ],
           "growthAdditions": [
             20,
@@ -4018,6 +4025,7 @@
             2,
             2,
             2,
+            1,
             1,
             1,
             1,
@@ -14910,6 +14918,14 @@
                   "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
                   "lastUpdated": "2026-09-09T18:25:19Z"
                 }
+              },
+              {
+                "name": "Lenovo SUHelper",
+                "slug": "lenovo-suhelper/windows",
+                "platform": "windows",
+                "description": "SUHelper is a Lenovo utility that gives IT administrators more control over how Lenovo System Update updates their devices.",
+                "version": "1.0.0.22",
+                "installerUrl": "https://download.lenovo.com/pccbbs/thinkvantage_en/metroapps/Vantage/LenovoCommercialVantage_20.2506.39.0_v17.zip"
               },
               {
                 "name": "Lenovo System Update",
@@ -26228,7 +26244,8 @@
             "2026-09-26",
             "2026-09-27",
             "2026-09-28",
-            "2026-09-29"
+            "2026-09-29",
+            "2026-09-30"
           ],
           "macCounts": [
             3,
@@ -26545,7 +26562,8 @@
             13,
             35,
             18,
-            48
+            48,
+            0
           ],
           "windowsCounts": [
             2,
@@ -26862,7 +26880,8 @@
             3,
             21,
             4,
-            29
+            29,
+            0
           ]
         };
         
@@ -27600,7 +27619,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `September 29, 2026 at 6:42 PM CDT`;
+                let timestampText = 'Last updated: ' + `September 29, 2026 at 11:31 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
