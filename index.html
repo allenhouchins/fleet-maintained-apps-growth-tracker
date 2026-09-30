@@ -727,7 +727,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: September 29, 2026 at 11:31 PM CDT</p>
+            Last updated: September 29, 2026 at 11:38 PM CDT</p>
         </div>
     </div>
 
@@ -788,7 +788,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: September 29, 2026 at 11:31 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: September 29, 2026 at 11:38 PM CDT</p>
             </div>
         </div>
     </div>
@@ -14925,7 +14925,16 @@
                 "platform": "windows",
                 "description": "SUHelper is a Lenovo utility that gives IT administrators more control over how Lenovo System Update updates their devices.",
                 "version": "1.0.0.22",
-                "installerUrl": "https://download.lenovo.com/pccbbs/thinkvantage_en/metroapps/Vantage/LenovoCommercialVantage_20.2506.39.0_v17.zip"
+                "installerUrl": "https://download.lenovo.com/pccbbs/thinkvantage_en/metroapps/Vantage/LenovoCommercialVantage_20.2506.39.0_v17.zip",
+                "securityInfo": {
+                  "sha256": "c195047f4af9c3ff3d92c40e55a901cf7cfa08a679b8ca2543bb104bab2f7ff1",
+                  "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+                  "issuer": "CN=Microsoft Marketplace CA G 028, OU=EOC, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+                  "serialNumber": "330005E5629B92F8CA3306720100000005E562",
+                  "thumbprint": "48ECA28A4DE24B33669F3393AF68971CBDC9FFBC",
+                  "timestamp": "CN=Microsoft Time-Stamp Service, OU=Thales TSS ESN:E5A6-E27C-592E, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+                  "lastUpdated": "2026-09-30T04:37:41Z"
+                }
               },
               {
                 "name": "Lenovo System Update",
@@ -27619,7 +27628,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `September 29, 2026 at 11:31 PM CDT`;
+                let timestampText = 'Last updated: ' + `September 29, 2026 at 11:38 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
