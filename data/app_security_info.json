@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-01T09:11:56Z",
+  "lastUpdated": "2026-10-01T09:14:04Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1204,14 +1204,14 @@
     {
       "slug": "audacity/windows",
       "name": "Audacity",
-      "version": "4.0.0.262451524",
-      "sha256": "d723bb88d8ac542ebc44bef515504c38586c9efa27cfbd23ba879e6787c2c0ea",
-      "publisher": "CN=MUSECY SM LTD, O=MUSECY SM LTD, S=Lemesos, C=CY, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CY, SERIALNUMBER=HE 411908",
-      "issuer": "CN=Sectigo Public Code Signing CA EV R36, O=Sectigo Limited, C=GB",
-      "serialNumber": "3C65609C0941550141AB69AEA82958B1",
-      "thumbprint": "48FD05A8FAF854569077D537B82DAE2D9CEB91A7",
-      "timestamp": "CN=Sectigo Public Time Stamping Signer R37, O=Sectigo Limited, S=Greater London, C=GB",
-      "lastUpdated": "2026-09-11T03:55:16Z"
+      "version": "4.0.1.262721353",
+      "sha256": "af36db11477c76d0669da5b6d903bc51f4015670e83c86fc1d1580e1ed96ed94",
+      "publisher": "CN=MUSECY SM LTD, O=MUSECY SM LTD, L=Limassol, C=CY, SERIALNUMBER=HE 411908, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CY",
+      "issuer": "CN=GoGetSSL G4 CS RSA4096 SHA256 2022 CA-1, O=EnVers Group SIA, C=LV",
+      "serialNumber": "0CECF51FA8F3B9CFAB0C407C17FC381C",
+      "thumbprint": "0DDE474DE490D683D3EE700D89CF069FEA557049",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-10-01T09:12:04Z"
     },
     {
       "slug": "audio-hijack/darwin",
@@ -1286,14 +1286,14 @@
     {
       "slug": "aws-cli/windows",
       "name": "AWS Command Line Interface v2",
-      "version": "2.37.6",
-      "sha256": "b11174394e6499cff8178fd8f70e4f8dddcfbd3bd4db0a8e19776f82191c5bff",
+      "version": "2.37.7",
+      "sha256": "9549b70e192023a129832828f32ff1bdf4a1d77e5adf351daccf1e64da1a3e2e",
       "publisher": "CN=\"Amazon Web Services, Inc.\", OU=AWS, O=\"Amazon Web Services, Inc.\", L=Seattle, S=Washington, C=US, SERIALNUMBER=4152954, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0590C4CF0DB014199953A68CFCE9B0E7",
       "thumbprint": "81A9EFB93199F2C7441EE14050360EDAB7E8242A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-09-30T20:54:50Z"
+      "lastUpdated": "2026-10-01T09:12:35Z"
     },
     {
       "slug": "aws-sam-cli/windows",
@@ -2001,14 +2001,14 @@
     {
       "slug": "bruno/windows",
       "name": "Bruno",
-      "version": "4.2.0",
-      "sha256": "88b2b21a1c41d1037c1ab8f99564242de988f1271a78ac0d57fb81eec3face8d",
+      "version": "4.2.1",
+      "sha256": "e41709ff9b98ba3cb73c6ada042c333bbffc0d116b20cc4181abf1b59e45d16d",
       "publisher": "CN=Bruno Software Inc, O=Bruno Software Inc, L=Bastrop, S=Texas, C=US, SERIALNUMBER=4259442, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0174F0DB029A714A3CCC8866E9340147",
       "thumbprint": "B83EF0282C0D11C66C8A611E9606A1A3BAD9DD4A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-09-24T07:48:20Z"
+      "lastUpdated": "2026-10-01T09:12:57Z"
     },
     {
       "slug": "bulk-crap-uninstaller/windows",
@@ -3687,26 +3687,26 @@
     {
       "slug": "devolutions-launcher/windows",
       "name": "Devolutions Launcher",
-      "version": "2026.3.10.0",
-      "sha256": "83412cc9c4322795ccc4a381c7ea224b691b28a122c7bc6bc8da61302d04d996",
+      "version": "2026.3.12.0",
+      "sha256": "2b75046fb061d887ed4acbf791d537e156450d9c367243c071c6fa8ffa1127e2",
+      "publisher": "E=security@devolutions.net, CN=DEVOLUTIONS INC., O=DEVOLUTIONS INC., L=Lavaltrie, S=Quebec, C=CA, OID.1.3.6.1.4.1.311.60.2.1.2=Quebec, OID.1.3.6.1.4.1.311.60.2.1.3=CA, SERIALNUMBER=1162544689, OID.2.5.4.15=Private Organization",
+      "issuer": "CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
+      "serialNumber": "4C164231EB357E1F8FC24528",
+      "thumbprint": "50F753333811FF11F1920274AFDE3FFD4468B210",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-10-01T09:13:30Z"
+    },
+    {
+      "slug": "devolutions-workspace/windows",
+      "name": "Devolutions Workspace",
+      "version": "2026.3.0.0",
+      "sha256": "c0f2f5777bc9672a4056864aabfe68103fe20a4ab9a697e99372b68382c9af54",
       "publisher": "E=security@devolutions.net, CN=Devolutions Inc, O=Devolutions Inc, L=Lavaltrie, S=Quebec, C=CA, OID.1.3.6.1.4.1.311.60.2.1.2=Quebec, OID.1.3.6.1.4.1.311.60.2.1.3=CA, SERIALNUMBER=1162544689, OID.2.5.4.15=Private Organization",
       "issuer": "CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
       "serialNumber": "73D3C33603FF8BB44224F25E",
       "thumbprint": "8DB5A43BB8AFE4D2FFB92DA9007D8997A4CC4E13",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-09-27T22:24:44Z"
-    },
-    {
-      "slug": "devolutions-workspace/windows",
-      "name": "Devolutions Workspace",
-      "version": "2026.2.3.0",
-      "sha256": "c157c5a989c4d199a86db934d9906532b9a727ab2da2feb4625eabaaab439f3c",
-      "publisher": "E=security@devolutions.net, CN=Devolutions Inc, O=Devolutions Inc, L=Lavaltrie, S=Quebec, C=CA, OID.1.3.6.1.4.1.311.60.2.1.2=Quebec, OID.1.3.6.1.4.1.311.60.2.1.3=CA, SERIALNUMBER=1162544689, OID.2.5.4.15=Private Organization",
-      "issuer": "CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
-      "serialNumber": "73D3C33603FF8BB44224F25E",
-      "thumbprint": "8DB5A43BB8AFE4D2FFB92DA9007D8997A4CC4E13",
-      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-08-26T15:42:40Z"
+      "lastUpdated": "2026-10-01T09:13:37Z"
     },
     {
       "slug": "devonsphere-express/darwin",
@@ -4848,14 +4848,14 @@
     {
       "slug": "fellow/windows",
       "name": "Fellow",
-      "version": "5.7.9",
-      "sha256": "6d0c0ba491117b6b57dbf91acbd6729204f305d58dd6fad2d77037ce6cfade62",
+      "version": "5.7.13",
+      "sha256": "33ec0f87376c27bea0047286f1d401a37e4850803cd637b2aeb944b441a16127",
       "publisher": "CN=Fellow.ai, O=Fellow.ai, L=Ottawa, S=Ontario, C=CA",
-      "issuer": "CN=Microsoft ID Verified CS EOC CA 03, O=Microsoft Corporation, C=US",
-      "serialNumber": "3300060C9650FFB062891B0CAB000000060C96",
-      "thumbprint": "398F988C4EB4DECD793DEFC4B8B11E039C61722A",
-      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7800-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-09-22T14:53:09Z"
+      "issuer": "CN=Microsoft ID Verified CS AOC CA 03, O=Microsoft Corporation, C=US",
+      "serialNumber": "33000759253A2A2A30380B7E01000000075925",
+      "thumbprint": "FCA9F7E4A89212779DCC8D3E66C679352C81AAFC",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:A500-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-10-01T09:13:45Z"
     },
     {
       "slug": "ferdium/darwin",
@@ -5062,14 +5062,14 @@
     {
       "slug": "firefox@nightly-arm64/windows",
       "name": "Mozilla Firefox Nightly (ARM64)",
-      "version": "159.2609.2720.0",
-      "sha256": "850d9d6b4d2e63048277eb52fdbe52d4957bda6d0ab6da0ca1a1ef0a58c65a18",
+      "version": "159.2609.3008.0",
+      "sha256": "6ba3e428d4c463e2de333879ac9f5cedc1ee5b21df778722209237444cec60ad",
       "publisher": "CN=Mozilla Corporation, OU=Firefox Engineering Operations, O=Mozilla Corporation, L=San Francisco, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0F0EF7C2D819273E8C13F016D2E09B25",
       "thumbprint": "6663D5C4FDAF9EFD5F823A26C9C410DC9928C44A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-09-28T22:12:13Z"
+      "lastUpdated": "2026-10-01T09:13:50Z"
     },
     {
       "slug": "firefox@nightly/darwin",
@@ -5084,14 +5084,14 @@
     {
       "slug": "firefox@nightly/windows",
       "name": "Mozilla Firefox Nightly",
-      "version": "159.2609.2720.0",
-      "sha256": "a3515feecd9ce8b38493cd4e030c15c646e3f46e8e62b216f19c2394f97ca64d",
+      "version": "159.2609.3008.0",
+      "sha256": "51cc90f71ed4324ed88dff2b57652026366593681718006e2d3600a35b851225",
       "publisher": "CN=Mozilla Corporation, OU=Firefox Engineering Operations, O=Mozilla Corporation, L=San Francisco, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0F0EF7C2D819273E8C13F016D2E09B25",
       "thumbprint": "6663D5C4FDAF9EFD5F823A26C9C410DC9928C44A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-09-28T22:12:18Z"
+      "lastUpdated": "2026-10-01T09:13:54Z"
     },
     {
       "slug": "fission/darwin",
@@ -5641,14 +5641,14 @@
     {
       "slug": "gitkraken/windows",
       "name": "GitKraken",
-      "version": "12.4.1",
-      "sha256": "bdd2a93d91b105e3e6250f375b1664a4ecc8f2e81eb38745c046a9e8f0ac5458",
+      "version": "12.5.0",
+      "sha256": "96c1d2bd9bc639fcce0d537f55b5beeed72632c3f182f95ba0f082532c543676",
       "publisher": "CN=\"AXOSOFT, LLC\", O=\"AXOSOFT, LLC\", L=Scottsdale, S=Arizona, C=US, SERIALNUMBER=3380475, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0B7E54038F29694D1EF1B258FB404509",
       "thumbprint": "3E1EAE5F7DEC4F7F9AA8B87CAC64EE957BFCC4CE",
-      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-09-29T08:38:32Z"
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-10-01T09:14:04Z"
     },
     {
       "slug": "gitup-app/darwin",
