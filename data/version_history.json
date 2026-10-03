@@ -1,168 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-09-16T18:48:52Z",
-      "appName": "Winlogbeat",
-      "slug": "winlogbeat/windows",
-      "platform": "windows",
-      "oldVersion": "9.5.3",
-      "newVersion": "9.5.4",
-      "installerUrl": "https://artifacts.elastic.co/downloads/beats/winlogbeat/winlogbeat-9.5.4-windows-x86_64.msi"
-    },
-    {
-      "date": "2026-09-16T18:48:52Z",
-      "appName": "Wavebox",
-      "slug": "wavebox/darwin",
-      "platform": "darwin",
-      "oldVersion": "153.2.196.2",
-      "newVersion": "153.2.204.2",
-      "installerUrl": "https://download.wavebox.app/stable/macarm64/Wavebox_153.2.204.2.zip"
-    },
-    {
-      "date": "2026-09-16T18:48:52Z",
-      "appName": "Rive",
-      "slug": "rive/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.8.5804",
-      "newVersion": "0.8.5879",
-      "installerUrl": "https://releases.rive.app/macos/0.8.5879/Rive.dmg"
-    },
-    {
-      "date": "2026-09-16T18:48:52Z",
-      "appName": "Beekeeper Studio",
-      "slug": "beekeeper-studio/windows",
-      "platform": "windows",
-      "oldVersion": "6.1.0",
-      "newVersion": "6.1.1",
-      "installerUrl": "https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v6.1.1/Beekeeper-Studio-Setup-6.1.1.exe"
-    },
-    {
-      "date": "2026-09-16T22:01:25Z",
-      "appName": "Zed",
-      "slug": "zed/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.19.2",
-      "newVersion": "1.20.1",
-      "installerUrl": "https://zed.dev/api/releases/stable/1.20.1/Zed-aarch64.dmg"
-    },
-    {
-      "date": "2026-09-16T22:01:25Z",
-      "appName": "Prisma Browser",
-      "slug": "prisma-browser/windows",
-      "platform": "windows",
-      "oldVersion": "153.3.3.37",
-      "newVersion": "153.3.4.48",
-      "installerUrl": "https://updates.talon-sec.com/releases/Prisma%20Access%20Browser/win/packaged/x64/crx_signed_o4_stable_prisma_access_browser_installer_153_3_4_48-153.3.4.48-1e753543.msi"
-    },
-    {
-      "date": "2026-09-16T22:01:25Z",
-      "appName": "Teleport Suite",
-      "slug": "teleport-suite/darwin",
-      "platform": "darwin",
-      "oldVersion": "18.11.0",
-      "newVersion": "18.11.1",
-      "installerUrl": "https://cdn.teleport.dev/teleport-18.11.1.pkg"
-    },
-    {
-      "date": "2026-09-16T22:01:25Z",
-      "appName": "Microsoft Visual Studio Code",
-      "slug": "visual-studio-code/windows",
-      "platform": "windows",
-      "oldVersion": "1.137.0",
-      "newVersion": "1.138.0",
-      "installerUrl": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/7debcd0e2acdea1c52de81bf9ee1620444407dda/VSCodeSetup-x64-1.138.0.exe"
-    },
-    {
-      "date": "2026-09-16T22:01:25Z",
-      "appName": "Brave",
-      "slug": "brave-browser/darwin",
-      "platform": "darwin",
-      "oldVersion": "153.1.95.101",
-      "newVersion": "153.1.95.102",
-      "installerUrl": "https://updates-cdn.bravesoftware.com/sparkle/Brave-Browser/stable-arm64/195.102/Brave-Browser-arm64.dmg"
-    },
-    {
-      "date": "2026-09-16T22:01:25Z",
-      "appName": "Spokenly",
-      "slug": "spokenly/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.29.4",
-      "newVersion": "2.29.5",
-      "installerUrl": "https://cdn.spokenly.app/releases/macos/Spokenly-2.29.5.dmg"
-    },
-    {
-      "date": "2026-09-16T22:01:25Z",
-      "appName": "ReSharper",
-      "slug": "resharper/windows",
-      "platform": "windows",
-      "oldVersion": "2026.2.1",
-      "newVersion": "2026.2.2",
-      "installerUrl": "https://download.jetbrains.com/resharper/dotUltimate.2026.2.2/JetBrains.ReSharper.2026.2.2.web.exe"
-    },
-    {
-      "date": "2026-09-16T22:01:25Z",
-      "appName": "PreForm",
-      "slug": "preform/windows",
-      "platform": "windows",
-      "oldVersion": "3.62.1.648",
-      "newVersion": "3.63.0.651",
-      "installerUrl": "https://downloads.formlabs.com/PreForm/Release/3.63.0/PreForm_win_3.63.0_release_releaser_651_133718.exe"
-    },
-    {
-      "date": "2026-09-16T22:01:25Z",
-      "appName": "Zed",
-      "slug": "zed/windows",
-      "platform": "windows",
-      "oldVersion": "1.19.2",
-      "newVersion": "1.20.1",
-      "installerUrl": "https://github.com/zed-industries/zed/releases/download/v1.20.1/Zed-x86_64.exe"
-    },
-    {
-      "date": "2026-09-16T22:01:25Z",
-      "appName": "Syntax Highlight",
-      "slug": "syntax-highlight/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.1.31",
-      "newVersion": "2.1.32",
-      "installerUrl": "https://github.com/sbarex/SourceCodeSyntaxHighlight/releases/download/2.1.32/Syntax.Highlight.zip"
-    },
-    {
-      "date": "2026-09-16T22:01:25Z",
-      "appName": "WeChat for Mac",
-      "slug": "wechat/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.1.15.17",
-      "newVersion": "4.1.15.18",
-      "installerUrl": "https://dldir1.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.15.18_270098.dmg"
-    },
-    {
-      "date": "2026-09-16T22:01:25Z",
-      "appName": "GeoGebra Classic",
-      "slug": "geogebra-classic/windows",
-      "platform": "windows",
-      "oldVersion": "6.0.929",
-      "newVersion": "6.0.930",
-      "installerUrl": "https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Installer-6-0-930-2.msi"
-    },
-    {
-      "date": "2026-09-16T22:01:25Z",
-      "appName": "Marked",
-      "slug": "marked-app/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.2.4",
-      "newVersion": "3.2.5",
-      "installerUrl": "https://updates.markedapp.com/updates/Marked%203.2.5-1220.zip"
-    },
-    {
-      "date": "2026-09-16T22:01:25Z",
-      "appName": "Nextcloud",
-      "slug": "nextcloud/windows",
-      "platform": "windows",
-      "oldVersion": "34.0.3",
-      "newVersion": "34.0.4",
-      "installerUrl": "https://github.com/nextcloud-releases/desktop/releases/download/v34.0.4/Nextcloud-34.0.4-x64.msi"
-    },
-    {
       "date": "2026-09-16T22:01:25Z",
       "appName": "BetterTouchTool",
       "slug": "bettertouchtool/darwin",
@@ -8999,6 +8837,168 @@
       "oldVersion": "2.35.0",
       "newVersion": "2.36.0",
       "installerUrl": "https://rewritebar.com/download/v2.36.0.zip"
+    },
+    {
+      "date": "2026-10-03T06:10:22Z",
+      "appName": "Superhuman",
+      "slug": "superhuman/darwin",
+      "platform": "darwin",
+      "oldVersion": "1041.0.64",
+      "newVersion": "1041.0.65",
+      "installerUrl": "https://storage.googleapis.com/download.superhuman.com/supertron-update/Superhuman-1041.0.65-arm64-latest-mac.zip"
+    },
+    {
+      "date": "2026-10-03T06:10:22Z",
+      "appName": "superwhisper",
+      "slug": "superwhisper/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.18.5",
+      "newVersion": "2.19.0",
+      "installerUrl": "https://builds.superwhisper.com/v2.19.0/superwhisper.zip"
+    },
+    {
+      "date": "2026-10-03T06:10:22Z",
+      "appName": "MongoDB Compass",
+      "slug": "mongodb-compass/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.51.0",
+      "newVersion": "1.52.0",
+      "installerUrl": "https://downloads.mongodb.com/compass/mongodb-compass-1.52.0-darwin-arm64.dmg"
+    },
+    {
+      "date": "2026-10-03T06:10:22Z",
+      "appName": "Teleport Suite",
+      "slug": "teleport-suite/darwin",
+      "platform": "darwin",
+      "oldVersion": "18.11.2",
+      "newVersion": "18.11.3",
+      "installerUrl": "https://cdn.teleport.dev/teleport-18.11.3.pkg"
+    },
+    {
+      "date": "2026-10-03T06:10:22Z",
+      "appName": "Brave",
+      "slug": "brave-browser/darwin",
+      "platform": "darwin",
+      "oldVersion": "154.1.96.60",
+      "newVersion": "154.1.96.61",
+      "installerUrl": "https://updates-cdn.bravesoftware.com/sparkle/Brave-Browser/stable-arm64/196.61/Brave-Browser-arm64.dmg"
+    },
+    {
+      "date": "2026-10-03T06:10:22Z",
+      "appName": "Marked",
+      "slug": "marked-app/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.2.16",
+      "newVersion": "3.2.17",
+      "installerUrl": "https://updates.markedapp.com/updates/Marked%203.2.17-1235.zip"
+    },
+    {
+      "date": "2026-10-03T06:10:22Z",
+      "appName": "Shotcut",
+      "slug": "shotcut/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.9.27",
+      "newVersion": "26.9.28",
+      "installerUrl": "https://github.com/mltframework/shotcut/releases/download/v26.9.27/shotcut-macos-26.9.28.dmg"
+    },
+    {
+      "date": "2026-10-03T06:10:22Z",
+      "appName": "WebStorm",
+      "slug": "webstorm/windows",
+      "platform": "windows",
+      "oldVersion": "2026.2.2",
+      "newVersion": "2026.2.3",
+      "installerUrl": "https://download.jetbrains.com/webstorm/WebStorm-2026.2.3.exe"
+    },
+    {
+      "date": "2026-10-03T06:10:22Z",
+      "appName": "Teleport Connect",
+      "slug": "teleport-connect/darwin",
+      "platform": "darwin",
+      "oldVersion": "18.11.2",
+      "newVersion": "18.11.3",
+      "installerUrl": "https://cdn.teleport.dev/Teleport%20Connect-18.11.3.dmg"
+    },
+    {
+      "date": "2026-10-03T06:10:22Z",
+      "appName": "Ollama",
+      "slug": "ollama/windows",
+      "platform": "windows",
+      "oldVersion": "0.35.0",
+      "newVersion": "0.35.1",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.35.1/OllamaSetup.exe"
+    },
+    {
+      "date": "2026-10-03T06:10:22Z",
+      "appName": "MongoDB Compass",
+      "slug": "mongodb-compass/windows",
+      "platform": "windows",
+      "oldVersion": "1.51.0.0",
+      "newVersion": "1.52.0.0",
+      "installerUrl": "https://github.com/mongodb-js/compass/releases/download/v1.52.0/mongodb-compass-1.52.0-win32-x64.msi"
+    },
+    {
+      "date": "2026-10-03T06:10:22Z",
+      "appName": "VLC media player",
+      "slug": "vlc/windows",
+      "platform": "windows",
+      "oldVersion": "3.0.23",
+      "newVersion": "3.0.24",
+      "installerUrl": "https://download.videolan.org/pub/videolan/vlc/3.0.24/win64/vlc-3.0.24-win64.msi"
+    },
+    {
+      "date": "2026-10-03T06:10:22Z",
+      "appName": "TightVNC",
+      "slug": "tightvnc/windows",
+      "platform": "windows",
+      "oldVersion": "2.8.88",
+      "newVersion": "2.8.89",
+      "installerUrl": "https://www.tightvnc.com/download/2.8.89/tightvnc-2.8.89-gpl-setup-64bit.msi"
+    },
+    {
+      "date": "2026-10-03T06:10:22Z",
+      "appName": "ClipBook",
+      "slug": "clipbook/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.3.0",
+      "newVersion": "2.3.1",
+      "installerUrl": "https://f005.backblazeb2.com/file/clipbook/ClipBook-2.3.1.dmg"
+    },
+    {
+      "date": "2026-10-03T06:10:22Z",
+      "appName": "Brave",
+      "slug": "brave-browser/windows",
+      "platform": "windows",
+      "oldVersion": "154.1.96.59",
+      "newVersion": "154.1.96.60",
+      "installerUrl": "https://github.com/brave/brave-browser/releases/download/v1.96.60/BraveBrowserStandaloneSilentSetup.exe"
+    },
+    {
+      "date": "2026-10-03T06:10:22Z",
+      "appName": "Beekeeper Studio",
+      "slug": "beekeeper-studio/darwin",
+      "platform": "darwin",
+      "oldVersion": "6.1.4",
+      "newVersion": "6.1.5",
+      "installerUrl": "https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v6.1.5/Beekeeper-Studio-6.1.5-arm64.dmg"
+    },
+    {
+      "date": "2026-10-03T06:10:22Z",
+      "appName": "Unity Hub",
+      "slug": "unity-hub/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.22.1",
+      "newVersion": "3.22.2",
+      "installerUrl": "https://public-cdn.cloud.unity3d.com/hub/prod/3.22.2/UnityHubSetup-3.22.2-arm64.dmg"
+    },
+    {
+      "date": "2026-10-03T06:10:22Z",
+      "appName": "Ollama",
+      "slug": "ollama/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.35.0",
+      "newVersion": "0.35.1",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.35.1/Ollama-darwin.zip"
     }
   ]
 }
