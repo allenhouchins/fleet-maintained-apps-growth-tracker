@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-06T15:29:15Z",
+  "lastUpdated": "2026-10-06T15:32:19Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -524,14 +524,14 @@
     {
       "slug": "airtable/windows",
       "name": "Airtable",
-      "version": "1.4.5",
-      "sha256": "78c69f8e3b282d716c7c7fa003c01baa215c72a53c8da79c71230df05d43538c",
+      "version": "1.7.1",
+      "sha256": "58478963b22895ba09be5788718d4cfbaf3bf504cd001fbd3d0765ccba518d2a",
       "publisher": "CN=\"Formagrid, Inc.\", O=\"Formagrid, Inc.\", L=San Francisco, S=California, C=US",
-      "issuer": "CN=DigiCert SHA2 Assured ID Code Signing CA, OU=www.digicert.com, O=DigiCert Inc, C=US",
-      "serialNumber": "0A9035B8BC15BD21FA288B8F456CB610",
-      "thumbprint": "15B7B3C24F8F6385BF6EB8F84D558B7D38CBDE1C",
-      "timestamp": "CN=DigiCert Timestamp 2021, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-07-22T23:20:28Z"
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "033B80DC1885691672E9806F126F6D5F",
+      "thumbprint": "C6E1DF26F910B52C868304D122EC42699184125C",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-10-06T15:29:26Z"
     },
     {
       "slug": "airtame/darwin",
@@ -1327,14 +1327,14 @@
     {
       "slug": "aws-vpn-client/windows",
       "name": "AWS Client VPN",
-      "version": "5.4.3",
-      "sha256": "b752e33882432496c85bb3efc920dd085243cb14d90fc1a9d6773eed7640a23a",
+      "version": "6.1.1",
+      "sha256": "fbf2fe21de715310ca96cfb831cffbb4358ac7bd8b0d0641dc2fd837da3f14f1",
       "publisher": "CN=Amazon.com Services LLC, OU=AWS Client VPN, O=Amazon.com Services LLC, L=Seattle, S=Washington, C=US, SERIALNUMBER=3482342, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0BECF93F49E6F75DE323F4125098942E",
       "thumbprint": "D17DD32F677D5AF0141F25A398A9F1DC59681A56",
-      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-07-30T16:55:15Z"
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-10-06T15:29:36Z"
     },
     {
       "slug": "axure-rp/darwin",
@@ -1373,9 +1373,9 @@
     {
       "slug": "azure-cli/windows",
       "name": "Microsoft Azure CLI",
-      "version": "2.90.0",
+      "version": "2.91.0",
       "sha256": "32acc1bc543116cbe2cff10cb867772df2f254ff2634c870aef0b46c4b696fdb",
-      "lastUpdated": "2026-09-02T03:47:17Z"
+      "lastUpdated": "2026-10-06T15:30:25Z"
     },
     {
       "slug": "azure-data-studio/windows",
@@ -2742,14 +2742,14 @@
     {
       "slug": "cmake-app/windows",
       "name": "CMake",
-      "version": "4.4.3",
-      "sha256": "f4205eebaa398e7e20313fcf0d93ee1bde73d973d548067063a6bdb5972358c1",
+      "version": "4.4.4",
+      "sha256": "ec8ef0b677b185f316f0fd4057ef4aabc84f03d6ea473c3e9a83a10c75917b71",
       "publisher": "CN=\"Kitware, Inc.\", O=\"Kitware, Inc.\", L=Clifton Park, S=New York, C=US, SERIALNUMBER=2235734, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=New York, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "026F295C7F2421F49A87D93369D05F3F",
       "thumbprint": "7129BADA9E7F98C172FD81133C2D1C2A5012B994",
-      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-08-29T00:12:27Z"
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-10-06T15:31:14Z"
     },
     {
       "slug": "cmux/darwin",
@@ -2940,14 +2940,14 @@
     {
       "slug": "connect-fonts/windows",
       "name": "Connect Fonts",
-      "version": "28.1.8",
-      "sha256": "c4a58945031e26f3002c25888f26d9d56c8db14904694dac8a4f1e7e9c2e790f",
+      "version": "28.1.9",
+      "sha256": "fdef151a8b86717fed43f209e7f4ddbaa9e06b923e5491fd750f3bff49bd83ca",
       "publisher": "CN=Extensis, O=Extensis, L=Portland, S=Oregon, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "016BCA25668918900404D049FD756686",
       "thumbprint": "8D85EC8078AF4A54DE4BE6F326EEE346618F74FD",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-09-22T22:09:05Z"
+      "lastUpdated": "2026-10-06T15:31:23Z"
     },
     {
       "slug": "copilot-money/darwin",
@@ -3864,14 +3864,14 @@
     {
       "slug": "discord/windows",
       "name": "Discord",
-      "version": "1.0.9260",
-      "sha256": "be1dee4c52227f743bc277a33a47620b6ff119e1387fe899205a8fe5d6575a90",
+      "version": "1.0.9261",
+      "sha256": "e6d2f3f781904b6f336a2aa22699d1c97cecab3784509804e870ac4cb69f2ac2",
       "publisher": "CN=Discord Inc., O=Discord Inc., L=San Francisco, S=California, C=US, SERIALNUMBER=5128862, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0DE9CF2E718364A0062E0D83093E34D7",
       "thumbprint": "6C7552617E892DFCA5CEB96FA2870F4F1904820E",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-09-29T08:37:50Z"
+      "lastUpdated": "2026-10-06T15:31:28Z"
     },
     {
       "slug": "disk-drill/darwin",
@@ -3938,14 +3938,14 @@
     {
       "slug": "docker/windows",
       "name": "Docker Desktop",
-      "version": "4.93.0",
-      "sha256": "c139124c9cf71477dc565c3c0ea5a18f90b93d68ebe9aaa848a065960416c0bc",
+      "version": "4.94.0",
+      "sha256": "a9814e31049d66156477a86614e83365669677733014ec72f74229623ff3890a",
       "publisher": "CN=Docker Inc, O=Docker Inc, L=Palo Alto, S=California, C=US, SERIALNUMBER=4817464, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0DCE683683AE70C7C647ADDB7E609A9A",
       "thumbprint": "B6BD29272B07AD4D0F1322A739499D67CA3BAC3F",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-09-29T08:38:06Z"
+      "lastUpdated": "2026-10-06T15:31:46Z"
     },
     {
       "slug": "dockfix/darwin",
@@ -5495,13 +5495,13 @@
     {
       "slug": "geogebra-classic/windows",
       "name": "GeoGebra Classic",
-      "version": "6.0.930",
-      "sha256": "52839b98c7a9bb1f23424ad19e677f98f8ffcf571a38467557bcccdb87269dad",
-      "publisher": "CN=GlobalSign Root CA, OU=Root CA, O=GlobalSign nv-sa, C=BE",
-      "issuer": "CN=GlobalSign Root CA, OU=Root CA, O=GlobalSign nv-sa, C=BE",
-      "serialNumber": "040000000001154b5ac394",
+      "version": "6.0.931",
+      "sha256": "eb6eee696a796bfe9aa2665f673844346fe3a7157badb6eaeab138aa73480584",
+      "publisher": "CN=Entrust Root Certification Authority, OU=\"(c) 2006 Entrust, Inc.\", OU=www.entrust.net/CPS is incorporated by reference, O=\"Entrust, Inc.\", C=US",
+      "issuer": "CN=Entrust Root Certification Authority, OU=\"(c) 2006 Entrust, Inc.\", OU=www.entrust.net/CPS is incorporated by reference, O=\"Entrust, Inc.\", C=US",
+      "serialNumber": "456b5054",
       "timestamp": "Cert is a CA certificate",
-      "lastUpdated": "2026-09-16T22:22:43Z"
+      "lastUpdated": "2026-10-06T15:32:05Z"
     },
     {
       "slug": "gephi/darwin",
@@ -5795,14 +5795,14 @@
     {
       "slug": "google-ads-editor/windows",
       "name": "Google Ads Editor",
-      "version": "14.13.3.0",
-      "sha256": "23b8167fab3b8823a0d5d3e38af1ff5d46442a3a22d1a0ab1ed2367ba7853997",
+      "version": "14.13.4.0",
+      "sha256": "33683f44f31188b9757b6dc5a878aca49cc05208aa9ded3e76c65953f31e590a",
       "publisher": "CN=Google LLC, O=Google LLC, L=Mountain View, S=California, C=US, SERIALNUMBER=3582691, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0B50CF246B263EFD85A729315158F3FF",
       "thumbprint": "607A3EDAA64933E94422FC8F0C80388E0590986C",
-      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-07-30T16:57:39Z"
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-10-06T15:32:18Z"
     },
     {
       "slug": "google-chrome/darwin",
