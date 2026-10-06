@@ -2,87 +2,6 @@
   "changes": [
     {
       "date": "2026-09-18T17:36:40Z",
-      "appName": "Okta Advanced Server Access",
-      "slug": "okta-advanced-server-access/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.113.0",
-      "newVersion": "1.114.0",
-      "installerUrl": "https://dist.scaleft.com/repos/macos/stable/all/macos-client/v1.114.0/ScaleFT-1.114.0.pkg"
-    },
-    {
-      "date": "2026-09-18T17:36:40Z",
-      "appName": "Ollama",
-      "slug": "ollama/windows",
-      "platform": "windows",
-      "oldVersion": "0.34.1",
-      "newVersion": "0.34.2",
-      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.34.2/OllamaSetup.exe"
-    },
-    {
-      "date": "2026-09-18T17:36:40Z",
-      "appName": "BitBox",
-      "slug": "bitbox/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.51.4",
-      "newVersion": "4.52.0",
-      "installerUrl": "https://github.com/BitBoxSwiss/bitbox-wallet-app/releases/download/v4.52.0/BitBox-4.52.0-macOS.dmg"
-    },
-    {
-      "date": "2026-09-18T17:36:40Z",
-      "appName": "Zoom Rooms",
-      "slug": "zoom-rooms/darwin",
-      "platform": "darwin",
-      "oldVersion": "7.1.5.13403",
-      "newVersion": "7.1.7.13891",
-      "installerUrl": "https://cdn.zoom.us/prod/7.1.7.13891/ZoomRooms.pkg"
-    },
-    {
-      "date": "2026-09-18T17:36:40Z",
-      "appName": "ChatGPT Desktop",
-      "slug": "chatgpt/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.911.61220",
-      "newVersion": "26.915.31945",
-      "installerUrl": "https://persistent.oaistatic.com/codex-app-prod/ChatGPT-darwin-arm64-26.915.31945.zip"
-    },
-    {
-      "date": "2026-09-18T17:36:40Z",
-      "appName": "Melodics",
-      "slug": "melodics/darwin",
-      "platform": "darwin",
-      "oldVersion": "5.0.1305",
-      "newVersion": "5.0.1345",
-      "installerUrl": "https://web-cdn.melodics.com/download/14A31989-BC1D-49F7-8D86-667ECADCEE90.zip"
-    },
-    {
-      "date": "2026-09-18T17:36:40Z",
-      "appName": "Cherry Studio",
-      "slug": "cherry-studio/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.0.14",
-      "newVersion": "2.1.0",
-      "installerUrl": "https://github.com/CherryHQ/cherry-studio/releases/download/v2.1.0/Cherry-Studio-2.1.0-mac-arm64.dmg"
-    },
-    {
-      "date": "2026-09-18T17:36:40Z",
-      "appName": "Geekbench",
-      "slug": "geekbench/darwin",
-      "platform": "darwin",
-      "oldVersion": "6.7.1",
-      "newVersion": "7.0.0",
-      "installerUrl": "https://cdn.geekbench.com/Geekbench-7.0.0-Mac.zip"
-    },
-    {
-      "date": "2026-09-18T17:36:40Z",
-      "appName": "Google Chrome",
-      "slug": "google-chrome/windows",
-      "platform": "windows",
-      "oldVersion": "153.0.8010.48",
-      "newVersion": "153.0.8010.53",
-      "installerUrl": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi"
-    },
-    {
-      "date": "2026-09-18T17:36:40Z",
       "appName": "Hidden Bar",
       "slug": "hiddenbar/darwin",
       "platform": "darwin",
@@ -8999,6 +8918,87 @@
       "oldVersion": "12.11.8",
       "newVersion": "12.11.9",
       "installerUrl": "https://www.goodsync.com/download/goodsync-vsub-mac.dmg"
+    },
+    {
+      "date": "2026-10-06T20:04:30Z",
+      "appName": "AnyDesk",
+      "slug": "anydesk/windows",
+      "platform": "windows",
+      "oldVersion": "9.8.0",
+      "newVersion": "9.8.1",
+      "installerUrl": "https://download.anydesk.com/AnyDesk.exe"
+    },
+    {
+      "date": "2026-10-06T20:04:30Z",
+      "appName": "Creative Force Triad",
+      "slug": "creative-force-triad/windows",
+      "platform": "windows",
+      "oldVersion": "4.5.0",
+      "newVersion": "4.6.0",
+      "installerUrl": "https://download.creativeforce.io/released-files.042024/prod/triad/win/Triad-4.6.0-win-x64.exe"
+    },
+    {
+      "date": "2026-10-06T20:04:30Z",
+      "appName": "Grammarly Desktop",
+      "slug": "grammarly-desktop/windows",
+      "platform": "windows",
+      "oldVersion": "1.2.300.1965",
+      "newVersion": "1.2.301.1966",
+      "installerUrl": "https://download-windows.grammarly.com/versions/1.2.301.1966/GrammarlyInstaller.exe"
+    },
+    {
+      "date": "2026-10-06T20:04:30Z",
+      "appName": "Pale Moon",
+      "slug": "pale-moon/windows",
+      "platform": "windows",
+      "oldVersion": "35.0.1",
+      "newVersion": "35.0.2",
+      "installerUrl": "https://rm-eu.palemoon.org/release/palemoon-35.0.2.win64.installer.exe"
+    },
+    {
+      "date": "2026-10-06T20:04:30Z",
+      "appName": "Aptakube",
+      "slug": "aptakube/windows",
+      "platform": "windows",
+      "oldVersion": "1.21.1",
+      "newVersion": "1.21.2",
+      "installerUrl": "https://releases.aptakube.com/Aptakube_1.21.2_x64_en-US.msi"
+    },
+    {
+      "date": "2026-10-06T20:04:30Z",
+      "appName": "Creative Force Kelvin",
+      "slug": "creative-force-kelvin/windows",
+      "platform": "windows",
+      "oldVersion": "6.11.1",
+      "newVersion": "6.12.0",
+      "installerUrl": "https://download.creativeforce.io/released-files.042024/prod/kelvin/win/Kelvin-6.12.0-win.msi"
+    },
+    {
+      "date": "2026-10-06T20:04:30Z",
+      "appName": "Tower",
+      "slug": "tower/windows",
+      "platform": "windows",
+      "oldVersion": "14.0.583",
+      "newVersion": "14.1.586",
+      "installerUrl": "https://www.git-tower.com/apps/tower3-win/586-6dd78fd9/Tower-14.1.586.msi"
+    },
+    {
+      "date": "2026-10-06T20:04:30Z",
+      "appName": "Evernote",
+      "slug": "evernote/darwin",
+      "platform": "darwin",
+      "oldVersion": "11.36.4",
+      "newVersion": "11.37.5",
+      "installerUrl": "https://mac.desktop.evernote.com/builds/Evernote-10.105.4-mac-ddl-stage-20240910164757-a2e60a8d876a07eded5d212fa56ba45214114ad0.dmg"
+    },
+    {
+      "date": "2026-10-06T20:04:30Z",
+      "appName": "WinDirStat",
+      "slug": "windirstat/windows",
+      "platform": "windows",
+      "oldVersion": "2.8.0",
+      "newVersion": "2.9.0",
+      "installerUrl": "https://github.com/windirstat/windirstat/releases/download/release/v2.9.0/WinDirStat-x64.msi"
     }
   ]
 }
