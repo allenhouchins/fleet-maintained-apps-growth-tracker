@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-07T05:27:34Z",
+  "lastUpdated": "2026-10-07T05:30:36Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1286,21 +1286,21 @@
     {
       "slug": "aws-cli/windows",
       "name": "AWS Command Line Interface v2",
-      "version": "2.37.9",
-      "sha256": "1221aaf20299e75f5dd734a3a3907e9584663aacaf3a580030079153cd6e4654",
+      "version": "2.37.10",
+      "sha256": "cf699c157e5334288c8970c3c851747ddbe4808b1c663504da881953b8c21d8a",
       "publisher": "CN=\"Amazon Web Services, Inc.\", OU=AWS, O=\"Amazon Web Services, Inc.\", L=Seattle, S=Washington, C=US, SERIALNUMBER=4152954, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0590C4CF0DB014199953A68CFCE9B0E7",
       "thumbprint": "81A9EFB93199F2C7441EE14050360EDAB7E8242A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-10-04T05:15:43Z"
+      "lastUpdated": "2026-10-07T05:28:12Z"
     },
     {
       "slug": "aws-sam-cli/windows",
       "name": "AWS SAM Command Line Interface",
-      "version": "1.166.2",
-      "sha256": "f7d5b6162b486d2eb9e2a82a674bef77c1201cbdab7c2ab357c97d6732875b85",
-      "lastUpdated": "2026-09-13T04:22:31Z"
+      "version": "1.167.0",
+      "sha256": "5ecf03c29e5e61fa0c2eb0cb1d64f70b917e1604c4258ae3d3b716cf1b61f1f6",
+      "lastUpdated": "2026-10-07T05:29:14Z"
     },
     {
       "slug": "aws-session-manager-plugin/windows",
@@ -4224,14 +4224,14 @@
     {
       "slug": "duo-desktop/windows",
       "name": "Duo Desktop",
-      "version": "7.21.0",
-      "sha256": "a0f9860240cd0943f39da86b3b7763d528c33e967f08cf3b3248f9da53eed8b5",
+      "version": "7.22.0",
+      "sha256": "b547a6ec76099211947ffe928f3c154c99b474d5bc253d610491d2e914af30f5",
       "publisher": "CN=Duo Security LLC, O=Duo Security LLC, L=Ann Arbor, S=Michigan, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0E28D4DA26320067A8F8DB9CFF34CFCB",
       "thumbprint": "0598DA4C2057D46A03038B7E5A89119429B8C06D",
       "timestamp": "CN=Sectigo Public Time Stamping Signer R37, O=Sectigo Limited, S=Greater London, C=GB",
-      "lastUpdated": "2026-09-09T00:14:27Z"
+      "lastUpdated": "2026-10-07T05:29:50Z"
     },
     {
       "slug": "dupeguru/darwin",
@@ -4645,14 +4645,14 @@
     {
       "slug": "endnote/windows",
       "name": "EndNote",
-      "version": "22.3.1.19926",
-      "sha256": "98f0903db7247c63f7eaeb74a49659c0833c2e8e5d6c398a0bef58df23fce23a",
+      "version": "22.4.0.20690",
+      "sha256": "1847c35018376a59f73ee02d357df1040639bfe2791cc48557386aca6f337595",
       "publisher": "CN=Clarivate Analytics (US) LLC, OU=Scientific and Academic Research, O=Clarivate Analytics (US) LLC, L=Philadelphia, S=Pennsylvania, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0A7ADB05277A2A54439A28D1AF66EB76",
       "thumbprint": "0E46B54D10D4C0590471FD5CC16D0FCDC4BFF1FB",
-      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-07-13T15:09:41Z"
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-10-07T05:29:55Z"
     },
     {
       "slug": "enpass/darwin",
@@ -4848,14 +4848,14 @@
     {
       "slug": "fellow/windows",
       "name": "Fellow",
-      "version": "5.7.13",
-      "sha256": "33ec0f87376c27bea0047286f1d401a37e4850803cd637b2aeb944b441a16127",
+      "version": "5.7.14",
+      "sha256": "46981c83990d72f2ba81f675fb6c57070026db68171bdf9dd18a5dc23d1b3dcf",
       "publisher": "CN=Fellow.ai, O=Fellow.ai, L=Ottawa, S=Ontario, C=CA",
-      "issuer": "CN=Microsoft ID Verified CS AOC CA 03, O=Microsoft Corporation, C=US",
-      "serialNumber": "33000759253A2A2A30380B7E01000000075925",
-      "thumbprint": "FCA9F7E4A89212779DCC8D3E66C679352C81AAFC",
+      "issuer": "CN=Microsoft ID Verified CS AOC CA 04, O=Microsoft Corporation, C=US",
+      "serialNumber": "330007AA050D77D32C164E93E500000007AA05",
+      "thumbprint": "2CE467AAA7EA1A1E07A3D91C403629D6342603E7",
       "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:A500-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-10-01T09:13:45Z"
+      "lastUpdated": "2026-10-07T05:29:59Z"
     },
     {
       "slug": "ferdium/darwin",
@@ -4912,14 +4912,14 @@
     {
       "slug": "filebeat/windows",
       "name": "Filebeat",
-      "version": "9.5.4",
-      "sha256": "da6e29bc2e6186f46c9902d58fb2f3bb9d9d93d53ef0c68cd6c3d6d9dfb8dea5",
+      "version": "9.5.5",
+      "sha256": "19a80f0ecb29d2bfa5af44b6c3b6ea523625ed18162674b1530eb0f3a7ee460e",
       "publisher": "CN=\"Elasticsearch, Inc.\", O=\"Elasticsearch, Inc.\", L=Mountain View, S=California, C=US, SERIALNUMBER=5195380, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0ED3D34F2AADC84A5D3D65F14A1E05F5",
       "thumbprint": "B54BACBD648D094FD923F91C7738B2EDA75EBDCB",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-09-16T19:26:55Z"
+      "lastUpdated": "2026-10-07T05:30:14Z"
     },
     {
       "slug": "filemaker-pro/darwin",
@@ -5062,14 +5062,14 @@
     {
       "slug": "firefox@nightly-arm64/windows",
       "name": "Mozilla Firefox Nightly (ARM64)",
-      "version": "159.2610.109.0",
-      "sha256": "35ea9f59b02f6946273b323cf8686ff68b5381d301b60e0b6e1607d27c393b18",
+      "version": "159.2610.609.0",
+      "sha256": "a41c03434b9a4d2352f0117a6bd702a4a4b6ad8e8c32a66cb1ef916a90d0bcaf",
       "publisher": "CN=Mozilla Corporation, OU=Firefox Engineering Operations, O=Mozilla Corporation, L=San Francisco, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0F0EF7C2D819273E8C13F016D2E09B25",
       "thumbprint": "6663D5C4FDAF9EFD5F823A26C9C410DC9928C44A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-10-02T01:50:50Z"
+      "lastUpdated": "2026-10-07T05:30:21Z"
     },
     {
       "slug": "firefox@nightly/darwin",
@@ -5084,14 +5084,14 @@
     {
       "slug": "firefox@nightly/windows",
       "name": "Mozilla Firefox Nightly",
-      "version": "159.2610.109.0",
-      "sha256": "a57f86bd377ba7697bb7b5bc3c758946c19bb3f0cf3fb1ba693c785d06e54a5d",
+      "version": "159.2610.609.0",
+      "sha256": "232ec7083c8541d17e1b89dde3a0971a2dbcb832f0f6101ace4d580b1d60a873",
       "publisher": "CN=Mozilla Corporation, OU=Firefox Engineering Operations, O=Mozilla Corporation, L=San Francisco, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0F0EF7C2D819273E8C13F016D2E09B25",
       "thumbprint": "6663D5C4FDAF9EFD5F823A26C9C410DC9928C44A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-10-02T01:50:56Z"
+      "lastUpdated": "2026-10-07T05:30:27Z"
     },
     {
       "slug": "fission/darwin",
@@ -5817,14 +5817,14 @@
     {
       "slug": "google-chrome/windows",
       "name": "Google Chrome",
-      "version": "154.0.8037.98",
-      "sha256": "728bea0eb25389b9f308034725434288d3143827bebdf0abbd4a634df9c00a0c",
+      "version": "155.0.8059.40",
+      "sha256": "32ba438dea18f0fed1ec621bfb274a2669adec67be2aa91d96b3cc6c64779276",
       "publisher": "CN=Google LLC, O=Google LLC, L=Mountain View, S=California, C=US, SERIALNUMBER=3582691, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0B50CF246B263EFD85A729315158F3FF",
       "thumbprint": "607A3EDAA64933E94422FC8F0C80388E0590986C",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-10-02T15:53:09Z"
+      "lastUpdated": "2026-10-07T05:30:36Z"
     },
     {
       "slug": "google-credential-provider-for-windows/windows",
