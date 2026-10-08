@@ -1,222 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-09-21T16:20:12Z",
-      "appName": "Proton Mail Bridge",
-      "slug": "proton-mail-bridge/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.26.0",
-      "newVersion": "3.27.0",
-      "installerUrl": "https://github.com/ProtonMail/proton-bridge/releases/download/v3.27.0/Bridge-Installer.dmg"
-    },
-    {
-      "date": "2026-09-21T16:20:12Z",
-      "appName": "Secretive",
-      "slug": "secretive/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.0.4",
-      "newVersion": "4.0.0",
-      "installerUrl": "https://github.com/maxgoedjen/secretive/releases/download/v4.0.0/Secretive.zip"
-    },
-    {
-      "date": "2026-09-21T16:20:12Z",
-      "appName": "Lens",
-      "slug": "lens/darwin",
-      "platform": "darwin",
-      "oldVersion": "2026.9.20601-latest",
-      "newVersion": "2026.9.181013-latest",
-      "installerUrl": "https://api.k8slens.dev/binaries/Lens-2026.9.181013-latest-arm64.dmg"
-    },
-    {
-      "date": "2026-09-21T16:20:12Z",
-      "appName": "OpenRCT2",
-      "slug": "openrct2/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.5.4",
-      "newVersion": "0.5.5",
-      "installerUrl": "https://github.com/OpenRCT2/OpenRCT2/releases/download/v0.5.5/OpenRCT2-v0.5.5-macos-universal.zip"
-    },
-    {
-      "date": "2026-09-21T16:20:12Z",
-      "appName": "AltTab",
-      "slug": "alt-tab/darwin",
-      "platform": "darwin",
-      "oldVersion": "11.7.0",
-      "newVersion": "11.7.1",
-      "installerUrl": "https://github.com/lwouis/alt-tab-macos/releases/download/v11.7.1/AltTab-11.7.1.zip"
-    },
-    {
-      "date": "2026-09-21T20:58:37Z",
-      "appName": "Sqlectron",
-      "slug": "sqlectron/windows",
-      "platform": "windows",
-      "oldVersion": "1.38.0",
-      "newVersion": "1.39.0",
-      "installerUrl": "https://github.com/sqlectron/sqlectron/releases/download/v1.39.0/sqlectron-Setup-1.39.0.exe"
-    },
-    {
-      "date": "2026-09-21T20:58:37Z",
-      "appName": "Vim",
-      "slug": "vim/windows",
-      "platform": "windows",
-      "oldVersion": "9.2.1119",
-      "newVersion": "9.2.1122",
-      "installerUrl": "https://github.com/vim/vim-win32-installer/releases/download/v9.2.1122/gvim_9.2.1122_x64.exe"
-    },
-    {
-      "date": "2026-09-21T20:58:37Z",
-      "appName": "Mozilla Firefox Nightly",
-      "slug": "firefox@nightly/windows",
-      "platform": "windows",
-      "oldVersion": "158.2609.1809.0",
-      "newVersion": "158.2609.1909.0",
-      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/09/2026-09-19-09-06-01-mozilla-central/firefox-158.0a1.multi.win64.installer.msix"
-    },
-    {
-      "date": "2026-09-21T20:58:37Z",
-      "appName": "Genesys Cloud",
-      "slug": "genesys-cloud/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.54.48",
-      "newVersion": "2.55.50",
-      "installerUrl": "https://app.mypurecloud.com/directory-mac/build-assets/2.55.50-208/genesys-cloud-mac-2.55.50.dmg"
-    },
-    {
-      "date": "2026-09-21T20:58:37Z",
-      "appName": "Mozilla Firefox Nightly (ARM64)",
-      "slug": "firefox@nightly-arm64/windows",
-      "platform": "windows",
-      "oldVersion": "158.2609.1809.0",
-      "newVersion": "158.2609.1909.0",
-      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/09/2026-09-19-09-06-01-mozilla-central/firefox-158.0a1.multi.win64-aarch64.installer.msix"
-    },
-    {
-      "date": "2026-09-21T20:58:37Z",
-      "appName": "Zoom",
-      "slug": "zoom/windows",
-      "platform": "windows",
-      "oldVersion": "7.2.48358",
-      "newVersion": "7.2.48556",
-      "installerUrl": "https://zoom.us/client/7.2.1.48556/ZoomInstallerFull.msi?archType=x64"
-    },
-    {
-      "date": "2026-09-21T20:58:37Z",
-      "appName": "Lens",
-      "slug": "lens/windows",
-      "platform": "windows",
-      "oldVersion": "2026.9.20601-latest",
-      "newVersion": "2026.9.181013-latest",
-      "installerUrl": "https://downloads.k8slens.dev/ide/Lens%20Setup%202026.9.181013-latest.exe"
-    },
-    {
-      "date": "2026-09-21T20:58:37Z",
-      "appName": "Mullvad Browser",
-      "slug": "mullvad-browser/windows",
-      "platform": "windows",
-      "oldVersion": "15.0.21",
-      "newVersion": "15.0.23",
-      "installerUrl": "https://github.com/mullvad/mullvad-browser/releases/download/15.0.23/mullvad-browser-windows-x86_64-15.0.23.exe"
-    },
-    {
-      "date": "2026-09-21T20:58:37Z",
-      "appName": "Notepad.exe",
-      "slug": "notepadexe/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.6.7",
-      "newVersion": "1.6.8",
-      "installerUrl": "https://github.com/notepadhq/notepadexe-public/releases/download/1.6.8/Notepad.zip"
-    },
-    {
-      "date": "2026-09-21T20:58:37Z",
-      "appName": "Loom",
-      "slug": "loom/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.375.0",
-      "newVersion": "0.377.0",
-      "installerUrl": "https://packages.loom.com/desktop-packages/Loom-0.377.0-arm64.dmg"
-    },
-    {
-      "date": "2026-09-21T20:58:37Z",
-      "appName": "TimeScribe",
-      "slug": "timescribe/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.16.0",
-      "newVersion": "1.17.0",
-      "installerUrl": "https://github.com/WINBIGFOX/TimeScribe/releases/download/v1.17.0/TimeScribe-1.17.0-arm64.zip"
-    },
-    {
-      "date": "2026-09-21T20:58:37Z",
-      "appName": "TextExpander",
-      "slug": "textexpander/windows",
-      "platform": "windows",
-      "oldVersion": "254.8.4.704",
-      "newVersion": "254.8.4.804",
-      "installerUrl": "https://cdn.textexpander.com/windows/848.4.0/TextExpander_x64.msi"
-    },
-    {
-      "date": "2026-09-21T20:58:37Z",
-      "appName": "Zoom Outlook Plugin",
-      "slug": "zoom-outlook-plugin/windows",
-      "platform": "windows",
-      "oldVersion": "7.1.0",
-      "newVersion": "7.2.0",
-      "installerUrl": "https://zoom.us/client/7.2.0.1283/ZoomOutlookPluginSetup.msi"
-    },
-    {
-      "date": "2026-09-21T20:58:37Z",
-      "appName": "Requestly",
-      "slug": "requestly/windows",
-      "platform": "windows",
-      "oldVersion": "26.3.3",
-      "newVersion": "26.6.29",
-      "installerUrl": "https://github.com/requestly/http-interceptor-desktop-app/releases/download/v26.6.29/Requestly-Setup-26.6.29.exe"
-    },
-    {
-      "date": "2026-09-21T20:58:37Z",
-      "appName": "Sublime Text",
-      "slug": "sublime-text/windows",
-      "platform": "windows",
-      "oldVersion": "4.0.0.420000",
-      "newVersion": "4.0.0.421300",
-      "installerUrl": "https://download.sublimetext.com/sublime_text_build_4213_x64_setup.exe"
-    },
-    {
-      "date": "2026-09-21T20:58:37Z",
-      "appName": "Shift",
-      "slug": "shift/darwin",
-      "platform": "darwin",
-      "oldVersion": "9.6.8.1270",
-      "newVersion": "9.6.9.1283",
-      "installerUrl": "https://updates.tryshift.com/v9.6.9/stable/shift-v9.6.9.1283-stable-arm64.dmg"
-    },
-    {
-      "date": "2026-09-21T20:58:37Z",
-      "appName": "Sync",
-      "slug": "sync/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.2.62",
-      "newVersion": "2.2.64",
-      "installerUrl": "https://www10.sync.com/download/apple/Sync-2.2.64.dmg"
-    },
-    {
-      "date": "2026-09-21T20:58:37Z",
-      "appName": "XnViewMP",
-      "slug": "xnviewmp/windows",
-      "platform": "windows",
-      "oldVersion": "1.11.6.0",
-      "newVersion": "1.11.7.0",
-      "installerUrl": "https://download.xnview.com/old_versions/XnView_MP/XnView_MP-1.11.7-win-x64.exe"
-    },
-    {
-      "date": "2026-09-21T20:58:37Z",
-      "appName": "Google Drive",
-      "slug": "google-drive/windows",
-      "platform": "windows",
-      "oldVersion": "130.0.2.0",
-      "newVersion": "131.0.2.0",
-      "installerUrl": "https://dl.google.com/release2/drive-file-stream/mgy7ybphxg24jq4k2vq47wnkqi_131.0.2.0/setup.exe"
-    },
-    {
       "date": "2026-09-21T20:58:37Z",
       "appName": "Splice",
       "slug": "splice/darwin",
@@ -8999,6 +8783,222 @@
       "oldVersion": "2026.7.1376.0",
       "newVersion": "2026.8.2100.0",
       "installerUrl": "https://downloads.cloudflareclient.com/v1/download/macos/version/2026.8.2100.0"
+    },
+    {
+      "date": "2026-10-08T05:01:10Z",
+      "appName": "Google Antigravity",
+      "slug": "antigravity/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.21.0",
+      "newVersion": "2.21.1",
+      "installerUrl": "https://storage.googleapis.com/antigravity-public/antigravity-hub/2.21.1-5614635819335680/darwin-arm/Antigravity.dmg"
+    },
+    {
+      "date": "2026-10-08T05:01:10Z",
+      "appName": "HEY",
+      "slug": "hey-desktop/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.3.7",
+      "newVersion": "1.3.8",
+      "installerUrl": "https://hey.com/desktop/HEY-1.3.8-arm64-mac.zip"
+    },
+    {
+      "date": "2026-10-08T05:01:10Z",
+      "appName": "Node.js",
+      "slug": "nodejs/windows",
+      "platform": "windows",
+      "oldVersion": "26.7.0",
+      "newVersion": "26.8.1",
+      "installerUrl": "https://nodejs.org/dist/v26.8.1/node-v26.8.1-x64.msi"
+    },
+    {
+      "date": "2026-10-08T05:01:10Z",
+      "appName": "Mozilla Firefox Nightly (ARM64)",
+      "slug": "firefox@nightly-arm64/windows",
+      "platform": "windows",
+      "oldVersion": "159.2610.609.0",
+      "newVersion": "159.2610.709.0",
+      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/10/2026-10-07-09-54-43-mozilla-central/firefox-159.0a1.multi.win64-aarch64.installer.msix"
+    },
+    {
+      "date": "2026-10-08T05:01:10Z",
+      "appName": "NVDA",
+      "slug": "nvda/windows",
+      "platform": "windows",
+      "oldVersion": "2026.1.1",
+      "newVersion": "2026.2",
+      "installerUrl": "https://download.nvaccess.org/releases/2026.2/nvda_2026.2.exe"
+    },
+    {
+      "date": "2026-10-08T05:01:10Z",
+      "appName": "Zed",
+      "slug": "zed/windows",
+      "platform": "windows",
+      "oldVersion": "1.22.0",
+      "newVersion": "1.23.2",
+      "installerUrl": "https://github.com/zed-industries/zed/releases/download/v1.23.2/Zed-x86_64.exe"
+    },
+    {
+      "date": "2026-10-08T05:01:10Z",
+      "appName": "Zed",
+      "slug": "zed/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.22.0",
+      "newVersion": "1.23.2",
+      "installerUrl": "https://github.com/zed-industries/zed/releases/download/v1.23.2/Zed-aarch64.dmg"
+    },
+    {
+      "date": "2026-10-08T05:01:10Z",
+      "appName": "Signal",
+      "slug": "signal/windows",
+      "platform": "windows",
+      "oldVersion": "8.29.0",
+      "newVersion": "8.30.0",
+      "installerUrl": "https://updates.signal.org/desktop/signal-desktop-win-8.30.0.exe"
+    },
+    {
+      "date": "2026-10-08T05:01:10Z",
+      "appName": "Notion",
+      "slug": "notion/windows",
+      "platform": "windows",
+      "oldVersion": "7.37.0",
+      "newVersion": "7.37.1",
+      "installerUrl": "https://desktop-release.notion-static.com/Notion%20Setup%207.37.1.exe"
+    },
+    {
+      "date": "2026-10-08T05:01:10Z",
+      "appName": "Beekeeper Studio",
+      "slug": "beekeeper-studio/darwin",
+      "platform": "darwin",
+      "oldVersion": "6.1.5",
+      "newVersion": "6.1.6",
+      "installerUrl": "https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v6.1.6/Beekeeper-Studio-6.1.6-arm64.dmg"
+    },
+    {
+      "date": "2026-10-08T05:01:10Z",
+      "appName": "Mozilla Firefox Nightly",
+      "slug": "firefox@nightly/windows",
+      "platform": "windows",
+      "oldVersion": "159.2610.609.0",
+      "newVersion": "159.2610.709.0",
+      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/10/2026-10-07-09-54-43-mozilla-central/firefox-159.0a1.multi.win64.installer.msix"
+    },
+    {
+      "date": "2026-10-08T05:01:10Z",
+      "appName": "Tailscale",
+      "slug": "tailscale/windows",
+      "platform": "windows",
+      "oldVersion": "1.102.4",
+      "newVersion": "1.104.1",
+      "installerUrl": "https://pkgs.tailscale.com/stable/tailscale-setup-1.104.1-amd64.msi"
+    },
+    {
+      "date": "2026-10-08T05:01:10Z",
+      "appName": "Figma",
+      "slug": "figma/windows",
+      "platform": "windows",
+      "oldVersion": "126.9.11",
+      "newVersion": "126.9.13",
+      "installerUrl": "https://desktop.figma.com/win/build/Figma-126.9.13.exe"
+    },
+    {
+      "date": "2026-10-08T05:01:10Z",
+      "appName": "Figma",
+      "slug": "figma/darwin",
+      "platform": "darwin",
+      "oldVersion": "126.9.11",
+      "newVersion": "126.9.13",
+      "installerUrl": "https://desktop.figma.com/mac-arm/Figma-126.9.13.zip"
+    },
+    {
+      "date": "2026-10-08T05:01:10Z",
+      "appName": "Vellum",
+      "slug": "vellum/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.1.5",
+      "newVersion": "4.1.6",
+      "installerUrl": "https://180g.s3.amazonaws.com/downloads/Vellum-41600.zip"
+    },
+    {
+      "date": "2026-10-08T05:01:10Z",
+      "appName": "Microsoft ODBC Driver 18 for SQL Server",
+      "slug": "microsoft-odbc-driver-18/windows",
+      "platform": "windows",
+      "oldVersion": "18.6.2.1",
+      "newVersion": "18.7.1.1",
+      "installerUrl": "https://download.microsoft.com/download/d624e1c6-293b-4d6f-91b8-6e515a5d6a77/amd64/1033/msodbcsql.msi"
+    },
+    {
+      "date": "2026-10-08T05:01:10Z",
+      "appName": "Sequel Ace",
+      "slug": "sequel-ace/darwin",
+      "platform": "darwin",
+      "oldVersion": "6.0.1",
+      "newVersion": "6.0.2",
+      "installerUrl": "https://github.com/Sequel-Ace/Sequel-Ace/releases/download/production/6.0.2-20115/Sequel-Ace-6.0.2.zip"
+    },
+    {
+      "date": "2026-10-08T05:01:10Z",
+      "appName": "Beekeeper Studio",
+      "slug": "beekeeper-studio/windows",
+      "platform": "windows",
+      "oldVersion": "6.1.5",
+      "newVersion": "6.1.6",
+      "installerUrl": "https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v6.1.6/Beekeeper-Studio-Setup-6.1.6.exe"
+    },
+    {
+      "date": "2026-10-08T05:01:10Z",
+      "appName": "DisplayLink USB Graphics Software",
+      "slug": "displaylink/windows",
+      "platform": "windows",
+      "oldVersion": "12.2.2412.0",
+      "newVersion": "12.3.5011.0",
+      "installerUrl": "https://www.synaptics.com/sites/default/files/msi_files/2026-09/DisplayLink%20USB%20Graphics%20Software%20for%20Windows12.3-MSI.zip"
+    },
+    {
+      "date": "2026-10-08T05:01:10Z",
+      "appName": "Signal",
+      "slug": "signal/darwin",
+      "platform": "darwin",
+      "oldVersion": "8.29.0",
+      "newVersion": "8.30.0",
+      "installerUrl": "https://updates.signal.org/desktop/signal-desktop-mac-arm64-8.30.0.zip"
+    },
+    {
+      "date": "2026-10-08T05:01:10Z",
+      "appName": "Ollama",
+      "slug": "ollama/windows",
+      "platform": "windows",
+      "oldVersion": "0.40.0",
+      "newVersion": "0.40.1",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.40.1/OllamaSetup.exe"
+    },
+    {
+      "date": "2026-10-08T05:01:10Z",
+      "appName": "Dialpad",
+      "slug": "dialpad/darwin",
+      "platform": "darwin",
+      "oldVersion": "2609.3.0",
+      "newVersion": "2609.4.0",
+      "installerUrl": "https://download.dialpad.com/osx/arm64/dialpad.pkg"
+    },
+    {
+      "date": "2026-10-08T05:01:10Z",
+      "appName": "Raycast",
+      "slug": "raycast/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.7.0.0",
+      "newVersion": "2.7.1.0",
+      "installerUrl": "https://x.raycast-releases.com/download?platform=macos\u0026architecture=arm64\u0026version=2.7.1.0"
+    },
+    {
+      "date": "2026-10-08T05:01:10Z",
+      "appName": "Superhuman",
+      "slug": "superhuman/darwin",
+      "platform": "darwin",
+      "oldVersion": "1041.0.68",
+      "newVersion": "1041.0.69",
+      "installerUrl": "https://storage.googleapis.com/download.superhuman.com/supertron-update/Superhuman-1041.0.69-arm64-latest-mac.zip"
     }
   ]
 }
