@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-08T05:13:23Z",
+  "lastUpdated": "2026-10-08T05:15:22Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -4890,14 +4890,14 @@
     {
       "slug": "figma/windows",
       "name": "Figma",
-      "version": "126.9.11",
-      "sha256": "a685f473b50220b94831303a2b83d653e075f2dfde199dfc85672974a59f3d8e",
+      "version": "126.9.13",
+      "sha256": "50e395cc632dbf4a94c7747138731a5336fa7e2078fb0b0d3edd57f23823ce3c",
       "publisher": "CN=\"Figma, Inc.\", O=\"Figma, Inc.\", L=San Francisco, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "07C538441BD037E808C8A411EE923BA2",
       "thumbprint": "B9F6F7CB9C6CE2437C45D86BCC25A788422CADD4",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-10-02T01:50:43Z"
+      "lastUpdated": "2026-10-08T05:13:59Z"
     },
     {
       "slug": "file-juicer/darwin",
@@ -5062,14 +5062,14 @@
     {
       "slug": "firefox@nightly-arm64/windows",
       "name": "Mozilla Firefox Nightly (ARM64)",
-      "version": "159.2610.609.0",
-      "sha256": "a41c03434b9a4d2352f0117a6bd702a4a4b6ad8e8c32a66cb1ef916a90d0bcaf",
+      "version": "159.2610.709.0",
+      "sha256": "0b86c6ef42534b666bfe8b3660fd602c5eed2fba9cac223da45b00f99a929d57",
       "publisher": "CN=Mozilla Corporation, OU=Firefox Engineering Operations, O=Mozilla Corporation, L=San Francisco, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0F0EF7C2D819273E8C13F016D2E09B25",
       "thumbprint": "6663D5C4FDAF9EFD5F823A26C9C410DC9928C44A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-10-07T05:30:21Z"
+      "lastUpdated": "2026-10-08T05:14:04Z"
     },
     {
       "slug": "firefox@nightly/darwin",
@@ -5084,14 +5084,14 @@
     {
       "slug": "firefox@nightly/windows",
       "name": "Mozilla Firefox Nightly",
-      "version": "159.2610.609.0",
-      "sha256": "232ec7083c8541d17e1b89dde3a0971a2dbcb832f0f6101ace4d580b1d60a873",
+      "version": "159.2610.709.0",
+      "sha256": "4dcefacbac754ade6f56c1ce39bc0e50f75c0e27a30b347cd8b6ca98210711cb",
       "publisher": "CN=Mozilla Corporation, OU=Firefox Engineering Operations, O=Mozilla Corporation, L=San Francisco, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0F0EF7C2D819273E8C13F016D2E09B25",
       "thumbprint": "6663D5C4FDAF9EFD5F823A26C9C410DC9928C44A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-10-07T05:30:27Z"
+      "lastUpdated": "2026-10-08T05:14:09Z"
     },
     {
       "slug": "fission/darwin",
@@ -8241,14 +8241,14 @@
     {
       "slug": "microsoft-odbc-driver-18/windows",
       "name": "Microsoft ODBC Driver 18 for SQL Server",
-      "version": "18.6.2.1",
-      "sha256": "20314529110da3365a252164a657bdc837a18be5839105aa5f5acf0a8d2f4b82",
+      "version": "18.7.1.1",
+      "sha256": "21ef69e4b942f18aced55fa7c3a8d7263004e113a96690bac7509645e1b1a310",
       "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "issuer": "CN=Microsoft Code Signing PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "serialNumber": "33000004855E99EC0E592FCDD7000000000485",
-      "thumbprint": "3F56A45111684D454E231CFDC4DA5C8D370F9816",
-      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:7F00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-08-03T16:13:49Z"
+      "issuer": "CN=Microsoft Code Signing PCA 2024, O=Microsoft Corporation, C=US",
+      "serialNumber": "330000021D4D19C84ED70F574800000000021D",
+      "thumbprint": "AB172913A2960A224809EE8A0C371CD47A079B72",
+      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:8900-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-10-08T05:14:15Z"
     },
     {
       "slug": "microsoft-office/windows",
@@ -8975,14 +8975,14 @@
     {
       "slug": "nodejs/windows",
       "name": "Node.js",
-      "version": "26.7.0",
-      "sha256": "e921fe5307e29bf6fd00000dd594356affd3a7b044e52720c7f10decbdc305b9",
+      "version": "26.8.1",
+      "sha256": "5cba0ea928508c65ddadefc0681d2fb6d95f1f3beea4428f04397631140ee8e5",
       "publisher": "CN=OpenJS Foundation, O=OpenJS Foundation, L=San Francisco, S=California, C=US",
-      "issuer": "CN=Microsoft ID Verified CS EOC CA 03, O=Microsoft Corporation, C=US",
-      "serialNumber": "330003DDE1D4B27FC61595689600000003DDE1",
-      "thumbprint": "024AE2C7B8EE56F20CA4B37686B9856E166B68B8",
+      "issuer": "CN=Microsoft ID Verified CS EOC CA 04, O=Microsoft Corporation, C=US",
+      "serialNumber": "330004F35FC9C79689FCED839200000004F35F",
+      "thumbprint": "D1DC7755FAB17F01224CCCEA1C2FAEDC6F963E12",
       "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7800-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-08-06T04:38:15Z"
+      "lastUpdated": "2026-10-08T05:14:29Z"
     },
     {
       "slug": "nordlayer/darwin",
@@ -9159,14 +9159,14 @@
     {
       "slug": "notion/windows",
       "name": "Notion",
-      "version": "7.37.0",
-      "sha256": "c999111715005b44fa60b6cda0986291b88df7baf5471f9cd5f940dccc1c5f43",
+      "version": "7.37.1",
+      "sha256": "7f00e0d00eb364043e1f44c5bed97fcd43697b8ee68a0ad7c47a0d42c96d1891",
       "publisher": "CN=\"Notion Labs, Inc.\", O=\"Notion Labs, Inc.\", L=San Francisco, S=California, C=US",
-      "issuer": "CN=Microsoft ID Verified CS AOC CA 03, O=Microsoft Corporation, C=US",
-      "serialNumber": "330007BA623FAFF399E5999B9F00000007BA62",
-      "thumbprint": "AE33AD8024ABF15F9ACD86DAC7B0A85BF7E54E38",
-      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7D00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-10-06T15:33:05Z"
+      "issuer": "CN=Microsoft ID Verified CS EOC CA 03, O=Microsoft Corporation, C=US",
+      "serialNumber": "330007B6533CC0F0C73B0F9CF900000007B653",
+      "thumbprint": "57E1D436C114F600B7F1A84EDFBE29D0F6B18A82",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7A1A-05E0-D947, OU=Microsoft Ireland Operations Limited, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-10-08T05:14:37Z"
     },
     {
       "slug": "noun-project/darwin",
@@ -9231,14 +9231,14 @@
     {
       "slug": "nvda/windows",
       "name": "NVDA",
-      "version": "2026.1.1",
-      "sha256": "6e0289eb5a3aa076eb97ea99c5d5465cb48b5ecc6a3257dc3d811f881a1747c9",
+      "version": "2026.2",
+      "sha256": "f3f8d29974a88d687b3c4809be192219ec579c5bdabcda5aaf53635288bca824",
       "publisher": "CN=NV Access Limited, O=NV Access Limited, L=Camp Mountain, S=Queensland, C=AU",
       "issuer": "CN=GlobalSign GCC R45 CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
       "serialNumber": "43CF898922C4EF985354BADC",
       "thumbprint": "4E9A772A99C1A3B713766DAC4B3545236CC2AE72",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-08-03T17:56:39Z"
+      "lastUpdated": "2026-10-08T05:14:41Z"
     },
     {
       "slug": "nvidia-geforce-now/darwin",
@@ -9381,14 +9381,14 @@
     {
       "slug": "ollama/windows",
       "name": "Ollama",
-      "version": "0.40.0",
-      "sha256": "135bf4d927b1de03e884cd2fe66729bdf4d6a2983c5a453b99eb403489e460e1",
+      "version": "0.40.1",
+      "sha256": "5a157ce5a0697bd885186f0683f39c55deb4bf3eebd28ab90bab0ffeccb6132a",
       "publisher": "CN=Ollama Inc., O=Ollama Inc., L=Toronto, S=Ontario, C=CA, SERIALNUMBER=2713355, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Ontario, OID.1.3.6.1.4.1.311.60.2.1.3=CA",
       "issuer": "CN=DigiCert G5 CS ECC SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "09EC0C6B3ACF2FCBBD0BB7489E389999",
       "thumbprint": "716CD3BC8C02361431A18F56F98C72DE88066103",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-10-07T05:31:16Z"
+      "lastUpdated": "2026-10-08T05:15:15Z"
     },
     {
       "slug": "omnidisksweeper/darwin",
@@ -11763,14 +11763,14 @@
     {
       "slug": "signal/windows",
       "name": "Signal",
-      "version": "8.29.0",
-      "sha256": "63a861804093a12b56a432b755a3fe16e40c0948a1e2de47814defcf8c40b5e9",
+      "version": "8.30.0",
+      "sha256": "661253470b3e0efd2e0d813755a5638df1cb2e7ec6899aadc2ef3a92e3e9185f",
       "publisher": "CN=\"Signal Messenger, LLC\", O=\"Signal Messenger, LLC\", L=Mountain View, S=California, C=US, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=6703101, OID.2.5.4.15=Private Organization",
       "issuer": "CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
       "serialNumber": "4EF1C2D67B37517957F42E8D",
       "thumbprint": "8A5A56EFFDC462AE8A6CF732BB21E2541995BF36",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-10-02T01:51:58Z"
+      "lastUpdated": "2026-10-08T05:15:22Z"
     },
     {
       "slug": "simple-comic/darwin",
