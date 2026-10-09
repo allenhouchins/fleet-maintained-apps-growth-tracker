@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T05:20:55Z",
+  "lastUpdated": "2026-10-09T05:27:51Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -7134,6 +7134,16 @@
       "lastUpdated": "2026-09-04T03:53:27Z"
     },
     {
+      "slug": "kicad/darwin",
+      "name": "KiCad",
+      "version": "10.0.6",
+      "sha256": "a27512959fb608febc5277998d22aff77a1e65c275425776cf0db0b30902af15",
+      "cdhash": "0a9dad4e56e0df5140b57351d9d7b937451dff6f",
+      "signingId": "9FQDHNY6U2:org.kicad.kicad",
+      "teamId": "9FQDHNY6U2",
+      "lastUpdated": "2026-10-09T05:22:07Z"
+    },
+    {
       "slug": "kiro-cli/darwin",
       "name": "Kiro CLI",
       "version": "2.28.0",
@@ -7146,12 +7156,12 @@
     {
       "slug": "kiro/darwin",
       "name": "Kiro",
-      "version": "1.2.37",
-      "sha256": "f76dfb67cad31c026eb673af0fcee7de0e1f6294269651ecf4dae4a5a49a387c",
-      "cdhash": "3fa4986dba49ad7acfc916319b9bd3acb5d031f4",
+      "version": "1.2.56",
+      "sha256": "586ca9af25501061f4864a9a8812b0ea47636ff65df5ad9199d51bd79b508a7f",
+      "cdhash": "c6b8303e6b5f2f2bc21c6be4929fca6971843ee2",
       "signingId": "94KV3E626L:dev.kiro.desktop",
       "teamId": "94KV3E626L",
-      "lastUpdated": "2026-10-06T15:10:58Z"
+      "lastUpdated": "2026-10-09T05:22:41Z"
     },
     {
       "slug": "kiro/windows",
@@ -7230,12 +7240,12 @@
     {
       "slug": "krita/darwin",
       "name": "Krita",
-      "version": "5.3.4",
-      "sha256": "22e6da195e5ccd5df68909691aeb4d617f3a66b70b6530ea5052f802f3e0bfb2",
-      "cdhash": "c1377d22c5ec52fcd55166158d6fd474c174e2a9",
+      "version": "5.3.4.1",
+      "sha256": "dddb66b314b9204db841d3766ee26a191c11561240419ab61b060fdff4416ef9",
+      "cdhash": "a122e0e3c6dc2515bf9b695af23af131aacbdec5",
       "signingId": "DL93766A3G:org.krita",
       "teamId": "DL93766A3G",
-      "lastUpdated": "2026-09-16T19:06:00Z"
+      "lastUpdated": "2026-10-09T05:23:22Z"
     },
     {
       "slug": "krita/windows",
@@ -7867,20 +7877,20 @@
     {
       "slug": "mark-text/darwin",
       "name": "MarkText",
-      "version": "0.20.0",
-      "sha256": "c86c2701f15ca66ba460f4cdcd7ebcab0b5133a4cc299295f02108b3754e9eed",
-      "cdhash": "5483f640e99906284d38e6cc5b632bb18f7fbbe2",
-      "lastUpdated": "2026-10-02T15:43:52Z"
+      "version": "0.21.1",
+      "sha256": "124ae2348866b520f6a7acaf786ac69bec9fb50360e5a83706ff4c31a24c3ea4",
+      "cdhash": "8a24a094df32bbc88c74a5ad023ea5a2c081ccf2",
+      "lastUpdated": "2026-10-09T05:23:50Z"
     },
     {
       "slug": "marked-app/darwin",
       "name": "Marked",
-      "version": "3.2.17",
-      "sha256": "464c984f99530c12a127abf9fe7a1781fc24aba31655c953563c9246802c07db",
-      "cdhash": "0b1d7be5b6a7fd13fc4e8334d43bee0c48fc9abd",
+      "version": "3.2.18",
+      "sha256": "4128ea24b5ecfdd4ff404b9a4cced1467e0baea3f3b765c40ed1420b698e52f4",
+      "cdhash": "8163c017efc075e5f3c1c2ddb9a010dc7b3f6482",
       "signingId": "47TRS7H4BH:com.brettterpstra.marked",
       "teamId": "47TRS7H4BH",
-      "lastUpdated": "2026-10-03T06:15:20Z"
+      "lastUpdated": "2026-10-09T05:24:17Z"
     },
     {
       "slug": "markedit/darwin",
@@ -7925,12 +7935,12 @@
     {
       "slug": "masscode/darwin",
       "name": "massCode",
-      "version": "6.0.0",
-      "sha256": "e6a34728dd6d8f64e31a7905f66d77a4206dbf8156be721a757dcd35df07801c",
-      "cdhash": "a2e4b2b7ce61277592b8919b8eb55e4c0766f95a",
+      "version": "6.1.0",
+      "sha256": "06002b6857150f799eb8aa95e6686e34bb74e2615fa2a6759d2d7e6b3a501bc6",
+      "cdhash": "634f40abd53f67f5db0aca4244f9a63e197bb8f2",
       "signingId": "GCU493MNF8:io.masscode.app",
       "teamId": "GCU493MNF8",
-      "lastUpdated": "2026-09-27T22:10:48Z"
+      "lastUpdated": "2026-10-09T05:24:44Z"
     },
     {
       "slug": "mattermost/darwin",
@@ -7999,12 +8009,12 @@
     {
       "slug": "melodics/darwin",
       "name": "Melodics",
-      "version": "5.0.1523",
-      "sha256": "6bb32cc6bf5eccb40586a4985e88b840a42daf2fe366b44c87a9e6dc4fbf01b9",
-      "cdhash": "d57fdbd5ec80858fd269aed709eb145aecc68a73",
+      "version": "5.0.1553",
+      "sha256": "3b10bc51cd5695fca5fbf3f8390ceee90212da7940e1a0f05ec8cc96e14b940a",
+      "cdhash": "659ea2253a4364d6bc826ef29db38188c0ad995c",
       "signingId": "AW58AQVYJR:com.melodics.melodics",
       "teamId": "AW58AQVYJR",
-      "lastUpdated": "2026-10-06T15:12:24Z"
+      "lastUpdated": "2026-10-09T05:25:30Z"
     },
     {
       "slug": "memory-cleaner/darwin",
@@ -8167,12 +8177,12 @@
     {
       "slug": "microsoft-edge/darwin",
       "name": "Microsoft Edge",
-      "version": "154.0.4258.62",
-      "sha256": "f9869abf3f9a74ab81f7d0d440b55cf5fb7c1277fb4f91a3892b5fead997453f",
-      "cdhash": "dc62e19f4f0fbcf5e2d40f6d872b57a8aa1a0877",
+      "version": "155.0.4283.45",
+      "sha256": "8efb5c739b83b7d2428e987f229b15ee44dc90ebf1e7276a90347913980d15f0",
+      "cdhash": "229c3dd1d28d61ae4abec127b35059e3b3a5fe80",
       "signingId": "UBF8T346G9:com.microsoft.edgemac",
       "teamId": "UBF8T346G9",
-      "lastUpdated": "2026-10-06T15:13:58Z"
+      "lastUpdated": "2026-10-09T05:26:50Z"
     },
     {
       "slug": "microsoft-edge/windows",
@@ -8351,12 +8361,12 @@
     {
       "slug": "milanote/darwin",
       "name": "Milanote",
-      "version": "3.18.134",
-      "sha256": "189c5344b755083392eb2ef3a25974a89c43f2cd8b0a1bb638997077e38d0652",
-      "cdhash": "6c4fe23bb0ab0da8887b558b8f419c7101196d59",
+      "version": "3.18.137",
+      "sha256": "4042714e3a0c758c850c456a3a13a0d9946abe24b54f6cea6f4b7d341f3e069f",
+      "cdhash": "8876e7a6e4dfe6464e80de523dbd328d170df072",
       "signingId": "9T9DP69Z4A:com.milanote.app",
       "teamId": "9T9DP69Z4A",
-      "lastUpdated": "2026-10-07T18:49:36Z"
+      "lastUpdated": "2026-10-09T05:27:21Z"
     },
     {
       "slug": "mimecast/darwin",
@@ -8455,12 +8465,12 @@
     {
       "slug": "missive/darwin",
       "name": "Missive",
-      "version": "11.33.0",
-      "sha256": "da0acdf7630b94c7e22db7429d49c3b0ef161a199801d8f8a412d0a84901cf4d",
-      "cdhash": "6445f9fca7077976310a54a77765ab25ede8f822",
+      "version": "11.37.0",
+      "sha256": "e88810200706916ea837687e4047e396f8e76f957db3e4773bfb636e8623a4bb",
+      "cdhash": "9e9f846def7da53ba99d9345472fbe5117976fd4",
       "signingId": "PXGQRRXCJN:com.missiveapp.osx",
       "teamId": "PXGQRRXCJN",
-      "lastUpdated": "2026-08-15T05:47:37Z"
+      "lastUpdated": "2026-10-09T05:27:49Z"
     },
     {
       "slug": "mist/darwin",
