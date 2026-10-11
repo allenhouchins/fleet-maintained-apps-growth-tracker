@@ -1,177 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-09-23T19:34:03Z",
-      "appName": "iMazing Converter",
-      "slug": "imazing-converter/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.0.14",
-      "newVersion": "2.0.15",
-      "installerUrl": "https://downloads.imazing.com/mac/iMazing-Converter/2.0.15.591/iMazing_Converter_2.0.15.591.dmg"
-    },
-    {
-      "date": "2026-09-23T19:34:03Z",
-      "appName": "NordVPN",
-      "slug": "nordvpn/windows",
-      "platform": "windows",
-      "oldVersion": "8.11.1.0",
-      "newVersion": "8.12.0.0",
-      "installerUrl": "https://downloads.nordcdn.com/apps/windows/NordVPN/8.12.0.0/NordVPNInstall.exe"
-    },
-    {
-      "date": "2026-09-24T07:23:54Z",
-      "appName": "SSH Config Editor",
-      "slug": "ssh-config-editor/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.6.11",
-      "newVersion": "2.6.12",
-      "installerUrl": "https://hejki.org/download/ssheditor/SSHConfigEditor-113.dmg"
-    },
-    {
-      "date": "2026-09-24T07:23:54Z",
-      "appName": "superwhisper",
-      "slug": "superwhisper/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.18.3",
-      "newVersion": "2.18.4",
-      "installerUrl": "https://builds.superwhisper.com/v2.18.4/superwhisper.zip"
-    },
-    {
-      "date": "2026-09-24T07:23:54Z",
-      "appName": "FontBase",
-      "slug": "fontbase/darwin",
-      "platform": "darwin",
-      "oldVersion": "2026.5.23",
-      "newVersion": "2026.6.0",
-      "installerUrl": "https://releases.fontba.se/mac/FontBase-2026.6.0.dmg"
-    },
-    {
-      "date": "2026-09-24T07:23:54Z",
-      "appName": "Amazon Redshift ODBC Driver",
-      "slug": "amazon-redshift-odbc-driver/windows",
-      "platform": "windows",
-      "oldVersion": "2.1.9.0",
-      "newVersion": "2.2.3.0",
-      "installerUrl": "https://s3.amazonaws.com/redshift-downloads/drivers/odbc/2.2.3.0/AmazonRedshiftODBC64-2.2.3.0.msi"
-    },
-    {
-      "date": "2026-09-24T07:23:54Z",
-      "appName": "Marked",
-      "slug": "marked-app/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.2.8",
-      "newVersion": "3.2.9",
-      "installerUrl": "https://updates.markedapp.com/updates/Marked%203.2.9-1227.zip"
-    },
-    {
-      "date": "2026-09-24T07:23:54Z",
-      "appName": "CrisisGo",
-      "slug": "crisisgo/windows",
-      "platform": "windows",
-      "oldVersion": "6.36.0.12489",
-      "newVersion": "6.36.2.12515",
-      "installerUrl": "https://crisisgoapp.s3.amazonaws.com/Windows/CrisisGo_6.36.2.msi"
-    },
-    {
-      "date": "2026-09-24T07:23:54Z",
-      "appName": "blip",
-      "slug": "blip/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.2.0",
-      "newVersion": "1.2.2",
-      "installerUrl": "https://f000.backblazeb2.com/file/push-mac/Blip-20260923163338.zip"
-    },
-    {
-      "date": "2026-09-24T07:23:54Z",
-      "appName": "Teleport Suite",
-      "slug": "teleport-suite/darwin",
-      "platform": "darwin",
-      "oldVersion": "18.11.1",
-      "newVersion": "18.11.2",
-      "installerUrl": "https://cdn.teleport.dev/teleport-18.11.2.pkg"
-    },
-    {
-      "date": "2026-09-24T07:23:54Z",
-      "appName": "Wireshark",
-      "slug": "wireshark-app/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.6.8",
-      "newVersion": "4.6.9",
-      "installerUrl": "https://www.wireshark.org/download/osx/all-versions/Wireshark%204.6.9.dmg"
-    },
-    {
-      "date": "2026-09-24T07:23:54Z",
-      "appName": "Nessus Agent",
-      "slug": "nessus-agent/windows",
-      "platform": "windows",
-      "oldVersion": "11.2.2.20009",
-      "newVersion": "11.2.3.20022",
-      "installerUrl": "https://www.tenable.com/downloads/api/v2/pages/nessus-agents/files/NessusAgent-11.2.3-x64.msi"
-    },
-    {
-      "date": "2026-09-24T07:23:54Z",
-      "appName": "Grammarly Desktop",
-      "slug": "grammarly-desktop/windows",
-      "platform": "windows",
-      "oldVersion": "1.2.297.1957",
-      "newVersion": "1.2.298.1959",
-      "installerUrl": "https://download-windows.grammarly.com/versions/1.2.298.1959/GrammarlyInstaller.exe"
-    },
-    {
-      "date": "2026-09-24T07:23:54Z",
-      "appName": "GoLand",
-      "slug": "goland/windows",
-      "platform": "windows",
-      "oldVersion": "2026.2.2.1",
-      "newVersion": "2026.2.3",
-      "installerUrl": "https://download.jetbrains.com/go/goland-2026.2.3.exe"
-    },
-    {
-      "date": "2026-09-24T07:23:54Z",
-      "appName": "Insomnia",
-      "slug": "insomnia/windows",
-      "platform": "windows",
-      "oldVersion": "13.2.0",
-      "newVersion": "13.3.0",
-      "installerUrl": "https://github.com/Kong/insomnia/releases/download/core@13.3.0/Insomnia.Core-13.3.0.exe"
-    },
-    {
-      "date": "2026-09-24T07:23:54Z",
-      "appName": "AWS Command Line Interface v2",
-      "slug": "aws-cli/windows",
-      "platform": "windows",
-      "oldVersion": "2.37.0",
-      "newVersion": "2.37.1",
-      "installerUrl": "https://awscli.amazonaws.com/AWSCLIV2-2.37.1.msi"
-    },
-    {
-      "date": "2026-09-24T07:23:54Z",
-      "appName": "Gpg4win",
-      "slug": "gpg4win/windows",
-      "platform": "windows",
-      "oldVersion": "5.1.0",
-      "newVersion": "5.1.1",
-      "installerUrl": "https://files.gpg4win.org/gpg4win-5.1.1.exe"
-    },
-    {
-      "date": "2026-09-24T07:23:54Z",
-      "appName": "TextExpander",
-      "slug": "textexpander/darwin",
-      "platform": "darwin",
-      "oldVersion": "8.4.7",
-      "newVersion": "8.4.8",
-      "installerUrl": "https://cdn.textexpander.com/mac/848.4/TextExpander_8.4.8.dmg"
-    },
-    {
-      "date": "2026-09-24T07:23:54Z",
-      "appName": "Mozilla Firefox Developer Edition",
-      "slug": "firefox@developer-edition/darwin",
-      "platform": "darwin",
-      "oldVersion": "157.0b4",
-      "newVersion": "157.0b5",
-      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/157.0b5/mac/en-US/Firefox%20157.0b5.dmg"
-    },
-    {
       "date": "2026-09-24T07:23:54Z",
       "appName": "Bruno",
       "slug": "bruno/windows",
@@ -8999,6 +8828,177 @@
       "oldVersion": "0.14.0",
       "newVersion": "0.14.1",
       "installerUrl": "https://github.com/ActivityWatch/activitywatch/releases/download/v0.14.1/activitywatch-v0.14.1-windows-x86_64-setup.exe"
+    },
+    {
+      "date": "2026-10-11T18:41:49Z",
+      "appName": "Stats",
+      "slug": "stats/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.0.20",
+      "newVersion": "3.0.21",
+      "installerUrl": "https://github.com/exelban/stats/releases/download/v3.0.21/Stats.dmg"
+    },
+    {
+      "date": "2026-10-11T18:41:49Z",
+      "appName": "AOMEI Backupper Standard",
+      "slug": "aomei-backupper-standard/windows",
+      "platform": "windows",
+      "oldVersion": "8.4.0.0",
+      "newVersion": "8.5.0.0",
+      "installerUrl": "https://www2.aomeisoftware.com/download/adb/AOMEIBackupperStd.exe"
+    },
+    {
+      "date": "2026-10-11T18:41:49Z",
+      "appName": "Cherry Studio",
+      "slug": "cherry-studio/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.1.5",
+      "newVersion": "2.1.6",
+      "installerUrl": "https://github.com/CherryHQ/cherry-studio/releases/download/v2.1.6/Cherry-Studio-2.1.6-mac-arm64.dmg"
+    },
+    {
+      "date": "2026-10-11T18:41:49Z",
+      "appName": "Mozilla Firefox Nightly (ARM64)",
+      "slug": "firefox@nightly-arm64/windows",
+      "platform": "windows",
+      "oldVersion": "160.2610.921.0",
+      "newVersion": "160.2610.1108.0",
+      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/10/2026-10-11-08-14-12-mozilla-central/firefox-160.0a1.multi.win64-aarch64.installer.msix"
+    },
+    {
+      "date": "2026-10-11T18:41:49Z",
+      "appName": "AltTab",
+      "slug": "alt-tab/darwin",
+      "platform": "darwin",
+      "oldVersion": "11.9.0",
+      "newVersion": "11.9.1",
+      "installerUrl": "https://github.com/lwouis/alt-tab-macos/releases/download/v11.9.1/AltTab-11.9.1.zip"
+    },
+    {
+      "date": "2026-10-11T18:41:49Z",
+      "appName": "MarkText",
+      "slug": "mark-text/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.21.1",
+      "newVersion": "0.21.2",
+      "installerUrl": "https://github.com/marktext/marktext/releases/download/v0.21.2/marktext-mac-arm64-0.21.2.dmg"
+    },
+    {
+      "date": "2026-10-11T18:41:49Z",
+      "appName": "Portfolio Performance",
+      "slug": "portfolioperformance/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.88.0",
+      "newVersion": "0.89.0",
+      "installerUrl": "https://github.com/buchen/portfolio/releases/download/0.89.0/PortfolioPerformance-0.89.0-aarch64.dmg"
+    },
+    {
+      "date": "2026-10-11T18:41:49Z",
+      "appName": "Super Productivity",
+      "slug": "super-productivity/darwin",
+      "platform": "darwin",
+      "oldVersion": "19.1.0",
+      "newVersion": "19.2.0",
+      "installerUrl": "https://github.com/super-productivity/super-productivity/releases/download/v19.2.0/superProductivity-arm64.dmg"
+    },
+    {
+      "date": "2026-10-11T18:41:49Z",
+      "appName": "Mozilla Firefox Nightly",
+      "slug": "firefox@nightly/windows",
+      "platform": "windows",
+      "oldVersion": "160.2610.921.0",
+      "newVersion": "160.2610.1108.0",
+      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/10/2026-10-11-08-14-12-mozilla-central/firefox-160.0a1.multi.win64.installer.msix"
+    },
+    {
+      "date": "2026-10-11T18:41:49Z",
+      "appName": "Charles",
+      "slug": "charles/darwin",
+      "platform": "darwin",
+      "oldVersion": "5.2.1",
+      "newVersion": "5.2.2",
+      "installerUrl": "https://www.charlesproxy.com/assets/release/5.2.2/charles-proxy-5.2.2.dmg"
+    },
+    {
+      "date": "2026-10-11T18:41:49Z",
+      "appName": "Rive",
+      "slug": "rive/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.9.174",
+      "newVersion": "0.9.218",
+      "installerUrl": "https://releases.rive.app/macos/0.9.218/Rive.dmg"
+    },
+    {
+      "date": "2026-10-11T18:41:49Z",
+      "appName": "Ollama",
+      "slug": "ollama/windows",
+      "platform": "windows",
+      "oldVersion": "0.40.2",
+      "newVersion": "0.40.3",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.40.3/OllamaSetup.exe"
+    },
+    {
+      "date": "2026-10-11T18:41:49Z",
+      "appName": "Portfolio Performance",
+      "slug": "portfolioperformance/windows",
+      "platform": "windows",
+      "oldVersion": "0.88.0",
+      "newVersion": "0.89.0",
+      "installerUrl": "https://github.com/portfolio-performance/portfolio/releases/download/0.89.0/PortfolioPerformance-0.89.0-setup.exe"
+    },
+    {
+      "date": "2026-10-11T18:41:49Z",
+      "appName": "Rocket.Chat",
+      "slug": "rocket-chat/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.18.1",
+      "newVersion": "4.18.2",
+      "installerUrl": "https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/4.18.2/rocketchat-4.18.2-mac.dmg"
+    },
+    {
+      "date": "2026-10-11T18:41:49Z",
+      "appName": "Yaak",
+      "slug": "yaak/windows",
+      "platform": "windows",
+      "oldVersion": "2026.8.1",
+      "newVersion": "2026.9.0",
+      "installerUrl": "https://github.com/mountain-loop/yaak/releases/download/v2026.9.0/Yaak_2026.9.0_x64-setup.exe"
+    },
+    {
+      "date": "2026-10-11T18:41:49Z",
+      "appName": "Home Assistant",
+      "slug": "home-assistant/darwin",
+      "platform": "darwin",
+      "oldVersion": "2026.9.3",
+      "newVersion": "2026.10.1",
+      "installerUrl": "https://github.com/home-assistant/iOS/releases/download/release%2F2026.10.1%2F2026.3213/home-assistant-mac.zip"
+    },
+    {
+      "date": "2026-10-11T18:41:49Z",
+      "appName": "Kiro CLI",
+      "slug": "kiro-cli/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.29.0",
+      "newVersion": "2.29.1",
+      "installerUrl": "https://desktop-release.q.us-east-1.amazonaws.com/2.29.1/Kiro%20CLI.dmg"
+    },
+    {
+      "date": "2026-10-11T18:41:49Z",
+      "appName": "Ollama",
+      "slug": "ollama/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.40.2",
+      "newVersion": "0.40.3",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.40.3/Ollama-darwin.zip"
+    },
+    {
+      "date": "2026-10-11T18:41:49Z",
+      "appName": "OpenCode",
+      "slug": "opencode-desktop/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.18.35",
+      "newVersion": "2.0.26",
+      "installerUrl": "https://opencode.ai/files/bin/2.0.26/opencode-desktop-mac-arm64.dmg"
     }
   ]
 }
