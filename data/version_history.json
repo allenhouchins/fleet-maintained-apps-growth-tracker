@@ -2,105 +2,6 @@
   "changes": [
     {
       "date": "2026-10-03T00:15:56Z",
-      "appName": "Microsoft Remote Help",
-      "slug": "microsoft-remote-help/windows",
-      "platform": "windows",
-      "oldVersion": "5.1.1998.0",
-      "newVersion": "5.2.1040.0",
-      "installerUrl": "https://catalog.s.download.windowsupdate.com/c/msdownload/update/software/updt/2026/08/remotehelpinstaller_352585ff62fefee63615d6b743b6567817fff464.exe"
-    },
-    {
-      "date": "2026-10-03T00:15:56Z",
-      "appName": "Proton Mail",
-      "slug": "proton-mail/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.14.0",
-      "newVersion": "1.15.1",
-      "installerUrl": "https://proton.me/download/mail/macos/1.15.1/ProtonMail-desktop.dmg"
-    },
-    {
-      "date": "2026-10-03T00:15:56Z",
-      "appName": "draw.io",
-      "slug": "drawio/windows",
-      "platform": "windows",
-      "oldVersion": "31.5.3",
-      "newVersion": "31.7.0",
-      "installerUrl": "https://github.com/jgraph/drawio-desktop/releases/download/v31.7.0/draw.io-31.7.0-windows-installer.exe"
-    },
-    {
-      "date": "2026-10-03T00:15:56Z",
-      "appName": "Mailspring",
-      "slug": "mailspring/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.25.0",
-      "newVersion": "1.26.0",
-      "installerUrl": "https://github.com/Foundry376/Mailspring/releases/download/1.26.0/Mailspring-AppleSilicon.zip"
-    },
-    {
-      "date": "2026-10-03T00:15:56Z",
-      "appName": "Raycast",
-      "slug": "raycast/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.6.1.0",
-      "newVersion": "2.6.2.0",
-      "installerUrl": "https://x.raycast-releases.com/download?platform=macos\u0026architecture=arm64\u0026version=2.6.2.0"
-    },
-    {
-      "date": "2026-10-03T00:15:56Z",
-      "appName": "Spokenly",
-      "slug": "spokenly/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.30.5",
-      "newVersion": "2.30.6",
-      "installerUrl": "https://cdn.spokenly.app/releases/macos/Spokenly-2.30.6.dmg"
-    },
-    {
-      "date": "2026-10-03T00:15:56Z",
-      "appName": "GitKraken",
-      "slug": "gitkraken/darwin",
-      "platform": "darwin",
-      "oldVersion": "12.5.0",
-      "newVersion": "12.6.0",
-      "installerUrl": "https://api.gitkraken.dev/releases/production/darwin/arm64/12.6.0/GitKraken-v12.6.0.zip"
-    },
-    {
-      "date": "2026-10-03T00:15:56Z",
-      "appName": "QSpace Pro",
-      "slug": "qspace-pro/darwin",
-      "platform": "darwin",
-      "oldVersion": "6.3.2",
-      "newVersion": "7.0.2",
-      "installerUrl": "https://cdn.awehunt.com/qs/rel/QSpace%20Pro_V7.0.2.dmg"
-    },
-    {
-      "date": "2026-10-03T00:15:56Z",
-      "appName": "Netron",
-      "slug": "netron/darwin",
-      "platform": "darwin",
-      "oldVersion": "9.3.0",
-      "newVersion": "9.3.1",
-      "installerUrl": "https://github.com/lutzroeder/netron/releases/download/v9.3.1/Netron-9.3.1-mac.zip"
-    },
-    {
-      "date": "2026-10-03T00:15:56Z",
-      "appName": "SnowSQL",
-      "slug": "snowflake-snowsql/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.5.1",
-      "newVersion": "1.5.2",
-      "installerUrl": "https://sfc-repo.snowflakecomputing.com/snowsql/bootstrap/1.5/darwin_arm64/snowsql-1.5.2-darwin_arm64.pkg"
-    },
-    {
-      "date": "2026-10-03T00:15:56Z",
-      "appName": "Actual",
-      "slug": "actual/darwin",
-      "platform": "darwin",
-      "oldVersion": "26.9.0",
-      "newVersion": "26.10.0",
-      "installerUrl": "https://github.com/actualbudget/actual/releases/download/v26.10.0/Actual-mac-arm64.dmg"
-    },
-    {
-      "date": "2026-10-03T00:15:56Z",
       "appName": "CodexBar",
       "slug": "codexbar/darwin",
       "platform": "darwin",
@@ -8999,6 +8900,105 @@
       "oldVersion": "5.7.14",
       "newVersion": "5.7.19",
       "installerUrl": "https://cdn.fellow.app/desktop/5.7.19/win32/stable/x64/Fellow-5.7.19.exe"
+    },
+    {
+      "date": "2026-10-20T22:17:27Z",
+      "appName": "Mozilla Firefox",
+      "slug": "firefox/darwin",
+      "platform": "darwin",
+      "oldVersion": "158.0",
+      "newVersion": "158.0.1",
+      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/158.0.1/mac/en-US/Firefox%20158.0.1.dmg"
+    },
+    {
+      "date": "2026-10-20T22:17:27Z",
+      "appName": "VirtualBox",
+      "slug": "virtualbox/windows",
+      "platform": "windows",
+      "oldVersion": "7.2.20",
+      "newVersion": "7.2.22",
+      "installerUrl": "https://download.virtualbox.org/virtualbox/7.2.22/VirtualBox-7.2.22-175245-Win.exe"
+    },
+    {
+      "date": "2026-10-20T22:17:27Z",
+      "appName": "eM Client",
+      "slug": "emclient/darwin",
+      "platform": "darwin",
+      "oldVersion": "11.0.1201",
+      "newVersion": "11.0.1267",
+      "installerUrl": "https://cdn-dist.emclient.com/dist/v11.0.1267_Mac/setup.pkg"
+    },
+    {
+      "date": "2026-10-20T22:17:27Z",
+      "appName": "Cardhop",
+      "slug": "cardhop/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.5",
+      "newVersion": "2.5.1",
+      "installerUrl": "https://cdn.flexibits.com/Cardhop_2.5.1.zip"
+    },
+    {
+      "date": "2026-10-20T22:17:27Z",
+      "appName": "Mozilla Firefox ESR",
+      "slug": "firefox@esr/darwin",
+      "platform": "darwin",
+      "oldVersion": "153.5.0",
+      "newVersion": "153.5.1",
+      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/153.5.1esr/mac/en-US/Firefox%20153.5.1esr.dmg"
+    },
+    {
+      "date": "2026-10-20T22:17:27Z",
+      "appName": "VirtualBox",
+      "slug": "virtualbox/darwin",
+      "platform": "darwin",
+      "oldVersion": "7.2.20",
+      "newVersion": "7.2.22",
+      "installerUrl": "https://download.virtualbox.org/virtualbox/7.2.22/VirtualBox-7.2.22-175245-macOSArm64.dmg"
+    },
+    {
+      "date": "2026-10-20T22:17:27Z",
+      "appName": "BoltAI 2",
+      "slug": "boltai/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.18.1",
+      "newVersion": "2.18.2",
+      "installerUrl": "https://updates.boltai.com/dmg/BoltAI-2.18.2.dmg"
+    },
+    {
+      "date": "2026-10-20T22:17:27Z",
+      "appName": "GitKraken",
+      "slug": "gitkraken/darwin",
+      "platform": "darwin",
+      "oldVersion": "12.6.0",
+      "newVersion": "12.6.1",
+      "installerUrl": "https://api.gitkraken.dev/releases/production/darwin/arm64/12.6.1/GitKraken-v12.6.1.zip"
+    },
+    {
+      "date": "2026-10-20T22:17:27Z",
+      "appName": "EtreCheck",
+      "slug": "etrecheckpro/darwin",
+      "platform": "darwin",
+      "oldVersion": "6.8.16",
+      "newVersion": "6.8.17",
+      "installerUrl": "https://cdn.etrecheck.com/EtreCheckPro.zip"
+    },
+    {
+      "date": "2026-10-20T22:17:27Z",
+      "appName": "Focusrite Control 2",
+      "slug": "focusrite-control-2/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.1139.0.0",
+      "newVersion": "1.1210.0.0",
+      "installerUrl": "https://releases.focusrite.com/com.focusrite.focusrite-control/release/Focusrite-Control-2-1.1210.0.0.dmg"
+    },
+    {
+      "date": "2026-10-20T22:17:27Z",
+      "appName": "Cursor",
+      "slug": "cursor/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.25.9",
+      "newVersion": "3.26.13",
+      "installerUrl": "https://downloads.cursor.com/production/3bfec373749d3d4a53a151283022d49743ab50ba/darwin/arm64/Cursor-darwin-arm64.zip"
     }
   ]
 }
