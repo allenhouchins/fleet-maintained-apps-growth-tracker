@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T18:46:10Z",
+  "lastUpdated": "2026-10-21T18:53:55Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -10747,6 +10747,16 @@
       "lastUpdated": "2026-10-21T18:44:01Z"
     },
     {
+      "slug": "qgis@ltr/darwin",
+      "name": "QGIS LTR",
+      "version": "3.44.15",
+      "sha256": "8889e5854323c1de1c043562e5e1d1d2fbf741191f794f62d31ce566c95c8425",
+      "cdhash": "3431ccbca19358c50d5eb247cca9b1865342b56d",
+      "signingId": "4F7N4UDA22:org.qgis.qgis3",
+      "teamId": "4F7N4UDA22",
+      "lastUpdated": "2026-10-21T18:48:18Z"
+    },
+    {
       "slug": "qlab/darwin",
       "name": "QLab",
       "version": "5.6.3",
@@ -11074,12 +11084,12 @@
     {
       "slug": "reqable/darwin",
       "name": "Reqable",
-      "version": "3.3.3",
-      "sha256": "ff24b3d484e7ce7f9af1da8bcd149a5adc0159b0f8f09e4e605eee32cef40c18",
-      "cdhash": "1cdd35be0bbb22f62789c108b4171a139c19e537",
+      "version": "3.3.4",
+      "sha256": "b30a9098e466a2dd196a7db124afa3d7869edda7d750e3aeac5103c5b651a853",
+      "cdhash": "6b30502881112830b0aed7370d18acb1fd5b24fd",
       "signingId": "DXY5A5J7C4:com.reqable.macosx",
       "teamId": "DXY5A5J7C4",
-      "lastUpdated": "2026-10-20T19:42:34Z"
+      "lastUpdated": "2026-10-21T18:48:45Z"
     },
     {
       "slug": "reqable/windows",
@@ -11491,12 +11501,12 @@
     {
       "slug": "screen-studio/darwin",
       "name": "Screen Studio",
-      "version": "4.0.4-4926",
-      "sha256": "3ee1e7cf5470ff36fe8d514d909b8b95e186896edcb75753bcaead03d6faf065",
-      "cdhash": "79ae3f699464d466e4fafb2db45c1f6e7fdd6e61",
+      "version": "4.1.0-4994",
+      "sha256": "103af4f245bc49db2a2c7aa7bdf11ec62de9218a4c620c4c8c1c7b3a880bc1de",
+      "cdhash": "0926d6fbc7bb060e837f046a3690070d072758ea",
       "signingId": "SXF593CX2N:com.timpler.screenstudio",
       "teamId": "SXF593CX2N",
-      "lastUpdated": "2026-10-07T18:53:08Z"
+      "lastUpdated": "2026-10-21T18:49:27Z"
     },
     {
       "slug": "screenflick/darwin",
@@ -13216,12 +13226,12 @@
     {
       "slug": "tor-browser/darwin",
       "name": "Tor Browser",
-      "version": "15.0.25",
-      "sha256": "52b9ac4ffa4e4f81e86d1ed17a4f4ebf2b93e1abe7d1c6880cdac96697e1a875",
-      "cdhash": "2d66aa66c2592bad0291d48f635e82385d31443b",
+      "version": "15.0.26",
+      "sha256": "15ad77d1a2d8130ab5e0e61333ed1c5d8692e89c8a1d569aa44c76fe45641645",
+      "cdhash": "4b44f6aa03321a1af12d7d9b9ba0c2030fb96e51",
       "signingId": "MADPSAYN6T:org.torproject.torbrowser",
       "teamId": "MADPSAYN6T",
-      "lastUpdated": "2026-10-13T22:52:23Z"
+      "lastUpdated": "2026-10-21T18:50:08Z"
     },
     {
       "slug": "tortoisegit/windows",
@@ -13767,12 +13777,12 @@
     {
       "slug": "visual-studio-code/darwin",
       "name": "Microsoft Visual Studio Code",
-      "version": "1.142.0",
-      "sha256": "5fe274bdd21ff88d1ae34e3691572fb2544660bcba3db77f2a92d8e2d2718e5c",
-      "cdhash": "26e4d8122f6fa2ba2ff8a4a8bcb206856bc2aaca",
+      "version": "1.143.0",
+      "sha256": "8718a4edcc5715815dec3b918632830cdb9ba9dfab4b380d5c275510f2c4d60a",
+      "cdhash": "fcfba838c059502aef907529fc4ddfa9c0b033a8",
       "signingId": "UBF8T346G9:com.microsoft.VSCode",
       "teamId": "UBF8T346G9",
-      "lastUpdated": "2026-10-15T18:29:50Z"
+      "lastUpdated": "2026-10-21T18:50:48Z"
     },
     {
       "slug": "visual-studio-code/windows",
@@ -14009,12 +14019,12 @@
     {
       "slug": "wavebox/darwin",
       "name": "Wavebox",
-      "version": "155.3.18.2",
-      "sha256": "7f5b877e4c253bef6a9f90245acd310ea4188b676074d0718d2638af71697a28",
-      "cdhash": "2278b3ee2440b83a65105a3c0d2db9e311beac63",
+      "version": "156.3.20.2",
+      "sha256": "9875bda714cca524308b072253e3a766e1d3bd3063a21bd51b65e7478df65d57",
+      "cdhash": "4a18c620b04d7b2b3244611aae54e27470723f1d",
       "signingId": "4259LE8SU5:com.bookry.wavebox",
       "teamId": "4259LE8SU5",
-      "lastUpdated": "2026-10-19T19:23:41Z"
+      "lastUpdated": "2026-10-21T18:52:46Z"
     },
     {
       "slug": "wealthfolio/darwin",
@@ -14139,12 +14149,12 @@
     {
       "slug": "whatsapp/darwin",
       "name": "WhatsApp",
-      "version": "26.41.28",
-      "sha256": "f877de2ef847a3330bd95f748fa5da8a0563c3664a2bf164feaf86460bef5110",
-      "cdhash": "fdb8bb588816f33c79536704b46f11aa7720a547",
+      "version": "26.42.19",
+      "sha256": "1aceae76fc01cbe67fdc07a765bb5584ab5aec2bd5905b1f419f1e91daf62be1",
+      "cdhash": "3e6fa9ae13b18c8cadb9b6cc39b3fbb5cdff4fb2",
       "signingId": "57T9237FN3:net.whatsapp.WhatsApp",
       "teamId": "57T9237FN3",
-      "lastUpdated": "2026-10-17T01:26:54Z"
+      "lastUpdated": "2026-10-21T18:53:18Z"
     },
     {
       "slug": "whisky/darwin",
@@ -14353,12 +14363,12 @@
     {
       "slug": "workflowy/darwin",
       "name": "WorkFlowy",
-      "version": "4.3.2610141901",
-      "sha256": "cca464c3a76924129973608ea72ce707e157f02fd922002955929dc49e3195bd",
-      "cdhash": "d1f31a11e948005fbf51293837ae20e42f975d3b",
+      "version": "4.3.2610201242",
+      "sha256": "90da61344832eb27e39faa39b63193ad8c048137df73b8ee505bc93cbec6f02b",
+      "cdhash": "e71141dad23c3010a2c2e406c9025b6dd97a2930",
       "signingId": "SYB6NBR48V:com.workflowy.desktop",
       "teamId": "SYB6NBR48V",
-      "lastUpdated": "2026-10-15T14:01:58Z"
+      "lastUpdated": "2026-10-21T18:53:53Z"
     },
     {
       "slug": "worksheet-crafter/darwin",
