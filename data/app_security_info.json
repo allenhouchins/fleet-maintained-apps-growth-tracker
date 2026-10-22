@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T07:31:53Z",
+  "lastUpdated": "2026-10-22T07:38:20Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -6052,6 +6052,16 @@
       "lastUpdated": "2026-06-09T22:57:51Z"
     },
     {
+      "slug": "grok-bot/darwin",
+      "name": "Grok Bot",
+      "version": "0.72.1",
+      "sha256": "24efffac726a15613b44b67a634bf9e9e94f6779587400f792aa2ec0e95e87de",
+      "cdhash": "493cee8b8f739b58ada90b43b9156912a0e8a764",
+      "signingId": "DCNK4UB866:com.anysphere.sand",
+      "teamId": "DCNK4UB866",
+      "lastUpdated": "2026-10-22T07:32:14Z"
+    },
+    {
       "slug": "groove-omnidialer/darwin",
       "name": "Groove OmniDialer",
       "version": "26.1016.714",
@@ -6860,22 +6870,22 @@
     {
       "slug": "jamovi/darwin",
       "name": "jamovi",
-      "version": "28.13.0.0",
-      "sha256": "100da039a741f9540d1ce855b35a95a79466bf369f9ae5122751e6aa1119fd86",
-      "cdhash": "a49c27acf9b93184bcb3999437275e34ac37f4b6",
+      "version": "28.14.0.0",
+      "sha256": "63f7435f3b89a7ad50d2b46da145a24e00a23ccf57641f172689c75e1ac8642e",
+      "cdhash": "dbc7df24af88f5996ab160a57e3c7adc616c7762",
       "signingId": "9NCBP559AB:org.jamovi.jamovi",
       "teamId": "9NCBP559AB",
-      "lastUpdated": "2026-10-15T18:23:37Z"
+      "lastUpdated": "2026-10-22T07:32:55Z"
     },
     {
       "slug": "jasp/darwin",
       "name": "JASP",
-      "version": "0.98.8.0",
-      "sha256": "fde79fbc2257f893978a05948516d1ed6322d64d948fc2e40ecc58c214006850",
-      "cdhash": "88c475af084135dfa5590ebdbbd3e5b87538f13d",
+      "version": "0.99.0.0",
+      "sha256": "cf4bfe9f743730b9201e2effd10f7fa74f755795e92efbf093b9a5478ecf5277",
+      "cdhash": "64faa573b5b7b18b4908d1adaab1dd44e9d1c305",
       "signingId": "AWJJ3YVK9B:org.jaspstats.jasp",
       "teamId": "AWJJ3YVK9B",
-      "lastUpdated": "2026-10-13T22:48:40Z"
+      "lastUpdated": "2026-10-22T07:34:58Z"
     },
     {
       "slug": "jellyfin/darwin",
@@ -6922,12 +6932,12 @@
     {
       "slug": "jitsi-meet/darwin",
       "name": "Jitsi Meet",
-      "version": "2026.8.0",
-      "sha256": "0440490a3fa77358e9650a7f3a7e2619c20623786e8877a39e10c84e4afdcbf4",
-      "cdhash": "b29f5d16157c3490d7d8d5cb14b80769d54947b7",
+      "version": "2026.10.0",
+      "sha256": "461b223e015441243f74daff810b0f6d0eed410339b5b5ada85ae9f67cacaec6",
+      "cdhash": "f6cc4b3ab0947b884a4119eb4b7132ffdeb1bef2",
       "signingId": "FC967L3QRG:org.jitsi.jitsi-meet",
       "teamId": "FC967L3QRG",
-      "lastUpdated": "2026-08-05T15:37:29Z"
+      "lastUpdated": "2026-10-22T07:35:35Z"
     },
     {
       "slug": "joplin/darwin",
@@ -7038,12 +7048,12 @@
     {
       "slug": "keepassxc/darwin",
       "name": "KeePassXC",
-      "version": "2.7.12",
-      "sha256": "d57cc09437bacccc581d5f9450cca1a9c218e060c5e3b7352e338ab978946090",
-      "cdhash": "41388c0e51e9f98a2743146943a6f24442404970",
+      "version": "2.8.0",
+      "sha256": "d62aa3359e73cfbdbe94d8d206b00e93defd2ee209940fad1f652b0db282c426",
+      "cdhash": "b73a223a32486ef4a9a10152b2b189b8f7c19cce",
       "signingId": "G2S7P7J672:org.keepassxc.keepassxc",
       "teamId": "G2S7P7J672",
-      "lastUpdated": "2026-03-11T15:29:19Z"
+      "lastUpdated": "2026-10-22T07:36:02Z"
     },
     {
       "slug": "keepassxc/windows",
@@ -7182,12 +7192,12 @@
     {
       "slug": "kiro-cli/darwin",
       "name": "Kiro CLI",
-      "version": "2.33.0",
-      "sha256": "43a151fc5972bb005d58952eeef30012fd55e096c62008f9bb8182ae9d8c0af5",
-      "cdhash": "fe0da633a3f84817c8fa6625003eb0266c0067c0",
+      "version": "2.33.1",
+      "sha256": "14b182de0a536ba3d96b0b94811bec5ab460fa883c1de535bae017ad47124727",
+      "cdhash": "87f67f80676322ebc35a7b7a832b270714a80085",
       "signingId": "94KV3E626L:com.amazon.codewhisperer",
       "teamId": "94KV3E626L",
-      "lastUpdated": "2026-10-21T07:20:25Z"
+      "lastUpdated": "2026-10-22T07:36:28Z"
     },
     {
       "slug": "kiro/darwin",
@@ -7624,12 +7634,12 @@
     {
       "slug": "loom/darwin",
       "name": "Loom",
-      "version": "0.380.6",
-      "sha256": "a2b33c741f5aef2a96108bc6611aca3dbd3dd6368df7b37f0bd1e3bbc7990c52",
-      "cdhash": "e41cbe2c725ef5a93401937c68d4438c9912aa70",
+      "version": "0.381.1",
+      "sha256": "68935d24421d3868b6ba4162b614fe9ea06f5a76e0141812c651100a3bacdc66",
+      "cdhash": "846c51703343d49dffc9b73c8f63c973295b2f75",
       "signingId": "QGD2ZPXZZG:com.loom.desktop",
       "teamId": "QGD2ZPXZZG",
-      "lastUpdated": "2026-10-15T13:30:06Z"
+      "lastUpdated": "2026-10-22T07:36:53Z"
     },
     {
       "slug": "loom/windows",
@@ -7863,12 +7873,12 @@
     {
       "slug": "macwhisper/darwin",
       "name": "MacWhisper",
-      "version": "15.7",
-      "sha256": "abbf45ab8097d3f76b929ce99c403107251769b5bd9a4f83cc9fb4a143c420b1",
-      "cdhash": "4deee21dc245bbadc8cd5e471bd32375711cf1db",
+      "version": "15.7.1",
+      "sha256": "d36d692213f922ab5868aebc8678e2b935e01b183ca856ee98747cd72d1ba229",
+      "cdhash": "0e6a7fa3005ce54668470b253fc6767f2ac0d92d",
       "signingId": "8Q7TMPA46J:com.goodsnooze.MacWhisper",
       "teamId": "8Q7TMPA46J",
-      "lastUpdated": "2026-10-21T07:21:22Z"
+      "lastUpdated": "2026-10-22T07:37:20Z"
     },
     {
       "slug": "maestral/darwin",
@@ -8711,12 +8721,12 @@
     {
       "slug": "mullvad-browser/darwin",
       "name": "Mullvad Browser",
-      "version": "15.0.25",
-      "sha256": "4663d0525d56e7dbb09ad3408fe2e82c97b94f1c6db487ae8e04518ebdf059b4",
-      "cdhash": "4501c0a1b5f8c89359f2834f0c6d02ff4f6860c3",
+      "version": "15.0.26",
+      "sha256": "48d27c1eb46b73aa0bd9ace0b9e3a293e01394dcdef5d900f77903639f9977c8",
+      "cdhash": "0574cab2a6b0d30abcc55d3ecc0710d61a328d32",
       "signingId": "MADPSAYN6T:net.mullvad.mullvadbrowser",
       "teamId": "MADPSAYN6T",
-      "lastUpdated": "2026-10-14T18:42:46Z"
+      "lastUpdated": "2026-10-22T07:37:53Z"
     },
     {
       "slug": "mullvad-browser/windows",
@@ -9389,12 +9399,12 @@
     {
       "slug": "ollama/darwin",
       "name": "Ollama",
-      "version": "0.40.7",
-      "sha256": "be440dabb5e0ac09cab29b29f5541660b9318f2c04b1d89e017e380e063196b8",
-      "cdhash": "5c0e6afeda2b082e2ca08501b951bc1b6fbc58de",
+      "version": "0.40.8",
+      "sha256": "646716fecda8891ccd2b94cea48bb1397e69acb265f5d582ad37948993772134",
+      "cdhash": "089190e8064b40c23617730a5a900c2fa369f0f2",
       "signingId": "3MU9H2V9Y9:com.electron.ollama",
       "teamId": "3MU9H2V9Y9",
-      "lastUpdated": "2026-10-21T07:25:22Z"
+      "lastUpdated": "2026-10-22T07:38:18Z"
     },
     {
       "slug": "ollama/windows",
