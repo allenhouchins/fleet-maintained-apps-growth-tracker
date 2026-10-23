@@ -5,13 +5,20 @@
     <link>https://fmalibrary.com</link>
     <description>Track version updates and new app additions for Fleet-maintained apps. Get notified when apps are updated with new versions or when new apps are added to the library.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Oct 2026 22:14:06 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 01:19:45 +0000</lastBuildDate>
     <atom:link href="https://fmalibrary.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://fmalibrary.com/cloud-city.png</url>
       <title>Fleet-maintained apps</title>
       <link>https://fmalibrary.com</link>
     </image>
+    <item>
+      <title>New App: LM Studio 0.4.26+4 (Mac)</title>
+      <link>https://fmalibrary.com</link>
+      <description>LM Studio has been added to the Fleet-maintained apps library with version 0.4.26+4 on October 23, 2026. &lt;a href=&quot;https://installers.lmstudio.ai/darwin/arm64/0.4.26-4/LM-Studio-0.4.26-4-arm64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Fri, 23 Oct 2026 01:19:45 +0000</pubDate>
+      <guid isPermaLink="false">lm-studio/darwin--0.4.26+4</guid>
+    </item>
     <item>
       <title>Camtasia 26.2.2.19936 → 26.2.3.20804 (Windows)</title>
       <link>https://fmalibrary.com</link>
@@ -3464,25 +3471,11 @@
       <guid isPermaLink="false">claude/darwin-2.37337.1-2.42304.0</guid>
     </item>
     <item>
-      <title>Thorium Reader 3.4.0 → 3.5.1 (Mac)</title>
+      <title>Zed 1.23.3 → 1.24.2 (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>Thorium Reader has been updated from version 3.4.0 to 3.5.1 on October 15, 2026. &lt;a href=&quot;https://github.com/edrlab/thorium-reader/releases/download/v3.5.1/Thorium-3.5.1-arm64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Zed has been updated from version 1.23.3 to 1.24.2 on October 15, 2026. &lt;a href=&quot;https://github.com/zed-industries/zed/releases/download/v1.24.2/Zed-aarch64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Thu, 15 Oct 2026 13:13:26 +0000</pubDate>
-      <guid isPermaLink="false">thorium/darwin-3.4.0-3.5.1</guid>
-    </item>
-    <item>
-      <title>Microsoft Excel 16.113.4 → 16.114 (Mac)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Microsoft Excel has been updated from version 16.113.4 to 16.114 on October 15, 2026. &lt;a href=&quot;https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.114.26101123_Installer.pkg&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Thu, 15 Oct 2026 13:13:26 +0000</pubDate>
-      <guid isPermaLink="false">microsoft-excel/darwin-16.113.4-16.114</guid>
-    </item>
-    <item>
-      <title>MACE 1.2.2 → 1.2.3 (Mac)</title>
-      <link>https://fmalibrary.com</link>
-      <description>MACE has been updated from version 1.2.2 to 1.2.3 on October 15, 2026. &lt;a href=&quot;https://github.com/MACE-App/MACE/releases/download/v1.2.3/M.A.C.E.V1.2.3.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Thu, 15 Oct 2026 13:13:26 +0000</pubDate>
-      <guid isPermaLink="false">mace/darwin-1.2.2-1.2.3</guid>
+      <guid isPermaLink="false">zed/darwin-1.23.3-1.24.2</guid>
     </item>
     <item>
       <title>Microsoft OneNote 16.113.4 → 16.114 (Mac)</title>
@@ -3506,11 +3499,18 @@
       <guid isPermaLink="false">dialpad/windows-2605.1.0-2609.4.0</guid>
     </item>
     <item>
-      <title>Yaak 2026.8.1 → 2026.9.0 (Mac)</title>
+      <title>Thorium Reader 3.4.0 → 3.5.1 (Mac)</title>
       <link>https://fmalibrary.com</link>
-      <description>Yaak has been updated from version 2026.8.1 to 2026.9.0 on October 15, 2026. &lt;a href=&quot;https://github.com/mountain-loop/yaak/releases/download/v2026.9.0/Yaak_2026.9.0_aarch64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Thorium Reader has been updated from version 3.4.0 to 3.5.1 on October 15, 2026. &lt;a href=&quot;https://github.com/edrlab/thorium-reader/releases/download/v3.5.1/Thorium-3.5.1-arm64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Thu, 15 Oct 2026 13:13:26 +0000</pubDate>
-      <guid isPermaLink="false">yaak/darwin-2026.8.1-2026.9.0</guid>
+      <guid isPermaLink="false">thorium/darwin-3.4.0-3.5.1</guid>
+    </item>
+    <item>
+      <title>MACE 1.2.2 → 1.2.3 (Mac)</title>
+      <link>https://fmalibrary.com</link>
+      <description>MACE has been updated from version 1.2.2 to 1.2.3 on October 15, 2026. &lt;a href=&quot;https://github.com/MACE-App/MACE/releases/download/v1.2.3/M.A.C.E.V1.2.3.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Thu, 15 Oct 2026 13:13:26 +0000</pubDate>
+      <guid isPermaLink="false">mace/darwin-1.2.2-1.2.3</guid>
     </item>
   </channel>
 </rss>
