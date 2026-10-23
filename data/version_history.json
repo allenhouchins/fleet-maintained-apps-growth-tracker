@@ -1,456 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-10-07T18:39:17Z",
-      "appName": "Cog",
-      "slug": "cog-app/darwin",
-      "platform": "darwin",
-      "oldVersion": "3762",
-      "newVersion": "3790",
-      "installerUrl": "https://cogcdn.cog.losno.co/Cog-a46091bae.zip"
-    },
-    {
-      "date": "2026-10-07T18:39:17Z",
-      "appName": "CodexBar",
-      "slug": "codexbar/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.72.0",
-      "newVersion": "0.73.0",
-      "installerUrl": "https://github.com/steipete/CodexBar/releases/download/v0.73.0/CodexBar-macos-universal-0.73.0.zip"
-    },
-    {
-      "date": "2026-10-07T18:39:17Z",
-      "appName": "Grammarly Desktop",
-      "slug": "grammarly-desktop/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.198.2",
-      "newVersion": "1.199.0",
-      "installerUrl": "https://download-mac.grammarly.com/versions/1.199.0.0/Grammarly.dmg"
-    },
-    {
-      "date": "2026-10-07T18:39:17Z",
-      "appName": "Twine",
-      "slug": "twine-app/windows",
-      "platform": "windows",
-      "oldVersion": "2.12.0",
-      "newVersion": "2.12.1",
-      "installerUrl": "https://github.com/klembot/twinejs/releases/download/2.12.1/Twine-2.12.1-Windows.exe"
-    },
-    {
-      "date": "2026-10-07T18:39:17Z",
-      "appName": "Power BI",
-      "slug": "power-bi/windows",
-      "platform": "windows",
-      "oldVersion": "2.158.1177.0",
-      "newVersion": "2.158.1304.0",
-      "installerUrl": "https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2026-09_x64.exe"
-    },
-    {
-      "date": "2026-10-07T18:39:17Z",
-      "appName": "Microsoft Teams",
-      "slug": "microsoft-teams/darwin",
-      "platform": "darwin",
-      "oldVersion": "26246.1709.5146.8945",
-      "newVersion": "26261.303.5165.1465",
-      "installerUrl": "https://statics.teams.cdn.office.net/production-osx/26261.303.5165.1465/MicrosoftTeams.pkg"
-    },
-    {
-      "date": "2026-10-07T18:39:17Z",
-      "appName": "Tabby",
-      "slug": "tabby/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.0.237",
-      "newVersion": "1.0.238",
-      "installerUrl": "https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-macos-arm64.zip"
-    },
-    {
-      "date": "2026-10-07T18:39:17Z",
-      "appName": "Clockify Desktop",
-      "slug": "clockify/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.12.6",
-      "newVersion": "2.12.10",
-      "installerUrl": "https://clockify.me/downloads/ClockifyDesktop.zip"
-    },
-    {
-      "date": "2026-10-07T23:32:24Z",
-      "appName": "Google Antigravity",
-      "slug": "antigravity/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.19.1",
-      "newVersion": "2.21.0",
-      "installerUrl": "https://storage.googleapis.com/antigravity-public/antigravity-hub/2.21.0-6494382996717568/darwin-arm/Antigravity.dmg"
-    },
-    {
-      "date": "2026-10-07T23:32:24Z",
-      "appName": "Cloudflare One",
-      "slug": "cloudflare-warp/windows",
-      "platform": "windows",
-      "oldVersion": "26.7.1376.0",
-      "newVersion": "26.8.2100.0",
-      "installerUrl": "https://downloads.cloudflareclient.com/v1/download/windows/version/2026.8.2100.0"
-    },
-    {
-      "date": "2026-10-07T23:32:24Z",
-      "appName": "BoltAI 2",
-      "slug": "boltai/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.17.2",
-      "newVersion": "2.17.3",
-      "installerUrl": "https://updates.boltai.com/dmg/BoltAI-2.17.3.dmg"
-    },
-    {
-      "date": "2026-10-07T23:32:24Z",
-      "appName": "Proton Pass",
-      "slug": "proton-pass/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.41.1",
-      "newVersion": "1.42.0",
-      "installerUrl": "https://proton.me/download/pass/macos/ProtonPass_1.42.0.dmg"
-    },
-    {
-      "date": "2026-10-07T23:32:24Z",
-      "appName": "Logseq",
-      "slug": "logseq/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.0.1",
-      "newVersion": "2.0.2",
-      "installerUrl": "https://github.com/logseq/logseq/releases/download/2.0.2/Logseq-darwin-arm64-2.0.2.dmg"
-    },
-    {
-      "date": "2026-10-07T23:32:24Z",
-      "appName": "Amazon Redshift ODBC Driver",
-      "slug": "amazon-redshift-odbc-driver/windows",
-      "platform": "windows",
-      "oldVersion": "2.2.3.0",
-      "newVersion": "2.2.4.0",
-      "installerUrl": "https://s3.amazonaws.com/redshift-downloads/drivers/odbc/2.2.4.0/AmazonRedshiftODBC64-2.2.4.0.msi"
-    },
-    {
-      "date": "2026-10-07T23:32:24Z",
-      "appName": "Brave",
-      "slug": "brave-browser/darwin",
-      "platform": "darwin",
-      "oldVersion": "154.1.96.61",
-      "newVersion": "155.1.97.56",
-      "installerUrl": "https://updates-cdn.bravesoftware.com/sparkle/Brave-Browser/stable-arm64/197.56/Brave-Browser-arm64.dmg"
-    },
-    {
-      "date": "2026-10-07T23:32:24Z",
-      "appName": "Google Drive",
-      "slug": "google-drive/windows",
-      "platform": "windows",
-      "oldVersion": "131.0.2.0",
-      "newVersion": "132.0.0.0",
-      "installerUrl": "https://dl.google.com/release2/drive-file-stream/glebcd62hy755nfh23p5kqwm4i_132.0.0.0/setup.exe"
-    },
-    {
-      "date": "2026-10-07T23:32:24Z",
-      "appName": "draw.io",
-      "slug": "drawio/windows",
-      "platform": "windows",
-      "oldVersion": "31.7.0",
-      "newVersion": "32.3.0",
-      "installerUrl": "https://github.com/jgraph/drawio-desktop/releases/download/v32.3.0/draw.io-32.3.0-windows-installer.exe"
-    },
-    {
-      "date": "2026-10-07T23:32:24Z",
-      "appName": "Burp Suite Community Edition",
-      "slug": "burp-suite/darwin",
-      "platform": "darwin",
-      "oldVersion": "2026.8",
-      "newVersion": "2026.9.1",
-      "installerUrl": "https://portswigger-cdn.net/burp/releases/download?product=desktop\u0026version=2026.9.1\u0026type=MacOsArm64"
-    },
-    {
-      "date": "2026-10-07T23:32:24Z",
-      "appName": "draw.io",
-      "slug": "drawio/darwin",
-      "platform": "darwin",
-      "oldVersion": "31.7.0",
-      "newVersion": "32.3.0",
-      "installerUrl": "https://github.com/jgraph/drawio-desktop/releases/download/v32.3.0/draw.io-arm64-32.3.0.dmg"
-    },
-    {
-      "date": "2026-10-07T23:32:24Z",
-      "appName": "Brave",
-      "slug": "brave-browser/windows",
-      "platform": "windows",
-      "oldVersion": "154.1.96.61",
-      "newVersion": "155.1.97.56",
-      "installerUrl": "https://github.com/brave/brave-browser/releases/download/v1.97.56/BraveBrowserStandaloneSilentSetup.exe"
-    },
-    {
-      "date": "2026-10-07T23:32:24Z",
-      "appName": "Vim",
-      "slug": "vim/windows",
-      "platform": "windows",
-      "oldVersion": "9.2.1167",
-      "newVersion": "9.2.1169",
-      "installerUrl": "https://github.com/vim/vim-win32-installer/releases/download/v9.2.1169/gvim_9.2.1169_x64.exe"
-    },
-    {
-      "date": "2026-10-07T23:32:24Z",
-      "appName": "A Better Finder Rename",
-      "slug": "a-better-finder-rename/darwin",
-      "platform": "darwin",
-      "oldVersion": "12.35",
-      "newVersion": "12.36",
-      "installerUrl": "https://www.publicspace.net/download/ABFRX12.dmg"
-    },
-    {
-      "date": "2026-10-07T23:32:24Z",
-      "appName": "Camunda Modeler",
-      "slug": "camunda-modeler/darwin",
-      "platform": "darwin",
-      "oldVersion": "5.51.1",
-      "newVersion": "5.52.0",
-      "installerUrl": "https://downloads.camunda.cloud/release/camunda-modeler/5.52.0/camunda-modeler-5.52.0-mac-arm64.dmg"
-    },
-    {
-      "date": "2026-10-07T23:32:24Z",
-      "appName": "Notion",
-      "slug": "notion/darwin",
-      "platform": "darwin",
-      "oldVersion": "7.37.0",
-      "newVersion": "7.37.1",
-      "installerUrl": "https://desktop-release.notion-static.com/Notion-7.37.1-arm64.dmg"
-    },
-    {
-      "date": "2026-10-07T23:32:24Z",
-      "appName": "Parallels Desktop",
-      "slug": "parallels/darwin",
-      "platform": "darwin",
-      "oldVersion": "27.0.2",
-      "newVersion": "27.0.3",
-      "installerUrl": "https://download.parallels.com/desktop/v27/27.0.3-58680/ParallelsDesktop-27.0.3-58680.dmg"
-    },
-    {
-      "date": "2026-10-07T23:32:24Z",
-      "appName": "Zotero",
-      "slug": "zotero/darwin",
-      "platform": "darwin",
-      "oldVersion": "10.0.5",
-      "newVersion": "10.0.6",
-      "installerUrl": "https://download.zotero.org/client/release/10.0.6/Zotero-10.0.6.dmg"
-    },
-    {
-      "date": "2026-10-07T23:32:24Z",
-      "appName": "Mozilla Firefox Developer Edition",
-      "slug": "firefox@developer-edition/darwin",
-      "platform": "darwin",
-      "oldVersion": "158.0b4",
-      "newVersion": "158.0b5",
-      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/158.0b5/mac/en-US/Firefox%20158.0b5.dmg"
-    },
-    {
-      "date": "2026-10-07T23:32:24Z",
-      "appName": "QSpace Pro",
-      "slug": "qspace-pro/darwin",
-      "platform": "darwin",
-      "oldVersion": "7.0.2",
-      "newVersion": "7.0.4",
-      "installerUrl": "https://cdn.awehunt.com/qs/rel/QSpace%20Pro_V7.0.4.dmg"
-    },
-    {
-      "date": "2026-10-07T23:32:24Z",
-      "appName": "Zotero",
-      "slug": "zotero/windows",
-      "platform": "windows",
-      "oldVersion": "10.0.5",
-      "newVersion": "10.0.6",
-      "installerUrl": "https://download.zotero.org/client/release/10.0.6/Zotero-10.0.6_x64_setup.exe"
-    },
-    {
-      "date": "2026-10-07T23:32:24Z",
-      "appName": "Command-Tab Plus",
-      "slug": "command-tab-plus/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.9.12",
-      "newVersion": "2.9.13",
-      "installerUrl": "https://macplus-software.com/downloads/Command-Tab%20Plus%202.zip"
-    },
-    {
-      "date": "2026-10-07T23:32:24Z",
-      "appName": "Claude",
-      "slug": "claude/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.26454.0",
-      "newVersion": "2.26454.2",
-      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/2.26454.2/Claude-75afdd18501b9670ae33bfb7c0cd88567ce76994.zip"
-    },
-    {
-      "date": "2026-10-07T23:32:24Z",
-      "appName": "ActiveDock",
-      "slug": "activedock/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.883",
-      "newVersion": "2.884",
-      "installerUrl": "https://macplus-software.com/downloads/ActiveDock.zip"
-    },
-    {
-      "date": "2026-10-07T23:32:24Z",
-      "appName": "Cloudflare One",
-      "slug": "cloudflare-warp/darwin",
-      "platform": "darwin",
-      "oldVersion": "2026.7.1376.0",
-      "newVersion": "2026.8.2100.0",
-      "installerUrl": "https://downloads.cloudflareclient.com/v1/download/macos/version/2026.8.2100.0"
-    },
-    {
-      "date": "2026-10-08T05:01:10Z",
-      "appName": "Google Antigravity",
-      "slug": "antigravity/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.21.0",
-      "newVersion": "2.21.1",
-      "installerUrl": "https://storage.googleapis.com/antigravity-public/antigravity-hub/2.21.1-5614635819335680/darwin-arm/Antigravity.dmg"
-    },
-    {
-      "date": "2026-10-08T05:01:10Z",
-      "appName": "HEY",
-      "slug": "hey-desktop/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.3.7",
-      "newVersion": "1.3.8",
-      "installerUrl": "https://hey.com/desktop/HEY-1.3.8-arm64-mac.zip"
-    },
-    {
-      "date": "2026-10-08T05:01:10Z",
-      "appName": "Node.js",
-      "slug": "nodejs/windows",
-      "platform": "windows",
-      "oldVersion": "26.7.0",
-      "newVersion": "26.8.1",
-      "installerUrl": "https://nodejs.org/dist/v26.8.1/node-v26.8.1-x64.msi"
-    },
-    {
-      "date": "2026-10-08T05:01:10Z",
-      "appName": "Mozilla Firefox Nightly (ARM64)",
-      "slug": "firefox@nightly-arm64/windows",
-      "platform": "windows",
-      "oldVersion": "159.2610.609.0",
-      "newVersion": "159.2610.709.0",
-      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/10/2026-10-07-09-54-43-mozilla-central/firefox-159.0a1.multi.win64-aarch64.installer.msix"
-    },
-    {
-      "date": "2026-10-08T05:01:10Z",
-      "appName": "NVDA",
-      "slug": "nvda/windows",
-      "platform": "windows",
-      "oldVersion": "2026.1.1",
-      "newVersion": "2026.2",
-      "installerUrl": "https://download.nvaccess.org/releases/2026.2/nvda_2026.2.exe"
-    },
-    {
-      "date": "2026-10-08T05:01:10Z",
-      "appName": "Zed",
-      "slug": "zed/windows",
-      "platform": "windows",
-      "oldVersion": "1.22.0",
-      "newVersion": "1.23.2",
-      "installerUrl": "https://github.com/zed-industries/zed/releases/download/v1.23.2/Zed-x86_64.exe"
-    },
-    {
-      "date": "2026-10-08T05:01:10Z",
-      "appName": "Zed",
-      "slug": "zed/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.22.0",
-      "newVersion": "1.23.2",
-      "installerUrl": "https://github.com/zed-industries/zed/releases/download/v1.23.2/Zed-aarch64.dmg"
-    },
-    {
-      "date": "2026-10-08T05:01:10Z",
-      "appName": "Signal",
-      "slug": "signal/windows",
-      "platform": "windows",
-      "oldVersion": "8.29.0",
-      "newVersion": "8.30.0",
-      "installerUrl": "https://updates.signal.org/desktop/signal-desktop-win-8.30.0.exe"
-    },
-    {
-      "date": "2026-10-08T05:01:10Z",
-      "appName": "Notion",
-      "slug": "notion/windows",
-      "platform": "windows",
-      "oldVersion": "7.37.0",
-      "newVersion": "7.37.1",
-      "installerUrl": "https://desktop-release.notion-static.com/Notion%20Setup%207.37.1.exe"
-    },
-    {
-      "date": "2026-10-08T05:01:10Z",
-      "appName": "Beekeeper Studio",
-      "slug": "beekeeper-studio/darwin",
-      "platform": "darwin",
-      "oldVersion": "6.1.5",
-      "newVersion": "6.1.6",
-      "installerUrl": "https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v6.1.6/Beekeeper-Studio-6.1.6-arm64.dmg"
-    },
-    {
-      "date": "2026-10-08T05:01:10Z",
-      "appName": "Mozilla Firefox Nightly",
-      "slug": "firefox@nightly/windows",
-      "platform": "windows",
-      "oldVersion": "159.2610.609.0",
-      "newVersion": "159.2610.709.0",
-      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/10/2026-10-07-09-54-43-mozilla-central/firefox-159.0a1.multi.win64.installer.msix"
-    },
-    {
-      "date": "2026-10-08T05:01:10Z",
-      "appName": "Tailscale",
-      "slug": "tailscale/windows",
-      "platform": "windows",
-      "oldVersion": "1.102.4",
-      "newVersion": "1.104.1",
-      "installerUrl": "https://pkgs.tailscale.com/stable/tailscale-setup-1.104.1-amd64.msi"
-    },
-    {
-      "date": "2026-10-08T05:01:10Z",
-      "appName": "Figma",
-      "slug": "figma/windows",
-      "platform": "windows",
-      "oldVersion": "126.9.11",
-      "newVersion": "126.9.13",
-      "installerUrl": "https://desktop.figma.com/win/build/Figma-126.9.13.exe"
-    },
-    {
-      "date": "2026-10-08T05:01:10Z",
-      "appName": "Figma",
-      "slug": "figma/darwin",
-      "platform": "darwin",
-      "oldVersion": "126.9.11",
-      "newVersion": "126.9.13",
-      "installerUrl": "https://desktop.figma.com/mac-arm/Figma-126.9.13.zip"
-    },
-    {
-      "date": "2026-10-08T05:01:10Z",
-      "appName": "Vellum",
-      "slug": "vellum/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.1.5",
-      "newVersion": "4.1.6",
-      "installerUrl": "https://180g.s3.amazonaws.com/downloads/Vellum-41600.zip"
-    },
-    {
-      "date": "2026-10-08T05:01:10Z",
-      "appName": "Microsoft ODBC Driver 18 for SQL Server",
-      "slug": "microsoft-odbc-driver-18/windows",
-      "platform": "windows",
-      "oldVersion": "18.6.2.1",
-      "newVersion": "18.7.1.1",
-      "installerUrl": "https://download.microsoft.com/download/d624e1c6-293b-4d6f-91b8-6e515a5d6a77/amd64/1033/msodbcsql.msi"
-    },
-    {
-      "date": "2026-10-08T05:01:10Z",
-      "appName": "Sequel Ace",
-      "slug": "sequel-ace/darwin",
-      "platform": "darwin",
-      "oldVersion": "6.0.1",
-      "newVersion": "6.0.2",
-      "installerUrl": "https://github.com/Sequel-Ace/Sequel-Ace/releases/download/production/6.0.2-20115/Sequel-Ace-6.0.2.zip"
-    },
-    {
       "date": "2026-10-08T05:01:10Z",
       "appName": "Beekeeper Studio",
       "slug": "beekeeper-studio/windows",
@@ -8999,6 +8549,456 @@
       "oldVersion": "5.0.1653",
       "newVersion": "5.0.1675",
       "installerUrl": "https://web-cdn.melodics.com/download/CF1E4385-6EA0-46A5-980B-9A2C33B6414B.zip"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "AWS Command Line Interface v2",
+      "slug": "aws-cli/windows",
+      "platform": "windows",
+      "oldVersion": "2.38.4",
+      "newVersion": "2.38.5",
+      "installerUrl": "https://awscli.amazonaws.com/AWSCLIV2-2.38.5.msi"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "OpenCode",
+      "slug": "opencode-desktop/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.1.3",
+      "newVersion": "2.1.4",
+      "installerUrl": "https://opencode.ai/files/bin/2.1.4/opencode-desktop-mac-arm64.dmg"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "Ollama",
+      "slug": "ollama/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.40.8",
+      "newVersion": "0.40.9",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.40.9/Ollama-darwin.zip"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "Warp",
+      "slug": "warp/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.2026.10.14.08.27.03",
+      "newVersion": "0.2026.10.21.08.25.02",
+      "installerUrl": "https://releases.warp.dev/stable/v0.2026.10.21.08.25.stable_02/Warp.dmg"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "Tuple",
+      "slug": "tuple/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.3.11",
+      "newVersion": "3.3.12",
+      "installerUrl": "https://d32ifkf9k9ezcg.cloudfront.net/production/sparkle/tuple-3.3.12-2026-10-23-8e946aca9e.zip"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "CodexBar",
+      "slug": "codexbar/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.79.0",
+      "newVersion": "0.80.0",
+      "installerUrl": "https://github.com/steipete/CodexBar/releases/download/v0.80.0/CodexBar-macos-universal-0.80.0.zip"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "Vivaldi",
+      "slug": "vivaldi/darwin",
+      "platform": "darwin",
+      "oldVersion": "8.2.4133.91",
+      "newVersion": "8.2.4133.94",
+      "installerUrl": "https://downloads.vivaldi.com/stable/Vivaldi.8.2.4133.94.universal.dmg"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "Amazon Corretto 21",
+      "slug": "amazon-corretto-21/windows",
+      "platform": "windows",
+      "oldVersion": "21.0.12.12",
+      "newVersion": "21.0.13.0",
+      "installerUrl": "https://corretto.aws/downloads/resources/21.0.13.0.10/amazon-corretto-21.0.13.0.10-windows-x64.msi"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "Docker Desktop",
+      "slug": "docker/windows",
+      "platform": "windows",
+      "oldVersion": "4.96.2",
+      "newVersion": "4.96.3",
+      "installerUrl": "https://desktop.docker.com/win/main/amd64/244472/Docker%20Desktop%20Installer.exe"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "Kiro",
+      "slug": "kiro/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.4.13",
+      "newVersion": "1.4.26",
+      "installerUrl": "https://prod.download.desktop.kiro.dev/releases/stable/darwin-arm64/signed/1.4.26/kiro-ide-1.4.26-stable-darwin-arm64.dmg"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "Notion",
+      "slug": "notion/windows",
+      "platform": "windows",
+      "oldVersion": "7.39.0",
+      "newVersion": "7.40.1",
+      "installerUrl": "https://desktop-release.notion-static.com/Notion%20Setup%207.40.1.exe"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "Amazon Corretto 11",
+      "slug": "amazon-corretto-11/windows",
+      "platform": "windows",
+      "oldVersion": "11.0.32.12",
+      "newVersion": "11.0.33.0",
+      "installerUrl": "https://corretto.aws/downloads/resources/11.0.33.0.9/amazon-corretto-11.0.33.0.9-windows-x64.msi"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "Amazon Corretto 8",
+      "slug": "amazon-corretto-8/windows",
+      "platform": "windows",
+      "oldVersion": "1.8.0.504",
+      "newVersion": "1.8.0.512",
+      "installerUrl": "https://corretto.aws/downloads/resources/8.512.08.1/amazon-corretto-8.512.08.1-windows-x64-jdk.msi"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "NordVPN",
+      "slug": "nordvpn/windows",
+      "platform": "windows",
+      "oldVersion": "8.14.2.0",
+      "newVersion": "8.14.3.0",
+      "installerUrl": "https://downloads.nordcdn.com/apps/windows/NordVPN/8.14.3.0/NordVPNInstall.exe"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "TextExpander",
+      "slug": "textexpander/darwin",
+      "platform": "darwin",
+      "oldVersion": "8.4.8",
+      "newVersion": "8.5",
+      "installerUrl": "https://cdn.textexpander.com/electron-mac/908.5.999/TextExpander_8.5.dmg"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "Vivaldi",
+      "slug": "vivaldi/windows",
+      "platform": "windows",
+      "oldVersion": "8.2.4133.91",
+      "newVersion": "8.2.4133.94",
+      "installerUrl": "https://downloads.vivaldi.com/stable/Vivaldi.8.2.4133.94.x64.exe"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "calibre",
+      "slug": "calibre/windows",
+      "platform": "windows",
+      "oldVersion": "9.16.0",
+      "newVersion": "9.17.0",
+      "installerUrl": "https://download.calibre-ebook.com/9.17.0/calibre-64bit-9.17.0.msi"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "Ollama",
+      "slug": "ollama/windows",
+      "platform": "windows",
+      "oldVersion": "0.40.8",
+      "newVersion": "0.40.9",
+      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.40.9/OllamaSetup.exe"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "Apidog",
+      "slug": "apidog/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.8.51",
+      "newVersion": "2.8.52",
+      "installerUrl": "https://file-assets.apidog.com/download/2.8.52/legacy-Apidog-macOS-arm64-2.8.52.dmg"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "Franz",
+      "slug": "franz/darwin",
+      "platform": "darwin",
+      "oldVersion": "6.10.0",
+      "newVersion": "6.10.1",
+      "installerUrl": "https://github.com/meetfranz/franz-6/releases/download/v6.10.1/Franz-arm64.dmg"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "BetterTouchTool",
+      "slug": "bettertouchtool/darwin",
+      "platform": "darwin",
+      "oldVersion": "6.974",
+      "newVersion": "6.977",
+      "installerUrl": "https://folivora.ai/releases/btt6.977-2026102302.zip"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "Amazon Corretto 25",
+      "slug": "amazon-corretto-25/windows",
+      "platform": "windows",
+      "oldVersion": "25.0.4.10",
+      "newVersion": "25.0.5.0",
+      "installerUrl": "https://corretto.aws/downloads/resources/25.0.5.0.9/amazon-corretto-25.0.5.0.9-windows-x64.msi"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "Cog",
+      "slug": "cog-app/darwin",
+      "platform": "darwin",
+      "oldVersion": "3820",
+      "newVersion": "3822",
+      "installerUrl": "https://cogcdn.cog.losno.co/Cog-8b1f742c6.zip"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "GitHub Desktop",
+      "slug": "github/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.6.7",
+      "newVersion": "3.6.8",
+      "installerUrl": "https://desktop.githubusercontent.com/releases/3.6.8-c5923f66/GitHubDesktop-arm64.zip"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "Amazon WorkSpaces",
+      "slug": "amazon-workspaces/windows",
+      "platform": "windows",
+      "oldVersion": "5.35.0.3249",
+      "newVersion": "5.36.0.3628",
+      "installerUrl": "https://d2td7dqidlhjx7.cloudfront.net/prod/global/windows/Amazon+WorkSpaces.msi"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "CLion",
+      "slug": "clion/darwin",
+      "platform": "darwin",
+      "oldVersion": "2026.2.3.1",
+      "newVersion": "2026.2.4",
+      "installerUrl": "https://download.jetbrains.com/cpp/CLion-2026.2.4-aarch64.dmg"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "Postman",
+      "slug": "postman/darwin",
+      "platform": "darwin",
+      "oldVersion": "12.33.3",
+      "newVersion": "12.33.4",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.33.4/osx_arm64"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "Claude",
+      "slug": "claude/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.6556.1",
+      "newVersion": "3.6556.2",
+      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/3.6556.2/Claude-20c019a1e61fa5b687616af57d31f97bb3181723.zip"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "Dataflare",
+      "slug": "dataflare/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.2.4",
+      "newVersion": "3.2.5",
+      "installerUrl": "https://assets.dataflare.app/release/darwin/aarch64/Dataflare-3.2.5.dmg"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "Dataflare",
+      "slug": "dataflare/windows",
+      "platform": "windows",
+      "oldVersion": "3.2.4",
+      "newVersion": "3.2.5",
+      "installerUrl": "https://assets.dataflare.app/release/windows/x86_64/Dataflare-Setup-3.2.5.exe"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "PowerShell",
+      "slug": "powershell/windows",
+      "platform": "windows",
+      "oldVersion": "7.6.7.0",
+      "newVersion": "7.6.8",
+      "installerUrl": "https://github.com/PowerShell/PowerShell/releases/download/v7.6.8/PowerShell-7.6.8-win-x64.msi"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "GitHub Copilot",
+      "slug": "github-copilot-app/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.1.30",
+      "newVersion": "1.1.31",
+      "installerUrl": "https://github.com/github/app/releases/download/v1.1.31/GitHub-Copilot-darwin-arm64.dmg"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "OrbStack",
+      "slug": "orbstack/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.2.4",
+      "newVersion": "2.2.5",
+      "installerUrl": "https://cdn-updates.orbstack.dev/arm64/OrbStack_v2.2.5_21124_arm64.dmg"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "Rowel",
+      "slug": "rowel/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.0.3",
+      "newVersion": "1.0.4",
+      "installerUrl": "https://github.com/fwdai/rowel/releases/download/v1.0.4/Rowel_1.0.4_universal.dmg"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "Wealthfolio",
+      "slug": "wealthfolio/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.10.0",
+      "newVersion": "3.11.0",
+      "installerUrl": "https://github.com/afadil/wealthfolio/releases/download/v3.11.0/Wealthfolio_3.11.0_aarch64.dmg"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "Cursor",
+      "slug": "cursor/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.27.6",
+      "newVersion": "3.27.12",
+      "installerUrl": "https://downloads.cursor.com/production/df132ffba90dfc15a12e6b8f020ba4e5d026c4be/darwin/arm64/Cursor-darwin-arm64.zip"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "AWS SAM Command Line Interface",
+      "slug": "aws-sam-cli/windows",
+      "platform": "windows",
+      "oldVersion": "1.169.0",
+      "newVersion": "1.170.0",
+      "installerUrl": "https://github.com/aws/aws-sam-cli/releases/download/v1.170.0/AWS_SAM_CLI_64_PY3.msi"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "Postman",
+      "slug": "postman/windows",
+      "platform": "windows",
+      "oldVersion": "12.33.3",
+      "newVersion": "12.33.4",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.33.4/windows_64"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "Jellyfin",
+      "slug": "jellyfin/darwin",
+      "platform": "darwin",
+      "oldVersion": "12.2",
+      "newVersion": "12.3",
+      "installerUrl": "https://repo.jellyfin.org/files/server/macos/stable/v12.3/arm64/jellyfin_12.3-arm64.dmg"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "Mozilla Firefox Nightly",
+      "slug": "firefox@nightly/darwin",
+      "platform": "darwin",
+      "oldVersion": "160.0a1",
+      "newVersion": "161.0a1",
+      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/10/2026-10-22-21-49-40-mozilla-central/firefox-161.0a1.en-US.mac.dmg"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "Amazon Corretto 17",
+      "slug": "amazon-corretto-17/windows",
+      "platform": "windows",
+      "oldVersion": "17.0.20.12",
+      "newVersion": "17.0.21.0",
+      "installerUrl": "https://corretto.aws/downloads/resources/17.0.21.0.10/amazon-corretto-17.0.21.0.10-windows-x64.msi"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "Grok Bot",
+      "slug": "grok-bot/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.75.2",
+      "newVersion": "0.75.3",
+      "installerUrl": "https://downloads.cursor.com/sand/stable/darwin-arm64/0.75.3/Grok_Bot_0.75.3.dmg"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "calibre",
+      "slug": "calibre/darwin",
+      "platform": "darwin",
+      "oldVersion": "9.16.0",
+      "newVersion": "9.17.0",
+      "installerUrl": "https://download.calibre-ebook.com/9.17.0/calibre-9.17.0.dmg"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "GoldenDict-ng",
+      "slug": "goldendict-ng/windows",
+      "platform": "windows",
+      "oldVersion": "26.8.0",
+      "newVersion": "26.11.0",
+      "installerUrl": "https://github.com/xiaoyifang/goldendict-ng/releases/download/v26.11.0/GoldenDict-ng-26.11.0-Qt6.8.3-Windows-installer.exe"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "Kiro",
+      "slug": "kiro/windows",
+      "platform": "windows",
+      "oldVersion": "1.4.13",
+      "newVersion": "1.4.26",
+      "installerUrl": "https://prod.download.desktop.kiro.dev/releases/stable/win32-x64/signed/1.4.26/kiro-ide-1.4.26-stable-win32-x64.exe"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "Raycast",
+      "slug": "raycast/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.8.2.0",
+      "newVersion": "2.9.0.0",
+      "installerUrl": "https://x.raycast-releases.com/download?platform=macos\u0026architecture=arm64\u0026version=2.9.0.0"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "balenaEtcher",
+      "slug": "balenaetcher/windows",
+      "platform": "windows",
+      "oldVersion": "2.1.8",
+      "newVersion": "2.1.9",
+      "installerUrl": "https://github.com/balena-io/etcher/releases/download/v2.1.9/balenaEtcher-2.1.9.Setup.exe"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "GitHub Desktop",
+      "slug": "github-desktop/windows",
+      "platform": "windows",
+      "oldVersion": "3.6.7",
+      "newVersion": "3.6.8",
+      "installerUrl": "https://desktop.githubusercontent.com/releases/3.6.8-c5923f66/GitHubDesktopSetup-x64.exe"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "Bitwarden",
+      "slug": "bitwarden/darwin",
+      "platform": "darwin",
+      "oldVersion": "2026.10.0",
+      "newVersion": "2026.10.1",
+      "installerUrl": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.10.1/Bitwarden-2026.10.1-universal.dmg"
+    },
+    {
+      "date": "2026-10-23T18:12:07Z",
+      "appName": "Grok Bot",
+      "slug": "grok-bot/windows",
+      "platform": "windows",
+      "oldVersion": "0.75.2",
+      "newVersion": "0.75.3",
+      "installerUrl": "https://downloads.cursor.com/grokbot/stable/win32-x64/0.75.3/Grok_Bot_0.75.3_Setup.exe"
     }
   ]
 }
