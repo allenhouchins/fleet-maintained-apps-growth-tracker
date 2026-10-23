@@ -727,7 +727,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: October 22, 2026 at 8:19 PM CDT</p>
+            Last updated: October 22, 2026 at 8:24 PM CDT</p>
         </div>
     </div>
 
@@ -788,7 +788,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: October 22, 2026 at 8:19 PM CDT</p>
+                <p id="modalLastUpdated">Last updated: October 22, 2026 at 8:24 PM CDT</p>
             </div>
         </div>
     </div>
@@ -15307,7 +15307,14 @@
                 "platform": "darwin",
                 "description": "LM Studio is an app to discover, download, and run local LLMs.",
                 "version": "0.4.26+4",
-                "installerUrl": "https://installers.lmstudio.ai/darwin/arm64/0.4.26-4/LM-Studio-0.4.26-4-arm64.dmg"
+                "installerUrl": "https://installers.lmstudio.ai/darwin/arm64/0.4.26-4/LM-Studio-0.4.26-4-arm64.dmg",
+                "securityInfo": {
+                  "sha256": "572d0c77fe1c21cb00fec946d8e50d8f58520b1d93d4e02c4ab4c16096e52410",
+                  "cdhash": "4b071d71aab9598c957cf933de4397af1bf75ecb",
+                  "signingId": "D65G88RHWN:ai.elementlabs.lmstudio",
+                  "teamId": "D65G88RHWN",
+                  "lastUpdated": "2026-10-23T01:22:08Z"
+                }
               },
               {
                 "name": "Local",
@@ -28019,7 +28026,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `October 22, 2026 at 8:19 PM CDT`;
+                let timestampText = 'Last updated: ' + `October 22, 2026 at 8:24 PM CDT`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
