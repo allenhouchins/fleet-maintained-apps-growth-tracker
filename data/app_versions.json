@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T15:41:47Z",
+  "lastUpdated": "2026-10-30T20:31:52Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1706,8 +1706,8 @@
       "slug": "claude/windows",
       "name": "Claude",
       "platform": "windows",
-      "version": "2.42304.2",
-      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/2.42304.2/Claude-af65c0e384c1657459441aac3083c6e622789afe.msix"
+      "version": "4.4212.0",
+      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/4.4212.0/Claude-cbfe3c56d49c49332ad5a9588303c9dbc70a5e7f.msix"
     },
     {
       "slug": "cleanclip/darwin",
@@ -2543,6 +2543,13 @@
       "installerUrl": "https://twocanoes-software-updates.s3.amazonaws.com/DFU_Blaster_Pro_Build-3621_Version-5.1.dmg"
     },
     {
+      "slug": "dia/darwin",
+      "name": "Dia",
+      "platform": "darwin",
+      "version": "1.55.1",
+      "installerUrl": "https://releases.diabrowser.com/release/Dia-1.55.1-89833.zip"
+    },
+    {
       "slug": "dialpad/darwin",
       "name": "Dialpad",
       "platform": "darwin",
@@ -2798,8 +2805,8 @@
       "slug": "druva-insync/darwin",
       "name": "Druva inSync",
       "platform": "darwin",
-      "version": "8.1.4",
-      "installerUrl": "https://downloads.druva.com/downloads/inSync/MAC/8.1.4/inSync-8.1.4-r110973.dmg"
+      "version": "8.1.8",
+      "installerUrl": "https://downloads.druva.com/downloads/inSync/MAC/8.1.8/inSync-8.1.8-r110997.dmg"
     },
     {
       "slug": "druva-insync/windows",
@@ -3393,8 +3400,8 @@
       "slug": "firefox@nightly-arm64/windows",
       "name": "Mozilla Firefox Nightly (ARM64)",
       "platform": "windows",
-      "version": "161.2610.2809.0",
-      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/10/2026-10-28-09-48-58-mozilla-central/firefox-161.0a1.multi.win64-aarch64.installer.msix"
+      "version": "161.2610.2921.0",
+      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/10/2026-10-29-21-23-58-mozilla-central/firefox-161.0a1.multi.win64-aarch64.installer.msix"
     },
     {
       "slug": "firefox@nightly/darwin",
@@ -3407,8 +3414,8 @@
       "slug": "firefox@nightly/windows",
       "name": "Mozilla Firefox Nightly",
       "platform": "windows",
-      "version": "161.2610.2809.0",
-      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/10/2026-10-28-09-48-58-mozilla-central/firefox-161.0a1.multi.win64.installer.msix"
+      "version": "161.2610.2921.0",
+      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/10/2026-10-29-21-23-58-mozilla-central/firefox-161.0a1.multi.win64.installer.msix"
     },
     {
       "slug": "fission/darwin",
@@ -5780,7 +5787,7 @@
       "slug": "mobirise/darwin",
       "name": "Mobirise",
       "platform": "darwin",
-      "version": "6.1.17",
+      "version": "6.2.0",
       "installerUrl": "https://download.mobirise.com/MobiriseSetup-m.dmg"
     },
     {
@@ -8521,6 +8528,13 @@
       "installerUrl": "https://superkey.app/downloads/Superkey1.67.dmg"
     },
     {
+      "slug": "superset/darwin",
+      "name": "Superset",
+      "platform": "darwin",
+      "version": "2.0.2",
+      "installerUrl": "https://github.com/superset-sh/superset/releases/download/desktop-v2.0.2/Superset-2.0.2-arm64.dmg"
+    },
+    {
       "slug": "superwhisper/darwin",
       "name": "superwhisper",
       "platform": "darwin",
@@ -8610,6 +8624,13 @@
       "platform": "darwin",
       "version": "2.1.32",
       "installerUrl": "https://github.com/sbarex/SourceCodeSyntaxHighlight/releases/download/2.1.32/Syntax.Highlight.zip"
+    },
+    {
+      "slug": "t3-code/darwin",
+      "name": "T3 Code",
+      "platform": "darwin",
+      "version": "0.1.5",
+      "installerUrl": "https://github.com/pingdotgg/t3code/releases/download/v0.1.5/T3-Code-0.1.5-arm64.dmg"
     },
     {
       "slug": "tabby/darwin",
@@ -9413,8 +9434,8 @@
       "slug": "vnc-viewer/windows",
       "name": "RealVNC Connect Viewer",
       "platform": "windows",
-      "version": "8.5.0.21",
-      "installerUrl": "https://downloads.realvnc.com/download/file/realvnc-connect-viewer/RealVNC-Connect-Viewer-8.5.0-Windows-en.msi"
+      "version": "8.5.3.38",
+      "installerUrl": "https://downloads.realvnc.com/download/file/realvnc-connect-viewer/RealVNC-Connect-Viewer-8.5.3-Windows.msi.zip"
     },
     {
       "slug": "voiceink/darwin",

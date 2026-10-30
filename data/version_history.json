@@ -2,87 +2,6 @@
   "changes": [
     {
       "date": "2026-10-15T22:00:44Z",
-      "appName": "CodexBar",
-      "slug": "codexbar/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.75.0",
-      "newVersion": "0.76.0",
-      "installerUrl": "https://github.com/steipete/CodexBar/releases/download/v0.76.0/CodexBar-macos-universal-0.76.0.zip"
-    },
-    {
-      "date": "2026-10-15T22:00:44Z",
-      "appName": "Willow Voice",
-      "slug": "willow-voice/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.6.3",
-      "newVersion": "2.6.4",
-      "installerUrl": "https://github.com/LiuLawrence45/stt-sparkle-update/releases/download/v2.6.4/Willow.Installer.dmg"
-    },
-    {
-      "date": "2026-10-15T22:00:44Z",
-      "appName": "NoSQL Workbench",
-      "slug": "nosql-workbench/windows",
-      "platform": "windows",
-      "oldVersion": "3.20.3",
-      "newVersion": "3.20.4",
-      "installerUrl": "https://dy9cqqaswpltd.cloudfront.net/NoSQL%20Workbench-win-3.20.4.exe"
-    },
-    {
-      "date": "2026-10-15T22:00:44Z",
-      "appName": "AnyDesk",
-      "slug": "anydesk/windows",
-      "platform": "windows",
-      "oldVersion": "9.8.1",
-      "newVersion": "9.8.2",
-      "installerUrl": "https://download.anydesk.com/AnyDesk.exe"
-    },
-    {
-      "date": "2026-10-15T22:00:44Z",
-      "appName": "BleachBit",
-      "slug": "bleachbit/windows",
-      "platform": "windows",
-      "oldVersion": "6.0.4",
-      "newVersion": "6.0.4.310",
-      "installerUrl": "https://download.bleachbit.org/BleachBit-6.0.4-setup.exe"
-    },
-    {
-      "date": "2026-10-15T22:00:44Z",
-      "appName": "Okta Verify",
-      "slug": "okta-verify/windows",
-      "platform": "windows",
-      "oldVersion": "6.12.2.0",
-      "newVersion": "7.0.1.0",
-      "installerUrl": "https://ok1static2.oktacdn.com/artifacts/WINDOWS_OKTA_VERIFY/7.0.1.0/OktaVerifySetup-7.0.1.0-15bb87b.exe"
-    },
-    {
-      "date": "2026-10-15T22:00:44Z",
-      "appName": "Notesnook",
-      "slug": "notesnook/windows",
-      "platform": "windows",
-      "oldVersion": "3.4.8",
-      "newVersion": "3.4.9",
-      "installerUrl": "https://github.com/streetwriters/notesnook/releases/download/v3.4.9/notesnook_win_x64.exe"
-    },
-    {
-      "date": "2026-10-15T22:00:44Z",
-      "appName": "Claude",
-      "slug": "claude/windows",
-      "platform": "windows",
-      "oldVersion": "2.7032.0",
-      "newVersion": "2.19675.1",
-      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/2.19675.1/Claude-8613680e2e16d90700c039e084a7883f321ed4e3.msix"
-    },
-    {
-      "date": "2026-10-15T22:00:44Z",
-      "appName": "Mozilla Firefox Nightly",
-      "slug": "firefox@nightly/windows",
-      "platform": "windows",
-      "oldVersion": "160.2610.1408.0",
-      "newVersion": "160.2610.1509.0",
-      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/10/2026-10-15-09-36-24-mozilla-central/firefox-160.0a1.multi.win64.installer.msix"
-    },
-    {
-      "date": "2026-10-15T22:00:44Z",
       "appName": "Mozilla Firefox Nightly (ARM64)",
       "slug": "firefox@nightly-arm64/windows",
       "platform": "windows",
@@ -8999,6 +8918,87 @@
       "oldVersion": "11.40.2",
       "newVersion": "11.40.3",
       "installerUrl": "https://mac.desktop.evernote.com/builds/Evernote-10.105.4-mac-ddl-stage-20240910164757-a2e60a8d876a07eded5d212fa56ba45214114ad0.dmg"
+    },
+    {
+      "date": "2026-10-30T20:31:52Z",
+      "appName": "Druva inSync",
+      "slug": "druva-insync/darwin",
+      "platform": "darwin",
+      "oldVersion": "8.1.4",
+      "newVersion": "8.1.8",
+      "installerUrl": "https://downloads.druva.com/downloads/inSync/MAC/8.1.8/inSync-8.1.8-r110997.dmg"
+    },
+    {
+      "date": "2026-10-30T20:31:52Z",
+      "appName": "Claude",
+      "slug": "claude/windows",
+      "platform": "windows",
+      "oldVersion": "2.42304.2",
+      "newVersion": "4.4212.0",
+      "installerUrl": "https://downloads.claude.ai/releases/win32/x64/4.4212.0/Claude-cbfe3c56d49c49332ad5a9588303c9dbc70a5e7f.msix"
+    },
+    {
+      "date": "2026-10-30T20:31:52Z",
+      "appName": "Mobirise",
+      "slug": "mobirise/darwin",
+      "platform": "darwin",
+      "oldVersion": "6.1.17",
+      "newVersion": "6.2.0",
+      "installerUrl": "https://download.mobirise.com/MobiriseSetup-m.dmg"
+    },
+    {
+      "date": "2026-10-30T20:31:52Z",
+      "appName": "Mozilla Firefox Nightly",
+      "slug": "firefox@nightly/windows",
+      "platform": "windows",
+      "oldVersion": "161.2610.2809.0",
+      "newVersion": "161.2610.2921.0",
+      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/10/2026-10-29-21-23-58-mozilla-central/firefox-161.0a1.multi.win64.installer.msix"
+    },
+    {
+      "date": "2026-10-30T20:31:52Z",
+      "appName": "Superset",
+      "slug": "superset/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "2.0.2",
+      "installerUrl": "https://github.com/superset-sh/superset/releases/download/desktop-v2.0.2/Superset-2.0.2-arm64.dmg"
+    },
+    {
+      "date": "2026-10-30T20:31:52Z",
+      "appName": "RealVNC Connect Viewer",
+      "slug": "vnc-viewer/windows",
+      "platform": "windows",
+      "oldVersion": "8.5.0.21",
+      "newVersion": "8.5.3.38",
+      "installerUrl": "https://downloads.realvnc.com/download/file/realvnc-connect-viewer/RealVNC-Connect-Viewer-8.5.3-Windows.msi.zip"
+    },
+    {
+      "date": "2026-10-30T20:31:52Z",
+      "appName": "Dia",
+      "slug": "dia/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "1.55.1",
+      "installerUrl": "https://releases.diabrowser.com/release/Dia-1.55.1-89833.zip"
+    },
+    {
+      "date": "2026-10-30T20:31:52Z",
+      "appName": "T3 Code",
+      "slug": "t3-code/darwin",
+      "platform": "darwin",
+      "oldVersion": "",
+      "newVersion": "0.1.5",
+      "installerUrl": "https://github.com/pingdotgg/t3code/releases/download/v0.1.5/T3-Code-0.1.5-arm64.dmg"
+    },
+    {
+      "date": "2026-10-30T20:31:52Z",
+      "appName": "Mozilla Firefox Nightly (ARM64)",
+      "slug": "firefox@nightly-arm64/windows",
+      "platform": "windows",
+      "oldVersion": "161.2610.2809.0",
+      "newVersion": "161.2610.2921.0",
+      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/10/2026-10-29-21-23-58-mozilla-central/firefox-161.0a1.multi.win64-aarch64.installer.msix"
     }
   ]
 }
