@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T07:27:59Z",
+  "lastUpdated": "2026-11-02T07:28:14Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -14473,6 +14473,18 @@
       "thumbprint": "FD9BB1AE8DA14A218825FEC4A1BFB26DC8F005E7",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-10-14T18:53:36Z"
+    },
+    {
+      "slug": "wireguard/windows",
+      "name": "WireGuard",
+      "version": "1.1.1",
+      "sha256": "04c71fb1a555a6ace40d3ae9113c90c4829d7ca1d6c903fd20a8d41a0e2bef94",
+      "publisher": "CN=WireGuard LLC, O=WireGuard LLC, S=Colorado, C=US, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Ohio, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=4227913",
+      "issuer": "CN=Sectigo Public Code Signing CA EV R36, O=Sectigo Limited, C=GB",
+      "serialNumber": "2689297A49C7D9E53E32D3D48F069483",
+      "thumbprint": "1B3AFA5E2A76BB51F00020002DCCADB165689C33",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-11-02T07:28:10Z"
     },
     {
       "slug": "wireshark-app/darwin",
