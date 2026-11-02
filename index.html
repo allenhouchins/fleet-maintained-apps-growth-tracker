@@ -727,7 +727,7 @@
         
         <div class="footer">
             <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: November 2, 2026 at 1:23 AM CST</p>
+            Last updated: November 2, 2026 at 1:30 AM CST</p>
         </div>
     </div>
 
@@ -788,7 +788,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: November 2, 2026 at 1:23 AM CST</p>
+                <p id="modalLastUpdated">Last updated: November 2, 2026 at 1:30 AM CST</p>
             </div>
         </div>
     </div>
@@ -22882,7 +22882,7 @@
                   "serialNumber": "04F6CB315A9192269392DB660DE8B623",
                   "thumbprint": "AB4550F114DB3599664A9965AF64BC35154288F6",
                   "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-                  "lastUpdated": "2026-09-26T01:41:43Z"
+                  "lastUpdated": "2026-11-02T07:27:59Z"
                 }
               },
               {
@@ -25643,7 +25643,16 @@
                 "platform": "windows",
                 "description": "WireGuard is a fast, modern VPN that uses state-of-the-art cryptography.",
                 "version": "1.1.1",
-                "installerUrl": "https://download.wireguard.com/windows-client/wireguard-amd64-1.1.1.msi"
+                "installerUrl": "https://download.wireguard.com/windows-client/wireguard-amd64-1.1.1.msi",
+                "securityInfo": {
+                  "sha256": "04c71fb1a555a6ace40d3ae9113c90c4829d7ca1d6c903fd20a8d41a0e2bef94",
+                  "publisher": "CN=WireGuard LLC, O=WireGuard LLC, S=Colorado, C=US, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Ohio, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=4227913",
+                  "issuer": "CN=Sectigo Public Code Signing CA EV R36, O=Sectigo Limited, C=GB",
+                  "serialNumber": "2689297A49C7D9E53E32D3D48F069483",
+                  "thumbprint": "1B3AFA5E2A76BB51F00020002DCCADB165689C33",
+                  "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
+                  "lastUpdated": "2026-11-02T07:28:10Z"
+                }
               },
               {
                 "name": "Wireshark",
@@ -28249,7 +28258,7 @@
             // Set last updated timestamp
             const modalLastUpdated = document.getElementById('modalLastUpdated');
             if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + `November 2, 2026 at 1:23 AM CST`;
+                let timestampText = 'Last updated: ' + `November 2, 2026 at 1:30 AM CST`;
                 
                 // If app has security info with lastUpdated, use that instead
                 if (app.securityInfo && app.securityInfo.lastUpdated) {
