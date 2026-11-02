@@ -2,42 +2,6 @@
   "changes": [
     {
       "date": "2026-10-20T19:03:05Z",
-      "appName": "Mozilla Firefox Nightly (ARM64)",
-      "slug": "firefox@nightly-arm64/windows",
-      "platform": "windows",
-      "oldVersion": "160.2610.1516.0",
-      "newVersion": "160.2610.1809.0",
-      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/10/2026-10-18-09-43-10-mozilla-central/firefox-160.0a1.multi.win64-aarch64.installer.msix"
-    },
-    {
-      "date": "2026-10-20T19:03:05Z",
-      "appName": "Teleport Suite",
-      "slug": "teleport-suite/darwin",
-      "platform": "darwin",
-      "oldVersion": "18.11.4",
-      "newVersion": "18.11.6",
-      "installerUrl": "https://cdn.teleport.dev/teleport-18.11.6.pkg"
-    },
-    {
-      "date": "2026-10-20T19:03:05Z",
-      "appName": "Ollama",
-      "slug": "ollama/windows",
-      "platform": "windows",
-      "oldVersion": "0.40.5",
-      "newVersion": "0.40.6",
-      "installerUrl": "https://github.com/ollama/ollama/releases/download/v0.40.6/OllamaSetup.exe"
-    },
-    {
-      "date": "2026-10-20T19:03:05Z",
-      "appName": "Docker Desktop",
-      "slug": "docker-desktop/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.95.0",
-      "newVersion": "4.96.0",
-      "installerUrl": "https://desktop.docker.com/mac/main/arm64/243774/Docker.dmg"
-    },
-    {
-      "date": "2026-10-20T19:03:05Z",
       "appName": "Zed",
       "slug": "zed/darwin",
       "platform": "darwin",
@@ -8999,6 +8963,42 @@
       "oldVersion": "3.0.9",
       "newVersion": "3.1.0",
       "installerUrl": "https://proton.me/download/drive/windows/3.1.0/x64/Proton%20Drive%20Setup%203.1.0.exe"
+    },
+    {
+      "date": "2026-11-02T07:23:32Z",
+      "appName": "Sublime Text",
+      "slug": "sublime-text/windows",
+      "platform": "windows",
+      "oldVersion": "4.0.0.421500",
+      "newVersion": "4.2.1.5",
+      "installerUrl": "https://download.sublimetext.com/sublime_text_build_4215_x64_setup.exe"
+    },
+    {
+      "date": "2026-11-02T07:23:32Z",
+      "appName": "WireGuard",
+      "slug": "wireguard/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "1.1.1",
+      "installerUrl": "https://download.wireguard.com/windows-client/wireguard-amd64-1.1.1.msi"
+    },
+    {
+      "date": "2026-11-02T07:23:32Z",
+      "appName": "MEGAsync",
+      "slug": "megasync/darwin",
+      "platform": "darwin",
+      "oldVersion": "6.7.0.3",
+      "newVersion": "6.7.0",
+      "installerUrl": "https://mega.nz/MEGAsyncSetupArm64.dmg"
+    },
+    {
+      "date": "2026-11-02T07:23:32Z",
+      "appName": "cmux",
+      "slug": "cmux/darwin",
+      "platform": "darwin",
+      "oldVersion": "0.65.2.2",
+      "newVersion": "0.65.2",
+      "installerUrl": "https://github.com/manaflow-ai/cmux/releases/download/v0.65.2.2/cmux-macos.dmg"
     }
   ]
 }
