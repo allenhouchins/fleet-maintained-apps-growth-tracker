@@ -1,132 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-10-26T21:29:41Z",
-      "appName": "Figma",
-      "slug": "figma/windows",
-      "platform": "windows",
-      "oldVersion": "126.10.10",
-      "newVersion": "126.10.13",
-      "installerUrl": "https://desktop.figma.com/win/build/Figma-126.10.13.exe"
-    },
-    {
-      "date": "2026-10-26T21:29:41Z",
-      "appName": "Mozilla Firefox Nightly",
-      "slug": "firefox@nightly/windows",
-      "platform": "windows",
-      "oldVersion": "161.2610.2421.0",
-      "newVersion": "161.2610.2609.0",
-      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/10/2026-10-26-09-18-49-mozilla-central/firefox-161.0a1.multi.win64.installer.msix"
-    },
-    {
-      "date": "2026-10-26T21:29:41Z",
-      "appName": "Docker Desktop",
-      "slug": "docker-desktop/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.96.3",
-      "newVersion": "4.97.0",
-      "installerUrl": "https://desktop.docker.com/mac/main/arm64/244584/Docker.dmg"
-    },
-    {
-      "date": "2026-10-26T21:29:41Z",
-      "appName": "CleanShot X",
-      "slug": "cleanshot/darwin",
-      "platform": "darwin",
-      "oldVersion": "5.0.1",
-      "newVersion": "5.0.2",
-      "installerUrl": "https://updates.getcleanshot.com/v3/CleanShot-X-5.0.2.dmg"
-    },
-    {
-      "date": "2026-10-26T21:29:41Z",
-      "appName": "Burp Suite Community Edition",
-      "slug": "burp-suite/darwin",
-      "platform": "darwin",
-      "oldVersion": "2026.9.2",
-      "newVersion": "2026.9.3",
-      "installerUrl": "https://portswigger-cdn.net/burp/releases/download?product=desktop\u0026version=2026.9.3\u0026type=MacOsArm64"
-    },
-    {
-      "date": "2026-10-26T21:29:41Z",
-      "appName": "Figma",
-      "slug": "figma/darwin",
-      "platform": "darwin",
-      "oldVersion": "126.9.16",
-      "newVersion": "126.10.13",
-      "installerUrl": "https://desktop.figma.com/mac-arm/Figma-126.10.13.zip"
-    },
-    {
-      "date": "2026-10-27T07:27:10Z",
-      "appName": "GitHub Desktop",
-      "slug": "github-desktop/windows",
-      "platform": "windows",
-      "oldVersion": "3.6.9",
-      "newVersion": "3.6.10",
-      "installerUrl": "https://desktop.githubusercontent.com/releases/3.6.10-ffeefe5d/GitHubDesktopSetup-x64.exe"
-    },
-    {
-      "date": "2026-10-27T07:27:10Z",
-      "appName": "CodexBar",
-      "slug": "codexbar/darwin",
-      "platform": "darwin",
-      "oldVersion": "0.81.0",
-      "newVersion": "0.82.0",
-      "installerUrl": "https://github.com/steipete/CodexBar/releases/download/v0.82.0/CodexBar-macos-universal-0.82.0.zip"
-    },
-    {
-      "date": "2026-10-27T07:27:10Z",
-      "appName": "Grammarly Desktop",
-      "slug": "grammarly-desktop/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.203.0",
-      "newVersion": "1.204.1",
-      "installerUrl": "https://download-mac.grammarly.com/versions/1.204.1.0/Grammarly.dmg"
-    },
-    {
-      "date": "2026-10-27T07:27:10Z",
-      "appName": "DuckDuckGo",
-      "slug": "duckduckgo/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.212.0",
-      "newVersion": "1.213.0",
-      "installerUrl": "https://staticcdn.duckduckgo.com/macos-desktop-browser/duckduckgo-1.213.0.859.dmg"
-    },
-    {
-      "date": "2026-10-27T07:27:10Z",
-      "appName": "Microsoft OneNote",
-      "slug": "microsoft-onenote/darwin",
-      "platform": "darwin",
-      "oldVersion": "16.114.1",
-      "newVersion": "16.114.2",
-      "installerUrl": "https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.114.26102345_Updater.pkg"
-    },
-    {
-      "date": "2026-10-27T07:27:10Z",
-      "appName": "VNC Server",
-      "slug": "vnc-server/windows",
-      "platform": "windows",
-      "oldVersion": "7.18.0.14",
-      "newVersion": "7.18.1.23",
-      "installerUrl": "https://downloads.realvnc.com/download/file/vnc.files/VNC-Server-7.18.1-Windows-msi.zip"
-    },
-    {
-      "date": "2026-10-27T07:27:10Z",
-      "appName": "Kiro CLI",
-      "slug": "kiro-cli/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.34.0",
-      "newVersion": "2.34.1",
-      "installerUrl": "https://desktop-release.q.us-east-1.amazonaws.com/2.34.1/Kiro%20CLI.dmg"
-    },
-    {
-      "date": "2026-10-27T07:27:10Z",
-      "appName": "AWS Command Line Interface v2",
-      "slug": "aws-cli/windows",
-      "platform": "windows",
-      "oldVersion": "2.38.5",
-      "newVersion": "2.38.6",
-      "installerUrl": "https://awscli.amazonaws.com/AWSCLIV2-2.38.6.msi"
-    },
-    {
       "date": "2026-10-27T07:27:10Z",
       "appName": "Discord",
       "slug": "discord/windows",
@@ -8999,6 +8873,132 @@
       "oldVersion": "3.22.1",
       "newVersion": "3.22.2",
       "installerUrl": "https://www.ocenaudio.com/downloads/index.php/ocenaudio_windows64.exe"
+    },
+    {
+      "date": "2026-11-09T09:20:08Z",
+      "appName": "Multitouch",
+      "slug": "multitouch/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.0.4",
+      "newVersion": "2.0.5",
+      "installerUrl": "https://multitouch.app/downloads/multitouch2.0.5.dmg"
+    },
+    {
+      "date": "2026-11-09T09:20:08Z",
+      "appName": "Graphviz",
+      "slug": "graphviz/windows",
+      "platform": "windows",
+      "oldVersion": "16.1.0",
+      "newVersion": "16.1.1",
+      "installerUrl": "https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/16.1.1/windows_10_cmake_Release_graphviz-install-16.1.1-win64.exe"
+    },
+    {
+      "date": "2026-11-09T09:20:08Z",
+      "appName": "Sublime Merge",
+      "slug": "sublime-merge/darwin",
+      "platform": "darwin",
+      "oldVersion": "Build 2132",
+      "newVersion": "Build 2136",
+      "installerUrl": "https://download.sublimetext.com/sublime_merge_build_2136_mac.zip"
+    },
+    {
+      "date": "2026-11-09T09:20:08Z",
+      "appName": "DockDoor",
+      "slug": "dockdoor/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.42.2",
+      "newVersion": "1.42.4",
+      "installerUrl": "https://github.com/ejbills/DockDoor/releases/download/1.42.4/DockDoor.dmg"
+    },
+    {
+      "date": "2026-11-09T09:20:08Z",
+      "appName": "Dropshare",
+      "slug": "dropshare/darwin",
+      "platform": "darwin",
+      "oldVersion": "6.15",
+      "newVersion": "6.16",
+      "installerUrl": "https://d2wvuuix8c9e48.cloudfront.net/Dropshare6-6286.app.zip"
+    },
+    {
+      "date": "2026-11-09T09:20:08Z",
+      "appName": "Xnapper",
+      "slug": "xnapper/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.17.1",
+      "newVersion": "1.18.1",
+      "installerUrl": "https://xnapper.com/dmg/Xnapper-1.18.1-71.dmg"
+    },
+    {
+      "date": "2026-11-09T09:20:08Z",
+      "appName": "Electrum",
+      "slug": "electrum/darwin",
+      "platform": "darwin",
+      "oldVersion": "4.8.3",
+      "newVersion": "4.8.4",
+      "installerUrl": "https://download.electrum.org/4.8.4/electrum-4.8.4.dmg"
+    },
+    {
+      "date": "2026-11-09T09:20:08Z",
+      "appName": "Modern CSV",
+      "slug": "modern-csv/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.4.4",
+      "newVersion": "2.4.5",
+      "installerUrl": "https://www.moderncsv.com/release/ModernCSV-Mac-v2.4.5.dmg"
+    },
+    {
+      "date": "2026-11-09T09:20:08Z",
+      "appName": "Simple Comic",
+      "slug": "simple-comic/darwin",
+      "platform": "darwin",
+      "oldVersion": "1.9.9",
+      "newVersion": "1.11.0",
+      "installerUrl": "https://github.com/MaddTheSane/Simple-Comic/releases/download/App-Store-1.11.0/Simple.Comic.1.11.0.zip"
+    },
+    {
+      "date": "2026-11-09T09:20:08Z",
+      "appName": "Marked",
+      "slug": "marked-app/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.2.30",
+      "newVersion": "3.2.31",
+      "installerUrl": "https://updates.markedapp.com/updates/Marked%203.2.31-1251.zip"
+    },
+    {
+      "date": "2026-11-09T09:20:08Z",
+      "appName": "Termius",
+      "slug": "termius/darwin",
+      "platform": "darwin",
+      "oldVersion": "10.4.0",
+      "newVersion": "10.4.1",
+      "installerUrl": "https://autoupdate.termius.com/mac-arm64/Termius.dmg"
+    },
+    {
+      "date": "2026-11-09T09:20:08Z",
+      "appName": "ChatGPT Desktop",
+      "slug": "chatgpt/darwin",
+      "platform": "darwin",
+      "oldVersion": "26.1103.41825",
+      "newVersion": "26.1103.60933",
+      "installerUrl": "https://persistent.oaistatic.com/codex-app-prod/ChatGPT-darwin-arm64-26.1103.60933.zip"
+    },
+    {
+      "date": "2026-11-09T09:20:08Z",
+      "appName": "Termius",
+      "slug": "termius/windows",
+      "platform": "windows",
+      "oldVersion": "10.4.0",
+      "newVersion": "10.4.1",
+      "installerUrl": "https://autoupdate.termius.com/windows/Install%20Termius.exe"
+    },
+    {
+      "date": "2026-11-09T09:20:08Z",
+      "appName": "Devin Desktop",
+      "slug": "devin-desktop/darwin",
+      "platform": "darwin",
+      "oldVersion": "3.12.28",
+      "newVersion": "3.12.32",
+      "installerUrl": "https://windsurf-stable.codeiumdata.com/darwin-arm64-dmg/stable/1126aba4a596c3bb4c3a3b10f472e10448be1fd8/Devin-darwin-arm64-3.12.32.dmg"
     }
   ]
 }
