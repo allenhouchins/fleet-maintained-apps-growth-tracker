@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-10T12:18:32Z",
+  "lastUpdated": "2026-11-10T20:19:29Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -3127,7 +3127,7 @@
       "slug": "evernote/darwin",
       "name": "Evernote",
       "platform": "darwin",
-      "version": "11.41.9",
+      "version": "11.42.3",
       "installerUrl": "https://mac.desktop.evernote.com/builds/Evernote-latest.dmg"
     },
     {
@@ -6502,7 +6502,7 @@
       "name": "Paint.NET",
       "platform": "windows",
       "version": "5.1.12",
-      "installerUrl": "https://github.com/paintdotnet/release/releases/download/v5.1.12/paint.net.5.1.12.install.x64.zip"
+      "installerUrl": "https://github.com/paintdotnet/release/releases/download/v5.1.12/paint.net.5.1.12.winmsi.x64.zip"
     },
     {
       "slug": "pale-moon/darwin",
@@ -7282,6 +7282,13 @@
       "installerUrl": "https://desktop.read.ai/installers/darwin/aarch64/1.45.1/Read+AI_1.45.1_aarch64.dmg"
     },
     {
+      "slug": "read-ai/windows",
+      "name": "Read AI",
+      "platform": "windows",
+      "version": "1.45.1",
+      "installerUrl": "https://desktop.read.ai/updates/windows/x86_64/1.45.1/Read%20AI_1.45.1_x64-setup.exe"
+    },
+    {
       "slug": "readest/darwin",
       "name": "Readest",
       "platform": "darwin",
@@ -8029,6 +8036,13 @@
       "platform": "darwin",
       "version": "5.2.1",
       "installerUrl": "https://github.com/sonic-visualiser/sonic-visualiser/releases/download/sv_v5.2.1/Sonic.Visualiser.5.2.1.dmg"
+    },
+    {
+      "slug": "sonicwall-global-vpn-client/windows",
+      "name": "SonicWall Global VPN Client",
+      "platform": "windows",
+      "version": "5.0.0.2008",
+      "installerUrl": "https://software.sonicwall.com/GlobalVPNClient/GVCSetup-x64_5.0.0.2008.exe"
     },
     {
       "slug": "sonicwall-netextender/windows",

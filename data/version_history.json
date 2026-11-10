@@ -1,33 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-10-27T07:27:10Z",
-      "appName": "Grok Bot",
-      "slug": "grok-bot/windows",
-      "platform": "windows",
-      "oldVersion": "0.75.8",
-      "newVersion": "0.77.0",
-      "installerUrl": "https://downloads.cursor.com/grokbot/stable/win32-x64/0.77.0/Grok_Bot_0.77.0_Setup.exe"
-    },
-    {
-      "date": "2026-10-27T07:27:10Z",
-      "appName": "Standard Notes",
-      "slug": "standard-notes/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.202.10",
-      "newVersion": "3.202.11",
-      "installerUrl": "https://github.com/standardnotes/app/releases/download/%40standardnotes%2Fdesktop%403.202.11/standard-notes-3.202.11-mac-arm64.zip"
-    },
-    {
-      "date": "2026-10-27T07:27:10Z",
-      "appName": "Microsoft Edge",
-      "slug": "microsoft-edge/darwin",
-      "platform": "darwin",
-      "oldVersion": "156.0.4314.42",
-      "newVersion": "156.0.4314.50",
-      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/334669ab-f520-4e6d-bee8-3b5353699b27/MicrosoftEdge-156.0.4314.50.dmg"
-    },
-    {
       "date": "2026-10-27T19:54:18Z",
       "appName": "Microsoft Excel",
       "slug": "microsoft-excel/darwin",
@@ -8999,6 +8972,33 @@
       "oldVersion": "1.9.3",
       "newVersion": "1.10.0",
       "installerUrl": "https://shottr.cc/dl/Shottr-1.10.0.dmg"
+    },
+    {
+      "date": "2026-11-10T20:19:29Z",
+      "appName": "SonicWall Global VPN Client",
+      "slug": "sonicwall-global-vpn-client/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "5.0.0.2008",
+      "installerUrl": "https://software.sonicwall.com/GlobalVPNClient/GVCSetup-x64_5.0.0.2008.exe"
+    },
+    {
+      "date": "2026-11-10T20:19:29Z",
+      "appName": "Read AI",
+      "slug": "read-ai/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "1.45.1",
+      "installerUrl": "https://desktop.read.ai/updates/windows/x86_64/1.45.1/Read%20AI_1.45.1_x64-setup.exe"
+    },
+    {
+      "date": "2026-11-10T20:19:29Z",
+      "appName": "Evernote",
+      "slug": "evernote/darwin",
+      "platform": "darwin",
+      "oldVersion": "11.41.9",
+      "newVersion": "11.42.3",
+      "installerUrl": "https://mac.desktop.evernote.com/builds/Evernote-latest.dmg"
     }
   ]
 }
