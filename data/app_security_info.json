@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-12T22:22:51Z",
+  "lastUpdated": "2026-11-12T22:25:55Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -2470,6 +2470,18 @@
       "lastUpdated": "2026-09-19T03:48:21Z"
     },
     {
+      "slug": "claude-arm64/windows",
+      "name": "Claude (ARM64)",
+      "version": "2.42304.2",
+      "sha256": "89c7c210767ba4868caec89573d904ce0acf5b1762e28532628b9fc87b43003b",
+      "publisher": "CN=\"Anthropic, PBC\", O=\"Anthropic, PBC\", L=San Francisco, S=California, C=US, SERIALNUMBER=4860621, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "041E6EC51F56103427278E202EC875B8",
+      "thumbprint": "60C2D9C51F09822FFF4F194DE9EEDB67451292D1",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-11-12T22:24:06Z"
+    },
+    {
       "slug": "claude-devtools/darwin",
       "name": "Claude DevTools",
       "version": "0.5.0",
@@ -3124,6 +3136,18 @@
       "thumbprint": "28486B1D183CB7AB00AC02E382B5863EC5AD450F",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-07-08T20:33:37Z"
+    },
+    {
+      "slug": "cursor-arm64/windows",
+      "name": "Cursor (ARM64)",
+      "version": "3.20.14",
+      "sha256": "ad5c0a02971a7b61b85cc1df4d1e314e93b928a9924ddfe94b0bd83695ec1bd2",
+      "publisher": "CN=\"Anysphere, Inc.\", O=\"Anysphere, Inc.\", L=San Francisco, S=California, C=US",
+      "issuer": "CN=Microsoft ID Verified CS EOC CA 03, O=Microsoft Corporation, C=US",
+      "serialNumber": "330005DC6326231D39063225B800000005DC63",
+      "thumbprint": "F00662D6B3A0A5780F654F121E54C8E28FBCD3AB",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7D00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-11-12T22:24:19Z"
     },
     {
       "slug": "cursor/darwin",
@@ -3891,6 +3915,18 @@
       "signingId": "2Q775S63Q3:com.ethanbills.DockDoor",
       "teamId": "2Q775S63Q3",
       "lastUpdated": "2026-11-09T09:22:21Z"
+    },
+    {
+      "slug": "docker-arm64/windows",
+      "name": "Docker Desktop (ARM64)",
+      "version": "4.97.0",
+      "sha256": "91d18626e6c297bebc9fadb73451844b7cb3300b38161aabba1aa44d87e8c40e",
+      "publisher": "CN=Docker Inc, O=Docker Inc, L=Palo Alto, S=California, C=US, SERIALNUMBER=4817464, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0DCE683683AE70C7C647ADDB7E609A9A",
+      "thumbprint": "B6BD29272B07AD4D0F1322A739499D67CA3BAC3F",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-11-12T22:24:35Z"
     },
     {
       "slug": "docker-desktop/darwin",
@@ -4953,6 +4989,18 @@
       "lastUpdated": "2026-06-11T21:53:48Z"
     },
     {
+      "slug": "firefox-arm64/windows",
+      "name": "Mozilla Firefox (ARM64)",
+      "version": "157.0.1",
+      "sha256": "fc86cd7e73b68e876770852bf4741b046441069ad57cee88626311cad12a7206",
+      "publisher": "CN=Mozilla Corporation, OU=Firefox Engineering Operations, O=Mozilla Corporation, L=San Francisco, S=California, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0F0EF7C2D819273E8C13F016D2E09B25",
+      "thumbprint": "6663D5C4FDAF9EFD5F823A26C9C410DC9928C44A",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-11-12T22:24:39Z"
+    },
+    {
       "slug": "firefox/darwin",
       "name": "Mozilla Firefox",
       "version": "160.0",
@@ -5007,6 +5055,18 @@
       "thumbprint": "6663D5C4FDAF9EFD5F823A26C9C410DC9928C44A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-11-11T17:54:44Z"
+    },
+    {
+      "slug": "firefox@esr-arm64/windows",
+      "name": "Mozilla Firefox ESR (ARM64)",
+      "version": "153.4.0",
+      "sha256": "421930013443469e78b3302c380f3d7bceddb947f24e2aff111d84d9816489a4",
+      "publisher": "CN=Mozilla Corporation, OU=Firefox Engineering Operations, O=Mozilla Corporation, L=San Francisco, S=California, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0F0EF7C2D819273E8C13F016D2E09B25",
+      "thumbprint": "6663D5C4FDAF9EFD5F823A26C9C410DC9928C44A",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-11-12T22:24:43Z"
     },
     {
       "slug": "firefox@esr/darwin",
@@ -5539,6 +5599,18 @@
       "lastUpdated": "2026-11-04T09:16:46Z"
     },
     {
+      "slug": "git-arm64/windows",
+      "name": "Git (ARM64)",
+      "version": "2.56.0.3",
+      "sha256": "53cfe6358a1f0573c8c777c9ad71151df8f29986759c689c7b8a5cbb84cca495",
+      "publisher": "CN=Johannes Schindelin, O=Johannes Schindelin, L=Bruehl, C=DE",
+      "issuer": "CN=Microsoft ID Verified CS EOC CA 03, O=Microsoft Corporation, C=US",
+      "serialNumber": "330008D100BFB38F903F8F186E00000008D100",
+      "thumbprint": "5717D1E8F6A8FAD176E54F3C04A271AA45BA2D05",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7D00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-11-12T22:24:46Z"
+    },
+    {
       "slug": "git-extensions/windows",
       "name": "Git Extensions",
       "version": "7.2.1.7",
@@ -5586,6 +5658,18 @@
       "signingId": "VEKTX9H2N7:com.github.CopilotForXcode",
       "teamId": "VEKTX9H2N7",
       "lastUpdated": "2026-08-12T16:17:09Z"
+    },
+    {
+      "slug": "github-desktop-arm64/windows",
+      "name": "GitHub Desktop (ARM64)",
+      "version": "3.6.10",
+      "sha256": "1f83a4c4623b9e7cd4634fee4be47684d7ce67c66b7fca36293eac6f74bd4eaa",
+      "publisher": "CN=\"GitHub, Inc.\", O=\"GitHub, Inc.\", L=San Francisco, S=California, C=US",
+      "issuer": "CN=Microsoft ID Verified CS EOC CA 04, O=Microsoft Corporation, C=US",
+      "serialNumber": "3300092ED7F62DD10A59FD1C0A000000092ED7",
+      "thumbprint": "9DE29F56BFA845BC5E7E666039A14052DB17F2FD",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7800-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-11-12T22:24:55Z"
     },
     {
       "slug": "github-desktop/windows",
@@ -5794,6 +5878,18 @@
       "thumbprint": "607A3EDAA64933E94422FC8F0C80388E0590986C",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-11-11T17:56:20Z"
+    },
+    {
+      "slug": "google-chrome-arm64/windows",
+      "name": "Google Chrome (ARM64)",
+      "version": "156.0.8078.48",
+      "sha256": "67edcdaae7019a78e160cc653be39d73e508e33e22f1051f9b88457cabdb83f4",
+      "publisher": "CN=Google LLC, O=Google LLC, L=Mountain View, S=California, C=US, SERIALNUMBER=3582691, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0B50CF246B263EFD85A729315158F3FF",
+      "thumbprint": "607A3EDAA64933E94422FC8F0C80388E0590986C",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-11-12T22:25:06Z"
     },
     {
       "slug": "google-chrome/darwin",
@@ -6699,6 +6795,18 @@
       "signingId": "MN8FVBVLCH:app.mightymac.IntelliDock",
       "teamId": "MN8FVBVLCH",
       "lastUpdated": "2026-06-11T03:21:19Z"
+    },
+    {
+      "slug": "intellij-idea-arm64/windows",
+      "name": "IntelliJ IDEA (ARM64)",
+      "version": "2026.2.3",
+      "sha256": "e1f9033d0cad3e193739e4681e5167d134a52aeb8abe695782a72cbe1f3bff9f",
+      "publisher": "CN=JetBrains s.r.o., O=JetBrains s.r.o., L=Prague, C=CZ, SERIALNUMBER=26502275, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CZ",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing Europe RSA4096 SHA384 2023 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "083EA13884BDFFCE8E5D9D5CAD2EFBDE",
+      "thumbprint": "8C1B506D0BD10A911D09FB7EDBCAB383F1CDAF20",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-11-12T22:25:55Z"
     },
     {
       "slug": "intellij-idea/darwin",
