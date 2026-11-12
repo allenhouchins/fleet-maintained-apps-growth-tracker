@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-12T06:49:27Z",
+  "lastUpdated": "2026-11-12T06:52:44Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1263,9 +1263,9 @@
     {
       "slug": "aws-sam-cli/windows",
       "name": "AWS SAM Command Line Interface",
-      "version": "1.171.0",
-      "sha256": "3ccf9e5c14465397d1a2a48eae46bb8e2ea2ced77ad6fd33ebe4519f6f44885a",
-      "lastUpdated": "2026-10-31T07:16:28Z"
+      "version": "1.172.1",
+      "sha256": "ec99023bd6bc4f4a6e37dab422be8f68f2ce1f69304fe09614ffe04c69f52bf4",
+      "lastUpdated": "2026-11-12T06:50:38Z"
     },
     {
       "slug": "aws-session-manager-plugin/windows",
@@ -2305,6 +2305,18 @@
       "signingId": "2DC432GLL2:com.openai.codex",
       "teamId": "2DC432GLL2",
       "lastUpdated": "2026-11-11T17:12:54Z"
+    },
+    {
+      "slug": "chatgpt/windows",
+      "name": "ChatGPT Desktop",
+      "version": "26.1106.6628.0",
+      "sha256": "785189c1960a47db3c241b9bb84c4a4979c26b79329af5c0019afb016f1e56a3",
+      "publisher": "CN=50BDFD77-8903-4850-9FFE-6E8522F64D5B",
+      "issuer": "CN=Microsoft Marketplace CA G 023, OU=AOC, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "serialNumber": "33005C08EAAB4C5623D61025470001005C08EA",
+      "thumbprint": "B540297F408CFFB17583175B3A13CAC6B02EA8F2",
+      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:A000-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-11-12T06:51:10Z"
     },
     {
       "slug": "chatwise/darwin",
@@ -3638,14 +3650,14 @@
     {
       "slug": "devolutions-launcher/windows",
       "name": "Devolutions Launcher",
-      "version": "2026.3.17.0",
-      "sha256": "af84e1c121555d90d6bb676d7cecd8197d78ba84148464bcd09e1a9a81c0d8ea",
+      "version": "2026.3.18.0",
+      "sha256": "c89a44e74bb21fdaf55de2dd395de8e19409fc1952c3e1dbe23ac0d259d97115",
       "publisher": "E=security@devolutions.net, CN=DEVOLUTIONS INC., O=DEVOLUTIONS INC., L=Lavaltrie, S=Quebec, C=CA, OID.1.3.6.1.4.1.311.60.2.1.2=Quebec, OID.1.3.6.1.4.1.311.60.2.1.3=CA, SERIALNUMBER=1162544689, OID.2.5.4.15=Private Organization",
       "issuer": "CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
       "serialNumber": "4C164231EB357E1F8FC24528",
       "thumbprint": "50F753333811FF11F1920274AFDE3FFD4468B210",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-11-05T20:18:37Z"
+      "lastUpdated": "2026-11-12T06:51:49Z"
     },
     {
       "slug": "devolutions-workspace/windows",
@@ -4795,14 +4807,14 @@
     {
       "slug": "fellow/windows",
       "name": "Fellow",
-      "version": "5.7.25",
-      "sha256": "23922691eb468020f8c0bc0fb28cd8ccf2876b1bc310f97204fd1494e4def88b",
+      "version": "5.7.26",
+      "sha256": "e2ecee9cfc457d471ab4266e623eacb263a1defc8634ec595451dc4a984a58e8",
       "publisher": "CN=Fellow.ai, O=Fellow.ai, L=Ottawa, S=Ontario, C=CA",
       "issuer": "CN=Microsoft ID Verified CS AOC CA 04, O=Microsoft Corporation, C=US",
-      "serialNumber": "33000A573D81E296F4FB457C5F0000000A573D",
-      "thumbprint": "76400D563E8EA4A6F590056FCD249AB49B965147",
-      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7D00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-11-04T09:16:39Z"
+      "serialNumber": "33000B9D03956A0C09D119AEB10000000B9D03",
+      "thumbprint": "250D9A5E81CDC7DEC203E3B36507349E23778201",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:A500-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-11-12T06:51:58Z"
     },
     {
       "slug": "ferdium/darwin",
@@ -5009,14 +5021,14 @@
     {
       "slug": "firefox@nightly-arm64/windows",
       "name": "Mozilla Firefox Nightly (ARM64)",
-      "version": "162.2611.909.0",
-      "sha256": "9cbadc0bed1656a4f7d5639fcc5bdbdff3b9336fa3ca2cf9850f68900057f6d3",
+      "version": "162.2611.1021.0",
+      "sha256": "e4c158b69065445d3b0360f99200cfac9f903208fc56cd0cbd13d3b6eb95f258",
       "publisher": "CN=Mozilla Corporation, OU=Firefox Engineering Operations, O=Mozilla Corporation, L=San Francisco, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0F0EF7C2D819273E8C13F016D2E09B25",
       "thumbprint": "6663D5C4FDAF9EFD5F823A26C9C410DC9928C44A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-11-11T17:54:50Z"
+      "lastUpdated": "2026-11-12T06:52:05Z"
     },
     {
       "slug": "firefox@nightly/darwin",
@@ -5031,14 +5043,14 @@
     {
       "slug": "firefox@nightly/windows",
       "name": "Mozilla Firefox Nightly",
-      "version": "162.2611.909.0",
-      "sha256": "8c6e6a60ee07c94714ae08ce16ca175ddca79fb7e31fa74d87d0ac833b7e4f6b",
+      "version": "162.2611.1021.0",
+      "sha256": "024f21fc14a2cdf69276cef6a47fa2e212894267733a10c38accc7981163e633",
       "publisher": "CN=Mozilla Corporation, OU=Firefox Engineering Operations, O=Mozilla Corporation, L=San Francisco, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0F0EF7C2D819273E8C13F016D2E09B25",
       "thumbprint": "6663D5C4FDAF9EFD5F823A26C9C410DC9928C44A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-11-11T17:54:57Z"
+      "lastUpdated": "2026-11-12T06:52:11Z"
     },
     {
       "slug": "fission/darwin",
@@ -5442,13 +5454,13 @@
     {
       "slug": "geogebra-classic/windows",
       "name": "GeoGebra Classic",
-      "version": "6.0.934",
+      "version": "6.0.936",
       "sha256": "eb6eee696a796bfe9aa2665f673844346fe3a7157badb6eaeab138aa73480584",
       "publisher": "CN=Entrust Root Certification Authority, OU=\"(c) 2006 Entrust, Inc.\", OU=www.entrust.net/CPS is incorporated by reference, O=\"Entrust, Inc.\", C=US",
       "issuer": "CN=Entrust Root Certification Authority, OU=\"(c) 2006 Entrust, Inc.\", OU=www.entrust.net/CPS is incorporated by reference, O=\"Entrust, Inc.\", C=US",
       "serialNumber": "456b5054",
       "timestamp": "Cert is a CA certificate",
-      "lastUpdated": "2026-10-28T23:13:44Z"
+      "lastUpdated": "2026-11-12T06:52:34Z"
     },
     {
       "slug": "gephi/darwin",
@@ -5964,14 +5976,14 @@
     {
       "slug": "granola/windows",
       "name": "Granola",
-      "version": "7.774.2",
-      "sha256": "9dbb5044c5b45a299d66de68305fa23dd60b34bc4c139185854d7cba8e61ad23",
+      "version": "7.786.3",
+      "sha256": "aae6ccca4bd7051acb3feacabd16ee708b3262e91f3a19cc2492d92f63c74644",
       "publisher": "CN=Granola Labs Ltd, O=Granola Labs Ltd, L=St. Albans, C=GB",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "09EC2851FE9C25200C0EBA306A0F3B4E",
       "thumbprint": "AECA9FD75FB1BA419EE81D17F667154095817355",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-11-11T10:24:42Z"
+      "lastUpdated": "2026-11-12T06:52:39Z"
     },
     {
       "slug": "graphviz/windows",
@@ -6015,14 +6027,14 @@
     {
       "slug": "grok-bot/windows",
       "name": "Grok Bot",
-      "version": "0.79.4",
-      "sha256": "4e9f9a88768e45232093b179eba1e6a1780f8ada1f84a1a012ae0d9f07773605",
+      "version": "1.0.1",
+      "sha256": "8433bf7a740731e22590b5b1b646dae9105c04dd5e5f399f6fac38dde352fdcb",
       "publisher": "CN=\"Anysphere, Inc.\", O=\"Anysphere, Inc.\", L=San Francisco, S=California, C=US",
-      "issuer": "CN=Microsoft ID Verified CS AOC CA 04, O=Microsoft Corporation, C=US",
-      "serialNumber": "33000B930D2909A958016B50DC0000000B930D",
-      "thumbprint": "6F224BF9EB164979D20DA93E576774B893B9CFF5",
+      "issuer": "CN=Microsoft ID Verified CS AOC CA 03, O=Microsoft Corporation, C=US",
+      "serialNumber": "33000BC5FE973E5294E6A0F1DA0000000BC5FE",
+      "thumbprint": "8786D74DCB776FBB441532E06FB97BA2597E9EAD",
       "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:A500-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-11-11T10:24:46Z"
+      "lastUpdated": "2026-11-12T06:52:44Z"
     },
     {
       "slug": "groove-omnidialer/darwin",
