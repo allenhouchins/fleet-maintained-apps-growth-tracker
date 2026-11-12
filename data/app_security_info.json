@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-12T22:25:55Z",
+  "lastUpdated": "2026-11-12T22:27:57Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -8476,6 +8476,18 @@
       "lastUpdated": "2026-10-03T00:32:08Z"
     },
     {
+      "slug": "microsoft-teams-arm64/windows",
+      "name": "Microsoft Teams (ARM64)",
+      "version": "26225.1806.5074.1452",
+      "sha256": "adb9b50ef9b395a8daf8e730d180871563c51aadbb0a57382b2c6a96a725998e",
+      "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "issuer": "CN=Microsoft Code Signing PCA 2024, O=Microsoft Corporation, C=US",
+      "serialNumber": "3300000201F407D6D8638F8F18000000000201",
+      "thumbprint": "3CD22333087B30CFB9FE44455482F894F623ABD3",
+      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:7F00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-11-12T22:26:24Z"
+    },
+    {
       "slug": "microsoft-teams/darwin",
       "name": "Microsoft Teams",
       "version": "26289.204.5281.6363",
@@ -9208,6 +9220,18 @@
       "thumbprint": "8EB7134F7C9CA91DD413FE735EE3446834A06146",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-11-03T21:56:17Z"
+    },
+    {
+      "slug": "notepad++-arm64/windows",
+      "name": "Notepad++ (ARM64)",
+      "version": "8.9.8.1",
+      "sha256": "a53c5116b55ac93fedd7808e71096badecbf10a55f2be9b28b741591b8917a73",
+      "publisher": "E=don.h@free.fr, CN=\"NOTEPAD++\", O=\"NOTEPAD++\", L=Paris, S=Île-de-France, C=FR",
+      "issuer": "CN=GlobalSign GCC R45 CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
+      "serialNumber": "05F0D813D6A6F004575A2099",
+      "thumbprint": "1E8E0D13B608BA908572C1A129FAEC5D228DF8A2",
+      "timestamp": "CN=Globalsign R45 TSA for CodeSign 202510, O=GlobalSign nv-sa, C=BE",
+      "lastUpdated": "2026-11-12T22:26:26Z"
     },
     {
       "slug": "notepad++/windows",
@@ -10065,6 +10089,18 @@
       "lastUpdated": "2026-06-11T16:29:52Z"
     },
     {
+      "slug": "phpstorm-arm64/windows",
+      "name": "PhpStorm (ARM64)",
+      "version": "2026.2.3",
+      "sha256": "cc815de6433b681409c3c7ecfe09f7e2d12be044a39c807c1b61a3b9989c4da1",
+      "publisher": "CN=JetBrains s.r.o., O=JetBrains s.r.o., L=Prague, C=CZ, SERIALNUMBER=26502275, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CZ",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing Europe RSA4096 SHA384 2023 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "083EA13884BDFFCE8E5D9D5CAD2EFBDE",
+      "thumbprint": "8C1B506D0BD10A911D09FB7EDBCAB383F1CDAF20",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-11-12T22:27:02Z"
+    },
+    {
       "slug": "phpstorm/darwin",
       "name": "PhpStorm",
       "version": "2026.3",
@@ -10427,6 +10463,18 @@
       "lastUpdated": "2026-11-11T09:52:04Z"
     },
     {
+      "slug": "powershell-arm64/windows",
+      "name": "PowerShell (ARM64)",
+      "version": "7.6.9.0",
+      "sha256": "fb1cc9d3b97f6d7236a97f8fff24d74b1df8df51c88f6b064a114fab686be3c9",
+      "publisher": "CN=.NET, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "issuer": "CN=Microsoft Code Signing PCA 2024, O=Microsoft Corporation, C=US",
+      "serialNumber": "33000001C8243AC81E4D9388BB0000000001C8",
+      "thumbprint": "BB793DB742624269BB5F4515BBE9A3DF418F588D",
+      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:7F00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-11-12T22:27:13Z"
+    },
+    {
       "slug": "powershell/windows",
       "name": "PowerShell",
       "version": "7.6.10.0",
@@ -10437,6 +10485,18 @@
       "thumbprint": "BB793DB742624269BB5F4515BBE9A3DF418F588D",
       "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:A400-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
       "lastUpdated": "2026-11-11T10:27:08Z"
+    },
+    {
+      "slug": "powertoys-arm64/windows",
+      "name": "PowerToys (ARM64)",
+      "version": "0.101.2362.0",
+      "sha256": "bee299302c0cd59e282bdc92cc8aaf737713eabcca77bb8bf09f43745d43cd93",
+      "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "issuer": "CN=Microsoft Code Signing PCA 2024, O=Microsoft Corporation, C=US",
+      "serialNumber": "330000021CFACDC59BE82F7EC400000000021C",
+      "thumbprint": "1D77A9B9E8FE2075D9AD15123257FB90DB0DA4A1",
+      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:431A-05E0-D947, OU=Microsoft Ireland Operations Limited, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-11-12T22:27:21Z"
     },
     {
       "slug": "powertoys/windows",
@@ -10764,6 +10824,18 @@
       "lastUpdated": "2026-09-17T17:00:26Z"
     },
     {
+      "slug": "putty-arm64/windows",
+      "name": "PuTTY (ARM64)",
+      "version": "0.85.0.0",
+      "sha256": "3f6615f253a29de0557f270f3c4c7b5b11c46dc1f932f83627f134707a689962",
+      "publisher": "CN=Simon Tatham, O=Simon Tatham, S=Cambridgeshire, C=GB",
+      "issuer": "CN=Sectigo Public Code Signing CA R36, O=Sectigo Limited, C=GB",
+      "serialNumber": "00BE8E1D85C5D2521B6D33379E3B8501A9",
+      "thumbprint": "66C298D018034F29B8EA1D6E90F5497FE305D2E8",
+      "timestamp": "CN=Sectigo Public Time Stamping Signer R37, O=Sectigo Limited, S=Greater London, C=GB",
+      "lastUpdated": "2026-11-12T22:27:26Z"
+    },
+    {
       "slug": "putty/windows",
       "name": "PuTTY",
       "version": "0.85.0.0",
@@ -10818,6 +10890,18 @@
       "thumbprint": "8C1B506D0BD10A911D09FB7EDBCAB383F1CDAF20",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-08-06T04:39:08Z"
+    },
+    {
+      "slug": "python-3.13-arm64/windows",
+      "name": "Python 3.13 (ARM64)",
+      "version": "3.13.15",
+      "sha256": "c252c676087c49e6b94e95a273536b78921c28a5fc9f86d15d25392328247249",
+      "publisher": "CN=Python Software Foundation, O=Python Software Foundation, L=Beaverton, S=Oregon, C=US",
+      "issuer": "CN=Microsoft ID Verified CS EOC CA 04, O=Microsoft Corporation, C=US",
+      "serialNumber": "330003E63E956F0EE84145056A00000003E63E",
+      "thumbprint": "847785B686B2D3879731FA9AA3F1F5D48E85D99E",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7A00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-11-12T22:27:29Z"
     },
     {
       "slug": "python-3.13/windows",
@@ -11984,6 +12068,18 @@
       "signingId": "Q67SW996Z5:com.slab.slab",
       "teamId": "Q67SW996Z5",
       "lastUpdated": "2026-09-19T19:38:00Z"
+    },
+    {
+      "slug": "slack-arm64/windows",
+      "name": "Slack (ARM64)",
+      "version": "4.53.269",
+      "sha256": "16d07ba609a98b4e0f5109bb0152ffc71581a5972e0db57f963933bfa5ea07ce",
+      "publisher": "CN=\"Slack Technologies, LLC\", O=\"Slack Technologies, LLC\", L=San Francisco, S=California, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "029676AE06F73E490D0F396EDB60EFA0",
+      "thumbprint": "0F8E24482418F503354682F36FD6298BFFE6C677",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-11-12T22:27:35Z"
     },
     {
       "slug": "slack/darwin",
@@ -13415,6 +13511,18 @@
       "lastUpdated": "2026-11-11T10:10:02Z"
     },
     {
+      "slug": "tortoisegit-arm64/windows",
+      "name": "TortoiseGit (ARM64)",
+      "version": "2.19.1.0",
+      "sha256": "c79e2a2fb1ae8d36b94208b198d00d1f555ea47872302f72af7371cd07ff40a7",
+      "publisher": "CN=\"Open Source Developer, Sven Strickroth\", O=Open Source Developer, S=Bayern, C=DE",
+      "issuer": "CN=Certum Code Signing 2021 CA, O=Asseco Data Systems S.A., C=PL",
+      "serialNumber": "3669A2825BC16A84A5BE4FD55276CCD9",
+      "thumbprint": "7FC09474A7EEC64B07EB5E965262D7D4A7895508",
+      "timestamp": "CN=Certum Timestamp 2026, O=Asseco Data Systems S.A., C=PL",
+      "lastUpdated": "2026-11-12T22:27:44Z"
+    },
+    {
       "slug": "tortoisegit/windows",
       "name": "TortoiseGit",
       "version": "2.19.1.0",
@@ -13974,6 +14082,18 @@
       "thumbprint": "AB172913A2960A224809EE8A0C371CD47A079B72",
       "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:DC00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
       "lastUpdated": "2026-11-11T10:27:47Z"
+    },
+    {
+      "slug": "visual-studio-code-arm64/windows",
+      "name": "Microsoft Visual Studio Code (ARM64)",
+      "version": "1.142.0",
+      "sha256": "8f72c6cf9bcd88ee899da37096df128dc9a4331f19edb8d2109d19e779624847",
+      "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "issuer": "CN=Microsoft Code Signing PCA 2024, O=Microsoft Corporation, C=US",
+      "serialNumber": "330000021CFACDC59BE82F7EC400000000021C",
+      "thumbprint": "1D77A9B9E8FE2075D9AD15123257FB90DB0DA4A1",
+      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:551A-05E0-D947, OU=Microsoft Ireland Operations Limited, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-11-12T22:27:57Z"
     },
     {
       "slug": "visual-studio-code/darwin",
