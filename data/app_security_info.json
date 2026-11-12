@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-12T22:27:57Z",
+  "lastUpdated": "2026-11-12T22:28:37Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -14160,6 +14160,18 @@
       "lastUpdated": "2026-06-09T17:56:01Z"
     },
     {
+      "slug": "vlc-arm64/windows",
+      "name": "VLC media player (ARM64)",
+      "version": "3.0.24",
+      "sha256": "2d1bad478e563258b60ad90ade6d61e8551bb59d6f2b28eec724eb7e1b917c6f",
+      "publisher": "CN=VideoLAN, O=VideoLAN, L=Paris, C=FR",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "09D08EBDA06BE07C815EA7AF25EF6875",
+      "thumbprint": "CCF8C4F9272D8A25477AF13EC71F97A3027C7319",
+      "timestamp": "CN=Sectigo Public Time Stamping Signer R37, O=Sectigo Limited, S=Greater London, C=GB",
+      "lastUpdated": "2026-11-12T22:28:10Z"
+    },
+    {
       "slug": "vlc/darwin",
       "name": "VLC media player",
       "version": "3.0.24",
@@ -15082,6 +15094,18 @@
       "signingId": "DCMDDJEW9X:com.linebreak.CloudAppMacOSX",
       "teamId": "DCMDDJEW9X",
       "lastUpdated": "2026-08-22T13:54:22Z"
+    },
+    {
+      "slug": "zoom-arm64/windows",
+      "name": "Zoom (ARM64)",
+      "version": "7.2.48556",
+      "sha256": "fe5d9af3e535dcd6b6516ca8eb0a4dcafe603628c5a0d23992400ffc4585664b",
+      "publisher": "CN=\"Zoom Communications, Inc.\", O=\"Zoom Communications, Inc.\", L=San Jose, S=California, C=US, SERIALNUMBER=4969967, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA256 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0DD5B91ECDF366D1F882490A0D7F92AA",
+      "thumbprint": "59A26A3FD8E7DCC7A9A6227E7F883512ADE97816",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-11-12T22:28:37Z"
     },
     {
       "slug": "zoom-outlook-plugin/windows",
