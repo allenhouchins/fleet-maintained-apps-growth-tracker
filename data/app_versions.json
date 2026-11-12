@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-12T15:51:05Z",
+  "lastUpdated": "2026-11-12T22:09:45Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1171,6 +1171,13 @@
       "installerUrl": "https://download.bleachbit.org/BleachBit-6.0.6-setup.exe"
     },
     {
+      "slug": "blender-arm64/windows",
+      "name": "Blender (ARM64)",
+      "platform": "windows",
+      "version": "5.3.0",
+      "installerUrl": "https://download.blender.org/release/Blender5.3/blender-5.3.0-windows-arm64.msi"
+    },
+    {
       "slug": "blender/darwin",
       "name": "Blender",
       "platform": "darwin",
@@ -1668,6 +1675,13 @@
       "installerUrl": "https://downloadplugins.citrix.com/ReceiverUpdates/Prod/Receiver/Mac/CitrixWorkspaceAppUniversal26.09.0.17.pkg"
     },
     {
+      "slug": "claude-arm64/windows",
+      "name": "Claude (ARM64)",
+      "platform": "windows",
+      "version": "2.42304.2",
+      "installerUrl": "https://downloads.claude.ai/releases/win32/arm64/2.42304.2/Claude-af65c0e384c1657459441aac3083c6e622789afe.msix"
+    },
+    {
       "slug": "claude-devtools/darwin",
       "name": "Claude DevTools",
       "platform": "darwin",
@@ -2100,6 +2114,13 @@
       "platform": "windows",
       "version": "2.6.62",
       "installerUrl": "https://www.datocms-assets.com/75979/1782812533-cubebrowsersetup_x64_2_6_62.exe"
+    },
+    {
+      "slug": "cursor-arm64/windows",
+      "name": "Cursor (ARM64)",
+      "platform": "windows",
+      "version": "3.20.14",
+      "installerUrl": "https://downloads.cursor.com/production/67ac8ff8cc118b1eddcb5f2de564c20cffcae94d/win32/arm64/system-setup/CursorSetup-arm64-3.20.14.exe"
     },
     {
       "slug": "cursor/darwin",
@@ -2618,6 +2639,13 @@
       "platform": "darwin",
       "version": "1.42.4",
       "installerUrl": "https://github.com/ejbills/DockDoor/releases/download/1.42.4/DockDoor.dmg"
+    },
+    {
+      "slug": "docker-arm64/windows",
+      "name": "Docker Desktop (ARM64)",
+      "platform": "windows",
+      "version": "4.97.0",
+      "installerUrl": "https://desktop.docker.com/win/main/arm64/244584/Docker%20Desktop%20Installer.exe"
     },
     {
       "slug": "docker-desktop/darwin",
@@ -3299,6 +3327,13 @@
       "installerUrl": "https://github.com/iotaledger/firefly/releases/download/desktop-shimmer-2.2.2/firefly-shimmer-desktop-2.2.2.dmg"
     },
     {
+      "slug": "firefox-arm64/windows",
+      "name": "Mozilla Firefox (ARM64)",
+      "platform": "windows",
+      "version": "157.0.1",
+      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/157.0.1/win64-aarch64/en-US/Firefox%20Setup%20157.0.1.exe"
+    },
+    {
       "slug": "firefox/darwin",
       "name": "Mozilla Firefox",
       "platform": "darwin",
@@ -3332,6 +3367,13 @@
       "platform": "windows",
       "version": "160.0",
       "installerUrl": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/160.0b3/win64/en-US/Firefox%20Setup%20160.0b3.exe"
+    },
+    {
+      "slug": "firefox@esr-arm64/windows",
+      "name": "Mozilla Firefox ESR (ARM64)",
+      "platform": "windows",
+      "version": "153.4.0",
+      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/153.4.0esr/win64-aarch64/en-US/Firefox%20Setup%20153.4.0esr.exe"
     },
     {
       "slug": "firefox@esr/darwin",
@@ -3691,6 +3733,13 @@
       "installerUrl": "https://download.gimp.org/gimp/v3.2/windows/gimp-3.2.8-setup.exe"
     },
     {
+      "slug": "git-arm64/windows",
+      "name": "Git (ARM64)",
+      "platform": "windows",
+      "version": "2.56.0.3",
+      "installerUrl": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/Git-2.56.0.3-arm64.exe"
+    },
+    {
       "slug": "git-extensions/windows",
       "name": "Git Extensions",
       "platform": "windows",
@@ -3724,6 +3773,13 @@
       "platform": "darwin",
       "version": "0.51.0",
       "installerUrl": "https://githubcopilotide.z13.web.core.windows.net/0.51.0/GitHubCopilotForXcode.dmg"
+    },
+    {
+      "slug": "github-desktop-arm64/windows",
+      "name": "GitHub Desktop (ARM64)",
+      "platform": "windows",
+      "version": "3.6.10",
+      "installerUrl": "https://desktop.githubusercontent.com/releases/3.6.10-ffeefe5d/GitHubDesktopSetup-arm64.exe"
     },
     {
       "slug": "github-desktop/windows",
@@ -3864,6 +3920,13 @@
       "platform": "windows",
       "version": "14.14.2.0",
       "installerUrl": "https://dl.google.com/release2/misc/acdzgkls5qvdc5i7z5req4lcuyea_14.14.2.0/google_ads_editor.msi"
+    },
+    {
+      "slug": "google-chrome-arm64/windows",
+      "name": "Google Chrome (ARM64)",
+      "platform": "windows",
+      "version": "156.0.8078.48",
+      "installerUrl": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise_arm64.msi"
     },
     {
       "slug": "google-chrome/darwin",
@@ -4452,6 +4515,13 @@
       "platform": "darwin",
       "version": "1.0",
       "installerUrl": "https://mightymac.app/intellidock/download/IntelliDock-1.0.dmg"
+    },
+    {
+      "slug": "intellij-idea-arm64/windows",
+      "name": "IntelliJ IDEA (ARM64)",
+      "platform": "windows",
+      "version": "2026.2.3",
+      "installerUrl": "https://download.jetbrains.com/idea/idea-2026.2.3-aarch64.exe"
     },
     {
       "slug": "intellij-idea/darwin",
@@ -5567,6 +5637,13 @@
       "installerUrl": "https://catalog.s.download.windowsupdate.com/c/msdownload/update/software/updt/2026/08/remotehelpinstaller_352585ff62fefee63615d6b743b6567817fff464.exe"
     },
     {
+      "slug": "microsoft-teams-arm64/windows",
+      "name": "Microsoft Teams (ARM64)",
+      "platform": "windows",
+      "version": "26225.1806.5074.1452",
+      "installerUrl": "https://teamsinstaller.public.onecdn.static.microsoft/production-windows-arm64/26225.1806.5074.1452/MSTeams-arm64.msix"
+    },
+    {
       "slug": "microsoft-teams/darwin",
       "name": "Microsoft Teams",
       "platform": "darwin",
@@ -6057,6 +6134,13 @@
       "installerUrl": "https://dy9cqqaswpltd.cloudfront.net/NoSQL%20Workbench-win-3.20.5.exe"
     },
     {
+      "slug": "notepad++-arm64/windows",
+      "name": "Notepad++ (ARM64)",
+      "platform": "windows",
+      "version": "8.9.8.1",
+      "installerUrl": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9.8.1/npp.8.9.8.1.Installer.arm64.exe"
+    },
+    {
       "slug": "notepad++/windows",
       "name": "Notepad++",
       "platform": "windows",
@@ -6172,7 +6256,7 @@
       "slug": "nvidia-geforce-now/darwin",
       "name": "NVIDIA GeForce NOW",
       "platform": "darwin",
-      "version": "2.0.89.154",
+      "version": "2.0.90.126",
       "installerUrl": "https://download.nvidia.com/gfnpc/GeForceNOW-release.dmg"
     },
     {
@@ -6638,6 +6722,13 @@
       "installerUrl": "https://download.devontechnologies.com/download/freeware/photostickies/6.0.1/PhotoStickies.app.zip"
     },
     {
+      "slug": "phpstorm-arm64/windows",
+      "name": "PhpStorm (ARM64)",
+      "platform": "windows",
+      "version": "2026.2.3",
+      "installerUrl": "https://download.jetbrains.com/webide/PhpStorm-2026.2.3-aarch64.exe"
+    },
+    {
       "slug": "phpstorm/darwin",
       "name": "PhpStorm",
       "platform": "darwin",
@@ -6876,11 +6967,25 @@
       "installerUrl": "https://www.fatcatsoftware.com/powerphotos/PowerPhotos.zip"
     },
     {
+      "slug": "powershell-arm64/windows",
+      "name": "PowerShell (ARM64)",
+      "platform": "windows",
+      "version": "7.6.9.0",
+      "installerUrl": "https://github.com/PowerShell/PowerShell/releases/download/v7.6.9/PowerShell-7.6.9-win-arm64.msi"
+    },
+    {
       "slug": "powershell/windows",
       "name": "PowerShell",
       "platform": "windows",
       "version": "7.6.10.0",
       "installerUrl": "https://github.com/PowerShell/PowerShell/releases/download/v7.6.10/PowerShell-7.6.10-win-x64.msi"
+    },
+    {
+      "slug": "powertoys-arm64/windows",
+      "name": "PowerToys (ARM64)",
+      "platform": "windows",
+      "version": "0.101.2362.0",
+      "installerUrl": "https://github.com/microsoft/PowerToys/releases/download/v0.101.2362.0/PowerToysSetup-0.101.2362.0-arm64.exe"
     },
     {
       "slug": "powertoys/windows",
@@ -7100,6 +7205,13 @@
       "installerUrl": "https://dzglif4kkvz04.cloudfront.net/mac-2.0/packages/Production/PureVPN.pkg"
     },
     {
+      "slug": "putty-arm64/windows",
+      "name": "PuTTY (ARM64)",
+      "platform": "windows",
+      "version": "0.85.0.0",
+      "installerUrl": "https://the.earth.li/~sgtatham/putty/0.85/wa64/putty-arm64-0.85-installer.msi"
+    },
+    {
       "slug": "putty/windows",
       "name": "PuTTY",
       "platform": "windows",
@@ -7133,6 +7245,13 @@
       "platform": "windows",
       "version": "2024.3.6.1",
       "installerUrl": "https://download.jetbrains.com/python/pycharm-professional-2024.3.6.1.exe"
+    },
+    {
+      "slug": "python-3.13-arm64/windows",
+      "name": "Python 3.13 (ARM64)",
+      "platform": "windows",
+      "version": "3.13.15",
+      "installerUrl": "https://www.python.org/ftp/python/3.13.15/python-3.13.15-arm64.exe"
     },
     {
       "slug": "python-3.13/windows",
@@ -7924,6 +8043,13 @@
       "platform": "darwin",
       "version": "1.8.0",
       "installerUrl": "https://github.com/slab/desktop-releases/releases/download/v1.8.0/Slab-1.8.0-darwin-arm64.dmg"
+    },
+    {
+      "slug": "slack-arm64/windows",
+      "name": "Slack (ARM64)",
+      "platform": "windows",
+      "version": "4.53.269",
+      "installerUrl": "https://downloads.slack-edge.com/desktop-releases/windows/arm64/4.53.269/Slack.msix"
     },
     {
       "slug": "slack/darwin",
@@ -8871,6 +8997,13 @@
       "installerUrl": "https://www.torproject.org/dist/torbrowser/16.0.1/tor-browser-macos-16.0.1.dmg"
     },
     {
+      "slug": "tortoisegit-arm64/windows",
+      "name": "TortoiseGit (ARM64)",
+      "platform": "windows",
+      "version": "2.19.1.0",
+      "installerUrl": "https://download.tortoisegit.org/tgit/2.19.0.0/TortoiseGit-2.19.1.0-arm64.msi"
+    },
+    {
       "slug": "tortoisegit/windows",
       "name": "TortoiseGit",
       "platform": "windows",
@@ -9249,6 +9382,13 @@
       "installerUrl": "https://download.visualstudio.microsoft.com/download/pr/95995f57-8355-4ff5-8d90-a7e1669fb3b3/dd81a644f921495da99f2bc40279307df0c28e00d748d62685922698132dd4a2/vs_Professional.exe"
     },
     {
+      "slug": "visual-studio-code-arm64/windows",
+      "name": "Microsoft Visual Studio Code (ARM64)",
+      "platform": "windows",
+      "version": "1.142.0",
+      "installerUrl": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/6d62b1d5dace93a33b3a6d3eca1317bd5e15bcb1/VSCodeSetup-arm64-1.142.0.exe"
+    },
+    {
       "slug": "visual-studio-code/darwin",
       "name": "Microsoft Visual Studio Code",
       "platform": "darwin",
@@ -9289,6 +9429,13 @@
       "platform": "darwin",
       "version": "2.3.3",
       "installerUrl": "https://github.com/alienator88/Viz/releases/download/2.3.3/Viz.zip"
+    },
+    {
+      "slug": "vlc-arm64/windows",
+      "name": "VLC media player (ARM64)",
+      "platform": "windows",
+      "version": "3.0.24",
+      "installerUrl": "https://download.videolan.org/pub/videolan/vlc/3.0.24/winarm64/vlc-3.0.24-winarm64.msi"
     },
     {
       "slug": "vlc/darwin",
@@ -9912,6 +10059,13 @@
       "platform": "darwin",
       "version": "8.7.3",
       "installerUrl": "https://downloads.zight.com/mac/Zight-8.7.3.3645.zip"
+    },
+    {
+      "slug": "zoom-arm64/windows",
+      "name": "Zoom (ARM64)",
+      "platform": "windows",
+      "version": "7.2.48556",
+      "installerUrl": "https://zoom.us/client/7.2.1.48556/ZoomInstallerFull.msi?archType=winarm64"
     },
     {
       "slug": "zoom-outlook-plugin/windows",

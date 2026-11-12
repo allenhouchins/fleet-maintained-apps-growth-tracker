@@ -1,213 +1,6 @@
 {
   "changes": [
     {
-      "date": "2026-10-30T20:31:52Z",
-      "appName": "Superset",
-      "slug": "superset/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "2.0.2",
-      "installerUrl": "https://github.com/superset-sh/superset/releases/download/desktop-v2.0.2/Superset-2.0.2-arm64.dmg"
-    },
-    {
-      "date": "2026-10-30T20:31:52Z",
-      "appName": "RealVNC Connect Viewer",
-      "slug": "vnc-viewer/windows",
-      "platform": "windows",
-      "oldVersion": "8.5.0.21",
-      "newVersion": "8.5.3.38",
-      "installerUrl": "https://downloads.realvnc.com/download/file/realvnc-connect-viewer/RealVNC-Connect-Viewer-8.5.3-Windows.msi.zip"
-    },
-    {
-      "date": "2026-10-30T20:31:52Z",
-      "appName": "Dia",
-      "slug": "dia/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "1.55.1",
-      "installerUrl": "https://releases.diabrowser.com/release/Dia-1.55.1-89833.zip"
-    },
-    {
-      "date": "2026-10-30T20:31:52Z",
-      "appName": "T3 Code",
-      "slug": "t3-code/darwin",
-      "platform": "darwin",
-      "oldVersion": "",
-      "newVersion": "0.1.5",
-      "installerUrl": "https://github.com/pingdotgg/t3code/releases/download/v0.1.5/T3-Code-0.1.5-arm64.dmg"
-    },
-    {
-      "date": "2026-10-30T20:31:52Z",
-      "appName": "Mozilla Firefox Nightly (ARM64)",
-      "slug": "firefox@nightly-arm64/windows",
-      "platform": "windows",
-      "oldVersion": "161.2610.2809.0",
-      "newVersion": "161.2610.2921.0",
-      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/10/2026-10-29-21-23-58-mozilla-central/firefox-161.0a1.multi.win64-aarch64.installer.msix"
-    },
-    {
-      "date": "2026-10-31T06:44:27Z",
-      "appName": "Reqable",
-      "slug": "reqable/windows",
-      "platform": "windows",
-      "oldVersion": "3.3.8",
-      "newVersion": "3.3.9",
-      "installerUrl": "https://github.com/reqable/reqable-app/releases/download/3.3.9/reqable-app-windows-x86_64.exe"
-    },
-    {
-      "date": "2026-10-31T06:44:27Z",
-      "appName": "Postman",
-      "slug": "postman/windows",
-      "platform": "windows",
-      "oldVersion": "12.34.3",
-      "newVersion": "12.34.4",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.34.4/windows_64"
-    },
-    {
-      "date": "2026-10-31T06:44:27Z",
-      "appName": "CLion",
-      "slug": "clion/darwin",
-      "platform": "darwin",
-      "oldVersion": "2026.2.4",
-      "newVersion": "2026.2.4.1",
-      "installerUrl": "https://download.jetbrains.com/cpp/CLion-2026.2.4.1-aarch64.dmg"
-    },
-    {
-      "date": "2026-10-31T06:44:27Z",
-      "appName": "TeamViewer Host",
-      "slug": "teamviewer-host/windows",
-      "platform": "windows",
-      "oldVersion": "15.83.3",
-      "newVersion": "15.83.5",
-      "installerUrl": "https://download.teamviewer.com/download/version_15x/TeamViewer_Host_Setup_x64.exe"
-    },
-    {
-      "date": "2026-10-31T06:44:27Z",
-      "appName": "R for Windows",
-      "slug": "r/windows",
-      "platform": "windows",
-      "oldVersion": "4.6.1",
-      "newVersion": "4.6.2",
-      "installerUrl": "https://cloud.r-project.org/bin/windows/base/old/4.6.2/R-4.6.2-win.exe"
-    },
-    {
-      "date": "2026-10-31T06:44:27Z",
-      "appName": "Visual Studio Enterprise 2022",
-      "slug": "visual-studio-2022-enterprise/windows",
-      "platform": "windows",
-      "oldVersion": "17.14.43",
-      "newVersion": "17.14.44",
-      "installerUrl": "https://download.visualstudio.microsoft.com/download/pr/6bd63d7f-1818-4e03-a552-9feb11496c19/1029a4d6cbc088b88e2b7086b028ae3750e49852bd88688077af766ac9f929b2/vs_Enterprise.exe"
-    },
-    {
-      "date": "2026-10-31T06:44:27Z",
-      "appName": "R for macOS",
-      "slug": "r/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.6.1",
-      "newVersion": "4.6.2",
-      "installerUrl": "https://cloud.r-project.org/bin/macosx/sonoma-arm64/base/R-4.6.2-arm64.pkg"
-    },
-    {
-      "date": "2026-10-31T06:44:27Z",
-      "appName": "Termius",
-      "slug": "termius/windows",
-      "platform": "windows",
-      "oldVersion": "10.2.1",
-      "newVersion": "10.3.0",
-      "installerUrl": "https://autoupdate.termius.com/windows/Install%20Termius.exe"
-    },
-    {
-      "date": "2026-10-31T06:44:27Z",
-      "appName": "Setapp",
-      "slug": "setapp/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.57.2",
-      "newVersion": "3.58.0",
-      "installerUrl": "https://dl.devmate.com/com.setapp.DesktopClient/163/1793295893/Setapp-163.zip"
-    },
-    {
-      "date": "2026-10-31T06:44:27Z",
-      "appName": "TeamViewer",
-      "slug": "teamviewer/windows",
-      "platform": "windows",
-      "oldVersion": "15.83.3",
-      "newVersion": "15.83.5",
-      "installerUrl": "https://download.teamviewer.com/download/version_15x/TeamViewer_Setup_x64_15.83.5.exe"
-    },
-    {
-      "date": "2026-10-31T06:44:27Z",
-      "appName": "Microsoft Edge",
-      "slug": "microsoft-edge/darwin",
-      "platform": "darwin",
-      "oldVersion": "156.0.4314.50",
-      "newVersion": "156.0.4314.56",
-      "installerUrl": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/653339b1-0c76-4922-8499-6e7843374fb8/MicrosoftEdge-156.0.4314.56.dmg"
-    },
-    {
-      "date": "2026-10-31T06:44:27Z",
-      "appName": "Visual Studio Professional 2022",
-      "slug": "visual-studio-2022-professional/windows",
-      "platform": "windows",
-      "oldVersion": "17.14.43",
-      "newVersion": "17.14.44",
-      "installerUrl": "https://download.visualstudio.microsoft.com/download/pr/6bd63d7f-1818-4e03-a552-9feb11496c19/4a59cc25d14a66a3fcb9bf767dbf695a86fda8df85b466b947f3fb543066c4d6/vs_Professional.exe"
-    },
-    {
-      "date": "2026-10-31T06:44:27Z",
-      "appName": "OnionShare",
-      "slug": "onionshare/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.7",
-      "newVersion": "2.7.1",
-      "installerUrl": "https://onionshare.org/dist/2.7.1/OnionShare-2.7.1.dmg"
-    },
-    {
-      "date": "2026-10-31T06:44:27Z",
-      "appName": "Binance",
-      "slug": "binance/darwin",
-      "platform": "darwin",
-      "oldVersion": "2.6.0",
-      "newVersion": "2.6.1",
-      "installerUrl": "https://ftp.binance.com/electron-desktop/mac/production/binance-2.6.1-arm64.dmg"
-    },
-    {
-      "date": "2026-10-31T06:44:27Z",
-      "appName": "Keeper Password Manager",
-      "slug": "keeper-password-manager/darwin",
-      "platform": "darwin",
-      "oldVersion": "18.6.5",
-      "newVersion": "18.6.6",
-      "installerUrl": "https://keepersecurity.com/desktop_electron/Darwin/KeeperSetup.dmg"
-    },
-    {
-      "date": "2026-10-31T06:44:27Z",
-      "appName": "Dropzone",
-      "slug": "dropzone/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.80.76",
-      "newVersion": "4.80.77",
-      "installerUrl": "https://aptonic.com/releases/Dropzone-4.80.77.zip"
-    },
-    {
-      "date": "2026-10-31T06:44:27Z",
-      "appName": "Git",
-      "slug": "git/windows",
-      "platform": "windows",
-      "oldVersion": "2.56.0.3",
-      "newVersion": "2.56.0.4",
-      "installerUrl": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.4/Git-2.56.0.4-64-bit.exe"
-    },
-    {
-      "date": "2026-10-31T06:44:27Z",
-      "appName": "AWS SAM Command Line Interface",
-      "slug": "aws-sam-cli/windows",
-      "platform": "windows",
-      "oldVersion": "1.170.0",
-      "newVersion": "1.171.0",
-      "installerUrl": "https://github.com/aws/aws-sam-cli/releases/download/v1.171.0/AWS_SAM_CLI_64_PY3.msi"
-    },
-    {
       "date": "2026-10-31T06:44:27Z",
       "appName": "OpenCode",
       "slug": "opencode-desktop/darwin",
@@ -8999,6 +8792,213 @@
       "oldVersion": "2.2.10",
       "newVersion": "2.2.11",
       "installerUrl": "https://github.com/agata/dl.biscuit/releases/download/2.2.11/Biscuit-2.2.11-arm64.dmg"
+    },
+    {
+      "date": "2026-11-12T22:09:45Z",
+      "appName": "GitHub Desktop (ARM64)",
+      "slug": "github-desktop-arm64/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "3.6.10",
+      "installerUrl": "https://desktop.githubusercontent.com/releases/3.6.10-ffeefe5d/GitHubDesktopSetup-arm64.exe"
+    },
+    {
+      "date": "2026-11-12T22:09:45Z",
+      "appName": "Microsoft Visual Studio Code (ARM64)",
+      "slug": "visual-studio-code-arm64/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "1.142.0",
+      "installerUrl": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/6d62b1d5dace93a33b3a6d3eca1317bd5e15bcb1/VSCodeSetup-arm64-1.142.0.exe"
+    },
+    {
+      "date": "2026-11-12T22:09:45Z",
+      "appName": "Git (ARM64)",
+      "slug": "git-arm64/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "2.56.0.3",
+      "installerUrl": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/Git-2.56.0.3-arm64.exe"
+    },
+    {
+      "date": "2026-11-12T22:09:45Z",
+      "appName": "Python 3.13 (ARM64)",
+      "slug": "python-3.13-arm64/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "3.13.15",
+      "installerUrl": "https://www.python.org/ftp/python/3.13.15/python-3.13.15-arm64.exe"
+    },
+    {
+      "date": "2026-11-12T22:09:45Z",
+      "appName": "Cursor (ARM64)",
+      "slug": "cursor-arm64/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "3.20.14",
+      "installerUrl": "https://downloads.cursor.com/production/67ac8ff8cc118b1eddcb5f2de564c20cffcae94d/win32/arm64/system-setup/CursorSetup-arm64-3.20.14.exe"
+    },
+    {
+      "date": "2026-11-12T22:09:45Z",
+      "appName": "VLC media player (ARM64)",
+      "slug": "vlc-arm64/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "3.0.24",
+      "installerUrl": "https://download.videolan.org/pub/videolan/vlc/3.0.24/winarm64/vlc-3.0.24-winarm64.msi"
+    },
+    {
+      "date": "2026-11-12T22:09:45Z",
+      "appName": "NVIDIA GeForce NOW",
+      "slug": "nvidia-geforce-now/darwin",
+      "platform": "darwin",
+      "oldVersion": "2.0.89.154",
+      "newVersion": "2.0.90.126",
+      "installerUrl": "https://download.nvidia.com/gfnpc/GeForceNOW-release.dmg"
+    },
+    {
+      "date": "2026-11-12T22:09:45Z",
+      "appName": "Mozilla Firefox ESR (ARM64)",
+      "slug": "firefox@esr-arm64/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "153.4.0",
+      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/153.4.0esr/win64-aarch64/en-US/Firefox%20Setup%20153.4.0esr.exe"
+    },
+    {
+      "date": "2026-11-12T22:09:45Z",
+      "appName": "Slack (ARM64)",
+      "slug": "slack-arm64/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "4.53.269",
+      "installerUrl": "https://downloads.slack-edge.com/desktop-releases/windows/arm64/4.53.269/Slack.msix"
+    },
+    {
+      "date": "2026-11-12T22:09:45Z",
+      "appName": "PowerToys (ARM64)",
+      "slug": "powertoys-arm64/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "0.101.2362.0",
+      "installerUrl": "https://github.com/microsoft/PowerToys/releases/download/v0.101.2362.0/PowerToysSetup-0.101.2362.0-arm64.exe"
+    },
+    {
+      "date": "2026-11-12T22:09:45Z",
+      "appName": "Docker Desktop (ARM64)",
+      "slug": "docker-arm64/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "4.97.0",
+      "installerUrl": "https://desktop.docker.com/win/main/arm64/244584/Docker%20Desktop%20Installer.exe"
+    },
+    {
+      "date": "2026-11-12T22:09:45Z",
+      "appName": "Notepad++ (ARM64)",
+      "slug": "notepad++-arm64/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "8.9.8.1",
+      "installerUrl": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9.8.1/npp.8.9.8.1.Installer.arm64.exe"
+    },
+    {
+      "date": "2026-11-12T22:09:45Z",
+      "appName": "Google Chrome (ARM64)",
+      "slug": "google-chrome-arm64/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "156.0.8078.48",
+      "installerUrl": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise_arm64.msi"
+    },
+    {
+      "date": "2026-11-12T22:09:45Z",
+      "appName": "PowerShell (ARM64)",
+      "slug": "powershell-arm64/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "7.6.9.0",
+      "installerUrl": "https://github.com/PowerShell/PowerShell/releases/download/v7.6.9/PowerShell-7.6.9-win-arm64.msi"
+    },
+    {
+      "date": "2026-11-12T22:09:45Z",
+      "appName": "PhpStorm (ARM64)",
+      "slug": "phpstorm-arm64/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "2026.2.3",
+      "installerUrl": "https://download.jetbrains.com/webide/PhpStorm-2026.2.3-aarch64.exe"
+    },
+    {
+      "date": "2026-11-12T22:09:45Z",
+      "appName": "Microsoft Teams (ARM64)",
+      "slug": "microsoft-teams-arm64/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "26225.1806.5074.1452",
+      "installerUrl": "https://teamsinstaller.public.onecdn.static.microsoft/production-windows-arm64/26225.1806.5074.1452/MSTeams-arm64.msix"
+    },
+    {
+      "date": "2026-11-12T22:09:45Z",
+      "appName": "Claude (ARM64)",
+      "slug": "claude-arm64/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "2.42304.2",
+      "installerUrl": "https://downloads.claude.ai/releases/win32/arm64/2.42304.2/Claude-af65c0e384c1657459441aac3083c6e622789afe.msix"
+    },
+    {
+      "date": "2026-11-12T22:09:45Z",
+      "appName": "Zoom (ARM64)",
+      "slug": "zoom-arm64/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "7.2.48556",
+      "installerUrl": "https://zoom.us/client/7.2.1.48556/ZoomInstallerFull.msi?archType=winarm64"
+    },
+    {
+      "date": "2026-11-12T22:09:45Z",
+      "appName": "PuTTY (ARM64)",
+      "slug": "putty-arm64/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "0.85.0.0",
+      "installerUrl": "https://the.earth.li/~sgtatham/putty/0.85/wa64/putty-arm64-0.85-installer.msi"
+    },
+    {
+      "date": "2026-11-12T22:09:45Z",
+      "appName": "Blender (ARM64)",
+      "slug": "blender-arm64/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "5.3.0",
+      "installerUrl": "https://download.blender.org/release/Blender5.3/blender-5.3.0-windows-arm64.msi"
+    },
+    {
+      "date": "2026-11-12T22:09:45Z",
+      "appName": "IntelliJ IDEA (ARM64)",
+      "slug": "intellij-idea-arm64/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "2026.2.3",
+      "installerUrl": "https://download.jetbrains.com/idea/idea-2026.2.3-aarch64.exe"
+    },
+    {
+      "date": "2026-11-12T22:09:45Z",
+      "appName": "Mozilla Firefox (ARM64)",
+      "slug": "firefox-arm64/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "157.0.1",
+      "installerUrl": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/157.0.1/win64-aarch64/en-US/Firefox%20Setup%20157.0.1.exe"
+    },
+    {
+      "date": "2026-11-12T22:09:45Z",
+      "appName": "TortoiseGit (ARM64)",
+      "slug": "tortoisegit-arm64/windows",
+      "platform": "windows",
+      "oldVersion": "",
+      "newVersion": "2.19.1.0",
+      "installerUrl": "https://download.tortoisegit.org/tgit/2.19.0.0/TortoiseGit-2.19.1.0-arm64.msi"
     }
   ]
 }
