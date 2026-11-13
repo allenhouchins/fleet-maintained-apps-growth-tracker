@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-13T03:15:56Z",
+  "lastUpdated": "2026-11-13T03:17:33Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -2289,14 +2289,14 @@
     {
       "slug": "chatbox/windows",
       "name": "Chatbox",
-      "version": "1.24.1",
-      "sha256": "7ac71832a0799f6e3cdb1b71b171d3fa8a89af336072ee922592588dc4fdfb79",
+      "version": "1.24.4",
+      "sha256": "7d67a0df61c9daf5d3aed57434fcd7d6b0bb98856ec69d16cd3c07bafef24187",
       "publisher": "CN=\"Mediocre, LLC\", O=\"Mediocre, LLC\", L=NEWARK, S=DELAWARE, C=US, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=10053229, OID.2.5.4.15=Private Organization",
       "issuer": "CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
       "serialNumber": "44700F2E934C58424E9B6606",
       "thumbprint": "5DEDBB1C58FED1BB8FDE1DD6A807C931394AEF7D",
       "timestamp": "CN=Globalsign R45 TSA for CodeSign 202510, O=GlobalSign nv-sa, C=BE",
-      "lastUpdated": "2026-11-05T20:17:41Z"
+      "lastUpdated": "2026-11-13T03:16:10Z"
     },
     {
       "slug": "chatgpt-atlas/darwin",
@@ -2472,14 +2472,14 @@
     {
       "slug": "claude-arm64/windows",
       "name": "Claude (ARM64)",
-      "version": "2.42304.2",
-      "sha256": "89c7c210767ba4868caec89573d904ce0acf5b1762e28532628b9fc87b43003b",
+      "version": "3.6556.2",
+      "sha256": "0aa61af08af596b7487851e7585918e76a64853445c26b0b8242d938ee33d5b9",
       "publisher": "CN=\"Anthropic, PBC\", O=\"Anthropic, PBC\", L=San Francisco, S=California, C=US, SERIALNUMBER=4860621, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "041E6EC51F56103427278E202EC875B8",
       "thumbprint": "60C2D9C51F09822FFF4F194DE9EEDB67451292D1",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-11-12T22:24:06Z"
+      "lastUpdated": "2026-11-13T03:16:41Z"
     },
     {
       "slug": "claude-devtools/darwin",
@@ -3140,14 +3140,14 @@
     {
       "slug": "cursor-arm64/windows",
       "name": "Cursor (ARM64)",
-      "version": "3.20.14",
-      "sha256": "ad5c0a02971a7b61b85cc1df4d1e314e93b928a9924ddfe94b0bd83695ec1bd2",
+      "version": "3.29.15",
+      "sha256": "5abef435f6340de9bd9a1124eec0c8508801ba45577c157ddf1fe33446bbd9bb",
       "publisher": "CN=\"Anysphere, Inc.\", O=\"Anysphere, Inc.\", L=San Francisco, S=California, C=US",
-      "issuer": "CN=Microsoft ID Verified CS EOC CA 03, O=Microsoft Corporation, C=US",
-      "serialNumber": "330005DC6326231D39063225B800000005DC63",
-      "thumbprint": "F00662D6B3A0A5780F654F121E54C8E28FBCD3AB",
-      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7D00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-11-12T22:24:19Z"
+      "issuer": "CN=Microsoft ID Verified CS AOC CA 04, O=Microsoft Corporation, C=US",
+      "serialNumber": "33000B64087B76789075D6DF7F0000000B6408",
+      "thumbprint": "BB22091A600402FE663EA43949B16FC8879C0816",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7A00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-11-13T03:16:46Z"
     },
     {
       "slug": "cursor/darwin",
@@ -3919,14 +3919,14 @@
     {
       "slug": "docker-arm64/windows",
       "name": "Docker Desktop (ARM64)",
-      "version": "4.97.0",
-      "sha256": "91d18626e6c297bebc9fadb73451844b7cb3300b38161aabba1aa44d87e8c40e",
+      "version": "4.99.0",
+      "sha256": "312535365fda69082db216fe2828da09b1453b9e9b8beed8e45aea805cdcb7a5",
       "publisher": "CN=Docker Inc, O=Docker Inc, L=Palo Alto, S=California, C=US, SERIALNUMBER=4817464, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0DCE683683AE70C7C647ADDB7E609A9A",
       "thumbprint": "B6BD29272B07AD4D0F1322A739499D67CA3BAC3F",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-11-12T22:24:35Z"
+      "lastUpdated": "2026-11-13T03:17:02Z"
     },
     {
       "slug": "docker-desktop/darwin",
@@ -4101,14 +4101,14 @@
     {
       "slug": "drofus/windows",
       "name": "dRofus",
-      "version": "2.19.12.0",
-      "sha256": "22f7b29b65c9712077706476a7083b7a0f3fba2b2941804ff7524d9616ac304d",
+      "version": "2.19.13.0",
+      "sha256": "0708183ae15f3792c817307703b87076af77e0e72049d0f319759c91e762fd24",
       "publisher": "CN=DROFUS AS, O=DROFUS AS, L=OSLO, S=OSLO, C=NO, OID.1.3.6.1.4.1.311.60.2.1.3=NO, SERIALNUMBER=997 466 586, OID.2.5.4.15=Private Organization",
       "issuer": "CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
       "serialNumber": "46D0DBE5EFDD6C2F2DA7B241",
       "thumbprint": "965EA0C71C0985C71848484A218B259373D44844",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-11-09T21:05:39Z"
+      "lastUpdated": "2026-11-13T03:17:12Z"
     },
     {
       "slug": "dropbox/darwin",
@@ -4530,14 +4530,14 @@
     {
       "slug": "elevate-uc/windows",
       "name": "Elevate UC",
-      "version": "2.34.70",
-      "sha256": "cc2cc779297e54c92124481b324b72bbcbf368338b5f5e6390c9c48ac06a58f5",
+      "version": "2.34.121",
+      "sha256": "88416c6e467b4dcdec86a2e669d59f6b7e1f4838357030c238f56aaf0e24599c",
       "publisher": "CN=SystemServer, O=SystemServer, L=Sunnyvale, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0CEE5D59B33C1DE0AAF2049E095E7C1A",
       "thumbprint": "D5E0136D93F6B5B9702128A0D770F6EB6655957D",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-11-03T21:54:50Z"
+      "lastUpdated": "2026-11-13T03:17:23Z"
     },
     {
       "slug": "elgato-camera-hub/darwin",
@@ -4991,14 +4991,14 @@
     {
       "slug": "firefox-arm64/windows",
       "name": "Mozilla Firefox (ARM64)",
-      "version": "157.0.1",
-      "sha256": "fc86cd7e73b68e876770852bf4741b046441069ad57cee88626311cad12a7206",
+      "version": "160.0",
+      "sha256": "c650ff01102df067c5921d8f3657a3998626553b3c6144d1488f541f17d20c6d",
       "publisher": "CN=Mozilla Corporation, OU=Firefox Engineering Operations, O=Mozilla Corporation, L=San Francisco, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0F0EF7C2D819273E8C13F016D2E09B25",
       "thumbprint": "6663D5C4FDAF9EFD5F823A26C9C410DC9928C44A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-11-12T22:24:39Z"
+      "lastUpdated": "2026-11-13T03:17:27Z"
     },
     {
       "slug": "firefox/darwin",
@@ -5059,14 +5059,14 @@
     {
       "slug": "firefox@esr-arm64/windows",
       "name": "Mozilla Firefox ESR (ARM64)",
-      "version": "153.4.0",
-      "sha256": "421930013443469e78b3302c380f3d7bceddb947f24e2aff111d84d9816489a4",
+      "version": "153.7.0",
+      "sha256": "8c46d2a9434fe7122c917549a36fa10cc8453dac0d951330ce42449a4795bf56",
       "publisher": "CN=Mozilla Corporation, OU=Firefox Engineering Operations, O=Mozilla Corporation, L=San Francisco, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0F0EF7C2D819273E8C13F016D2E09B25",
       "thumbprint": "6663D5C4FDAF9EFD5F823A26C9C410DC9928C44A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-11-12T22:24:43Z"
+      "lastUpdated": "2026-11-13T03:17:30Z"
     },
     {
       "slug": "firefox@esr/darwin",
@@ -5601,14 +5601,14 @@
     {
       "slug": "git-arm64/windows",
       "name": "Git (ARM64)",
-      "version": "2.56.0.3",
-      "sha256": "53cfe6358a1f0573c8c777c9ad71151df8f29986759c689c7b8a5cbb84cca495",
+      "version": "2.56.0.4",
+      "sha256": "e7dcc4adbb0eb373064598cd18bc75e60128707d816ead51cd9bd98e356f0075",
       "publisher": "CN=Johannes Schindelin, O=Johannes Schindelin, L=Bruehl, C=DE",
       "issuer": "CN=Microsoft ID Verified CS EOC CA 03, O=Microsoft Corporation, C=US",
-      "serialNumber": "330008D100BFB38F903F8F186E00000008D100",
-      "thumbprint": "5717D1E8F6A8FAD176E54F3C04A271AA45BA2D05",
-      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7D00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-11-12T22:24:46Z"
+      "serialNumber": "330009234B7FDBC2CA98FF950700000009234B",
+      "thumbprint": "5D068D19F18BDA12B5D08B7F9F86F072BA63A098",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:A500-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-11-13T03:17:33Z"
     },
     {
       "slug": "git-extensions/windows",
