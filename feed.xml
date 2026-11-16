@@ -5,13 +5,27 @@
     <link>https://fmalibrary.com</link>
     <description>Track version updates and new app additions for Fleet-maintained apps. Get notified when apps are updated with new versions or when new apps are added to the library.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Nov 2026 05:23:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 15:05:18 +0000</lastBuildDate>
     <atom:link href="https://fmalibrary.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://fmalibrary.com/cloud-city.png</url>
       <title>Fleet-maintained apps</title>
       <link>https://fmalibrary.com</link>
     </image>
+    <item>
+      <title>Druva inSync 8.1.8 → 8.1.9 (Mac)</title>
+      <link>https://fmalibrary.com</link>
+      <description>Druva inSync has been updated from version 8.1.8 to 8.1.9 on November 16, 2026. &lt;a href=&quot;https://downloads.druva.com/downloads/inSync/MAC/8.1.9/inSync-8.1.9-r110999.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Mon, 16 Nov 2026 15:05:18 +0000</pubDate>
+      <guid isPermaLink="false">druva-insync/darwin-8.1.8-8.1.9</guid>
+    </item>
+    <item>
+      <title>Spotify 1.3.8.620 → 1.3.9.2055 (Mac)</title>
+      <link>https://fmalibrary.com</link>
+      <description>Spotify has been updated from version 1.3.8.620 to 1.3.9.2055 on November 16, 2026. &lt;a href=&quot;https://download.scdn.co/SpotifyARM64.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Mon, 16 Nov 2026 15:05:18 +0000</pubDate>
+      <guid isPermaLink="false">spotify/darwin-1.3.8.620-1.3.9.2055</guid>
+    </item>
     <item>
       <title>Mozilla Firefox Nightly 162.2611.1410.0 → 162.2611.1521.0 (Windows)</title>
       <link>https://fmalibrary.com</link>
@@ -3387,32 +3401,11 @@
       <guid isPermaLink="false">read-ai/windows--1.45.1</guid>
     </item>
     <item>
-      <title>Spokenly 2.35.3 → 2.35.6 (Mac)</title>
+      <title>Eclipse Temurin JRE 11 11.0.32.101 → 11.0.33.10 (Windows)</title>
       <link>https://fmalibrary.com</link>
-      <description>Spokenly has been updated from version 2.35.3 to 2.35.6 on November 9, 2026. &lt;a href=&quot;https://cdn.spokenly.app/releases/macos/Spokenly-2.35.6.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>Eclipse Temurin JRE 11 has been updated from version 11.0.32.101 to 11.0.33.10 on November 9, 2026. &lt;a href=&quot;https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33+10/OpenJDK11U-jre_x64_windows_hotspot_11.0.33_10.msi&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Mon, 09 Nov 2026 20:34:14 +0000</pubDate>
-      <guid isPermaLink="false">spokenly/darwin-2.35.3-2.35.6</guid>
-    </item>
-    <item>
-      <title>Zoom Rooms 7.2.0 → 7.2.5 (Windows)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Zoom Rooms has been updated from version 7.2.0 to 7.2.5 on November 9, 2026. &lt;a href=&quot;https://cdn.zoom.us/prod/7.2.5.8613/x64/zoomrooms-7.2.5.8613-x64.msi&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Mon, 09 Nov 2026 20:34:14 +0000</pubDate>
-      <guid isPermaLink="false">zoom-rooms/windows-7.2.0-7.2.5</guid>
-    </item>
-    <item>
-      <title>Mozilla Firefox Nightly 162.2611.604.0 → 162.2611.809.0 (Windows)</title>
-      <link>https://fmalibrary.com</link>
-      <description>Mozilla Firefox Nightly has been updated from version 162.2611.604.0 to 162.2611.809.0 on November 9, 2026. &lt;a href=&quot;https://ftp.mozilla.org/pub/firefox/nightly/2026/11/2026-11-08-09-13-45-mozilla-central/firefox-162.0a1.multi.win64.installer.msix&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Mon, 09 Nov 2026 20:34:14 +0000</pubDate>
-      <guid isPermaLink="false">firefox@nightly/windows-162.2611.604.0-162.2611.809.0</guid>
-    </item>
-    <item>
-      <title>YACReader 10.4.0 → 10.5.0 (Windows)</title>
-      <link>https://fmalibrary.com</link>
-      <description>YACReader has been updated from version 10.4.0 to 10.5.0 on November 9, 2026. &lt;a href=&quot;https://github.com/YACReader/yacreader/releases/download/10.5.0/YACReader-v10.5.0.261109511-winx64-7z-qt6.exe&quot;&gt;Download installer&lt;/a&gt;</description>
-      <pubDate>Mon, 09 Nov 2026 20:34:14 +0000</pubDate>
-      <guid isPermaLink="false">yacreader/windows-10.4.0-10.5.0</guid>
+      <guid isPermaLink="false">eclipse-temurin-jre-11/windows-11.0.32.101-11.0.33.10</guid>
     </item>
     <item>
       <title>NordVPN 8.14.4.0 → 8.15.2.0 (Windows)</title>
@@ -3499,6 +3492,13 @@
       <guid isPermaLink="false">boltai/darwin-2.18.5-3.0.0</guid>
     </item>
     <item>
+      <title>Spokenly 2.35.3 → 2.35.6 (Mac)</title>
+      <link>https://fmalibrary.com</link>
+      <description>Spokenly has been updated from version 2.35.3 to 2.35.6 on November 9, 2026. &lt;a href=&quot;https://cdn.spokenly.app/releases/macos/Spokenly-2.35.6.dmg&quot;&gt;Download installer&lt;/a&gt;</description>
+      <pubDate>Mon, 09 Nov 2026 20:34:14 +0000</pubDate>
+      <guid isPermaLink="false">spokenly/darwin-2.35.3-2.35.6</guid>
+    </item>
+    <item>
       <title>dRofus 2.19.11.0 → 2.19.12.0 (Windows)</title>
       <link>https://fmalibrary.com</link>
       <description>dRofus has been updated from version 2.19.11.0 to 2.19.12.0 on November 9, 2026. &lt;a href=&quot;https://deploy.drofus.com/stable/drofus-setup-2.19.12.msi&quot;&gt;Download installer&lt;/a&gt;</description>
@@ -3506,11 +3506,11 @@
       <guid isPermaLink="false">drofus/windows-2.19.11.0-2.19.12.0</guid>
     </item>
     <item>
-      <title>Eclipse Temurin JRE 11 11.0.32.101 → 11.0.33.10 (Windows)</title>
+      <title>YACReader 10.4.0 → 10.5.0 (Windows)</title>
       <link>https://fmalibrary.com</link>
-      <description>Eclipse Temurin JRE 11 has been updated from version 11.0.32.101 to 11.0.33.10 on November 9, 2026. &lt;a href=&quot;https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33+10/OpenJDK11U-jre_x64_windows_hotspot_11.0.33_10.msi&quot;&gt;Download installer&lt;/a&gt;</description>
+      <description>YACReader has been updated from version 10.4.0 to 10.5.0 on November 9, 2026. &lt;a href=&quot;https://github.com/YACReader/yacreader/releases/download/10.5.0/YACReader-v10.5.0.261109511-winx64-7z-qt6.exe&quot;&gt;Download installer&lt;/a&gt;</description>
       <pubDate>Mon, 09 Nov 2026 20:34:14 +0000</pubDate>
-      <guid isPermaLink="false">eclipse-temurin-jre-11/windows-11.0.32.101-11.0.33.10</guid>
+      <guid isPermaLink="false">yacreader/windows-10.4.0-10.5.0</guid>
     </item>
   </channel>
 </rss>
