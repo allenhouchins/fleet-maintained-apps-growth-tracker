@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-17T17:57:11Z",
+  "lastUpdated": "2026-11-18T18:09:40Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -680,14 +680,14 @@
     {
       "slug": "amazon-corretto-11/windows",
       "name": "Amazon Corretto 11",
-      "version": "11.0.33.0",
-      "sha256": "980a7f1a895d179d6a6a4e569d570a4ff7e78d8efb27072ee29103daa366d671",
+      "version": "11.0.33.1",
+      "sha256": "f9b1ac6127bcd50b369e1b6a78463ccea6dc270a212866db7cf5e66e7559c7d4",
       "publisher": "CN=Amazon.com Services LLC, OU=Amazon Corretto, O=Amazon.com Services LLC, L=Seattle, S=Washington, C=US, SERIALNUMBER=3482342, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "048E6204BD9D0E01D283E50B66E87646",
       "thumbprint": "7B9F0B7BFB6A8E346C518D3970B37BC76C24A43A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-10-23T18:35:59Z"
+      "lastUpdated": "2026-11-18T18:09:40Z"
     },
     {
       "slug": "amazon-corretto-17/windows",
@@ -6475,16 +6475,6 @@
       "signingId": "XSYZ3E4B7D:com.knollsoft.Hyperkey",
       "teamId": "XSYZ3E4B7D",
       "lastUpdated": "2026-06-11T05:53:00Z"
-    },
-    {
-      "slug": "i1profiler/darwin",
-      "name": "i1Profiler",
-      "version": "3.8.8.19405",
-      "sha256": "b5daa0ef6e420fd2d1b9e0ad5cae7280ee7ab9cbf3d003725cec8fd6a1543551",
-      "cdhash": "49c44d70aea3a10a806939481edc920a9b3d2e57",
-      "signingId": "2K7GT73B4R:com.x-rite.i1Profiler",
-      "teamId": "2K7GT73B4R",
-      "lastUpdated": "2026-10-10T05:09:06Z"
     },
     {
       "slug": "ibm-notifier/darwin",
