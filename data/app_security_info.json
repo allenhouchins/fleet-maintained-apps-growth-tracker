@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-18T18:11:36Z",
+  "lastUpdated": "2026-11-18T18:13:16Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1326,14 +1326,14 @@
     {
       "slug": "azul-zulu-25-jre/windows",
       "name": "Azul Zulu JRE 25",
-      "version": "25.38.109",
-      "sha256": "3c12ed439bc281d989d5b77d0f485e4466730eb9b73646f84647e58852fe2b62",
+      "version": "25.38.201",
+      "sha256": "3985ae68287b1f40b2a05635a9ac640e1555712406f4b8990eee519259ea25b0",
       "publisher": "CN=\"Azul Systems, Inc.\", O=\"Azul Systems, Inc.\", L=Sunnyvale, S=California, C=US, SERIALNUMBER=3500498, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0E272304652AABBC44DA810B574035B2",
       "thumbprint": "D4605D9421BA7A7AE70F4C82499E2C6B3F5C9BA9",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-10-29T16:55:05Z"
+      "lastUpdated": "2026-11-18T18:11:43Z"
     },
     {
       "slug": "azure-cli/windows",
@@ -2289,14 +2289,14 @@
     {
       "slug": "chatbox/windows",
       "name": "Chatbox",
-      "version": "1.24.4",
-      "sha256": "7d67a0df61c9daf5d3aed57434fcd7d6b0bb98856ec69d16cd3c07bafef24187",
+      "version": "1.24.5",
+      "sha256": "c68dfa9b2abd5d8bbcfef0ab330e08ffac450bc361996d9fe83fc43e3a5f1813",
       "publisher": "CN=\"Mediocre, LLC\", O=\"Mediocre, LLC\", L=NEWARK, S=DELAWARE, C=US, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=10053229, OID.2.5.4.15=Private Organization",
       "issuer": "CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
       "serialNumber": "44700F2E934C58424E9B6606",
       "thumbprint": "5DEDBB1C58FED1BB8FDE1DD6A807C931394AEF7D",
-      "timestamp": "CN=Globalsign R45 TSA for CodeSign 202510, O=GlobalSign nv-sa, C=BE",
-      "lastUpdated": "2026-11-13T03:16:10Z"
+      "timestamp": "CN=Globalsign R45 TSA for CodeSign 202610, O=GlobalSign nv-sa, C=BE",
+      "lastUpdated": "2026-11-18T18:11:50Z"
     },
     {
       "slug": "chatgpt-atlas/darwin",
@@ -2472,14 +2472,14 @@
     {
       "slug": "claude-arm64/windows",
       "name": "Claude (ARM64)",
-      "version": "3.6556.2",
-      "sha256": "0aa61af08af596b7487851e7585918e76a64853445c26b0b8242d938ee33d5b9",
+      "version": "4.29.0",
+      "sha256": "11cec03646e1c791106ae4334a30ce3b789ec1d9b3cfd805b2bfb4830e7596a0",
       "publisher": "CN=\"Anthropic, PBC\", O=\"Anthropic, PBC\", L=San Francisco, S=California, C=US, SERIALNUMBER=4860621, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "041E6EC51F56103427278E202EC875B8",
       "thumbprint": "60C2D9C51F09822FFF4F194DE9EEDB67451292D1",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-11-13T03:16:41Z"
+      "lastUpdated": "2026-11-18T18:12:24Z"
     },
     {
       "slug": "claude-devtools/darwin",
@@ -4101,14 +4101,14 @@
     {
       "slug": "drawio/windows",
       "name": "draw.io",
-      "version": "32.6.10",
-      "sha256": "e7ea99906304507ed0e2c14193f9aba578c47df38e93a5fe748b52a8b85aa88f",
+      "version": "32.7.4",
+      "sha256": "f4d5cbfa71763c76c0d0834ff27064b55e6e42b28541101f091262002c608346",
       "publisher": "CN=draw.io Ltd, O=draw.io Ltd, L=Northampton, S=Northamptonshire, C=GB",
-      "issuer": "CN=Microsoft ID Verified CS AOC CA 04, O=Microsoft Corporation, C=US",
-      "serialNumber": "33000A9CC1084E9DA09C4F2C2A0000000A9CC1",
-      "thumbprint": "145B546AD357C6D87CF6F702D7BFCB2876635C47",
-      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7800-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-11-05T12:31:47Z"
+      "issuer": "CN=Microsoft ID Verified CS EOC CA 04, O=Microsoft Corporation, C=US",
+      "serialNumber": "33000A632E548784AFC5AD7A460000000A632E",
+      "thumbprint": "50576B630D8BB457C943F26C3336397A11C6B45B",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:A500-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-11-18T18:12:34Z"
     },
     {
       "slug": "drofus/windows",
@@ -4867,14 +4867,14 @@
     {
       "slug": "fellow/windows",
       "name": "Fellow",
-      "version": "5.7.29",
-      "sha256": "4ad2802bc4f9906c70b3a6fb6e00ba757ba93a62a349a98b084f931b9d0de7e3",
+      "version": "5.7.30",
+      "sha256": "a878224ccd693cdcdac328f101d3d835fb97436d8fb1787cd8d0fcb4ed13b0af",
       "publisher": "CN=Fellow.ai, O=Fellow.ai, L=Ottawa, S=Ontario, C=CA",
-      "issuer": "CN=Microsoft ID Verified CS AOC CA 04, O=Microsoft Corporation, C=US",
-      "serialNumber": "33000BEAAD02CDDF1E889E54A60000000BEAAD",
-      "thumbprint": "695FFD931526A0F02CB604CD34D839539BC13A6A",
-      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7D00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-11-13T12:16:58Z"
+      "issuer": "CN=Microsoft ID Verified CS AOC CA 03, O=Microsoft Corporation, C=US",
+      "serialNumber": "33000C3ED3EA47B828D614CC460000000C3ED3",
+      "thumbprint": "6B56B110B5D59642E8C64F3396002C49C14CDD1B",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7800-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-11-18T18:12:39Z"
     },
     {
       "slug": "ferdium/darwin",
@@ -4909,14 +4909,14 @@
     {
       "slug": "figma/windows",
       "name": "Figma",
-      "version": "126.11.9",
-      "sha256": "31e76caebe19797fffdd1e79ca0fb42f7c9321c400601e29d703995fdba55e49",
+      "version": "126.12.7",
+      "sha256": "4e10daea74cc6448e3687c63ad9fb5a4602b61f72b284825359d8e48e5684450",
       "publisher": "CN=\"Figma, Inc.\", O=\"Figma, Inc.\", L=San Francisco, S=California, C=US",
-      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
-      "serialNumber": "07C538441BD037E808C8A411EE923BA2",
-      "thumbprint": "B9F6F7CB9C6CE2437C45D86BCC25A788422CADD4",
-      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-11-13T12:17:03Z"
+      "issuer": "CN=Microsoft ID Verified CS AOC CA 04, O=Microsoft Corporation, C=US",
+      "serialNumber": "33000C4B087C0B4A4D144BE3000000000C4B08",
+      "thumbprint": "91F582A15DFC96ED4B44449298A1024268BA43A3",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7D00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-11-18T18:12:44Z"
     },
     {
       "slug": "file-juicer/darwin",
@@ -5105,14 +5105,14 @@
     {
       "slug": "firefox@nightly-arm64/windows",
       "name": "Mozilla Firefox Nightly (ARM64)",
-      "version": "162.2611.1521.0",
-      "sha256": "e279c3691a9361b8c44dd40bfa03785ae08fd8cd72220e65a68ad589b7e91079",
+      "version": "162.2611.1709.0",
+      "sha256": "3a981cf38c3903717816fe9ab6af42cbc048aca4e521f04e87f06546fd8821fa",
       "publisher": "CN=Mozilla Corporation, OU=Firefox Engineering Operations, O=Mozilla Corporation, L=San Francisco, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0F0EF7C2D819273E8C13F016D2E09B25",
       "thumbprint": "6663D5C4FDAF9EFD5F823A26C9C410DC9928C44A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-11-16T05:40:59Z"
+      "lastUpdated": "2026-11-18T18:12:53Z"
     },
     {
       "slug": "firefox@nightly/darwin",
@@ -5127,14 +5127,14 @@
     {
       "slug": "firefox@nightly/windows",
       "name": "Mozilla Firefox Nightly",
-      "version": "162.2611.1521.0",
-      "sha256": "0442abdc02576aecc64d6e9d8ce51601e3937c32f77d30865d08e41b44a9d1a4",
+      "version": "162.2611.1709.0",
+      "sha256": "d11af0491fc6022b622d0cfeb6bb6e9329f27bcdd3b35e388adb2f9808dc24b8",
       "publisher": "CN=Mozilla Corporation, OU=Firefox Engineering Operations, O=Mozilla Corporation, L=San Francisco, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0F0EF7C2D819273E8C13F016D2E09B25",
       "thumbprint": "6663D5C4FDAF9EFD5F823A26C9C410DC9928C44A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-11-16T05:41:06Z"
+      "lastUpdated": "2026-11-18T18:12:59Z"
     },
     {
       "slug": "fission/darwin",
@@ -9044,14 +9044,14 @@
     {
       "slug": "nessus-agent/windows",
       "name": "Nessus Agent",
-      "version": "11.2.3.20022",
+      "version": "11.2.4.20033",
       "sha256": "b99b979659513403ab7a69a493a7fffb183c1626084d513a2f66c8570237d784",
       "publisher": "CN=\"TENABLE, INC.\", O=\"TENABLE, INC.\", L=Columbia, S=Maryland, C=US, SERIALNUMBER=3569085, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA256 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0E018383E2BBB9BCBBDF14BC94D51937",
       "thumbprint": "93968F4AE482CF391F10E639CEE8A0B784E58DFD",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-09-24T07:50:43Z"
+      "lastUpdated": "2026-11-18T18:13:04Z"
     },
     {
       "slug": "netiquette/darwin",
@@ -9168,6 +9168,18 @@
       "thumbprint": "EDBAE58D521F461AEE0189F98C82E6B5B281AEF1",
       "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:A500-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
       "lastUpdated": "2026-11-17T00:38:22Z"
+    },
+    {
+      "slug": "nodejs-24/windows",
+      "name": "Node.js 24",
+      "version": "24.22.1",
+      "sha256": "d702daa815eabbff763c7d3808e235cf031cf2ca70211b56847bc72f51e240e5",
+      "publisher": "CN=OpenJS Foundation, O=OpenJS Foundation, L=San Francisco, S=California, C=US",
+      "issuer": "CN=Microsoft ID Verified CS EOC CA 04, O=Microsoft Corporation, C=US",
+      "serialNumber": "330008A90B67C901B3CA9202CF00000008A90B",
+      "thumbprint": "6018A47185244F3B175DAFC18D0D8EB47E3F84CF",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:A500-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-11-18T18:13:16Z"
     },
     {
       "slug": "nodejs/windows",
