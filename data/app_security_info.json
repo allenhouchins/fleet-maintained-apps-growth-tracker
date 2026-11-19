@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-19T07:24:02Z",
+  "lastUpdated": "2026-11-19T07:31:55Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -8254,12 +8254,12 @@
     {
       "slug": "microsoft-auto-update/darwin",
       "name": "Microsoft Auto Update",
-      "version": "4.85",
-      "sha256": "29ca00d068a8009949a2b3ac27b38024c06759c8696da82b968ea6254a83634c",
-      "cdhash": "1cfb24ed5342a68d7400053b17d69ba45a726dfe",
+      "version": "4.86",
+      "sha256": "be283b0369f2ac08e350d2b6b83cfbdeaae26dc064cce77995aaefc48897756a",
+      "cdhash": "5eff6416f131b26e378b45fe447043e02c620ee9",
       "signingId": "UBF8T346G9:com.microsoft.edgemac",
       "teamId": "UBF8T346G9",
-      "lastUpdated": "2026-09-19T19:25:34Z"
+      "lastUpdated": "2026-11-19T07:25:57Z"
     },
     {
       "slug": "microsoft-azure-storage-explorer/darwin",
@@ -8916,6 +8916,16 @@
       "signingId": "XSYZ3E4B7D:com.brassmonkery.Multitouch",
       "teamId": "XSYZ3E4B7D",
       "lastUpdated": "2026-11-19T00:50:09Z"
+    },
+    {
+      "slug": "munki/darwin",
+      "name": "Munki",
+      "version": "7.4.2.5904",
+      "sha256": "622474322714621966fcd8126abc5f234c4238358e7fde207fc0117e6d18df76",
+      "cdhash": "0490ef01693359f2a0f0d4ca807c1b8fb17b33b6",
+      "signingId": "T4SK8ZXCXG:com.googlecode.munki.MunkiStatus",
+      "teamId": "T4SK8ZXCXG",
+      "lastUpdated": "2026-11-19T07:28:31Z"
     },
     {
       "slug": "mural/darwin",
@@ -12694,12 +12704,12 @@
     {
       "slug": "standard-notes/darwin",
       "name": "Standard Notes",
-      "version": "3.202.11",
-      "sha256": "46b7644b0517fe5a0ec4ee9a1f2b19496438a4096179c41337167c7cd45e797e",
-      "cdhash": "5d48dc5ef43c9ab4d22c65f3140c40210c11a920",
+      "version": "3.203.0",
+      "sha256": "40c81254f626cafd3f1b7f8a517fc5b659bf07c80ccb16fcea15907452c82cfb",
+      "cdhash": "de699bb7af9b68599f8f1f59274c7d574d24ebdf",
       "signingId": "HKF9BXSN95:org.standardnotes.standardnotes",
       "teamId": "HKF9BXSN95",
-      "lastUpdated": "2026-10-27T07:49:27Z"
+      "lastUpdated": "2026-11-19T07:29:42Z"
     },
     {
       "slug": "standard-notes/windows",
@@ -13729,12 +13739,12 @@
     {
       "slug": "tuple/darwin",
       "name": "Tuple",
-      "version": "3.4.1",
-      "sha256": "538f82e9477d35903d9dce140f1218bd7eb2453963078f1157e4eb85e781b977",
-      "cdhash": "e23114ba09b823d7b2158c1e4bb87b3fc2a5e144",
+      "version": "3.4.2",
+      "sha256": "ac879a3bb64103f5f32ab8eacfb31532b0a1cd895b085ece0f69a7e7aeb2436d",
+      "cdhash": "3e3c3b0550c97769960e046693ec164d3e6e22ad",
       "signingId": "DQYU7DR9Q7:app.tuple.app",
       "teamId": "DQYU7DR9Q7",
-      "lastUpdated": "2026-11-17T00:30:52Z"
+      "lastUpdated": "2026-11-19T07:30:06Z"
     },
     {
       "slug": "twine-app/darwin",
@@ -13998,12 +14008,12 @@
     {
       "slug": "vellum/darwin",
       "name": "Vellum",
-      "version": "4.2.1",
-      "sha256": "f2f4d0a393ceaccca3917c509b713baa7f21969932a83b7918e8c6cc7b6985a3",
-      "cdhash": "2f5d4ab7c9827f9f0cd235087036a760dbfff63a",
+      "version": "4.2.2",
+      "sha256": "e28be4516ce6623537cf82e1a38973ec81bdef837bd4e35e8a7bfc68b7d0dea5",
+      "cdhash": "6749b54e516e6a202bdd339fe0e527acaa46c2da",
       "signingId": "5KKYLJ96NW:co.180g.Vellum",
       "teamId": "5KKYLJ96NW",
-      "lastUpdated": "2026-11-06T08:10:37Z"
+      "lastUpdated": "2026-11-19T07:30:31Z"
     },
     {
       "slug": "vernier-spectral-analysis/darwin",
@@ -14768,12 +14778,12 @@
     {
       "slug": "wireshark-app/darwin",
       "name": "Wireshark",
-      "version": "4.6.9",
-      "sha256": "4612a63c24c2865a26734a9321cf2d3874a26b4a5129a24f409952f8af26cc85",
-      "cdhash": "d92cda9707eb19303ec9196c8f5b1135fce4010e",
+      "version": "4.6.10",
+      "sha256": "207aa8ff0c80ce01a8e219209a9d829eaf0acacb78ca77b3fbec0f23a5a6a011",
+      "cdhash": "11bb7dfabb9aa040f15e6e651e708d521d434691",
       "signingId": "7Z6EMTD2C6:org.wireshark.Wireshark",
       "teamId": "7Z6EMTD2C6",
-      "lastUpdated": "2026-09-24T07:43:08Z"
+      "lastUpdated": "2026-11-19T07:30:56Z"
     },
     {
       "slug": "wireshark/windows",
@@ -15114,12 +15124,12 @@
     {
       "slug": "zed/darwin",
       "name": "Zed",
-      "version": "1.29.1",
-      "sha256": "d2b711027276e7c860a02b6c1836db3b373d3661d57dadda652e35264ce52261",
-      "cdhash": "ef9c48ef704145d9dec72d7c08f274cbbeea5a80",
+      "version": "1.29.2",
+      "sha256": "18448d5157ec3ccf2b5ad381fce2aa1abdde52478a7f1a5fdc3265fed49ff1c0",
+      "cdhash": "a87adb28f2b3d4afb4da7524d42a89e72ec687c6",
       "signingId": "MQ55VZLNZQ:dev.zed.Zed",
       "teamId": "MQ55VZLNZQ",
-      "lastUpdated": "2026-11-19T01:17:27Z"
+      "lastUpdated": "2026-11-19T07:31:28Z"
     },
     {
       "slug": "zed/windows",
@@ -15148,12 +15158,12 @@
     {
       "slug": "zen/darwin",
       "name": "Zen Browser",
-      "version": "1.24.2b",
-      "sha256": "573481fbb9ddc6549993f9184aeb44d18b150b0f0d4873fde1586aedaf29e3d5",
-      "cdhash": "d67b70d6e3ef2811fe015a840958c2249ddd5ccb",
+      "version": "1.24.3b",
+      "sha256": "8bf64231a8d30fe3b7ca5c3bc3e5809670ff5cc808b6971a37a4117ba512598d",
+      "cdhash": "5b11110be0be41806a892c6448b038b5eb0876b8",
       "signingId": "9V5K9TP787:app.zen-browser.zen",
       "teamId": "9V5K9TP787",
-      "lastUpdated": "2026-11-12T15:59:50Z"
+      "lastUpdated": "2026-11-19T07:31:53Z"
     },
     {
       "slug": "zeplin/darwin",
