@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-19T00:01:58Z",
+  "lastUpdated": "2026-11-19T00:04:49Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -260,14 +260,14 @@
     {
       "slug": "adobe-acrobat-reader/windows",
       "name": "Adobe Acrobat Reader",
-      "version": "26.003.22075",
-      "sha256": "7bec66953457f6bc78bce9f0a1dcdde1c4cf2a8f8ac26f73fcecf5738f42f307",
+      "version": "26.003.22110",
+      "sha256": "345617baf5eadb2bedddf6ab485085385fef9e81f742957167b20f61e3a44f9f",
       "publisher": "CN=Adobe Inc., OU=Acrobat DC, O=Adobe Inc., L=San Jose, S=ca, C=US, SERIALNUMBER=2748129, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0E848EA39B36D7BB533CF43D96D6E13E",
       "thumbprint": "BF7153FEEFC282B9F1D11CEC997EC01AD76F6693",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-11-03T21:51:49Z"
+      "lastUpdated": "2026-11-19T00:02:21Z"
     },
     {
       "slug": "adobe-creative-cloud/darwin",
@@ -1051,14 +1051,14 @@
     {
       "slug": "aptakube/windows",
       "name": "Aptakube",
-      "version": "1.22.3",
-      "sha256": "70ce04301d987098849f3db50cd15fcfb96f8fd52798d5787f3a4f0b0a8a5a7e",
+      "version": "1.23.0",
+      "sha256": "454c1eb5bf679e88b7ac16702b1199f1a9862e8dbe0b93022bed564917f7d176",
       "publisher": "CN=Zandar Labs SL, O=Zandar Labs SL, S=Alicante, C=ES, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=ES, SERIALNUMBER=B22969513",
       "issuer": "CN=Sectigo Public Code Signing CA EV R36, O=Sectigo Limited, C=GB",
       "serialNumber": "1DF4D4810494636285589CE5243A4A87",
       "thumbprint": "5A5C1C713A4AA79DDED47BE4C92087AEE2E43C46",
       "timestamp": "CN=Sectigo Public Time Stamping Signer R37, O=Sectigo Limited, S=Greater London, C=GB",
-      "lastUpdated": "2026-11-04T22:52:34Z"
+      "lastUpdated": "2026-11-19T00:02:33Z"
     },
     {
       "slug": "arc/darwin",
@@ -1127,14 +1127,14 @@
     {
       "slug": "asana/windows",
       "name": "Asana",
-      "version": "2.11.0",
-      "sha256": "de717f4ddfdbfb9bfb4dbe5d0f03c83faa40e06b6aaa460263507a5352e7e2b9",
+      "version": "2.11.1",
+      "sha256": "10d34b1c37880fce583bd23ef8b0568e412eb04c8994e36e6beb151d3108fe66",
       "publisher": "CN=Asana, O=Asana, L=San Francisco, S=California, C=US",
-      "issuer": "CN=Microsoft ID Verified CS EOC CA 04, O=Microsoft Corporation, C=US",
-      "serialNumber": "330009A9E29CE0BC6B6B63C4F100000009A9E2",
-      "thumbprint": "57762655BCB60E8C8214D618A435CB2156E9A731",
-      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7D00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-11-13T19:50:10Z"
+      "issuer": "CN=Microsoft ID Verified CS AOC CA 04, O=Microsoft Corporation, C=US",
+      "serialNumber": "33000C4BBD5FE7856D13209D120000000C4BBD",
+      "thumbprint": "ADB604A52165ECDD325CA86210FB7A09E3470FC7",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7800-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-11-19T00:02:39Z"
     },
     {
       "slug": "asset-catalog-tinkerer/darwin",
@@ -1263,9 +1263,9 @@
     {
       "slug": "aws-sam-cli/windows",
       "name": "AWS SAM Command Line Interface",
-      "version": "1.172.1",
-      "sha256": "ec99023bd6bc4f4a6e37dab422be8f68f2ce1f69304fe09614ffe04c69f52bf4",
-      "lastUpdated": "2026-11-12T06:50:38Z"
+      "version": "1.173.0",
+      "sha256": "335f85a60659694aa43bc5f7c4801884403cf9361025a757c6607076dd2141fc",
+      "lastUpdated": "2026-11-19T00:03:36Z"
     },
     {
       "slug": "aws-session-manager-plugin/windows",
@@ -1505,14 +1505,14 @@
     {
       "slug": "beekeeper-studio/windows",
       "name": "Beekeeper Studio",
-      "version": "6.3.0",
-      "sha256": "529f8eb489f671d5cc8da5a111f861b2c25390293fc034f1ff4534ac82cb2352",
+      "version": "6.3.2",
+      "sha256": "2c122065d930dc2da6d76d6ae7090ec4ae94ee61141eac51942394046e46f864",
       "publisher": "CN=\"Beekeeper Studio, Inc\", O=\"Beekeeper Studio, Inc\", S=Texas, C=US, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=4754116",
       "issuer": "CN=Sectigo Public Code Signing CA EV R36, O=Sectigo Limited, C=GB",
       "serialNumber": "00F886AC62A3A5E878441ECAE558687487",
       "thumbprint": "3055C054FC29B95361A6FB1D820131FEDDC2B4C6",
       "timestamp": "CN=Sectigo Public Time Stamping Signer R37, O=Sectigo Limited, S=Greater London, C=GB",
-      "lastUpdated": "2026-11-17T08:07:33Z"
+      "lastUpdated": "2026-11-19T00:03:50Z"
     },
     {
       "slug": "beeper/darwin",
@@ -2289,14 +2289,14 @@
     {
       "slug": "chatbox/windows",
       "name": "Chatbox",
-      "version": "1.24.5",
-      "sha256": "c68dfa9b2abd5d8bbcfef0ab330e08ffac450bc361996d9fe83fc43e3a5f1813",
+      "version": "1.24.6",
+      "sha256": "4944455be2ed0e7814b51050266c5ec6da55bbf556248bdad0cc2ad8eb2ce0e1",
       "publisher": "CN=\"Mediocre, LLC\", O=\"Mediocre, LLC\", L=NEWARK, S=DELAWARE, C=US, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=10053229, OID.2.5.4.15=Private Organization",
       "issuer": "CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
       "serialNumber": "44700F2E934C58424E9B6606",
       "thumbprint": "5DEDBB1C58FED1BB8FDE1DD6A807C931394AEF7D",
       "timestamp": "CN=Globalsign R45 TSA for CodeSign 202610, O=GlobalSign nv-sa, C=BE",
-      "lastUpdated": "2026-11-18T18:11:50Z"
+      "lastUpdated": "2026-11-19T00:03:56Z"
     },
     {
       "slug": "chatgpt-atlas/darwin",
@@ -3050,14 +3050,14 @@
     {
       "slug": "cribl-edge/windows",
       "name": "Cribl Edge",
-      "version": "4.20.4",
-      "sha256": "12980212df93fd036310f7608b70462c62bab14f6942b6b29a26a9e8c62bc8c8",
+      "version": "4.21.0",
+      "sha256": "b0ea9b7a91ea8489ecff86363401ccb50226916bf2c550ea0ddc0201a64a1228",
       "publisher": "CN=\"Cribl, Inc.\", O=\"Cribl, Inc.\", L=San Francisco, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0F0E505E2A11A47752E7C5560814C193",
       "thumbprint": "2389B2ACC11401E2E5B57BC5D5A460FCCC8C6270",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-10-29T10:12:40Z"
+      "lastUpdated": "2026-11-19T00:04:34Z"
     },
     {
       "slug": "crisisgo/windows",
@@ -3094,14 +3094,14 @@
     {
       "slug": "cryptomator/windows",
       "name": "Cryptomator",
-      "version": "1.19.6",
-      "sha256": "9a2d7b695839ddd651138c96799ffecf1c5301a685e186ae9658ea3744830f08",
+      "version": "1.19.7",
+      "sha256": "fdd0c45d2c510ed3fabc7ce09c68ed7203e7307d441ffba135282548c1ce31bb",
       "publisher": "CN=Skymatic GmbH, O=Skymatic GmbH, L=Bonn, C=DE",
-      "issuer": "CN=Microsoft ID Verified CS EOC CA 03, O=Microsoft Corporation, C=US",
-      "serialNumber": "3300099A4A08C5281C5CBBD642000000099A4A",
-      "thumbprint": "C0F1E9D2FEAED456C8DB138E1753CD7ADD1CB484",
-      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:A500-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-10-31T07:17:26Z"
+      "issuer": "CN=Microsoft ID Verified CS AOC CA 04, O=Microsoft Corporation, C=US",
+      "serialNumber": "33000C4C796E1D1A91DAB6B0290000000C4C79",
+      "thumbprint": "B6EA7551219638742BF6FF9A40594B5DD228737F",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:7A00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-11-19T00:04:42Z"
     },
     {
       "slug": "crystaldiskmark/windows",
@@ -4015,14 +4015,14 @@
     {
       "slug": "dotpeek/windows",
       "name": "dotPeek",
-      "version": "2026.3",
-      "sha256": "386d7e737ab9f7d54d80e04540302f49d5a28d2e9c937ee286437b18bd0c28c6",
+      "version": "2026.3.0.1",
+      "sha256": "956098286d11529ddb921f709418a9698fdb94960cab052c58ef635137bcedee",
       "publisher": "CN=JetBrains s.r.o., O=JetBrains s.r.o., L=Prague, C=CZ, SERIALNUMBER=26502275, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CZ",
       "issuer": "CN=DigiCert Trusted G4 Code Signing Europe RSA4096 SHA384 2023 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "083EA13884BDFFCE8E5D9D5CAD2EFBDE",
       "thumbprint": "8C1B506D0BD10A911D09FB7EDBCAB383F1CDAF20",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-11-11T10:24:22Z"
+      "lastUpdated": "2026-11-19T00:04:49Z"
     },
     {
       "slug": "dottrace/windows",
