@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20T17:37:50Z",
+  "lastUpdated": "2026-11-20T23:46:44Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -580,7 +580,7 @@
       "name": "Android Studio",
       "platform": "darwin",
       "version": "2026.2",
-      "installerUrl": "https://edgedl.me.gvt1.com/android/studio/install/2026.2.2.9/android-studio-rabbit2-patch1-mac_arm.dmg"
+      "installerUrl": "https://edgedl.me.gvt1.com/android/studio/install/2026.2.2.10/android-studio-rabbit2-patch2-mac_arm.dmg"
     },
     {
       "slug": "android-studio/windows",
@@ -621,8 +621,8 @@
       "slug": "antigravity-ide/windows",
       "name": "Google Antigravity IDE",
       "platform": "windows",
-      "version": "2.7.0",
-      "installerUrl": "https://edgedl.me.gvt1.com/edgedl/release2/j0qc3/antigravity/stable/2.7.0-4507555968450560/windows-x64/Antigravity%20IDE.exe"
+      "version": "2.8.0",
+      "installerUrl": "https://edgedl.me.gvt1.com/edgedl/release2/j0qc3/antigravity/stable/2.8.0-6733682917113856/windows-x64/Antigravity%20IDE.exe"
     },
     {
       "slug": "antigravity/darwin",
@@ -859,8 +859,8 @@
       "slug": "aws-sam-cli/windows",
       "name": "AWS SAM Command Line Interface",
       "platform": "windows",
-      "version": "1.173.0",
-      "installerUrl": "https://github.com/aws/aws-sam-cli/releases/download/v1.173.0/AWS_SAM_CLI_64_PY3.msi"
+      "version": "1.174.0",
+      "installerUrl": "https://github.com/aws/aws-sam-cli/releases/download/v1.174.0/AWS_SAM_CLI_64_PY3.msi"
     },
     {
       "slug": "aws-session-manager-plugin/windows",
@@ -1034,8 +1034,8 @@
       "slug": "beeper/darwin",
       "name": "Beeper",
       "platform": "darwin",
-      "version": "4.3.334",
-      "installerUrl": "https://beeper-desktop.download.beeper.com/builds/Beeper-4.3.334-arm64-mac.zip"
+      "version": "4.3.340",
+      "installerUrl": "https://beeper-desktop.download.beeper.com/builds/Beeper-4.3.340-arm64-mac.zip"
     },
     {
       "slug": "betterdisplay/darwin",
@@ -1055,8 +1055,8 @@
       "slug": "bettertouchtool/darwin",
       "name": "BetterTouchTool",
       "platform": "darwin",
-      "version": "6.1152",
-      "installerUrl": "https://folivora.ai/releases/btt6.1152-2026111309.zip"
+      "version": "6.1161",
+      "installerUrl": "https://folivora.ai/releases/btt6.1161-2026112001.zip"
     },
     {
       "slug": "betterzip/darwin",
@@ -1139,15 +1139,15 @@
       "slug": "bitwarden/darwin",
       "name": "Bitwarden",
       "platform": "darwin",
-      "version": "2026.10.4",
-      "installerUrl": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.10.4/Bitwarden-2026.10.4-universal.dmg"
+      "version": "2026.11.0",
+      "installerUrl": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.11.0/bit-Bitwarden-2026.11.0-universal.dmg"
     },
     {
       "slug": "bitwarden/windows",
       "name": "Bitwarden",
       "platform": "windows",
-      "version": "2026.10.4",
-      "installerUrl": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.10.4/Bitwarden-Installer-2026.10.4.exe"
+      "version": "2026.11.0",
+      "installerUrl": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.11.0/bit-Bitwarden-Installer-2026.11.0.exe"
     },
     {
       "slug": "bitwig-studio/darwin",
@@ -1300,8 +1300,8 @@
       "slug": "brave-browser/darwin",
       "name": "Brave",
       "platform": "darwin",
-      "version": "157.1.99.57",
-      "installerUrl": "https://updates-cdn.bravesoftware.com/sparkle/Brave-Browser/stable-arm64/199.57/Brave-Browser-arm64.dmg"
+      "version": "158.1.100.58",
+      "installerUrl": "https://updates-cdn.bravesoftware.com/sparkle/Brave-Browser/stable-arm64/200.58/Brave-Browser-arm64.dmg"
     },
     {
       "slug": "brave-browser/windows",
@@ -1566,15 +1566,15 @@
       "slug": "chatgpt/darwin",
       "name": "ChatGPT Desktop",
       "platform": "darwin",
-      "version": "26.1111.71704",
-      "installerUrl": "https://persistent.oaistatic.com/codex-app-prod/ChatGPT-darwin-arm64-26.1111.71704.zip"
+      "version": "26.1117.31558",
+      "installerUrl": "https://persistent.oaistatic.com/codex-app-prod/ChatGPT-darwin-arm64-26.1117.31558.zip"
     },
     {
       "slug": "chatgpt/windows",
       "name": "ChatGPT Desktop",
       "platform": "windows",
-      "version": "26.1111.9664.0",
-      "installerUrl": "https://persistent.oaistatic.com/codex-app-prod/releases/26.1111.9664.0/ChatGPT-x64.msix"
+      "version": "26.1117.3838.0",
+      "installerUrl": "https://persistent.oaistatic.com/codex-app-prod/releases/26.1117.3838.0/ChatGPT-x64.msix"
     },
     {
       "slug": "chatwise/darwin",
@@ -1668,11 +1668,25 @@
       "installerUrl": "https://welcome.webex.com/client/T33L/atrecply.msi"
     },
     {
+      "slug": "citrix-workspace-ltsr/windows",
+      "name": "Citrix Workspace LTSR",
+      "platform": "windows",
+      "version": "26.7.1.4",
+      "installerUrl": "https://downloadplugins.citrix.com/ReceiverUpdates/Prod/Receiver/Win/CitrixWorkspaceApp_x64_26.7.1.4.exe"
+    },
+    {
       "slug": "citrix-workspace/darwin",
       "name": "Citrix Workspace",
       "platform": "darwin",
       "version": "26.09.0",
       "installerUrl": "https://downloadplugins.citrix.com/ReceiverUpdates/Prod/Receiver/Mac/CitrixWorkspaceAppUniversal26.09.0.17.pkg"
+    },
+    {
+      "slug": "citrix-workspace/windows",
+      "name": "Citrix Workspace",
+      "platform": "windows",
+      "version": "26.10.0.31",
+      "installerUrl": "https://downloadplugins.citrix.com/ReceiverUpdates/Prod/Receiver/Win/CitrixWorkspaceApp_x64_26.10.0.31.exe"
     },
     {
       "slug": "claude-arm64/windows",
@@ -1692,8 +1706,8 @@
       "slug": "claude/darwin",
       "name": "Claude",
       "platform": "darwin",
-      "version": "6.6395.1",
-      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/6.6395.1/Claude-8fc566f7b97e371bae421fc79c260de86c6a4106.zip"
+      "version": "6.28899.2",
+      "installerUrl": "https://downloads.claude.ai/releases/darwin/universal/6.28899.2/Claude-155ca43c0ad5a4bd5734795688543b65b464cf47.zip"
     },
     {
       "slug": "claude/windows",
@@ -1818,8 +1832,8 @@
       "slug": "clop/darwin",
       "name": "Clop",
       "platform": "darwin",
-      "version": "3.7.5",
-      "installerUrl": "https://files.lowtechguys.com/releases/Clop-3.7.5.dmg"
+      "version": "3.7.6",
+      "installerUrl": "https://files.lowtechguys.com/releases/Clop-3.7.6.dmg"
     },
     {
       "slug": "cloudflare-warp/darwin",
@@ -2385,8 +2399,8 @@
       "slug": "dbvisualizer/windows",
       "name": "DbVisualizer",
       "platform": "windows",
-      "version": "26.2.5",
-      "installerUrl": "https://www.dbvis.com/product_download/dbvis-26.2.5/media/dbvis_windows-x64_26_2_5_jre.exe"
+      "version": "26.3",
+      "installerUrl": "https://www.dbvis.com/product_download/dbvis-26.3/media/dbvis_windows-x64_26_3_jre.exe"
     },
     {
       "slug": "dcv-viewer/darwin",
@@ -2924,15 +2938,15 @@
       "slug": "eclipse-temurin-jdk-17/windows",
       "name": "Eclipse Temurin JDK 17",
       "platform": "windows",
-      "version": "17.0.21.9",
-      "installerUrl": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21+9/OpenJDK17U-jdk_x64_windows_hotspot_17.0.21_9.msi"
+      "version": "17.0.21.10002",
+      "installerUrl": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21.1+2/OpenJDK17U-jdk_x64_windows_hotspot_17.0.21.1_2.msi"
     },
     {
       "slug": "eclipse-temurin-jdk-21/windows",
       "name": "Eclipse Temurin JDK 21",
       "platform": "windows",
-      "version": "21.0.13.9",
-      "installerUrl": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13+9/OpenJDK21U-jdk_x64_windows_hotspot_21.0.13_9.msi"
+      "version": "21.0.13.10002",
+      "installerUrl": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13.1+2/OpenJDK21U-jdk_x64_windows_hotspot_21.0.13.1_2.msi"
     },
     {
       "slug": "eclipse-temurin-jdk-8/windows",
@@ -2952,15 +2966,15 @@
       "slug": "eclipse-temurin-jre-17/windows",
       "name": "Eclipse Temurin JRE 17",
       "platform": "windows",
-      "version": "17.0.21.9",
-      "installerUrl": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21+9/OpenJDK17U-jre_x64_windows_hotspot_17.0.21_9.msi"
+      "version": "17.0.21.10002",
+      "installerUrl": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21.1+2/OpenJDK17U-jre_x64_windows_hotspot_17.0.21.1_2.msi"
     },
     {
       "slug": "eclipse-temurin-jre-21/windows",
       "name": "Eclipse Temurin JRE 21",
       "platform": "windows",
-      "version": "21.0.13.9",
-      "installerUrl": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13+9/OpenJDK21U-jre_x64_windows_hotspot_21.0.13_9.msi"
+      "version": "21.0.13.10002",
+      "installerUrl": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13.1+2/OpenJDK21U-jre_x64_windows_hotspot_21.0.13.1_2.msi"
     },
     {
       "slug": "eclipse-temurin-jre-8/windows",
@@ -3407,8 +3421,8 @@
       "slug": "firefox@nightly/darwin",
       "name": "Mozilla Firefox Nightly",
       "platform": "darwin",
-      "version": "162.0a1",
-      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/11/2026-11-19-09-16-29-mozilla-central/firefox-162.0a1.en-US.mac.dmg"
+      "version": "163.0a1",
+      "installerUrl": "https://ftp.mozilla.org/pub/firefox/nightly/2026/11/2026-11-20-09-47-25-mozilla-central/firefox-163.0a1.en-US.mac.dmg"
     },
     {
       "slug": "firefox@nightly/windows",
@@ -3743,8 +3757,8 @@
       "slug": "git-arm64/windows",
       "name": "Git (ARM64)",
       "platform": "windows",
-      "version": "2.56.0.4",
-      "installerUrl": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.4/Git-2.56.0.4-arm64.exe"
+      "version": "2.56.1",
+      "installerUrl": "https://github.com/git-for-windows/git/releases/download/v2.56.1.windows.1/Git-2.56.1-arm64.exe"
     },
     {
       "slug": "git-extensions/windows",
@@ -3757,8 +3771,8 @@
       "slug": "git/windows",
       "name": "Git",
       "platform": "windows",
-      "version": "2.56.0.4",
-      "installerUrl": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.4/Git-2.56.0.4-64-bit.exe"
+      "version": "2.56.1",
+      "installerUrl": "https://github.com/git-for-windows/git/releases/download/v2.56.1.windows.1/Git-2.56.1-64-bit.exe"
     },
     {
       "slug": "gitfinder/darwin",
@@ -3988,7 +4002,7 @@
       "slug": "google-gemini/darwin",
       "name": "Google Gemini",
       "platform": "darwin",
-      "version": "1.144.4.1467",
+      "version": "1.147.5.1526",
       "installerUrl": "https://dl.google.com/release2/j33ro/release/Gemini.dmg"
     },
     {
@@ -4191,8 +4205,8 @@
       "slug": "hey-desktop/darwin",
       "name": "HEY",
       "platform": "darwin",
-      "version": "1.3.9",
-      "installerUrl": "https://hey.com/desktop/HEY-1.3.9-arm64-mac.zip"
+      "version": "1.3.10",
+      "installerUrl": "https://hey.com/desktop/HEY-1.3.10-arm64-mac.zip"
     },
     {
       "slug": "hiddenbar/darwin",
@@ -4366,8 +4380,8 @@
       "slug": "ibm-semeru-jre-8/windows",
       "name": "IBM Semeru Runtime Open Edition JRE 8",
       "platform": "windows",
-      "version": "8.0.504.5",
-      "installerUrl": "https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk-8.0.504.5/ibm-semeru-open-jre_x64_windows_8.0.504.5.msi"
+      "version": "8.0.512.0",
+      "installerUrl": "https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk-8.0.512.0/ibm-semeru-open-jre_x64_windows_8.0.512.0.msi"
     },
     {
       "slug": "icon-composer/darwin",
@@ -5150,15 +5164,15 @@
       "slug": "loom/darwin",
       "name": "Loom",
       "platform": "darwin",
-      "version": "0.386.0",
-      "installerUrl": "https://packages.loom.com/desktop-packages/Loom-0.386.0-arm64.dmg"
+      "version": "0.387.0",
+      "installerUrl": "https://packages.loom.com/desktop-packages/Loom-0.387.0-arm64.dmg"
     },
     {
       "slug": "loom/windows",
       "name": "Loom",
       "platform": "windows",
-      "version": "0.386.0",
-      "installerUrl": "https://cdn.loom.com/desktop-packages/Loom%20Setup%200.386.0.exe"
+      "version": "0.387.0",
+      "installerUrl": "https://cdn.loom.com/desktop-packages/Loom%20Setup%200.387.0.exe"
     },
     {
       "slug": "loop/darwin",
@@ -5808,15 +5822,15 @@
       "slug": "mongodb-compass/darwin",
       "name": "MongoDB Compass",
       "platform": "darwin",
-      "version": "1.53.2",
-      "installerUrl": "https://downloads.mongodb.com/compass/mongodb-compass-1.53.2-darwin-arm64.dmg"
+      "version": "1.53.3",
+      "installerUrl": "https://downloads.mongodb.com/compass/mongodb-compass-1.53.3-darwin-arm64.dmg"
     },
     {
       "slug": "mongodb-compass/windows",
       "name": "MongoDB Compass",
       "platform": "windows",
-      "version": "1.53.2.0",
-      "installerUrl": "https://github.com/mongodb-js/compass/releases/download/v1.53.2/mongodb-compass-1.53.2-win32-x64.msi"
+      "version": "1.53.3.0",
+      "installerUrl": "https://github.com/mongodb-js/compass/releases/download/v1.53.3/mongodb-compass-1.53.3-win32-x64.msi"
     },
     {
       "slug": "monitorcontrol/darwin",
@@ -5922,6 +5936,13 @@
       "platform": "darwin",
       "version": "2026.5",
       "installerUrl": "https://cdn.mullvad.net/app/desktop/releases/2026.5/MullvadVPN-2026.5.pkg"
+    },
+    {
+      "slug": "mullvad-vpn/windows",
+      "name": "Mullvad VPN",
+      "platform": "windows",
+      "version": "2026.5",
+      "installerUrl": "https://github.com/mullvad/mullvadvpn-app/releases/download/2026.5/MullvadVPN-2026.5_x64.exe"
     },
     {
       "slug": "multitouch/darwin",
@@ -6109,8 +6130,8 @@
       "slug": "nodejs-24/windows",
       "name": "Node.js 24",
       "platform": "windows",
-      "version": "24.22.1",
-      "installerUrl": "https://nodejs.org/dist/v24.22.1/node-v24.22.1-x64.msi"
+      "version": "24.22.3",
+      "installerUrl": "https://nodejs.org/dist/v24.22.3/node-v24.22.3-x64.msi"
     },
     {
       "slug": "nodejs/windows",
@@ -6228,15 +6249,15 @@
       "slug": "notion/darwin",
       "name": "Notion",
       "platform": "darwin",
-      "version": "7.44.0",
-      "installerUrl": "https://desktop-release.notion-static.com/Notion-7.44.0-arm64.dmg"
+      "version": "7.44.1",
+      "installerUrl": "https://desktop-release.notion-static.com/Notion-7.44.1-arm64.dmg"
     },
     {
       "slug": "notion/windows",
       "name": "Notion",
       "platform": "windows",
-      "version": "7.44.0",
-      "installerUrl": "https://desktop-release.notion-static.com/Notion%20Setup%207.44.0.exe"
+      "version": "7.44.1",
+      "installerUrl": "https://desktop-release.notion-static.com/Notion%20Setup%207.44.1.exe"
     },
     {
       "slug": "notunes/darwin",
@@ -6326,8 +6347,8 @@
       "slug": "obs/windows",
       "name": "OBS",
       "platform": "windows",
-      "version": "33.0.0",
-      "installerUrl": "https://github.com/obsproject/obs-studio/releases/download/33.0.0/OBS-Studio-33.0.0-Windows-x64-Installer.exe"
+      "version": "33.0.1",
+      "installerUrl": "https://github.com/obsproject/obs-studio/releases/download/33.0.1/OBS-Studio-33.0.1-Windows-x64-Installer.exe"
     },
     {
       "slug": "obsidian/darwin",
@@ -6673,6 +6694,13 @@
       "installerUrl": "https://download.parallels.com/desktop/v27/27.1.0-58756/ParallelsDesktop-27.1.0-58756.dmg"
     },
     {
+      "slug": "parsec/darwin",
+      "name": "Parsec",
+      "platform": "darwin",
+      "version": "150.101.1",
+      "installerUrl": "https://builds.parsec.app/package/parsec-macos.pkg"
+    },
+    {
       "slug": "pastebot/darwin",
       "name": "Pastebot",
       "platform": "darwin",
@@ -6977,8 +7005,8 @@
       "slug": "postman/windows",
       "name": "Postman",
       "platform": "windows",
-      "version": "12.37.3",
-      "installerUrl": "https://dl.pstmn.io/download/version/12.37.3/windows_64"
+      "version": "12.37.4",
+      "installerUrl": "https://dl.pstmn.io/download/version/12.37.4/windows_64"
     },
     {
       "slug": "power-automate/windows",
@@ -7047,15 +7075,15 @@
       "slug": "preform/darwin",
       "name": "PreForm",
       "platform": "darwin",
-      "version": "3.65.0",
-      "installerUrl": "https://downloads.formlabs.com/PreForm/Release/3.65.0/PreForm_mac_3.65.0_release_releaser_671_165481.dmg"
+      "version": "3.65.1",
+      "installerUrl": "https://downloads.formlabs.com/PreForm/Release/3.65.1/PreForm_mac_3.65.1_release_releaser_672_166012.dmg"
     },
     {
       "slug": "preform/windows",
       "name": "PreForm",
       "platform": "windows",
-      "version": "3.65.0.671",
-      "installerUrl": "https://downloads.formlabs.com/PreForm/Release/3.65.0/PreForm_win_3.65.0_release_releaser_671_140011.exe"
+      "version": "3.65.1.672",
+      "installerUrl": "https://downloads.formlabs.com/PreForm/Release/3.65.1/PreForm_win_3.65.1_release_releaser_672_140371.exe"
     },
     {
       "slug": "principle/darwin",
@@ -7075,15 +7103,15 @@
       "slug": "prisma-browser/darwin",
       "name": "Prisma Browser",
       "platform": "darwin",
-      "version": "157.19.6.79",
-      "installerUrl": "https://updates.talon-sec.com/releases/Prisma%20Access%20Browser/mac/packaged/universal/Prisma%20Access%20Browser-157.19.6.79-3df06572.pkg"
+      "version": "158.19.3.37",
+      "installerUrl": "https://updates.talon-sec.com/releases/Prisma%20Access%20Browser/mac/packaged/universal/Prisma%20Access%20Browser-158.19.3.37-e38426ec.pkg"
     },
     {
       "slug": "prisma-browser/windows",
       "name": "Prisma Browser",
       "platform": "windows",
-      "version": "157.19.6.79",
-      "installerUrl": "https://updates.talon-sec.com/releases/Prisma%20Access%20Browser/win/packaged/x64/crx_signed_o4_stable_prisma_access_browser_installer_157_19_6_79-157.19.6.79-b1ca3351.msi"
+      "version": "158.19.3.37",
+      "installerUrl": "https://updates.talon-sec.com/releases/Prisma%20Access%20Browser/win/packaged/x64/crx_signed_o4_stable_prisma_access_browser_installer_158_19_3_37-158.19.3.37-2b9ddfed.msi"
     },
     {
       "slug": "pritunl/darwin",
@@ -7516,8 +7544,8 @@
       "slug": "rectangle/darwin",
       "name": "Rectangle",
       "platform": "darwin",
-      "version": "2.0.4",
-      "installerUrl": "https://github.com/rxhanson/Rectangle/releases/download/v2.0.4/Rectangle2.0.4.dmg"
+      "version": "2.0.5",
+      "installerUrl": "https://github.com/rxhanson/Rectangle/releases/download/v2.0.5/Rectangle2.0.5.dmg"
     },
     {
       "slug": "recut/darwin",
@@ -7586,15 +7614,15 @@
       "slug": "reqable/darwin",
       "name": "Reqable",
       "platform": "darwin",
-      "version": "3.3.13",
-      "installerUrl": "https://github.com/reqable/reqable-app/releases/download/3.3.13/reqable-app-macos-arm64.dmg"
+      "version": "3.3.14",
+      "installerUrl": "https://github.com/reqable/reqable-app/releases/download/3.3.14/reqable-app-macos-arm64.dmg"
     },
     {
       "slug": "reqable/windows",
       "name": "Reqable",
       "platform": "windows",
-      "version": "3.3.13",
-      "installerUrl": "https://github.com/reqable/reqable-app/releases/download/3.3.13/reqable-app-windows-x86_64.exe"
+      "version": "3.3.14",
+      "installerUrl": "https://github.com/reqable/reqable-app/releases/download/3.3.14/reqable-app-windows-x86_64.exe"
     },
     {
       "slug": "requestly/darwin",
@@ -7733,8 +7761,8 @@
       "slug": "rowel/darwin",
       "name": "Rowel",
       "platform": "darwin",
-      "version": "1.1.1",
-      "installerUrl": "https://github.com/fwdai/rowel/releases/download/v1.1.1/Rowel_1.1.1_universal.dmg"
+      "version": "1.1.2",
+      "installerUrl": "https://github.com/fwdai/rowel/releases/download/v1.1.2/Rowel_1.1.2_universal.dmg"
     },
     {
       "slug": "royal-tsx/darwin",
@@ -8699,8 +8727,8 @@
       "slug": "t3-code/darwin",
       "name": "T3 Code",
       "platform": "darwin",
-      "version": "0.1.10",
-      "installerUrl": "https://github.com/pingdotgg/t3code/releases/download/v0.1.10/T3-Code-0.1.10-arm64.dmg"
+      "version": "0.1.11",
+      "installerUrl": "https://github.com/pingdotgg/t3code/releases/download/v0.1.11/T3-Code-0.1.11-arm64.dmg"
     },
     {
       "slug": "tabby/darwin",
@@ -8776,8 +8804,8 @@
       "slug": "taskade/darwin",
       "name": "Taskade",
       "platform": "darwin",
-      "version": "4.7.0",
-      "installerUrl": "https://apps.taskade.com/updates/Taskade-4.7.0-universal.dmg"
+      "version": "4.7.3",
+      "installerUrl": "https://apps.taskade.com/updates/Taskade-4.7.3-universal.dmg"
     },
     {
       "slug": "taskbar/darwin",
@@ -9175,8 +9203,8 @@
       "slug": "twingate/windows",
       "name": "Twingate",
       "platform": "windows",
-      "version": "20.26.280.8833",
-      "installerUrl": "https://binaries.twingate.com/client/windows/versions/2026.280.8833/TwingateWindowsInstaller.msi"
+      "version": "20.26.302.9964",
+      "installerUrl": "https://binaries.twingate.com/client/windows/versions/2026.302.9964/TwingateWindowsInstaller.msi"
     },
     {
       "slug": "twobird/darwin",
@@ -9350,8 +9378,8 @@
       "slug": "versions/darwin",
       "name": "Versions",
       "platform": "darwin",
-      "version": "3.0.3",
-      "installerUrl": "https://updates.versionsapp.com/v3/prod/Versions-3.0.3-3007.zip"
+      "version": "3.0.4",
+      "installerUrl": "https://updates.versionsapp.com/v3/prod/Versions-3.0.4-3010.zip"
     },
     {
       "slug": "via/darwin",
@@ -9462,15 +9490,15 @@
       "slug": "vivaldi/darwin",
       "name": "Vivaldi",
       "platform": "darwin",
-      "version": "8.3.4191.45",
-      "installerUrl": "https://downloads.vivaldi.com/stable/Vivaldi.8.3.4191.45.universal.dmg"
+      "version": "8.3.4191.47",
+      "installerUrl": "https://downloads.vivaldi.com/stable/Vivaldi.8.3.4191.47.universal.dmg"
     },
     {
       "slug": "vivaldi/windows",
       "name": "Vivaldi",
       "platform": "windows",
-      "version": "8.3.4191.45",
-      "installerUrl": "https://downloads.vivaldi.com/stable/Vivaldi.8.3.4191.45.x64.exe"
+      "version": "8.3.4191.47",
+      "installerUrl": "https://downloads.vivaldi.com/stable/Vivaldi.8.3.4191.47.x64.exe"
     },
     {
       "slug": "vivid-app/darwin",
@@ -9609,8 +9637,8 @@
       "slug": "warp/darwin",
       "name": "Warp",
       "platform": "darwin",
-      "version": "0.2026.11.18.08.17.01",
-      "installerUrl": "https://releases.warp.dev/stable/v0.2026.11.18.08.17.stable_01/Warp.dmg"
+      "version": "0.2026.11.18.08.17.03",
+      "installerUrl": "https://releases.warp.dev/stable/v0.2026.11.18.08.17.stable_03/Warp.dmg"
     },
     {
       "slug": "wave/darwin",
@@ -9644,15 +9672,15 @@
       "slug": "weasis/darwin",
       "name": "Weasis",
       "platform": "darwin",
-      "version": "4.8.0",
-      "installerUrl": "https://github.com/nroduit/Weasis/releases/download/v4.8.0/Weasis-4.8.0-aarch64.pkg"
+      "version": "4.8.1",
+      "installerUrl": "https://github.com/nroduit/Weasis/releases/download/v4.8.1/Weasis-4.8.1-aarch64.pkg"
     },
     {
       "slug": "weasis/windows",
       "name": "Weasis",
       "platform": "windows",
-      "version": "4.8.0",
-      "installerUrl": "https://github.com/nroduit/Weasis/releases/download/v4.8.0/Weasis-4.8.0-x86-64.msi"
+      "version": "4.8.1",
+      "installerUrl": "https://github.com/nroduit/Weasis/releases/download/v4.8.1/Weasis-4.8.1-x86-64.msi"
     },
     {
       "slug": "webcatalog/darwin",
@@ -9728,7 +9756,7 @@
       "slug": "whatsapp/darwin",
       "name": "WhatsApp",
       "platform": "darwin",
-      "version": "26.46.17",
+      "version": "26.46.21",
       "installerUrl": "https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release\u0026src=whatsapp_downloads_page"
     },
     {
@@ -9786,6 +9814,13 @@
       "platform": "windows",
       "version": "2.0.1601.0",
       "installerUrl": "https://res.cdn.office.net/remote-desktop-windows-client/5f9edc46-1694-43ed-8b20-696dbe91c087/WindowsApp_x64_Release_2.0.1601.0.msix"
+    },
+    {
+      "slug": "windscribe/windows",
+      "name": "Windscribe",
+      "platform": "windows",
+      "version": "2.25.8",
+      "installerUrl": "https://github.com/Windscribe/Desktop-App/releases/download/v2.25.8/Windscribe_2.25.8_amd64.exe"
     },
     {
       "slug": "windsurf/windows",
@@ -10078,8 +10113,8 @@
       "slug": "zed/darwin",
       "name": "Zed",
       "platform": "darwin",
-      "version": "1.29.2",
-      "installerUrl": "https://github.com/zed-industries/zed/releases/download/v1.29.2/Zed-aarch64.dmg"
+      "version": "1.29.3",
+      "installerUrl": "https://github.com/zed-industries/zed/releases/download/v1.29.3/Zed-aarch64.dmg"
     },
     {
       "slug": "zed/windows",
@@ -10108,6 +10143,13 @@
       "platform": "darwin",
       "version": "10.33.1",
       "installerUrl": "https://pkg.zeplin.io/macos/latest/zeplin-darwin-universal.zip"
+    },
+    {
+      "slug": "zerotier-one/windows",
+      "name": "ZeroTier One",
+      "platform": "windows",
+      "version": "1.16.2",
+      "installerUrl": "https://download.zerotier.com/RELEASES/1.16.2/dist/ZeroTierOne.msi"
     },
     {
       "slug": "zettlr/darwin",
