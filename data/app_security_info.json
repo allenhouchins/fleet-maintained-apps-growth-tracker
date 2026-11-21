@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T00:13:54Z",
+  "lastUpdated": "2026-11-21T00:17:59Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1263,9 +1263,9 @@
     {
       "slug": "aws-sam-cli/windows",
       "name": "AWS SAM Command Line Interface",
-      "version": "1.173.0",
-      "sha256": "335f85a60659694aa43bc5f7c4801884403cf9361025a757c6607076dd2141fc",
-      "lastUpdated": "2026-11-19T00:03:36Z"
+      "version": "1.174.0",
+      "sha256": "aaafabeca454d20455002ad105cb35d7d1ecc00ef2c2920389f315ebf261efb8",
+      "lastUpdated": "2026-11-21T00:14:54Z"
     },
     {
       "slug": "aws-session-manager-plugin/windows",
@@ -1683,14 +1683,14 @@
     {
       "slug": "bitwarden/windows",
       "name": "Bitwarden",
-      "version": "2026.10.4",
-      "sha256": "aaedfeaf73511b9095a5009454bb037a053c9a60e7c5ed23717b7b6047193a13",
+      "version": "2026.11.0",
+      "sha256": "c8e7ee33b43b9fd6baada11b4355a684bb8944ea58173423fa108d244bcbdf0a",
       "publisher": "CN=Bitwarden Inc., O=Bitwarden Inc., L=Santa Barbara, S=California, C=US, SERIALNUMBER=7654941, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0C551B0E294185ED2F7E99017B88B8EA",
       "thumbprint": "80375A0C9630A51ECB7EC79B37A8174C8DACCCED",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-11-06T08:17:30Z"
+      "lastUpdated": "2026-11-21T00:15:03Z"
     },
     {
       "slug": "bitwig-studio/darwin",
@@ -2321,14 +2321,14 @@
     {
       "slug": "chatgpt/windows",
       "name": "ChatGPT Desktop",
-      "version": "26.1111.9664.0",
-      "sha256": "5a00348bc3a6c7f17cb3b457a51c3934a4dc1c2843e3d735b9355d3add9c7f43",
+      "version": "26.1117.3838.0",
+      "sha256": "d22a222119967a330919f121d619460431de6e395f6d514e9bf3a066c0efb89a",
       "publisher": "CN=50BDFD77-8903-4850-9FFE-6E8522F64D5B",
-      "issuer": "CN=Microsoft Marketplace CA G 026, OU=EOC, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "serialNumber": "33006CC1313A34E246040CD4400001006CC131",
-      "thumbprint": "CA88720A3AE44291E04F8E5494D07DA52EED9D0D",
-      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:2D1A-05E0-D947, OU=Microsoft Ireland Operations Limited, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-11-19T17:43:08Z"
+      "issuer": "CN=Microsoft Marketplace CA G 028, OU=EOC, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "serialNumber": "3300666676446F4D318E71D04D000100666676",
+      "thumbprint": "B1A585568AD92BD87B56B3202068C9FA84A63F82",
+      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:8900-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-11-21T00:15:20Z"
     },
     {
       "slug": "chatwise/darwin",
@@ -2460,6 +2460,18 @@
       "lastUpdated": "2026-07-08T20:32:32Z"
     },
     {
+      "slug": "citrix-workspace-ltsr/windows",
+      "name": "Citrix Workspace LTSR",
+      "version": "26.7.1.4",
+      "sha256": "d829b6228bee3e8352920e868da7d33d0617d1655a276255b719c878c5916e79",
+      "publisher": "CN=\"Citrix Systems, Inc.\", OU=Citrix, O=\"Citrix Systems, Inc.\", L=Fort Lauderdale, S=Florida, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0FE3B2A2D22984A9ADCC235B646F31DE",
+      "thumbprint": "E55729A3DDED6F5DD14C1FEAD3C144D9352D6D7A",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-11-21T00:17:05Z"
+    },
+    {
       "slug": "citrix-workspace/darwin",
       "name": "Citrix Workspace",
       "version": "26.09.0",
@@ -2468,6 +2480,18 @@
       "signingId": "S272Y5R93J:com.citrix.receiver.nomas",
       "teamId": "S272Y5R93J",
       "lastUpdated": "2026-09-19T03:48:21Z"
+    },
+    {
+      "slug": "citrix-workspace/windows",
+      "name": "Citrix Workspace",
+      "version": "26.10.0.31",
+      "sha256": "65a7e2d4f5a39b8a432bc4a2095eca5740153d804032275cb79cc35398ee0f75",
+      "publisher": "CN=\"Citrix Systems, Inc.\", OU=Citrix, O=\"Citrix Systems, Inc.\", L=Fort Lauderdale, S=Florida, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0FE3B2A2D22984A9ADCC235B646F31DE",
+      "thumbprint": "E55729A3DDED6F5DD14C1FEAD3C144D9352D6D7A",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-11-21T00:17:16Z"
     },
     {
       "slug": "claude-arm64/windows",
@@ -3538,14 +3562,14 @@
     {
       "slug": "dbvisualizer/windows",
       "name": "DbVisualizer",
-      "version": "26.2.5",
-      "sha256": "75f34c8d7f38c21906c3a9c88e61a6d2a3e1b59e9c3d6bc9c88c2471200b1941",
+      "version": "26.3",
+      "sha256": "3e31438111bcd6f7ea883cc41ab579bda122207320eb0a19a8582951db94877e",
       "publisher": "CN=DbVis Software AB, O=DbVis Software AB, L=Stockholm, C=SE",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "09AB2A1939F705718106B3173D14180D",
       "thumbprint": "C47E2C218DF38A603D3F27219413A3267D44B810",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-11-20T00:45:03Z"
+      "lastUpdated": "2026-11-21T00:17:32Z"
     },
     {
       "slug": "dcv-viewer/darwin",
@@ -4374,26 +4398,26 @@
     {
       "slug": "eclipse-temurin-jdk-17/windows",
       "name": "Eclipse Temurin JDK 17",
-      "version": "17.0.21.9",
-      "sha256": "034511d46150f10b0e28b571ab8972a6564b1f773d2a3431fe2518d6b5beb225",
+      "version": "17.0.21.10002",
+      "sha256": "04ed341fd124d6052b7a74b6131a5641da0f0cc622f9cccb30b3774dcba430a9",
       "publisher": "CN=Eclipse Foundation, O=Eclipse Foundation, L=Bruxelles, C=BE",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0E8BFB0BA3ADBC5D86A958D792B7BE25",
       "thumbprint": "F621CFCD35923BF836B2C2AED71EE689262AFE5D",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-11-03T21:54:33Z"
+      "lastUpdated": "2026-11-21T00:17:44Z"
     },
     {
       "slug": "eclipse-temurin-jdk-21/windows",
       "name": "Eclipse Temurin JDK 21",
-      "version": "21.0.13.9",
-      "sha256": "7bac6217c1ac642035fb07ef04fb0652dfc9053121d6fcbff3f61dacbeba37ce",
+      "version": "21.0.13.10002",
+      "sha256": "a4fcecd471e83f0b1b003c6d0c9e6600e391a6eb728413188492eb1574d6e543",
       "publisher": "CN=Eclipse Foundation, O=Eclipse Foundation, L=Bruxelles, C=BE",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0E8BFB0BA3ADBC5D86A958D792B7BE25",
       "thumbprint": "F621CFCD35923BF836B2C2AED71EE689262AFE5D",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-10-30T09:13:51Z"
+      "lastUpdated": "2026-11-21T00:17:53Z"
     },
     {
       "slug": "eclipse-temurin-jdk-8/windows",
@@ -4422,14 +4446,14 @@
     {
       "slug": "eclipse-temurin-jre-17/windows",
       "name": "Eclipse Temurin JRE 17",
-      "version": "17.0.21.9",
-      "sha256": "034511d46150f10b0e28b571ab8972a6564b1f773d2a3431fe2518d6b5beb225",
+      "version": "17.0.21.10002",
+      "sha256": "04ed341fd124d6052b7a74b6131a5641da0f0cc622f9cccb30b3774dcba430a9",
       "publisher": "CN=Eclipse Foundation, O=Eclipse Foundation, L=Bruxelles, C=BE",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0E8BFB0BA3ADBC5D86A958D792B7BE25",
       "thumbprint": "F621CFCD35923BF836B2C2AED71EE689262AFE5D",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-11-03T21:54:39Z"
+      "lastUpdated": "2026-11-21T00:17:59Z"
     },
     {
       "slug": "eclipse-temurin-jre-21/windows",
