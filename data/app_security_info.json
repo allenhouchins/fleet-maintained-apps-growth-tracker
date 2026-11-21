@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T06:15:54Z",
+  "lastUpdated": "2026-11-21T06:18:12Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1251,14 +1251,14 @@
     {
       "slug": "aws-cli/windows",
       "name": "AWS Command Line Interface v2",
-      "version": "2.41.2",
-      "sha256": "0e6e512c81a9ea7bdecc519d9dc36fc4f036f9193d8e2398718b6f6410584d97",
+      "version": "2.42.1",
+      "sha256": "e4deeca26f5458256b226bbabd385abadb8060ba92c2f49d33dea98c0164f183",
       "publisher": "CN=\"Amazon Web Services, Inc.\", OU=AWS, O=\"Amazon Web Services, Inc.\", L=Seattle, S=Washington, C=US, SERIALNUMBER=4152954, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0590C4CF0DB014199953A68CFCE9B0E7",
       "thumbprint": "81A9EFB93199F2C7441EE14050360EDAB7E8242A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-11-20T08:25:59Z"
+      "lastUpdated": "2026-11-21T06:16:23Z"
     },
     {
       "slug": "aws-sam-cli/windows",
@@ -1357,9 +1357,9 @@
     {
       "slug": "azure-functions-core-tools/windows",
       "name": "Azure Functions Core Tools",
-      "version": "4.16.0",
+      "version": "4.17.0",
       "sha256": "e8a931f5a719515d9df2ffe8296d4a0e79f386e828c03cc809f7114fb88d1c2a",
-      "lastUpdated": "2026-11-06T08:17:23Z"
+      "lastUpdated": "2026-11-21T06:17:13Z"
     },
     {
       "slug": "background-music/darwin",
@@ -2496,14 +2496,14 @@
     {
       "slug": "claude-arm64/windows",
       "name": "Claude (ARM64)",
-      "version": "4.29.0",
-      "sha256": "11cec03646e1c791106ae4334a30ce3b789ec1d9b3cfd805b2bfb4830e7596a0",
+      "version": "6.28899.2",
+      "sha256": "5750d681c1365a11f0b97e41022a2b5375f412d89000cb846985d95927c3f6b5",
       "publisher": "CN=\"Anthropic, PBC\", O=\"Anthropic, PBC\", L=San Francisco, S=California, C=US, SERIALNUMBER=4860621, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "041E6EC51F56103427278E202EC875B8",
       "thumbprint": "60C2D9C51F09822FFF4F194DE9EEDB67451292D1",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-11-18T18:12:24Z"
+      "lastUpdated": "2026-11-21T06:17:40Z"
     },
     {
       "slug": "claude-devtools/darwin",
@@ -3734,14 +3734,14 @@
     {
       "slug": "devolutions-workspace/windows",
       "name": "Devolutions Workspace",
-      "version": "2026.3.4.0",
-      "sha256": "3a031f2040153a0b5e007447fcb07bedb6fd44af36817b7c9d605cfb334c1e75",
+      "version": "2026.3.5.0",
+      "sha256": "61bcf02e7e2233eef87c24dd9c2c1fcf4d15e4eb979e7981f00f068179e8d7e3",
       "publisher": "E=security@devolutions.net, CN=DEVOLUTIONS INC., O=DEVOLUTIONS INC., L=Lavaltrie, S=Quebec, C=CA, OID.1.3.6.1.4.1.311.60.2.1.2=Quebec, OID.1.3.6.1.4.1.311.60.2.1.3=CA, SERIALNUMBER=1162544689, OID.2.5.4.15=Private Organization",
       "issuer": "CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
       "serialNumber": "4C164231EB357E1F8FC24528",
       "thumbprint": "50F753333811FF11F1920274AFDE3FFD4468B210",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-10-29T10:12:48Z"
+      "lastUpdated": "2026-11-21T06:17:46Z"
     },
     {
       "slug": "devonsphere-express/darwin",
@@ -8040,6 +8040,13 @@
       "lastUpdated": "2026-10-23T07:18:06Z"
     },
     {
+      "slug": "make-me-admin/windows",
+      "name": "Make Me Admin",
+      "version": "2.4.1",
+      "sha256": "96788adf849dcee7420720f6aad4632a7b6ed76846baa5bff6b01f7cca5bf83c",
+      "lastUpdated": "2026-11-21T06:17:54Z"
+    },
+    {
       "slug": "malwarebytes/darwin",
       "name": "Malwarebytes for Mac",
       "version": "5.29.2",
@@ -11826,6 +11833,18 @@
       "lastUpdated": "2026-11-03T07:56:53Z"
     },
     {
+      "slug": "sandboxie-plus/windows",
+      "name": "Sandboxie-Plus",
+      "version": "1.18.8",
+      "sha256": "f27078ff74a07906fd51476079e1a7a8f5e20c8bb75a9d2ae86169d47179ae76",
+      "publisher": "CN=NOVASYNC LABS PTE. LTD., O=NOVASYNC LABS PTE. LTD., STREET=\"10 Selegie Road, #01-45, Selegie House\", L=SINGAPORE, S=SINGAPORE, C=SG, OID.1.3.6.1.4.1.311.60.2.1.3=SG, SERIALNUMBER=202406244E, OID.2.5.4.15=Private Organization",
+      "issuer": "CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
+      "serialNumber": "2C969D99AACC373656E1DB00",
+      "thumbprint": "16FB9B0FB8CDDB8D2CCF1F4B4ABEEA6FE793C88E",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-11-21T06:17:59Z"
+    },
+    {
       "slug": "sanesidebuttons/darwin",
       "name": "SaneSideButtons",
       "version": "1.4.1",
@@ -12575,6 +12594,18 @@
       "signingId": "CPQQ3AW49Y:com.splashtop.ScriptEditor.Uninstall-Splashtop-Business",
       "teamId": "CPQQ3AW49Y",
       "lastUpdated": "2026-08-24T17:50:32Z"
+    },
+    {
+      "slug": "splashtop-business/windows",
+      "name": "Splashtop Business",
+      "version": "3.8.601.0",
+      "sha256": "b42e71d5a85f7c4e42d37ed4d833ef2cdab6b426d6fb8bb9aecc1d275ad5b46b",
+      "publisher": "CN=Splashtop Inc., O=Splashtop Inc., L=Cupertino, S=California, C=US, SERIALNUMBER=4169881, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "06D23A706AB85C32490837954B9E41A3",
+      "thumbprint": "D458B32F6946DBB682A9687076EB9209979BDF76",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-11-21T06:18:01Z"
     },
     {
       "slug": "splashtop-streamer/darwin",
