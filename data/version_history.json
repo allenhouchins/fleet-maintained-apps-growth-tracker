@@ -2,60 +2,6 @@
   "changes": [
     {
       "date": "2026-11-09T20:34:14Z",
-      "appName": "dRofus",
-      "slug": "drofus/windows",
-      "platform": "windows",
-      "oldVersion": "2.19.11.0",
-      "newVersion": "2.19.12.0",
-      "installerUrl": "https://deploy.drofus.com/stable/drofus-setup-2.19.12.msi"
-    },
-    {
-      "date": "2026-11-09T20:34:14Z",
-      "appName": "Eclipse Temurin JRE 11",
-      "slug": "eclipse-temurin-jre-11/windows",
-      "platform": "windows",
-      "oldVersion": "11.0.32.101",
-      "newVersion": "11.0.33.10",
-      "installerUrl": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33+10/OpenJDK11U-jre_x64_windows_hotspot_11.0.33_10.msi"
-    },
-    {
-      "date": "2026-11-09T20:34:14Z",
-      "appName": "DuckDuckGo",
-      "slug": "duckduckgo/darwin",
-      "platform": "darwin",
-      "oldVersion": "1.214.0",
-      "newVersion": "1.215.0",
-      "installerUrl": "https://staticcdn.duckduckgo.com/macos-desktop-browser/duckduckgo-1.215.0.866.dmg"
-    },
-    {
-      "date": "2026-11-09T20:34:14Z",
-      "appName": "Cursor",
-      "slug": "cursor/darwin",
-      "platform": "darwin",
-      "oldVersion": "3.29.9",
-      "newVersion": "3.29.15",
-      "installerUrl": "https://downloads.cursor.com/production/86776fcb52ca505783155631089b65d646f9b03f/darwin/arm64/Cursor-darwin-arm64.zip"
-    },
-    {
-      "date": "2026-11-09T20:34:14Z",
-      "appName": "Eclipse Temurin JDK 11",
-      "slug": "eclipse-temurin-jdk-11/windows",
-      "platform": "windows",
-      "oldVersion": "11.0.32.101",
-      "newVersion": "11.0.33.10",
-      "installerUrl": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33+10/OpenJDK11U-jdk_x64_windows_hotspot_11.0.33_10.msi"
-    },
-    {
-      "date": "2026-11-09T20:34:14Z",
-      "appName": "Docker Desktop",
-      "slug": "docker-desktop/darwin",
-      "platform": "darwin",
-      "oldVersion": "4.98.0",
-      "newVersion": "4.99.0",
-      "installerUrl": "https://desktop.docker.com/mac/main/arm64/245822/Docker.dmg"
-    },
-    {
-      "date": "2026-11-09T20:34:14Z",
       "appName": "WhatsApp",
       "slug": "whatsapp/darwin",
       "platform": "darwin",
@@ -8999,6 +8945,60 @@
       "oldVersion": "9.18.0",
       "newVersion": "9.19.0",
       "installerUrl": "https://download.calibre-ebook.com/9.19.0/calibre-64bit-9.19.0.msi"
+    },
+    {
+      "date": "2026-11-22T16:03:19Z",
+      "appName": "BetterTouchTool",
+      "slug": "bettertouchtool/darwin",
+      "platform": "darwin",
+      "oldVersion": "6.1165",
+      "newVersion": "6.1166",
+      "installerUrl": "https://folivora.ai/releases/btt6.1166-2026112201.zip"
+    },
+    {
+      "date": "2026-11-22T16:03:19Z",
+      "appName": "OBS",
+      "slug": "obs/darwin",
+      "platform": "darwin",
+      "oldVersion": "33.0.2",
+      "newVersion": "33.0.3",
+      "installerUrl": "https://cdn-fastly.obsproject.com/downloads/obs-studio-33.0.3-macos-apple.dmg"
+    },
+    {
+      "date": "2026-11-22T16:03:19Z",
+      "appName": "Zight",
+      "slug": "zight/darwin",
+      "platform": "darwin",
+      "oldVersion": "8.7.3",
+      "newVersion": "8.8.0",
+      "installerUrl": "https://downloads.zight.com/mac/Zight-8.8.0.3688.zip"
+    },
+    {
+      "date": "2026-11-22T16:03:19Z",
+      "appName": "Zoom VDI Universal Plugin",
+      "slug": "zoom-vdi-universal-plugin/windows",
+      "platform": "windows",
+      "oldVersion": "6.6.27150",
+      "newVersion": "7.0.27210",
+      "installerUrl": "https://zoom.us/download/vdi/7.0.14.27210/ZoomVDIUniversalPluginx64.msi?archType=x64"
+    },
+    {
+      "date": "2026-11-22T16:03:19Z",
+      "appName": "Cog",
+      "slug": "cog-app/darwin",
+      "platform": "darwin",
+      "oldVersion": "3932",
+      "newVersion": "3933",
+      "installerUrl": "https://cogcdn.cog.losno.co/Cog-bfd8741ae.zip"
+    },
+    {
+      "date": "2026-11-22T16:03:19Z",
+      "appName": "Rocket.Chat",
+      "slug": "rocket-chat/windows",
+      "platform": "windows",
+      "oldVersion": "4.19.0",
+      "newVersion": "4.19.3",
+      "installerUrl": "https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/4.19.3/rocketchat-4.19.3-win-x64.exe"
     }
   ]
 }
