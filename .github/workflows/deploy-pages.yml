@@ -33,11 +33,17 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  # Split from the deploy job on purpose. Both used to run in one job, where
+  # actions/deploy-pages queried the artifact metadata API a few hundred
+  # milliseconds after upload-pages-artifact finalized the upload -- before it
+  # was visible -- and intermittently failed with
+  # "No artifacts named github-pages were found for this workflow run".
+  # A job boundary gives the artifact time to settle, and matches the structure
+  # GitHub's own Pages starter workflow uses.
+  build:
     runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.check-changes.outputs.changed }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -58,7 +64,7 @@ jobs:
               status: 'in_progress',
               per_page: 1
             });
-            
+
             const windowsWorkflows = await github.rest.actions.listWorkflowRuns({
               owner: context.repo.owner,
               repo: context.repo.repo,
@@ -66,7 +72,7 @@ jobs:
               status: 'in_progress',
               per_page: 1
             });
-            
+
             if (macWorkflows.data.workflow_runs.length > 0 || windowsWorkflows.data.workflow_runs.length > 0) {
               console.log('Security info workflow is running, skipping deployment');
               core.setOutput('security_running', 'true');
@@ -122,7 +128,14 @@ jobs:
         with:
           path: '.'
 
+  deploy:
+    needs: build
+    if: needs.build.outputs.changed == 'true'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
       - name: Deploy to GitHub Pages
-        if: steps.check-changes.outputs.changed == 'true'
         id: deployment
         uses: actions/deploy-pages@v4
