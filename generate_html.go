@@ -684,11 +684,19 @@ code, .mono { font-family: var(--font-mono); }
   display: flex; align-items: center; justify-content: space-between;
   gap: 16px; height: 60px;
 }
-.brand { display: flex; align-items: center; gap: 11px; min-width: 0; }
-.brand b { font-size: 15px; font-weight: 800; letter-spacing: -.012em; color: var(--text); }
+.brand { display: flex; align-items: center; gap: 11px; min-width: 0; flex: 1; }
 .brand .sep { width: 1px; height: 18px; background: var(--border); flex: none; }
-.brand .what { font-size: 14px; color: var(--text-2); white-space: nowrap; }
-@media (max-width: 620px) { .brand .sep, .brand .what { display: none; } }
+/* The wordmark is gone, so this is the only label in the bar: let it shrink
+   and ellipsize on narrow screens rather than disappear. */
+.brand .what {
+  font-size: 15px; font-weight: 600; color: var(--text);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0;
+}
+@media (max-width: 560px) {
+  /* Give the title the room by reducing the CTA to its icon. */
+  .topbar .btn-primary { padding: 7.5px 12px; }
+  .topbar .btn-primary .label { display: none; }
+}
 
 /* ---------- Fleet primary button ----------
    Port of .primary-button(normal) from buttons.less, spotlight included. */
@@ -941,13 +949,12 @@ code, .mono { font-family: var(--font-mono); }
       <circle cx="31.5" cy="31.5" r="7.5" fill="#FAA669"/>
       <circle cx="7.5"  cy="55.5" r="7.5" fill="#3AEFC4"/>
     </svg>
-    <b>Fleet</b>
     <span class="sep"></span>
-    <span class="what">Maintained app library</span>
+    <span class="what">Fleet-maintained app library</span>
   </div>
-  <a class="btn-primary" href="feed.xml">
+  <a class="btn-primary" href="feed.xml" aria-label="Subscribe to updates">
     <svg width="13" height="13" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795.001 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-3.368c10.58.046 19.152 8.594 19.183 19.188h4.817c-.03-13.231-10.755-23.954-24-24v4.812z"/></svg>
-    Subscribe to updates
+    <span class="label">Subscribe to updates</span>
   </a>
 </div></div>
 
