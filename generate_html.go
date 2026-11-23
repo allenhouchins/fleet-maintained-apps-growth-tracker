@@ -18,6 +18,12 @@ const (
 	appBaseURL       = "https://raw.githubusercontent.com/fleetdm/fleet/main/ee/maintained-apps/outputs"
 	iconsBaseURL     = "https://raw.githubusercontent.com/fleetdm/fleet/main/website/assets/images"
 	securityInfoJSON = "data/app_security_info.json"
+
+	// The app list is no longer inlined into index.html. It is split into a
+	// small index (what the grid needs to paint) and a detail file (what the
+	// modal needs), both fetched after first paint.
+	appsIndexJSON  = "data/apps_index.json"
+	appsDetailJSON = "data/apps_detail.json"
 )
 
 type csvData struct {
@@ -53,11 +59,11 @@ type appSecurityInfoData struct {
 	Cdhash       string                `json:"cdhash,omitempty"`
 	SigningID    string                `json:"signingId,omitempty"`
 	TeamID       string                `json:"teamId,omitempty"`
-	Publisher    string                `json:"publisher,omitempty"`     // Windows: Certificate subject
-	Issuer       string                `json:"issuer,omitempty"`        // Windows: Certificate authority
-	SerialNumber string                `json:"serialNumber,omitempty"`  // Windows: Certificate serial
-	Thumbprint   string                `json:"thumbprint,omitempty"`    // Windows: Certificate thumbprint
-	Timestamp    string                `json:"timestamp,omitempty"`     // Windows: Signing timestamp
+	Publisher    string                `json:"publisher,omitempty"`    // Windows: Certificate subject
+	Issuer       string                `json:"issuer,omitempty"`       // Windows: Certificate authority
+	SerialNumber string                `json:"serialNumber,omitempty"` // Windows: Certificate serial
+	Thumbprint   string                `json:"thumbprint,omitempty"`   // Windows: Certificate thumbprint
+	Timestamp    string                `json:"timestamp,omitempty"`    // Windows: Signing timestamp
 	LastUpdated  string                `json:"lastUpdated,omitempty"`
 	Apps         []appSecurityInfoData `json:"apps,omitempty"` // For suites with multiple apps
 }
@@ -86,6 +92,43 @@ type securityInfoData struct {
 	Apps []securityInfoItem `json:"apps"`
 }
 
+// appIndexEntry is the per-app record the grid paints from. Keys are short
+// because this file ships 1,400+ of them.
+type appIndexEntry struct {
+	N string `json:"n"` // name
+	S string `json:"s"` // slug
+	P string `json:"p"` // platform
+	V string `json:"v"` // version
+}
+
+type appIndexFile struct {
+	LastUpdated string          `json:"lastUpdated"`
+	Apps        []appIndexEntry `json:"apps"`
+}
+
+// appDetailEntry is everything the modal needs and the grid does not.
+type appDetailEntry struct {
+	D   string               `json:"d,omitempty"`   // description
+	U   string               `json:"u,omitempty"`   // installer URL
+	Sec *appSecurityInfoData `json:"sec,omitempty"` // signing / hash info
+}
+
+type appDetailFile struct {
+	Apps map[string]appDetailEntry `json:"apps"`
+}
+
+// chartPayload is inlined into the page: it is small, and the charts are
+// above the fold, so a round trip for it would delay first paint.
+// Dates are emitted only when the series is not a contiguous daily run.
+type chartPayload struct {
+	Start string   `json:"start"`
+	Dates []string `json:"dates,omitempty"`
+	Total []int    `json:"total,omitempty"`
+	Mac   []int    `json:"mac"`
+	Win   []int    `json:"win"`
+	Added []int    `json:"added,omitempty"`
+}
+
 func generateHTML() error {
 	fmt.Println("🎨 Generating HTML visualization...")
 
@@ -111,6 +154,12 @@ func generateHTML() error {
 	// Load security info and merge with apps
 	securityInfo, _ := loadSecurityInfo()
 	mergeSecurityInfo(apps, securityInfo)
+
+	reconcileLatest(data, apps)
+
+	if err := writeAppDataFiles(apps); err != nil {
+		return fmt.Errorf("failed to write app data files: %w", err)
+	}
 
 	htmlContent := generateHTMLContent(data, patches, apps)
 
@@ -369,1669 +418,1354 @@ func main() {
 	}
 }
 
+// writeAppDataFiles splits the app list into the grid index and the modal
+// detail file. Inlining both into index.html used to account for ~90% of the
+// document, which blocked first paint on data most visitors never look at.
+// reconcileLatest brings today's data point in line with the live app list.
+//
+// main.go writes apps_growth.csv once a day, but this generator re-runs on
+// every Pages deploy -- including the deploys the security-info workflows
+// trigger -- and re-fetches apps.json each time. Without this, the headline
+// figure and the end of the growth chart would lag the app grid by whatever
+// Fleet merged since the last daily run.
+//
+// It only ever rewrites the row representing today, and only when the live
+// list was actually fetched, so a failed fetch or a stale series is left alone
+// rather than being overwritten with something wrong.
+func reconcileLatest(data *csvData, apps *appsJSON) {
+	if len(apps.Apps) == 0 || len(data.Dates) == 0 {
+		return // nothing fetched, or nothing recorded: keep what main.go wrote
+	}
+
+	last := len(data.Dates) - 1
+	if len(data.Counts) <= last || len(data.MacCounts) <= last ||
+		len(data.WindowsCounts) <= last || len(data.Additions) <= last {
+		return // series are ragged; do not guess
+	}
+
+	// Same clock convention main.go uses to decide which day the last row is.
+	if data.Dates[last] != time.Now().Format("2006-01-02") {
+		fmt.Printf("ℹ️  Latest row is %s, not today -- leaving it as recorded\n", data.Dates[last])
+		return
+	}
+
+	total := len(apps.Apps)
+	mac, win := 0, 0
+	for _, a := range apps.Apps {
+		switch a.Platform {
+		case "darwin":
+			mac++
+		case "windows":
+			win++
+		}
+	}
+
+	if total == data.Counts[last] && mac == data.MacCounts[last] && win == data.WindowsCounts[last] {
+		return // already in step
+	}
+
+	fmt.Printf("ℹ️  Reconciling %s with the live list: total %d->%d, mac %d->%d, windows %d->%d\n",
+		data.Dates[last], data.Counts[last], total,
+		data.MacCounts[last], mac, data.WindowsCounts[last], win)
+
+	data.Counts[last] = total
+	data.MacCounts[last] = mac
+	data.WindowsCounts[last] = win
+	if last > 0 {
+		// Keep "added since previous" consistent with the count we just set.
+		data.Additions[last] = total - data.Counts[last-1]
+	}
+}
+
+func writeAppDataFiles(apps *appsJSON) error {
+	// A failed upstream fetch leaves apps empty. Writing that out would replace
+	// a good app list with an empty one -- and these files are committed -- so
+	// keep whatever is already on disk and let the next run refresh it.
+	if len(apps.Apps) == 0 {
+		fmt.Printf("⚠️  No apps fetched; leaving %s and %s as they are\n",
+			appsIndexJSON, appsDetailJSON)
+		return nil
+	}
+
+	index := appIndexFile{
+		LastUpdated: time.Now().UTC().Format(time.RFC3339),
+		Apps:        make([]appIndexEntry, 0, len(apps.Apps)),
+	}
+	detail := appDetailFile{Apps: make(map[string]appDetailEntry, len(apps.Apps))}
+
+	for _, a := range apps.Apps {
+		index.Apps = append(index.Apps, appIndexEntry{
+			N: a.Name, S: a.Slug, P: a.Platform, V: a.Version,
+		})
+		// Only record a detail entry when there is something to show.
+		if a.Description != "" || a.InstallerURL != "" || a.SecurityInfo != nil {
+			detail.Apps[a.Slug] = appDetailEntry{
+				D: a.Description, U: a.InstallerURL, Sec: a.SecurityInfo,
+			}
+		}
+	}
+
+	indexBytes, err := json.Marshal(index)
+	if err != nil {
+		return err
+	}
+	if err := os.WriteFile(appsIndexJSON, indexBytes, 0644); err != nil {
+		return err
+	}
+
+	detailBytes, err := json.Marshal(detail)
+	if err != nil {
+		return err
+	}
+	if err := os.WriteFile(appsDetailJSON, detailBytes, 0644); err != nil {
+		return err
+	}
+
+	fmt.Printf("✅ Generated %s (%d KB) and %s (%d KB)\n",
+		appsIndexJSON, len(indexBytes)/1024, appsDetailJSON, len(detailBytes)/1024)
+	return nil
+}
+
+// isDailyRun reports whether dates are a contiguous run of calendar days, which
+// lets the page derive them from a start date instead of shipping every string.
+func isDailyRun(dates []string) bool {
+	if len(dates) < 2 {
+		return true
+	}
+	prev, err := time.Parse("2006-01-02", dates[0])
+	if err != nil {
+		return false
+	}
+	for _, d := range dates[1:] {
+		cur, err := time.Parse("2006-01-02", d)
+		if err != nil {
+			return false
+		}
+		if cur.Sub(prev) != 24*time.Hour {
+			return false
+		}
+		prev = cur
+	}
+	return true
+}
+
 func generateHTMLContent(data *csvData, patches *patchesCSVData, apps *appsJSON) string {
-	dataJSON, _ := json.MarshalIndent(data, "        ", "  ")
-	dataJSONStr := string(dataJSON)
+	// The chart series are small and sit above the fold, so they are inlined.
+	// A contiguous daily run ships only a start date; the page derives the rest.
+	growth := chartPayload{Total: data.Counts, Mac: data.MacCounts, Win: data.WindowsCounts, Added: data.Additions}
+	if len(data.Dates) > 0 {
+		growth.Start = data.Dates[0]
+	}
+	if !isDailyRun(data.Dates) {
+		growth.Dates = data.Dates
+	}
 
-	patchesJSON, _ := json.MarshalIndent(patches, "        ", "  ")
-	patchesJSONStr := string(patchesJSON)
+	patch := chartPayload{Mac: patches.MacCounts, Win: patches.WindowsCounts}
+	if len(patches.Dates) > 0 {
+		patch.Start = patches.Dates[0]
+	}
+	if !isDailyRun(patches.Dates) {
+		patch.Dates = patches.Dates
+	}
 
-	appsJSONBytes, _ := json.MarshalIndent(apps.Apps, "            ", "  ")
-	appsJSONStr := string(appsJSONBytes)
+	growthJSON, _ := json.Marshal(growth)
+	patchJSON, _ := json.Marshal(patch)
 
 	// Generate timestamp for when this HTML was created (in CST)
 	cstLocation, err := time.LoadLocation("America/Chicago")
 	if err != nil {
-		// Fallback to UTC if CST location can't be loaded
 		cstLocation = time.UTC
 	}
 	lastUpdated := time.Now().In(cstLocation).Format("January 2, 2006 at 3:04 PM MST")
 
+	appCount := fmt.Sprintf("%d", len(apps.Apps))
+
 	return `<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Track the growth of Fleet-maintained apps over time. View app versions, download installers, and explore the expanding library of macOS and Windows applications.">
-    
-    <!-- Open Graph / Facebook / LinkedIn -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://fmalibrary.com/">
-    <meta property="og:title" content="Fleet Maintained Apps Library">
-    <meta property="og:description" content="Track the growth of Fleet-maintained apps over time. View app versions, download installers, and explore the expanding library of macOS and Windows applications.">
-    <meta property="og:image" content="https://fmalibrary.com/cloud-city.png">
-    <meta property="og:image:secure_url" content="https://fmalibrary.com/cloud-city.png">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:width" content="1920">
-    <meta property="og:image:height" content="1080">
-    <meta property="og:image:alt" content="Fleet Maintained Apps Library - Growth tracking dashboard">
-    <meta property="og:site_name" content="Fleet Maintained Apps Library">
-    <meta property="og:locale" content="en_US">
-    
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://fmalibrary.com/">
-    <meta name="twitter:title" content="Fleet Maintained Apps Library">
-    <meta name="twitter:description" content="Track the growth of Fleet-maintained apps over time. View app versions, download installers, and explore the expanding library of macOS and Windows applications.">
-    <meta name="twitter:image" content="https://fmalibrary.com/cloud-city.png">
-    <meta name="twitter:image:alt" content="Fleet Maintained Apps Library - Growth tracking dashboard">
-    
-    <!-- RSS Feed -->
-    <link rel="alternate" type="application/rss+xml" title="Fleet Maintained Apps - Version Updates" href="https://fmalibrary.com/feed.xml">
-    
-    <!-- Favicon (Swan Emoji) -->
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.9em' font-size='90'%3E🦢%3C/text%3E%3C/svg%3E">
-    <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.9em' font-size='90'%3E🦢%3C/text%3E%3C/svg%3E">
-    
-    <title>Fleet Maintained Apps Growth</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background: #f5f5f5;
-        }
-        .container {
-            max-width: 1400px;
-            margin: 0 auto;
-            background: white;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-        }
-        .container > * {
-            margin: 0;
-        }
-        .header-section {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            margin-bottom: 30px;
-        }
-        .header-content {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-        }
-        .header-content > * {
-            margin: 0;
-        }
-        h1 {
-            color: #1e293b;
-            margin-bottom: 10px;
-            margin-top: 0;
-        }
-        .subtitle {
-            color: #64748b;
-            margin-bottom: 0;
-        }
-        .chart-container {
-            position: relative;
-            height: 450px;
-            margin-bottom: 40px;
-        }
-        .stats {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 20px;
-        }
-        /* Segmented toggle: three clickable filter cards share edges. */
-        .stats-toggle {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            border: 1px solid #e2e8f0;
-            border-radius: 8px;
-            overflow: hidden;
-            background: #f8fafc;
-        }
-        .stats-toggle .stat-card {
-            border-radius: 0;
-            border-left: 1px solid #e2e8f0;
-        }
-        .stats-toggle .stat-card:first-child {
-            border-left: 0;
-        }
-        .stat-card {
-            background: #f8fafc;
-            padding: 20px;
-            border-radius: 6px;
-            cursor: pointer;
-            transition: all 0.2s ease;
-        }
-        .stat-card.clickable:hover {
-            background: #f1f5f9;
-        }
-        .stat-card.clickable:hover .stat-value,
-        .stat-card.clickable:hover .stat-label,
-        .stat-card.active .stat-value,
-        .stat-card.active .stat-label {
-            color: #192147;
-        }
-        .stat-card.active {
-            background: #eff6ff;
-        }
-        .stat-card.clickable {
-            cursor: pointer;
-        }
-        .stat-card:not(.clickable) {
-            cursor: default;
-        }
-        .stat-value {
-            font-size: 32px;
-            font-weight: bold;
-            color: #1e293b;
-            margin-bottom: 5px;
-        }
-        .stat-label {
-            color: #64748b;
-            font-size: 14px;
-        }
-        .patches-section {
-            margin-top: 40px;
-            padding-top: 30px;
-            border-top: 2px solid #e2e8f0;
-        }
-        .patches-section h2 {
-            color: #1e293b;
-            margin: 0 0 6px 0;
-            font-size: 24px;
-        }
-        .patches-subtitle {
-            color: #64748b;
-            font-size: 14px;
-            margin: 0 0 20px 0;
-        }
-        .patches-chart-container {
-            position: relative;
-            height: 340px;
-        }
-        .patches-data-link {
-            margin: 12px 0 0 0;
-            font-size: 13px;
-            text-align: right;
-        }
-        .patches-data-link a {
-            color: #64748b;
-        }
-        .footer {
-            margin-top: 40px;
-            padding-top: 20px;
-            border-top: 2px solid #e2e8f0;
-            text-align: center;
-            color: #64748b;
-            font-size: 14px;
-        }
-        .apps-section {
-            margin-top: 0;
-            padding-top: 0;
-            border-top: 0;
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-        }
-        .apps-count-row {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 16px;
-        }
-        .apps-controls {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-        .apps-search {
-            position: relative;
-            width: 280px;
-            flex-shrink: 0;
-        }
-        .apps-search-icon {
-            position: absolute;
-            left: 12px;
-            top: 50%;
-            transform: translateY(-50%);
-            color: #94a3b8;
-            pointer-events: none;
-        }
-        .apps-search input {
-            width: 100%;
-            padding: 10px 12px 10px 38px;
-            border: 1px solid #e2e8f0;
-            border-radius: 8px;
-            font-size: 14px;
-            color: #1e293b;
-            background: #f8fafc;
-            outline: none;
-            transition: all 0.2s ease;
-            box-sizing: border-box;
-        }
-        .apps-search input:focus,
-        .apps-search input:focus-visible {
-            outline: none;
-            box-shadow: none;
-            border-color: #192147;
-            background: white;
-        }
-        .apps-search input::placeholder {
-            color: #94a3b8;
-        }
-        .apps-count {
-            color: #64748b;
-            font-size: 16px;
-            margin: 0;
-        }
-        .apps-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-            gap: 20px;
-        }
-        .app-card {
-            background: #f8fafc;
-            border: 1px solid #e2e8f0;
-            border-radius: 8px;
-            padding: 20px;
-            transition: all 0.2s ease;
-            cursor: pointer;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            color: inherit;
-        }
-        .app-card:hover {
-            border-color: #192147;
-        }
-        .app-icon {
-            width: 64px;
-            height: 64px;
-            border-radius: 12px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 12px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-            overflow: hidden;
-            background: #f8fafc;
-        }
-        .app-icon img {
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-        }
-        .app-name {
-            font-weight: 600;
-            color: #1e293b;
-            font-size: 16px;
-            margin-bottom: 8px;
-            line-height: 1.3;
-        }
-        .app-platform {
-            display: inline-block;
-            padding: 4px 8px;
-            border-radius: 4px;
-            font-size: 12px;
-            font-weight: 500;
-            margin-top: 8px;
-        }
-        .app-platform.darwin {
-            background: #dbeafe;
-            color: #1e40af;
-        }
-        .app-platform.windows {
-            background: #dbeafe;
-            color: #0284c7;
-        }
-        .app-version {
-            font-size: 13px;
-            color: #64748b;
-            line-height: 1.4;
-            margin-top: 8px;
-            font-weight: 500;
-        }
-        .apps-grid.hidden {
-            display: none;
-        }
-        /* Default: wrapper is layout-invisible; version + platform stack
-           as siblings inside the flex-column card, matching the original
-           layout. Compact mode below opts into a real flex row. */
-        .app-meta {
-            display: contents;
-        }
-        /* --- Compact grid + card variant --- */
-        .apps-grid--compact {
-            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-            gap: 8px;
-        }
-        .apps-grid--compact .app-card {
-            display: grid;
-            grid-template-columns: 36px 1fr;
-            gap: 0px 8px;
-            align-items: center;
-            text-align: left;
-            padding: 4px;
-        }
-        .apps-grid--compact .app-icon {
-            width: 36px;
-            height: 36px;
-            border-radius: 4px;
-            box-shadow: none;
-            margin-bottom: 0;
-            grid-row: span 2;
-        }
-        .apps-grid--compact .app-name {
-            font-size: 12px;
-            line-height: 1.3;
-            margin-bottom: 0;
-        }
-        .apps-grid--compact .app-meta {
-            display: flex;
-            align-items: center;
-            gap: 6px;
-        }
-        .apps-grid--compact .app-version {
-            font-size: 12px;
-            margin-top: 0;
-        }
-        .apps-grid--compact .app-platform {
-            font-size: 12px;
-            padding: 2px 6px;
-            margin-top: 0;
-        }
-        /* --- Card-size toggle (sits in .apps-count-row) --- */
-        .card-size-toggle {
-            display: inline-flex;
-            border: 1px solid #e2e8f0;
-            border-radius: 8px;
-            overflow: hidden;
-            background: #f8fafc;
-            flex-shrink: 0;
-        }
-        .card-size-toggle button {
-            border: 0;
-            background: transparent;
-            padding: 8px 14px;
-            font-size: 13px;
-            color: #64748b;
-            cursor: pointer;
-            transition: background 0.15s ease, color 0.15s ease;
-        }
-        .card-size-toggle button:hover {
-            color: #1e293b;
-        }
-        .card-size-toggle button.active {
-            background: #eff6ff;
-            color: #1e293b;
-        }
-        /* Modal Styles */
-        .modal {
-            display: none !important;
-            position: fixed;
-            z-index: 1000;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            overflow: auto;
-            background-color: rgba(0, 0, 0, 0.5);
-            animation: fadeIn 0.2s ease;
-            visibility: hidden;
-            opacity: 0;
-        }
-        .modal.show {
-            display: flex !important;
-            align-items: center;
-            justify-content: center;
-            visibility: visible;
-            opacity: 1;
-        }
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-        .modal-content {
-            background-color: white;
-            margin: auto;
-            padding: 0;
-            border-radius: 12px;
-            width: 90%;
-            max-width: 600px;
-            max-height: 90vh;
-            overflow-y: auto;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-            animation: slideUp 0.3s ease;
-        }
-        @keyframes slideUp {
-            from {
-                transform: translateY(50px);
-                opacity: 0;
-            }
-            to {
-                transform: translateY(0);
-                opacity: 1;
-            }
-        }
-        .modal-header {
-            padding: 24px;
-            border-bottom: 1px solid #e2e8f0;
-            display: flex;
-            align-items: center;
-            gap: 16px;
-        }
-        .modal-icon {
-            width: 64px;
-            height: 64px;
-            border-radius: 12px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-            overflow: hidden;
-            background: #f8fafc;
-            flex-shrink: 0;
-        }
-        .modal-icon img {
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-        }
-        .modal-title-section {
-            flex: 1;
-        }
-        .modal-title {
-            font-size: 24px;
-            font-weight: 600;
-            color: #1e293b;
-            margin: 0 0 4px 0;
-        }
-        .modal-platform {
-            display: inline-block;
-            padding: 4px 12px;
-            border-radius: 6px;
-            font-size: 13px;
-            font-weight: 500;
-            margin-top: 4px;
-        }
-        .modal-platform.darwin {
-            background: #dbeafe;
-            color: #1e40af;
-        }
-        .modal-platform.windows {
-            background: #dbeafe;
-            color: #0284c7;
-        }
-        .modal-close {
-            color: #64748b;
-            font-size: 28px;
-            font-weight: 300;
-            cursor: pointer;
-            line-height: 1;
-            padding: 0;
-            background: none;
-            border: none;
-            width: 32px;
-            height: 32px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 6px;
-            transition: all 0.2s ease;
-        }
-        .modal-close:hover {
-            background: #f1f5f9;
-            color: #1e293b;
-        }
-        .modal-body {
-            padding: 24px;
-        }
-        .modal-footer {
-            padding: 16px 24px;
-            border-top: 1px solid #e2e8f0;
-            text-align: center;
-        }
-        .modal-footer p {
-            margin: 0;
-            color: #64748b;
-            font-size: 12px;
-        }
-        .modal-info-row {
-            margin-bottom: 20px;
-        }
-        .modal-info-label {
-            font-size: 12px;
-            font-weight: 600;
-            color: #64748b;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            margin-bottom: 6px;
-        }
-        .modal-info-value {
-            font-size: 16px;
-            color: #1e293b;
-            line-height: 1.6;
-        }
-        .modal-installer-link {
-            display: block;
-            padding: 12px 24px;
-            background: #2563eb;
-            color: white;
-            text-decoration: none;
-            border-radius: 6px;
-            font-weight: 500;
-            text-align: center;
-            transition: all 0.2s ease;
-            width: 100%;
-            box-sizing: border-box;
-        }
-        .modal-installer-link:hover {
-            background: #1d4ed8;
-            transform: translateY(-2px);
-            box-shadow: 0 4px 6px rgba(37, 99, 235, 0.3);
-        }
-        .modal-security-info {
-            background: #f8fafc;
-            border: 1px solid #e2e8f0;
-            border-radius: 8px;
-            padding: 16px;
-            margin-top: 8px;
-        }
-        .modal-security-item {
-            margin-bottom: 12px;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-        .modal-security-item:last-child {
-            margin-bottom: 0;
-        }
-        .modal-security-label {
-            font-weight: 600;
-            color: #475569;
-            flex-shrink: 0;
-            min-width: 100px;
-            font-size: 14px;
-        }
-        .modal-security-value {
-            font-family: 'Monaco', 'Menlo', 'Courier New', monospace;
-            font-size: 13px;
-            background: white;
-            padding: 4px 8px;
-            border-radius: 4px;
-            border: 1px solid #e2e8f0;
-            color: #1e293b;
-            white-space: nowrap;
-            overflow-x: auto;
-            flex: 1;
-            min-width: 0;
-            cursor: pointer;
-            transition: all 0.2s ease;
-            position: relative;
-        }
-        .modal-security-value:hover {
-            background: #f1f5f9;
-            border-color: #2563eb;
-        }
-        .modal-security-value:active {
-            background: #e0e7ff;
-        }
-        .modal-security-value.copied {
-            background: #dcfce7;
-            border-color: #22c55e;
-        }
-        .modal-security-value::after {
-            content: 'Click to copy';
-            position: absolute;
-            bottom: 100%;
-            left: 50%;
-            transform: translateX(-50%);
-            background: #1e293b;
-            color: white;
-            padding: 4px 8px;
-            border-radius: 4px;
-            font-size: 11px;
-            white-space: nowrap;
-            opacity: 0;
-            pointer-events: none;
-            transition: opacity 0.2s ease;
-            margin-bottom: 4px;
-        }
-        .modal-security-value:hover::after {
-            opacity: 1;
-        }
-        .rss-button {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            padding: 10px 20px;
-            background: #2563eb;
-            color: white;
-            text-decoration: none;
-            border-radius: 6px;
-            font-weight: 500;
-            font-size: 14px;
-            transition: all 0.2s ease;
-            flex-shrink: 0;
-        }
-        .rss-button:hover {
-            background: #1d4ed8;
-            transform: translateY(-2px);
-            box-shadow: 0 4px 6px rgba(37, 99, 235, 0.3);
-        }
-        .rss-button svg {
-            width: 18px;
-            height: 18px;
-            fill: currentColor;
-            flex-shrink: 0;
-        }
-        @media (max-width: 768px) {
-            .header-section {
-                flex-direction: column;
-                align-items: stretch;
-            }
-            .rss-button {
-                margin-top: 15px;
-                width: 100%;
-                justify-content: center;
-            }
-            .apps-count-row {
-                flex-direction: column;
-                align-items: stretch;
-            }
-            .apps-search {
-                width: 100%;
-            }
-            .apps-grid {
-                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-                gap: 15px;
-            }
-            .app-card {
-                padding: 15px;
-            }
-            .app-icon {
-                width: 48px;
-                height: 48px;
-                font-size: 24px;
-            }
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Track the growth of Fleet-maintained apps over time. View app versions, download installers, and explore the expanding library of macOS and Windows applications.">
+<title>Fleet-maintained app library</title>
+<link rel="alternate" type="application/rss+xml" title="Fleet-maintained app updates" href="feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Roboto+Mono:wght@400&display=swap">
+<style>
+/* ============================================================
+   Fleet design tokens.
+   Palette and type taken from fleetdm/fleet
+   website/assets/styles/mixins-and-variables/{colors,typography}.less
+   ============================================================ */
+:root {
+  --fleet-black:      #192147;
+  --fleet-black-75:   #515774;
+  --fleet-black-50:   #8b8fa2;
+  --fleet-black-25:   #c5c7d1;
+  --fleet-black-10:   #e2e4ea;
+  --fleet-black-5:    #f2f2f5;
+  --fleet-green:      #009a7d;
+  --fleet-green-ring: #008a70;
+  --fleet-blue:       #6a67fe;
+  --fleet-blue-10:    #f1f0ff;
+  --fleet-red:        #ff5c83;
+  --off-white:        #f9fafc;
+  --fleet-wash:       #e8f1f6;
+
+  --brand:     var(--fleet-blue);
+  --brand-ink: #4b48d6;
+  --cta:       var(--fleet-green);
+  --cta-ring:  var(--fleet-green-ring);
+
+  /* layout.less:19 — background: linear-gradient(180deg,#E8F1F6 0%,#FFFFFF 100px) */
+  --bg:        #ffffff;
+  --bg-grad:   linear-gradient(180deg, var(--fleet-wash) 0%, #ffffff 100px);
+  --grad-top:  40px;
+
+  --surface:   #ffffff;
+  --surface-2: var(--fleet-black-5);
+  --border:    var(--fleet-black-10);
+  --border-strong: var(--fleet-black-25);
+  --text:      var(--fleet-black);
+  --text-2:    var(--fleet-black-75);
+  --muted:     var(--fleet-black-50);
+  --grid:      var(--fleet-black-10);
+
+  --shadow-sm: 0 6px 20px rgba(0,0,0,.05);
+  --shadow:    0 6px 20px rgba(0,0,0,.09);
+
+  --r:    8px;
+  --r-lg: 12px;
+  --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'Roboto Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  --maxw: 1140px;
+}
+
+/* fleetdm.com has no dark mode, so neither does this. */
+:root { color-scheme: light; }
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background-color: var(--bg);
+  background-image: var(--bg-grad);
+  background-repeat: no-repeat;
+  background-position: center var(--grad-top);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 { font-weight: 800; line-height: 1.2; letter-spacing: -.01em; }
+a { color: var(--brand-ink); }
+code, .mono { font-family: var(--font-mono); }
+
+.sr-only {
+  position: absolute; width: 1px; height: 1px;
+  padding: 0; margin: -1px; overflow: hidden;
+  clip: rect(0 0 0 0); clip-path: inset(50%);
+  white-space: nowrap; border: 0;
+}
+
+.wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 16px; }
+
+/* ---------- Top bar ---------- */
+.topbar {
+  position: sticky; top: 0; z-index: 20;
+  background: rgba(255,255,255,.95);
+  backdrop-filter: saturate(180%) blur(12px);
+  border-bottom: 1px solid var(--border);
+}
+.topbar .wrap {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 16px; height: 60px;
+}
+.brand { display: flex; align-items: center; gap: 11px; min-width: 0; }
+.brand b { font-size: 15px; font-weight: 800; letter-spacing: -.012em; color: var(--text); }
+.brand .sep { width: 1px; height: 18px; background: var(--border); flex: none; }
+.brand .what { font-size: 14px; color: var(--text-2); white-space: nowrap; }
+@media (max-width: 620px) { .brand .sep, .brand .what { display: none; } }
+
+/* ---------- Fleet primary button ----------
+   Port of .primary-button(normal) from buttons.less, spotlight included. */
+.btn-primary {
+  --primary-button: 1;
+  --spotlight-x: 35%; --spotlight-y: 30%;
+  position: relative; isolation: isolate; overflow: hidden;
+  display: inline-flex; justify-content: center; align-items: center; gap: 8px;
+  border: none; cursor: pointer; color: #fff;
+  font-family: inherit; font-weight: 700; text-decoration: none;
+  background-color: var(--cta);
+  background-image: linear-gradient(180deg, rgba(255,255,255,.12) 0%, rgba(255,255,255,0) 60%);
+  box-shadow: 0 0 0 1px var(--cta-ring), 0 2px 6px -1px rgba(0,154,125,.225);
+  transition: transform .35s cubic-bezier(.2,.8,.2,1), box-shadow .35s cubic-bezier(.2,.8,.2,1);
+  min-height: 36px; padding: 7.5px 16px; border-radius: 12px;
+  font-size: 14px; line-height: 150%;
+}
+.btn-primary::before, .btn-primary::after {
+  content: ''; position: absolute; inset: 0; z-index: -1;
+  border-radius: inherit; pointer-events: none; opacity: 0;
+  transition: opacity .4s ease;
+}
+.btn-primary::after {
+  background: radial-gradient(120px circle at var(--spotlight-x) var(--spotlight-y), rgba(133,255,198,.25), rgba(133,255,198,0) 70%);
+}
+.btn-primary::before {
+  padding: 1px;
+  background: radial-gradient(80px circle at var(--spotlight-x) var(--spotlight-y), rgba(133,255,198,.8), rgba(133,255,198,0) 70%);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+          mask: linear-gradient(#000 0 0) content-box exclude, linear-gradient(#000 0 0);
+}
+.btn-primary:hover, .btn-primary:focus { color: #fff; text-decoration: none; }
+.btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.45), 0 0 0 1px var(--cta-ring), 0 4px 9px -2px rgba(0,154,125,.275);
+}
+.btn-primary:hover::before, .btn-primary:hover::after { opacity: 1; }
+.btn-primary:active { transform: scale(.98); transition-duration: .1s; }
+.btn-primary:focus-visible { outline: 2px solid var(--fleet-black); outline-offset: 2px; }
+.btn-primary svg { fill: currentColor; }
+@media (prefers-reduced-motion: reduce) {
+  .btn-primary { transition: none; }
+  .btn-primary:hover, .btn-primary:active { transform: none; }
+  .btn-primary::before, .btn-primary::after { transition: none; }
+}
+
+/* ---------- Kicker ---------- */
+.kicker {
+  font-family: var(--font-mono); font-weight: 400; font-size: 12px;
+  line-height: 1.5; letter-spacing: .04em; text-transform: uppercase;
+  color: var(--text-2);
+}
+
+/* ---------- Hero ---------- */
+.hero { padding: 28px 0 24px; }
+.hero-grid { display: grid; grid-template-columns: minmax(0,1fr) auto; gap: 32px; align-items: end; }
+.big { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.big .n {
+  font-size: 52px; font-weight: 800; letter-spacing: -.03em; line-height: 1;
+  font-variant-numeric: tabular-nums; color: var(--text);
+}
+.big .l { font-size: 15px; color: var(--text-2); }
+.big .d {
+  font-size: 13px; font-weight: 700; color: var(--fleet-green);
+  background: rgba(0,154,125,.1); padding: 3px 9px; border-radius: 4px;
+  font-variant-numeric: tabular-nums;
+}
+.split { margin-top: 18px; width: 100%; max-width: 440px; }
+.split-bar { display: flex; height: 8px; border-radius: 4px; overflow: hidden; background: var(--surface-2); }
+.split-bar i { display: block; height: 100%; }
+.split-keys { display: flex; justify-content: space-between; gap: 12px; margin-top: 10px; font-size: 13px; color: var(--text-2); }
+.split-keys span { display: inline-flex; align-items: center; gap: 7px; }
+.split-keys em { font-style: normal; font-weight: 700; color: var(--text); font-variant-numeric: tabular-nums; }
+.split-keys i { width: 8px; height: 8px; border-radius: 2px; }
+
+.minis-wrap { display: flex; flex-direction: column; gap: 9px; }
+.minis { display: flex; gap: 10px; }
+.mini {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--r); padding: 13px 15px 9px; min-width: 142px; overflow: hidden;
+}
+.mini .mv { font-size: 20px; font-weight: 800; letter-spacing: -.02em; font-variant-numeric: tabular-nums; line-height: 1.1; }
+.mini .ml { margin-top: 4px; font-size: 11px; letter-spacing: .03em; }
+.mini .ms { margin: 7px -15px -9px; }
+
+/* ---------- Panels ---------- */
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-lg); box-shadow: var(--shadow-sm); }
+.duo { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.panel { padding: 18px 20px 13px; }
+.panel-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; margin-bottom: 12px; }
+.panel h2 { margin: 0; font-size: 16px; font-weight: 800; letter-spacing: -.01em; }
+.panel .note { margin: 4px 0 0; font-size: 13px; color: var(--text-2); }
+.panel-foot { margin: 10px 0 0; font-size: 12px; text-align: right; }
+.panel-foot a { color: var(--muted); }
+
+/* ---------- Charts ---------- */
+.chart { position: relative; width: 100%; }
+.chart svg { display: block; width: 100%; height: auto; overflow: visible; }
+.chart .c-grid  { stroke: var(--grid); stroke-width: 1; }
+.chart .c-axis  { fill: var(--muted); font-size: 11px; font-variant-numeric: tabular-nums; }
+.chart .c-line  { fill: none; stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.chart .c-hover { stroke: var(--border-strong); stroke-width: 1; stroke-dasharray: 3 3; }
+.chart .c-hit   { fill: transparent; cursor: crosshair; }
+.c-tip {
+  position: absolute; z-index: 5; pointer-events: none; opacity: 0;
+  transform: translate(-50%, -112%); transition: opacity .12s ease;
+  background: var(--fleet-black); color: #fff; border-radius: 8px;
+  padding: 7px 10px; font-size: 12px; line-height: 1.35; white-space: nowrap;
+  box-shadow: 0 6px 18px -6px rgba(0,0,0,.45);
+}
+.c-tip.on { opacity: 1; }
+.c-tip .t-date { color: #aab2e0; font-size: 11px; margin-bottom: 2px; }
+.c-tip .t-row { display: flex; align-items: center; gap: 6px; }
+.c-tip .t-dot { width: 7px; height: 7px; border-radius: 50%; flex: none; }
+.c-tip b { font-variant-numeric: tabular-nums; font-weight: 700; }
+
+.legend { display: flex; gap: 14px; align-items: center; flex-wrap: wrap; font-size: 12.5px; color: var(--text-2); }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.legend i { width: 9px; height: 9px; border-radius: 3px; display: block; }
+
+/* ---------- Segmented control ---------- */
+.seg { display: inline-flex; background: var(--surface-2); border: 1px solid var(--border); border-radius: 8px; padding: 3px; gap: 2px; }
+.seg button {
+  appearance: none; border: 0; background: transparent; color: var(--text-2);
+  font: inherit; font-size: 12.5px; font-weight: 600; padding: 5px 13px;
+  border-radius: 6px; cursor: pointer; white-space: nowrap;
+  transition: background .15s, color .15s;
+}
+.seg button:hover { color: var(--text); }
+.seg button[aria-pressed="true"] { background: var(--surface); color: var(--text); box-shadow: 0 1px 2px rgba(0,0,0,.06); }
+
+/* ---------- Search (form-fields.less .text-input(normal)) ---------- */
+.search { position: relative; display: flex; align-items: center; }
+.search svg { position: absolute; left: 11px; color: var(--muted); pointer-events: none; }
+.search input {
+  appearance: none; background: var(--surface); border: 1px solid var(--border);
+  border-radius: 8px; color: var(--text); font: inherit; font-size: 14px;
+  line-height: 150%; height: 36px; padding: 6.5px 12px 6.5px 33px; width: 230px;
+  transition: border-color .15s;
+}
+.search input::placeholder { color: var(--muted); }
+.search input:focus { outline: none; border-color: var(--fleet-black); box-shadow: none; }
+
+/* ---------- Apps ---------- */
+.apps { margin-top: 32px; }
+.apps-head { display: flex; align-items: center; justify-content: space-between; gap: 14px; flex-wrap: wrap; margin-bottom: 16px; }
+.apps-head h2 { margin: 0; font-size: 20px; font-weight: 800; letter-spacing: -.012em; }
+.apps-head .n { color: var(--muted); font-weight: 500; }
+.apps-tools { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+
+.apps-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(148px, 1fr)); gap: 10px; }
+.app {
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--r);
+  padding: 14px 10px 12px; text-align: center; cursor: pointer;
+  transition: border-color .14s, transform .14s, box-shadow .14s;
+  content-visibility: auto; contain-intrinsic-size: 150px;
+}
+.app:hover { border-color: var(--brand); transform: translateY(-2px); box-shadow: var(--shadow); }
+.app:focus-visible { outline: 2px solid var(--fleet-black); outline-offset: 2px; }
+.app-ico {
+  width: 40px; height: 40px; margin: 0 auto 9px; border-radius: 9px;
+  display: grid; place-items: center; background: var(--surface-2);
+  overflow: hidden; font-weight: 700; font-size: 15px; color: var(--muted);
+}
+.app-ico img { width: 100%; height: 100%; object-fit: contain; }
+.app-name { font-size: 13px; font-weight: 600; color: var(--text); line-height: 1.3; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.app-ver { font-size: 11.5px; color: var(--muted); font-variant-numeric: tabular-nums; margin-top: 2px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.pill { display: inline-block; margin-top: 7px; font-size: 10.5px; font-weight: 600; letter-spacing: .02em; padding: 2px 8px; border-radius: 999px; }
+.pill.mac { background: var(--fleet-blue-10); color: var(--brand-ink); }
+.pill.win { background: #fff0f4; color: #d13a63; }
+.more { grid-column: 1 / -1; text-align: center; color: var(--muted); font-size: 13px; padding: 18px 0; }
+
+.foot { color: var(--muted); font-size: 13px; text-align: center; padding: 36px 0 44px; }
+.foot a { color: var(--text-2); }
+
+/* ---------- Modal ---------- */
+.modal {
+  display: none; position: fixed; inset: 0; z-index: 100;
+  background: rgba(25,33,71,.45); padding: 24px;
+  overflow-y: auto;
+}
+.modal.show { display: flex; align-items: flex-start; justify-content: center; }
+.modal-content {
+  background: var(--surface); border-radius: var(--r-lg); width: 100%; max-width: 640px;
+  margin: auto; box-shadow: 0 20px 60px -12px rgba(25,33,71,.4);
+  animation: modal-in .18s cubic-bezier(.2,.8,.2,1);
+}
+@keyframes modal-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .modal-content { animation: none; } }
+.modal-header { display: flex; align-items: flex-start; gap: 14px; padding: 20px 20px 16px; border-bottom: 1px solid var(--border); }
+.modal-icon { width: 48px; height: 48px; border-radius: 10px; background: var(--surface-2); overflow: hidden; flex: none; display: grid; place-items: center; font-weight: 700; color: var(--muted); }
+.modal-icon img { width: 100%; height: 100%; object-fit: contain; }
+.modal-title-section { flex: 1; min-width: 0; }
+.modal-title { margin: 0 0 4px; font-size: 20px; font-weight: 800; letter-spacing: -.015em; }
+.modal-platform { display: inline-block; font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 999px; }
+.modal-platform.darwin { background: var(--fleet-blue-10); color: var(--brand-ink); }
+.modal-platform.windows { background: #fff0f4; color: #d13a63; }
+.modal-close {
+  appearance: none; border: 0; background: transparent; color: var(--muted);
+  font-size: 26px; line-height: 1; cursor: pointer; padding: 2px 6px; border-radius: 6px;
+}
+.modal-close:hover { background: var(--surface-2); color: var(--text); }
+.modal-body { padding: 18px 20px 20px; }
+.modal-row { margin-bottom: 16px; }
+.modal-row:last-child { margin-bottom: 0; }
+.modal-label {
+  font-family: var(--font-mono); font-size: 11px; letter-spacing: .04em;
+  text-transform: uppercase; color: var(--text-2); margin-bottom: 5px;
+}
+.modal-value { font-size: 14px; color: var(--text); word-break: break-word; }
+.modal-sec { display: flex; flex-direction: column; gap: 8px; }
+.modal-sec-item { display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: baseline; }
+.modal-sec-label { font-size: 12px; font-weight: 600; color: var(--text-2); min-width: 92px; }
+.modal-sec-value {
+  font-family: var(--font-mono); font-size: 11.5px; color: var(--text);
+  background: var(--surface-2); border: 1px solid var(--border); border-radius: 6px;
+  padding: 3px 7px; cursor: pointer; word-break: break-all; flex: 1; min-width: 0;
+  transition: border-color .15s, background .15s;
+}
+.modal-sec-value:hover { border-color: var(--brand); }
+.modal-sec-value.copied { background: rgba(0,154,125,.1); border-color: var(--cta); color: var(--cta); }
+.modal-sec-app { margin-bottom: 18px; }
+.modal-sec-app:last-child { margin-bottom: 0; }
+.modal-sec-app-title { font-weight: 700; font-size: 14px; margin-bottom: 8px; }
+.modal-footer { padding: 14px 20px; border-top: 1px solid var(--border); font-size: 12px; color: var(--muted); display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+
+@media (max-width: 920px) {
+  .hero-grid { grid-template-columns: 1fr; align-items: start; }
+  .duo { grid-template-columns: 1fr; }
+  .minis { display: grid; grid-template-columns: 1fr 1fr; }
+  .mini { min-width: 0; }
+}
+@media (max-width: 520px) {
+  .big .n { font-size: 40px; }
+  .modal { padding: 0; }
+  .modal-content { border-radius: 0; min-height: 100%; }
+}
+</style>
 </head>
 <body>
-    <div class="container">
-        <div class="header-section">
-            <div class="header-content">
-                <h1>Fleet-maintained app library</h1>
-                <p class="subtitle">Continuous daily tracking of the Fleet-maintained app library</p>
-            </div>
-            <a href="feed.xml" class="rss-button" title="Subscribe to version updates">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                    <path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795.001 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-3.368c10.58.046 19.152 8.594 19.183 19.188h4.817c-.03-13.231-10.755-23.954-24-24v4.812z"/>
-                </svg>
-                Subscribe to updates
-            </a>
-        </div>
-        
-        <div class="chart-container">
-            <canvas id="cumulativeChart"></canvas>
-        </div>
-        
-        <div class="stats" id="stats">
-            <!-- Stats will be populated by JavaScript -->
-        </div>
 
-        <div class="patches-section" id="patchesSection">
-            <h2>Patches released per day</h2>
-            <p class="patches-subtitle">App version updates shipped to the library each day. New app additions are not counted as patches.</p>
-            <div class="patches-chart-container">
-                <canvas id="patchesChart"></canvas>
-            </div>
-            <p class="patches-data-link"><a href="data/patches_per_day.csv">View the data (CSV)</a></p>
-        </div>
+<div class="topbar"><div class="wrap">
+  <div class="brand">
+    <svg width="22" height="22" viewBox="0 0 64 64" aria-hidden="true">
+      <circle cx="7.5"  cy="7.5"  r="7.5" fill="#63C740"/>
+      <circle cx="31.5" cy="7.5"  r="7.5" fill="#5CABDF"/>
+      <circle cx="55.5" cy="7.5"  r="7.5" fill="#D66C7B"/>
+      <circle cx="7.5"  cy="31.5" r="7.5" fill="#C98DEF"/>
+      <circle cx="31.5" cy="31.5" r="7.5" fill="#FAA669"/>
+      <circle cx="7.5"  cy="55.5" r="7.5" fill="#3AEFC4"/>
+    </svg>
+    <b>Fleet</b>
+    <span class="sep"></span>
+    <span class="what">Maintained app library</span>
+  </div>
+  <a class="btn-primary" href="feed.xml">
+    <svg width="13" height="13" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795.001 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-3.368c10.58.046 19.152 8.594 19.183 19.188h4.817c-.03-13.231-10.755-23.954-24-24v4.812z"/></svg>
+    Subscribe to updates
+  </a>
+</div></div>
 
-        <div class="apps-section">
-            <div class="apps-header">
-                <div class="apps-count-row">
-                    <p class="apps-count"><span id="appsCount">0</span> total apps</p>
-                    <div class="apps-controls">
-                        <div class="card-size-toggle" role="group" aria-label="Card size">
-                            <button type="button" id="cardSizeDefaultBtn" class="active" onclick="setCardSize('default')" aria-pressed="true">Default</button>
-                            <button type="button" id="cardSizeCompactBtn" onclick="setCardSize('compact')" aria-pressed="false">Compact</button>
-                        </div>
-                        <div class="apps-search">
-                            <svg class="apps-search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-                            <input type="text" id="appSearchInput" placeholder="Search apps..." oninput="handleSearch(this.value)">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="apps-grid" id="appsGrid">
-                <!-- Apps will be populated by JavaScript -->
-            </div>
+<div class="wrap">
+  <section class="hero">
+    <h1 class="sr-only">Fleet-maintained app library</h1>
+    <div class="hero-grid">
+      <div>
+        <div class="big">
+          <span class="n" id="bTotal">&mdash;</span>
+          <span class="l">apps in the library</span>
+          <span class="d" id="bDelta"></span>
         </div>
-        
-        <div class="footer">
-            <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank">fleetdm/fleet</a> | 
-            Last updated: ` + lastUpdated + `</p>
+        <div class="split">
+          <div class="split-bar">
+            <i id="barMac" style="background:#6a67fe;width:50%"></i>
+            <i id="barWin" style="background:#ff5c83;width:50%"></i>
+          </div>
+          <div class="split-keys">
+            <span><i style="background:#6a67fe"></i>macOS <em id="bMac">&mdash;</em></span>
+            <span><i style="background:#ff5c83"></i>Windows <em id="bWin">&mdash;</em></span>
+          </div>
         </div>
+      </div>
+      <div class="minis-wrap">
+        <p class="kicker">Last 30 days</p>
+        <div class="minis">
+          <div class="mini">
+            <div class="mv" id="mPatch">&mdash;</div>
+            <div class="ml kicker">Patches</div>
+            <div class="ms" id="msPatch"></div>
+          </div>
+          <div class="mini">
+            <div class="mv" id="mAdds">&mdash;</div>
+            <div class="ml kicker">New apps</div>
+            <div class="ms" id="msAdds"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="duo">
+    <div class="card panel">
+      <div class="panel-head">
+        <div>
+          <h2>Library growth</h2>
+          <p class="note">Cumulative apps maintained</p>
+        </div>
+        <div class="seg" id="rangeSeg">
+          <button type="button" data-r="180" aria-pressed="false">6m</button>
+          <button type="button" data-r="365" aria-pressed="false">1y</button>
+          <button type="button" data-r="all" aria-pressed="true">All</button>
+        </div>
+      </div>
+      <div id="growth" style="height:200px"></div>
+      <p class="panel-foot"><a href="data/apps_growth.csv">View the data (CSV)</a></p>
     </div>
 
-    <!-- App Details Modal -->
-    <div id="appModal" class="modal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <div class="modal-icon" id="modalIcon">
-                    <img id="modalIconImg" src="" alt="" onerror="handleModalIconError(this);">
-                </div>
-                <div class="modal-title-section">
-                    <h2 class="modal-title" id="modalTitle"></h2>
-                    <span class="modal-platform" id="modalPlatform"></span>
-                </div>
-                <button class="modal-close" onclick="closeModal()">&times;</button>
-            </div>
-            <div class="modal-body">
-                <div class="modal-info-row">
-                    <div class="modal-info-label">Version</div>
-                    <div class="modal-info-value" id="modalVersion"></div>
-                </div>
-                <div class="modal-info-row">
-                    <div class="modal-info-label">Description</div>
-                    <div class="modal-info-value" id="modalDescription"></div>
-                </div>
-                <div class="modal-info-row">
-                    <div class="modal-info-label">Slug</div>
-                    <div class="modal-info-value" id="modalSlug"></div>
-                </div>
-                <div class="modal-info-row" id="modalSecurityRow" style="display: none;">
-                    <div class="modal-info-label">Security Information</div>
-                    <div id="modalSecurityContainer">
-                        <!-- Single app security info (legacy) -->
-                        <div class="modal-security-info" id="modalSecuritySingle">
-                            <div class="modal-security-item">
-                                <span class="modal-security-label">SHA-256:</span>
-                                <code class="modal-security-value" id="modalSha256"></code>
-                            </div>
-                            <div class="modal-security-item">
-                                <span class="modal-security-label">CDHash:</span>
-                                <code class="modal-security-value" id="modalCdhash"></code>
-                            </div>
-                            <div class="modal-security-item">
-                                <span class="modal-security-label">Signing ID:</span>
-                                <code class="modal-security-value" id="modalSigningID"></code>
-                            </div>
-                            <div class="modal-security-item">
-                                <span class="modal-security-label">Team ID:</span>
-                                <code class="modal-security-value" id="modalTeamID"></code>
-                            </div>
-                        </div>
-                        <!-- Multiple apps security info (suites) -->
-                        <div id="modalSecurityMultiple"></div>
-                    </div>
-                </div>
-                <div class="modal-info-row" id="modalInstallerRow" style="display: none; margin-top: 24px;">
-                    <a href="#" id="modalInstallerLink" class="modal-installer-link" target="_blank" rel="noopener noreferrer">Download Installer</a>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <p id="modalLastUpdated">Last updated: ` + lastUpdated + `</p>
-            </div>
+    <div class="card panel">
+      <div class="panel-head">
+        <div>
+          <h2>Patches released per day</h2>
+          <p class="note">New app additions are not counted</p>
         </div>
+        <div class="legend">
+          <span><i style="background:#6a67fe"></i>macOS</span>
+          <span><i style="background:#ff5c83"></i>Windows</span>
+        </div>
+      </div>
+      <div id="patches" style="height:200px"></div>
+      <p class="panel-foot"><a href="data/patches_per_day.csv">View the data (CSV)</a></p>
     </div>
+  </section>
 
-    <script>
-        // Embedded CSV data
-        const csvData = ` + dataJSONStr + `;
-        
-        // Embedded apps data
-        const appsData = ` + appsJSONStr + `;
+  <section class="apps">
+    <div class="apps-head">
+      <h2>Apps <span class="n" id="appsCount">` + appCount + `</span></h2>
+      <div class="apps-tools">
+        <div class="seg" id="platSeg">
+          <button type="button" data-f="all" aria-pressed="true">All</button>
+          <button type="button" data-f="mac" aria-pressed="false">macOS</button>
+          <button type="button" data-f="win" aria-pressed="false">Windows</button>
+        </div>
+        <label class="search">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+          <input id="appSearch" type="search" placeholder="Search apps..." aria-label="Search apps">
+        </label>
+      </div>
+    </div>
+    <div class="apps-grid" id="appsGrid"></div>
+  </section>
 
-        // Embedded patches-per-day data
-        const patchesData = ` + patchesJSONStr + `;
-        
-        // Shared 1-year timeline for both charts, computed from today
-        function getTimelineWindow() {
-            const now = new Date();
-            const end = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-            const start = new Date(end);
-            start.setFullYear(start.getFullYear() - 1);
-            return { start: start, end: end };
-        }
+  <footer class="foot">
+    <p>Data source: <a href="https://github.com/fleetdm/fleet" target="_blank" rel="noopener">fleetdm/fleet</a> &middot; Last updated: ` + lastUpdated + `</p>
+  </footer>
+</div>
 
-        // Process data into format needed for charts, trimmed to the shared timeline
-        function processData() {
-            const timeline = getTimelineWindow();
-            const allDates = csvData.dates.map(d => new Date(d + 'T00:00:00'));
-            const counts = csvData.counts;
-            const macCounts = csvData.macCounts || [];
-            const windowsCounts = csvData.windowsCounts || [];
+<div id="appModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div class="modal-content">
+    <div class="modal-header">
+      <div class="modal-icon" id="modalIcon"></div>
+      <div class="modal-title-section">
+        <h2 class="modal-title" id="modalTitle"></h2>
+        <span class="modal-platform" id="modalPlatform"></span>
+      </div>
+      <button class="modal-close" type="button" aria-label="Close">&times;</button>
+    </div>
+    <div class="modal-body" id="modalBody"></div>
+    <div class="modal-footer">
+      <span id="modalLastUpdated"></span>
+      <a id="modalInstaller" href="#" target="_blank" rel="noopener" style="display:none">Download installer</a>
+    </div>
+  </div>
+</div>
+<script>
+(function () {
+'use strict';
 
-            let cut = 0;
-            while (cut < allDates.length && allDates[cut] < timeline.start) cut++;
+var NS    = 'http://www.w3.org/2000/svg';
+var COL   = { mac: '#6a67fe', win: '#ff5c83' };
+var MONTH = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+var ICON_BASE = 'https://raw.githubusercontent.com/fleetdm/fleet/main/website/assets/images/';
 
-            const data = {
-                // Counts just before the visible window, so day-over-day
-                // deltas stay correct at the left edge
-                baselines: {
-                    counts: cut > 0 ? counts[cut - 1] : 0,
-                    macCounts: cut > 0 ? (macCounts[cut - 1] || 0) : 0,
-                    windowsCounts: cut > 0 ? (windowsCounts[cut - 1] || 0) : 0
-                },
-                dates: allDates.slice(cut),
-                counts: counts.slice(cut),
-                additions: csvData.additions.slice(cut),
-                macCounts: macCounts.slice(cut),
-                windowsCounts: windowsCounts.slice(cut),
-                growthDates: csvData.growthDates.map(d => new Date(d + 'T00:00:00')),
-                growthCounts: csvData.growthCounts,
-                growthAdditions: csvData.growthAdditions
-            };
-            return data;
-        }
-        
-        let chartInstance = null;
-        let chartData = null;
-        let currentFilter = 'total';
-        let currentSearchQuery = '';
-        
-        function getAppIconUrl(slug) {
-            // Convert slug format "app-name/platform" to icon filename "app-icon-app-name-60x60@2x.png"
-            const appName = slug.split('/')[0];
-            const iconFilename = 'app-icon-' + appName + '-60x60@2x.png';
-            return 'https://raw.githubusercontent.com/fleetdm/fleet/main/website/assets/images/' + iconFilename;
-        }
-        
-        function getAppIconFallback(name) {
-            // Get first letter or first two letters for fallback icon
-            const words = name.split(' ');
-            if (words.length > 1) {
-                return (words[0][0] + words[1][0]).toUpperCase();
-            }
-            return name.substring(0, 2).toUpperCase();
-        }
-        
-        function getPlatformLabel(platform) {
-            return platform === 'darwin' ? 'Mac' : 'Windows';
-        }
-        
-        function handleIconError(img) {
-            const iconDiv = img.parentElement;
-            const fallbackText = iconDiv.getAttribute('data-fallback') || '?';
-            img.style.display = 'none';
-            iconDiv.innerHTML = '<div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg, #667eea 0%, #764ba2 100%);color:white;font-weight:bold;font-size:24px;">' + escapeHtml(fallbackText) + '</div>';
-        }
-        
-        function escapeHtml(text) {
-            const div = document.createElement('div');
-            div.textContent = text;
-            return div.innerHTML;
-        }
-        
-        function handleSearch(query) {
-            currentSearchQuery = query.toLowerCase().trim();
-            filterApps(currentFilter);
-        }
-        
-        function filterApps(viewType) {
-            currentFilter = viewType;
-            const grid = document.getElementById('appsGrid');
-            const countEl = document.getElementById('appsCount');
-            
-            let filteredApps = appsData;
-            
-            if (viewType === 'mac') {
-                filteredApps = filteredApps.filter(app => app.platform === 'darwin');
-            } else if (viewType === 'windows') {
-                filteredApps = filteredApps.filter(app => app.platform === 'windows');
-            }
-            
-            if (currentSearchQuery) {
-                filteredApps = filteredApps.filter(app => {
-                    const name = (app.name || '').toLowerCase();
-                    const slug = (app.slug || '').toLowerCase();
-                    return name.includes(currentSearchQuery) || slug.includes(currentSearchQuery);
-                });
-            }
-            
-            // Sort apps by name (case-insensitive), then by platform to group same-name apps together
-            filteredApps.sort((a, b) => {
-                const nameA = a.name.toLowerCase();
-                const nameB = b.name.toLowerCase();
-                if (nameA !== nameB) {
-                    return nameA.localeCompare(nameB);
-                }
-                // If names are the same, sort by platform (darwin before windows)
-                return a.platform.localeCompare(b.platform);
-            });
-            
-            // Always reflect what's actually rendered — the previous
-            // no-search guard froze the count as soon as any text was typed
-            // in the search box, so toggling Total / Mac / Windows left the
-            // count stuck until the search cleared.
-            countEl.textContent = filteredApps.length;
+var GROWTH = ` + string(growthJSON) + `;
+var PATCH  = ` + string(patchJSON) + `;
 
-            grid.innerHTML = filteredApps.map(app => {
-                const iconUrl = getAppIconUrl(app.slug);
-                const fallbackText = getAppIconFallback(app.name);
-                const platformLabel = getPlatformLabel(app.platform);
-                const version = app.version || 'N/A';
-                const versionHtml = '<div class="app-version">' + escapeHtml(version) + '</div>';
+/* ---------- helpers ---------- */
 
-                // Make cards clickable divs that open modal. Store app slug
-                // to find app data when clicked. The app-meta wrapper lets
-                // compact mode pull version + platform onto one line via flex;
-                // default mode uses display: contents on the wrapper so it
-                // stays layout-invisible.
-                return '<div class="app-card" data-platform="' + escapeHtml(app.platform) + '" data-app-slug="' + escapeHtml(app.slug) + '" onclick="openModalFromCard(this)" style="cursor: pointer;">' +
-                    '<div class="app-icon" data-fallback="' + escapeHtml(fallbackText) + '">' +
-                    '<img src="' + escapeHtml(iconUrl) + '" alt="' + escapeHtml(app.name) + '" onerror="handleIconError(this);">' +
-                    '</div>' +
-                    '<div class="app-name">' + escapeHtml(app.name) + '</div>' +
-                    '<div class="app-meta">' +
-                    versionHtml +
-                    '<span class="app-platform ' + escapeHtml(app.platform) + '">' + escapeHtml(platformLabel) + '</span>' +
-                    '</div>' +
-                    '</div>';
-            }).join('');
-        }
+function fmt(n) { return Number(n).toLocaleString('en-US'); }
 
-        // --- Card-size toggle ---
-        // Persist between visits so a user's preferred density sticks.
-        const CARD_SIZE_STORAGE_KEY = 'fma-library:cardSize';
-        function setCardSize(mode) {
-            const grid = document.getElementById('appsGrid');
-            const defaultBtn = document.getElementById('cardSizeDefaultBtn');
-            const compactBtn = document.getElementById('cardSizeCompactBtn');
-            const isCompact = mode === 'compact';
-            if (grid) {
-                grid.classList.toggle('apps-grid--compact', isCompact);
-            }
-            if (defaultBtn && compactBtn) {
-                defaultBtn.classList.toggle('active', !isCompact);
-                compactBtn.classList.toggle('active', isCompact);
-                defaultBtn.setAttribute('aria-pressed', String(!isCompact));
-                compactBtn.setAttribute('aria-pressed', String(isCompact));
-            }
-            try {
-                localStorage.setItem(CARD_SIZE_STORAGE_KEY, mode);
-            } catch (e) {
-                // localStorage can be disabled in private browsing; failing
-                // silently keeps the current-session toggle working.
-            }
-        }
-        function restoreCardSize() {
-            try {
-                const saved = localStorage.getItem(CARD_SIZE_STORAGE_KEY);
-                if (saved === 'compact') setCardSize('compact');
-            } catch (e) {
-                /* no-op — default (Default mode) already applied */
-            }
-        }
+function dateList(p, n) {
+  if (p.dates) { return p.dates; }
+  var out = [], d = new Date(p.start + 'T00:00:00Z');
+  for (var i = 0; i < n; i++) {
+    out.push(d.toISOString().slice(0, 10));
+    d.setUTCDate(d.getUTCDate() + 1);
+  }
+  return out;
+}
 
-        function updateChart(viewType) {
-            if (!chartInstance || !chartData) return;
-            
-            let dataArray, baseline, label, color, borderColor, backgroundColor;
+function prettyDate(iso) {
+  var p = iso.split('-');
+  return MONTH[+p[1] - 1] + ' ' + (+p[2]) + ', ' + p[0];
+}
 
-            switch(viewType) {
-                case 'total':
-                    dataArray = chartData.counts;
-                    baseline = chartData.baselines.counts;
-                    label = 'Total Apps';
-                    color = '#2563eb';
-                    borderColor = '#2563eb';
-                    backgroundColor = 'rgba(37, 99, 235, 0.1)';
-                    break;
-                case 'mac':
-                    dataArray = chartData.macCounts;
-                    baseline = chartData.baselines.macCounts;
-                    label = 'Mac Apps';
-                    color = '#059669';
-                    borderColor = '#059669';
-                    backgroundColor = 'rgba(5, 150, 105, 0.1)';
-                    break;
-                case 'windows':
-                    dataArray = chartData.windowsCounts;
-                    baseline = chartData.baselines.windowsCounts;
-                    label = 'Windows Apps';
-                    color = '#0284c7';
-                    borderColor = '#0284c7';
-                    backgroundColor = 'rgba(2, 132, 199, 0.1)';
-                    break;
-                default:
-                    return;
-            }
-            
-            // Update chart data
-            chartInstance.data.datasets[0].label = label;
-            chartInstance.data.datasets[0].data = chartData.dates.map((date, i) => ({x: date, y: dataArray[i]}));
-            chartInstance.data.datasets[0].borderColor = borderColor;
-            chartInstance.data.datasets[0].backgroundColor = backgroundColor;
-            
-            // Update tooltip callback
-            chartInstance.options.plugins.tooltip.callbacks.label = function(context) {
-                const idx = chartData.dates.findIndex(d =>
-                    d.getTime() === context.raw.x.getTime());
-                const current = dataArray[idx];
-                const prev = idx > 0 ? dataArray[idx - 1] : baseline;
-                const added = current - prev;
-                return label + ': ' + context.parsed.y + ' apps' + (added > 0 ? ' (+' + added + ' added)' : '');
-            };
-            
-            // Update active state
-            document.querySelectorAll('.stat-card').forEach(card => {
-                card.classList.remove('active');
-            });
-            document.querySelector('.stat-card[data-view="' + viewType + '"]').classList.add('active');
-            
-            // Update apps filter
-            filterApps(viewType);
-            
-            chartInstance.update();
-        }
-        
-        function createCharts() {
-            const timeline = getTimelineWindow();
-            const data = processData();
-            chartData = data;
-            
-            // Calculate stats
-            const totalApps = data.counts[data.counts.length - 1];
-            const macApps = data.macCounts.length > 0 ? data.macCounts[data.macCounts.length - 1] : 0;
-            const windowsApps = data.windowsCounts.length > 0 ? data.windowsCounts[data.windowsCounts.length - 1] : 0;
-            
-            // Update stats cards. Total / Mac / Windows are clickable
-            // filters grouped in .stats-toggle so their shared edges
-            // collapse into a segmented-toggle look.
-            document.getElementById('stats').innerHTML =
-                '<div class="stats-toggle" role="group" aria-label="Filter by platform">' +
-                    '<div class="stat-card clickable active" data-view="total">' +
-                        '<div class="stat-value">' + totalApps + '</div>' +
-                        '<div class="stat-label">Total apps</div>' +
-                    '</div>' +
-                    '<div class="stat-card clickable" data-view="mac">' +
-                        '<div class="stat-value">' + macApps + '</div>' +
-                        '<div class="stat-label">Mac apps</div>' +
-                    '</div>' +
-                    '<div class="stat-card clickable" data-view="windows">' +
-                        '<div class="stat-value">' + windowsApps + '</div>' +
-                        '<div class="stat-label">Windows apps</div>' +
-                    '</div>' +
-                '</div>';
-            
-            // Add click event listeners to stat cards
-            document.querySelectorAll('.stat-card.clickable').forEach(card => {
-                card.addEventListener('click', function() {
-                    const viewType = this.getAttribute('data-view');
-                    updateChart(viewType);
-                });
-            });
-            
-            // Initialize apps display
-            filterApps('total');
-            // Restore the user's last card-size preference (default vs compact).
-            restoreCardSize();
-            
-            // Cumulative Growth Chart
-            const ctx1 = document.getElementById('cumulativeChart').getContext('2d');
-            chartInstance = new Chart(ctx1, {
-                type: 'line',
-                data: {
-                    datasets: [{
-                        label: 'Total Apps',
-                        data: data.dates.map((date, i) => ({x: date, y: data.counts[i]})),
-                        borderColor: '#2563eb',
-                        backgroundColor: 'rgba(37, 99, 235, 0.1)',
-                        borderWidth: 2.5,
-                        pointRadius: 0,
-                        fill: true,
-                        tension: 0,
-                        stepped: 'after'
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: {
-                        title: {
-                            display: true,
-                            text: 'Cumulative Growth (Daily)',
-                            font: { size: 16, weight: 'bold' }
-                        },
-                        legend: {
-                            display: true,
-                            position: 'top'
-                        },
-                        tooltip: {
-                            callbacks: {
-                                label: function(context) {
-                                    const idx = data.dates.findIndex(d =>
-                                        d.getTime() === context.raw.x.getTime());
-                                    const prev = idx > 0 ? data.counts[idx - 1] : data.baselines.counts;
-                                    const added = data.counts[idx] - prev;
-                                    return 'Total Apps: ' + context.parsed.y + ' apps' + (added > 0 ? ' (+' + added + ' added)' : '');
-                                }
-                            }
-                        }
-                    },
-                    scales: {
-                        x: {
-                            type: 'time',
-                            min: timeline.start.getTime(),
-                            max: timeline.end.getTime(),
-                            time: {
-                                unit: 'month',
-                                tooltipFormat: 'MMM d, yyyy',
-                                displayFormats: {
-                                    month: 'MMM'
-                                }
-                            },
-                            title: {
-                                display: true,
-                                text: 'Date',
-                                font: { weight: 'bold' }
-                            }
-                        },
-                        y: {
-                            beginAtZero: true,
-                            // Fixed axis width so both charts' timelines align vertically
-                            afterFit: function(scale) { scale.width = 70; },
-                            title: {
-                                display: true,
-                                text: 'Number of Apps',
-                                font: { weight: 'bold' }
-                            },
-                            ticks: {
-                                stepSize: 5
-                            }
-                        }
-                    }
-                }
-            });
-        }
-        
-        function createPatchesChart() {
-            const section = document.getElementById('patchesSection');
-            if (!patchesData.dates || patchesData.dates.length === 0) {
-                if (section) section.style.display = 'none';
-                return;
-            }
+function niceScale(max, ticks) {
+  if (max <= 0) { return { max: 1, step: 1 }; }
+  var raw = max / ticks;
+  var mag = Math.pow(10, Math.floor(Math.log10(raw)));
+  var norm = raw / mag;
+  var step = (norm <= 1 ? 1 : norm <= 2 ? 2 : norm <= 2.5 ? 2.5 : norm <= 5 ? 5 : 10) * mag;
+  return { max: Math.ceil(max / step) * step, step: step };
+}
 
-            const timeline = getTimelineWindow();
-            const mac = [];
-            const windows = [];
-            patchesData.dates.forEach((d, i) => {
-                const date = new Date(d + 'T00:00:00');
-                if (date < timeline.start || date > timeline.end) return;
-                mac.push({x: date, y: patchesData.macCounts[i]});
-                windows.push({x: date, y: patchesData.windowsCounts[i]});
-            });
+function monthTicks(dates, maxLabels) {
+  var idx = [], i;
+  for (i = 1; i < dates.length; i++) {
+    if (dates[i].slice(5, 7) !== dates[i - 1].slice(5, 7)) { idx.push(i); }
+  }
+  var every = Math.ceil(idx.length / maxLabels) || 1;
+  return idx.filter(function (_, k) { return k % every === 0; });
+}
 
-            const ctx = document.getElementById('patchesChart').getContext('2d');
-            new Chart(ctx, {
-                type: 'bar',
-                data: {
-                    datasets: [{
-                        label: 'Mac',
-                        data: mac,
-                        backgroundColor: '#059669',
-                        stack: 'patches',
-                        maxBarThickness: 24
-                    }, {
-                        label: 'Windows',
-                        data: windows,
-                        backgroundColor: '#0284c7',
-                        stack: 'patches',
-                        maxBarThickness: 24,
-                        borderRadius: { topLeft: 2, topRight: 2 }
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    interaction: {
-                        mode: 'index',
-                        intersect: false
-                    },
-                    plugins: {
-                        legend: {
-                            display: true,
-                            position: 'top'
-                        },
-                        tooltip: {
-                            callbacks: {
-                                footer: function(items) {
-                                    let total = 0;
-                                    items.forEach(item => { total += item.parsed.y; });
-                                    return 'Total: ' + total + (total === 1 ? ' patch' : ' patches');
-                                }
-                            }
-                        }
-                    },
-                    scales: {
-                        x: {
-                            type: 'time',
-                            stacked: true,
-                            min: timeline.start.getTime(),
-                            max: timeline.end.getTime(),
-                            time: {
-                                unit: 'month',
-                                tooltipFormat: 'MMM d, yyyy',
-                                displayFormats: {
-                                    month: 'MMM'
-                                }
-                            },
-                            title: {
-                                display: true,
-                                text: 'Date',
-                                font: { weight: 'bold' }
-                            }
-                        },
-                        y: {
-                            stacked: true,
-                            beginAtZero: true,
-                            // Fixed axis width so both charts' timelines align vertically
-                            afterFit: function(scale) { scale.width = 70; },
-                            title: {
-                                display: true,
-                                text: 'Patches',
-                                font: { weight: 'bold' }
-                            }
-                        }
-                    }
-                }
-            });
-        }
+function el(name, attrs) {
+  var n = document.createElementNS(NS, name);
+  for (var k in attrs) { n.setAttribute(k, attrs[k]); }
+  return n;
+}
 
-        createCharts();
-        createPatchesChart();
+function escapeHtml(text) {
+  var d = document.createElement('div');
+  d.textContent = text == null ? '' : text;
+  return d.innerHTML;
+}
 
-        // Modal functions
-        function openModalFromCard(cardElement) {
-            // Handle clicks on child elements - find the card element
-            let card = cardElement;
-            while (card && !card.classList.contains('app-card')) {
-                card = card.parentElement;
-            }
-            if (!card) {
-                console.error('Could not find app-card element');
-                return;
-            }
-            
-            const appSlug = card.getAttribute('data-app-slug');
-            if (!appSlug) {
-                console.error('No app-slug attribute found');
-                return;
-            }
-            
-            // Find the app in appsData array
-            const app = appsData.find(a => a.slug === appSlug);
-            if (app) {
-                openModal(app);
-            } else {
-                console.error('App not found for slug:', appSlug);
-            }
-        }
-        
-        function openModal(app) {
-            const modal = document.getElementById('appModal');
-            if (!modal) {
-                console.error('Modal element not found');
-                return;
-            }
-            
-            const iconUrl = getAppIconUrl(app.slug);
-            const fallbackText = getAppIconFallback(app.name);
-            const platformLabel = getPlatformLabel(app.platform);
-            
-            // Set modal icon - reset and reload to ensure it displays
-            const modalIcon = document.getElementById('modalIcon');
-            if (modalIcon) {
-                modalIcon.setAttribute('data-fallback', fallbackText);
-                // Reset the icon container and create new image element with the URL directly
-                modalIcon.innerHTML = '<img id="modalIconImg" src="' + escapeHtml(iconUrl) + '" alt="' + escapeHtml(app.name) + '" onerror="handleModalIconError(this);" style="display:block;width:100%;height:100%;object-fit:contain;">';
-            }
-            
-            // Set modal title and platform
-            const modalTitle = document.getElementById('modalTitle');
-            if (modalTitle) {
-                modalTitle.textContent = app.name;
-            }
-            
-            const modalPlatform = document.getElementById('modalPlatform');
-            if (modalPlatform) {
-                modalPlatform.textContent = platformLabel;
-                modalPlatform.className = 'modal-platform ' + app.platform;
-            }
-            
-            const modalSlug = document.getElementById('modalSlug');
-            if (modalSlug) {
-                modalSlug.textContent = app.slug;
-            }
-            
-            // Set version
-            const modalVersion = document.getElementById('modalVersion');
-            if (modalVersion) {
-                modalVersion.textContent = app.version || 'N/A';
-            }
-            
-            // Set description
-            const modalDescription = document.getElementById('modalDescription');
-            if (modalDescription) {
-                const description = app.description || 'No description available.';
-                modalDescription.textContent = description;
-            }
-            
-            // Set installer link
-            const installerRow = document.getElementById('modalInstallerRow');
-            const installerLink = document.getElementById('modalInstallerLink');
-            if (installerRow && installerLink) {
-                if (app.installerUrl) {
-                    installerLink.href = app.installerUrl;
-                    installerRow.style.display = 'block';
-                } else {
-                    installerRow.style.display = 'none';
-                }
-            }
-            
-            // Set security info (macOS and Windows)
-            const securityRow = document.getElementById('modalSecurityRow');
-            const securitySingle = document.getElementById('modalSecuritySingle');
-            const securityMultiple = document.getElementById('modalSecurityMultiple');
-            
-            // Debug logging
-            console.log('Security Info Debug:', {
-                hasSecurityInfo: !!app.securityInfo,
-                securityInfo: app.securityInfo,
-                platform: app.platform,
-                slug: app.slug
-            });
-            // Log the actual security info keys and values for debugging
-            if (app.securityInfo) {
-                console.log('Security Info Keys:', Object.keys(app.securityInfo));
-                console.log('Security Info Full Object:', JSON.stringify(app.securityInfo, null, 2));
-                // Log individual field accesses
-                if (app.platform === 'windows') {
-                    console.log('Windows fields:', {
-                        publisher: app.securityInfo.publisher,
-                        issuer: app.securityInfo.issuer,
-                        serialNumber: app.securityInfo.serialNumber,
-                        thumbprint: app.securityInfo.thumbprint,
-                        timestamp: app.securityInfo.timestamp
-                    });
-                } else {
-                    console.log('macOS fields:', {
-                        cdhash: app.securityInfo.cdhash,
-                        signingId: app.securityInfo.signingId,
-                        teamId: app.securityInfo.teamId
-                    });
-                }
-            }
-            
-            if (securityRow) {
-                if (app.securityInfo) {
-                    // Check if this is a suite with multiple apps
-                    if (app.securityInfo.apps && app.securityInfo.apps.length > 0) {
-                        console.log('Suite detected with', app.securityInfo.apps.length, 'apps');
-                        // Hide single app view, show multiple apps view
-                        if (securitySingle) securitySingle.style.display = 'none';
-                        if (securityMultiple) {
-                            securityMultiple.innerHTML = '';
-                            
-                            // Create a section for each app in the suite
-                            app.securityInfo.apps.forEach((suiteApp, index) => {
-                                console.log('Processing suite app', index, ':', suiteApp.name, suiteApp);
-                                const appSection = document.createElement('div');
-                                appSection.className = 'modal-security-app-section';
-                                appSection.style.marginBottom = index < app.securityInfo.apps.length - 1 ? '24px' : '0';
-                                
-                                const appTitle = document.createElement('div');
-                                appTitle.className = 'modal-security-app-title';
-                                appTitle.textContent = suiteApp.name || 'App ' + (index + 1);
-                                appTitle.style.fontWeight = '600';
-                                appTitle.style.color = '#1e293b';
-                                appTitle.style.marginBottom = '12px';
-                                appTitle.style.fontSize = '15px';
-                                
-                                const appInfo = document.createElement('div');
-                                appInfo.className = 'modal-security-info';
-                                
-                                // Determine fields based on platform
-                                const isWindows = app.platform === 'windows';
-                                const fields = isWindows ? [
-                                    { label: 'SHA-256', value: suiteApp.sha256, id: 'sha256' },
-                                    { label: 'Publisher', value: suiteApp.publisher, id: 'publisher' },
-                                    { label: 'Issuer', value: suiteApp.issuer, id: 'issuer' },
-                                    { label: 'Serial Number', value: suiteApp.serialNumber, id: 'serialNumber' },
-                                    { label: 'Thumbprint', value: suiteApp.thumbprint, id: 'thumbprint' },
-                                    { label: 'Timestamp', value: suiteApp.timestamp, id: 'timestamp' }
-                                ] : [
-                                    { label: 'SHA-256', value: suiteApp.sha256, id: 'sha256' },
-                                    { label: 'CDHash', value: suiteApp.cdhash, id: 'cdhash' },
-                                    { label: 'Signing ID', value: suiteApp.signingId, id: 'signingId' },
-                                    { label: 'Team ID', value: suiteApp.teamId, id: 'teamId' }
-                                ];
-                                
-                                fields.forEach(field => {
-                                    // Check if value exists and is not empty string
-                                    const value = field.value;
-                                    if (value !== undefined && value !== null && value !== '') {
-                                        const item = document.createElement('div');
-                                        item.className = 'modal-security-item';
-                                        
-                                        const label = document.createElement('span');
-                                        label.className = 'modal-security-label';
-                                        label.textContent = field.label + ':';
-                                        
-                                        const valueElement = document.createElement('code');
-                                        valueElement.className = 'modal-security-value';
-                                        valueElement.textContent = value;
-                                        setupCopyToClipboard(valueElement, value);
-                                        
-                                        item.appendChild(label);
-                                        item.appendChild(valueElement);
-                                        appInfo.appendChild(item);
-                                    }
-                                });
-                                
-                                appSection.appendChild(appTitle);
-                                appSection.appendChild(appInfo);
-                                securityMultiple.appendChild(appSection);
-                            });
-                            
-                            securityMultiple.style.display = 'block';
-                            securityRow.style.display = 'block';
-                        }
-                    } else {
-                        // Single app view - dynamically build security info based on platform
-                        if (securitySingle) {
-                            securitySingle.style.display = 'block';
-                            // Ensure the container has the correct class
-                            if (!securitySingle.classList.contains('modal-security-info')) {
-                                securitySingle.classList.add('modal-security-info');
-                            }
-                        }
-                        if (securityMultiple) securityMultiple.style.display = 'none';
-                        
-                        // Clear existing content and rebuild based on platform
-                        const securityContainer = securitySingle;
-                        if (securityContainer) {
-                            securityContainer.innerHTML = '';
-                            
-                            const isWindows = app.platform === 'windows';
-                            const fields = isWindows ? [
-                                { label: 'SHA-256', value: app.securityInfo.sha256, id: 'sha256' },
-                                { label: 'Publisher', value: app.securityInfo.publisher, id: 'publisher' },
-                                { label: 'Issuer', value: app.securityInfo.issuer, id: 'issuer' },
-                                { label: 'Serial Number', value: app.securityInfo.serialNumber, id: 'serialNumber' },
-                                { label: 'Thumbprint', value: app.securityInfo.thumbprint, id: 'thumbprint' },
-                                { label: 'Timestamp', value: app.securityInfo.timestamp, id: 'timestamp' }
-                            ] : [
-                                { label: 'SHA-256', value: app.securityInfo.sha256, id: 'sha256' },
-                                { label: 'CDHash', value: app.securityInfo.cdhash, id: 'cdhash' },
-                                { label: 'Signing ID', value: app.securityInfo.signingId, id: 'signingId' },
-                                { label: 'Team ID', value: app.securityInfo.teamId, id: 'teamId' }
-                            ];
-                            
-                            let hasFields = false;
-                            console.log('Single app security fields:', fields);
-                            console.log('Security info object:', app.securityInfo);
-                            fields.forEach(field => {
-                                // Check if value exists and is not empty string
-                                const value = field.value;
-                                if (value !== undefined && value !== null && value !== '') {
-                                    hasFields = true;
-                                    console.log('Adding field:', field.label, '=', value);
-                                    const item = document.createElement('div');
-                                    item.className = 'modal-security-item';
-                                    
-                                    const label = document.createElement('span');
-                                    label.className = 'modal-security-label';
-                                    label.textContent = field.label + ':';
-                                    
-                                    const valueElement = document.createElement('code');
-                                    valueElement.className = 'modal-security-value';
-                                    valueElement.textContent = value;
-                                    setupCopyToClipboard(valueElement, value);
-                                    
-                                    item.appendChild(label);
-                                    item.appendChild(valueElement);
-                                    securityContainer.appendChild(item);
-                                } else {
-                                    console.log('Skipping field:', field.label, 'value:', value, 'type:', typeof value);
-                                }
-                            });
-                            
-                            // Only show security row if we have at least one field
-                            console.log('Single app hasFields:', hasFields);
-                            if (hasFields) {
-                                securityRow.style.display = 'block';
-                                console.log('Security row set to block');
-                            } else {
-                                securityRow.style.display = 'none';
-                                console.log('Security row set to none (no fields)');
-                            }
-                        } else {
-                            securityRow.style.display = 'block';
-                        }
-                    }
-                } else {
-                    securityRow.style.display = 'none';
-                }
-            }
-            
-            // Set last updated timestamp
-            const modalLastUpdated = document.getElementById('modalLastUpdated');
-            if (modalLastUpdated) {
-                let timestampText = 'Last updated: ' + ` + "`" + lastUpdated + "`" + `;
-                
-                // If app has security info with lastUpdated, use that instead
-                if (app.securityInfo && app.securityInfo.lastUpdated) {
-                    // Parse RFC3339 timestamp (UTC) and convert to CST
-                    const securityDate = new Date(app.securityInfo.lastUpdated);
-                    
-                    // Format in CST timezone: "January 2, 2006 at 3:04 PM CST"
-                    const cstFormatter = new Intl.DateTimeFormat('en-US', {
-                        timeZone: 'America/Chicago',
-                        year: 'numeric',
-                        month: 'long',
-                        day: 'numeric',
-                        hour: 'numeric',
-                        minute: '2-digit',
-                        hour12: true
-                    });
-                    
-                    const parts = cstFormatter.formatToParts(securityDate);
-                    const month = parts.find(p => p.type === 'month').value;
-                    const day = parts.find(p => p.type === 'day').value;
-                    const year = parts.find(p => p.type === 'year').value;
-                    const hour = parts.find(p => p.type === 'hour').value;
-                    const minute = parts.find(p => p.type === 'minute').value;
-                    const dayPeriod = parts.find(p => p.type === 'dayPeriod').value.toUpperCase();
-                    
-                    timestampText = 'Last updated: ' + month + ' ' + day + ', ' + year + ' at ' + hour + ':' + minute + ' ' + dayPeriod + ' CST';
-                }
-                
-                modalLastUpdated.textContent = timestampText;
-            }
-            
-            // Show modal
-            modal.classList.add('show');
-            document.body.style.overflow = 'hidden';
-        }
-        
-        function closeModal() {
-            const modal = document.getElementById('appModal');
-            modal.classList.remove('show');
-            document.body.style.overflow = '';
-        }
-        
-        function handleModalIconError(img) {
-            const iconDiv = img.parentElement;
-            const fallbackText = iconDiv.getAttribute('data-fallback') || '?';
-            img.style.display = 'none';
-            iconDiv.innerHTML = '<div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg, #667eea 0%, #764ba2 100%);color:white;font-weight:bold;font-size:24px;">' + escapeHtml(fallbackText) + '</div>';
-        }
-        
-        // Close modal when clicking outside (on the backdrop)
-        document.getElementById('appModal').addEventListener('click', function(event) {
-            // Only close if clicking directly on the modal backdrop, not on modal-content
-            if (event.target.id === 'appModal') {
-                closeModal();
-            }
+function iconUrl(slug) {
+  return ICON_BASE + 'app-icon-' + slug.split('/')[0] + '-60x60@2x.png';
+}
+
+function initials(name) {
+  var w = String(name || '').split(' ').filter(Boolean);
+  return (w.length > 1 ? w[0][0] + w[1][0] : String(name || '?').slice(0, 2)).toUpperCase();
+}
+
+function platformLabel(p) { return p === 'darwin' ? 'macOS' : 'Windows'; }
+
+/* ---------- responsive chart plumbing ----------
+   Charts render at true pixel width (viewBox == CSS px) so axis text is never
+   stretched, and redraw when their box changes size. */
+
+var charts = new Map(), ro = null, raf = null;
+
+function chartWidth(host) {
+  return Math.max(Math.round(host.getBoundingClientRect().width) || 900, 300);
+}
+
+function register(host, fn, cfg) {
+  charts.set(host, { fn: fn, cfg: cfg });
+  if (!ro) {
+    ro = new ResizeObserver(function (entries) {
+      if (raf) { cancelAnimationFrame(raf); }
+      raf = requestAnimationFrame(function () {
+        entries.forEach(function (e) {
+          var rec = charts.get(e.target);
+          if (rec && Math.abs(chartWidth(e.target) - (e.target._w || 0)) > 1) {
+            e.target._w = chartWidth(e.target);
+            rec.fn(e.target, rec.cfg);
+          }
         });
-        
-        // Close modal with Escape key
-        document.addEventListener('keydown', function(event) {
-            if (event.key === 'Escape') {
-                closeModal();
-            }
-        });
-        
-        // Copy to clipboard functionality
-        function setupCopyToClipboard(element, text) {
-            if (!element || text === 'N/A') return;
-            
-            element.addEventListener('click', async function() {
-                try {
-                    await navigator.clipboard.writeText(text);
-                    // Visual feedback
-                    element.classList.add('copied');
-                    const originalText = element.textContent;
-                    element.textContent = 'Copied!';
-                    
-                    setTimeout(() => {
-                        element.classList.remove('copied');
-                        element.textContent = originalText;
-                    }, 2000);
-                } catch (err) {
-                    // Fallback for older browsers
-                    const textArea = document.createElement('textarea');
-                    textArea.value = text;
-                    textArea.style.position = 'fixed';
-                    textArea.style.opacity = '0';
-                    document.body.appendChild(textArea);
-                    textArea.select();
-                    try {
-                        document.execCommand('copy');
-                        element.classList.add('copied');
-                        const originalText = element.textContent;
-                        element.textContent = 'Copied!';
-                        setTimeout(() => {
-                            element.classList.remove('copied');
-                            element.textContent = originalText;
-                        }, 2000);
-                    } catch (fallbackErr) {
-                        console.error('Failed to copy:', fallbackErr);
-                    }
-                    document.body.removeChild(textArea);
-                }
-            });
+      });
+    });
+  }
+  if (!host._observed) { host._observed = true; ro.observe(host); }
+  host._w = chartWidth(host);
+}
+
+function addTip(host) {
+  var t = document.createElement('div');
+  t.className = 'c-tip';
+  host.appendChild(t);
+  return t;
+}
+
+function tipRows(series, i) {
+  return series.map(function (s) {
+    return '<div class="t-row"><i class="t-dot" style="background:' + s.color + '"></i>' +
+           s.label + ' <b>' + fmt(s.values[i]) + '</b></div>';
+  }).join('');
+}
+
+/* ---------- area chart ---------- */
+
+function areaChart(host, cfg) {
+  register(host, areaChart, cfg);
+  var dates = cfg.dates, series = cfg.series, H = cfg.height || 200;
+  host.innerHTML = '';
+  host.classList.add('chart');
+
+  var W = chartWidth(host);
+  var padL = 46, padR = 10, padT = 12, padB = 24;
+  var iw = W - padL - padR, ih = H - padT - padB;
+
+  var peak = 0;
+  series.forEach(function (s) { s.values.forEach(function (v) { if (v > peak) { peak = v; } }); });
+  var sc = niceScale(peak, 4);
+
+  function x(i) { return padL + (dates.length < 2 ? iw / 2 : (i / (dates.length - 1)) * iw); }
+  function y(v) { return padT + ih - (v / sc.max) * ih; }
+
+  var svg = el('svg', { viewBox: '0 0 ' + W + ' ' + H, width: W, height: H, role: 'img' });
+  svg.style.height = H + 'px';
+
+  var defs = document.createElementNS(NS, 'defs');
+  series.forEach(function (s, i) {
+    var g = el('linearGradient', { id: 'g' + i + '-' + host.id, x1: '0', y1: '0', x2: '0', y2: '1' });
+    g.innerHTML = '<stop offset="0%" stop-color="' + s.color + '" stop-opacity=".26"/>' +
+                  '<stop offset="100%" stop-color="' + s.color + '" stop-opacity="0"/>';
+    defs.appendChild(g);
+  });
+  svg.appendChild(defs);
+
+  for (var v = 0; v <= sc.max + 1e-9; v += sc.step) {
+    var gy = y(v);
+    svg.appendChild(el('line', { 'class': 'c-grid', x1: padL, x2: W - padR, y1: gy, y2: gy, 'vector-effect': 'non-scaling-stroke' }));
+    var t = el('text', { 'class': 'c-axis', x: padL - 9, y: gy + 3.5, 'text-anchor': 'end' });
+    t.textContent = v >= 1000 ? (v / 1000) + 'k' : v;
+    svg.appendChild(t);
+  }
+
+  monthTicks(dates, 8).forEach(function (i) {
+    var p = dates[i].split('-');
+    var t = el('text', { 'class': 'c-axis', x: x(i), y: H - 6, 'text-anchor': 'middle' });
+    t.textContent = MONTH[+p[1] - 1] + (+p[1] === 1 ? " '" + p[0].slice(2) : '');
+    svg.appendChild(t);
+  });
+
+  series.forEach(function (s, i) {
+    var pts = s.values.map(function (v, j) { return x(j) + ',' + y(v); }).join(' L ');
+    svg.appendChild(el('path', {
+      d: 'M ' + x(0) + ',' + y(0) + ' L ' + pts + ' L ' + x(dates.length - 1) + ',' + y(0) + ' Z',
+      fill: 'url(#g' + i + '-' + host.id + ')'
+    }));
+    svg.appendChild(el('path', { 'class': 'c-line', d: 'M ' + pts, stroke: s.color, 'vector-effect': 'non-scaling-stroke' }));
+  });
+
+  var vline = el('line', { 'class': 'c-hover', y1: padT, y2: padT + ih, 'vector-effect': 'non-scaling-stroke' });
+  vline.style.opacity = 0;
+  svg.appendChild(vline);
+
+  var dots = series.map(function (s) {
+    var c = el('circle', { r: 4, fill: s.color, stroke: 'var(--surface)', 'stroke-width': 2 });
+    c.style.opacity = 0;
+    svg.appendChild(c);
+    return c;
+  });
+
+  var hit = el('rect', { 'class': 'c-hit', x: padL, y: padT, width: iw, height: ih });
+  svg.appendChild(hit);
+  host.appendChild(svg);
+  var tip = addTip(host);
+
+  hit.addEventListener('pointermove', function (ev) {
+    var r = svg.getBoundingClientRect();
+    var px = (ev.clientX - r.left) / r.width * W;
+    var i = Math.round((px - padL) / iw * (dates.length - 1));
+    i = Math.max(0, Math.min(dates.length - 1, i));
+
+    vline.setAttribute('x1', x(i)); vline.setAttribute('x2', x(i));
+    vline.style.opacity = 1;
+    dots.forEach(function (d, k) {
+      d.setAttribute('cx', x(i)); d.setAttribute('cy', y(series[k].values[i]));
+      d.style.opacity = 1;
+    });
+
+    var top = Math.max.apply(null, series.map(function (s) { return s.values[i]; }));
+    tip.innerHTML = '<div class="t-date">' + prettyDate(dates[i]) + '</div>' + tipRows(series, i);
+    tip.style.left = (x(i) / W * 100) + '%';
+    tip.style.top = (y(top) / H * 100) + '%';
+    tip.classList.add('on');
+  });
+
+  hit.addEventListener('pointerleave', function () {
+    vline.style.opacity = 0;
+    dots.forEach(function (d) { d.style.opacity = 0; });
+    tip.classList.remove('on');
+  });
+}
+
+/* ---------- stacked bar chart ---------- */
+
+function barChart(host, cfg) {
+  register(host, barChart, cfg);
+  var dates = cfg.dates, series = cfg.series, H = cfg.height || 200;
+  host.innerHTML = '';
+  host.classList.add('chart');
+
+  var W = chartWidth(host);
+  var padL = 46, padR = 10, padT = 12, padB = 24;
+  var iw = W - padL - padR, ih = H - padT - padB;
+
+  var totals = dates.map(function (_, i) {
+    return series.reduce(function (a, s) { return a + s.values[i]; }, 0);
+  });
+  var sc = niceScale(Math.max.apply(null, totals), 4);
+
+  var slot = iw / dates.length;
+  var bw = Math.max(slot * 0.68, 0.9);
+  function x(i) { return padL + i * slot + (slot - bw) / 2; }
+  function y(v) { return padT + ih - (v / sc.max) * ih; }
+
+  var svg = el('svg', { viewBox: '0 0 ' + W + ' ' + H, width: W, height: H, role: 'img' });
+  svg.style.height = H + 'px';
+
+  for (var v = 0; v <= sc.max + 1e-9; v += sc.step) {
+    var gy = y(v);
+    svg.appendChild(el('line', { 'class': 'c-grid', x1: padL, x2: W - padR, y1: gy, y2: gy, 'vector-effect': 'non-scaling-stroke' }));
+    var t = el('text', { 'class': 'c-axis', x: padL - 9, y: gy + 3.5, 'text-anchor': 'end' });
+    t.textContent = v;
+    svg.appendChild(t);
+  }
+
+  monthTicks(dates, 8).forEach(function (i) {
+    var p = dates[i].split('-');
+    var t = el('text', { 'class': 'c-axis', x: x(i) + bw / 2, y: H - 6, 'text-anchor': 'middle' });
+    t.textContent = MONTH[+p[1] - 1] + (+p[1] === 1 ? " '" + p[0].slice(2) : '');
+    svg.appendChild(t);
+  });
+
+  var hl = el('rect', { fill: 'var(--text)', opacity: '.07', y: padT, height: ih });
+  hl.style.opacity = 0;
+  svg.appendChild(hl);
+
+  var g = document.createElementNS(NS, 'g');
+  dates.forEach(function (_, i) {
+    var acc = 0;
+    series.forEach(function (s) {
+      var val = s.values[i];
+      if (!val) { return; }
+      g.appendChild(el('rect', {
+        x: x(i), width: bw, y: y(acc + val),
+        height: Math.max(y(acc) - y(acc + val), 0.6), fill: s.color
+      }));
+      acc += val;
+    });
+  });
+  svg.appendChild(g);
+
+  var hit = el('rect', { 'class': 'c-hit', x: padL, y: padT, width: iw, height: ih });
+  svg.appendChild(hit);
+  host.appendChild(svg);
+  var tip = addTip(host);
+
+  hit.addEventListener('pointermove', function (ev) {
+    var r = svg.getBoundingClientRect();
+    var px = (ev.clientX - r.left) / r.width * W;
+    var i = Math.floor((px - padL) / slot);
+    i = Math.max(0, Math.min(dates.length - 1, i));
+
+    hl.setAttribute('x', padL + i * slot);
+    hl.setAttribute('width', slot);
+    hl.style.opacity = 1;
+
+    tip.innerHTML = '<div class="t-date">' + prettyDate(dates[i]) + '</div>' + tipRows(series, i) +
+      '<div class="t-row" style="margin-top:3px;opacity:.8">Total <b>' + fmt(totals[i]) + '</b></div>';
+    tip.style.left = ((padL + i * slot + slot / 2) / W * 100) + '%';
+    tip.style.top = (y(totals[i]) / H * 100) + '%';
+    tip.classList.add('on');
+  });
+
+  hit.addEventListener('pointerleave', function () {
+    hl.style.opacity = 0;
+    tip.classList.remove('on');
+  });
+}
+
+/* ---------- sparkline ---------- */
+
+function sparkline(host, values, color) {
+  var W = 200, H = 40;
+  var min = Math.min.apply(null, values), max = Math.max.apply(null, values);
+  var span = (max - min) || 1;
+  var pts = values.map(function (v, i) {
+    return (i / (values.length - 1)) * W + ',' + (H - 3 - ((v - min) / span) * (H - 6));
+  }).join(' L ');
+  host.innerHTML =
+    '<svg viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="none" style="width:100%;height:' + H + 'px">' +
+      '<defs><linearGradient id="sp-' + host.id + '" x1="0" y1="0" x2="0" y2="1">' +
+        '<stop offset="0%" stop-color="' + color + '" stop-opacity=".22"/>' +
+        '<stop offset="100%" stop-color="' + color + '" stop-opacity="0"/>' +
+      '</linearGradient></defs>' +
+      '<path d="M 0,' + H + ' L ' + pts + ' L ' + W + ',' + H + '" fill="url(#sp-' + host.id + ')"/>' +
+      '<path d="M ' + pts + '" fill="none" stroke="' + color + '" stroke-width="2" ' +
+        'stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke"/>' +
+    '</svg>';
+}
+
+/* ============================================================
+   Hero stats + charts (inlined data, no fetch)
+   ============================================================ */
+
+var gDates = dateList(GROWTH, GROWTH.mac.length);
+var pDates = dateList(PATCH, PATCH.mac.length);
+var lastIdx = gDates.length - 1;
+var prevIdx = Math.max(0, gDates.length - 31);
+
+function setText(id, v) {
+  var n = document.getElementById(id);
+  if (n) { n.textContent = v; }
+}
+
+if (lastIdx >= 0) {
+  setText('bTotal', fmt(GROWTH.total[lastIdx]));
+  setText('bMac', fmt(GROWTH.mac[lastIdx]));
+  setText('bWin', fmt(GROWTH.win[lastIdx]));
+
+  var delta = GROWTH.total[lastIdx] - GROWTH.total[prevIdx];
+  setText('bDelta', (delta >= 0 ? '+' : '') + fmt(delta) + ' in 30 days');
+
+  var pct = GROWTH.mac[lastIdx] / GROWTH.total[lastIdx] * 100;
+  document.getElementById('barMac').style.width = pct + '%';
+  document.getElementById('barWin').style.width = (100 - pct) + '%';
+}
+
+var p30mac = PATCH.mac.slice(-30), p30win = PATCH.win.slice(-30);
+var p30 = p30mac.map(function (v, i) { return v + p30win[i]; });
+setText('mPatch', fmt(p30.reduce(function (a, b) { return a + b; }, 0)));
+sparkline(document.getElementById('msPatch'), p30, COL.win);
+
+var adds30 = (GROWTH.added || []).slice(-30).map(function (v) { return Math.max(v, 0); });
+setText('mAdds', fmt(adds30.reduce(function (a, b) { return a + b; }, 0)));
+sparkline(document.getElementById('msAdds'), adds30, COL.mac);
+
+function drawGrowth(range) {
+  var n = gDates.length;
+  var from = range === 'all' ? 0 : Math.max(0, n - range);
+  areaChart(document.getElementById('growth'), {
+    height: 200,
+    dates: gDates.slice(from),
+    series: [
+      { label: 'macOS',   color: COL.mac, values: GROWTH.mac.slice(from) },
+      { label: 'Windows', color: COL.win, values: GROWTH.win.slice(from) }
+    ]
+  });
+}
+
+drawGrowth('all');
+
+document.getElementById('rangeSeg').addEventListener('click', function (e) {
+  var b = e.target.closest('button');
+  if (!b) { return; }
+  this.querySelectorAll('button').forEach(function (x) {
+    x.setAttribute('aria-pressed', String(x === b));
+  });
+  drawGrowth(b.dataset.r === 'all' ? 'all' : +b.dataset.r);
+});
+
+barChart(document.getElementById('patches'), {
+  height: 200,
+  dates: pDates,
+  series: [
+    { label: 'macOS',   color: COL.mac, values: PATCH.mac },
+    { label: 'Windows', color: COL.win, values: PATCH.win }
+  ]
+});
+
+/* ============================================================
+   App grid — index fetched after first paint, 60 cards at a time
+   ============================================================ */
+
+var PAGE = 60;
+var allApps = [], view = [], shown = 0, filter = 'all', query = '';
+var gridEl   = document.getElementById('appsGrid');
+var countEl  = document.getElementById('appsCount');
+var detail   = null, detailPromise = null;
+
+function card(a) {
+  var mac = a.p === 'darwin';
+  return '<div class="app" role="button" tabindex="0" data-slug="' + escapeHtml(a.s) + '">' +
+    '<div class="app-ico" data-i="' + escapeHtml(initials(a.n)) + '">' +
+      '<img loading="lazy" decoding="async" alt="" src="' + escapeHtml(iconUrl(a.s)) + '" ' +
+      'onerror="var p=this.parentNode;this.remove();p.textContent=p.dataset.i">' +
+    '</div>' +
+    '<div class="app-name" title="' + escapeHtml(a.n) + '">' + escapeHtml(a.n) + '</div>' +
+    '<div class="app-ver">' + escapeHtml(a.v || '—') + '</div>' +
+    '<span class="pill ' + (mac ? 'mac' : 'win') + '">' + (mac ? 'macOS' : 'Windows') + '</span>' +
+  '</div>';
+}
+
+var io = new IntersectionObserver(function (es) {
+  if (es.some(function (e) { return e.isIntersecting; })) { page(); }
+}, { rootMargin: '400px' });
+
+function page() {
+  var next = view.slice(shown, shown + PAGE);
+  shown += next.length;
+  var sentinel = gridEl.querySelector('.more');
+  if (sentinel) { sentinel.remove(); }
+  gridEl.insertAdjacentHTML('beforeend', next.map(card).join(''));
+  if (shown < view.length) {
+    gridEl.insertAdjacentHTML('beforeend',
+      '<div class="more">Showing ' + fmt(shown) + ' of ' + fmt(view.length) + '</div>');
+    io.observe(gridEl.querySelector('.more'));
+  }
+}
+
+function applyFilter() {
+  var needle = query.trim().toLowerCase();
+  view = allApps.filter(function (a) {
+    var platOk = filter === 'all' || (filter === 'mac') === (a.p === 'darwin');
+    return platOk && (!needle || a.n.toLowerCase().indexOf(needle) !== -1);
+  });
+  shown = 0;
+  gridEl.innerHTML = '';
+  if (countEl) { countEl.textContent = fmt(view.length); }
+  if (!view.length) {
+    gridEl.innerHTML = '<div class="more">No apps match that search.</div>';
+    return;
+  }
+  page();
+}
+
+document.getElementById('appSearch').addEventListener('input', function (e) {
+  query = e.target.value;
+  applyFilter();
+});
+
+document.getElementById('platSeg').addEventListener('click', function (e) {
+  var b = e.target.closest('button');
+  if (!b) { return; }
+  this.querySelectorAll('button').forEach(function (x) {
+    x.setAttribute('aria-pressed', String(x === b));
+  });
+  filter = b.dataset.f;
+  applyFilter();
+});
+
+fetch('data/apps_index.json')
+  .then(function (r) { return r.json(); })
+  .then(function (d) { allApps = d.apps || []; applyFilter(); })
+  .catch(function () {
+    gridEl.innerHTML = '<div class="more">Could not load the app list.</div>';
+  });
+
+/* ---------- modal ---------- */
+
+var modal      = document.getElementById('appModal');
+var modalBody  = document.getElementById('modalBody');
+var modalInst  = document.getElementById('modalInstaller');
+
+function loadDetail() {
+  if (detail) { return Promise.resolve(detail); }
+  if (!detailPromise) {
+    detailPromise = fetch('data/apps_detail.json')
+      .then(function (r) { return r.json(); })
+      .then(function (d) { detail = d.apps || {}; return detail; })
+      .catch(function () { detail = {}; return detail; });
+  }
+  return detailPromise;
+}
+
+function secFields(src, isWindows) {
+  return isWindows ? [
+    ['SHA-256', src.sha256], ['Publisher', src.publisher], ['Issuer', src.issuer],
+    ['Serial Number', src.serialNumber], ['Thumbprint', src.thumbprint], ['Timestamp', src.timestamp]
+  ] : [
+    ['SHA-256', src.sha256], ['CDHash', src.cdhash],
+    ['Signing ID', src.signingId], ['Team ID', src.teamId]
+  ];
+}
+
+function secBlock(src, isWindows) {
+  var rows = secFields(src, isWindows).filter(function (f) {
+    return f[1] !== undefined && f[1] !== null && f[1] !== '';
+  });
+  if (!rows.length) { return ''; }
+  return '<div class="modal-sec">' + rows.map(function (f) {
+    return '<div class="modal-sec-item">' +
+      '<span class="modal-sec-label">' + f[0] + '</span>' +
+      '<code class="modal-sec-value" tabindex="0" title="Click to copy">' + escapeHtml(f[1]) + '</code>' +
+    '</div>';
+  }).join('') + '</div>';
+}
+
+function renderModal(app, det) {
+  var isWindows = app.p === 'windows';
+  var sec = det && det.sec;
+  var html = '';
+
+  html += '<div class="modal-row"><div class="modal-label">Version</div>' +
+          '<div class="modal-value">' + escapeHtml(app.v || 'N/A') + '</div></div>';
+
+  html += '<div class="modal-row"><div class="modal-label">Description</div>' +
+          '<div class="modal-value">' + escapeHtml((det && det.d) || 'No description available.') + '</div></div>';
+
+  html += '<div class="modal-row"><div class="modal-label">Slug</div>' +
+          '<div class="modal-value"><code>' + escapeHtml(app.s) + '</code></div></div>';
+
+  if (sec) {
+    var body = '';
+    if (sec.apps && sec.apps.length) {
+      body = sec.apps.map(function (sub, i) {
+        var block = secBlock(sub, isWindows);
+        if (!block) { return ''; }
+        return '<div class="modal-sec-app">' +
+          '<div class="modal-sec-app-title">' + escapeHtml(sub.name || ('App ' + (i + 1))) + '</div>' +
+          block + '</div>';
+      }).join('');
+    } else {
+      body = secBlock(sec, isWindows);
+    }
+    if (body) {
+      html += '<div class="modal-row"><div class="modal-label">Security information</div>' + body + '</div>';
+    }
+  }
+
+  modalBody.innerHTML = html;
+
+  modalBody.querySelectorAll('.modal-sec-value').forEach(function (node) {
+    node.addEventListener('click', function () { copyText(node); });
+    node.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); copyText(node); }
+    });
+  });
+
+  if (det && det.u) {
+    modalInst.href = det.u;
+    modalInst.style.display = '';
+  } else {
+    modalInst.style.display = 'none';
+  }
+
+  var stamp = 'Last updated: ` + lastUpdated + `';
+  if (sec && sec.lastUpdated) {
+    var when = new Date(sec.lastUpdated);
+    if (!isNaN(when)) {
+      stamp = 'Last updated: ' + new Intl.DateTimeFormat('en-US', {
+        timeZone: 'America/Chicago', year: 'numeric', month: 'long', day: 'numeric',
+        hour: 'numeric', minute: '2-digit', hour12: true
+      }).format(when) + ' CST';
+    }
+  }
+  setText('modalLastUpdated', stamp);
+}
+
+function copyText(node) {
+  var text = node.textContent;
+
+  function flash() {
+    node.classList.add('copied');
+    node.textContent = 'Copied!';
+    setTimeout(function () {
+      node.classList.remove('copied');
+      node.textContent = text;
+    }, 1600);
+  }
+
+  // Last resort: if nothing can write to the clipboard, select the value
+  // so the reader can copy it by hand rather than getting no response.
+  function selectValue() {
+    try {
+      var range = document.createRange();
+      range.selectNodeContents(node);
+      var sel = window.getSelection();
+      sel.removeAllRanges();
+      sel.addRange(range);
+    } catch (e) {}
+  }
+
+  function legacyCopy() {
+    var ok = false;
+    var ta = document.createElement('textarea');
+    ta.value = text;
+    ta.style.position = 'fixed';
+    ta.style.opacity = '0';
+    document.body.appendChild(ta);
+    ta.select();
+    try { ok = document.execCommand('copy'); } catch (e) { ok = false; }
+    document.body.removeChild(ta);
+    if (ok) { flash(); } else { selectValue(); }
+  }
+
+  // The async API can reject (permission denied, no user activation), so the
+  // legacy path is the catch handler, not just the no-API branch.
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(text).then(flash).catch(legacyCopy);
+  } else {
+    legacyCopy();
+  }
+}
+
+var lastFocus = null;
+
+function openModal(slug) {
+  var app = allApps.find(function (a) { return a.s === slug; });
+  if (!app) { return; }
+
+  lastFocus = document.activeElement;
+
+  var ico = document.getElementById('modalIcon');
+  ico.dataset.i = initials(app.n);
+  ico.innerHTML = '<img alt="" src="' + escapeHtml(iconUrl(app.s)) + '" ' +
+    'onerror="var p=this.parentNode;this.remove();p.textContent=p.dataset.i">';
+
+  setText('modalTitle', app.n);
+  var plat = document.getElementById('modalPlatform');
+  plat.textContent = platformLabel(app.p);
+  plat.className = 'modal-platform ' + app.p;
+
+  modalBody.innerHTML = '<div class="more">Loading details...</div>';
+  modal.classList.add('show');
+  document.body.style.overflow = 'hidden';
+  document.querySelector('.modal-close').focus();
+
+  loadDetail().then(function (d) {
+    if (!modal.classList.contains('show')) { return; }
+    renderModal(app, d[slug]);
+  });
+}
+
+function closeModal() {
+  modal.classList.remove('show');
+  document.body.style.overflow = '';
+  if (lastFocus && lastFocus.focus) { lastFocus.focus(); }
+}
+
+gridEl.addEventListener('click', function (e) {
+  var c = e.target.closest('.app');
+  if (c) { openModal(c.dataset.slug); }
+});
+
+gridEl.addEventListener('keydown', function (e) {
+  if (e.key !== 'Enter' && e.key !== ' ') { return; }
+  var c = e.target.closest('.app');
+  if (c) { e.preventDefault(); openModal(c.dataset.slug); }
+});
+
+document.querySelector('.modal-close').addEventListener('click', closeModal);
+
+modal.addEventListener('click', function (e) {
+  if (e.target === modal) { closeModal(); }
+});
+
+document.addEventListener('keydown', function (e) {
+  if (e.key === 'Escape' && modal.classList.contains('show')) { closeModal(); }
+});
+
+/* ---------- primary-button spotlight (buttons.less + its utility) ---------- */
+
+if (window.matchMedia && window.matchMedia('(hover: hover)').matches) {
+  var pending = null;
+  document.addEventListener('pointermove', function (event) {
+    if (event.pointerType !== 'mouse') { return; }
+    if (!pending) {
+      requestAnimationFrame(function () {
+        var latest = pending;
+        pending = null;
+        var button = null, node = latest.target;
+        for (var depth = 0; node && node.nodeType === 1 && depth < 5; depth++, node = node.parentElement) {
+          if (getComputedStyle(node).getPropertyValue('--primary-button').trim() === '1') {
+            button = node;
+          } else if (button) {
+            break;
+          }
         }
-    </script>
+        if (button) {
+          var b = button.getBoundingClientRect();
+          button.style.setProperty('--spotlight-x', (latest.clientX - b.left) + 'px');
+          button.style.setProperty('--spotlight-y', (latest.clientY - b.top) + 'px');
+        }
+      });
+    }
+    pending = event;
+  }, { passive: true });
+}
+
+})();
+</script>
 </body>
 </html>`
 }

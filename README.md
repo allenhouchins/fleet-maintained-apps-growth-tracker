@@ -45,8 +45,9 @@ go run generate_html.go
 # Generate README
 go run generate_readme.go
 
-# Open index.html in your browser
-open index.html
+# Serve the page (the app list is fetched from data/, so file:// will not work)
+python3 -m http.server 8000
+# then open http://localhost:8000
 ```
 
 ## 📚 Data Source
