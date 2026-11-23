@@ -34,13 +34,13 @@ func generateREADME() error {
 }
 
 type readmeData struct {
-	totalApps      int
-	totalGrowth    int
-	daysSpan       int
-	avgPerMonth    float64
-	growthEvents   int
-	firstDate      string
-	lastDate       string
+	totalApps        int
+	totalGrowth      int
+	daysSpan         int
+	avgPerMonth      float64
+	growthEvents     int
+	firstDate        string
+	lastDate         string
 	growthMilestones []struct {
 		date  string
 		count int
@@ -162,8 +162,9 @@ func generateREADMEContent(data *readmeData) string {
 	sb.WriteString("go run generate_html.go\n\n")
 	sb.WriteString("# Generate README\n")
 	sb.WriteString("go run generate_readme.go\n\n")
-	sb.WriteString("# Open index.html in your browser\n")
-	sb.WriteString("open index.html\n")
+	sb.WriteString("# Serve the page (the app list is fetched from data/, so file:// will not work)\n")
+	sb.WriteString("python3 -m http.server 8000\n")
+	sb.WriteString("# then open http://localhost:8000\n")
 	sb.WriteString("```\n\n")
 
 	// Data source
@@ -194,4 +195,3 @@ func main() {
 		os.Exit(1)
 	}
 }
-
