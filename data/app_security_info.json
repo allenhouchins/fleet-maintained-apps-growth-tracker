@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-24T04:57:33Z",
+  "lastUpdated": "2026-11-24T04:59:42Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -5613,13 +5613,13 @@
     {
       "slug": "geogebra-classic/windows",
       "name": "GeoGebra Classic",
-      "version": "6.0.936",
+      "version": "6.0.937",
       "sha256": "eb6eee696a796bfe9aa2665f673844346fe3a7157badb6eaeab138aa73480584",
       "publisher": "CN=Entrust Root Certification Authority, OU=\"(c) 2006 Entrust, Inc.\", OU=www.entrust.net/CPS is incorporated by reference, O=\"Entrust, Inc.\", C=US",
       "issuer": "CN=Entrust Root Certification Authority, OU=\"(c) 2006 Entrust, Inc.\", OU=www.entrust.net/CPS is incorporated by reference, O=\"Entrust, Inc.\", C=US",
       "serialNumber": "456b5054",
       "timestamp": "Cert is a CA certificate",
-      "lastUpdated": "2026-11-12T06:52:34Z"
+      "lastUpdated": "2026-11-24T04:57:52Z"
     },
     {
       "slug": "gephi/darwin",
@@ -7159,6 +7159,18 @@
       "signingId": "2HCKV38EEC:com.p5sys.jump.mac.viewer.web",
       "teamId": "2HCKV38EEC",
       "lastUpdated": "2026-10-20T19:32:30Z"
+    },
+    {
+      "slug": "k6/windows",
+      "name": "k6",
+      "version": "2.4.0",
+      "sha256": "6b68dbae8de12ae761da8722f1a182ee3ff47fe68e829b89e74a2796ded83fcb",
+      "publisher": "CN=Grafana Labs, O=Grafana Labs, L=New York City, S=New York, C=US",
+      "issuer": "CN=Microsoft ID Verified CS EOC CA 04, O=Microsoft Corporation, C=US",
+      "serialNumber": "330009B364AD121A4F86C00CA500000009B364",
+      "thumbprint": "EB796E6712061365152DB8B05F52A827AD19887F",
+      "timestamp": "CN=Microsoft Public RSA Time Stamping Authority, OU=nShield TSS ESN:A500-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-11-24T04:57:59Z"
     },
     {
       "slug": "kaleidoscope/darwin",
@@ -9812,14 +9824,14 @@
     {
       "slug": "onedrive/windows",
       "name": "OneDrive",
-      "version": "26.195.1006.0007",
-      "sha256": "17dcbbf69525a070d94a28d12464bce00058ccdafea4b8262b5cc89444f0d0b8",
+      "version": "26.212.1029.0006",
+      "sha256": "0289df108a99023ed40f8aa3095afa746af249f6b04b6a4ab66a15a62a4cede2",
       "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
       "issuer": "CN=Microsoft Windows Code Signing PCA 2024, O=Microsoft Corporation, C=US",
-      "serialNumber": "33000001013F0B9273A8C53199000000000101",
-      "thumbprint": "7202C36C6CCE362143388EB5FCCB2C5630A1F3F5",
-      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:401A-05E0-D947, OU=Microsoft Ireland Operations Limited, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-11-22T08:18:21Z"
+      "serialNumber": "3300000102027DBC9D2A9D3307000000000102",
+      "thumbprint": "84B71332947747A3826D84017DFD36960E99B370",
+      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:DC00-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-11-24T04:58:03Z"
     },
     {
       "slug": "onionshare/darwin",
@@ -10429,14 +10441,14 @@
     {
       "slug": "podman-desktop/windows",
       "name": "Podman Desktop",
-      "version": "1.30.7",
-      "sha256": "3c8e91013bc0f0093076d6c7cb677bdc55b2c1b9eb438e206ce06083bb7ab6ca",
+      "version": "1.31.0",
+      "sha256": "ede10a7e779c166bc7332ca790c82e17e2a74a249c40dedee145700d547254b1",
       "publisher": "CN=\"Red Hat, LLC\", OU=Podman, O=\"Red Hat, LLC\", L=Raleigh, S=North Carolina, C=US, SERIALNUMBER=2945436, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "094EA2E5FD0212D6D95EC0D72D8CD339",
       "thumbprint": "9F2794A5AAD1DC9F977B640AEF10745C208E72EC",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-11-17T00:38:38Z"
+      "lastUpdated": "2026-11-24T04:58:14Z"
     },
     {
       "slug": "popchar/darwin",
@@ -10489,6 +10501,18 @@
       "thumbprint": "42D94F5392E33DF23BF28A15DB42FC6A85AEB9EA",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
       "lastUpdated": "2026-11-02T18:35:53Z"
+    },
+    {
+      "slug": "positron/windows",
+      "name": "Positron",
+      "version": "2026.11.1",
+      "sha256": "48d51103efd22163593dac62b495372dbfc487c5611e6e7382b8b1948c01421f",
+      "publisher": "CN=\"Posit Software, PBC\", O=\"Posit Software, PBC\", L=Boston, S=Massachusetts, C=US",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "06BCB82B1B8423E335025DEC8C820234",
+      "thumbprint": "9BE4A6DCE51771582CA2F2D954DD3E079D08F3CF",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-11-24T04:58:26Z"
     },
     {
       "slug": "postgres-app/darwin",
@@ -10595,14 +10619,14 @@
     {
       "slug": "power-bi/windows",
       "name": "Power BI",
-      "version": "2.159.1231.0",
-      "sha256": "55e8ee44aa908d75edaed4bdb1a34863f41c047951f3724f298486fe07049f2d",
+      "version": "2.160.1151.0",
+      "sha256": "89ace9881d43a350e205c93da9681a8211a521b2ccd63211e1baf6020efdcb85",
       "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
       "issuer": "CN=Microsoft Code Signing PCA 2024, O=Microsoft Corporation, C=US",
       "serialNumber": "330000021CFACDC59BE82F7EC400000000021C",
       "thumbprint": "1D77A9B9E8FE2075D9AD15123257FB90DB0DA4A1",
-      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:3605-05E0-D947, OU=Microsoft Ireland Operations Limited, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "lastUpdated": "2026-11-03T21:57:19Z"
+      "timestamp": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:6F1A-05E0-D947, OU=Microsoft Ireland Operations Limited, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "lastUpdated": "2026-11-24T04:58:51Z"
     },
     {
       "slug": "power-monitor/darwin",
@@ -10883,14 +10907,14 @@
     {
       "slug": "proton-pass/windows",
       "name": "Proton Pass",
-      "version": "1.44.0",
-      "sha256": "91bcfba6348a8f46b2916d299d4b9a0b56af8721791727ac0a4312be3f3a6ba8",
+      "version": "1.44.1",
+      "sha256": "186b5984e51cf3866561b61d4c87fc10aafd55c711e33e891b1a66ceb3a17c2d",
       "publisher": "CN=Proton AG, O=Proton AG, S=Genève, C=CH, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CH, SERIALNUMBER=CHE-354.686.492",
       "issuer": "CN=Sectigo Public Code Signing CA EV R36, O=Sectigo Limited, C=GB",
       "serialNumber": "65C88E984CC822CAA59C375C9A4D31FF",
       "thumbprint": "265819A6B3F3E77398794A5B70765CED2B7B66BB",
       "timestamp": "CN=Sectigo Public Time Stamping Signer R37, O=Sectigo Limited, S=Greater London, C=GB",
-      "lastUpdated": "2026-11-19T07:38:23Z"
+      "lastUpdated": "2026-11-24T04:59:18Z"
     },
     {
       "slug": "protonvpn/darwin",
@@ -13378,14 +13402,14 @@
     {
       "slug": "telegram/windows",
       "name": "Telegram",
-      "version": "7.4.4",
-      "sha256": "5e19f664bb01fafe8e5cece28ed976a4cf667e05e12d5b363536be74bc7689d7",
+      "version": "7.4.6",
+      "sha256": "c4323c79b76b86e3b160953ec7ebeadce502d7e042ae7d7a407f423d21ad3d3f",
       "publisher": "E=info@telegram.org, CN=Telegram FZ-LLC, O=Telegram FZ-LLC, L=Dubai, S=Dubai, C=AE, OID.1.3.6.1.4.1.311.60.2.1.2=Dubai, OID.1.3.6.1.4.1.311.60.2.1.3=AE, SERIALNUMBER=94349, OID.2.5.4.15=Private Organization",
       "issuer": "CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE",
       "serialNumber": "5D1F24A60AE1A27511D88625",
       "thumbprint": "C8CB11E5352916312801039AEDC5F9E8C78E48D8",
       "timestamp": "CN=Sectigo Public Time Stamping Signer R37, O=Sectigo Limited, S=Greater London, C=GB",
-      "lastUpdated": "2026-11-14T15:22:54Z"
+      "lastUpdated": "2026-11-24T04:59:21Z"
     },
     {
       "slug": "teleport-connect/darwin",
@@ -14876,14 +14900,14 @@
     {
       "slug": "winlogbeat/windows",
       "name": "Winlogbeat",
-      "version": "9.5.6",
-      "sha256": "7e32a21c8a115a60ac14baea52a7aa167a1f98703456e42bbc50d4e0b654a4ee",
+      "version": "9.5.7",
+      "sha256": "96b59f58fcee835ad3d52bec2680d495518b8d23b59aab4521e93ba41b98e037",
       "publisher": "CN=\"Elasticsearch, Inc.\", O=\"Elasticsearch, Inc.\", L=Mountain View, S=California, C=US, SERIALNUMBER=5195380, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0ED3D34F2AADC84A5D3D65F14A1E05F5",
       "thumbprint": "B54BACBD648D094FD923F91C7738B2EDA75EBDCB",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-11-03T07:57:07Z"
+      "lastUpdated": "2026-11-24T04:59:37Z"
     },
     {
       "slug": "winrar/windows",
