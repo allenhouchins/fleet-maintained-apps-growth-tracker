@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-24T13:32:25Z",
+  "lastUpdated": "2026-11-24T13:34:24Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -1455,6 +1455,18 @@
       "lastUpdated": "2026-11-24T13:32:25Z"
     },
     {
+      "slug": "bandicam/windows",
+      "name": "Bandicam",
+      "version": "27.0.7.2687",
+      "sha256": "c9fab702f00dc71bfd07c54bf04e8135423479d17be51a78b53cbcdd95cf8133",
+      "publisher": "CN=Bandicam Company Corp., O=Bandicam Company Corp., L=Yeongdeungpo-gu, S=Seoul, C=KR",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "0AEE6BB17D06136BA592D6AAC7FCA620",
+      "thumbprint": "4C9A36E4C783A85AB328F87F3B238062B4B9835A",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-11-24T13:32:29Z"
+    },
+    {
       "slug": "bandiview/windows",
       "name": "BandiView",
       "version": "8.05",
@@ -2264,6 +2276,30 @@
       "signingId": "85C27NK92C:com.flexibits.cardhop.mac",
       "teamId": "85C27NK92C",
       "lastUpdated": "2026-10-20T22:22:55Z"
+    },
+    {
+      "slug": "cato-client/windows",
+      "name": "Cato Client",
+      "version": "6.18.0.9152",
+      "sha256": "28476a4b5a32a92af8ef6bbe1c535bdf0e3796c8a585877d0c521463dd4bee4b",
+      "publisher": "CN=Cato Networks LTD., O=Cato Networks LTD., L=Tel Aviv-Yafo, C=IL, SERIALNUMBER=515196723, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=IL",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "040BF687B39873E14593839F4C93AB4C",
+      "thumbprint": "F5858CA4BF39622E89F6EC0841D434D8EF9B6A75",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-11-24T13:32:41Z"
+    },
+    {
+      "slug": "cato-enterprise-browser/windows",
+      "name": "Cato Enterprise Browser",
+      "version": "1.3.2647.194",
+      "sha256": "ab0685e68e28afdd3afe5307aee49b2cd386ebb95e1b25b81ca47eb5de91ee4e",
+      "publisher": "CN=Cato Networks LTD., O=Cato Networks LTD., L=Tel Aviv-Yafo, C=IL, SERIALNUMBER=515196723, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=IL",
+      "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+      "serialNumber": "041B760FCC10523DD1828503F5E00E62",
+      "thumbprint": "3C92BB4607AC0308654BBA67BE3F8B49E3B16892",
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-11-24T13:32:47Z"
     },
     {
       "slug": "cavalry/darwin",
@@ -5092,14 +5128,14 @@
     {
       "slug": "firefox@developer-edition-arm64/windows",
       "name": "Mozilla Firefox Developer Edition (ARM64)",
-      "version": "160.0",
-      "sha256": "48678db05c7cf06bb8358da80ee3d0e0a096e0dedcafca2d448b8426b04e0909",
+      "version": "162.0",
+      "sha256": "38ab4e5ddab8997030f61e8816e8e0ed6bfd70982efc510f3d2a9dfeac064115",
       "publisher": "CN=Mozilla Corporation, OU=Firefox Engineering Operations, O=Mozilla Corporation, L=San Francisco, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0F0EF7C2D819273E8C13F016D2E09B25",
       "thumbprint": "6663D5C4FDAF9EFD5F823A26C9C410DC9928C44A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-11-11T17:54:39Z"
+      "lastUpdated": "2026-11-24T13:33:24Z"
     },
     {
       "slug": "firefox@developer-edition/darwin",
@@ -5114,14 +5150,14 @@
     {
       "slug": "firefox@developer-edition/windows",
       "name": "Mozilla Firefox Developer Edition",
-      "version": "160.0",
-      "sha256": "4862953fab87a8e1094d355ea3d4652c029ccfc0b367b22a6682cfa920748df1",
+      "version": "162.0",
+      "sha256": "21ef04409dd1982dd718ff29913fec3e408059b430be4d38a584b289699eca90",
       "publisher": "CN=Mozilla Corporation, OU=Firefox Engineering Operations, O=Mozilla Corporation, L=San Francisco, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0F0EF7C2D819273E8C13F016D2E09B25",
       "thumbprint": "6663D5C4FDAF9EFD5F823A26C9C410DC9928C44A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-11-11T17:54:44Z"
+      "lastUpdated": "2026-11-24T13:33:28Z"
     },
     {
       "slug": "firefox@esr-arm64/windows",
@@ -5160,14 +5196,14 @@
     {
       "slug": "firefox@nightly-arm64/windows",
       "name": "Mozilla Firefox Nightly (ARM64)",
-      "version": "162.2611.1709.0",
-      "sha256": "3a981cf38c3903717816fe9ab6af42cbc048aca4e521f04e87f06546fd8821fa",
+      "version": "163.2611.2318.0",
+      "sha256": "41146558e13d375054da8da453fc759c1b038afef01bb40d62917bd79543779b",
       "publisher": "CN=Mozilla Corporation, OU=Firefox Engineering Operations, O=Mozilla Corporation, L=San Francisco, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0F0EF7C2D819273E8C13F016D2E09B25",
       "thumbprint": "6663D5C4FDAF9EFD5F823A26C9C410DC9928C44A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-11-18T18:12:53Z"
+      "lastUpdated": "2026-11-24T13:33:33Z"
     },
     {
       "slug": "firefox@nightly/darwin",
@@ -5182,14 +5218,14 @@
     {
       "slug": "firefox@nightly/windows",
       "name": "Mozilla Firefox Nightly",
-      "version": "162.2611.1709.0",
-      "sha256": "d11af0491fc6022b622d0cfeb6bb6e9329f27bcdd3b35e388adb2f9808dc24b8",
+      "version": "163.2611.2318.0",
+      "sha256": "317471590f77f392907a18022ab8e67a2ddc04446886e36c2fe6231ed014fac1",
       "publisher": "CN=Mozilla Corporation, OU=Firefox Engineering Operations, O=Mozilla Corporation, L=San Francisco, S=California, C=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0F0EF7C2D819273E8C13F016D2E09B25",
       "thumbprint": "6663D5C4FDAF9EFD5F823A26C9C410DC9928C44A",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-11-18T18:12:59Z"
+      "lastUpdated": "2026-11-24T13:33:38Z"
     },
     {
       "slug": "fission/darwin",
@@ -11638,14 +11674,14 @@
     {
       "slug": "rider/windows",
       "name": "Rider",
-      "version": "2026.2.4",
-      "sha256": "5043c0112babb32367bd11accbce8a83f9c0f52736dc73d78a6630f343c6456a",
+      "version": "2026.2.4.1",
+      "sha256": "7acd870cf6849328e3c6406c00fcb78d250d4e7123bc7a98557f3958e1a4f59b",
       "publisher": "CN=JetBrains s.r.o., O=JetBrains s.r.o., L=Prague, C=CZ, SERIALNUMBER=26502275, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CZ",
       "issuer": "CN=DigiCert Trusted G4 Code Signing Europe RSA4096 SHA384 2023 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "083EA13884BDFFCE8E5D9D5CAD2EFBDE",
       "thumbprint": "8C1B506D0BD10A911D09FB7EDBCAB383F1CDAF20",
       "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
-      "lastUpdated": "2026-11-17T00:39:22Z"
+      "lastUpdated": "2026-11-24T13:34:18Z"
     },
     {
       "slug": "rightfont/darwin",
@@ -13436,13 +13472,14 @@
     {
       "slug": "teleport-connect/windows",
       "name": "Teleport Connect",
-      "version": "18.11.13",
-      "sha256": "af6413549d012ba80a37eaba12fd6860768309f532cdbf76c30f92d9a1baa146",
+      "version": "19.0.0",
+      "sha256": "94863022d2eb50110da32da32c13f9ccf5a01f52817232d05cd2fffbb11fa728",
       "publisher": "CN=\"Gravitational, Inc.\", O=\"Gravitational, Inc.\", L=Oakland, S=California, C=US, SERIALNUMBER=5720258, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
       "serialNumber": "0233295275D8941A83F0B54A1E8D2CB9",
       "thumbprint": "310BFD8DA818DFF8572813A8C568ACE0EE3FC1B1",
-      "lastUpdated": "2026-11-22T08:20:12Z"
+      "timestamp": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1, O=\"DigiCert, Inc.\", C=US",
+      "lastUpdated": "2026-11-24T13:34:24Z"
     },
     {
       "slug": "teleport-suite/darwin",
