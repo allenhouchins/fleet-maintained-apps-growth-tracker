@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-25T07:34:48Z",
+  "lastUpdated": "2026-11-25T07:39:54Z",
   "apps": [
     {
       "slug": "010-editor/darwin",
@@ -5174,12 +5174,12 @@
     {
       "slug": "firefox@esr/darwin",
       "name": "Mozilla Firefox ESR",
-      "version": "153.7.0",
-      "sha256": "2ac3e5e96473e789f460f093e5e7dc4bc357457de0b1fd969d13c8f242335a64",
-      "cdhash": "eccabb9d8b0a100a3cfbf1807025321beeca6184",
+      "version": "153.8.0",
+      "sha256": "94c07f31f866e5201846e8ef11cda0a76b5d39b8e111776c98cf428e48de6e25",
+      "cdhash": "7a8ae60e326a15f5a6d34fa39ce757ee6b1b19dd",
       "signingId": "43AQ936H96:org.mozilla.firefox",
       "teamId": "43AQ936H96",
-      "lastUpdated": "2026-11-11T09:31:15Z"
+      "lastUpdated": "2026-11-25T07:35:14Z"
     },
     {
       "slug": "firefox@esr/windows",
@@ -5956,12 +5956,12 @@
     {
       "slug": "goland/darwin",
       "name": "GoLand",
-      "version": "2026.3",
-      "sha256": "7c967dfeb51f7daa7d52a6a0cb51d2fcbcaefef7ce1f3d984dad6cdd81c1a4f6",
-      "cdhash": "d6ee11cd507e5213d47d2a01683c59b3f921dc50",
+      "version": "2026.3.0.1",
+      "sha256": "e76cfc421cfd0b5e511edf5385e38d45ed3c1c4e3ab679fc2dcc9c19661ec58c",
+      "cdhash": "24613047d804aba91d8a7bb1166513825e8b7977",
       "signingId": "2ZEFAR8TH3:com.jetbrains.goland",
       "teamId": "2ZEFAR8TH3",
-      "lastUpdated": "2026-11-05T20:00:50Z"
+      "lastUpdated": "2026-11-25T07:36:31Z"
     },
     {
       "slug": "goland/windows",
@@ -6260,12 +6260,12 @@
     {
       "slug": "grok-bot/darwin",
       "name": "Grok Bot",
-      "version": "1.2.3",
-      "sha256": "779101b1334df6a7859b2b69315b8d3db7a321a16c14e93e58461a95bc2fa41f",
-      "cdhash": "ce14420eb7a803479a9bcc1451eacf7b8f664768",
+      "version": "1.3.0",
+      "sha256": "96932d9aa9f005991b0fdc97db4b2e7c4ffcc9b49321ec016171eac0296a4d51",
+      "cdhash": "d85e6c06ba32305eb70deef0aa38114a8e6387e4",
       "signingId": "DCNK4UB866:com.anysphere.sand",
       "teamId": "DCNK4UB866",
-      "lastUpdated": "2026-11-19T00:41:52Z"
+      "lastUpdated": "2026-11-25T07:36:53Z"
     },
     {
       "slug": "grok-bot/windows",
@@ -6504,6 +6504,16 @@
       "signingId": "XDP69BYUP9:com.superultra.Homerow",
       "teamId": "XDP69BYUP9",
       "lastUpdated": "2026-11-17T07:54:49Z"
+    },
+    {
+      "slug": "hoppscotch/darwin",
+      "name": "Hoppscotch",
+      "version": "26.11.0",
+      "sha256": "7b787bbbd72f89144e4c9408613cfc20093b1e1e3ff4f61634c10b35a5608d46",
+      "cdhash": "943549cf43d582a48096fa8a4cfd8b3876b12bc5",
+      "signingId": "XBK86CMQGZ:io.hoppscotch.desktop",
+      "teamId": "XBK86CMQGZ",
+      "lastUpdated": "2026-11-25T07:37:15Z"
     },
     {
       "slug": "hot/darwin",
@@ -6935,13 +6945,13 @@
     },
     {
       "slug": "intellij-idea/darwin",
-      "name": "IntelliJ IDEA Ultimate",
-      "version": "2026.3",
-      "sha256": "2f9ff57814cc03916bcecca2b05122534793214d4243f7e565e4735c8e1b0785",
-      "cdhash": "5f46640d079bf8d3879ec7ea9588342c3f86bc47",
+      "name": "IntelliJ IDEA",
+      "version": "2026.3.0.1",
+      "sha256": "1741b7aafeb16ed2b456abad86ce4c33868a1119eabcdb7d4a2fd150c6433a67",
+      "cdhash": "b885b32948fac28491d24dc0b8e4c268a272c14e",
       "signingId": "2ZEFAR8TH3:com.jetbrains.intellij",
       "teamId": "2ZEFAR8TH3",
-      "lastUpdated": "2026-11-05T20:02:44Z"
+      "lastUpdated": "2026-11-25T07:37:55Z"
     },
     {
       "slug": "intellij-idea/windows",
@@ -7115,12 +7125,12 @@
     {
       "slug": "jetbrains-toolbox/darwin",
       "name": "JetBrains Toolbox",
-      "version": "3.9.1",
-      "sha256": "b38773b8ad97c92e0b778b23349b87522d3b73a923fb43e3a7d99cb6ab98fc91",
-      "cdhash": "2311d54bdf2c8ec8c83883278e11956956ac908c",
+      "version": "3.9.2",
+      "sha256": "0a8b2b357df2cd06d21746a69b83be825cc4022ba119ac8871ab5b7c723de81f",
+      "cdhash": "20cefe27b80b6000dd531f1ef4368d59f42558b2",
       "signingId": "2ZEFAR8TH3:com.jetbrains.toolbox",
       "teamId": "2ZEFAR8TH3",
-      "lastUpdated": "2026-10-31T07:01:13Z"
+      "lastUpdated": "2026-11-25T07:38:18Z"
     },
     {
       "slug": "jetbrains-toolbox/windows",
@@ -7429,12 +7439,12 @@
     {
       "slug": "kiro/darwin",
       "name": "Kiro",
-      "version": "1.5.11",
-      "sha256": "2f0b97b19504cf493c43f41cb9aa93a9194d2d6f0e086de8922935bac565515f",
-      "cdhash": "78c78a6ad020d842b4dfb2041953d035d74f84fa",
+      "version": "1.5.37",
+      "sha256": "5e87fff3ddabb573e478ac5a22692d61c285aaf8906c82dbc42d8172307d5deb",
+      "cdhash": "af48d52bd2fe493f7e28a357e4afc60f37655162",
       "signingId": "94KV3E626L:dev.kiro.desktop",
       "teamId": "94KV3E626L",
-      "lastUpdated": "2026-11-21T06:05:59Z"
+      "lastUpdated": "2026-11-25T07:38:44Z"
     },
     {
       "slug": "kiro/windows",
@@ -7776,12 +7786,12 @@
     {
       "slug": "localsend/darwin",
       "name": "LocalSend",
-      "version": "1.18.2",
-      "sha256": "1dba9ff9cae266ce78d36b2121c1de26a5be92f9ebb1b13d14e14de688dd46e5",
-      "cdhash": "789b4bef4b39385d2b2cf7793e7148045b3ab288",
+      "version": "1.19.0",
+      "sha256": "faf2d841f5124dfbb485033d54802cd9539d117c77074afb7673ddb5e5c4dfde",
+      "cdhash": "9588b5ac3740985e2b30176a4928a8ca6b6f736a",
       "signingId": "3W7H4PYMCV:org.localsend.localsendApp",
       "teamId": "3W7H4PYMCV",
-      "lastUpdated": "2026-08-22T13:48:02Z"
+      "lastUpdated": "2026-11-25T07:39:06Z"
     },
     {
       "slug": "localsend/windows",
@@ -8103,12 +8113,12 @@
     {
       "slug": "macwhisper/darwin",
       "name": "MacWhisper",
-      "version": "15.11",
-      "sha256": "7a3cb333466b412c7971397271f17dc9400155a40b0e91f5fee3ea1ad967dbd6",
-      "cdhash": "85f0072b5795d693d143c2ee132783136a28bd56",
+      "version": "15.12",
+      "sha256": "a8162b9735b037ab17291e0b9d53ab6cfc433716eff77555f27cfb5f7c1a29a0",
+      "cdhash": "c3dc85d6a717f53dec9fc0c9e900f3bd96a3c5ab",
       "signingId": "8Q7TMPA46J:com.goodsnooze.MacWhisper",
       "teamId": "8Q7TMPA46J",
-      "lastUpdated": "2026-11-17T17:43:41Z"
+      "lastUpdated": "2026-11-25T07:39:28Z"
     },
     {
       "slug": "maestral/darwin",
@@ -8160,12 +8170,12 @@
     {
       "slug": "marked-app/darwin",
       "name": "Marked",
-      "version": "3.2.36",
-      "sha256": "f21eb9ac7c0b7f956edb8e07c3860f30f5c9b743ee568897133147c1bcca3c1a",
-      "cdhash": "6345bc559052e9399583ed92bacc0b062683262e",
+      "version": "3.2.37",
+      "sha256": "b52369862f7c5f6fc681ad30cf5b0ac6279f25fc997170ef72b22e4264feacc3",
+      "cdhash": "2ed389af250b32c6e2009def17105bc1c95bb0a8",
       "signingId": "47TRS7H4BH:com.brettterpstra.marked",
       "teamId": "47TRS7H4BH",
-      "lastUpdated": "2026-11-23T03:41:20Z"
+      "lastUpdated": "2026-11-25T07:39:52Z"
     },
     {
       "slug": "markedit/darwin",
